@@ -30,7 +30,11 @@ jobs:
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add feeds/**/*.xml feeds/**/*.json
-        git commit -m "Update RSS and JSON Feeds"
-        git push
+        if [ -n "$(git status --porcelain)" ]; then
+          git commit -m "Update RSS and JSON Feeds"
+          git push
+        else
+          echo "No changes to commit"
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
