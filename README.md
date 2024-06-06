@@ -1,9 +1,11 @@
+
 # RSS ONCE A DAY
 
 Inspired by TabHub Rssify (https://tabhub.github.io/)
 
 
-#edit as you need
+
+## Edit
 
 feeds = [
     {
@@ -25,4 +27,3 @@ feeds = [
         "formats": ["xml", "json"]  # The formats in which the feed should be generated (e.g., "xml" and/or "json")
     }
 ]
-
