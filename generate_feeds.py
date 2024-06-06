@@ -78,8 +78,9 @@ def generate_feed(feed_config):
     # Generate JSON feed by converting Atom feed
     atom_str = fg.atom_str()
     if atom_str:
+        atom_str_decoded = atom_str.decode("utf-8")  # Decode bytes to string
         json_data = {
-            "atom_feed": atom_str,
+            "atom_feed": atom_str_decoded,
             "config": feed_config
         }
         json_file_path = os.path.join(output_path, 'feed.json')
