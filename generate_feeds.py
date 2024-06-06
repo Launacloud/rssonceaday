@@ -48,6 +48,15 @@ def generate_feed(feed_config):
 
     min_len = min(len(titles), len(urls), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles))
 
+    json_feed = {
+        "feed": {
+            "title": fg.title(),
+            "subtitle": fg.subtitle(),
+            "author": fg.author(),
+            "entries": []
+        }
+    }
+
     for i in range(min_len):
         fe = fg.add_entry()
         fe.title(titles[i].text)
@@ -68,6 +77,16 @@ def generate_feed(feed_config):
             fe.published(date)
             fe.updated(date)
 
+        json_feed["feed"]["entries"].append({
+            "title": fe.title(),
+            "id": fe.id(),
+            "link": fe.link(),
+            "description": fe.description(),
+            "author": fe.author(),
+            "published": fe.published(),
+            "updated": fe.updated()
+        })
+
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
 
@@ -75,24 +94,6 @@ def generate_feed(feed_config):
         fg.atom_file(os.path.join(output_path, 'atom.xml'))
 
     if "json" in feed_config["formats"]:
-        json_feed = {
-            "feed": {
-                "title": fg.title(),
-                "subtitle": fg.subtitle(),
-                "author": fg.author(),
-                "entries": []
-            }
-        }
-        for entry in fg.entries:
-            json_feed["feed"]["entries"].append({
-                "title": entry.title(),
-                "id": entry.id(),
-                "link": entry.link(),
-                "description": entry.description(),
-                "author": entry.author(),
-                "published": entry.published(),
-                "updated": entry.updated()
-            })
         with open(os.path.join(output_path, 'feed.json'), 'w') as json_file:
             json.dump(json_feed, json_file, indent=4)
 
