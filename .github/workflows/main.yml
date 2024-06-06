@@ -18,6 +18,7 @@ jobs:
       
       # Generate RSS Feed for CHAOSS Blog
       - name: Generate RSS Feed for CHAOSS Blog
+        id: generate_chaoss_blog_rss
         uses: tabhub/rssify@master
         with:
           title: CHAOSS_Blog_RSS
@@ -28,6 +29,7 @@ jobs:
 
       # Generate RSS Feed for "Palavra do Dia"
       - name: Generate RSS Feed for Palavra do Dia
+        id: generate_palavra_do_dia_rss
         uses: tabhub/rssify@master
         with:
           title: Palavra_do_Dia_RSS
@@ -39,6 +41,7 @@ jobs:
 
       # Generate RSS Feed for New Source
       - name: Generate RSS Feed for New Source
+        id: generate_new_source_rss
         uses: tabhub/rssify@master
         with:
           title: New_Source_RSS
@@ -47,6 +50,19 @@ jobs:
           item-url-css: .new-item-url-css # CSS selector for the new feed's URL
           item-description-css: .new-item-description-css # CSS selector for the new feed's description
           item-date-css: .new-item-date-css # CSS selector for the new feed's date
+
+      # Create directories if they don't exist and move feed files
+      - name: Prepare RSS Feed Files
+        run: |
+          mkdir -p feeds/CHAOSS_Blog_RSS
+          mv feed.xml feeds/CHAOSS_Blog_RSS/feed.xml || true
+          mv feed.json feeds/CHAOSS_Blog_RSS/feed.json || true
+          mkdir -p feeds/Palavra_do_Dia_RSS
+          mv feed.xml feeds/Palavra_do_Dia_RSS/feed.xml || true
+          mv feed.json feeds/Palavra_do_Dia_RSS/feed.json || true
+          mkdir -p feeds/New_Source_RSS
+          mv feed.xml feeds/New_Source_RSS/feed.xml || true
+          mv feed.json feeds/New_Source_RSS/feed.json || true
 
       # Commit and Push RSS Feed
       - name: Commit and Push RSS Feed
