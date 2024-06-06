@@ -1,70 +1,52 @@
-name: CHAOSS Blog RSS Feed
+name: Generate RSS Feeds
 
 on:
   push:
-    branches:
-      - main
   workflow_dispatch:
   schedule:
     - cron: "3 3 * * *" # Runs daily at 03:03 UTC
 
 jobs:
-  gene-rss:
+  generate-rss:
     runs-on: ubuntu-latest
-    name: A job to generate RSS feeds
+    name: Generate RSS Feeds
     steps:
     - name: Checkout
       uses: actions/checkout@v2
 
     # Generate RSS Feed for CHAOSS Blog
     - name: Generate RSS Feed for CHAOSS Blog
-      uses: tabhub/rssify@master
+      uses: @gracefullight/rssify@v0.1.0
       with:
-        title: CHAOSS Blog RSS
-        url: https://chaoss.community/blog/
+        TITLE: CHAOSS Blog RSS
+        SUBTITLE: "Latest updates from CHAOSS Blog"
+        URL: https://chaoss.community/blog/
+        AUTHOR_NAME: "CHAOSS Community"
+        AUTHOR_EMAIL: "info@chaoss.community"
+        COPYRIGHT: "CHAOSS Community"
+        LANGUAGE: "en"
         item-title-css: .title > a
         item-url-css: .title > a
-        item-author-css: .meta-author > a
+       FILENAME: CHAOSS_Blog_RSS_feed # Output filename for the RSS feed
 
     # Generate RSS Feed for "Palavra do Dia"
     - name: Generate RSS Feed for Palavra do Dia
-      uses: tabhub/rssify@master
+      uses: @gracefullight/rssify@v0.1.0
       with:
-        title: Palavra do Dia RSS
-        url: https://www.dicio.com.br/palavra-do-dia/
+        TITLE: Palavra do Dia RSS
+        SUBTITLE: "Palavra do Dia - Dicio"
+        URL: https://www.dicio.com.br/palavra-do-dia/
+        AUTHOR_NAME: "Dicio"
+        AUTHOR_EMAIL: ""
+        COPYRIGHT: "Dicio"
+        LANGUAGE: "pt"
         item-title-css: .word-of-day .title
         item-url-css: .word-of-day .title a
-        item-description-css: .word-of-day--text-wrap .word-of-day--description
-        item-date-css: .word-of-day .title-header h2
-
-    # Generate RSS Feed for New Source
-    - name: Generate RSS Feed for New Source
-      uses: tabhub/rssify@master
-      with:
-        title: New Source RSS
-        url: https://example.com/new-feed
-        item-title-css: .new-item-title-css # CSS selector for the new feed's title
-        item-url-css: .new-item-url-css # CSS selector for the new feed's URL
-        item-description-css: .new-item-description-css # CSS selector for the new feed's description
-        item-date-css: .new-item-date-css # CSS selector for the new feed's date
-
-    # Create feed files if they don't exist
-    - name: Create feed files
-      run: |
-        mkdir -p feeds/CHAOSS_Blog_RSS
-        touch feeds/CHAOSS_Blog_RSS/feed.xml feeds/CHAOSS_Blog_RSS/feed.json
-        mkdir -p feeds/Palavra_do_Dia_RSS
-        touch feeds/Palavra_do_Dia_RSS/feed.xml feeds/Palavra_do_Dia_RSS/feed.json
-        mkdir -p feeds/New_Source_RSS
-        touch feeds/New_Source_RSS/feed.xml feeds/New_Source_RSS/feed.json
-
-    # Commit and Push RSS Feed
-    - name: Commit and Push RSS Feed
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add feeds/CHAOSS_Blog_RSS/feed.xml feeds/CHAOSS_Blog_RSS/feed.json feeds/Palavra_do_Dia_RSS/feed.xml feeds/Palavra_do_Dia_RSS/feed.json feeds/New_Source_RSS/feed.xml feeds/New_Source_RSS/feed.json
-        git commit -m "Update RSS Feeds"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        #ITEM_URL_CSS: true
+        ITEM_DATE_CSS: .word-of-day .title
+        #ITEM_AUTHOR_CSS: false
+        ITEM_DESCRIPTION_CSS: .word-of-day--text-wrap .word-of-day--description
+        ITEM_IMAGE_CSS: .word-of-day picture img
+        ITEM_DATE_FORMAT: "dd/MM/yyyy" # Date format for items
+        ITEM_TIMEZONE: "America/Sao_Paulo" # Timezone for GMT-3
+        FILENAME: Palavra_do_Dia_RSS_feed # Output filename for the RSS feed
