@@ -72,11 +72,21 @@ def generate_feed(feed_config):
     os.makedirs(output_path, exist_ok=True)
 
     # Generate Atom feed
-    fg.atom_file(os.path.join(output_path, 'atom.xml'))
+    atom_file_path = os.path.join(output_path, 'atom.xml')
+    fg.atom_file(atom_file_path)
 
     # Generate JSON feed by converting Atom feed
-    with open(os.path.join(output_path, 'feed.json'), 'w') as json_file:
-        json.dump(json.loads(fg.atom_str()), json_file, indent=4)
+    atom_str = fg.atom_str()
+    if atom_str:
+        json_data = {
+            "atom_feed": atom_str,
+            "config": feed_config
+        }
+        json_file_path = os.path.join(output_path, 'feed.json')
+        with open(json_file_path, 'w') as json_file:
+            json.dump(json_data, json_file, indent=4)
+    else:
+        print("Atom feed is empty.")
 
 for feed in feeds:
     generate_feed(feed)
