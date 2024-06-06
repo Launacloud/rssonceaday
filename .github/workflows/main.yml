@@ -16,7 +16,7 @@ jobs:
 
     # Generate RSS Feed for CHAOSS Blog
     - name: Generate RSS Feed for CHAOSS Blog
-      uses: gracefullight/rssify
+      uses: gracefullight/rssify-ts
       with:
         TITLE: CHAOSS Blog RSS
         SUBTITLE: "Latest updates from CHAOSS Blog"
@@ -38,7 +38,7 @@ jobs:
 
     # Generate RSS Feed for "Palavra do Dia"
     - name: Generate RSS Feed for Palavra do Dia
-      uses: gracefullight/rssify
+      uses: gracefullight/rssify-ts
       with:
         TITLE: Palavra do Dia RSS
         SUBTITLE: "Daily words from Dicio"
@@ -60,7 +60,7 @@ jobs:
 
     # Generate RSS Feed for New Source
     - name: Generate RSS Feed for New Source
-      uses: gracefullight/rssify
+      uses: gracefullight/rssify-ts
       with:
         TITLE: New Source RSS
         SUBTITLE: "Updates from the new source"
