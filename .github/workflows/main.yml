@@ -1,8 +1,9 @@
-
 name: CHAOSS Blog RSS Feed
 
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron: "3 3 * * *" # Runs daily at 03:03 UTC
@@ -12,37 +13,48 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to generate RSS feeds
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
       
-    # Generate RSS Feed for CHAOSS Blog
-    - name: Generate RSS Feed for CHAOSS Blog
-      uses: tabhub/rssify@master
-      with:
-        title: CHAOSS_Blog_RSS
-        url: https://chaoss.community/blog/
-        item-title-css: .title > a
-        item-url-css: .title > a
-        item-author-css: '.meta-author > a'
+      # Generate RSS Feed for CHAOSS Blog
+      - name: Generate RSS Feed for CHAOSS Blog
+        uses: tabhub/rssify@master
+        with:
+          title: CHAOSS_Blog_RSS
+          url: https://chaoss.community/blog/
+          item-title-css: .title > a
+          item-url-css: .title > a
+          item-author-css: '.meta-author > a'
 
-    # Generate RSS Feed for "Palavra do Dia"
-    - name: Generate RSS Feed for Palavra do Dia
-      uses: tabhub/rssify@master
-      with:
-        title: Palavra_do_Dia_RSS
-        url: https://www.dicio.com.br/palavra-do-dia/
-        item-title-css: .word-of-day .title
-        item-url-css: .word-of-day .title a
-        item-description-css: .word-of-day--text-wrap .word-of-day--description
-        item-date-css: .word-of-day .title-header h2
+      # Generate RSS Feed for "Palavra do Dia"
+      - name: Generate RSS Feed for Palavra do Dia
+        uses: tabhub/rssify@master
+        with:
+          title: Palavra_do_Dia_RSS
+          url: https://www.dicio.com.br/palavra-do-dia/
+          item-title-css: .word-of-day .title
+          item-url-css: .word-of-day .title a
+          item-description-css: .word-of-day--text-wrap .word-of-day--description
+          item-date-css: .word-of-day .title-header h2
 
-    # Commit and Push RSS Feed
-    - name: Commit and Push RSS Feed
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add feeds/${{ title }}/feed.xml feeds/${{ title }}/feed.json
-        git commit -m "Update RSS Feeds"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Generate RSS Feed for New Source
+      - name: Generate RSS Feed for New Source
+        uses: tabhub/rssify@master
+        with:
+          title: New_Source_RSS
+          url: https://example.com/new-feed
+          item-title-css: .new-item-title-css # CSS selector for the new feed's title
+          item-url-css: .new-item-url-css # CSS selector for the new feed's URL
+          item-description-css: .new-item-description-css # CSS selector for the new feed's description
+          item-date-css: .new-item-date-css # CSS selector for the new feed's date
+
+      # Commit and Push RSS Feed
+      - name: Commit and Push RSS Feed
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add feeds/CHAOSS_Blog_RSS/feed.xml feeds/CHAOSS_Blog_RSS/feed.json feeds/Palavra_do_Dia_RSS/feed.xml feeds/Palavra_do_Dia_RSS/feed.json feeds/New_Source_RSS/feed.xml feeds/New_Source_RSS/feed.json
+          git commit -m "Update RSS Feeds"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
