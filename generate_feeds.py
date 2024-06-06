@@ -5,27 +5,29 @@ import requests
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
 from pytz import timezone
+import json
 
 feeds = [
     {
-        "title": "Palavra do Dia RSS",  # The title of the RSS feed
-        "subtitle": "Daily words from Dicio",  # A brief description or subtitle of the feed
-        "url": "https://www.dicio.com.br/palavra-do-dia/",  # The URL of the website to scrape for feed data
-        "author_name": "Dicio",  # The name of the feed's author
-        "author_email": "contact@dicio.com.br",  # The email address of the feed's author
-        "copyright": "Dicio",  # The copyright information for the feed
-        "language": "pt",  # The language of the feed content, using ISO 639-1 codes
-        "item_title_css": ".word-of-day .title",  # CSS selector for the title of each feed item
-        "item_url_css": ".word-of-day .title a",  # CSS selector for the URL of each feed item
-        "item_author_css": None,  # CSS selector for the author of each feed item (None if not applicable)
-        "item_description_css": ".word-of-day--text-wrap .word-of-day--description",  # CSS selector for the description of each feed item
-        "item_date_css": ".word-of-day .title",  # CSS selector for the publication date of each feed item
-        "item_date_format": "%d/%m/%Y",  # The format of the date string as it appears in the HTML (used with datetime.strptime)
-        "item_timezone": "America/Sao_Paulo",  # The timezone of the date information
-        "output_path": "feeds/palavra_do_dia",  # The directory path where the generated feed files will be saved
-        "formats": ["xml", "json"]  # The formats in which the feed should be generated (e.g., "xml" and/or "json")
+        "title": "Palavra do Dia RSS",
+        "subtitle": "Daily words from Dicio",
+        "url": "https://www.dicio.com.br/palavra-do-dia/",
+        "author_name": "Dicio",
+        "author_email": "contact@dicio.com.br",
+        "copyright": "Dicio",
+        "language": "pt",
+        "item_title_css": ".word-of-day .title",
+        "item_url_css": ".word-of-day .title a",
+        "item_author_css": None,
+        "item_description_css": ".word-of-day--text-wrap .word-of-day--description",
+        "item_date_css": ".word-of-day .title",
+        "item_date_format": "%d/%m/%Y",
+        "item_timezone": "America/Sao_Paulo",
+        "output_path": "feeds/palavra_do_dia",
+        "formats": ["xml", "json"]
     }
 ]
+
 def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'lxml')
@@ -73,7 +75,26 @@ def generate_feed(feed_config):
         fg.atom_file(os.path.join(output_path, 'atom.xml'))
 
     if "json" in feed_config["formats"]:
-        fg.json_file(os.path.join(output_path, 'feed.json'))
+        json_feed = {
+            "feed": {
+                "title": fg.title(),
+                "subtitle": fg.subtitle(),
+                "author": fg.author(),
+                "entries": []
+            }
+        }
+        for entry in fg.entries:
+            json_feed["feed"]["entries"].append({
+                "title": entry.title(),
+                "id": entry.id(),
+                "link": entry.link(),
+                "description": entry.description(),
+                "author": entry.author(),
+                "published": entry.published(),
+                "updated": entry.updated()
+            })
+        with open(os.path.join(output_path, 'feed.json'), 'w') as json_file:
+            json.dump(json_feed, json_file, indent=4)
 
 for feed in feeds:
     generate_feed(feed)
