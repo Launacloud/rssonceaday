@@ -5,7 +5,6 @@ import requests
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
 from pytz import timezone
-import json
 
 feeds = [
     {
@@ -48,15 +47,6 @@ def generate_feed(feed_config):
 
     min_len = min(len(titles), len(urls), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles))
 
-    json_feed = {
-        "feed": {
-            "title": fg.title(),
-            "subtitle": fg.subtitle(),
-            "author": fg.author(),
-            "entries": []
-        }
-    }
-
     for i in range(min_len):
         fe = fg.add_entry()
         fe.title(titles[i].text)
@@ -65,27 +55,20 @@ def generate_feed(feed_config):
         fe.link(href=item_url, rel='alternate')
 
         if descriptions:
-            fe.description(descriptions[i].text)
+            description_text = descriptions[i].text if i < len(descriptions) else "No description found"
+            fe.description(description_text)
+            print("Description:", description_text)  # Debug output
 
         if authors:
-            fe.author(name=authors[i].text)
+            author_text = authors[i].text if i < len(authors) else "No author found"
+            fe.author(name=author_text)
+            print("Author:", author_text)  # Debug output
 
         if dates:
-            date = datetime.strptime(dates[i].text.strip(), feed_config["item_date_format"])
-            localtz = timezone(feed_config["item_timezone"])
-            date = localtz.localize(date)
-            fe.published(date)
-            fe.updated(date)
-
-        json_feed["feed"]["entries"].append({
-            "title": fe.title(),
-            "id": fe.id(),
-            "link": fe.link(),
-            "description": fe.description(),
-            "author": fe.author(),
-            "published": fe.published(),
-            "updated": fe.updated()
-        })
+            date_text = dates[i].text if i < len(dates) else "No date found"
+            date_format = feed_config["item_date_format"]
+            # Handle date formatting and timezone conversion as needed
+            print("Date:", date_text)  # Debug output
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
@@ -94,8 +77,7 @@ def generate_feed(feed_config):
         fg.atom_file(os.path.join(output_path, 'atom.xml'))
 
     if "json" in feed_config["formats"]:
-        with open(os.path.join(output_path, 'feed.json'), 'w') as json_file:
-            json.dump(json_feed, json_file, indent=4)
+        fg.json_file(os.path.join(output_path, 'feed.json'))
 
 for feed in feeds:
     generate_feed(feed)
