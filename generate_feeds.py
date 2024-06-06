@@ -1,10 +1,8 @@
 import os
 from urllib.parse import urljoin
-from datetime import datetime
 import requests
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
-from pytz import timezone
 import json
 
 feeds = [
@@ -16,11 +14,11 @@ feeds = [
         "author_email": "contact@dicio.com.br",
         "copyright": "Dicio",
         "language": "pt",
-        "item_title_css": ".word-of-day .title",
-        "item_url_css": ".word-of-day .title a",
+        "item_title_css": ".title",
+        "item_url_css": ".title a",
         "item_author_css": None,
-        "item_description_css": ".word-of-day--text-wrap .word-of-day--description",
-        "item_date_css": ".word-of-day .title",
+        "item_description_css": ".word-of-day--description",
+        "item_date_css": ".title",
         "item_date_format": "%d/%m/%Y",
         "item_timezone": "America/Sao_Paulo",
         "output_path": "feeds/palavra_do_dia",
@@ -30,7 +28,7 @@ feeds = [
 
 def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
-    soup = BeautifulSoup(r.text, 'lxml')
+    soup = BeautifulSoup(r.text, 'html.parser')
 
     titles = soup.select(feed_config["item_title_css"])
     urls = soup.select(feed_config["item_url_css"])
