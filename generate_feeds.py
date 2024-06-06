@@ -5,6 +5,7 @@ import requests
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
 from pytz import timezone
+import json
 
 feeds = [
     {
@@ -57,27 +58,25 @@ def generate_feed(feed_config):
         if descriptions:
             description_text = descriptions[i].text if i < len(descriptions) else "No description found"
             fe.description(description_text)
-            print("Description:", description_text)  # Debug output
 
         if authors:
             author_text = authors[i].text if i < len(authors) else "No author found"
             fe.author(name=author_text)
-            print("Author:", author_text)  # Debug output
 
         if dates:
             date_text = dates[i].text if i < len(dates) else "No date found"
             date_format = feed_config["item_date_format"]
             # Handle date formatting and timezone conversion as needed
-            print("Date:", date_text)  # Debug output
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
 
-    if "xml" in feed_config["formats"]:
-        fg.atom_file(os.path.join(output_path, 'atom.xml'))
+    # Generate Atom feed
+    fg.atom_file(os.path.join(output_path, 'atom.xml'))
 
-    if "json" in feed_config["formats"]:
-        fg.json_file(os.path.join(output_path, 'feed.json'))
+    # Generate JSON feed by converting Atom feed
+    with open(os.path.join(output_path, 'feed.json'), 'w') as json_file:
+        json.dump(json.loads(fg.atom_str()), json_file, indent=4)
 
 for feed in feeds:
     generate_feed(feed)
