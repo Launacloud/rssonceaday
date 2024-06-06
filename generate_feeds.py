@@ -8,25 +8,24 @@ from pytz import timezone
 
 feeds = [
     {
-        "title": "Palavra do Dia RSS",
-        "subtitle": "Daily words from Dicio",
-        "url": "https://www.dicio.com.br/palavra-do-dia/",
-        "author_name": "Dicio",
-        "author_email": "contact@dicio.com.br",
-        "copyright": "Dicio",
-        "language": "pt",
-        "item_title_css": ".word-of-day .title",
-        "item_url_css": ".word-of-day .title a",
-        "item_author_css": None,
-        "item_description_css": ".word-of-day--text-wrap .word-of-day--description",
-        "item_date_css": ".word-of-day .title",
-        "item_date_format": "%d/%m/%Y",
-        "item_timezone": "America/Sao_Paulo",
-        "output_path": "feeds/palavra_do_dia",
-        "formats": ["xml", "json"]
+        "title": "Palavra do Dia RSS",  # The title of the RSS feed
+        "subtitle": "Daily words from Dicio",  # A brief description or subtitle of the feed
+        "url": "https://www.dicio.com.br/palavra-do-dia/",  # The URL of the website to scrape for feed data
+        "author_name": "Dicio",  # The name of the feed's author
+        "author_email": "contact@dicio.com.br",  # The email address of the feed's author
+        "copyright": "Dicio",  # The copyright information for the feed
+        "language": "pt",  # The language of the feed content, using ISO 639-1 codes
+        "item_title_css": ".word-of-day .title",  # CSS selector for the title of each feed item
+        "item_url_css": ".word-of-day .title a",  # CSS selector for the URL of each feed item
+        "item_author_css": None,  # CSS selector for the author of each feed item (None if not applicable)
+        "item_description_css": ".word-of-day--text-wrap .word-of-day--description",  # CSS selector for the description of each feed item
+        "item_date_css": ".word-of-day .title",  # CSS selector for the publication date of each feed item
+        "item_date_format": "%d/%m/%Y",  # The format of the date string as it appears in the HTML (used with datetime.strptime)
+        "item_timezone": "America/Sao_Paulo",  # The timezone of the date information
+        "output_path": "feeds/palavra_do_dia",  # The directory path where the generated feed files will be saved
+        "formats": ["xml", "json"]  # The formats in which the feed should be generated (e.g., "xml" and/or "json")
     }
 ]
-
 def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'lxml')
@@ -45,7 +44,9 @@ def generate_feed(feed_config):
     fg.language(feed_config["language"])
     fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
-    for i in range(len(titles)):
+    min_len = min(len(titles), len(urls), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles))
+
+    for i in range(min_len):
         fe = fg.add_entry()
         fe.title(titles[i].text)
         item_url = urljoin(feed_config["url"], urls[i].get('href'))
