@@ -1,13 +1,24 @@
 {
-    "feed": {
+    "atom_feed": "<?xml version='1.0' encoding='UTF-8'?>\n<feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"pt\"><id>https://www.dicio.com.br/palavra-do-dia/</id><title>Palavra do Dia RSS</title><updated>2024-06-06T19:55:03.168305+00:00</updated><author><name>Dicio</name><email>contact@dicio.com.br</email></author><link href=\"https://www.dicio.com.br/palavra-do-dia/\" rel=\"alternate\"/><generator uri=\"https://lkiesow.github.io/python-feedgen\" version=\"1.0.0\">python-feedgen</generator><subtitle>Daily words from Dicio</subtitle></feed>",
+    "config": {
         "title": "Palavra do Dia RSS",
         "subtitle": "Daily words from Dicio",
-        "author": [
-            {
-                "name": "Dicio",
-                "email": "contact@dicio.com.br"
-            }
-        ],
-        "entries": []
+        "url": "https://www.dicio.com.br/palavra-do-dia/",
+        "author_name": "Dicio",
+        "author_email": "contact@dicio.com.br",
+        "copyright": "Dicio",
+        "language": "pt",
+        "item_title_css": ".word-of-day .title",
+        "item_url_css": ".word-of-day .title a",
+        "item_author_css": null,
+        "item_description_css": ".word-of-day--text-wrap .word-of-day--description",
+        "item_date_css": ".word-of-day .title",
+        "item_date_format": "%d/%m/%Y",
+        "item_timezone": "America/Sao_Paulo",
+        "output_path": "feeds/palavra_do_dia",
+        "formats": [
+            "xml",
+            "json"
+        ]
     }
 }
