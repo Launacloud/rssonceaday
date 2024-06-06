@@ -16,7 +16,7 @@ jobs:
 
     # Generate RSS Feed for CHAOSS Blog
     - name: Generate RSS Feed for CHAOSS Blog
-      uses: @gracefullight/rssify@v0.1.0
+      uses: gracefullight/rssify@v0.1.0
       with:
         TITLE: CHAOSS Blog RSS
         SUBTITLE: "Latest updates from CHAOSS Blog"
@@ -27,26 +27,68 @@ jobs:
         LANGUAGE: "en"
         item-title-css: .title > a
         item-url-css: .title > a
-       FILENAME: CHAOSS_Blog_RSS_feed # Output filename for the RSS feed
+        ITEM_URL_CSS: true
+        ITEM_DATE_CSS: false
+        ITEM_AUTHOR_CSS: false
+        ITEM_DESCRIPTION_CSS: false
+        ITEM_IMAGE_CSS: false
+        ITEM_DATE_FORMAT: false
+        ITEM_TIMEZONE: false
+        FILENAME: CHAOSS_Blog_RSS_feed # Output filename for the RSS feed
 
     # Generate RSS Feed for "Palavra do Dia"
     - name: Generate RSS Feed for Palavra do Dia
-      uses: @gracefullight/rssify@v0.1.0
+      uses: gracefullight/rssify@v0.1.0
       with:
         TITLE: Palavra do Dia RSS
-        SUBTITLE: "Palavra do Dia - Dicio"
+        SUBTITLE: "Daily words from Dicio"
         URL: https://www.dicio.com.br/palavra-do-dia/
         AUTHOR_NAME: "Dicio"
-        AUTHOR_EMAIL: ""
+        AUTHOR_EMAIL: "contact@dicio.com.br"
         COPYRIGHT: "Dicio"
         LANGUAGE: "pt"
         item-title-css: .word-of-day .title
         item-url-css: .word-of-day .title a
-        #ITEM_URL_CSS: true
+        ITEM_URL_CSS: true
         ITEM_DATE_CSS: .word-of-day .title
-        #ITEM_AUTHOR_CSS: false
+        ITEM_AUTHOR_CSS: false
         ITEM_DESCRIPTION_CSS: .word-of-day--text-wrap .word-of-day--description
         ITEM_IMAGE_CSS: .word-of-day picture img
         ITEM_DATE_FORMAT: "dd/MM/yyyy" # Date format for items
         ITEM_TIMEZONE: "America/Sao_Paulo" # Timezone for GMT-3
         FILENAME: Palavra_do_Dia_RSS_feed # Output filename for the RSS feed
+
+    # Generate RSS Feed for New Source
+    - name: Generate RSS Feed for New Source
+      uses: gracefullight/rssify@v0.1.0
+      with:
+        TITLE: New Source RSS
+        SUBTITLE: "Updates from the new source"
+        URL: https://example.com/new-feed
+        AUTHOR_NAME: "New Source Author"
+        AUTHOR_EMAIL: "author@example.com"
+        COPYRIGHT: "New Source"
+        LANGUAGE: "en"
+        item-title-css: .new-item-title-css # CSS selector for the new feed's title
+        item-url-css: .new-item-url-css # CSS selector for the new feed's URL
+        ITEM_URL_CSS: true
+        ITEM_DATE_CSS: .new-item-date-css # CSS selector for the new feed's date
+        ITEM_AUTHOR_CSS: false
+        ITEM_DESCRIPTION_CSS: .new-item-description-css # CSS selector for the new feed's description
+        ITEM_IMAGE_CSS: false
+        ITEM_DATE_FORMAT: false
+        ITEM_TIMEZONE: false
+        FILENAME: New_Source_RSS_feed # Output filename for the RSS feed
+
+    # Commit and Push RSS Feed
+    - name: Commit and Push RSS Feed
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        mkdir -p feeds/CHAOSS_Blog_RSS feeds/Palavra_do_Dia_RSS feeds/New_Source_RSS
+        # Ensure feed files exist
+        touch feeds/CHAOSS_Blog_RSS/CHAOSS_Blog_RSS_feed.xml feeds/CHAOSS_Blog_RSS/CHAOSS_Blog_RSS_feed.json
+        touch feeds/Palavra_do_Dia_RSS/Palavra_do_Dia_RSS_feed.xml feeds/Palavra_do_Dia_RSS/Palavra_do_Dia_RSS_feed.json
+        touch feeds/New_Source_RSS/New_Source_RSS_feed.xml feeds/New_Source_RSS/New_Source_RSS_feed.json
+        # Move generated files to correct locations
+        mv CHAOSS_Blog_RSS_feed.xml feeds/CHAOSS_Blog_RSS/CHAOSS_Blog
