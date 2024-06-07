@@ -89,5 +89,14 @@ def generate_feed(feed_config):
     else:
         print("Atom feed is empty.")
 
+    # Print the entries
+    for entry in fg.entries:
+        print(entry.title)
+        print(entry.id)
+        print(entry.link)
+        print(entry.published)
+        print(entry.content)
+        print()
+
 for feed in feeds:
     generate_feed(feed)
