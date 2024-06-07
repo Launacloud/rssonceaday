@@ -56,6 +56,7 @@ def generate_feed(feed_config):
         item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
+        print("URL from entry:", item_url)  # Print URL from entry
 
         if descriptions:
             description_text = descriptions[i].text if i < len(descriptions) else "No description found"
