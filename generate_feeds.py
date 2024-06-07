@@ -1,14 +1,15 @@
-# Import the feeds list from feed.py
-from feed import feeds
 import os
-from urllib.parse import urljoin
-from datetime import datetime
-import requests
-from feedgen.feed import FeedGenerator
-from bs4 import BeautifulSoup
-from pytz import timezone
 import json
 import xml.etree.ElementTree as ET
+
+# Import the feeds list from feed.py
+from feed import feeds
+from feedgen.feed import FeedGenerator
+from bs4 import BeautifulSoup
+from datetime import datetime
+from urllib.parse import urljoin
+import requests
+from pytz import timezone
 
 # Function to generate feed
 def generate_feed(feed_config):
@@ -67,6 +68,9 @@ def generate_feed(feed_config):
             except ValueError as e:
                 print(f"Error parsing date: {e}")
 
+        # Print ID of each entry
+        print("Entry ID:", fe.id())
+
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
 
@@ -74,12 +78,13 @@ def generate_feed(feed_config):
     atom_file_path = os.path.join(output_path, 'atom.xml')
     fg.atom_file(atom_file_path)
 
+    # Extract atom_feed from the generated XML file
+    atom_feed = extract_atom_feed(atom_file_path)
+
     # Generate JSON feed by converting Atom feed
-    atom_str = fg.atom_str(pretty=True)
-    if atom_str:
-        atom_str_decoded = atom_str.decode("utf-8")  # Decode bytes to string
+    if atom_feed:
         json_data = {
-            "atom_feed": atom_str_decoded,
+            "atom_feed": atom_feed,
             "config": feed_config
         }
         json_file_path = os.path.join(output_path, 'feed.json')
@@ -87,6 +92,16 @@ def generate_feed(feed_config):
             json.dump(json_data, json_file, indent=4)
     else:
         print("Atom feed is empty.")
+
+# Function to extract atom_feed from the generated XML file
+def extract_atom_feed(atom_file_path):
+    if os.path.exists(atom_file_path):
+        with open(atom_file_path, 'r', encoding='utf-8') as atom_file:
+            atom_feed = atom_file.read()
+            return atom_feed
+    else:
+        print("Atom feed file not found.")
+        return None
 
 # Generate feeds for each item in the feeds list imported from feed.py
 for feed_config in feeds:
