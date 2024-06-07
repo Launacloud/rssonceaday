@@ -1,3 +1,5 @@
+# Import the feeds list from feed.py
+from feed import feeds
 import os
 from urllib.parse import urljoin
 from datetime import datetime
@@ -15,10 +17,10 @@ def generate_feed(feed_config):
     titles = soup.select(feed_config["item_title_css"])
     urls = soup.select(feed_config["item_url_css"])
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
-    extras1 = soup.select(feed_config["item_extra_css"]) if "item_extra_css" in feed_config else []  # Select first extra field
-    extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []  # Select second extra field
     authors = soup.select(feed_config["item_author_css"]) if feed_config["item_author_css"] else []
     dates = soup.select(feed_config["item_date_css"]) if feed_config["item_date_css"] else []
+    extras = soup.select(feed_config["item_extra_css"]) if "item_extra_css" in feed_config else []  # Select first extra field
+    extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []  # Select second extra field
 
     fg = FeedGenerator()
     fg.id(feed_config["url"])
@@ -28,7 +30,7 @@ def generate_feed(feed_config):
     fg.language(feed_config["language"])
     fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
-    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles))
+    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
 
     for i in range(min_len):
         fe = fg.add_entry()
@@ -40,14 +42,6 @@ def generate_feed(feed_config):
         if descriptions:
             description_text = descriptions[i].text if i < len(descriptions) else "No description found"
             fe.description(description_text)
-
-        if extras1:
-            extra_text1 = extras1[i].text if i < len(extras1) else ""
-            fe.description(fe.description() + "\n" + extra_text1)
-        
-        if extras2:
-            extra_text2 = extras2[i].text if i < len(extras2) else ""
-            fe.description(fe.description() + "\n" + extra_text2)
 
         if authors:
             author_text = authors[i].text if i < len(authors) else "No author found"
@@ -62,6 +56,14 @@ def generate_feed(feed_config):
                 fe.published(date_obj.isoformat())
             except ValueError as e:
                 print(f"Error parsing date: {e}")
+
+        if extras:
+            extra_text = extras[i].text if i < len(extras) else "No extra information found"
+            fe.extra(extra_text)
+
+        if extras2:
+            extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
+            fe.extra(extra2_text)
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
@@ -84,33 +86,6 @@ def generate_feed(feed_config):
     else:
         print("Atom feed is empty.")
 
-# Parse environment variables to create feed configurations
-feeds = []
-feed_prefixes = os.getenv('FEED_PREFIXES', '').split(',')
-
-for prefix in feed_prefixes:
-    if prefix:
-        feeds.append({
-            "title": os.getenv(f"{prefix}_TITLE"),
-            "subtitle": os.getenv(f"{prefix}_SUBTITLE"),
-            "url": os.getenv(f"{prefix}_URL"),
-            "author_name": os.getenv(f"{prefix}_AUTHOR_NAME"),
-            "author_email": os.getenv(f"{prefix}_AUTHOR_EMAIL"),
-            "copyright": os.getenv(f"{prefix}_COPYRIGHT"),
-            "language": os.getenv(f"{prefix}_LANGUAGE"),
-            "item_title_css": os.getenv(f"{prefix}_ITEM_TITLE_CSS"),
-            "item_url_css": os.getenv(f"{prefix}_ITEM_URL_CSS"),
-            "item_author_css": os.getenv(f"{prefix}_ITEM_AUTHOR_CSS"),
-            "item_description_css": os.getenv(f"{prefix}_ITEM_DESCRIPTION_CSS"),
-            "item_extra_css": os.getenv(f"{prefix}_ITEM_EXTRA_CSS"),  # New extra field
-            "item_extra_css2": os.getenv(f"{prefix}_ITEM_EXTRA_CSS2"),  # New extra field
-            "item_date_css": os.getenv(f"{prefix}_ITEM_DATE_CSS"),
-            "item_date_format": os.getenv(f"{prefix}_ITEM_DATE_FORMAT"),
-            "item_timezone": os.getenv(f"{prefix}_ITEM_TIMEZONE"),
-            "output_path": os.getenv(f"{prefix}_OUTPUT_PATH"),
-            "formats": os.getenv(f"{prefix}_FORMATS", "xml,json").split(',')
-        })
-
-# Generate feeds for each item in the feeds list
-for feed in feeds:
-    generate_feed(feed)
+# Generate feeds for each item in the feeds list imported from feed.py
+for feed_config in feeds:
+    generate_feed(feed_config)
