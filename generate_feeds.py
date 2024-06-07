@@ -18,9 +18,9 @@ feeds = [
         "copyright": "Dicio",
         "language": "pt",
         "item_title_css": ".word-of-day .title",
-        "item_url_css": ".word-of-day--text-wrap .word-of-day--description + a",
+        "item_url_css": ".word-of-day--subtitle a",
         "item_author_css": None,
-        "item_description_css": ".word-of-day--text-wrap .word-of-day--description, .word-of-day--extra",  # Added .word-of-day--extra
+        "item_description_css": ".word-of-day--text-wrap .word-of-day--description, .word-of-day--extra",
         "item_date_css": ".word-of-day .title",
         "item_date_format": "%d/%m/%Y",
         "item_timezone": "America/Sao_Paulo",
@@ -48,26 +48,27 @@ def generate_feed(feed_config):
     fg.language(feed_config["language"])
     fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
-    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles))
+    min_len = min(len(titles), len(urls), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles))
 
     for i in range(min_len):
         fe = fg.add_entry()
-        fe.title(titles[i].text)
+        fe.title(titles[i].text.strip())
+
         item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
         print("URL from entry:", item_url)  # Print URL from entry
 
         if descriptions:
-            description_text = descriptions[i].text if i < len(descriptions) else "No description found"
+            description_text = descriptions[i].text.strip() if i < len(descriptions) else "No description found"
             fe.description(description_text)
 
         if authors:
-            author_text = authors[i].text if i < len(authors) else "No author found"
+            author_text = authors[i].text.strip() if i < len(authors) else "No author found"
             fe.author(name=author_text)
 
         if dates:
-            date_text = dates[i].text if i < len(dates) else "No date found"
+            date_text = dates[i].text.strip() if i < len(dates) else "No date found"
             date_format = feed_config["item_date_format"]
             try:
                 date_obj = datetime.strptime(date_text.split()[-1][1:-1], date_format)
