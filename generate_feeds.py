@@ -8,6 +8,7 @@ from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
 from pytz import timezone
 import json
+import xml.etree.ElementTree as ET
 
 # Function to generate feed
 def generate_feed(feed_config):
@@ -94,3 +95,17 @@ def generate_feed(feed_config):
 # Generate feeds for each item in the feeds list imported from feed.py
 for feed_config in feeds:
     generate_feed(feed_config)
+
+# Function to convert XML to JSON
+def xml_to_json(xml_string):
+    root = ET.fromstring(xml_string)
+    feed_items = []
+
+    for entry in root.findall('{http://www.w3.org/2005/Atom}entry'):
+        item = {}
+        item['title'] = entry.find('{http://www.w3.org/2005/Atom}title').text
+        item['url'] = entry.find('{http://www.w3.org/2005/Atom}link').attrib['href']
+        item['description'] = entry.find('{http://www.w3.org/2005/Atom}content').text.strip()
+        feed_items.append(item)
+
+    return json.dumps(feed_items, indent=4)
