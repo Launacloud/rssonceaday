@@ -1,15 +1,14 @@
 import os
 import json
-import xml.etree.ElementTree as ET
-
-# Import the feeds list from feed.py
-from feed import feeds
-from feedgen.feed import FeedGenerator
-from bs4 import BeautifulSoup
 from datetime import datetime
 from urllib.parse import urljoin
 import requests
+from feedgen.feed import FeedGenerator
+from bs4 import BeautifulSoup  # Import BeautifulSoup for HTML parsing
 from pytz import timezone
+
+# Import the feeds list from feed.py
+from feed import feeds
 
 # Function to generate feed
 def generate_feed(feed_config):
@@ -34,7 +33,7 @@ def generate_feed(feed_config):
 
     min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
 
-    json_feed_entries = []  # List to store entry data
+    output_data = []  # List to store entry data
 
     for i in range(min_len):
         fe = fg.add_entry()
@@ -44,7 +43,9 @@ def generate_feed(feed_config):
         fe.link(href=item_url, rel='alternate')
 
         description_text = descriptions[i].text if i < len(descriptions) else "No description found"
-        
+        # Remove newline characters from the description text using BeautifulSoup
+        description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
+
         # Include extra information directly in the description field
         if extras:
             extra_text = extras[i].text if i < len(extras) else "No extra information found"
@@ -70,13 +71,13 @@ def generate_feed(feed_config):
             except ValueError as e:
                 print(f"Error parsing date: {e}")
 
-        # Store entry data in json_feed_entries list
+        # Store entry data in output_data list
         entry_data = {
-            "title": titles[i].text,
-            "id": item_url,
-            "description": description_text
+            "Title": titles[i].text,
+            "ID": item_url,
+            "Description": description_text
         }
-        json_feed_entries.append(entry_data)
+        output_data.append(entry_data)
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
@@ -85,12 +86,12 @@ def generate_feed(feed_config):
     atom_file_path = os.path.join(output_path, 'atom.xml')
     fg.atom_file(atom_file_path)
 
-    # Write JSON data to file
+    # Write output_data to JSON file with pretty formatting
     json_file_path = os.path.join(output_path, 'feed.json')
     with open(json_file_path, 'w') as json_file:
-        json.dump(json_feed_entries, json_file, indent=4)  # Indent for pretty formatting
+        json.dump(output_data, json_file, indent=4)  # Indent for pretty formatting
 
-    print(f"Feeds generated: Atom feed at '{atom_file_path}', JSON feed at '{json_file_path}'")
+    print(f"JSON file '{json_file_path}' created successfully.")
 
 # Generate feeds for each item in the feeds list imported from feed.py
 for feed_config in feeds:
