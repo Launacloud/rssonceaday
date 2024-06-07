@@ -46,38 +46,41 @@ def generate_feed(feed_config):
     fg.language(feed_config["language"])
     fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
-    # Make sure to correctly handle the minimum length for the loop
     min_len = min(len(titles), len(urls), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles))
+
+    print(f"Found {min_len} entries.")
 
     for i in range(min_len):
         fe = fg.add_entry()
-        fe.title(titles[i].text)
+        fe.title(titles[i].text.strip())
         item_url = urljoin(feed_config["url"], urls[i].get('href'))
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
 
         if descriptions:
-            description_text = descriptions[i].text if i < len(descriptions) else "No description found"
+            description_text = descriptions[i].text.strip() if i < len(descriptions) else "No description found"
             fe.description(description_text)
 
         if authors:
-            author_text = authors[i].text if i < len(authors) else "No author found"
+            author_text = authors[i].text.strip() if i < len(authors) else "No author found"
             fe.author(name=author_text)
 
         if dates:
-            date_text = dates[i].text if i < len(dates) else "No date found"
+            date_text = dates[i].text.strip() if i < len(dates) else "No date found"
             date_format = feed_config["item_date_format"]
-            # Parse and format the date
-            date = datetime.strptime(date_text, date_format)
-            date = timezone(feed_config["item_timezone"]).localize(date)
-            fe.published(date)
+            try:
+                date = datetime.strptime(date_text, date_format)
+                date = timezone(feed_config["item_timezone"]).localize(date)
+                fe.published(date)
+            except ValueError as e:
+                print(f"Date parsing error for '{date_text}': {e}")
 
         # Print statements for debugging
-        print(f"Title: {titles[i].text}")
+        print(f"Title: {titles[i].text.strip()}")
         print(f"URL: {item_url}")
         print(f"Description: {description_text}")
         print(f"Author: {author_text if authors else 'No author'}")
-        print(f"Date: {date.isoformat()}\n")
+        print(f"Date: {date.isoformat() if dates else 'No date'}\n")
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
