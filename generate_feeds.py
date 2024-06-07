@@ -39,9 +39,18 @@ def generate_feed(feed_config):
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
 
-        if descriptions:
-            description_text = descriptions[i].text if i < len(descriptions) else "No description found"
-            fe.description(description_text)
+        description_text = descriptions[i].text if i < len(descriptions) else "No description found"
+        
+        # Include extra information directly in the description field
+        if extras:
+            extra_text = extras[i].text if i < len(extras) else "No extra information found"
+            description_text += f"\n\nExtra 1: {extra_text}"
+        
+        if extras2:
+            extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
+            description_text += f"\n\nExtra 2: {extra2_text}"
+
+        fe.description(description_text)
 
         if authors:
             author_text = authors[i].text if i < len(authors) else "No author found"
@@ -56,14 +65,6 @@ def generate_feed(feed_config):
                 fe.published(date_obj.isoformat())
             except ValueError as e:
                 print(f"Error parsing date: {e}")
-
-        if extras:
-            extra_text = extras[i].text if i < len(extras) else "No extra information found"
-            fe.extra(extra_text)
-
-        if extras2:
-            extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
-            fe.extra(extra2_text)
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
