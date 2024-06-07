@@ -32,11 +32,19 @@ def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'html.parser')
 
+    print(f"HTML content: {r.text[:1000]}...")  # Print the first 1000 characters of the HTML content for verification
+
     titles = soup.select(feed_config["item_title_css"])
     urls = soup.select(feed_config["item_url_css"])
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
     authors = soup.select(feed_config["item_author_css"]) if feed_config["item_author_css"] else []
     dates = soup.select(feed_config["item_date_css"]) if feed_config["item_date_css"] else []
+
+    print(f"Titles found: {len(titles)}")
+    print(f"URLs found: {len(urls)}")
+    print(f"Descriptions found: {len(descriptions)}")
+    print(f"Authors found: {len(authors)}")
+    print(f"Dates found: {len(dates)}")
 
     fg = FeedGenerator()
     fg.id(feed_config["url"])
