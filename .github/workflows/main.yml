@@ -37,7 +37,9 @@ jobs:
         FEED1_ITEM_TITLE_CSS: ".word-of-day .title"
         FEED1_ITEM_URL_CSS: ".word-of-day--subtitle a"
         FEED1_ITEM_AUTHOR_CSS: ""
-        FEED1_ITEM_DESCRIPTION_CSS: ".word-of-day--text-wrap .word-of-day--description, .word-of-day--extra"
+        FEED1_ITEM_DESCRIPTION_CSS: ".word-of-day--text-wrap .word-of-day--description"
+        FEED1_ITEM_EXTRA_CSS: ".word-of-day--extra"  # Added item_extra_css for the extra field
+        FEED1_ITEM_EXTRA_CSS2: ".word-of-day--extra2"  # Added item_extra_css2 for the second extra field
         FEED1_ITEM_DATE_CSS: ".word-of-day .title"
         FEED1_ITEM_DATE_FORMAT: "%d/%m/%Y"
         FEED1_ITEM_TIMEZONE: "America/Sao_Paulo"
@@ -49,29 +51,3 @@ jobs:
         FEED2_URL: "https://www.example.com/feed/"
         FEED2_AUTHOR_NAME: "Example Author"
         FEED2_AUTHOR_EMAIL: "author@example.com"
-        FEED2_COPYRIGHT: "Example"
-        FEED2_LANGUAGE: "en"
-        FEED2_ITEM_TITLE_CSS: ".example-title"
-        FEED2_ITEM_URL_CSS: ".example-url a"
-        FEED2_ITEM_AUTHOR_CSS: ".example-author"
-        FEED2_ITEM_DESCRIPTION_CSS: ".example-description"
-        FEED2_ITEM_DATE_CSS: ".example-date"
-        FEED2_ITEM_DATE_FORMAT: "%Y-%m-%d"
-        FEED2_ITEM_TIMEZONE: "UTC"
-        FEED2_OUTPUT_PATH: "feeds/example_feed"
-        FEED2_FORMATS: "xml,json"
-      run: python generate_feeds.py
-
-    - name: Commit and Push RSS Feeds
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add feeds/**/*.xml feeds/**/*.json
-        if [ -n "$(git status --porcelain)" ]; then
-          git commit -m "Update RSS and JSON Feeds"
-          git push
-        else
-          echo "No changes to commit"
-        fi
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
