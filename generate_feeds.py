@@ -22,6 +22,10 @@ def generate_feed(feed_config):
     extras = soup.select(feed_config["item_extra_css"]) if "item_extra_css" in feed_config else []  # Select first extra field
     extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []  # Select second extra field
 
+    # Print the extracted URLs
+for url in urls:
+    print(url.get('href'))
+
     fg = FeedGenerator()
     fg.id(feed_config["url"])
     fg.title(feed_config["title"])
