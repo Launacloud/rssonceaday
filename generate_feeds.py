@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from pytz import timezone
 import json
 
+# Define the list of feeds
 feeds = [
     {
         "title": "Palavra do Dia RSS",
@@ -19,7 +20,7 @@ feeds = [
         "item_title_css": ".word-of-day .title",
         "item_url_css": ".word-of-day--text-wrap .word-of-day--description + a",
         "item_author_css": None,
-        "item_description_css": ".word-of-day--text-wrap .word-of-day--description",
+        "item_description_css": ".word-of-day--text-wrap .word-of-day--description, .word-of-day--extra",  # Added .word-of-day--extra
         "item_date_css": ".word-of-day .title",
         "item_date_format": "%d/%m/%Y",
         "item_timezone": "America/Sao_Paulo",
@@ -28,6 +29,7 @@ feeds = [
     }
 ]
 
+# Function to generate feed
 def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'html.parser')
@@ -55,26 +57,23 @@ def generate_feed(feed_config):
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
 
-        content = descriptions[i].text if descriptions else "No description found"
-        date_text = dates[i].text if dates else "No date found"
-        date_format = feed_config["item_date_format"]
-        try:
-            date_obj = datetime.strptime(date_text.split()[-1][1:-1], date_format)
-            date_obj = timezone(feed_config["item_timezone"]).localize(date_obj)
-            fe.published(date_obj.isoformat())
-        except ValueError as e:
-            print(f"Error parsing date: {e}")
+        if descriptions:
+            description_text = descriptions[i].text if i < len(descriptions) else "No description found"
+            fe.description(description_text)
 
-        # Add the content to the entry
-        fe.content(content, type='html')
+        if authors:
+            author_text = authors[i].text if i < len(authors) else "No author found"
+            fe.author(name=author_text)
 
-        # Print the entry details
-        print(fe.title)
-        print(fe.id)
-        print(fe.link)
-        print(fe.published)
-        print(fe.content)
-        print()
+        if dates:
+            date_text = dates[i].text if i < len(dates) else "No date found"
+            date_format = feed_config["item_date_format"]
+            try:
+                date_obj = datetime.strptime(date_text.split()[-1][1:-1], date_format)
+                date_obj = timezone(feed_config["item_timezone"]).localize(date_obj)
+                fe.published(date_obj.isoformat())
+            except ValueError as e:
+                print(f"Error parsing date: {e}")
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
@@ -97,5 +96,6 @@ def generate_feed(feed_config):
     else:
         print("Atom feed is empty.")
 
+# Generate feeds for each item in the feeds list
 for feed in feeds:
     generate_feed(feed)
