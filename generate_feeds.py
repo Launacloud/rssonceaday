@@ -1,8 +1,10 @@
 import os
 from urllib.parse import urljoin
+from datetime import datetime
 import requests
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
+from pytz import timezone
 import json
 
 feeds = [
@@ -14,11 +16,11 @@ feeds = [
         "author_email": "contact@dicio.com.br",
         "copyright": "Dicio",
         "language": "pt",
-        "item_title_css": ".title",
-        "item_url_css": ".title a",
+        "item_title_css": ".word-of-day .title",
+        "item_url_css": ".word-of-day .title a",
         "item_author_css": None,
-        "item_description_css": ".word-of-day--description",
-        "item_date_css": ".title",
+        "item_description_css": ".word-of-day--text-wrap .word-of-day--description",
+        "item_date_css": ".word-of-day .title",
         "item_date_format": "%d/%m/%Y",
         "item_timezone": "America/Sao_Paulo",
         "output_path": "feeds/palavra_do_dia",
@@ -44,6 +46,7 @@ def generate_feed(feed_config):
     fg.language(feed_config["language"])
     fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
+    # Make sure to correctly handle the minimum length for the loop
     min_len = min(len(titles), len(urls), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles))
 
     for i in range(min_len):
@@ -64,7 +67,10 @@ def generate_feed(feed_config):
         if dates:
             date_text = dates[i].text if i < len(dates) else "No date found"
             date_format = feed_config["item_date_format"]
-            # Handle date formatting and timezone conversion as needed
+            # Parse and format the date
+            date = datetime.strptime(date_text, date_format)
+            date = timezone(feed_config["item_timezone"]).localize(date)
+            fe.published(date)
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
