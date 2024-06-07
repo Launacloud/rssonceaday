@@ -32,19 +32,11 @@ def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'html.parser')
 
-    print(f"HTML content: {r.text[:1000]}...")  # Print the first 1000 characters of the HTML content for verification
-
     titles = soup.select(feed_config["item_title_css"])
     urls = soup.select(feed_config["item_url_css"])
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
     authors = soup.select(feed_config["item_author_css"]) if feed_config["item_author_css"] else []
     dates = soup.select(feed_config["item_date_css"]) if feed_config["item_date_css"] else []
-
-    print(f"Titles found: {len(titles)}")
-    print(f"URLs found: {len(urls)}")
-    print(f"Descriptions found: {len(descriptions)}")
-    print(f"Authors found: {len(authors)}")
-    print(f"Dates found: {len(dates)}")
 
     fg = FeedGenerator()
     fg.id(feed_config["url"])
@@ -54,41 +46,32 @@ def generate_feed(feed_config):
     fg.language(feed_config["language"])
     fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
-    min_len = min(len(titles), len(urls), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles))
-
-    print(f"Found {min_len} entries.")
+    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles))
 
     for i in range(min_len):
         fe = fg.add_entry()
-        fe.title(titles[i].text.strip())
-        item_url = urljoin(feed_config["url"], urls[i].get('href'))
+        fe.title(titles[i].text)
+        item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
 
         if descriptions:
-            description_text = descriptions[i].text.strip() if i < len(descriptions) else "No description found"
+            description_text = descriptions[i].text if i < len(descriptions) else "No description found"
             fe.description(description_text)
 
         if authors:
-            author_text = authors[i].text.strip() if i < len(authors) else "No author found"
+            author_text = authors[i].text if i < len(authors) else "No author found"
             fe.author(name=author_text)
 
         if dates:
-            date_text = dates[i].text.strip() if i < len(dates) else "No date found"
+            date_text = dates[i].text if i < len(dates) else "No date found"
             date_format = feed_config["item_date_format"]
             try:
-                date = datetime.strptime(date_text, date_format)
-                date = timezone(feed_config["item_timezone"]).localize(date)
-                fe.published(date)
+                date_obj = datetime.strptime(date_text.split()[-1][1:-1], date_format)
+                date_obj = timezone(feed_config["item_timezone"]).localize(date_obj)
+                fe.published(date_obj.isoformat())
             except ValueError as e:
-                print(f"Date parsing error for '{date_text}': {e}")
-
-        # Print statements for debugging
-        print(f"Title: {titles[i].text.strip()}")
-        print(f"URL: {item_url}")
-        print(f"Description: {description_text}")
-        print(f"Author: {author_text if authors else 'No author'}")
-        print(f"Date: {date.isoformat() if dates else 'No date'}\n")
+                print(f"Error parsing date: {e}")
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
