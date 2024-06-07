@@ -17,7 +17,7 @@ feeds = [
         "copyright": "Dicio",
         "language": "pt",
         "item_title_css": ".word-of-day .title",
-        "item_url_css": ".word-of-day .title a",
+        "item_url_css": ".word-of-day--text-wrap .word-of-day--description + a",
         "item_author_css": None,
         "item_description_css": ".word-of-day--text-wrap .word-of-day--description",
         "item_date_css": ".word-of-day .title",
@@ -55,23 +55,18 @@ def generate_feed(feed_config):
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
 
-        if descriptions:
-            description_text = descriptions[i].text if i < len(descriptions) else "No description found"
-            fe.description(description_text)
+        content = descriptions[i].text if descriptions else "No description found"
+        date_text = dates[i].text if dates else "No date found"
+        date_format = feed_config["item_date_format"]
+        try:
+            date_obj = datetime.strptime(date_text.split()[-1][1:-1], date_format)
+            date_obj = timezone(feed_config["item_timezone"]).localize(date_obj)
+            fe.published(date_obj.isoformat())
+        except ValueError as e:
+            print(f"Error parsing date: {e}")
 
-        if authors:
-            author_text = authors[i].text if i < len(authors) else "No author found"
-            fe.author(name=author_text)
-
-        if dates:
-            date_text = dates[i].text if i < len(dates) else "No date found"
-            date_format = feed_config["item_date_format"]
-            try:
-                date_obj = datetime.strptime(date_text.split()[-1][1:-1], date_format)
-                date_obj = timezone(feed_config["item_timezone"]).localize(date_obj)
-                fe.published(date_obj.isoformat())
-            except ValueError as e:
-                print(f"Error parsing date: {e}")
+        # Add the content to the entry
+        fe.content(content, type='html')
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
