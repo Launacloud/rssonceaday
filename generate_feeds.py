@@ -68,6 +68,14 @@ def generate_feed(feed_config):
         # Add the content to the entry
         fe.content(content, type='html')
 
+        # Print the entry details
+        print(fe.title)
+        print(fe.id)
+        print(fe.link)
+        print(fe.published)
+        print(fe.content)
+        print()
+
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
 
@@ -88,15 +96,6 @@ def generate_feed(feed_config):
             json.dump(json_data, json_file, indent=4)
     else:
         print("Atom feed is empty.")
-
-    # Print the entries
-    for entry in fg.entries:
-        print(entry.title)
-        print(entry.id)
-        print(entry.link)
-        print(entry.published)
-        print(entry.content)
-        print()
 
 for feed in feeds:
     generate_feed(feed)
