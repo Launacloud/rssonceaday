@@ -104,8 +104,9 @@ def xml_to_json(xml_string):
     for entry in root.findall('{http://www.w3.org/2005/Atom}entry'):
         item = {}
         item['title'] = entry.find('{http://www.w3.org/2005/Atom}title').text
-        item['url'] = entry.find('{http://www.w3.org/2005/Atom}link').attrib['href']
-        item['description'] = entry.find('{http://www.w3.org/2005/Atom}content').text.strip()
+        item['updated'] = entry.find('{http://www.w3.org/2005/Atom}updated').text
+        item['id'] = entry.find('{http://www.w3.org/2005/Atom}id').text
+        item['content'] = entry.find('{http://www.w3.org/2005/Atom}content').text.strip()
         feed_items.append(item)
 
     return json.dumps(feed_items, indent=4)
