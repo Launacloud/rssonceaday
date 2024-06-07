@@ -72,6 +72,13 @@ def generate_feed(feed_config):
             date = timezone(feed_config["item_timezone"]).localize(date)
             fe.published(date)
 
+        # Print statements for debugging
+        print(f"Title: {titles[i].text}")
+        print(f"URL: {item_url}")
+        print(f"Description: {description_text}")
+        print(f"Author: {author_text if authors else 'No author'}")
+        print(f"Date: {date.isoformat()}\n")
+
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
 
