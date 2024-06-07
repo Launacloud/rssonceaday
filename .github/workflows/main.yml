@@ -2,6 +2,8 @@ name: Generate RSS Feeds
 
 on:
   push:
+    branches:
+      - main  # Specify the branch you want to trigger the workflow on
   workflow_dispatch:
   schedule:
     - cron: "3 3 * * *" # Runs daily at 03:03 UTC
@@ -23,4 +25,15 @@ jobs:
       run: pip install requests feedgen beautifulsoup4 lxml pytz
 
     - name: Generate RSS and JSON Feeds
-      run: python generate_feeds.py
+      run: |
+        python generate_feeds.py
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add feeds/**/*.xml feeds/**/*.json
+        if [ -n "$(git status --porcelain)" ]; then
+          git commit -m "Update RSS and JSON Feeds"
+          git push
+        else
+          echo "No changes to commit"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
