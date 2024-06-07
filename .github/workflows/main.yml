@@ -22,23 +22,17 @@ jobs:
       - name: Install Dependencies
         run: pip install requests feedgen beautifulsoup4 lxml pytz
 
-      - name: Run Feed Generation Script
-        run: python generate_feeds.py
-
-      - name: Configure Git
+      - name: Generate RSS and JSON Feeds
         run: |
+          python generate_feeds.py
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-
-      - name: Add Feeds
-        run: git add feeds/**/*.xml feeds/**/*.json
-
-      - name: Commit Changes
-        run: |
+          git add feeds/**/*.xml feeds/**/*.json
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update RSS and JSON Feeds"
             git push
           else
             echo "No changes to commit"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
