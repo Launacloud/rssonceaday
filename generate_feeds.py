@@ -68,9 +68,6 @@ def generate_feed(feed_config):
             except ValueError as e:
                 print(f"Error parsing date: {e}")
 
-        # Print ID of each entry
-        print("Entry ID:", fe.id())
-
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
 
@@ -83,13 +80,18 @@ def generate_feed(feed_config):
 
     # Generate JSON feed by converting Atom feed
     if atom_feed:
+        # Define JSON data structure
         json_data = {
-            "atom_feed": atom_feed,
-            "config": feed_config
+            "Title of xml file": feed_config["title"],  # Title of XML file
+            "ID": feed_config["url"],  # ID
+            "Content": atom_feed,  # Content (Atom feed)
         }
+
+        # Write JSON data to file
         json_file_path = os.path.join(output_path, 'feed.json')
         with open(json_file_path, 'w') as json_file:
-            json.dump(json_data, json_file, indent=4)
+            json.dump(json_data, json_file, indent=4)  # Indent for pretty formatting
+        print(f"JSON file '{json_file_path}' created successfully.")
     else:
         print("Atom feed is empty.")
 
