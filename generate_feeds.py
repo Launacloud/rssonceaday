@@ -23,10 +23,6 @@ def generate_feed(feed_config):
     extras = soup.select(feed_config["item_extra_css"]) if "item_extra_css" in feed_config else []  # Select first extra field
     extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []  # Select second extra field
 
-    # Print the extracted URLs
-    for url in urls:
-        print(url.get('href'))
-
     fg = FeedGenerator()
     fg.id(feed_config["url"])
     fg.title(feed_config["title"])
@@ -79,7 +75,7 @@ def generate_feed(feed_config):
     fg.atom_file(atom_file_path)
 
     # Generate JSON feed by converting Atom feed
-    atom_str = fg.atom_str()
+    atom_str = fg.atom_str(pretty=True)
     if atom_str:
         atom_str_decoded = atom_str.decode("utf-8")  # Decode bytes to string
         json_data = {
@@ -95,18 +91,3 @@ def generate_feed(feed_config):
 # Generate feeds for each item in the feeds list imported from feed.py
 for feed_config in feeds:
     generate_feed(feed_config)
-
-# Function to convert XML to JSON
-def xml_to_json(xml_string):
-    root = ET.fromstring(xml_string)
-    feed_items = []
-
-    for entry in root.findall('{http://www.w3.org/2005/Atom}entry'):
-        item = {}
-        item['title'] = entry.find('{http://www.w3.org/2005/Atom}title').text
-        item['updated'] = entry.find('{http://www.w3.org/2005/Atom}updated').text
-        item['id'] = entry.find('{http://www.w3.org/2005/Atom}id').text
-        item['content'] = entry.find('{http://www.w3.org/2005/Atom}content').text.strip()
-        feed_items.append(item)
-
-    return json.dumps(feed_items, indent=4)
