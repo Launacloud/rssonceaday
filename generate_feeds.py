@@ -47,8 +47,6 @@ def generate_feed(feed_config):
 
     output_data = []  # List to store entry data
 
-    set_locale()
-
     for i in range(min_len):
         fe = fg.add_entry()
         fe.title(titles[i].text)
