@@ -4,14 +4,11 @@ from datetime import datetime
 from urllib.parse import urljoin
 import requests
 from feedgen.feed import FeedGenerator
-from bs4 import BeautifulSoup  # Import BeautifulSoup for HTML parsing
+from bs4 import BeautifulSoup
 from pytz import timezone
-import locale  # Import locale for setting date locale
-
-# Import the feeds list from feed.py
+import locale
 from feed import feeds
 
-# Function to set locale for date parsing
 def set_locale():
     try:
         locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
@@ -22,7 +19,20 @@ def set_locale():
         except locale.Error:
             print("Locale 'pt_PT.UTF-8' also not available. Please ensure locale is installed.")
 
-# Function to generate feed
+def extract_date(soup):
+    date_element = soup.select_one('.date-selector')  # Adjust the selector based on your HTML structure
+    if date_element:
+        date_text = date_element.text.strip()
+        date_format = '%A, %d de %B de %Y'  # Adjust the format based on your date format
+        try:
+            date_obj = datetime.strptime(date_text, date_format)
+            return date_obj
+        except ValueError as e:
+            print(f"Error parsing date: {e}")
+    else:
+        print("Date element not found.")
+    return None
+
 def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'html.parser')
@@ -47,7 +57,6 @@ def generate_feed(feed_config):
 
     output_data = []  # List to store entry data
 
-    # Set locale for date parsing
     set_locale()
 
     for i in range(min_len):
@@ -58,10 +67,8 @@ def generate_feed(feed_config):
         fe.link(href=item_url, rel='alternate')
 
         description_text = descriptions[i].text if i < len(descriptions) else "No description found"
-        # Remove newline characters from the description text using BeautifulSoup
         description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
 
-        # Include extra information directly in the description field
         if extras:
             extra_text = extras[i].text if i < len(extras) else "No extra information found"
             description_text += f"\n\nExtra 1: {extra_text}"
@@ -77,16 +84,10 @@ def generate_feed(feed_config):
             fe.author(name=author_text)
 
         if dates:
-            date_text = dates[i].text if i < len(dates) else "No date found"
-            date_format = feed_config["item_date_format"]
-            try:
-                date_obj = datetime.strptime(date_text.split()[-1][1:-1], date_format)
-                date_obj = timezone(feed_config["item_timezone"]).localize(date_obj)
+            date_obj = extract_date(soup)
+            if date_obj:
                 fe.published(date_obj.isoformat())
-            except ValueError as e:
-                print(f"Error parsing date: {e}")
 
-        # Store entry data in output_data list
         entry_data = {
             "Title": titles[i].text,
             "ID": item_url,
@@ -97,11 +98,14 @@ def generate_feed(feed_config):
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
 
-    # Generate Atom feed
     atom_file_path = os.path.join(output_path, 'atom.xml')
     fg.atom_file(atom_file_path)
 
-    # Write output_data to JSON file with pretty formatting
     json_file_path = os.path.join(output_path, 'feed.json')
     with open(json_file_path, 'w') as json_file:
-        json.dump(output_data, json
+        json.dump(output_data, json_file, indent=4)
+
+    print(f"JSON file '{json_file_path}' created successfully.")
+
+for feed_config in feeds:
+    generate_feed(feed_config)
