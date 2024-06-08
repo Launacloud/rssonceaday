@@ -57,11 +57,6 @@ def generate_feed(feed_config):
             author_text = authors[i].text if i < len(authors) else "No author found"
             fe.author(name=author_text)
 
-        if dates:
-            date_obj = extract_date(soup, feed_config["item_date_css"])  # Corrected line to define date_obj
-            if date_obj:
-                fe.published(date_obj.isoformat())
-
         entry_data = {
             "Title": titles[i].text,
             "ID": item_url,
