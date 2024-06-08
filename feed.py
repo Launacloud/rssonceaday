@@ -50,7 +50,7 @@ feeds = [
     "item_author_css": "",
     "item_description_css": ".v_dia .destaque",
     "item_date_css": ".v_dia .v_date",
-    "item_date_format": "%Y-%m-%d",
+    "item_date_format": "%A, %d de %B de %Y",
     "item_timezone": "GMT-3",
     "output_path": "feeds/versículo_do_dia",
     "formats": ["xml", "json"]
@@ -68,7 +68,7 @@ feeds = [
     "item_author_css": "",
     "item_description_css": ".v_dia .destaque",
     "item_date_css": ".v_dia .v_date",
-    "item_date_format": "%Y-%m-%d",
+    "item_date_format": "%A, %d de %B de %Y",
     "item_timezone": "GMT-3",
     "output_path": "feeds/salmo_do_dia",
     "formats": ["xml", "json"]
@@ -86,7 +86,7 @@ feeds = [
     "item_author_css": "",
     "item_description_css": ".salmo_dia_card_content",
     "item_date_css": ".salmo_dia_card_date",
-    "item_date_format": "%Y-%m-%d",
+    "item_date_format": "%A, %d de %B de %Y",
     "item_timezone": "GMT-3",
     "output_path": "feeds/salmo_do_dia",
     "formats": ["xml", "json"]
@@ -104,7 +104,7 @@ feeds = [
     "item_author_css": "",
     "item_description_css": ".articlebody",
     "item_date_css": ".v_date",
-    "item_date_format": "%Y-%m-%d",
+    "item_date_format": "%A, %d de %B de %Y",
     "item_timezone": "GMT-3",
     "output_path": "feeds/palavra_biblica_do_dia",
     "formats": ["xml", "json"],
@@ -122,13 +122,9 @@ feeds = [
     "item_author_css": "",
     "item_description_css": ".articlebody",
     "item_date_css": ".devcal-wrap",
-    "item_date_format": "%Y-%m-%d",
+    "item_date_format": "%A, %d de %B de %Y",
     "item_timezone": "GMT-3",
     "output_path": "feeds/devocional_de_hoje",
     "formats": ["xml", "json"]
 }
-
-
-
-
 ]
