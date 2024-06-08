@@ -5,7 +5,7 @@ from urllib.parse import urljoin
 import requests
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
-import feedparser  # Import feedparser
+import feedparser
 
 from feed import feeds
 
@@ -18,8 +18,8 @@ def generate_feed(feed_config):
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
     authors = soup.select(feed_config["item_author_css"]) if feed_config["item_author_css"] else []
     dates = soup.select(feed_config["item_date_css"]) if feed_config["item_date_css"] else []
-    extras = soup.select(feed_config["item_extra_css"]) if "item_extra_css" in feed_config else []  # Select first extra field
-    extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []  # Select second extra field
+    extras = soup.select(feed_config["item_extra_css"]) if "item_extra_css" in feed_config else []
+    extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []
 
     fg = FeedGenerator()
     fg.id(feed_config["url"])
@@ -30,7 +30,8 @@ def generate_feed(feed_config):
     fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
     atom_file_path = os.path.join(feed_config["output_path"], 'atom.xml')
-    output_data = []  # Initialize output_data to store entry data
+    existing_ids = set()  # To track existing entry IDs
+    output_data = []
 
     # Load existing entries if the XML file exists
     if os.path.exists(atom_file_path):
@@ -54,13 +55,18 @@ def generate_feed(feed_config):
             if hasattr(entry, 'author'):
                 entry_data["Author"] = entry.author
             output_data.append(entry_data)
+            existing_ids.add(entry.id)  # Add ID to the set
 
     min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
 
     for i in range(min_len):
+        item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
+
+        if item_url in existing_ids:
+            continue  # Skip if the entry already exists
+
         fe = fg.add_entry()
         fe.title(titles[i].text)
-        item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
 
@@ -93,7 +99,6 @@ def generate_feed(feed_config):
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
 
-    atom_file_path = os.path.join(output_path, 'atom.xml')
     fg.atom_file(atom_file_path)
 
     json_file_path = os.path.join(output_path, 'feed.json')
