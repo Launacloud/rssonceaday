@@ -20,7 +20,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install Dependencies
-        run: pip install requests feedgen beautifulsoup4 lxml pytz locale
+        run: pip install requests feedgen beautifulsoup4 lxml pytz
 
       - name: Generate RSS and JSON Feeds
         run: |
