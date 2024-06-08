@@ -29,9 +29,17 @@ def generate_feed(feed_config):
     fg.language(feed_config["language"])
     fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
+    atom_file_path = os.path.join(feed_config["output_path"], 'atom.xml')
+    existing_entries = []
+
+    # Load existing entries if the XML file exists
+    if os.path.exists(atom_file_path):
+        fg.load_atom(atom_file_path)
+        existing_entries = fg.entry()
+
     min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
 
-    output_data = []  # List to store entry data
+    new_entries = []  # List to store new entry data
 
     for i in range(min_len):
         fe = fg.add_entry()
@@ -57,24 +65,24 @@ def generate_feed(feed_config):
             author_text = authors[i].text if i < len(authors) else "No author found"
             fe.author(name=author_text)
 
-        entry_data = {
-            "Title": titles[i].text,
-            "ID": item_url,
-            "Description": description_text
-        }
-        output_data.append(entry_data)
+        new_entries.append(fe)
+
+    # Combine existing and new entries
+    combined_entries = existing_entries + new_entries
+
+    # Clear existing entries in the feed generator
+    fg._feed.entries.clear()
+
+    # Add combined entries back to the feed generator
+    for entry in combined_entries:
+        fg._add_entry(entry)
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
 
-    atom_file_path = os.path.join(output_path, 'atom.xml')
     fg.atom_file(atom_file_path)
 
-    json_file_path = os.path.join(output_path, 'feed.json')
-    with open(json_file_path, 'w') as json_file:
-        json.dump(output_data, json_file, indent=4)
-
-    print(f"JSON file '{json_file_path}' created successfully.")
+    print(f"XML file '{atom_file_path}' updated successfully.")
 
 for feed_config in feeds:
     generate_feed(feed_config)
