@@ -7,7 +7,7 @@ Inspired by TabHub Rssify (https://tabhub.github.io/)
 
 ## Edit
 
-feeds = [
+```feeds = [
     {
         "title": "Palavra do Dia RSS",  # The title of the RSS feed
         "subtitle": "Daily words from Dicio",  # A brief description or subtitle of the feed
@@ -27,3 +27,4 @@ feeds = [
         "formats": ["xml", "json"]  # The formats in which the feed should be generated (e.g., "xml" and/or "json")
     }
 ]
+```
