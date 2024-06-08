@@ -13,12 +13,11 @@ def extract_date(soup, item_date_css):
     date_element = soup.select_one(item_date_css)  # Use item_date_css selector
     if date_element:
         date_text = date_element.text.strip()
-        date_format = '%d/%m/%Y'  # Updated date format
-        try:
-            date_obj = datetime.strptime(date_text, date_format)
-            return date_obj
-        except ValueError as e:
-            print(f"Error parsing date: {e}")
+
+        # Convert the date text from '%A, %d de %B de %Y' to '%d/%m/%Y'
+        date_obj = datetime.strptime(date_text, '%A, %d de %B de %Y')
+        formatted_date = date_obj.strftime('%d/%m/%Y')
+        return formatted_date
     else:
         print("Date element not found.")
     return None
