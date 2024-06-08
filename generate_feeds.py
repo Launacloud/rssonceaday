@@ -72,7 +72,7 @@ def generate_feed(feed_config):
             fe.author(name=author_text)
 
         if dates:
-            date_obj = extract_date(soup)
+            date_obj = extract_date(soup, feed_config["item_date_css"])  # Updated line
             if date_obj:
                 fe.published(date_obj.isoformat())
 
