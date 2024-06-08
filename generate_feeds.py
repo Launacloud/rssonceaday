@@ -9,21 +9,11 @@ from pytz import timezone
 import locale
 from feed import feeds
 
-def set_locale():
-    try:
-        locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
-    except locale.Error:
-        print("Locale not available. Trying 'pt_PT.UTF-8'.")
-        try:
-            locale.setlocale(locale.LC_TIME, 'pt_PT.UTF-8')
-        except locale.Error:
-            print("Locale 'pt_PT.UTF-8' also not available. Please ensure locale is installed.")
-
-def extract_date(soup):
-    date_element = soup.select_one('.date-selector')  # Adjust the selector based on your HTML structure
+def extract_date(soup, item_date_css):
+    date_element = soup.select_one(item_date_css)  # Use item_date_css selector
     if date_element:
         date_text = date_element.text.strip()
-        date_format = '%A, %d de %B de %Y'  # Adjust the format based on your date format
+        date_format = '%d/%m/%Y'  # Updated date format
         try:
             date_obj = datetime.strptime(date_text, date_format)
             return date_obj
