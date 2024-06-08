@@ -1,10 +1,10 @@
 feeds = [
     {
         "title": "Palavra do Dia RSS",
-        "subtitle": "Daily words from Dicio",
+        "subtitle": "Palavra do Dia por Dicio",
         "url": "https://www.dicio.com.br/palavra-do-dia/",
-        "author_name": "Dicio",
-        "author_email": "contact@dicio.com.br",
+        "author_name": "Lau",
+        "author_email": "None",
         "copyright": "Dicio",
         "language": "pt",
         "item_title_css": ".word-of-day .title",
@@ -36,5 +36,24 @@ feeds = [
         "item_timezone": "UTC",
         "output_path": "feeds/example_feed",
         "formats": ["xml", "json"]
-    }
+    },
+    {
+    "title": "Versículo do Dia",
+    "subtitle": "Versículo do Dia por biblia on",
+    "url": "https://www.bibliaon.com/versiculo_do_dia/",
+    "author_name": "Lau",
+    "author_email": "author@example.com",
+    "copyright": "Biblia",
+    "language": "pt",
+    "item_title_css": ".v_dia .destaque a",
+    "item_url_css": ".v_dia .destaque a",
+    "item_author_css": "",
+    "item_description_css": ".v_dia .destaque",
+    "item_date_css": ".v_dia .v_date",
+    "item_date_format": "%A, %d de %B de %Y",
+    "item_timezone": "GMT-3",
+    "output_path": "feeds/versículo_do_dia",
+    "formats": ["xml", "json"]
+}
+
 ]
