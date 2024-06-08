@@ -6,9 +6,21 @@ import requests
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup  # Import BeautifulSoup for HTML parsing
 from pytz import timezone
+import locale  # Import locale for setting date locale
 
 # Import the feeds list from feed.py
 from feed import feeds
+
+# Function to set locale for date parsing
+def set_locale():
+    try:
+        locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
+    except locale.Error:
+        print("Locale not available. Trying 'pt_PT.UTF-8'.")
+        try:
+            locale.setlocale(locale.LC_TIME, 'pt_PT.UTF-8')
+        except locale.Error:
+            print("Locale 'pt_PT.UTF-8' also not available. Please ensure locale is installed.")
 
 # Function to generate feed
 def generate_feed(feed_config):
@@ -34,6 +46,9 @@ def generate_feed(feed_config):
     min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
 
     output_data = []  # List to store entry data
+
+    # Set locale for date parsing
+    set_locale()
 
     for i in range(min_len):
         fe = fg.add_entry()
@@ -89,10 +104,4 @@ def generate_feed(feed_config):
     # Write output_data to JSON file with pretty formatting
     json_file_path = os.path.join(output_path, 'feed.json')
     with open(json_file_path, 'w') as json_file:
-        json.dump(output_data, json_file, indent=4)  # Indent for pretty formatting
-
-    print(f"JSON file '{json_file_path}' created successfully.")
-
-# Generate feeds for each item in the feeds list imported from feed.py
-for feed_config in feeds:
-    generate_feed(feed_config)
+        json.dump(output_data, json
