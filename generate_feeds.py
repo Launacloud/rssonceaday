@@ -5,10 +5,9 @@ from urllib.parse import urljoin
 import requests
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
-from pytz import timezone
-import locale
-from feed import feeds
 import feedparser  # Import feedparser
+
+from feed import feeds
 
 def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
@@ -31,7 +30,7 @@ def generate_feed(feed_config):
     fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
     atom_file_path = os.path.join(feed_config["output_path"], 'atom.xml')
-    existing_entries = []
+    output_data = []  # Initialize output_data to store entry data
 
     # Load existing entries if the XML file exists
     if os.path.exists(atom_file_path):
@@ -46,11 +45,17 @@ def generate_feed(feed_config):
                 fe.author(name=entry.author)
             if hasattr(entry, 'published'):
                 fe.published(entry.published)
-            existing_entries.append(fe)
+
+            entry_data = {
+                "Title": entry.title,
+                "ID": entry.id,
+                "Description": entry.description
+            }
+            if hasattr(entry, 'author'):
+                entry_data["Author"] = entry.author
+            output_data.append(entry_data)
 
     min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
-
-    new_entries = []  # List to store new entry data
 
     for i in range(min_len):
         fe = fg.add_entry()
@@ -76,13 +81,20 @@ def generate_feed(feed_config):
             author_text = authors[i].text if i < len(authors) else "No author found"
             fe.author(name=author_text)
 
-        new_entries.append(fe)
-
-    # Write the updated feed to the XML file
-    fg.atom_file(atom_file_path)
+        entry_data = {
+            "Title": titles[i].text,
+            "ID": item_url,
+            "Description": description_text
+        }
+        if authors:
+            entry_data["Author"] = author_text
+        output_data.append(entry_data)
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
+
+    atom_file_path = os.path.join(output_path, 'atom.xml')
+    fg.atom_file(atom_file_path)
 
     json_file_path = os.path.join(output_path, 'feed.json')
     with open(json_file_path, 'w') as json_file:
