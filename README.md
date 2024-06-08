@@ -7,6 +7,7 @@ Inspired by TabHub Rssify (https://tabhub.github.io/)
 
 ## Edit
 
+Edit the file feeds.py to fill your needs.
 ```feeds = [
     {
         "title": "Palavra do Dia RSS",  # The title of the RSS feed
