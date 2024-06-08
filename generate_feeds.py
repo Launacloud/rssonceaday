@@ -9,19 +9,6 @@ from pytz import timezone
 import locale
 from feed import feeds
 
-def extract_date(soup, item_date_css):
-    date_element = soup.select_one(item_date_css)  # Use item_date_css selector
-    if date_element:
-        date_text = date_element.text.strip()
-
-        # Convert the date text from '%A, %d de %B de %Y' to '%d/%m/%Y'
-        date_obj = datetime.strptime(date_text, '%A, %d de %B de %Y')
-        formatted_date = date_obj.strftime('%d/%m/%Y')
-        return formatted_date
-    else:
-        print("Date element not found.")
-    return None
-
 def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'html.parser')
