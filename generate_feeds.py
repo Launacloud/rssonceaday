@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from pytz import timezone
 import locale
 from feed import feeds
+import feedparser  # Import feedparser
 
 def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
@@ -34,8 +35,18 @@ def generate_feed(feed_config):
 
     # Load existing entries if the XML file exists
     if os.path.exists(atom_file_path):
-        fg.load_atom(atom_file_path)
-        existing_entries = fg.entry()
+        existing_feed = feedparser.parse(atom_file_path)
+        for entry in existing_feed.entries:
+            fe = fg.add_entry()
+            fe.id(entry.id)
+            fe.title(entry.title)
+            fe.link(href=entry.link)
+            fe.description(entry.description)
+            if hasattr(entry, 'author'):
+                fe.author(name=entry.author)
+            if hasattr(entry, 'published'):
+                fe.published(entry.published)
+            existing_entries.append(fe)
 
     min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
 
@@ -67,22 +78,18 @@ def generate_feed(feed_config):
 
         new_entries.append(fe)
 
-    # Combine existing and new entries
-    combined_entries = existing_entries + new_entries
-
-    # Clear existing entries in the feed generator
-    fg._feed.entries.clear()
-
-    # Add combined entries back to the feed generator
-    for entry in combined_entries:
-        fg._add_entry(entry)
+    # Write the updated feed to the XML file
+    fg.atom_file(atom_file_path)
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
 
-    fg.atom_file(atom_file_path)
+    json_file_path = os.path.join(output_path, 'feed.json')
+    with open(json_file_path, 'w') as json_file:
+        json.dump(output_data, json_file, indent=4)
 
     print(f"XML file '{atom_file_path}' updated successfully.")
+    print(f"JSON file '{json_file_path}' created successfully.")
 
 for feed_config in feeds:
     generate_feed(feed_config)
