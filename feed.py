@@ -94,7 +94,7 @@ feeds = [
 {
     "title": "Devocional de Hoje",
     "subtitle": "Devocional de Hoje por biblia on",
-    "url": "https://www.bibliaon.com/devocional_de_hoje/",
+    "url": "https://www.bibliaon.com/devocional_diario/",
     "author_name": "Lau",
     "author_email": "author@example.com",
     "copyright": "Biblia",
