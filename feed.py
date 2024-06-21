@@ -7,7 +7,7 @@ feeds = [
         "author_email": "None",
         "copyright": "Dicio",
         "language": "pt",
-        "item_title_css": ".word-of-day .title",
+        "item_title_css": ".word-of-day .title .word-of-day--text-wrap",
         "item_url_css": ".word-of-day--subtitle a",
         "item_author_css": None,
         "item_description_css": ".word-of-day--text-wrap .word-of-day--description, .word-of-day--extra",
