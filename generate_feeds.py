@@ -22,13 +22,15 @@ def generate_feed(feed_config):
     extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []
     stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
 
-    fg = FeedGenerator()
-    fg.id(feed_config["url"])
-    fg.title(feed_config["title"])
-    fg.subtitle(feed_config["subtitle"])
-    fg.link(href=feed_config["url"], rel='alternate')
-    fg.language(feed_config["language"])
-    fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
+    
+   fg = FeedGenerator()
+   fg.id(feed_config["url"])
+   fg.title(feed_config["title"])
+   fg.stitle(feed_config["stitle"])  # Include stitle in the feed
+   fg.subtitle(feed_config["subtitle"])
+   fg.link(href=feed_config["url"], rel='alternate')
+   fg.language(feed_config["language"])
+   fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
     atom_file_path = os.path.join(feed_config["output_path"], 'atom.xml')
     existing_ids = set()  # To track existing entry IDs
