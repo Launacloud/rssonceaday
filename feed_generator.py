@@ -49,7 +49,7 @@ def generate_feed(feed_config):
     # Generate JSON file
     json_file_path = os.path.join(output_path, 'feed.json')
     with open(json_file_path, 'w') as json_file:
-        json.dump(entries, json_file, indent=4)  # Check the syntax here
+        json.dump(entries, json_file, indent=4)
 
 # Generate feeds for each item in the feeds list imported from feed.py
 for feed_config in feeds:
