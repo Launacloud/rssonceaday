@@ -7,7 +7,7 @@ feeds = [
         "author_email": "None",
         "copyright": "Dicio",
         "language": "pt",
-        "item_title_css": ".word-of-day .title",
+        "item_title_css": ".word-of-day--subtitle",
         "item_stitle_css": ".word-of-day--subtitle",  # Add the correct CSS selector for `stitle`
         "item_url_css": ".word-of-day--subtitle a",
         "item_author_css": None,
