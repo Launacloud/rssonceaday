@@ -13,7 +13,9 @@ def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'html.parser')
 
-    titles = soup.select(feed_config["item_title_css"])
+    # Combine title and Stitle selection into one line
+    titles = soup.select(feed_config["item_title_css"]) + soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
+
     urls = soup.select(feed_config["item_url_css"])
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
     authors = soup.select(feed_config["item_author_css"]) if feed_config["item_author_css"] else []
@@ -102,18 +104,16 @@ def generate_feed(feed_config):
         output_data.append(entry_data)
 
     output_path = feed_config["output_path"]
-os.makedirs(output_path, exist_ok=True)
+    os.makedirs(output_path, exist_ok=True)
 
-fg.atom_file(atom_file_path)
+    fg.atom_file(atom_file_path)
 
-json_file_path = os.path.join(output_path, 'feed.json')
-with open(json_file_path, 'w') as json_file:
-    json.dump(output_data, json_file, indent=4)
+    json_file_path = os.path.join(output_path, 'feed.json')
+    with open(json_file_path, 'w') as json_file:
+        json.dump(output_data, json_file, indent=4)
 
-print(f"XML file '{atom_file_path}' updated successfully.")
-print(f"JSON file '{json_file_path}' created successfully.")
+    print(f"XML file '{atom_file_path}' updated successfully.")
+    print(f"JSON file '{json_file_path}' created successfully.")
 
 for feed_config in feeds:
-generate_feed(feed_config)
-
-Make title = titles = soup.select(feed_config["item_title_css"]) +Stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
+    generate_feed(feed_config)
