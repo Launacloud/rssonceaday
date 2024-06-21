@@ -22,15 +22,14 @@ def generate_feed(feed_config):
     extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []
     stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
 
-    
-   fg = FeedGenerator()
-   fg.id(feed_config["url"])
-   fg.title(feed_config["title"])
-   fg.stitle(feed_config["stitle"])  # Include stitle in the feed
-   fg.subtitle(feed_config["subtitle"])
-   fg.link(href=feed_config["url"], rel='alternate')
-   fg.language(feed_config["language"])
-   fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
+    fg = FeedGenerator()
+    fg.id(feed_config["url"])
+    fg.title(feed_config["title"])
+    fg.stitle(feed_config["stitle"])  # Include stitle in the feed
+    fg.subtitle(feed_config["subtitle"])
+    fg.link(href=feed_config["url"], rel='alternate')
+    fg.language(feed_config["language"])
+    fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
     atom_file_path = os.path.join(feed_config["output_path"], 'atom.xml')
     existing_ids = set()  # To track existing entry IDs
@@ -75,6 +74,8 @@ def generate_feed(feed_config):
         
         # Handle stitle for each entry
         stitle_text = stitles[i].text if i < len(stitles) else "No stitle"
+                # Add stitle to the entry
+        fe.stitle(stitle_text)
 
         description_text = descriptions[i].text if i < len(descriptions) else "No description found"
         description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
@@ -89,9 +90,6 @@ def generate_feed(feed_config):
 
         fe.description(description_text)
         
-        # Add stitle to the entry
-        fe.stitle(stitle_text)
-
         if authors:
             author_text = authors[i].text if i < len(authors) else "No author found"
             fe.author(name=author_text)
