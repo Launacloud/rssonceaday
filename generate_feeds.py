@@ -14,6 +14,7 @@ def generate_feed(feed_config):
     soup = BeautifulSoup(r.text, 'html.parser')
 
     titles = soup.select(feed_config["item_title_css"])
+    stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
     urls = soup.select(feed_config["item_url_css"])
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
     authors = soup.select(feed_config["item_author_css"]) if feed_config["item_author_css"] else []
@@ -49,6 +50,7 @@ def generate_feed(feed_config):
 
             entry_data = {
                 "Title": entry.title,
+                "Stitle": entry.get('stitle', 'No stitle found'),  # Add Stitle right after Title
                 "ID": entry.id,
                 "Description": entry.description
             }
@@ -57,7 +59,7 @@ def generate_feed(feed_config):
             output_data.append(entry_data)
             existing_ids.add(entry.id)  # Add ID to the set
 
-    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
+    min_len = min(len(titles), len(stitles) or len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
 
     for i in range(min_len):
         item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
@@ -87,8 +89,12 @@ def generate_feed(feed_config):
             author_text = authors[i].text if i < len(authors) else "No author found"
             fe.author(name=author_text)
 
+        stitle_text = stitles[i].text if i < len(stitles) else "No stitle found"
+        fe.custom_namespace['stitle'] = stitle_text  # Add stitle to the entry
+
         entry_data = {
             "Title": titles[i].text,
+            "Stitle": stitle_text,  # Add Stitle right after Title
             "ID": item_url,
             "Description": description_text
         }
