@@ -90,7 +90,7 @@ def generate_feed(feed_config):
             fe.author(name=author_text)
 
         entry_data = {
-            "Title": fe.title,
+            "Title": fe.title(),
             "ID": item_url,
             "Description": description_text
         }
