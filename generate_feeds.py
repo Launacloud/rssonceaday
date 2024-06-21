@@ -77,11 +77,11 @@ def generate_feed(feed_config):
 
         if extras:
             extra_text = extras[i].text if i < len(extras) else "No extra information found"
-            description_text += f"\n\n {extra_text}"
+            description_text += f"\n\nExtra 1: {extra_text}"
         
         if extras2:
             extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
-            description_text += f"\n\n {extra2_text}"
+            description_text += f"\n\nExtra 2: {extra2_text}"
 
         fe.description(description_text)
 
