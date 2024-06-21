@@ -13,7 +13,7 @@ feeds = [
         "item_author_css": None,
         "item_description_css": ".word-of-day--text-wrap .word-of-day--description, .word-of-day--extra",
         "item_extra_css": ".word-of-day--extra",  # Added item_extra_css for the extra field
-        "item_extra_css2": "p.adicional",  # Added item_extra_css2 for the second extra field
+        #"item_extra_css2": "p.adicional",  # Added item_extra_css2 for the second extra field
         "item_date_css": ".word-of-day .title",
         "item_date_format": "%d/%m/%Y",
         "item_timezone": "America/Sao_Paulo",
