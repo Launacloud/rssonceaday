@@ -1,23 +1,20 @@
 import os
-import json
-from datetime import datetime
 from urllib.parse import urljoin
 import requests
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
-import feedparser
+import json
 
-from feed import feeds
-
+# Function to generate feed
 def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'html.parser')
 
     titles = soup.select(feed_config["item_title_css"])
     urls = soup.select(feed_config["item_url_css"])
-    descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
-    authors = soup.select(feed_config["item_author_css"]) if feed_config["item_author_css"] else []
-    dates = soup.select(feed_config["item_date_css"]) if feed_config["item_date_css"] else []
+    descriptions = soup.select(feed_config["item_description_css"]) if "item_description_css" in feed_config else []
+    authors = soup.select(feed_config["item_author_css"]) if "item_author_css" in feed_config else []
+    dates = soup.select(feed_config["item_date_css"]) if "item_date_css" in feed_config else []
     extras = soup.select(feed_config["item_extra_css"]) if "item_extra_css" in feed_config else []
     extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []
     Stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
@@ -58,7 +55,7 @@ def generate_feed(feed_config):
             output_data.append(entry_data)
             existing_ids.add(entry.id)  # Add ID to the set
 
-    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
+    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles), len(Stitles) or len(titles))
 
     for i in range(min_len):
         item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
@@ -71,10 +68,7 @@ def generate_feed(feed_config):
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
 
-        if stitle:
-            stitle_text = stitle[i].text if i < len(stitle) else "No stitle"
-            description_text += f"\n\n Palavra: {stitle}"
-            
+        stitle_text = Stitles[i].text if i < len(Stitles) else "No stitle"
         description_text = descriptions[i].text if i < len(descriptions) else "No description found"
         description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
 
@@ -86,7 +80,6 @@ def generate_feed(feed_config):
             extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
             description_text += f"\n\nExtra 2: {extra2_text}"
 
-        
         fe.description(description_text)
 
         if authors:
@@ -95,6 +88,7 @@ def generate_feed(feed_config):
 
         entry_data = {
             "Title": titles[i].text,
+            "Stitle": stitle_text,  # Include Stitle in the entry data
             "ID": item_url,
             "Description": description_text
         }
@@ -114,5 +108,6 @@ def generate_feed(feed_config):
     print(f"XML file '{atom_file_path}' updated successfully.")
     print(f"JSON file '{json_file_path}' created successfully.")
 
+# Generate feeds for each item in the feeds list imported from feed.py
 for feed_config in feeds:
     generate_feed(feed_config)
