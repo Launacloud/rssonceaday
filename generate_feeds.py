@@ -14,13 +14,14 @@ def generate_feed(feed_config):
     soup = BeautifulSoup(r.text, 'html.parser')
 
     titles = soup.select(feed_config["item_title_css"])
-    stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
     urls = soup.select(feed_config["item_url_css"])
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
     authors = soup.select(feed_config["item_author_css"]) if feed_config["item_author_css"] else []
     dates = soup.select(feed_config["item_date_css"]) if feed_config["item_date_css"] else []
     extras = soup.select(feed_config["item_extra_css"]) if "item_extra_css" in feed_config else []
     extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []
+    stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
+        
 
     fg = FeedGenerator()
     fg.id(feed_config["url"])
@@ -50,7 +51,7 @@ def generate_feed(feed_config):
 
             entry_data = {
                 "Title": entry.title,
-                "Stitle": entry.get('stitle', 'No stitle found'),  # Add Stitle right after Title
+                "Stitle": entry.subtitle if hasattr(entry, 'subtitle') else "No stitle found",
                 "ID": entry.id,
                 "Description": entry.description
             }
@@ -59,7 +60,7 @@ def generate_feed(feed_config):
             output_data.append(entry_data)
             existing_ids.add(entry.id)  # Add ID to the set
 
-    min_len = min(len(titles), len(stitles) or len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
+    min_len = min(len(titles), len(urls), len(descriptions), len(authors), len(dates), len(extras), len(extras2), len(stitles))
 
     for i in range(min_len):
         item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
@@ -68,7 +69,7 @@ def generate_feed(feed_config):
             continue  # Skip if the entry already exists
 
         fe = fg.add_entry()
-        fe.title(titles[i].text)
+        fe.title(titles[i].text + " - " + stitles[i].text if stitles and i < len(stitles) else titles[i].text)
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
 
@@ -85,16 +86,18 @@ def generate_feed(feed_config):
 
         fe.description(description_text)
 
+        if stitles:
+            stitle_text = stitles[i].text if i < len(stitles) else "No stitle found"
+            description_text += f"\n\nStitle: {stitle_text}"
+            fe.description(description_text)  # Update the description with stitle
+
         if authors:
             author_text = authors[i].text if i < len(authors) else "No author found"
             fe.author(name=author_text)
 
-        stitle_text = stitles[i].text if i < len(stitles) else "No stitle found"
-        fe.custom_namespace['stitle'] = stitle_text  # Add stitle to the entry
-
         entry_data = {
             "Title": titles[i].text,
-            "Stitle": stitle_text,  # Add Stitle right after Title
+            "Stitle": stitle_text if stitles else "No stitle found",  # Extract stitle here
             "ID": item_url,
             "Description": description_text
         }
@@ -109,10 +112,4 @@ def generate_feed(feed_config):
 
     json_file_path = os.path.join(output_path, 'feed.json')
     with open(json_file_path, 'w') as json_file:
-        json.dump(output_data, json_file, indent=4)
-
-    print(f"XML file '{atom_file_path}' updated successfully.")
-    print(f"JSON file '{json_file_path}' created successfully.")
-
-for feed_config in feeds:
-    generate_feed(feed_config)
+        json.dump(output_data, json_file, indent
