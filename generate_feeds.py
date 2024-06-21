@@ -68,7 +68,7 @@ def generate_feed(feed_config):
 
         fe = fg.add_entry()
         # Combine title with stitle to create the feed entry title
-        fe.title(f"{titles[i].text} ({stitles[i].text})" if i < len(stitles) else titles[i].text)
+        fe.title(f"{titles[i].text} - {stitles[i].text}" if i < len(stitles) else titles[i].text)
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
         
