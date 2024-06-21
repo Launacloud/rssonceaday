@@ -22,7 +22,6 @@ def generate_feed(feed_config):
     extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []
     stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
 
-
     fg = FeedGenerator()
     fg.id(feed_config["url"])
     fg.title(feed_config["title"])
@@ -59,7 +58,7 @@ def generate_feed(feed_config):
             output_data.append(entry_data)
             existing_ids.add(entry.id)  # Add ID to the set
 
-    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles))
+    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles), len(stitles) or len(titles))  # Consider the minimum length of all lists
 
     for i in range(min_len):
         item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
@@ -72,7 +71,9 @@ def generate_feed(feed_config):
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
         
-        stitle_text = Stitles[i].text if i < len(Stitles) else "No stitle"
+        # Handle stitle for each entry
+        stitle_text = stitles[i].text if i < len(stitles) else "No stitle"
+
         description_text = descriptions[i].text if i < len(descriptions) else "No description found"
         description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
 
@@ -92,7 +93,7 @@ def generate_feed(feed_config):
 
         entry_data = {
             "Title": titles[i].text,
-            "Stitle": stitle_text,  # Include Stitle in the entry data
+            "Stitle": stitle_text,
             "ID": item_url,
             "Description": description_text
         }
@@ -101,16 +102,18 @@ def generate_feed(feed_config):
         output_data.append(entry_data)
 
     output_path = feed_config["output_path"]
-    os.makedirs(output_path, exist_ok=True)
+os.makedirs(output_path, exist_ok=True)
 
-    fg.atom_file(atom_file_path)
+fg.atom_file(atom_file_path)
 
-    json_file_path = os.path.join(output_path, 'feed.json')
-    with open(json_file_path, 'w') as json_file:
-        json.dump(output_data, json_file, indent=4)
+json_file_path = os.path.join(output_path, 'feed.json')
+with open(json_file_path, 'w') as json_file:
+    json.dump(output_data, json_file, indent=4)
 
-    print(f"XML file '{atom_file_path}' updated successfully.")
-    print(f"JSON file '{json_file_path}' created successfully.")
+print(f"XML file '{atom_file_path}' updated successfully.")
+print(f"JSON file '{json_file_path}' created successfully.")
 
 for feed_config in feeds:
-    generate_feed(feed_config)
+generate_feed(feed_config)
+
+Make title = titles = soup.select(feed_config["item_title_css"]) +Stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
