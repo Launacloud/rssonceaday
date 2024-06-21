@@ -13,9 +13,7 @@ def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'html.parser')
 
-    # Combine title and Stitle selection into one line
-    titles = soup.select(feed_config["item_title_css"]) + soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
-
+    titles = soup.select(feed_config["item_title_css"])
     urls = soup.select(feed_config["item_url_css"])
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
     authors = soup.select(feed_config["item_author_css"]) if feed_config["item_author_css"] else []
@@ -81,13 +79,16 @@ def generate_feed(feed_config):
 
         if extras:
             extra_text = extras[i].text if i < len(extras) else "No extra information found"
-            description_text += f"\n\nExtra 1: {extra_text}"
+            description_text += f"\n\n {extra_text}"
         
         if extras2:
             extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
-            description_text += f"\n\nExtra 2: {extra2_text}"
+            description_text += f"\n\n {extra2_text}"
 
         fe.description(description_text)
+        
+        # Add stitle to the entry
+        fe.stitle(stitle_text)
 
         if authors:
             author_text = authors[i].text if i < len(authors) else "No author found"
