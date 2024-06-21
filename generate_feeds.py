@@ -25,7 +25,6 @@ def generate_feed(feed_config):
     fg = FeedGenerator()
     fg.id(feed_config["url"])
     fg.title(feed_config["title"])
-    fg.stitle(feed_config["stitle"])  # Include stitle in the feed
     fg.subtitle(feed_config["subtitle"])
     fg.link(href=feed_config["url"], rel='alternate')
     fg.language(feed_config["language"])
@@ -68,15 +67,11 @@ def generate_feed(feed_config):
             continue  # Skip if the entry already exists
 
         fe = fg.add_entry()
-        fe.title(titles[i].text)
+        # Combine title with stitle to create the feed entry title
+        fe.title(f"{titles[i].text} ({stitles[i].text})" if i < len(stitles) else titles[i].text)
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
         
-        # Handle stitle for each entry
-        stitle_text = stitles[i].text if i < len(stitles) else "No stitle"
-                # Add stitle to the entry
-        fe.stitle(stitle_text)
-
         description_text = descriptions[i].text if i < len(descriptions) else "No description found"
         description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
 
@@ -89,14 +84,13 @@ def generate_feed(feed_config):
             description_text += f"\n\n {extra2_text}"
 
         fe.description(description_text)
-        
+
         if authors:
             author_text = authors[i].text if i < len(authors) else "No author found"
             fe.author(name=author_text)
 
         entry_data = {
-            "Title": titles[i].text,
-            "Stitle": stitle_text,
+            "Title": fe.title,
             "ID": item_url,
             "Description": description_text
         }
