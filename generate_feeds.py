@@ -20,6 +20,7 @@ def generate_feed(feed_config):
     dates = soup.select(feed_config["item_date_css"]) if feed_config["item_date_css"] else []
     extras = soup.select(feed_config["item_extra_css"]) if "item_extra_css" in feed_config else []
     extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []
+    Stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
 
     fg = FeedGenerator()
     fg.id(feed_config["url"])
@@ -70,6 +71,10 @@ def generate_feed(feed_config):
         fe.id(item_url)
         fe.link(href=item_url, rel='alternate')
 
+        if stitle:
+            stitle_text = stitle[i].text if i < len(stitle) else "No stitle"
+            description_text += f"\n\n Palavra: {stitle}"
+            
         description_text = descriptions[i].text if i < len(descriptions) else "No description found"
         description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
 
@@ -81,6 +86,7 @@ def generate_feed(feed_config):
             extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
             description_text += f"\n\nExtra 2: {extra2_text}"
 
+        
         fe.description(description_text)
 
         if authors:
