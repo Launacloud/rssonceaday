@@ -1,3 +1,4 @@
+# Import necessary modules
 import os
 from urllib.parse import urljoin
 from datetime import datetime
@@ -6,6 +7,9 @@ from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
 from pytz import timezone
 import json
+
+# Import feeds from external file
+from feed import feeds
 
 # Function to generate feed
 def generate_feed(feed_config):
