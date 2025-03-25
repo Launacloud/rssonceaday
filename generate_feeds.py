@@ -56,7 +56,7 @@ def fetch_webpage(url: str, retries: int = 3) -> BeautifulSoup:
             if attempt == retries - 1:
                 raise FeedGenerationError(f"Failed to fetch {url} after {retries} attempts: {str(e)}")
             time.sleep(2 ** attempt)  # Exponential backoff
-    return None  # This line will never be reached due to the raise above
+    return None
 
 def extract_elements(soup: BeautifulSoup, css_selector: str) -> List:
     """Extract elements from soup using CSS selector"""
@@ -111,7 +111,7 @@ def load_existing_entries(fg: FeedGenerator, atom_file_path: str) -> tuple[set, 
     return existing_ids, output_data
 
 def generate_feed(feed_config: Dict) -> None:
-    """Generate RSS feed from website content"""
+    """Generate RSS feed from website content and print last 3 entries"""
     try:
         validate_config(feed_config)
         
@@ -147,6 +147,9 @@ def generate_feed(feed_config: Dict) -> None:
         # Calculate minimum length of all element lists
         min_len = min(len(lst) or float('inf') for lst in elements.values())
         
+        # Store new entries for printing
+        new_entries = []
+        
         # Add new entries
         for i in range(min(min_len, len(elements["titles"]))):
             item_url = urljoin(feed_config["url"], 
@@ -175,16 +178,31 @@ def generate_feed(feed_config: Dict) -> None:
                     description += f"\n{default}"
             
             fe.description(description)
-            if elements["authors"] and i < len(elements["authors"]):
-                fe.author(name=elements["authors"][i].text)
+            author = elements["authors"][i].text if elements["authors"] and i < len(elements["authors"]) else None
+            if author:
+                fe.author(name=author)
             
-            output_data.append({
+            entry_data = {
                 "Title": title,
                 "ID": item_url,
                 "Description": description,
-                **({"Author": elements["authors"][i].text} 
-                   if elements["authors"] and i < len(elements["authors"]) else {})
-            })
+                **({"Author": author} if author else {})
+            }
+            output_data.append(entry_data)
+            new_entries.append(entry_data)
+        
+        # Print last 3 new entries
+        if new_entries:
+            logger.info(f"Last 3 new entries from {feed_config['url']}:")
+            for entry in new_entries[-3:]:
+                logger.info(f"Title: {entry['Title']}")
+                logger.info(f"URL: {entry['ID']}")
+                logger.info(f"Description: {entry['Description']}")
+                if 'Author' in entry:
+                    logger.info(f"Author: {entry['Author']}")
+                logger.info("-" * 50)
+        else:
+            logger.info(f"No new entries found for {feed_config['url']}")
         
         # Save outputs
         fg.atom_file(atom_file_path)
