@@ -9,7 +9,7 @@ import feedparser
 
 from feed import feeds
 
-def generate_feed(feed_config, print_last_entries=True):
+def generate_feed(feed_config, print_last_entries=False):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'html.parser')
 
