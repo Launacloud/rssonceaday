@@ -10,7 +10,7 @@ import feedparser
 from feed import feeds
 
 # Set the flag at the beginning of the script
-should_print_last_entries = True  # Change to False to skip printing the last entries
+should_print_last_entries = False  # Change to False/True to skip printing the last entries
 
 # Define the function to generate the feed
 def generate_feed(feed_config, should_print_last_entries=False):
