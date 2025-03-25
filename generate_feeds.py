@@ -1,3 +1,18 @@
+import os
+import json
+import logging
+from datetime import datetime
+from urllib.parse import urljoin
+import requests
+from feedgen.feed import FeedGenerator
+from bs4 import BeautifulSoup
+import feedparser
+from typing import Dict, List, Optional  # Ensure this line is present
+from concurrent.futures import ThreadPoolExecutor
+from functools import lru_cache
+import time
+from dataclasses import dataclass
+
 def generate_feed(feed_config: Dict) -> None:
     """Generate RSS feed from website content and print last 3 entries with dates"""
     try:
