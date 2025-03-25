@@ -38,7 +38,7 @@ feeds = [
         "output_path": "feeds/example_feed",
         "formats": ["xml", "json"]
     },
-    {
+{
     "title": "Versículo do Dia",
     "subtitle": "Versículo do Dia por biblia on",
     "url": "https://www.bibliaon.com/versiculo_do_dia/",
@@ -46,11 +46,11 @@ feeds = [
     "author_email": "author@example.com",
     "copyright": "Biblia",
     "language": "pt",
-    "item_title_css": ".v_dia .destaque a",
-    "item_url_css": ".v_dia .destaque a",
+    "item_title_css": ".v_dia .destaque a",  
+    "item_url_css": ".v_dia .destaque a",  
     "item_author_css": "",
     "item_description_css": ".v_dia .destaque",
-    "item_date_css": ".v_dia .v_date",
+    "item_date_css": ".v_dia .v_date:nth-child(2)",  
     "item_date_format": "%d de %B de %Y",
     "item_timezone": "GMT-3",
     "output_path": "feeds/versículo_do_dia",
