@@ -24,7 +24,8 @@ jobs:
 
       - name: Generate RSS and JSON Feeds
         run: |
-          python generate_feeds.py
+          # Run the Python script and capture logs to output.log
+          python generate_feeds.py | tee output.log
           
           # Configure git
           git config --global user.name 'github-actions'
@@ -34,8 +35,8 @@ jobs:
           git pull origin main
           
           # Add changes to git
-          git add feeds/**/*.xml feeds/**/*.json
-          
+          git add feeds/**/*.xml feeds/**/*.json output.log  # Add the output.log file
+
           # Commit and push if there are changes
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update RSS and JSON Feeds"
