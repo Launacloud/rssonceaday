@@ -13,9 +13,36 @@ from functools import lru_cache
 import time
 from dataclasses import dataclass
 
+# 🔹 Configuração do log (mude para False se não quiser gravar em arquivo)
+WRITE_LOG_TO_FILE = True  
+LOG_FILE = "output.log"
+
+# 🔹 Configuração do logging
+if WRITE_LOG_TO_FILE:
+    logging.basicConfig(
+        filename=LOG_FILE, 
+        filemode='a', 
+        level=logging.INFO, 
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
+else:
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
+
+logger = logging.getLogger(__name__)
+
+# 🔹 Criar log caso não exista
+if WRITE_LOG_TO_FILE and not os.path.exists(LOG_FILE):
+    with open(LOG_FILE, "w") as f:
+        f.write("Log File Created\n")
+
 def generate_feed(feed_config: Dict) -> None:
     """Generate RSS feed from website content and print last 3 entries with dates"""
     try:
+        logger.info(f"📡 Iniciando a geração do feed para {feed_config['url']}")
+        
         validate_config(feed_config)
         
         # Fetch and parse webpage
@@ -34,7 +61,7 @@ def generate_feed(feed_config: Dict) -> None:
         }
         
         if not elements["titles"]:
-            raise FeedGenerationError("No titles found - check CSS selectors")
+            raise FeedGenerationError("❌ Nenhum título encontrado - verifique os seletores CSS")
         
         # Initialize feed generator
         fg = setup_feed_generator(feed_config)
@@ -103,33 +130,33 @@ def generate_feed(feed_config: Dict) -> None:
         
         # Print last 3 entries (new or old) with age check
         if output_data:
-            logger.info(f"Last 3 entries from {feed_config['url']} (new or old):")
+            logger.info(f"📌 Últimos 3 itens do feed de {feed_config['url']} (novos ou antigos):")
             for entry in output_data[-3:]:
                 entry_date = datetime.strptime(entry["Date"], '%Y-%m-%d %H:%M:%S') if entry["Date"] else current_date
                 age_days = (current_date - entry_date).days
                 is_old = age_days > 30  # Consider "old" if older than 30 days
                 
-                logger.info(f"Title: {entry['Title']}")
-                logger.info(f"URL: {entry['ID']}")
-                logger.info(f"Description: {entry['Description']}")
-                logger.info(f"Date: {entry['Date']}")
+                logger.info(f"🔹 Título: {entry['Title']}")
+                logger.info(f"🔹 URL: {entry['ID']}")
+                logger.info(f"🔹 Descrição: {entry['Description']}")
+                logger.info(f"🔹 Data: {entry['Date']}")
                 if 'Author' in entry:
-                    logger.info(f"Author: {entry['Author']}")
-                logger.info(f"Status: {'Old' if is_old else 'Recent'} (Age: {age_days} days)")
+                    logger.info(f"🔹 Autor: {entry['Author']}")
+                logger.info(f"🔹 Status: {'🔴 Antigo' if is_old else '🟢 Recente'} (Idade: {age_days} dias)")
                 logger.info("-" * 50)
         else:
-            logger.info(f"No entries found for {feed_config['url']}")
+            logger.info(f"⚠️ Nenhum item encontrado para {feed_config['url']}")
         
         # Save outputs
         fg.atom_file(atom_file_path)
         with open(os.path.join(output_path, 'feed.json'), 'w') as json_file:
             json.dump(output_data, json_file, indent=4)
         
-        logger.info(f"Successfully updated XML file: {atom_file_path}")
-        logger.info(f"Successfully created JSON file: {os.path.join(output_path, 'feed.json')}")
+        logger.info(f"✅ XML salvo com sucesso: {atom_file_path}")
+        logger.info(f"✅ JSON criado com sucesso: {os.path.join(output_path, 'feed.json')}")
         
     except (FeedConfigError, FeedGenerationError) as e:
         logger.error(str(e))
     except Exception as e:
-        logger.error(f"Unexpected error generating feed for {feed_config.get('url', 'unknown')}: {str(e)}", 
+        logger.error(f"❗ Erro inesperado ao gerar feed para {feed_config.get('url', 'desconhecido')}: {str(e)}", 
                     exc_info=True)
