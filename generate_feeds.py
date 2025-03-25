@@ -87,8 +87,8 @@ def generate_feed(feed_config, should_print_last_entries=False):
     print(f"XML file '{atom_file_path}' updated successfully.")
     print(f"JSON file '{json_file_path}' created successfully.")
 
-    # Optionally print the last 3 entries
-    if print_last_entries and len(output_data) > 0:
+    # Inside the generate_feed function, replace print_last_entries with should_print_last_entries
+    if should_print_last_entries and len(output_data) > 0:
         print("\n📌 Last 3 entries:")
         for entry in output_data[-3:]:
             entry_date = datetime.strptime(entry["Date"], '%Y-%m-%d %H:%M:%S') if entry.get("Date") else datetime.now()
