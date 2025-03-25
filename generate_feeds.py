@@ -1,8 +1,9 @@
 import os
 import json
+import hashlib
+import requests
 from datetime import datetime
 from urllib.parse import urljoin
-import requests
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
 import feedparser
@@ -12,22 +13,49 @@ from feed import feeds
 # Set the flag at the beginning of the script
 should_print_last_entries = False  # Change to False/True to skip printing the last entries
 
+# Define a function to generate a unique ID for each entry using only the title
+def generate_entry_id(title):
+    # Create a unique hash based on title only
+    unique_string = title.strip()
+    return hashlib.md5(unique_string.encode('utf-8')).hexdigest()
+
+# Define a function to load cache data
+def load_cache(cache_path):
+    if os.path.exists(cache_path):
+        with open(cache_path, 'r') as cache_file:
+            return json.load(cache_file)
+    return {}
+
+# Define a function to save cache data
+def save_cache(cache_data, cache_path):
+    with open(cache_path, 'w') as cache_file:
+        json.dump(cache_data, cache_file, indent=4)
+
 # Define the function to generate the feed
 def generate_feed(feed_config, should_print_last_entries=False):
-    # Perform the HTTP request to fetch the feed
-    r = requests.get(feed_config["url"])
-    
+    # Cache file path
+    cache_path = os.path.join(feed_config["output_path"], 'feed_cache.json')
+    cache_data = load_cache(cache_path)
+
+    # Perform the HTTP request to fetch the feed with ETag caching
+    headers = {}
+    if 'etag' in cache_data:
+        headers['If-None-Match'] = cache_data['etag']
+
+    r = requests.get(feed_config["url"], headers=headers)
+
     # Print the status code of the request
     print(f"Fetching {feed_config['url']} - Status Code: {r.status_code}")
     
-    # Check if the status code is 403, 503, or empty, and handle accordingly
-    if r.status_code in [403, 503]:
-        print(f"Error: Received status code {r.status_code} for {feed_config['url']}")
-        return  # Exit the function if there's an error
+    # If no new content (304 Not Modified), return early
+    if r.status_code == 304:
+        print("No new content since the last fetch.")
+        return
 
-    # If no issues, proceed with parsing the content
+    # Parse the feed content
     soup = BeautifulSoup(r.text, 'html.parser')
 
+    # Extract feed item elements based on CSS selectors
     titles = soup.select(feed_config["item_title_css"])
     urls = soup.select(feed_config["item_url_css"])
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
@@ -46,114 +74,77 @@ def generate_feed(feed_config, should_print_last_entries=False):
     fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
     atom_file_path = os.path.join(feed_config["output_path"], 'atom.xml')
-    existing_ids = set()  # To track existing entry IDs
     output_data = []
 
-    # Load existing entries if the XML file exists
-    if os.path.exists(atom_file_path):
-        existing_feed = feedparser.parse(atom_file_path)
-        for entry in existing_feed.entries:
-            fe = fg.add_entry()
-            fe.id(entry.id)
-            fe.title(entry.title)
-            fe.link(href=entry.link)
-            fe.description(entry.description)
-            if hasattr(entry, 'author'):
-                fe.author(name=entry.author)
-            if hasattr(entry, 'published'):
-                fe.published(entry.published)
+    # Update the cache with the new ETag
+    if 'etag' in r.headers:
+        cache_data['etag'] = r.headers['etag']
+        save_cache(cache_data, cache_path)
 
-            entry_data = {
-                "Title": entry.title,
-                "ID": entry.id,
-                "Description": entry.description
-            }
-            if hasattr(entry, 'author'):
-                entry_data["Author"] = entry.author
-            output_data.append(entry_data)
-            existing_ids.add(entry.id)  # Add ID to the set
-
-    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles), len(stitles) or len(titles))  # Consider the minimum length of all lists
+    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles), len(stitles) or len(titles))
 
     for i in range(min_len):
         item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
 
-        if item_url in existing_ids:
-            continue  # Skip if the entry already exists
+        # Generate a unique entry ID using only the title
+        entry_id = generate_entry_id(titles[i].text)
 
-        fe = fg.add_entry()
-        # Combine title with stitle to create the feed entry title
-        fe.title(f"{titles[i].text} - {stitles[i].text}" if i < len(stitles) else titles[i].text)
-        fe.id(item_url)
-        fe.link(href=item_url, rel='alternate')
-        
-        description_text = descriptions[i].text if i < len(descriptions) else "No description found"
-        description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
+        if entry_id not in cache_data:
+            fe = fg.add_entry()
+            fe.title(f"{titles[i].text} - {stitles[i].text}" if i < len(stitles) else titles[i].text)
+            fe.id(entry_id)
+            fe.link(href=item_url, rel='alternate')
 
-        if extras:
-            extra_text = extras[i].text if i < len(extras) else "No extra information found"
-            description_text += f"\n {extra_text}"
-        
-        if extras2:
-            extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
-            description_text += f"\n {extra2_text}"
+            description_text = descriptions[i].text if i < len(descriptions) else "No description found"
+            description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
 
-        fe.description(description_text)
+            if extras:
+                extra_text = extras[i].text if i < len(extras) else "No extra information found"
+                description_text += f"\n {extra_text}"
+            
+            if extras2:
+                extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
+                description_text += f"\n {extra2_text}"
 
-        if authors:
-            author_text = authors[i].text if i < len(authors) else "No author found"
-            fe.author(name=author_text)
+            fe.description(description_text)
 
-        entry_data = {
-            "Title": fe.title(),
-            "ID": item_url,
-            "Description": description_text
-        }
-        if authors:
-            entry_data["Author"] = author_text
-        output_data.append(entry_data)
+            if authors:
+                author_text = authors[i].text if i < len(authors) else "No author found"
+                fe.author(name=author_text)
 
+            entry_data = {
+                "Title": fe.title(),
+                "ID": entry_id,
+                "Description": description_text
+            }
+            if authors:
+                entry_data["Author"] = author_text
+            output_data.append(entry_data)
+            cache_data[entry_id] = True  # Mark entry as seen
+
+    # Save the updated cache data
+    save_cache(cache_data, cache_path)
+
+    # Save the generated feed as an Atom file
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
-
     fg.atom_file(atom_file_path)
 
+    # Save the feed data as JSON
     json_file_path = os.path.join(output_path, 'feed.json')
     with open(json_file_path, 'w') as json_file:
         json.dump(output_data, json_file, indent=4)
 
     print(f"XML file '{atom_file_path}' updated successfully.")
     print(f"JSON file '{json_file_path}' created successfully.")
+
     # Inside the generate_feed function, replace print_last_entries with should_print_last_entries
     if should_print_last_entries and len(output_data) > 0:
         print("\n📌 Last 3 entries:")
         for entry in output_data[-3:]:
-            entry_date = datetime.strptime(entry["Date"], '%Y-%m-%d %H:%M:%S') if entry.get("Date") else datetime.now()
-            age_days = (datetime.now() - entry_date).days
-            is_old = age_days > 30  # Consider "old" if older than 30 days
-
             print(f"🔹 Title: {entry['Title']}")
             print(f"🔹 URL: {entry['ID']}")
             print(f"🔹 Description: {entry['Description']}")
-            
-            if 'Date' in entry:
-                entry_date = datetime.strptime(entry["Date"], '%Y-%m-%d %H:%M:%S')
-                age_days = (datetime.now() - entry_date).days
-                
-                if age_days > 3:
-                    status = "🔴 Old"  # Red for old entries (older than 3 days)
-                else:
-                    status = "🟢 Recent"  # Green for recent entries (within 3 days)
-                
-                print(f"🔹 Date: {entry['Date']}")
-            else:
-                print("🔹 Date: Not available")
-                status = "🟡 No Date Available"  # Yellow for missing date
-
-            print(f"🔹 Status: {status}")
-            if 'Author' in entry:
-                print(f"🔹 Author: {entry['Author']}")
-            print(f"🔹 Status: {'🔴 Old' if is_old else '🟢 Recent'} (Age: {age_days} days)")
             print("-" * 50)
 
 for feed_config in feeds:
