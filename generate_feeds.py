@@ -9,7 +9,8 @@ import feedparser
 
 from feed import feeds
 
-def generate_feed(feed_config, print_last_entries=False):
+def generate_feed(feed_config): #generate_feed(feed_config, print_last_entries=True)  This will print the last 3 entries <generate_feed(feed_config)  # This will NOT print the last 3 entries>
+
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'html.parser')
 
