@@ -121,11 +121,22 @@ def generate_feed(feed_config, print_last_entries=True):
             print(f"🔹 Title: {entry['Title']}")
             print(f"🔹 URL: {entry['ID']}")
             print(f"🔹 Description: {entry['Description']}")
+            
             if 'Date' in entry:
+                entry_date = datetime.strptime(entry["Date"], '%Y-%m-%d %H:%M:%S')
+                age_days = (datetime.now() - entry_date).days
+                
+                if age_days > 3:
+                    status = "🔴 Old"  # Red for old entries (older than 3 days)
+                else:
+                    status = "🟢 Recent"  # Green for recent entries (within 3 days)
+                
                 print(f"🔹 Date: {entry['Date']}")
             else:
                 print("🔹 Date: Not available")
+                status = "🟡 No Date Available"  # Yellow for missing date
 
+            print(f"🔹 Status: {status}")
             if 'Author' in entry:
                 print(f"🔹 Author: {entry['Author']}")
             print(f"🔹 Status: {'🔴 Old' if is_old else '🟢 Recent'} (Age: {age_days} days)")
