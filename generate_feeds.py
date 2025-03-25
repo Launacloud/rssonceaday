@@ -121,7 +121,10 @@ def generate_feed(feed_config, print_last_entries=True):
             print(f"🔹 Title: {entry['Title']}")
             print(f"🔹 URL: {entry['ID']}")
             print(f"🔹 Description: {entry['Description']}")
-            print(f"🔹 Date: {entry['Date']}")
+            if 'Date' in entry:
+    logger.info(f"🔹 Date: {entry['Date']}")
+else:
+    logger.info(f"🔹 Date: Not available")
             if 'Author' in entry:
                 print(f"🔹 Author: {entry['Author']}")
             print(f"🔹 Status: {'🔴 Old' if is_old else '🟢 Recent'} (Age: {age_days} days)")
