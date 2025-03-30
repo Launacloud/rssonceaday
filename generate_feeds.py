@@ -118,7 +118,7 @@ def generate_feed(feed_config, should_print_last_entries=False):
     logging.info(f"Processed {len(fg.entry())} entries in FeedGenerator, {len(output_data)} entries in output_data")
 
     os.makedirs(feed_config["output_path"], exist_ok=True)
-    fg.atom_file(atom_file_path, overwrite=True)
+    fg.atom_file(atom_file_path)  # Removed overwrite=True
     with open(json_file_path, 'w') as json_file:
         json.dump(output_data, json_file, indent=4)
     logging.info(f"Updated '{atom_file_path}' with {len(fg.entry())} entries.")
@@ -144,6 +144,10 @@ def report_git_changes():
             logging.info(diff)
             logging.info("\n🔍 Summary:")
             logging.info(repo.git.diff('--stat'))
+            # Optional: Auto-commit changes
+            repo.git.add('feeds/', 'output.log')
+            repo.git.commit(m="Update RSS and JSON Feeds")
+            logging.info("Changes committed to Git.")
         else:
             logging.info("\n✅ No changes detected in the Git repository.")
     except Exception as e:
