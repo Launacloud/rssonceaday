@@ -7,11 +7,12 @@ from urllib.parse import urljoin
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
 import feedparser
+from git import Repo  # For Git integration
 
 from feed import feeds
 
 # Set the flag at the beginning of the script
-should_print_last_entries = False  # Change to False/True to skip printing the last entries
+should_print_last_entries = False  # Change to False/True to toggle printing the last entries
 
 # Define a function to generate a unique ID for each entry using only the title
 def generate_entry_id(title):
@@ -81,7 +82,9 @@ def generate_feed(feed_config, should_print_last_entries=False):
         cache_data['etag'] = r.headers['etag']
         save_cache(cache_data, cache_path)
 
-    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), len(extras2) or len(titles), len(stitles) or len(titles))
+    min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), 
+                  len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), 
+                  len(extras2) or len(titles), len(stitles) or len(titles))
 
     for i in range(min_len):
         item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
@@ -125,20 +128,30 @@ def generate_feed(feed_config, should_print_last_entries=False):
     # Save the updated cache data
     save_cache(cache_data, cache_path)
 
-    # Save the generated feed as an Atom file
+    # Save and verify the generated feed as an Atom file
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
-    fg.atom_file(atom_file_path)
+    atom_file_path = os.path.join(output_path, 'atom.xml')
+    fg.atom_file(atom_file_path)  # Generate the Atom XML file
 
-    # Save the feed data as JSON
+    # Verify Atom XML file
+    if os.path.exists(atom_file_path) and os.path.getsize(atom_file_path) > 0:
+        print(f"XML file '{atom_file_path}' updated successfully.")
+    else:
+        print(f"Error: XML file '{atom_file_path}' was not created or is empty.")
+
+    # Save and verify the feed data as JSON
     json_file_path = os.path.join(output_path, 'feed.json')
     with open(json_file_path, 'w') as json_file:
         json.dump(output_data, json_file, indent=4)
 
-    print(f"XML file '{atom_file_path}' updated successfully.")
-    print(f"JSON file '{json_file_path}' created successfully.")
+    # Verify JSON file
+    if os.path.exists(json_file_path) and os.path.getsize(json_file_path) > 0:
+        print(f"JSON file '{json_file_path}' created successfully.")
+    else:
+        print(f"Error: JSON file '{json_file_path}' was not created or is empty.")
 
-    # Inside the generate_feed function, replace print_last_entries with should_print_last_entries
+    # Print last entries if requested
     if should_print_last_entries and len(output_data) > 0:
         print("\n📌 Last 3 entries:")
         for entry in output_data[-3:]:
@@ -147,5 +160,24 @@ def generate_feed(feed_config, should_print_last_entries=False):
             print(f"🔹 Description: {entry['Description']}")
             print("-" * 50)
 
+# Function to check and report Git changes
+def report_git_changes():
+    try:
+        repo = Repo(os.getcwd())  # Open the Git repository in the current working directory
+        if repo.is_dirty(untracked_files=True):
+            print("\n📝 Git Changes Detected:")
+            diff = repo.git.status('--short')
+            print(diff)
+            print("\n🔍 Summary:")
+            print(repo.git.diff('--stat'))
+        else:
+            print("\n✅ No changes detected in the Git repository.")
+    except Exception as e:
+        print(f"Error accessing Git repository: {e}")
+
+# Run the feed generation for all feeds and report Git changes
 for feed_config in feeds:
     generate_feed(feed_config, should_print_last_entries=should_print_last_entries)
+
+# Report Git changes after processing all feeds
+report_git_changes()
