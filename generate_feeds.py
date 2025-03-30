@@ -2,7 +2,6 @@ import os
 import json
 import hashlib
 import requests
-from datetime import datetime
 from urllib.parse import urljoin
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
@@ -17,37 +16,38 @@ except ImportError:
 
 from feed import feeds
 
-should_print_last_entries = True  # Set to True to see entries in logs
+should_print_last_entries = True  # Keep True to see entries in logs
 
 def generate_entry_id(title):
     unique_string = title.strip()
     return hashlib.md5(unique_string.encode('utf-8')).hexdigest()
 
-def load_cache(cache_path):
-    if os.path.exists(cache_path):
-        with open(cache_path, 'r') as cache_file:
-            return json.load(cache_file)
-    return {}
-
-def save_cache(cache_data, cache_path):
-    with open(cache_path, 'w') as cache_file:
-        json.dump(cache_data, cache_file, indent=4)
+def load_existing_ids(json_file_path):
+    """Load existing entry IDs from the feed.json file."""
+    existing_ids = set()
+    if os.path.exists(json_file_path):
+        try:
+            with open(json_file_path, 'r') as json_file:
+                data = json.load(json_file)
+                for entry in data:
+                    if "ID" in entry:
+                        existing_ids.add(entry["ID"])
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Error loading existing IDs from {json_file_path}: {e}")
+    return existing_ids
 
 def generate_feed(feed_config, should_print_last_entries=False):
-    cache_path = os.path.join(feed_config["output_path"], 'feed_cache.json')
-    cache_data = load_cache(cache_path)
-    print(f"Cache loaded: {len(cache_data)} entries in {cache_path}")
+    # Load existing IDs from the feed.json file
+    json_file_path = os.path.join(feed_config["output_path"], 'feed.json')
+    existing_ids = load_existing_ids(json_file_path)
+    print(f"Loaded {len(existing_ids)} existing IDs from {json_file_path}")
 
-    headers = {}
-    if 'etag' in cache_data:
-        headers['If-None-Match'] = cache_data['etag']
-
-    r = requests.get(feed_config["url"], headers=headers)
+    r = requests.get(feed_config["url"])
     print(f"Fetching {feed_config['url']} - Status Code: {r.status_code}")
     print(f"Response length: {len(r.text)} characters")
 
-    if r.status_code == 304:
-        print("No new content since the last fetch.")
+    if r.status_code != 200:
+        print(f"Failed to fetch content from {feed_config['url']}")
         return
 
     soup = BeautifulSoup(r.text, 'html.parser')
@@ -77,10 +77,6 @@ def generate_feed(feed_config, should_print_last_entries=False):
 
     output_data = []
 
-    if 'etag' in r.headers:
-        cache_data['etag'] = r.headers['etag']
-        save_cache(cache_data, cache_path)
-
     min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), 
                   len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), 
                   len(extras2) or len(titles), len(stitles) or len(titles))
@@ -91,8 +87,9 @@ def generate_feed(feed_config, should_print_last_entries=False):
         entry_id = generate_entry_id(titles[i].text)
         print(f"Processing entry {i+1}: Title='{titles[i].text}', ID={entry_id}")
 
-        if entry_id not in cache_data:
-            print(f"New entry detected: {entry_id}")
+        # Check if the entry_id is already in the existing feed
+        if entry_id not in existing_ids:
+            print(f"Adding new entry: {entry_id}")
             fe = fg.add_entry()
             fe.title(f"{titles[i].text} - {stitles[i].text}" if i < len(stitles) else titles[i].text)
             fe.id(entry_id)
@@ -100,6 +97,15 @@ def generate_feed(feed_config, should_print_last_entries=False):
 
             description_text = descriptions[i].text if i < len(descriptions) else "No description found"
             description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
+
+            if extras:
+                extra_text = extras[i].text if i < len(extras) else "No extra information found"
+                description_text += f"\n {extra_text}"
+            
+            if extras2:
+                extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
+                description_text += f"\n {extra2_text}"
+
             fe.description(description_text)
 
             if authors:
@@ -114,11 +120,9 @@ def generate_feed(feed_config, should_print_last_entries=False):
             if authors:
                 entry_data["Author"] = author_text
             output_data.append(entry_data)
-            cache_data[entry_id] = True
+            existing_ids.add(entry_id)  # Add to in-memory set for this run
         else:
-            print(f"Entry {entry_id} already in cache, skipping.")
-
-    save_cache(cache_data, cache_path)
+            print(f"Entry already in feed, skipping: {entry_id}")
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
