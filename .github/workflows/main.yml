@@ -27,7 +27,7 @@ jobs:
       - name: Generate RSS and JSON Feeds
         run: |
           # Run the Python script and capture logs to output.log
-          python generate_feed.py | tee output.log
+          python generate_feeds.py | tee output.log
           
           # Configure git
           git config --global user.name 'github-actions'
