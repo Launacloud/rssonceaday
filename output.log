@@ -417,43 +417,20 @@ INFO:root:--------------------------------------------------
 INFO:root:
 📝 Git Changes Detected:
 INFO:root: M feeds/devocional_de_hoje/atom.xml
- M feeds/devocional_de_hoje/feed.json
  M feeds/palavra_biblica_do_dia/atom.xml
- M feeds/palavra_biblica_do_dia/feed.json
  M feeds/palavra_do_dia/atom.xml
- M feeds/palavra_do_dia/feed.json
  M feeds/salmo_do_dia/atom.xml
- M feeds/salmo_do_dia/feed.json
  M "feeds/vers\303\255culo_do_dia/atom.xml"
- M "feeds/vers\303\255culo_do_dia/feed.json"
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++++
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     | 117 +--------
- feeds/palavra_biblica_do_dia/feed.json    |   5 -
- feeds/palavra_do_dia/atom.xml             |  17 +-
- feeds/palavra_do_dia/feed.json            |  21 +-
- feeds/salmo_do_dia/atom.xml               | 128 +--------
- feeds/salmo_do_dia/feed.json              |  21 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
- "feeds/vers\303\255culo_do_dia/feed.json" |   5 -
- output.log                                | 420 +++++++++++++++++++++++++++++-
- 11 files changed, 491 insertions(+), 306 deletions(-)
-ERROR:root:Error accessing Git repository: Cmd('git') failed due to: exit code(128)
-  cmdline: git commit -m Update RSS and JSON Feeds
-  stderr: 'Author identity unknown
-
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: unable to auto-detect email address (got 'runner@fv-az2219-44.(none)')'
+INFO:root: feeds/devocional_de_hoje/atom.xml        |  4 ++--
+ feeds/palavra_biblica_do_dia/atom.xml    |  2 +-
+ feeds/palavra_do_dia/atom.xml            |  6 +++---
+ feeds/salmo_do_dia/atom.xml              |  6 +++---
+ "feeds/vers\303\255culo_do_dia/atom.xml" |  2 +-
+ output.log                               | 32 --------------------------------
+ 6 files changed, 10 insertions(+), 42 deletions(-)
+WARNING:root:Git operation failed (non-fatal): Cmd('git') failed due to: exit code(1)
+  cmdline: git config --get user.name
