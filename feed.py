@@ -93,21 +93,23 @@ feeds = [
     "formats": ["xml", "json"],
     },
 {
-    "title": "Devocional de Hoje",
-    "subtitle": "Devocional de Hoje por biblia on",
-    "url": "https://www.bibliaon.com/devocional_diario/",
-    "author_name": "Lau",
-    "author_email": "author@example.com",
-    "copyright": "Biblia",
-    "language": "pt",
-    "item_title_css": ".dev-title",
-    "item_url_css": ".articlebody a",
-    "item_author_css": "",
-    "item_description_css": ".articlebody",
-    "item_date_css": ".devcal-wrap",
-    "item_date_format": "%A, %d de %B de %Y",
-    "item_timezone": "GMT-3",
-    "output_path": "feeds/devocional_de_hoje",
-    "formats": ["xml", "json"]
-}
+    # Updated "Devocional de Hoje" feed
+    {
+        "title": "Devocional de Hoje",
+        "subtitle": "Devocional de Hoje por biblia on",
+        "url": "https://www.bibliaon.com/devocional_diario/",
+        "author_name": "Lau",
+        "author_email": "author@example.com",
+        "copyright": "Biblia",
+        "language": "pt",
+        "item_title_css": "div.dev-day .dev-title",  # Scope to dev-day
+        "item_url_css": "div.dev-day .articlebody a:first-child",  # First link in each devotional
+        "item_author_css": "",  # No author specified
+        "item_description_css": "div.dev-day .articlebody",  # Scope to dev-day
+        "item_date_css": "div.dev-day .devcal-wrap",
+        "item_date_format": "%A, %d de %B de %Y",
+        "item_timezone": "GMT-3",
+        "output_path": "feeds/devocional_de_hoje",
+        "formats": ["xml", "json"]
+    }
 ]
