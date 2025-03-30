@@ -138,22 +138,18 @@ def report_git_changes():
         return
     try:
         repo = Repo(os.getcwd())
+        
+        # Set Git identity unconditionally to avoid config check failures
+        repo.git.config('user.name', os.getenv('GIT_AUTHOR_NAME', 'GitHub Action'))
+        repo.git.config('user.email', os.getenv('GIT_AUTHOR_EMAIL', 'action@github.com'))
+        logging.info("Git identity configured.")
+
         if repo.is_dirty(untracked_files=True):
             logging.info("\n📝 Git Changes Detected:")
             diff = repo.git.status('--short')
             logging.info(diff)
             logging.info("\n🔍 Summary:")
             logging.info(repo.git.diff('--stat'))
-
-            # Check and set Git identity if missing
-            if not repo.git.config('user.name', get=True):
-                user_name = os.getenv('GIT_AUTHOR_NAME', 'GitHub Action')
-                repo.git.config('user.name', user_name)
-                logging.info(f"Set Git user.name to '{user_name}'")
-            if not repo.git.config('user.email', get=True):
-                user_email = os.getenv('GIT_AUTHOR_EMAIL', 'action@github.com')
-                repo.git.config('user.email', user_email)
-                logging.info(f"Set Git user.email to '{user_email}'")
 
             repo.git.add('feeds/', 'output.log')
             repo.git.commit(m="Update RSS and JSON Feeds")
@@ -162,7 +158,6 @@ def report_git_changes():
             logging.info("\n✅ No changes detected in the Git repository.")
     except Exception as e:
         logging.warning(f"Git operation failed (non-fatal): {e}")
-        # Continue execution instead of sys.exit(1)
 
 try:
     for feed_config in feeds:
