@@ -12,10 +12,10 @@ jobs:
     name: Generate RSS Feeds
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4 # Updated to latest version
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5 # Updated to latest version
         with:
           python-version: '3.x'
 
@@ -26,25 +26,14 @@ jobs:
 
       - name: Generate RSS and JSON Feeds
         run: |
-          # Run the Python script and capture logs to output.log
-          python generate_feeds.py | tee output.log
-          
-          # Configure git
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          
-          # Pull the latest changes to avoid conflicts
-          git pull origin main
-          
-          # Add changes to git
-          git add feeds/**/*.xml feeds/**/*.json output.log  # Add the output.log file
+          python generate_feeds.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-          # Commit and push if there are changes
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Update RSS and JSON Feeds"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+      - name: Verify and Push Changes
+        if: success() # Only run if previous step succeeds
+        run: |
+          git pull origin main --rebase # Rebase to avoid merge commits
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
