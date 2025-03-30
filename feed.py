@@ -103,7 +103,7 @@ feeds = [
         "item_title_css": "div.dev-day .dev-title",
         "item_url_css": "div.dev-day .articlebody a",
         "item_author_css": "",
-        "item_description_css": "div.dev-day .articlebody p, div.dev-day .articlebody blockquote, div.dev-day .articlebody ul",
+        "item_description_css": "div.dev-day .articlebody",
         "item_date_css": "div.dev-day .devcal-wrap",
         "item_date_format": "%A, %d de %B de %Y",
         "item_timezone": "GMT-3",
