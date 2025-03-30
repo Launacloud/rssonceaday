@@ -2,6 +2,8 @@ import os
 import json
 import hashlib
 import requests
+import sys
+import logging
 from urllib.parse import urljoin
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
@@ -12,11 +14,16 @@ try:
     GIT_AVAILABLE = True
 except ImportError:
     GIT_AVAILABLE = False
-    print("Warning: 'gitpython' module not found. Git change reporting will be skipped.")
+    logging.warning("Warning: 'gitpython' module not found. Git change reporting will be skipped.")
 
 from feed import feeds
 
-should_print_last_entries = True  # Keep True to see entries in logs
+should_print_last_entries = True
+
+# Setup logging
+logging.basicConfig(filename='output.log', level=logging.INFO, filemode='w')
+console = logging.StreamHandler()
+logging.getLogger('').addHandler(console)
 
 def generate_entry_id(title):
     unique_string = title.strip()
@@ -26,21 +33,22 @@ def generate_feed(feed_config, should_print_last_entries=False):
     atom_file_path = os.path.join(feed_config["output_path"], 'atom.xml')
     json_file_path = os.path.join(feed_config["output_path"], 'feed.json')
 
-    # Check if files already exist
-    atom_exists = os.path.exists(atom_file_path)
-    json_exists = os.path.exists(json_file_path)
-    print(f"Checking files: atom.xml exists={atom_exists}, feed.json exists={json_exists}")
+    logging.info(f"Checking files: atom.xml exists={os.path.exists(atom_file_path)}, feed.json exists={os.path.exists(json_file_path)}")
 
-    r = requests.get(feed_config["url"])
-    print(f"Fetching {feed_config['url']} - Status Code: {r.status_code}")
-    print(f"Response length: {len(r.text)} characters")
+    try:
+        r = requests.get(feed_config["url"])
+        logging.info(f"Fetching {feed_config['url']} - Status Code: {r.status_code}")
+        logging.info(f"Response length: {len(r.text)} characters")
+    except requests.RequestException as e:
+        logging.error(f"Network error fetching {feed_config['url']}: {e}")
+        return
 
     if r.status_code != 200:
-        print(f"Failed to fetch content from {feed_config['url']}")
+        logging.warning(f"Failed to fetch content from {feed_config['url']} - Status: {r.status_code}")
         return
 
     soup = BeautifulSoup(r.text, 'html.parser')
-    print(f"HTML parsed, length: {len(str(soup))} characters")
+    logging.info(f"HTML parsed, length: {len(str(soup))} characters")
 
     titles = soup.select(feed_config["item_title_css"])
     urls = soup.select(feed_config["item_url_css"])
@@ -51,10 +59,10 @@ def generate_feed(feed_config, should_print_last_entries=False):
     extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []
     stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
 
-    print(f"Found {len(titles)} titles: {[t.text.strip() for t in titles[:3]]}")
-    print(f"Found {len(urls)} URLs: {[u.get('href') for u in urls[:3]]}")
-    print(f"Found {len(descriptions)} descriptions: {[d.text.strip()[:50] for d in descriptions[:3]]}")
-    print(f"Found {len(dates)} dates: {[d.text.strip() for d in dates[:3]]}")
+    logging.info(f"Found {len(titles)} titles: {[t.text.strip() for t in titles[:3]]}")
+    logging.info(f"Found {len(urls)} URLs: {[u.get('href') for u in urls[:3]]}")
+    logging.info(f"Found {len(descriptions)} descriptions: {[d.text.strip()[:50] for d in descriptions[:3]]}")
+    logging.info(f"Found {len(dates)} dates: {[d.text.strip() for d in dates[:3]]}")
 
     fg = FeedGenerator()
     fg.id(feed_config["url"])
@@ -69,14 +77,13 @@ def generate_feed(feed_config, should_print_last_entries=False):
     min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), 
                   len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), 
                   len(extras2) or len(titles), len(stitles) or len(titles))
-    print(f"Min length for iteration: {min_len}")
+    logging.info(f"Min length for iteration: {min_len}")
 
     for i in range(min_len):
         item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
         entry_id = generate_entry_id(titles[i].text)
-        print(f"Processing entry {i+1}: Title='{titles[i].text}', ID={entry_id}")
+        logging.info(f"Processing entry {i+1}: Title='{titles[i].text}', ID={entry_id}")
 
-        # Always process entries for logging, but only add if files will be written
         fe = fg.add_entry()
         fe.title(f"{titles[i].text} - {stitles[i].text}" if i < len(stitles) else titles[i].text)
         fe.id(entry_id)
@@ -108,58 +115,45 @@ def generate_feed(feed_config, should_print_last_entries=False):
             entry_data["Author"] = author_text
         output_data.append(entry_data)
 
-    # Log entries before deciding to write
-    print(f"Processed {len(fg.entry())} entries in FeedGenerator, {len(output_data)} entries in output_data")
+    logging.info(f"Processed {len(fg.entry())} entries in FeedGenerator, {len(output_data)} entries in output_data")
 
-    output_path = feed_config["output_path"]
-    os.makedirs(output_path, exist_ok=True)
-
-    # Only write files if they don’t exist
-    if not atom_exists:
-        fg.atom_file(atom_file_path)
-        if os.path.exists(atom_file_path) and os.path.getsize(atom_file_path) > 0:
-            print(f"XML file '{atom_file_path}' created successfully with {len(fg.entry())} entries.")
-        else:
-            print(f"Error: XML file '{atom_file_path}' was not created or is empty.")
-    else:
-        print(f"XML file '{atom_file_path}' already exists, skipping creation.")
-
-    if not json_exists:
-        with open(json_file_path, 'w') as json_file:
-            json.dump(output_data, json_file, indent=4)
-        if os.path.exists(json_file_path) and os.path.getsize(json_file_path) > 0:
-            print(f"JSON file '{json_file_path}' created successfully with {len(output_data)} entries.")
-        else:
-            print(f"Error: JSON file '{json_file_path}' was not created or is empty.")
-    else:
-        print(f"JSON file '{json_file_path}' already exists, skipping creation.")
+    os.makedirs(feed_config["output_path"], exist_ok=True)
+    fg.atom_file(atom_file_path, overwrite=True)
+    with open(json_file_path, 'w') as json_file:
+        json.dump(output_data, json_file, indent=4)
+    logging.info(f"Updated '{atom_file_path}' with {len(fg.entry())} entries.")
+    logging.info(f"Updated '{json_file_path}' with {len(output_data)} entries.")
 
     if should_print_last_entries and len(output_data) > 0:
-        print("\n📌 Last 3 entries:")
+        logging.info("\n📌 Last 3 entries:")
         for entry in output_data[-3:]:
-            print(f"🔹 Title: {entry['Title']}")
-            print(f"🔹 URL: {entry['ID']}")
-            print(f"🔹 Description: {entry['Description']}")
-            print("-" * 50)
+            logging.info(f"🔹 Title: {entry['Title']}")
+            logging.info(f"🔹 URL: {entry['ID']}")
+            logging.info(f"🔹 Description: {entry['Description']}")
+            logging.info("-" * 50)
 
 def report_git_changes():
     if not GIT_AVAILABLE:
-        print("\n⚠️ Git change reporting skipped due to missing 'gitpython' module.")
+        logging.info("\n⚠️ Git change reporting skipped.")
         return
     try:
         repo = Repo(os.getcwd())
         if repo.is_dirty(untracked_files=True):
-            print("\n📝 Git Changes Detected:")
+            logging.info("\n📝 Git Changes Detected:")
             diff = repo.git.status('--short')
-            print(diff)
-            print("\n🔍 Summary:")
-            print(repo.git.diff('--stat'))
+            logging.info(diff)
+            logging.info("\n🔍 Summary:")
+            logging.info(repo.git.diff('--stat'))
         else:
-            print("\n✅ No changes detected in the Git repository.")
+            logging.info("\n✅ No changes detected in the Git repository.")
     except Exception as e:
-        print(f"Error accessing Git repository: {e}")
+        logging.error(f"Error accessing Git repository: {e}")
+        sys.exit(1)
 
-for feed_config in feeds:
-    generate_feed(feed_config, should_print_last_entries=should_print_last_entries)
-
-report_git_changes()
+try:
+    for feed_config in feeds:
+        generate_feed(feed_config, should_print_last_entries=should_print_last_entries)
+    report_git_changes()
+except Exception as e:
+    logging.error(f"Main execution failed: {e}")
+    sys.exit(1)
