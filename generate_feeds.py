@@ -22,25 +22,14 @@ def generate_entry_id(title):
     unique_string = title.strip()
     return hashlib.md5(unique_string.encode('utf-8')).hexdigest()
 
-def load_existing_ids(json_file_path):
-    """Load existing entry IDs from the feed.json file."""
-    existing_ids = set()
-    if os.path.exists(json_file_path):
-        try:
-            with open(json_file_path, 'r') as json_file:
-                data = json.load(json_file)
-                for entry in data:
-                    if "ID" in entry:
-                        existing_ids.add(entry["ID"])
-        except (json.JSONDecodeError, IOError) as e:
-            print(f"Error loading existing IDs from {json_file_path}: {e}")
-    return existing_ids
-
 def generate_feed(feed_config, should_print_last_entries=False):
-    # Load existing IDs from the feed.json file
+    atom_file_path = os.path.join(feed_config["output_path"], 'atom.xml')
     json_file_path = os.path.join(feed_config["output_path"], 'feed.json')
-    existing_ids = load_existing_ids(json_file_path)
-    print(f"Loaded {len(existing_ids)} existing IDs from {json_file_path}")
+
+    # Check if files already exist
+    atom_exists = os.path.exists(atom_file_path)
+    json_exists = os.path.exists(json_file_path)
+    print(f"Checking files: atom.xml exists={atom_exists}, feed.json exists={json_exists}")
 
     r = requests.get(feed_config["url"])
     print(f"Fetching {feed_config['url']} - Status Code: {r.status_code}")
@@ -87,61 +76,63 @@ def generate_feed(feed_config, should_print_last_entries=False):
         entry_id = generate_entry_id(titles[i].text)
         print(f"Processing entry {i+1}: Title='{titles[i].text}', ID={entry_id}")
 
-        # Check if the entry_id is already in the existing feed
-        if entry_id not in existing_ids:
-            print(f"Adding new entry: {entry_id}")
-            fe = fg.add_entry()
-            fe.title(f"{titles[i].text} - {stitles[i].text}" if i < len(stitles) else titles[i].text)
-            fe.id(entry_id)
-            fe.link(href=item_url, rel='alternate')
+        # Always process entries for logging, but only add if files will be written
+        fe = fg.add_entry()
+        fe.title(f"{titles[i].text} - {stitles[i].text}" if i < len(stitles) else titles[i].text)
+        fe.id(entry_id)
+        fe.link(href=item_url, rel='alternate')
 
-            description_text = descriptions[i].text if i < len(descriptions) else "No description found"
-            description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
+        description_text = descriptions[i].text if i < len(descriptions) else "No description found"
+        description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
 
-            if extras:
-                extra_text = extras[i].text if i < len(extras) else "No extra information found"
-                description_text += f"\n {extra_text}"
-            
-            if extras2:
-                extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
-                description_text += f"\n {extra2_text}"
+        if extras:
+            extra_text = extras[i].text if i < len(extras) else "No extra information found"
+            description_text += f"\n {extra_text}"
+        
+        if extras2:
+            extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
+            description_text += f"\n {extra2_text}"
 
-            fe.description(description_text)
+        fe.description(description_text)
 
-            if authors:
-                author_text = authors[i].text if i < len(authors) else "No author found"
-                fe.author(name=author_text)
+        if authors:
+            author_text = authors[i].text if i < len(authors) else "No author found"
+            fe.author(name=author_text)
 
-            entry_data = {
-                "Title": fe.title(),
-                "ID": entry_id,
-                "Description": description_text
-            }
-            if authors:
-                entry_data["Author"] = author_text
-            output_data.append(entry_data)
-            existing_ids.add(entry_id)  # Add to in-memory set for this run
-        else:
-            print(f"Entry already in feed, skipping: {entry_id}")
+        entry_data = {
+            "Title": fe.title(),
+            "ID": entry_id,
+            "Description": description_text
+        }
+        if authors:
+            entry_data["Author"] = author_text
+        output_data.append(entry_data)
+
+    # Log entries before deciding to write
+    print(f"Processed {len(fg.entry())} entries in FeedGenerator, {len(output_data)} entries in output_data")
 
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
-    atom_file_path = os.path.join(output_path, 'atom.xml')
-    fg.atom_file(atom_file_path)
 
-    if os.path.exists(atom_file_path) and os.path.getsize(atom_file_path) > 0:
-        print(f"XML file '{atom_file_path}' updated successfully with {len(fg.entry())} entries.")
+    # Only write files if they don’t exist
+    if not atom_exists:
+        fg.atom_file(atom_file_path)
+        if os.path.exists(atom_file_path) and os.path.getsize(atom_file_path) > 0:
+            print(f"XML file '{atom_file_path}' created successfully with {len(fg.entry())} entries.")
+        else:
+            print(f"Error: XML file '{atom_file_path}' was not created or is empty.")
     else:
-        print(f"Error: XML file '{atom_file_path}' was not created or is empty.")
+        print(f"XML file '{atom_file_path}' already exists, skipping creation.")
 
-    json_file_path = os.path.join(output_path, 'feed.json')
-    with open(json_file_path, 'w') as json_file:
-        json.dump(output_data, json_file, indent=4)
-
-    if os.path.exists(json_file_path) and os.path.getsize(json_file_path) > 0:
-        print(f"JSON file '{json_file_path}' created successfully with {len(output_data)} entries.")
+    if not json_exists:
+        with open(json_file_path, 'w') as json_file:
+            json.dump(output_data, json_file, indent=4)
+        if os.path.exists(json_file_path) and os.path.getsize(json_file_path) > 0:
+            print(f"JSON file '{json_file_path}' created successfully with {len(output_data)} entries.")
+        else:
+            print(f"Error: JSON file '{json_file_path}' was not created or is empty.")
     else:
-        print(f"Error: JSON file '{json_file_path}' was not created or is empty.")
+        print(f"JSON file '{json_file_path}' already exists, skipping creation.")
 
     if should_print_last_entries and len(output_data) > 0:
         print("\n📌 Last 3 entries:")
