@@ -118,7 +118,7 @@ def generate_feed(feed_config, should_print_last_entries=False):
     logging.info(f"Processed {len(fg.entry())} entries in FeedGenerator, {len(output_data)} entries in output_data")
 
     os.makedirs(feed_config["output_path"], exist_ok=True)
-    fg.atom_file(atom_file_path)  # Removed overwrite=True
+    fg.atom_file(atom_file_path)
     with open(json_file_path, 'w') as json_file:
         json.dump(output_data, json_file, indent=4)
     logging.info(f"Updated '{atom_file_path}' with {len(fg.entry())} entries.")
@@ -144,15 +144,25 @@ def report_git_changes():
             logging.info(diff)
             logging.info("\n🔍 Summary:")
             logging.info(repo.git.diff('--stat'))
-            # Optional: Auto-commit changes
+
+            # Check and set Git identity if missing
+            if not repo.git.config('user.name', get=True):
+                user_name = os.getenv('GIT_AUTHOR_NAME', 'GitHub Action')
+                repo.git.config('user.name', user_name)
+                logging.info(f"Set Git user.name to '{user_name}'")
+            if not repo.git.config('user.email', get=True):
+                user_email = os.getenv('GIT_AUTHOR_EMAIL', 'action@github.com')
+                repo.git.config('user.email', user_email)
+                logging.info(f"Set Git user.email to '{user_email}'")
+
             repo.git.add('feeds/', 'output.log')
             repo.git.commit(m="Update RSS and JSON Feeds")
             logging.info("Changes committed to Git.")
         else:
             logging.info("\n✅ No changes detected in the Git repository.")
     except Exception as e:
-        logging.error(f"Error accessing Git repository: {e}")
-        sys.exit(1)
+        logging.warning(f"Git operation failed (non-fatal): {e}")
+        # Continue execution instead of sys.exit(1)
 
 try:
     for feed_config in feeds:
