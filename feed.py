@@ -74,8 +74,8 @@ feeds = [
         "output_path": "feeds/salmo_do_dia",
         "formats": ["xml", "json"]
     },
-   {
-       "title": "Palavra Biblica do Dia",
+    {
+        "title": "Palavra Biblica do Dia",
         "url": "https://www.bibliaon.com/palavra_do_dia/",
         "output_path": "feeds/palavra_do_dia",
         "title": "Palavra do Dia - BíbliaOn",
@@ -89,9 +89,9 @@ feeds = [
         "item_date_css": ".word-day .v_date",
         "item_stitle_css": ".word-day .v_title:not(.v_title_word)",
         "item_extra_css": ".word-day .destaque.articlebody ul",
-        "item_extra_css2": ".word-day .destaque.articlebody blockquote",
+        "item_extra_css2": ".word-day .destaque.articlebody blockquote"
         # "item_author_css": None  # No author in HTML, use defaults
-    },,
+    },
     {
         "title": "Devocional de Hoje",
         "subtitle": "Devocional de Hoje por biblia on",
