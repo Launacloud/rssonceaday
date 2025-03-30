@@ -9,7 +9,7 @@ import feedparser
 
 from feed import feeds
 
-def generate_feed(feed_config, print_last_entries=True):
+def generate_feed(feed_config):
     r = requests.get(feed_config["url"])
     soup = BeautifulSoup(r.text, 'html.parser')
 
@@ -110,22 +110,5 @@ def generate_feed(feed_config, print_last_entries=True):
     print(f"XML file '{atom_file_path}' updated successfully.")
     print(f"JSON file '{json_file_path}' created successfully.")
 
-    # Optionally print the last 3 entries
-    if print_last_entries and len(output_data) > 0:
-        print("\n📌 Last 3 entries:")
-        for entry in output_data[-3:]:
-            entry_date = datetime.strptime(entry["Date"], '%Y-%m-%d %H:%M:%S') if entry.get("Date") else datetime.now()
-            age_days = (datetime.now() - entry_date).days
-            is_old = age_days > 30  # Consider "old" if older than 30 days
-
-            print(f"🔹 Title: {entry['Title']}")
-            print(f"🔹 URL: {entry['ID']}")
-            print(f"🔹 Description: {entry['Description']}")
-            print(f"🔹 Date: {entry['Date']}")
-            if 'Author' in entry:
-                print(f"🔹 Author: {entry['Author']}")
-            print(f"🔹 Status: {'🔴 Old' if is_old else '🟢 Recent'} (Age: {age_days} days)")
-            print("-" * 50)
-
 for feed_config in feeds:
-    generate_feed(feed_config, print_last_entries=True)
+    generate_feed(feed_config)
