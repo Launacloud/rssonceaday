@@ -7,56 +7,52 @@ from urllib.parse import urljoin
 from feedgen.feed import FeedGenerator
 from bs4 import BeautifulSoup
 import feedparser
-from git import Repo  # For Git integration
+
+try:
+    from git import Repo
+    GIT_AVAILABLE = True
+except ImportError:
+    GIT_AVAILABLE = False
+    print("Warning: 'gitpython' module not found. Git change reporting will be skipped.")
 
 from feed import feeds
 
-# Set the flag at the beginning of the script
-should_print_last_entries = False  # Change to False/True to toggle printing the last entries
+should_print_last_entries = True  # Set to True to see entries in logs
 
-# Define a function to generate a unique ID for each entry using only the title
 def generate_entry_id(title):
-    # Create a unique hash based on title only
     unique_string = title.strip()
     return hashlib.md5(unique_string.encode('utf-8')).hexdigest()
 
-# Define a function to load cache data
 def load_cache(cache_path):
     if os.path.exists(cache_path):
         with open(cache_path, 'r') as cache_file:
             return json.load(cache_file)
     return {}
 
-# Define a function to save cache data
 def save_cache(cache_data, cache_path):
     with open(cache_path, 'w') as cache_file:
         json.dump(cache_data, cache_file, indent=4)
 
-# Define the function to generate the feed
 def generate_feed(feed_config, should_print_last_entries=False):
-    # Cache file path
     cache_path = os.path.join(feed_config["output_path"], 'feed_cache.json')
     cache_data = load_cache(cache_path)
+    print(f"Cache loaded: {len(cache_data)} entries in {cache_path}")
 
-    # Perform the HTTP request to fetch the feed with ETag caching
     headers = {}
     if 'etag' in cache_data:
         headers['If-None-Match'] = cache_data['etag']
 
     r = requests.get(feed_config["url"], headers=headers)
-
-    # Print the status code of the request
     print(f"Fetching {feed_config['url']} - Status Code: {r.status_code}")
-    
-    # If no new content (304 Not Modified), return early
+    print(f"Response length: {len(r.text)} characters")
+
     if r.status_code == 304:
         print("No new content since the last fetch.")
         return
 
-    # Parse the feed content
     soup = BeautifulSoup(r.text, 'html.parser')
+    print(f"HTML parsed, length: {len(str(soup))} characters")
 
-    # Extract feed item elements based on CSS selectors
     titles = soup.select(feed_config["item_title_css"])
     urls = soup.select(feed_config["item_url_css"])
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
@@ -66,6 +62,11 @@ def generate_feed(feed_config, should_print_last_entries=False):
     extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []
     stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
 
+    print(f"Found {len(titles)} titles: {[t.text.strip() for t in titles[:3]]}")
+    print(f"Found {len(urls)} URLs: {[u.get('href') for u in urls[:3]]}")
+    print(f"Found {len(descriptions)} descriptions: {[d.text.strip()[:50] for d in descriptions[:3]]}")
+    print(f"Found {len(dates)} dates: {[d.text.strip() for d in dates[:3]]}")
+
     fg = FeedGenerator()
     fg.id(feed_config["url"])
     fg.title(feed_config["title"])
@@ -74,10 +75,8 @@ def generate_feed(feed_config, should_print_last_entries=False):
     fg.language(feed_config["language"])
     fg.author({'name': feed_config["author_name"], 'email': feed_config["author_email"]})
 
-    atom_file_path = os.path.join(feed_config["output_path"], 'atom.xml')
     output_data = []
 
-    # Update the cache with the new ETag
     if 'etag' in r.headers:
         cache_data['etag'] = r.headers['etag']
         save_cache(cache_data, cache_path)
@@ -85,14 +84,15 @@ def generate_feed(feed_config, should_print_last_entries=False):
     min_len = min(len(titles), len(urls) or len(titles), len(descriptions) or len(titles), 
                   len(authors) or len(titles), len(dates) or len(titles), len(extras) or len(titles), 
                   len(extras2) or len(titles), len(stitles) or len(titles))
+    print(f"Min length for iteration: {min_len}")
 
     for i in range(min_len):
         item_url = urljoin(feed_config["url"], urls[i].get('href')) if urls else feed_config["url"]
-
-        # Generate a unique entry ID using only the title
         entry_id = generate_entry_id(titles[i].text)
+        print(f"Processing entry {i+1}: Title='{titles[i].text}', ID={entry_id}")
 
         if entry_id not in cache_data:
+            print(f"New entry detected: {entry_id}")
             fe = fg.add_entry()
             fe.title(f"{titles[i].text} - {stitles[i].text}" if i < len(stitles) else titles[i].text)
             fe.id(entry_id)
@@ -100,15 +100,6 @@ def generate_feed(feed_config, should_print_last_entries=False):
 
             description_text = descriptions[i].text if i < len(descriptions) else "No description found"
             description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
-
-            if extras:
-                extra_text = extras[i].text if i < len(extras) else "No extra information found"
-                description_text += f"\n {extra_text}"
-            
-            if extras2:
-                extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
-                description_text += f"\n {extra2_text}"
-
             fe.description(description_text)
 
             if authors:
@@ -123,35 +114,31 @@ def generate_feed(feed_config, should_print_last_entries=False):
             if authors:
                 entry_data["Author"] = author_text
             output_data.append(entry_data)
-            cache_data[entry_id] = True  # Mark entry as seen
+            cache_data[entry_id] = True
+        else:
+            print(f"Entry {entry_id} already in cache, skipping.")
 
-    # Save the updated cache data
     save_cache(cache_data, cache_path)
 
-    # Save and verify the generated feed as an Atom file
     output_path = feed_config["output_path"]
     os.makedirs(output_path, exist_ok=True)
     atom_file_path = os.path.join(output_path, 'atom.xml')
-    fg.atom_file(atom_file_path)  # Generate the Atom XML file
+    fg.atom_file(atom_file_path)
 
-    # Verify Atom XML file
     if os.path.exists(atom_file_path) and os.path.getsize(atom_file_path) > 0:
-        print(f"XML file '{atom_file_path}' updated successfully.")
+        print(f"XML file '{atom_file_path}' updated successfully with {len(fg.entry())} entries.")
     else:
         print(f"Error: XML file '{atom_file_path}' was not created or is empty.")
 
-    # Save and verify the feed data as JSON
     json_file_path = os.path.join(output_path, 'feed.json')
     with open(json_file_path, 'w') as json_file:
         json.dump(output_data, json_file, indent=4)
 
-    # Verify JSON file
     if os.path.exists(json_file_path) and os.path.getsize(json_file_path) > 0:
-        print(f"JSON file '{json_file_path}' created successfully.")
+        print(f"JSON file '{json_file_path}' created successfully with {len(output_data)} entries.")
     else:
         print(f"Error: JSON file '{json_file_path}' was not created or is empty.")
 
-    # Print last entries if requested
     if should_print_last_entries and len(output_data) > 0:
         print("\n📌 Last 3 entries:")
         for entry in output_data[-3:]:
@@ -160,10 +147,12 @@ def generate_feed(feed_config, should_print_last_entries=False):
             print(f"🔹 Description: {entry['Description']}")
             print("-" * 50)
 
-# Function to check and report Git changes
 def report_git_changes():
+    if not GIT_AVAILABLE:
+        print("\n⚠️ Git change reporting skipped due to missing 'gitpython' module.")
+        return
     try:
-        repo = Repo(os.getcwd())  # Open the Git repository in the current working directory
+        repo = Repo(os.getcwd())
         if repo.is_dirty(untracked_files=True):
             print("\n📝 Git Changes Detected:")
             diff = repo.git.status('--short')
@@ -175,9 +164,7 @@ def report_git_changes():
     except Exception as e:
         print(f"Error accessing Git repository: {e}")
 
-# Run the feed generation for all feeds and report Git changes
 for feed_config in feeds:
     generate_feed(feed_config, should_print_last_entries=should_print_last_entries)
 
-# Report Git changes after processing all feeds
 report_git_changes()
