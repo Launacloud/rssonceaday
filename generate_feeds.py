@@ -50,14 +50,15 @@ def generate_feed(feed_config, should_print_last_entries=False):
     soup = BeautifulSoup(r.text, 'html.parser')
     logging.info(f"HTML parsed, length: {len(str(soup))} characters")
 
-    titles = soup.select(feed_config["item_title_css"])
-    urls = soup.select(feed_config["item_url_css"])
+    # Handle selectors, ensuring "" and None are treated as absent
+    titles = soup.select(feed_config["item_title_css"]) if feed_config["item_title_css"] else []
+    urls = soup.select(feed_config["item_url_css"]) if feed_config["item_url_css"] else []
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
     authors = soup.select(feed_config["item_author_css"]) if feed_config["item_author_css"] else []
     dates = soup.select(feed_config["item_date_css"]) if feed_config["item_date_css"] else []
-    extras = soup.select(feed_config["item_extra_css"]) if "item_extra_css" in feed_config else []
-    extras2 = soup.select(feed_config["item_extra_css2"]) if "item_extra_css2" in feed_config else []
-    stitles = soup.select(feed_config["item_stitle_css"]) if "item_stitle_css" in feed_config else []
+    extras = soup.select(feed_config["item_extra_css"]) if feed_config.get("item_extra_css") else []
+    extras2 = soup.select(feed_config["item_extra_css2"]) if feed_config.get("item_extra_css2") else []
+    stitles = soup.select(feed_config["item_stitle_css"]) if feed_config.get("item_stitle_css") else []
 
     logging.info(f"Found {len(titles)} titles: {[t.text.strip() for t in titles[:3]]}")
     logging.info(f"Found {len(urls)} URLs: {[u.get('href') for u in urls[:3]]}")
@@ -85,34 +86,31 @@ def generate_feed(feed_config, should_print_last_entries=False):
         logging.info(f"Processing entry {i+1}: Title='{titles[i].text}', ID={entry_id}")
 
         fe = fg.add_entry()
-        fe.title(f"{titles[i].text} - {stitles[i].text}" if i < len(stitles) else titles[i].text)
+        fe.title(f"{titles[i].text} - {stitles[i].text}" if i < len(stitles) and stitles[i].text.strip() else titles[i].text)
         fe.id(entry_id)
         fe.link(href=item_url, rel='alternate')
 
         description_text = descriptions[i].text if i < len(descriptions) else "No description found"
         description_text = BeautifulSoup(description_text, 'html.parser').text.strip()
 
-        if extras:
-            extra_text = extras[i].text if i < len(extras) else "No extra information found"
-            description_text += f"\n {extra_text}"
+        if extras and i < len(extras) and extras[i].text.strip():
+            description_text += f"\n {extras[i].text}"
         
-        if extras2:
-            extra2_text = extras2[i].text if i < len(extras2) else "No second extra information found"
-            description_text += f"\n {extra2_text}"
+        if extras2 and i < len(extras2) and extras2[i].text.strip():
+            description_text += f"\n {extras2[i].text}"
 
         fe.description(description_text)
 
-        if authors:
-            author_text = authors[i].text if i < len(authors) else "No author found"
-            fe.author(name=author_text)
+        if authors and i < len(authors) and authors[i].text.strip():
+            fe.author(name=authors[i].text)
 
         entry_data = {
             "Title": fe.title(),
             "ID": entry_id,
             "Description": description_text
         }
-        if authors:
-            entry_data["Author"] = author_text
+        if authors and i < len(authors) and authors[i].text.strip():
+            entry_data["Author"] = authors[i].text
         output_data.append(entry_data)
 
     logging.info(f"Processed {len(fg.entry())} entries in FeedGenerator, {len(output_data)} entries in output_data")
@@ -138,8 +136,6 @@ def report_git_changes():
         return
     try:
         repo = Repo(os.getcwd())
-        
-        # Set Git identity unconditionally to avoid config check failures
         repo.git.config('user.name', os.getenv('GIT_AUTHOR_NAME', 'GitHub Action'))
         repo.git.config('user.email', os.getenv('GIT_AUTHOR_EMAIL', 'action@github.com'))
         logging.info("Git identity configured.")
