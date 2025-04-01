@@ -64,8 +64,8 @@ que fez os céus e a terra. Salmos 121:1-2
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 236054 characters
-INFO:root:HTML parsed, length: 226740 characters
+INFO:root:Response length: 237678 characters
+INFO:root:HTML parsed, length: 227865 characters
 INFO:root:Found 3 titles: ['Salmo 142', 'Salmo 26', 'Salmo 6']
 INFO:root:Found 3 URLs: ['/salmos_142/', '/salmos_26/', '/salmos_6/']
 INFO:root:Found 3 descriptions: ['Em alta voz clamo ao Senhor;\nelevo a minha voz ao ', 'Faze-me justiça, Senhor,\npois tenho vivido com int', 'Senhor, não me castigues na tua ira\nnem me discipl']
@@ -168,8 +168,8 @@ frustrados, recuarão de repente.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 239948 characters
-INFO:root:HTML parsed, length: 230312 characters
+INFO:root:Response length: 241572 characters
+INFO:root:HTML parsed, length: 231437 characters
 INFO:root:Found 3 titles: ['A resposta de Deus virá', 'Deus pode e quer fazer mais por você!', 'Paz a esta casa']
 INFO:root:Found 3 URLs: [None, None, None]
 INFO:root:Found 3 descriptions: ['E tudo o que pedirem em oração, se crerem, vocês r', 'Àquele que é capaz de fazer infinitamente mais do ', 'Vivemos num mundo que necessita imensamente de paz']
@@ -177,8 +177,8 @@ INFO:root:Found 1 dates: ['Terça, 1 de abril de 2025']
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='A resposta de Deus virá', ID=25622bc3be96618eac847ae9f7afb83c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 1 entries.
+INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: A resposta de Deus virá - Palavra de Hoje
@@ -214,8 +214,8 @@ E tudo o que pedirem em oração, se crerem, vocês receberão".
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 247665 characters
-INFO:root:HTML parsed, length: 237806 characters
+INFO:root:Response length: 247775 characters
+INFO:root:HTML parsed, length: 237916 characters
 INFO:root:Found 3 titles: ['Deus já preparou o melhor para você', 'Superando a animosidade', 'A amizade que te levanta']
 INFO:root:Found 3 URLs: ['/mensagens_biblicas_bom_dia_com_deus/', '/conselhos_para_resolver_conflitos/', '/versiculos_de_amar_o_proximo/']
 INFO:root:Found 3 descriptions: ['Porque sou eu que conheço os planos que tenho para', 'A Bíblia nos ensina a superar a animosidade e a cu', '"Se um cair, o amigo pode ajudá-lo a levantar-se. ']
@@ -304,28 +304,128 @@ Para Orar: 
 
 Senhor, Tu és o meu melhor amigo. Teu sacrifício me salvou e alcançou tantos outros. Hoje tenho amigos mais chegados que irmãos. Muito obrigado Senhor, amém.
 INFO:root:--------------------------------------------------
+INFO:root:Checking files: atom.xml exists=False, feed.json exists=False
+INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
+INFO:root:Response length: 225807 characters
+INFO:root:HTML parsed, length: 224180 characters
+INFO:root:Found 2 titles: ['Artigo em destaque', 'Eventos atuais']
+INFO:root:Found 59 URLs: ['/wiki/The_Simpsons_(9.%C2%AA_temporada)', '/wiki/The_Simpsons', '/wiki/S%C3%A9rie_de_anima%C3%A7%C3%A3o']
+INFO:root:Found 2 descriptions: ['A\xa0nona temporada de\xa0The Simpsons, uma série de ani', 'Sismo de magnitude 7,7 (imagem de edifício destruí']
+INFO:root:Found 0 dates: []
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
+INFO:root:Processing entry 2: Title='Eventos atuais', ID=737cf179999aedfec34a471df3045f3a
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/wikidestaque/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/wikidestaque/feed.json' with 2 entries.
+INFO:root:
+📌 Last 3 entries:
+INFO:root:🔹 Title: Artigo em destaque
+INFO:root:🔹 URL: 5d6c6e7cbca4408ff9839e6bfac83452
+INFO:root:🔹 Description: A nona temporada de The Simpsons, uma série de animação estadunidense de comédia de situação, estreou na noite de 21 de setembro de 1997 na rede de televisão Fox e terminou em 17 de maio de 1998. Foi produzida pelas companhias Gracie Films e 20th Century Fox Television, o produtor executivo foi Mike Scully. Fyvush Finkel, Joe Namath, Roy Firestone, Stephen Jay Gould, Alex Trebek, Bob Denver, Paul McGuinness e os integrantes da banda de rock irlandesa U2 foram algumas das outras estrelas que fizeram participações ao longo da temporada.
+O enredo da temporada apresentou diversos temas diferentes, por exemplo, políticas de armas no episódio "The Cartridge Family", casamento entre Apu e Manjula em "The Two Mrs. Nahasapeemapetilons",  comunismo em "Simpson Tide" e usurpação de identidade em "The Principal and the Pauper". A equipe técnica contou com dezessete roteiristas ao longo de sua produção, assim como doze diretores. Moore dirigiu o maior número de episódios, sendo creditados em quatros.  (Leia mais...)
+
+
+
+Compartilhe: 
+
+
+
+Artigos destacados: 1491 •
+Artigos bons: 1911
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Eventos atuais
+INFO:root:🔹 URL: 737cf179999aedfec34a471df3045f3a
+INFO:root:🔹 Description: Sismo de magnitude 7,7 (imagem de edifício destruído em Mandalai) deixa mais de 3,6 mil mortos em Myanmar e Tailândia.
+​Forças Armadas do Sudão libertam a capital Cartum após quase dois anos de batalha em meio à guerra civil.
+Protestos nacionais irrompem em toda a Indonésia em resposta à aprovação de lei que amplia papel das forças armadas no governo.
+Masaki Kashiwara recebe Prêmio Abel por contribuições para análise algébrica e teoria de representação.
+Eventos a decorrer: Guerra Israel-Hamas • Guerra Rússia-Ucrânia (cronologia) • Guerra Civil no Sudão • Guerra RDC-RuandaMortes recentes: Richard Chamberlain
+•
+Heloísa Teixeira
+•
+Fuad Noman
+•
+Mia Love
+•
+Xavier Le Pichon
+•
+Filiz Akın
+
+Mais eventos atuais • Sugestões Wikinotícias
+INFO:root:--------------------------------------------------
+INFO:root:Checking files: atom.xml exists=False, feed.json exists=False
+INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
+INFO:root:Response length: 225807 characters
+INFO:root:HTML parsed, length: 224180 characters
+INFO:root:Found 2 titles: ['1 de abril na história', 'Sabia que...']
+INFO:root:Found 0 URLs: []
+INFO:root:Found 0 descriptions: []
+INFO:root:Found 0 dates: []
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='1 de abril na história', ID=ed125c6c45754fbf9a7be80bccc10886
+INFO:root:Processing entry 2: Title='Sabia que...', ID=5fef1999d3d903457419a2e276b49ae6
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/wikidia/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/wikidia/feed.json' with 2 entries.
+INFO:root:
+📌 Last 3 entries:
+INFO:root:🔹 Title: 1 de abril na história
+INFO:root:🔹 URL: ed125c6c45754fbf9a7be80bccc10886
+INFO:root:🔹 Description: No description found
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Sabia que...
+INFO:root:🔹 URL: 5fef1999d3d903457419a2e276b49ae6
+INFO:root:🔹 Description: No description found
+INFO:root:--------------------------------------------------
+INFO:root:Checking files: atom.xml exists=False, feed.json exists=False
+INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
+INFO:root:Response length: 225807 characters
+INFO:root:HTML parsed, length: 224180 characters
+INFO:root:Found 1 titles: ['Imagem do dia']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg']
+INFO:root:Found 1 descriptions: ['Nova versão da famosa fotografia dos Pilares da Cr']
+INFO:root:Found 0 dates: []
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/wikiimagem/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
+INFO:root:
+📌 Last 3 entries:
+INFO:root:🔹 Title: Imagem do dia
+INFO:root:🔹 URL: 76891061c3d63e16ccebc31ded0923d5
+INFO:root:🔹 Description: Nova versão da famosa fotografia dos Pilares da Criação capturada pelo telescópio espacial Hubble para marcar o 25.º aniversário de seu lançamento na órbita da Terra. Ela mostra uma formação na Nebulosa da Águia, composta de gás, plasma e poeira cósmica.
+(resolução original: 6 780 × 6 780)
+
+
+Compartilhe:  
+
+Índice geral • Commons
+INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
 📝 Git Changes Detected:
 INFO:root: M feeds/devocional_de_hoje/atom.xml
- M feeds/devocional_de_hoje/feed.json
+ M feeds/palavra_biblica_do_dia/atom.xml
+ M feeds/palavra_biblica_do_dia/feed.json
  M feeds/palavra_do_dia/atom.xml
  M feeds/palavra_do_dia/feed.json
  M feeds/salmo_do_dia/atom.xml
- M feeds/salmo_do_dia/feed.json
  M "feeds/vers\303\255culo_do_dia/atom.xml"
- M "feeds/vers\303\255culo_do_dia/feed.json"
  M output.log
 ?? __pycache__/
+?? feeds/wikidestaque/
+?? feeds/wikidia/
+?? feeds/wikiimagem/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  62 +++---
- feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_do_dia/atom.xml             |  38 ++--
- feeds/palavra_do_dia/feed.json            |   6 +-
- feeds/salmo_do_dia/atom.xml               |  96 +++------
- feeds/salmo_do_dia/feed.json              |  10 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
- "feeds/vers\303\255culo_do_dia/feed.json" |   6 +-
- output.log                                | 335 +++++++++++++-----------------
- 9 files changed, 237 insertions(+), 337 deletions(-)
+INFO:root: feeds/devocional_de_hoje/atom.xml        |   6 +-
+ feeds/palavra_biblica_do_dia/atom.xml    | 136 ++++++-------------------------
+ feeds/palavra_biblica_do_dia/feed.json   |   6 +-
+ feeds/palavra_do_dia/atom.xml            |  32 ++------
+ feeds/palavra_do_dia/feed.json           |  16 +++-
+ feeds/salmo_do_dia/atom.xml              |   6 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml" |   2 +-
+ output.log                               | 133 +++++++++++++++++++++++++-----
+ 8 files changed, 166 insertions(+), 171 deletions(-)
