@@ -110,5 +110,53 @@ feeds = [
         "item_timezone": "GMT-3",
         "output_path": "feeds/devocional_de_hoje",
         "formats": ["xml", "json"]
+    },
+feeds = [
+    # Feed 1: Artigo em destaque (e.g., The Simpsons or any other featured article)
+    {
+        "url": "https://pt.wikipedia.org/wiki/Wikipédia:Página_principal",
+        "output_path": "./output/featured_article",
+        "title": "Wikipédia em Português - Artigo em Destaque",
+        "subtitle": "Artigo em destaque da Wikipédia em português",
+        "language": "pt",
+        "author_name": "Comunidade Wikipédia",
+        "author_email": "contato@wikipedia.org",
+        "item_title_css": "div.main-page-first-row div.main-page-block-heading",  # First row heading
+        "item_url_css": "div.main-page-first-row div.main-page-block-contents a[href*='/wiki/']",  # Any wiki link in first row content
+        "item_description_css": "div.main-page-first-row div.main-page-block-contents",  # First row content
+        "output_path": "feeds/wikidestaque",
+        "formats": ["xml", "json"]
+    },
+    # Feed 2: Efemérides (e.g., 1 de abril na história or any other date)
+    {
+        "url": "https://pt.wikipedia.org/wiki/Wikipédia:Página_principal",
+        "output_path": "./output/history",
+        "title": "Wikipédia em Português - Efemérides",
+        "subtitle": "Efemérides diárias da Wikipédia em português",
+        "language": "pt",
+        "author_name": "Comunidade Wikipédia",
+        "author_email": "contato@wikipedia.org",
+        "item_title_css": "div.main-page-second-row div.main-page-block-heading:first-child",  # Second row, first heading
+        "item_url_css": "div.main-page-second-row div.main-page-block-contents:first-child a[href*='/wiki/']",  # Any wiki link in second row, first column
+        "item_description_css": "div.main-page-second-row div.main-page-block-contents:first-child",  # Second row, first column content
+        "output_path": "feeds/wikidia",
+        "formats": ["xml", "json"]
+    },
+    # Feed 3: Imagem do dia
+    {
+        "url": "https://pt.wikipedia.org/wiki/Wikipédia:Página_principal",
+        "output_path": "./output/image",
+        "title": "Wikipédia em Português - Imagem do Dia",
+        "subtitle": "Imagem do dia da Wikipédia em português",
+        "language": "pt",
+        "author_name": "Comunidade Wikipédia",
+        "author_email": "contato@wikipedia.org",
+        "item_title_css": "div.main-page-third-row div.main-page-block-heading",  # Third row heading
+        "item_url_css": "div.main-page-third-row div.main-page-block-contents a[href*='/wiki/Ficheiro:']",  # File link in third row content
+        "item_description_css": "div.main-page-third-row div.main-page-block-contents",  # Third row content
+        "output_path": "feeds/wikiimagem",
+        "formats": ["xml", "json"]
     }
+]
+
 ]
