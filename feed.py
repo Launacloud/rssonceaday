@@ -76,7 +76,7 @@ feeds = [
     {
         "title": "Palavra Biblica do Dia",
         "url": "https://www.bibliaon.com/palavra_do_dia/",
-        "output_path": "feeds/palavra_do_dia",
+        "output_path": "feeds/palavra_biblica_do_dia",
         "subtitle": "Inspiração diária da Palavra de Deus",
         "language": "pt-BR",
         "author_name": "BíbliaOn",
@@ -89,7 +89,6 @@ feeds = [
         "item_extra_css": ".word-day .destaque.articlebody ul",
         "item_extra_css2": ".word-day .destaque.articlebody blockquote",
         "item_author_css": None,
-        "output_path": "feeds/palavrabiblica_do_dia",
         "formats": ["xml", "json"]
     },
     {
@@ -122,6 +121,7 @@ feeds = [
         "item_title_css": "div.main-page-first-row div.main-page-block-heading",
         "item_url_css": "div.main-page-first-row div.main-page-block-contents a[href*='/wiki/']",
         "item_description_css": "div.main-page-first-row div.main-page-block-contents",
+        "item_author_css": None,  # Added to prevent KeyError
         "formats": ["xml", "json"]
     },
     {
@@ -135,6 +135,7 @@ feeds = [
         "item_title_css": "div.main-page-second-row div.main-page-block-heading:first-child",
         "item_url_css": "div.main-page-second-row div.main-page-block-contents:first-child a[href*='/wiki/']",
         "item_description_css": "div.main-page-second-row div.main-page-block-contents:first-child",
+        "item_author_css": None,  # Added to prevent KeyError
         "formats": ["xml", "json"]
     },
     {
@@ -148,6 +149,7 @@ feeds = [
         "item_title_css": "div.main-page-third-row div.main-page-block-heading",
         "item_url_css": "div.main-page-third-row div.main-page-block-contents a[href*='/wiki/Ficheiro:']",
         "item_description_css": "div.main-page-third-row div.main-page-block-contents",
+        "item_author_css": None,  # Added to prevent KeyError
         "formats": ["xml", "json"]
     }
 ]
