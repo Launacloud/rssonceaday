@@ -13,6 +13,7 @@ feeds = [
         "item_author_css": None,
         "item_description_css": ".word-of-day--text-wrap .word-of-day--description, .word-of-day--extra",
         "item_extra_css": ".word-of-day--extra",
+        "item_extra_css2": None,  # Not present originally, added for consistency
         "item_date_css": ".word-of-day .title",
         "item_date_format": "%d/%m/%Y",
         "item_timezone": "America/Sao_Paulo",
@@ -28,9 +29,12 @@ feeds = [
         "copyright": "Example Company",
         "language": "en",
         "item_title_css": ".feed-item .title",
+        "item_stitle_css": None,  # Not present originally, added for consistency
         "item_url_css": ".feed-item .link",
         "item_author_css": ".feed-item .author",
         "item_description_css": ".feed-item .description",
+        "item_extra_css": None,  # Not present originally, added for consistency
+        "item_extra_css2": None,  # Not present originally, added for consistency
         "item_date_css": ".feed-item .date",
         "item_date_format": "%Y-%m-%d",
         "item_timezone": "UTC",
@@ -46,9 +50,12 @@ feeds = [
         "copyright": "Biblia",
         "language": "pt",
         "item_title_css": ".v_dia .destaque a",
+        "item_stitle_css": None,  # Not present originally, added for consistency
         "item_url_css": ".v_dia .destaque a",
         "item_author_css": "",
         "item_description_css": ".v_dia .destaque",
+        "item_extra_css": None,  # Not present originally, added for consistency
+        "item_extra_css2": None,  # Not present originally, added for consistency
         "item_date_css": ".v_dia .v_date:nth-child(2)",
         "item_date_format": "%d de %B de %Y",
         "item_timezone": "GMT-3",
@@ -64,9 +71,12 @@ feeds = [
         "copyright": "Biblia",
         "language": "pt",
         "item_title_css": ".salmo_dia_card_content_link",
+        "item_stitle_css": None,  # Not present originally, added for consistency
         "item_url_css": ".salmo_dia_card_content_link",
         "item_author_css": "",
         "item_description_css": ".salmo_dia_card_content",
+        "item_extra_css": None,  # Not present originally, added for consistency
+        "item_extra_css2": None,  # Not present originally, added for consistency
         "item_date_css": ".salmo_dia_card_date",
         "item_date_format": "%A, %d de %B de %Y",
         "item_timezone": "GMT-3",
@@ -82,13 +92,15 @@ feeds = [
         "author_name": "BíbliaOn",
         "author_email": "contato@bibliaon.com",
         "item_title_css": ".word-day .v_title.v_title_word",
+        "item_stitle_css": ".word-day .v_title:not(.v_title_word)",
         "item_url_css": ".word-day .sg-social[data-url]",
         "item_description_css": ".word-day .destaque.articlebody",
-        "item_date_css": ".word-day .v_date",
-        "item_stitle_css": ".word-day .v_title:not(.v_title_word)",
         "item_extra_css": ".word-day .destaque.articlebody ul",
         "item_extra_css2": ".word-day .destaque.articlebody blockquote",
         "item_author_css": None,
+        "item_date_css": ".word-day .v_date",
+        "item_date_format": "%d de %B de %Y",  # Assumed format based on similar feeds
+        "item_timezone": "GMT-3",  # Assumed timezone based on similar feeds
         "formats": ["xml", "json"]
     },
     {
@@ -100,16 +112,19 @@ feeds = [
         "copyright": "Biblia",
         "language": "pt",
         "item_title_css": "div.dev-day .dev-title",
+        "item_stitle_css": None,  # Not present originally, added for consistency
         "item_url_css": "div.dev-day .articlebody a",
         "item_author_css": "",
         "item_description_css": "div.dev-day .articlebody",
+        "item_extra_css": None,  # Not present originally, added for consistency
+        "item_extra_css2": None,  # Not present originally, added for consistency
         "item_date_css": "div.dev-day .devcal-wrap",
         "item_date_format": "%A, %d de %B de %Y",
         "item_timezone": "GMT-3",
         "output_path": "feeds/devocional_de_hoje",
         "formats": ["xml", "json"]
     },
-    # Wikipedia Feeds
+    # Wikipedia Feeds with all tags
     {
         "url": "https://pt.wikipedia.org/wiki/Wikipédia:Página_principal",
         "output_path": "feeds/wikidestaque",
@@ -119,9 +134,15 @@ feeds = [
         "author_name": "Comunidade Wikipédia",
         "author_email": "contato@wikipedia.org",
         "item_title_css": "div.main-page-first-row div.main-page-block-heading",
+        "item_stitle_css": None,  # No subtitle typically present
         "item_url_css": "div.main-page-first-row div.main-page-block-contents a[href*='/wiki/']",
+        "item_author_css": None,  # No specific author in this section
         "item_description_css": "div.main-page-first-row div.main-page-block-contents",
-        "item_author_css": None,  # Added to prevent KeyError
+        "item_extra_css": None,  # No extra info typically present
+        "item_extra_css2": None,  # No second extra info
+        "item_date_css": None,  # No specific date to parse in this section
+        "item_date_format": None,  # Not applicable
+        "item_timezone": None,  # Not applicable
         "formats": ["xml", "json"]
     },
     {
@@ -133,9 +154,15 @@ feeds = [
         "author_name": "Comunidade Wikipédia",
         "author_email": "contato@wikipedia.org",
         "item_title_css": "div.main-page-second-row div.main-page-block-heading:first-child",
+        "item_stitle_css": None,  # No subtitle typically present
         "item_url_css": "div.main-page-second-row div.main-page-block-contents:first-child a[href*='/wiki/']",
+        "item_author_css": None,  # No specific author in this section
         "item_description_css": "div.main-page-second-row div.main-page-block-contents:first-child",
-        "item_author_css": None,  # Added to prevent KeyError
+        "item_extra_css": None,  # No extra info typically present
+        "item_extra_css2": None,  # No second extra info
+        "item_date_css": None,  # No specific date to parse (title contains date)
+        "item_date_format": None,  # Not applicable
+        "item_timezone": None,  # Not applicable
         "formats": ["xml", "json"]
     },
     {
@@ -147,9 +174,15 @@ feeds = [
         "author_name": "Comunidade Wikipédia",
         "author_email": "contato@wikipedia.org",
         "item_title_css": "div.main-page-third-row div.main-page-block-heading",
+        "item_stitle_css": None,  # No subtitle typically present
         "item_url_css": "div.main-page-third-row div.main-page-block-contents a[href*='/wiki/Ficheiro:']",
+        "item_author_css": None,  # No specific author in this section
         "item_description_css": "div.main-page-third-row div.main-page-block-contents",
-        "item_author_css": None,  # Added to prevent KeyError
+        "item_extra_css": None,  # No extra info typically present
+        "item_extra_css2": None,  # No second extra info
+        "item_date_css": None,  # No specific date to parse in this section
+        "item_date_format": None,  # Not applicable
+        "item_timezone": None,  # Not applicable
         "formats": ["xml", "json"]
     }
 ]
