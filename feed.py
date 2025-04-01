@@ -124,25 +124,25 @@ feeds = [
         "output_path": "feeds/devocional_de_hoje",
         "formats": ["xml", "json"]
     },
-    # Wikipedia Feeds with all tags
+# Wikipedia Feeds with corrected selectors
     {
         "url": "https://pt.wikipedia.org/wiki/Wikipédia:Página_principal",
         "output_path": "feeds/wikidestaque",
         "title": "Wikipédia em Português - Artigo em Destaque",
         "subtitle": "Artigo em destaque da Wikipédia em português",
-        "language": "pt-BR",  # Changed from "pt"
+        "language": "pt-BR",
         "author_name": "Comunidade Wikipédia",
         "author_email": "contato@wikipedia.org",
-        "item_title_css": "div.main-page-first-row div.main-page-block-heading",
-        "item_stitle_css": "",  # Changed from None
-        "item_url_css": "div.main-page-first-row div.main-page-block-contents a[href*='/wiki/']",
-        "item_author_css": "",  # Changed from None
-        "item_description_css": "div.main-page-first-row div.main-page-block-contents",
-        "item_extra_css": "",  # Changed from None
-        "item_extra_css2": "",  # Changed from None
-        "item_date_css": "",  # Changed from None
-        "item_date_format": "",  # Changed from None
-        "item_timezone": "",  # Changed from None
+        "item_title_css": "div.main-page-first-row div:first-child .main-page-block-heading",  # Only first column of first row
+        "item_stitle_css": "",
+        "item_url_css": "div.main-page-first-row div:first-child .main-page-block-contents a[href*='/wiki/']",  # First column links
+        "item_author_css": "",
+        "item_description_css": "div.main-page-first-row div:first-child .main-page-block-contents",  # First column content
+        "item_extra_css": "",
+        "item_extra_css2": "",
+        "item_date_css": "",
+        "item_date_format": "",
+        "item_timezone": "",
         "formats": ["xml", "json"]
     },
     {
@@ -150,19 +150,19 @@ feeds = [
         "output_path": "feeds/wikidia",
         "title": "Wikipédia em Português - Efemérides",
         "subtitle": "Efemérides diárias da Wikipédia em português",
-        "language": "pt-BR",  # Changed from "pt"
+        "language": "pt-BR",
         "author_name": "Comunidade Wikipédia",
         "author_email": "contato@wikipedia.org",
-        "item_title_css": "div.main-page-second-row div.main-page-block-heading:first-child",
-        "item_stitle_css": "",  # Changed from None
-        "item_url_css": "div.main-page-second-row div.main-page-block-contents:first-child a[href*='/wiki/']",
-        "item_author_css": "",  # Changed from None
-        "item_description_css": "div.main-page-second-row div.main-page-block-contents:first-child",
-        "item_extra_css": "",  # Changed from None
-        "item_extra_css2": "",  # Changed from None
-        "item_date_css": "",  # Changed from None
-        "item_date_format": "",  # Changed from None
-        "item_timezone": "",  # Changed from None
+        "item_title_css": "div.main-page-second-row div:first-child .main-page-block-heading",  # Only first column of second row
+        "item_stitle_css": "",
+        "item_url_css": "div.main-page-second-row div:first-child .main-page-block-contents a[href*='/wiki/']",  # First column links
+        "item_author_css": "",
+        "item_description_css": "div.main-page-second-row div:first-child .main-page-block-contents",  # First column content
+        "item_extra_css": "",
+        "item_extra_css2": "",
+        "item_date_css": "",
+        "item_date_format": "",
+        "item_timezone": "",
         "formats": ["xml", "json"]
     },
     {
@@ -170,19 +170,19 @@ feeds = [
         "output_path": "feeds/wikiimagem",
         "title": "Wikipédia em Português - Imagem do Dia",
         "subtitle": "Imagem do dia da Wikipédia em português",
-        "language": "pt-BR",  # Changed from "pt"
+        "language": "pt-BR",
         "author_name": "Comunidade Wikipédia",
         "author_email": "contato@wikipedia.org",
-        "item_title_css": "div.main-page-third-row div.main-page-block-heading",
-        "item_stitle_css": "",  # Changed from None
-        "item_url_css": "div.main-page-third-row div.main-page-block-contents a[href*='/wiki/Ficheiro:']",
-        "item_author_css": "",  # Changed from None
-        "item_description_css": "div.main-page-third-row div.main-page-block-contents",
-        "item_extra_css": "",  # Changed from None
-        "item_extra_css2": "",  # Changed from None
-        "item_date_css": "",  # Changed from None
-        "item_date_format": "",  # Changed from None
-        "item_timezone": "",  # Changed from None
+        "item_title_css": "div.main-page-third-row div .main-page-block-heading",  # Third row heading (unchanged, works fine)
+        "item_stitle_css": "",
+        "item_url_css": "div.main-page-third-row div .main-page-block-contents a[href*='/wiki/Ficheiro:']",  # Third row file link (unchanged)
+        "item_author_css": "",
+        "item_description_css": "div.main-page-third-row div .main-page-block-contents",  # Third row content (unchanged)
+        "item_extra_css": "",
+        "item_extra_css2": "",
+        "item_date_css": "",
+        "item_date_format": "",
+        "item_timezone": "",
         "formats": ["xml", "json"]
     }
 ]
