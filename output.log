@@ -355,8 +355,8 @@ Versículos que mostram como é importante amar o próximo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225769 characters
-INFO:root:HTML parsed, length: 224142 characters
+INFO:root:Response length: 225807 characters
+INFO:root:HTML parsed, length: 224180 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 26 URLs: ['/wiki/The_Simpsons_(9.%C2%AA_temporada)', '/wiki/The_Simpsons', '/wiki/S%C3%A9rie_de_anima%C3%A7%C3%A3o']
 INFO:root:Found 1 descriptions: ['A\xa0nona temporada de\xa0The Simpsons, uma série de ani']
@@ -384,8 +384,8 @@ Artigos bons: 1911
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225769 characters
-INFO:root:HTML parsed, length: 224142 characters
+INFO:root:Response length: 225807 characters
+INFO:root:HTML parsed, length: 224180 characters
 INFO:root:Found 1 titles: ['1 de abril na história']
 INFO:root:Found 46 URLs: ['/wiki/Ficheiro:Bismarck_pickelhaube.jpg', '/wiki/Dia_da_Mentira', '/wiki/1625']
 INFO:root:Found 1 descriptions: ['Otto von Bismarck\nDia da Mentira\n\n1625 – Guerra Lu']
@@ -415,8 +415,8 @@ Ver mais • Outros dias: 30 • 31 • 1 • 2 • 3 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225769 characters
-INFO:root:HTML parsed, length: 224142 characters
+INFO:root:Response length: 225807 characters
+INFO:root:HTML parsed, length: 224180 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg']
 INFO:root:Found 1 descriptions: ['Nova versão da famosa fotografia dos Pilares da Cr']
@@ -444,40 +444,24 @@ INFO:root:Git identity configured.
 INFO:root:
 📝 Git Changes Detected:
 INFO:root: M feeds/devocional_de_hoje/atom.xml
- M feeds/devocional_de_hoje/feed.json
  M feeds/palavra_biblica_do_dia/atom.xml
- M feeds/palavra_biblica_do_dia/feed.json
  M feeds/palavra_do_dia/atom.xml
- M feeds/palavra_do_dia/feed.json
  M feeds/salmo_do_dia/atom.xml
- M feeds/salmo_do_dia/feed.json
  M "feeds/vers\303\255culo_do_dia/atom.xml"
- M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 ++--
- feeds/devocional_de_hoje/feed.json        |  17 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  47 ++--
- feeds/palavra_biblica_do_dia/feed.json    |   7 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  21 +-
- feeds/salmo_do_dia/atom.xml               | 104 ++++++---
- feeds/salmo_do_dia/feed.json              |  17 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
- "feeds/vers\303\255culo_do_dia/feed.json" |   7 +-
- feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidestaque/feed.json              |   3 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikidia/feed.json                   |   3 +-
- feeds/wikiimagem/atom.xml                 |   4 +-
- feeds/wikiimagem/feed.json                |   4 +-
- output.log                                | 359 +++++++++++++++++-------------
- 17 files changed, 382 insertions(+), 273 deletions(-)
+INFO:root: feeds/devocional_de_hoje/atom.xml        |  6 ++---
+ feeds/palavra_biblica_do_dia/atom.xml    |  2 +-
+ feeds/palavra_do_dia/atom.xml            |  6 ++---
+ feeds/salmo_do_dia/atom.xml              |  6 ++---
+ "feeds/vers\303\255culo_do_dia/atom.xml" |  2 +-
+ feeds/wikidestaque/atom.xml              |  2 +-
+ feeds/wikidia/atom.xml                   |  2 +-
+ feeds/wikiimagem/atom.xml                |  2 +-
+ output.log                               | 38 +++++---------------------------
+ 9 files changed, 20 insertions(+), 46 deletions(-)
