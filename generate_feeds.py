@@ -50,7 +50,6 @@ def generate_feed(feed_config, should_print_last_entries=False):
     soup = BeautifulSoup(r.text, 'html.parser')
     logging.info(f"HTML parsed, length: {len(str(soup))} characters")
 
-    # Handle selectors, ensuring "" and None are treated as absent
     titles = soup.select(feed_config["item_title_css"]) if feed_config["item_title_css"] else []
     urls = soup.select(feed_config["item_url_css"]) if feed_config["item_url_css"] else []
     descriptions = soup.select(feed_config["item_description_css"]) if feed_config["item_description_css"] else []
@@ -60,10 +59,19 @@ def generate_feed(feed_config, should_print_last_entries=False):
     extras2 = soup.select(feed_config["item_extra_css2"]) if feed_config.get("item_extra_css2") else []
     stitles = soup.select(feed_config["item_stitle_css"]) if feed_config.get("item_stitle_css") else []
 
+    # Extract image for "Imagem do dia" feed
+    image_url = None
+    if "wikiimagem" in feed_config["output_path"]:
+        img_tag = soup.select_one("div.main-page-third-row div .main-page-block-contents img")
+        if img_tag and img_tag.get('src'):
+            image_url = urljoin("https:", img_tag['src'])  # Ensure full URL with https
+
     logging.info(f"Found {len(titles)} titles: {[t.text.strip() for t in titles[:3]]}")
     logging.info(f"Found {len(urls)} URLs: {[u.get('href') for u in urls[:3]]}")
     logging.info(f"Found {len(descriptions)} descriptions: {[d.text.strip()[:50] for d in descriptions[:3]]}")
     logging.info(f"Found {len(dates)} dates: {[d.text.strip() for d in dates[:3]]}")
+    if image_url:
+        logging.info(f"Found image URL: {image_url}")
 
     fg = FeedGenerator()
     fg.id(feed_config["url"])
@@ -101,14 +109,21 @@ def generate_feed(feed_config, should_print_last_entries=False):
 
         fe.description(description_text)
 
+        # Add image as enclosure for "Imagem do dia"
+        if image_url and "wikiimagem" in feed_config["output_path"]:
+            fe.enclosure(url=image_url, type="image/jpeg", length="0")  # Length is optional, set to 0 if unknown
+
         if authors and i < len(authors) and authors[i].text.strip():
             fe.author(name=authors[i].text)
 
         entry_data = {
             "Title": fe.title(),
             "ID": entry_id,
-            "Description": description_text
+            "Description": description_text,
+            "Link": item_url
         }
+        if image_url and "wikiimagem" in feed_config["output_path"]:
+            entry_data["Image"] = image_url  # Optional: Add to JSON output
         if authors and i < len(authors) and authors[i].text.strip():
             entry_data["Author"] = authors[i].text
         output_data.append(entry_data)
@@ -126,8 +141,10 @@ def generate_feed(feed_config, should_print_last_entries=False):
         logging.info("\n📌 Last 3 entries:")
         for entry in output_data[-3:]:
             logging.info(f"🔹 Title: {entry['Title']}")
-            logging.info(f"🔹 URL: {entry['ID']}")
+            logging.info(f"🔹 URL: {entry['Link']}")
             logging.info(f"🔹 Description: {entry['Description']}")
+            if "Image" in entry:
+                logging.info(f"🔹 Image: {entry['Image']}")
             logging.info("-" * 50)
 
 def report_git_changes():
