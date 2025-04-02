@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119876 characters
-INFO:root:HTML parsed, length: 112759 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (01/04/2025)', 'Palavra de Ontem (31/03/2025)', 'Palavra de Anteontem (30/03/2025)']
-INFO:root:Found 3 URLs: ['/cento/', '/erva/', '/fracionado/']
-INFO:root:Found 14 descriptions: ['substantivo masculino Noventa mais dez (100); cem.', 'Sinônimos:\n\ncentena, cem', 'Classe gramatical:numeral e substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (01/04/2025)', 'Palavra de Ontem (31/03/2025)', 'Palavra de Anteontem (30/03/2025)']
+INFO:root:Response length: 120145 characters
+INFO:root:HTML parsed, length: 113028 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (02/04/2025)', 'Palavra de Ontem (01/04/2025)', 'Palavra de Anteontem (31/03/2025)']
+INFO:root:Found 3 URLs: ['/compartilhamento/', '/cento/', '/erva/']
+INFO:root:Found 14 descriptions: ['substantivo masculino Ação ou efeito de compartilh', 'Sinônimos:\n\ndivisão, repartição, partição, partilh', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (02/04/2025)', 'Palavra de Ontem (01/04/2025)', 'Palavra de Anteontem (31/03/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (01/04/2025)', ID=55dbd7c4777d54ee0c70d810edfc3872
-INFO:root:Processing entry 2: Title='Palavra de Ontem (31/03/2025)', ID=5f3c2bf800c1a86032b4ab5cdc0564c9
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/03/2025)', ID=2bccdd3c8672a1db62e1306176312569
+INFO:root:Processing entry 1: Title='Palavra de Hoje (02/04/2025)', ID=d40f5b4d71ce0125a86e5d6e24e8c563
+INFO:root:Processing entry 2: Title='Palavra de Ontem (01/04/2025)', ID=a6528ae6fb3359c72096212dd1e42569
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (31/03/2025)', ID=875300a569f94759995e6da94b46a786
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (01/04/2025) - Significado completo de cento:
-INFO:root:🔹 URL: 55dbd7c4777d54ee0c70d810edfc3872
-INFO:root:🔹 Description: substantivo masculino Noventa mais dez (100); cem.Grupo de cem objetos; centena, cem.Diz-se desse número: ela vive na casa cento e dois.Que representa ou equivale essa quantidade: cento de quarenta gramas.Que ocupa a centésima posição: estou na página cento e vinte do livro.[Gramática] Usada em expressões de valor indeterminado, que não se pode numerar; inumerável: fiquei ouvindo a mesma história umas cento e cinquenta vezes!Etimologia (origem da palavra cento). Do latim centum.
+INFO:root:🔹 Title: Palavra de Hoje (02/04/2025) - Significado completo de compartilhamento:
+INFO:root:🔹 URL: https://www.dicio.com.br/compartilhamento/
+INFO:root:🔹 Description: substantivo masculino Ação ou efeito de compartilhar, de partilhar, de dividir, de repartir a mesma coisa; divisão, comunhão, partilha: compartilhamento de dados entre computadores.Ação de partilhar algo com alguém: compartilhamento de benefícios.Etimologia (origem da palavra compartilhamento). A palavra compartilhamento deriva da junção do verbo compartilhar, e do sufixo -mento.
  
 Sinônimos:
 
-centena, cem 
+divisão, repartição, partição, partilha, distribuição, repartimento, subdivisão, reparte, comunhão 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (31/03/2025) - Significado completo de erva:
-INFO:root:🔹 URL: 5f3c2bf800c1a86032b4ab5cdc0564c9
+INFO:root:🔹 Title: Palavra de Ontem (01/04/2025) - Significado completo de cento:
+INFO:root:🔹 URL: https://www.dicio.com.br/cento/
 INFO:root:🔹 Description: Sinônimos:
 
-centena, cem
- Classe gramatical:numeral e substantivo masculino
+divisão, repartição, partição, partilha, distribuição, repartimento, subdivisão, reparte, comunhão
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (30/03/2025) - Significado completo de fracionado:
-INFO:root:🔹 URL: 2bccdd3c8672a1db62e1306176312569
-INFO:root:🔹 Description: Classe gramatical:numeral e substantivo masculino
- Sílabas:cen-to
+INFO:root:🔹 Title: Palavra de Anteontem (31/03/2025) - Significado completo de erva:
+INFO:root:🔹 URL: https://www.dicio.com.br/erva/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:com-par-ti-lha-men-to
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,45 +42,119 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237154 characters
-INFO:root:HTML parsed, length: 227134 characters
-INFO:root:Found 1 titles: ['Salmos 121:1-2']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_121_1-2/']
-INFO:root:Found 1 descriptions: ['Levanto os meus olhos para os montes\ne pergunto:\nD']
+INFO:root:Response length: 238709 characters
+INFO:root:HTML parsed, length: 228190 characters
+INFO:root:Found 1 titles: ['Atos dos Apóstolos 3:19']
+INFO:root:Found 1 URLs: ['/versiculo/atos_dos_apostolos_3_19/']
+INFO:root:Found 1 descriptions: ['Arrependam-se, pois, e voltem-se para Deus, para q']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 121:1-2', ID=aadaacf3541fe8f750c026291d66f36e
+INFO:root:Processing entry 1: Title='Atos dos Apóstolos 3:19', ID=85fbde84ef75134fddc89e4a62757dd2
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 121:1-2
-INFO:root:🔹 URL: aadaacf3541fe8f750c026291d66f36e
-INFO:root:🔹 Description: Levanto os meus olhos para os montes
-e pergunto:
-De onde me vem o socorro? O meu socorro vem do Senhor,
-que fez os céus e a terra. Salmos 121:1-2
+INFO:root:🔹 Title: Atos dos Apóstolos 3:19
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/atos_dos_apostolos_3_19/
+INFO:root:🔹 Description: Arrependam-se, pois, e voltem-se para Deus, para que os seus pecados sejam cancelados, Atos dos Apóstolos 3:19
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237678 characters
-INFO:root:HTML parsed, length: 227865 characters
-INFO:root:Found 3 titles: ['Salmo 142', 'Salmo 26', 'Salmo 6']
-INFO:root:Found 3 URLs: ['/salmos_142/', '/salmos_26/', '/salmos_6/']
-INFO:root:Found 3 descriptions: ['Em alta voz clamo ao Senhor;\nelevo a minha voz ao ', 'Faze-me justiça, Senhor,\npois tenho vivido com int', 'Senhor, não me castigues na tua ira\nnem me discipl']
-INFO:root:Found 3 dates: ['1 de Abril de 2025', '31 de Março de 2025', '30 de Março de 2025']
+INFO:root:Response length: 239451 characters
+INFO:root:HTML parsed, length: 229672 characters
+INFO:root:Found 3 titles: ['Salmo 71', 'Salmo 142', 'Salmo 26']
+INFO:root:Found 3 URLs: ['/salmos_71/', '/salmos_142/', '/salmos_26/']
+INFO:root:Found 3 descriptions: ['Em ti, Senhor, busquei refúgio;\nnunca permitas que', 'Em alta voz clamo ao Senhor;\nelevo a minha voz ao ', 'Faze-me justiça, Senhor,\npois tenho vivido com int']
+INFO:root:Found 3 dates: ['2 de Abril de 2025', '1 de Abril de 2025', '31 de Março de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 142', ID=fceda8509c4fb9c616d39ae7136b8698
-INFO:root:Processing entry 2: Title=' Salmo 26', ID=72190ff759f5b648f9f92b3583670f31
-INFO:root:Processing entry 3: Title=' Salmo 6', ID=9a5dfa84a1c1ed176bdcd855730eb2a6
+INFO:root:Processing entry 1: Title=' Salmo 71', ID=045b98f7d6c8c1fa8d7fa83126eafe0b
+INFO:root:Processing entry 2: Title=' Salmo 142', ID=fceda8509c4fb9c616d39ae7136b8698
+INFO:root:Processing entry 3: Title=' Salmo 26', ID=72190ff759f5b648f9f92b3583670f31
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 71
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_71/
+INFO:root:🔹 Description: Em ti, Senhor, busquei refúgio;
+nunca permitas que eu seja humilhado. 
+Resgata-me e livra-me por tua justiça;
+inclina o teu ouvido para mim e salva-me. 
+Peço-te que sejas a minha rocha de refúgio,
+para onde eu sempre possa ir;
+dá ordem para que me libertem,
+pois és a minha rocha
+e a minha fortaleza. 
+Livra-me, ó meu Deus, das mãos dos ímpios,
+das garras dos perversos e cruéis. 
+Pois tu és a minha esperança,
+ó Soberano Senhor,
+em ti está a minha confiança desde a juventude. 
+Desde o ventre materno dependo de ti;
+tu me sustentaste
+desde as entranhas de minha mãe.
+Eu sempre te louvarei! 
+Tornei-me um exemplo para muitos,
+porque tu és o meu refúgio seguro. 
+Do teu louvor transborda a minha boca,
+que o tempo todo proclama o teu esplendor. 
+Não me rejeites na minha velhice;
+não me abandones
+quando se vão as minhas forças. 
+Pois os meus inimigos me caluniam;
+os que estão à espreita juntam-se e
+planejam matar-me. 
+"Deus o abandonou", dizem eles;
+"persigam-no e prendam-no,
+pois ninguém o livrará." 
+Não fiques longe de mim, ó Deus;
+ó meu Deus, apressa-te em ajudar-me. 
+Pereçam humilhados os meus acusadores;
+sejam cobertos de zombaria e vergonha
+os que querem prejudicar-me. 
+Mas eu sempre terei esperança
+e te louvarei cada vez mais. 
+A minha boca falará sem cessar da tua justiça
+e dos teus incontáveis atos de salvação. 
+Falarei dos teus feitos poderosos,
+ó Soberano Senhor;
+proclamarei a tua justiça,
+unicamente a tua justiça. 
+Desde a minha juventude, ó Deus,
+tens me ensinado,
+e até hoje eu anuncio as tuas maravilhas. 
+Agora que estou velho, de cabelos brancos,
+não me abandones, ó Deus,
+para que eu possa falar da tua força
+aos nossos filhos,
+e do teu poder às futuras gerações. 
+Tua justiça chega até as alturas, ó Deus,
+tu, que tens feito coisas grandiosas.
+Quem se compara a ti, ó Deus? 
+Tu, que me fizeste passar
+muitas e duras tribulações,
+restaurarás a minha vida,
+e das profundezas da terra
+de novo me farás subir. 
+Tu me farás mais honrado
+e mais uma vez me consolarás. 
+E eu te louvarei com a lira
+por tua fidelidade, ó meu Deus;
+cantarei louvores a ti com a harpa,
+ó Santo de Israel. 
+Os meus lábios gritarão de alegria
+quando eu cantar louvores a ti,
+pois tu me redimiste. 
+Também a minha língua sempre falará
+dos teus atos de justiça,
+pois os que queriam prejudicar-me
+foram humilhados e ficaram frustrados. 
+ Salmo 71
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 142
-INFO:root:🔹 URL: fceda8509c4fb9c616d39ae7136b8698
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_142/
 INFO:root:🔹 Description: Em alta voz clamo ao Senhor;
 elevo a minha voz ao Senhor,
 suplicando misericórdia. 
@@ -109,7 +183,7 @@ por causa da tua bondade para comigo.
  Salmo 142
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 26
-INFO:root:🔹 URL: 72190ff759f5b648f9f92b3583670f31
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_26/
 INFO:root:🔹 Description: Faze-me justiça, Senhor,
 pois tenho vivido com integridade.
 Tenho confiado no Senhor, sem vacilar. 
@@ -137,100 +211,93 @@ Os meus pés estão firmes na retidão;
 na grande assembleia bendirei o Senhor. 
  Salmo 26
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 6
-INFO:root:🔹 URL: 9a5dfa84a1c1ed176bdcd855730eb2a6
-INFO:root:🔹 Description: Senhor, não me castigues na tua ira
-nem me disciplines no teu furor. 
-Misericórdia, Senhor, pois vou desfalecendo!
-Cura-me, Senhor, pois os meus ossos tremem: 
-todo o meu ser estremece.
-Até quando, Senhor, até quando? 
-Volta-te, Senhor, e livra-me;
-salva-me por causa do teu amor leal. 
-Quem morreu não se lembra de ti.
-Entre os mortos, quem te louvará? 
-Estou exausto de tanto gemer.
-De tanto chorar inundo de noite
-a minha cama;
-de lágrimas encharco o meu leito. 
-Os meus olhos se consomem de tristeza;
-fraquejam por causa de todos
-os meus adversários. 
-Afastem-se de mim
-todos vocês que praticam o mal,
-porque o Senhor ouviu o meu choro. 
-O Senhor ouviu a minha súplica;
-o Senhor aceitou a minha oração. 
-Serão humilhados e aterrorizados
-todos os meus inimigos;
-frustrados, recuarão de repente. 
- Salmo 6
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 241572 characters
-INFO:root:HTML parsed, length: 231437 characters
-INFO:root:Found 3 titles: ['A resposta de Deus virá', 'Deus pode e quer fazer mais por você!', 'Paz a esta casa']
+INFO:root:Response length: 241777 characters
+INFO:root:HTML parsed, length: 231657 characters
+INFO:root:Found 3 titles: ['Renove seu espírito e recupere a sua alegria', 'A resposta de Deus virá', 'Deus pode e quer fazer mais por você!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['E tudo o que pedirem em oração, se crerem, vocês r', 'Àquele que é capaz de fazer infinitamente mais do ', 'Vivemos num mundo que necessita imensamente de paz']
-INFO:root:Found 1 dates: ['Terça, 1 de abril de 2025']
+INFO:root:Found 3 descriptions: ['Cria em mim um coração puro, ó Deus,\ne renova dent', 'E tudo o que pedirem em oração, se crerem, vocês r', 'Àquele que é capaz de fazer infinitamente mais do ']
+INFO:root:Found 1 dates: ['Quarta, 2 de abril de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A resposta de Deus virá', ID=25622bc3be96618eac847ae9f7afb83c
+INFO:root:Processing entry 1: Title='Renove seu espírito e recupere a sua alegria', ID=b88265e8dfe937e49bbe269e34f01e5d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A resposta de Deus virá - Palavra de Hoje
-INFO:root:🔹 URL: 25622bc3be96618eac847ae9f7afb83c
-INFO:root:🔹 Description: E tudo o que pedirem em oração, se crerem, vocês receberão".
-- Mateus 21:22
+INFO:root:🔹 Title: Renove seu espírito e recupere a sua alegria - Palavra de Hoje
+INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
+INFO:root:🔹 Description: Cria em mim um coração puro, ó Deus,
+e renova dentro de mim um espírito estável.
+Não me expulses da tua presença
+nem tires de mim o teu Santo Espírito.
+Devolve-me a alegria da tua salvação
+e sustenta-me
+com um espírito pronto a obedecer.
+- Salmo 51:10-12 
 
-Quando oramos e buscamos a Deus de coração sincero, podemos ter a certeza de que Ele ouve cada palavra, cada pedido. Mas a resposta de Deus muitas vezes é além do que nossa mente humana consegue compreender.
-Às vezes, a resposta de Deus não é um “sim” imediato, mas um “não” ou até um “aguarde”, e é nesses momentos que a fé é desafiada a crescer. Ele sabe o que é melhor para nós e, muitas vezes, a espera é o processo necessário para que possamos amadurecer, aprender e estar preparados para a bênção que está por vir.
-A confiança em Deus deve ser nossa força. Quando Ele nos dá uma resposta, seja ela positiva ou negativa, é uma resposta de amor. Ele nunca nos deixa sem direção, e cada situação é uma oportunidade de nos aproximarmos mais d’Ele, de confiar mais em Seus planos. Podemos não entender agora, mas devemos acreditar que Sua vontade é sempre boa, agradável e perfeita.
-Ao enfrentar dificuldades ou incertezas, lembre-se de que Deus já tem a resposta. Ele está trabalhando nos bastidores, cuidando de cada detalhe da sua vida. Confie no Seu tempo, pois, no final, a resposta de Deus sempre trará paz, crescimento e uma renovação da sua fé.
-
-Confie no Senhor de todo o seu coração
-e não se apoie
-em seu próprio entendimento;
-reconheça o Senhor
-em todos os seus caminhos,
-e ele endireitará as suas veredas.
-- Provérbios 3:5-6
-
-A confiança plena em Deus é a chave para entender que, mesmo nos momentos de incerteza, Ele está no controle de tudo. Muitas vezes, tentamos resolver as situações com nossas próprias forças, buscando respostas no que acreditamos ser o melhor caminho.
-O versículo de Provérbios nos ensina que, quando nos entregamos totalmente ao Senhor, reconhecendo Sua soberania em todas as áreas da nossa vida, Ele é quem nos direciona para a melhor estrada.
-Por mais que o caminho pareça incerto ou demorado, a promessa de Deus é clara: Ele endireitará as nossas veredas. Isso significa que Ele trará clareza, direção e paz para nossa vida, mesmo que o processo leve tempo. Ao colocarmos nossa confiança n'Ele, podemos descansar, sabendo que Sua resposta é sempre boa e cheia de propósito.
-Veja também: Versículos sobre a resposta de Deus (Ele nos ouve)
+Há muitas coisas que podem enfraquecer o nosso espírito e roubar a nossa alegria. Problemas familiares, dificuldades econômicas, incertezas quanto ao futuro, problemas de saúde... São tantos fardos acumulados sobre os nossos ombros! Mas, embora estas situações possam ser muito difíceis de suportar, o pior fardo é o do pecado não confessado.
+David, o grande personagem bíblico, viveu isso em primeira mão. Após cometer adultério e planejar o assassinato de um homem bom, Deus enviou o profeta Natã para confrontar Davi. O resultado? Davi confessou seu pecado e se arrependeu. Ao receber o perdão e a restauração de Deus, o espírito de Davi foi liberto do grande peso do pecado e encheu-se novamente da alegria do Senhor.
+A restauração de Deus traz significado e novo propósito às nossas vidas. Davi, após seu arrependimento sincero, recebeu perdão e experimentou uma profunda transformação. Seu coração, antes carregado de culpa e vergonha, foi renovado pela graça divina. Da mesma forma, quando apresentamos nossas falhas diante de Deus com humildade e sinceridade, ele nos restaura e nos dá a oportunidade de começar de novo.
+Se você sente que seu espírito está cansado, se o peso do pecado ou das preocupações roubou sua alegria, lembre-se que Deus está pronto para te renovar. Não há fardo pesado demais nem pecado grande que Sua graça não possa cobrir. Aproxime-se dele com um coração sincero, confesse o que o aflige e permita que o amor dele o restaure. Na sua presença há plenitude de alegria e no seu perdão encontramos a verdadeira liberdade. 
+Hoje é um bom dia para renovar o espírito e recuperar a alegria. Dê a Deus tudo o que o pesa e confie em sua promessa de fazer novas todas as coisas. Assim como fez com Davi, Deus pode restaurar você e encher sua vida de propósito e esperança. 
+Saiba mais sobre a história de Davi.
  
-Versículos para evangelizar
-Missões: Jesus está chamando Você (Estudo Bíblico)
-
- 
-E tudo o que pedirem em oração, se crerem, vocês receberão".
-- Mateus 21:22
+Cria em mim um coração puro, ó Deus,
+e renova dentro de mim um espírito estável.
+Não me expulses da tua presença
+nem tires de mim o teu Santo Espírito.
+Devolve-me a alegria da tua salvação
+e sustenta-me
+com um espírito pronto a obedecer.
+- Salmo 51:10-12 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 247775 characters
-INFO:root:HTML parsed, length: 237916 characters
-INFO:root:Found 3 titles: ['Deus já preparou o melhor para você', 'Superando a animosidade', 'A amizade que te levanta']
-INFO:root:Found 3 URLs: ['/mensagens_biblicas_bom_dia_com_deus/', '/conselhos_para_resolver_conflitos/', '/versiculos_de_amar_o_proximo/']
-INFO:root:Found 3 descriptions: ['Porque sou eu que conheço os planos que tenho para', 'A Bíblia nos ensina a superar a animosidade e a cu', '"Se um cair, o amigo pode ajudá-lo a levantar-se. ']
-INFO:root:Found 3 dates: ['ABRIL\n\n1\nTERÇA', 'MARçO\n\n31\nSEGUNDA', 'MARçO\n\n30\nDOMINGO']
+INFO:root:Response length: 250728 characters
+INFO:root:HTML parsed, length: 240361 characters
+INFO:root:Found 3 titles: ['Evite a ganância e a ambição', 'Deus já preparou o melhor para você', 'Superando a animosidade']
+INFO:root:Found 4 URLs: ['/judas_iscariotes/', '/mensagens_biblicas_bom_dia_com_deus/', '/conselhos_para_resolver_conflitos/']
+INFO:root:Found 3 descriptions: ['A história de Judas Iscariotes é um alerta poderos', 'Porque sou eu que conheço os planos que tenho para', 'A Bíblia nos ensina a superar a animosidade e a cu']
+INFO:root:Found 3 dates: ['ABRIL\n\n2\nQUARTA', 'ABRIL\n\n1\nTERÇA', 'MARçO\n\n31\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Deus já preparou o melhor para você', ID=11ec377d0a61e129a94faf540f663ee5
-INFO:root:Processing entry 2: Title='Superando a animosidade', ID=fedd09da7e3253ad55e7863e026fdb8f
-INFO:root:Processing entry 3: Title='A amizade que te levanta', ID=388944429f29580081db21ef0b50cb88
+INFO:root:Processing entry 1: Title='Evite a ganância e a ambição', ID=e8d27b1215eb3966d39e777bccff20ed
+INFO:root:Processing entry 2: Title='Deus já preparou o melhor para você', ID=11ec377d0a61e129a94faf540f663ee5
+INFO:root:Processing entry 3: Title='Superando a animosidade', ID=fedd09da7e3253ad55e7863e026fdb8f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Evite a ganância e a ambição
+INFO:root:🔹 URL: https://www.bibliaon.com/judas_iscariotes/
+INFO:root:🔹 Description: A história de Judas Iscariotes é um alerta poderoso sobre os perigos da ganância e da ambição. Escolhido como um dos doze discípulos de Jesus, Judas tinha a oportunidade de caminhar ao lado do Mestre, aprender com Ele e testemunhar milagres. No entanto, sua ganância o levou a trair aquele que confiava nele por trinta moedas de prata.
+Judas, seduzido pelo dinheiro, esqueceu-se da amizade, da lealdade e da fé. Sua decisão teve consequências irreversíveis, levando-o ao desespero e à ruína. Esse episódio nos ensina que a busca desenfreada por riqueza ou poder pode custar aquilo que realmente importa: a paz, a dignidade e a consciência tranquila.
+Vivemos em uma sociedade que valoriza o sucesso material acima de tudo. Muitos são levados a acreditar que a felicidade está no acúmulo de bens, no sucesso ou no reconhecimento. A história de Judas nos lembra que riquezas mal adquiridas podem trazer mais dor do que satisfação.
+Para evitar cair nos mesmos erros de Judas, é essencial cultivar valores que a Palavra de Deus ensina. Em vez de colocar o dinheiro acima de tudo, devemos buscar uma vida equilibrada, guiada pelo amor e pela integridade. A verdadeira riqueza não está no ouro, mas no caráter e na retidão. Afinal, de que adianta ganhar o mundo e perder a alma? 
+Evitando a ganância a e ambição 
+
+
+Valorize o que é eterno: Judas buscou riquezas passageiras, mas a verdadeira riqueza está nas coisas que não podem ser compradas: a fé, a amizade e a paz.
+
+Busque equilíbrio, não excessos: A ganância leva à insatisfação constante. Jesus ensinou que “onde estiver o teu tesouro, aí estará também o teu coração” (Mateus 6:21).
+
+Escolha a lealdade e a integridade: Manter a lealdade e a honestidade em nossos relacionamentos é essencial para evitar o erro da ambição desmedida.
+
+Pratique o desapego material: “Mais bem-aventurado é dar do que receber” (Atos 20:35). A verdadeira generosidade e felicidade vêm de compartilhar, não de acumular.
+
+Lembre-se das consequências das escolhas: O arrependimento pode ser tarde demais, mas a reflexão constante sobre nossas ações nos ajuda a evitar caminhos de ruína.
+
+Para orar: 
+
+Senhor, ajuda-me a cultivar um coração puro e desapegado das riquezas deste mundo. Ensina-me a valorizar a lealdade, a honestidade e a integridade, em vez de buscar o sucesso a qualquer custo. Que eu nunca troque a paz e o amor por ambições fúteis. Guia-me no caminho da sabedoria e da generosidade, para que eu viva de acordo com Tua vontade e honre Teu nome em tudo o que faço. Amém.
+
+Veja também: A história de Judas Iscariotes.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Deus já preparou o melhor para você
-INFO:root:🔹 URL: 11ec377d0a61e129a94faf540f663ee5
+INFO:root:🔹 URL: https://www.bibliaon.com/mensagens_biblicas_bom_dia_com_deus/
 INFO:root:🔹 Description: Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
 - Jeremias 29:11 
 
@@ -258,7 +325,7 @@ Senhor amado, obrigado pelos planos maravilhosos que tens para mim. Mesmo quando
 Veja também: Tenha um bom dia com Deus
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Superando a animosidade
-INFO:root:🔹 URL: fedd09da7e3253ad55e7863e026fdb8f
+INFO:root:🔹 URL: https://www.bibliaon.com/conselhos_para_resolver_conflitos/
 INFO:root:🔹 Description: A Bíblia nos ensina a superar a animosidade e a cultivar o amor e a reconciliação em nossas vidas. Em Efésios lemos uma palavra de ânimo:
 
 Livrem-se de toda amargura, indignação e ira, gritaria e calúnia, bem como de toda maldade. Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, assim como Deus os perdoou em Cristo.
@@ -286,28 +353,10 @@ Veja também:
 7 conselhos da Bíblia para resolver conflitos
 Versículos que mostram como é importante amar o próximo
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A amizade que te levanta
-INFO:root:🔹 URL: 388944429f29580081db21ef0b50cb88
-INFO:root:🔹 Description: "Se um cair, o amigo pode ajudá-lo a levantar-se. Mas pobre do homem que cai e não tem quem o ajude a levantar-se!"
-Eclesiastes 4:10
-
-Quando andamos juntos no caminho da fé, a amizade pode ser construtiva e edificadora. Não é bom estarmos isolados, pois, fazemos parte de um corpo. Não há nada pior do que estar sozinho, isolado, sem ter ninguém para compartilhar as suas alegrias e tribulações.
-Numa amizade saudável, um amigo pode auxiliar o outro. Se um cair, o outro, ajuda a levantar. Por isso é importante cultivarmos a comunhão com nossos irmãos em Cristo. A verdadeira amizade é aquela que te impulsiona a buscar mais a Deus.
-Lembre-se, ainda que sozinhos, Jesus é o nosso melhor amigo. Cristo nunca nos desampara e o Espírito Santo consola o nosso coração. No caminhar da fé haverão oportunidades para conhecer outros irmãos e construir uma amizade centrada em Jesus. 
-Amigos da fé
-
-Procure amizades que possam edificar a sua fé. Desta forma, ambos se fortalecem.
-Se um amigo seu tiver um problema, procure ajudar. Um dia você poderá precisar de uma mão amiga. 
-Incentive os seus amigos a buscarem a Deus. Um bom amigo ajuda a edificar a fé do outro. 
-
-Para Orar: 
-
-Senhor, Tu és o meu melhor amigo. Teu sacrifício me salvou e alcançou tantos outros. Hoje tenho amigos mais chegados que irmãos. Muito obrigado Senhor, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225745 characters
-INFO:root:HTML parsed, length: 224118 characters
+INFO:root:Response length: 225769 characters
+INFO:root:HTML parsed, length: 224142 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 26 URLs: ['/wiki/The_Simpsons_(9.%C2%AA_temporada)', '/wiki/The_Simpsons', '/wiki/S%C3%A9rie_de_anima%C3%A7%C3%A3o']
 INFO:root:Found 1 descriptions: ['A\xa0nona temporada de\xa0The Simpsons, uma série de ani']
@@ -320,7 +369,7 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: 5d6c6e7cbca4408ff9839e6bfac83452
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/The_Simpsons_(9.%C2%AA_temporada)
 INFO:root:🔹 Description: A nona temporada de The Simpsons, uma série de animação estadunidense de comédia de situação, estreou na noite de 21 de setembro de 1997 na rede de televisão Fox e terminou em 17 de maio de 1998. Foi produzida pelas companhias Gracie Films e 20th Century Fox Television, o produtor executivo foi Mike Scully. Fyvush Finkel, Joe Namath, Roy Firestone, Stephen Jay Gould, Alex Trebek, Bob Denver, Paul McGuinness e os integrantes da banda de rock irlandesa U2 foram algumas das outras estrelas que fizeram participações ao longo da temporada.
 O enredo da temporada apresentou diversos temas diferentes, por exemplo, políticas de armas no episódio "The Cartridge Family", casamento entre Apu e Manjula em "The Two Mrs. Nahasapeemapetilons",  comunismo em "Simpson Tide" e usurpação de identidade em "The Principal and the Pauper". A equipe técnica contou com dezessete roteiristas ao longo de sua produção, assim como doze diretores. Moore dirigiu o maior número de episódios, sendo creditados em quatros.  (Leia mais...)
 
@@ -335,8 +384,8 @@ Artigos bons: 1911
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225745 characters
-INFO:root:HTML parsed, length: 224118 characters
+INFO:root:Response length: 225769 characters
+INFO:root:HTML parsed, length: 224142 characters
 INFO:root:Found 1 titles: ['1 de abril na história']
 INFO:root:Found 46 URLs: ['/wiki/Ficheiro:Bismarck_pickelhaube.jpg', '/wiki/Dia_da_Mentira', '/wiki/1625']
 INFO:root:Found 1 descriptions: ['Otto von Bismarck\nDia da Mentira\n\n1625 – Guerra Lu']
@@ -349,7 +398,7 @@ INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: 1 de abril na história
-INFO:root:🔹 URL: ed125c6c45754fbf9a7be80bccc10886
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Bismarck_pickelhaube.jpg
 INFO:root:🔹 Description: Otto von Bismarck
 Dia da Mentira
 
@@ -366,12 +415,13 @@ Ver mais • Outros dias: 30 • 31 • 1 • 2 • 3 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225745 characters
-INFO:root:HTML parsed, length: 224118 characters
+INFO:root:Response length: 225769 characters
+INFO:root:HTML parsed, length: 224142 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg']
 INFO:root:Found 1 descriptions: ['Nova versão da famosa fotografia dos Pilares da Cr']
 INFO:root:Found 0 dates: []
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/500px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -380,7 +430,7 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: 76891061c3d63e16ccebc31ded0923d5
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg
 INFO:root:🔹 Description: Nova versão da famosa fotografia dos Pilares da Criação capturada pelo telescópio espacial Hubble para marcar o 25.º aniversário de seu lançamento na órbita da Terra. Ela mostra uma formação na Nebulosa da Águia, composta de gás, plasma e poeira cósmica.
 (resolução original: 6 780 × 6 780)
 
@@ -388,33 +438,46 @@ INFO:root:🔹 Description: Nova versão da famosa fotografia dos Pilares da Cri
 Compartilhe:  
 
 Índice geral • Commons
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/500px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
 📝 Git Changes Detected:
 INFO:root: M feeds/devocional_de_hoje/atom.xml
+ M feeds/devocional_de_hoje/feed.json
  M feeds/palavra_biblica_do_dia/atom.xml
+ M feeds/palavra_biblica_do_dia/feed.json
  M feeds/palavra_do_dia/atom.xml
+ M feeds/palavra_do_dia/feed.json
  M feeds/salmo_do_dia/atom.xml
+ M feeds/salmo_do_dia/feed.json
  M "feeds/vers\303\255culo_do_dia/atom.xml"
+ M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
  M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml        |   6 +-
- feeds/palavra_biblica_do_dia/atom.xml    |   2 +-
- feeds/palavra_do_dia/atom.xml            |   6 +-
- feeds/salmo_do_dia/atom.xml              |   6 +-
- "feeds/vers\303\255culo_do_dia/atom.xml" |   2 +-
- feeds/wikidestaque/atom.xml              |  18 +-----
- feeds/wikidestaque/feed.json             |   5 --
- feeds/wikidia/atom.xml                   |  14 ++++-
- feeds/wikidia/feed.json                  |   7 +--
- feeds/wikiimagem/atom.xml                |   2 +-
- output.log                               | 105 ++++++++++++-------------------
- 11 files changed, 68 insertions(+), 105 deletions(-)
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 ++--
+ feeds/devocional_de_hoje/feed.json        |  17 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  47 ++--
+ feeds/palavra_biblica_do_dia/feed.json    |   7 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  21 +-
+ feeds/salmo_do_dia/atom.xml               | 104 ++++++---
+ feeds/salmo_do_dia/feed.json              |  17 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/feed.json" |   7 +-
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/feed.json              |   3 +-
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikidia/feed.json                   |   3 +-
+ feeds/wikiimagem/atom.xml                 |   4 +-
+ feeds/wikiimagem/feed.json                |   4 +-
+ output.log                                | 359 +++++++++++++++++-------------
+ 17 files changed, 382 insertions(+), 273 deletions(-)
