@@ -1,40 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121894 characters
-INFO:root:HTML parsed, length: 114847 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (05/04/2025)', 'Palavra de Ontem (04/04/2025)', 'Palavra de Anteontem (03/04/2025)']
-INFO:root:Found 3 URLs: ['/video/', '/ilustracao/', '/impressao/']
-INFO:root:Found 14 descriptions: ['substantivo masculino Parte visual de uma transmis', 'Sinônimos:\n\nfilme, fita, cassete, clipe, videoclip', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (05/04/2025)', 'Palavra de Ontem (04/04/2025)', 'Palavra de Anteontem (03/04/2025)']
+INFO:root:Response length: 119415 characters
+INFO:root:HTML parsed, length: 112759 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (06/04/2025)', 'Palavra de Ontem (05/04/2025)', 'Palavra de Anteontem (04/04/2025)']
+INFO:root:Found 3 URLs: ['/sociopolitico/', '/video/', '/ilustracao/']
+INFO:root:Found 12 descriptions: ['adjetivo Relativo ao que é, ao mesmo tempo, social', 'Classe gramatical:adjetivo', 'Sílabas:so-ci-o-po-lí-ti-co']
+INFO:root:Found 3 dates: ['Palavra de Hoje (06/04/2025)', 'Palavra de Ontem (05/04/2025)', 'Palavra de Anteontem (04/04/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (05/04/2025)', ID=dc9ea9da8f71dea1873041c865864d1c
-INFO:root:Processing entry 2: Title='Palavra de Ontem (04/04/2025)', ID=b74dc2f16e56343e240411f551d40372
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (03/04/2025)', ID=086ae37bf4e3458bf672bb5de813c358
+INFO:root:Processing entry 1: Title='Palavra de Hoje (06/04/2025)', ID=bf5e7da9760b15118541711b3eecea67
+INFO:root:Processing entry 2: Title='Palavra de Ontem (05/04/2025)', ID=379762ed5f1ac9ff74948f3f2e670260
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (04/04/2025)', ID=c43e27b3b1c616fee483a49cd90f296d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (05/04/2025) - Significado completo de vídeo:
+INFO:root:🔹 Title: Palavra de Hoje (06/04/2025) - Significado completo de sociopolítico:
+INFO:root:🔹 URL: https://www.dicio.com.br/sociopolitico/
+INFO:root:🔹 Description: adjetivo Relativo ao que é, ao mesmo tempo, social e político; que possui tanto aspectos sociais quanto políticos: análise sociopolítica de uma sociedade.Etimologia (origem da palavra sociopolítico). Socio + político.
+ Classe gramatical:adjetivo
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (05/04/2025) - Significado completo de vídeo:
 INFO:root:🔹 URL: https://www.dicio.com.br/video/
-INFO:root:🔹 Description: substantivo masculino Parte visual de uma transmissão televisiva ou de um filme.Conjunto de dispositivos que reproduzem a imagem reproduzida ou transmitida.Tela ou receptor de um televisor ou de um monitor.Filme gravado ou produção audiovisual que pode ser visto na televisão, no computador, no cinema ou em outro dispositivo de mesma natureza.Conjunto de técnicas que concernem à formação, gravação, tratamento e transmissão de imagens ou de sinais do tipo televisão: sinal de vídeo.[Gramática] Usa-se também a palavra vídeo como abreviatura de videoteipe, videoclipe e videocassete.Etimologia (origem da palavra vídeo). O vídeo deriva do latim “video”, derivado do verbo lidere, com sentido de ver, olhar.
+INFO:root:🔹 Description: Classe gramatical:adjetivo
+ Sílabas:so-ci-o-po-lí-ti-co
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (04/04/2025) - Significado completo de ilustração:
+INFO:root:🔹 URL: https://www.dicio.com.br/ilustracao/
+INFO:root:🔹 Description: Sílabas:so-ci-o-po-lí-ti-co
  
 Sinônimos:
 
 filme, fita, cassete, clipe, videoclipe, televisão, monitor, televisor, videoteipe, videocassete 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (04/04/2025) - Significado completo de ilustração:
-INFO:root:🔹 URL: https://www.dicio.com.br/ilustracao/
-INFO:root:🔹 Description: Sinônimos:
-
-filme, fita, cassete, clipe, videoclipe, televisão, monitor, televisor, videoteipe, videocassete
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (03/04/2025) - Significado completo de impressão:
-INFO:root:🔹 URL: https://www.dicio.com.br/impressao/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:ví-de-o
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +40,72 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 238569 characters
-INFO:root:HTML parsed, length: 228050 characters
-INFO:root:Found 1 titles: ['Mateus 19:14']
-INFO:root:Found 1 URLs: ['/versiculo/mateus_19_14/']
-INFO:root:Found 1 descriptions: ['Então disse Jesus: "Deixem vir a mim as crianças e']
+INFO:root:Response length: 238549 characters
+INFO:root:HTML parsed, length: 228030 characters
+INFO:root:Found 1 titles: ['Ageu 2:8']
+INFO:root:Found 1 URLs: ['/versiculo/ageu_2_8/']
+INFO:root:Found 1 descriptions: ['"Tanto a prata quanto o ouro me pertencem", declar']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Mateus 19:14', ID=77158d1b3cf450b2ac69223b2dab63d0
+INFO:root:Processing entry 1: Title='Ageu 2:8', ID=b0f8c6af31a3f8d0bed404f318eaf552
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Mateus 19:14
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_19_14/
-INFO:root:🔹 Description: Então disse Jesus: "Deixem vir a mim as crianças e não as impeçam; pois o Reino dos céus pertence aos que são semelhantes a elas". Mateus 19:14
+INFO:root:🔹 Title: Ageu 2:8
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/ageu_2_8/
+INFO:root:🔹 Description: "Tanto a prata quanto o ouro me pertencem", declara o Senhor dos Exércitos. Ageu 2:8
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 239652 characters
-INFO:root:HTML parsed, length: 229869 characters
-INFO:root:Found 3 titles: ['Salmo 91', 'Salmo 51', 'Salmo 5']
-INFO:root:Found 3 URLs: ['/salmos_91/', '/salmos_51/', '/salmos_5/']
-INFO:root:Found 3 descriptions: ['Aquele que habita no abrigo do Altíssimo\ne descans', 'Tem misericórdia de mim, ó Deus,\npor teu amor;\npor', 'Escuta, Senhor, as minhas palavras,\nconsidera o me']
-INFO:root:Found 3 dates: ['5 de Abril de 2025', '4 de Abril de 2025', '3 de Abril de 2025']
+INFO:root:Response length: 239429 characters
+INFO:root:HTML parsed, length: 229640 characters
+INFO:root:Found 3 titles: ['Salmo 60', 'Salmo 91', 'Salmo 51']
+INFO:root:Found 3 URLs: ['/salmos_60/', '/salmos_91/', '/salmos_51/']
+INFO:root:Found 3 descriptions: ['Tu nos rejeitaste e dispersaste, ó Deus; tu derram', 'Aquele que habita no abrigo do Altíssimo\ne descans', 'Tem misericórdia de mim, ó Deus,\npor teu amor;\npor']
+INFO:root:Found 3 dates: ['6 de Abril de 2025', '5 de Abril de 2025', '4 de Abril de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 91', ID=ae2230ac157c45f9089a80ccb29436a2
-INFO:root:Processing entry 2: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
-INFO:root:Processing entry 3: Title=' Salmo 5', ID=b7b7d93b5eb60b7b9597e8f4b5f5ff34
+INFO:root:Processing entry 1: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
+INFO:root:Processing entry 2: Title=' Salmo 91', ID=ae2230ac157c45f9089a80ccb29436a2
+INFO:root:Processing entry 3: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 60
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_60/
+INFO:root:🔹 Description: Tu nos rejeitaste e dispersaste, ó Deus; tu derramaste a tua ira; restaura-nos agora! 
+Sacudiste a terra e abriste-lhe fendas;
+repara suas brechas,
+pois ameaça desmoronar-se. 
+Fizeste passar o teu povo por tempos difíceis;
+deste-nos um vinho estonteante. 
+Mas aos que te temem deste um sinal
+para que fugissem das flechas. 
+Salva-nos com a tua mão direita
+e responde-nos,
+para que sejam libertos aqueles a quem amas. 
+Do seu santuário Deus falou:
+"No meu triunfo dividirei Siquém
+e repartirei o vale de Sucote. 
+Gileade é minha, Manassés também;
+Efraim é o meu capacete,
+Judá é o meu cetro. 
+Moabe é a pia em que me lavo,
+em Edom atiro a minha sandália;
+sobre a Filístia dou meu brado de vitória!" 
+Quem me levará à cidade fortificada?
+Quem me guiará a Edom? 
+Não foste tu, ó Deus, que nos rejeitaste
+e deixaste de sair com os nossos exércitos? 
+Dá-nos ajuda contra os adversários,
+pois inútil é o socorro do homem. 
+Com Deus conquistaremos a vitória,
+e ele pisoteará os nossos adversários. 
+ Salmo 60
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 91
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_91/
 INFO:root:🔹 Description: Aquele que habita no abrigo do Altíssimo
@@ -173,118 +203,85 @@ das ofertas queimadas e dos holocaustos;
 e novilhos serão oferecidos sobre o teu altar. 
  Salmo 51
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 5
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_5/
-INFO:root:🔹 Description: Escuta, Senhor, as minhas palavras,
-considera o meu gemer. 
-Atenta para o meu grito de socorro,
-meu Rei e meu Deus,
-pois é a ti que imploro. 
-De manhã ouves, Senhor, o meu clamor;
-de manhã te apresento a minha oração
-e aguardo com esperança. 
-Tu não és um Deus
-que tenha prazer na injustiça;
-contigo o mal não pode habitar. 
-Os arrogantes não são aceitos
-na tua presença;
-odeias todos os que praticam o mal. 
-Destróis os mentirosos;
-os assassinos e os traiçoeiros
-o Senhor detesta. 
-Eu, porém, pelo teu grande amor, entrarei em tua casa; com temor me inclinarei para o teu santo templo. 
-Conduze-me, Senhor, na tua justiça, por causa dos meus inimigos; aplaina o teu caminho diante de mim. 
-Em seus lábios não há palavra confiável;
-a mente deles só trama destruição.
-A garganta é um túmulo aberto;
-com a língua enganam sutilmente. 
-Condena-os, ó Deus!
-Caiam eles por suas próprias maquinações.
-Expulsa-os por causa dos seus muitos crimes,
-pois se rebelaram contra ti. 
-Alegrem-se, porém,
-todos os que se refugiam em ti;
-cantem sempre de alegria!
-Estende sobre eles a tua proteção.
-Em ti exultem os que amam o teu nome. 
-Pois tu, Senhor, abençoas o justo;
-o teu favor o protege como um escudo. 
- Salmo 5
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 240695 characters
-INFO:root:HTML parsed, length: 230567 characters
-INFO:root:Found 3 titles: ['Espere em Deus e você terá motivos para louvar', '3 promessas de Deus para sua vida', 'Fé como a de Noé']
+INFO:root:Response length: 240619 characters
+INFO:root:HTML parsed, length: 230491 characters
+INFO:root:Found 3 titles: ['Liberdade com sabedoria', 'Espere em Deus e você terá motivos para louvar', '3 promessas de Deus para sua vida']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Por que você está assim tão triste,\nó minha alma?\n', 'Deus sempre cumpre suas promessas! Ele faz promess', 'Pela fé Noé, quando avisado a respeito de coisas q']
-INFO:root:Found 1 dates: ['Sábado, 5 de abril de 2025']
+INFO:root:Found 3 descriptions: ['"“Tudo me é permitido”, mas nem tudo convém. “Tudo', 'Por que você está assim tão triste,\nó minha alma?\n', 'Deus sempre cumpre suas promessas! Ele faz promess']
+INFO:root:Found 1 dates: ['Domingo, 6 de abril de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Espere em Deus e você terá motivos para louvar', ID=bf996a36e90733fbd3085be210038dd7
+INFO:root:Processing entry 1: Title='Liberdade com sabedoria', ID=af56af32333e8980adbf18bd3c8dd72c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Espere em Deus e você terá motivos para louvar - Palavra de Hoje
+INFO:root:🔹 Title: Liberdade com sabedoria - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Por que você está assim tão triste,
-ó minha alma?
-Por que está assim tão perturbada
-dentro de mim?
-Ponha a sua esperança em Deus!
-Pois ainda o louvarei;
-ele é o meu Salvador e
-o meu Deus.
-- Salmo 42:5 
+INFO:root:🔹 Description: "“Tudo me é permitido”, mas nem tudo convém. “Tudo me é permitido”, mas eu não deixarei que nada me domine."
+- 1 Coríntios 6:12 
 
-O desânimo pode nos atingir repentinamente quando nos vemos rodeados de dificuldades. Podemos ficar frustrados, pensando que não há saída possível, mas a realidade é que Deus não abandona os seus filhos. Quando surgem problemas, ele fica ao lado daqueles que o amam e intervém com poder.
-Nossa conversa interior desempenha um grande papel em momentos de dificuldade. Podemos encher as nossas mentes de derrota e desânimo, ou podemos voltar-nos para o que sabemos sobre Deus, para as promessas da sua Palavra. O autor do Salmo 42 desafiou a sua alma a esperar em Deus e ter a certeza de que a alegria e o louvor retornariam. Ele confiou nas promessas do Senhor e sabia que Deus estava ao seu lado em meio à dificuldade que enfrentava. 
-
-Conceda-me o Senhor o seu fiel amor de dia;
-de noite esteja comigo a sua canção.
-É a minha oração ao Deus que me dá vida.
-- Salmo 42:8 
-
-Quando aprendemos a esperar em Deus, nossa perspectiva muda. Em vez de nos concentrarmos no sofrimento, nos apegamos à verdade de que Deus é fiel e que Seu amor nunca falha. Mesmo que as circunstâncias não mudem imediatamente, a sua presença fortalece-nos e enche-nos de paz. A sua misericórdia sustenta-nos dia e noite, lembrando-nos que não estamos sozinhos. 
-Mesmo em meio à dor, podemos levantar a voz em louvor. Não porque tudo seja perfeito, mas porque confiamos no nosso Deus que está no controle. A esperança nele nos dá motivos para cantar, porque sabemos que, no seu tempo, ele trará restauração e alegria aos nossos corações. Então, não desanime. Continue esperando no Senhor, porque você ainda terá motivos para louvar. 
-Veja também: Exemplos de gratidão na Bíblia: 8 histórias para inspirar
+A liberdade é uma das dádivas mais preciosas que temos em Jesus. Ele nos libertou da culpa, do pecado e da condenação, nos dando acesso direto ao Pai e a possibilidade de vivermos uma vida abundante. Apesar desta liberdade, o apóstolo Paulo nos lembra que, mesmo sendo livres, precisamos agir com sabedoria.
+Vivemos em uma era que exalta a autonomia e o “fazer o que quiser”, mas a Palavra nos convida a algo maior: viver de maneira que agrada a Deus. A liberdade não é uma permissão para vivermos de forma irresponsável, mas um convite a escolhermos o que edifica, o que faz bem, o que aproxima do coração de Deus.
+Nem tudo que é permitido é bom para nós. Algumas escolhas podem nos afastar da nossa intimidade com Deus ou nos tornar escravos do pecado. Paulo é claro: “Eu não deixarei que nada me domine.” Isso é autocontrole, fruto do Espírito, e demonstra maturidade espiritual.
+Jesus nos deu liberdade, mas também nos ensinou a viver com propósito. O bom senso é um aliado precioso nessa caminhada: ele nos ajuda a discernir entre o que apenas é permitido e o que realmente convém. Devemos perguntar: isso glorifica a Deus? Isso edifica minha vida e a dos outros?
+Usar nossa liberdade com sabedoria é a verdadeira demonstração de que somos livres. Pois a verdadeira liberdade não está em fazer tudo o que queremos, mas em escolher o que é melhor, o que nos leva mais perto de Cristo. 
+Veja também: Frutos do Espírito que vão transformar sua vida
  
 Sua presença
 Abundância
 Vida eterna
 
  
-Por que você está assim tão triste,
-ó minha alma?
-Por que está assim tão perturbada
-dentro de mim?
-Ponha a sua esperança em Deus!
-Pois ainda o louvarei;
-ele é o meu Salvador e
-o meu Deus.
-- Salmo 42:5 
+"“Tudo me é permitido”, mas nem tudo convém. “Tudo me é permitido”, mas eu não deixarei que nada me domine."
+- 1 Coríntios 6:12 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 250899 characters
-INFO:root:HTML parsed, length: 240547 characters
-INFO:root:Found 3 titles: ['Jesus muda a sua forma de ver a vida', 'Andando sob a luz da Palavra de Deus', 'Deus sabe o que você realmente quer']
-INFO:root:Found 3 URLs: ['/converter/', '/como_buscar_e_se_aproximar_de_deus/', '/como_orar_e_falar_com_deus/']
-INFO:root:Found 3 descriptions: ['Não se amoldem ao padrão deste mundo, mas transfor', 'A tua palavra é lâmpada\nque ilumina os meus passos', 'Ao homem pertencem\nos planos do coração,\nmas do Se']
-INFO:root:Found 3 dates: ['ABRIL\n\n5\nSÁBADO', 'ABRIL\n\n4\nSEXTA', 'ABRIL\n\n3\nQUINTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Jesus muda a sua forma de ver a vida', ID=ee839499d857b4560674c7789b40dfeb
-INFO:root:Processing entry 2: Title='Andando sob a luz da Palavra de Deus', ID=0cf282ecd00957f1e0e8230ad9a6aa82
-INFO:root:Processing entry 3: Title='Deus sabe o que você realmente quer', ID=a37fd6dfc4e9f5807539b5e651a1ca1f
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 249475 characters
+INFO:root:HTML parsed, length: 239122 characters
+INFO:root:Found 3 titles: ['Deus está contigo durante todo o dia!', 'Jesus muda a sua forma de ver a vida', 'Andando sob a luz da Palavra de Deus']
+INFO:root:Found 2 URLs: ['/converter/', '/como_buscar_e_se_aproximar_de_deus/']
+INFO:root:Found 3 descriptions: ['Conceda-me o Senhor o seu fiel amor de dia;\nde noi', 'Não se amoldem ao padrão deste mundo, mas transfor', 'A tua palavra é lâmpada\nque ilumina os meus passos']
+INFO:root:Found 3 dates: ['ABRIL\n\n6\nDOMINGO', 'ABRIL\n\n5\nSÁBADO', 'ABRIL\n\n4\nSEXTA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Deus está contigo durante todo o dia!', ID=27e4579491063104950672494f45751c
+INFO:root:Processing entry 2: Title='Jesus muda a sua forma de ver a vida', ID=ee839499d857b4560674c7789b40dfeb
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jesus muda a sua forma de ver a vida
+INFO:root:🔹 Title: Deus está contigo durante todo o dia!
 INFO:root:🔹 URL: https://www.bibliaon.com/converter/
+INFO:root:🔹 Description: Conceda-me o Senhor o seu fiel amor de dia;
+de noite esteja comigo a sua canção.
+É a minha oração ao Deus que me dá vida.
+Salmos 42:8 
+
+O nosso Deus é maravilhoso! Ele está sempre ao nosso lado, quer de dia ou de noite, quer nos dias bons ou nos dias maus. Deus que ser convidado para fazer morada no nosso coração. Convide-o, busque-o e o achará! Que esse seja o seu primeiro pensamento do dia e o último desejo durante a noite; sentir a presença de Deus. 
+A presença de Deus tranquiliza o nosso espírito, assim, podemos seguir confiantes para mais um dia. Pela noite, a Sua presença nos acalma e nos traz paz, dando-nos um descanso sereno. Com Deus, todo o dia é dia de aprender e crescer!
+Todo o dia com Deus 
+
+
+Ao levantar pela manhã, comece agradecendo a Deus pela oportunidade de mais um dia. 
+
+
+Durante o dia podemos reservar um pequeno tempo para meditar e orar. Pode ser antes da refeição ou durante o trajeto para o trabalho. 
+
+
+Procure orar antes de dormir, agradeça pela noite de descanso. Um coração grato atraí a presença de Deus. 
+
+
+Para Orar: 
+
+Senhor Jesus, obrigado pelo o Teu favor sobre a minha vida. Durante o dia a Tua presença é indispensável. E pela noite, a Tua presença conforta-me. Sei que posso dormir tranquilo, pois o Teu amor cobre-me. Muito obrigado Jesus! Amém!
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Jesus muda a sua forma de ver a vida
+INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
 INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
 - Romanos 12:2 
 
@@ -307,71 +304,10 @@ Senhor Jesus, abre meus olhos para enxergar como Tu vês. Transforma minha mente
 
 Veja também: Versículos sobre conversão (transformação e renovação em Jesus)
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Andando sob a luz da Palavra de Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
-INFO:root:🔹 Description: A tua palavra é lâmpada
-que ilumina os meus passos
-e luz que clareia o meu caminho.
-- Salmos 119:105 
-
-Caminhar na vida pode ser desafiador. Muitas vezes, nos encontramos barreiras, sem saber para onde ir. Em meio às dúvidas, a Palavra de Deus surge como um farol, iluminando nossos passos e nos conduzindo pelo caminho certo.
-A Bíblia não é apenas um livro, mas a voz de Deus falando diretamente ao nosso coração. Quando meditamos nela e a aplicamos no dia a dia, encontramos direção, força e conforto. Cada ensinamento, cada promessa e cada mandamento são como uma bússola segura que nos orienta ao longo da nossa caminhada.
-Jesus, o próprio Verbo encarnado, nos mostrou o caminho ao dizer: “Eu sou a luz do mundo; quem me segue não andará em trevas, mas terá a luz da vida.” (João 8:12). Se escolhemos seguir a Cristo e obedecer à Sua Palavra, evitamos os tropeços da escuridão e caminhamos com segurança.
-Andar sob essa luz exige compromisso e fé. Significa rejeitar as ilusões do mundo e escolher diariamente os princípios de Deus. Mesmo quando o caminho parece difícil, sabemos que não estamos sozinhos. O Senhor nos sustenta, nos ensina e nos capacita para vencer os desafios.
-Que possamos, dia após dia, buscar na Palavra a direção para nossa jornada. Pois somente nela encontramos a verdadeira vida e segurança.
-
-O caminho do Senhor
-é o refúgio dos íntegros,
-mas é a ruína dos que praticam o mal.
-- Provérbios 10:29 
-
-Como andar sob a luz da Palavra de Deus 
-
-
-Medite diariamente na Palavra: Reserve um tempo diário para ler e refletir na Bíblia. Isso fortalecerá sua fé, trará direção e ajudará a tomar decisões alinhadas com Deus.
-
-Pratique os ensinamentos de Cristo: Não basta conhecer a Palavra; é essencial aplicá-la no cotidiano. Ame ao próximo, perdoe, busque justiça e viva com integridade diante de Deus.
-
-Confie na direção de Deus: Mesmo quando o caminho parecer incerto, confie na orientação divina. Deus nunca falha e Sua Palavra sempre guiará seus passos na direção correta.
-
-Para orar: 
-
-Obrigado pela Tua Palavra, que ilumina meu caminho e fortalece minha fé. Ajuda-me a andar sempre na Tua verdade, confiando em Ti em cada passo. Dá-me sabedoria para aplicar Teus ensinamentos no meu dia a dia e coragem para seguir a Tua vontade. Que minha vida reflita a Tua luz e glorifique o Teu nome. Em nome de Jesus, amém.
-
-Veja também: Como se aproximar de Deus
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Deus sabe o que você realmente quer
-INFO:root:🔹 URL: https://www.bibliaon.com/como_orar_e_falar_com_deus/
-INFO:root:🔹 Description: Ao homem pertencem
-os planos do coração,
-mas do Senhor vem a resposta da língua.
-- Provérbios 16:1 
-
-Muitas vezes, apresentamos a Deus nossos desejos e pedidos com a certeza de que sabemos o que é melhor para nós. Oramos por uma oportunidade, um relacionamento, um sonho específico, acreditando que a realização dessas coisas nos trará felicidade e plenitude. No entanto, nem sempre o que queremos é, de fato, o que precisamos. Deus, em Sua infinita sabedoria e amor, vê muito além do que nossos olhos podem enxergar.
-Às vezes, quando Ele diz “não”, ou quando uma oração parece não ser atendida, pode ser difícil compreender. Podemos sentir frustração e até dúvidas. Mas, com o tempo, percebemos que aquilo que tanto queríamos poderia ter nos causado sofrimento, desilusão ou nos afastado do verdadeiro propósito que Deus tem para nós.
-Assim como um pai amoroso que protege seu filho de escolhas impensadas, Deus nos guarda dos caminhos que podem nos ferir. Ele nos guia para aquilo que é melhor, mesmo que no momento não compreendamos. Nossa fé precisa estar firmada na confiança de que Ele sabe o que é melhor para nossa vida.
-Ao apresentar seus pedidos a Deus, entregue também sua confiança. Permita que Ele direcione seus passos e aceite Sua vontade, pois ela é boa, perfeita e agradável. O que Deus tem para você é maior do que qualquer desejo momentâneo.
-
-Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
-- Jeremias 29:11 
-
-Como confiar em Deus quando não entendemos suas respostas 
-1. Ore com confiança, mas aceite a vontade de Deus:
-Apresente seus desejos a Deus, mas entregue também sua confiança. Entenda que Ele vê além do momento e sempre responderá conforme o que é melhor para sua vida.
-2. Reflita sobre pedidos passados não atendidos:
-Pense em momentos em que Deus disse “não” e veja como isso o protegeu. Muitas vezes, o que parecia uma perda era, na verdade, um livramento ou uma oportunidade melhor adiante.
-3. Fortaleça sua fé com a Palavra:
-Leia a Bíblia para compreender melhor os planos de Deus. Suas promessas nos garantem que Ele tem pensamentos de paz e um futuro bom para aqueles que confiam Nele.
-Para orar: 
-
-Senhor, sei que nem sempre entendo Teus planos, mas confio que Tu sabes o que é melhor para mim. Dá-me paciência para esperar e força para aceitar Tua vontade. Guarda-me dos caminhos que não são Teus e ensina-me a descansar em Teu amor. Que minha fé cresça e meu coração se alinhe aos Teus propósitos. Em nome de Jesus, amém.
-
-Veja também: Como Orar (aprenda como pedir algo a Deus)
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226260 characters
-INFO:root:HTML parsed, length: 224663 characters
+INFO:root:Response length: 226083 characters
+INFO:root:HTML parsed, length: 224486 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 21 URLs: ['/wiki/Singin%27_and_Swingin%27_and_Gettin%27_Merry_Like_Christmas', '/wiki/Singin%27_and_Swingin%27_and_Gettin%27_Merry_Like_Christmas', '/wiki/Autobiografia']
 INFO:root:Found 1 descriptions: ["Singin' and Swingin' and Gettin' Merry Like Christ"]
@@ -399,8 +335,8 @@ Artigos bons: 1912
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226260 characters
-INFO:root:HTML parsed, length: 224663 characters
+INFO:root:Response length: 226083 characters
+INFO:root:HTML parsed, length: 224486 characters
 INFO:root:Found 1 titles: ['5 de abril na história']
 INFO:root:Found 49 URLs: ['/wiki/Ficheiro:RapaNui_L7_03jan01.jpg', '/wiki/Dia_Internacional_da_Consci%C3%AAncia', '/wiki/1722']
 INFO:root:Found 1 descriptions: ['Herbert von Karajan\nDia Internacional da Consciênc']
@@ -430,8 +366,8 @@ Ver mais • Outros dias: 3 • 4 • 5 • 6 • 7 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226260 characters
-INFO:root:HTML parsed, length: 224663 characters
+INFO:root:Response length: 226083 characters
+INFO:root:HTML parsed, length: 224486 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Choc%C3%B3_grasshopper_(Opaon_varicolor)_male.jpg']
 INFO:root:Found 1 descriptions: ['Opaon varicolor (macho), uma espécie de inseto sem']
@@ -469,30 +405,24 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  40 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  78 ++-----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  39 +---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  10 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 118 +++------
+ feeds/salmo_do_dia/atom.xml               |  68 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   6 +-
- feeds/wikidestaque/feed.json              |   4 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 409 ++++++++++++++----------------
- 17 files changed, 339 insertions(+), 397 deletions(-)
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 351 +++++++++++-------------------
+ 14 files changed, 236 insertions(+), 386 deletions(-)
