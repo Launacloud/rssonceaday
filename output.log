@@ -1,38 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119415 characters
-INFO:root:HTML parsed, length: 112759 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (06/04/2025)', 'Palavra de Ontem (05/04/2025)', 'Palavra de Anteontem (04/04/2025)']
-INFO:root:Found 3 URLs: ['/sociopolitico/', '/video/', '/ilustracao/']
-INFO:root:Found 12 descriptions: ['adjetivo Relativo ao que é, ao mesmo tempo, social', 'Classe gramatical:adjetivo', 'Sílabas:so-ci-o-po-lí-ti-co']
-INFO:root:Found 3 dates: ['Palavra de Hoje (06/04/2025)', 'Palavra de Ontem (05/04/2025)', 'Palavra de Anteontem (04/04/2025)']
+INFO:root:Response length: 120327 characters
+INFO:root:HTML parsed, length: 113281 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (07/04/2025)', 'Palavra de Ontem (06/04/2025)', 'Palavra de Anteontem (05/04/2025)']
+INFO:root:Found 3 URLs: ['/consequencia/', '/sociopolitico/', '/video/']
+INFO:root:Found 14 descriptions: ['substantivo feminino Aquilo que resulta ou é produ', 'Sinônimos:\n\nresultado, efeito, ilação, repercussão', 'Antônimos:\n\ninconsequência']
+INFO:root:Found 3 dates: ['Palavra de Hoje (07/04/2025)', 'Palavra de Ontem (06/04/2025)', 'Palavra de Anteontem (05/04/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (06/04/2025)', ID=bf5e7da9760b15118541711b3eecea67
-INFO:root:Processing entry 2: Title='Palavra de Ontem (05/04/2025)', ID=379762ed5f1ac9ff74948f3f2e670260
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (04/04/2025)', ID=c43e27b3b1c616fee483a49cd90f296d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (07/04/2025)', ID=3f9337c2145cbc90bd81bbdffc7652bd
+INFO:root:Processing entry 2: Title='Palavra de Ontem (06/04/2025)', ID=b284e07bc7daeb17f4a05bb3e194c3b9
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (05/04/2025)', ID=bcba2b90c64b214ea4bba57de9c1abd4
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (06/04/2025) - Significado completo de sociopolítico:
-INFO:root:🔹 URL: https://www.dicio.com.br/sociopolitico/
-INFO:root:🔹 Description: adjetivo Relativo ao que é, ao mesmo tempo, social e político; que possui tanto aspectos sociais quanto políticos: análise sociopolítica de uma sociedade.Etimologia (origem da palavra sociopolítico). Socio + político.
- Classe gramatical:adjetivo
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (05/04/2025) - Significado completo de vídeo:
-INFO:root:🔹 URL: https://www.dicio.com.br/video/
-INFO:root:🔹 Description: Classe gramatical:adjetivo
- Sílabas:so-ci-o-po-lí-ti-co
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (04/04/2025) - Significado completo de ilustração:
-INFO:root:🔹 URL: https://www.dicio.com.br/ilustracao/
-INFO:root:🔹 Description: Sílabas:so-ci-o-po-lí-ti-co
+INFO:root:🔹 Title: Palavra de Hoje (07/04/2025) - Significado completo de consequência:
+INFO:root:🔹 URL: https://www.dicio.com.br/consequencia/
+INFO:root:🔹 Description: substantivo feminino Aquilo que resulta ou é produzido por causa de; efeito, resultado: seu sucesso foi consequência de muito trabalho.Resultado negativo que afeta a saúde de alguém; ferimento: o acidente não deixou consequências nos envolvidos.[Lógica] Resultado de um raciocínio lógico; o que se deduziu; dedução: a consequência de uma proposição física.Efeito de muita importância; o resultado de proporções excessivas; influência: um assunto de grande consequência.Etimologia (origem da palavra consequência). A palavra consequência tem sua origem no latim "consequentia,ae", que significa sucessão de eventos.
  
 Sinônimos:
 
-filme, fita, cassete, clipe, videoclipe, televisão, monitor, televisor, videoteipe, videocassete 
+resultado, efeito, ilação, repercussão, desfecho, fim, epílogo, produto, fruto, decorrência, derivação, sequência, culminância, arremate, conclusão 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (06/04/2025) - Significado completo de sociopolítico:
+INFO:root:🔹 URL: https://www.dicio.com.br/sociopolitico/
+INFO:root:🔹 Description: Sinônimos:
+
+resultado, efeito, ilação, repercussão, desfecho, fim, epílogo, produto, fruto, decorrência, derivação, sequência, culminância, arremate, conclusão
+ 
+Antônimos:
+
+inconsequência 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (05/04/2025) - Significado completo de vídeo:
+INFO:root:🔹 URL: https://www.dicio.com.br/video/
+INFO:root:🔹 Description: Antônimos:
+
+inconsequência
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +48,74 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 238549 characters
-INFO:root:HTML parsed, length: 228030 characters
-INFO:root:Found 1 titles: ['Ageu 2:8']
-INFO:root:Found 1 URLs: ['/versiculo/ageu_2_8/']
-INFO:root:Found 1 descriptions: ['"Tanto a prata quanto o ouro me pertencem", declar']
+INFO:root:Response length: 238497 characters
+INFO:root:HTML parsed, length: 227978 characters
+INFO:root:Found 1 titles: ['Provérbios 14:26']
+INFO:root:Found 1 URLs: ['/versiculo/proverbios_14_26/']
+INFO:root:Found 1 descriptions: ['Aquele que teme o Senhor\npossui uma fortaleza segu']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Ageu 2:8', ID=b0f8c6af31a3f8d0bed404f318eaf552
+INFO:root:Processing entry 1: Title='Provérbios 14:26', ID=d60bdfbeed4c5097ecd60d4283f89e98
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Ageu 2:8
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/ageu_2_8/
-INFO:root:🔹 Description: "Tanto a prata quanto o ouro me pertencem", declara o Senhor dos Exércitos. Ageu 2:8
+INFO:root:🔹 Title: Provérbios 14:26
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_14_26/
+INFO:root:🔹 Description: Aquele que teme o Senhor
+possui uma fortaleza segura,
+refúgio para os seus filhos. Provérbios 14:26
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 239429 characters
-INFO:root:HTML parsed, length: 229640 characters
-INFO:root:Found 3 titles: ['Salmo 60', 'Salmo 91', 'Salmo 51']
-INFO:root:Found 3 URLs: ['/salmos_60/', '/salmos_91/', '/salmos_51/']
-INFO:root:Found 3 descriptions: ['Tu nos rejeitaste e dispersaste, ó Deus; tu derram', 'Aquele que habita no abrigo do Altíssimo\ne descans', 'Tem misericórdia de mim, ó Deus,\npor teu amor;\npor']
-INFO:root:Found 3 dates: ['6 de Abril de 2025', '5 de Abril de 2025', '4 de Abril de 2025']
+INFO:root:Response length: 238468 characters
+INFO:root:HTML parsed, length: 228666 characters
+INFO:root:Found 3 titles: ['Salmo 146', 'Salmo 60', 'Salmo 91']
+INFO:root:Found 3 URLs: ['/salmos_146/', '/salmos_60/', '/salmos_91/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nLouve, ó minha alma, o Senhor. \nLouvarei ', 'Tu nos rejeitaste e dispersaste, ó Deus; tu derram', 'Aquele que habita no abrigo do Altíssimo\ne descans']
+INFO:root:Found 3 dates: ['7 de Abril de 2025', '6 de Abril de 2025', '5 de Abril de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
-INFO:root:Processing entry 2: Title=' Salmo 91', ID=ae2230ac157c45f9089a80ccb29436a2
-INFO:root:Processing entry 3: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
+INFO:root:Processing entry 1: Title=' Salmo 146', ID=1540c74e869b39cd024ba9fd09a2bad3
+INFO:root:Processing entry 2: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
+INFO:root:Processing entry 3: Title=' Salmo 91', ID=ae2230ac157c45f9089a80ccb29436a2
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 146
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_146/
+INFO:root:🔹 Description: Aleluia!
+Louve, ó minha alma, o Senhor. 
+Louvarei o Senhor por toda a minha vida;
+cantarei louvores ao meu Deus
+enquanto eu viver. 
+Não confiem em príncipes,
+em meros mortais, incapazes de salvar. 
+Quando o espírito deles se vai, eles voltam ao pó;
+naquele mesmo dia acabam-se os seus planos. 
+Como é feliz aquele cujo auxílio
+é o Deus de Jacó,
+cuja esperança está no Senhor, no seu Deus, 
+que fez os céus e a terra,
+o mar e tudo o que neles há,
+e que mantém a sua fidelidade para sempre! 
+Ele defende a causa dos oprimidos
+e dá alimento aos famintos.
+O Senhor liberta os presos, 
+o Senhor dá vista aos cegos,
+o Senhor levanta os abatidos,
+o Senhor ama os justos. 
+O Senhor protege o estrangeiro
+e sustém o órfão e a viúva,
+mas frustra o propósito dos ímpios. 
+O Senhor reina para sempre!
+O teu Deus, ó Sião,
+reina de geração em geração.
+Aleluia! 
+ Salmo 146
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 60
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_60/
 INFO:root:🔹 Description: Tu nos rejeitaste e dispersaste, ó Deus; tu derramaste a tua ira; restaura-nos agora! 
@@ -149,114 +191,89 @@ Vida longa eu lhe darei,
 e lhe mostrarei a minha salvação." 
  Salmo 91
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 51
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_51/
-INFO:root:🔹 Description: Tem misericórdia de mim, ó Deus,
-por teu amor;
-por tua grande compaixão
-apaga as minhas transgressões. 
-Lava-me de toda a minha culpa
-e purifica-me do meu pecado. 
-Pois eu mesmo
-reconheço as minhas transgressões,
-e o meu pecado sempre me persegue. 
-Contra ti, só contra ti, pequei
-e fiz o que tu reprovas,
-de modo que justa é a tua sentença
-e tens razão em condenar-me. 
-Sei que sou pecador desde que nasci;
-sim, desde que me concebeu minha mãe. 
-Sei que desejas a verdade no íntimo;
-e no coração me ensinas a sabedoria. 
-Purifica-me com hissopo, e ficarei puro;
-lava-me, e mais branco do que a neve serei. 
-Faze-me ouvir de novo júbilo e alegria,
-e os ossos que esmagaste exultarão. 
-Esconde o rosto dos meus pecados
-e apaga todas as minhas iniquidades. 
-Cria em mim um coração puro, ó Deus,
-e renova dentro de mim um espírito estável. 
-Não me expulses da tua presença
-nem tires de mim o teu Santo Espírito. 
-Devolve-me a alegria da tua salvação
-e sustenta-me
-com um espírito pronto a obedecer. 
-Então ensinarei os teus caminhos
-aos transgressores,
-para que os pecadores se voltem para ti. 
-Livra-me da culpa dos crimes de sangue,
-ó Deus, Deus da minha salvação!
-E a minha língua aclamará a tua justiça. 
-Ó Senhor, dá palavras aos meus lábios,
-e a minha boca anunciará o teu louvor. 
-Não te deleitas em sacrifícios
-nem te agradas em holocaustos,
-senão eu os traria. 
-Os sacrifícios que agradam a Deus
-são um espírito quebrantado;
-um coração quebrantado e contrito,
-ó Deus, não desprezarás. 
-Por tua boa vontade faze Sião prosperar;
-ergue os muros de Jerusalém. 
-Então te agradarás dos sacrifícios sinceros,
-das ofertas queimadas e dos holocaustos;
-e novilhos serão oferecidos sobre o teu altar. 
- Salmo 51
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 240619 characters
-INFO:root:HTML parsed, length: 230491 characters
-INFO:root:Found 3 titles: ['Liberdade com sabedoria', 'Espere em Deus e você terá motivos para louvar', '3 promessas de Deus para sua vida']
+INFO:root:Response length: 236418 characters
+INFO:root:HTML parsed, length: 226293 characters
+INFO:root:Found 3 titles: ['Não Pare de Avançar, a Bênção Está Chegando!', 'Liberdade com sabedoria', 'Espere em Deus e você terá motivos para louvar']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['"“Tudo me é permitido”, mas nem tudo convém. “Tudo', 'Por que você está assim tão triste,\nó minha alma?\n', 'Deus sempre cumpre suas promessas! Ele faz promess']
-INFO:root:Found 1 dates: ['Domingo, 6 de abril de 2025']
+INFO:root:Found 3 descriptions: ['Fazer o bem não é fácil. Às vezes você faz tudo ce', '"“Tudo me é permitido”, mas nem tudo convém. “Tudo', 'Por que você está assim tão triste,\nó minha alma?\n']
+INFO:root:Found 1 dates: ['Segunda, 7 de abril de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Liberdade com sabedoria', ID=af56af32333e8980adbf18bd3c8dd72c
+INFO:root:Processing entry 1: Title='Não Pare de Avançar, a Bênção Está Chegando!', ID=abae3580eb7e42e4a91681b5a5395842
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Liberdade com sabedoria - Palavra de Hoje
+INFO:root:🔹 Title: Não Pare de Avançar, a Bênção Está Chegando! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: "“Tudo me é permitido”, mas nem tudo convém. “Tudo me é permitido”, mas eu não deixarei que nada me domine."
-- 1 Coríntios 6:12 
+INFO:root:🔹 Description: Fazer o bem não é fácil. Às vezes você faz tudo certo, com honestidade e boa vontade, mas parece que nada muda.
+Quando um fazendeiro planta sementes, pode ficar vários meses sem ver resultados, mas ele não para de trabalhar. Ele sabe que debaixo do solo, as plantas ganham raízes e no tempo certo virá uma grande colheita!
 
-A liberdade é uma das dádivas mais preciosas que temos em Jesus. Ele nos libertou da culpa, do pecado e da condenação, nos dando acesso direto ao Pai e a possibilidade de vivermos uma vida abundante. Apesar desta liberdade, o apóstolo Paulo nos lembra que, mesmo sendo livres, precisamos agir com sabedoria.
-Vivemos em uma era que exalta a autonomia e o “fazer o que quiser”, mas a Palavra nos convida a algo maior: viver de maneira que agrada a Deus. A liberdade não é uma permissão para vivermos de forma irresponsável, mas um convite a escolhermos o que edifica, o que faz bem, o que aproxima do coração de Deus.
-Nem tudo que é permitido é bom para nós. Algumas escolhas podem nos afastar da nossa intimidade com Deus ou nos tornar escravos do pecado. Paulo é claro: “Eu não deixarei que nada me domine.” Isso é autocontrole, fruto do Espírito, e demonstra maturidade espiritual.
-Jesus nos deu liberdade, mas também nos ensinou a viver com propósito. O bom senso é um aliado precioso nessa caminhada: ele nos ajuda a discernir entre o que apenas é permitido e o que realmente convém. Devemos perguntar: isso glorifica a Deus? Isso edifica minha vida e a dos outros?
-Usar nossa liberdade com sabedoria é a verdadeira demonstração de que somos livres. Pois a verdadeira liberdade não está em fazer tudo o que queremos, mas em escolher o que é melhor, o que nos leva mais perto de Cristo. 
-Veja também: Frutos do Espírito que vão transformar sua vida
- 
-Sua presença
-Abundância
-Vida eterna
+E não nos cansemos de fazer o bem, pois no tempo próprio colheremos, se não desanimarmos.
+- Gálatas 6:9
 
+Todo aquele que faz o bem será recompensado no devido tempo. Você pode não ver os resultados agora, mas Deus está trabalhando. Continue semeando e confie que verá bons frutos! Perseverar! Deus é fiel e está trabalhando mesmo quando você não vê o que deseja que aconteça.
+
+Orem no Espírito em todas as ocasiões, com toda oração e súplica; tendo isso em mente, estejam atentos e perseverem na oração por todos os santos.
+- Efésios 6:18
+
+Ore e persevere no Senhor porque você verá grandes coisas. Faça como Paulo, mantenha os olhos no objetivo e seja fiel ao que Deus colocou em seu coração com a certeza de que verá o cumprimento do que Deus tem para você.
+
+Irmãos, não penso que eu mesmo já o tenha alcançado, mas uma coisa faço: esquecendo-me das coisas que ficaram para trás e avançando para as que estão adiante, prossigo para o alvo, a fim de ganhar o prêmio do chamado celestial de Deus em Cristo Jesus.
+- Filipenses 3:13-14
+
+Encontre força para não desistir nesses versículos.
  
-"“Tudo me é permitido”, mas nem tudo convém. “Tudo me é permitido”, mas eu não deixarei que nada me domine."
-- 1 Coríntios 6:12 
+E não nos cansemos de fazer o bem, pois no tempo próprio colheremos, se não desanimarmos.
+- Gálatas 6:9
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 249475 characters
-INFO:root:HTML parsed, length: 239122 characters
-INFO:root:Found 3 titles: ['Deus está contigo durante todo o dia!', 'Jesus muda a sua forma de ver a vida', 'Andando sob a luz da Palavra de Deus']
-INFO:root:Found 2 URLs: ['/converter/', '/como_buscar_e_se_aproximar_de_deus/']
-INFO:root:Found 3 descriptions: ['Conceda-me o Senhor o seu fiel amor de dia;\nde noi', 'Não se amoldem ao padrão deste mundo, mas transfor', 'A tua palavra é lâmpada\nque ilumina os meus passos']
-INFO:root:Found 3 dates: ['ABRIL\n\n6\nDOMINGO', 'ABRIL\n\n5\nSÁBADO', 'ABRIL\n\n4\nSEXTA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Deus está contigo durante todo o dia!', ID=27e4579491063104950672494f45751c
-INFO:root:Processing entry 2: Title='Jesus muda a sua forma de ver a vida', ID=ee839499d857b4560674c7789b40dfeb
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 249256 characters
+INFO:root:HTML parsed, length: 238895 characters
+INFO:root:Found 3 titles: ['Devocional: A paz que Jesus traz', 'Deus está contigo durante todo o dia!', 'Jesus muda a sua forma de ver a vida']
+INFO:root:Found 3 URLs: ['/versiculos_para_comecar_bem_o_dia/', '/salmos_poderosos_para_ler/', '/converter/']
+INFO:root:Found 3 descriptions: ['Em um mundo tumultuado, marcado por crises e confl', 'Conceda-me o Senhor o seu fiel amor de dia;\nde noi', 'Não se amoldem ao padrão deste mundo, mas transfor']
+INFO:root:Found 3 dates: ['ABRIL\n\n7\nSEGUNDA', 'ABRIL\n\n6\nDOMINGO', 'ABRIL\n\n5\nSÁBADO']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Devocional: A paz que Jesus traz', ID=c6eb3d5a7dc3f1eb84f8181d0f5936d0
+INFO:root:Processing entry 2: Title='Deus está contigo durante todo o dia!', ID=27e4579491063104950672494f45751c
+INFO:root:Processing entry 3: Title='Jesus muda a sua forma de ver a vida', ID=ee839499d857b4560674c7789b40dfeb
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Devocional: A paz que Jesus traz
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_comecar_bem_o_dia/
+INFO:root:🔹 Description: Em um mundo tumultuado, marcado por crises e conflitos, a paz que Jesus oferece é um farol de esperança. Ele não apenas proclamou a paz, mas também a concedeu através do Seu amor redentor. Na agitação da vida cotidiana, encontrar a verdadeira paz pode parecer um desafio intransponível. No entanto, ao olhar para Jesus, descobrimos que Ele é a fonte da paz. 
+
+Deixo a paz a vocês; a minha paz dou a vocês. Não a dou como o mundo a dá. Não se perturbe o seu coração, nem tenham medo.
+- João 14:27
+
+A paz de Jesus não é apenas a ausência de conflitos, mas uma tranquilidade profunda que transcende as circunstâncias. Ela brota da certeza de que, independentemente dos desafios, estamos seguros em Seu cuidado. Ao aceitarmos Sua graça, somos reconciliados com Deus, experimentando a paz que só Ele pode oferecer.
+A proposta prática que Jesus nos deixa é simples, mas transformadora: confiar Nele e viver de acordo com Seus ensinamentos. Ao entregarmos nossas preocupações e ansiedades a Ele, permitimos que Sua paz governe nossos corações. Além disso, o amor ao próximo e a prática do perdão são alicerces fundamentais para manter essa paz em nossas vidas.
+Que possamos, hoje, escolher seguir o caminho da paz que Jesus nos apresenta. Que a paz de Jesus guie nossas vidas, irradiando luz em meio à escuridão, para que todos experimentem a transformadora paz que só Ele pode proporcionar.
+Desfrutando da paz de Jesus
+
+Reserve momentos diários para se conectar com Deus através da oração. Ao compartilhar suas preocupações e agradecimentos, permita que a paz de Jesus preencha seu coração.
+Meditar nas promessas divinas fortalece a fé e reforça a confiança na paz que Ele oferece, independentemente das circunstâncias.
+Liberte-se do peso do ressentimento, praticando o perdão incondicionalmente, promovendo a harmonia em seus relacionamentos.
+
+Par orar:
+
+Amado Deus, em humildade e gratidão, venho a Ti. Que Tua graça preencha cada lacuna em meu coração, guiando-me com Tua luz. Capacita-me a amar como Tu amas, perdoar como Tu perdoas e a viver em paz, confiante em Tua soberania. Em nome de Jesus, amém.
+
+Veja também:
+
+Versículos para começar bem o dia
+Salmos poderosos para ler e meditar
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Deus está contigo durante todo o dia!
-INFO:root:🔹 URL: https://www.bibliaon.com/converter/
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_poderosos_para_ler/
 INFO:root:🔹 Description: Conceda-me o Senhor o seu fiel amor de dia;
 de noite esteja comigo a sua canção.
 É a minha oração ao Deus que me dá vida.
@@ -281,7 +298,7 @@ Para Orar: 
 Senhor Jesus, obrigado pelo o Teu favor sobre a minha vida. Durante o dia a Tua presença é indispensável. E pela noite, a Tua presença conforta-me. Sei que posso dormir tranquilo, pois o Teu amor cobre-me. Muito obrigado Jesus! Amém!
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Jesus muda a sua forma de ver a vida
-INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
+INFO:root:🔹 URL: https://www.bibliaon.com/converter/
 INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
 - Romanos 12:2 
 
@@ -306,8 +323,8 @@ Veja também: Versículos sobre conversão (transformação e renovação em Jes
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226083 characters
-INFO:root:HTML parsed, length: 224486 characters
+INFO:root:Response length: 227081 characters
+INFO:root:HTML parsed, length: 225484 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 21 URLs: ['/wiki/Singin%27_and_Swingin%27_and_Gettin%27_Merry_Like_Christmas', '/wiki/Singin%27_and_Swingin%27_and_Gettin%27_Merry_Like_Christmas', '/wiki/Autobiografia']
 INFO:root:Found 1 descriptions: ["Singin' and Swingin' and Gettin' Merry Like Christ"]
@@ -335,44 +352,44 @@ Artigos bons: 1912
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226083 characters
-INFO:root:HTML parsed, length: 224486 characters
-INFO:root:Found 1 titles: ['5 de abril na história']
-INFO:root:Found 49 URLs: ['/wiki/Ficheiro:RapaNui_L7_03jan01.jpg', '/wiki/Dia_Internacional_da_Consci%C3%AAncia', '/wiki/1722']
-INFO:root:Found 1 descriptions: ['Herbert von Karajan\nDia Internacional da Consciênc']
+INFO:root:Response length: 227081 characters
+INFO:root:HTML parsed, length: 225484 characters
+INFO:root:Found 1 titles: ['7 de abril na história']
+INFO:root:Found 45 URLs: ['/wiki/Ficheiro:DpedroI-brasil-full.jpg', '/wiki/Dia_Mundial_da_Sa%C3%BAde', '/wiki/Organiza%C3%A7%C3%A3o_Mundial_da_Sa%C3%BAde']
+INFO:root:Found 1 descriptions: ['Pedro I do Brasil\nDia Mundial da Saúde (OMS, 1948)']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='5 de abril na história', ID=d442dcfb1671f2f7985160c458e18bab
+INFO:root:Processing entry 1: Title='7 de abril na história', ID=4ca7e6cf6b0ce43c9b7bb8b8d38b7d80
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 5 de abril na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:RapaNui_L7_03jan01.jpg
-INFO:root:🔹 Description: Herbert von Karajan
-Dia Internacional da Consciência (2019)
+INFO:root:🔹 Title: 7 de abril na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:DpedroI-brasil-full.jpg
+INFO:root:🔹 Description: Pedro I do Brasil
+Dia Mundial da Saúde (OMS, 1948) 
 
-1722 – O explorador neerlandês Jakob Roggeveen descobre a ilha de Páscoa (imagem).
-1968 – O Ministro da Justiça do Brasil proíbe o funcionamento da Frente Ampla, movimento pela democracia no Brasil.
-1976 – O Incidente em Tian'anmen, um protesto contra a repressão do regime chinês próximo ao final da Revolução Cultural, acontece na Praça da Paz Celestial em Pequim.
+1831 – O imperador Pedro I do Brasil (imagem) abdica em favor do filho, Pedro II, então com cinco anos, e nomeia José Bonifácio de Andrada e Silva tutor deste.
+1948 – A Organização Mundial da Saúde é criada pelas Nações Unidas.
+1969 – Com a publicação do RFC 1, nasce simbolicamente a Internet.
 Nasceram neste dia…
-Papa Urbano VIII (1568–1644)  •  Thomas Hobbes (1588–1679)  •  Herbert von Karajan (1908–1989)  •  Gregory Peck (1916–2003)
+Francisco Xavier (1506–1552)  •  Gabriela Mistral (1889–1957)  •  Billie Holiday (1915–1959)  •  Francis Ford Coppola (n. 1939)
 Morreram neste dia…
-Chiang Kai-shek (1887–1975)  •  Frances Power Cobbe (1822–1904)  •  Antônio Marcos (1945–1992)  •  Charlton Heston (1923–2008)
+El Greco (1541–1614)  •  Henry Ford (1863–1947)  •  Jim Clark (1936–1968)  •  Mike Wallace (1918–2012)
 
 
-Ver mais • Outros dias: 3 • 4 • 5 • 6 • 7 • Ver todos
+Ver mais • Outros dias: 5 • 6 • 7 • 8 • 9 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226083 characters
-INFO:root:HTML parsed, length: 224486 characters
+INFO:root:Response length: 227081 characters
+INFO:root:HTML parsed, length: 225484 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Choc%C3%B3_grasshopper_(Opaon_varicolor)_male.jpg']
-INFO:root:Found 1 descriptions: ['Opaon varicolor (macho), uma espécie de inseto sem']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Portrait_of_Billie_Holiday_and_Mister,_Downbeat,_New_York,_N.Y.,_ca._Feb._1947_(LOC,_5020400274,_cropped).jpg']
+INFO:root:Found 1 descriptions: ['Retrato de Billie Holiday e Mister, tirado por Wil']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Choc%C3%B3_grasshopper_%28Opaon_varicolor%29_male.jpg/600px-Choc%C3%B3_grasshopper_%28Opaon_varicolor%29_male.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg/500px-Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -381,15 +398,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Choc%C3%B3_grasshopper_(Opaon_varicolor)_male.jpg
-INFO:root:🔹 Description: Opaon varicolor (macho), uma espécie de inseto sem asas endêmica dos Andes tropicais na Colômbia. Foi descrita pela primeira vez por Carl Stål em 1878. O Opaon varicolor é um membro do gênero Opaon e da família dos gafanhotos, sem subespécies listadas no Catálogo da Vida.
-(resolução original: 5 136 × 3 423)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Portrait_of_Billie_Holiday_and_Mister,_Downbeat,_New_York,_N.Y.,_ca._Feb._1947_(LOC,_5020400274,_cropped).jpg
+INFO:root:🔹 Description: Retrato de Billie Holiday e Mister, tirado por William Gottlieb no Downbeat Club, Nova Iorque, 1947. Nascida Eleanora Fagan, foi uma cantora americana de jazz e swing. Apelidada de “Lady Day” por seu amigo e parceiro musical, Lester Young, Holiday fez uma contribuição significativa para o jazz e o pop. Seu estilo vocal, fortemente influenciado por instrumentistas de jazz, inspirou uma nova maneira de manipular o fraseado e o andamento. Era conhecida por sua entrega vocal e habilidades de improvisação.
+(resolução original: 4 512 × 4 512)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Choc%C3%B3_grasshopper_%28Opaon_varicolor%29_male.jpg/600px-Choc%C3%B3_grasshopper_%28Opaon_varicolor%29_male.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg/500px-Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -406,23 +423,27 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
  M feeds/wikidia/atom.xml
+ M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  78 ++-----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  39 +---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  27 ++-
+ feeds/devocional_de_hoje/feed.json        |  10 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  31 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  10 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  68 +++---
+ feeds/salmo_do_dia/atom.xml               |  84 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 351 +++++++++++-------------------
- 14 files changed, 236 insertions(+), 386 deletions(-)
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 352 +++++++++++++++---------------
+ 16 files changed, 318 insertions(+), 296 deletions(-)
