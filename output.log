@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120142 characters
-INFO:root:HTML parsed, length: 113024 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (08/04/2025)', 'Palavra de Ontem (07/04/2025)', 'Palavra de Anteontem (06/04/2025)']
-INFO:root:Found 3 URLs: ['/silencioso/', '/consequencia/', '/sociopolitico/']
-INFO:root:Found 14 descriptions: ['adjetivo Que guarda silêncio; calado: permanecer s', 'Sinônimos:\n\ncalado, mudo, silente, sombrio, soturn', 'Classe gramatical:adjetivo e substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (08/04/2025)', 'Palavra de Ontem (07/04/2025)', 'Palavra de Anteontem (06/04/2025)']
+INFO:root:Response length: 121319 characters
+INFO:root:HTML parsed, length: 113834 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (09/04/2025)', 'Palavra de Ontem (08/04/2025)', 'Palavra de Anteontem (07/04/2025)']
+INFO:root:Found 3 URLs: ['/detrimento/', '/silencioso/', '/consequencia/']
+INFO:root:Found 16 descriptions: ['substantivo masculino Estrago material ou moral; p', 'Sinônimos:\n\nem detrimento de, agravo, dano, estrag', 'Antônimos:\n\nganho, lucro, vantagem']
+INFO:root:Found 3 dates: ['Palavra de Hoje (09/04/2025)', 'Palavra de Ontem (08/04/2025)', 'Palavra de Anteontem (07/04/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (08/04/2025)', ID=7e1d998f620bafa37be8c1fc22e84203
-INFO:root:Processing entry 2: Title='Palavra de Ontem (07/04/2025)', ID=28cce4c25a61aaf0ad8334e395d70e42
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/04/2025)', ID=84e38cdb070dd6ce157a8b631027ca4f
+INFO:root:Processing entry 1: Title='Palavra de Hoje (09/04/2025)', ID=b3e00c68e0809b5d61ce618f0942cd5e
+INFO:root:Processing entry 2: Title='Palavra de Ontem (08/04/2025)', ID=1c229e343beb7e45c3555821e386e75e
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/04/2025)', ID=bd44e0836dd6022155bb30707877ad84
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (08/04/2025) - Significado completo de silencioso:
-INFO:root:🔹 URL: https://www.dicio.com.br/silencioso/
-INFO:root:🔹 Description: adjetivo Que guarda silêncio; calado: permanecer silencioso.Estado de falta de alegria; taciturno, casmurro: homem silencioso.Diz-se do lugar onde não se ouve ruído algum: bosque silencioso.Que se faz sem ruído: passo silencioso.substantivo masculino Aquele que prefere estar em silêncio; calado.[Mecânica] Dispositivo adaptado ao cano de descarga de um veículo automotor para reduzir o ruído.Etimologia (origem da palavra silencioso). Do francês silencieux.
+INFO:root:🔹 Title: Palavra de Hoje (09/04/2025) - Significado completo de detrimento:
+INFO:root:🔹 URL: https://www.dicio.com.br/detrimento/
+INFO:root:🔹 Description: substantivo masculino Estrago material ou moral; perda, dano, prejuízo.expressão em detrimento de. Em oposição ao interesse de; que resulta em prejuízo para: recebeu todo o dinheiro em detrimento dos menos favorecidos.Etimologia (origem da palavra detrimento). A palavra detrimento deriva do latim "detrimentum,i", que significa desgaste.
  
 Sinônimos:
 
-calado, mudo, silente, sombrio, soturno, taciturno, tristonho, tácito 
+em detrimento de, agravo, dano, estrago, perda, prejuízo, quebra, mal, desvantagem, infortúnio, rombo 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (07/04/2025) - Significado completo de consequência:
-INFO:root:🔹 URL: https://www.dicio.com.br/consequencia/
+INFO:root:🔹 Title: Palavra de Ontem (08/04/2025) - Significado completo de silencioso:
+INFO:root:🔹 URL: https://www.dicio.com.br/silencioso/
 INFO:root:🔹 Description: Sinônimos:
 
-calado, mudo, silente, sombrio, soturno, taciturno, tristonho, tácito
- Classe gramatical:adjetivo e substantivo masculino
+em detrimento de, agravo, dano, estrago, perda, prejuízo, quebra, mal, desvantagem, infortúnio, rombo
+ 
+Antônimos:
+
+ganho, lucro, vantagem 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (06/04/2025) - Significado completo de sociopolítico:
-INFO:root:🔹 URL: https://www.dicio.com.br/sociopolitico/
-INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
- Sílabas:si-len-ci-o-so
+INFO:root:🔹 Title: Palavra de Anteontem (07/04/2025) - Significado completo de consequência:
+INFO:root:🔹 URL: https://www.dicio.com.br/consequencia/
+INFO:root:🔹 Description: Antônimos:
+
+ganho, lucro, vantagem
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,46 +48,80 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 238585 characters
-INFO:root:HTML parsed, length: 228066 characters
-INFO:root:Found 1 titles: ['Joel 2:32']
-INFO:root:Found 1 URLs: ['/versiculo/joel_2_32/']
-INFO:root:Found 1 descriptions: ['E todo aquele que invocar\no nome do Senhor será sa']
+INFO:root:Response length: 237201 characters
+INFO:root:HTML parsed, length: 226682 characters
+INFO:root:Found 1 titles: ['Provérbios 16:3']
+INFO:root:Found 1 URLs: ['/versiculo/proverbios_16_3/']
+INFO:root:Found 1 descriptions: ['Consagre ao Senhor\ntudo o que você faz,\ne os seus ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Joel 2:32', ID=517c641c02f6b786812973cd6197c6e9
+INFO:root:Processing entry 1: Title='Provérbios 16:3', ID=b95a1c1a8d39519b4760e9a80785d816
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Joel 2:32
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joel_2_32/
-INFO:root:🔹 Description: E todo aquele que invocar
-o nome do Senhor será salvo,
-pois, conforme prometeu o Senhor,
-no monte Sião e em Jerusalém
-haverá livramento
-para os sobreviventes,
-para aqueles a quem o Senhor chamar. Joel 2:32
+INFO:root:🔹 Title: Provérbios 16:3
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_16_3/
+INFO:root:🔹 Description: Consagre ao Senhor
+tudo o que você faz,
+e os seus planos serão bem-sucedidos. Provérbios 16:3
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 238725 characters
-INFO:root:HTML parsed, length: 228927 characters
-INFO:root:Found 3 titles: ['Salmo 132', 'Salmo 146', 'Salmo 60']
-INFO:root:Found 3 URLs: ['/salmos_132/', '/salmos_146/', '/salmos_60/']
-INFO:root:Found 3 descriptions: ['Senhor, lembra-te de Davi\ne das dificuldades que e', 'Aleluia!\nLouve, ó minha alma, o Senhor. \nLouvarei ', 'Tu nos rejeitaste e dispersaste, ó Deus; tu derram']
-INFO:root:Found 3 dates: ['8 de Abril de 2025', '7 de Abril de 2025', '6 de Abril de 2025']
+INFO:root:Response length: 237536 characters
+INFO:root:HTML parsed, length: 227743 characters
+INFO:root:Found 3 titles: ['Salmo 56', 'Salmo 132', 'Salmo 146']
+INFO:root:Found 3 URLs: ['/salmos_56/', '/salmos_132/', '/salmos_146/']
+INFO:root:Found 3 descriptions: ['Tem misericórdia de mim, ó Deus,\npois os homens me', 'Senhor, lembra-te de Davi\ne das dificuldades que e', 'Aleluia!\nLouve, ó minha alma, o Senhor. \nLouvarei ']
+INFO:root:Found 3 dates: ['9 de Abril de 2025', '8 de Abril de 2025', '7 de Abril de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
-INFO:root:Processing entry 2: Title=' Salmo 146', ID=1540c74e869b39cd024ba9fd09a2bad3
-INFO:root:Processing entry 3: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
+INFO:root:Processing entry 1: Title=' Salmo 56', ID=48342b4b68cc062982053050b246e0c7
+INFO:root:Processing entry 2: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
+INFO:root:Processing entry 3: Title=' Salmo 146', ID=1540c74e869b39cd024ba9fd09a2bad3
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 56
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_56/
+INFO:root:🔹 Description: Tem misericórdia de mim, ó Deus,
+pois os homens me pressionam;
+o tempo todo me atacam e me oprimem. 
+Os meus inimigos pressionam-me sem parar;
+muitos atacam-me arrogantemente. 
+Mas eu, quando estiver com medo,
+confiarei em ti. 
+Em Deus, cuja palavra eu louvo,
+em Deus eu confio e não temerei.
+Que poderá fazer-me o simples mortal? 
+O tempo todo
+eles distorcem as minhas palavras;
+estão sempre tramando prejudicar-me. 
+Conspiram, ficam à espreita,
+vigiam os meus passos,
+na esperança de tirar-me a vida. 
+Deixarás escapar essa gente tão perversa?
+Na tua ira, ó Deus, derruba as nações. 
+Registra, tu mesmo, o meu lamento;
+recolhe as minhas lágrimas em teu odre;
+acaso não estão anotadas em teu livro? 
+Os meus inimigos retrocederão,
+quando eu clamar por socorro.
+Com isso saberei que Deus está a meu favor. 
+Confio em Deus, cuja palavra louvo,
+no Senhor, cuja palavra louvo, 
+em Deus eu confio e não temerei.
+Que poderá fazer-me o homem? 
+Cumprirei os votos que te fiz, ó Deus;
+a ti apresentarei minhas ofertas de gratidão. 
+Pois me livraste da morte
+e aos meus pés de tropeçar,
+para que eu ande diante de Deus
+na luz que ilumina os vivos. 
+ Salmo 56
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 132
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_132/
 INFO:root:🔹 Description: Senhor, lembra-te de Davi
@@ -163,100 +203,84 @@ reina de geração em geração.
 Aleluia! 
  Salmo 146
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 60
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_60/
-INFO:root:🔹 Description: Tu nos rejeitaste e dispersaste, ó Deus; tu derramaste a tua ira; restaura-nos agora! 
-Sacudiste a terra e abriste-lhe fendas;
-repara suas brechas,
-pois ameaça desmoronar-se. 
-Fizeste passar o teu povo por tempos difíceis;
-deste-nos um vinho estonteante. 
-Mas aos que te temem deste um sinal
-para que fugissem das flechas. 
-Salva-nos com a tua mão direita
-e responde-nos,
-para que sejam libertos aqueles a quem amas. 
-Do seu santuário Deus falou:
-"No meu triunfo dividirei Siquém
-e repartirei o vale de Sucote. 
-Gileade é minha, Manassés também;
-Efraim é o meu capacete,
-Judá é o meu cetro. 
-Moabe é a pia em que me lavo,
-em Edom atiro a minha sandália;
-sobre a Filístia dou meu brado de vitória!" 
-Quem me levará à cidade fortificada?
-Quem me guiará a Edom? 
-Não foste tu, ó Deus, que nos rejeitaste
-e deixaste de sair com os nossos exércitos? 
-Dá-nos ajuda contra os adversários,
-pois inútil é o socorro do homem. 
-Com Deus conquistaremos a vitória,
-e ele pisoteará os nossos adversários. 
- Salmo 60
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 240443 characters
-INFO:root:HTML parsed, length: 230305 characters
-INFO:root:Found 3 titles: ['Dê um passo de fé', 'Não Pare de Avançar, a Bênção Está Chegando!', 'Liberdade com sabedoria']
+INFO:root:Response length: 239354 characters
+INFO:root:HTML parsed, length: 229216 characters
+INFO:root:Found 3 titles: ['À prova de tempestade', 'Dê um passo de fé', 'Não Pare de Avançar, a Bênção Está Chegando!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Ora, a fé é a certeza daquilo que esperamos e a pr', 'Fazer o bem não é fácil. Às vezes você faz tudo ce', '"“Tudo me é permitido”, mas nem tudo convém. “Tudo']
-INFO:root:Found 1 dates: ['Terça, 8 de abril de 2025']
+INFO:root:Found 3 descriptions: ['"Portanto, quem ouve estas minhas palavras e as pr', 'Ora, a fé é a certeza daquilo que esperamos e a pr', 'Fazer o bem não é fácil. Às vezes você faz tudo ce']
+INFO:root:Found 1 dates: ['Quarta, 9 de abril de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Dê um passo de fé', ID=b4dcf24ac503aff5e6cdb491d43bdb45
+INFO:root:Processing entry 1: Title='À prova de tempestade', ID=81ff57b7ca0b66b5a4b045226120925a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Dê um passo de fé - Palavra de Hoje
+INFO:root:🔹 Title: À prova de tempestade - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos.
-- Hebreus 11:1
+INFO:root:🔹 Description: "Portanto, quem ouve estas minhas palavras e as pratica é como um homem prudente que construiu a sua casa sobre a rocha. Caiu a chuva, transbordaram os rios, sopraram os ventos e deram contra aquela casa, e ela não caiu, porque tinha seus alicerces na rocha.
+- Mateus 7:24-25
 
-Não é fácil dar um passo de fé. Sentimos o chamado de Deus para fazer algo, mas não sabemos o que vai acontecer. Os problemas parecem gigantescos e sentimos um certo medo. Mas quando damos um passo de fé, Deus age. Ele honra nossa fé e nos ajuda a alcançar o impossível.
-O jovem David deu um grande passo de fé e conseguiu derrotar o gigante Golias. Davi sabia que, por sua própria força ou por seus próprios méritos, não conseguiria nada de bom. Mas ele tinha grande fé em Deus e em seu poder. Ele sabia que Golias não tinha escapatória do Deus todo-poderoso. É por isso que Davi pôde declarar diante de Golias:
+Há muitas tempestades e tormentas que surgem em nossas vidas. Mesmo sendo filhos de Deus, não estamos isentos de problemas. Podemos ficar doentes e podemos ter problemas financeiros. Passamos por tristezas, separações e traições. Podem haver muitas dificuldades, mas aqueles que têm Jesus como fundamento de suas vidas conseguirão perseverar e seguir em frente.
+Aqueles que ouvem a Palavra de Deus e a obedecem estão construindo em terreno sólido e inabalável. Não importa quão forte seja a tempestade, a casa não cairá, porque ela é sustentada pelo poder de Deus.
+Obedecer aos mandamentos de Deus nos protege e fortalece. Na Bíblia, encontramos sabedoria para tomar decisões, conforto em nossa dor e a certeza de que não estamos sozinhos. Ao viver na vontade de Deus, os fundamentos da nossa fé são fortalecidos. Não basta apenas ouvir mensagens ou ler a Bíblia de vez em quando; O que nos torna fortes é colocar em prática o que Deus nos ensina.
+Assim como um construtor sábio investe tempo e esforço para garantir que sua casa esteja bem fundamentada, nós também devemos investir em nosso relacionamento com Cristo. Por meio da oração, da leitura da Palavra e de uma vida de obediência, fortalecemos nosso espírito e nos preparamos para enfrentar qualquer tempestade.
+Acima de tudo, devemos lembrar que Jesus prometeu estar conosco quando as tempestades vierem. Se ele estiver conosco, nada poderá nos derrubar.
 
-Davi, porém, disse ao filisteu: "Você vem contra mim com espada, com lança e com dardos, mas eu vou contra você em nome do Senhor dos Exércitos, o Deus dos exércitos de Israel, a quem você desafiou.
-Hoje mesmo o Senhor o entregará nas minhas mãos, eu o matarei e cortarei a sua cabeça. Hoje mesmo darei os cadáveres do exército filisteu às aves do céu e aos animais selvagens, e toda a terra saberá que há Deus em Israel.
-- 1 Samuel 17:45-46
+Que diremos, pois, diante dessas coisas? Se Deus é por nós, quem será contra nós?
+- Romanos 8:31
 
-Fortaleça sua fé hoje e siga em frente sob a direção de Deus. Você verá que ao dar passos de fé em nome do Senhor e segundo a vontade dele, você sentirá a paz de Deus em seu coração e a certeza de que Ele agirá.
-Leia histórias da Bíblia que fortalecerão sua fé:
-
-História de Davi: o rei mais conhecido na Bíblia
-A história de Josué (sucessor de Moisés e líder do povo de Israel)
-A História de Raabe (e o que aprendemos com ela)
+Veja também:Casa sobre a rocha: parábola bíblica (com explicação)
  
 História de Davi: o rei mais conhecido na Bíblia
 A história de Josué (sucessor de Moisés e líder do povo de Israel)
 A História de Raabe (e o que aprendemos com ela)
 
  
-Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos.
-- Hebreus 11:1
+"Portanto, quem ouve estas minhas palavras e as pratica é como um homem prudente que construiu a sua casa sobre a rocha. Caiu a chuva, transbordaram os rios, sopraram os ventos e deram contra aquela casa, e ela não caiu, porque tinha seus alicerces na rocha.
+- Mateus 7:24-25
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 249215 characters
-INFO:root:HTML parsed, length: 238854 characters
-INFO:root:Found 3 titles: ['Buscando a verdadeira prosperidade', 'Devocional: A paz que Jesus traz', 'Deus está contigo durante todo o dia!']
+INFO:root:Response length: 248457 characters
+INFO:root:HTML parsed, length: 238093 characters
+INFO:root:Found 3 titles: ['Mais importa obedecer a Deus do que aos homens', 'Buscando a verdadeira prosperidade', 'Devocional: A paz que Jesus traz']
 INFO:root:Found 3 URLs: ['/prosperidade/', '/versiculos_para_comecar_bem_o_dia/', '/salmos_poderosos_para_ler/']
-INFO:root:Found 3 descriptions: ['Busquem, pois, em primeiro lugar o Reino de Deus e', 'Em um mundo tumultuado, marcado por crises e confl', 'Conceda-me o Senhor o seu fiel amor de dia;\nde noi']
-INFO:root:Found 3 dates: ['ABRIL\n\n8\nTERÇA', 'ABRIL\n\n7\nSEGUNDA', 'ABRIL\n\n6\nDOMINGO']
+INFO:root:Found 3 descriptions: ['Então Pedro e os demais apóstolos afirmaram: É mai', 'Busquem, pois, em primeiro lugar o Reino de Deus e', 'Em um mundo tumultuado, marcado por crises e confl']
+INFO:root:Found 3 dates: ['ABRIL\n\n9\nQUARTA', 'ABRIL\n\n8\nTERÇA', 'ABRIL\n\n7\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Buscando a verdadeira prosperidade', ID=cbd0098c770a4f477086864f5bdaf563
-INFO:root:Processing entry 2: Title='Devocional: A paz que Jesus traz', ID=c6eb3d5a7dc3f1eb84f8181d0f5936d0
-INFO:root:Processing entry 3: Title='Deus está contigo durante todo o dia!', ID=27e4579491063104950672494f45751c
+INFO:root:Processing entry 1: Title='Mais importa obedecer a Deus do que aos homens', ID=6778c5523ab1f754d713dfb9ca2b0b43
+INFO:root:Processing entry 2: Title='Buscando a verdadeira prosperidade', ID=cbd0098c770a4f477086864f5bdaf563
+INFO:root:Processing entry 3: Title='Devocional: A paz que Jesus traz', ID=c6eb3d5a7dc3f1eb84f8181d0f5936d0
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Buscando a verdadeira prosperidade
+INFO:root:🔹 Title: Mais importa obedecer a Deus do que aos homens
 INFO:root:🔹 URL: https://www.bibliaon.com/prosperidade/
+INFO:root:🔹 Description: Então Pedro e os demais apóstolos afirmaram: É mais importante obedecer a Deus do que aos homens.
+Atos 5:29
+
+Os apóstolos e discípulos receberam de Cristo a desafiadora missão de anunciar o Evangelho. Contudo, os líderes judeus rejeitaram, recusando ouvir e tentando impedir que eles pregassem a mensagem do Senhor Jesus. Nos nossos dias, vivemos limitações diferentes, mas as imposições são bastante semelhantes. Os homens que rejeitam a Deus, com suas agendas seculares e sua ideologia dominante, tentam silenciar o Evangelho genuíno. 
+Mas, importa mais obedecer a Deus que os homens. Se esforce para viver os princípios e valores da Bíblia Sagrada, custe o que custar. Anuncie toda a Palavra de Jesus Cristo, mesmo que alguns rejeitem ou tentem impedir. Nenhuma instituição humana vai cumprir essa tarefa que compete à Igreja de Deus. Por isso, na força do Espírito Santo, revista-se das armas que Deus dá e testemunhe a Salvação de Jesus ao mundo.
+Obedecendo a Deus primeiramente
+
+Reflita: você concorda ou se inclina favoravelmente a temas atuais que a Bíblia não apoia? Sente vergonha de dizer que é cristão evangélico para conhecidos descrentes?
+Assuma uma conduta cristã, dentro e fora da igreja. O mundo precisa ver o caráter de Cristo espelhado no Seu povo.
+Ouça a voz de Deus (sua Palavra) e obedeça fielmente aos seus mandamentos.
+Ore e dê testemunho do que Cristo tem feito em sua vida. Fale e viva o amor de Deus.
+Não se omita. Marque a diferença mantendo uma postura cristã, estável e sábia.
+
+Para Orar:
+
+Senhor Deus, ajuda-me a obedecer a Ti, em 1º lugar, sem temer o julgamento e rejeição dos outros. Que eu siga a Tua Verdade, mesmo que os homens defendam a mentira e amem a escuridão. Ensina-me a viver a fé ardente, baseada nos princípios bíblicos, e a testemunhar com coração puro o Teu amor verdadeiro. Que a minha consciência seja governada pelas tuas Leis, acima dos padrões humanos. Em nome de Jesus, Amém!
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Buscando a verdadeira prosperidade
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_comecar_bem_o_dia/
 INFO:root:🔹 Description: Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.
 - Mateus 6:33 
 
@@ -279,7 +303,7 @@ Senhor, ensina-me a buscar a verdadeira prosperidade que vem de Ti. Que eu encon
 Veja também: Versículos de prosperidade
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Devocional: A paz que Jesus traz
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_comecar_bem_o_dia/
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_poderosos_para_ler/
 INFO:root:🔹 Description: Em um mundo tumultuado, marcado por crises e conflitos, a paz que Jesus oferece é um farol de esperança. Ele não apenas proclamou a paz, mas também a concedeu através do Seu amor redentor. Na agitação da vida cotidiana, encontrar a verdadeira paz pode parecer um desafio intransponível. No entanto, ao olhar para Jesus, descobrimos que Ele é a fonte da paz. 
 
 Deixo a paz a vocês; a minha paz dou a vocês. Não a dou como o mundo a dá. Não se perturbe o seu coração, nem tenham medo.
@@ -303,35 +327,10 @@ Veja também:
 Versículos para começar bem o dia
 Salmos poderosos para ler e meditar
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Deus está contigo durante todo o dia!
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_poderosos_para_ler/
-INFO:root:🔹 Description: Conceda-me o Senhor o seu fiel amor de dia;
-de noite esteja comigo a sua canção.
-É a minha oração ao Deus que me dá vida.
-Salmos 42:8 
-
-O nosso Deus é maravilhoso! Ele está sempre ao nosso lado, quer de dia ou de noite, quer nos dias bons ou nos dias maus. Deus que ser convidado para fazer morada no nosso coração. Convide-o, busque-o e o achará! Que esse seja o seu primeiro pensamento do dia e o último desejo durante a noite; sentir a presença de Deus. 
-A presença de Deus tranquiliza o nosso espírito, assim, podemos seguir confiantes para mais um dia. Pela noite, a Sua presença nos acalma e nos traz paz, dando-nos um descanso sereno. Com Deus, todo o dia é dia de aprender e crescer!
-Todo o dia com Deus 
-
-
-Ao levantar pela manhã, comece agradecendo a Deus pela oportunidade de mais um dia. 
-
-
-Durante o dia podemos reservar um pequeno tempo para meditar e orar. Pode ser antes da refeição ou durante o trajeto para o trabalho. 
-
-
-Procure orar antes de dormir, agradeça pela noite de descanso. Um coração grato atraí a presença de Deus. 
-
-
-Para Orar: 
-
-Senhor Jesus, obrigado pelo o Teu favor sobre a minha vida. Durante o dia a Tua presença é indispensável. E pela noite, a Tua presença conforta-me. Sei que posso dormir tranquilo, pois o Teu amor cobre-me. Muito obrigado Jesus! Amém!
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226976 characters
-INFO:root:HTML parsed, length: 225379 characters
+INFO:root:Response length: 226255 characters
+INFO:root:HTML parsed, length: 224668 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 21 URLs: ['/wiki/Singin%27_and_Swingin%27_and_Gettin%27_Merry_Like_Christmas', '/wiki/Singin%27_and_Swingin%27_and_Gettin%27_Merry_Like_Christmas', '/wiki/Autobiografia']
 INFO:root:Found 1 descriptions: ["Singin' and Swingin' and Gettin' Merry Like Christ"]
@@ -359,44 +358,42 @@ Artigos bons: 1912
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226976 characters
-INFO:root:HTML parsed, length: 225379 characters
-INFO:root:Found 1 titles: ['7 de abril na história']
-INFO:root:Found 44 URLs: ['/wiki/Ficheiro:DpedroI-brasil-full.jpg', '/wiki/Dia_Mundial_da_Sa%C3%BAde', '/wiki/1831']
-INFO:root:Found 1 descriptions: ['Pedro I do Brasil\nDia Mundial da Saúde (1948) \n\n18']
+INFO:root:Response length: 226255 characters
+INFO:root:HTML parsed, length: 224668 characters
+INFO:root:Found 1 titles: ['8 de abril na história']
+INFO:root:Found 48 URLs: ['/wiki/Ficheiro:Pablo_picasso_1.jpg', '/wiki/1640', '/wiki/Lisboa']
+INFO:root:Found 1 descriptions: ['Pablo Picasso\n1640 – Sai de Lisboa a esquadra que ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='7 de abril na história', ID=4ca7e6cf6b0ce43c9b7bb8b8d38b7d80
+INFO:root:Processing entry 1: Title='8 de abril na história', ID=6be26a63694a984ccdc92fa01adc4e26
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 7 de abril na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:DpedroI-brasil-full.jpg
-INFO:root:🔹 Description: Pedro I do Brasil
-Dia Mundial da Saúde (1948) 
-
-1831 – O imperador Pedro I do Brasil (imagem) abdica em favor do filho, Pedro II, então com cinco anos, e nomeia José Bonifácio de Andrada e Silva tutor deste.
-1948 – A Organização Mundial da Saúde é criada pelas Nações Unidas.
-1969 – Com a publicação do RFC 1, nasce simbolicamente a Internet.
+INFO:root:🔹 Title: 8 de abril na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Pablo_picasso_1.jpg
+INFO:root:🔹 Description: Pablo Picasso
+1640 – Sai de Lisboa a esquadra que leva ao Brasil o primeiro vice-rei nomeado para aquela colônia, o Marquês de Montalvão.
+1888 – A tela Independência ou Morte, de Pedro Américo, foi exposta pela primeira vez na Academia Real de Belas Artes de Florença antes de ser entregue ao governo paulista três meses depois, para integrar a coleção do Museu Paulista.
+1904 – A França e o Reino Unido assinam a Entente cordiale.
 Nasceram neste dia…
-Francisco Xavier (1506–1552)  •  Gabriela Mistral (1889–1957)  •  Billie Holiday (1915–1959)  •  Francis Ford Coppola (n. 1939)
+Pedro I de Portugal (1320–1367)  •  Basílio da Gama (1741–1795)  •  Edmund Husserl (1859–1938)  •  Kofi Annan (1938–2018)
 Morreram neste dia…
-El Greco (1541–1614)  •  Henry Ford (1863–1947)  •  Jim Clark (1936–1968)  •  Mike Wallace (1918–2012)
+João II de França (1319–1364)  •  Vaslav Nijinski (1889–1950)  •  Pablo Picasso (imagem) (1881–1973)  •  Peter Higgs (1929–2024)
 
 
-Ver mais • Outros dias: 5 • 6 • 7 • 8 • 9 • Ver todos
+Ver mais • Outros dias: 6 • 7 • 8 • 9 • 10 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226976 characters
-INFO:root:HTML parsed, length: 225379 characters
+INFO:root:Response length: 226255 characters
+INFO:root:HTML parsed, length: 224668 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Portrait_of_Billie_Holiday_and_Mister,_Downbeat,_New_York,_N.Y.,_ca._Feb._1947_(LOC,_5020400274,_cropped).jpg']
-INFO:root:Found 1 descriptions: ['Retrato de Billie Holiday e Mister, tirado por Wil']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Morena_pimienta_(Gymnothorax_griseus),_mar_Rojo,_Egipto,_2023-04-19,_DD_54.jpg']
+INFO:root:Found 1 descriptions: ['Foto de uma moreia-geométrica (Gymnothorax griseus']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg/500px-Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Morena_pimienta_%28Gymnothorax_griseus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-19%2C_DD_54.jpg/400px-Morena_pimienta_%28Gymnothorax_griseus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-19%2C_DD_54.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -405,15 +402,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Portrait_of_Billie_Holiday_and_Mister,_Downbeat,_New_York,_N.Y.,_ca._Feb._1947_(LOC,_5020400274,_cropped).jpg
-INFO:root:🔹 Description: Retrato de Billie Holiday e Mister, tirado por William Gottlieb no Downbeat Club, Nova Iorque, 1947. Nascida Eleanora Fagan, foi uma cantora americana de jazz e swing. Apelidada de “Lady Day” por seu amigo e parceiro musical, Lester Young, Holiday fez uma contribuição significativa para o jazz e o pop. Seu estilo vocal, fortemente influenciado por instrumentistas de jazz, inspirou uma nova maneira de manipular o fraseado e o andamento. Era conhecida por sua entrega vocal e habilidades de improvisação.
-(resolução original: 4 512 × 4 512)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Morena_pimienta_(Gymnothorax_griseus),_mar_Rojo,_Egipto,_2023-04-19,_DD_54.jpg
+INFO:root:🔹 Description: Foto de uma moreia-geométrica (Gymnothorax griseus), mar Vermelho, Egito. Essa moreia pertence à família Muraenidae e encontrada em todo o Oceano Índico ocidental e no mar Vermelho, em profundidades de até 40 metros. Seu comprimento é de até 65 centímetros.
+(resolução original: 3 238 × 3 238)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg/500px-Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Morena_pimienta_%28Gymnothorax_griseus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-19%2C_DD_54.jpg/400px-Morena_pimienta_%28Gymnothorax_griseus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-19%2C_DD_54.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -432,23 +429,25 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 ++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  32 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 ++--
+ feeds/devocional_de_hoje/feed.json        |  14 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  27 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  90 ++++----
+ feeds/salmo_do_dia/atom.xml               |  68 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |  10 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |   4 +-
- feeds/wikidia/feed.json                   |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 331 +++++++++++++++---------------
- 15 files changed, 297 insertions(+), 301 deletions(-)
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 338 ++++++++++++++----------------
+ 16 files changed, 292 insertions(+), 313 deletions(-)
