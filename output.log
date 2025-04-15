@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120362 characters
-INFO:root:HTML parsed, length: 113476 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (14/04/2025)', 'Palavra de Ontem (13/04/2025)', 'Palavra de Anteontem (12/04/2025)']
-INFO:root:Found 3 URLs: ['/brecha/', '/tradicionalmente/', '/empatia/']
-INFO:root:Found 12 descriptions: ['substantivo feminino Qualquer abertura numa superf', 'Sinônimos:\n\nfenda, abertura, buraco, orifício, rom', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (14/04/2025)', 'Palavra de Ontem (13/04/2025)', 'Palavra de Anteontem (12/04/2025)']
+INFO:root:Response length: 118799 characters
+INFO:root:HTML parsed, length: 112096 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (15/04/2025)', 'Palavra de Ontem (14/04/2025)', 'Palavra de Anteontem (13/04/2025)']
+INFO:root:Found 3 URLs: ['/sanado/', '/brecha/', '/tradicionalmente/']
+INFO:root:Found 10 descriptions: ['adjetivo Que se sanou, se recuperou de uma doença ', 'Sinônimos:\n\nsarado, curado, consertado, reparado, ', 'Sílabas:sa-na-do']
+INFO:root:Found 3 dates: ['Palavra de Hoje (15/04/2025)', 'Palavra de Ontem (14/04/2025)', 'Palavra de Anteontem (13/04/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (14/04/2025)', ID=0ce3880bf3fa67bb09603487a4385feb
-INFO:root:Processing entry 2: Title='Palavra de Ontem (13/04/2025)', ID=b23db9e9fbd9f4cfe861a282de8002aa
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/04/2025)', ID=8c4c7a5e2905601e39a470d67327710c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (15/04/2025)', ID=5dbaf517e5114840f617441ae73936e0
+INFO:root:Processing entry 2: Title='Palavra de Ontem (14/04/2025)', ID=aed8a41003c134c497e1c7a57801dec6
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (13/04/2025)', ID=bb987e8f940f77b6241bd0aedfc91599
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (14/04/2025) - Significado completo de brecha:
+INFO:root:🔹 Title: Palavra de Hoje (15/04/2025) - Significado completo de sanado:
+INFO:root:🔹 URL: https://www.dicio.com.br/sanado/
+INFO:root:🔹 Description: adjetivo Que se sanou, se recuperou de uma doença ou enfermidade; curado.Que foi corrigido, consertado; cujo problema foi resolvido; reparado, consertado.Que deixou de ser um empecilho para a realização de algo.Etimologia (origem da palavra sanado). Particípio de sanar, do latim sanare.
+ 
+Sinônimos:
+
+sarado, curado, consertado, reparado, corrigido 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (14/04/2025) - Significado completo de brecha:
 INFO:root:🔹 URL: https://www.dicio.com.br/brecha/
-INFO:root:🔹 Description: substantivo feminino Qualquer abertura numa superfície; espaço vazio; lacuna.Ferida larga e profunda feita com objeto cortante ou contundente.[Figurado] Espaço não preenchido; lacuna.[Figurado] Tempo ocioso em que não se faz nada; férias.[Figurado] Circunstância oportuna; ocasião, ensejo, possibilidade.[Figurado] Qualquer tipo de dano; prejuízo.[Geologia] Conglomerado formado de elementos angulosos.[Geologia] Depressão numa cadeia de montanhas que serve de passagem.expressão Abrir uma brecha. Enfraquecer uma defesa; abrir caminho.Estar na brecha. Estar sempre atento às oportunidades.Ter brecha. Ter oportunidade.Etimologia (origem da palavra brecha). Do francês brèche.
+INFO:root:🔹 Description: Sinônimos:
+
+sarado, curado, consertado, reparado, corrigido
+ Sílabas:sa-na-do
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (13/04/2025) - Significado completo de tradicionalmente:
+INFO:root:🔹 URL: https://www.dicio.com.br/tradicionalmente/
+INFO:root:🔹 Description: Sílabas:sa-na-do
  
 Sinônimos:
 
 fenda, abertura, buraco, orifício, rombo, lacuna, férias, ocasião, ensejo, possibilidade, prejuízo, dano 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (13/04/2025) - Significado completo de tradicionalmente:
-INFO:root:🔹 URL: https://www.dicio.com.br/tradicionalmente/
-INFO:root:🔹 Description: Sinônimos:
-
-fenda, abertura, buraco, orifício, rombo, lacuna, férias, ocasião, ensejo, possibilidade, prejuízo, dano
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (12/04/2025) - Significado completo de empatia:
-INFO:root:🔹 URL: https://www.dicio.com.br/empatia/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:bre-cha
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,88 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237204 characters
-INFO:root:HTML parsed, length: 226685 characters
-INFO:root:Found 1 titles: ['Apocalipse 21:4']
-INFO:root:Found 1 URLs: ['/versiculo/apocalipse_21_4/']
-INFO:root:Found 1 descriptions: ['Ele enxugará dos seus olhos toda lágrima. Não have']
+INFO:root:Response length: 237243 characters
+INFO:root:HTML parsed, length: 226724 characters
+INFO:root:Found 1 titles: ['Efésios 1:3']
+INFO:root:Found 1 URLs: ['/versiculo/efesios_1_3/']
+INFO:root:Found 1 descriptions: ['Bendito seja o Deus e Pai de nosso Senhor Jesus Cr']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Apocalipse 21:4', ID=f78146bc02ed70a15d2b5a2d9577aeb4
+INFO:root:Processing entry 1: Title='Efésios 1:3', ID=5ddec14ca5f1d108cb615a4e5237a3cb
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Apocalipse 21:4
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/apocalipse_21_4/
-INFO:root:🔹 Description: Ele enxugará dos seus olhos toda lágrima. Não haverá mais morte, nem tristeza, nem choro, nem dor, pois a antiga ordem já passou". Apocalipse 21:4
+INFO:root:🔹 Title: Efésios 1:3
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/efesios_1_3/
+INFO:root:🔹 Description: Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, que nos abençoou com todas as bênçãos espirituais nas regiões celestiais em Cristo. Efésios 1:3
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237610 characters
-INFO:root:HTML parsed, length: 227819 characters
-INFO:root:Found 3 titles: ['Salmo 11', 'Salmo 38', 'Salmo 96']
-INFO:root:Found 3 URLs: ['/salmos_11/', '/salmos_38/', '/salmos_96/']
-INFO:root:Found 3 descriptions: ['No Senhor me refugio.\nComo então vocês podem dizer', 'Senhor, não me repreendas no teu furor\nnem me disc', 'Cantem ao Senhor um novo cântico;\ncantem ao Senhor']
-INFO:root:Found 3 dates: ['14 de Abril de 2025', '13 de Abril de 2025', '12 de Abril de 2025']
+INFO:root:Response length: 237877 characters
+INFO:root:HTML parsed, length: 228095 characters
+INFO:root:Found 3 titles: ['Salmo 19', 'Salmo 11', 'Salmo 38']
+INFO:root:Found 3 URLs: ['/salmos_19/', '/salmos_11/', '/salmos_38/']
+INFO:root:Found 3 descriptions: ['Os céus declaram a glória de Deus;\no firmamento pr', 'No Senhor me refugio.\nComo então vocês podem dizer', 'Senhor, não me repreendas no teu furor\nnem me disc']
+INFO:root:Found 3 dates: ['15 de Abril de 2025', '14 de Abril de 2025', '13 de Abril de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
-INFO:root:Processing entry 2: Title=' Salmo 38', ID=282dc27a0c80d468d6e7d65a1fc291fb
-INFO:root:Processing entry 3: Title=' Salmo 96', ID=12ab31f4d9c079172e6830658a260dfd
+INFO:root:Processing entry 1: Title=' Salmo 19', ID=db6236442bff7c5899bca41c0cc17596
+INFO:root:Processing entry 2: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
+INFO:root:Processing entry 3: Title=' Salmo 38', ID=282dc27a0c80d468d6e7d65a1fc291fb
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 19
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_19/
+INFO:root:🔹 Description: Os céus declaram a glória de Deus;
+o firmamento proclama a obra das suas mãos. 
+Um dia fala disso a outro dia;
+uma noite o revela a outra noite. 
+Sem discurso nem palavras,
+não se ouve a sua voz. 
+Mas a sua voz ressoa por toda a terra
+e as suas palavras até os confins do mundo.
+Nos céus ele armou uma tenda para o sol, 
+que é como um noivo que sai de seu aposento
+e se lança em sua carreira
+com a alegria de um herói. 
+Sai de uma extremidade dos céus
+e faz o seu trajeto até a outra;
+nada escapa ao seu calor. 
+A lei do Senhor é perfeita e revigora a alma.
+Os testemunhos do Senhor
+são dignos de confiança
+e tornam sábios os inexperientes. 
+Os preceitos do Senhor são justos
+e dão alegria ao coração.
+Os mandamentos do Senhor são límpidos
+e trazem luz aos olhos. 
+O temor do Senhor é puro
+e dura para sempre.
+As ordenanças do Senhor são verdadeiras,
+são todas elas justas. 
+São mais desejáveis do que o ouro,
+do que muito ouro puro;
+são mais doces do que o mel,
+do que as gotas do favo. 
+Por elas o teu servo é advertido;
+há grande recompensa em obedecer-lhes. 
+Quem pode discernir os próprios erros?
+Absolve-me dos que desconheço! 
+Também guarda o teu servo
+dos pecados intencionais;
+que eles não me dominem!
+Então serei íntegro,
+inocente de grande transgressão. 
+Que as palavras da minha boca
+e a meditação do meu coração
+sejam agradáveis a ti,
+Senhor, minha Rocha e meu Resgatador! 
+ Salmo 19
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 11
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_11/
 INFO:root:🔹 Description: No Senhor me refugio.
@@ -160,103 +212,82 @@ Apressa-te a ajudar-me,
 Senhor, meu Salvador! 
  Salmo 38
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 96
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_96/
-INFO:root:🔹 Description: Cantem ao Senhor um novo cântico;
-cantem ao Senhor, todos os habitantes da terra! 
-Cantem ao Senhor, bendigam o seu nome;
-cada dia proclamem a sua salvação! 
-Anunciem a sua glória entre as nações,
-seus feitos maravilhosos entre todos os povos! 
-Porque o Senhor é grande
-e digno de todo louvor,
-mais temível do que todos os deuses! 
-Todos os deuses das nações
-não passam de ídolos,
-mas o Senhor fez os céus. 
-Majestade e esplendor estão diante dele;
-poder e dignidade, no seu santuário. 
-Deem ao Senhor, ó famílias das nações,
-deem ao Senhor glória e força. 
-Deem ao Senhor
-a glória devida ao seu nome
-e entrem nos seus átrios trazendo ofertas. 
-Adorem o Senhor
-no esplendor da sua santidade;
-tremam diante dele todos os habitantes da terra. 
-Digam entre as nações: "O Senhor reina!"
-Por isso firme está o mundo e não se abalará,
-e ele julgará os povos com justiça. 
-Regozijem-se os céus e exulte a terra!
-Ressoe o mar e tudo o que nele existe! 
-Regozijem-se os campos
-e tudo o que neles há!
-Cantem de alegria todas as árvores da floresta, 
-cantem diante do Senhor, porque ele vem,
-vem julgar a terra;
-julgará o mundo com justiça
-e os povos com a sua fidelidade! 
- Salmo 96
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 239128 characters
-INFO:root:HTML parsed, length: 228987 characters
-INFO:root:Found 3 titles: ['Não tenha medo! Encontre coragem em Deus!', 'Luz para os meus caminhos', 'Pense nisso']
+INFO:root:Response length: 239039 characters
+INFO:root:HTML parsed, length: 228898 characters
+INFO:root:Found 3 titles: ['Confie na justiça de Deus, ela não falha', 'Não tenha medo! Encontre coragem em Deus!', 'Luz para os meus caminhos']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Sentir medo é normal. Todos sentem medo. Mas você ', 'Lâmpada para os meus pés\né a tua palavra,\né luz pa', 'Finalmente, irmãos, tudo o que for verdadeiro, tud']
-INFO:root:Found 1 dates: ['Segunda, 14 de abril de 2025']
+INFO:root:Found 3 descriptions: ['Pois o Senhor é justo e ama a justiça;\nos retos ve', 'Sentir medo é normal. Todos sentem medo. Mas você ', 'Lâmpada para os meus pés\né a tua palavra,\né luz pa']
+INFO:root:Found 1 dates: ['Terça, 15 de abril de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Não tenha medo! Encontre coragem em Deus!', ID=4ca41d7b1889deee73ef103e241b24a2
+INFO:root:Processing entry 1: Title='Confie na justiça de Deus, ela não falha', ID=9dbb29e2ca184e4fcf5f2e32da67e9f9
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Não tenha medo! Encontre coragem em Deus! - Palavra de Hoje
+INFO:root:🔹 Title: Confie na justiça de Deus, ela não falha - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Sentir medo é normal. Todos sentem medo. Mas você não precisa ser dominado pelo medo. Para obedecer a Deus você precisa de coragem: para falar sobre Jesus, para enfrentar zombaria, para ser diferente...
-Essa coragem vem do Espírito Santo. Deus está com você! Creia nisso e você encontrará coragem para fazer a vontade de Deus.
+INFO:root:🔹 Description: Pois o Senhor é justo e ama a justiça;
+os retos verão a sua face.
+- Salmos 11:7 
 
-Pois Deus não nos deu espírito de covardia, mas de poder, de amor e de equilíbrio.
-- 2 Timóteo 1:7
-
-O versículo 2 Timóteo 1:7 nos inspira sobre a fé e o poder de Deus. Paulo escreve a Timóteo destacando como o Espírito Santo dá coragem aos crentes.
-A primeira parte do versículo destaca que os filhos de Deus não devem viver com medo, mas sim com força, dando-lhes coragem para enfrentar desafios. Essa força não vem só deles, mas da presença divina.
-A segunda parte ressalta o papel crucial do amor. O amor é o que transforma o medo em coragem, e ações motivadas por amor têm resultados duradouros e significativos.
-Por fim, a moderação aparece como equilíbrio entre força e compaixão. Não se trata apenas de agir com poder, mas também com sabedoria e discernimento.
-Assim, 2 Timóteo 1:7 convida os crentes a viverem com confiança, amor e equilíbrio, lembrando que o Espírito neles é mais forte que qualquer desafio. Essas palavras continuam a encorajar todos que buscam viver uma vida autêntica e centrada em Deus.
-Você quer ter coragem para fazer a vontade de Deus?
-Encontre coragem nesses versículos.
+Em meio às tantas injustiças do mundo, é normal reagirmos com desânimo ou até mesmo revolta. Muitas vezes, vemos pessoas agindo de forma incorreta e, aparentemente, prosperando, enquanto os justos enfrentam dificuldades. Mas são nesses momentos que precisamos lembrar: a justiça de Deus nunca falha.
+Deus conhece o coração, os pensamentos e as intenções. Sua justiça não é limitada pelo tempo nem pelas circunstâncias. Pode parecer que o mal está vencendo, mas o Senhor está no controle de todas as coisas, e no tempo certo, Ele age com perfeição.
+Confiar na justiça de Deus é entregar a Ele nossos medos, mágoas e esperanças. É descansar na certeza de que Ele luta por nós, mesmo quando tudo parece silencioso. Não é fácil manter a fé quando somos injustiçados, mas é justamente aí que nossa confiança precisa ser mais forte. Ele é o justo juiz, e ninguém escapa da Sua poderosa mão.
+A justiça de Deus não é somente retribuição, é também redenção. Deus corrige, mas também restaura. Ele não se esquece dos que permanecem firmes, dos que fazem o bem, mesmo quando ninguém está olhando. Sua justiça é plena, misericordiosa e eterna.
+Siga fazendo o bem, mesmo que pareça em vão. Ore, persevere, perdoe. Confie que Deus está vendo cada atitude, cada lágrima e cada oração. Ele é fiel e nunca desampara os que confiam Nele.
+Confie na justiça de Deus, ela nunca atrasa, nunca falha e sempre traz paz ao coração que espera com fé. 
+Veja também: Deus é amor, mas também justiça.
  
 Luz do mundo - explicação e significado
 Razões para confiar em Deus nas dificuldades
 Salmos de proteção: Deus é o seu livramento
 
  
-Pois Deus não nos deu espírito de covardia, mas de poder, de amor e de equilíbrio.
-- 2 Timóteo 1:7
+Pois o Senhor é justo e ama a justiça;
+os retos verão a sua face.
+- Salmos 11:7 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 248542 characters
-INFO:root:HTML parsed, length: 238175 characters
-INFO:root:Found 3 titles: ['Devocional: Deus pode animar o seu dia', 'Depois de crer, tudo pode acontecer', 'Sua fé pode superar o medo']
-INFO:root:Found 4 URLs: ['/versiculos_de_animo/', '/fe_e_esperanca_para_alegrar/', '/fe_e_esperanca_para_alegrar/']
-INFO:root:Found 3 descriptions: ['Hoje, compartilhamos uma verdade transformadora: o', 'Ao que lhe disse Jesus: Se podes! - tudo é possíve', 'Pois Deus não nos deu espírito de covardia, mas de']
-INFO:root:Found 3 dates: ['ABRIL\n\n14\nSEGUNDA', 'ABRIL\n\n13\nDOMINGO', 'ABRIL\n\n12\nSÁBADO']
+INFO:root:Response length: 247920 characters
+INFO:root:HTML parsed, length: 237560 characters
+INFO:root:Found 3 titles: ['Tudo no tempo de Deus!', 'Devocional: Deus pode animar o seu dia', 'Depois de crer, tudo pode acontecer']
+INFO:root:Found 3 URLs: ['/versiculos_de_animo/', '/fe_e_esperanca_para_alegrar/', '/fe_e_esperanca_para_alegrar/']
+INFO:root:Found 3 descriptions: ['Não andem ansiosos por coisa alguma, mas em tudo, ', 'Hoje, compartilhamos uma verdade transformadora: o', 'Ao que lhe disse Jesus: Se podes! - tudo é possíve']
+INFO:root:Found 3 dates: ['ABRIL\n\n15\nTERÇA', 'ABRIL\n\n14\nSEGUNDA', 'ABRIL\n\n13\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Devocional: Deus pode animar o seu dia', ID=c5ab06ca156f4c22468230d2f9e3faa3
-INFO:root:Processing entry 2: Title='Depois de crer, tudo pode acontecer', ID=66fdba02658e7b60f4c73a55c1dd40fc
-INFO:root:Processing entry 3: Title='Sua fé pode superar o medo', ID=688fad10ceb0534615606219a5cbfae3
+INFO:root:Processing entry 1: Title='Tudo no tempo de Deus!', ID=1123c5d4897baf8d74bd31f94ba62f55
+INFO:root:Processing entry 2: Title='Devocional: Deus pode animar o seu dia', ID=c5ab06ca156f4c22468230d2f9e3faa3
+INFO:root:Processing entry 3: Title='Depois de crer, tudo pode acontecer', ID=66fdba02658e7b60f4c73a55c1dd40fc
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Devocional: Deus pode animar o seu dia
+INFO:root:🔹 Title: Tudo no tempo de Deus!
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_de_animo/
+INFO:root:🔹 Description: Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus.
+Filipenses 4:6-7
+
+Se tem algo que pode atrapalhar a nossa vida é a ansiedade. A ansiedade faz com que soframos antecipadamente por algo que nem mesmo pode acontecer. Esta tensão antecipada pode atrapalhar o nosso relacionamento com as pessoas e até mesmo o nosso relacionamento com Deus.
+A fé é justamente o contrário da ansiedade. Só através da fé podemos agradar a Deus e realizar grandes coisas. O melhor remédio para combater a ansiedade é alimentando-se da Palavra de Deus. Com Palavra de Deus podemos acalmar o nosso coração e através da oração podemos compartilhar as nossas angústias com o Pai.
+Não deixe o seu coração carregado de ansiedade e medo, entregue ao Senhor todas as suas angústias e apegue-se na palavra que Ele declarou a você. No momento certo você receberá a resposta de Deus para a sua vida.
+Tudo no tempo de Deus!
+
+Ao invés de focar-se no problema, coloque a sua atenção em quem pode resolvê-lo. Mantenha o seu foco em Deus!
+Não temos o domínio do que pode acontecer no futuro, mas Deus já preparou o melhor para nós. Avance em fé com esta perspectiva.
+Mantenha-se alimentado com a Palavra de Deus. A Bíblia é a fonte para acalmar o nosso coração e enchê-lo de esperança.
+
+Para orar:
+
+Deus, Tu és o Senhor do passado, do presente e do futuro. Acalma o meu coração, derrama a Tua paz que excede todo entendimento. Entrego em Tuas mãos a minha vida, quero confiar cada vez mais em Ti. Em nome de Jesus, amém!
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Devocional: Deus pode animar o seu dia
+INFO:root:🔹 URL: https://www.bibliaon.com/fe_e_esperanca_para_alegrar/
 INFO:root:🔹 Description: Hoje, compartilhamos uma verdade transformadora: o poder de Deus capaz de animar o seu dia a dia. No meio das adversidades, é reconfortante saber que temos um Deus sempre ao nosso lado, pronto para fortalecer e encorajar.
 A Palavra de Deus assegura em Isaías 41:10:
 
@@ -313,38 +344,13 @@ Senhor, fortalece minha fé para crer mesmo quando não entendo. Ajuda-me a conf
 
 Veja também: Versículos de fé e esperança que vão alegrar seu dia
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Sua fé pode superar o medo
-INFO:root:🔹 URL: https://www.bibliaon.com/fe_e_esperanca_para_alegrar/
-INFO:root:🔹 Description: Pois Deus não nos deu espírito de covardia, mas de poder, de amor e de equilíbrio.
-- 2 Timóteo 1:7
-
-O medo é uma das armas mais usadas pelo inimigo para paralisar os filhos de Deus. Ele tenta nos fazer esquecer quem somos e a quem pertencemos. Mas a fé é a chave que nos conecta à coragem que vem do Senhor. Quando confiamos em Deus, o medo perde a força.
-Um dos maiores exemplos disso é Davi diante de Golias. Enquanto todos os guerreiros de Israel estavam dominados pelo medo, Davi, um jovem pastor, teve fé no Deus Todo-Poderoso. Ele não olhou para o tamanho do gigante, mas para o tamanho do seu Deus. Com uma simples pedra e um coração cheio de confiança, ele venceu o inimigo.
-Outro exemplo é Pedro andando sobre as águas. No momento em que seus olhos estavam fixos em Jesus, ele caminhava por cima das ondas. Mas quando o medo entrou e ele olhou para o vento, começou a afundar. Isso mostra que a fé nos sustenta, mas o medo nos afunda.
-Mesmo diante de diagnósticos, crises ou incertezas, lembre-se: Deus está com você. Como disse o Senhor a Josué: “Não fui eu que lhe ordenei? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar” (Josué 1:9).
-Alimente sua fé com a Palavra, com oração e louvor. Quando a fé cresce, o medo enfraquece. Você não foi criado para viver paralisado, mas para avançar com coragem. Sua fé pode e vai superar todo medo! Confie em Deus, Ele nunca falha.
-Vencendo o medo através da fé
-
-
-Olhe para Deus, não para o problema: Mantenha os olhos no Senhor, assim como Davi fez. Foque no poder de Deus, não no tamanho do desafio.
-
-Alimente sua fé diariamente: leia a Palavra, ore e adore. A fé é como um músculo: quanto mais você o exercita, mais ele cresce e se fortalece.
-
-Você não está sozinho: Deus prometeu estar com você em todos os momentos. Confie nessa presença constante e caminhe com coragem, mesmo quando as circunstâncias tentarem dizer o contrário.
-
-Para orar:
-
-Senhor, fortalece minha fé para que eu não seja dominado pelo medo. Ajuda-me a confiar em Ti em todo tempo, lembrando que Tu estás comigo. Guia meus passos com coragem e paz. Amém
-
-Veja também: Deus, fala comigo agora!
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226824 characters
-INFO:root:HTML parsed, length: 225242 characters
+INFO:root:Response length: 224919 characters
+INFO:root:HTML parsed, length: 223341 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 24 URLs: ['/wiki/Corpo_de_Fuzileiros_Navais', '/wiki/Corpo_de_Fuzileiros_Navais', '/wiki/Infantaria_naval']
-INFO:root:Found 1 descriptions: ['O Corpo de Fuzileiros Navais (CFN) é a infantaria ']
+INFO:root:Found 20 URLs: ['/wiki/...Baby_One_More_Time', '/wiki/...Baby_One_More_Time', '/wiki/%C3%81lbum_de_estreia']
+INFO:root:Found 1 descriptions: ['...Baby One More Time é o álbum de estreia da arti']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -354,9 +360,8 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Corpo_de_Fuzileiros_Navais
-INFO:root:🔹 Description: O Corpo de Fuzileiros Navais (CFN) é a infantaria naval da Marinha do Brasil. Seus componentes operacionais são a Força de Fuzileiros da Esquadra (FFE), subordinada ao Comando de Operações Navais, no estado do Rio de Janeiro, e os Batalhões de Operações Litorâneas e de Operações Ribeirinhas, subordinados aos Distritos Navais ao longo do litoral e das bacias amazônica e platina. A FFE é sua principal força de desembarque, com um núcleo de três batalhões de infantaria e sua própria artilharia, blindados terrestres e anfíbios, forças de operações especiais e outros elementos de apoio.
-Traçando suas origens à Brigada Real de Marinha da Marinha Portuguesa, os fuzileiros navais brasileiros serviram no século XIX embarcados e desembarcados dos navios da Armada Imperial. No século seguinte, viram-se relegados a uma tropa de guarda, inspirada em grande parte no Exército Brasileiro. Nas lutas políticas, tinham tradição de legalismo. Só a partir de 1950 o CFN adquiriu uma verdadeira capacidade anfíbia, sob duradoura influência do Corpo de Fuzileiros Navais dos Estados Unidos (USMC). (Leia mais...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/...Baby_One_More_Time
+INFO:root:🔹 Description: ...Baby One More Time é o álbum de estreia da artista musical estadunidense Britney Spears. O seu lançamento ocorreu em 12 de janeiro de 1999, através da Jive Records. Em junho de 1997, enquanto Spears negociava com o empresário Lou Pearlman a sua entrada no grupo feminino Innosense, sua mãe pediu a opinião do advogado de entretenimento e amigo da família Larry Rudolph e enviou-lhe uma fita demo de Spears cantando uma canção de Whitney Houston em um karaokê. Rudolph decidiu entregá-la para gravadoras, e enviou-a juntamente a uma fita demo contendo uma faixa não usada por Toni Braxton. A Jive acabou interessando-se e indicou o produtor Eric Foster White para trabalhar com ela. Depois de ouvir o material gravado, a gravadora contratou Spears em um acordo de diversos álbuns. Ela viajou para a Suécia para trabalhar com outros produtores, como Max Martin, Denniz Pop e Rami Yacoub. O primeiro mostrou-lhe uma faixa chamada "Hit Me Baby One More Time", que havia sido originalmente escrita para o grupo feminino TLC, a qual rejeitou-a. O trabalho foi concluído em junho de 1998. (Leia mais...)
 
 
 
@@ -369,44 +374,44 @@ Artigos bons: 1912
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226824 characters
-INFO:root:HTML parsed, length: 225242 characters
-INFO:root:Found 1 titles: ['14 de abril na história']
-INFO:root:Found 43 URLs: ['/wiki/Ficheiro:Aluisio_Azevedo.jpg', '/wiki/Dia_Mundial_da_Doen%C3%A7a_de_Chagas', '/wiki/Organiza%C3%A7%C3%A3o_Mundial_da_Sa%C3%BAde']
-INFO:root:Found 1 descriptions: ['Aluísio de Azevedo\nDia Mundial da Doença de Chagas']
+INFO:root:Response length: 224919 characters
+INFO:root:HTML parsed, length: 223341 characters
+INFO:root:Found 1 titles: ['15 de abril na história']
+INFO:root:Found 49 URLs: ['/wiki/Ficheiro:St%C3%B6wer_Titanic.jpg', '/wiki/Dia_do_Sol', '/wiki/Coreia_do_Norte']
+INFO:root:Found 1 descriptions: ['Naufrágio do RMS Titanic\nDia do Sol na Coreia do N']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='14 de abril na história', ID=abd5fc9b81d178a323c8dff2a0e15315
+INFO:root:Processing entry 1: Title='15 de abril na história', ID=34607a104f0b17266fed07a86c14bab5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 14 de abril na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Aluisio_Azevedo.jpg
-INFO:root:🔹 Description: Aluísio de Azevedo
-Dia Mundial da Doença de Chagas (OMS, 2020)
+INFO:root:🔹 Title: 15 de abril na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:St%C3%B6wer_Titanic.jpg
+INFO:root:🔹 Description: Naufrágio do RMS Titanic
+Dia do Sol na Coreia do Norte (1997)
 
-1900 – Inicia-se a Exposição Universal, em Paris.
-1831 – Império do Brasil: O Hino Nacional Brasileiro é executado pela primeira vez.
-2003 – O Projeto Genoma Humano é concluído com 99% do sequenciamento do genoma humano, com uma precisão de 99,99%.
+1450 – Guerra dos Cem Anos: tem lugar a Batalha de Formigny entre o Reino da Inglaterra e o da França.
+1912 – O RMS Titanic naufraga (pintura) no Oceano Atlântico após a colisão com um iceberg.
+1945 – Holocausto: as tropas britânicas libertam o campo de concentração nazista de Bergen-Belsen.
 Nasceram neste dia…
-Aluísio de Azevedo (imagem) (1857–1913)  •  Alfredo Volpi (1896–1988)  •  Faisal da Arábia Saudita (1906–1975)  •  Peter Capaldi (n. 1958)
+Leonardo da Vinci (1452–1519)  •  Catarina I da Rússia (1684–1727)  •   Hermann Grassmann (1809–1877)  •  Vida Alves (1928–2017)
 Morreram neste dia…
-Georg Friedrich Händel (1685–1759)  •  Ludwik Lejzer Zamenhof (1859–1917)  •  Simone de Beauvoir (1908–1986)  •  Zuzu Angel (1921–1976)
+César Vallejo (1892–1938)  •  Abraham Lincoln (1809–1865)  •  Greta Garbo (1905–1990)  •  Eunice Muñoz (1928–2022)
 
 
-Ver mais • Outros dias: 12 • 13 • 14 • 15 • 16 • Ver todos
+Ver mais • Outros dias: 13 • 14 • 15 • 16 • 17 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226824 characters
-INFO:root:HTML parsed, length: 225242 characters
+INFO:root:Response length: 224919 characters
+INFO:root:HTML parsed, length: 223341 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Lincoln_assassination_slide_c1900_-_Restoration.jpg']
-INFO:root:Found 1 descriptions: ['Slide mostrando John Wilkes Booth inclinando-se pa']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Nevin-aladag-villa-stuck-tusch.jpg']
+INFO:root:Found 1 descriptions: ['Tusch, uma instalação de Nevin Aladağ, exibida na ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Lincoln_assassination_slide_c1900_-_Restoration.jpg/500px-Lincoln_assassination_slide_c1900_-_Restoration.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Nevin-aladag-villa-stuck-tusch.jpg/960px-Nevin-aladag-villa-stuck-tusch.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -415,15 +420,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Lincoln_assassination_slide_c1900_-_Restoration.jpg
-INFO:root:🔹 Description: Slide mostrando John Wilkes Booth inclinando-se para atirar no presidente dos Estados Unidos Abraham Lincoln enquanto assistia à peça Our American Cousin no Teatro Ford em Washington, D.C. Em 14 de abril de 1865, perto do fim da Guerra Civil Americana, o assassinato de Lincoln foi parte de uma conspiração política maior pretendida por Booth para reviver a causa Confederada eliminando Lincoln, o Secretário de Estado William H. Seward e o vice-presidente Andrew Johnson.
-(resolução original: 1 903 × 1 780)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Nevin-aladag-villa-stuck-tusch.jpg
+INFO:root:🔹 Description: Tusch, uma instalação de Nevin Aladağ, exibida na exposição “Sound of Spaces” no Museu Villa Stuck (2022), Munique, Alemanha. Nevin Aladağ é uma escultora e artista de instalação e performance alemã. Seu trabalho, vencedor de vários prêmios e reconhecido internacionalmente, é caracterizado pelo uso de música e som, além de padrões e ornamentos. Ela frequentemente combina diferentes disciplinas e trabalha com humor e ironia.
+(resolução original: 5 682 × 3 412)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Lincoln_assassination_slide_c1900_-_Restoration.jpg/500px-Lincoln_assassination_slide_c1900_-_Restoration.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Nevin-aladag-villa-stuck-tusch.jpg/960px-Nevin-aladag-villa-stuck-tusch.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -439,6 +444,7 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -447,20 +453,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  56 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 ++--
  feeds/devocional_de_hoje/feed.json        |  14 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  40 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  27 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  47 +++--
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               |  84 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/atom.xml               |   5 +-
+ feeds/wikidestaque/feed.json              |   4 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 334 ++++++++++++++----------------
- 16 files changed, 285 insertions(+), 312 deletions(-)
+ output.log                                | 357 +++++++++++++++---------------
+ 17 files changed, 315 insertions(+), 321 deletions(-)
