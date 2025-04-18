@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119699 characters
-INFO:root:HTML parsed, length: 112673 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (17/04/2025)', 'Palavra de Ontem (16/04/2025)', 'Palavra de Anteontem (15/04/2025)']
-INFO:root:Found 3 URLs: ['/vinha/', '/efemero/', '/sanado/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Terreno plantado de videiras;', 'Sinônimos:\n\nvinhedo', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (17/04/2025)', 'Palavra de Ontem (16/04/2025)', 'Palavra de Anteontem (15/04/2025)']
+INFO:root:Response length: 119683 characters
+INFO:root:HTML parsed, length: 112657 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (18/04/2025)', 'Palavra de Ontem (17/04/2025)', 'Palavra de Anteontem (16/04/2025)']
+INFO:root:Found 3 URLs: ['/exponencialmente/', '/vinha/', '/efemero/']
+INFO:root:Found 13 descriptions: ['advérbio De maneira exponencial; em que há grande ', 'Sinônimos:\n\nnotavelmente, significativamente, cons', 'Sílabas:ex-po-nen-ci-al-men-te']
+INFO:root:Found 3 dates: ['Palavra de Hoje (18/04/2025)', 'Palavra de Ontem (17/04/2025)', 'Palavra de Anteontem (16/04/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (17/04/2025)', ID=3cb43c78f9849c57f3ea993e3eac03eb
-INFO:root:Processing entry 2: Title='Palavra de Ontem (16/04/2025)', ID=7ca0ef00e5b0a376eda1ee08e0c81331
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (15/04/2025)', ID=efade4694f34e9d2f0b382f81ab627c6
+INFO:root:Processing entry 1: Title='Palavra de Hoje (18/04/2025)', ID=a02428065f6101b8ac7220a357306e18
+INFO:root:Processing entry 2: Title='Palavra de Ontem (17/04/2025)', ID=160db85397b7673782b33db8d43aca09
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/04/2025)', ID=ab2cbc0016e7e15f0baeb631a3d15c1e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (17/04/2025) - Significado completo de vinha:
+INFO:root:🔹 Title: Palavra de Hoje (18/04/2025) - Significado completo de exponencialmente:
+INFO:root:🔹 URL: https://www.dicio.com.br/exponencialmente/
+INFO:root:🔹 Description: advérbio De maneira exponencial; em que há grande notabilidade, importância, relevância; notavelmente: os lucros aumentaram exponencialmente no ano passado.Etimologia (origem da palavra exponencialmente). Exponencial + mente.
+ 
+Sinônimos:
+
+notavelmente, significativamente, consideravelmente 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (17/04/2025) - Significado completo de vinha:
 INFO:root:🔹 URL: https://www.dicio.com.br/vinha/
-INFO:root:🔹 Description: substantivo feminino Terreno plantado de videiras; número de videiras desse terreno; vinhedo.[Figurado] Aquilo que dá grande lucro: sua empresa é uma verdadeira vinha.[Figurado] O que se tem como profissão, como trabalho; ofício, ocupação.expressão [Figurado] A vinha do Senhor. A vida religiosa.Etimologia (origem da palavra vinha). Do latim vinea.ae, "vinhedo".substantivo feminino [Culinária] Molho feito com vinagre, sal, alho, cebola, pimenta etc., usado como conserva para alimentos; vinha-d'alhos.Etimologia (origem da palavra vinha). Forma reduzida de vinha-d'alhos.
+INFO:root:🔹 Description: Sinônimos:
+
+notavelmente, significativamente, consideravelmente
+ Sílabas:ex-po-nen-ci-al-men-te
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (16/04/2025) - Significado completo de efêmero:
+INFO:root:🔹 URL: https://www.dicio.com.br/efemero/
+INFO:root:🔹 Description: Sílabas:ex-po-nen-ci-al-men-te
  
 Sinônimos:
 
 vinhedo 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (16/04/2025) - Significado completo de efêmero:
-INFO:root:🔹 URL: https://www.dicio.com.br/efemero/
-INFO:root:🔹 Description: Sinônimos:
-
-vinhedo
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (15/04/2025) - Significado completo de sanado:
-INFO:root:🔹 URL: https://www.dicio.com.br/sanado/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:vi-nha
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,105 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237376 characters
-INFO:root:HTML parsed, length: 226857 characters
-INFO:root:Found 1 titles: ['Marcos 11:25-26']
-INFO:root:Found 1 URLs: ['/versiculo/marcos_11_25-26/']
-INFO:root:Found 1 descriptions: ['E, quando estiverem orando, se tiverem alguma cois']
+INFO:root:Response length: 237327 characters
+INFO:root:HTML parsed, length: 226808 characters
+INFO:root:Found 1 titles: ['Romanos 5:12']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_5_12/']
+INFO:root:Found 1 descriptions: ['Portanto, da mesma forma como o pecado entrou no m']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Marcos 11:25-26', ID=3fae109ba9429bf8a9ea0c3215047285
+INFO:root:Processing entry 1: Title='Romanos 5:12', ID=42d1aed4d39d09f10cfa30d0f8a5a5ec
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Marcos 11:25-26
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/marcos_11_25-26/
-INFO:root:🔹 Description: E, quando estiverem orando, se tiverem alguma coisa contra alguém, perdoem-no, para que também o Pai celestial perdoe os seus pecados. Mas, se vocês não perdoarem, também o seu Pai que está nos céus não perdoará os seus pecados". Marcos 11:25-26
+INFO:root:🔹 Title: Romanos 5:12
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_5_12/
+INFO:root:🔹 Description: Portanto, da mesma forma como o pecado entrou no mundo por um homem, e pelo pecado a morte, assim também a morte veio a todos os homens, porque todos pecaram; Romanos 5:12
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 238990 characters
-INFO:root:HTML parsed, length: 229231 characters
-INFO:root:Found 3 titles: ['Salmo 121', 'Salmo 22', 'Salmo 19']
-INFO:root:Found 3 URLs: ['/salmos_121/', '/salmos_22/', '/salmos_19/']
-INFO:root:Found 3 descriptions: ['Levanto os meus olhos para os montes\ne pergunto:\nD', 'Meu Deus! Meu Deus!\nPor que me abandonaste?\nPor qu', 'Os céus declaram a glória de Deus;\no firmamento pr']
-INFO:root:Found 3 dates: ['17 de Abril de 2025', '16 de Abril de 2025', '15 de Abril de 2025']
+INFO:root:Response length: 239706 characters
+INFO:root:HTML parsed, length: 229955 characters
+INFO:root:Found 3 titles: ['Salmo 50', 'Salmo 121', 'Salmo 22']
+INFO:root:Found 3 URLs: ['/salmos_50/', '/salmos_121/', '/salmos_22/']
+INFO:root:Found 3 descriptions: ['Fala o Senhor, o Deus supremo;\nconvoca toda a terr', 'Levanto os meus olhos para os montes\ne pergunto:\nD', 'Meu Deus! Meu Deus!\nPor que me abandonaste?\nPor qu']
+INFO:root:Found 3 dates: ['18 de Abril de 2025', '17 de Abril de 2025', '16 de Abril de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 121', ID=98f635e6d01f1c89090e151efae7c021
-INFO:root:Processing entry 2: Title=' Salmo 22', ID=4a9a8239c5e2598aac1d618498f0cfa2
-INFO:root:Processing entry 3: Title=' Salmo 19', ID=db6236442bff7c5899bca41c0cc17596
+INFO:root:Processing entry 1: Title=' Salmo 50', ID=23aa53d6f0bc71b760f04eddded6ad1a
+INFO:root:Processing entry 2: Title=' Salmo 121', ID=98f635e6d01f1c89090e151efae7c021
+INFO:root:Processing entry 3: Title=' Salmo 22', ID=4a9a8239c5e2598aac1d618498f0cfa2
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 50
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_50/
+INFO:root:🔹 Description: Fala o Senhor, o Deus supremo;
+convoca toda a terra, do nascente ao poente. 
+Desde Sião, perfeita em beleza,
+Deus resplandece. 
+Nosso Deus vem!
+Certamente não ficará calado!
+À sua frente vai um fogo devorador,
+e, ao seu redor, uma violenta tempestade. 
+Ele convoca os altos céus e a terra,
+para o julgamento do seu povo: 
+"Ajuntem os que me são fiéis,
+que, mediante sacrifício,
+fizeram aliança comigo". 
+E os céus proclamam a sua justiça,
+pois o próprio Deus é o juiz. 
+"Ouça, meu povo, pois eu falarei;
+vou testemunhar contra você, Israel,
+eu, que sou Deus, o seu Deus. 
+Não o acuso pelos seus sacrifícios,
+nem pelos holocaustos,
+que você sempre me oferece. 
+Não tenho necessidade
+de nenhum novilho dos seus estábulos
+nem dos bodes dos seus currais, 
+pois todos os animais da floresta são meus,
+como são as cabeças de gado
+aos milhares nas colinas. 
+Conheço todas as aves dos montes
+e cuido das criaturas do campo. 
+Se eu tivesse fome, precisaria dizer a você?
+Pois o mundo é meu, e tudo o que nele existe. 
+Acaso como carne de touros
+ou bebo sangue de bodes? 
+Ofereça a Deus em sacrifício a sua gratidão,
+cumpra os seus votos para com o Altíssimo, 
+e clame a mim no dia da angústia;
+eu o livrarei, e você me honrará." 
+Mas ao ímpio Deus diz:
+"Que direito você tem de recitar as minhas leis
+ou de ficar repetindo a minha aliança? 
+Pois você odeia a minha disciplina
+e dá as costas às minhas palavras! 
+Você vê um ladrão e já se torna seu cúmplice,
+e com adúlteros se mistura. 
+Sua boca está cheia de maldade
+e a sua língua formula a fraude. 
+Deliberadamente você fala contra o seu irmão
+e calunia o filho de sua própria mãe. 
+Ficaria eu calado
+diante de tudo o que você tem feito?
+Você pensa que eu sou como você?
+Mas agora eu o acusarei diretamente,
+sem omitir coisa alguma. 
+"Considerem isto,
+vocês que se esquecem de Deus;
+caso contrário os despedaçarei,
+sem que ninguém os livre. 
+Quem me oferece sua gratidão
+como sacrifício honra-me,
+e eu mostrarei a salvação de Deus
+ao que anda nos meus caminhos". 
+ Salmo 50
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 121
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_121/
 INFO:root:🔹 Description: Levanto os meus olhos para os montes
@@ -193,101 +262,86 @@ proclamarão seus feitos de justiça,
 pois ele agiu poderosamente. 
  Salmo 22
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 19
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_19/
-INFO:root:🔹 Description: Os céus declaram a glória de Deus;
-o firmamento proclama a obra das suas mãos. 
-Um dia fala disso a outro dia;
-uma noite o revela a outra noite. 
-Sem discurso nem palavras,
-não se ouve a sua voz. 
-Mas a sua voz ressoa por toda a terra
-e as suas palavras até os confins do mundo.
-Nos céus ele armou uma tenda para o sol, 
-que é como um noivo que sai de seu aposento
-e se lança em sua carreira
-com a alegria de um herói. 
-Sai de uma extremidade dos céus
-e faz o seu trajeto até a outra;
-nada escapa ao seu calor. 
-A lei do Senhor é perfeita e revigora a alma.
-Os testemunhos do Senhor
-são dignos de confiança
-e tornam sábios os inexperientes. 
-Os preceitos do Senhor são justos
-e dão alegria ao coração.
-Os mandamentos do Senhor são límpidos
-e trazem luz aos olhos. 
-O temor do Senhor é puro
-e dura para sempre.
-As ordenanças do Senhor são verdadeiras,
-são todas elas justas. 
-São mais desejáveis do que o ouro,
-do que muito ouro puro;
-são mais doces do que o mel,
-do que as gotas do favo. 
-Por elas o teu servo é advertido;
-há grande recompensa em obedecer-lhes. 
-Quem pode discernir os próprios erros?
-Absolve-me dos que desconheço! 
-Também guarda o teu servo
-dos pecados intencionais;
-que eles não me dominem!
-Então serei íntegro,
-inocente de grande transgressão. 
-Que as palavras da minha boca
-e a meditação do meu coração
-sejam agradáveis a ti,
-Senhor, minha Rocha e meu Resgatador! 
- Salmo 19
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 239613 characters
-INFO:root:HTML parsed, length: 229482 characters
-INFO:root:Found 3 titles: ['Aprenda como aumentar sua fé', 'Quem sou eu em Cristo?', 'Confie na justiça de Deus, ela não falha']
+INFO:root:Response length: 239440 characters
+INFO:root:HTML parsed, length: 229309 characters
+INFO:root:Found 3 titles: ['Viva sempre com Ele', 'Aprenda como aumentar sua fé', 'Quem sou eu em Cristo?']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Consequentemente, a fé vem por se ouvir a mensagem', 'Assim, você já não é mais escravo, mas filho; e, p', 'Pois o Senhor é justo e ama a justiça;\nos retos ve']
-INFO:root:Found 1 dates: ['Quinta, 17 de abril de 2025']
+INFO:root:Found 3 descriptions: ['"Porque Deus tanto amou o mundo que deu o seu Filh', 'Consequentemente, a fé vem por se ouvir a mensagem', 'Assim, você já não é mais escravo, mas filho; e, p']
+INFO:root:Found 1 dates: ['Sexta, 18 de abril de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Aprenda como aumentar sua fé', ID=daf1008847ce8e96a1c414049de911ac
+INFO:root:Processing entry 1: Title='Viva sempre com Ele', ID=a09dae67011d25c746164a02916939b4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Aprenda como aumentar sua fé - Palavra de Hoje
+INFO:root:🔹 Title: Viva sempre com Ele - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Consequentemente, a fé vem por se ouvir a mensagem, e a mensagem é ouvida mediante a palavra de Cristo.
-- Romanos 10:17
+INFO:root:🔹 Description: "Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.
+- João 3:16
 
-Quando sua fé estiver fraca, saiba que existe uma maneira de fortalecê-la: ouvindo a Palavra de Deus. A Bíblia nos ensina que a fé vem pelo ouvir, e isso significa que, quanto mais nos aproximamos das Escrituras, mais nosso coração se enche de confiança e esperança.
-Se você sente que sua fé está abalada, busque refúgio na leitura da Palavra e peça a Deus entendimento para compreendê-la plenamente. A oração é uma ferramenta poderosa que nos aproxima do Senhor, permitindo que Ele nos revele verdades profundas e nos conceda sabedoria para enfrentar os desafios da vida.
-Além da leitura e da oração, estar em comunhão com outros cristãos também é essencial para o fortalecimento espiritual. Vá à igreja, participe dos cultos e ouça atentamente a pregação da Palavra. Através do sermão, Deus pode falar diretamente ao seu coração, trazendo encorajamento, direção e renovação espiritual. Compartilhar experiências e testemunhos com irmãos na fé também pode ser uma fonte de edificação, pois nos lembramos de que não estamos sozinhos em nossa caminhada cristã.
-Para que sua fé se fortaleça, é fundamental tornar a Palavra de Deus parte do seu dia a dia. Medite nela, reflita sobre seus ensinamentos e aplique-os em sua vida. Quando permitimos que a Palavra habite em nosso coração, encontramos forças para enfrentar os desafios, confiança para superar medos e paz para lidar com as incertezas.
-Não espere mais para fortalecer sua fé. Comece hoje mesmo!
-Abra a Bíblia, ore, busque a presença de Deus e veja como Ele transformará sua vida. 
-Veja também: Confiança em Deus: palavras bíblicas para aumentar sua fé e crença no Senhor
+Você conhece João 3:16?
+Esse é o versículo que todo crente deve memorizar e manter em seu coração. E sim, está certo. Muitos já memorizaram. Mas às vezes repetimos coisas sem pensar e por isso vale a pena parar para ver o que diz o versículo:
+Deus ama a todos. Deus nos deu seu Filho, Jesus. Deus não quer que ninguém fique de fora do seu reino. Deus quer que vivamos para sempre com Ele.
+Esse é o imenso amor de Deus por toda a humanidade. E Ele deu a você e a mim uma missão. Ele nos escolheu para levar sua mensagem de amor a todos que conhecemos.
+
+Portanto, vão e façam discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, ensinando-os a obedecer a tudo o que eu ordenei a vocês. E eu estarei sempre com vocês, até o fim dos tempos".
+- Mateus 28:19-20
+
+Você precisa de motivos melhores para sair e contar ao mundo sobre o amor de Deus? Ele lhe deu uma missão, comece a cumpri-la hoje. Leve o amor de Deus a todos ao seu redor. Você pode começar com coisas simples, como dar uma palavra de encorajamento a alguém que está triste ou ajudar uma pessoa que está sobrecarregada. Faça tudo em nome de Jesus, impacte outras pessoas com seu grande amor.
+Veja também: Versículos lindos sobre o amor de Deus que vão tocar seu coração
  
-Consequentemente, a fé vem por se ouvir a mensagem, e a mensagem é ouvida mediante a palavra de Cristo.
-- Romanos 10:17
+"Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.
+- João 3:16
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 248523 characters
-INFO:root:HTML parsed, length: 238164 characters
-INFO:root:Found 3 titles: ['Onde encontrar salvação e força?', 'Responda o ódio com amor', 'Tudo no tempo de Deus!']
-INFO:root:Found 1 URLs: ['/versiculos_de_amar_o_proximo/']
-INFO:root:Found 3 descriptions: ['Diz o Soberano Senhor, o Santo de Israel: "No arre', 'Mas eu digo: Amem os seus inimigos e orem por aque', 'Não andem ansiosos por coisa alguma, mas em tudo, ']
-INFO:root:Found 3 dates: ['ABRIL\n\n17\nQUINTA', 'ABRIL\n\n16\nQUARTA', 'ABRIL\n\n15\nTERÇA']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Onde encontrar salvação e força?', ID=bfd877e8827343e9dd36c247b4f9d5e6
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 249272 characters
+INFO:root:HTML parsed, length: 238912 characters
+INFO:root:Found 3 titles: ['Faça seus planos com Deus', 'Onde encontrar salvação e força?', 'Responda o ódio com amor']
+INFO:root:Found 2 URLs: ['/razoes_para_confiar_em_deus/', '/versiculos_de_amar_o_proximo/']
+INFO:root:Found 3 descriptions: ['Confie no Senhor de todo o seu coração\ne não se ap', 'Diz o Soberano Senhor, o Santo de Israel: "No arre', 'Mas eu digo: Amem os seus inimigos e orem por aque']
+INFO:root:Found 3 dates: ['ABRIL\n\n18\nSEXTA', 'ABRIL\n\n17\nQUINTA', 'ABRIL\n\n16\nQUARTA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Faça seus planos com Deus', ID=3d0855b45e7e38ef85d0590d4e0cd542
+INFO:root:Processing entry 2: Title='Onde encontrar salvação e força?', ID=bfd877e8827343e9dd36c247b4f9d5e6
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Faça seus planos com Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 Description: Confie no Senhor de todo o seu coração
+e não se apoie
+em seu próprio entendimento;
+reconheça o Senhor
+em todos os seus caminhos,
+e ele endireitará as suas veredas.
+- Provérbios 3:5-6 
+
+Sonhamos alto, pensamos em estratégias e buscamos conquistar nossos objetivos com esforço próprio. No entanto, a Palavra de Deus nos ensina que há um caminho mais seguro e sábio: fazer nossos planos com Deus.
+Planejar não é errado, pelo contrário, é prudente. Mas o erro está em planejar sem consultar o Senhor, sem colocar diante dEle nossas intenções e sonhos. Quando confiamos apenas em nosso entendimento, estamos sujeitos a frustrações e desvios de propósito. Deus, como Pai amoroso e soberano, conhece o nosso futuro, sabe o que é melhor para nós e deseja nos conduzir pelo caminho da vida.
+Fazer planos com Deus é orar antes de decidir, é buscar a direção do Espírito Santo, é alinhar nossos sonhos com a vontade do Pai. É entender que, mesmo quando Ele muda nossos rumos, está nos protegendo e nos preparando para algo maior e melhor. Quando reconhecemos o Senhor em todos os nossos caminhos, Ele nos guia com sabedoria e graça.
+Antes de traçar metas, comprar, mudar ou começar algo novo, pergunte a Deus: “É isso que o Senhor quer para mim?” Submeta seus planos ao Criador e confie que Ele sabe o que faz. No tempo certo, Ele cumprirá cada promessa e estabelecerá o que for da Sua vontade. E então, os nossos planos, feitos com Deus, terão fundamento eterno e frutos duradouros. 
+Planejando com Deus 
+
+
+Busque a direção do Senhor: Antes de qualquer decisão, ore e entregue seus planos a Deus. Ele conhece o futuro e sabe o que é melhor para você em cada etapa.
+
+Alinhe seus sonhos à vontade de Deus: Avalie se seus desejos estão de acordo com os princípios bíblicos. Sonhos guiados por Deus produzem paz, propósito e resultados que glorificam o nome dEle.
+
+Confie no tempo e nos caminhos de Deus: Mesmo que as coisas não saiam como esperado, confie. Deus nunca erra. Seus planos são perfeitos e se cumprem no tempo certo, sempre para o nosso bem.
+
+Para orar: 
+
+Senhor, entrego a Ti meus planos e sonhos. Guia meus passos, alinha meus desejos à Tua vontade e fortalece minha fé para confiar no Teu tempo. Que tudo seja para Tua glória. Amém.
+
+Veja também: Razões para confiar em Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Onde encontrar salvação e força?
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_de_amar_o_proximo/
 INFO:root:🔹 Description: Diz o Soberano Senhor, o Santo de Israel: "No arrependimento e no descanso está a salvação de vocês, na quietude e na confiança está o seu vigor, mas vocês não quiseram.
@@ -313,8 +367,8 @@ Meu Senhor, salva-me de todo mal! Salva-me da condenação eterna e dos pecados
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223954 characters
-INFO:root:HTML parsed, length: 222332 characters
+INFO:root:Response length: 224775 characters
+INFO:root:HTML parsed, length: 223162 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 20 URLs: ['/wiki/...Baby_One_More_Time', '/wiki/...Baby_One_More_Time', '/wiki/%C3%81lbum_de_estreia']
 INFO:root:Found 1 descriptions: ['...Baby One More Time é o álbum de estreia da arti']
@@ -341,42 +395,44 @@ Artigos bons: 1912
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223954 characters
-INFO:root:HTML parsed, length: 222332 characters
-INFO:root:Found 1 titles: ['16 de abril na história']
-INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Charlie_Chaplin_portrait.jpg', '/wiki/1520', '/wiki/Toledo']
-INFO:root:Found 1 descriptions: ['Charlie Chaplin\n1520 – Habitantes de Toledo, na Co']
+INFO:root:Response length: 224775 characters
+INFO:root:HTML parsed, length: 223162 characters
+INFO:root:Found 1 titles: ['18 de abril na história']
+INFO:root:Found 49 URLs: ['/wiki/Ficheiro:Sfearthquake2.jpg', '/wiki/Sexta-feira_Santa', '/wiki/Cristianismo_ocidental']
+INFO:root:Found 1 descriptions: ['Sismo de São Francisco de 1906\nSexta-feira Santa (']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='16 de abril na história', ID=b5b40ebd771a1a654ca33f96c401e25e
+INFO:root:Processing entry 1: Title='18 de abril na história', ID=d7659d89cc238bb0689408b3262e280a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 16 de abril na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Charlie_Chaplin_portrait.jpg
-INFO:root:🔹 Description: Charlie Chaplin
-1520 – Habitantes de Toledo, na Coroa de Castela, iniciam uma revolta como protesto às pretensões de Carlos I de retirar poderes às comunidades locais.
-1922 – É assinado o Tratado de Rapallo, no qual a Alemanha e a União Soviética restabelecem relações diplomáticas.
-1984 – 1 500 000 pessoas participam de comício das Diretas Já em São Paulo, na segunda maior manifestação pública da história do Brasil.
+INFO:root:🔹 Title: 18 de abril na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Sfearthquake2.jpg
+INFO:root:🔹 Description: Sismo de São Francisco de 1906
+Sexta-feira Santa (cristianismo ocidental, 2025); Dia Internacional dos Monumentos e Sítios (1983); Dia da Independência do Zimbabwe (1980)
+
+1506 – O Papa Júlio II coloca a primeira pedra da Basílica de São Pedro, em Roma.
+1857 – É lançado O Livro dos Espíritos, na França, que marca o nascimento do Espiritismo, codificado por Allan Kardec.
+1906 – Um sismo de magnitude  média de 8,0 na Escala de Richter destrói grande parte da cidade de São Francisco (imagem da destruição resultante), deixando mais de 3 000 mortos.
 Nasceram neste dia…
-Charlie Chaplin (imagem) (1889–1977)  •  António Lopes Ribeiro (1908–1995)  •  Papa Bento XVI (1927–2022)  •  Margarida II da Dinamarca (n. 1940)
+Jean-Baptiste Debret (1768–1848)  •  Antero de Quental (1842–1891)  •  Monteiro Lobato (1882–1948)  •  Antônio Fagundes (n. 1949)
 Morreram neste dia…
-Otão (32–69)  •  Alexis de Tocqueville (1805–1859)  •  Maria Lenk (1915–2007)  •  Paul Singer (1932–2018)
+José Maurício Nunes Garcia (1767–1830)  •  Óscar Carmona (1869–1951)  •  Albert Einstein (1879–1955)  •  Thor Heyerdahl (1914–2002)
 
 
-Ver mais • Outros dias: 14 • 15 • 16 • 17 • 18 • Ver todos
+Ver mais • Outros dias: 16 • 17 • 18 • 19 • 20 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223954 characters
-INFO:root:HTML parsed, length: 222332 characters
+INFO:root:Response length: 224775 characters
+INFO:root:HTML parsed, length: 223162 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Cath%C3%A9drale_Notre_Dame,_Paris_30_September_2015.jpg']
-INFO:root:Found 1 descriptions: ['Catedral de Notre-Dame de Paris, França, durante a']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Passion_of_Jesus_(sculpture_%22Crucifixion_of_Jesus%22_observing_%22Virgin_Mary_cradling_the_dead_body_of_Jesus%22).jpg']
+INFO:root:Found 1 descriptions: ['Em primeiro plano está uma Pietà, datada de cerca ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Cath%C3%A9drale_Notre_Dame%2C_Paris_30_September_2015.jpg/500px-Cath%C3%A9drale_Notre_Dame%2C_Paris_30_September_2015.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Passion_of_Jesus_%28sculpture_%22Crucifixion_of_Jesus%22_observing_%22Virgin_Mary_cradling_the_dead_body_of_Jesus%22%29.jpg/960px-Passion_of_Jesus_%28sculpture_%22Crucifixion_of_Jesus%22_observing_%22Virgin_Mary_cradling_the_dead_body_of_Jesus%22%29.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -385,15 +441,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Cath%C3%A9drale_Notre_Dame,_Paris_30_September_2015.jpg
-INFO:root:🔹 Description: Catedral de Notre-Dame de Paris, França, durante a hora dourada em setembro de 2015, antes do incêndio de 2019, que danificou gravemente seu telhado e causou o colapso da torre do século XIX.
-(resolução original: 3 456 × 3 456)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Passion_of_Jesus_(sculpture_%22Crucifixion_of_Jesus%22_observing_%22Virgin_Mary_cradling_the_dead_body_of_Jesus%22).jpg
+INFO:root:🔹 Description: Em primeiro plano está uma Pietà, datada de cerca de 1420, proveniente de Salzburgo, mantida na Galeria Nacional da Eslovênia, em Liubliana. No fundo, um crucifixo de madeira vindo de Šentjur, feito entre 1500 e 1520.
+(resolução original: 4 429 × 3 166)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Cath%C3%A9drale_Notre_Dame%2C_Paris_30_September_2015.jpg/500px-Cath%C3%A9drale_Notre_Dame%2C_Paris_30_September_2015.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Passion_of_Jesus_%28sculpture_%22Crucifixion_of_Jesus%22_observing_%22Virgin_Mary_cradling_the_dead_body_of_Jesus%22%29.jpg/960px-Passion_of_Jesus_%28sculpture_%22Crucifixion_of_Jesus%22_observing_%22Virgin_Mary_cradling_the_dead_body_of_Jesus%22%29.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -417,13 +473,13 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  80 ++-----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  25 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  29 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  25 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  47 ++--
+ feeds/salmo_do_dia/atom.xml               | 111 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
@@ -432,5 +488,5 @@ INFO:root: feeds/devocional_de_hoje/atom.xml         |  80 ++-----
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 359 ++++++++++++------------------
- 16 files changed, 241 insertions(+), 396 deletions(-)
+ output.log                                | 359 +++++++++++++++++-------------
+ 16 files changed, 366 insertions(+), 270 deletions(-)
