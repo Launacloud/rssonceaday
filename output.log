@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121238 characters
-INFO:root:HTML parsed, length: 113754 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (21/04/2025)', 'Palavra de Ontem (20/04/2025)', 'Palavra de Anteontem (19/04/2025)']
-INFO:root:Found 3 URLs: ['/heroismo/', '/fato/', '/subordinado/']
-INFO:root:Found 16 descriptions: ['substantivo masculino Virtude excepcional própria ', 'Sinônimos:\n\narrojo, coragem, temeridade, bravura, ', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (21/04/2025)', 'Palavra de Ontem (20/04/2025)', 'Palavra de Anteontem (19/04/2025)']
+INFO:root:Response length: 121489 characters
+INFO:root:HTML parsed, length: 114005 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (22/04/2025)', 'Palavra de Ontem (21/04/2025)', 'Palavra de Anteontem (20/04/2025)']
+INFO:root:Found 3 URLs: ['/intemperie/', '/heroismo/', '/fato/']
+INFO:root:Found 16 descriptions: ['substantivo feminino Mau tempo ou quaisquer condiç', 'Sinônimos:\n\nborrasca, tempestade, temporal, vendav', 'Antônimos:\n\nbonança, calmaria, silêncio, sossego, ']
+INFO:root:Found 3 dates: ['Palavra de Hoje (22/04/2025)', 'Palavra de Ontem (21/04/2025)', 'Palavra de Anteontem (20/04/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (21/04/2025)', ID=ae08c07ef49b0254e46d924be856bde7
-INFO:root:Processing entry 2: Title='Palavra de Ontem (20/04/2025)', ID=f72e81f866a140edfc6462a378d67ddd
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (19/04/2025)', ID=f1ca41b5a2872fe027d8e9f16f0b91ec
+INFO:root:Processing entry 1: Title='Palavra de Hoje (22/04/2025)', ID=7c767a6bd1ebe285174cddbc984e5fad
+INFO:root:Processing entry 2: Title='Palavra de Ontem (21/04/2025)', ID=fd1e89e221d5b4dfa824d90fdb1cc531
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/04/2025)', ID=56567b27290cdf4e0e326405881a5fdb
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (21/04/2025) - Significado completo de heroísmo:
-INFO:root:🔹 URL: https://www.dicio.com.br/heroismo/
-INFO:root:🔹 Description: substantivo masculino Virtude excepcional própria do herói.Qualidade do que é heroico.[Figurado] Arrojo, coragem, magnanimidade, bravura que leva a praticar ações extraordinárias.
+INFO:root:🔹 Title: Palavra de Hoje (22/04/2025) - Significado completo de intempérie:
+INFO:root:🔹 URL: https://www.dicio.com.br/intemperie/
+INFO:root:🔹 Description: substantivo feminino Mau tempo ou quaisquer condições climáticas intensas (vento forte, chuva torrencial, tempestade, furacão, seca, vendaval): a colheita foi prejudicada pela chuva e por outras intempéries climáticas.[Figurado] Condição desfavorável; circunstância infeliz; momento desfavorável; desgraça: é preciso enfrentar as intempéries da vida.Etimologia (origem da palavra intempérie). A palavra intempérie deriva do latim "intempéries, ei", com o sentido de tempo ruim, mau tempo, desgraça.
  
 Sinônimos:
 
-arrojo, coragem, temeridade, bravura, valentia, façanha 
+borrasca, tempestade, temporal, vendaval, desgraça, tormenta, tempestuosidade, aguaceiro, chuvarada, dilúvio, furacão, tufão, nevasca, granizo, toró 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (20/04/2025) - Significado completo de fato:
-INFO:root:🔹 URL: https://www.dicio.com.br/fato/
+INFO:root:🔹 Title: Palavra de Ontem (21/04/2025) - Significado completo de heroísmo:
+INFO:root:🔹 URL: https://www.dicio.com.br/heroismo/
 INFO:root:🔹 Description: Sinônimos:
 
-arrojo, coragem, temeridade, bravura, valentia, façanha
- Classe gramatical:substantivo masculino
+borrasca, tempestade, temporal, vendaval, desgraça, tormenta, tempestuosidade, aguaceiro, chuvarada, dilúvio, furacão, tufão, nevasca, granizo, toró
+ 
+Antônimos:
+
+bonança, calmaria, silêncio, sossego, tranquilidade 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (19/04/2025) - Significado completo de subordinado:
-INFO:root:🔹 URL: https://www.dicio.com.br/subordinado/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:he-ro-ís-mo
+INFO:root:🔹 Title: Palavra de Anteontem (20/04/2025) - Significado completo de fato:
+INFO:root:🔹 URL: https://www.dicio.com.br/fato/
+INFO:root:🔹 Description: Antônimos:
+
+bonança, calmaria, silêncio, sossego, tranquilidade
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,44 +48,95 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237264 characters
-INFO:root:HTML parsed, length: 226745 characters
-INFO:root:Found 1 titles: ['Cânticos 1:15-16']
-INFO:root:Found 1 URLs: ['/versiculo/cantico_dos_canticos_1_15-16/']
-INFO:root:Found 1 descriptions: ['Como você é linda, minha querida!\nAh, como é linda']
+INFO:root:Response length: 237239 characters
+INFO:root:HTML parsed, length: 226720 characters
+INFO:root:Found 1 titles: ['1 Tessalonicenses 5:16']
+INFO:root:Found 1 URLs: ['/versiculo/1_tessalonicenses_5_16/']
+INFO:root:Found 1 descriptions: ['Alegrem-se sempre. 1 Tessalonicenses 5:16']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Cânticos 1:15-16', ID=ea272a7a5e78a36886ccfe4994a80da5
+INFO:root:Processing entry 1: Title='1 Tessalonicenses 5:16', ID=a7742c24eb1aed3595302389e439e4d3
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Cânticos 1:15-16
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/cantico_dos_canticos_1_15-16/
-INFO:root:🔹 Description: Como você é linda, minha querida!
-Ah, como é linda!
-Seus olhos são pombas. Como você é belo, meu amado!
-Ah, como é encantador!
-Verdejante é o nosso leito. Cânticos 1:15-16
+INFO:root:🔹 Title: 1 Tessalonicenses 5:16
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_tessalonicenses_5_16/
+INFO:root:🔹 Description: Alegrem-se sempre. 1 Tessalonicenses 5:16
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237635 characters
-INFO:root:HTML parsed, length: 227841 characters
-INFO:root:Found 3 titles: ['Salmo 52', 'Salmo 145', 'Salmo 108']
-INFO:root:Found 3 URLs: ['/salmos_52/', '/salmos_145/', '/salmos_108/']
-INFO:root:Found 3 descriptions: ['Por que você se vangloria do mal\ne de ultrajar a D', 'Eu te exaltarei, meu Deus e meu rei;\nbendirei o te', 'Meu coração está firme, ó Deus!\nCantarei e louvare']
-INFO:root:Found 3 dates: ['21 de Abril de 2025', '20 de Abril de 2025', '19 de Abril de 2025']
+INFO:root:Response length: 238262 characters
+INFO:root:HTML parsed, length: 228488 characters
+INFO:root:Found 3 titles: ['Salmo 27', 'Salmo 52', 'Salmo 145']
+INFO:root:Found 3 URLs: ['/salmos_27/', '/salmos_52/', '/salmos_145/']
+INFO:root:Found 3 descriptions: ['O Senhor é a minha luz e a minha salvação;\nde quem', 'Por que você se vangloria do mal\ne de ultrajar a D', 'Eu te exaltarei, meu Deus e meu rei;\nbendirei o te']
+INFO:root:Found 3 dates: ['22 de Abril de 2025', '21 de Abril de 2025', '20 de Abril de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
-INFO:root:Processing entry 2: Title=' Salmo 145', ID=5fe1d626361a77bf2874800c96eb12cc
-INFO:root:Processing entry 3: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
+INFO:root:Processing entry 1: Title=' Salmo 27', ID=8dcdf1c473e87d0c61510ae827caf9b0
+INFO:root:Processing entry 2: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
+INFO:root:Processing entry 3: Title=' Salmo 145', ID=5fe1d626361a77bf2874800c96eb12cc
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 27
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_27/
+INFO:root:🔹 Description: O Senhor é a minha luz e a minha salvação;
+de quem terei temor?
+O Senhor é o meu forte refúgio;
+de quem terei medo? 
+Quando homens maus avançarem contra mim
+para destruir-me,
+eles, meus inimigos e meus adversários,
+é que tropeçarão e cairão. 
+Ainda que um exército se acampe contra mim,
+meu coração não temerá;
+ainda que se declare guerra contra mim,
+mesmo assim estarei confiante. 
+Uma coisa pedi ao Senhor
+e a procuro:
+que eu possa viver na casa do Senhor
+todos os dias da minha vida,
+para contemplar a bondade do Senhor
+e buscar sua orientação no seu templo. 
+Pois no dia da adversidade
+ele me guardará protegido em sua habitação;
+no seu tabernáculo me esconderá
+e me porá em segurança sobre um rochedo. 
+Então triunfarei sobre os inimigos
+que me cercam.
+Em seu tabernáculo oferecerei sacrifícios
+com aclamações;
+cantarei e louvarei ao Senhor. 
+Ouve a minha voz quando clamo, ó Senhor;
+tem misericórdia de mim e responde-me. 
+A teu respeito diz o meu coração:
+Busque a minha face!
+A tua face, Senhor, buscarei. 
+Não escondas de mim a tua face,
+não rejeites com ira o teu servo;
+tu tens sido o meu ajudador.
+Não me desampares nem me abandones,
+ó Deus, meu salvador! 
+Ainda que me abandonem pai e mãe,
+o Senhor me acolherá. 
+Ensina-me o teu caminho, Senhor;
+conduze-me por uma vereda segura
+por causa dos meus inimigos. 
+Não me entregues
+ao capricho dos meus adversários,
+pois testemunhas falsas se levantam contra mim,
+respirando violência. 
+Apesar disso, esta certeza eu tenho:
+viverei até ver a bondade do Senhor na terra. 
+Espere no Senhor.
+Seja forte! Coragem!
+Espere no Senhor. 
+ Salmo 27
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 52
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_52/
 INFO:root:🔹 Description: Por que você se vangloria do mal
@@ -166,96 +223,111 @@ Que todo ser vivo bendiga o seu santo nome
 para todo o sempre! 
  Salmo 145
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 108
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_108/
-INFO:root:🔹 Description: Meu coração está firme, ó Deus!
-Cantarei e louvarei, ó Glória minha! 
-Acordem, harpa e lira!
-Despertarei a alvorada. 
-Eu te darei graças, ó Senhor, entre os povos;
-cantarei louvores entre as nações, 
-porque o teu amor leal
-se eleva muito acima dos céus;
-a tua fidelidade alcança as nuvens! 
-Sê exaltado, ó Deus, acima dos céus;
-estenda-se a tua glória sobre toda a terra! 
-Salva-nos com a tua mão direita
-e responde-nos,
-para que sejam libertos aqueles a quem amas. 
-Do seu santuário Deus falou:
-"No meu triunfo dividirei Siquém
-e repartirei o vale de Sucote. 
-Gileade me pertence e Manassés também;
-Efraim é o meu capacete, Judá é o meu cetro. 
-Moabe é a pia em que me lavo,
-em Edom atiro a minha sandália,
-sobre a Filístia dou meu brado de vitória!" 
-Quem me levará à cidade fortificada?
-Quem me guiará a Edom? 
-Não foste tu, ó Deus, que nos rejeitaste
-e deixaste de sair com os nossos exércitos? 
-Dá-nos ajuda contra os adversários,
-pois inútil é o socorro do homem. 
-Com Deus conquistaremos a vitória,
-e ele pisará os nossos adversários. 
- Salmo 108
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 238748 characters
-INFO:root:HTML parsed, length: 228619 characters
-INFO:root:Found 3 titles: ['Abençoe quem você conhece com a palavra de Deus', 'Seja luz onde você está', 'Fale sobre o que Deus fez em sua vida']
+INFO:root:Response length: 234651 characters
+INFO:root:HTML parsed, length: 224533 characters
+INFO:root:Found 3 titles: ['A Bíblia é mais que palavras', 'Abençoe quem você conhece com a palavra de Deus', 'Seja luz onde você está']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['A Bíblia é muito mais que um livro antigo com pala', 'Às vezes temos grandes sonhos de ir para este ou a', 'Venham e ouçam,\ntodos vocês que temem a Deus;\nvou ']
-INFO:root:Found 1 dates: ['Segunda, 21 de abril de 2025']
+INFO:root:Found 3 descriptions: ['A tua palavra é lâmpada\nque ilumina os meus passos', 'A Bíblia é muito mais que um livro antigo com pala', 'Às vezes temos grandes sonhos de ir para este ou a']
+INFO:root:Found 1 dates: ['Terça, 22 de abril de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Abençoe quem você conhece com a palavra de Deus', ID=7cbccfcb9e078539588d3a92a0068708
+INFO:root:Processing entry 1: Title='A Bíblia é mais que palavras', ID=1be4085a18b4c7d8ad8af9ecc927d903
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Abençoe quem você conhece com a palavra de Deus - Palavra de Hoje
+INFO:root:🔹 Title: A Bíblia é mais que palavras - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: A Bíblia é muito mais que um livro antigo com palavras bonitas. É a Palavra de Deus! A Bíblia é a revelação de Deus ao mundo, que nos abençoa com o conhecimento de Jesus e a salvação.
+INFO:root:🔹 Description: A tua palavra é lâmpada
+que ilumina os meus passos
+e luz que clareia o meu caminho.
+- Salmos 119:105
 
-que nos salvou e nos chamou com uma santa vocação, não em virtude das nossas obras, mas por causa da sua própria determinação e graça. Essa graça nos foi dada em Cristo Jesus desde os tempos eternos, sendo agora revelada pela manifestação de nosso Salvador, Cristo Jesus. Ele tornou inoperante a morte e trouxe à luz a vida e a imortalidade por meio do evangelho.
-- 2 Timóteo 1:9-10
+Não leia a Bíblia como algo distante ou como um conjunto de registos históricos. A Bíblia é a Palavra viva de Deus! Todo dia há uma mensagem especial para tocar o seu coração.
 
-Através da Bíblia temos acesso à vida eterna e ao amor de Deus. É por isso que é bom compartilhar a Palavra de Deus com todos que conhecemos. Muitas das pessoas que nos rodeiam vivem cheias de amargura, sem a esperança e a vida abundante que temos em Jesus. Ao dar-lhes um sorriso ou uma palavra de encorajamento em nome do Senhor, abrimos a porta para que desejem conhecer nosso Deus e Salvador Jesus Cristo.
-Hoje escolha pelo menos uma pessoa que você deseja abençoar com a Palavra de Deus. Ore por ela e peça a Deus que lhe dê a oportunidade de falar com ela sobre ele. Não desista de seus esforços para abençoar outros para a glória de Deus. Este mundo precisa receber o amor de Deus e você pode ser esse canal de bênçãos neste dia. Aceite o desafio!
-Use esses versículos para abençoá-los:
+Através das Escrituras podemos receber orientação, entendimento e palavras que esticam a nossa fé em Cristo. A Palavra de Deus é poderosa:
 
-Seus filhos
-Seus irmãos
-Seus amigos
+Pois a palavra de Deus é viva e eficaz, e mais afiada que qualquer espada de dois gumes; ela penetra até o ponto de dividir alma e espírito, juntas e medulas, e julga os pensamentos e as intenções do coração.
+- Hebreus 4:12
+
+Leia com expectativa! Deixe a Palavra de Deus tocar o mais profundo do seu coração e lhe mostrar algo novo sobre o que Deus preparou para você e quer de você. Permita que cada versículo da Palavra de Deus fique gravado em seu coração. 
+
+7 A lei do Senhor é perfeita e revigora a alma.
+Os testemunhos do Senhor
+são dignos de confiança
+e tornam sábios os inexperientes.
+8 Os preceitos do Senhor são justos
+e dão alegria ao coração.
+Os mandamentos do Senhor são límpidos
+e trazem luz aos olhos.
+9 O temor do Senhor é puro
+e dura para sempre.
+As ordenanças do Senhor são verdadeiras,
+são todas elas justas.
+10 São mais desejáveis do que o ouro,
+do que muito ouro puro;
+são mais doces do que o mel,
+do que as gotas do favo.
+- Salmo 19:7-10
+
+Veja como a Bíblia é maravilhosa:
+
+Os 20 versículos mais conhecidos da Bíblia (e o que significam)
+Tudo sobre os livros da Bíblia
+10 Planos de Leitura da Bíblia
  
-Seus filhos
-Seus irmãos
-Seus amigos
+Os 20 versículos mais conhecidos da Bíblia (e o que significam)
+Tudo sobre os livros da Bíblia
+10 Planos de Leitura da Bíblia
 
  
-que nos salvou e nos chamou com uma santa vocação, não em virtude das nossas obras, mas por causa da sua própria determinação e graça. Essa graça nos foi dada em Cristo Jesus desde os tempos eternos, sendo agora revelada pela manifestação de nosso Salvador, Cristo Jesus. Ele tornou inoperante a morte e trouxe à luz a vida e a imortalidade por meio do evangelho.
-- 2 Timóteo 1:9-10
+A tua palavra é lâmpada
+que ilumina os meus passos
+e luz que clareia o meu caminho.
+- Salmos 119:105
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 247218 characters
-INFO:root:HTML parsed, length: 236851 characters
-INFO:root:Found 3 titles: ['Devocional: O amor de Jesus alcançou você e a todos', 'Todas as coisas são possíveis para Deus', 'Fazer o bem é a melhor escolha que podemos tomar!']
-INFO:root:Found 3 URLs: ['/amor_segundo_a_biblia/', '/bom_samaritano_quem_e_meu_proximo/', '/versiculos_de_amar_o_proximo/']
-INFO:root:Found 3 descriptions: ['O amor de Jesus é uma luz que brilha intensamente ', 'Jesus olhou para eles e respondeu: "Para o homem é', 'E vós, irmãos, não vos canseis de fazer o bem.\n2 T']
-INFO:root:Found 3 dates: ['ABRIL\n\n21\nSEGUNDA', 'ABRIL\n\n20\nDOMINGO', 'ABRIL\n\n19\nSÁBADO']
+INFO:root:Response length: 248421 characters
+INFO:root:HTML parsed, length: 238050 characters
+INFO:root:Found 3 titles: ['Pare, ore e avance com fé', 'Devocional: O amor de Jesus alcançou você e a todos', 'Todas as coisas são possíveis para Deus']
+INFO:root:Found 4 URLs: ['/como_orar_e_falar_com_deus/', '/amor_segundo_a_biblia/', '/bom_samaritano_quem_e_meu_proximo/']
+INFO:root:Found 3 descriptions: ['Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'O amor de Jesus é uma luz que brilha intensamente ', 'Jesus olhou para eles e respondeu: "Para o homem é']
+INFO:root:Found 3 dates: ['ABRIL\n\n22\nTERÇA', 'ABRIL\n\n21\nSEGUNDA', 'ABRIL\n\n20\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Devocional: O amor de Jesus alcançou você e a todos', ID=f601de0f6201db810719de953a0c6ccf
-INFO:root:Processing entry 2: Title='Todas as coisas são possíveis para Deus', ID=97551dc94728a264df705e2015e99cfe
-INFO:root:Processing entry 3: Title='Fazer o bem é a melhor escolha que podemos tomar!', ID=1637e71bda0c4e0a25216ab0966c2bb6
+INFO:root:Processing entry 1: Title='Pare, ore e avance com fé', ID=82d326efdc11d5386343491c8d4fb936
+INFO:root:Processing entry 2: Title='Devocional: O amor de Jesus alcançou você e a todos', ID=f601de0f6201db810719de953a0c6ccf
+INFO:root:Processing entry 3: Title='Todas as coisas são possíveis para Deus', ID=97551dc94728a264df705e2015e99cfe
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Pare, ore e avance com fé
+INFO:root:🔹 URL: https://www.bibliaon.com/como_orar_e_falar_com_deus/
+INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
+confie nele, e ele agirá:
+- Salmos 37:5 
+
+Há momento na nossa vida que nem todo avanço pode representar um progresso verdadeiro. Muitas vezes, queremos agir rapidamente, resolver tudo com nossas próprias forças, mas esquecemos de consultar a Deus, que realmente pode nos dar uma direção. Ouvir a voz de Deus antes de qualquer passo é sinal de sabedoria. É nesse momento de oração que recebemos clareza e direção para avançarmos de forma segura, no centro da vontade d’Ele.
+Pare. Parar não é desistir. É reconhecer que precisamos respirar, ouvir a voz de Deus e alinhar nossos passos com os Dele. Quando paramos, deixamos de lutar com nossas próprias forças e damos espaço para que o Senhor nos direcione.
+Ore. A oração é o nosso canal direto com o Pai. É através da oração que encontramos paz, direção e força para prosseguirmos em fé. Ao orarmos, entregamos nossos fardos e recebemos sabedoria. Não tome decisões importantes sem antes dobrar os joelhos e buscar a orientação do Espírito Santo.
+Avance. Depois de parar e orar, é tempo de avançar. Avance com fé, com segurança, sabendo que não está sozinho. Deus vai à frente, endireitando os caminhos tortuosos, abrindo portas e fortalecendo suas mãos. Avance com coragem, mesmo que os ventos sejam contrários — o Senhor é o seu sustento.
+Lembre-se: há tempo para tudo, e o tempo de Deus é perfeito. Quando você decide parar, orar e então avançar, você escolhe confiar. E quem confia no Senhor jamais será confundido.
+Hoje, não importa qual desafio você esteja enfrentando, faça uma pausa, eleve seus olhos ao céu, fale com Deus e depois siga. Com Ele, você vai mais longe, com mais propósito e em paz. 
+Avançando com fé Deus 
+Pare para ouvir: Antes de agir, desacelere. Silencie o coração, desligue o ruído ao redor e busque discernimento em Deus. A direção certa começa com uma escuta atenta ao Espírito.
+Ore com fé: Entregue seus planos a Deus com confiança. A oração conecta seu coração ao céu, traz paz e revela o caminho certo, mesmo quando tudo ao redor parece incerto.
+Avance com coragem: Após orar, siga adiante com ousadia. Deus vai à frente preparando o caminho. Mesmo diante de obstáculos, confie: você não caminha sozinho, Deus é fiel!
+Para orar: 
+
+Senhor, ensina-me a parar diante das decisões, a buscar Tua voz com fé e a avançar confiando na Tua direção. Que eu nunca caminhe sozinho, mas guiado pela Tua vontade. Amém.
+
+Veja também: Como Orar (aprenda como pedir algo a Deus)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Devocional: O amor de Jesus alcançou você e a todos
 INFO:root:🔹 URL: https://www.bibliaon.com/amor_segundo_a_biblia/
 INFO:root:🔹 Description: O amor de Jesus é uma luz que brilha intensamente sobre toda a humanidade. Sua mensagem de amor, perdão e redenção não conhece limites, não faz distinção de raça, religião ou status social. Ele veio ao mundo para reconciliar a humanidade com Deus, e Seu amor é uma fonte inesgotável de esperança e Salvação.
@@ -303,28 +375,10 @@ Para Orar:
 
 Senhor, entrego a Ti o meu problema. Sou limitado, não tenho forças, mas confio no Teu poder e no Teu amor. Realiza um milagre em minha vida. Que o Teu mover seja motivo de grande alegria e júbilo em Teu nome. Amém!
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Fazer o bem é a melhor escolha que podemos tomar!
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_de_amar_o_proximo/
-INFO:root:🔹 Description: E vós, irmãos, não vos canseis de fazer o bem.
-2 Tessalonicenses 3:13 
-
-Quando um médico nos aconselha a fazer exercícios físicos, no primeiro momento pode nos parecer desestimulante. Sair da inércia requer de nós esforço e suor. Mas ao começarmos a fazer exercícios, percebemos os primeiros benefícios: ficamos bem dispostos e nossa autoestima melhora.
-Fazer o bem ocorre da mesma forma! Pode parecer clichê, mas ao praticamos o bem, somos beneficiados por Deus em todas as áreas da nossa vida. Quando nos esforçamos em praticar o bem - além de ajudarmos o próximo - cultivamos em nós o fruto do Espírito, são eles: o amor, a paz, a paciência, a amabilidade, a bondade, a fidelidade a mansidão e o domínio próprio (Gálatas 5:22-23).
-Lembre-se: fazer o bem pode demandar esforço, mas é a melhor escolha que podemos tomar! 
-Não se canse de fazer o bem! 
-
-Para fazer exercícios é bom estar bem alimentado. Alimente-se da Palavra de Deus e pratique o bem a vontade! 
-Logo que praticamos o bem, haverão resistências. Permaneça fazendo o que é certo e essa oposição não prevalecerá. 
-Se sentes dificuldade, peça a ajuda de Deus. Peça a Ele que amoleça o seu coração. Deus é amor! 
-
-Para Orar: 
-
-Senhor, coloca em mim um coração amável disposto a fazer o bem. Quero esforçar-me e obedecer a Tua vontade. Ajuda-me a fazer o que é certo. Em nome de Jesus, amém!
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224444 characters
-INFO:root:HTML parsed, length: 222832 characters
+INFO:root:Response length: 224629 characters
+INFO:root:HTML parsed, length: 223017 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 23 URLs: ['/wiki/James_Madison', '/wiki/James_Madison', '/wiki/Estadista']
 INFO:root:Found 1 descriptions: ['James Madison foi um estadista, diplomata e pai fu']
@@ -352,11 +406,11 @@ Artigos bons: 1912
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224444 characters
-INFO:root:HTML parsed, length: 222832 characters
+INFO:root:Response length: 224629 characters
+INFO:root:HTML parsed, length: 223017 characters
 INFO:root:Found 1 titles: ['21 de abril na história']
-INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Elizabeth_II_greets_NASA_GSFC_employees,_May_8,_2007_edit.jpg', '/wiki/Dia_Mundial_da_Criatividade_e_Inova%C3%A7%C3%A3o', '/wiki/1792']
-INFO:root:Found 1 descriptions: ['Elizabeth II do Reino Unido\nDia Mundial da Criativ']
+INFO:root:Found 48 URLs: ['/wiki/Ficheiro:Elizabeth_II_greets_NASA_GSFC_employees,_May_8,_2007_edit.jpg', '/wiki/Natale_di_Roma', '/wiki/Dia_Mundial_da_Criatividade_e_Inova%C3%A7%C3%A3o']
+INFO:root:Found 1 descriptions: ['Elizabeth II do Reino Unido\nNatale di Roma (47); D']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='21 de abril na história', ID=bfa663f4bc42ac816fe386dedff676d8
@@ -368,23 +422,23 @@ INFO:root:
 INFO:root:🔹 Title: 21 de abril na história
 INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Elizabeth_II_greets_NASA_GSFC_employees,_May_8,_2007_edit.jpg
 INFO:root:🔹 Description: Elizabeth II do Reino Unido
-Dia Mundial da Criatividade e Inovação (2017)
+Natale di Roma (47); Dia Mundial da Criatividade e Inovação (2017); Dia da Inconfidência no Brasil (1965)
 
-1792 – Tiradentes é executado por esquartejamento.
+1792 – Tiradentes é executado por enforcamento.
 1960 – É oficialmente inaugurada a cidade de Brasília, substituindo Rio de Janeiro como a capital do Brasil.
 1994 – Aleksander Wolszczan anuncia a descoberta dos primeiros exoplanetas.
 Nasceram neste dia…
 Charlotte Brontë (1816–1855)  •  Sílvio Romero (1851–1914)  •  Max Weber (1864–1920)  •  Isabel II do Reino Unido (imagem) (1926–2022)
 Morreram neste dia…
-Anselmo de Cantuária (1033–1109)  •  Mark Twain (1835–1910)  •  Telê Santana (1931–2006)  •  Prince (1958–2016)
+Anselmo de Cantuária (1033–1109)  •  Mark Twain (1835–1910)  •  Telê Santana (1931–2006)  •  Tancredo Neves (1910–1985)
 
 
 Ver mais • Outros dias: 19 • 20 • 21 • 22 • 23 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224444 characters
-INFO:root:HTML parsed, length: 222832 characters
+INFO:root:Response length: 224629 characters
+INFO:root:HTML parsed, length: 223017 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Lelietje-van-dalen_of_meiklokje_(Convallaria_majalis)._14-05-2021_(actm.)_01.jpg']
 INFO:root:Found 1 descriptions: ['Flores do lírio-do-vale (Convallaria majalis). Bra']
@@ -425,25 +479,23 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 +++-
- feeds/devocional_de_hoje/feed.json        |  14 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  33 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  38 ++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  55 +++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  93 +++-----
+ feeds/salmo_do_dia/atom.xml               |  87 +++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 378 +++++++++++++++---------------
- 16 files changed, 335 insertions(+), 338 deletions(-)
+ feeds/wikidia/atom.xml                    |   8 +-
+ feeds/wikidia/feed.json                   |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 350 ++++++++++++++++--------------
+ 15 files changed, 360 insertions(+), 270 deletions(-)
