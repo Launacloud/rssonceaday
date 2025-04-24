@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119681 characters
-INFO:root:HTML parsed, length: 112588 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (23/04/2025)', 'Palavra de Ontem (22/04/2025)', 'Palavra de Anteontem (21/04/2025)']
-INFO:root:Found 3 URLs: ['/altercacao/', '/intemperie/', '/heroismo/']
-INFO:root:Found 14 descriptions: ['substantivo feminino Ação ou efeito de altercar, d', 'Sinônimos:\n\npolêmica, contenda, controvérsia, deba', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (23/04/2025)', 'Palavra de Ontem (22/04/2025)', 'Palavra de Anteontem (21/04/2025)']
+INFO:root:Response length: 119034 characters
+INFO:root:HTML parsed, length: 112148 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (24/04/2025)', 'Palavra de Ontem (23/04/2025)', 'Palavra de Anteontem (22/04/2025)']
+INFO:root:Found 3 URLs: ['/vongole/', '/altercacao/', '/intemperie/']
+INFO:root:Found 13 descriptions: ['substantivo masculino [Biologia] Designação atribu', 'Sinônimos:\n\nberbigão', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (24/04/2025)', 'Palavra de Ontem (23/04/2025)', 'Palavra de Anteontem (22/04/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (23/04/2025)', ID=180430f7f6ecbe89f731b12416a6ad34
-INFO:root:Processing entry 2: Title='Palavra de Ontem (22/04/2025)', ID=5b6c57918ad9d5ed69e5df3c77d0ac37
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/04/2025)', ID=6786a11c775edf9bddb275e4ef69872d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (24/04/2025)', ID=83b85a2c4d663cc4d967ca2ec9aeb952
+INFO:root:Processing entry 2: Title='Palavra de Ontem (23/04/2025)', ID=6612d526900232c653f258785a042d75
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/04/2025)', ID=71631ecc6442333f162a0dfe810cf3c3
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (23/04/2025) - Significado completo de altercação:
-INFO:root:🔹 URL: https://www.dicio.com.br/altercacao/
-INFO:root:🔹 Description: substantivo feminino Ação ou efeito de altercar, de discutir ou debater acaloradamente; discussão, litígio, desavença.Discussão acalorada; polêmica, desavença: ninguém se quis envolver naquela altercação entre pai e filho.Etimologia (origem da palavra altercação). Do latim altercatio.onis.
+INFO:root:🔹 Title: Palavra de Hoje (24/04/2025) - Significado completo de vôngole:
+INFO:root:🔹 URL: https://www.dicio.com.br/vongole/
+INFO:root:🔹 Description: substantivo masculino [Biologia] Designação atribuída aos moluscos bivalves que, conhecidos por habitarem águas arenosas ou lodosas, possuem uma muito apreciada; berbigão.Etimologia (origem da palavra vôngole). Do italiano vongole.
  
 Sinônimos:
 
-polêmica, contenda, controvérsia, debate, discussão, litígio, desavença 
+berbigão 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (22/04/2025) - Significado completo de intempérie:
-INFO:root:🔹 URL: https://www.dicio.com.br/intemperie/
+INFO:root:🔹 Title: Palavra de Ontem (23/04/2025) - Significado completo de altercação:
+INFO:root:🔹 URL: https://www.dicio.com.br/altercacao/
 INFO:root:🔹 Description: Sinônimos:
 
-polêmica, contenda, controvérsia, debate, discussão, litígio, desavença
- Classe gramatical:substantivo feminino
+berbigão
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (21/04/2025) - Significado completo de heroísmo:
-INFO:root:🔹 URL: https://www.dicio.com.br/heroismo/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:al-ter-ca-ção
+INFO:root:🔹 Title: Palavra de Anteontem (22/04/2025) - Significado completo de intempérie:
+INFO:root:🔹 URL: https://www.dicio.com.br/intemperie/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:vôn-go-le
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,43 +42,63 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237220 characters
-INFO:root:HTML parsed, length: 226701 characters
-INFO:root:Found 1 titles: ['Habacuque 2:4']
-INFO:root:Found 1 URLs: ['/versiculo/habacuque_2_4/']
-INFO:root:Found 1 descriptions: ['"Escreva: O ímpio está envaidecido;\nseus desejos n']
+INFO:root:Response length: 237114 characters
+INFO:root:HTML parsed, length: 226595 characters
+INFO:root:Found 1 titles: ['Marcos 9:23']
+INFO:root:Found 1 URLs: ['/versiculo/marcos_9_23/']
+INFO:root:Found 1 descriptions: ['"Se podes?", disse Jesus. "Tudo é possível àquele ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Habacuque 2:4', ID=9e77aea887d13342b384e6cd7e740eae
+INFO:root:Processing entry 1: Title='Marcos 9:23', ID=52afd0684df82157777f9ce61784013d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Habacuque 2:4
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/habacuque_2_4/
-INFO:root:🔹 Description: "Escreva: O ímpio está envaidecido;
-seus desejos não são bons;
-mas o justo viverá
-por sua fidelidade. Habacuque 2:4
+INFO:root:🔹 Title: Marcos 9:23
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/marcos_9_23/
+INFO:root:🔹 Description: "Se podes?", disse Jesus. "Tudo é possível àquele que crê." Marcos 9:23
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237381 characters
-INFO:root:HTML parsed, length: 227595 characters
-INFO:root:Found 3 titles: ['Salmo 16', 'Salmo 27', 'Salmo 52']
-INFO:root:Found 3 URLs: ['/salmos_16/', '/salmos_27/', '/salmos_52/']
-INFO:root:Found 3 descriptions: ['Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen', 'O Senhor é a minha luz e a minha salvação;\nde quem', 'Por que você se vangloria do mal\ne de ultrajar a D']
-INFO:root:Found 3 dates: ['23 de Abril de 2025', '22 de Abril de 2025', '21 de Abril de 2025']
+INFO:root:Response length: 237219 characters
+INFO:root:HTML parsed, length: 227427 characters
+INFO:root:Found 3 titles: ['Salmo 82', 'Salmo 16', 'Salmo 27']
+INFO:root:Found 3 URLs: ['/salmos_82/', '/salmos_16/', '/salmos_27/']
+INFO:root:Found 3 descriptions: ['É Deus quem preside a assembleia divina;\nno meio d', 'Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen', 'O Senhor é a minha luz e a minha salvação;\nde quem']
+INFO:root:Found 3 dates: ['24 de Abril de 2025', '23 de Abril de 2025', '22 de Abril de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
-INFO:root:Processing entry 2: Title=' Salmo 27', ID=8dcdf1c473e87d0c61510ae827caf9b0
-INFO:root:Processing entry 3: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
+INFO:root:Processing entry 1: Title=' Salmo 82', ID=b08571775c4d91acb25aaf79665479aa
+INFO:root:Processing entry 2: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
+INFO:root:Processing entry 3: Title=' Salmo 27', ID=8dcdf1c473e87d0c61510ae827caf9b0
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 82
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_82/
+INFO:root:🔹 Description: É Deus quem preside a assembleia divina;
+no meio dos deuses, ele é o juiz. 
+"Até quando vocês vão absolver os culpados
+e favorecer os ímpios? 
+"Garantam justiça para os fracos
+e para os órfãos;
+mantenham os direitos dos necessitados
+e dos oprimidos. 
+Livrem os fracos e os pobres;
+libertem-nos das mãos dos ímpios. 
+"Eles nada sabem, nada entendem.
+Vagueiam pelas trevas;
+todos os fundamentos da terra estão abalados. 
+"Eu disse: 'Vocês são deuses,
+todos vocês são filhos do Altíssimo'. 
+Mas vocês morrerão como simples homens;
+cairão como qualquer outro governante." 
+Levanta-te, ó Deus, julga a terra,
+pois todas as nações te pertencem. 
+ Salmo 82
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 16
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_16/
 INFO:root:🔹 Description: Protege-me, ó Deus,
@@ -168,92 +188,89 @@ Seja forte! Coragem!
 Espere no Senhor. 
  Salmo 27
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 52
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_52/
-INFO:root:🔹 Description: Por que você se vangloria do mal
-e de ultrajar a Deus continuamente?,
-ó homem poderoso! 
-Sua língua trama destruição;
-é como navalha afiada, cheia de engano. 
-Você prefere o mal ao bem;
-a falsidade, à verdade. 
-Você ama toda palavra maldosa,
-ó língua mentirosa! 
-Saiba que Deus o arruinará para sempre:
-ele o agarrará e o arrancará da sua tenda;
-ele o desarraigará da terra dos vivos. 
-Os justos verão isso e temerão;
-rirão dele, dizendo: 
-"Veja só o homem
-que rejeitou a Deus como refúgio;
-confiou em sua grande riqueza
-e buscou refúgio em sua maldade!" 
-Mas eu sou como uma oliveira
-que floresce na casa de Deus;
-confio no amor de Deus
-para todo o sempre. 
-Para sempre te louvarei pelo que fizeste;
-na presença dos teus fiéis
-proclamarei o teu nome,
-porque tu és bom. 
- Salmo 52
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 239542 characters
-INFO:root:HTML parsed, length: 229421 characters
-INFO:root:Found 3 titles: ['Tenha fé e esperança: seu futuro está nas mãos de Deus', 'A Bíblia é mais que palavras', 'Abençoe quem você conhece com a palavra de Deus']
+INFO:root:Response length: 235222 characters
+INFO:root:HTML parsed, length: 225100 characters
+INFO:root:Found 3 titles: ['Com Jesus Você pode Vencer a Escuridão', 'Tenha fé e esperança: seu futuro está nas mãos de Deus', 'A Bíblia é mais que palavras']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Busquem, pois, em primeiro lugar o Reino de Deus e', 'A tua palavra é lâmpada\nque ilumina os meus passos', 'A Bíblia é muito mais que um livro antigo com pala']
-INFO:root:Found 1 dates: ['Quarta, 23 de abril de 2025']
+INFO:root:Found 3 descriptions: ['Nosso mundo está em trevas. Olhamos à volta e vemo', 'Busquem, pois, em primeiro lugar o Reino de Deus e', 'A tua palavra é lâmpada\nque ilumina os meus passos']
+INFO:root:Found 1 dates: ['Quinta, 24 de abril de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Tenha fé e esperança: seu futuro está nas mãos de Deus', ID=10799c15a992b0c2dc117ebb142255b0
+INFO:root:Processing entry 1: Title='Com Jesus Você pode Vencer a Escuridão', ID=cf46559c5b5a6486988346b4681d6c0b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Tenha fé e esperança: seu futuro está nas mãos de Deus - Palavra de Hoje
+INFO:root:🔹 Title: Com Jesus Você pode Vencer a Escuridão - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês. Portanto, não se preocupem com o amanhã, pois o amanhã trará as suas próprias preocupações. Basta a cada dia o seu próprio mal.
-- Mateus 6:33-34 
+INFO:root:🔹 Description: Nosso mundo está em trevas. Olhamos à volta e vemos tanta escuridão! E pior, muitas vezes olhamos para dentro de nós mesmos e só vemos sofrimento, solidão e angústia.
+Lá fora, há muitos caminhos que conduzem à escuridão. Infelizmente, muitos amam a escuridão moral e espiritual, optando por viver longe de Deus e da sua vontade. Assim, cada vez que desconsideramos Deus, nos afastamos da Sua luz, e nos aproximamos das sombras escuras do pecado.
+Mas Jesus disse, e quer te dizer hoje: Ele é a luz que ilumina este mundo de escuridão, e Ele é a luz que vai te iluminar.
 
-Preocupar-se com o amanhã nos impede de aproveitar as bênçãos de hoje. Esta é uma realidade que afeta muitos hoje em dia e é algo que não agrada a Deus. A ansiedade sobre o que não aconteceu nos rouba a paz e a alegria e nos distrai do que realmente importa. Não ganhamos nada nos preocupando com o incerto. Além disso, essa preocupação pode nos levar a negligenciar as oportunidades, as pessoas e os momentos que Deus nos deu hoje.
-Deus está no controle de tudo. Nada escapa ao seu olhar ou à sua vontade perfeita. Quando decidimos concentrar nossos corações em buscá-lo, seu reino e sua justiça, nossa perspectiva muda. Descobrimos que podemos viver sem medo, sabendo que nosso Pai celestial cuida de nós com amor e poder. Ele não apenas conhece o futuro: Ele o projetou com propósito e gentileza. 
+Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida".
+- João 8:12
 
-Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
-- Jeremias 29:11 
+No grego original deste texto, Cristo disse: “Egō eimi to phos tou kosmou”, o que significa ser Ele é 'a' Luz, e não 'uma' luz. Jesus se autointitula com a única fonte verdadeira de "Luz". Com esta afirmação Ele reivindica igualdade com Deus. Somente em Cristo Jesus temos a verdadeira luz da vida!
+Uma vez que o Senhor é a luz da vida, você não precisa andar em trevas, consumido pela escuridão.
 
-O futuro não está nas mãos do acaso ou do destino, mas nas mãos fiéis de Deus, que te ama e quer o melhor para você. Ele preparou para seus filhos um futuro cheio de alegria, paz e vida eterna. Então hoje você pode descansar, confiar e viver com esperança. Deus ama você, ele é poderoso e seu futuro está seguro nele.
-Escolha confiar no Senhor. Entregue a Ele suas preocupações sobre o futuro e peça que Ele encha seu coração de fé e esperança, sabendo que Ele cuida de você e que você está seguro em Suas mãos. 
-Veja também: Palavras bíblicas para aumentar sua fé e crença no Senhor
+O Senhor Deus é sol e escudo; o Senhor concede favor e honra; não recusa nenhum bem aos que vivem com integridade.
+- Salmos 84:11
+
+A Luz quer entrar na sua vida. Hoje mesmo. Seja sincero e se abra perante Deus. Deixe a Luz de Deus iluminar a sua vida e transformar todas as áreas escuras do seu coração...
+Receba a luz de Jesus em sua vida
  
 Os 20 versículos mais conhecidos da Bíblia (e o que significam)
 Tudo sobre os livros da Bíblia
 10 Planos de Leitura da Bíblia
 
  
-Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês. Portanto, não se preocupem com o amanhã, pois o amanhã trará as suas próprias preocupações. Basta a cada dia o seu próprio mal.
-- Mateus 6:33-34 
+Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida".
+- João 8:12
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 249355 characters
-INFO:root:HTML parsed, length: 238987 characters
-INFO:root:Found 3 titles: ['Quem ama a Deus nunca se esquece', 'Pare, ore e avance com fé', 'Devocional: O amor de Jesus alcançou você e a todos']
-INFO:root:Found 4 URLs: ['/como_orar_e_falar_com_deus/', '/amor_segundo_a_biblia/', '/bom_samaritano_quem_e_meu_proximo/']
-INFO:root:Found 3 descriptions: ['Bendiga ao Senhor a minha alma! Não esqueça de nen', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'O amor de Jesus é uma luz que brilha intensamente ']
-INFO:root:Found 3 dates: ['ABRIL\n\n23\nQUARTA', 'ABRIL\n\n22\nTERÇA', 'ABRIL\n\n21\nSEGUNDA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Quem ama a Deus nunca se esquece', ID=c9175de67fb784547cbe4dadd779e71b
-INFO:root:Processing entry 2: Title='Pare, ore e avance com fé', ID=82d326efdc11d5386343491c8d4fb936
-INFO:root:Processing entry 3: Title='Devocional: O amor de Jesus alcançou você e a todos', ID=f601de0f6201db810719de953a0c6ccf
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 249480 characters
+INFO:root:HTML parsed, length: 239122 characters
+INFO:root:Found 3 titles: ['Em Jesus temos um novo tempo', 'Quem ama a Deus nunca se esquece', 'Pare, ore e avance com fé']
+INFO:root:Found 2 URLs: ['/converter/', '/como_orar_e_falar_com_deus/']
+INFO:root:Found 3 descriptions: ['Aquele que estava assentado no trono disse: "Estou', 'Bendiga ao Senhor a minha alma! Não esqueça de nen', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e']
+INFO:root:Found 3 dates: ['ABRIL\n\n24\nQUINTA', 'ABRIL\n\n23\nQUARTA', 'ABRIL\n\n22\nTERÇA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Em Jesus temos um novo tempo', ID=63a2f44696e49fcfe3df3e6450c73116
+INFO:root:Processing entry 2: Title='Quem ama a Deus nunca se esquece', ID=c9175de67fb784547cbe4dadd779e71b
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Em Jesus temos um novo tempo
+INFO:root:🔹 URL: https://www.bibliaon.com/converter/
+INFO:root:🔹 Description: Aquele que estava assentado no trono disse: "Estou fazendo novas todas as coisas!" E acrescentou: "Escreva isto, pois estas palavras são verdadeiras e dignas de confiança".
+- Apocalipse 21:5 
+
+Há momentos em que a vida parece estagnada, os dias se arrastam, e os sonhos parecem distantes demais para serem realizados. Mas quando encontramos Jesus, tudo muda. Ele não apenas nos resgata do passado, mas nos convida a viver um novo tempo: um tempo de esperança, de recomeço e propósito.
+Em Jesus, somos libertos do peso da culpa e das marcas do passado. Ele transforma as nossas dores em força, as nossas lágrimas em sementes de alegria, e nos mostra que, mesmo no meio do caos, há um caminho de paz. Com Ele, cada manhã traz uma nova oportunidade de recomeçar, de crescer e de viver com coragem.
+Não importa quão difícil tenha sido a caminhada até aqui, em Jesus o tempo se renova. Ele não nos vê com os olhos do mundo, mas com o olhar do amor. Onde o mundo diz “fim”, Jesus sussurra “novo começo”.
+Talvez você esteja esperando por um sinal para mudar, para seguir em frente, para acreditar outra vez. Este é o sinal: Jesus é o autor de novos começos. Com Ele, a estação da escassez dá lugar à abundância, o desânimo dá lugar à fé, e os sonhos esquecidos voltam a florescer.
+Abra o seu coração, respire fundo e creia: em Jesus, você não está preso ao passado, mas livre para viver um novo tempo, mais leve e cheio de vida. O melhor ainda está por vir, porque com Ele, cada dia pode ser o primeiro de uma nova história. 
+Vivendo um novo tempo  
+
+
+Deixe o passado para trás: Reconheça que o passado não define quem você é. Entregue suas dores a Jesus e permita-se viver sem culpas, com o coração leve e livre.
+
+Alimente sua fé diariamente: Busque a presença de Deus. Ore, leia a Palavra e fortaleça seu espírito, mesmo nos dias difíceis. A fé cresce quando é cultivada com amor e perseverança.
+
+Abrace as novas oportunidades: Diga “sim” ao que Jesus tem para você. Tenha coragem para recomeçar, confiar e sonhar novamente. Cada dia é uma chance de viver com propósito e esperança. 
+
+Para orar: 
+
+Senhor Jesus, agradeço por me dar um novo tempo. Entrego meu passado em Tuas mãos e abro meu coração para viver os Teus sonhos. Renova minha fé, guia meus passos e fortalece minha esperança. Que eu viva cada dia com propósito, confiando no Teu amor e na Tua direção. Amém.
+
+Veja também: Transformação e renovação em Jesus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Quem ama a Deus nunca se esquece
 INFO:root:🔹 URL: https://www.bibliaon.com/como_orar_e_falar_com_deus/
 INFO:root:🔹 Description: Bendiga ao Senhor a minha alma! Não esqueça de nenhuma de suas bênçãos!
@@ -280,61 +297,10 @@ Para Orar:
 
 Senhor meu Deus e Pai, muito obrigado por todas as bençãos concedidas! Ensina-me a reconhecer a tua bondade e misericórdia a cada dia. Nos mínimos detalhes, desde o ar que eu respiro, até a graça da Salvação em Jesus, sei que o Senhor tem cuidado de mim, sempre!  Ajuda-me a não esquecer de nenhuma das tuas bençãos, Te louvo e te glorifico por todas elas, em nome de Jesus! Amém!
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Pare, ore e avance com fé
-INFO:root:🔹 URL: https://www.bibliaon.com/amor_segundo_a_biblia/
-INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
-confie nele, e ele agirá:
-- Salmos 37:5 
-
-Há momento na nossa vida que nem todo avanço pode representar um progresso verdadeiro. Muitas vezes, queremos agir rapidamente, resolver tudo com nossas próprias forças, mas esquecemos de consultar a Deus, que realmente pode nos dar uma direção. Ouvir a voz de Deus antes de qualquer passo é sinal de sabedoria. É nesse momento de oração que recebemos clareza e direção para avançarmos de forma segura, no centro da vontade d’Ele.
-Pare. Parar não é desistir. É reconhecer que precisamos respirar, ouvir a voz de Deus e alinhar nossos passos com os Dele. Quando paramos, deixamos de lutar com nossas próprias forças e damos espaço para que o Senhor nos direcione.
-Ore. A oração é o nosso canal direto com o Pai. É através da oração que encontramos paz, direção e força para prosseguirmos em fé. Ao orarmos, entregamos nossos fardos e recebemos sabedoria. Não tome decisões importantes sem antes dobrar os joelhos e buscar a orientação do Espírito Santo.
-Avance. Depois de parar e orar, é tempo de avançar. Avance com fé, com segurança, sabendo que não está sozinho. Deus vai à frente, endireitando os caminhos tortuosos, abrindo portas e fortalecendo suas mãos. Avance com coragem, mesmo que os ventos sejam contrários — o Senhor é o seu sustento.
-Lembre-se: há tempo para tudo, e o tempo de Deus é perfeito. Quando você decide parar, orar e então avançar, você escolhe confiar. E quem confia no Senhor jamais será confundido.
-Hoje, não importa qual desafio você esteja enfrentando, faça uma pausa, eleve seus olhos ao céu, fale com Deus e depois siga. Com Ele, você vai mais longe, com mais propósito e em paz. 
-Avançando com fé Deus 
-Pare para ouvir: Antes de agir, desacelere. Silencie o coração, desligue o ruído ao redor e busque discernimento em Deus. A direção certa começa com uma escuta atenta ao Espírito.
-Ore com fé: Entregue seus planos a Deus com confiança. A oração conecta seu coração ao céu, traz paz e revela o caminho certo, mesmo quando tudo ao redor parece incerto.
-Avance com coragem: Após orar, siga adiante com ousadia. Deus vai à frente preparando o caminho. Mesmo diante de obstáculos, confie: você não caminha sozinho, Deus é fiel!
-Para orar: 
-
-Senhor, ensina-me a parar diante das decisões, a buscar Tua voz com fé e a avançar confiando na Tua direção. Que eu nunca caminhe sozinho, mas guiado pela Tua vontade. Amém.
-
-Veja também: Como Orar (aprenda como pedir algo a Deus)
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Devocional: O amor de Jesus alcançou você e a todos
-INFO:root:🔹 URL: https://www.bibliaon.com/bom_samaritano_quem_e_meu_proximo/
-INFO:root:🔹 Description: O amor de Jesus é uma luz que brilha intensamente sobre toda a humanidade. Sua mensagem de amor, perdão e redenção não conhece limites, não faz distinção de raça, religião ou status social. Ele veio ao mundo para reconciliar a humanidade com Deus, e Seu amor é uma fonte inesgotável de esperança e Salvação.
-Jesus demonstrou seu amor de maneira inigualável. Ele curou os doentes, alimentou os famintos e confortou os aflitos. Sua vida exemplar e suas palavras de Salvação ressoam através dos séculos, alcançando corações em todos os cantos do mundo.
-O amor de Jesus é um convite à transformação. Ele acolhe os pecadores de braços abertos, oferecendo o perdão e a graça. Seu sacrifício na cruz é a expressão máxima desse amor, pois deu a sua própria vida para que todos tivessem a oportunidade de viver eternamente ao lado de Deus.
-Não importa quão longe alguém tenha se afastado, o amor de Jesus está sempre disponível, pronto para acolher, restaurar e renovar. Sua graça é um presente que não pode ser merecido, apenas aceito de coração aberto.
-Portanto, que possamos lembrar diariamente do amor de Jesus, e que Ele nos inspire a amar e servir uns aos outros, independentemente de nossa origem, crenças ou circunstâncias. Sejamos canais desse Amor, compartilhando a mensagem de esperança e de redenção que alcança a todos. Em Jesus, encontramos a verdadeira expressão do amor que transcende barreiras e nos guia para a vida eterna.
-Desfrute e compartilhe esse amor 💗
-
-
-Mantenha uma relação íntima com Deus através da oração diária, buscando Sua orientação e aprofundando seu entendimento do Seu amor.
-
-
-Explore as Escrituras para entender como Deus revela Seu amor e Sua vontade, encontrando inspiração e direção para a vida.
-
-
-Demonstre o amor de Deus ao servir os outros, sendo compassivo, generoso e cuidando das necessidades daqueles ao seu redor.
-
-
-Para Orar:
-
-Senhor, obrigado por Teu amor incondicional. Ajuda-me a viver esse amor, orar, estudar Tua Palavra e servir aos outros, refletindo Tua graça e compaixão. Amém.
-
-Veja também:
-
-Significado de amor na Bíblia (Estudo)
-Quem é o meu próximo segundo a Bíblia
-Versículos que mostram como é importante amar o próximo
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224117 characters
-INFO:root:HTML parsed, length: 222505 characters
+INFO:root:Response length: 225312 characters
+INFO:root:HTML parsed, length: 223700 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 23 URLs: ['/wiki/James_Madison', '/wiki/James_Madison', '/wiki/Estadista']
 INFO:root:Found 1 descriptions: ['James Madison foi um estadista, diplomata e pai fu']
@@ -362,44 +328,44 @@ Artigos bons: 1912
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224117 characters
-INFO:root:HTML parsed, length: 222505 characters
-INFO:root:Found 1 titles: ['22 de abril na história']
-INFO:root:Found 50 URLs: ['/wiki/Ficheiro:The_Blue_Marble_(remastered).jpg', '/wiki/Dia_Internacional_da_M%C3%A3e_Terra', '/wiki/1418']
-INFO:root:Found 1 descriptions: ['Dia da Terra\nDia Internacional da Mãe Terra (image']
+INFO:root:Response length: 225312 characters
+INFO:root:HTML parsed, length: 223700 characters
+INFO:root:Found 1 titles: ['24 de abril na história']
+INFO:root:Found 51 URLs: ['/wiki/Ficheiro:HST-SM4.jpeg', '/wiki/Dia_Internacional_das_Meninas_nas_Tecnologias_de_Informa%C3%A7%C3%A3o_e_Comunica%C3%A7%C3%A3o', '/wiki/Dia_Internacional_do_Multilateralismo_e_da_Diplomacia_para_a_Paz']
+INFO:root:Found 1 descriptions: ['Telescópio Espacial Hubble\nDia Internacional das M']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='22 de abril na história', ID=1c7fd8927dc0fcae637d6ea9779c5dd8
+INFO:root:Processing entry 1: Title='24 de abril na história', ID=f02178e80873b8bdeadf0722977e5f58
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 22 de abril na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:The_Blue_Marble_(remastered).jpg
-INFO:root:🔹 Description: Dia da Terra
-Dia Internacional da Mãe Terra (imagem) (2009)
+INFO:root:🔹 Title: 24 de abril na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:HST-SM4.jpeg
+INFO:root:🔹 Description: Telescópio Espacial Hubble
+Dia Internacional das Meninas nas Tecnologias de Informação e Comunicação (2011); Dia Internacional do Multilateralismo e da Diplomacia para a Paz (2018); Proclamação da República Irlandesa (1916)
 
-1418 – Encerra-se o Concílio de Constança, resultando no fim do Grande Cisma do Ocidente.
-1500 – O navegador Pedro Álvares Cabral torna-se o primeiro português e o terceiro europeu a desembarcar na costa brasileira.
-1915 – Os alemães utilizam cloro como arma química na Segunda Batalha de Ypres, matando em dez minutos mais de 5 mil soldados por asfixia no primeiro uso em larga escala de gás venenoso na Primeira Guerra Mundial.
+1646 – Invasões neerlandesas ao Brasil: ocorre a batalha de Tejucupapo, na atual cidade pernambucana de Goiana, entre forças neerlandesas e luso-brasileiras.
+1915 – O Império Otomano começa a deportação dos intelectuais armênios de Constantinopla, data considerada o início do genocídio armênio, que vitimou cerca de 1,5 milhão de pessoas.
+1990 – O Telescópio Espacial Hubble (imagem) é lançado ao espaço pelo ônibus espacial Discovery, na missão STS-31.
 Nasceram neste dia…
-Isabel I de Castela (1451–1504)  •  Immanuel Kant (1724–1804)  •  Robert Oppenheimer (1904–1967)  •  Di Melo (n. 1949)
+Guilherme I, Príncipe de Orange (1533–1584)  •  Erich Raeder (1876–1960)  •  José Sarney (n. 1930)  •  Maria da Conceição Tavares (1930–2024)
 Morreram neste dia…
-Gregório V de Constantinopla (1745–1821)  •  John Crome (1768–1821)  •  Richard Nixon (1913–1994)  •  Francisco Martins Rodrigues (1927–2008)
+Adélaïde Labille-Guiard (1749–1803)  •  Cassiano Branco (1897–1970)  •  Vladimir Komarov (1927–1967)  •  Sérgio Buarque de Holanda (1902–1982)
 
 
-Ver mais • Outros dias: 20 • 21 • 22 • 23 • 24 • Ver todos
+Ver mais • Outros dias: 22 • 23 • 24 • 25 • 26 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224117 characters
-INFO:root:HTML parsed, length: 222505 characters
+INFO:root:Response length: 225312 characters
+INFO:root:HTML parsed, length: 223700 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:ISS-38_Hawaiian_Island_chain.jpg']
-INFO:root:Found 1 descriptions: ['Arquipélago do Havaí fotografado da Estação Espaci']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Bronze-winged_jacana_(Metopidius_indicus).jpg']
+INFO:root:Found 1 descriptions: ['Jaçanã-de-asa-de-bronze (Metopidius indicus) forra']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ISS-38_Hawaiian_Island_chain.jpg/960px-ISS-38_Hawaiian_Island_chain.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bronze-winged_jacana_%28Metopidius_indicus%29.jpg/960px-Bronze-winged_jacana_%28Metopidius_indicus%29.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -408,15 +374,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:ISS-38_Hawaiian_Island_chain.jpg
-INFO:root:🔹 Description: Arquipélago do Havaí fotografado da Estação Espacial Internacional. As ilhas correspondem aos picos de imponentes vulcões-escudo, quase totalmente submersos e alimentados por um ponto quente no manto.
-(resolução original: 4 256 × 2 832)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Bronze-winged_jacana_(Metopidius_indicus).jpg
+INFO:root:🔹 Description: Jaçanã-de-asa-de-bronze (Metopidius indicus) forrageia entre plantas aquáticas flutuantes no lago Vembanad em Querala, Índia. A espécie é muito comum no subcontinente indiano (mas não no Sri Lanka e no oeste do Paquistão) e no sudeste da Ásia, principalmente em áreas de planície.
+(resolução original: 4 650 × 3 100)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ISS-38_Hawaiian_Island_chain.jpg/960px-ISS-38_Hawaiian_Island_chain.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bronze-winged_jacana_%28Metopidius_indicus%29.jpg/960px-Bronze-winged_jacana_%28Metopidius_indicus%29.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -440,13 +406,13 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 ++--
- feeds/devocional_de_hoje/feed.json        |  14 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  49 +---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  68 ++----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  25 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  88 +++----
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  51 ++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
@@ -455,5 +421,5 @@ INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 ++--
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 381 +++++++++++++-----------------
- 16 files changed, 291 insertions(+), 394 deletions(-)
+ output.log                                | 347 +++++++++++++-----------------
+ 16 files changed, 264 insertions(+), 350 deletions(-)
