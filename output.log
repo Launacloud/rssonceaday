@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119034 characters
-INFO:root:HTML parsed, length: 112148 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (24/04/2025)', 'Palavra de Ontem (23/04/2025)', 'Palavra de Anteontem (22/04/2025)']
-INFO:root:Found 3 URLs: ['/vongole/', '/altercacao/', '/intemperie/']
-INFO:root:Found 13 descriptions: ['substantivo masculino [Biologia] Designação atribu', 'Sinônimos:\n\nberbigão', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (24/04/2025)', 'Palavra de Ontem (23/04/2025)', 'Palavra de Anteontem (22/04/2025)']
+INFO:root:Response length: 119728 characters
+INFO:root:HTML parsed, length: 112635 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (25/04/2025)', 'Palavra de Ontem (24/04/2025)', 'Palavra de Anteontem (23/04/2025)']
+INFO:root:Found 3 URLs: ['/equidade/', '/vongole/', '/altercacao/']
+INFO:root:Found 14 descriptions: ['substantivo feminino Característica de algo ou alg', 'Sinônimos:\n\nintegridade, isenção, justiça, lisura,', 'Antônimos:\n\niniquidade, desonestidade']
+INFO:root:Found 3 dates: ['Palavra de Hoje (25/04/2025)', 'Palavra de Ontem (24/04/2025)', 'Palavra de Anteontem (23/04/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (24/04/2025)', ID=83b85a2c4d663cc4d967ca2ec9aeb952
-INFO:root:Processing entry 2: Title='Palavra de Ontem (23/04/2025)', ID=6612d526900232c653f258785a042d75
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/04/2025)', ID=71631ecc6442333f162a0dfe810cf3c3
+INFO:root:Processing entry 1: Title='Palavra de Hoje (25/04/2025)', ID=bf4bf28a246ebdc632315c964b342550
+INFO:root:Processing entry 2: Title='Palavra de Ontem (24/04/2025)', ID=7032b09f075830adffe0ed557b5ee99c
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (23/04/2025)', ID=200908b21c7cae785c58da6b604ad3c6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (24/04/2025) - Significado completo de vôngole:
-INFO:root:🔹 URL: https://www.dicio.com.br/vongole/
-INFO:root:🔹 Description: substantivo masculino [Biologia] Designação atribuída aos moluscos bivalves que, conhecidos por habitarem águas arenosas ou lodosas, possuem uma muito apreciada; berbigão.Etimologia (origem da palavra vôngole). Do italiano vongole.
+INFO:root:🔹 Title: Palavra de Hoje (25/04/2025) - Significado completo de equidade:
+INFO:root:🔹 URL: https://www.dicio.com.br/equidade/
+INFO:root:🔹 Description: substantivo feminino Característica de algo ou alguém que revela senso de justiça, que julga de maneira imparcial, isenta e neutra, sem tomar partidos; imparcialidade: duvidou da equidade das eleições.Correção no modo de agir ou de opinar; em que há lisura, honestidade; igualdade: tratou-a com equidade.Disposição para reconhecer a imparcialidade do direito de cada indivíduo: a empresa reconhecia a equidade de seus funcionários.Etimologia (origem da palavra equidade). A palavra equidade deriva do latim "equitas,atis", que significa julgamento justo.
  
 Sinônimos:
 
-berbigão 
+integridade, isenção, justiça, lisura, honestidade, equivalência, igualdade, imparcialidade, isonomia, retidão, correção, neutralidade, probidade, objetividade, decoro, transparência, idoneidade 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (23/04/2025) - Significado completo de altercação:
-INFO:root:🔹 URL: https://www.dicio.com.br/altercacao/
+INFO:root:🔹 Title: Palavra de Ontem (24/04/2025) - Significado completo de vôngole:
+INFO:root:🔹 URL: https://www.dicio.com.br/vongole/
 INFO:root:🔹 Description: Sinônimos:
 
-berbigão
- Classe gramatical:substantivo masculino
+integridade, isenção, justiça, lisura, honestidade, equivalência, igualdade, imparcialidade, isonomia, retidão, correção, neutralidade, probidade, objetividade, decoro, transparência, idoneidade
+ 
+Antônimos:
+
+iniquidade, desonestidade 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (22/04/2025) - Significado completo de intempérie:
-INFO:root:🔹 URL: https://www.dicio.com.br/intemperie/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:vôn-go-le
+INFO:root:🔹 Title: Palavra de Anteontem (23/04/2025) - Significado completo de altercação:
+INFO:root:🔹 URL: https://www.dicio.com.br/altercacao/
+INFO:root:🔹 Description: Antônimos:
+
+iniquidade, desonestidade
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +48,97 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237114 characters
-INFO:root:HTML parsed, length: 226595 characters
-INFO:root:Found 1 titles: ['Marcos 9:23']
-INFO:root:Found 1 URLs: ['/versiculo/marcos_9_23/']
-INFO:root:Found 1 descriptions: ['"Se podes?", disse Jesus. "Tudo é possível àquele ']
+INFO:root:Response length: 237122 characters
+INFO:root:HTML parsed, length: 226603 characters
+INFO:root:Found 1 titles: ['Provérbios 17:17']
+INFO:root:Found 1 URLs: ['/versiculo/proverbios_17_17/']
+INFO:root:Found 1 descriptions: ['O amigo ama em todos os momentos;\né um irmão na ad']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Marcos 9:23', ID=52afd0684df82157777f9ce61784013d
+INFO:root:Processing entry 1: Title='Provérbios 17:17', ID=b8225c13b011b72add194d487719b2d4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Marcos 9:23
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/marcos_9_23/
-INFO:root:🔹 Description: "Se podes?", disse Jesus. "Tudo é possível àquele que crê." Marcos 9:23
+INFO:root:🔹 Title: Provérbios 17:17
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_17_17/
+INFO:root:🔹 Description: O amigo ama em todos os momentos;
+é um irmão na adversidade. Provérbios 17:17
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237219 characters
-INFO:root:HTML parsed, length: 227427 characters
-INFO:root:Found 3 titles: ['Salmo 82', 'Salmo 16', 'Salmo 27']
-INFO:root:Found 3 URLs: ['/salmos_82/', '/salmos_16/', '/salmos_27/']
-INFO:root:Found 3 descriptions: ['É Deus quem preside a assembleia divina;\nno meio d', 'Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen', 'O Senhor é a minha luz e a minha salvação;\nde quem']
-INFO:root:Found 3 dates: ['24 de Abril de 2025', '23 de Abril de 2025', '22 de Abril de 2025']
+INFO:root:Response length: 237325 characters
+INFO:root:HTML parsed, length: 227528 characters
+INFO:root:Found 3 titles: ['Salmo 66', 'Salmo 82', 'Salmo 16']
+INFO:root:Found 3 URLs: ['/salmos_66/', '/salmos_82/', '/salmos_16/']
+INFO:root:Found 3 descriptions: ['Aclamem a Deus, povos de toda terra! \nCantem louvo', 'É Deus quem preside a assembleia divina;\nno meio d', 'Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen']
+INFO:root:Found 3 dates: ['25 de Abril de 2025', '24 de Abril de 2025', '23 de Abril de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 82', ID=b08571775c4d91acb25aaf79665479aa
-INFO:root:Processing entry 2: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
-INFO:root:Processing entry 3: Title=' Salmo 27', ID=8dcdf1c473e87d0c61510ae827caf9b0
+INFO:root:Processing entry 1: Title=' Salmo 66', ID=15a03b6e313ede2b2a4b5a3c41b598ff
+INFO:root:Processing entry 2: Title=' Salmo 82', ID=b08571775c4d91acb25aaf79665479aa
+INFO:root:Processing entry 3: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 66
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_66/
+INFO:root:🔹 Description: Aclamem a Deus, povos de toda terra! 
+Cantem louvores ao seu glorioso nome;
+louvem-no gloriosamente! 
+Digam a Deus:
+"Quão temíveis são os teus feitos!
+Tão grande é o teu poder que os teus inimigos
+rastejam diante de ti! 
+Toda a terra te adora
+e canta louvores a ti,
+canta louvores ao teu nome". 
+Venham e vejam o que Deus tem feito;
+como são impressionantes
+as suas obras em favor dos homens! 
+Ele transformou o mar em terra seca,
+e o povo atravessou as águas a pé;
+e ali nos alegramos nele. 
+Ele governa para sempre com o seu poder,
+seus olhos vigiam as nações;
+que os rebeldes
+não se levantem contra ele! 
+Bendigam o nosso Deus, ó povos,
+façam ressoar o som do seu louvor; 
+foi ele quem preservou a nossa vida
+impedindo que os nossos pés escorregassem. 
+Pois tu, ó Deus, nos submeteste à prova
+e nos refinaste como a prata. 
+Fizeste-nos cair numa armadilha
+e sobre nossas costas puseste fardos. 
+Deixaste que os inimigos cavalgassem
+sobre a nossa cabeça;
+passamos pelo fogo e pela água,
+mas a um lugar de fartura nos trouxeste. 
+Para o teu templo virei com holocaustos
+e cumprirei os meus votos para contigo, 
+votos que os meus lábios fizeram
+e a minha boca falou
+quando eu estava em dificuldade. 
+Oferecerei a ti animais gordos em holocausto;
+sacrificarei carneiros, cuja fumaça subirá a ti,
+e também novilhos e cabritos. 
+Venham e ouçam,
+todos vocês que temem a Deus;
+vou contar-lhes o que ele fez por mim. 
+A ele clamei com os lábios;
+com a língua o exaltei. 
+Se eu acalentasse o pecado no coração,
+o Senhor não me ouviria; 
+mas Deus me ouviu,
+deu atenção à oração que lhe dirigi. 
+Louvado seja Deus,
+que não rejeitou a minha oração
+nem afastou de mim o seu amor! 
+ Salmo 66
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 82
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_82/
 INFO:root:🔹 Description: É Deus quem preside a assembleia divina;
@@ -133,119 +196,97 @@ a alegria plena da tua presença,
 eterno prazer à tua direita. 
  Salmo 16
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 27
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_27/
-INFO:root:🔹 Description: O Senhor é a minha luz e a minha salvação;
-de quem terei temor?
-O Senhor é o meu forte refúgio;
-de quem terei medo? 
-Quando homens maus avançarem contra mim
-para destruir-me,
-eles, meus inimigos e meus adversários,
-é que tropeçarão e cairão. 
-Ainda que um exército se acampe contra mim,
-meu coração não temerá;
-ainda que se declare guerra contra mim,
-mesmo assim estarei confiante. 
-Uma coisa pedi ao Senhor
-e a procuro:
-que eu possa viver na casa do Senhor
-todos os dias da minha vida,
-para contemplar a bondade do Senhor
-e buscar sua orientação no seu templo. 
-Pois no dia da adversidade
-ele me guardará protegido em sua habitação;
-no seu tabernáculo me esconderá
-e me porá em segurança sobre um rochedo. 
-Então triunfarei sobre os inimigos
-que me cercam.
-Em seu tabernáculo oferecerei sacrifícios
-com aclamações;
-cantarei e louvarei ao Senhor. 
-Ouve a minha voz quando clamo, ó Senhor;
-tem misericórdia de mim e responde-me. 
-A teu respeito diz o meu coração:
-Busque a minha face!
-A tua face, Senhor, buscarei. 
-Não escondas de mim a tua face,
-não rejeites com ira o teu servo;
-tu tens sido o meu ajudador.
-Não me desampares nem me abandones,
-ó Deus, meu salvador! 
-Ainda que me abandonem pai e mãe,
-o Senhor me acolherá. 
-Ensina-me o teu caminho, Senhor;
-conduze-me por uma vereda segura
-por causa dos meus inimigos. 
-Não me entregues
-ao capricho dos meus adversários,
-pois testemunhas falsas se levantam contra mim,
-respirando violência. 
-Apesar disso, esta certeza eu tenho:
-viverei até ver a bondade do Senhor na terra. 
-Espere no Senhor.
-Seja forte! Coragem!
-Espere no Senhor. 
- Salmo 27
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 235222 characters
-INFO:root:HTML parsed, length: 225100 characters
-INFO:root:Found 3 titles: ['Com Jesus Você pode Vencer a Escuridão', 'Tenha fé e esperança: seu futuro está nas mãos de Deus', 'A Bíblia é mais que palavras']
+INFO:root:Response length: 239569 characters
+INFO:root:HTML parsed, length: 229440 characters
+INFO:root:Found 3 titles: ['Não sabe o que fazer? Deus lhe mostrará o caminho', 'Com Jesus Você pode Vencer a Escuridão', 'Tenha fé e esperança: seu futuro está nas mãos de Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Nosso mundo está em trevas. Olhamos à volta e vemo', 'Busquem, pois, em primeiro lugar o Reino de Deus e', 'A tua palavra é lâmpada\nque ilumina os meus passos']
-INFO:root:Found 1 dates: ['Quinta, 24 de abril de 2025']
+INFO:root:Found 3 descriptions: ['Eu o instruirei e o ensinarei\nno caminho que você ', 'Nosso mundo está em trevas. Olhamos à volta e vemo', 'Busquem, pois, em primeiro lugar o Reino de Deus e']
+INFO:root:Found 1 dates: ['Sexta, 25 de abril de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Com Jesus Você pode Vencer a Escuridão', ID=cf46559c5b5a6486988346b4681d6c0b
+INFO:root:Processing entry 1: Title='Não sabe o que fazer? Deus lhe mostrará o caminho', ID=e04a0eb0b03a65f66581f6a77feed17d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Com Jesus Você pode Vencer a Escuridão - Palavra de Hoje
+INFO:root:🔹 Title: Não sabe o que fazer? Deus lhe mostrará o caminho - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Nosso mundo está em trevas. Olhamos à volta e vemos tanta escuridão! E pior, muitas vezes olhamos para dentro de nós mesmos e só vemos sofrimento, solidão e angústia.
-Lá fora, há muitos caminhos que conduzem à escuridão. Infelizmente, muitos amam a escuridão moral e espiritual, optando por viver longe de Deus e da sua vontade. Assim, cada vez que desconsideramos Deus, nos afastamos da Sua luz, e nos aproximamos das sombras escuras do pecado.
-Mas Jesus disse, e quer te dizer hoje: Ele é a luz que ilumina este mundo de escuridão, e Ele é a luz que vai te iluminar.
+INFO:root:🔹 Description: Eu o instruirei e o ensinarei
+no caminho que você deve seguir;
+eu o aconselharei e cuidarei de você.
+- Salmo 32:8
 
-Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida".
-- João 8:12
+A vida é cheia de decisões. Algumas são simples, como escolher o que comer ou que roupa vestir. Mas outras decisões têm um impacto profundo e duradouro: que carreira estudar, com quem se casar, onde morar, que direção tomar quando a vida se torna incerta.
+Às vezes nos sentimos perdidos, sem saber que passo dar. Mas há uma promessa maravilhosa de Deus: Ele promete acompanhar Seus filhos em qualquer situação e guiá-los. É por isso que sabemos com certeza que nós, como filhos de Deus, não estamos sozinhos na jornada, nem precisamos tomar decisões aleatoriamente.
+A decisão mais importante de todas é aceitar Jesus como Senhor e Salvador. Quando tomamos essa decisão, não significa que tudo será fácil, mas significa que não andaremos mais na escuridão. Deus, por meio do seu Espírito Santo, vive em nós e nos dá sabedoria, direção e paz.
+O segredo é buscar a vontade dele com humildade. Quando oramos e pedimos a Deus que nos mostre o caminho, ele responde. Sua Palavra, a Bíblia, é lâmpada para os nossos pés e luz para o nosso caminho (Salmo 119:105). Se quisermos tomar boas decisões, devemos aprender a depender de Deus, não da nossa própria lógica ou das emoções do momento.
+O salmista disse claramente:
 
-No grego original deste texto, Cristo disse: “Egō eimi to phos tou kosmou”, o que significa ser Ele é 'a' Luz, e não 'uma' luz. Jesus se autointitula com a única fonte verdadeira de "Luz". Com esta afirmação Ele reivindica igualdade com Deus. Somente em Cristo Jesus temos a verdadeira luz da vida!
-Uma vez que o Senhor é a luz da vida, você não precisa andar em trevas, consumido pela escuridão.
+Mostra-me, Senhor, os teus caminhos,
+ensina-me as tuas veredas;
+guia-me com a tua verdade e ensina-me,
+pois tu és Deus, meu Salvador,
+e a minha esperança está em ti o tempo todo.
+- Salmo 25:4-5 
 
-O Senhor Deus é sol e escudo; o Senhor concede favor e honra; não recusa nenhum bem aos que vivem com integridade.
-- Salmos 84:11
-
-A Luz quer entrar na sua vida. Hoje mesmo. Seja sincero e se abra perante Deus. Deixe a Luz de Deus iluminar a sua vida e transformar todas as áreas escuras do seu coração...
-Receba a luz de Jesus em sua vida
+Se você não sabe o que fazer hoje, pare. Agora. Peça ao Senhor para lhe dar direção. Abra sua Bíblia. Deus vê além do que você pode ver. Confie nele. Ele lhe mostrará o caminho certo, passo a passo.
+Veja também: Mensagens de fé e esperança em Deus
  
-Os 20 versículos mais conhecidos da Bíblia (e o que significam)
-Tudo sobre os livros da Bíblia
-10 Planos de Leitura da Bíblia
-
- 
-Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida".
-- João 8:12
+Eu o instruirei e o ensinarei
+no caminho que você deve seguir;
+eu o aconselharei e cuidarei de você.
+- Salmo 32:8
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 249480 characters
-INFO:root:HTML parsed, length: 239122 characters
-INFO:root:Found 3 titles: ['Em Jesus temos um novo tempo', 'Quem ama a Deus nunca se esquece', 'Pare, ore e avance com fé']
-INFO:root:Found 2 URLs: ['/converter/', '/como_orar_e_falar_com_deus/']
-INFO:root:Found 3 descriptions: ['Aquele que estava assentado no trono disse: "Estou', 'Bendiga ao Senhor a minha alma! Não esqueça de nen', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e']
-INFO:root:Found 3 dates: ['ABRIL\n\n24\nQUINTA', 'ABRIL\n\n23\nQUARTA', 'ABRIL\n\n22\nTERÇA']
+INFO:root:Response length: 249254 characters
+INFO:root:HTML parsed, length: 238897 characters
+INFO:root:Found 3 titles: ['Abra as portas do seu coração', 'Em Jesus temos um novo tempo', 'Quem ama a Deus nunca se esquece']
+INFO:root:Found 2 URLs: ['/como_buscar_e_se_aproximar_de_deus/', '/converter/']
+INFO:root:Found 3 descriptions: ['Eis que estou à porta e bato. Se alguém ouvir a mi', 'Aquele que estava assentado no trono disse: "Estou', 'Bendiga ao Senhor a minha alma! Não esqueça de nen']
+INFO:root:Found 3 dates: ['ABRIL\n\n25\nSEXTA', 'ABRIL\n\n24\nQUINTA', 'ABRIL\n\n23\nQUARTA']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Em Jesus temos um novo tempo', ID=63a2f44696e49fcfe3df3e6450c73116
-INFO:root:Processing entry 2: Title='Quem ama a Deus nunca se esquece', ID=c9175de67fb784547cbe4dadd779e71b
+INFO:root:Processing entry 1: Title='Abra as portas do seu coração', ID=82cf7392b7582dd6f7a0fdad34e7ef61
+INFO:root:Processing entry 2: Title='Em Jesus temos um novo tempo', ID=63a2f44696e49fcfe3df3e6450c73116
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Abra as portas do seu coração
+INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
+INFO:root:🔹 Description: Eis que estou à porta e bato. Se alguém ouvir a minha voz e abrir a porta, entrarei e cearei com ele, e ele comigo.
+- Apocalipse 3:20 
+
+Quantas vezes passamos por dias em que tudo parece estar trancado? Portas de oportunidades fechadas, sonhos engavetados, sentimentos escondidos. Nessas horas, a voz de Deus nos chama, não apenas para mudar as circunstâncias externas, mas para transformar o nosso interior.
+Jesus não força entrada. Ele bate. Espera. Chama com amor. E só entra se você abrir. Abrir o coração é mais do que somente sentir algo bonito, é um ato de rendição, de confiança. Significa entregar a Ele não só os bons sentimentos, mas também as dores, medos e inseguranças.
+Muitas vezes mantemos nosso coração fechado por traumas, decepções ou por acharmos que não somos dignos de receber o amor de Deus. Mas a verdade é que Ele não espera perfeição, Ele quer sinceridade. Ele quer morar em você, curar o que está quebrado e renovar o que foi perdido.
+Quando abrimos a porta do coração, damos espaço para a paz que excede todo entendimento. Recebemos direção, consolo e força para continuar. E, mais importante, passamos a viver em comunhão com Aquele que nos conhece melhor do que nós mesmos.
+Hoje, faça essa escolha. Não adie mais. Jesus está à porta. Ele quer cear com você. Quer fazer morada. Abra o seu coração.  
+
+Meu filho, dê-me o seu coração;
+mantenha os seus olhos
+em meus caminhos,
+- Provérbios 23:26
+
+Deixe Cristo entrar no seu coração 
+
+
+Escute a voz de Jesus: Reserve momentos de silêncio e oração para ouvir a voz de Cristo. Ele deseja guiar cada passo seu com sabedoria e compaixão.
+
+Entregue suas dores e medos: Não esconda suas feridas de Jesus. Confie a Ele suas angústias, traumas e inseguranças. Cristo transforma aquilo que parece perdido em fonte de cura e esperança renovada.
+
+Cultive comunhão diária com Deus: Abra seu coração todos os dias através da Palavra, louvor e oração. A presença de Cristo traz direção até nos dias mais difíceis da vida.
+
+Para orar: 
+
+Senhor Jesus, eu abro meu coração para Ti. Entra, transforma minha vida, cura minhas feridas e guia meus passos. Que Tua paz habite em mim e que eu viva segundo a Tua vontade. Amém.
+
+Veja também: Como se aproximar de Deus segundo a Bíblia
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Em Jesus temos um novo tempo
 INFO:root:🔹 URL: https://www.bibliaon.com/converter/
 INFO:root:🔹 Description: Aquele que estava assentado no trono disse: "Estou fazendo novas todas as coisas!" E acrescentou: "Escreva isto, pois estas palavras são verdadeiras e dignas de confiança".
@@ -271,39 +312,13 @@ Senhor Jesus, agradeço por me dar um novo tempo. Entrego meu passado em Tuas m�
 
 Veja também: Transformação e renovação em Jesus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Quem ama a Deus nunca se esquece
-INFO:root:🔹 URL: https://www.bibliaon.com/como_orar_e_falar_com_deus/
-INFO:root:🔹 Description: Bendiga ao Senhor a minha alma! Não esqueça de nenhuma de suas bênçãos!
-Salmos 103:2
-
-O esquecimento faz parte das nossas vidas. E, se por um lado é bom esquecermos ofensas e problemas do passado, por outro, há muitos aspectos negativos no esquecimento. É bastante natural termos lapsos de memória vez ou outra, esquecendo as chaves, uma senha, onde colocamos o celular, uma comida no forno, ou uma conta para pagar... É chato, mas quem é que nunca passou por isso? 
- 
-Mas, para além desses esquecimentos saudável e "normal" (pois temos uma memória seletiva que armazena coisas importantes e descarta coisas secundárias), há um outro tipo que é muito mais grave: o esquecimento de coisas muito importantes. Infelizmente, por causa de doenças, desatenção, estresse e distrações, as consequências desse tipo de esquecimento são muito mais graves, podendo até ser fatais em alguns casos (esquecimento de crianças no carro, compromissos assumidos, etc). Tanto num caso como no outro é preciso exercitar a mente, estimulando a memória para não apagar coisas importantes.
-No versículo de hoje, o salmista exorta a própria alma a bendizer e a não se esquecer do Senhor nem de suas bençãos. É um exercício que todos nós devemos fazer: incentivar a mente e o coração para não se esquecer de Deus!  
-Não se esqueça de Deus nem das suas bençãos infinitas
-
-
-Estimule a sua mente a pensar em Deus durante o dia. Tenha uma atitude de gratidão por todas as bençãos recebidas.Considere-as como algo importante.
-
-Crie marcos visuais. Samuel erigiu uma pedra e chamou-lhe Ebenézer, para se lembrarem que Deus tinha ajudado o povo até ali (1 Sam. 7:12). Registre, marque, incentive sua mente a recordar!
-
-Ore e agradeça por tudo de bom que Deus lhe tem feito. 
-
-Escreva um diário ou agenda pedidos e respostas de oração. Com o passar do tempo você poderá revisitar essas memórias e ver o quanto Deus tem cuidado de você.
-
-Conte as bençãos! Faça uma lista das bençãos de Deus na sua vida, coloque em lugares visíveis (espelho, porta da geladeira, mesa de trabalho) e compartilhe com as pessoas à sua volta.
-
-Para Orar:
-
-Senhor meu Deus e Pai, muito obrigado por todas as bençãos concedidas! Ensina-me a reconhecer a tua bondade e misericórdia a cada dia. Nos mínimos detalhes, desde o ar que eu respiro, até a graça da Salvação em Jesus, sei que o Senhor tem cuidado de mim, sempre!  Ajuda-me a não esquecer de nenhuma das tuas bençãos, Te louvo e te glorifico por todas elas, em nome de Jesus! Amém!
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225312 characters
-INFO:root:HTML parsed, length: 223700 characters
+INFO:root:Response length: 224895 characters
+INFO:root:HTML parsed, length: 223283 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 23 URLs: ['/wiki/James_Madison', '/wiki/James_Madison', '/wiki/Estadista']
-INFO:root:Found 1 descriptions: ['James Madison foi um estadista, diplomata e pai fu']
+INFO:root:Found 19 URLs: ['/wiki/All_God%27s_Children_Need_Traveling_Shoes', '/wiki/All_God%27s_Children_Need_Traveling_Shoes', '/wiki/Autobiografia']
+INFO:root:Found 1 descriptions: ["All God's Children Need Traveling Shoes é uma auto"]
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -313,9 +328,9 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/James_Madison
-INFO:root:🔹 Description: James Madison foi um estadista, diplomata e pai fundador dos Estados Unidos. Ele ocupou o cargo de presidente dos EUA de 1809 a 1817. Madison é aclamado como o “Pai da Constituição” pelo seu papel fundamental na elaboração e promoção da Constituição dos Estados Unidos e da Declaração de Direitos dos EUA.
-Madison nasceu em uma proeminente família de proprietários de escravizados na Virgínia. Ele foi membro da Câmara dos Delegados da Virgínia e do Congresso Continental, durante e após a Guerra de Independência Americana. Insatisfeito com o frágil governo nacional estabelecido pelos Artigos da Confederação, ajudou a organizar a Convenção Constitucional, que elaborou uma nova constituição destinada a fortalecer o governo republicano contra assembleias populares. O Plano da Virgínia, elaborado por Madison, foi a base para as deliberações da convenção, na qual Madison era uma voz influente. (Leia mais...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/All_God%27s_Children_Need_Traveling_Shoes
+INFO:root:🔹 Description: All God's Children Need Traveling Shoes é uma autobiografia da escritora americana Maya Angelou lançada em 1986. O livro é o quinto volume da série de sete autobiografias de Angelou. Baseado entre os anos de 1962 a 1965, a história começa quando Angelou tem 33 anos de idade, e narra os anos em que viveu em Acra, capital de Gana. O livro, cujo título é derivado do gênero Negro Spiritual, começa onde as memórias anteriores de Angelou, publicado em The Heart of a Woman —  com o traumático acidente de carro envolvendo seu filho Guy —  e termina com Angelou retornando à América.
+Desde que ela começou a produzir sua primeira autobiografia, I Know Why the Caged Bird Sings, e continuou ao longo de sua série, Angelou mantém a longa tradição de desenvolver autobiografias afro-americanas. Ao mesmo tempo, ela faz uma tentativa deliberada de desafiar a estrutura usual da autobiografia criticando, mudando e expandindo o gênero. Angelou amadureceu como escritora quando escreveu Traveling Shoes, a ponto de poder brincar com a forma e a estrutura do trabalho. Assim como em seus livros anteriores, consiste em uma série de anedotas conectadas por temática abordada. Ela retrata sua luta por ser mãe de um filho crescido e com seu lugar em sua nova casa. (Leia mais...)
 
 
 
@@ -328,44 +343,44 @@ Artigos bons: 1912
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225312 characters
-INFO:root:HTML parsed, length: 223700 characters
-INFO:root:Found 1 titles: ['24 de abril na história']
-INFO:root:Found 51 URLs: ['/wiki/Ficheiro:HST-SM4.jpeg', '/wiki/Dia_Internacional_das_Meninas_nas_Tecnologias_de_Informa%C3%A7%C3%A3o_e_Comunica%C3%A7%C3%A3o', '/wiki/Dia_Internacional_do_Multilateralismo_e_da_Diplomacia_para_a_Paz']
-INFO:root:Found 1 descriptions: ['Telescópio Espacial Hubble\nDia Internacional das M']
+INFO:root:Response length: 224895 characters
+INFO:root:HTML parsed, length: 223283 characters
+INFO:root:Found 1 titles: ['25 de abril na história']
+INFO:root:Found 50 URLs: ['/wiki/Ficheiro:Revolu%C3%A7%C3%A3o_dos_Cravos.jpg', '/wiki/Dia_Mundial_da_Luta_contra_a_Mal%C3%A1ria', '/wiki/Organiza%C3%A7%C3%A3o_Mundial_da_Sa%C3%BAde']
+INFO:root:Found 1 descriptions: ['Revolução dos Cravos\nDia Mundial da Luta contra a ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='24 de abril na história', ID=f02178e80873b8bdeadf0722977e5f58
+INFO:root:Processing entry 1: Title='25 de abril na história', ID=8a09f4e9caebd4e871123fd940e624b6
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 24 de abril na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:HST-SM4.jpeg
-INFO:root:🔹 Description: Telescópio Espacial Hubble
-Dia Internacional das Meninas nas Tecnologias de Informação e Comunicação (2011); Dia Internacional do Multilateralismo e da Diplomacia para a Paz (2018); Proclamação da República Irlandesa (1916)
+INFO:root:🔹 Title: 25 de abril na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Revolu%C3%A7%C3%A3o_dos_Cravos.jpg
+INFO:root:🔹 Description: Revolução dos Cravos
+Dia Mundial da Luta contra a Malária (OMS, 2007)
 
-1646 – Invasões neerlandesas ao Brasil: ocorre a batalha de Tejucupapo, na atual cidade pernambucana de Goiana, entre forças neerlandesas e luso-brasileiras.
-1915 – O Império Otomano começa a deportação dos intelectuais armênios de Constantinopla, data considerada o início do genocídio armênio, que vitimou cerca de 1,5 milhão de pessoas.
-1990 – O Telescópio Espacial Hubble (imagem) é lançado ao espaço pelo ônibus espacial Discovery, na missão STS-31.
+1859 – A Companhia Universal do Canal Marítmo de Suez, de Ferdinand de Lesseps, inicia a construção do canal de Suez.
+1960 – O submarino da Marinha dos Estados Unidos USS Triton (SSRN/SSN-586) completa a primeira circunavegação submersa do globo.
+1974 – Em Portugal, o Movimento das Forças Armadas começa a Revolução dos Cravos (imagem), que põe fim ao regime autoritário do Estado Novo, vigente desde 1933.
 Nasceram neste dia…
-Guilherme I, Príncipe de Orange (1533–1584)  •  Erich Raeder (1876–1960)  •  José Sarney (n. 1930)  •  Maria da Conceição Tavares (1930–2024)
+Luís IX de França (1214–1270)  •  Carlota Joaquina de Bourbon (1775–1830)  •  Guglielmo Marconi (1874–1937)  •  Paulo Vanzolini (1924–2013)
 Morreram neste dia…
-Adélaïde Labille-Guiard (1749–1803)  •  Cassiano Branco (1897–1970)  •  Vladimir Komarov (1927–1967)  •  Sérgio Buarque de Holanda (1902–1982)
+Marcos, o Evangelista (c. 10 a.C.–68)  •  Sancho IV de Castela (1258–1295)  •  Torquato Tasso (1544–1595)  •  Ginger Rogers (1911–1995)
 
 
-Ver mais • Outros dias: 22 • 23 • 24 • 25 • 26 • Ver todos
+Ver mais • Outros dias: 23 • 24 • 25 • 26 • 27 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225312 characters
-INFO:root:HTML parsed, length: 223700 characters
+INFO:root:Response length: 224895 characters
+INFO:root:HTML parsed, length: 223283 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Bronze-winged_jacana_(Metopidius_indicus).jpg']
-INFO:root:Found 1 descriptions: ['Jaçanã-de-asa-de-bronze (Metopidius indicus) forra']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Grandes_Heures_Anne_de_Bretagne_Saint_Marc.jpg']
+INFO:root:Found 1 descriptions: ['Marcos, o Evangelista e o leão que o acompanha, re']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bronze-winged_jacana_%28Metopidius_indicus%29.jpg/960px-Bronze-winged_jacana_%28Metopidius_indicus%29.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Grandes_Heures_Anne_de_Bretagne_Saint_Marc.jpg/500px-Grandes_Heures_Anne_de_Bretagne_Saint_Marc.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -374,15 +389,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Bronze-winged_jacana_(Metopidius_indicus).jpg
-INFO:root:🔹 Description: Jaçanã-de-asa-de-bronze (Metopidius indicus) forrageia entre plantas aquáticas flutuantes no lago Vembanad em Querala, Índia. A espécie é muito comum no subcontinente indiano (mas não no Sri Lanka e no oeste do Paquistão) e no sudeste da Ásia, principalmente em áreas de planície.
-(resolução original: 4 650 × 3 100)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Grandes_Heures_Anne_de_Bretagne_Saint_Marc.jpg
+INFO:root:🔹 Description: Marcos, o Evangelista e o leão que o acompanha, retratados em uma miniatura de Les Grandes Heures d'Anne de Bretagne, um livro de horas feito por Jean Bourdichon para Ana da Bretanha.
+(resolução original: 3 168 × 3 168)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bronze-winged_jacana_%28Metopidius_indicus%29.jpg/960px-Bronze-winged_jacana_%28Metopidius_indicus%29.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Grandes_Heures_Anne_de_Bretagne_Saint_Marc.jpg/500px-Grandes_Heures_Anne_de_Bretagne_Saint_Marc.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -398,6 +413,7 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -406,20 +422,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  68 ++----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  25 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  53 ++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  40 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  51 ++---
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 109 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/atom.xml               |   6 +-
+ feeds/wikidestaque/feed.json              |   4 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 347 +++++++++++++-----------------
- 16 files changed, 264 insertions(+), 350 deletions(-)
+ output.log                                | 413 +++++++++++++++---------------
+ 17 files changed, 379 insertions(+), 365 deletions(-)
