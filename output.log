@@ -1,40 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119772 characters
-INFO:root:HTML parsed, length: 112679 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (27/04/2025)', 'Palavra de Ontem (26/04/2025)', 'Palavra de Anteontem (25/04/2025)']
-INFO:root:Found 3 URLs: ['/resplendor/', '/famigerada/', '/equidade/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Claridade excessiva; fulgor ', 'Sinônimos:\n\nauréola, halo, brilho, fulgor, glória,', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (27/04/2025)', 'Palavra de Ontem (26/04/2025)', 'Palavra de Anteontem (25/04/2025)']
+INFO:root:Response length: 117593 characters
+INFO:root:HTML parsed, length: 111074 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (28/04/2025)', 'Palavra de Ontem (27/04/2025)', 'Palavra de Anteontem (26/04/2025)']
+INFO:root:Found 3 URLs: ['/a-revelia-de/', '/resplendor/', '/famigerada/']
+INFO:root:Found 9 descriptions: ['locução prepositiva De maneira despercebida, ignor', 'Sílabas:à-re-ve-li-a', 'substantivo masculino Claridade excessiva; fulgor ']
+INFO:root:Found 3 dates: ['Palavra de Hoje (28/04/2025)', 'Palavra de Ontem (27/04/2025)', 'Palavra de Anteontem (26/04/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (27/04/2025)', ID=ebe634277f32c46e49f1b39fa754e4bc
-INFO:root:Processing entry 2: Title='Palavra de Ontem (26/04/2025)', ID=2a76bb666a2f9f9a49d00641b8747b3d
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/04/2025)', ID=7782335ec8df4cc64fb58a7caa4db654
+INFO:root:Processing entry 1: Title='Palavra de Hoje (28/04/2025)', ID=c11f1dd694d241de608b6985a005c5a5
+INFO:root:Processing entry 2: Title='Palavra de Ontem (27/04/2025)', ID=145c3d65deebaacb1c1b47b41451e6af
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (26/04/2025)', ID=78763b4458220782f9505a20886f613f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (27/04/2025) - Significado completo de resplendor:
+INFO:root:🔹 Title: Palavra de Hoje (28/04/2025) - Significado completo de à revelia de:
+INFO:root:🔹 URL: https://www.dicio.com.br/a-revelia-de/
+INFO:root:🔹 Description: locução prepositiva De maneira despercebida, ignorada; ignoradamente: à revelia do povo, aumentou o valor dos impostos.[Jurídico] Sem que uma das partes interessadas tenha conhecimento.Etimologia (origem de à revelia de). A locução prepositiva à revelia de deriva da junção do artigo a, da preposição a, da palavra revel, e do sufixo -ia.
+ Sílabas:à-re-ve-li-a
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (27/04/2025) - Significado completo de resplendor:
 INFO:root:🔹 URL: https://www.dicio.com.br/resplendor/
-INFO:root:🔹 Description: substantivo masculino Claridade excessiva; fulgor intenso.[Figurado] Conceito muito positivo que se tem sobre; brilho, glória, celebridade.Círculo luminoso pintado ao redor da cabeça dos santos; auréola.Adereço que, colocado em carros alegóricos, é composto por plumas ou penas.Etimologia (origem da palavra resplendor). Do latim resplendore.
+INFO:root:🔹 Description: Sílabas:à-re-ve-li-a
  
 Sinônimos:
 
 auréola, halo, brilho, fulgor, glória, celebridade 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (26/04/2025) - Significado completo de famigerada:
+INFO:root:🔹 Title: Palavra de Anteontem (26/04/2025) - Significado completo de famigerada:
 INFO:root:🔹 URL: https://www.dicio.com.br/famigerada/
-INFO:root:🔹 Description: Sinônimos:
-
-auréola, halo, brilho, fulgor, glória, celebridade
+INFO:root:🔹 Description: substantivo masculino Claridade excessiva; fulgor intenso.[Figurado] Conceito muito positivo que se tem sobre; brilho, glória, celebridade.Círculo luminoso pintado ao redor da cabeça dos santos; auréola.Adereço que, colocado em carros alegóricos, é composto por plumas ou penas.Etimologia (origem da palavra resplendor). Do latim resplendore.
  Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (25/04/2025) - Significado completo de equidade:
-INFO:root:🔹 URL: https://www.dicio.com.br/equidade/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:res-plen-dor
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +40,61 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237431 characters
-INFO:root:HTML parsed, length: 226912 characters
-INFO:root:Found 1 titles: ['Lucas 6:27']
-INFO:root:Found 1 URLs: ['/versiculo/lucas_6_27/']
-INFO:root:Found 1 descriptions: ['"Mas eu digo a vocês que estão me ouvindo: Amem os']
+INFO:root:Response length: 237399 characters
+INFO:root:HTML parsed, length: 226880 characters
+INFO:root:Found 1 titles: ['Hebreus 11:1']
+INFO:root:Found 1 URLs: ['/versiculo/hebreus_11_1/']
+INFO:root:Found 1 descriptions: ['Ora, a fé é a certeza daquilo que esperamos e a pr']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Lucas 6:27', ID=045c47cf308be9150a44ae9f72f4f18f
+INFO:root:Processing entry 1: Title='Hebreus 11:1', ID=63acff43bfbb55be7d453201bc8d7e0e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Lucas 6:27
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/lucas_6_27/
-INFO:root:🔹 Description: "Mas eu digo a vocês que estão me ouvindo: Amem os seus inimigos, façam o bem aos que os odeiam, Lucas 6:27
+INFO:root:🔹 Title: Hebreus 11:1
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_11_1/
+INFO:root:🔹 Description: Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos. Hebreus 11:1
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237935 characters
-INFO:root:HTML parsed, length: 228164 characters
-INFO:root:Found 3 titles: ['Salmo 42', 'Salmo 43', 'Salmo 66']
-INFO:root:Found 3 URLs: ['/salmos_42/', '/salmos_43/', '/salmos_66/']
-INFO:root:Found 3 descriptions: ['Como a corça anseia por águas correntes,\na minha a', 'Faze-me justiça, ó Deus,\ne defende a minha causa c', 'Aclamem a Deus, povos de toda terra! \nCantem louvo']
-INFO:root:Found 3 dates: ['27 de Abril de 2025', '26 de Abril de 2025', '25 de Abril de 2025']
+INFO:root:Response length: 236632 characters
+INFO:root:HTML parsed, length: 226839 characters
+INFO:root:Found 3 titles: ['Salmo 87', 'Salmo 42', 'Salmo 43']
+INFO:root:Found 3 URLs: ['/salmos_87/', '/salmos_42/', '/salmos_43/']
+INFO:root:Found 3 descriptions: ['O Senhor edificou sua cidade sobre o monte santo; ', 'Como a corça anseia por águas correntes,\na minha a', 'Faze-me justiça, ó Deus,\ne defende a minha causa c']
+INFO:root:Found 3 dates: ['28 de Abril de 2025', '27 de Abril de 2025', '26 de Abril de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 42', ID=e352ae45a826f961dc2f05b4efaed33f
-INFO:root:Processing entry 2: Title=' Salmo 43', ID=637739b6a41438cafeba86488eda1a45
-INFO:root:Processing entry 3: Title=' Salmo 66', ID=15a03b6e313ede2b2a4b5a3c41b598ff
+INFO:root:Processing entry 1: Title=' Salmo 87', ID=bed2fe69ca2fb77136c0a1a6108f450f
+INFO:root:Processing entry 2: Title=' Salmo 42', ID=e352ae45a826f961dc2f05b4efaed33f
+INFO:root:Processing entry 3: Title=' Salmo 43', ID=637739b6a41438cafeba86488eda1a45
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 87
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_87/
+INFO:root:🔹 Description: O Senhor edificou sua cidade sobre o monte santo; 
+ele ama as portas de Sião
+mais do que qualquer outro lugar de Jacó. 
+Coisas gloriosas são ditas de ti,
+ó cidade de Deus! 
+"Entre os que me reconhecem
+incluirei Raabe e Babilônia,
+além da Filístia, de Tiro,
+e também da Etiópia,
+como se tivessem nascido em Sião." 
+De fato, acerca de Sião se dirá:
+"Todos estes nasceram em Sião,
+e o próprio Altíssimo a estabelecerá". 
+O Senhor escreverá no registro dos povos:
+"Este nasceu ali". 
+Com danças e cânticos, dirão:
+"Em Sião estão as nossas origens!" 
+ Salmo 87
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 42
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_42/
 INFO:root:🔹 Description: Como a corça anseia por águas correntes,
@@ -156,132 +175,116 @@ Pois ainda o louvarei;
 ele é o meu Salvador e o meu Deus. 
  Salmo 43
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 66
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_66/
-INFO:root:🔹 Description: Aclamem a Deus, povos de toda terra! 
-Cantem louvores ao seu glorioso nome;
-louvem-no gloriosamente! 
-Digam a Deus:
-"Quão temíveis são os teus feitos!
-Tão grande é o teu poder que os teus inimigos
-rastejam diante de ti! 
-Toda a terra te adora
-e canta louvores a ti,
-canta louvores ao teu nome". 
-Venham e vejam o que Deus tem feito;
-como são impressionantes
-as suas obras em favor dos homens! 
-Ele transformou o mar em terra seca,
-e o povo atravessou as águas a pé;
-e ali nos alegramos nele. 
-Ele governa para sempre com o seu poder,
-seus olhos vigiam as nações;
-que os rebeldes
-não se levantem contra ele! 
-Bendigam o nosso Deus, ó povos,
-façam ressoar o som do seu louvor; 
-foi ele quem preservou a nossa vida
-impedindo que os nossos pés escorregassem. 
-Pois tu, ó Deus, nos submeteste à prova
-e nos refinaste como a prata. 
-Fizeste-nos cair numa armadilha
-e sobre nossas costas puseste fardos. 
-Deixaste que os inimigos cavalgassem
-sobre a nossa cabeça;
-passamos pelo fogo e pela água,
-mas a um lugar de fartura nos trouxeste. 
-Para o teu templo virei com holocaustos
-e cumprirei os meus votos para contigo, 
-votos que os meus lábios fizeram
-e a minha boca falou
-quando eu estava em dificuldade. 
-Oferecerei a ti animais gordos em holocausto;
-sacrificarei carneiros, cuja fumaça subirá a ti,
-e também novilhos e cabritos. 
-Venham e ouçam,
-todos vocês que temem a Deus;
-vou contar-lhes o que ele fez por mim. 
-A ele clamei com os lábios;
-com a língua o exaltei. 
-Se eu acalentasse o pecado no coração,
-o Senhor não me ouviria; 
-mas Deus me ouviu,
-deu atenção à oração que lhe dirigi. 
-Louvado seja Deus,
-que não rejeitou a minha oração
-nem afastou de mim o seu amor! 
- Salmo 66
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 239279 characters
-INFO:root:HTML parsed, length: 229146 characters
-INFO:root:Found 3 titles: ['Renove Sua Esperança, Seja Paciente e Ore!', 'Não se esqueça das bênçãos que Deus lhe deu', 'Não sabe o que fazer? Deus lhe mostrará o caminho']
+INFO:root:Response length: 238612 characters
+INFO:root:HTML parsed, length: 228480 characters
+INFO:root:Found 3 titles: ['O jejum que agrada a Deus', 'Renove Sua Esperança, Seja Paciente e Ore!', 'Não se esqueça das bênçãos que Deus lhe deu']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Alegrem-se na esperança, sejam pacientes na tribul', 'Bendiga o Senhor a minha alma!\nBendiga o Senhor to', 'Eu o instruirei e o ensinarei\nno caminho que você ']
-INFO:root:Found 1 dates: ['Domingo, 27 de abril de 2025']
+INFO:root:Found 3 descriptions: ['Não é partilhar sua comida\ncom o faminto,\nabrigar ', 'Alegrem-se na esperança, sejam pacientes na tribul', 'Bendiga o Senhor a minha alma!\nBendiga o Senhor to']
+INFO:root:Found 1 dates: ['Segunda, 28 de abril de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Renove Sua Esperança, Seja Paciente e Ore!', ID=569d06302ce4fde8da71055c95ea52f5
+INFO:root:Processing entry 1: Title='O jejum que agrada a Deus', ID=f5cb85ae6f6d19aef37d6dfcfdda5009
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Renove Sua Esperança, Seja Paciente e Ore! - Palavra de Hoje
+INFO:root:🔹 Title: O jejum que agrada a Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Alegrem-se na esperança, sejam pacientes na tribulação, perseverem na oração.
-- Romanos 12:12
+INFO:root:🔹 Description: Não é partilhar sua comida
+com o faminto,
+abrigar o pobre desamparado,
+vestir o nu que você encontrou,
+e não recusar ajuda ao próximo?
+Aí sim, a sua luz irromperá
+como a alvorada,
+e prontamente surgirá a sua cura;
+a sua retidão irá adiante de você,
+e a glória do Senhor estará
+na sua retaguarda.
+- Isaías 58:7-8
 
-A Palavra de Deus é poderosa. Em apenas um pequeno versículo vemos estas 4 coisas que todo crente precisa:
-1) Alegria: Se alegre com a esperança que tem em Jesus - a vida eterna.
+Os israelitas ficaram zangados porque, embora jejuassem, não conseguiram que Deus fizesse o que eles queriam. Que grande ignorância sobre quem é Deus e o que é o jejum! A realidade é que somos nós que servimos a Deus. Ele não é obrigado a fazer o que queremos, devemos buscar a sua vontade.
+Jejuar não é manipular Deus: é aproximar-se dele e permitir que Ele nos transforme mais à sua imagem. Paramos de comer para passar um tempo especial com Deus buscando sua vontade e pedindo a ele que nos ajude a refletir mais de seu amor e justiça.
+Jejuemos corretamente e agradeçamos a Deus com nosso jejum. Ao fazer isso, não seremos apenas uma bênção, mas receberemos uma bênção.
+Veja também:
 
-Porque a vontade de meu Pai é que todo aquele que olhar para o Filho e nele crer tenha a vida eterna, e eu o ressuscitarei no último dia". 
-- João 6:40
-
-2) Esperança: Essa esperança na vida eterna nos dá forças para viver.
-
-Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo! Conforme a sua grande misericórdia, ele nos regenerou para uma esperança viva, por meio da ressurreição de Jesus Cristo dentre os mortos,
-- 1 Pedro 1:3
-
-3) Paciência: Seja paciente quando problemas surgirem e confie em Deus. 
-
-Depositei toda a minha esperança no Senhor;
-ele se inclinou para mim
-e ouviu o meu grito de socorro.
-- Salmo 40:1
-
-4) Oração: Fique firme na sua vida de oração e não desista! 
-
-Saibam que o Senhor escolheu o piedoso;
-o Senhor ouvirá quando eu o invocar.
-- Salmo 4:3 
-
-Renove hoje sua esperança e confie em Deus. Ele não irá falhar com você.
-Encontre aqui mais versículos para renovar sua esperança.
+Versículos sobre Jejum
+Oração para Jejum
+Versículos sobre Jejum e Oração
  
-Alegrem-se na esperança, sejam pacientes na tribulação, perseverem na oração.
-- Romanos 12:12
+Versículos sobre Jejum
+Oração para Jejum
+Versículos sobre Jejum e Oração
+
+ 
+Não é partilhar sua comida
+com o faminto,
+abrigar o pobre desamparado,
+vestir o nu que você encontrou,
+e não recusar ajuda ao próximo?
+Aí sim, a sua luz irromperá
+como a alvorada,
+e prontamente surgirá a sua cura;
+a sua retidão irá adiante de você,
+e a glória do Senhor estará
+na sua retaguarda.
+- Isaías 58:7-8
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 248065 characters
-INFO:root:HTML parsed, length: 237713 characters
-INFO:root:Found 3 titles: ['Xô mau humor!', 'Deus fala em meio ao silêncio', 'Abra as portas do seu coração']
-INFO:root:Found 5 URLs: ['/vale_de_ossos_secos_estudo_biblico/', '/verdadeira_alegria_em_deus/', '/esperanca/']
-INFO:root:Found 3 descriptions: ['Não se associe\ncom quem vive de mau humor,\nnem and', 'Bom é ter esperança, e aguardar em silêncio a salv', 'Eis que estou à porta e bato. Se alguém ouvir a mi']
-INFO:root:Found 3 dates: ['ABRIL\n\n27\nDOMINGO', 'ABRIL\n\n26\nSÁBADO', 'ABRIL\n\n25\nSEXTA']
+INFO:root:Response length: 248218 characters
+INFO:root:HTML parsed, length: 237851 characters
+INFO:root:Found 3 titles: ['Tenha um coração agradecido!', 'Xô mau humor!', 'Deus fala em meio ao silêncio']
+INFO:root:Found 4 URLs: ['/vale_de_ossos_secos_estudo_biblico/', '/verdadeira_alegria_em_deus/', '/esperanca/']
+INFO:root:Found 3 descriptions: ['Deem graças em todas as circunstâncias, pois esta ', 'Não se associe\ncom quem vive de mau humor,\nnem and', 'Bom é ter esperança, e aguardar em silêncio a salv']
+INFO:root:Found 3 dates: ['ABRIL\n\n28\nSEGUNDA', 'ABRIL\n\n27\nDOMINGO', 'ABRIL\n\n26\nSÁBADO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Xô mau humor!', ID=7a58cdc89134c71c5295739e72698fcc
-INFO:root:Processing entry 2: Title='Deus fala em meio ao silêncio', ID=58dbbad3b49f6b37e014c4108f5516cd
-INFO:root:Processing entry 3: Title='Abra as portas do seu coração', ID=82cf7392b7582dd6f7a0fdad34e7ef61
+INFO:root:Processing entry 1: Title='Tenha um coração agradecido!', ID=6ca341209d256a20192d350c53964160
+INFO:root:Processing entry 2: Title='Xô mau humor!', ID=7a58cdc89134c71c5295739e72698fcc
+INFO:root:Processing entry 3: Title='Deus fala em meio ao silêncio', ID=58dbbad3b49f6b37e014c4108f5516cd
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Xô mau humor!
+INFO:root:🔹 Title: Tenha um coração agradecido!
 INFO:root:🔹 URL: https://www.bibliaon.com/vale_de_ossos_secos_estudo_biblico/
+INFO:root:🔹 Description: Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.
+1 Tessalonicenses 5:18
+
+Você provavelmente conhece alguém meio amargo, que vive se queixando de tudo, com o rosto carrancudo e mal humorado... É difícil conviver com pessoas assim, não é mesmo? Porque sempre enxergam a vida mais sombria e triste do que é na realidade e conseguem facilmente contaminar todos à sua volta com negativismo. Talvez você não apenas conheça, mas esteja se tornando alguém ingrato e desmotivado assim. Cuidado!
+A sua vida pode parecer difícil, mas observe todas as áreas... Você certamente tem muitos motivos para agradecer! O deserto parecia péssimo para os israelitas mas foi passando por lá que eles se livraram da escravidão no Egito. Também foi no deserto que eles tiveram que colocar a sua confiança em ação e depender de Deus. Lá viram milagres: Deus presente na nuvem de dia, na coluna de fogo à noite, fez água brotar da rocha e o maná cair do céu... O Senhor os sustentava diariamente e também sustenta você!
+Seja grato sempre!
+
+Confie e agradeça! A vontade de Deus para os seus filhos é que vivam pela fé em Jesus e que sejam gratos em todas as coisas.
+
+Lembre-se de todos os atos de bondade de Deus para você. O simples fato de estar respirando agora já é motivo de agradecer!
+
+
+Viva motivado pela fé na Palavra de Deus e não movido pelos sentimentos que as circunstâncias lhe trazem.
+
+
+Separe um momento do seu dia e para um pouco, ore e contemple as maravilhas de Deus.
+
+
+Agradeça pelo novo dia, pelos alimentos, pela saúde, pela família, pelo trabalho, pelos estudos, pela igreja, por seus amigos...  Deus sustenta a sua vida, então agradeça-lhe.
+
+
+Descarte da sua vida a reclamação e murmuração. Preencha o seu coração com gratidão e ações de graça!
+
+
+Compartilhe a Graça de Deus! Demonstre aos outros que a fé no Senhor Jesus pode trazer esperança, alegria e atitudes de gratidão.
+
+
+Para Orar:
+
+Querido Pai Celestial, obrigado por cuidar da minha vida. Obrigado porque posso falar, andar, ouvir, enxergar, pensar... Obrigado por poder respirar agora. Perdoa-me se tenho sido ingrato e dá-me um coração agradecido. Obrigado por ter enviado Seu Filho Jesus para nos salvar e perdoar. Obrigado por abrir os meus olhos para enxergar essa Verdade que me liberta todos os dias... Graças te dou pela saúde, pelo sustento diário e pelas pessoas que o Senhor colocou ao meu lado. Te agradeço pelo que Tu és, Senhor. Obrigado por tudo! Amém.
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Xô mau humor!
+INFO:root:🔹 URL: https://www.bibliaon.com/verdadeira_alegria_em_deus/
 INFO:root:🔹 Description: Não se associe
 com quem vive de mau humor,
 nem ande em companhia
@@ -311,7 +314,7 @@ Para Orar: 
 Senhor Deus, mesmo nos dias maus, Tu és a minha esperança. Livra-me das más influências, coloque no meu convívio pessoas que querem buscar mais a Ti. Amém!
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Deus fala em meio ao silêncio
-INFO:root:🔹 URL: https://www.bibliaon.com/verdadeira_alegria_em_deus/
+INFO:root:🔹 URL: https://www.bibliaon.com/esperanca/
 INFO:root:🔹 Description: Bom é ter esperança, e aguardar em silêncio a salvação do Senhor.
 - Lamentações 3:26 
 
@@ -335,41 +338,10 @@ Senhor, ensina-me a ouvir Tua voz no meio ao barulho do dia a dia. Que eu encont
 
 Veja também: Deus, fala comigo agora!
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Abra as portas do seu coração
-INFO:root:🔹 URL: https://www.bibliaon.com/esperanca/
-INFO:root:🔹 Description: Eis que estou à porta e bato. Se alguém ouvir a minha voz e abrir a porta, entrarei e cearei com ele, e ele comigo.
-- Apocalipse 3:20 
-
-Quantas vezes passamos por dias em que tudo parece estar trancado? Portas de oportunidades fechadas, sonhos engavetados, sentimentos escondidos. Nessas horas, a voz de Deus nos chama, não apenas para mudar as circunstâncias externas, mas para transformar o nosso interior.
-Jesus não força entrada. Ele bate. Espera. Chama com amor. E só entra se você abrir. Abrir o coração é mais do que somente sentir algo bonito, é um ato de rendição, de confiança. Significa entregar a Ele não só os bons sentimentos, mas também as dores, medos e inseguranças.
-Muitas vezes mantemos nosso coração fechado por traumas, decepções ou por acharmos que não somos dignos de receber o amor de Deus. Mas a verdade é que Ele não espera perfeição, Ele quer sinceridade. Ele quer morar em você, curar o que está quebrado e renovar o que foi perdido.
-Quando abrimos a porta do coração, damos espaço para a paz que excede todo entendimento. Recebemos direção, consolo e força para continuar. E, mais importante, passamos a viver em comunhão com Aquele que nos conhece melhor do que nós mesmos.
-Hoje, faça essa escolha. Não adie mais. Jesus está à porta. Ele quer cear com você. Quer fazer morada. Abra o seu coração.  
-
-Meu filho, dê-me o seu coração;
-mantenha os seus olhos
-em meus caminhos,
-- Provérbios 23:26
-
-Deixe Cristo entrar no seu coração 
-
-
-Escute a voz de Jesus: Reserve momentos de silêncio e oração para ouvir a voz de Cristo. Ele deseja guiar cada passo seu com sabedoria e compaixão.
-
-Entregue suas dores e medos: Não esconda suas feridas de Jesus. Confie a Ele suas angústias, traumas e inseguranças. Cristo transforma aquilo que parece perdido em fonte de cura e esperança renovada.
-
-Cultive comunhão diária com Deus: Abra seu coração todos os dias através da Palavra, louvor e oração. A presença de Cristo traz direção até nos dias mais difíceis da vida.
-
-Para orar: 
-
-Senhor Jesus, eu abro meu coração para Ti. Entra, transforma minha vida, cura minhas feridas e guia meus passos. Que Tua paz habite em mim e que eu viva segundo a Tua vontade. Amém.
-
-Veja também: Como se aproximar de Deus segundo a Bíblia
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225049 characters
-INFO:root:HTML parsed, length: 223472 characters
+INFO:root:Response length: 225543 characters
+INFO:root:HTML parsed, length: 223966 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 19 URLs: ['/wiki/All_God%27s_Children_Need_Traveling_Shoes', '/wiki/All_God%27s_Children_Need_Traveling_Shoes', '/wiki/Autobiografia']
 INFO:root:Found 1 descriptions: ["All God's Children Need Traveling Shoes é uma auto"]
@@ -397,44 +369,44 @@ Artigos bons: 1912
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225049 characters
-INFO:root:HTML parsed, length: 223472 characters
-INFO:root:Found 1 titles: ['26 de abril na história']
-INFO:root:Found 47 URLs: ['/wiki/Ficheiro:IAEA_02790015_(5613115146).jpg', '/wiki/Dia_Mundial_da_Propriedade_Intelectual', '/wiki/Organiza%C3%A7%C3%A3o_Mundial_da_Propriedade_Intelectual']
-INFO:root:Found 1 descriptions: ['Acidente nuclear de Chernobil\nDia Mundial da Propr']
+INFO:root:Response length: 225543 characters
+INFO:root:HTML parsed, length: 223966 characters
+INFO:root:Found 1 titles: ['27 de abril na história']
+INFO:root:Found 50 URLs: ['/wiki/Ficheiro:Samuel_Morse_with_his_Recorder_by_Brady,_1857.png', '/wiki/Dia_do_Rei_(Pa%C3%ADses_Baixos)', '/wiki/Pa%C3%ADses_Baixos']
+INFO:root:Found 1 descriptions: ['Samuel Morse\nDia do Rei nos Países Baixos; Dia da ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='26 de abril na história', ID=7c2a38789d1c57cbea7fa7cf949b4d40
+INFO:root:Processing entry 1: Title='27 de abril na história', ID=def33b36547746ec031553350df7c5dc
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 26 de abril na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:IAEA_02790015_(5613115146).jpg
-INFO:root:🔹 Description: Acidente nuclear de Chernobil
-Dia Mundial da Propriedade Intelectual (OMPI, 2000) • Dia Internacional em Memória do Desastre de Chernobil (2006)
+INFO:root:🔹 Title: 27 de abril na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Samuel_Morse_with_his_Recorder_by_Brady,_1857.png
+INFO:root:🔹 Description: Samuel Morse
+Dia do Rei nos Países Baixos; Dia da Independência do Togo (1960) e da Serra Leoa (1961)
 
-1500 – É realizada a primeira missa no Brasil, pelo frei Henrique de Coimbra.
-1937 – Guerra Civil Espanhola: Guernica, na Espanha, é bombardeada pela Luftwaffe.
-1986 – Ocorre o acidente nuclear de Chernobil (imagem) na cidade de Pripyat, na Ucrânia Soviética.
+1908 – Começam os Jogos Olímpicos de Verão de 1908, em Londres.
+1992 – A Rússia e outras doze ex-repúblicas soviéticas ingressam no Fundo Monetário Internacional e no Banco Mundial.
+2006 – Tem início a construção do One World Trade Center para o novo World Trade Center, em Nova Iorque.
 Nasceram neste dia…
-Marco Aurélio (121–180)  •  Pedro II de Portugal (1648–1706)  •  Eugène Delacroix (1798–1863)  •  João Barrento (n. 1940)
+Mary Wollstonecraft (1759–1797)  •  Samuel Morse (imagem) (1791–1872)  •  Walter Lantz (1899–1994)  •  Ranieri Mazzilli (1910–1975)
 Morreram neste dia…
-João Francisco Lisboa (1812–1863)  •  Mário de Sá-Carneiro (1890–1916)  •  Carl Bosch (1874–1940)  •  Morihei Ueshiba (1883–1969)
+William Jones (1746-1794)  •  Fernão de Magalhães (1480–1521)  •  Carlos Castaneda (1925–1998)  •  Mstislav Rostropovitch (1927–2007)
 
 
-Ver mais • Outros dias: 24 • 25 • 26 • 27 • 28 • Ver todos
+Ver mais • Outros dias: 25 • 26 • 27 • 28 • 29 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225049 characters
-INFO:root:HTML parsed, length: 223472 characters
+INFO:root:Response length: 225543 characters
+INFO:root:HTML parsed, length: 223966 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Serra_da_Mantiqueira_-_Acau%C3%A3_Cabral_(08).jpg']
-INFO:root:Found 1 descriptions: ['Pico do Itaguaré emergindo da neblina, fotografado']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Water_reflection_of_a_boy_feeding_hay_to_a_cow_in_a_paddy_field_at_golden_hour_in_Laos.jpg']
+INFO:root:Found 1 descriptions: ['Menino dá feno a uma vaca em um campo de arroz em ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Serra_da_Mantiqueira_-_Acau%C3%A3_Cabral_%2808%29.jpg/500px-Serra_da_Mantiqueira_-_Acau%C3%A3_Cabral_%2808%29.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Water_reflection_of_a_boy_feeding_hay_to_a_cow_in_a_paddy_field_at_golden_hour_in_Laos.jpg/960px-Water_reflection_of_a_boy_feeding_hay_to_a_cow_in_a_paddy_field_at_golden_hour_in_Laos.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -443,15 +415,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Serra_da_Mantiqueira_-_Acau%C3%A3_Cabral_(08).jpg
-INFO:root:🔹 Description: Pico do Itaguaré emergindo da neblina, fotografado do pico dos Marins, na serra da Mantiqueira, que marca a fronteira entre os estados brasileiros de Minas Gerais e São Paulo.
-(resolução original: 4 000 × 4 000)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Water_reflection_of_a_boy_feeding_hay_to_a_cow_in_a_paddy_field_at_golden_hour_in_Laos.jpg
+INFO:root:🔹 Description: Menino dá feno a uma vaca em um campo de arroz em Si Phan Don (“4 mil ilhas”), um arquipélago fluvial no rio Mecom, província de Champassak, no sul do Laos. É pontilhado por inúmeras ilhas, metade das quais ficam submersas quando o rio Mecom está em cheia. Si Phan Don faz fronteira com o Camboja e laços históricos e culturais unem as pessoas de ambos os lados da fronteira.
+(resolução original: 5 613 × 3 742)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Serra_da_Mantiqueira_-_Acau%C3%A3_Cabral_%2808%29.jpg/500px-Serra_da_Mantiqueira_-_Acau%C3%A3_Cabral_%2808%29.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Water_reflection_of_a_boy_feeding_hay_to_a_cow_in_a_paddy_field_at_golden_hour_in_Laos.jpg/960px-Water_reflection_of_a_boy_feeding_hay_to_a_cow_in_a_paddy_field_at_golden_hour_in_Laos.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -475,13 +447,13 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  53 +++--
- feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  49 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  62 ++---
+ feeds/devocional_de_hoje/feed.json        |  14 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  67 ++---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  10 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  75 ++++--
+ feeds/salmo_do_dia/atom.xml               |  75 ++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
@@ -490,5 +462,5 @@ INFO:root: feeds/devocional_de_hoje/atom.xml         |  53 +++--
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 372 ++++++++++++++++--------------
- 16 files changed, 373 insertions(+), 298 deletions(-)
+ output.log                                | 391 +++++++++++++-----------------
+ 16 files changed, 318 insertions(+), 391 deletions(-)
