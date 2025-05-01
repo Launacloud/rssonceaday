@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120164 characters
-INFO:root:HTML parsed, length: 113072 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (30/04/2025)', 'Palavra de Ontem (29/04/2025)', 'Palavra de Anteontem (28/04/2025)']
-INFO:root:Found 3 URLs: ['/coercao/', '/proposito/', '/a-revelia-de/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Ação de coagir, de forçar alg', 'Sinônimos:\n\ncoação, repressão, coibição', 'Antônimos:\n\nincoerção']
-INFO:root:Found 3 dates: ['Palavra de Hoje (30/04/2025)', 'Palavra de Ontem (29/04/2025)', 'Palavra de Anteontem (28/04/2025)']
+INFO:root:Response length: 120770 characters
+INFO:root:HTML parsed, length: 113357 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (01/05/2025)', 'Palavra de Ontem (30/04/2025)', 'Palavra de Anteontem (29/04/2025)']
+INFO:root:Found 3 URLs: ['/labor/', '/coercao/', '/proposito/']
+INFO:root:Found 16 descriptions: ['substantivo masculino Trabalho; atividade muito di', 'Sinônimos:\n\ntrabalho, afã, labuta, lida', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (01/05/2025)', 'Palavra de Ontem (30/04/2025)', 'Palavra de Anteontem (29/04/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (30/04/2025)', ID=3d1940df1b89715a6d6c19b93a880245
-INFO:root:Processing entry 2: Title='Palavra de Ontem (29/04/2025)', ID=48ca6edfc5c4f2607d3ea9f5fc2ad74b
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/04/2025)', ID=c35137c857eaecf3303c154d2dde3958
+INFO:root:Processing entry 1: Title='Palavra de Hoje (01/05/2025)', ID=ac053931d2f5dd09d46d5c85a79bcdc7
+INFO:root:Processing entry 2: Title='Palavra de Ontem (30/04/2025)', ID=8208697f296bf2cdbd26b948df929923
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/04/2025)', ID=0a0fca0d222a204b81e1098068d39ab0
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (30/04/2025) - Significado completo de coerção:
-INFO:root:🔹 URL: https://www.dicio.com.br/coercao/
-INFO:root:🔹 Description: substantivo feminino Ação de coagir, de forçar alguém a fazer alguma coisa; repressão.Repressão através da força; castigo, punição: houve coerção sobre os julgados.[Por Extensão] Ação que impede a realização de alguma coisa: coerção de provas.[Jurídico] Poder exercido pelo Estado para fazer com que a lei seja cumprida; coibição.Etimologia (origem da palavra coerção). Do latim coertio.onis.
+INFO:root:🔹 Title: Palavra de Hoje (01/05/2025) - Significado completo de labor:
+INFO:root:🔹 URL: https://www.dicio.com.br/labor/
+INFO:root:🔹 Description: substantivo masculino Trabalho; atividade muito difícil e demorada.Labuta; trabalho penoso que causa muito cansaço.Etimologia (origem da palavra labor). Do latim labor.oris.
  
 Sinônimos:
 
-coação, repressão, coibição 
+trabalho, afã, labuta, lida 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (29/04/2025) - Significado completo de propósito:
-INFO:root:🔹 URL: https://www.dicio.com.br/proposito/
+INFO:root:🔹 Title: Palavra de Ontem (30/04/2025) - Significado completo de coerção:
+INFO:root:🔹 URL: https://www.dicio.com.br/coercao/
 INFO:root:🔹 Description: Sinônimos:
 
-coação, repressão, coibição
- 
-Antônimos:
-
-incoerção 
-
+trabalho, afã, labuta, lida
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (28/04/2025) - Significado completo de à revelia de:
-INFO:root:🔹 URL: https://www.dicio.com.br/a-revelia-de/
-INFO:root:🔹 Description: Antônimos:
-
-incoerção
- Classe gramatical:substantivo feminino
+INFO:root:🔹 Title: Palavra de Anteontem (29/04/2025) - Significado completo de propósito:
+INFO:root:🔹 URL: https://www.dicio.com.br/proposito/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:la-bor
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,42 +42,97 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237140 characters
-INFO:root:HTML parsed, length: 226621 characters
-INFO:root:Found 1 titles: ['Naum 1:7']
-INFO:root:Found 1 URLs: ['/versiculo/naum_1_7/']
-INFO:root:Found 1 descriptions: ['O Senhor é bom,\num refúgio em tempos de angústia.\n']
+INFO:root:Response length: 237176 characters
+INFO:root:HTML parsed, length: 226657 characters
+INFO:root:Found 1 titles: ['Hebreus 13:15']
+INFO:root:Found 1 URLs: ['/versiculo/hebreus_13_15/']
+INFO:root:Found 1 descriptions: ['Por meio de Jesus, portanto, ofereçamos continuame']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Naum 1:7', ID=b8682aae9d35a0ec2275e2a7ce9bd549
+INFO:root:Processing entry 1: Title='Hebreus 13:15', ID=2c9d8b916cc5f6b2fb3263d702eff5af
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Naum 1:7
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/naum_1_7/
-INFO:root:🔹 Description: O Senhor é bom,
-um refúgio em tempos de angústia.
-Ele protege os que nele confiam, Naum 1:7
+INFO:root:🔹 Title: Hebreus 13:15
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_13_15/
+INFO:root:🔹 Description: Por meio de Jesus, portanto, ofereçamos continuamente a Deus um sacrifício de louvor, que é fruto de lábios que confessam o seu nome. Hebreus 13:15
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 236202 characters
-INFO:root:HTML parsed, length: 226392 characters
-INFO:root:Found 3 titles: ['Salmo 64', 'Salmo 137', 'Salmo 87']
-INFO:root:Found 3 URLs: ['/salmos_64/', '/salmos_137/', '/salmos_87/']
-INFO:root:Found 3 descriptions: ['Ouve-me, ó Deus, quando faço a minha queixa;\nprote', 'Junto aos rios da Babilônia\nnós nos sentamos e cho', 'O Senhor edificou sua cidade sobre o monte santo; ']
-INFO:root:Found 3 dates: ['30 de Abril de 2025', '29 de Abril de 2025', '28 de Abril de 2025']
+INFO:root:Response length: 237474 characters
+INFO:root:HTML parsed, length: 227686 characters
+INFO:root:Found 3 titles: ['Salmo 135', 'Salmo 64', 'Salmo 137']
+INFO:root:Found 3 URLs: ['/salmos_135/', '/salmos_64/', '/salmos_137/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo', 'Ouve-me, ó Deus, quando faço a minha queixa;\nprote', 'Junto aos rios da Babilônia\nnós nos sentamos e cho']
+INFO:root:Found 3 dates: ['1 de Maio de 2025', '30 de Abril de 2025', '29 de Abril de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 64', ID=c0e338202ef3a7c9360cc85f5e2fa4dc
-INFO:root:Processing entry 2: Title=' Salmo 137', ID=491c4125bdbea6fbf3c781fcbabba473
-INFO:root:Processing entry 3: Title=' Salmo 87', ID=bed2fe69ca2fb77136c0a1a6108f450f
+INFO:root:Processing entry 1: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
+INFO:root:Processing entry 2: Title=' Salmo 64', ID=c0e338202ef3a7c9360cc85f5e2fa4dc
+INFO:root:Processing entry 3: Title=' Salmo 137', ID=491c4125bdbea6fbf3c781fcbabba473
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 135
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_135/
+INFO:root:🔹 Description: Aleluia!
+Louvem o nome do Senhor;
+louvem-no, servos do Senhor, 
+vocês, que servem na casa do Senhor,
+nos pátios da casa de nosso Deus. 
+Louvem o Senhor, pois o Senhor é bom;
+cantem louvores ao seu nome,
+pois é nome amável. 
+Porque o Senhor escolheu Jacó;
+a Israel, como seu tesouro pessoal. 
+Na verdade, sei que o Senhor é grande,
+que o nosso Soberano é maior
+do que todos os deuses. 
+O Senhor faz tudo o que lhe agrada,
+nos céus e na terra,
+nos mares e em todas as suas profundezas. 
+Ele traz as nuvens desde os confins da terra;
+envia os relâmpagos que acompanham a chuva
+e faz que o vento saia dos seus depósitos. 
+Foi ele que matou os primogênitos do Egito,
+tanto dos homens como dos animais. 
+Ele realizou em pleno Egito
+sinais e maravilhas,
+contra o faraó e todos os seus conselheiros. 
+Foi ele que feriu muitas nações
+e matou reis poderosos: 
+Seom, rei dos amorreus,
+Ogue, rei de Basã,
+e todos os reinos de Canaã; 
+e deu a terra deles como herança,
+como herança a Israel, o seu povo. 
+O teu nome, Senhor,
+permanece para sempre,
+a tua fama, Senhor, por todas as gerações! 
+O Senhor defenderá o seu povo
+e terá compaixão dos seus servos. 
+Os ídolos das nações
+não passam de prata e ouro,
+feitos por mãos humanas. 
+Têm boca, mas não podem falar;
+olhos, mas não podem ver; 
+têm ouvidos, mas não podem escutar
+nem há respiração em sua boca. 
+Tornem-se como eles aqueles que os fazem
+e todos os que neles confiam. 
+Bendigam o Senhor, ó israelitas!
+Bendigam o Senhor, ó sacerdotes! 
+Bendigam o Senhor, ó levitas!
+Bendigam o Senhor
+os que temem o Senhor! 
+Bendito seja o Senhor desde Sião,
+aquele que habita em Jerusalém.
+Aleluia! 
+ Salmo 135
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 64
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_64/
 INFO:root:🔹 Description: Ouve-me, ó Deus, quando faço a minha queixa;
@@ -150,81 +199,87 @@ Feliz aquele que pegar os seus filhos
 e os despedaçar contra a rocha! 
  Salmo 137
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 87
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_87/
-INFO:root:🔹 Description: O Senhor edificou sua cidade sobre o monte santo; 
-ele ama as portas de Sião
-mais do que qualquer outro lugar de Jacó. 
-Coisas gloriosas são ditas de ti,
-ó cidade de Deus! 
-"Entre os que me reconhecem
-incluirei Raabe e Babilônia,
-além da Filístia, de Tiro,
-e também da Etiópia,
-como se tivessem nascido em Sião." 
-De fato, acerca de Sião se dirá:
-"Todos estes nasceram em Sião,
-e o próprio Altíssimo a estabelecerá". 
-O Senhor escreverá no registro dos povos:
-"Este nasceu ali". 
-Com danças e cânticos, dirão:
-"Em Sião estão as nossas origens!" 
- Salmo 87
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 238963 characters
-INFO:root:HTML parsed, length: 228844 characters
-INFO:root:Found 3 titles: ['Jesus, a luz do mundo', 'Deus, meu refúgio', 'O jejum que agrada a Deus']
+INFO:root:Response length: 239564 characters
+INFO:root:HTML parsed, length: 229439 characters
+INFO:root:Found 3 titles: ['Deus é o dono do ouro e da prata', 'Jesus, a luz do mundo', 'Deus, meu refúgio']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Falando novamente ao povo, Jesus disse: "Eu sou a ', 'Mas eu cantarei louvores à tua força;\nde manhã lou', 'Não é partilhar sua comida\ncom o faminto,\nabrigar ']
-INFO:root:Found 1 dates: ['Quarta, 30 de abril de 2025']
+INFO:root:Found 3 descriptions: ['Tanto a prata quanto o ouro me pertencem", declara', 'Falando novamente ao povo, Jesus disse: "Eu sou a ', 'Mas eu cantarei louvores à tua força;\nde manhã lou']
+INFO:root:Found 1 dates: ['Quinta, 1 de maio de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jesus, a luz do mundo', ID=54aa9660f88259cba808df08abd3fed8
+INFO:root:Processing entry 1: Title='Deus é o dono do ouro e da prata', ID=1a53bf07c7b10ab3f99a34d39b5a4ad6
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jesus, a luz do mundo - Palavra de Hoje
+INFO:root:🔹 Title: Deus é o dono do ouro e da prata - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Falando novamente ao povo, Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida".
-- João 8:12 
+INFO:root:🔹 Description: Tanto a prata quanto o ouro me pertencem", declara o Senhor dos Exércitos.
+- Ageu 2:8
 
-A sociedade moderna depende muito da luz elétrica. Quando há um apagão, as cidades ficam paralisadas. O trânsito fica caótico, as comunicações são cortadas e as famílias mergulham na incerteza. Percebemos o quão frágil tudo é sem essa fonte constante de energia.
-Mas há uma luz muito mais vital e importante: a luz de Cristo. Muitas pessoas hoje vivem na escuridão espiritual, acostumadas à escuridão do pecado, do medo e do vazio. Eles ignoram que existe uma luz capaz de dar direção, conforto e esperança. Essa luz é Jesus, e ele continua a brilhar para todos que desejam segui-lo.
-Nós também andamos na escuridão, sem direção ou propósito eterno. Mas um dia sua luz chegou até nós. Jesus iluminou nossas vidas, nos mostrou o caminho do perdão e nos fez novas criaturas. Agora, como filhos da luz, somos chamados a refletir essa mesma luz no mundo. 
-
-Porque outrora vocês eram trevas, mas agora são luz no Senhor. Vivam como filhos da luz,
-- Efésios 5:8 
-
-Leve a luz de Cristo com você aonde quer que você vá. Procure deixar que seu modo de viver, falar e amar ilumine aqueles ao seu redor e os ajude a entender o amor de Deus por eles e a necessidade que eles têm dele. Em um mundo que parece cada vez mais sombrio, você pode ser um farol guiando outros ao Salvador. Não esconda a sua luz: deixe-a brilhar intensamente, porque Jesus continua sendo a luz que transforma vidas. 
-Veja também: Versículos sobre a luz do mundo.
+Essa poderosa declaração de Deus, registrada pelo profeta Ageu, nos lembra de uma verdade fundamental: tudo o que existe pertence ao Senhor. Em um mundo onde muitas pessoas colocam sua confiança nas riquezas, Deus reafirma que Ele é o verdadeiro dono de tudo, inclusive do ouro e da prata.
+Esse versículo foi dado em um momento em que o povo de Israel havia retornado do exílio e enfrentava dificuldades para reconstruir o templo. Muitos estavam desanimados por não terem os mesmos recursos ou a mesma glória do templo anterior. Mas Deus, por meio do profeta, os encorajou dizendo que a glória da nova casa seria ainda maior, pois Ele mesmo estava no controle, e tudo o que é valioso neste mundo já Lhe pertence.
+Quando compreendemos que Deus é o dono de todas as riquezas, aprendemos a confiar menos nas coisas materiais e mais em Sua provisão. As riquezas deste mundo são passageiras, mas o Senhor é eterno. Ele supre nossas necessidades, não segundo o que temos no bolso, mas segundo Sua infinita graça e poder.
+Esse versículo também nos convida à fidelidade. Já que tudo é de Deus, inclusive nossos bens, somos apenas mordomos daquilo que Ele nos confia. Devemos usar o que temos com sabedoria, generosidade e temor a Deus, lembrando que um dia prestaremos contas ao verdadeiro Dono de tudo.
+Em tempos de abundância ou escassez, que confiemos em Deus como nosso provedor. Ele é dono do ouro, da prata e de nossas vidas. Que nosso coração esteja mais voltado ao Senhor do que às riquezas. Pois onde está o nosso tesouro, ali também estará o nosso coração (Mateus 6:21).
+Veja também: Explicação de Ageu 2:9: a glória da segunda será maior que a da primeira
  
-Versículos sobre Jejum
-Oração para Jejum
-Versículos sobre Jejum e Oração
-
- 
-Falando novamente ao povo, Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida".
-- João 8:12 
+Tanto a prata quanto o ouro me pertencem", declara o Senhor dos Exércitos.
+- Ageu 2:8
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 248274 characters
-INFO:root:HTML parsed, length: 237909 characters
-INFO:root:Found 3 titles: ['Olha a Boca!', 'Vencendo vem Jesus', 'Tenha um coração agradecido!']
-INFO:root:Found 1 URLs: ['/palavra_do_dia_fortaleca_sua_fe_hoje/']
-INFO:root:Found 3 descriptions: ['Se alguém se considera religioso, mas não refreia ', 'Eis que ele vem\ncom as nuvens,\ne todo olho o verá,', 'Deem graças em todas as circunstâncias, pois esta ']
-INFO:root:Found 3 dates: ['ABRIL\n\n30\nQUARTA', 'ABRIL\n\n29\nTERÇA', 'ABRIL\n\n28\nSEGUNDA']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Olha a Boca!', ID=ebd218e65e65361b08c480e224563345
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 248312 characters
+INFO:root:HTML parsed, length: 237967 characters
+INFO:root:Found 3 titles: ['Deus pode te ajudar a tomar boas escolhas', 'Olha a Boca!', 'Vencendo vem Jesus']
+INFO:root:Found 2 URLs: ['/versiculos_sabedoria/', '/palavra_do_dia_fortaleca_sua_fe_hoje/']
+INFO:root:Found 3 descriptions: ['Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'Se alguém se considera religioso, mas não refreia ', 'Eis que ele vem\ncom as nuvens,\ne todo olho o verá,']
+INFO:root:Found 3 dates: ['MAIO\n\n1\nQUINTA', 'ABRIL\n\n30\nQUARTA', 'ABRIL\n\n29\nTERÇA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Deus pode te ajudar a tomar boas escolhas', ID=9cf8278126a0d6bec9724491abc14a4c
+INFO:root:Processing entry 2: Title='Olha a Boca!', ID=ebd218e65e65361b08c480e224563345
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Deus pode te ajudar a tomar boas escolhas
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_sabedoria/
+INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
+confie nele, e ele agirá:
+- Salmos 37:5 
+
+Tomar decisões nem sempre é fácil. Em muitos momentos da vida, nos deparamos com encruzilhadas que exigem sabedoria, discernimento e coragem. Nessas horas, lembrar que Deus está disposto a nos ajudar pode fazer toda a diferença. Ele não nos criou para caminharmos sozinhos ou tomarmos decisões baseadas apenas em nossa própria compreensão.
+Deus sabe de todas as coisas. Ele vê além do que conseguimos enxergar, e é por isso que confiar n’Ele é o melhor caminho para fazer boas escolhas. Quando buscamos a direção de Deus em oração, com um coração humilde e sincero, Ele nos orienta, mesmo que de forma sutil. Às vezes, Ele usa Sua Palavra, outras vezes, nos fala por meio de pessoas, circunstâncias ou até pela paz em nossos corações.
+É importante também alinhar nossas vontades à vontade de Deus. Nem sempre o que queremos é o que Ele deseja para nós, isso não significa que Ele é contra nossa felicidade. Ele quer o melhor para seus filhos, e Seu plano é sempre maior e melhor do que podemos imaginar.
+Antes de decidir algo importante, ore, leia a Bíblia, busque conselhos sábios e espere com paciência. Deus honra aqueles que o buscam de todo o coração. Suas escolhas serão mais seguras quando feitas com Ele no centro. 
+
+Confie no Senhor de todo o seu coração
+e não se apoie
+em seu próprio entendimento;
+reconheça o Senhor
+em todos os seus caminhos,
+e ele endireitará as suas veredas.
+- Provérbios 3:5-6 
+
+Tomando boas escolhas 
+
+
+Busque a direção de Deus em oração: Antes de decidir, ore com sinceridade. Deus responde aos que o buscam de coração, oferecendo sabedoria para escolher com segurança e paz.
+
+Confie na sabedoria de Deus: Nossas emoções podem enganar, mas Deus vê além. Confiar n’Ele é o caminho para decisões que trazem frutos duradouros e bênçãos.
+
+Alinhe seus desejos com a vontade de Deus: Quando entregamos nossos planos ao Senhor, Ele nos guia. Suas escolhas sempre visam o nosso bem, mesmo quando não compreendemos no momento.
+
+Para orar: 
+
+Senhor Deus, entrego a Ti minhas decisões e caminhos. Dá-me sabedoria para escolher conforme a Tua vontade. Que eu não me apoie no meu próprio entendimento, mas confie em Ti com todo o coração. Guia meus passos, abre portas certas e fecha as erradas. Que minha vida reflita Tua direção e graça. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre adquirir sabedoria
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Olha a Boca!
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia_fortaleca_sua_fe_hoje/
 INFO:root:🔹 Description: Se alguém se considera religioso, mas não refreia a sua língua, engana-se a si mesmo. Sua religião não tem valor algum!
@@ -245,8 +300,8 @@ Deus meu e meu Pai, te peço que me perdoes por todas as vezes que falhei e xing
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225545 characters
-INFO:root:HTML parsed, length: 223968 characters
+INFO:root:Response length: 225844 characters
+INFO:root:HTML parsed, length: 224267 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 23 URLs: ['/wiki/A_Song_Flung_Up_to_Heaven', '/wiki/A_Song_Flung_Up_to_Heaven', '/wiki/Autobiografia']
 INFO:root:Found 1 descriptions: ['A Song Flung Up to Heaven é uma autobiografia da e']
@@ -274,45 +329,44 @@ Artigos bons: 1912
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225545 characters
-INFO:root:HTML parsed, length: 223968 characters
-INFO:root:Found 1 titles: ['30 de abril na história']
-INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Dorival_Caymmi_1941_rev_Carioca.jpg', '/wiki/Dia_da_Reunifica%C3%A7%C3%A3o', '/wiki/Vietn%C3%A3']
-INFO:root:Found 1 descriptions: ['Dorival Caymmi\nDia da Reunificação no Vietnã (1975']
+INFO:root:Response length: 225844 characters
+INFO:root:HTML parsed, length: 224267 characters
+INFO:root:Found 1 titles: ['1 de maio na história']
+INFO:root:Found 46 URLs: ['/wiki/Ficheiro:Jose_de_Alencar.png', '/wiki/Dia_do_Trabalhador', '/wiki/Dia_da_Lealdade_(Estados_Unidos)']
+INFO:root:Found 1 descriptions: ['José de Alencar\nDia do Trabalhador (1889); Dia da ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='30 de abril na história', ID=bb809ced269418366b35c9c189b8703f
+INFO:root:Processing entry 1: Title='1 de maio na história', ID=95c9eaa2a6b776567932bf34c39befa4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 30 de abril na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Dorival_Caymmi_1941_rev_Carioca.jpg
-INFO:root:🔹 Description: Dorival Caymmi
-Dia da Reunificação no Vietnã (1975); Dia Internacional do Jazz (2011)
+INFO:root:🔹 Title: 1 de maio na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Jose_de_Alencar.png
+INFO:root:🔹 Description: José de Alencar
+Dia do Trabalhador (1889); Dia da Lealdade nos Estados Unidos (1921)
 
-313 – O imperador romano Licínio unifica todo o Império Romano do Oriente.
-1854 – É inaugurada a primeira ferrovia do Brasil em seu trecho inicial, ligando o porto de Mauá a Fragoso, no Rio de Janeiro.
-1900 –  O Havaí torna-se um território dos Estados Unidos.
+1931 – É inaugurado o Empire State Building, em Nova Iorque.
+1943 – O presidente do Brasil Getúlio Vargas cria a Consolidação das Leis do Trabalho.
+2011 – O Papa João Paulo II é beatificado por seu sucessor, o Papa Bento XVI.
 Nasceram neste dia…
-Carl Friedrich Gauss (1777–1855)  •  Dorival Caymmi (imagem) (1914–2008)  •  António Guterres (n. 1949)  •  
-Lars von Trier (n. 1956)
+Arthur Colley Wellesley (1769–1852)  •  José de Alencar (imagem) (1829–1877)  •  Sidónio Pais (1872–1918)  •  Fernanda Young (1970–2019)
 Morreram neste dia…
-Lucano (39–65)  •  Adolf Hitler (1889–1945)  •  Ernesto Sabato (1911–2011)  •  Beth Carvalho (1946–2019)
+Arcádio (377–408)  •  Papa Pio V (1504–1572)  •  Joseph Goebbels (1897–1945)  •  Ayrton Senna (1960–1994)
 
 
-Ver mais • Outros dias: 28 • 29 • 30 • 1 • 2 • Ver todos
+Ver mais • Outros dias: 29 • 30 • 1 • 2 • 3 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225545 characters
-INFO:root:HTML parsed, length: 223968 characters
+INFO:root:Response length: 225844 characters
+INFO:root:HTML parsed, length: 224267 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Yom_Kippur_War_(G-1-4063-%D7%93%D7%A6).jpg']
-INFO:root:Found 1 descriptions: ['Em 1 de outubro de 1973, o chefe do Estado-Maior i']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg']
+INFO:root:Found 1 descriptions: ['Igreja de São Nicolau, submersa, no vale de Mavrov']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Yom_Kippur_War_%28G-1-4063-%D7%93%D7%A6%29.jpg/960px-Yom_Kippur_War_%28G-1-4063-%D7%93%D7%A6%29.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg/960px-%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -321,15 +375,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Yom_Kippur_War_(G-1-4063-%D7%93%D7%A6).jpg
-INFO:root:🔹 Description: Em 1 de outubro de 1973, o chefe do Estado-Maior israelense, David Elazar, participa de uma reunião na sede do Comando Regional do Norte durante a Guerra do Yom Kippur. Neste ano, o Yom HaZikaron cai em 30 de abril, um dia tradicionalmente dedicado aos soldados mortos nas guerras de Israel, mas a comemoração também foi estendida às vítimas civis do terrorismo.
-(resolução original: 4 874 × 3 255)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg
+INFO:root:🔹 Description: Igreja de São Nicolau, submersa, no vale de Mavrovo, Macedônia do Norte. Ela foi construída em 1850 no vilarejo de Mavrovo, que foi submerso em 1953 quando o lago de mesmo nome foi criado para alimentar uma usina hidrelétrica. Apesar de estar submersa, a igreja preservou sua construção inicial. Sua torre sineira ainda existe, embora o interior da igreja esteja destruído e o teto tenha desabado completamente. A igreja foi incluída na lista de igrejas abandonadas publicada em 2013 pelo HuffPost.
+(resolução original: 3 814 × 2 542)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Yom_Kippur_War_%28G-1-4063-%D7%93%D7%A6%29.jpg/960px-Yom_Kippur_War_%28G-1-4063-%D7%93%D7%A6%29.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg/960px-%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -345,7 +399,6 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -354,21 +407,20 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  88 +-----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  37 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  34 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  30 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  85 +++---
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  76 +++++--
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   8 +-
- feeds/wikidestaque/feed.json              |   4 +-
+ feeds/wikidestaque/atom.xml               |   2 +-
  feeds/wikidia/atom.xml                    |  17 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 427 +++++++++++-------------------
- 17 files changed, 266 insertions(+), 508 deletions(-)
+ output.log                                | 337 +++++++++++++++++-------------
+ 16 files changed, 342 insertions(+), 252 deletions(-)
