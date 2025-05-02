@@ -1,40 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120770 characters
-INFO:root:HTML parsed, length: 113357 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (01/05/2025)', 'Palavra de Ontem (30/04/2025)', 'Palavra de Anteontem (29/04/2025)']
-INFO:root:Found 3 URLs: ['/labor/', '/coercao/', '/proposito/']
-INFO:root:Found 16 descriptions: ['substantivo masculino Trabalho; atividade muito di', 'Sinônimos:\n\ntrabalho, afã, labuta, lida', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (01/05/2025)', 'Palavra de Ontem (30/04/2025)', 'Palavra de Anteontem (29/04/2025)']
+INFO:root:Response length: 118354 characters
+INFO:root:HTML parsed, length: 111515 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (02/05/2025)', 'Palavra de Ontem (01/05/2025)', 'Palavra de Anteontem (30/04/2025)']
+INFO:root:Found 3 URLs: ['/centuplo/', '/labor/', '/coercao/']
+INFO:root:Found 13 descriptions: ['numeral Que vale cem vezes outro tanto; que contém', 'Classe gramatical:numeral e substantivo masculino', 'Sílabas:cên-tu-plo']
+INFO:root:Found 3 dates: ['Palavra de Hoje (02/05/2025)', 'Palavra de Ontem (01/05/2025)', 'Palavra de Anteontem (30/04/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (01/05/2025)', ID=ac053931d2f5dd09d46d5c85a79bcdc7
-INFO:root:Processing entry 2: Title='Palavra de Ontem (30/04/2025)', ID=8208697f296bf2cdbd26b948df929923
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/04/2025)', ID=0a0fca0d222a204b81e1098068d39ab0
+INFO:root:Processing entry 1: Title='Palavra de Hoje (02/05/2025)', ID=2de11d6f135a28cbfa99c3640f30cd15
+INFO:root:Processing entry 2: Title='Palavra de Ontem (01/05/2025)', ID=90158ac18bddca895afbc15feb358c3a
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/04/2025)', ID=81537d9ef553912671bada1d92e459b7
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (01/05/2025) - Significado completo de labor:
+INFO:root:🔹 Title: Palavra de Hoje (02/05/2025) - Significado completo de cêntuplo:
+INFO:root:🔹 URL: https://www.dicio.com.br/centuplo/
+INFO:root:🔹 Description: numeral Que vale cem vezes outro tanto; que contém cem vezes outra coisa.substantivo masculino O número centuplicado; o produto da multiplicação de algo por cem: mil é um número cêntuplo de dez.locução adverbial Ao cêntuplo. Cem vezes mais; muito mais.Etimologia (origem da palavra cêntuplo). A palavra cêntuplo deriva do latim "sentuplu-", com o mesmo sentido.
+ Classe gramatical:numeral e substantivo masculino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (01/05/2025) - Significado completo de labor:
 INFO:root:🔹 URL: https://www.dicio.com.br/labor/
-INFO:root:🔹 Description: substantivo masculino Trabalho; atividade muito difícil e demorada.Labuta; trabalho penoso que causa muito cansaço.Etimologia (origem da palavra labor). Do latim labor.oris.
+INFO:root:🔹 Description: Classe gramatical:numeral e substantivo masculino
+ Sílabas:cên-tu-plo
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (30/04/2025) - Significado completo de coerção:
+INFO:root:🔹 URL: https://www.dicio.com.br/coercao/
+INFO:root:🔹 Description: Sílabas:cên-tu-plo
  
 Sinônimos:
 
 trabalho, afã, labuta, lida 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (30/04/2025) - Significado completo de coerção:
-INFO:root:🔹 URL: https://www.dicio.com.br/coercao/
-INFO:root:🔹 Description: Sinônimos:
-
-trabalho, afã, labuta, lida
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (29/04/2025) - Significado completo de propósito:
-INFO:root:🔹 URL: https://www.dicio.com.br/proposito/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:la-bor
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +40,68 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237176 characters
-INFO:root:HTML parsed, length: 226657 characters
-INFO:root:Found 1 titles: ['Hebreus 13:15']
-INFO:root:Found 1 URLs: ['/versiculo/hebreus_13_15/']
-INFO:root:Found 1 descriptions: ['Por meio de Jesus, portanto, ofereçamos continuame']
+INFO:root:Response length: 237177 characters
+INFO:root:HTML parsed, length: 226658 characters
+INFO:root:Found 1 titles: ['Isaías 6:8']
+INFO:root:Found 1 URLs: ['/versiculo/isaias_6_8/']
+INFO:root:Found 1 descriptions: ['Então ouvi a voz do Senhor, conclamando: "Quem env']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Hebreus 13:15', ID=2c9d8b916cc5f6b2fb3263d702eff5af
+INFO:root:Processing entry 1: Title='Isaías 6:8', ID=a18078dbb5ba49acd140a583f4d3d6ba
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Hebreus 13:15
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_13_15/
-INFO:root:🔹 Description: Por meio de Jesus, portanto, ofereçamos continuamente a Deus um sacrifício de louvor, que é fruto de lábios que confessam o seu nome. Hebreus 13:15
+INFO:root:🔹 Title: Isaías 6:8
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/isaias_6_8/
+INFO:root:🔹 Description: Então ouvi a voz do Senhor, conclamando: "Quem enviarei? Quem irá por nós?"
+E eu respondi: Eis-me aqui. Envia-me! Isaías 6:8
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237474 characters
-INFO:root:HTML parsed, length: 227686 characters
-INFO:root:Found 3 titles: ['Salmo 135', 'Salmo 64', 'Salmo 137']
-INFO:root:Found 3 URLs: ['/salmos_135/', '/salmos_64/', '/salmos_137/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo', 'Ouve-me, ó Deus, quando faço a minha queixa;\nprote', 'Junto aos rios da Babilônia\nnós nos sentamos e cho']
-INFO:root:Found 3 dates: ['1 de Maio de 2025', '30 de Abril de 2025', '29 de Abril de 2025']
+INFO:root:Response length: 237336 characters
+INFO:root:HTML parsed, length: 227544 characters
+INFO:root:Found 3 titles: ['Salmo 14', 'Salmo 135', 'Salmo 64']
+INFO:root:Found 3 URLs: ['/salmos_14/', '/salmos_135/', '/salmos_64/']
+INFO:root:Found 3 descriptions: ['Diz o tolo em seu coração: "Deus não existe".\nCorr', 'Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo', 'Ouve-me, ó Deus, quando faço a minha queixa;\nprote']
+INFO:root:Found 3 dates: ['2 de Maio de 2025', '1 de Maio de 2025', '30 de Abril de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
-INFO:root:Processing entry 2: Title=' Salmo 64', ID=c0e338202ef3a7c9360cc85f5e2fa4dc
-INFO:root:Processing entry 3: Title=' Salmo 137', ID=491c4125bdbea6fbf3c781fcbabba473
+INFO:root:Processing entry 1: Title=' Salmo 14', ID=44f8a1cc34f2b4ef56ad4bc3dcedfb6c
+INFO:root:Processing entry 2: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
+INFO:root:Processing entry 3: Title=' Salmo 64', ID=c0e338202ef3a7c9360cc85f5e2fa4dc
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 14
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_14/
+INFO:root:🔹 Description: Diz o tolo em seu coração: "Deus não existe".
+Corromperam-se e cometeram atos detestáveis;
+não há ninguém que faça o bem. 
+O Senhor olha dos céus
+para os filhos dos homens,
+para ver se há alguém que tenha entendimento,
+alguém que busque a Deus. 
+Todos se desviaram,
+igualmente se corromperam;
+não há ninguém que faça o bem,
+não há nem um sequer. 
+Será que nenhum dos malfeitores aprende?
+Eles devoram o meu povo
+como quem come pão
+e não clamam pelo Senhor! 
+Olhem! Estão tomados de pavor!
+Pois Deus está presente no meio dos justos. 
+Vocês, malfeitores,
+frustram os planos dos pobres,
+mas o refúgio deles é o Senhor. 
+Ah, se de Sião viesse a salvação para Israel!
+Quando o Senhor restaurar o seu povo,
+Jacó exultará! Israel se regozijará! 
+ Salmo 14
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 135
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_135/
 INFO:root:🔹 Description: Aleluia!
@@ -166,86 +192,79 @@ e nele busquem refúgio;
 congratulem-se todos os retos de coração! 
  Salmo 64
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 137
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_137/
-INFO:root:🔹 Description: Junto aos rios da Babilônia
-nós nos sentamos e choramos
-com saudade de Sião. 
-Ali, nos salgueiros,
-penduramos as nossas harpas; 
-ali os nossos captores pediam-nos canções,
-os nossos opressores exigiam
-canções alegres, dizendo:
-"Cantem para nós uma das canções de Sião!" 
-Como poderíamos cantar
-as canções do Senhor
-numa terra estrangeira? 
-Que a minha mão direita definhe,
-ó Jerusalém, se eu me esquecer de ti! 
-Que me grude a língua ao céu da boca,
-se eu não me lembrar de ti
-e não considerar Jerusalém
-a minha maior alegria! 
-Lembra-te, Senhor, dos edomitas
-e do que fizeram
-quando Jerusalém foi destruída,
-pois gritavam: "Arrasem-na!
-Arrasem-na até aos alicerces!" 
-Ó cidade de Babilônia,
-destinada à destruição,
-feliz aquele que lhe retribuir
-o mal que você nos fez! 
-Feliz aquele que pegar os seus filhos
-e os despedaçar contra a rocha! 
- Salmo 137
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 239564 characters
-INFO:root:HTML parsed, length: 229439 characters
-INFO:root:Found 3 titles: ['Deus é o dono do ouro e da prata', 'Jesus, a luz do mundo', 'Deus, meu refúgio']
+INFO:root:Response length: 239462 characters
+INFO:root:HTML parsed, length: 229330 characters
+INFO:root:Found 3 titles: ['Deus restaura o que foi quebrado', 'Deus é o dono do ouro e da prata', 'Jesus, a luz do mundo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Tanto a prata quanto o ouro me pertencem", declara', 'Falando novamente ao povo, Jesus disse: "Eu sou a ', 'Mas eu cantarei louvores à tua força;\nde manhã lou']
-INFO:root:Found 1 dates: ['Quinta, 1 de maio de 2025']
+INFO:root:Found 3 descriptions: ['Não tenha medo; você não sofrerá vergonha. Não tem', 'Tanto a prata quanto o ouro me pertencem", declara', 'Falando novamente ao povo, Jesus disse: "Eu sou a ']
+INFO:root:Found 1 dates: ['Sexta, 2 de maio de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus é o dono do ouro e da prata', ID=1a53bf07c7b10ab3f99a34d39b5a4ad6
+INFO:root:Processing entry 1: Title='Deus restaura o que foi quebrado', ID=47d2c0744f167845d41e3069f84131c4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus é o dono do ouro e da prata - Palavra de Hoje
+INFO:root:🔹 Title: Deus restaura o que foi quebrado - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Tanto a prata quanto o ouro me pertencem", declara o Senhor dos Exércitos.
-- Ageu 2:8
+INFO:root:🔹 Description: Não tenha medo; você não sofrerá vergonha. Não tema o constrangimento; você não será humilhada. Você esquecerá a vergonha de sua juventude e não se lembrará mais da humilhação de sua viuvez.
+- Isaías 54:4 
 
-Essa poderosa declaração de Deus, registrada pelo profeta Ageu, nos lembra de uma verdade fundamental: tudo o que existe pertence ao Senhor. Em um mundo onde muitas pessoas colocam sua confiança nas riquezas, Deus reafirma que Ele é o verdadeiro dono de tudo, inclusive do ouro e da prata.
-Esse versículo foi dado em um momento em que o povo de Israel havia retornado do exílio e enfrentava dificuldades para reconstruir o templo. Muitos estavam desanimados por não terem os mesmos recursos ou a mesma glória do templo anterior. Mas Deus, por meio do profeta, os encorajou dizendo que a glória da nova casa seria ainda maior, pois Ele mesmo estava no controle, e tudo o que é valioso neste mundo já Lhe pertence.
-Quando compreendemos que Deus é o dono de todas as riquezas, aprendemos a confiar menos nas coisas materiais e mais em Sua provisão. As riquezas deste mundo são passageiras, mas o Senhor é eterno. Ele supre nossas necessidades, não segundo o que temos no bolso, mas segundo Sua infinita graça e poder.
-Esse versículo também nos convida à fidelidade. Já que tudo é de Deus, inclusive nossos bens, somos apenas mordomos daquilo que Ele nos confia. Devemos usar o que temos com sabedoria, generosidade e temor a Deus, lembrando que um dia prestaremos contas ao verdadeiro Dono de tudo.
-Em tempos de abundância ou escassez, que confiemos em Deus como nosso provedor. Ele é dono do ouro, da prata e de nossas vidas. Que nosso coração esteja mais voltado ao Senhor do que às riquezas. Pois onde está o nosso tesouro, ali também estará o nosso coração (Mateus 6:21).
-Veja também: Explicação de Ageu 2:9: a glória da segunda será maior que a da primeira
+O versículo de Isaías 54:4 traz uma mensagem poderosa de consolo e esperança. Ele fala diretamente ao coração ferido, àquele que já passou por vergonha, dor e perdas profundas. Deus, por meio do profeta Isaías, nos diz: “Não tenha medo; você não sofrerá vergonha.” Essa é uma promessa de restauração e cura para todos que já foram marcados pela tristeza ou rejeição.
+Muitas vezes, carregamos a dor do passado como um peso. A vergonha da juventude, os erros cometidos, as perdas, a solidão... tudo isso parece nos seguir como sombras. Mas Deus promete que isso ficará para trás. Ele nos chama para uma nova vida, onde a vergonha e a humilhação não terão mais poder sobre nós.
+Deus não somente apaga o passado, Ele também nos dá um futuro cheio de dignidade e honra. Ele nos vê com amor, não com condenação. Ele não nos define pelos nossos erros ou pela dor que passamos. Pelo contrário, Ele nos acolhe, cura nossas feridas e nos cobre com Sua graça.
+A promessa de Isaías é para todos: mulheres, homens, jovens, idosos. Todos que já sentiram vergonha ou humilhação podem encontrar abrigo e nova identidade em Deus. Em Cristo, somos renovados. O passado já não nos prende; o futuro é de esperança.
+Se você está cansado de carregar lembranças dolorosas, ouça essa palavra: “Não tenha medo.” Confie em Deus. Ele é especialista em transformar vergonha em honra, dor em alegria, e ruínas em algo novo e belo.
+Você crê que Deus pode restaurar sua história? 
+Veja também: Versículos bíblicos para encorajar nos tempos difíceis
  
-Tanto a prata quanto o ouro me pertencem", declara o Senhor dos Exércitos.
-- Ageu 2:8
+Não tenha medo; você não sofrerá vergonha. Não tema o constrangimento; você não será humilhada. Você esquecerá a vergonha de sua juventude e não se lembrará mais da humilhação de sua viuvez.
+- Isaías 54:4 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 248312 characters
-INFO:root:HTML parsed, length: 237967 characters
-INFO:root:Found 3 titles: ['Deus pode te ajudar a tomar boas escolhas', 'Olha a Boca!', 'Vencendo vem Jesus']
-INFO:root:Found 2 URLs: ['/versiculos_sabedoria/', '/palavra_do_dia_fortaleca_sua_fe_hoje/']
-INFO:root:Found 3 descriptions: ['Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'Se alguém se considera religioso, mas não refreia ', 'Eis que ele vem\ncom as nuvens,\ne todo olho o verá,']
-INFO:root:Found 3 dates: ['MAIO\n\n1\nQUINTA', 'ABRIL\n\n30\nQUARTA', 'ABRIL\n\n29\nTERÇA']
+INFO:root:Response length: 248383 characters
+INFO:root:HTML parsed, length: 238030 characters
+INFO:root:Found 3 titles: ['Graça que transforma', 'Deus pode te ajudar a tomar boas escolhas', 'Olha a Boca!']
+INFO:root:Found 2 URLs: ['/o_significado_de_perdao_na_biblia/', '/versiculos_sabedoria/']
+INFO:root:Found 3 descriptions: ['Suportem-se uns aos outros e perdoem as queixas qu', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'Se alguém se considera religioso, mas não refreia ']
+INFO:root:Found 3 dates: ['MAIO\n\n2\nSEXTA', 'MAIO\n\n1\nQUINTA', 'ABRIL\n\n30\nQUARTA']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Deus pode te ajudar a tomar boas escolhas', ID=9cf8278126a0d6bec9724491abc14a4c
-INFO:root:Processing entry 2: Title='Olha a Boca!', ID=ebd218e65e65361b08c480e224563345
+INFO:root:Processing entry 1: Title='Graça que transforma', ID=df67eea11597386ee8a934ea7d9b5ea4
+INFO:root:Processing entry 2: Title='Deus pode te ajudar a tomar boas escolhas', ID=9cf8278126a0d6bec9724491abc14a4c
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Graça que transforma
+INFO:root:🔹 URL: https://www.bibliaon.com/o_significado_de_perdao_na_biblia/
+INFO:root:🔹 Description: Suportem-se uns aos outros e perdoem as queixas que tiverem uns contra os outros. Perdoem como o Senhor lhes perdoou.
+- Colossenses 3:13 
+
+Perdão não é sentimento, é decisão. É um ato de obediência e graça, espelhado no amor de Cristo por nós. Quando Paulo escreveu aos colossenses, ele não somente sugeriu o perdão, ele o ordenou como estilo de vida para quem foi alcançado pela misericórdia de Deus. Assim como fomos perdoados, somos chamados a perdoar.
+Vivemos em um mundo onde relacionamentos são facilmente descartados, e a mágoa, muitas vezes, é cultivada com mais zelo do que o amor. Mas o evangelho nos convida a um caminho mais alto: suportar uns aos outros. Isso não significa “aguentar”, mas caminhar juntos, com paciência, humildade e compaixão. É reconhecer que todos somos imperfeitos e necessitados da mesma graça.
+Perdoar como o Senhor perdoou é lembrar que fomos perdoados sem merecer, sem reservas, sem limites. O perdão de Deus não veio depois de mudanças, mas foi o início da transformação. Da mesma forma, ao liberarmos perdão, abrimos espaço para que Deus opere em nossos relacionamentos e em nossos corações.
+Você tem algo para perdoar hoje? Talvez alguém que falhou, feriu ou decepcionou. Lembre-se: perdoar não é esquecer o que aconteceu, mas decidir não mais cobrar a dívida. É deixar a justiça nas mãos de Deus e escolher amar apesar da dor.
+Perdão cura, liberta e reconstrói. E, acima de tudo, revela Cristo em nós. Que possamos viver com o coração leve, sustentados pela graça que um dia nos alcançou. 
+O perdão que restaura 
+
+
+Decida perdoar, mesmo sem sentir vontade: O perdão é uma escolha diária, não uma emoção passageira. Ao decidir perdoar, você permite que Deus transforme seu coração e traga cura.
+
+Lembre-se do perdão que recebeu: Olhe para jesus e veja o quanto você foi perdoado. Isso gera humildade e disposição para perdoar os outros com a mesma compaixão.
+
+Ore por quem te feriu: A oração quebra barreiras e abre espaço para o amor de Deus agir. Orar por quem nos machucou muda nossa perspectiva e traz paz interior.
+
+Para orar:
+
+Senhor, ajuda-me a perdoar como Tu me perdoaste. Tira de mim a mágoa, a dor e o desejo de retribuição. Enche meu coração com Tua graça e amor. Que eu veja o outro com Teus olhos e caminhe em paz, sustentado pela Tua misericórdia. Amém.
+
+Veja também: A importância do perdão segundo a Bíblia (Estudo Bíblico)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Deus pode te ajudar a tomar boas escolhas
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_sabedoria/
 INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
@@ -280,28 +299,10 @@ Senhor Deus, entrego a Ti minhas decisões e caminhos. Dá-me sabedoria para esc
 
 Veja também: Versículos sobre adquirir sabedoria
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Olha a Boca!
-INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia_fortaleca_sua_fe_hoje/
-INFO:root:🔹 Description: Se alguém se considera religioso, mas não refreia a sua língua, engana-se a si mesmo. Sua religião não tem valor algum!
-- Tiago 1:26
-
-Deus se importa com as coisas que você diz, porque você deve ter responsabilidade sobre isso. Aquela pessoa que fala tudo o que pensa ou que sai ofendendo todo mundo é insensata, não pensa no próximo, mas só em si mesma.
-O que esse versículo está dizendo é que qualquer um que diga seguir a Deus, deve ter uma atitude diferente dessa acima, se não será apenas um hipócrita. Quem segue a Deus deve ter responsabilidade sobre o que diz, sua boca deve ser fonte de vida, sabedoria e cura para as outras pessoas.
-Será que você tem sido cuidadoso com a sua língua? Ou será que você diz tudo o que pensa e o problema é de quem se ofendeu? Se você realmente quer ser filho de Deus, seguidor de Jesus, precisa tomar cuidado com o que diz. Seja uma fonte de bênção, não de maldição.
-Uma fonte de água boa
-
-Preste atenção em todos os momentos, em especial os difíceis, veja se você está resmungando, xingando ou amaldiçoando e segure-se!
-Ao invés de amaldiçoar, olhe para cima e peça a ajuda divina.
-Antes de falar da vida do próximo, pense no que essa pessoa sentiria se te ouvisse nesse momento.
-
-Para orar:
-
-Deus meu e meu Pai, te peço que me perdoes por todas as vezes que falhei e xinguei. Perdoe-me Deus por ser fofoqueiro e por amaldiçoar pessoas em situações difíceis. Peço que teu Santo Espírito esteja em meu coração, pronto para me alertar e ajudar nesses momentos de tentação. Assim te peço em nome de Jesus Cristo, amém!
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225844 characters
-INFO:root:HTML parsed, length: 224267 characters
+INFO:root:Response length: 225998 characters
+INFO:root:HTML parsed, length: 224421 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 23 URLs: ['/wiki/A_Song_Flung_Up_to_Heaven', '/wiki/A_Song_Flung_Up_to_Heaven', '/wiki/Autobiografia']
 INFO:root:Found 1 descriptions: ['A Song Flung Up to Heaven é uma autobiografia da e']
@@ -329,44 +330,44 @@ Artigos bons: 1912
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225844 characters
-INFO:root:HTML parsed, length: 224267 characters
-INFO:root:Found 1 titles: ['1 de maio na história']
-INFO:root:Found 46 URLs: ['/wiki/Ficheiro:Jose_de_Alencar.png', '/wiki/Dia_do_Trabalhador', '/wiki/Dia_da_Lealdade_(Estados_Unidos)']
-INFO:root:Found 1 descriptions: ['José de Alencar\nDia do Trabalhador (1889); Dia da ']
+INFO:root:Response length: 225998 characters
+INFO:root:HTML parsed, length: 224421 characters
+INFO:root:Found 1 titles: ['2 de maio na história']
+INFO:root:Found 49 URLs: ['/wiki/Ficheiro:Osama_bin_Laden_portrait.jpg', '/wiki/Dia_Mundial_do_Atum', '/wiki/1968']
+INFO:root:Found 1 descriptions: ['Osama bin Laden\nDia Mundial do Atum (2016)\n\n1968 –']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 de maio na história', ID=95c9eaa2a6b776567932bf34c39befa4
+INFO:root:Processing entry 1: Title='2 de maio na história', ID=c59fb8f35d845f8792a6befc6f48c6a1
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 de maio na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Jose_de_Alencar.png
-INFO:root:🔹 Description: José de Alencar
-Dia do Trabalhador (1889); Dia da Lealdade nos Estados Unidos (1921)
+INFO:root:🔹 Title: 2 de maio na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Osama_bin_Laden_portrait.jpg
+INFO:root:🔹 Description: Osama bin Laden
+Dia Mundial do Atum (2016)
 
-1931 – É inaugurado o Empire State Building, em Nova Iorque.
-1943 – O presidente do Brasil Getúlio Vargas cria a Consolidação das Leis do Trabalho.
-2011 – O Papa João Paulo II é beatificado por seu sucessor, o Papa Bento XVI.
+1968 – Iniciam-se as manifestações estudantis de maio de 1968 na França.
+1982 – Guerra das Malvinas: o submarino nuclear britânico HMS Conqueror afunda o cruzador argentino General Belgrano.
+2011 – Osama bin Laden (imagem), fundador da Al-Qaeda, é morto em operação militar dos Estados Unidos no Paquistão.
 Nasceram neste dia…
-Arthur Colley Wellesley (1769–1852)  •  José de Alencar (imagem) (1829–1877)  •  Sidónio Pais (1872–1918)  •  Fernanda Young (1970–2019)
+Catarina II da Rússia (1729–1796)  •  Novalis (1772–1801)  •  Roscoe Lee Browne (1922-2007)  •  David Beckham (n. 1975)
 Morreram neste dia…
-Arcádio (377–408)  •  Papa Pio V (1504–1572)  •  Joseph Goebbels (1897–1945)  •  Ayrton Senna (1960–1994)
+Atanásio de Alexandria (c. 296–373)  •  Leonardo da Vinci (1452–1519)  •  Paulo Freire (1921–1997)  •  Fernando Lopes (1935–2012)
 
 
-Ver mais • Outros dias: 29 • 30 • 1 • 2 • 3 • Ver todos
+Ver mais • Outros dias: 30 • 1 • 2 • 3 • 4 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225844 characters
-INFO:root:HTML parsed, length: 224267 characters
+INFO:root:Response length: 225998 characters
+INFO:root:HTML parsed, length: 224421 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg']
-INFO:root:Found 1 descriptions: ['Igreja de São Nicolau, submersa, no vale de Mavrov']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_8_(edited).jpg']
+INFO:root:Found 1 descriptions: ['Homem, usando uma máscara facial de pano, anda de ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg/960px-%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_8_%28edited%29.jpg/500px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_8_%28edited%29.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -375,15 +376,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg
-INFO:root:🔹 Description: Igreja de São Nicolau, submersa, no vale de Mavrovo, Macedônia do Norte. Ela foi construída em 1850 no vilarejo de Mavrovo, que foi submerso em 1953 quando o lago de mesmo nome foi criado para alimentar uma usina hidrelétrica. Apesar de estar submersa, a igreja preservou sua construção inicial. Sua torre sineira ainda existe, embora o interior da igreja esteja destruído e o teto tenha desabado completamente. A igreja foi incluída na lista de igrejas abandonadas publicada em 2013 pelo HuffPost.
-(resolução original: 3 814 × 2 542)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_8_(edited).jpg
+INFO:root:🔹 Description: Homem, usando uma máscara facial de pano, anda de bicicleta ao longo da parte externa da parede da Wat Phra Kaew, na seção próxima ao Grande Palácio Real, em Bangkok.
+(resolução original: 3 133 × 3 133)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg/960px-%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%BE.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_8_%28edited%29.jpg/500px-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_8_%28edited%29.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -407,20 +408,20 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  34 ++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  30 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  39 ++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  21 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  10 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  76 +++++--
+ feeds/salmo_do_dia/atom.xml               |  58 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |  17 +-
+ feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 337 +++++++++++++++++-------------
- 16 files changed, 342 insertions(+), 252 deletions(-)
+ output.log                                | 310 ++++++++++++++----------------
+ 16 files changed, 263 insertions(+), 278 deletions(-)
