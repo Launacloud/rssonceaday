@@ -1,46 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121726 characters
-INFO:root:HTML parsed, length: 114130 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (07/05/2025)', 'Palavra de Ontem (06/05/2025)', 'Palavra de Anteontem (05/05/2025)']
-INFO:root:Found 3 URLs: ['/sagaz/', '/diminuto/', '/deferido/']
-INFO:root:Found 17 descriptions: ['adjetivo Que possui sagacidade, perspicácia, da pe', 'Sinônimos:\n\nardiloso, arteiro, astucioso, astuto, ', 'Antônimos:\n\nimbecil, pateta, pacóvio, burro, idiot']
-INFO:root:Found 3 dates: ['Palavra de Hoje (07/05/2025)', 'Palavra de Ontem (06/05/2025)', 'Palavra de Anteontem (05/05/2025)']
+INFO:root:Response length: 120756 characters
+INFO:root:HTML parsed, length: 113343 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (08/05/2025)', 'Palavra de Ontem (07/05/2025)', 'Palavra de Anteontem (06/05/2025)']
+INFO:root:Found 3 URLs: ['/ao-inves-de/', '/sagaz/', '/diminuto/']
+INFO:root:Found 15 descriptions: ['locução prepositiva Oposição entre uma coisa e out', 'Sinônimos:\n\ncontrário, oposto, avesso, contrariame', 'Sílabas:ao-in-vés-de']
+INFO:root:Found 3 dates: ['Palavra de Hoje (08/05/2025)', 'Palavra de Ontem (07/05/2025)', 'Palavra de Anteontem (06/05/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (07/05/2025)', ID=7189478530f272face5eab0f0ed56fc1
-INFO:root:Processing entry 2: Title='Palavra de Ontem (06/05/2025)', ID=959a4da85f32f797f188ed73a63acace
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (05/05/2025)', ID=5e228b71680ccd19a0019b760d763df9
+INFO:root:Processing entry 1: Title='Palavra de Hoje (08/05/2025)', ID=86eeb98047dd3d38c757c6c4058f6fb5
+INFO:root:Processing entry 2: Title='Palavra de Ontem (07/05/2025)', ID=7240446a5b5cd72de8f50e332a765d48
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/05/2025)', ID=4401177a91d0e81ae0f75c1bb6fb6186
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (07/05/2025) - Significado completo de sagaz:
+INFO:root:🔹 Title: Palavra de Hoje (08/05/2025) - Significado completo de ao invés de:
+INFO:root:🔹 URL: https://www.dicio.com.br/ao-inves-de/
+INFO:root:🔹 Description: locução prepositiva Oposição entre uma coisa e outra; ao contrário de; contrariamente: ao invés do professor, ela preferiu não lecionar.Etimologia (origem de ao invés de). A locução prepositiva ao invés de deriva da junção da preposição a, do artigo o, da palavra invés, e da preposição de.
+ 
+Sinônimos:
+
+contrário, oposto, avesso, contrariamente, opostamente 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (07/05/2025) - Significado completo de sagaz:
 INFO:root:🔹 URL: https://www.dicio.com.br/sagaz/
-INFO:root:🔹 Description: adjetivo Que possui sagacidade, perspicácia, da pessoa que tem muita facilidade para compreender algo que a maioria acha complicado entender; esperteza; perspicaz: crítica sagaz.Que não se consegue enganar nem pode ser enganado; característica da pessoa esperta; esperto, astuto.[Por Extensão] Que são astutos e espertos, falando especialmente de animais: cavalo sagaz.[Gramática] Superlativo Absoluto Sintético: sagacíssimo.Etimologia (origem da palavra sagaz). A palavra sagaz deriva do latim "sagax.acis", que significa perspicaz.
+INFO:root:🔹 Description: Sinônimos:
+
+contrário, oposto, avesso, contrariamente, opostamente
+ Sílabas:ao-in-vés-de
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (06/05/2025) - Significado completo de diminuto:
+INFO:root:🔹 URL: https://www.dicio.com.br/diminuto/
+INFO:root:🔹 Description: Sílabas:ao-in-vés-de
  
 Sinônimos:
 
 ardiloso, arteiro, astucioso, astuto, esperto, pícaro, perspicaz, vivo, malandro, matreiro, manhoso, malicioso 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (06/05/2025) - Significado completo de diminuto:
-INFO:root:🔹 URL: https://www.dicio.com.br/diminuto/
-INFO:root:🔹 Description: Sinônimos:
-
-ardiloso, arteiro, astucioso, astuto, esperto, pícaro, perspicaz, vivo, malandro, matreiro, manhoso, malicioso
- 
-Antônimos:
-
-imbecil, pateta, pacóvio, burro, idiota 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (05/05/2025) - Significado completo de deferido:
-INFO:root:🔹 URL: https://www.dicio.com.br/deferido/
-INFO:root:🔹 Description: Antônimos:
-
-imbecil, pateta, pacóvio, burro, idiota
- Classe gramatical:adjetivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +46,72 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237418 characters
-INFO:root:HTML parsed, length: 226899 characters
-INFO:root:Found 1 titles: ['Romanos 10:9']
-INFO:root:Found 1 URLs: ['/versiculo/romanos_10_9/']
-INFO:root:Found 1 descriptions: ['Se você confessar com a sua boca que Jesus é Senho']
+INFO:root:Response length: 237156 characters
+INFO:root:HTML parsed, length: 226637 characters
+INFO:root:Found 1 titles: ['Tiago 1:17']
+INFO:root:Found 1 URLs: ['/versiculo/tiago_1_17/']
+INFO:root:Found 1 descriptions: ['Toda boa dádiva e todo dom perfeito vêm do alto, d']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Romanos 10:9', ID=b174b5823f8aa2b399459fdea7dd071b
+INFO:root:Processing entry 1: Title='Tiago 1:17', ID=ac1ffe70a84f77f6926a1fff765829c3
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Romanos 10:9
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_10_9/
-INFO:root:🔹 Description: Se você confessar com a sua boca que Jesus é Senhor e crer em seu coração que Deus o ressuscitou dentre os mortos, será salvo. Romanos 10:9
+INFO:root:🔹 Title: Tiago 1:17
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_1_17/
+INFO:root:🔹 Description: Toda boa dádiva e todo dom perfeito vêm do alto, descendo do Pai das luzes, que não muda como sombras inconstantes. Tiago 1:17
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 236135 characters
-INFO:root:HTML parsed, length: 226323 characters
-INFO:root:Found 3 titles: ['Salmo 58', 'Salmo 100', 'Salmo 20']
-INFO:root:Found 3 URLs: ['/salmos_58/', '/salmos_100/', '/salmos_20/']
-INFO:root:Found 3 descriptions: ['Será que vocês, poderosos,\nfalam de fato com justi', 'Aclamem o Senhor\ntodos os habitantes da terra! \nPr', 'Que o Senhor te responda\nno tempo da angústia;\no n']
-INFO:root:Found 3 dates: ['7 de Maio de 2025', '6 de Maio de 2025', '5 de Maio de 2025']
+INFO:root:Response length: 236350 characters
+INFO:root:HTML parsed, length: 226540 characters
+INFO:root:Found 3 titles: ['Salmo 95', 'Salmo 58', 'Salmo 100']
+INFO:root:Found 3 URLs: ['/salmos_95/', '/salmos_58/', '/salmos_100/']
+INFO:root:Found 3 descriptions: ['Venham! Cantemos ao Senhor com alegria!\nAclamemos ', 'Será que vocês, poderosos,\nfalam de fato com justi', 'Aclamem o Senhor\ntodos os habitantes da terra! \nPr']
+INFO:root:Found 3 dates: ['8 de Maio de 2025', '7 de Maio de 2025', '6 de Maio de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 58', ID=c3de58459c0a31c5cccf9bc9ee41f475
-INFO:root:Processing entry 2: Title=' Salmo 100', ID=378c5baed3e92e1b45c87d58e85ebb5b
-INFO:root:Processing entry 3: Title=' Salmo 20', ID=8b9cb5cd40f9096fbb8f17788869e2f7
+INFO:root:Processing entry 1: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
+INFO:root:Processing entry 2: Title=' Salmo 58', ID=c3de58459c0a31c5cccf9bc9ee41f475
+INFO:root:Processing entry 3: Title=' Salmo 100', ID=378c5baed3e92e1b45c87d58e85ebb5b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 95
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_95/
+INFO:root:🔹 Description: Venham! Cantemos ao Senhor com alegria!
+Aclamemos a Rocha da nossa salvação. 
+Vamos à presença dele com ações de graças;
+vamos aclamá-lo com cânticos de louvor. 
+Pois o Senhor é o grande Deus,
+o grande Rei acima de todos os deuses. 
+Nas suas mãos estão as profundezas da terra,
+os cumes dos montes lhe pertencem. 
+Dele também é o mar, pois ele o fez;
+as suas mãos formaram a terra seca. 
+Venham! Adoremos prostrados
+e ajoelhemos diante do Senhor,
+o nosso Criador; 
+pois ele é o nosso Deus,
+e nós somos o povo do seu pastoreio,
+o rebanho que ele conduz.
+Hoje, se vocês ouvirem a sua voz, 
+não endureçam o coração, como em Meribá,
+como aquele dia em Massá, no deserto, 
+onde os seus antepassados me tentaram,
+pondo-me à prova,
+apesar de terem visto o que eu fiz. 
+Durante quarenta anos
+fiquei irado contra aquela geração e disse:
+"Eles são um povo de coração ingrato;
+não reconheceram os meus caminhos". 
+Por isso jurei na minha ira:
+"Jamais entrarão no meu descanso". 
+ Salmo 95
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 58
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_58/
 INFO:root:🔹 Description: Será que vocês, poderosos,
@@ -138,95 +168,95 @@ a sua fidelidade permanece
 por todas as gerações. 
  Salmo 100
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 20
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_20/
-INFO:root:🔹 Description: Que o Senhor te responda
-no tempo da angústia;
-o nome do Deus de Jacó te proteja! 
-Do santuário te envie auxílio
-e de Sião te dê apoio. 
-Lembre-se de todas as tuas ofertas
-e aceite os teus holocaustos. 
-Conceda-te o desejo do teu coração
-e leve a efeito todos os teus planos. 
-Saudaremos a tua vitória com gritos de alegria
-e ergueremos as nossas bandeiras
-em nome do nosso Deus.
-Que o Senhor atenda a todos os teus pedidos! 
-Agora sei que o Senhor
-dará vitória ao seu ungido;
-dos seus santos céus lhe responde
-com o poder salvador da sua mão direita. 
-Alguns confiam em carros e outros em cavalos,
-mas nós confiamos
-no nome do Senhor, o nosso Deus. 
-Eles vacilam e caem,
-mas nós nos erguemos e estamos firmes. 
-Senhor, concede vitória ao rei!
-Responde-nos quando clamamos! 
- Salmo 20
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 238775 characters
-INFO:root:HTML parsed, length: 228648 characters
-INFO:root:Found 3 titles: ['Mais um dia, graças ao Senhor', 'De que me regozijo?', 'Você é abençoado']
+INFO:root:Response length: 239181 characters
+INFO:root:HTML parsed, length: 229061 characters
+INFO:root:Found 3 titles: ['Afaste tudo o que impede os sonhos de Deus em sua vida', 'Mais um dia, graças ao Senhor', 'De que me regozijo?']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'Eu dei a vocês autoridade para pisarem sobre cobra', 'As pessoas tendem a se concentrar nos problemas ou']
-INFO:root:Found 1 dates: ['Quarta, 7 de maio de 2025']
+INFO:root:Found 3 descriptions: ['Em seu coração\no homem planeja o seu caminho,\nmas ', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'Eu dei a vocês autoridade para pisarem sobre cobra']
+INFO:root:Found 1 dates: ['Quinta, 8 de maio de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Mais um dia, graças ao Senhor', ID=f64f9e7a49e55b02a20407e7c687541a
+INFO:root:Processing entry 1: Title='Afaste tudo o que impede os sonhos de Deus em sua vida', ID=cb31ace973caae0db853f85ed6d7dced
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Mais um dia, graças ao Senhor - Palavra de Hoje
+INFO:root:🔹 Title: Afaste tudo o que impede os sonhos de Deus em sua vida - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Este é o dia em que o Senhor agiu;
-alegremo-nos e exultemos neste dia.
-- Salmo 118:24 
+INFO:root:🔹 Description: Em seu coração
+o homem planeja o seu caminho,
+mas o Senhor determina
+os seus passos.
+- Provérbios 16:9 
 
-Cada manhã é uma nova oportunidade. Ao abrir os olhos, antes de pensar nas tarefas pendentes ou nos problemas que nos aguardam, podemos escolher olhar para o céu com gratidão. A vida em si é um presente, um milagre silencioso que muitas vezes tomamos como garantido. Deus, em seu amor inesgotável, nos concede um novo dia: outro amanhecer, outro fôlego, outro momento para viver, aprender, amar e crescer.
-A maneira como começamos o dia pode determinar como o vivemos. Se nos concentrarmos no estresse, começaremos com o coração pesado. Mas se, como o salmista nos aconselha, escolhermos agradecer a Deus pelo dom da vida, nossa perspectiva muda. É verdade que a vida nos apresenta muitos desafios e não vamos ignorá-los. Mas os enfrentaremos com a certeza de que o Senhor caminha conosco e com Ele somos vitoriosos.
-Cada dia traz novas misericórdias. Não importa quão difícil tenha sido ontem, hoje é uma nova página escrita pela mão de Deus. Ele lhe dá a oportunidade de começar um novo dia e se oferece para acompanhá-lo em cada passo do caminho. Existe motivo maior para alegria?
-Escolha começar este dia com um sorriso no rosto e o coração cheio de gratidão. Levante o olhar e reconheça que você está vivo pela graça de Deus. Que cada batida do seu coração lhe lembre que Ele tem um propósito para você hoje. Não viva no piloto automático. Viva com alegria, com fé e com gratidão, porque Deus é bom. 
+Todos nós temos desejos e sonhos, coisas que queremos realizar na vida. Se amamos a Deus e vivemos para ele, podemos ter certeza de que muitos desses sonhos vêm do seu coração. Ele nos criou com um propósito claro e eterno. Ele nos deu talentos específicos e colocou em nós visões do que poderíamos realizar para Sua glória.
+No entanto, esses sonhos são frequentemente ameaçados pelo medo, pela insegurança ou pelo conforto. Duvidamos de nossas habilidades, focamos em nossas fraquezas e acabamos presos no que sabemos, paralisados pelo pensamento de tudo que pode dar errado. Não deixe que isso te afete! Rejeite aquelas vozes interiores que extinguem o fogo do que Deus plantou em você. O inimigo quer roubar sua coragem e fazer você duvidar de suas habilidades, mas Deus quer te inspirar a andar pela fé.
+Andar nos sonhos de Deus exige determinação e um coração corajoso. Nem sempre será fácil e às vezes tropeçaremos. Mas não estamos sozinhos. Quando seguimos os passos que Deus traça para nós, ele se compromete a nos sustentar. Mesmo que caiamos, não ficaremos prostrados. Sua mão nos levantará e sua graça nos impulsionará para frente. 
 
-Graças ao grande amor do Senhor
-é que não somos consumidos,
-pois as suas misericórdias são inesgotáveis.
-Renovam-se cada manhã;
-grande é a sua fidelidade!
-- Lamentações 3:22-23 
+O Senhor firma os passos de um homem,
+quando a conduta deste o agrada;
+ainda que tropece, não cairá,
+pois o Senhor o toma pela mão.
+- Salmo 37:23-24 
 
-Veja também: Versículos de gratidão a Deus
+Hoje, decida rejeitar todo pensamento, medo ou hábito que impede que os sonhos de Deus se realizem em sua vida. Ouse acreditar que ele vai à sua frente, abrindo o caminho e mostrando o caminho a seguir. Dê passos de fé, mesmo que pequenos, e você verá como o propósito dele será poderosamente cumprido em você.
+Veja também: Versículos sobre sonhos e o propósito de Deus
  
 Versículos que explicam o que é a salvação na Bíblia
-Estudo bíblico sobre a alegria da salvação: Hosana, o salvador chegou
 Como ser salvo segundo a Bíblia
 
  
-Este é o dia em que o Senhor agiu;
-alegremo-nos e exultemos neste dia.
-- Salmo 118:24 
+Em seu coração
+o homem planeja o seu caminho,
+mas o Senhor determina
+os seus passos.
+- Provérbios 16:9 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 248933 characters
-INFO:root:HTML parsed, length: 238578 characters
-INFO:root:Found 3 titles: ['Café com Cristo', 'Davi: de esquecido a rei de Israel', 'O que é um sacrifício de louvor?']
-INFO:root:Found 2 URLs: ['/mensagens_biblicas_bom_dia_com_deus/', '/razoes_para_confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['De manhã ouves, Senhor, o meu clamor;\nde manhã te ', 'Mas o Senhor disse a Samuel: Não atentes para a su', 'Por meio de Jesus, portanto, ofereçamos continuame']
-INFO:root:Found 3 dates: ['MAIO\n\n7\nQUARTA', 'MAIO\n\n6\nTERÇA', 'MAIO\n\n5\nSEGUNDA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Café com Cristo', ID=522be00ce0c1f5a1e8fedb90fd1fd8cb
-INFO:root:Processing entry 2: Title='Davi: de esquecido a rei de Israel', ID=0728856c78a827b4446b2455a7b999d2
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 249716 characters
+INFO:root:HTML parsed, length: 239356 characters
+INFO:root:Found 3 titles: ['Experimentando a paz de Deus', 'Café com Cristo', 'Deus não esquece de você']
+INFO:root:Found 3 URLs: ['/paz/', '/mensagens_biblicas_bom_dia_com_deus/', '/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['Deixo a paz a vocês; a minha paz dou a vocês. Não ', 'De manhã ouves, Senhor, o meu clamor;\nde manhã te ', 'Mas o Senhor disse a Samuel: Não atentes para a su']
+INFO:root:Found 3 dates: ['MAIO\n\n8\nQUINTA', 'MAIO\n\n7\nQUARTA', 'MAIO\n\n6\nTERÇA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Experimentando a paz de Deus', ID=71bd2702256aaf54c9e38111ba3b6526
+INFO:root:Processing entry 2: Title='Café com Cristo', ID=522be00ce0c1f5a1e8fedb90fd1fd8cb
+INFO:root:Processing entry 3: Title='Deus não esquece de você', ID=89d4926a6c55b051121702bb908f8998
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Experimentando a paz de Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/paz/
+INFO:root:🔹 Description: Deixo a paz a vocês; a minha paz dou a vocês. Não a dou como o mundo a dá. Não se perturbe o seu coração, nem tenham medo.
+- João 14:27
+
+Vivemos em um mundo agitado, onde as preocupações se multiplicam e a ansiedade tenta dominar o coração. As notícias, os desafios diários, as incertezas do amanhã, tudo isso pode nos tirar o chão. Mas há uma promessa que permanece firme: a paz de Deus. Não é qualquer paz. É a paz que excede todo entendimento, que guarda o coração e a mente, mesmo em meio à tempestade.
+Jesus, ao falar aos discípulos, sabia das aflições que enfrentariam. Ainda assim, Ele os presenteou com a Sua paz, uma paz que não depende de circunstâncias externas, mas de uma confiança profunda no Deus que está no controle de todas as coisas. Essa paz é fruto da presença de Deus em nossa vida, e está disponível a todo aquele que decide confiar n’Ele.
+Quando entregamos a Ele nossos medos, angústias e preocupações, trocamos o fardo pesado da ansiedade por um descanso verdadeiro. Em oração, encontramos consolo. Na Palavra, encontramos direção. E no Espírito Santo, encontramos força para seguir adiante.
+Talvez hoje o seu coração esteja inquieto, talvez você esteja enfrentando lutas que ninguém vê. Mas Deus vê. Ele conhece cada detalhe e deseja te envolver com Sua paz. Não é preciso entender tudo, basta confiar. Experimente parar por um momento, fechar os olhos e falar com Deus. Abra o coração e permita que a paz d’Ele te envolva como um abraço.
+Não há dor tão profunda que Ele não possa curar, nem caos tão grande que Sua paz não possa acalmar. Experimente a paz de Deus e descubra que, mesmo em meio à batalha, é possível descansar.
+Recebendo a paz de Deus
+
+
+Inicie seu dia entregando suas preocupações a Deus. Reconheça que Ele está no controle e confie que Sua paz cuidará de seu coração, mesmo sem respostas imediatas.
+
+Reserve um tempo diário para ler a Bíblia. Através dela, Deus fala, fortalece sua fé e renova sua mente. A Palavra é fonte constante da verdadeira paz que o mundo não oferece.
+
+Separe momentos de silêncio para estar com Deus. Louve, medite e escute. A presença d’Ele acalma, direciona e fortalece. Nesses encontros, sua alma experimenta o descanso que tanto precisa.
+
+Para orar:
+
+Senhor Deus, neste momento eu me coloco diante de Ti, reconhecendo que só em Ti encontro verdadeira paz. Acalma meu coração, remove toda ansiedade e fortalece minha fé. Ensina-me a confiar nos Teus planos, mesmo quando não entendo. Envolve-me com Tua presença e renova minhas forças. Que a Tua paz, que excede todo entendimento, guarde minha mente e meu coração em Cristo Jesus. Amém.
+
+Veja também: Versículos sobre paz.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Café com Cristo
 INFO:root:🔹 URL: https://www.bibliaon.com/mensagens_biblicas_bom_dia_com_deus/
 INFO:root:🔹 Description: De manhã ouves, Senhor, o meu clamor;
@@ -263,18 +293,18 @@ Senhor Jesus, obrigado por mais um dia. Entrego a Ti meus pensamentos, passos e 
 
 Veja também: Bom dia com Deus: mensagens bíblicas
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Davi: de esquecido a rei de Israel
+INFO:root:🔹 Title: Deus não esquece de você
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
 INFO:root:🔹 Description: Mas o Senhor disse a Samuel: Não atentes para a sua aparência, nem para a grandeza da sua estatura, porque eu o rejeitei; porque o Senhor não vê como vê o homem, pois o homem olha para o que está diante dos olhos, porém o Senhor olha para o coraçao.
-- 1 Samuel 16:7 
+- 1 Samuel 16:7
 
 Davi não era a escolha óbvia. Quando o profeta Samuel foi à casa de Jessé para ungir o próximo rei de Israel, todos os irmãos de Davi passaram diante dele. Eram fortes, altos, preparados, pelo menos aos olhos humanos. Mas nenhum deles era o escolhido de Deus. Davi, o mais novo, estava no campo cuidando das ovelhas, esquecido por seu próprio pai.
 Mas Deus não esquece os que são fiéis no anonimato. Ele viu o coração de Davi quando ninguém mais via valor nele. No silêncio dos pastos, Davi aprendeu a confiar em Deus, a lutar contra leões e ursos, a adorar com sinceridade. Foi naquele lugar de solidão que ele foi moldado para o trono.
 Talvez hoje você se sinta esquecido, como se todos tivessem passado à sua frente e você não tivesse valor. Mas Deus vê além da aparência. Ele vê o coração quebrantado, fiel, disposto. E é justamente nesses corações que Ele derrama Sua unção.
 A história de Davi nos lembra que não precisamos estar em evidência para sermos escolhidos. Deus exalta os humildes, levanta os pequenos e transforma pastores em reis.
 Não importa onde você está hoje. O mesmo Deus que tirou Davi do campo e o colocou no trono está trabalhando em sua vida. Confie, permaneça fiel e permita que Ele o molde.
-De esquecido a rei, esse é o poder da graça de Deus em ação. 
-Quando Deus vê o que os olhos humanos não enxergam 
+De esquecido a rei, esse é o poder da graça de Deus em ação.
+Quando Deus vê o que os olhos humanos não enxergam
 
 
 Seja fiel nos bastidores: Mesmo quando ninguém está vendo, mantenha sua integridade e dedicação. Deus observa o que é feito no secreto e recompensa os que permanecem fiéis em todo tempo.
@@ -283,7 +313,7 @@ Confie na escolha de Deus: Não se compare com os que parecem mais preparados. D
 
 Permita-se ser moldado por Deus: As lutas e desafios do presente estão formando seu caráter. Aceite o processo com fé, pois o preparo de hoje será a base para o seu futuro.
 
-Para orar: 
+Para orar:
 
 Senhor, mesmo quando me sinto esquecido, sei que Tu me vês. Molda meu coração, fortalece minha fé e prepara-me para Teus propósitos. Que eu seja fiel no oculto e confie no Teu tempo. Amém.
 
@@ -291,8 +321,8 @@ Veja também: Razões para confiar em Deus em meio às lutas
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223651 characters
-INFO:root:HTML parsed, length: 222064 characters
+INFO:root:Response length: 223998 characters
+INFO:root:HTML parsed, length: 222411 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 14 URLs: ['/wiki/Mom_%26_Me_%26_Mom', '/wiki/Mom_%26_Me_%26_Mom', '/wiki/Autobiografia']
 INFO:root:Found 1 descriptions: ['Mom & Me & Mom é o sétimo e último livro da série ']
@@ -320,8 +350,8 @@ Artigos bons: 1915
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223651 characters
-INFO:root:HTML parsed, length: 222064 characters
+INFO:root:Response length: 223998 characters
+INFO:root:HTML parsed, length: 222411 characters
 INFO:root:Found 1 titles: ['7 de maio na história']
 INFO:root:Found 42 URLs: ['/wiki/Ficheiro:Evita_(cropped).JPG', '/wiki/1910', '/wiki/Cometa_Halley']
 INFO:root:Found 1 descriptions: ['Eva Perón\n1910 – O cometa Halley passa perto do pl']
@@ -349,8 +379,8 @@ Ver mais • Outros dias: 5 • 6 • 7 • 8 • 9 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223651 characters
-INFO:root:HTML parsed, length: 222064 characters
+INFO:root:Response length: 223998 characters
+INFO:root:HTML parsed, length: 222411 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Lake_Seliger._Ostashkov._View_of_Voroniy_Island.jpg']
 INFO:root:Found 1 descriptions: ['Voronij, fotografada em uma manhã de neblina, é um']
@@ -388,30 +418,24 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  79 +++----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  29 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  35 +++-
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  38 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  64 ++---
+ feeds/palavra_do_dia/atom.xml             |  20 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  58 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   6 +-
- feeds/wikidestaque/feed.json              |   2 +-
- feeds/wikidia/atom.xml                    |  14 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 373 ++++++++++++++----------------
- 17 files changed, 324 insertions(+), 349 deletions(-)
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 295 +++++++++++++++---------------
+ 14 files changed, 278 insertions(+), 238 deletions(-)
