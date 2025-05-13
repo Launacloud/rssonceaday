@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 122892 characters
-INFO:root:HTML parsed, length: 115409 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (12/05/2025)', 'Palavra de Ontem (11/05/2025)', 'Palavra de Anteontem (10/05/2025)']
-INFO:root:Found 3 URLs: ['/pernicioso/', '/remanescente/', '/honra/']
-INFO:root:Found 16 descriptions: ['adjetivo Que prejudica; que ocasiona danos; nocivo', 'Sinônimos:\n\ndanoso, fatal, funesto, grave, infesto', 'Antônimos:\n\nbenéfico, inócuo, saudável, sadio']
-INFO:root:Found 3 dates: ['Palavra de Hoje (12/05/2025)', 'Palavra de Ontem (11/05/2025)', 'Palavra de Anteontem (10/05/2025)']
+INFO:root:Response length: 120081 characters
+INFO:root:HTML parsed, length: 112988 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (13/05/2025)', 'Palavra de Ontem (12/05/2025)', 'Palavra de Anteontem (11/05/2025)']
+INFO:root:Found 3 URLs: ['/quede/', '/pernicioso/', '/remanescente/']
+INFO:root:Found 14 descriptions: ['advérbio Expressão usada para perguntar (que é de)', 'Sinônimos:\n\ncadê, quede', 'Classe gramatical:advérbio']
+INFO:root:Found 3 dates: ['Palavra de Hoje (13/05/2025)', 'Palavra de Ontem (12/05/2025)', 'Palavra de Anteontem (11/05/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (12/05/2025)', ID=1d726347e4848e48a1de80d696c9a45d
-INFO:root:Processing entry 2: Title='Palavra de Ontem (11/05/2025)', ID=65e0e67a8c11e9c25990360890902a9e
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (10/05/2025)', ID=a4b9a7cad50dedd37c36e1f4c949ee19
+INFO:root:Processing entry 1: Title='Palavra de Hoje (13/05/2025)', ID=31569666e344c4c82c37d5d4987cd65d
+INFO:root:Processing entry 2: Title='Palavra de Ontem (12/05/2025)', ID=10bec049877cc33ce026774e46e3f454
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/05/2025)', ID=f53b9ad390dde4ff2e2a3c324b577413
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (12/05/2025) - Significado completo de pernicioso:
-INFO:root:🔹 URL: https://www.dicio.com.br/pernicioso/
-INFO:root:🔹 Description: adjetivo Que prejudica; que ocasiona danos; nocivo, prejudicial, ruinoso.Em que há perigo; perigoso: procedimento pernicioso.[Medicina] Diz-se de uma febre palustre muito grave, acompanhada de delírios, podendo causar a morte.Etimologia (origem da palavra pernicioso). Do latim perniciosus.a.um.
+INFO:root:🔹 Title: Palavra de Hoje (13/05/2025) - Significado completo de quedê:
+INFO:root:🔹 URL: https://www.dicio.com.br/quede/
+INFO:root:🔹 Description: advérbio Expressão usada para perguntar (que é de); equivale-se a onde está?; cadê: quedê o sapato da sua irmã?Etimologia (origem da palavra quedê). Forma reduzida de "que é de".
  
 Sinônimos:
 
-danoso, fatal, funesto, grave, infesto, lesivo, maligno, maléfico, mau, nefasto, nocente, nocivo, perigoso, peçonhento, prejudicial, tóxico 
+cadê, quede 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (11/05/2025) - Significado completo de remanescente:
-INFO:root:🔹 URL: https://www.dicio.com.br/remanescente/
+INFO:root:🔹 Title: Palavra de Ontem (12/05/2025) - Significado completo de pernicioso:
+INFO:root:🔹 URL: https://www.dicio.com.br/pernicioso/
 INFO:root:🔹 Description: Sinônimos:
 
-danoso, fatal, funesto, grave, infesto, lesivo, maligno, maléfico, mau, nefasto, nocente, nocivo, perigoso, peçonhento, prejudicial, tóxico
- 
-Antônimos:
-
-benéfico, inócuo, saudável, sadio 
-
+cadê, quede
+ Classe gramatical:advérbio
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (10/05/2025) - Significado completo de honra:
-INFO:root:🔹 URL: https://www.dicio.com.br/honra/
-INFO:root:🔹 Description: Antônimos:
-
-benéfico, inócuo, saudável, sadio
- Classe gramatical:adjetivo
+INFO:root:🔹 Title: Palavra de Anteontem (11/05/2025) - Significado completo de remanescente:
+INFO:root:🔹 URL: https://www.dicio.com.br/remanescente/
+INFO:root:🔹 Description: Classe gramatical:advérbio
+ Sílabas:que-dê
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,63 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 237200 characters
-INFO:root:HTML parsed, length: 226681 characters
-INFO:root:Found 1 titles: ['Êxodo 20:7']
-INFO:root:Found 1 URLs: ['/versiculo/exodo_20_7/']
-INFO:root:Found 1 descriptions: ['"Não tomarás em vão o nome do Senhor, o teu Deus, ']
+INFO:root:Response length: 237033 characters
+INFO:root:HTML parsed, length: 226514 characters
+INFO:root:Found 1 titles: ['Amós 3:7']
+INFO:root:Found 1 URLs: ['/versiculo/amos_3_7/']
+INFO:root:Found 1 descriptions: ['Certamente o Senhor, o Soberano,\nnão faz coisa alg']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Êxodo 20:7', ID=2728ab07fde17f6ff35b02d8cfc0db29
+INFO:root:Processing entry 1: Title='Amós 3:7', ID=9bd039c7c104a08861d8fa2ea476c547
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Êxodo 20:7
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/exodo_20_7/
-INFO:root:🔹 Description: "Não tomarás em vão o nome do Senhor, o teu Deus, pois o Senhor não deixará impune quem tomar o seu nome em vão. Êxodo 20:7
+INFO:root:🔹 Title: Amós 3:7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/amos_3_7/
+INFO:root:🔹 Description: Certamente o Senhor, o Soberano,
+não faz coisa alguma
+sem revelar o seu plano
+aos seus servos, os profetas. Amós 3:7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 238064 characters
-INFO:root:HTML parsed, length: 228285 characters
-INFO:root:Found 3 titles: ['Salmo 41', 'Salmo 79', 'Salmo 81']
-INFO:root:Found 3 URLs: ['/salmos_41/', '/salmos_79/', '/salmos_81/']
-INFO:root:Found 3 descriptions: ['Como é feliz aquele\nque se interessa pelo pobre!\nO', 'Ó Deus, as nações invadiram a tua herança,\nprofana', 'Cantem de alegria a Deus, nossa força;\naclamem o D']
-INFO:root:Found 3 dates: ['12 de Maio de 2025', '11 de Maio de 2025', '10 de Maio de 2025']
+INFO:root:Response length: 236939 characters
+INFO:root:HTML parsed, length: 227148 characters
+INFO:root:Found 3 titles: ['Salmo 127', 'Salmo 41', 'Salmo 79']
+INFO:root:Found 3 URLs: ['/salmos_127/', '/salmos_41/', '/salmos_79/']
+INFO:root:Found 3 descriptions: ['Se não for o Senhor o construtor da casa,\nserá inú', 'Como é feliz aquele\nque se interessa pelo pobre!\nO', 'Ó Deus, as nações invadiram a tua herança,\nprofana']
+INFO:root:Found 3 dates: ['13 de Maio de 2025', '12 de Maio de 2025', '11 de Maio de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 41', ID=b34f131061fcae68771d58ea8844e2fb
-INFO:root:Processing entry 2: Title=' Salmo 79', ID=c848f0aa496275f7078cb360fbcd7adf
-INFO:root:Processing entry 3: Title=' Salmo 81', ID=217c73953ef40620789252b2837f3900
+INFO:root:Processing entry 1: Title=' Salmo 127', ID=e6ce2d3c047edc5b947e30c68dee6951
+INFO:root:Processing entry 2: Title=' Salmo 41', ID=b34f131061fcae68771d58ea8844e2fb
+INFO:root:Processing entry 3: Title=' Salmo 79', ID=c848f0aa496275f7078cb360fbcd7adf
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 127
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_127/
+INFO:root:🔹 Description: Se não for o Senhor o construtor da casa,
+será inútil trabalhar na construção.
+Se não é o Senhor que vigia a cidade,
+será inútil a sentinela montar guarda. 
+Será inútil levantar cedo e dormir tarde,
+trabalhando arduamente por alimento.
+O Senhor concede o sono
+àqueles a quem ele ama. 
+Os filhos são herança do Senhor,
+uma recompensa que ele dá. 
+Como flechas nas mãos do guerreiro
+são os filhos nascidos na juventude. 
+Como é feliz o homem
+que tem a sua aljava cheia deles!
+Não será humilhado quando enfrentar
+seus inimigos no tribunal. 
+ Salmo 127
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 41
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_41/
 INFO:root:🔹 Description: Como é feliz aquele
@@ -173,106 +190,104 @@ de geração em geração
 cantaremos os teus louvores. 
  Salmo 79
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 81
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_81/
-INFO:root:🔹 Description: Cantem de alegria a Deus, nossa força;
-aclamem o Deus de Jacó! 
-Comecem o louvor, façam ressoar o tamborim,
-toquem a lira e a harpa melodiosa. 
-Toquem a trombeta na lua nova
-e no dia de lua cheia, dia da nossa festa; 
-porque este é um decreto para Israel,
-uma ordenança do Deus de Jacó, 
-que ele estabeleceu como estatuto para José,
-quando atacou o Egito.
-Ali ouvimos uma língua que não conhecíamos. 
-Ele diz: "Tirei o peso dos seus ombros;
-suas mãos ficaram livres dos cestos de cargas. 
-Na sua aflição vocês clamaram e eu os livrei,
-do esconderijo dos trovões lhes respondi;
-eu os pus à prova nas águas de Meribá. 
-"Ouça, meu povo, as minhas advertências;
-se tão somente você me escutasse, ó Israel! 
-Não tenha deus estrangeiro no seu meio;
-não se incline perante nenhum deus estranho. 
-Eu sou o Senhor, o seu Deus,
-que o tirei da terra do Egito.
-Abra a sua boca, e eu o alimentarei. 
-"Mas o meu povo não quis ouvir-me;
-Israel não quis obedecer-me. 
-Por isso os entreguei
-ao seu coração obstinado,
-para seguirem os seus próprios planos. 
-"Se o meu povo apenas me ouvisse,
-se Israel seguisse os meus caminhos, 
-com rapidez eu subjugaria os seus inimigos
-e voltaria a minha mão
-contra os seus adversários! 
-Os que odeiam o Senhor
-se renderiam diante dele
-e receberiam um castigo perpétuo. 
-Mas eu sustentaria Israel
-com o melhor trigo,
-e com o mel da rocha eu o satisfaria". 
- Salmo 81
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 239401 characters
-INFO:root:HTML parsed, length: 229271 characters
-INFO:root:Found 3 titles: ['O que você carrega consigo?', 'Qual é seu maior medo?', 'Fortalecendo-se no Senhor']
+INFO:root:Response length: 239281 characters
+INFO:root:HTML parsed, length: 229159 characters
+INFO:root:Found 3 titles: ['Deus quer te salvar e te dar descanso: você permite?', 'O que você carrega consigo?', 'Qual é seu maior medo?']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O que as pessoas sentem quando você chega a um lug', 'Como vencer o medo? Aquele sentimento que paralisa', 'Embora a esta altura já devessem ser mestres, prec']
-INFO:root:Found 1 dates: ['Segunda, 12 de maio de 2025']
+INFO:root:Found 3 descriptions: ['Diz o Soberano, o Senhor, o Santo de Israel:\n"No a', 'O que as pessoas sentem quando você chega a um lug', 'Como vencer o medo? Aquele sentimento que paralisa']
+INFO:root:Found 1 dates: ['Terça, 13 de maio de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O que você carrega consigo?', ID=53241c1d81421e2ddbd293c6da5cd3ab
+INFO:root:Processing entry 1: Title='Deus quer te salvar e te dar descanso: você permite?', ID=50d3daab4ddb290af7e33983303c1f06
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O que você carrega consigo? - Palavra de Hoje
+INFO:root:🔹 Title: Deus quer te salvar e te dar descanso: você permite? - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O que as pessoas sentem quando você chega a um lugar, o que você carrega consigo? Você anda na paz do Senhor e se enche Dele antes de enfrentar o mundo todos os dias? Já há pessoas suficientes nervosas, mal-humoradas ou na defensiva no mundo e pode ser fácil sermos contaminados, mas essa não é nossa missão.
+INFO:root:🔹 Description: Diz o Soberano, o Senhor, o Santo de Israel:
+"No arrependimento e no descanso
+está a salvação de vocês,
+na quietude e na confiança
+está o seu vigor,
+mas vocês não quiseram.
+- Isaías 30:15 
 
-"Vocês são a luz do mundo. Não se pode esconder uma cidade construída sobre um monte.
-E, também, ninguém acende uma candeia e a coloca debaixo de uma vasilha. Ao contrário, coloca-a no lugar apropriado, e assim ilumina a todos os que estão na casa.
-Assim brilhe a luz de vocês diante dos homens, para que vejam as suas boas obras e glorifiquem ao Pai de vocês, que está nos céus.
-- Mateus 5:14-15
+Na vida enfrentamos constantemente desafios e dificuldades. Mesmo nos dias mais pacíficos, sempre pode surgir alguma coisa que tente tirar nossa paz. Porém, nós, filhos de Deus, contamos com sua presença e ajuda em todos os momentos. Ele nos salva da angústia, oferecendo-nos seu descanso e repouso, para podermos viver tranquilos e confiantes nele. Cabe a nós permitirmos isso.
+Neste versículo de Isaías, vemos que o povo de Israel não queria receber o descanso que Deus lhes oferecia. Eles escolheram confiar em sua própria força e, em vez de se voltarem para Deus, escolheram confiar no poder do Egito. Deixaram-se guiar pelo medo e pelo visível, ignorando o Deus que tantas vezes os salvou. O resultado foi que eles perderam a oportunidade de experimentar sua força no meio da tempestade.
+Hoje, esse mesmo convite está diante de você. Deus não mudou. Ele continua a estender a mão, oferecendo-lhe descanso em meio ao caos, repouso em meio à exaustão e paz em meio à ansiedade. Você não precisa ter todas as respostas ou descobrir tudo sozinho. Você só precisa confiar em seu Pai celestial.
+Você vai permitir isso? Decida hoje parar de correr, parar de lutar com suas próprias forças e volte seu coração para aquele que o ama profundamente. Na quietude e na confiança você encontrará a força que tanto deseja. Deus quer salvar você e lhe dar descanso. Dê tudo a ele. Ele cuidará do resto. 
 
-Como filhos de Deus, somos chamados a levar Sua paz a todos ao nosso redor. Para levar algo, primeiro precisamos ter isso conosco, não podemos dar o que não temos. Portanto, se desejamos ser agentes de paz em nome do Senhor, devemos nos encher primeiro da Sua paz.
-Busque ao Senhor de todo o coração, busque a sua presença todos os dias e pergunte-lhe como você pode brilhar para a sua glória no lugar onde você está. Peça a Ele que lhe dê ideias para entrar em contato com sua família e amigos.
-Abra hoje seu coração e receba a paz de Deus. Comece a levar Sua paz e ajude a tornar este mundo um lugar melhor para a glória de Deus.
+Confie no Senhor de todo o seu coração
+e não se apoie
+em seu próprio entendimento;
+reconheça o Senhor
+em todos os seus caminhos,
+e ele endireitará as suas veredas
+- Provérbios 3:5-6 
 
-Veja também:
-
-Bom dia abençoado: 51 mensagens e frases com a paz de Deus
+Veja também: Reflexão sobre descansar em Deus
  
 Bom dia abençoado: 51 mensagens e frases com a paz de Deus
 
  
-"Vocês são a luz do mundo. Não se pode esconder uma cidade construída sobre um monte.
-E, também, ninguém acende uma candeia e a coloca debaixo de uma vasilha. Ao contrário, coloca-a no lugar apropriado, e assim ilumina a todos os que estão na casa.
-Assim brilhe a luz de vocês diante dos homens, para que vejam as suas boas obras e glorifiquem ao Pai de vocês, que está nos céus.
-- Mateus 5:14-15
+Diz o Soberano, o Senhor, o Santo de Israel:
+"No arrependimento e no descanso
+está a salvação de vocês,
+na quietude e na confiança
+está o seu vigor,
+mas vocês não quiseram.
+- Isaías 30:15 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 248865 characters
-INFO:root:HTML parsed, length: 238506 characters
-INFO:root:Found 3 titles: ['Ira desmedida', 'Vivendo as maravilhas de Deus', 'Nosso Deus é poderoso']
-INFO:root:Found 2 URLs: ['/bom_dia_abencoado_frases_mensagem/', '/reflexao_biblica_mensagens_de_fe_e_esperanca_em_deus/']
-INFO:root:Found 3 descriptions: ['Isso tudo deixou Jonas aborrecido e muito irado.\nJ', 'Grandes são as obras do Senhor;\nnelas meditam todo', 'Pois nada é impossível para Deus".\n- Lucas 1:37\n\nQ']
-INFO:root:Found 3 dates: ['MAIO\n\n12\nSEGUNDA', 'MAIO\n\n11\nDOMINGO', 'MAIO\n\n10\nSÁBADO']
+INFO:root:Response length: 248925 characters
+INFO:root:HTML parsed, length: 238565 characters
+INFO:root:Found 3 titles: ['Jesus é único e insubstituível', 'Ira desmedida', 'Vivendo as maravilhas de Deus']
+INFO:root:Found 2 URLs: ['/jesus_sua_vida_e_sua_historia/', '/bom_dia_abencoado_frases_mensagem/']
+INFO:root:Found 3 descriptions: ['Respondeu Jesus: "Eu sou o caminho, a verdade e a ', 'Isso tudo deixou Jonas aborrecido e muito irado.\nJ', 'Grandes são as obras do Senhor;\nnelas meditam todo']
+INFO:root:Found 3 dates: ['MAIO\n\n13\nTERÇA', 'MAIO\n\n12\nSEGUNDA', 'MAIO\n\n11\nDOMINGO']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Ira desmedida', ID=b567a146a53288e94299442e7564f341
-INFO:root:Processing entry 2: Title='Vivendo as maravilhas de Deus', ID=b2abb7557a0655eaf054505927f66c97
+INFO:root:Processing entry 1: Title='Jesus é único e insubstituível', ID=19f0e4b6baac9c77b59372043944795b
+INFO:root:Processing entry 2: Title='Ira desmedida', ID=b567a146a53288e94299442e7564f341
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Jesus é único e insubstituível
+INFO:root:🔹 URL: https://www.bibliaon.com/jesus_sua_vida_e_sua_historia/
+INFO:root:🔹 Description: Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.
+- João 14:6
+
+Vivemos em um tempo onde muitas vozes tentam oferecer respostas para os anseios do coração humano. Há quem diga que a paz interior está na meditação, no sucesso, nos bens materiais ou até em religiões diversas. Mas a verdade é que só há um caminho seguro, verdadeiro e eterno: Jesus Cristo. Ele não é somente uma opção entre muitas, Ele é o único caminho para Deus.
+Cristo é insubstituível porque só Ele deu a vida por nós. Na cruz, Jesus pagou o preço dos nossos pecados com o próprio sangue, algo que nenhum outro poderia fazer. Ele é o único que venceu a morte e ressuscitou, garantindo a todos que creem Nele a vida eterna. Nenhuma filosofia, crença ou líder espiritual tem esse poder. Somente Cristo salva.
+Jesus é insubstituível porque Ele conhece nossas dores. Ele foi rejeitado, humilhado e sofreu por amor a nós. Ele não é um Deus distante, mas um Salvador presente, que entende nossas fraquezas e caminha ao nosso lado. Quando tudo parece perdido, é Ele quem nos sustenta.
+Muitas vezes, tentamos preencher o vazio do coração com coisas passageiras. Mas nada se compara ao amor de Cristo. Somente Nele encontramos perdão, paz e propósito verdadeiro para viver. Ele nos dá direção quando estamos confusos, força quando estamos fracos e esperança quando tudo parece escuro.
+Não importa quem você seja ou o que tenha feito, Jesus te ama profundamente e deseja transformar sua vida. Ele não quer apenas ser parte da sua história, Ele quer ser o centro dela.
+Cristo é insubstituível! Não existe outro nome pelo qual possamos ser salvos. Abra o seu coração para Ele hoje.
+
+Porque há um só Deus, e um só mediador entre Deus e os homens, Jesus Cristo, homem.
+- 1 Timóteo 2:5
+
+Só Jesus preenche o nosso coração 
+
+
+Ore todos os dias: A oração aproxima você de Jesus. Fale com Ele como a um amigo, agradeça, peça ajuda e conte seus sentimentos. Ele sempre ouve com amor.
+
+Leia a Bíblia: A Palavra de Deus revela quem é Cristo e como viver com Ele. Separe alguns minutos por dia para ler e meditar. Deus fala através das Escrituras.
+
+Escolha seguir Jesus nas decisões: Antes de agir, pergunte: “O que Jesus faria?” Isso ajuda a viver com sabedoria, evitando escolhas erradas.
+
+Para orar: 
+
+Senhor Jesus, reconheço que Tu és o único caminho, verdade e vida. Perdoa meus pecados, transforma meu coração e guia meus passos. Quero Te seguir com fé e amor todos os dias. Reina em minha vida, pois só Tu és insubstituível. Amém.
+
+Veja também: a história de Jesus.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Ira desmedida
 INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
 INFO:root:🔹 Description: Isso tudo deixou Jonas aborrecido e muito irado.
@@ -293,36 +308,6 @@ Busque ser mais parecido com Cristo: não seja reativo nem vingativo, mas seja 
 Para Orar: 
 
 Senhor, ajuda-me a irar e não pecar. Controla as minhas reações e os meus sentimentos nos momentos de crise e aborrecimento. Perdoa-me por todo descontrole, raiva e pensamentos de vingança. Ensina-me a acalmar os ânimos, na Tua Palavra e transforma o meu temperamento, para que seja mais parecido com o Senhor Jesus Cristo. Amém!
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Vivendo as maravilhas de Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/reflexao_biblica_mensagens_de_fe_e_esperanca_em_deus/
-INFO:root:🔹 Description: Grandes são as obras do Senhor;
-nelas meditam todos os que as apreciam.
-- Salmos 111:2
-
-Viver as maravilhas de Deus é mais do que experimentar momentos extraordinários; é perceber, em cada detalhe do cotidiano, a presença amorosa do Senhor. Desde o nascer do sol até os pequenos gestos de bondade, Deus revela Sua grandeza de maneira constante. Suas obras não estão limitadas a milagres visíveis, mas se manifestam também no consolo durante a dor, na paz em meio ao caos e na esperança que renasce a cada manhã.
-Quantas vezes ignoramos as maravilhas de Deus porque esperamos o espetacular, enquanto Ele age com suavidade e propósito? A criação nos fala sobre Seu poder, o mar, as montanhas, os céus estrelados, tudo anuncia a majestade do Criador. Mas as maiores maravilhas de Deus são espirituais: o perdão, a graça, o novo nascimento em Cristo. A salvação, concedida por meio de Jesus, é a maior de todas as maravilhas, porque nos reconcilia com o Pai e nos dá vida eterna.
-Vivemos as maravilhas de Deus quando entregamos a Ele nossos caminhos e confiamos em Sua vontade. Quando somos guiados pelo Espírito Santo, experimentamos paz que excede o entendimento humano. Mesmo nas lutas, o Senhor se faz presente, sustentando-nos com Sua mão poderosa. A vida cristã é marcada por provas, mas também por vitórias que só a fé explica.
-Para viver plenamente as maravilhas de Deus, é necessário um coração sensível, olhos espirituais atentos e uma fé que descansa nas promessas do Senhor. Ele continua operando hoje, como operou no passado. Basta olhar com fé e reconhecer Sua mão em cada circunstância.
-
-Cantarei ao Senhor toda a minha vida;
-louvarei ao meu Deus enquanto eu viver.
-- Salmos 104:33
-
-Como viver e experimentar as maravilhas de Deus
-
-
-Cultive uma vida de gratidão: Comece e termine o dia agradecendo pelas pequenas e grandes bênçãos. A gratidão abre os olhos espirituais para perceber as maravilhas de Deus em cada momento vivido.
-
-Medite na Palavra e ore com constância: Reserve tempo para ler a Bíblia e falar com Deus. A comunhão constante fortalece a fé e nos torna mais sensíveis à ação divina em nossa jornada diária.
-
-Sirva com amor e generosidade: Busque oportunidades para ajudar o próximo com gestos simples. Deus se revela nas atitudes de amor, e ao servir, também experimentamos as maravilhas de Seu caráter em ação.
-
-Para orar:
-
-Senhor amado, abre meus olhos para enxergar Tuas maravilhas todos os dias. Ensina-me a confiar em Ti, mesmo nas lutas, e a viver com gratidão, fé e obediência. Que minha vida reflita Teu amor e glorifique Teu nome em tudo. Guia meus passos e fortalece meu coração. Em nome de Jesus, amém.
-
-Veja também: Bom dia abençoado - mensagens para um dia de fé e alegria em Deus.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
@@ -426,27 +411,23 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  39 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  56 +++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  44 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  41 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  61 ++++--
+ feeds/salmo_do_dia/atom.xml               |  61 ++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 345 +++++++++++++++---------------
- 16 files changed, 308 insertions(+), 301 deletions(-)
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 306 +++++++++++++-----------------
+ 14 files changed, 253 insertions(+), 302 deletions(-)
