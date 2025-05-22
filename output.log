@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119707 characters
-INFO:root:HTML parsed, length: 112821 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (21/05/2025)', 'Palavra de Ontem (20/05/2025)', 'Palavra de Anteontem (19/05/2025)']
-INFO:root:Found 3 URLs: ['/diva-2/', '/post/', '/escrupulo/']
-INFO:root:Found 12 descriptions: ['substantivo feminino Divindade feminina; deusa: di', 'Sinônimos:\n\nbeldade, deusa, divindade, deia, prima', 'Classe gramatical:substantivo de dois gêneros']
-INFO:root:Found 3 dates: ['Palavra de Hoje (21/05/2025)', 'Palavra de Ontem (20/05/2025)', 'Palavra de Anteontem (19/05/2025)']
+INFO:root:Response length: 118438 characters
+INFO:root:HTML parsed, length: 111735 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (22/05/2025)', 'Palavra de Ontem (21/05/2025)', 'Palavra de Anteontem (20/05/2025)']
+INFO:root:Found 3 URLs: ['/estrebaria/', '/diva-2/', '/post/']
+INFO:root:Found 11 descriptions: ['substantivo feminino Estabelecimento onde se coloc', 'Sinônimos:\n\nestábulo, cavalariça, cocheira', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (22/05/2025)', 'Palavra de Ontem (21/05/2025)', 'Palavra de Anteontem (20/05/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (21/05/2025)', ID=8287680c22c11288e1b556cd25da3372
-INFO:root:Processing entry 2: Title='Palavra de Ontem (20/05/2025)', ID=3c7bcef8e12499c662c5956c3529c53b
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (19/05/2025)', ID=baa31a9f9a179f9801f34720cec564ef
+INFO:root:Processing entry 1: Title='Palavra de Hoje (22/05/2025)', ID=5e2f04b734cfe92465eb8d13a9a341ec
+INFO:root:Processing entry 2: Title='Palavra de Ontem (21/05/2025)', ID=f2c8b4c33d053a44c6620859e8baa934
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/05/2025)', ID=9810b4616a88635c8d3fa426ea8ad2f2
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (21/05/2025) - Significado completo de diva:
-INFO:root:🔹 URL: https://www.dicio.com.br/diva-2/
-INFO:root:🔹 Description: substantivo feminino Divindade feminina; deusa: diva hindu.[Música] Cantora de ópera; prima-dona.[Figurado] Cantora ou atriz notável, mundialmente conhecida.Aquela que serve como inspiração; egéria, inspiração, musa.[Figurado] Mulher excessivamente bonita; beldade.Etimologia (origem da palavra diva). A palavra diva deriva do latim "diva", que significa deusa.
+INFO:root:🔹 Title: Palavra de Hoje (22/05/2025) - Significado completo de estrebaria:
+INFO:root:🔹 URL: https://www.dicio.com.br/estrebaria/
+INFO:root:🔹 Description: substantivo feminino Estabelecimento onde se colocam ou se abrigam cavalos e seus arreios.Local usado para abrigar burros, jumentos, mulas, éguas ou outros animais desse gênero; cavalariça.Etimologia (origem da palavra estrebaria). A palavra estrebaria deriva da junção de estabro, que significa estábulo, e do sufixo -aria.
  
 Sinônimos:
 
-beldade, deusa, divindade, deia, prima-dona, celebridade, dama, estrela, musa, deidade 
+estábulo, cavalariça, cocheira 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (20/05/2025) - Significado completo de post:
-INFO:root:🔹 URL: https://www.dicio.com.br/post/
+INFO:root:🔹 Title: Palavra de Ontem (21/05/2025) - Significado completo de diva:
+INFO:root:🔹 URL: https://www.dicio.com.br/diva-2/
 INFO:root:🔹 Description: Sinônimos:
 
-beldade, deusa, divindade, deia, prima-dona, celebridade, dama, estrela, musa, deidade
- Classe gramatical:substantivo de dois gêneros
+estábulo, cavalariça, cocheira
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (19/05/2025) - Significado completo de escrúpulo:
-INFO:root:🔹 URL: https://www.dicio.com.br/escrupulo/
-INFO:root:🔹 Description: Classe gramatical:substantivo de dois gêneros
- Sílabas:di-va
+INFO:root:🔹 Title: Palavra de Anteontem (20/05/2025) - Significado completo de post:
+INFO:root:🔹 URL: https://www.dicio.com.br/post/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:es-tre-ba-ri-a
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,42 +42,66 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 242221 characters
-INFO:root:HTML parsed, length: 231702 characters
-INFO:root:Found 1 titles: ['Isaías 65:24']
-INFO:root:Found 1 URLs: ['/versiculo/isaias_65_24/']
-INFO:root:Found 1 descriptions: ['Antes de clamarem,\neu responderei;\nainda não estar']
+INFO:root:Response length: 242295 characters
+INFO:root:HTML parsed, length: 231776 characters
+INFO:root:Found 1 titles: ['Romanos 1:16']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_1_16/']
+INFO:root:Found 1 descriptions: ['Não me envergonho do evangelho, porque é o poder d']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Isaías 65:24', ID=746262819431502a26d5e8f49ed77e48
+INFO:root:Processing entry 1: Title='Romanos 1:16', ID=8c94d504af062259d01fb2c3cf3cbb8a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Isaías 65:24
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/isaias_65_24/
-INFO:root:🔹 Description: Antes de clamarem,
-eu responderei;
-ainda não estarão falando, e eu os ouvirei. Isaías 65:24
+INFO:root:🔹 Title: Romanos 1:16
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_1_16/
+INFO:root:🔹 Description: Não me envergonho do evangelho, porque é o poder de Deus para a salvação de todo aquele que crê: primeiro do judeu, depois do grego. Romanos 1:16
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 241460 characters
-INFO:root:HTML parsed, length: 231651 characters
-INFO:root:Found 3 titles: ['Salmo 47', 'Salmo 13', 'Salmo 39']
-INFO:root:Found 3 URLs: ['/salmos_47/', '/salmos_13/', '/salmos_39/']
-INFO:root:Found 3 descriptions: ['Batam palmas, vocês, todos os povos;\naclamem a Deu', 'Até quando, Senhor?\nPara sempre te esquecerás de m', 'Eu disse: Vigiarei a minha conduta\ne não pecarei e']
-INFO:root:Found 3 dates: ['21 de Maio de 2025', '20 de Maio de 2025', '19 de Maio de 2025']
+INFO:root:Response length: 245061 characters
+INFO:root:HTML parsed, length: 235238 characters
+INFO:root:Found 3 titles: ['Salmo 110', 'Salmo 47', 'Salmo 13']
+INFO:root:Found 3 URLs: ['/salmos_110/', '/salmos_47/', '/salmos_13/']
+INFO:root:Found 3 descriptions: ['O Senhor disse ao meu Senhor:\n"Senta-te à minha di', 'Batam palmas, vocês, todos os povos;\naclamem a Deu', 'Até quando, Senhor?\nPara sempre te esquecerás de m']
+INFO:root:Found 3 dates: ['22 de Maio de 2025', '21 de Maio de 2025', '20 de Maio de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 47', ID=2cf72a8f20404ab489b27d6675339716
-INFO:root:Processing entry 2: Title=' Salmo 13', ID=929ac7e9fc48e8e2f594f5526caa6071
-INFO:root:Processing entry 3: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
+INFO:root:Processing entry 1: Title=' Salmo 110', ID=4a28a37e04a23862302f45e5b61a9821
+INFO:root:Processing entry 2: Title=' Salmo 47', ID=2cf72a8f20404ab489b27d6675339716
+INFO:root:Processing entry 3: Title=' Salmo 13', ID=929ac7e9fc48e8e2f594f5526caa6071
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 110
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_110/
+INFO:root:🔹 Description: O Senhor disse ao meu Senhor:
+"Senta-te à minha direita
+até que eu faça dos teus inimigos
+um estrado para os teus pés". 
+O Senhor estenderá
+o cetro de teu poder desde Sião,
+e dominarás sobre os teus inimigos! 
+Quando convocares as tuas tropas,
+o teu povo se apresentará voluntariamente.
+Trajando vestes santas,
+desde o romper da alvorada
+os teus jovens virão como o orvalho. 
+O Senhor jurou e não se arrependerá:
+"Tu és sacerdote para sempre,
+segundo a ordem de Melquisedeque". 
+O Senhor está à tua direita;
+ele esmagará reis no dia da sua ira. 
+Julgará as nações, amontoando os mortos
+e esmagando governantes
+em toda a extensão da terra. 
+No caminho beberá de um ribeiro,
+e então erguerá a cabeça. 
+ Salmo 110
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 47
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_47/
 INFO:root:🔹 Description: Batam palmas, vocês, todos os povos;
@@ -122,105 +146,94 @@ Quero cantar ao Senhor
 pelo bem que me tem feito. 
  Salmo 13
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 39
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_39/
-INFO:root:🔹 Description: Eu disse: Vigiarei a minha conduta
-e não pecarei em palavras;
-porei mordaça em minha boca
-enquanto os ímpios
-estiverem na minha presença. 
-Enquanto me calei resignado,
-e me contive inutilmente,
-minha angústia aumentou. 
-Meu coração ardia-me no peito
-e, enquanto eu meditava, o fogo aumentava;
-então comecei a dizer: 
-Mostra-me, Senhor, o fim da minha vida
-e o número dos meus dias,
-para que eu saiba quão frágil sou. 
-Deste aos meus dias
-o comprimento de um palmo;
-a duração da minha vida é nada diante de ti.
-De fato, o homem não passa de um sopro. 
-Sim, cada um vai e volta como a sombra.
-Em vão se agita, amontoando riqueza
-sem saber quem ficará com ela. 
-Mas agora, Senhor, que hei de esperar?
-Minha esperança está em ti. 
-Livra-me de todas as minhas transgressões;
-não faças de mim
-um objeto de zombaria dos tolos. 
-Estou calado! Não posso abrir a boca,
-pois tu mesmo fizeste isso. 
-Afasta de mim o teu açoite;
-fui vencido pelo golpe da tua mão. 
-Tu repreendes e disciplinas o homem
-por causa do seu pecado;
-como traça destróis o que ele mais valoriza;
-de fato, o homem não passa de um sopro. 
-Ouve a minha oração, Senhor;
-escuta o meu grito de socorro;
-não sejas indiferente ao meu lamento.
-Pois sou para ti um estrangeiro,
-como foram todos os meus antepassados. 
-Desvia de mim os teus olhos,
-para que eu volte a ter alegria,
-antes que eu me vá e deixe de existir. 
- Salmo 39
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 244765 characters
-INFO:root:HTML parsed, length: 234648 characters
-INFO:root:Found 3 titles: ['Deus tem a última palavra para a sua vida', 'Celebre a misericórdia diária de Deus', 'O Senhor é meu bem']
+INFO:root:Response length: 245038 characters
+INFO:root:HTML parsed, length: 234912 characters
+INFO:root:Found 3 titles: ['Examine o seu coração', 'Deus tem a última palavra para a sua vida', 'Celebre a misericórdia diária de Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Ao homem pertencem\nos planos do coração,\nmas do Se', 'Satisfaze-nos pela manhã\ncom o teu amor leal,\ne to', 'Protege-me, ó Deus,\npois em ti me refugio.\nAo Senh']
-INFO:root:Found 1 dates: ['Quarta, 21 de maio de 2025']
+INFO:root:Found 3 descriptions: ['O coração é mais enganoso\nque qualquer outra coisa', 'Ao homem pertencem\nos planos do coração,\nmas do Se', 'Satisfaze-nos pela manhã\ncom o teu amor leal,\ne to']
+INFO:root:Found 1 dates: ['Quinta, 22 de maio de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus tem a última palavra para a sua vida', ID=a12a49dc7a6685be66dbe9829a7aece8
+INFO:root:Processing entry 1: Title='Examine o seu coração', ID=6a3838353d08962e2c5c8d13a238ec55
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus tem a última palavra para a sua vida - Palavra de Hoje
+INFO:root:🔹 Title: Examine o seu coração - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Ao homem pertencem
-os planos do coração,
-mas do Senhor vem a resposta da língua.
-- Provérbios 16:1
+INFO:root:🔹 Description: O coração é mais enganoso
+que qualquer outra coisa
+e sua doença é incurável.
+Quem é capaz de compreendê-lo?
+- Jeremias 17:9
 
-A vida não é fácil, é verdade. Muitas vezes somos tentados a pensar que tudo está perdido. As circunstâncias, os diagnósticos, as portas fechadas, os “nãos” que recebemos, tudo isso pode parecer definitivo. Mas a verdade é que Deus tem a última palavra para a sua vida.
-Você pode ter ouvido não haver mais saída, que não há solução, que o seu futuro está comprometido. Mas o Senhor, que criou os céus e a terra, é especialista em reverter histórias e transformar cenários impossíveis. Ele não depende das circunstâncias. Deus é soberano e fiel para cumprir tudo o que prometeu.
-Quantas vezes na Bíblia vemos histórias onde tudo parecia terminado? José foi vendido pelos irmãos, preso injustamente, esquecido no cárcere, mas Deus tinha a última palavra. Ele se tornou governador do Egito. Lázaro estava morto há quatro dias, mas Jesus chegou e o chamou para fora. Quando todos disseram “acabou”, Deus disse “ainda não terminei”.
-Não importa o que os outros disseram sobre você, nem mesmo o que sua mente tem repetido. Se Deus falou que vai fazer, Ele fará. Mesmo que demore, a palavra d’Ele não volta vazia. Aguente firme, persevere, confie. Sua história está nas mãos d’Aquele que nunca perde o controle.
-Não permita que o medo ou a ansiedade tomem o lugar da fé. Deus está trabalhando ao seu favor, o silêncio dEle não é ausência. É preparo. Creia, a última palavra sobre sua vida não vem do médico, do chefe, do banco, ou da sociedade. A última palavra vem de Deus, e ela é de vitória!
-Veja também: Versículos de esperança para sua vida
+Vivemos em uma época em que as aparências são muito valorizadas. Muitos se preocupam com o que os outros pensam, com a imagem que projetam ao mundo, mas se esquecem de olhar para dentro de si mesmos.
+A Palavra de Deus nos exorta a examinarmos o nosso coração, pois é dele que procede à fonte da vida (Provérbios 4:23). O coração humano, sem a direção de Deus, é inclinado ao pecado, ao egoísmo e à idolatria.
+Examinar o coração é mais do que reconhecer erros. É permitir que o Espírito Santo sonde os lugares mais profundos da alma, revelando intenções, mágoas escondidas, orgulhos disfarçados e pecados não confessados. Esse processo, muitas vezes desconfortável, é essencial para a santificação e para um relacionamento íntimo com Deus.
+Davi, um homem segundo o coração de Deus, compreendia isso profundamente. Ele clamou: “Sonda-me, ó Deus, e conhece o meu coração; prova-me e conhece os meus pensamentos” (Salmos 139:23). Essa oração revela humildade e dependência. Reconhecer que precisamos ser moldados é o primeiro passo para a verdadeira transformação.
+Deus não está interessado em atuações religiosas vazias. Ele deseja corações quebrantados, arrependidos, e dispostos a serem transformados. Ao examinar nosso interior, somos chamados ao arrependimento sincero, ao perdão, e a uma nova conduta pautada na graça e na Verdade.
+Que possamos, diariamente, parar e perguntar: “O que tenho cultivado no meu coração? Amor ou rancor? Fé ou incredulidade? Humildade ou vaidade?” Essa prática constante de autoexame nos mantém sensíveis à voz de Deus e nos ajuda a crescer em maturidade espiritual.
+Deixe que a luz de Cristo ilumine seu coração. Permita que Ele transforme o que for necessário. Porque só assim viveremos de maneira digna do chamado que recebemos.
+Veja também: Explicação de Provérbios 4:23 - guarda o teu coração
  
-Ao homem pertencem
-os planos do coração,
-mas do Senhor vem a resposta da língua.
-- Provérbios 16:1
+O coração é mais enganoso
+que qualquer outra coisa
+e sua doença é incurável.
+Quem é capaz de compreendê-lo?
+- Jeremias 17:9
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 253811 characters
-INFO:root:HTML parsed, length: 243446 characters
-INFO:root:Found 3 titles: ['O meu socorro vem do Senhor', 'Não confunda desafio com derrota', 'Viva em comunhão!']
-INFO:root:Found 2 URLs: ['/fala_comigo_senhor/', '/promessas_de_deus_para_abencoar_o_seu_dia/']
-INFO:root:Found 3 descriptions: ['Vivemos em um mundo cheio de incertezas. São dias ', '"Eu disse essas coisas para que em mim vocês tenha', 'Como é bom e agradável\nquando os irmãos convivem e']
-INFO:root:Found 3 dates: ['MAIO\n\n21\nQUARTA', 'MAIO\n\n20\nTERÇA', 'MAIO\n\n19\nSEGUNDA']
+INFO:root:Response length: 254227 characters
+INFO:root:HTML parsed, length: 243869 characters
+INFO:root:Found 3 titles: ['A graça que nos libertou', 'O meu socorro vem do Senhor', 'Não confunda desafio com derrota']
+INFO:root:Found 2 URLs: ['/jesus_sua_vida_e_sua_historia/', '/promessas_de_deus_para_abencoar_o_seu_dia/']
+INFO:root:Found 3 descriptions: ['Mas ele foi traspassado\npor causa das nossas trans', 'Vivemos em um mundo cheio de incertezas. São dias ', '"Eu disse essas coisas para que em mim vocês tenha']
+INFO:root:Found 3 dates: ['MAIO\n\n22\nQUINTA', 'MAIO\n\n21\nQUARTA', 'MAIO\n\n20\nTERÇA']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='O meu socorro vem do Senhor', ID=d4e40cbae406736ac85fefe6649ce8b4
-INFO:root:Processing entry 2: Title='Não confunda desafio com derrota', ID=26c468377a33a5ca53f862946d14d25b
+INFO:root:Processing entry 1: Title='A graça que nos libertou', ID=7a1e8af0712ef634571113fcf5daabd1
+INFO:root:Processing entry 2: Title='O meu socorro vem do Senhor', ID=d4e40cbae406736ac85fefe6649ce8b4
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A graça que nos libertou
+INFO:root:🔹 URL: https://www.bibliaon.com/jesus_sua_vida_e_sua_historia/
+INFO:root:🔹 Description: Mas ele foi traspassado
+por causa das nossas transgressões,
+foi esmagado por causa
+de nossas iniquidades;
+o castigo que nos trouxe paz
+estava sobre ele, e pelas suas feridas
+fomos curados.
+- Isaías 53:5
+
+A história de Barrabás é curta, mas cheia de significado. Ele era um homem culpado, preso por crimes graves como roubo, rebelião e assassinato. Naquele dia, diante da multidão, ele sabia que merecia a cruz. No entanto, aconteceu o inesperado: em vez de receber a punição, foi solto. E em seu lugar, Jesus, inocente, sem pecado foi condenado à morte.
+Essa troca não foi apenas uma decisão política ou um erro. Foi um retrato do que Jesus fez por toda a humanidade. Barrabás somos nós. Cada um de nós carrega culpas, falhas, escolhas erradas. Somos pecadores, e por justiça, mereceríamos pagar por nossos erros. Mas Jesus tomou o nosso lugar.
+Ele não somente substituiu Barrabás naquele momento. Ele substituiu a mim e a você na cruz. Sua morte foi voluntária. Ele escolheu sofrer por nossos pecados, para que pudéssemos ser livres. A graça de Deus se revela nessa troca tão injusta aos olhos humanos, mas perfeitamente justa segundo o amor de Deus.
+A salvação não é fruto de merecimento, mas de graça. Assim como Barrabás foi liberto sem merecer, nós também somos alcançados pelo perdão de Deus sem termos como pagar. A pergunta que fica é: o que faremos com essa liberdade?
+Que nunca esqueçamos: alguém inocente morreu para que pudéssemos viver. Aproveite essa liberdade para agradecer e engrandecer o nome do Senhor.
+Libertos pela graça de Deus
+
+
+Reconheça sua condição e necessidade de perdão: Admitir que somos pecadores é o primeiro passo. Como Barrabás, precisamos reconhecer que fomos libertos não por merecimento, mas pela misericórdia de Deus.
+
+Valorize o sacrifício de Jesus: Lembre-se todos os dias que alguém morreu em seu lugar. Viva com gratidão, orando, buscando a Deus e mantendo o coração sensível ao que Cristo fez por você na cruz.
+
+Use sua liberdade para servir e amar: Você foi liberto com um propósito. Use sua nova vida para fazer o bem, ajudar os outros e refletir o amor de Jesus em palavras, atitudes e ações concretas.
+
+Para orar:
+
+Senhor Jesus, obrigado por tomar o meu lugar na cruz. Reconheço que sou pecador e não merecia Tua graça, mas mesmo assim me amaste. Ajuda-me a viver com gratidão, fé e amor, refletindo Tua luz todos os dias. Que minha vida honre Teu sacrifício. Amém.
+
+Veja também: A história de Jesus.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O meu socorro vem do Senhor
-INFO:root:🔹 URL: https://www.bibliaon.com/fala_comigo_senhor/
+INFO:root:🔹 URL: https://www.bibliaon.com/promessas_de_deus_para_abencoar_o_seu_dia/
 INFO:root:🔹 Description: Vivemos em um mundo cheio de incertezas. São dias difíceis, com batalhas constantes, dores que parecem não ter fim e perguntas sem respostas. Muitas vezes, olhamos ao redor e não vemos saída, e é nesses momentos que o desespero tenta nos convencer de que estamos sozinhos. Mas a verdade é que nunca estivemos sós.
 A Palavra de Deus nos lembra em Salmos 121:1-2: “Elevo os meus olhos para os montes; de onde me virá o socorro? O meu socorro vem do Senhor, que fez o céu e a terra.”
 Essa é a certeza que sustenta os que creem: o nosso socorro não vem dos homens, das circunstâncias ou dos recursos terrenos. Ele vem do Senhor, o Criador de tudo, Aquele que tem poder sobre o tempo, a vida e o impossível.
@@ -240,41 +253,11 @@ Ore com confiança e espere com paciência: Apresente suas necessidades a Deus c
 Para orar:
 
 Senhor, em Ti coloco minha confiança. Sei que meu socorro vem de Ti, que tudo pode e tudo vê. Fortalece minha fé, renova minhas forças e guia meus passos. Mesmo nas lutas, confiarei em Ti. Amém.
-
-Veja também: Deus, fala comigo agora!
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Não confunda desafio com derrota
-INFO:root:🔹 URL: https://www.bibliaon.com/promessas_de_deus_para_abencoar_o_seu_dia/
-INFO:root:🔹 Description: "Eu disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo".
-- João 16:33
-
-Na vida, é comum enfrentarmos momentos em que tudo parece desabar. As portas se fecham, os ventos contrários sopram, e a alma se sente abatida. Nesses momentos, muitos confundem desafio com derrota. Mas é preciso entender que o desafio é uma parte essencial do crescimento, não o fim da jornada.
-Desafios nos moldam, nos fortalecem e nos aproximam de Deus. Eles nos ensinam a confiar mais, a orar com mais fervor e a dependermos completamente da graça de Deus. Quando Davi enfrentou Golias, aquilo era um desafio, não uma derrota. Quando José foi vendido pelos irmãos e lançado na prisão, era um processo, não o fim da promessa.
-Deus nunca prometeu ausência de lutas, mas garantiu presença constante em meio a elas. Ele transforma o deserto em caminho, e a dor em propósito. Se você está enfrentando algo difícil hoje, não se entregue à tristeza como se tivesse perdido. Levante-se em fé, pois o que parece derrota pode ser o cenário de um grande testemunho.
-A sua história continua sendo escrita. Deus não terminou a obra em você. O desafio que hoje parece insuportável será amanhã motivo de louvor. Continue firme, mesmo com lágrimas nos olhos. Confie, porque Aquele que começou a boa obra é fiel para completá-la.
-
-Mas em todas estas coisas somos mais que vencedores, por meio daquele que nos amou.
-- Romanos 8:37
-
-O que parece o fim é o começo de algo maior!
-
-
-Ore com propósito: Em vez de reclamar, fale com Deus. A oração direcionada transforma o caos em clareza e te conecta com o propósito mesmo em meio ao sofrimento.
-
-Mantenha-se em movimento: Mesmo diante das dificuldades, continue avançando. Deus honra quem persevera. A estagnação alimenta o desânimo; a ação, mesmo pequena, gera fé e esperança renovadas.
-
-Lembre-se das promessas: Revisite as promessas bíblicas e proféticas sobre sua vida. Elas são âncoras em tempos de tempestade e reavivam a certeza de que Deus está no controle.
-
-Para orar:
-
-Senhor, fortalece meu coração nos dias difíceis. Não me deixes confundir o desafio com a derrota. Renova minha fé, guia meus passos e cumpre em mim Teus propósitos. Amém.
-
-Veja também: Promessas de Deus para abençoar o seu dia
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224980 characters
-INFO:root:HTML parsed, length: 223561 characters
+INFO:root:Response length: 224916 characters
+INFO:root:HTML parsed, length: 223497 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 28 URLs: ['/wiki/Gaulois_(coura%C3%A7ado)', '/wiki/Gaulois_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
 INFO:root:Found 1 descriptions: ['O Gaulois foi um couraçado pré-dreadnought operado']
@@ -302,8 +285,8 @@ Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224980 characters
-INFO:root:HTML parsed, length: 223561 characters
+INFO:root:Response length: 224916 characters
+INFO:root:HTML parsed, length: 223497 characters
 INFO:root:Found 1 titles: ['21 de maio na história']
 INFO:root:Found 51 URLs: ['/wiki/Ficheiro:Flag_of_Montenegro.svg', '/wiki/Dia_Mundial_da_Diversidade_Cultural_para_o_Di%C3%A1logo_e_o_Desenvolvimento', '/wiki/Dia_Internacional_do_Ch%C3%A1']
 INFO:root:Found 1 descriptions: ['Bandeira do Montenegro\nDia Mundial da Diversidade ']
@@ -333,8 +316,8 @@ Ver mais • Outros dias: 19 • 20 • 21 • 22 • 23 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224980 characters
-INFO:root:HTML parsed, length: 223561 characters
+INFO:root:Response length: 224916 characters
+INFO:root:HTML parsed, length: 223497 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:%D0%9C%D0%B0%D1%81%D0%B8%D0%B2_%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B8%D1%86%D1%96.jpg']
 INFO:root:Found 1 descriptions: ['Panorama da Reserva da Biosfera dos Cárpatos na re']
@@ -373,27 +356,23 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 ++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  33 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 +++---
+ feeds/devocional_de_hoje/feed.json        |  14 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  32 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  76 +++----
+ feeds/salmo_do_dia/atom.xml               |  70 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 347 +++++++++++++-----------------
- 16 files changed, 267 insertions(+), 350 deletions(-)
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 310 +++++++++++++-----------------
+ 14 files changed, 250 insertions(+), 303 deletions(-)
