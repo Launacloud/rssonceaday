@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 118438 characters
-INFO:root:HTML parsed, length: 111735 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (22/05/2025)', 'Palavra de Ontem (21/05/2025)', 'Palavra de Anteontem (20/05/2025)']
-INFO:root:Found 3 URLs: ['/estrebaria/', '/diva-2/', '/post/']
-INFO:root:Found 11 descriptions: ['substantivo feminino Estabelecimento onde se coloc', 'Sinônimos:\n\nestábulo, cavalariça, cocheira', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (22/05/2025)', 'Palavra de Ontem (21/05/2025)', 'Palavra de Anteontem (20/05/2025)']
+INFO:root:Response length: 119931 characters
+INFO:root:HTML parsed, length: 113021 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (23/05/2025)', 'Palavra de Ontem (22/05/2025)', 'Palavra de Anteontem (21/05/2025)']
+INFO:root:Found 3 URLs: ['/extremo/', '/estrebaria/', '/diva-2/']
+INFO:root:Found 13 descriptions: ['adjetivo Que está no ponto mais afastado; distante', 'Sinônimos:\n\nexagero, excesso, ponta, afastado, afi', 'Classe gramatical:adjetivo e substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (23/05/2025)', 'Palavra de Ontem (22/05/2025)', 'Palavra de Anteontem (21/05/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (22/05/2025)', ID=5e2f04b734cfe92465eb8d13a9a341ec
-INFO:root:Processing entry 2: Title='Palavra de Ontem (21/05/2025)', ID=f2c8b4c33d053a44c6620859e8baa934
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/05/2025)', ID=9810b4616a88635c8d3fa426ea8ad2f2
+INFO:root:Processing entry 1: Title='Palavra de Hoje (23/05/2025)', ID=bc5e2423e567389f750a4b8509c15d29
+INFO:root:Processing entry 2: Title='Palavra de Ontem (22/05/2025)', ID=b6b7cdc03f28b0cfe96407db7e45a5a0
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/05/2025)', ID=fea22ae1ebb60c976de3eaeb36646b96
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (22/05/2025) - Significado completo de estrebaria:
-INFO:root:🔹 URL: https://www.dicio.com.br/estrebaria/
-INFO:root:🔹 Description: substantivo feminino Estabelecimento onde se colocam ou se abrigam cavalos e seus arreios.Local usado para abrigar burros, jumentos, mulas, éguas ou outros animais desse gênero; cavalariça.Etimologia (origem da palavra estrebaria). A palavra estrebaria deriva da junção de estabro, que significa estábulo, e do sufixo -aria.
+INFO:root:🔹 Title: Palavra de Hoje (23/05/2025) - Significado completo de extremo:
+INFO:root:🔹 URL: https://www.dicio.com.br/extremo/
+INFO:root:🔹 Description: adjetivo Que está no ponto mais afastado; distante, longínquo, remoto: os extremos confins do império.Que está no auge, no último grau de intensidade; intenso, máximo: possuído de extrema angústia.Derradeiro, último: ouviu-lhe a extrema voz da boca fria.Que é intransigente; radical, extremista: medida extrema.substantivo masculino O ponto mais longínquo, distante; extremidade, termo: o extremo de sua fazenda esbarra num rio.substantivo masculino plural Carinho excessivo: trata os netos com extremos.Recursos derradeiros: os extremos de um projeto.O que vai além do normal; exagerados.Etimologia (origem da palavra extremo). Do latim extremus.a.um.
  
 Sinônimos:
 
-estábulo, cavalariça, cocheira 
+exagero, excesso, ponta, afastado, afinal, derradeiro, último, limite, simples, distante, longínquo, mero, pólo, exagerado 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (21/05/2025) - Significado completo de diva:
-INFO:root:🔹 URL: https://www.dicio.com.br/diva-2/
+INFO:root:🔹 Title: Palavra de Ontem (22/05/2025) - Significado completo de estrebaria:
+INFO:root:🔹 URL: https://www.dicio.com.br/estrebaria/
 INFO:root:🔹 Description: Sinônimos:
 
-estábulo, cavalariça, cocheira
- Classe gramatical:substantivo feminino
+exagero, excesso, ponta, afastado, afinal, derradeiro, último, limite, simples, distante, longínquo, mero, pólo, exagerado
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (20/05/2025) - Significado completo de post:
-INFO:root:🔹 URL: https://www.dicio.com.br/post/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:es-tre-ba-ri-a
+INFO:root:🔹 Title: Palavra de Anteontem (21/05/2025) - Significado completo de diva:
+INFO:root:🔹 URL: https://www.dicio.com.br/diva-2/
+INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
+ Sílabas:ex-tre-mo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,65 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 242295 characters
-INFO:root:HTML parsed, length: 231776 characters
-INFO:root:Found 1 titles: ['Romanos 1:16']
-INFO:root:Found 1 URLs: ['/versiculo/romanos_1_16/']
-INFO:root:Found 1 descriptions: ['Não me envergonho do evangelho, porque é o poder d']
+INFO:root:Response length: 243181 characters
+INFO:root:HTML parsed, length: 232503 characters
+INFO:root:Found 1 titles: ['Habacuque 2:20']
+INFO:root:Found 1 URLs: ['/versiculo/habacuque_2_20/']
+INFO:root:Found 1 descriptions: ['O Senhor,porém,\nestá em seu santo templo;\ndiante d']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Romanos 1:16', ID=8c94d504af062259d01fb2c3cf3cbb8a
+INFO:root:Processing entry 1: Title='Habacuque 2:20', ID=1a328afd51d8104b43409ed796598ee8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Romanos 1:16
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_1_16/
-INFO:root:🔹 Description: Não me envergonho do evangelho, porque é o poder de Deus para a salvação de todo aquele que crê: primeiro do judeu, depois do grego. Romanos 1:16
+INFO:root:🔹 Title: Habacuque 2:20
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/habacuque_2_20/
+INFO:root:🔹 Description: O Senhor,porém,
+está em seu santo templo;
+diante dele fique em silêncio
+toda a terra". Habacuque 2:20
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 245061 characters
-INFO:root:HTML parsed, length: 235238 characters
-INFO:root:Found 3 titles: ['Salmo 110', 'Salmo 47', 'Salmo 13']
-INFO:root:Found 3 URLs: ['/salmos_110/', '/salmos_47/', '/salmos_13/']
-INFO:root:Found 3 descriptions: ['O Senhor disse ao meu Senhor:\n"Senta-te à minha di', 'Batam palmas, vocês, todos os povos;\naclamem a Deu', 'Até quando, Senhor?\nPara sempre te esquecerás de m']
-INFO:root:Found 3 dates: ['22 de Maio de 2025', '21 de Maio de 2025', '20 de Maio de 2025']
+INFO:root:Response length: 246047 characters
+INFO:root:HTML parsed, length: 236069 characters
+INFO:root:Found 3 titles: ['Salmo 93', 'Salmo 110', 'Salmo 47']
+INFO:root:Found 3 URLs: ['/salmos_93/', '/salmos_110/', '/salmos_47/']
+INFO:root:Found 3 descriptions: ['O Senhor reina!\nVestiu-se de majestade;\nde majesta', 'O Senhor disse ao meu Senhor:\n"Senta-te à minha di', 'Batam palmas, vocês, todos os povos;\naclamem a Deu']
+INFO:root:Found 3 dates: ['23 de Maio de 2025', '22 de Maio de 2025', '21 de Maio de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 110', ID=4a28a37e04a23862302f45e5b61a9821
-INFO:root:Processing entry 2: Title=' Salmo 47', ID=2cf72a8f20404ab489b27d6675339716
-INFO:root:Processing entry 3: Title=' Salmo 13', ID=929ac7e9fc48e8e2f594f5526caa6071
+INFO:root:Processing entry 1: Title=' Salmo 93', ID=a3266148ae5a2899b43f65ea48da1d05
+INFO:root:Processing entry 2: Title=' Salmo 110', ID=4a28a37e04a23862302f45e5b61a9821
+INFO:root:Processing entry 3: Title=' Salmo 47', ID=2cf72a8f20404ab489b27d6675339716
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 93
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_93/
+INFO:root:🔹 Description: O Senhor reina!
+Vestiu-se de majestade;
+de majestade vestiu-se o Senhor
+e armou-se de poder!
+O mundo está firme e não se abalará. 
+O teu trono está firme desde a antiguidade;
+tu existes desde a eternidade. 
+As águas se levantaram, Senhor,
+as águas levantaram a voz;
+as águas levantaram seu bramido. 
+Mais poderoso do que o estrondo
+das águas impetuosas,
+mais poderoso do que as ondas do mar
+é o Senhor nas alturas. 
+Os teus mandamentos
+permanecem firmes e fiéis;
+a santidade, SENHOR,
+é o ornamento perpétuo da tua casa. 
+ Salmo 93
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 110
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_110/
 INFO:root:🔹 Description: O Senhor disse ao meu Senhor:
@@ -127,80 +152,89 @@ pois os governantes da terra pertencem a Deus;
 ele é soberanamente exaltado. 
  Salmo 47
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 13
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_13/
-INFO:root:🔹 Description: Até quando, Senhor?
-Para sempre te esquecerás de mim?
-Até quando esconderás de mim o teu rosto? 
-Até quando terei inquietações
-e tristeza no coração dia após dia?
-Até quando o meu inimigo triunfará sobre mim? 
-Olha para mim e responde, Senhor, meu Deus.
-Ilumina os meus olhos,
-ou do contrário dormirei o sono da morte; 
-os meus inimigos dirão: "Eu o venci",
-e os meus adversários festejarão o meu fracasso. 
-Eu, porém, confio em teu amor;
-o meu coração exulta em tua salvação. 
-Quero cantar ao Senhor
-pelo bem que me tem feito. 
- Salmo 13
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245038 characters
-INFO:root:HTML parsed, length: 234912 characters
-INFO:root:Found 3 titles: ['Examine o seu coração', 'Deus tem a última palavra para a sua vida', 'Celebre a misericórdia diária de Deus']
+INFO:root:Response length: 246111 characters
+INFO:root:HTML parsed, length: 235829 characters
+INFO:root:Found 3 titles: ['Coragem para perseverar na provação', 'Examine o seu coração', 'Deus tem a última palavra para a sua vida']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O coração é mais enganoso\nque qualquer outra coisa', 'Ao homem pertencem\nos planos do coração,\nmas do Se', 'Satisfaze-nos pela manhã\ncom o teu amor leal,\ne to']
-INFO:root:Found 1 dates: ['Quinta, 22 de maio de 2025']
+INFO:root:Found 3 descriptions: ['Feliz é o homem que persevera na provação, porque ', 'O coração é mais enganoso\nque qualquer outra coisa', 'Ao homem pertencem\nos planos do coração,\nmas do Se']
+INFO:root:Found 1 dates: ['Sexta, 23 de maio de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Examine o seu coração', ID=6a3838353d08962e2c5c8d13a238ec55
+INFO:root:Processing entry 1: Title='Coragem para perseverar na provação', ID=d9c8af010d20a63a0da243aa77458e55
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Examine o seu coração - Palavra de Hoje
+INFO:root:🔹 Title: Coragem para perseverar na provação - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O coração é mais enganoso
-que qualquer outra coisa
-e sua doença é incurável.
-Quem é capaz de compreendê-lo?
-- Jeremias 17:9
+INFO:root:🔹 Description: Feliz é o homem que persevera na provação, porque depois de aprovado receberá a coroa da vida, que Deus prometeu aos que o amam.
+- Tiago 1:12
 
-Vivemos em uma época em que as aparências são muito valorizadas. Muitos se preocupam com o que os outros pensam, com a imagem que projetam ao mundo, mas se esquecem de olhar para dentro de si mesmos.
-A Palavra de Deus nos exorta a examinarmos o nosso coração, pois é dele que procede à fonte da vida (Provérbios 4:23). O coração humano, sem a direção de Deus, é inclinado ao pecado, ao egoísmo e à idolatria.
-Examinar o coração é mais do que reconhecer erros. É permitir que o Espírito Santo sonde os lugares mais profundos da alma, revelando intenções, mágoas escondidas, orgulhos disfarçados e pecados não confessados. Esse processo, muitas vezes desconfortável, é essencial para a santificação e para um relacionamento íntimo com Deus.
-Davi, um homem segundo o coração de Deus, compreendia isso profundamente. Ele clamou: “Sonda-me, ó Deus, e conhece o meu coração; prova-me e conhece os meus pensamentos” (Salmos 139:23). Essa oração revela humildade e dependência. Reconhecer que precisamos ser moldados é o primeiro passo para a verdadeira transformação.
-Deus não está interessado em atuações religiosas vazias. Ele deseja corações quebrantados, arrependidos, e dispostos a serem transformados. Ao examinar nosso interior, somos chamados ao arrependimento sincero, ao perdão, e a uma nova conduta pautada na graça e na Verdade.
-Que possamos, diariamente, parar e perguntar: “O que tenho cultivado no meu coração? Amor ou rancor? Fé ou incredulidade? Humildade ou vaidade?” Essa prática constante de autoexame nos mantém sensíveis à voz de Deus e nos ajuda a crescer em maturidade espiritual.
-Deixe que a luz de Cristo ilumine seu coração. Permita que Ele transforme o que for necessário. Porque só assim viveremos de maneira digna do chamado que recebemos.
-Veja também: Explicação de Provérbios 4:23 - guarda o teu coração
+Não é fácil suportar e perseverar nas provações, seja qual for a sua natureza. Existem provações pessoais, como problemas de saúde, desemprego, desânimo: dificuldades e tribulações que nos afetam pessoalmente. Mas os testes também podem atingir nossos familiares ou amigos. Ou podem surgir dificuldades gerais no país em que vivemos. Todos esses desafios, e muitos outros, podem testar nossa fé.
+Graças a Deus que ele não nos deixa sozinhos nos momentos de provação! Em meio a todas as dificuldades que a vida nos apresenta, podemos clamar a Deus por ajuda. Pode ser difícil sentir sua presença, mas não podemos desistir, porque ele permanece ao nosso lado e não solta nossa mão.
+
+Quando você atravessar as águas,
+eu estarei com você;
+quando você atravessar os rios,
+eles não o encobrirão.
+Quando você andar através do fogo,
+não se queimará;
+as chamas não o deixarão em brasas.
+- Isaías 43:2
+
+Persevere, não desista quando as provações surgirem em sua vida! Deus conhece suas lágrimas, pensamentos, lutas e medos. Ele não é indiferente à sua dor. Pelo contrário, o próprio Jesus sofreu e foi tentado em todas as coisas, e por isso é capaz de compadecer-se das nossas fraquezas (Hebreus 4:15).
+Lembre-se de que você não está sozinho: o Senhor está sempre com você. Mesmo que você não entenda o "porquê" da situação, você pode confiar no Deus que o sustenta. Ele é seu refúgio, sua força e sua ajuda sempre presente na angústia (Salmo 46:1). Levante o olhar e siga em frente com fé.
+A provação não durará para sempre, mas produzirá frutos eternos se você perseverar. E lembre-se de que no final da corrida lhe espera a coroa da vida, a recompensa que Deus prometeu aos que o amam. Não perca a esperança: Deus está trabalhando, mesmo no que você não pode ver agora. Sejam firmes, pois aquele que começou boa obra em vocês vai completá-la até o dia de Jesus Cristo (Filipenses 1:6).
+Veja também: Exemplos de persistência na Bíblia (pessoas que confiaram em Deus e venceram)
  
-O coração é mais enganoso
-que qualquer outra coisa
-e sua doença é incurável.
-Quem é capaz de compreendê-lo?
-- Jeremias 17:9
+Feliz é o homem que persevera na provação, porque depois de aprovado receberá a coroa da vida, que Deus prometeu aos que o amam.
+- Tiago 1:12
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 254227 characters
-INFO:root:HTML parsed, length: 243869 characters
-INFO:root:Found 3 titles: ['A graça que nos libertou', 'O meu socorro vem do Senhor', 'Não confunda desafio com derrota']
-INFO:root:Found 2 URLs: ['/jesus_sua_vida_e_sua_historia/', '/promessas_de_deus_para_abencoar_o_seu_dia/']
-INFO:root:Found 3 descriptions: ['Mas ele foi traspassado\npor causa das nossas trans', 'Vivemos em um mundo cheio de incertezas. São dias ', '"Eu disse essas coisas para que em mim vocês tenha']
-INFO:root:Found 3 dates: ['MAIO\n\n22\nQUINTA', 'MAIO\n\n21\nQUARTA', 'MAIO\n\n20\nTERÇA']
+INFO:root:Response length: 255449 characters
+INFO:root:HTML parsed, length: 244930 characters
+INFO:root:Found 3 titles: ['Honrando a Deus com nossas atitudes', 'A graça que nos libertou', 'O meu socorro vem do Senhor']
+INFO:root:Found 2 URLs: ['/coisas_que_agradam_a_deus/', '/jesus_sua_vida_e_sua_historia/']
+INFO:root:Found 3 descriptions: ['Assim brilhe a luz de vocês diante dos homens, par', 'Mas ele foi traspassado\npor causa das nossas trans', 'Vivemos em um mundo cheio de incertezas. São dias ']
+INFO:root:Found 3 dates: ['MAIO\n\n23\nSEXTA', 'MAIO\n\n22\nQUINTA', 'MAIO\n\n21\nQUARTA']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='A graça que nos libertou', ID=7a1e8af0712ef634571113fcf5daabd1
-INFO:root:Processing entry 2: Title='O meu socorro vem do Senhor', ID=d4e40cbae406736ac85fefe6649ce8b4
+INFO:root:Processing entry 1: Title='Honrando a Deus com nossas atitudes', ID=28832000ad8006c45efef89262f57616
+INFO:root:Processing entry 2: Title='A graça que nos libertou', ID=7a1e8af0712ef634571113fcf5daabd1
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Honrando a Deus com nossas atitudes
+INFO:root:🔹 URL: https://www.bibliaon.com/coisas_que_agradam_a_deus/
+INFO:root:🔹 Description: Assim brilhe a luz de vocês diante dos homens, para que vejam as suas boas obras e glorifiquem ao Pai de vocês, que está nos céus.
+- Mateus 5:16 
+
+Honrar a Deus não se resume somente a palavras ou momentos de adoração no templo. Vai muito, além disso. Deus é glorificado quando nossas atitudes refletem Seu caráter, mesmo nas tarefas mais simples do nosso dia a dia.
+A maneira como tratamos as pessoas, a nossa honestidade no trabalho, como reagimos às dificuldades, tudo isso é observado não só por aqueles ao nosso redor, mas principalmente por Deus. Quando escolhemos perdoar ao invés de guardar mágoa, quando ajudamos sem esperar nada em troca, quando falamos com amor em vez de julgamento, estamos honrando o Senhor com nossas atitudes.
+Muitas vezes, pensamos que apenas grandes feitos contam como honra a Deus, mas Ele valoriza a obediência nos detalhes. Jesus nos ensinou que o maior mandamento é amar a Deus acima de tudo, e o segundo, semelhante a este, é amar o próximo como a nós mesmos. Esse amor se manifesta em atitudes: paciência, generosidade, compaixão e integridade.
+Também é importante lembrar que, quando falhamos, e todos falhamos, podemos nos achegar a Deus com arrependimento sincero. A graça de Deus nos restaura e nos capacita a seguir em frente, decididos a viver de forma que O honre.
+Busque diariamente refletir Jesus em suas ações. Ore pedindo sabedoria para agir com retidão e humildade. Leia a Palavra para moldar seu coração à vontade de Deus. Lembre-se: cada atitude sua pode ser um testemunho vivo da presença de Cristo em sua vida.
+Quando vivemos com intenção e propósito de glorificar a Deus, nossa luz brilha, e o mundo pode ver, por meio de nós, o amor e a verdade do Pai. 
+Honre a Deus com a sua vida 
+
+
+Demonstre paciência, gentileza e compaixão, mesmo diante de dificuldades. Suas atitudes devem refletir o amor de Cristo, impactando vidas e glorificando a Deus em cada relacionamento.
+
+Seja honesto em suas palavras e ações, mesmo quando ninguém está olhando. A integridade honra a Deus e revela um coração comprometido com os princípios do Reino, acima de interesses pessoais.
+
+Ore e medite na Palavra. A intimidade com Deus transforma seu interior e molda suas atitudes, tornando sua vida um reflexo constante da graça e da vontade divina.
+
+Para orar: 
+
+Senhor, ajuda-me a viver de modo que Te honre em cada atitude. Que minhas palavras e ações reflitam Teu amor, Tua verdade e Tua graça. Molda meu coração segundo Tua vontade e guia meus passos todos os dias. Amém.
+
+Veja também: Atitudes que agradam ao Senhor
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A graça que nos libertou
 INFO:root:🔹 URL: https://www.bibliaon.com/jesus_sua_vida_e_sua_historia/
 INFO:root:🔹 Description: Mas ele foi traspassado
@@ -232,32 +266,10 @@ Senhor Jesus, obrigado por tomar o meu lugar na cruz. Reconheço que sou pecador
 
 Veja também: A história de Jesus.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O meu socorro vem do Senhor
-INFO:root:🔹 URL: https://www.bibliaon.com/promessas_de_deus_para_abencoar_o_seu_dia/
-INFO:root:🔹 Description: Vivemos em um mundo cheio de incertezas. São dias difíceis, com batalhas constantes, dores que parecem não ter fim e perguntas sem respostas. Muitas vezes, olhamos ao redor e não vemos saída, e é nesses momentos que o desespero tenta nos convencer de que estamos sozinhos. Mas a verdade é que nunca estivemos sós.
-A Palavra de Deus nos lembra em Salmos 121:1-2: “Elevo os meus olhos para os montes; de onde me virá o socorro? O meu socorro vem do Senhor, que fez o céu e a terra.”
-Essa é a certeza que sustenta os que creem: o nosso socorro não vem dos homens, das circunstâncias ou dos recursos terrenos. Ele vem do Senhor, o Criador de tudo, Aquele que tem poder sobre o tempo, a vida e o impossível.
-Quando confiamos n’Ele, não somos abalados. Mesmo que tudo pareça desmoronar, o nosso Deus continua no controle.
-Ele nos vê no secreto, conhece nossas dores e ouve cada oração feita com fé. Às vezes, o socorro não vem do jeito que esperamos, mas sempre virá da maneira perfeita que o Senhor preparou. Ele nunca chega atrasado, nem se esquece dos Seus filhos. Ele é o Deus que abre portas onde não há caminho, que transforma lágrimas em força e que faz do deserto um lugar de milagres.
-Portanto, não desanime! Se hoje você está enfrentando lutas, lembre-se: o seu socorro não vem do banco, da medicina ou da política. O seu socorro vem do Senhor!
-Clame a Ele, confie n’Ele, espere n’Ele. Ele é fiel para cumprir tudo o que prometeu. E no tempo certo, você verá que Ele sempre esteve presente, sustentando você com Sua mão poderosa. O seu socorro vem do Senhor e Nele está a sua vitória.
-Confiando em Deus
-
-
-Mantenha os olhos em Deus, não nas circunstâncias: Quando as lutas se intensificarem, fixe seus olhos no Senhor. Ele é maior que qualquer problema e fiel para sustentar você, mesmo quando tudo parecer sem direção.
-
-Fortaleça sua fé com a Palavra de Deus: Leia e medite nas Escrituras todos os dias. A Palavra é alimento para sua alma e escudo contra o desânimo. Deus fala através dela e renova suas forças.
-
-Ore com confiança e espere com paciência: Apresente suas necessidades a Deus com fé. Ele ouve cada clamor e responde no tempo certo. Enquanto espera, confie e permaneça firme, pois Ele trabalha em seu favor.
-
-Para orar:
-
-Senhor, em Ti coloco minha confiança. Sei que meu socorro vem de Ti, que tudo pode e tudo vê. Fortalece minha fé, renova minhas forças e guia meus passos. Mesmo nas lutas, confiarei em Ti. Amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224916 characters
-INFO:root:HTML parsed, length: 223497 characters
+INFO:root:Response length: 225203 characters
+INFO:root:HTML parsed, length: 223784 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 28 URLs: ['/wiki/Gaulois_(coura%C3%A7ado)', '/wiki/Gaulois_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
 INFO:root:Found 1 descriptions: ['O Gaulois foi um couraçado pré-dreadnought operado']
@@ -285,44 +297,44 @@ Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224916 characters
-INFO:root:HTML parsed, length: 223497 characters
-INFO:root:Found 1 titles: ['21 de maio na história']
-INFO:root:Found 51 URLs: ['/wiki/Ficheiro:Flag_of_Montenegro.svg', '/wiki/Dia_Mundial_da_Diversidade_Cultural_para_o_Di%C3%A1logo_e_o_Desenvolvimento', '/wiki/Dia_Internacional_do_Ch%C3%A1']
-INFO:root:Found 1 descriptions: ['Bandeira do Montenegro\nDia Mundial da Diversidade ']
+INFO:root:Response length: 225203 characters
+INFO:root:HTML parsed, length: 223784 characters
+INFO:root:Found 1 titles: ['22 de maio na história']
+INFO:root:Found 47 URLs: ['/wiki/Ficheiro:Valdivia_after_earthquake,_1960.jpg', '/wiki/Dia_Internacional_da_Diversidade_Biol%C3%B3gica', '/wiki/1960']
+INFO:root:Found 1 descriptions: ['Sismo de Valdivia de 1960\nDia Internacional da Div']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='21 de maio na história', ID=c4d548aa5f37cfd58df8dcdf33269779
+INFO:root:Processing entry 1: Title='22 de maio na história', ID=ffea101b4e2137fa093dc992b1080782
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 21 de maio na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Flag_of_Montenegro.svg
-INFO:root:🔹 Description: Bandeira do Montenegro
-Dia Mundial da Diversidade Cultural para o Diálogo e o Desenvolvimento (2002); Dia Internacional do Chá (2020)
+INFO:root:🔹 Title: 22 de maio na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Valdivia_after_earthquake,_1960.jpg
+INFO:root:🔹 Description: Sismo de Valdivia de 1960
+Dia Internacional da Diversidade Biológica (2001)
 
-1894 – O anarquista francês Émile Henry é guilhotinado.
-1904 – É fundada a FIFA, em Paris.
-2006 – Em um plebiscito, os montenegrinos aprovam com 55% dos votos a independência da República do Montenegro (bandeira) em relação à união com a Sérvia.
+1960 – Ocorre o Grande Sismo do Chile (na imagem, destruição em Valdivia), o mais potente até agora registrado - 9,5 na escala de Richter.
+1968 – O submarino nuclear USS Scorpion afunda com 99 homens a bordo, 400 milhas a sudoeste dos Açores, Portugal.
+1990 – Iêmen do Norte e Iêmen do Sul são unificados, dando origem à  República do Iêmen.
 Nasceram neste dia…
-Filipe II de Espanha (1527–1598)  •  Henri Rousseau (1844–1910)  •  Andrei Sakharov (1921–1989)  •  Maria Fernanda Cândido (n. 1974)
+Richard Wagner (1813–1883)  •  Hubert Lanz (1896–1982)  •  Hergé (1907–1983)  •  Charles Aznavour (1924–2018)
 Morreram neste dia…
-Luís V de França (c. 967–987)  •  Hernando de Soto (c. 1496–1542)  •  Tommaso Campanella (1568–1639)  •  Jane Addams (1860–1935)
+Constantino I (272–337)  •  Victor Hugo (1802–1885)  •  Zé Rodrix (1947–2009)  •  Martin Gardner (1914–2010)
 
 
-Ver mais • Outros dias: 19 • 20 • 21 • 22 • 23 • Ver todos
+Ver mais • Outros dias: 20 • 21 • 22 • 23 • 24 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224916 characters
-INFO:root:HTML parsed, length: 223497 characters
+INFO:root:Response length: 225203 characters
+INFO:root:HTML parsed, length: 223784 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:%D0%9C%D0%B0%D1%81%D0%B8%D0%B2_%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B8%D1%86%D1%96.jpg']
-INFO:root:Found 1 descriptions: ['Panorama da Reserva da Biosfera dos Cárpatos na re']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Worm%27s-eye_view_of_Tokyo_Skytree_with_vertical_symmetry_impression,_a_sunny_day,_in_Japan.jpg']
+INFO:root:Found 1 descriptions: ['Vista inferior da Tokyo Skytree, Japão. Concluída ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/%D0%9C%D0%B0%D1%81%D0%B8%D0%B2_%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B8%D1%86%D1%96.jpg/960px-%D0%9C%D0%B0%D1%81%D0%B8%D0%B2_%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B8%D1%86%D1%96.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Worm%27s-eye_view_of_Tokyo_Skytree_with_vertical_symmetry_impression%2C_a_sunny_day%2C_in_Japan.jpg/960px-Worm%27s-eye_view_of_Tokyo_Skytree_with_vertical_symmetry_impression%2C_a_sunny_day%2C_in_Japan.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -331,15 +343,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:%D0%9C%D0%B0%D1%81%D0%B8%D0%B2_%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B8%D1%86%D1%96.jpg
-INFO:root:🔹 Description: Panorama da Reserva da Biosfera dos Cárpatos na região da Transcarpátia da Ucrânia. No horizonte, a montanha Blyznytsya nos Svydovets.
-(resolução original: 6 718 × 3 359)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Worm%27s-eye_view_of_Tokyo_Skytree_with_vertical_symmetry_impression,_a_sunny_day,_in_Japan.jpg
+INFO:root:🔹 Description: Vista inferior da Tokyo Skytree, Japão. Concluída em 2012, com 634 m de altura, é a torre mais alta do mundo e a terceira estrutura artificial mais alta do mundo, depois do arranha-céu Burj Khalifa (829,8 m) em Dubai e do Merdeka 118 (678,9 m) em Kuala Lumpur.
+(resolução original: 6 241 × 4 161)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/%D0%9C%D0%B0%D1%81%D0%B8%D0%B2_%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B8%D1%86%D1%96.jpg/960px-%D0%9C%D0%B0%D1%81%D0%B8%D0%B2_%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B8%D1%86%D1%96.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Worm%27s-eye_view_of_Tokyo_Skytree_with_vertical_symmetry_impression%2C_a_sunny_day%2C_in_Japan.jpg/960px-Worm%27s-eye_view_of_Tokyo_Skytree_with_vertical_symmetry_impression%2C_a_sunny_day%2C_in_Japan.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -356,23 +368,27 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
  M feeds/wikidia/atom.xml
+ M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 +++---
- feeds/devocional_de_hoje/feed.json        |  14 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  32 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 +++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  38 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  70 +++----
+ feeds/salmo_do_dia/atom.xml               |  39 ++--
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 310 +++++++++++++-----------------
- 14 files changed, 250 insertions(+), 303 deletions(-)
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 313 +++++++++++++++---------------
+ 16 files changed, 281 insertions(+), 270 deletions(-)
