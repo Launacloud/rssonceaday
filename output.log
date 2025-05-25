@@ -1,46 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120070 characters
-INFO:root:HTML parsed, length: 112977 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (24/05/2025)', 'Palavra de Ontem (23/05/2025)', 'Palavra de Anteontem (22/05/2025)']
-INFO:root:Found 3 URLs: ['/flagiciar/', '/extremo/', '/estrebaria/']
-INFO:root:Found 13 descriptions: ['verbo transitivo direto Encher de insultos; fazer ', 'Sinônimos:\n\ncaluniar, infamar, desacreditar, deslu', 'Antônimos:\n\nlouvar, exaltar']
-INFO:root:Found 3 dates: ['Palavra de Hoje (24/05/2025)', 'Palavra de Ontem (23/05/2025)', 'Palavra de Anteontem (22/05/2025)']
+INFO:root:Response length: 119683 characters
+INFO:root:HTML parsed, length: 112774 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (25/05/2025)', 'Palavra de Ontem (24/05/2025)', 'Palavra de Anteontem (23/05/2025)']
+INFO:root:Found 3 URLs: ['/antropogenia/', '/flagiciar/', '/extremo/']
+INFO:root:Found 12 descriptions: ['substantivo feminino [Biologia] Ciência que se ded', 'Classe gramatical:substantivo feminino', 'Sílabas:an-tro-po-ge-ni-a']
+INFO:root:Found 3 dates: ['Palavra de Hoje (25/05/2025)', 'Palavra de Ontem (24/05/2025)', 'Palavra de Anteontem (23/05/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (24/05/2025)', ID=afe7f814f16eb264bba317701e891e0c
-INFO:root:Processing entry 2: Title='Palavra de Ontem (23/05/2025)', ID=2e20c970634b80b7853fd749f316e71d
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/05/2025)', ID=08a84afdd1f8329bc1578a32be44aa5a
+INFO:root:Processing entry 1: Title='Palavra de Hoje (25/05/2025)', ID=16036b50154fe0568166d5e7fe8eca7a
+INFO:root:Processing entry 2: Title='Palavra de Ontem (24/05/2025)', ID=328765260885c77c74f905896dd7e68d
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (23/05/2025)', ID=ffaeb8913d8cc0a7559a971b18d46107
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (24/05/2025) - Significado completo de flagiciar:
+INFO:root:🔹 Title: Palavra de Hoje (25/05/2025) - Significado completo de antropogenia:
+INFO:root:🔹 URL: https://www.dicio.com.br/antropogenia/
+INFO:root:🔹 Description: substantivo feminino [Biologia] Ciência que se dedica ao estudo da geração, do aparecimento e do desenvolvimento da raça humana.Estudo dos fenômenos da reprodução humana; antropogênese.Etimologia (origem da palavra antropogenia). Antropo- "ser humano" + genia, "formação".
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (24/05/2025) - Significado completo de flagiciar:
 INFO:root:🔹 URL: https://www.dicio.com.br/flagiciar/
-INFO:root:🔹 Description: verbo transitivo direto Encher de insultos; fazer acusações ou agredir a honra e a reputação de algo ou de alguém; caluniar, infamar: flagiciar o réu com o intuito de o condenar.Etimologia (origem da palavra flagiciar). Flagício + ar.
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:an-tro-po-ge-ni-a
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (23/05/2025) - Significado completo de extremo:
+INFO:root:🔹 URL: https://www.dicio.com.br/extremo/
+INFO:root:🔹 Description: Sílabas:an-tro-po-ge-ni-a
  
 Sinônimos:
 
 caluniar, infamar, desacreditar, deslustrar, desmerecer, desonrar, desprestigiar, difamar, enlamear, ignominiar, injuria, detratar 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (23/05/2025) - Significado completo de extremo:
-INFO:root:🔹 URL: https://www.dicio.com.br/extremo/
-INFO:root:🔹 Description: Sinônimos:
-
-caluniar, infamar, desacreditar, deslustrar, desmerecer, desonrar, desprestigiar, difamar, enlamear, ignominiar, injuria, detratar
- 
-Antônimos:
-
-louvar, exaltar 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (22/05/2025) - Significado completo de estrebaria:
-INFO:root:🔹 URL: https://www.dicio.com.br/estrebaria/
-INFO:root:🔹 Description: Antônimos:
-
-louvar, exaltar
- Sílabas:fla-gi-ci-ar
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +40,60 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243142 characters
-INFO:root:HTML parsed, length: 232464 characters
-INFO:root:Found 1 titles: ['2 Coríntios 3:17']
-INFO:root:Found 1 URLs: ['/versiculo/2_corintios_3_17/']
-INFO:root:Found 1 descriptions: ['Ora, o Senhor é o Espírito e onde está o Espírito ']
+INFO:root:Response length: 243172 characters
+INFO:root:HTML parsed, length: 232494 characters
+INFO:root:Found 1 titles: ['Daniel 1:8']
+INFO:root:Found 1 URLs: ['/versiculo/daniel_1_8/']
+INFO:root:Found 1 descriptions: ['Daniel, contudo, decidiu não se tornar impuro com ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Coríntios 3:17', ID=631b59fded5a65adb953d16dbc9abc05
+INFO:root:Processing entry 1: Title='Daniel 1:8', ID=b0d74b8dc895ee843d53644b6cba50b8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Coríntios 3:17
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_corintios_3_17/
-INFO:root:🔹 Description: Ora, o Senhor é o Espírito e onde está o Espírito do Senhor ali há liberdade. 2 Coríntios 3:17
+INFO:root:🔹 Title: Daniel 1:8
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/daniel_1_8/
+INFO:root:🔹 Description: Daniel, contudo, decidiu não se tornar impuro com a comida e com o vinho do rei, e pediu ao chefe dos oficiais permissão para se abster deles. Daniel 1:8
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 245821 characters
-INFO:root:HTML parsed, length: 235841 characters
-INFO:root:Found 3 titles: ['Salmo 54', 'Salmo 93', 'Salmo 110']
-INFO:root:Found 3 URLs: ['/salmos_54/', '/salmos_93/', '/salmos_110/']
-INFO:root:Found 3 descriptions: ['Salva-me, ó Deus, pelo teu nome;\ndefende-me pelo t', 'O Senhor reina!\nVestiu-se de majestade;\nde majesta', 'O Senhor disse ao meu Senhor:\n"Senta-te à minha di']
-INFO:root:Found 3 dates: ['24 de Maio de 2025', '23 de Maio de 2025', '22 de Maio de 2025']
+INFO:root:Response length: 245628 characters
+INFO:root:HTML parsed, length: 235644 characters
+INFO:root:Found 3 titles: ['Salmo 15', 'Salmo 54', 'Salmo 93']
+INFO:root:Found 3 URLs: ['/salmos_15/', '/salmos_54/', '/salmos_93/']
+INFO:root:Found 3 descriptions: ['Senhor, quem habitará no teu santuário?\nQuem poder', 'Salva-me, ó Deus, pelo teu nome;\ndefende-me pelo t', 'O Senhor reina!\nVestiu-se de majestade;\nde majesta']
+INFO:root:Found 3 dates: ['25 de Maio de 2025', '24 de Maio de 2025', '23 de Maio de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 54', ID=0ad47925f3eaec3675bd0850ab63416c
-INFO:root:Processing entry 2: Title=' Salmo 93', ID=a3266148ae5a2899b43f65ea48da1d05
-INFO:root:Processing entry 3: Title=' Salmo 110', ID=4a28a37e04a23862302f45e5b61a9821
+INFO:root:Processing entry 1: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
+INFO:root:Processing entry 2: Title=' Salmo 54', ID=0ad47925f3eaec3675bd0850ab63416c
+INFO:root:Processing entry 3: Title=' Salmo 93', ID=a3266148ae5a2899b43f65ea48da1d05
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 15
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_15/
+INFO:root:🔹 Description: Senhor, quem habitará no teu santuário?
+Quem poderá morar no teu santo monte? 
+Aquele que é íntegro em sua conduta
+e pratica o que é justo;
+que de coração fala a verdade 
+e não usa a língua para difamar;
+que nenhum mal faz ao seu semelhante
+e não lança calúnia contra o seu próximo; 
+que rejeita quem merece desprezo,
+mas honra os que temem o Senhor;
+que mantém a sua palavra,
+mesmo quando sai prejudicado; 
+que não empresta o seu dinheiro visando a algum lucro
+nem aceita suborno contra o inocente.
+Quem assim procede
+nunca será abalado! 
+ Salmo 15
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 54
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_54/
 INFO:root:🔹 Description: Salva-me, ó Deus, pelo teu nome;
@@ -125,84 +137,95 @@ a santidade, SENHOR,
 é o ornamento perpétuo da tua casa. 
  Salmo 93
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 110
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_110/
-INFO:root:🔹 Description: O Senhor disse ao meu Senhor:
-"Senta-te à minha direita
-até que eu faça dos teus inimigos
-um estrado para os teus pés". 
-O Senhor estenderá
-o cetro de teu poder desde Sião,
-e dominarás sobre os teus inimigos! 
-Quando convocares as tuas tropas,
-o teu povo se apresentará voluntariamente.
-Trajando vestes santas,
-desde o romper da alvorada
-os teus jovens virão como o orvalho. 
-O Senhor jurou e não se arrependerá:
-"Tu és sacerdote para sempre,
-segundo a ordem de Melquisedeque". 
-O Senhor está à tua direita;
-ele esmagará reis no dia da sua ira. 
-Julgará as nações, amontoando os mortos
-e esmagando governantes
-em toda a extensão da terra. 
-No caminho beberá de um ribeiro,
-e então erguerá a cabeça. 
- Salmo 110
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245930 characters
-INFO:root:HTML parsed, length: 235648 characters
-INFO:root:Found 3 titles: ['Viva louvando a Deus', 'Coragem para perseverar na provação', 'Examine o seu coração']
+INFO:root:Response length: 245867 characters
+INFO:root:HTML parsed, length: 235591 characters
+INFO:root:Found 3 titles: ['Uma jornada cheia de confiança', 'Viva louvando a Deus', 'Coragem para perseverar na provação']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem a Deus no seu santuário,\nlouvem-no', 'Feliz é o homem que persevera na provação, porque ', 'O coração é mais enganoso\nque qualquer outra coisa']
-INFO:root:Found 1 dates: ['Sábado, 24 de maio de 2025']
+INFO:root:Found 3 descriptions: ['Mas eu, quando estiver com medo,\nconfiarei em ti.\n', 'Aleluia!\nLouvem a Deus no seu santuário,\nlouvem-no', 'Feliz é o homem que persevera na provação, porque ']
+INFO:root:Found 1 dates: ['Domingo, 25 de maio de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Viva louvando a Deus', ID=1942d4ffbf6d392be3413adc26a6d0ea
+INFO:root:Processing entry 1: Title='Uma jornada cheia de confiança', ID=a2c462565e4cb09cddc8b603759c5a7d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Viva louvando a Deus - Palavra de Hoje
+INFO:root:🔹 Title: Uma jornada cheia de confiança - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Aleluia!
-Louvem a Deus no seu santuário,
-louvem-no em seu magnífico firmamento.
-- Salmos 150:1
+INFO:root:🔹 Description: Mas eu, quando estiver com medo,
+confiarei em ti.
+Em Deus, cuja palavra eu louvo,
+em Deus eu confio e não temerei.
+Que poderá fazer-me o simples mortal?
+- Salmo 56:3-4
 
-Viver louvando a Deus é mais do que cantar hinos ou frequentar cultos, é adotar uma postura diária de gratidão, reverência e adoração ao Criador. Louvar é reconhecer quem Deus é: soberano, justo, amoroso e fiel. É enxergar Sua mão em cada detalhe da vida, desde o nascer do sol até os momentos mais difíceis, onde Ele continua presente, sustentando e guiando.
-Quando louvamos, nosso coração se enche de esperança. O louvor muda nossa perspectiva, eleva nossos olhos acima das circunstâncias e nos lembra das promessas eternas de Deus. Não é à toa que a Bíblia está repleta de exortações ao louvor, porque ao louvar, nos aproximamos mais d'Ele e nos afastamos da murmuração e do desânimo.
-Louvar a Deus também transforma o ambiente ao nosso redor. Uma vida de louvor é testemunho vivo para os que convivem conosco. Nossos amigos, familiares e até desconhecidos percebem que há algo diferente em quem vive com os olhos fixos no Senhor. É como luz que brilha na escuridão, atraindo os corações para a fonte de toda vida.
-Mesmo em tempos difíceis, o louvor é uma arma poderosa. Paulo e Silas louvaram na prisão, e os grilhões se romperam (Atos 16:25-26). Quando escolhemos louvar em meio à dor, mostramos fé, e essa fé move montanhas.
-Não limite o louvor aos domingos. Faça do louvor o ar que respira, a canção que o acompanha e o modo como você vive.
-Veja também: 5 formas de louvar ao Senhor de todo o nosso coração
+A vida é uma jornada, e ao longo do caminho encontramos flores e espinhos. É fácil confiar no cuidado e no amor de Deus quando tudo parece estar bem. Mas é muito mais difícil manter a confiança quando os buracos aparecem e as estradas parecem fechar. O que fazemos quando a doença ou o desemprego atacam? Como reagimos às injustiças que os outros cometem contra nós?
+A Bíblia nos encoraja a continuar confiando em Deus, mesmo quando chegam os momentos difíceis da vida. Estabeleça um relacionamento forte com Deus em momentos de silêncio e você se sentirá mais confiante e em paz ao enfrentar os desafios do caminho. Conhecer melhor a Deus e ter uma amizade próxima com Ele nos dá forças para caminhar com esperança, mesmo quando o terreno se torna denso ou rochoso.
+Davi, o salmista, sabia o que era viver sob pressão, com inimigos ao seu redor. Contudo, ele pôde declarar com convicção:
+
+Ainda que um exército se acampe contra mim,
+meu coração não temerá;
+ainda que se declare guerra contra mim,
+mesmo assim estarei confiante.
+- Salmo 27:3
+
+Não se trata de fingir que não sentimos medo, mas de aprender a confiar em Deus mesmo em meio a momentos difíceis. Confiar não nos isenta dos problemas, mas nos ajuda a lembrar que temos a presença de Deus no meio deles. Quando reconhecemos que Deus está conosco em cada etapa da jornada, podemos seguir em frente com confiança, sabendo que Sua fidelidade nunca falha.
+Hoje, não importa em que estágio da sua jornada você esteja, lembre-se: você não está caminhando sozinho. Deus vai com você, e você pode confiar completamente nele. Deus não irá falhar com você!
+Veja também: Razões para confiar em Deus em meio às lutas
  
-Aleluia!
-Louvem a Deus no seu santuário,
-louvem-no em seu magnífico firmamento.
-- Salmos 150:1
+Mas eu, quando estiver com medo,
+confiarei em ti.
+Em Deus, cuja palavra eu louvo,
+em Deus eu confio e não temerei.
+Que poderá fazer-me o simples mortal?
+- Salmo 56:3-4
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255478 characters
-INFO:root:HTML parsed, length: 244961 characters
-INFO:root:Found 3 titles: ['Hoje é o seu melhor dia', 'Honrando a Deus com nossas atitudes', 'A graça que nos libertou']
-INFO:root:Found 3 URLs: ['/bom_dia_abencoado_frases_mensagem/', '/coisas_que_agradam_a_deus/', '/jesus_sua_vida_e_sua_historia/']
-INFO:root:Found 3 descriptions: ['Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'Assim brilhe a luz de vocês diante dos homens, par', 'Mas ele foi traspassado\npor causa das nossas trans']
-INFO:root:Found 3 dates: ['MAIO\n\n24\nSÁBADO', 'MAIO\n\n23\nSEXTA', 'MAIO\n\n22\nQUINTA']
+INFO:root:Response length: 255081 characters
+INFO:root:HTML parsed, length: 244559 characters
+INFO:root:Found 3 titles: ['Devocional Diário: Preparados para um novo começo', 'Hoje é o seu melhor dia', 'Honrando a Deus com nossas atitudes']
+INFO:root:Found 3 URLs: ['/bom_dia_abencoado_frases_mensagem/', '/bom_dia_abencoado_frases_mensagem/', '/coisas_que_agradam_a_deus/']
+INFO:root:Found 3 descriptions: ['Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'Assim brilhe a luz de vocês diante dos homens, par']
+INFO:root:Found 3 dates: ['MAIO\n\n25\nDOMINGO', 'MAIO\n\n24\nSÁBADO', 'MAIO\n\n23\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Hoje é o seu melhor dia', ID=416bd89473ad65c1bbade8d624c1a834
-INFO:root:Processing entry 2: Title='Honrando a Deus com nossas atitudes', ID=28832000ad8006c45efef89262f57616
-INFO:root:Processing entry 3: Title='A graça que nos libertou', ID=7a1e8af0712ef634571113fcf5daabd1
+INFO:root:Processing entry 1: Title='Devocional Diário: Preparados para um novo começo', ID=95b8009f74622305e86799c269b15f58
+INFO:root:Processing entry 2: Title='Hoje é o seu melhor dia', ID=416bd89473ad65c1bbade8d624c1a834
+INFO:root:Processing entry 3: Title='Honrando a Deus com nossas atitudes', ID=28832000ad8006c45efef89262f57616
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Devocional Diário: Preparados para um novo começo
+INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
+INFO:root:🔹 Description: Este é o dia em que o Senhor agiu;
+alegremo-nos e exultemos neste dia.
+- Salmo 118:24 
+
+A cada amanhecer, Deus nos concede a oportunidade de começar um novo dia. É um presente precioso, repleto de possibilidades e bênçãos. Ao abrirmos os olhos pela manhã, devemos lembrar que Ele nos preparou para viver este dia com propósito. Não importa o que o dia traga, podemos confiar que Ele estará conosco em cada passo.
+Quando enfrentamos desafios, é natural que nos sintamos cansados ou preocupados, mas a Palavra de Deus nos lembra que Ele é o nosso refúgio e força (Salmo 46:1). Ele nunca nos deixará sozinhos. Ao nos prepararmos para mais um dia, devemos renovar nossa fé e confiança n'Ele, sabendo que Ele nos capacita para o que quer que venha.
+Seja no trabalho, nos estudos, na família ou nas amizades, Deus nos guia e fortalece. Cada momento é uma oportunidade para refletirmos Sua luz e amor. Mesmo nas dificuldades, Ele nos ensina a perseverar, a confiar em Sua soberania e a dar graças em tudo.
+Ao iniciar este novo dia, lembre-se de que você está preparado, pois Deus vai à frente de você, abrindo caminhos e cuidando de cada detalhe. Levante-se com coragem, regozije-se em Seu amor e viva com a certeza de que Ele tem grandes coisas reservadas para você.
+Preparados para mais um dia, sigamos confiantes em Seu cuidado! 
+Firmes e preparados!
+
+
+Comece o dia em oração: Dedique alguns minutos ao Senhor, pedindo direção e sabedoria para o dia.
+
+Mantenha uma atitude positiva: Enfrente os desafios com fé, lembrando que Deus está sempre ao seu lado.
+
+Seja grato em tudo: Agradeça pelas pequenas bênçãos, reconhecendo o cuidado de Deus em cada detalhe da vida. 
+
+Para orar: 
+
+Senhor, agradeço por mais uma oportunidade de viver. Fortalece minha fé e confiança em Ti. Guia meus passos, dá-me sabedoria e coragem para enfrentar os desafios com gratidão. Que eu reflita Teu amor em cada atitude e que Tua paz me acompanhe em tudo o que eu fizer. Amém.
+
+Veja também: Bom dia abençoado: mensagens e frases com a paz de Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Hoje é o seu melhor dia
 INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
 INFO:root:🔹 Description: Este é o dia em que o Senhor agiu;
@@ -255,44 +278,13 @@ Senhor, ajuda-me a viver de modo que Te honre em cada atitude. Que minhas palavr
 
 Veja também: Atitudes que agradam ao Senhor
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A graça que nos libertou
-INFO:root:🔹 URL: https://www.bibliaon.com/jesus_sua_vida_e_sua_historia/
-INFO:root:🔹 Description: Mas ele foi traspassado
-por causa das nossas transgressões,
-foi esmagado por causa
-de nossas iniquidades;
-o castigo que nos trouxe paz
-estava sobre ele, e pelas suas feridas
-fomos curados.
-- Isaías 53:5
-
-A história de Barrabás é curta, mas cheia de significado. Ele era um homem culpado, preso por crimes graves como roubo, rebelião e assassinato. Naquele dia, diante da multidão, ele sabia que merecia a cruz. No entanto, aconteceu o inesperado: em vez de receber a punição, foi solto. E em seu lugar, Jesus, inocente, sem pecado foi condenado à morte.
-Essa troca não foi apenas uma decisão política ou um erro. Foi um retrato do que Jesus fez por toda a humanidade. Barrabás somos nós. Cada um de nós carrega culpas, falhas, escolhas erradas. Somos pecadores, e por justiça, mereceríamos pagar por nossos erros. Mas Jesus tomou o nosso lugar.
-Ele não somente substituiu Barrabás naquele momento. Ele substituiu a mim e a você na cruz. Sua morte foi voluntária. Ele escolheu sofrer por nossos pecados, para que pudéssemos ser livres. A graça de Deus se revela nessa troca tão injusta aos olhos humanos, mas perfeitamente justa segundo o amor de Deus.
-A salvação não é fruto de merecimento, mas de graça. Assim como Barrabás foi liberto sem merecer, nós também somos alcançados pelo perdão de Deus sem termos como pagar. A pergunta que fica é: o que faremos com essa liberdade?
-Que nunca esqueçamos: alguém inocente morreu para que pudéssemos viver. Aproveite essa liberdade para agradecer e engrandecer o nome do Senhor.
-Libertos pela graça de Deus
-
-
-Reconheça sua condição e necessidade de perdão: Admitir que somos pecadores é o primeiro passo. Como Barrabás, precisamos reconhecer que fomos libertos não por merecimento, mas pela misericórdia de Deus.
-
-Valorize o sacrifício de Jesus: Lembre-se todos os dias que alguém morreu em seu lugar. Viva com gratidão, orando, buscando a Deus e mantendo o coração sensível ao que Cristo fez por você na cruz.
-
-Use sua liberdade para servir e amar: Você foi liberto com um propósito. Use sua nova vida para fazer o bem, ajudar os outros e refletir o amor de Jesus em palavras, atitudes e ações concretas.
-
-Para orar:
-
-Senhor Jesus, obrigado por tomar o meu lugar na cruz. Reconheço que sou pecador e não merecia Tua graça, mas mesmo assim me amaste. Ajuda-me a viver com gratidão, fé e amor, refletindo Tua luz todos os dias. Que minha vida honre Teu sacrifício. Amém.
-
-Veja também: A história de Jesus.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224093 characters
-INFO:root:HTML parsed, length: 222674 characters
+INFO:root:Response length: 222826 characters
+INFO:root:HTML parsed, length: 221407 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 28 URLs: ['/wiki/Gaulois_(coura%C3%A7ado)', '/wiki/Gaulois_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
-INFO:root:Found 1 descriptions: ['O Gaulois foi um couraçado pré-dreadnought operado']
+INFO:root:Found 19 URLs: ['/wiki/Jane_Cobden', '/wiki/Pol%C3%ADtico', '/wiki/Partido_Liberal_(Reino_Unido)']
+INFO:root:Found 1 descriptions: ['Emma Jane Catherine Cobden foi uma política libera']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -302,9 +294,9 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Gaulois_(coura%C3%A7ado)
-INFO:root:🔹 Description: O Gaulois foi um couraçado pré-dreadnought operado pela Marinha Nacional Francesa e a terceira e última embarcação da Classe Charlemagne, depois do Charlemagne e Saint Louis. Sua construção começou em janeiro de 1896 no Arsenal de Brest e foi lançado ao mar em outubro do mesmo ano, sendo comissionado em janeiro de 1899. Era armado com uma bateria principal de quatro canhões de 305 milímetros montados em duas torres de artilharia duplas, tinha um deslocamento de mais de onze mil toneladas e conseguia alcançar uma velocidade máxima de dezoito nós.
-O Gaulois passou sua carreira em tempos de paz atuando na Esquadra do Mediterrâneo, realizando principalmente exercícios de rotina. Depois do começo da Primeira Guerra Mundial em julho de 1914, o navio escoltou comboios de tropas vindas do Norte da África e patrulhou o Mar Mediterrâneo. No início de 1915 participou de operações em suporte à Campanha de Galípoli e no final do ano foi transferido para Salonica a fim de impedir qualquer interferência na Grécia. Foi afundado em dezembro de 1916 seguindo para Dardanelos depois de ser torpedeado por um U-boot alemão. (Leia mais...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Jane_Cobden
+INFO:root:🔹 Description: Emma Jane Catherine Cobden foi uma política liberal britânica atuante em pautas radicais. Filha do reformador e estadista vitoriano Richard Cobden, foi uma das primeiras defensoras dos direitos das mulheres e, em 1889, esteve entre as duas mulheres eleitas para o primeiro Conselho do Condado de Londres. Sua eleição foi controversa; contestações judiciais à sua elegibilidade dificultaram e, eventualmente, a impediram de ocupar o cargo como vereadora.
+Desde a juventude, junto com suas irmãs, procurou proteger e desenvolver o legado de seu pai. Ela permaneceu comprometida ao longo de sua vida com as questões "Cobdenitas" de reforma agrária, paz e justiça social, além de ser uma defensora consistente da independência da Irlanda pela Grã-Bretanha. (Leia mais...)
 
 
 
@@ -317,44 +309,44 @@ Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224093 characters
-INFO:root:HTML parsed, length: 222674 characters
-INFO:root:Found 1 titles: ['24 de maio na história']
-INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Joan_Baez_Bob_Dylan_crop.jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Eritr%C3%A9ia']
-INFO:root:Found 1 descriptions: ['Bob Dylan\nDia da Independência da Eritréia (1993)\n']
+INFO:root:Response length: 222826 characters
+INFO:root:HTML parsed, length: 221407 characters
+INFO:root:Found 1 titles: ['25 de maio na história']
+INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Jord%C3%A2nia']
+INFO:root:Found 1 descriptions: ['Martinho Lutero\nDia da Independência da Jordânia (']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='24 de maio na história', ID=81c94e4dcc95ae6fae4dcca5ba163a30
+INFO:root:Processing entry 1: Title='25 de maio na história', ID=f3fc9bbd6c9164bce68db788109f06ea
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 24 de maio na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Joan_Baez_Bob_Dylan_crop.jpg
-INFO:root:🔹 Description: Bob Dylan
-Dia da Independência da Eritréia (1993)
+INFO:root:🔹 Title: 25 de maio na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg
+INFO:root:🔹 Description: Martinho Lutero
+Dia da Independência da Jordânia (1946); Dia de África (1963)
 
-1567 – Érico XIV da Suécia e seus guardas assassinam cinco nobres suecos encarcerados.
-1866 – Guerra do Paraguai: ocorre a Batalha de Tuiuti, entre o exército paraguaio e as forças da Tríplice Aliança; os Aliados têm vitória decisiva.
-2002 – É assinado o Tratado sobre Reduções de Ofensiva Estratégica pela Rússia e os Estados Unidos.
+1810 – Cidadãos de Buenos Aires expulsam o vice-rei Baltasar Hidalgo de Cisneros durante a Semana de maio, iniciando a Guerra da Independência da Argentina.
+1521 – É assinado o Édito de Worms, que condena Martinho Lutero (imagem).
+1963 – A Organização da Unidade Africana é formada em Adis Abeba.
 Nasceram neste dia…
-Germânico (15 a.C.–19)  •  Gabriel Fahrenheit (1686–1736)  •  Vitória do Reino Unido  (1819–1901)  •  Bob Dylan (imagem) (n. 1941)
+Padre Pio (1887–1968)  •  Sonia Rykiel (1930–2016)  •  Tite (n. 1961)  •  Mike Myers (n. 1963)
 Morreram neste dia…
-Nicolau Copérnico (1473–1543)   •  Harold Wilson (1916–1995)  •  Stormé DeLarverie (1920–2014)  •  Tina Turner (1939–2023)
+Pedro III de Portugal (1717–1786)  •  Roberto Simonsen (1889–1948)  •  Robert Capa (1913–1954)  •  George Floyd (1973–2020)
 
 
-Ver mais • Outros dias: 22 • 23 • 24 • 25 • 26 • Ver todos
+Ver mais • Outros dias: 23 • 24 • 25 • 26 • 27 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224093 characters
-INFO:root:HTML parsed, length: 222674 characters
+INFO:root:Response length: 222826 characters
+INFO:root:HTML parsed, length: 221407 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Maria_Hilf_-_Moosbronn_-_06_-_Miraculous_image.jpg']
-INFO:root:Found 1 descriptions: ['Ícone de Nossa Senhora Auxiliadora, pintado segund']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_(edited).jpg']
+INFO:root:Found 1 descriptions: ['Panorama ao anoitecer na reserva paisagística de T']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Maria_Hilf_-_Moosbronn_-_06_-_Miraculous_image.jpg/500px-Maria_Hilf_-_Moosbronn_-_06_-_Miraculous_image.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_%28edited%29.jpg/960px-%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_%28edited%29.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -363,15 +355,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Maria_Hilf_-_Moosbronn_-_06_-_Miraculous_image.jpg
-INFO:root:🔹 Description: Ícone de Nossa Senhora Auxiliadora, pintado segundo Lucas Cranach, o Velho, venerado no santuário de Maria Hilf, em Moosbronn, Baden-Württemberg, Alemanha.
-(resolução original: 3 373 × 3 373)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_(edited).jpg
+INFO:root:🔹 Description: Panorama ao anoitecer na reserva paisagística de Taras, região de Chercássi, Ucrânia, batizada em homenagem ao poeta e pintor Taras Shevchenko.
+(resolução original: 5 498 × 3 664)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Maria_Hilf_-_Moosbronn_-_06_-_Miraculous_image.jpg/500px-Maria_Hilf_-_Moosbronn_-_06_-_Miraculous_image.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_%28edited%29.jpg/960px-%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_%28edited%29.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -387,6 +379,7 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -395,20 +388,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  28 ++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  34 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 +++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  39 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  44 ++---
+ feeds/salmo_do_dia/atom.xml               |  44 ++--
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/atom.xml               |   6 +-
+ feeds/wikidestaque/feed.json              |   4 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 307 +++++++++++++++---------------
- 16 files changed, 277 insertions(+), 253 deletions(-)
+ output.log                                | 346 ++++++++++++++----------------
+ 17 files changed, 289 insertions(+), 321 deletions(-)
