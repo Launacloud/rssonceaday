@@ -1,38 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119683 characters
-INFO:root:HTML parsed, length: 112774 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (25/05/2025)', 'Palavra de Ontem (24/05/2025)', 'Palavra de Anteontem (23/05/2025)']
-INFO:root:Found 3 URLs: ['/antropogenia/', '/flagiciar/', '/extremo/']
-INFO:root:Found 12 descriptions: ['substantivo feminino [Biologia] Ciência que se ded', 'Classe gramatical:substantivo feminino', 'Sílabas:an-tro-po-ge-ni-a']
-INFO:root:Found 3 dates: ['Palavra de Hoje (25/05/2025)', 'Palavra de Ontem (24/05/2025)', 'Palavra de Anteontem (23/05/2025)']
+INFO:root:Response length: 117733 characters
+INFO:root:HTML parsed, length: 111031 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (26/05/2025)', 'Palavra de Ontem (25/05/2025)', 'Palavra de Anteontem (24/05/2025)']
+INFO:root:Found 3 URLs: ['/oste/', '/antropogenia/', '/flagiciar/']
+INFO:root:Found 10 descriptions: ['substantivo masculino [Antigo] Aquele que vive tem', 'Sinônimos:\n\nhóspede', 'Sílabas:os-te']
+INFO:root:Found 3 dates: ['Palavra de Hoje (26/05/2025)', 'Palavra de Ontem (25/05/2025)', 'Palavra de Anteontem (24/05/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (25/05/2025)', ID=16036b50154fe0568166d5e7fe8eca7a
-INFO:root:Processing entry 2: Title='Palavra de Ontem (24/05/2025)', ID=328765260885c77c74f905896dd7e68d
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (23/05/2025)', ID=ffaeb8913d8cc0a7559a971b18d46107
+INFO:root:Processing entry 1: Title='Palavra de Hoje (26/05/2025)', ID=ae87cbaaaff7f41cb14fc5779f0bd6b3
+INFO:root:Processing entry 2: Title='Palavra de Ontem (25/05/2025)', ID=b06a0d0ad07b8598a1f87c5d4e491619
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/05/2025)', ID=722e89e84739b76bf20294231fade399
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (25/05/2025) - Significado completo de antropogenia:
-INFO:root:🔹 URL: https://www.dicio.com.br/antropogenia/
-INFO:root:🔹 Description: substantivo feminino [Biologia] Ciência que se dedica ao estudo da geração, do aparecimento e do desenvolvimento da raça humana.Estudo dos fenômenos da reprodução humana; antropogênese.Etimologia (origem da palavra antropogenia). Antropo- "ser humano" + genia, "formação".
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (24/05/2025) - Significado completo de flagiciar:
-INFO:root:🔹 URL: https://www.dicio.com.br/flagiciar/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:an-tro-po-ge-ni-a
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (23/05/2025) - Significado completo de extremo:
-INFO:root:🔹 URL: https://www.dicio.com.br/extremo/
-INFO:root:🔹 Description: Sílabas:an-tro-po-ge-ni-a
+INFO:root:🔹 Title: Palavra de Hoje (26/05/2025) - Significado completo de oste:
+INFO:root:🔹 URL: https://www.dicio.com.br/oste/
+INFO:root:🔹 Description: substantivo masculino [Antigo] Aquele que vive temporariamente em casa alheia; hóspede.Etimologia (origem da palavra oste). Forma contraída de hóspite.
  
 Sinônimos:
 
-caluniar, infamar, desacreditar, deslustrar, desmerecer, desonrar, desprestigiar, difamar, enlamear, ignominiar, injuria, detratar 
+hóspede 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (25/05/2025) - Significado completo de antropogenia:
+INFO:root:🔹 URL: https://www.dicio.com.br/antropogenia/
+INFO:root:🔹 Description: Sinônimos:
+
+hóspede
+ Sílabas:os-te
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (24/05/2025) - Significado completo de flagiciar:
+INFO:root:🔹 URL: https://www.dicio.com.br/flagiciar/
+INFO:root:🔹 Description: Sílabas:os-te
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +42,55 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243172 characters
-INFO:root:HTML parsed, length: 232494 characters
-INFO:root:Found 1 titles: ['Daniel 1:8']
-INFO:root:Found 1 URLs: ['/versiculo/daniel_1_8/']
-INFO:root:Found 1 descriptions: ['Daniel, contudo, decidiu não se tornar impuro com ']
+INFO:root:Response length: 243173 characters
+INFO:root:HTML parsed, length: 232495 characters
+INFO:root:Found 1 titles: ['1 João 2:12']
+INFO:root:Found 1 URLs: ['/versiculo/1_joao_2_12/']
+INFO:root:Found 1 descriptions: ['Filhinhos, eu escrevo a vocês\nporque os seus pecad']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Daniel 1:8', ID=b0d74b8dc895ee843d53644b6cba50b8
+INFO:root:Processing entry 1: Title='1 João 2:12', ID=f2e86463e46b2cdae673f1ac89d61eea
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Daniel 1:8
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/daniel_1_8/
-INFO:root:🔹 Description: Daniel, contudo, decidiu não se tornar impuro com a comida e com o vinho do rei, e pediu ao chefe dos oficiais permissão para se abster deles. Daniel 1:8
+INFO:root:🔹 Title: 1 João 2:12
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_joao_2_12/
+INFO:root:🔹 Description: Filhinhos, eu escrevo a vocês
+porque os seus pecados
+foram perdoados,
+graças ao nome de Jesus. 1 João 2:12
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 245628 characters
-INFO:root:HTML parsed, length: 235644 characters
-INFO:root:Found 3 titles: ['Salmo 15', 'Salmo 54', 'Salmo 93']
-INFO:root:Found 3 URLs: ['/salmos_15/', '/salmos_54/', '/salmos_93/']
-INFO:root:Found 3 descriptions: ['Senhor, quem habitará no teu santuário?\nQuem poder', 'Salva-me, ó Deus, pelo teu nome;\ndefende-me pelo t', 'O Senhor reina!\nVestiu-se de majestade;\nde majesta']
-INFO:root:Found 3 dates: ['25 de Maio de 2025', '24 de Maio de 2025', '23 de Maio de 2025']
+INFO:root:Response length: 245288 characters
+INFO:root:HTML parsed, length: 235296 characters
+INFO:root:Found 3 titles: ['Salmo 134', 'Salmo 15', 'Salmo 54']
+INFO:root:Found 3 URLs: ['/salmos_134/', '/salmos_15/', '/salmos_54/']
+INFO:root:Found 3 descriptions: ['Venham! Bendigam o Senhor\ntodos vocês, servos do S', 'Senhor, quem habitará no teu santuário?\nQuem poder', 'Salva-me, ó Deus, pelo teu nome;\ndefende-me pelo t']
+INFO:root:Found 3 dates: ['26 de Maio de 2025', '25 de Maio de 2025', '24 de Maio de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
-INFO:root:Processing entry 2: Title=' Salmo 54', ID=0ad47925f3eaec3675bd0850ab63416c
-INFO:root:Processing entry 3: Title=' Salmo 93', ID=a3266148ae5a2899b43f65ea48da1d05
+INFO:root:Processing entry 1: Title=' Salmo 134', ID=24f356853788225a16d0b291b2612761
+INFO:root:Processing entry 2: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
+INFO:root:Processing entry 3: Title=' Salmo 54', ID=0ad47925f3eaec3675bd0850ab63416c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 134
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_134/
+INFO:root:🔹 Description: Venham! Bendigam o Senhor
+todos vocês, servos do Senhor,
+vocês, que servem de noite
+na casa do Senhor. 
+Levantem as mãos na direção do santuário
+e bendigam o Senhor! 
+De Sião os abençoe o Senhor,
+que fez os céus e a terra! 
+ Salmo 134
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 15
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_15/
 INFO:root:🔹 Description: Senhor, quem habitará no teu santuário?
@@ -115,91 +132,84 @@ e os meus olhos contemplaram
 a derrota dos meus inimigos. 
  Salmo 54
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 93
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_93/
-INFO:root:🔹 Description: O Senhor reina!
-Vestiu-se de majestade;
-de majestade vestiu-se o Senhor
-e armou-se de poder!
-O mundo está firme e não se abalará. 
-O teu trono está firme desde a antiguidade;
-tu existes desde a eternidade. 
-As águas se levantaram, Senhor,
-as águas levantaram a voz;
-as águas levantaram seu bramido. 
-Mais poderoso do que o estrondo
-das águas impetuosas,
-mais poderoso do que as ondas do mar
-é o Senhor nas alturas. 
-Os teus mandamentos
-permanecem firmes e fiéis;
-a santidade, SENHOR,
-é o ornamento perpétuo da tua casa. 
- Salmo 93
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245867 characters
-INFO:root:HTML parsed, length: 235591 characters
-INFO:root:Found 3 titles: ['Uma jornada cheia de confiança', 'Viva louvando a Deus', 'Coragem para perseverar na provação']
+INFO:root:Response length: 245344 characters
+INFO:root:HTML parsed, length: 235061 characters
+INFO:root:Found 3 titles: ['Seguir Jesus, a melhor decisão', 'Uma jornada cheia de confiança', 'Viva louvando a Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Mas eu, quando estiver com medo,\nconfiarei em ti.\n', 'Aleluia!\nLouvem a Deus no seu santuário,\nlouvem-no', 'Feliz é o homem que persevera na provação, porque ']
-INFO:root:Found 1 dates: ['Domingo, 25 de maio de 2025']
+INFO:root:Found 3 descriptions: ['Falando novamente ao povo, Jesus disse: "Eu sou a ', 'Mas eu, quando estiver com medo,\nconfiarei em ti.\n', 'Aleluia!\nLouvem a Deus no seu santuário,\nlouvem-no']
+INFO:root:Found 1 dates: ['Segunda, 26 de maio de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Uma jornada cheia de confiança', ID=a2c462565e4cb09cddc8b603759c5a7d
+INFO:root:Processing entry 1: Title='Seguir Jesus, a melhor decisão', ID=7bf753281a999af1fdeb5d9f439d61a5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Uma jornada cheia de confiança - Palavra de Hoje
+INFO:root:🔹 Title: Seguir Jesus, a melhor decisão - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Mas eu, quando estiver com medo,
-confiarei em ti.
-Em Deus, cuja palavra eu louvo,
-em Deus eu confio e não temerei.
-Que poderá fazer-me o simples mortal?
-- Salmo 56:3-4
+INFO:root:🔹 Description: Falando novamente ao povo, Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida".
+- João 8:12
 
-A vida é uma jornada, e ao longo do caminho encontramos flores e espinhos. É fácil confiar no cuidado e no amor de Deus quando tudo parece estar bem. Mas é muito mais difícil manter a confiança quando os buracos aparecem e as estradas parecem fechar. O que fazemos quando a doença ou o desemprego atacam? Como reagimos às injustiças que os outros cometem contra nós?
-A Bíblia nos encoraja a continuar confiando em Deus, mesmo quando chegam os momentos difíceis da vida. Estabeleça um relacionamento forte com Deus em momentos de silêncio e você se sentirá mais confiante e em paz ao enfrentar os desafios do caminho. Conhecer melhor a Deus e ter uma amizade próxima com Ele nos dá forças para caminhar com esperança, mesmo quando o terreno se torna denso ou rochoso.
-Davi, o salmista, sabia o que era viver sob pressão, com inimigos ao seu redor. Contudo, ele pôde declarar com convicção:
+Passamos a vida tomando decisões. Nós escolhemos o que comer no café da manhã, o que vestir, se pegamos o ônibus ou caminhamos, com qual tarefa começamos o dia de trabalho... Uma decisão após a outra, dia após dia, ano após ano.
+Deus nos deu o livre-arbítrio, a capacidade de escolher. Podemos usar essa liberdade para o nosso bem ou para o nosso mal: a escolha é nossa. Mas há uma decisão muito importante, a maior que podemos tomar: seguir Jesus ou não.
+Se escolhermos seguir Jesus e aceitá-lo como nosso Salvador, abriremos nossos corações para receber tudo o que ele quer nos dar, tanto nesta vida quanto na eternidade. Em Jesus temos esperança, luz, vida e a certeza de que desfrutaremos de sua presença para sempre.
+Jesus disse:
 
-Ainda que um exército se acampe contra mim,
-meu coração não temerá;
-ainda que se declare guerra contra mim,
-mesmo assim estarei confiante.
-- Salmo 27:3
+Eu sou a porta; quem entra por mim será salvo. Entrará e sairá, e encontrará pastagem. O ladrão vem apenas para roubar, matar e destruir; eu vim para que tenham vida e a tenham plenamente.
+- João 10:9-10
 
-Não se trata de fingir que não sentimos medo, mas de aprender a confiar em Deus mesmo em meio a momentos difíceis. Confiar não nos isenta dos problemas, mas nos ajuda a lembrar que temos a presença de Deus no meio deles. Quando reconhecemos que Deus está conosco em cada etapa da jornada, podemos seguir em frente com confiança, sabendo que Sua fidelidade nunca falha.
-Hoje, não importa em que estágio da sua jornada você esteja, lembre-se: você não está caminhando sozinho. Deus vai com você, e você pode confiar completamente nele. Deus não irá falhar com você!
-Veja também: Razões para confiar em Deus em meio às lutas
+Ele é quem nos dá vida abundante! Nosso bom pastor nos guia, protege e fortalece no caminho da vida. Quando seguimos Jesus, nossos passos ganham significado, nossas feridas encontram conforto e nosso futuro se enche de esperança.
+Hoje você pode decidir caminhar com Jesus, aquele que venceu a morte, que te ama sem medida e que nunca falha. Não há melhor decisão do que entregar sua vida a Jesus. Ele é o Caminho e nele você tem vida abundante. Se você ainda não o fez, escolha seguir Jesus hoje: você não vai se arrepender.
+Veja também: Versículos sobre seguir Jesus.
  
-Mas eu, quando estiver com medo,
-confiarei em ti.
-Em Deus, cuja palavra eu louvo,
-em Deus eu confio e não temerei.
-Que poderá fazer-me o simples mortal?
-- Salmo 56:3-4
+Falando novamente ao povo, Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida".
+- João 8:12
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255081 characters
-INFO:root:HTML parsed, length: 244559 characters
-INFO:root:Found 3 titles: ['Devocional Diário: Preparados para um novo começo', 'Hoje é o seu melhor dia', 'Honrando a Deus com nossas atitudes']
-INFO:root:Found 3 URLs: ['/bom_dia_abencoado_frases_mensagem/', '/bom_dia_abencoado_frases_mensagem/', '/coisas_que_agradam_a_deus/']
-INFO:root:Found 3 descriptions: ['Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'Assim brilhe a luz de vocês diante dos homens, par']
-INFO:root:Found 3 dates: ['MAIO\n\n25\nDOMINGO', 'MAIO\n\n24\nSÁBADO', 'MAIO\n\n23\nSEXTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Devocional Diário: Preparados para um novo começo', ID=95b8009f74622305e86799c269b15f58
-INFO:root:Processing entry 2: Title='Hoje é o seu melhor dia', ID=416bd89473ad65c1bbade8d624c1a834
-INFO:root:Processing entry 3: Title='Honrando a Deus com nossas atitudes', ID=28832000ad8006c45efef89262f57616
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 254403 characters
+INFO:root:HTML parsed, length: 243883 characters
+INFO:root:Found 3 titles: ['O Deus que tudo pode...', 'Devocional Diário: Preparados para um novo começo', 'Hoje é o seu melhor dia']
+INFO:root:Found 2 URLs: ['/bom_dia_abencoado_frases_mensagem/', '/bom_dia_abencoado_frases_mensagem/']
+INFO:root:Found 3 descriptions: ['"Sei que podes fazer todas as coisas;\nnenhum dos t', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ']
+INFO:root:Found 3 dates: ['MAIO\n\n26\nSEGUNDA', 'MAIO\n\n25\nDOMINGO', 'MAIO\n\n24\nSÁBADO']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='O Deus que tudo pode...', ID=4090760fc15cfe11e88dff9f360679ce
+INFO:root:Processing entry 2: Title='Devocional Diário: Preparados para um novo começo', ID=95b8009f74622305e86799c269b15f58
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O Deus que tudo pode...
+INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
+INFO:root:🔹 Description: "Sei que podes fazer todas as coisas;
+nenhum dos teus planos
+pode ser frustrado."
+- Jó 42:2
+
+Deus pode todas as coisas! Você consegue crer nisso de verdade? Ou quando a dificuldade vem, você se transtorna e se desespera? As decepções da vida, a dor e o sofrimento podem querer abalar a sua fé...
+Jó passou por terríveis perdas, doenças, desilusão com a esposa e amigos. Mas mesmo assim e apesar de tudo, reconheceu a grandeza de Deus, Todo-poderoso...
+Lembre-se que não há nada que seja tão difícil para o Senhor nosso Deus. Seja qual for a sua dificuldade ou problema, Jesus é todo-poderoso e age consoante a Sua vontade. Creia que Ele está acima das suas aflições. Ele lhe socorre, quando você clama com fé.
+Crendo de coração no Todo-poderoso:
+
+
+Deus é Todo-poderoso! Há uma saída real Nele, se você confiar verdadeiramente.
+Ore e entregue nas mãos do Senhor as aflições que têm passado. Ele lhe ouve e lhe ajuda.
+
+Entregue tudo aos cuidados de Deus. Mas não "tome" das mãos Dele novamente, com ansiedade e autossuficiência.
+Lembre-se: Deus não é um amuleto da sorte, nem um gênio da lâmpada para satisfazer às vontades egoístas.
+Deus é Pai daquele que crê em Seu Filho Jesus Cristo. Por isso, Ele pode dar boas coisas àqueles que O buscam de coração.
+Aproxime-se Dele com confiança e amor. Seja sincero, diga o que você precisa, mas esteja disposto a dizer como Jesus: "... que seja feita a Tua vontade e não a minha" (Lucas 22:42).
+Para se fortalecer: leia, confie e descanse na Palavra de Deus diariamente.
+
+Para Orar:
+
+Pai da Vida, Tu és o Deus todo Poderoso. Ajuda-me na minha pequena fé! Vem me socorrer, Pai, eu dependo só de Ti. Renova as minhas forças e a minha esperança. O Senhor criou todo o universo, nada é tão difícil para Ti! Eu sei que posso confiar em Ti mesmo quando pareço enfrentar um turbilhão à minha volta. Que a Tua Palavra seja o meu sustento, hoje e sempre; em nome de Jesus! Amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Devocional Diário: Preparados para um novo começo
 INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
 INFO:root:🔹 Description: Este é o dia em que o Senhor agiu;
@@ -226,62 +236,10 @@ Senhor, agradeço por mais uma oportunidade de viver. Fortalece minha fé e conf
 
 Veja também: Bom dia abençoado: mensagens e frases com a paz de Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Hoje é o seu melhor dia
-INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
-INFO:root:🔹 Description: Este é o dia em que o Senhor agiu;
-alegremo-nos e exultemos neste dia.
-- Salmo 118:24
-
-Ao abrir os olhos nesta manhã, você recebeu um presente valioso: a vida. Respirar, enxergar, andar e pensar são dádivas que passam muitas vezes despercebidas, mas são sinais claros do cuidado de Deus. Hoje é o seu melhor dia, não porque tudo esteja perfeito, mas porque Deus o permitiu viver mais uma vez.
-Acordar é um milagre diário. Ter saúde, um lar, alimento, e pessoas ao redor, são bênçãos que mostram a bondade do Senhor. Mesmo que alguns sonhos ainda não tenham se realizado, já temos muito pelo que agradecer. O simples fato de estarmos aqui prova que Deus ainda tem planos para nós.
-A gratidão transforma o coração. Quando reconhecemos o que já temos, nossos olhos se abrem para a fidelidade de Deus em cada detalhe. Ser grato é reconhecer que, mesmo em meio a desafios, Deus está conosco, sustentando-nos com Seu amor e providência.
-Não espere um grande milagre ou um acontecimento extraordinário para agradecer a Deus por hoje. O maior milagre já aconteceu: você vive, respira e é amado por um Deus eterno. Este dia é uma nova chance de fazer o bem, de amar, de recomeçar, de crescer na fé.
-Então, sorria, agradeça e viva com propósito. Hoje é o seu melhor dia, porque é o dia em que o Senhor lhe deu para ser luz, para adorar, para caminhar com Ele. Não desperdice essa dádiva. Celebre com gratidão e confiança, pois Deus está com você.
-Comece o dia com gratidão e fé
-
-
-Reconheça as bênçãos ao acordar: Ao abrir os olhos, agradeça a Deus pela vida, pela saúde e por mais uma oportunidade de recomeçar com propósito e alegria, confiando na Sua fidelidade.
-
-Comece o dia com oração e louvor: Separe um momento para conversar com Deus, entregar seu dia e louvar por tudo que já recebeu. Isso alinha seu coração com a paz e direção divina.
-
-Pratique a gratidão nas pequenas coisas: Valorize os detalhes: um café da manhã, um abraço, um sorriso. A gratidão cotidiana transforma sua perspectiva e revela a presença de Deus em cada instante vivido.
-
-Para orar:
-
-Senhor, obrigado por mais um dia de vida. Agradeço pela saúde, pelo ar que respiro e por Tua presença constante. Ajuda-me a viver com gratidão, fé e amor, reconhecendo Tuas bênçãos em cada detalhe. Que eu aproveite este dia como um presente Teu. Amém.
-
-Veja também: Bom dia abençoado - mensagens para um dia de fé e alegria em Deus
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Honrando a Deus com nossas atitudes
-INFO:root:🔹 URL: https://www.bibliaon.com/coisas_que_agradam_a_deus/
-INFO:root:🔹 Description: Assim brilhe a luz de vocês diante dos homens, para que vejam as suas boas obras e glorifiquem ao Pai de vocês, que está nos céus.
-- Mateus 5:16 
-
-Honrar a Deus não se resume somente a palavras ou momentos de adoração no templo. Vai muito, além disso. Deus é glorificado quando nossas atitudes refletem Seu caráter, mesmo nas tarefas mais simples do nosso dia a dia.
-A maneira como tratamos as pessoas, a nossa honestidade no trabalho, como reagimos às dificuldades, tudo isso é observado não só por aqueles ao nosso redor, mas principalmente por Deus. Quando escolhemos perdoar ao invés de guardar mágoa, quando ajudamos sem esperar nada em troca, quando falamos com amor em vez de julgamento, estamos honrando o Senhor com nossas atitudes.
-Muitas vezes, pensamos que apenas grandes feitos contam como honra a Deus, mas Ele valoriza a obediência nos detalhes. Jesus nos ensinou que o maior mandamento é amar a Deus acima de tudo, e o segundo, semelhante a este, é amar o próximo como a nós mesmos. Esse amor se manifesta em atitudes: paciência, generosidade, compaixão e integridade.
-Também é importante lembrar que, quando falhamos, e todos falhamos, podemos nos achegar a Deus com arrependimento sincero. A graça de Deus nos restaura e nos capacita a seguir em frente, decididos a viver de forma que O honre.
-Busque diariamente refletir Jesus em suas ações. Ore pedindo sabedoria para agir com retidão e humildade. Leia a Palavra para moldar seu coração à vontade de Deus. Lembre-se: cada atitude sua pode ser um testemunho vivo da presença de Cristo em sua vida.
-Quando vivemos com intenção e propósito de glorificar a Deus, nossa luz brilha, e o mundo pode ver, por meio de nós, o amor e a verdade do Pai. 
-Honre a Deus com a sua vida 
-
-
-Demonstre paciência, gentileza e compaixão, mesmo diante de dificuldades. Suas atitudes devem refletir o amor de Cristo, impactando vidas e glorificando a Deus em cada relacionamento.
-
-Seja honesto em suas palavras e ações, mesmo quando ninguém está olhando. A integridade honra a Deus e revela um coração comprometido com os princípios do Reino, acima de interesses pessoais.
-
-Ore e medite na Palavra. A intimidade com Deus transforma seu interior e molda suas atitudes, tornando sua vida um reflexo constante da graça e da vontade divina.
-
-Para orar: 
-
-Senhor, ajuda-me a viver de modo que Te honre em cada atitude. Que minhas palavras e ações reflitam Teu amor, Tua verdade e Tua graça. Molda meu coração segundo Tua vontade e guia meus passos todos os dias. Amém.
-
-Veja também: Atitudes que agradam ao Senhor
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222826 characters
-INFO:root:HTML parsed, length: 221407 characters
+INFO:root:Response length: 222705 characters
+INFO:root:HTML parsed, length: 221286 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 19 URLs: ['/wiki/Jane_Cobden', '/wiki/Pol%C3%ADtico', '/wiki/Partido_Liberal_(Reino_Unido)']
 INFO:root:Found 1 descriptions: ['Emma Jane Catherine Cobden foi uma política libera']
@@ -309,8 +267,8 @@ Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222826 characters
-INFO:root:HTML parsed, length: 221407 characters
+INFO:root:Response length: 222705 characters
+INFO:root:HTML parsed, length: 221286 characters
 INFO:root:Found 1 titles: ['25 de maio na história']
 INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Jord%C3%A2nia']
 INFO:root:Found 1 descriptions: ['Martinho Lutero\nDia da Independência da Jordânia (']
@@ -340,8 +298,8 @@ Ver mais • Outros dias: 23 • 24 • 25 • 26 • 27 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222826 characters
-INFO:root:HTML parsed, length: 221407 characters
+INFO:root:Response length: 222705 characters
+INFO:root:HTML parsed, length: 221286 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_(edited).jpg']
 INFO:root:Found 1 descriptions: ['Panorama ao anoitecer na reserva paisagística de T']
@@ -379,30 +337,24 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 +++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  39 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  70 +++----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  36 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  44 ++--
+ feeds/salmo_do_dia/atom.xml               |  32 ++-
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   6 +-
- feeds/wikidestaque/feed.json              |   4 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 346 ++++++++++++++----------------
- 17 files changed, 289 insertions(+), 321 deletions(-)
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 313 ++++++++++++------------------
+ 14 files changed, 218 insertions(+), 324 deletions(-)
