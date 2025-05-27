@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 117733 characters
-INFO:root:HTML parsed, length: 111031 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (26/05/2025)', 'Palavra de Ontem (25/05/2025)', 'Palavra de Anteontem (24/05/2025)']
-INFO:root:Found 3 URLs: ['/oste/', '/antropogenia/', '/flagiciar/']
-INFO:root:Found 10 descriptions: ['substantivo masculino [Antigo] Aquele que vive tem', 'Sinônimos:\n\nhóspede', 'Sílabas:os-te']
-INFO:root:Found 3 dates: ['Palavra de Hoje (26/05/2025)', 'Palavra de Ontem (25/05/2025)', 'Palavra de Anteontem (24/05/2025)']
+INFO:root:Response length: 117518 characters
+INFO:root:HTML parsed, length: 110860 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (27/05/2025)', 'Palavra de Ontem (26/05/2025)', 'Palavra de Anteontem (25/05/2025)']
+INFO:root:Found 3 URLs: ['/caramanchao/', '/oste/', '/antropogenia/']
+INFO:root:Found 11 descriptions: ['substantivo masculino Construção rústica, de ripas', 'Sinônimos:\n\ncamaranchão, caramanchel', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (27/05/2025)', 'Palavra de Ontem (26/05/2025)', 'Palavra de Anteontem (25/05/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (26/05/2025)', ID=ae87cbaaaff7f41cb14fc5779f0bd6b3
-INFO:root:Processing entry 2: Title='Palavra de Ontem (25/05/2025)', ID=b06a0d0ad07b8598a1f87c5d4e491619
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/05/2025)', ID=722e89e84739b76bf20294231fade399
+INFO:root:Processing entry 1: Title='Palavra de Hoje (27/05/2025)', ID=13d87d67b300f98f4c1cc0a4cbf3b199
+INFO:root:Processing entry 2: Title='Palavra de Ontem (26/05/2025)', ID=3a76c3e2b4424dc07a404302c404a1a0
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/05/2025)', ID=ad399fa1658d0c6bd083ba594ac6a103
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (26/05/2025) - Significado completo de oste:
-INFO:root:🔹 URL: https://www.dicio.com.br/oste/
-INFO:root:🔹 Description: substantivo masculino [Antigo] Aquele que vive temporariamente em casa alheia; hóspede.Etimologia (origem da palavra oste). Forma contraída de hóspite.
+INFO:root:🔹 Title: Palavra de Hoje (27/05/2025) - Significado completo de caramanchão:
+INFO:root:🔹 URL: https://www.dicio.com.br/caramanchao/
+INFO:root:🔹 Description: substantivo masculino Construção rústica, de ripas ou estacas, geralmente recoberta de planta trepadeira, situada num parque ou jardim; camaranchão.Suporte simples usado para cobrir a vegetação; caramanchel.Etimologia (origem da palavra caramanchão). Do espanhol caramanchón.
  
 Sinônimos:
 
-hóspede 
+camaranchão, caramanchel 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (25/05/2025) - Significado completo de antropogenia:
-INFO:root:🔹 URL: https://www.dicio.com.br/antropogenia/
+INFO:root:🔹 Title: Palavra de Ontem (26/05/2025) - Significado completo de oste:
+INFO:root:🔹 URL: https://www.dicio.com.br/oste/
 INFO:root:🔹 Description: Sinônimos:
 
-hóspede
- Sílabas:os-te
+camaranchão, caramanchel
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (24/05/2025) - Significado completo de flagiciar:
-INFO:root:🔹 URL: https://www.dicio.com.br/flagiciar/
-INFO:root:🔹 Description: Sílabas:os-te
- Classe gramatical:substantivo feminino
+INFO:root:🔹 Title: Palavra de Anteontem (25/05/2025) - Significado completo de antropogenia:
+INFO:root:🔹 URL: https://www.dicio.com.br/antropogenia/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:ca-ra-man-chão
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,43 +42,65 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243173 characters
-INFO:root:HTML parsed, length: 232495 characters
-INFO:root:Found 1 titles: ['1 João 2:12']
-INFO:root:Found 1 URLs: ['/versiculo/1_joao_2_12/']
-INFO:root:Found 1 descriptions: ['Filhinhos, eu escrevo a vocês\nporque os seus pecad']
+INFO:root:Response length: 243250 characters
+INFO:root:HTML parsed, length: 232572 characters
+INFO:root:Found 1 titles: ['Eclesiastes 5:15']
+INFO:root:Found 1 URLs: ['/versiculo/eclesiastes_5_15/']
+INFO:root:Found 1 descriptions: ['O homem sai nu do ventre de sua mãe,\ne como vem, a']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 João 2:12', ID=f2e86463e46b2cdae673f1ac89d61eea
+INFO:root:Processing entry 1: Title='Eclesiastes 5:15', ID=310af7a4ee6086e6a4eb1b86d28a7efe
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 João 2:12
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_joao_2_12/
-INFO:root:🔹 Description: Filhinhos, eu escrevo a vocês
-porque os seus pecados
-foram perdoados,
-graças ao nome de Jesus. 1 João 2:12
+INFO:root:🔹 Title: Eclesiastes 5:15
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/eclesiastes_5_15/
+INFO:root:🔹 Description: O homem sai nu do ventre de sua mãe,
+e como vem, assim vai.
+De todo o trabalho em que se esforçou
+nada levará consigo. Eclesiastes 5:15
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 245288 characters
-INFO:root:HTML parsed, length: 235296 characters
-INFO:root:Found 3 titles: ['Salmo 134', 'Salmo 15', 'Salmo 54']
-INFO:root:Found 3 URLs: ['/salmos_134/', '/salmos_15/', '/salmos_54/']
-INFO:root:Found 3 descriptions: ['Venham! Bendigam o Senhor\ntodos vocês, servos do S', 'Senhor, quem habitará no teu santuário?\nQuem poder', 'Salva-me, ó Deus, pelo teu nome;\ndefende-me pelo t']
-INFO:root:Found 3 dates: ['26 de Maio de 2025', '25 de Maio de 2025', '24 de Maio de 2025']
+INFO:root:Response length: 245297 characters
+INFO:root:HTML parsed, length: 235307 characters
+INFO:root:Found 3 titles: ['Salmo 126', 'Salmo 134', 'Salmo 15']
+INFO:root:Found 3 URLs: ['/salmos_126/', '/salmos_134/', '/salmos_15/']
+INFO:root:Found 3 descriptions: ['Quando o Senhor trouxe os cativos\nde volta a Sião,', 'Venham! Bendigam o Senhor\ntodos vocês, servos do S', 'Senhor, quem habitará no teu santuário?\nQuem poder']
+INFO:root:Found 3 dates: ['27 de Maio de 2025', '26 de Maio de 2025', '25 de Maio de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 134', ID=24f356853788225a16d0b291b2612761
-INFO:root:Processing entry 2: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
-INFO:root:Processing entry 3: Title=' Salmo 54', ID=0ad47925f3eaec3675bd0850ab63416c
+INFO:root:Processing entry 1: Title=' Salmo 126', ID=40adfd97c9db40aaa6d3d61dd831270b
+INFO:root:Processing entry 2: Title=' Salmo 134', ID=24f356853788225a16d0b291b2612761
+INFO:root:Processing entry 3: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 126
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_126/
+INFO:root:🔹 Description: Quando o Senhor trouxe os cativos
+de volta a Sião, foi como um sonho. 
+Então a nossa boca encheu-se de riso
+e a nossa língua de cantos de alegria.
+Até nas outras nações se dizia:
+"O Senhor fez coisas grandiosas
+por este povo". 
+Sim, coisas grandiosas fez o Senhor por nós,
+por isso estamos alegres. 
+Senhor, restaura-nos,
+assim como enches
+o leito dos ribeiros no deserto. 
+Aqueles que semeiam com lágrimas,
+com cantos de alegria colherão. 
+Aquele que sai chorando
+enquanto lança a semente,
+voltará com cantos de alegria,
+trazendo os seus feixes. 
+ Salmo 126
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 134
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_134/
 INFO:root:🔹 Description: Venham! Bendigam o Senhor
@@ -111,79 +133,94 @@ Quem assim procede
 nunca será abalado! 
  Salmo 15
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 54
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_54/
-INFO:root:🔹 Description: Salva-me, ó Deus, pelo teu nome;
-defende-me pelo teu poder. 
-Ouve a minha oração, ó Deus;
-escuta as minhas palavras. 
-Estrangeiros me atacam;
-homens cruéis querem matar-me,
-homens que não se importam com Deus. 
-Certamente Deus é o meu auxílio;
-é o Senhor que me sustém. 
-Recaia o mal sobre os meus inimigos!
-Extermina-os por tua fidelidade! 
-Eu te oferecerei um sacrifício voluntário;
-louvarei o teu nome, ó Senhor,
-porque tu és bom. 
-Pois ele me livrou de todas as minhas angústias,
-e os meus olhos contemplaram
-a derrota dos meus inimigos. 
- Salmo 54
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245344 characters
-INFO:root:HTML parsed, length: 235061 characters
-INFO:root:Found 3 titles: ['Seguir Jesus, a melhor decisão', 'Uma jornada cheia de confiança', 'Viva louvando a Deus']
+INFO:root:Response length: 245764 characters
+INFO:root:HTML parsed, length: 235488 characters
+INFO:root:Found 3 titles: ['Bem-aventurado aquele que põe a sua esperança em Deus', 'Seguir Jesus, a melhor decisão', 'Uma jornada cheia de confiança']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Falando novamente ao povo, Jesus disse: "Eu sou a ', 'Mas eu, quando estiver com medo,\nconfiarei em ti.\n', 'Aleluia!\nLouvem a Deus no seu santuário,\nlouvem-no']
-INFO:root:Found 1 dates: ['Segunda, 26 de maio de 2025']
+INFO:root:Found 3 descriptions: ['Como é feliz aquele cujo auxílio\né o Deus de Jacó,', 'Falando novamente ao povo, Jesus disse: "Eu sou a ', 'Mas eu, quando estiver com medo,\nconfiarei em ti.\n']
+INFO:root:Found 1 dates: ['Terça, 27 de maio de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Seguir Jesus, a melhor decisão', ID=7bf753281a999af1fdeb5d9f439d61a5
+INFO:root:Processing entry 1: Title='Bem-aventurado aquele que põe a sua esperança em Deus', ID=0f9c3f2a7f794b76f0c038a7df6a195f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Seguir Jesus, a melhor decisão - Palavra de Hoje
+INFO:root:🔹 Title: Bem-aventurado aquele que põe a sua esperança em Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Falando novamente ao povo, Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida".
-- João 8:12
+INFO:root:🔹 Description: Como é feliz aquele cujo auxílio
+é o Deus de Jacó,
+cuja esperança está no Senhor, no seu Deus,
+que fez os céus e a terra,
+o mar e tudo o que neles há,
+e que mantém a sua fidelidade para sempre!
+Ele defende a causa dos oprimidos
+e dá alimento aos famintos.
+O Senhor liberta os presos,
+- Salmo 146:5-7
 
-Passamos a vida tomando decisões. Nós escolhemos o que comer no café da manhã, o que vestir, se pegamos o ônibus ou caminhamos, com qual tarefa começamos o dia de trabalho... Uma decisão após a outra, dia após dia, ano após ano.
-Deus nos deu o livre-arbítrio, a capacidade de escolher. Podemos usar essa liberdade para o nosso bem ou para o nosso mal: a escolha é nossa. Mas há uma decisão muito importante, a maior que podemos tomar: seguir Jesus ou não.
-Se escolhermos seguir Jesus e aceitá-lo como nosso Salvador, abriremos nossos corações para receber tudo o que ele quer nos dar, tanto nesta vida quanto na eternidade. Em Jesus temos esperança, luz, vida e a certeza de que desfrutaremos de sua presença para sempre.
-Jesus disse:
+Deus é fiel em cumprir suas promessas e podemos confiar nele. Ao contrário dos seres humanos que podem nos falhar, ignorando totalmente as promessas feitas, Deus não esquece. Ele sempre cumpre suas promessas para nós. Cabe a nós esperar com confiança, fé e esperança.
+No entanto, não gostamos de esperar. A sociedade moderna é rápida e queremos tudo agora, agora mesmo e, se possível, para ontem. Chega de esperar! Mas a Bíblia deixa claro que o tempo de Deus e o nosso não são os mesmos. Para Deus, um dia é como mil anos e mil anos como um dia. Não é que o Senhor seja lento em cumprir suas promessas. Muitas vezes ele nos faz esperar porque é paciente conosco. Ele espera o nosso próprio bem (2 Pedro 3:8-9).
+Podemos aproveitar o tempo de espera para lembrar o que o Senhor já fez por nós. Como o salmista nos lembra, tudo foi criado por Deus, portanto, tudo está sob seu controle. Deus é verdadeiro, sua verdade dura para sempre. Ele é justo, ele provê, ele nos dá liberdade, ele é fiel!
+Vamos escolher colocar nossa esperança em Deus e confiar nele hoje e para sempre. Coloquemos em suas mãos amorosas nossos fardos, nossas preocupações e nossas dúvidas sobre sua bondade. Lembremo-nos de quão fiel o Senhor tem sido até hoje e esperemos com confiança. Ele não nos decepcionará!
 
-Eu sou a porta; quem entra por mim será salvo. Entrará e sairá, e encontrará pastagem. O ladrão vem apenas para roubar, matar e destruir; eu vim para que tenham vida e a tenham plenamente.
-- João 10:9-10
+Saibam, portanto, que o Senhor, o seu Deus, é Deus; ele é o Deus fiel, que mantém a aliança e a bondade por mil gerações daqueles que o amam e obedecem aos seus mandamentos.
+- Deuteronômio 7:9
 
-Ele é quem nos dá vida abundante! Nosso bom pastor nos guia, protege e fortalece no caminho da vida. Quando seguimos Jesus, nossos passos ganham significado, nossas feridas encontram conforto e nosso futuro se enche de esperança.
-Hoje você pode decidir caminhar com Jesus, aquele que venceu a morte, que te ama sem medida e que nunca falha. Não há melhor decisão do que entregar sua vida a Jesus. Ele é o Caminho e nele você tem vida abundante. Se você ainda não o fez, escolha seguir Jesus hoje: você não vai se arrepender.
-Veja também: Versículos sobre seguir Jesus.
+Veja também: Versículos de Deus é fiel para cumprir suas promessas.
  
-Falando novamente ao povo, Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida".
-- João 8:12
+Como é feliz aquele cujo auxílio
+é o Deus de Jacó,
+cuja esperança está no Senhor, no seu Deus,
+que fez os céus e a terra,
+o mar e tudo o que neles há,
+e que mantém a sua fidelidade para sempre!
+Ele defende a causa dos oprimidos
+e dá alimento aos famintos.
+O Senhor liberta os presos,
+- Salmo 146:5-7
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 254403 characters
-INFO:root:HTML parsed, length: 243883 characters
-INFO:root:Found 3 titles: ['O Deus que tudo pode...', 'Devocional Diário: Preparados para um novo começo', 'Hoje é o seu melhor dia']
-INFO:root:Found 2 URLs: ['/bom_dia_abencoado_frases_mensagem/', '/bom_dia_abencoado_frases_mensagem/']
-INFO:root:Found 3 descriptions: ['"Sei que podes fazer todas as coisas;\nnenhum dos t', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ']
-INFO:root:Found 3 dates: ['MAIO\n\n26\nSEGUNDA', 'MAIO\n\n25\nDOMINGO', 'MAIO\n\n24\nSÁBADO']
+INFO:root:Response length: 254436 characters
+INFO:root:HTML parsed, length: 243915 characters
+INFO:root:Found 3 titles: ['Deus quer revolucionar a sua vida', 'O Deus que tudo pode...', 'Devocional Diário: Preparados para um novo começo']
+INFO:root:Found 2 URLs: ['/transformacao/', '/bom_dia_abencoado_frases_mensagem/']
+INFO:root:Found 3 descriptions: ['Aquele que estava assentado no trono disse: "Estou', '"Sei que podes fazer todas as coisas;\nnenhum dos t', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ']
+INFO:root:Found 3 dates: ['MAIO\n\n27\nTERÇA', 'MAIO\n\n26\nSEGUNDA', 'MAIO\n\n25\nDOMINGO']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='O Deus que tudo pode...', ID=4090760fc15cfe11e88dff9f360679ce
-INFO:root:Processing entry 2: Title='Devocional Diário: Preparados para um novo começo', ID=95b8009f74622305e86799c269b15f58
+INFO:root:Processing entry 1: Title='Deus quer revolucionar a sua vida', ID=8078669843bdcc0c1e1b9aa929ab100e
+INFO:root:Processing entry 2: Title='O Deus que tudo pode...', ID=4090760fc15cfe11e88dff9f360679ce
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Deus quer revolucionar a sua vida
+INFO:root:🔹 URL: https://www.bibliaon.com/transformacao/
+INFO:root:🔹 Description: Aquele que estava assentado no trono disse: "Estou fazendo novas todas as coisas!"
+- Apocalipse 21:5a 
+
+Deus não deseja somente melhorar partes da sua vida. Ele quer revolucioná-la por completo. O Senhor é especialista em transformar o caos em ordem, o vazio em propósito, e a dor em testemunho. Muitas vezes, nos acostumamos com a rotina, com os mesmos problemas e limitações, achando que essa é a nossa realidade definitiva. Mas Deus tem planos maiores. Ele não quer que você apenas sobreviva, Ele quer que você viva plenamente em Cristo.
+A revolução que Deus propõe começa de dentro para fora. Não se trata apenas de circunstâncias externas mudando, mas de um coração rendido sendo totalmente transformado. Quando entregamos nossos caminhos a Ele, nossa mente é renovada, nossas prioridades mudam e passamos a enxergar o mundo com os olhos da fé.
+Jesus não veio ao mundo para fundar uma religião, mas para trazer vida nova. Ele tocava os intocáveis, perdoava os imperdoáveis e amava os esquecidos. Essa mesma graça está disponível hoje. Não importa onde você está ou o que já viveu, Deus pode reescrever sua história.
+Deixar Deus revolucionar sua vida é abrir mão do controle e confiar que Ele sabe o melhor caminho. É permitir que Ele cure feridas profundas, restaure relacionamentos quebrados e dê propósito onde havia desilusão.
+Você não foi criado para viver uma vida medíocre. Há um chamado sobre você, e Deus deseja fazer algo extraordinário através da sua vida. Basta dizer sim. Deixe o Espírito Santo guiar seus passos e prepare-se para viver uma revolução de amor, poder e transformação. Deus quer revolucionar a sua vida hoje. Basta abrir o coração. 
+Deixe Deus te transformar 
+
+Reconheça sua necessidade de mudança e diga “sim” a Deus. A transformação começa quando permitimos que Ele entre e assuma o controle da nossa vida. 
+Através da oração e leitura da Bíblia, Deus molda sua mente e fortalece sua fé. Relacionamento diário com Ele é essencial para viver a verdadeira revolução espiritual.
+Confie na direção divina em vez de agir por impulso. O Espírito Santo revela o melhor caminho e traz paz mesmo em meio às maiores incertezas da vida.
+
+Para orar:
+
+Senhor, eu Te entrego minha vida e meus caminhos. Transforma meu coração, renova minha mente e guia-me com Teu Espírito. Que a Tua vontade se cumpra em mim. Faz tudo novo, Senhor, e revoluciona minha história com Teu amor, poder e graça. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre transformação
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O Deus que tudo pode...
 INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
 INFO:root:🔹 Description: "Sei que podes fazer todas as coisas;
@@ -210,36 +247,10 @@ Para Orar:
 
 Pai da Vida, Tu és o Deus todo Poderoso. Ajuda-me na minha pequena fé! Vem me socorrer, Pai, eu dependo só de Ti. Renova as minhas forças e a minha esperança. O Senhor criou todo o universo, nada é tão difícil para Ti! Eu sei que posso confiar em Ti mesmo quando pareço enfrentar um turbilhão à minha volta. Que a Tua Palavra seja o meu sustento, hoje e sempre; em nome de Jesus! Amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Devocional Diário: Preparados para um novo começo
-INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
-INFO:root:🔹 Description: Este é o dia em que o Senhor agiu;
-alegremo-nos e exultemos neste dia.
-- Salmo 118:24 
-
-A cada amanhecer, Deus nos concede a oportunidade de começar um novo dia. É um presente precioso, repleto de possibilidades e bênçãos. Ao abrirmos os olhos pela manhã, devemos lembrar que Ele nos preparou para viver este dia com propósito. Não importa o que o dia traga, podemos confiar que Ele estará conosco em cada passo.
-Quando enfrentamos desafios, é natural que nos sintamos cansados ou preocupados, mas a Palavra de Deus nos lembra que Ele é o nosso refúgio e força (Salmo 46:1). Ele nunca nos deixará sozinhos. Ao nos prepararmos para mais um dia, devemos renovar nossa fé e confiança n'Ele, sabendo que Ele nos capacita para o que quer que venha.
-Seja no trabalho, nos estudos, na família ou nas amizades, Deus nos guia e fortalece. Cada momento é uma oportunidade para refletirmos Sua luz e amor. Mesmo nas dificuldades, Ele nos ensina a perseverar, a confiar em Sua soberania e a dar graças em tudo.
-Ao iniciar este novo dia, lembre-se de que você está preparado, pois Deus vai à frente de você, abrindo caminhos e cuidando de cada detalhe. Levante-se com coragem, regozije-se em Seu amor e viva com a certeza de que Ele tem grandes coisas reservadas para você.
-Preparados para mais um dia, sigamos confiantes em Seu cuidado! 
-Firmes e preparados!
-
-
-Comece o dia em oração: Dedique alguns minutos ao Senhor, pedindo direção e sabedoria para o dia.
-
-Mantenha uma atitude positiva: Enfrente os desafios com fé, lembrando que Deus está sempre ao seu lado.
-
-Seja grato em tudo: Agradeça pelas pequenas bênçãos, reconhecendo o cuidado de Deus em cada detalhe da vida. 
-
-Para orar: 
-
-Senhor, agradeço por mais uma oportunidade de viver. Fortalece minha fé e confiança em Ti. Guia meus passos, dá-me sabedoria e coragem para enfrentar os desafios com gratidão. Que eu reflita Teu amor em cada atitude e que Tua paz me acompanhe em tudo o que eu fizer. Amém.
-
-Veja também: Bom dia abençoado: mensagens e frases com a paz de Deus
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222705 characters
-INFO:root:HTML parsed, length: 221286 characters
+INFO:root:Response length: 221527 characters
+INFO:root:HTML parsed, length: 220108 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 19 URLs: ['/wiki/Jane_Cobden', '/wiki/Pol%C3%ADtico', '/wiki/Partido_Liberal_(Reino_Unido)']
 INFO:root:Found 1 descriptions: ['Emma Jane Catherine Cobden foi uma política libera']
@@ -253,7 +264,7 @@ INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
 INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Jane_Cobden
-INFO:root:🔹 Description: Emma Jane Catherine Cobden foi uma política liberal britânica atuante em pautas radicais. Filha do reformador e estadista vitoriano Richard Cobden, foi uma das primeiras defensoras dos direitos das mulheres e, em 1889, esteve entre as duas mulheres eleitas para o primeiro Conselho do Condado de Londres. Sua eleição foi controversa; contestações judiciais à sua elegibilidade dificultaram e, eventualmente, a impediram de ocupar o cargo como vereadora.
+INFO:root:🔹 Description: Emma Jane Catherine Cobden foi uma política liberal britânica atuante em pautas radicais. Filha do reformador e estadista vitoriano Richard Cobden, foi uma das primeiras defensoras dos direitos das mulheres e, em 1889, esteve entre as duas mulheres eleitas para o primeiro Conselho do Condado de Londres. Sua eleição foi controversa; contestações judiciais à sua elegibilidade dificultaram e, por fim, a impediram de ocupar o cargo como vereadora.
 Desde a juventude, junto com suas irmãs, procurou proteger e desenvolver o legado de seu pai. Ela permaneceu comprometida ao longo de sua vida com as questões "Cobdenitas" de reforma agrária, paz e justiça social, além de ser uma defensora consistente da independência da Irlanda pela Grã-Bretanha. (Leia mais...)
 
 
@@ -267,44 +278,44 @@ Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222705 characters
-INFO:root:HTML parsed, length: 221286 characters
-INFO:root:Found 1 titles: ['25 de maio na história']
-INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Jord%C3%A2nia']
-INFO:root:Found 1 descriptions: ['Martinho Lutero\nDia da Independência da Jordânia (']
+INFO:root:Response length: 221527 characters
+INFO:root:HTML parsed, length: 220108 characters
+INFO:root:Found 1 titles: ['26 de maio na história']
+INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Mikola_II_(cropped)-2.jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Ge%C3%B3rgia']
+INFO:root:Found 1 descriptions: ['Nicolau II da Rússia\nDia da Independência da Geórg']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='25 de maio na história', ID=f3fc9bbd6c9164bce68db788109f06ea
+INFO:root:Processing entry 1: Title='26 de maio na história', ID=7b57122d32dc8df716a6f9bd010080d1
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 25 de maio na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg
-INFO:root:🔹 Description: Martinho Lutero
-Dia da Independência da Jordânia (1946); Dia de África (1963)
+INFO:root:🔹 Title: 26 de maio na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Mikola_II_(cropped)-2.jpg
+INFO:root:🔹 Description: Nicolau II da Rússia
+Dia da Independência da Geórgia (1918) e da Guiana (1966)
 
-1810 – Cidadãos de Buenos Aires expulsam o vice-rei Baltasar Hidalgo de Cisneros durante a Semana de maio, iniciando a Guerra da Independência da Argentina.
-1521 – É assinado o Édito de Worms, que condena Martinho Lutero (imagem).
-1963 – A Organização da Unidade Africana é formada em Adis Abeba.
+1644 – Guerra da Restauração: forças portuguesas e espanholas reivindicam a vitória na Batalha de Montijo.
+1896 – Nicolau II (imagem) é coroado como o último imperador da Rússia.
+1991 – O voo Lauda Air 004 se desfaz no ar e cai no Parque Nacional Phu Toei, na província de Suphan Buri, Tailândia, matando todas as 223 pessoas a bordo.
 Nasceram neste dia…
-Padre Pio (1887–1968)  •  Sonia Rykiel (1930–2016)  •  Tite (n. 1961)  •  Mike Myers (n. 1963)
+Irmã Dulce (1914–1992)  •  Ruben A. (1920–1975)  •  Miles Davis (1926–1991)  •  Lenny Kravitz (n. 1964)
 Morreram neste dia…
-Pedro III de Portugal (1717–1786)  •  Roberto Simonsen (1889–1948)  •  Robert Capa (1913–1954)  •  George Floyd (1973–2020)
+Georges Gilles de la Tourette (1857–1904)  •  Alberto Ascari (1918–1955)  •  Martin Heidegger (1889–1976)  •  Mamo Wolde (1932–2002)
 
 
-Ver mais • Outros dias: 23 • 24 • 25 • 26 • 27 • Ver todos
+Ver mais • Outros dias: 24 • 25 • 26 • 27 • 28 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222705 characters
-INFO:root:HTML parsed, length: 221286 characters
+INFO:root:Response length: 221527 characters
+INFO:root:HTML parsed, length: 220108 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_(edited).jpg']
-INFO:root:Found 1 descriptions: ['Panorama ao anoitecer na reserva paisagística de T']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:SMP_May_2008-9a.jpg']
+INFO:root:Found 1 descriptions: ['Dois corredores passam por um túnel de pedestres e']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_%28edited%29.jpg/960px-%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_%28edited%29.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/SMP_May_2008-9a.jpg/500px-SMP_May_2008-9a.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -313,15 +324,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_(edited).jpg
-INFO:root:🔹 Description: Panorama ao anoitecer na reserva paisagística de Taras, região de Chercássi, Ucrânia, batizada em homenagem ao poeta e pintor Taras Shevchenko.
-(resolução original: 5 498 × 3 664)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:SMP_May_2008-9a.jpg
+INFO:root:🔹 Description: Dois corredores passam por um túnel de pedestres em São Martinho do Porto, Portugal.
+(resolução original: 2 592 × 2 592)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_%28edited%29.jpg/960px-%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D1%96%D0%B2_%D0%BE%D0%B1%D1%80%D1%96%D0%B9._%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_%28edited%29.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/SMP_May_2008-9a.jpg/500px-SMP_May_2008-9a.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -337,24 +348,30 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
+ M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  70 +++----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  36 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  40 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  32 ++-
+ feeds/salmo_do_dia/atom.xml               |  41 ++--
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 313 ++++++++++++------------------
- 14 files changed, 218 insertions(+), 324 deletions(-)
+ feeds/wikidestaque/feed.json              |   2 +-
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 327 +++++++++++++++---------------
+ 17 files changed, 292 insertions(+), 282 deletions(-)
