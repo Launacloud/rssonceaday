@@ -1,46 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 118404 characters
-INFO:root:HTML parsed, length: 111379 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (28/05/2025)', 'Palavra de Ontem (27/05/2025)', 'Palavra de Anteontem (26/05/2025)']
-INFO:root:Found 3 URLs: ['/dissimulada/', '/caramanchao/', '/oste/']
-INFO:root:Found 12 descriptions: ['adjetivo Que dissimula, que esconde ou oculta seus', 'Sinônimos:\n\nfalso, hipócrita, fingido, encoberto, ', 'Antônimos:\n\nfranco, verdadeiro, sincero']
-INFO:root:Found 3 dates: ['Palavra de Hoje (28/05/2025)', 'Palavra de Ontem (27/05/2025)', 'Palavra de Anteontem (26/05/2025)']
+INFO:root:Response length: 118691 characters
+INFO:root:HTML parsed, length: 111666 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (29/05/2025)', 'Palavra de Ontem (28/05/2025)', 'Palavra de Anteontem (27/05/2025)']
+INFO:root:Found 3 URLs: ['/preterimento/', '/dissimulada/', '/caramanchao/']
+INFO:root:Found 12 descriptions: ['substantivo masculino Ato de preterir, de deixar a', 'Sinônimos:\n\nomissão, menosprezo', 'Sílabas:pre-te-ri-men-to']
+INFO:root:Found 3 dates: ['Palavra de Hoje (29/05/2025)', 'Palavra de Ontem (28/05/2025)', 'Palavra de Anteontem (27/05/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (28/05/2025)', ID=b7a3aa65bf9d6c54fa55a502567fc558
-INFO:root:Processing entry 2: Title='Palavra de Ontem (27/05/2025)', ID=d51319cf85baf78196e22c2f43bbeca9
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (26/05/2025)', ID=36d93449605fd0b6479a956eda904e75
+INFO:root:Processing entry 1: Title='Palavra de Hoje (29/05/2025)', ID=0bc8311e4601e9b58473fd97ad94bf1d
+INFO:root:Processing entry 2: Title='Palavra de Ontem (28/05/2025)', ID=e1696857edbf98b28bf7716e94694860
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (27/05/2025)', ID=900f8263b9d79ddfd17567c959ca14bc
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (28/05/2025) - Significado completo de dissimulada:
+INFO:root:🔹 Title: Palavra de Hoje (29/05/2025) - Significado completo de preterimento:
+INFO:root:🔹 URL: https://www.dicio.com.br/preterimento/
+INFO:root:🔹 Description: substantivo masculino Ato de preterir, de deixar algo ou alguém de lado em favor de outra coisa ou pessoa: preterimento dos ricos em detrimento dos demais.Ato de não levar em consideração, de menosprezar; menosprezo.Ação de ocultar ou de não mencionar; omissão.Etimologia (origem da palavra preterimento). Preterir + mento.
+ 
+Sinônimos:
+
+omissão, menosprezo 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (28/05/2025) - Significado completo de dissimulada:
 INFO:root:🔹 URL: https://www.dicio.com.br/dissimulada/
-INFO:root:🔹 Description: adjetivo Que dissimula, que esconde ou oculta seus reais sentimentos e intenções.Que é fingido, falso, hipócrita: sempre foi dissimulada e sonsa.Não aparente; que se encontra oculto; escondido, encoberto.substantivo feminino Pessoa dissimulada, falsa, hipócrita.Etimologia (origem da palavra dissimulada). A palavra dissimulada deriva como feminino de dissimulado, do latim dissimulatus, com o sentido de "fingido, encoberto".
+INFO:root:🔹 Description: Sinônimos:
+
+omissão, menosprezo
+ Sílabas:pre-te-ri-men-to
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (27/05/2025) - Significado completo de caramanchão:
+INFO:root:🔹 URL: https://www.dicio.com.br/caramanchao/
+INFO:root:🔹 Description: Sílabas:pre-te-ri-men-to
  
 Sinônimos:
 
 falso, hipócrita, fingido, encoberto, oculto 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (27/05/2025) - Significado completo de caramanchão:
-INFO:root:🔹 URL: https://www.dicio.com.br/caramanchao/
-INFO:root:🔹 Description: Sinônimos:
-
-falso, hipócrita, fingido, encoberto, oculto
- 
-Antônimos:
-
-franco, verdadeiro, sincero 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (26/05/2025) - Significado completo de oste:
-INFO:root:🔹 URL: https://www.dicio.com.br/oste/
-INFO:root:🔹 Description: Antônimos:
-
-franco, verdadeiro, sincero
- Sílabas:dis-si-mu-la-da
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,46 +46,62 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243238 characters
-INFO:root:HTML parsed, length: 232560 characters
-INFO:root:Found 1 titles: ['Isaías 40:30-31']
-INFO:root:Found 1 URLs: ['/versiculo/isaias_40_30-31/']
-INFO:root:Found 1 descriptions: ['Até os jovens se cansam\ne ficam exaustos,\ne os moç']
+INFO:root:Response length: 243345 characters
+INFO:root:HTML parsed, length: 232667 characters
+INFO:root:Found 1 titles: ['Tiago 1:12']
+INFO:root:Found 1 URLs: ['/versiculo/tiago_1_12/']
+INFO:root:Found 1 descriptions: ['Feliz é o homem que persevera na provação, porque ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Isaías 40:30-31', ID=e95597c44f1edbbbe7c9c7bafa3801b8
+INFO:root:Processing entry 1: Title='Tiago 1:12', ID=52501347f49bb37fa324fced62703569
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Isaías 40:30-31
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/isaias_40_30-31/
-INFO:root:🔹 Description: Até os jovens se cansam
-e ficam exaustos,
-e os moços tropeçam e caem; mas aqueles que esperam no Senhor
-renovam as suas forças.
-Voam alto como águias;
-correm e não ficam exaustos,
-andam e não se cansam. Isaías 40:30-31
+INFO:root:🔹 Title: Tiago 1:12
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_1_12/
+INFO:root:🔹 Description: Feliz é o homem que persevera na provação, porque depois de aprovado receberá a coroa da vida, que Deus prometeu aos que o amam. Tiago 1:12
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 245230 characters
-INFO:root:HTML parsed, length: 235241 characters
-INFO:root:Found 3 titles: ['Salmo 123', 'Salmo 126', 'Salmo 134']
-INFO:root:Found 3 URLs: ['/salmos_123/', '/salmos_126/', '/salmos_134/']
-INFO:root:Found 3 descriptions: ['A ti levanto os meus olhos,\na ti, que ocupas o teu', 'Quando o Senhor trouxe os cativos\nde volta a Sião,', 'Venham! Bendigam o Senhor\ntodos vocês, servos do S']
-INFO:root:Found 3 dates: ['28 de Maio de 2025', '27 de Maio de 2025', '26 de Maio de 2025']
+INFO:root:Response length: 245565 characters
+INFO:root:HTML parsed, length: 235584 characters
+INFO:root:Found 3 titles: ['Salmo 125', 'Salmo 123', 'Salmo 126']
+INFO:root:Found 3 URLs: ['/salmos_125/', '/salmos_123/', '/salmos_126/']
+INFO:root:Found 3 descriptions: ['Os que confiam no Senhor\nsão como o monte Sião,\nqu', 'A ti levanto os meus olhos,\na ti, que ocupas o teu', 'Quando o Senhor trouxe os cativos\nde volta a Sião,']
+INFO:root:Found 3 dates: ['29 de Maio de 2025', '28 de Maio de 2025', '27 de Maio de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 123', ID=63e54db901337417465812697a20c2cb
-INFO:root:Processing entry 2: Title=' Salmo 126', ID=40adfd97c9db40aaa6d3d61dd831270b
-INFO:root:Processing entry 3: Title=' Salmo 134', ID=24f356853788225a16d0b291b2612761
+INFO:root:Processing entry 1: Title=' Salmo 125', ID=4453eb37e34143ba230b77d444355962
+INFO:root:Processing entry 2: Title=' Salmo 123', ID=63e54db901337417465812697a20c2cb
+INFO:root:Processing entry 3: Title=' Salmo 126', ID=40adfd97c9db40aaa6d3d61dd831270b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 125
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_125/
+INFO:root:🔹 Description: Os que confiam no Senhor
+são como o monte Sião,
+que não se pode abalar,
+mas permanece para sempre. 
+Como os montes cercam Jerusalém,
+assim o Senhor protege o seu povo,
+desde agora e para sempre. 
+O cetro dos ímpios não prevalecerá
+sobre a terra dada aos justos;
+se assim fosse,
+até os justos praticariam a injustiça. 
+Senhor, trata com bondade
+os que fazem o bem,
+os que têm coração íntegro. 
+Mas, aos que se desviam
+por caminhos tortuosos,
+o Senhor infligirá o castigo dado aos malfeitores.
+Haja paz em Israel! 
+ Salmo 125
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 123
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_123/
 INFO:root:🔹 Description: A ti levanto os meus olhos,
@@ -130,79 +144,83 @@ voltará com cantos de alegria,
 trazendo os seus feixes. 
  Salmo 126
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 134
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_134/
-INFO:root:🔹 Description: Venham! Bendigam o Senhor
-todos vocês, servos do Senhor,
-vocês, que servem de noite
-na casa do Senhor. 
-Levantem as mãos na direção do santuário
-e bendigam o Senhor! 
-De Sião os abençoe o Senhor,
-que fez os céus e a terra! 
- Salmo 134
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245526 characters
-INFO:root:HTML parsed, length: 235239 characters
-INFO:root:Found 3 titles: ['Deus te quer bem!', 'Bem-aventurado aquele que põe a sua esperança em Deus', 'Seguir Jesus, a melhor decisão']
+INFO:root:Response length: 245501 characters
+INFO:root:HTML parsed, length: 235215 characters
+INFO:root:Found 3 titles: ['Jesus é o seu melhor amigo', 'Deus te quer bem!', 'Bem-aventurado aquele que põe a sua esperança em Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Não se deixe enganar, a Palavra de Deus é verdadei', 'Como é feliz aquele cujo auxílio\né o Deus de Jacó,', 'Falando novamente ao povo, Jesus disse: "Eu sou a ']
-INFO:root:Found 1 dates: ['Quarta, 28 de maio de 2025']
+INFO:root:Found 3 descriptions: ['Já vos não chamarei servos, porque o servo não sab', 'Não se deixe enganar, a Palavra de Deus é verdadei', 'Como é feliz aquele cujo auxílio\né o Deus de Jacó,']
+INFO:root:Found 1 dates: ['Quinta, 29 de maio de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus te quer bem!', ID=8706d3d3dad1fd2c9ec418375492973d
+INFO:root:Processing entry 1: Title='Jesus é o seu melhor amigo', ID=e97d01105cff737e88cd1d39f3f740a1
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus te quer bem! - Palavra de Hoje
+INFO:root:🔹 Title: Jesus é o seu melhor amigo - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Não se deixe enganar, a Palavra de Deus é verdadeira. Deus, nosso Pai, olha para nós com olhos de amor eterno. Ao trilharmos o caminho da vida, encontramos obstáculos e cometemos erros que trazem consequências. No entanto, não devemos temer a correção, pois Deus é misericordioso.
-Ao experimentarmos as dores do pecado, encontramos uma oportunidade de crescimento no arrependimento e no perdão. Deus permite que essas tribulações aconteçam não como um ato de punição, mas como um meio de aprendizado. O arrependimento é o momento em que nos voltamos para Deus e reconhecemos nossas falhas. É o sinal de que estamos dispostos a mudar e a buscar a Sua direção.
-A beleza do amor de Deus reside em Sua disposição de perdoar. Ao buscar o perdão através de Jesus Cristo, encontramos a libertação do jugo do pecado. Essa reconciliação nos leva a experimentar a paz que excede todo entendimento e a alegria da Salvação.
-Lembre-se, Deus tem um plano único para você. Ele não apenas deseja o seu bem, mas também preparou um futuro cheio de esperança e bênçãos. Mantenha a fé em Seu plano e siga o caminho que Ele indicou. As adversidades podem ser desafiadoras, mas a firmeza em Deus o conduzirá em vitória.
-Nunca se esqueça de que Deus te ama incondicionalmente. Ele é o Pai que guia, ama e sustenta. Confie no Seu amor, siga a Sua vontade e experimente a vida abundante que Ele reservou para você. 
-Veja também: 
+INFO:root:🔹 Description: Já vos não chamarei servos, porque o servo não sabe o que faz o seu senhor; mas tenho-vos chamado amigos, porque tudo quanto ouvi de meu Pai vos tenho feito conhecer.
+- João 15:15
 
-O amor incondicional de Deus - estudo bíblico
-Estudo bíblico sobre perdão: 6 lições importantes
-Versículos sobre a importância do arrependimento
+Jesus é o seu melhor amigo. Não um amigo comum, passageiro ou interesseiro, mas o verdadeiro amigo que conhece seu coração, entende suas dores e caminha com você em todos os momentos, nos dias de alegria e nas noites de lágrimas.
+Diferente dos relacionamentos humanos, marcados por imperfeições e limitações, a amizade de Jesus é perfeita, constante e fiel. Ele não desiste de você, mesmo quando você falha. Seu amor não depende do que você faz, mas de quem Ele é. Jesus é o amigo que deu a vida por você, que intercede por você e que está sempre pronto a ouvir, consolar e fortalecer.
+Quando todos se afastam, Ele permanece. Quando você se sente sozinho, Ele está ao seu lado. Quando não há mais palavras, Ele entende o silêncio. Jesus é aquele que estende a mão quando você cai, que celebra suas vitórias e caminha pacientemente com você no processo de cura, crescimento e transformação.
+A verdadeira amizade se prova nas dificuldades, e foi na cruz que Jesus provou, de forma definitiva, o quanto Ele ama você. Ele não apenas morreu por você, Ele ressuscitou para estar com você todos os dias, até o fim dos tempos.
+Abra seu coração para essa amizade. Converse com Jesus como quem fala com o melhor amigo. Compartilhe suas alegrias, suas dúvidas, seus medos. Ele ouve, compreende e responde com graça e amor. Em Jesus, você nunca está só. Ele é o amigo que jamais falha, e que sempre estará com você, ontem, hoje e para sempre.
+Veja também: A história de Jesus.
  
 O amor incondicional de Deus - estudo bíblico
 Estudo bíblico sobre perdão: 6 lições importantes
 Versículos sobre a importância do arrependimento
 
  
-Como é feliz aquele cujo auxílio
-é o Deus de Jacó,
-cuja esperança está no Senhor, no seu Deus,
-que fez os céus e a terra,
-o mar e tudo o que neles há,
-e que mantém a sua fidelidade para sempre!
-Ele defende a causa dos oprimidos
-e dá alimento aos famintos.
-O Senhor liberta os presos,
-- Salmo 146:5-7
+Já vos não chamarei servos, porque o servo não sabe o que faz o seu senhor; mas tenho-vos chamado amigos, porque tudo quanto ouvi de meu Pai vos tenho feito conhecer.
+- João 15:15
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 254925 characters
-INFO:root:HTML parsed, length: 244411 characters
-INFO:root:Found 3 titles: ['Não lute sozinho', 'Deus quer revolucionar a sua vida', 'O Deus que tudo pode...']
-INFO:root:Found 2 URLs: ['/comunhao_com_os_irmaos/', '/transformacao/']
-INFO:root:Found 3 descriptions: ['É melhor ter companhia\ndo que estar sozinho,\nporqu', 'Aquele que estava assentado no trono disse: "Estou', '"Sei que podes fazer todas as coisas;\nnenhum dos t']
-INFO:root:Found 3 dates: ['MAIO\n\n28\nQUARTA', 'MAIO\n\n27\nTERÇA', 'MAIO\n\n26\nSEGUNDA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Não lute sozinho', ID=35363e28411867464c3a3b20df7a8f84
-INFO:root:Processing entry 2: Title='Deus quer revolucionar a sua vida', ID=8078669843bdcc0c1e1b9aa929ab100e
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 255442 characters
+INFO:root:HTML parsed, length: 244926 characters
+INFO:root:Found 3 titles: ['Você é herdeiro do Rei dos reis', 'Não lute sozinho', 'Deus quer revolucionar a sua vida']
+INFO:root:Found 3 URLs: ['/o_amor_incondicional_de_deus_estudo/', '/comunhao_com_os_irmaos/', '/transformacao/']
+INFO:root:Found 3 descriptions: ['O próprio Espírito testemunha ao nosso espírito qu', 'É melhor ter companhia\ndo que estar sozinho,\nporqu', 'Aquele que estava assentado no trono disse: "Estou']
+INFO:root:Found 3 dates: ['MAIO\n\n29\nQUINTA', 'MAIO\n\n28\nQUARTA', 'MAIO\n\n27\nTERÇA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Você é herdeiro do Rei dos reis', ID=6c33d4ed193502a1e269a838cb16771e
+INFO:root:Processing entry 2: Title='Não lute sozinho', ID=35363e28411867464c3a3b20df7a8f84
+INFO:root:Processing entry 3: Title='Deus quer revolucionar a sua vida', ID=8078669843bdcc0c1e1b9aa929ab100e
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Você é herdeiro do Rei dos reis
+INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
+INFO:root:🔹 Description: O próprio Espírito testemunha ao nosso espírito que somos filhos de Deus. Se somos filhos, então somos herdeiros; herdeiros de Deus e co-herdeiros com Cristo, se de fato participamos dos seus sofrimentos, para que também participemos da sua glória.
+- Romanos 8:16-17
+
+Você já parou para pensar no que significa ser herdeiro do Rei dos reis? Não estamos falando de uma herança terrena, feita de bens que se desgastam com o tempo. Estamos falando de uma herança eterna, incorruptível, reservada nos céus para aqueles que foram feitos filhos de Deus por meio de Jesus Cristo.
+Ao aceitar a Cristo como Senhor e Salvador, você não apenas recebeu o perdão dos seus pecados, mas também foi adotado na família real de Deus. Isso significa que sua identidade mudou: você agora é filho do Altíssimo, e como filho, é também herdeiro das promessas do Pai.
+Essa herança não se resume ao futuro. Hoje mesmo, você pode viver como herdeiro do Rei. Isso significa caminhar com autoridade espiritual, revestido de paz, amor e propósito. Significa não se deixar abater pelas circunstâncias, porque você sabe a quem pertence. O mundo pode tentar roubar sua identidade, mas a Palavra de Deus declara quem você é.
+Ser herdeiro do Rei também é um chamado à responsabilidade. Como representantes do Reino, somos chamados a viver com integridade, a amar como Cristo amou, e a proclamar as Boas Novas com ousadia.
+Lembre-se: você não é qualquer um. Você é herdeiro do Rei. Caminhe de cabeça erguida, confiante não em si mesmo, mas naquele que te escolheu, redimiu e te chamou de filho.
+Você é amado. Você é escolhido. Você é herdeiro. Viva como tal.
+Vivendo como herdeiro
+
+Lembre-se em oração e leitura da Palavra que você é filho de Deus. Isso fortalece sua fé e te protege das mentiras do inimigo.
+Como representante do Reino, tome decisões que honrem a Deus. Em cada atitude, reflita a justiça, o amor e a verdade do Rei a quem você pertence.
+
+Testemunhe com palavras e ações o que Cristo fez por você. Sua vida pode ser um canal para que outros conheçam sua identidade como herdeiros também.
+
+Para orar:
+
+Pai amado, obrigado por me tornar Teu filho e herdeiro por meio de Jesus. Ajuda-me a viver com fé, propósito e integridade. Que minha vida reflita Teu Reino e Teu amor. Fortalece-me a cada dia para honrar a herança que recebi em Cristo. Em nome de Jesus, amém.
+
+Veja também: Reflexão sobre o amor de Deus.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Não lute sozinho
 INFO:root:🔹 URL: https://www.bibliaon.com/comunhao_com_os_irmaos/
 INFO:root:🔹 Description: É melhor ter companhia
@@ -260,8 +278,8 @@ Veja também: Versículos sobre transformação
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 221556 characters
-INFO:root:HTML parsed, length: 220137 characters
+INFO:root:Response length: 222649 characters
+INFO:root:HTML parsed, length: 221230 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 19 URLs: ['/wiki/Jane_Cobden', '/wiki/Pol%C3%ADtico', '/wiki/Partido_Liberal_(Reino_Unido)']
 INFO:root:Found 1 descriptions: ['Emma Jane Catherine Cobden foi uma política libera']
@@ -289,44 +307,42 @@ Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 221556 characters
-INFO:root:HTML parsed, length: 220137 characters
-INFO:root:Found 1 titles: ['26 de maio na história']
-INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Mikola_II_(cropped)-2.jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Ge%C3%B3rgia']
-INFO:root:Found 1 descriptions: ['Nicolau II da Rússia\nDia da Independência da Geórg']
+INFO:root:Response length: 222649 characters
+INFO:root:HTML parsed, length: 221230 characters
+INFO:root:Found 1 titles: ['28 de maio na história']
+INFO:root:Found 44 URLs: ['/wiki/Ficheiro:Flag_of_Nepal.svg', '/wiki/1871', '/wiki/Comuna_de_Paris']
+INFO:root:Found 1 descriptions: ['Bandeira do Nepal\n1871 – Chega ao fim a Comuna de ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='26 de maio na história', ID=7b57122d32dc8df716a6f9bd010080d1
+INFO:root:Processing entry 1: Title='28 de maio na história', ID=0d1d5d0689352238ca83e7e26a3df65a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 26 de maio na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Mikola_II_(cropped)-2.jpg
-INFO:root:🔹 Description: Nicolau II da Rússia
-Dia da Independência da Geórgia (1918) e da Guiana (1966)
-
-1644 – Guerra da Restauração: forças portuguesas e espanholas reivindicam a vitória na Batalha de Montijo.
-1896 – Nicolau II (imagem) é coroado como o último imperador da Rússia.
-1991 – O voo Lauda Air 004 se desfaz no ar e cai no Parque Nacional Phu Toei, na província de Suphan Buri, Tailândia, matando todas as 223 pessoas a bordo.
+INFO:root:🔹 Title: 28 de maio na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Flag_of_Nepal.svg
+INFO:root:🔹 Description: Bandeira do Nepal
+1871 – Chega ao fim a Comuna de Paris, primeira experiência de uma revolução proletária, com 147 dos seus dirigentes fuzilados junto ao muro do Cemitério do Père-Lachaise.
+1926 – Golpe de Estado põe fim à Primeira República Portuguesa e abre caminho à implantação da ditadura militar.
+2008 – Instaura-se a República Democrática Federal do Nepal (bandeira), encerrando 240 anos de monarquia.
 Nasceram neste dia…
-Irmã Dulce (1914–1992)  •  Ruben A. (1920–1975)  •  Miles Davis (1926–1991)  •  Lenny Kravitz (n. 1964)
+Jorge I da Grã-Bretanha (1660–1727)  •  Cyro Monteiro (1913–1973)  •  György Ligeti (1923–2006)  •  Kylie Minogue  (n. 1968)
 Morreram neste dia…
-Georges Gilles de la Tourette (1857–1904)  •  Alberto Ascari (1918–1955)  •  Martin Heidegger (1889–1976)  •  Mamo Wolde (1932–2002)
+Afonso IV de Portugal (1291–1357)  •  Johannes Aal (c. 1500–1551)  •  Eduardo VIII do Reino Unido (1894–1972)  •  Alfredo Volpi (1896–1988)
 
 
-Ver mais • Outros dias: 24 • 25 • 26 • 27 • 28 • Ver todos
+Ver mais • Outros dias: 26 • 27 • 28 • 29 • 30 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 221556 characters
-INFO:root:HTML parsed, length: 220137 characters
+INFO:root:Response length: 222649 characters
+INFO:root:HTML parsed, length: 221230 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:SMP_May_2008-9a.jpg']
-INFO:root:Found 1 descriptions: ['Dois corredores passam por um túnel de pedestres e']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Parked_bicycle_with_graffitied_building_facade_and_doors_in_Amsterdam.jpg']
+INFO:root:Found 1 descriptions: ['Bicicleta estacionada entre duas portas em frente ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/SMP_May_2008-9a.jpg/500px-SMP_May_2008-9a.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Parked_bicycle_with_graffitied_building_facade_and_doors_in_Amsterdam.jpg/960px-Parked_bicycle_with_graffitied_building_facade_and_doors_in_Amsterdam.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -335,15 +351,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:SMP_May_2008-9a.jpg
-INFO:root:🔹 Description: Dois corredores passam por um túnel de pedestres em São Martinho do Porto, Portugal.
-(resolução original: 2 592 × 2 592)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Parked_bicycle_with_graffitied_building_facade_and_doors_in_Amsterdam.jpg
+INFO:root:🔹 Description: Bicicleta estacionada entre duas portas em frente à fachada grafitada de um edifício próximo ao canal Kloveniersburgwal em Amsterdã, capital dos Países Baixos.
+(resolução original: 5 181 × 3 911)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/SMP_May_2008-9a.jpg/500px-SMP_May_2008-9a.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Parked_bicycle_with_graffitied_building_facade_and_doors_in_Amsterdam.jpg/960px-Parked_bicycle_with_graffitied_building_facade_and_doors_in_Amsterdam.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -360,23 +376,27 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
  M feeds/wikidia/atom.xml
+ M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 +++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  31 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  26 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  29 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  20 +--
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  38 ++--
+ feeds/salmo_do_dia/atom.xml               |  32 ++--
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |  11 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 286 ++++++++++++++----------------
- 14 files changed, 254 insertions(+), 253 deletions(-)
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 289 +++++++++++++++---------------
+ 16 files changed, 259 insertions(+), 239 deletions(-)
