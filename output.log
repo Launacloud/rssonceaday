@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119833 characters
-INFO:root:HTML parsed, length: 112627 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (30/05/2025)', 'Palavra de Ontem (29/05/2025)', 'Palavra de Anteontem (28/05/2025)']
-INFO:root:Found 3 URLs: ['/genuino/', '/preterimento/', '/dissimulada/']
-INFO:root:Found 13 descriptions: ['adjetivo Que não sofreu alterações nem falsificaçõ', 'Sinônimos:\n\nsincero, autêntico, fidedigno, puro, r', 'Antônimos:\n\nfalso, incorreto, mentiroso, alterado,']
-INFO:root:Found 3 dates: ['Palavra de Hoje (30/05/2025)', 'Palavra de Ontem (29/05/2025)', 'Palavra de Anteontem (28/05/2025)']
+INFO:root:Response length: 119134 characters
+INFO:root:HTML parsed, length: 112111 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (31/05/2025)', 'Palavra de Ontem (30/05/2025)', 'Palavra de Anteontem (29/05/2025)']
+INFO:root:Found 3 URLs: ['/brandao/', '/genuino/', '/preterimento/']
+INFO:root:Found 13 descriptions: ['substantivo masculino Tocha de cera; círio grande;', 'Sinônimos:\n\narchote, facho, fogaréu, tocha, círio', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (31/05/2025)', 'Palavra de Ontem (30/05/2025)', 'Palavra de Anteontem (29/05/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (30/05/2025)', ID=640d0d2820c306ee7b22f9dad12305e3
-INFO:root:Processing entry 2: Title='Palavra de Ontem (29/05/2025)', ID=d993865640d760255078acb46e7e9e68
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/05/2025)', ID=c71deeb71006024e134c87d47fdd19aa
+INFO:root:Processing entry 1: Title='Palavra de Hoje (31/05/2025)', ID=e8da14604208bd4005d4012273407f83
+INFO:root:Processing entry 2: Title='Palavra de Ontem (30/05/2025)', ID=49cf79bf2310edf9d15220be7f99e856
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/05/2025)', ID=3961290d60326195855ba8aa5da06f13
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (30/05/2025) - Significado completo de genuíno:
-INFO:root:🔹 URL: https://www.dicio.com.br/genuino/
-INFO:root:🔹 Description: adjetivo Que não sofreu alterações nem falsificações; verdadeiro.Qualidade da pessoa sincera: expressou-se de modo genuíno.Cujo conteúdo não foi alterado; puro: composto genuíno.De sentido exato ou próprio; correto: significado genuíno.Característica do pensamento ou sentimento autêntico; real: intenção genuína.Etimologia (origem da palavra genuíno). A palavra genuíno tem sua origem no latim "genuinus,a,um", que significa autóctone, inerente, nativo; real, verdadeiro.
+INFO:root:🔹 Title: Palavra de Hoje (31/05/2025) - Significado completo de brandão:
+INFO:root:🔹 URL: https://www.dicio.com.br/brandao/
+INFO:root:🔹 Description: substantivo masculino Tocha de cera; círio grande; facho, archote.Etimologia (origem da palavra brandão). Do latim brando.
  
 Sinônimos:
 
-sincero, autêntico, fidedigno, puro, real, verdadeiro, verídico, estreme, inalterado, franco, leal, natural 
+archote, facho, fogaréu, tocha, círio 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (29/05/2025) - Significado completo de preterimento:
-INFO:root:🔹 URL: https://www.dicio.com.br/preterimento/
+INFO:root:🔹 Title: Palavra de Ontem (30/05/2025) - Significado completo de genuíno:
+INFO:root:🔹 URL: https://www.dicio.com.br/genuino/
 INFO:root:🔹 Description: Sinônimos:
 
-sincero, autêntico, fidedigno, puro, real, verdadeiro, verídico, estreme, inalterado, franco, leal, natural
- 
-Antônimos:
-
-falso, incorreto, mentiroso, alterado, adulterado, corrompido, ilegítimo, ilídimo, inverídico, inautêntico 
-
+archote, facho, fogaréu, tocha, círio
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (28/05/2025) - Significado completo de dissimulada:
-INFO:root:🔹 URL: https://www.dicio.com.br/dissimulada/
-INFO:root:🔹 Description: Antônimos:
-
-falso, incorreto, mentiroso, alterado, adulterado, corrompido, ilegítimo, ilídimo, inverídico, inautêntico
- Classe gramatical:adjetivo
+INFO:root:🔹 Title: Palavra de Anteontem (29/05/2025) - Significado completo de preterimento:
+INFO:root:🔹 URL: https://www.dicio.com.br/preterimento/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:bran-dão
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,141 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243322 characters
-INFO:root:HTML parsed, length: 232644 characters
-INFO:root:Found 1 titles: ['Tiago 1:5']
-INFO:root:Found 1 URLs: ['/versiculo/tiago_1_5/']
-INFO:root:Found 1 descriptions: ['Se algum de vocês tem falta de sabedoria, peça-a a']
+INFO:root:Response length: 243204 characters
+INFO:root:HTML parsed, length: 232526 characters
+INFO:root:Found 1 titles: ['Romanos 8:28']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_8_28/']
+INFO:root:Found 1 descriptions: ['Sabemos que Deus age em todas as coisas para o bem']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Tiago 1:5', ID=e7980644a3b3172f7b622ad036e6bcb1
+INFO:root:Processing entry 1: Title='Romanos 8:28', ID=cea7a8139552b5a86f3cb70127eb62f4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Tiago 1:5
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_1_5/
-INFO:root:🔹 Description: Se algum de vocês tem falta de sabedoria, peça-a a Deus, que a todos dá livremente, de boa vontade; e lhe será concedida. Tiago 1:5
+INFO:root:🔹 Title: Romanos 8:28
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_8_28/
+INFO:root:🔹 Description: Sabemos que Deus age em todas as coisas para o bem daqueles que o amam, dos que foram chamados de acordo com o seu propósito. Romanos 8:28
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 240836 characters
-INFO:root:HTML parsed, length: 230846 characters
-INFO:root:Found 3 titles: ['Salmo 117', 'Salmo 125', 'Salmo 123']
-INFO:root:Found 3 URLs: ['/salmos_117/', '/salmos_125/', '/salmos_123/']
-INFO:root:Found 3 descriptions: ['Louvem o Senhor, todas as nações;\nexaltem-no, todo', 'Os que confiam no Senhor\nsão como o monte Sião,\nqu', 'A ti levanto os meus olhos,\na ti, que ocupas o teu']
-INFO:root:Found 3 dates: ['30 de Maio de 2025', '29 de Maio de 2025', '28 de Maio de 2025']
+INFO:root:Response length: 244049 characters
+INFO:root:HTML parsed, length: 234108 characters
+INFO:root:Found 3 titles: ['Salmo 69', 'Salmo 117', 'Salmo 125']
+INFO:root:Found 3 URLs: ['/salmos_69/', '/salmos_117/', '/salmos_125/']
+INFO:root:Found 3 descriptions: ['Salva-me, ó Deus!,\npois as águas subiram até o meu', 'Louvem o Senhor, todas as nações;\nexaltem-no, todo', 'Os que confiam no Senhor\nsão como o monte Sião,\nqu']
+INFO:root:Found 3 dates: ['31 de Maio de 2025', '30 de Maio de 2025', '29 de Maio de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 117', ID=2038c5aa1c9616755f6ff70b5ed3373f
-INFO:root:Processing entry 2: Title=' Salmo 125', ID=4453eb37e34143ba230b77d444355962
-INFO:root:Processing entry 3: Title=' Salmo 123', ID=63e54db901337417465812697a20c2cb
+INFO:root:Processing entry 1: Title=' Salmo 69', ID=5195f6a86b128f1cf77ff0d1125e16c4
+INFO:root:Processing entry 2: Title=' Salmo 117', ID=2038c5aa1c9616755f6ff70b5ed3373f
+INFO:root:Processing entry 3: Title=' Salmo 125', ID=4453eb37e34143ba230b77d444355962
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 69
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_69/
+INFO:root:🔹 Description: Salva-me, ó Deus!,
+pois as águas subiram até o meu pescoço. 
+Nas profundezas lamacentas eu me afundo;
+não tenho onde firmar os pés.
+Entrei em águas profundas;
+as correntezas me arrastam. 
+Cansei-me de pedir socorro;
+minha garganta se abrasa.
+Meus olhos fraquejam
+de tanto esperar pelo meu Deus. 
+Os que sem razão me odeiam
+são mais do que os fios de cabelo
+da minha cabeça;
+muitos são os que me prejudicam sem motivo;
+muitos, os que procuram destruir-me.
+Sou forçado a devolver o que não roubei. 
+Tu bem sabes como fui insensato, ó Deus;
+a minha culpa não te é encoberta. 
+Não se decepcionem por minha causa
+aqueles que esperam em ti,
+ó Senhor, Senhor dos Exércitos!
+Não se frustrem por minha causa
+os que te buscam, ó Deus de Israel! 
+Pois por amor a ti suporto zombaria,
+e a vergonha cobre-me o rosto. 
+Sou um estrangeiro para os meus irmãos,
+um estranho até para os filhos da minha mãe; 
+pois o zelo pela tua casa me consome,
+e os insultos daqueles que te insultam
+caem sobre mim. 
+Até quando choro e jejuo,
+tenho que suportar zombaria; 
+quando ponho vestes de lamento,
+sou objeto de chacota. 
+Os que se ajuntam na praça falam de mim,
+e sou a canção dos bêbados. 
+Mas eu, Senhor, no tempo oportuno,
+elevo a ti minha oração;
+responde-me, por teu grande amor, ó Deus,
+com a tua salvação infalível! 
+Tira-me do atoleiro,
+não me deixes afundar;
+liberta-me dos que me odeiam
+e das águas profundas. 
+Não permitas que as correntezas me arrastem
+nem que as profundezas me engulam,
+nem que a cova feche sobre mim a sua boca! 
+Responde-me, Senhor,
+pela bondade do teu amor;
+por tua grande misericórdia, volta-te para mim. 
+Não escondas do teu servo a tua face;
+responde-me depressa, pois estou em perigo. 
+Aproxima-te e resgata-me;
+livra-me por causa dos meus inimigos. 
+Tu bem sabes como sofro zombaria,
+humilhação e vergonha;
+conheces todos os meus adversários. 
+A zombaria partiu-me o coração;
+estou em desespero!
+Supliquei por socorro, nada recebi;
+por consoladores, e a ninguém encontrei. 
+Puseram fel na minha comida
+e para matar-me a sede deram-me vinagre. 
+Que a mesa deles se lhes transforme em laço;
+torne-se retribuição e armadilha. 
+Que se lhe escureçam os olhos
+para que não consigam ver;
+faze-lhes tremer o corpo sem parar. 
+Despeja sobre eles a tua ira;
+que o teu furor ardente os alcance. 
+Fique deserto o lugar deles;
+não haja ninguém que habite nas suas tendas. 
+Pois perseguem aqueles que tu feres
+e comentam a dor daqueles a quem castigas. 
+Acrescenta-lhes pecado sobre pecado;
+não os deixes alcançar a tua justiça. 
+Sejam eles tirados do livro da vida
+e não sejam incluídos no rol dos justos. 
+Grande é a minha aflição e a minha dor!
+Proteja-me, ó Deus, a tua salvação! 
+Louvarei o nome de Deus com cânticos
+e proclamarei sua grandeza
+com ações de graças; 
+isso agradará o Senhor mais do que bois,
+mais do que touros com seus chifres e cascos. 
+Os necessitados o verão e se alegrarão;
+a vocês que buscam a Deus,
+vida ao seu coração! 
+O Senhor ouve o pobre
+e não despreza o seu povo aprisionado. 
+Louvem-no os céus e a terra,
+os mares e tudo o que neles se move, 
+pois Deus salvará Sião
+e reconstruirá as cidades de Judá.
+Então o povo ali viverá e tomará posse da terra; 
+a descendência dos seus servos a herdará,
+e nela habitarão os que amam o seu nome. 
+ Salmo 69
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 117
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_117/
 INFO:root:🔹 Description: Louvem o Senhor, todas as nações;
@@ -113,85 +208,89 @@ o Senhor infligirá o castigo dado aos malfeitores.
 Haja paz em Israel! 
  Salmo 125
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 123
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_123/
-INFO:root:🔹 Description: A ti levanto os meus olhos,
-a ti, que ocupas o teu trono nos céus. 
-Assim como os olhos dos servos
-estão atentos à mão de seu senhor
-e como os olhos das servas
-estão atentos à mão de sua senhora,
-também os nossos olhos
-estão atentos ao Senhor,
-ao nosso Deus,
-esperando que ele tenha misericórdia de nós. 
-Misericórdia, Senhor!
-Tem misericórdia de nós!
-Já estamos cansados de tanto desprezo. 
-Estamos cansados de tanta zombaria
-dos orgulhosos
-e do desprezo dos arrogantes. 
- Salmo 123
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245386 characters
-INFO:root:HTML parsed, length: 235091 characters
-INFO:root:Found 3 titles: ['Jesus, fonte de água viva', 'Jesus é o seu melhor amigo', 'Deus te quer bem!']
+INFO:root:Response length: 245540 characters
+INFO:root:HTML parsed, length: 235255 characters
+INFO:root:Found 3 titles: ['Deus pode transformar seu lamento em dança', 'Jesus, fonte de água viva', 'Jesus é o seu melhor amigo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['No último e mais importante dia da festa, Jesus le', 'Já vos não chamarei servos, porque o servo não sab', 'Não se deixe enganar, a Palavra de Deus é verdadei']
-INFO:root:Found 1 dates: ['Sexta, 30 de maio de 2025']
+INFO:root:Found 3 descriptions: ['Mudaste o meu pranto em dança,\na minha veste de la', 'No último e mais importante dia da festa, Jesus le', 'Já vos não chamarei servos, porque o servo não sab']
+INFO:root:Found 1 dates: ['Sábado, 31 de maio de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jesus, fonte de água viva', ID=5e3edf18fcfce32cd2fc44eb80890466
+INFO:root:Processing entry 1: Title='Deus pode transformar seu lamento em dança', ID=9214317d0ef6dfa006dd1a50a5def922
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jesus, fonte de água viva - Palavra de Hoje
+INFO:root:🔹 Title: Deus pode transformar seu lamento em dança - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: No último e mais importante dia da festa, Jesus levantou-se e disse em alta voz: "Se alguém tem sede, venha a mim e beba. Quem crer em mim, como diz a Escritura, do seu interior fluirão rios de água viva". Ele estava se referindo ao Espírito, que mais tarde receberiam os que nele cressem. Até então o Espírito ainda não tinha sido dado, pois Jesus ainda não fora glorificado.
-- João 7:37-39
+INFO:root:🔹 Description: Mudaste o meu pranto em dança,
+a minha veste de lamento em veste de alegria,
+para que o meu coração
+cante louvores a ti e não se cale.
+Senhor, meu Deus,
+eu te darei graças para sempre.
+- Salmo 30:11-12
 
-Sentir uma sede física intensa é bastante desagradável. Seu corpo lhe diz que precisa de água: sua boca fica seca, sua língua parece grudar no céu da boca e tudo o que você consegue pensar é em beber até se sentir satisfeito.
-Da mesma forma, a sede espiritual revela nossa profunda necessidade de Deus. Podemos tentar saciar essa sede com conhecimento, relacionamentos, conquistas ou distrações, mas somente Jesus pode satisfazer plenamente o anseio intenso que surge da alma. Ele é a verdadeira fonte. Somente nEle encontramos a água viva que flui das profundezas do nosso ser.
-O Espírito Santo vem habitar em nós quando recebemos Jesus como Senhor e Salvador de nossas vidas. Ele não somente sacia nossa sede, mas também transforma nosso ser interior em uma fonte renovada de vida. É uma transformação que renova, fortalece e guia.
-O convite de Jesus continua relevante hoje: "Se alguém tem sede, venha a mim e beba". Não importa quão longe você tenha estado ou quão seco você se sinta por dentro. Sua graça está disponível. Ele não lhe oferece apenas um gole, mas rios de água viva, inesgotáveis e refrescantes.
-Você está com sede? Venha a Jesus. Ele é a única fonte de água que nunca seca.
-
-O Espírito e a noiva dizem: "Vem!" E todo aquele que ouvir diga: "Vem!" Quem tiver sede venha; e quem quiser beba de graça da água da vida.
-- Apocalipse 22:17
-
-Veja também: Frases inspiradoras de Jesus Cristo.
+Muitas situações podem nos causar tristeza, sofrimento e dor. Talvez surja um problema de saúde ou uma dificuldade financeira. Ou talvez alguém que amamos esteja com dificuldades e nos sintamos impotentes, sem saber como ajudar. Na vida, enfrentamos muitos momentos difíceis, mas Deus reina sobre tudo e, em um instante, pode mudar as situações e restaurar nossa alegria.
+Davi expressou esse sentimento no Salmo 30. Ele viu como Deus interveio para que os inimigos de Davi não conseguissem o que queriam. Além disso, em um momento de doença e à beira da morte, ele clamou a Deus e Deus o curou. Como ele poderia não querer dançar, cantar e adorar a Deus? Ele sentiu tanta alegria que não conseguia ficar em silêncio!
+Deus faz o mesmo conosco. Embora permita momentos de dificuldade como parte da vida, Ele permanece ao nosso lado e opera de maneiras maravilhosas, lembrando-nos de que Ele está presente e no controle. Embora às vezes pareça que Deus está demorando muito, a realidade é que Ele está sempre lá, nos acompanhando durante todo o processo, e Seu tempo é sempre o melhor.
+Lembre-se de que o Deus Todo-Poderoso, o mesmo que transformou o lamento de Davi em dança, pode transformar qualquer dificuldade e tristeza em um momento de alegria e renovação. Não importa quão sombria e difícil seja a sua situação, a luz do Senhor dissipará as sombras. Eleve sua voz com gratidão hoje. Acredite em Seu poder e experimente como Ele renova seu espírito, dando-lhe novos motivos para pular, dançar e agradecer a Ele para sempre.
+Veja também: A verdadeira alegria vem do Senhor
  
-O amor incondicional de Deus - estudo bíblico
-Estudo bíblico sobre perdão: 6 lições importantes
-Versículos sobre a importância do arrependimento
-
- 
-No último e mais importante dia da festa, Jesus levantou-se e disse em alta voz: "Se alguém tem sede, venha a mim e beba. Quem crer em mim, como diz a Escritura, do seu interior fluirão rios de água viva". Ele estava se referindo ao Espírito, que mais tarde receberiam os que nele cressem. Até então o Espírito ainda não tinha sido dado, pois Jesus ainda não fora glorificado.
-- João 7:37-39
+Mudaste o meu pranto em dança,
+a minha veste de lamento em veste de alegria,
+para que o meu coração
+cante louvores a ti e não se cale.
+Senhor, meu Deus,
+eu te darei graças para sempre.
+- Salmo 30:11-12
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255523 characters
-INFO:root:HTML parsed, length: 245006 characters
-INFO:root:Found 3 titles: ['Vivendo a boa, perfeita e agradável vontade de Deus', 'Você é herdeiro do Rei dos reis', 'Não lute sozinho']
-INFO:root:Found 3 URLs: ['/versiculos_para_tomar_decisoes/', '/o_amor_incondicional_de_deus_estudo/', '/comunhao_com_os_irmaos/']
-INFO:root:Found 3 descriptions: ['Não se amoldem ao padrão deste mundo, mas transfor', 'O próprio Espírito testemunha ao nosso espírito qu', 'É melhor ter companhia\ndo que estar sozinho,\nporqu']
-INFO:root:Found 3 dates: ['MAIO\n\n30\nSEXTA', 'MAIO\n\n29\nQUINTA', 'MAIO\n\n28\nQUARTA']
+INFO:root:Response length: 255292 characters
+INFO:root:HTML parsed, length: 244763 characters
+INFO:root:Found 3 titles: ['Devocional: Deus é tudo que a gente precisa', 'Vivendo a boa, perfeita e agradável vontade de Deus', 'Você é herdeiro do Rei dos reis']
+INFO:root:Found 4 URLs: ['/mensagens_de_deus/', '/voce_e_importante_para_deus/', '/versiculos_para_tomar_decisoes/']
+INFO:root:Found 3 descriptions: ['Em meio às tribulações e desafios da vida, muitas ', 'Não se amoldem ao padrão deste mundo, mas transfor', 'O próprio Espírito testemunha ao nosso espírito qu']
+INFO:root:Found 3 dates: ['MAIO\n\n31\nSÁBADO', 'MAIO\n\n30\nSEXTA', 'MAIO\n\n29\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Vivendo a boa, perfeita e agradável vontade de Deus', ID=7e0536952ec555ba6a08c271053edf45
-INFO:root:Processing entry 2: Title='Você é herdeiro do Rei dos reis', ID=6c33d4ed193502a1e269a838cb16771e
-INFO:root:Processing entry 3: Title='Não lute sozinho', ID=35363e28411867464c3a3b20df7a8f84
+INFO:root:Processing entry 1: Title='Devocional: Deus é tudo que a gente precisa', ID=144f82047b062123773018add86696f9
+INFO:root:Processing entry 2: Title='Vivendo a boa, perfeita e agradável vontade de Deus', ID=7e0536952ec555ba6a08c271053edf45
+INFO:root:Processing entry 3: Title='Você é herdeiro do Rei dos reis', ID=6c33d4ed193502a1e269a838cb16771e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Devocional: Deus é tudo que a gente precisa
+INFO:root:🔹 URL: https://www.bibliaon.com/mensagens_de_deus/
+INFO:root:🔹 Description: Em meio às tribulações e desafios da vida, muitas vezes nos encontramos perdidos, buscando respostas e conforto para nossas almas inquietas. É nesses momentos que podemos encontrar refúgio na certeza de que Deus é tudo o que a gente precisa.
+Deus é a fonte inesgotável de amor, graça e misericórdia. Ele nos criou à Sua imagem e semelhança, e o vazio em nossos corações só pode ser preenchido por Ele. Quando nos aproximamos Dele com humildade e fé, encontramos paz e alegria que transcendem qualquer circunstância.
+Nas Escrituras, encontramos inúmeras promessas que confirmam a suficiência de Deus em nossas vidas. Em Filipenses 4:19, lemos: "O meu Deus suprirá todas as vossas necessidades segundo as suas riquezas na glória em Cristo Jesus." Essa promessa nos assegura que Deus cuidará de nós em todas as áreas de nossa vida, desde as necessidades físicas até as espirituais.
+Quando enfrentamos dificuldades, podemos confiar que Deus é nosso refúgio e fortaleza, um socorro bem presente na angústia (Salmo 46:1). Ele é o nosso consolador nos momentos de tristeza, nosso guia nas encruzilhadas da vida e nossa força quando nos sentimos fracos.
+Deus é tudo o que a gente precisa, pois Ele nos ama incondicionalmente e nos oferece a salvação através de Jesus Cristo. Ao entregarmos nossas vidas a Ele, encontramos significado, esperança e a promessa de uma eternidade ao Seu lado.
+Não importa o que esteja acontecendo em nossas vidas, podemos ter confiança de que Deus é suficiente para nos sustentar. Ele é nosso refúgio, nossa fortaleza e nossa fonte inesgotável de amor. Em Deus, encontramos tudo o que precisamos para viver uma vida plena e abundante. 
+Deus é suficiente! 
+
+Deus é suficiente ao nos orientar por meio de Sua Palavra, ajudando-nos a tomar decisões sábias e alinhadas com Seus princípios. 
+Sua presença nos consola e fortalece, proporcionando paz em meio às adversidades que enfrentamos. 
+Deus é suficiente ao nos revelar nosso propósito na vida e oferecer a esperança da salvação eterna por meio de Jesus Cristo. 
+
+Para Orar: 
+
+Obrigado Deus, por suficiente na minha vida. Tu és tudo para mim e todas as coisas provêm de Ti. Muito obrigado pela tua presença e pelo teu amor. Amém. 
+
+Veja também: 
+
+Mensagens de Deus para mim
+
+Versículos que mostram como você é especial para Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Vivendo a boa, perfeita e agradável vontade de Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_tomar_decisoes/
+INFO:root:🔹 URL: https://www.bibliaon.com/voce_e_importante_para_deus/
 INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
 - Romanos 12:2
 
@@ -217,7 +316,7 @@ Senhor, renova minha mente e coração. Ajuda-me a não me conformar com este mu
 Veja também: Versículos para tomar decisões segundo a vontade de Deus.
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Você é herdeiro do Rei dos reis
-INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_tomar_decisoes/
 INFO:root:🔹 Description: O próprio Espírito testemunha ao nosso espírito que somos filhos de Deus. Se somos filhos, então somos herdeiros; herdeiros de Deus e co-herdeiros com Cristo, se de fato participamos dos seus sofrimentos, para que também participemos da sua glória.
 - Romanos 8:16-17
 
@@ -240,46 +339,13 @@ Pai amado, obrigado por me tornar Teu filho e herdeiro por meio de Jesus. Ajuda-
 
 Veja também: Reflexão sobre o amor de Deus.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Não lute sozinho
-INFO:root:🔹 URL: https://www.bibliaon.com/comunhao_com_os_irmaos/
-INFO:root:🔹 Description: É melhor ter companhia
-do que estar sozinho,
-porque maior é
-a recompensa do trabalho
-de duas pessoas.
-Se um cair,
-o amigo pode ajudá-lo a levantar-se.
-Mas pobre do homem que cai
-e não tem quem o ajude a levantar-se!
-- Eclesiastes 4:9-10 
-
-Desde o início, Deus olhou para o homem e disse: “Não é bom que o homem esteja só” (Gênesis 2:18). Ele nos criou para vivermos em comunhão, para sermos apoio uns dos outros nas lutas e nas alegrias da vida. Ainda assim, quantas vezes tentamos carregar fardos pesados sozinhos, acreditando que pedir ajuda é sinal de fraqueza?
-Não é. Na verdade, é um ato de coragem e humildade reconhecer que precisamos de outros. O inimigo quer nos isolar, porque sabe que um soldado sozinho é mais fácil de derrotar. Mas juntos, somos como corda de três dobras que não se rompe com facilidade (Eclesiastes 4:12).
-Quando enfrentamos batalhas, sejam elas emocionais, espirituais ou físicas, é essencial buscarmos apoio: de amigos, da família, da igreja e principalmente de Deus. Jesus, mesmo sendo o Filho de Deus, chamou três discípulos para vigiar com Ele no Getsêmani. Isso mostra que até mesmo o Salvador do mundo valorizava a presença de amigos em momentos de angústia.
-Não lute sozinho. Compartilhe suas cargas. Ore com alguém. Abra o coração. Deus usa pessoas para nos levantar, consolar e fortalecer. Há graça na comunhão, cura nas palavras ditas em amor e poder na oração feita em unidade.
-Se hoje você se sente só, lembre-se: você faz parte de um corpo. E o Cabeça desse corpo é Cristo, que nunca te abandona. Há pessoas que Deus já preparou para estar ao seu lado. Levante os olhos, abra o coração, e permita-se ser ajudado. Você não está só. E nunca estará. 
-A força da comunhão em tempos de luta 
-
-
-Não fomos criados para o isolamento: Caminhar sozinho enfraquece a fé, mas a comunhão nos renova, encoraja e nos lembra de que não estamos abandonados.
-
-Compartilhar é sinal de coragem, não fraqueza: Deus age por meio das pessoas para trazer consolo, direção e apoio em nossas batalhas.
-
-A vitória é mais certa quando estamos unidos: Quando caminhamos juntos, há força, oração compartilhada e suporte mútuo. A união torna o fardo mais leve e nos aproxima do propósito de Deus em nossas vidas.
-
-Para orar: 
-
-Senhor, ajuda-me a reconhecer que não preciso lutar sozinho. Fortalece meu coração para buscar ajuda e viver em comunhão. Coloca pessoas de fé ao meu lado e usa-me também para ser apoio. Que Tua presença seja meu sustento em todo tempo. Em nome de Jesus, amém.
-
-Veja também: Versículos sobre a comunhão com os irmãos
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225376 characters
-INFO:root:HTML parsed, length: 223897 characters
+INFO:root:Response length: 224539 characters
+INFO:root:HTML parsed, length: 223120 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 19 URLs: ['/wiki/Jane_Cobden', '/wiki/Pol%C3%ADtico', '/wiki/Partido_Liberal_(Reino_Unido)']
-INFO:root:Found 1 descriptions: ['Emma Jane Catherine Cobden foi uma política libera']
+INFO:root:Found 26 URLs: ['/wiki/Jaur%C3%A9guiberry_(coura%C3%A7ado)', '/wiki/Jaur%C3%A9guiberry_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
+INFO:root:Found 1 descriptions: ['O Jauréguiberry foi um couraçado pré-dreadnought o']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -289,9 +355,9 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Jane_Cobden
-INFO:root:🔹 Description: Emma Jane Catherine Cobden foi uma política liberal britânica atuante em pautas radicais. Filha do reformador e estadista vitoriano Richard Cobden, foi uma das primeiras defensoras dos direitos das mulheres e, em 1889, esteve entre as duas mulheres eleitas para o primeiro Conselho do Condado de Londres. Sua eleição foi controversa; contestações judiciais à sua elegibilidade dificultaram e, por fim, a impediram de ocupar o cargo como vereadora.
-Desde a juventude, junto com suas irmãs, procurou proteger e desenvolver o legado de seu pai. Ela permaneceu comprometida ao longo de sua vida com as questões "Cobdenitas" de reforma agrária, paz e justiça social, além de ser uma defensora consistente da independência da Irlanda pela Grã-Bretanha. (Leia mais...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Jaur%C3%A9guiberry_(coura%C3%A7ado)
+INFO:root:🔹 Description: O Jauréguiberry foi um couraçado pré-dreadnought operado pela Marinha Nacional Francesa de 1897 a 1919. Sua construção começou em abril de 1891 na Forges et Chantiers de la Méditerranée e foi lançado ao mar em outubro de 1893. Ele era membro de um grupo de cinco navios semelhantes entre si, ao lado do Charles Martel, Carnot, Masséna e Bouvet. O Jauréguiberry era armado com uma bateria principal de dois canhões de 305 milímetros montados em duas torres de artilharia únicas e dois canhões de 274 milímetros também em duas torres únicas, tinha um deslocamento de mais de doze mil toneladas e conseguia alcançar uma velocidade máxima de dezessete nós.
+Sua carreira foi relativamente tranquila em tempos de paz, com a maior parte de seu serviço em atividades de treinamento no Mar Mediterrâneo. Sofreu alguns pequenos acidentes, incluindo quatro explosões de torpedos ar comprimido. Ele juntou-se à Esquadra Internacional que interveio em 1897 e 1898 na revolta grega em Creta contra o domínio do Império Otomano, durante a Guerra Greco-Turca de 1897. Em 1907 foi designado para a Divisão de Reserva, mas continuou a participar de manobras navais. (Leia mais...)
 
 
 
@@ -304,44 +370,42 @@ Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225376 characters
-INFO:root:HTML parsed, length: 223897 characters
-INFO:root:Found 1 titles: ['29 de maio na história']
-INFO:root:Found 53 URLs: ['/wiki/Dia_Internacional_dos_Capacetes_Azuis', '/wiki/1453', '/wiki/Sult%C3%A3o']
-INFO:root:Found 1 descriptions: ['Eclipse solar de 29 de maio de 1919\nDia Internacio']
+INFO:root:Response length: 224539 characters
+INFO:root:HTML parsed, length: 223120 characters
+INFO:root:Found 1 titles: ['30 de maio na história']
+INFO:root:Found 42 URLs: ['/wiki/Ficheiro:Joan_of_arc_burning_at_stake.jpg', '/wiki/1381', '/wiki/Revolta_dos_camponeses_na_Inglaterra_em_1381']
+INFO:root:Found 1 descriptions: ["Joana d'Arc\n1381 – Tem início a revolta dos campon"]
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='29 de maio na história', ID=4d60b84e4c7133ea95e827668d8fe87c
+INFO:root:Processing entry 1: Title='30 de maio na história', ID=feed5eb6f8b4c5b6b4f008d86d02bef0
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 29 de maio na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Dia_Internacional_dos_Capacetes_Azuis
-INFO:root:🔹 Description: Eclipse solar de 29 de maio de 1919
-Dia Internacional das Forças de Manutenção da Paz das Nações Unidas (2003)
-
-1453 – O sultão otomano Maomé II conquista Constantinopla depois de um cerco de seis semanas, pondo fim ao Império Bizantino e à Idade Média.
-1919 – Expedições científicas para coletar dados de um eclipse solar (vídeo) na Ilha do Príncipe, São Tomé e Príncipe, e em Sobral, Brasil, confirmam resultados da relatividade geral pela primeira vez.
-1985 – Trinta e nove torcedores morrem e centenas ficam feridos após a queda de um muro de contenção no Estádio de Heysel, em Bruxelas.
+INFO:root:🔹 Title: 30 de maio na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Joan_of_arc_burning_at_stake.jpg
+INFO:root:🔹 Description: Joana d'Arc
+1381 – Tem início a revolta dos camponeses na Inglaterra.
+1431 – Joana d'Arc é queimada na fogueira (pintura) aos 19 anos por bruxaria.
+2008 – É adotada em Dublin a Convenção sobre Munições de Dispersão.
 Nasceram neste dia…
-Adolfo Caminha (1867–1897)  •  Bob Hope (1903–2003)  •  John Harsanyi (1920–2000)  •  Noel Gallagher (n. 1967)
+Mikhail Bakunin (1814–1876)  •  Peter Carl Fabergé (1846–1920)  •  Irving Thalberg (1899–1936)  •  Marie Fredriksson (1958–2019)
 Morreram neste dia…
-Bartolomeu Dias (c. 1450–1500)  •  Juan Ramón Jiménez (1881–1958)  •  Romy Schneider (1938–1982)  •  João do Pulo (1954–1999)
+Alexander Pope (1688–1744)  •  Voltaire (1694–1778)  •  Rafael Trujillo (1891–1961)  •  Mário Lago (1911–2002)
 
 
-Ver mais • Outros dias: 27 • 28 • 29 • 30 • 31 • Ver todos
+Ver mais • Outros dias: 28 • 29 • 30 • 31 • 1 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225376 characters
-INFO:root:HTML parsed, length: 223897 characters
+INFO:root:Response length: 224539 characters
+INFO:root:HTML parsed, length: 223120 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Hiroshige_II_-_Kishu_kumano_iwatake_tori_-_Shokoku_meisho_hyakkei.jpg']
-INFO:root:Found 1 descriptions: ['Kishū Kumano iwatake tori é uma xilogravura em est']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:La_Rochelle_-_Vitrail_02.jpg']
+INFO:root:Found 1 descriptions: ['Vitral (1880) da catedral de São Luís em La Rochel']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Hiroshige_II_-_Kishu_kumano_iwatake_tori_-_Shokoku_meisho_hyakkei.jpg/500px-Hiroshige_II_-_Kishu_kumano_iwatake_tori_-_Shokoku_meisho_hyakkei.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/La_Rochelle_-_Vitrail_02.jpg/500px-La_Rochelle_-_Vitrail_02.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -350,15 +414,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Hiroshige_II_-_Kishu_kumano_iwatake_tori_-_Shokoku_meisho_hyakkei.jpg
-INFO:root:🔹 Description: Kishū Kumano iwatake tori é uma xilogravura em estilo ukiyo-e, feita em 1860 pelo pintor e gravador japonês Hiroshige II, mostrando a colheita de cogumelos iwatake (Umbilicaria esculenta) em Kumano, então no domínio de Kii (Kishū).
-(resolução original: 5 084 × 5 084)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:La_Rochelle_-_Vitrail_02.jpg
+INFO:root:🔹 Description: Vitral (1880) da catedral de São Luís em La Rochelle, representando Joana D'Arc, santa padroeira da França. O dia 30 de maio é o dia da festa da santa, em memória de sua morte na fogueira em Ruão, em 1431.
+(resolução original: 3 975 × 3 975)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Hiroshige_II_-_Kishu_kumano_iwatake_tori_-_Shokoku_meisho_hyakkei.jpg/500px-Hiroshige_II_-_Kishu_kumano_iwatake_tori_-_Shokoku_meisho_hyakkei.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/La_Rochelle_-_Vitrail_02.jpg/500px-La_Rochelle_-_Vitrail_02.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -374,6 +438,7 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -382,20 +447,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 ++--
+ feeds/devocional_de_hoje/feed.json        |  16 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  38 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  20 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  29 +--
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 119 +++++++--
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/atom.xml               |   6 +-
+ feeds/wikidestaque/feed.json              |   4 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 292 ++++++++++++++----------------
- 16 files changed, 247 insertions(+), 266 deletions(-)
+ output.log                                | 420 +++++++++++++++++-------------
+ 17 files changed, 438 insertions(+), 326 deletions(-)
