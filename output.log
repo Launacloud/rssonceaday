@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119134 characters
-INFO:root:HTML parsed, length: 112111 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (31/05/2025)', 'Palavra de Ontem (30/05/2025)', 'Palavra de Anteontem (29/05/2025)']
-INFO:root:Found 3 URLs: ['/brandao/', '/genuino/', '/preterimento/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Tocha de cera; círio grande;', 'Sinônimos:\n\narchote, facho, fogaréu, tocha, círio', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (31/05/2025)', 'Palavra de Ontem (30/05/2025)', 'Palavra de Anteontem (29/05/2025)']
+INFO:root:Response length: 119968 characters
+INFO:root:HTML parsed, length: 112943 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (01/06/2025)', 'Palavra de Ontem (31/05/2025)', 'Palavra de Anteontem (30/05/2025)']
+INFO:root:Found 3 URLs: ['/talar/', '/brandao/', '/genuino/']
+INFO:root:Found 14 descriptions: ['adjetivo Relativo ao talão; que desce até os calca', 'Sinônimos:\n\ndestruir, arruinar, arrasar, assolar, ', 'Classe gramatical:adjetivo de dois gêneros, substa']
+INFO:root:Found 3 dates: ['Palavra de Hoje (01/06/2025)', 'Palavra de Ontem (31/05/2025)', 'Palavra de Anteontem (30/05/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (31/05/2025)', ID=e8da14604208bd4005d4012273407f83
-INFO:root:Processing entry 2: Title='Palavra de Ontem (30/05/2025)', ID=49cf79bf2310edf9d15220be7f99e856
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/05/2025)', ID=3961290d60326195855ba8aa5da06f13
+INFO:root:Processing entry 1: Title='Palavra de Hoje (01/06/2025)', ID=925e53a84ec291170eecee2b47ce3ef0
+INFO:root:Processing entry 2: Title='Palavra de Ontem (31/05/2025)', ID=b008447e88f30866e60c88e3382c25b9
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/05/2025)', ID=0c52cc10ad68a2cad65e2069db7f0c0d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (31/05/2025) - Significado completo de brandão:
-INFO:root:🔹 URL: https://www.dicio.com.br/brandao/
-INFO:root:🔹 Description: substantivo masculino Tocha de cera; círio grande; facho, archote.Etimologia (origem da palavra brandão). Do latim brando.
+INFO:root:🔹 Title: Palavra de Hoje (01/06/2025) - Significado completo de talar:
+INFO:root:🔹 URL: https://www.dicio.com.br/talar/
+INFO:root:🔹 Description: adjetivo Relativo ao talão; que desce até os calcanhares: hábitos talares.substantivo masculino plural Segundo a mitologia, as asas que Mercúrio tinha nos pés.Etimologia (origem da palavra talar). Do latim talaris.substantivo masculino Roupa típica usada por eclesiásticos em cerimônias; bata, batina talar.Etimologia (origem da palavra talar). Do latim talaris, e.verbo transitivo direto Cavar sulcos, fazer fendas, num terreno, campo, área; sulcar: talar um campo.Levar ao chão; derrubar, abater: o avião talou o prédio ao se chocar com ele.Arruinar por completo; destruir: a tempestade talou regiões inteiras.Etimologia (origem da palavra talar). Pelo espanhol talar.
  
 Sinônimos:
 
-archote, facho, fogaréu, tocha, círio 
+destruir, arruinar, arrasar, assolar, devastar, fender, sulcar, rasgar, bata 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (30/05/2025) - Significado completo de genuíno:
-INFO:root:🔹 URL: https://www.dicio.com.br/genuino/
+INFO:root:🔹 Title: Palavra de Ontem (31/05/2025) - Significado completo de brandão:
+INFO:root:🔹 URL: https://www.dicio.com.br/brandao/
 INFO:root:🔹 Description: Sinônimos:
 
-archote, facho, fogaréu, tocha, círio
- Classe gramatical:substantivo masculino
+destruir, arruinar, arrasar, assolar, devastar, fender, sulcar, rasgar, bata
+ Classe gramatical:adjetivo de dois gêneros, substantivo masculino e verbo transitivo direto
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (29/05/2025) - Significado completo de preterimento:
-INFO:root:🔹 URL: https://www.dicio.com.br/preterimento/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:bran-dão
+INFO:root:🔹 Title: Palavra de Anteontem (30/05/2025) - Significado completo de genuíno:
+INFO:root:🔹 URL: https://www.dicio.com.br/genuino/
+INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros, substantivo masculino e verbo transitivo direto
+ Sílabas:ta-lar
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,63 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243204 characters
-INFO:root:HTML parsed, length: 232526 characters
-INFO:root:Found 1 titles: ['Romanos 8:28']
-INFO:root:Found 1 URLs: ['/versiculo/romanos_8_28/']
-INFO:root:Found 1 descriptions: ['Sabemos que Deus age em todas as coisas para o bem']
+INFO:root:Response length: 243220 characters
+INFO:root:HTML parsed, length: 232542 characters
+INFO:root:Found 1 titles: ['Filipenses 2:3']
+INFO:root:Found 1 URLs: ['/versiculo/filipenses_2_3/']
+INFO:root:Found 1 descriptions: ['Nada façam por ambição egoísta ou por vaidade, mas']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Romanos 8:28', ID=cea7a8139552b5a86f3cb70127eb62f4
+INFO:root:Processing entry 1: Title='Filipenses 2:3', ID=a0c202e598f7782b038a6f758147963e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Romanos 8:28
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_8_28/
-INFO:root:🔹 Description: Sabemos que Deus age em todas as coisas para o bem daqueles que o amam, dos que foram chamados de acordo com o seu propósito. Romanos 8:28
+INFO:root:🔹 Title: Filipenses 2:3
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_2_3/
+INFO:root:🔹 Description: Nada façam por ambição egoísta ou por vaidade, mas humildemente considerem os outros superiores a vocês mesmos. Filipenses 2:3
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 244049 characters
-INFO:root:HTML parsed, length: 234108 characters
-INFO:root:Found 3 titles: ['Salmo 69', 'Salmo 117', 'Salmo 125']
-INFO:root:Found 3 URLs: ['/salmos_69/', '/salmos_117/', '/salmos_125/']
-INFO:root:Found 3 descriptions: ['Salva-me, ó Deus!,\npois as águas subiram até o meu', 'Louvem o Senhor, todas as nações;\nexaltem-no, todo', 'Os que confiam no Senhor\nsão como o monte Sião,\nqu']
-INFO:root:Found 3 dates: ['31 de Maio de 2025', '30 de Maio de 2025', '29 de Maio de 2025']
+INFO:root:Response length: 244186 characters
+INFO:root:HTML parsed, length: 234243 characters
+INFO:root:Found 3 titles: ['Salmo 82', 'Salmo 69', 'Salmo 117']
+INFO:root:Found 3 URLs: ['/salmos_82/', '/salmos_69/', '/salmos_117/']
+INFO:root:Found 3 descriptions: ['É Deus quem preside a assembleia divina;\nno meio d', 'Salva-me, ó Deus!,\npois as águas subiram até o meu', 'Louvem o Senhor, todas as nações;\nexaltem-no, todo']
+INFO:root:Found 3 dates: ['1 de Junho de 2025', '31 de Maio de 2025', '30 de Maio de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 69', ID=5195f6a86b128f1cf77ff0d1125e16c4
-INFO:root:Processing entry 2: Title=' Salmo 117', ID=2038c5aa1c9616755f6ff70b5ed3373f
-INFO:root:Processing entry 3: Title=' Salmo 125', ID=4453eb37e34143ba230b77d444355962
+INFO:root:Processing entry 1: Title=' Salmo 82', ID=b08571775c4d91acb25aaf79665479aa
+INFO:root:Processing entry 2: Title=' Salmo 69', ID=5195f6a86b128f1cf77ff0d1125e16c4
+INFO:root:Processing entry 3: Title=' Salmo 117', ID=2038c5aa1c9616755f6ff70b5ed3373f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 82
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_82/
+INFO:root:🔹 Description: É Deus quem preside a assembleia divina;
+no meio dos deuses, ele é o juiz. 
+"Até quando vocês vão absolver os culpados
+e favorecer os ímpios? 
+"Garantam justiça para os fracos
+e para os órfãos;
+mantenham os direitos dos necessitados
+e dos oprimidos. 
+Livrem os fracos e os pobres;
+libertem-nos das mãos dos ímpios. 
+"Eles nada sabem, nada entendem.
+Vagueiam pelas trevas;
+todos os fundamentos da terra estão abalados. 
+"Eu disse: 'Vocês são deuses,
+todos vocês são filhos do Altíssimo'. 
+Mas vocês morrerão como simples homens;
+cairão como qualquer outro governante." 
+Levanta-te, ó Deus, julga a terra,
+pois todas as nações te pertencem. 
+ Salmo 82
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 69
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_69/
 INFO:root:🔹 Description: Salva-me, ó Deus!,
@@ -186,87 +209,92 @@ e a fidelidade do Senhor dura para sempre.
 Aleluia! 
  Salmo 117
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 125
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_125/
-INFO:root:🔹 Description: Os que confiam no Senhor
-são como o monte Sião,
-que não se pode abalar,
-mas permanece para sempre. 
-Como os montes cercam Jerusalém,
-assim o Senhor protege o seu povo,
-desde agora e para sempre. 
-O cetro dos ímpios não prevalecerá
-sobre a terra dada aos justos;
-se assim fosse,
-até os justos praticariam a injustiça. 
-Senhor, trata com bondade
-os que fazem o bem,
-os que têm coração íntegro. 
-Mas, aos que se desviam
-por caminhos tortuosos,
-o Senhor infligirá o castigo dado aos malfeitores.
-Haja paz em Israel! 
- Salmo 125
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245540 characters
-INFO:root:HTML parsed, length: 235255 characters
-INFO:root:Found 3 titles: ['Deus pode transformar seu lamento em dança', 'Jesus, fonte de água viva', 'Jesus é o seu melhor amigo']
+INFO:root:Response length: 245586 characters
+INFO:root:HTML parsed, length: 235299 characters
+INFO:root:Found 3 titles: ['Todo dia é motivo de agradecermos a Deus', 'Deus pode transformar seu lamento em dança', 'Jesus, fonte de água viva']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Mudaste o meu pranto em dança,\na minha veste de la', 'No último e mais importante dia da festa, Jesus le', 'Já vos não chamarei servos, porque o servo não sab']
-INFO:root:Found 1 dates: ['Sábado, 31 de maio de 2025']
+INFO:root:Found 3 descriptions: ['Em tudo dai graças, porque esta é a vontade de Deu', 'Mudaste o meu pranto em dança,\na minha veste de la', 'No último e mais importante dia da festa, Jesus le']
+INFO:root:Found 1 dates: ['Domingo, 1 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus pode transformar seu lamento em dança', ID=9214317d0ef6dfa006dd1a50a5def922
+INFO:root:Processing entry 1: Title='Todo dia é motivo de agradecermos a Deus', ID=7e0c2cf43c2eaf3ed7570ce20cf194e8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus pode transformar seu lamento em dança - Palavra de Hoje
+INFO:root:🔹 Title: Todo dia é motivo de agradecermos a Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Mudaste o meu pranto em dança,
-a minha veste de lamento em veste de alegria,
-para que o meu coração
-cante louvores a ti e não se cale.
-Senhor, meu Deus,
-eu te darei graças para sempre.
-- Salmo 30:11-12
+INFO:root:🔹 Description: Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco.
+- 1 Tessalonicenses 5:18
 
-Muitas situações podem nos causar tristeza, sofrimento e dor. Talvez surja um problema de saúde ou uma dificuldade financeira. Ou talvez alguém que amamos esteja com dificuldades e nos sintamos impotentes, sem saber como ajudar. Na vida, enfrentamos muitos momentos difíceis, mas Deus reina sobre tudo e, em um instante, pode mudar as situações e restaurar nossa alegria.
-Davi expressou esse sentimento no Salmo 30. Ele viu como Deus interveio para que os inimigos de Davi não conseguissem o que queriam. Além disso, em um momento de doença e à beira da morte, ele clamou a Deus e Deus o curou. Como ele poderia não querer dançar, cantar e adorar a Deus? Ele sentiu tanta alegria que não conseguia ficar em silêncio!
-Deus faz o mesmo conosco. Embora permita momentos de dificuldade como parte da vida, Ele permanece ao nosso lado e opera de maneiras maravilhosas, lembrando-nos de que Ele está presente e no controle. Embora às vezes pareça que Deus está demorando muito, a realidade é que Ele está sempre lá, nos acompanhando durante todo o processo, e Seu tempo é sempre o melhor.
-Lembre-se de que o Deus Todo-Poderoso, o mesmo que transformou o lamento de Davi em dança, pode transformar qualquer dificuldade e tristeza em um momento de alegria e renovação. Não importa quão sombria e difícil seja a sua situação, a luz do Senhor dissipará as sombras. Eleve sua voz com gratidão hoje. Acredite em Seu poder e experimente como Ele renova seu espírito, dando-lhe novos motivos para pular, dançar e agradecer a Ele para sempre.
-Veja também: A verdadeira alegria vem do Senhor
+Hoje é dia de agradecer. Não porque tudo está perfeito, mas porque Deus continua sendo bom, fiel e presente. Em um mundo onde somos levados a reclamar ou desejar mais, o coração grato se destaca como um testemunho vivo da fé.
+Agradecer é reconhecer que, mesmo em meio às dificuldades, Deus tem nos sustentado. É lembrar que acordamos, respiramos, temos pão na mesa, e isso já é graça. Muitas vezes esperamos grandes milagres para então agradecer, mas esquecemos que os pequenos milagres do cotidiano são os maiores sinais do cuidado de Deus.
+Hoje é dia de agradecer pelo que temos e também pelo que ainda não recebemos, pois sabemos que o tempo de Deus é perfeito. A gratidão transforma nosso olhar: onde havia queixa, nasce louvor; onde havia ansiedade, nasce paz.
+Mesmo nos tempos difíceis, há motivos para agradecer a Deus. Esses momentos nos fortalecem, nos aproximam de Deus e nos ensinam a confiar.
+A gratidão não nega a dor, mas escolhe focar na esperança. Ela abre portas para o sobrenatural, pois um coração grato está sempre pronto para receber mais de Deus.
+Que hoje, em vez de pedir, possamos apenas agradecer. Pelas bênçãos visíveis e pelas invisíveis, pelas respostas e pelos silêncios. Porque tudo coopera para o bem daqueles que amam a Deus.
+Levante seus olhos, veja a bondade de Deus e diga: “Obrigado, Senhor, por este dia. Por tudo o que tens feito, por tudo o que és.” Que nossa vida seja um hino de gratidão, hoje e sempre.
+Veja também: Frases de gratidão a Deus (um coração cheio de gratidão ao Senhor)
  
-Mudaste o meu pranto em dança,
-a minha veste de lamento em veste de alegria,
-para que o meu coração
-cante louvores a ti e não se cale.
-Senhor, meu Deus,
-eu te darei graças para sempre.
-- Salmo 30:11-12
+Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco.
+- 1 Tessalonicenses 5:18
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255292 characters
-INFO:root:HTML parsed, length: 244763 characters
-INFO:root:Found 3 titles: ['Devocional: Deus é tudo que a gente precisa', 'Vivendo a boa, perfeita e agradável vontade de Deus', 'Você é herdeiro do Rei dos reis']
-INFO:root:Found 4 URLs: ['/mensagens_de_deus/', '/voce_e_importante_para_deus/', '/versiculos_para_tomar_decisoes/']
-INFO:root:Found 3 descriptions: ['Em meio às tribulações e desafios da vida, muitas ', 'Não se amoldem ao padrão deste mundo, mas transfor', 'O próprio Espírito testemunha ao nosso espírito qu']
-INFO:root:Found 3 dates: ['MAIO\n\n31\nSÁBADO', 'MAIO\n\n30\nSEXTA', 'MAIO\n\n29\nQUINTA']
+INFO:root:Response length: 254558 characters
+INFO:root:HTML parsed, length: 244024 characters
+INFO:root:Found 3 titles: ['Andamos pelo que cremos, não pelo que vemos!', 'Devocional: Deus é tudo que a gente precisa', 'Vivendo a boa, perfeita e agradável vontade de Deus']
+INFO:root:Found 5 URLs: ['/historia_e_biografia_de_moises_segundo_a_biblia/', '/reflexao_biblica_mensagens_de_fe_e_esperanca_em_deus/', '/mensagens_de_deus/']
+INFO:root:Found 3 descriptions: ['O Senhor lutará por vocês; tão somente acalmem-se"', 'Em meio às tribulações e desafios da vida, muitas ', 'Não se amoldem ao padrão deste mundo, mas transfor']
+INFO:root:Found 3 dates: ['JUNHO\n\n1\nDOMINGO', 'MAIO\n\n31\nSÁBADO', 'MAIO\n\n30\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Devocional: Deus é tudo que a gente precisa', ID=144f82047b062123773018add86696f9
-INFO:root:Processing entry 2: Title='Vivendo a boa, perfeita e agradável vontade de Deus', ID=7e0536952ec555ba6a08c271053edf45
-INFO:root:Processing entry 3: Title='Você é herdeiro do Rei dos reis', ID=6c33d4ed193502a1e269a838cb16771e
+INFO:root:Processing entry 1: Title='Andamos pelo que cremos, não pelo que vemos!', ID=80996dd0ec08b3ef405558a9f2841b2e
+INFO:root:Processing entry 2: Title='Devocional: Deus é tudo que a gente precisa', ID=144f82047b062123773018add86696f9
+INFO:root:Processing entry 3: Title='Vivendo a boa, perfeita e agradável vontade de Deus', ID=7e0536952ec555ba6a08c271053edf45
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Andamos pelo que cremos, não pelo que vemos!
+INFO:root:🔹 URL: https://www.bibliaon.com/historia_e_biografia_de_moises_segundo_a_biblia/
+INFO:root:🔹 Description: O Senhor lutará por vocês; tão somente acalmem-se".
+Disse então o Senhor a Moisés: "Por que você está clamando a mim? Diga aos israe­litas que sigam avante.Êxodo 14:14-15
+
+Imagine, se ver sem saída, entre o mar e os egípcios. Da mesma forma, podemos nos encontrar em dificuldades e tribulações que parecem não haver saída. Nessas horas, constatar os problemas não ajudam em nada.
+Assim como o povo de Israel, já temos uma palavra da parte de Deus, por isso, devemos avançar sob a orientação do Senhor:
+
+Porque vivemos por fé, e não pelo que vemos.2 Coríntios 5:7 
+
+Vivemos por que cremos e assim devemos continuar: a saída está por meio da fé em Deus. Não precisamos de uma justificativa lógica para avançar... precisamos do sim de Deus!
+Quando avançamos e obedecemos a Deus, o mar se abre, o que era impossível acontece e aumentamos a nossa intimidade com Ele.
+Acalme-se, avance por meio da fé me Cristo Jesus!
+Para frente é que se anda!
+
+
+Se está perdido, sem saída, recorra a Deus, ore, Ele te mostrará uma direção.
+
+
+Se Deus te indicou uma saída, não duvide, obedeça.
+
+
+Deus não vai te guiar para um caminho de destruição. Confie nele!
+
+
+Para Orar:
+
+Senhor Deus, sinto-me sem saída. Dá-me a Sua direção e conduza-me de forma que o Seu nome seja glorificado. Sei que estás acima dos problemas, por isso, confio na Sua Palavra. Amém.
+
+Sugestão de leitura:
+
+História e biografia de Moisés segundo a Bíblia 
+Reflexão Bíblica: 14 mensagens de fé e esperança em Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Devocional: Deus é tudo que a gente precisa
-INFO:root:🔹 URL: https://www.bibliaon.com/mensagens_de_deus/
+INFO:root:🔹 URL: https://www.bibliaon.com/reflexao_biblica_mensagens_de_fe_e_esperanca_em_deus/
 INFO:root:🔹 Description: Em meio às tribulações e desafios da vida, muitas vezes nos encontramos perdidos, buscando respostas e conforto para nossas almas inquietas. É nesses momentos que podemos encontrar refúgio na certeza de que Deus é tudo o que a gente precisa.
 Deus é a fonte inesgotável de amor, graça e misericórdia. Ele nos criou à Sua imagem e semelhança, e o vazio em nossos corações só pode ser preenchido por Ele. Quando nos aproximamos Dele com humildade e fé, encontramos paz e alegria que transcendem qualquer circunstância.
 Nas Escrituras, encontramos inúmeras promessas que confirmam a suficiência de Deus em nossas vidas. Em Filipenses 4:19, lemos: "O meu Deus suprirá todas as vossas necessidades segundo as suas riquezas na glória em Cristo Jesus." Essa promessa nos assegura que Deus cuidará de nós em todas as áreas de nossa vida, desde as necessidades físicas até as espirituais.
@@ -290,7 +318,7 @@ Mensagens de Deus para mim
 Versículos que mostram como você é especial para Deus
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Vivendo a boa, perfeita e agradável vontade de Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/voce_e_importante_para_deus/
+INFO:root:🔹 URL: https://www.bibliaon.com/mensagens_de_deus/
 INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
 - Romanos 12:2
 
@@ -315,34 +343,10 @@ Senhor, renova minha mente e coração. Ajuda-me a não me conformar com este mu
 
 Veja também: Versículos para tomar decisões segundo a vontade de Deus.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Você é herdeiro do Rei dos reis
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_tomar_decisoes/
-INFO:root:🔹 Description: O próprio Espírito testemunha ao nosso espírito que somos filhos de Deus. Se somos filhos, então somos herdeiros; herdeiros de Deus e co-herdeiros com Cristo, se de fato participamos dos seus sofrimentos, para que também participemos da sua glória.
-- Romanos 8:16-17
-
-Você já parou para pensar no que significa ser herdeiro do Rei dos reis? Não estamos falando de uma herança terrena, feita de bens que se desgastam com o tempo. Estamos falando de uma herança eterna, incorruptível, reservada nos céus para aqueles que foram feitos filhos de Deus por meio de Jesus Cristo.
-Ao aceitar a Cristo como Senhor e Salvador, você não apenas recebeu o perdão dos seus pecados, mas também foi adotado na família real de Deus. Isso significa que sua identidade mudou: você agora é filho do Altíssimo, e como filho, é também herdeiro das promessas do Pai.
-Essa herança não se resume ao futuro. Hoje mesmo, você pode viver como herdeiro do Rei. Isso significa caminhar com autoridade espiritual, revestido de paz, amor e propósito. Significa não se deixar abater pelas circunstâncias, porque você sabe a quem pertence. O mundo pode tentar roubar sua identidade, mas a Palavra de Deus declara quem você é.
-Ser herdeiro do Rei também é um chamado à responsabilidade. Como representantes do Reino, somos chamados a viver com integridade, a amar como Cristo amou, e a proclamar as Boas Novas com ousadia.
-Lembre-se: você não é qualquer um. Você é herdeiro do Rei. Caminhe de cabeça erguida, confiante não em si mesmo, mas naquele que te escolheu, redimiu e te chamou de filho.
-Você é amado. Você é escolhido. Você é herdeiro. Viva como tal.
-Vivendo como herdeiro
-
-Lembre-se em oração e leitura da Palavra que você é filho de Deus. Isso fortalece sua fé e te protege das mentiras do inimigo.
-Como representante do Reino, tome decisões que honrem a Deus. Em cada atitude, reflita a justiça, o amor e a verdade do Rei a quem você pertence.
-
-Testemunhe com palavras e ações o que Cristo fez por você. Sua vida pode ser um canal para que outros conheçam sua identidade como herdeiros também.
-
-Para orar:
-
-Pai amado, obrigado por me tornar Teu filho e herdeiro por meio de Jesus. Ajuda-me a viver com fé, propósito e integridade. Que minha vida reflita Teu Reino e Teu amor. Fortalece-me a cada dia para honrar a herança que recebi em Cristo. Em nome de Jesus, amém.
-
-Veja também: Reflexão sobre o amor de Deus.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224539 characters
-INFO:root:HTML parsed, length: 223120 characters
+INFO:root:Response length: 225600 characters
+INFO:root:HTML parsed, length: 224181 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 26 URLs: ['/wiki/Jaur%C3%A9guiberry_(coura%C3%A7ado)', '/wiki/Jaur%C3%A9guiberry_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
 INFO:root:Found 1 descriptions: ['O Jauréguiberry foi um couraçado pré-dreadnought o']
@@ -370,42 +374,44 @@ Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224539 characters
-INFO:root:HTML parsed, length: 223120 characters
-INFO:root:Found 1 titles: ['30 de maio na história']
-INFO:root:Found 42 URLs: ['/wiki/Ficheiro:Joan_of_arc_burning_at_stake.jpg', '/wiki/1381', '/wiki/Revolta_dos_camponeses_na_Inglaterra_em_1381']
-INFO:root:Found 1 descriptions: ["Joana d'Arc\n1381 – Tem início a revolta dos campon"]
+INFO:root:Response length: 225600 characters
+INFO:root:HTML parsed, length: 224181 characters
+INFO:root:Found 1 titles: ['1 de junho na história']
+INFO:root:Found 47 URLs: ['/wiki/Ficheiro:PKIERZKOWSKI_070328_FGZCP_CDG.jpg', '/wiki/Dia_Mundial_das_M%C3%A3es_e_dos_Pais', '/wiki/1794']
+INFO:root:Found 1 descriptions: ['Voo Air France 447\nDia Mundial das Mães e dos Pais']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='30 de maio na história', ID=feed5eb6f8b4c5b6b4f008d86d02bef0
+INFO:root:Processing entry 1: Title='1 de junho na história', ID=ee9c6ffb71fa73acb3f95c15bd532d01
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 30 de maio na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Joan_of_arc_burning_at_stake.jpg
-INFO:root:🔹 Description: Joana d'Arc
-1381 – Tem início a revolta dos camponeses na Inglaterra.
-1431 – Joana d'Arc é queimada na fogueira (pintura) aos 19 anos por bruxaria.
-2008 – É adotada em Dublin a Convenção sobre Munições de Dispersão.
+INFO:root:🔹 Title: 1 de junho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:PKIERZKOWSKI_070328_FGZCP_CDG.jpg
+INFO:root:🔹 Description: Voo Air France 447
+Dia Mundial das Mães e dos Pais (2013)
+
+1794 – É travada a batalha do Glorioso primeiro de junho, o primeiro combate naval entre a Inglaterra e a França durante as Guerras Revolucionárias Francesas.
+2001 – O príncipe herdeiro Dipendra do Nepal atira e mata vários membros de sua família, incluindo seu pai e sua mãe.
+2009 – O voo Air France 447 (imagem da aeronave envolvida), que iria do Rio de Janeiro a Paris, cai no Oceano Atlântico, na costa do Brasil; todos os 228 passageiros e tripulantes são mortos.
 Nasceram neste dia…
-Mikhail Bakunin (1814–1876)  •  Peter Carl Fabergé (1846–1920)  •  Irving Thalberg (1899–1936)  •  Marie Fredriksson (1958–2019)
+Otão da Grécia (1815–1867)  •  Carl von Clausewitz (1780–1831)  •  Marilyn Monroe (1926–1962)  •  Ronnie Wood (n. 1947)
 Morreram neste dia…
-Alexander Pope (1688–1744)  •  Voltaire (1694–1778)  •  Rafael Trujillo (1891–1961)  •  Mário Lago (1911–2002)
+Tokugawa Ieyasu (1543–1616)  •  Camilo Castelo Branco (1825–1890)  •  Ödön von Horváth (1901–1938)  •  Yves Saint Laurent (1936–2008)
 
 
-Ver mais • Outros dias: 28 • 29 • 30 • 31 • 1 • Ver todos
+Ver mais • Outros dias: 30 • 31 • 1 • 2 • 3 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224539 characters
-INFO:root:HTML parsed, length: 223120 characters
+INFO:root:Response length: 225600 characters
+INFO:root:HTML parsed, length: 224181 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:La_Rochelle_-_Vitrail_02.jpg']
-INFO:root:Found 1 descriptions: ['Vitral (1880) da catedral de São Luís em La Rochel']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Soldadinhos.jpg']
+INFO:root:Found 1 descriptions: ['Gafanhotos-soldados (Chromacris speciosa), em está']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/La_Rochelle_-_Vitrail_02.jpg/500px-La_Rochelle_-_Vitrail_02.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Soldadinhos.jpg/960px-Soldadinhos.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -414,15 +420,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:La_Rochelle_-_Vitrail_02.jpg
-INFO:root:🔹 Description: Vitral (1880) da catedral de São Luís em La Rochelle, representando Joana D'Arc, santa padroeira da França. O dia 30 de maio é o dia da festa da santa, em memória de sua morte na fogueira em Ruão, em 1431.
-(resolução original: 3 975 × 3 975)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Soldadinhos.jpg
+INFO:root:🔹 Description: Gafanhotos-soldados (Chromacris speciosa), em estágio de ninfa, fotografados no Parque Estadual Paulo César Vinha, no estado brasileiro do Espírito Santo. A espécie recorre à coloração vermelha para sinalizar sua toxicidade aos predadores.
+(resolução original: 3 872 × 2 592)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/La_Rochelle_-_Vitrail_02.jpg/500px-La_Rochelle_-_Vitrail_02.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Soldadinhos.jpg/960px-Soldadinhos.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -438,7 +444,6 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -447,21 +452,20 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  56 +++---
  feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  38 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  31 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 119 +++++++--
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  43 ++--
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   6 +-
- feeds/wikidestaque/feed.json              |   4 +-
+ feeds/wikidestaque/atom.xml               |   2 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 420 +++++++++++++++++-------------
- 17 files changed, 438 insertions(+), 326 deletions(-)
+ output.log                                | 323 ++++++++++++++----------------
+ 16 files changed, 282 insertions(+), 289 deletions(-)
