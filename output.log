@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 118892 characters
-INFO:root:HTML parsed, length: 112187 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (02/06/2025)', 'Palavra de Ontem (01/06/2025)', 'Palavra de Anteontem (31/05/2025)']
-INFO:root:Found 3 URLs: ['/campeao/', '/talar/', '/brandao/']
-INFO:root:Found 12 descriptions: ['substantivo masculino Vencedor de uma competição e', 'Sinônimos:\n\nvencedor, defensor', 'Classe gramatical:adjetivo e substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (02/06/2025)', 'Palavra de Ontem (01/06/2025)', 'Palavra de Anteontem (31/05/2025)']
+INFO:root:Response length: 119460 characters
+INFO:root:HTML parsed, length: 112572 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (03/06/2025)', 'Palavra de Ontem (02/06/2025)', 'Palavra de Anteontem (01/06/2025)']
+INFO:root:Found 3 URLs: ['/escusavel/', '/campeao/', '/talar/']
+INFO:root:Found 13 descriptions: ['adjetivo Que se consegue escusar, desculpar; descu', 'Sinônimos:\n\ndispensado, desculpável, justificável,', 'Antônimos:\n\ninescusável']
+INFO:root:Found 3 dates: ['Palavra de Hoje (03/06/2025)', 'Palavra de Ontem (02/06/2025)', 'Palavra de Anteontem (01/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (02/06/2025)', ID=1fdb3dd045b56d569bf294f6fb44cf75
-INFO:root:Processing entry 2: Title='Palavra de Ontem (01/06/2025)', ID=9f9c1ecca8d7e9f457d18644841a7f70
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (31/05/2025)', ID=0667da3a417ba9f8fb9fa562c55c5ac2
+INFO:root:Processing entry 1: Title='Palavra de Hoje (03/06/2025)', ID=5a614920c97f81ab23134f7d63f9f036
+INFO:root:Processing entry 2: Title='Palavra de Ontem (02/06/2025)', ID=543563b5ff48ec0d3f4a90eff4e9dc7d
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (01/06/2025)', ID=eb03061d55f8ae7f0037535498bc4381
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (02/06/2025) - Significado completo de campeão:
-INFO:root:🔹 URL: https://www.dicio.com.br/campeao/
-INFO:root:🔹 Description: substantivo masculino Vencedor de uma competição esportiva: campeão de tênis, de futebol.[Desuso] Atleta ou clube que detém o maior número de campeonatos ou vitórias.[Figurado] Defensor de algo ou de alguém: fazer-se campeão de uma causa.[Popular] Quem se destaca por suas características ou habilidades.[Antigo] Aquele que combate em campo fechado (torneios) para defender a sua própria causa ou a de outrem.adjetivo Característica de vencedor: time campeão.Etimologia (origem da palavra campeão). Do italiano campione.
+INFO:root:🔹 Title: Palavra de Hoje (03/06/2025) - Significado completo de escusável:
+INFO:root:🔹 URL: https://www.dicio.com.br/escusavel/
+INFO:root:🔹 Description: adjetivo Que se consegue escusar, desculpar; desculpável, justificável, perdoável, prescindível.Que foi dispensado; desnecessário, dispensável.Etimologia (origem da palavra escusável). Do latim excusabilis.e.
  
 Sinônimos:
 
-vencedor, defensor 
+dispensado, desculpável, justificável, perdoável, prescindível, desnecessário, dispensável 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (01/06/2025) - Significado completo de talar:
-INFO:root:🔹 URL: https://www.dicio.com.br/talar/
+INFO:root:🔹 Title: Palavra de Ontem (02/06/2025) - Significado completo de campeão:
+INFO:root:🔹 URL: https://www.dicio.com.br/campeao/
 INFO:root:🔹 Description: Sinônimos:
 
-vencedor, defensor
- Classe gramatical:adjetivo e substantivo masculino
+dispensado, desculpável, justificável, perdoável, prescindível, desnecessário, dispensável
+ 
+Antônimos:
+
+inescusável 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (31/05/2025) - Significado completo de brandão:
-INFO:root:🔹 URL: https://www.dicio.com.br/brandao/
-INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
- Sílabas:cam-pe-ão
+INFO:root:🔹 Title: Palavra de Anteontem (01/06/2025) - Significado completo de talar:
+INFO:root:🔹 URL: https://www.dicio.com.br/talar/
+INFO:root:🔹 Description: Antônimos:
+
+inescusável
+ Classe gramatical:adjetivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,44 +48,75 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243236 characters
-INFO:root:HTML parsed, length: 232558 characters
-INFO:root:Found 1 titles: ['Salmos 39:1']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_39_1/']
-INFO:root:Found 1 descriptions: ['Eu disse: Vigiarei a minha conduta\ne não pecarei e']
+INFO:root:Response length: 243249 characters
+INFO:root:HTML parsed, length: 232571 characters
+INFO:root:Found 1 titles: ['2 Timóteo 4:2']
+INFO:root:Found 1 URLs: ['/versiculo/2_timoteo_4_2/']
+INFO:root:Found 1 descriptions: ['Pregue a palavra, esteja preparado a tempo e fora ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 39:1', ID=b90eff8df166fb7224c5dc7637429c60
+INFO:root:Processing entry 1: Title='2 Timóteo 4:2', ID=6ba3f7f1bf6f2c6c499105c6237cd5f8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 39:1
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_39_1/
-INFO:root:🔹 Description: Eu disse: Vigiarei a minha conduta
-e não pecarei em palavras;
-porei mordaça em minha boca
-enquanto os ímpios
-estiverem na minha presença. Salmos 39:1
+INFO:root:🔹 Title: 2 Timóteo 4:2
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_timoteo_4_2/
+INFO:root:🔹 Description: Pregue a palavra, esteja preparado a tempo e fora de tempo, repreenda, corrija, exorte com toda a paciência e doutrina. 2 Timóteo 4:2
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 244536 characters
-INFO:root:HTML parsed, length: 234599 characters
-INFO:root:Found 3 titles: ['Salmo 128', 'Salmo 82', 'Salmo 69']
-INFO:root:Found 3 URLs: ['/salmos_128/', '/salmos_82/', '/salmos_69/']
-INFO:root:Found 3 descriptions: ['Como é feliz quem teme o Senhor,\nquem anda em seus', 'É Deus quem preside a assembleia divina;\nno meio d', 'Salva-me, ó Deus!,\npois as águas subiram até o meu']
-INFO:root:Found 3 dates: ['2 de Junho de 2025', '1 de Junho de 2025', '31 de Maio de 2025']
+INFO:root:Response length: 241911 characters
+INFO:root:HTML parsed, length: 231932 characters
+INFO:root:Found 3 titles: ['Salmo 97', 'Salmo 128', 'Salmo 82']
+INFO:root:Found 3 URLs: ['/salmos_97/', '/salmos_128/', '/salmos_82/']
+INFO:root:Found 3 descriptions: ['O Senhor reina!\nExulte a terra\ne alegrem-se as reg', 'Como é feliz quem teme o Senhor,\nquem anda em seus', 'É Deus quem preside a assembleia divina;\nno meio d']
+INFO:root:Found 3 dates: ['3 de Junho de 2025', '2 de Junho de 2025', '1 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 128', ID=566f59e35e0f2396b80f951a21a49154
-INFO:root:Processing entry 2: Title=' Salmo 82', ID=b08571775c4d91acb25aaf79665479aa
-INFO:root:Processing entry 3: Title=' Salmo 69', ID=5195f6a86b128f1cf77ff0d1125e16c4
+INFO:root:Processing entry 1: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
+INFO:root:Processing entry 2: Title=' Salmo 128', ID=566f59e35e0f2396b80f951a21a49154
+INFO:root:Processing entry 3: Title=' Salmo 82', ID=b08571775c4d91acb25aaf79665479aa
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 97
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_97/
+INFO:root:🔹 Description: O Senhor reina!
+Exulte a terra
+e alegrem-se as regiões costeiras distantes. 
+Nuvens escuras e espessas o cercam;
+retidão e justiça são a base do seu trono. 
+Fogo vai adiante dele
+e devora os adversários ao redor. 
+Seus relâmpagos iluminam o mundo;
+a terra os vê e estremece. 
+Os montes se derretem como cera
+diante do Senhor,
+diante do Soberano de toda a terra. 
+Os céus proclamam a sua justiça,
+e todos os povos contemplam a sua glória. 
+Ficam decepcionados
+todos os que adoram imagens
+e se vangloriam de ídolos.
+Prostram-se diante dele todos os deuses! 
+Sião ouve e se alegra,
+e as cidades de Judá exultam,
+por causa das tuas sentenças, Senhor. 
+Pois tu, Senhor,
+és o Altíssimo sobre toda a terra!
+És exaltado muito acima de todos os deuses! 
+Odeiem o mal, vocês que amam o Senhor,
+pois ele protege a vida dos seus fiéis
+e os livra das mãos dos ímpios. 
+A luz nasce sobre o justo
+e a alegria sobre os retos de coração. 
+Alegrem-se no Senhor, justos,
+e louvem o seu santo nome. 
+ Salmo 97
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 128
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_128/
 INFO:root:🔹 Description: Como é feliz quem teme o Senhor,
@@ -122,172 +159,102 @@ Levanta-te, ó Deus, julga a terra,
 pois todas as nações te pertencem. 
  Salmo 82
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 69
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_69/
-INFO:root:🔹 Description: Salva-me, ó Deus!,
-pois as águas subiram até o meu pescoço. 
-Nas profundezas lamacentas eu me afundo;
-não tenho onde firmar os pés.
-Entrei em águas profundas;
-as correntezas me arrastam. 
-Cansei-me de pedir socorro;
-minha garganta se abrasa.
-Meus olhos fraquejam
-de tanto esperar pelo meu Deus. 
-Os que sem razão me odeiam
-são mais do que os fios de cabelo
-da minha cabeça;
-muitos são os que me prejudicam sem motivo;
-muitos, os que procuram destruir-me.
-Sou forçado a devolver o que não roubei. 
-Tu bem sabes como fui insensato, ó Deus;
-a minha culpa não te é encoberta. 
-Não se decepcionem por minha causa
-aqueles que esperam em ti,
-ó Senhor, Senhor dos Exércitos!
-Não se frustrem por minha causa
-os que te buscam, ó Deus de Israel! 
-Pois por amor a ti suporto zombaria,
-e a vergonha cobre-me o rosto. 
-Sou um estrangeiro para os meus irmãos,
-um estranho até para os filhos da minha mãe; 
-pois o zelo pela tua casa me consome,
-e os insultos daqueles que te insultam
-caem sobre mim. 
-Até quando choro e jejuo,
-tenho que suportar zombaria; 
-quando ponho vestes de lamento,
-sou objeto de chacota. 
-Os que se ajuntam na praça falam de mim,
-e sou a canção dos bêbados. 
-Mas eu, Senhor, no tempo oportuno,
-elevo a ti minha oração;
-responde-me, por teu grande amor, ó Deus,
-com a tua salvação infalível! 
-Tira-me do atoleiro,
-não me deixes afundar;
-liberta-me dos que me odeiam
-e das águas profundas. 
-Não permitas que as correntezas me arrastem
-nem que as profundezas me engulam,
-nem que a cova feche sobre mim a sua boca! 
-Responde-me, Senhor,
-pela bondade do teu amor;
-por tua grande misericórdia, volta-te para mim. 
-Não escondas do teu servo a tua face;
-responde-me depressa, pois estou em perigo. 
-Aproxima-te e resgata-me;
-livra-me por causa dos meus inimigos. 
-Tu bem sabes como sofro zombaria,
-humilhação e vergonha;
-conheces todos os meus adversários. 
-A zombaria partiu-me o coração;
-estou em desespero!
-Supliquei por socorro, nada recebi;
-por consoladores, e a ninguém encontrei. 
-Puseram fel na minha comida
-e para matar-me a sede deram-me vinagre. 
-Que a mesa deles se lhes transforme em laço;
-torne-se retribuição e armadilha. 
-Que se lhe escureçam os olhos
-para que não consigam ver;
-faze-lhes tremer o corpo sem parar. 
-Despeja sobre eles a tua ira;
-que o teu furor ardente os alcance. 
-Fique deserto o lugar deles;
-não haja ninguém que habite nas suas tendas. 
-Pois perseguem aqueles que tu feres
-e comentam a dor daqueles a quem castigas. 
-Acrescenta-lhes pecado sobre pecado;
-não os deixes alcançar a tua justiça. 
-Sejam eles tirados do livro da vida
-e não sejam incluídos no rol dos justos. 
-Grande é a minha aflição e a minha dor!
-Proteja-me, ó Deus, a tua salvação! 
-Louvarei o nome de Deus com cânticos
-e proclamarei sua grandeza
-com ações de graças; 
-isso agradará o Senhor mais do que bois,
-mais do que touros com seus chifres e cascos. 
-Os necessitados o verão e se alegrarão;
-a vocês que buscam a Deus,
-vida ao seu coração! 
-O Senhor ouve o pobre
-e não despreza o seu povo aprisionado. 
-Louvem-no os céus e a terra,
-os mares e tudo o que neles se move, 
-pois Deus salvará Sião
-e reconstruirá as cidades de Judá.
-Então o povo ali viverá e tomará posse da terra; 
-a descendência dos seus servos a herdará,
-e nela habitarão os que amam o seu nome. 
- Salmo 69
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245505 characters
-INFO:root:HTML parsed, length: 235211 characters
-INFO:root:Found 3 titles: ['Os planos de Deus são melhores', 'Todo dia é motivo de agradecermos a Deus', 'Deus pode transformar seu lamento em dança']
+INFO:root:Response length: 245875 characters
+INFO:root:HTML parsed, length: 235581 characters
+INFO:root:Found 3 titles: ['Confiando na vontade de Deus', 'Os planos de Deus são melhores', 'Todo dia é motivo de agradecermos a Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Imagine a melhor bênção possível para sua vida... ', 'Em tudo dai graças, porque esta é a vontade de Deu', 'Mudaste o meu pranto em dança,\na minha veste de la']
-INFO:root:Found 1 dates: ['Segunda, 2 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Como é grande a tua bondade,\nque reservaste para a', 'Imagine a melhor bênção possível para sua vida... ', 'Em tudo dai graças, porque esta é a vontade de Deu']
+INFO:root:Found 1 dates: ['Terça, 3 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Os planos de Deus são melhores', ID=442df4b404de58d24f386726b0f7f2d0
+INFO:root:Processing entry 1: Title='Confiando na vontade de Deus', ID=391749514061512093e08aea64e3314b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Os planos de Deus são melhores - Palavra de Hoje
+INFO:root:🔹 Title: Confiando na vontade de Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Imagine a melhor bênção possível para sua vida... Isso não é nada comparado ao que Deus quer te dar! A Bíblia diz que Deus faz muito mais do que podemos imaginar. Não se limite aos seus próprios sonhos. Os planos de Deus são muito melhores!
+INFO:root:🔹 Description: Como é grande a tua bondade,
+que reservaste para aqueles que te temem,
+e que, à vista dos homens,
+concedes àqueles que se refugiam em ti!
+- Salmo 31:19
 
-Ora, àquele que é poderoso para fazer infinitamente mais do que tudo o que pedimos ou pensamos, conforme o seu poder que opera em nós, a ele seja a glória, na igreja e em Cristo Jesus, por todas as gerações, para todo o sempre. Amém!
-- Efésios 3:20-21
+Seria maravilhoso não ter problemas com ninguém, receber apenas boas notícias e não encontrar obstáculos em nosso caminho! Claro, gostaríamos de viver uma vida tranquila e tranquila. Mas nossa realidade aqui na Terra é diferente. Enfrentamos desafios e dificuldades quase todos os dias, pois fazem parte da vida.
+Mas há algo mais que é verdade na vida de um crente: em meio a essas provações, não estamos sozinhos. Nosso Senhor Jesus Cristo nos ajuda, nos fortalece e nos traz paz. Mesmo nos momentos de maior tristeza ou dificuldade, Ele está ao nosso lado e nos mostra Sua bondade: basta estarmos atentos.
+Mas, muitas vezes, nosso foco permanece no problema, e todos os tipos de perguntas surgem. Por que isso não acaba logo? Por que Deus não intervém e me dá paz? Por que meu filho continua rebelde? Por que meus vizinhos não param de nos incomodar? Fazemos milhares de perguntas ao Senhor, sem parar um momento para lembrar tudo o que Deus fez por nós e as muitas promessas que Ele nos fez.
+Quando nos lembramos da bondade de Deus, nossos corações se enchem de esperança. Ele foi fiel no passado. Ele é fiel hoje e será fiel amanhã. Mesmo que nem sempre entendamos seus caminhos, podemos confiar que sua natureza não muda: Deus é bom. Seu amor é constante, sua misericórdia se renova a cada manhã e sua graça nos sustenta mesmo quando não a sentimos. A história de nossas vidas está entrelaçada com atos de sua bondade, muitos dos quais só compreenderemos plenamente na eternidade.
+Portanto, o desafio para nós é olhar além das dificuldades e fixar nossos olhos naquele que nunca falha. Confiemos nEle, mesmo quando não entendemos o que Ele permite. Se Deus foi bom no passado, Ele o será novamente. Sua fidelidade é a nossa âncora, e Sua bondade, o nosso refúgio seguro.
 
-Ore a Deus e peça que Ele te ajude a sempre caminhar dentro do Seu plano. O propósito de Deus para sua vida é muito melhor do que você imagina. O que Deus tem para você é algo que o aproximará Dele e te ajudará a se sentir completamente satisfeito porque estará dentro da Sua vontade.
-Não resista ao plano de Deus para você. Submeta-se ao seu Pai celestial com alegria e com a determinação de obedecê-lo em todos os momentos. Ao viver dentro do plano de Deus, você se sentirá completo e satisfeito. Comece a trilhar o caminho que Deus preparou para você.
+Recordarei os feitos do Senhor;
+recordarei os teus antigos milagres.
+Meditarei em todas as tuas obras
+e considerarei todos os teus feitos.
+- Salmo 77:11-12
 
-O Senhor firma os passos do homem bom e se agrada do seu caminho; se cair, não ficará prostrado,  porque o Senhor o segura pela mão.
-- Salmos 37:23-24
-
-
-Em seu coração o homem planeja o seu caminho,
-mas o Senhor determina os seus passos.
-- Provérbio 16:9
-
-Escolha viver dentro do plano de Deus para sua vida e receberá grandes bênçãos!
-
-Propósito de Deus: Como descobrir e entender o seu
-Versículos sobre Propósito
-Qual o propósito da vida segundo a Bíblia
+Veja também: Razões para confiar em Deus em meio às lutas
  
 Propósito de Deus: Como descobrir e entender o seu
 Versículos sobre Propósito
 Qual o propósito da vida segundo a Bíblia
 
  
-Ora, àquele que é poderoso para fazer infinitamente mais do que tudo o que pedimos ou pensamos, conforme o seu poder que opera em nós, a ele seja a glória, na igreja e em Cristo Jesus, por todas as gerações, para todo o sempre. Amém!
-- Efésios 3:20-21
+Como é grande a tua bondade,
+que reservaste para aqueles que te temem,
+e que, à vista dos homens,
+concedes àqueles que se refugiam em ti!
+- Salmo 31:19
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 254542 characters
-INFO:root:HTML parsed, length: 244005 characters
-INFO:root:Found 3 titles: ['Devocional: Vencedores por meio do amor de Cristo', 'Andamos pelo que cremos, não pelo que vemos!', 'Devocional: Deus é tudo que a gente precisa']
-INFO:root:Found 7 URLs: ['/provas_do_amor_de_deus/', '/seja_mais_que_vencedor_estudo/', '/o_amor_incondicional_de_deus_estudo/']
-INFO:root:Found 3 descriptions: ['Mas em todas estas coisas somos mais que vencedore', 'O Senhor lutará por vocês; tão somente acalmem-se"', 'Em meio às tribulações e desafios da vida, muitas ']
-INFO:root:Found 3 dates: ['JUNHO\n\n2\nSEGUNDA', 'JUNHO\n\n1\nDOMINGO', 'MAIO\n\n31\nSÁBADO']
+INFO:root:Response length: 254617 characters
+INFO:root:HTML parsed, length: 244090 characters
+INFO:root:Found 3 titles: ['Jesus cura o coração ferido', 'Devocional: Vencedores por meio do amor de Cristo', 'Andamos pelo que cremos, não pelo que vemos!']
+INFO:root:Found 6 URLs: ['/medico_dos_medicos/', '/provas_do_amor_de_deus/', '/seja_mais_que_vencedor_estudo/']
+INFO:root:Found 3 descriptions: ['O Senhor está perto\ndos que têm o coração quebrant', 'Mas em todas estas coisas somos mais que vencedore', 'O Senhor lutará por vocês; tão somente acalmem-se"']
+INFO:root:Found 3 dates: ['JUNHO\n\n3\nTERÇA', 'JUNHO\n\n2\nSEGUNDA', 'JUNHO\n\n1\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Devocional: Vencedores por meio do amor de Cristo', ID=5c531fb2c2a684cfdacf351cda7854c2
-INFO:root:Processing entry 2: Title='Andamos pelo que cremos, não pelo que vemos!', ID=80996dd0ec08b3ef405558a9f2841b2e
-INFO:root:Processing entry 3: Title='Devocional: Deus é tudo que a gente precisa', ID=144f82047b062123773018add86696f9
+INFO:root:Processing entry 1: Title='Jesus cura o coração ferido', ID=c3ea9c14c818961a8e99f1cd038d1a85
+INFO:root:Processing entry 2: Title='Devocional: Vencedores por meio do amor de Cristo', ID=5c531fb2c2a684cfdacf351cda7854c2
+INFO:root:Processing entry 3: Title='Andamos pelo que cremos, não pelo que vemos!', ID=80996dd0ec08b3ef405558a9f2841b2e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Jesus cura o coração ferido
+INFO:root:🔹 URL: https://www.bibliaon.com/medico_dos_medicos/
+INFO:root:🔹 Description: O Senhor está perto
+dos que têm o coração quebrantado
+e salva os de espírito abatido.
+- Salmos 34:18
+
+Em meio às dores da vida, quando o coração parece despedaçado pelas perdas, decepções e rejeições, é natural sentir-se sozinho e sem forças. Mas há uma verdade eterna que permanece: Jesus está perto dos que sofrem. Ele não ignora as nossas lágrimas; pelo contrário, Ele mesmo se fez homem para sentir nossas dores e nos oferecer cura.
+Jesus é o médico dos médicos. Ele conhece cada ferida, mesmo aquelas que ninguém vê. Ele entende as lágrimas silenciosas e os gritos do coração. Quando tudo ao redor parece desmoronar, o amor de Cristo permanece firme, pronto para restaurar aquilo que foi quebrado. Ao entregarmos nosso sofrimento a Ele, permitimos que Sua graça opere em nós, trazendo consolo, paz e esperança.
+Muitas vezes buscamos cura em lugares errados, tentando preencher o vazio com coisas passageiras. Mas somente em Jesus encontramos verdadeira restauração. Ele não apenas cura, mas transforma. Ele pega os pedaços do nosso coração e os refaz com propósito, nos lembrando que nossa dor não é em vão. Em Suas mãos, até as feridas se tornam testemunhos de vitória.
+Se você está com o coração ferido, saiba que Jesus te vê. Ele te ama profundamente e deseja restaurar sua alegria. Abra seu coração, clame por Ele e confie que o tempo da cura virá. Pois aquele que começou a boa obra em você é fiel para completá-la.
+
+Os que confiam no Senhor
+são como o monte Sião,
+que não se pode abalar,
+mas permanece para sempre.
+- Salmos 125:1
+
+Deixe Jesus curar o seu coração
+
+Abra seu coração diante de Deus, contando-lhe suas dores sem reservas. A oração sincera é o primeiro passo para a cura, pois aproxima você do consolo e amor de Jesus.
+Leia diariamente a Bíblia, buscando promessas de consolo e esperança. A Palavra de Deus fortalece a fé, ilumina a mente e ajuda a enxergar além da dor momentânea com esperança renovada.
+Não enfrente a dor sozinho. Caminhe com outros cristãos que possam orar por você, ouvir com amor e incentivar sua fé. Deus usa a comunhão para ministrar cura e encorajamento ao coração ferido.
+
+Para orar:
+
+Senhor Jesus, entrego a Ti meu coração ferido. Conheces minhas dores e lágrimas. Cura minhas feridas com Teu amor e renova em mim a esperança. Enche-me de paz, fortalece minha fé e guia meus passos. Confio em Ti, meu refúgio e cura. Amém.
+
+Veja também: Jesus é o Médico dos médicos
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Devocional: Vencedores por meio do amor de Cristo
 INFO:root:🔹 URL: https://www.bibliaon.com/provas_do_amor_de_deus/
 INFO:root:🔹 Description: Mas em todas estas coisas somos mais que vencedores, por meio daquele que nos amou.
@@ -348,34 +315,10 @@ Sugestão de leitura:
 História e biografia de Moisés segundo a Bíblia 
 Reflexão Bíblica: 14 mensagens de fé e esperança em Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Devocional: Deus é tudo que a gente precisa
-INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
-INFO:root:🔹 Description: Em meio às tribulações e desafios da vida, muitas vezes nos encontramos perdidos, buscando respostas e conforto para nossas almas inquietas. É nesses momentos que podemos encontrar refúgio na certeza de que Deus é tudo o que a gente precisa.
-Deus é a fonte inesgotável de amor, graça e misericórdia. Ele nos criou à Sua imagem e semelhança, e o vazio em nossos corações só pode ser preenchido por Ele. Quando nos aproximamos Dele com humildade e fé, encontramos paz e alegria que transcendem qualquer circunstância.
-Nas Escrituras, encontramos inúmeras promessas que confirmam a suficiência de Deus em nossas vidas. Em Filipenses 4:19, lemos: "O meu Deus suprirá todas as vossas necessidades segundo as suas riquezas na glória em Cristo Jesus." Essa promessa nos assegura que Deus cuidará de nós em todas as áreas de nossa vida, desde as necessidades físicas até as espirituais.
-Quando enfrentamos dificuldades, podemos confiar que Deus é nosso refúgio e fortaleza, um socorro bem presente na angústia (Salmo 46:1). Ele é o nosso consolador nos momentos de tristeza, nosso guia nas encruzilhadas da vida e nossa força quando nos sentimos fracos.
-Deus é tudo o que a gente precisa, pois Ele nos ama incondicionalmente e nos oferece a salvação através de Jesus Cristo. Ao entregarmos nossas vidas a Ele, encontramos significado, esperança e a promessa de uma eternidade ao Seu lado.
-Não importa o que esteja acontecendo em nossas vidas, podemos ter confiança de que Deus é suficiente para nos sustentar. Ele é nosso refúgio, nossa fortaleza e nossa fonte inesgotável de amor. Em Deus, encontramos tudo o que precisamos para viver uma vida plena e abundante. 
-Deus é suficiente! 
-
-Deus é suficiente ao nos orientar por meio de Sua Palavra, ajudando-nos a tomar decisões sábias e alinhadas com Seus princípios. 
-Sua presença nos consola e fortalece, proporcionando paz em meio às adversidades que enfrentamos. 
-Deus é suficiente ao nos revelar nosso propósito na vida e oferecer a esperança da salvação eterna por meio de Jesus Cristo. 
-
-Para Orar: 
-
-Obrigado Deus, por suficiente na minha vida. Tu és tudo para mim e todas as coisas provêm de Ti. Muito obrigado pela tua presença e pelo teu amor. Amém. 
-
-Veja também: 
-
-Mensagens de Deus para mim
-
-Versículos que mostram como você é especial para Deus
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225905 characters
-INFO:root:HTML parsed, length: 224486 characters
+INFO:root:Response length: 225662 characters
+INFO:root:HTML parsed, length: 224243 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 26 URLs: ['/wiki/Jaur%C3%A9guiberry_(coura%C3%A7ado)', '/wiki/Jaur%C3%A9guiberry_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
 INFO:root:Found 1 descriptions: ['O Jauréguiberry foi um couraçado pré-dreadnought o']
@@ -403,44 +346,44 @@ Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225905 characters
-INFO:root:HTML parsed, length: 224486 characters
-INFO:root:Found 1 titles: ['1 de junho na história']
-INFO:root:Found 47 URLs: ['/wiki/Ficheiro:PKIERZKOWSKI_070328_FGZCP_CDG.jpg', '/wiki/Dia_Mundial_das_M%C3%A3es_e_dos_Pais', '/wiki/1794']
-INFO:root:Found 1 descriptions: ['Voo Air France 447\nDia Mundial das Mães e dos Pais']
+INFO:root:Response length: 225662 characters
+INFO:root:HTML parsed, length: 224243 characters
+INFO:root:Found 1 titles: ['3 de junho na história']
+INFO:root:Found 43 URLs: ['/wiki/Ficheiro:Muhammad_Ali_NYWTS.jpg', '/wiki/Dia_Mundial_da_Bicicleta', '/wiki/1992']
+INFO:root:Found 1 descriptions: ['Muhammad Ali\nDia Mundial da Bicicleta (2018)\n\n1992']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 de junho na história', ID=ee9c6ffb71fa73acb3f95c15bd532d01
+INFO:root:Processing entry 1: Title='3 de junho na história', ID=b213607abd87f717ed75f8ff3af7d0f5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 de junho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:PKIERZKOWSKI_070328_FGZCP_CDG.jpg
-INFO:root:🔹 Description: Voo Air France 447
-Dia Mundial das Mães e dos Pais (2013)
+INFO:root:🔹 Title: 3 de junho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Muhammad_Ali_NYWTS.jpg
+INFO:root:🔹 Description: Muhammad Ali
+Dia Mundial da Bicicleta (2018)
 
-1794 – É travada a batalha do Glorioso primeiro de junho, o primeiro combate naval entre a Inglaterra e a França durante as Guerras Revolucionárias Francesas.
-2001 – O príncipe herdeiro Dipendra do Nepal atira e mata vários membros de sua família, incluindo seu pai e sua mãe.
-2009 – O voo Air France 447 (imagem da aeronave envolvida), que iria do Rio de Janeiro a Paris, cai no Oceano Atlântico, na costa do Brasil; todos os 228 passageiros e tripulantes são mortos.
+1992 – Começa no Rio de Janeiro a Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento.
+2006 – A união da Sérvia e Montenegro chega ao fim com a declaração formal de independência de Montenegro.
+2017 – Oito pessoas são assassinadas e dezenas são feridas em atentados terroristas na Ponte de Londres e no Mercado de Borough, em Londres.
 Nasceram neste dia…
-Otão da Grécia (1815–1867)  •  Carl von Clausewitz (1780–1831)  •  Marilyn Monroe (1926–1962)  •  Ronnie Wood (n. 1947)
+João Manuel, Príncipe de Portugal  (1537–1554)  •  Jefferson Davis (1808–1889)  •  Marion Zimmer Bradley (1930–1999)  •  Rafael Nadal (n. 1986)
 Morreram neste dia…
-Tokugawa Ieyasu (1543–1616)  •  Camilo Castelo Branco (1825–1890)  •  Ödön von Horváth (1901–1938)  •  Yves Saint Laurent (1936–2008)
+William Harvey (1578–1657)  •  Franz Kafka (1883–1924)  •  Augusto Ruschi (1915–1986)  •  Muhammad Ali (imagem) (1942–2016)
 
 
-Ver mais • Outros dias: 30 • 31 • 1 • 2 • 3 • Ver todos
+Ver mais • Outros dias: 1 • 2 • 3 • 4 • 5 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225905 characters
-INFO:root:HTML parsed, length: 224486 characters
+INFO:root:Response length: 225662 characters
+INFO:root:HTML parsed, length: 224243 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Soldadinhos.jpg']
-INFO:root:Found 1 descriptions: ['Gafanhotos-soldados (Chromacris speciosa), em está']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Duisburg,_Landschaftspark_Duisburg-Nord,_Hochofen_5,_Halle_--_2024_--_4164_(kreativ_4).jpg']
+INFO:root:Found 1 descriptions: ['Foto artística baseada em uma foto de uma comporta']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Soldadinhos.jpg/960px-Soldadinhos.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5%2C_Halle_--_2024_--_4164_%28kreativ_4%29.jpg/960px-Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5%2C_Halle_--_2024_--_4164_%28kreativ_4%29.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -449,15 +392,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Soldadinhos.jpg
-INFO:root:🔹 Description: Gafanhotos-soldados (Chromacris speciosa), em estágio de ninfa, fotografados no Parque Estadual Paulo César Vinha, no estado brasileiro do Espírito Santo. A espécie recorre à coloração vermelha para sinalizar sua toxicidade aos predadores.
-(resolução original: 3 872 × 2 592)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Duisburg,_Landschaftspark_Duisburg-Nord,_Hochofen_5,_Halle_--_2024_--_4164_(kreativ_4).jpg
+INFO:root:🔹 Description: Foto artística baseada em uma foto de uma comporta rolante do alto-forno 5 no parque paisagístico Duisburg-Nord, Duisburgo, Renânia do Norte-Vestfália, Alemanha.
+(resolução original: 5 973 × 4 480)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Soldadinhos.jpg/960px-Soldadinhos.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5%2C_Halle_--_2024_--_4164_%28kreativ_4%29.jpg/960px-Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5%2C_Halle_--_2024_--_4164_%28kreativ_4%29.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -474,23 +417,27 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
  M feeds/wikidia/atom.xml
+ M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 +++---
- feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  41 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  52 ++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  47 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  26 ++-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 134 +++-------
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 270 ++++++++++++++++--------------
- 14 files changed, 258 insertions(+), 219 deletions(-)
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 430 +++++++++++++-----------------
+ 16 files changed, 330 insertions(+), 457 deletions(-)
