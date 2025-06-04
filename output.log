@@ -1,46 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119460 characters
-INFO:root:HTML parsed, length: 112572 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (03/06/2025)', 'Palavra de Ontem (02/06/2025)', 'Palavra de Anteontem (01/06/2025)']
-INFO:root:Found 3 URLs: ['/escusavel/', '/campeao/', '/talar/']
-INFO:root:Found 13 descriptions: ['adjetivo Que se consegue escusar, desculpar; descu', 'Sinônimos:\n\ndispensado, desculpável, justificável,', 'Antônimos:\n\ninescusável']
-INFO:root:Found 3 dates: ['Palavra de Hoje (03/06/2025)', 'Palavra de Ontem (02/06/2025)', 'Palavra de Anteontem (01/06/2025)']
+INFO:root:Response length: 119854 characters
+INFO:root:HTML parsed, length: 112785 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (04/06/2025)', 'Palavra de Ontem (03/06/2025)', 'Palavra de Anteontem (02/06/2025)']
+INFO:root:Found 3 URLs: ['/contemporaneo/', '/escusavel/', '/campeao/']
+INFO:root:Found 14 descriptions: ['adjetivo Na mesma época; do mesmo tempo; que habit', 'Sinônimos:\n\natual, recente, novo, hodierno, presen', 'Antônimos:\n\nanacrônico, arcaico, obsoleto, velho, ']
+INFO:root:Found 3 dates: ['Palavra de Hoje (04/06/2025)', 'Palavra de Ontem (03/06/2025)', 'Palavra de Anteontem (02/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (03/06/2025)', ID=5a614920c97f81ab23134f7d63f9f036
-INFO:root:Processing entry 2: Title='Palavra de Ontem (02/06/2025)', ID=543563b5ff48ec0d3f4a90eff4e9dc7d
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (01/06/2025)', ID=eb03061d55f8ae7f0037535498bc4381
+INFO:root:Processing entry 1: Title='Palavra de Hoje (04/06/2025)', ID=fe29f8db59b3cc194f0b75ad475f0c08
+INFO:root:Processing entry 2: Title='Palavra de Ontem (03/06/2025)', ID=89659f764a3543e4c1e1418416d47a0f
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (02/06/2025)', ID=e69c7532236a83f903176a1fb35e9160
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (03/06/2025) - Significado completo de escusável:
-INFO:root:🔹 URL: https://www.dicio.com.br/escusavel/
-INFO:root:🔹 Description: adjetivo Que se consegue escusar, desculpar; desculpável, justificável, perdoável, prescindível.Que foi dispensado; desnecessário, dispensável.Etimologia (origem da palavra escusável). Do latim excusabilis.e.
+INFO:root:🔹 Title: Palavra de Hoje (04/06/2025) - Significado completo de contemporâneo:
+INFO:root:🔹 URL: https://www.dicio.com.br/contemporaneo/
+INFO:root:🔹 Description: adjetivo Na mesma época; do mesmo tempo; que habitou ou teve seu início na mesma época que outra coisa ou pessoa: Rui Barbosa é um autor contemporâneo de Machado de Assis.No tempo atual; que acontece ou tem seu início no presente, no tempo em que se está vivendo: literatura contemporânea.[História] Que pode se referir ao período que, convencionalmente, teve seu início com a Revolução Francesa.substantivo masculino Algo ou alguém que fez parte de uma mesma época ou que faz parte do presente, do tempo atual: aquele ator foi meu contemporâneo na faculdade.Etimologia (origem da palavra contemporâneo). A palavra contemporâneo deriva do latim "contemporaneus, a, um", que significa algo que é do mesmo tempo.
  
 Sinônimos:
 
-dispensado, desculpável, justificável, perdoável, prescindível, desnecessário, dispensável 
+atual, recente, novo, hodierno, presente, contemporão, coetâneo, coevo 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (02/06/2025) - Significado completo de campeão:
-INFO:root:🔹 URL: https://www.dicio.com.br/campeao/
+INFO:root:🔹 Title: Palavra de Ontem (03/06/2025) - Significado completo de escusável:
+INFO:root:🔹 URL: https://www.dicio.com.br/escusavel/
 INFO:root:🔹 Description: Sinônimos:
 
-dispensado, desculpável, justificável, perdoável, prescindível, desnecessário, dispensável
+atual, recente, novo, hodierno, presente, contemporão, coetâneo, coevo
  
 Antônimos:
 
-inescusável 
+anacrônico, arcaico, obsoleto, velho, antigo, antiquado 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (01/06/2025) - Significado completo de talar:
-INFO:root:🔹 URL: https://www.dicio.com.br/talar/
+INFO:root:🔹 Title: Palavra de Anteontem (02/06/2025) - Significado completo de campeão:
+INFO:root:🔹 URL: https://www.dicio.com.br/campeao/
 INFO:root:🔹 Description: Antônimos:
 
-inescusável
- Classe gramatical:adjetivo de dois gêneros
+anacrônico, arcaico, obsoleto, velho, antigo, antiquado
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +48,71 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243249 characters
-INFO:root:HTML parsed, length: 232571 characters
-INFO:root:Found 1 titles: ['2 Timóteo 4:2']
-INFO:root:Found 1 URLs: ['/versiculo/2_timoteo_4_2/']
-INFO:root:Found 1 descriptions: ['Pregue a palavra, esteja preparado a tempo e fora ']
+INFO:root:Response length: 243333 characters
+INFO:root:HTML parsed, length: 232655 characters
+INFO:root:Found 1 titles: ['1 Samuel 15:22']
+INFO:root:Found 1 URLs: ['/versiculo/1_samuel_15_22/']
+INFO:root:Found 1 descriptions: ['Samuel, porém, respondeu:\n"Acaso tem o Senhor tant']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Timóteo 4:2', ID=6ba3f7f1bf6f2c6c499105c6237cd5f8
+INFO:root:Processing entry 1: Title='1 Samuel 15:22', ID=6a4e5bb708af15887aca05ed0ec9e791
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Timóteo 4:2
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_timoteo_4_2/
-INFO:root:🔹 Description: Pregue a palavra, esteja preparado a tempo e fora de tempo, repreenda, corrija, exorte com toda a paciência e doutrina. 2 Timóteo 4:2
+INFO:root:🔹 Title: 1 Samuel 15:22
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_samuel_15_22/
+INFO:root:🔹 Description: Samuel, porém, respondeu:
+"Acaso tem o Senhor tanto prazer
+em holocaustos e em sacrifícios
+quanto em que se obedeça
+à sua palavra?
+A obediência é melhor
+do que o sacrifício,
+e a submissão é melhor
+do que a gordura de carneiros. 1 Samuel 15:22
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 241911 characters
-INFO:root:HTML parsed, length: 231932 characters
-INFO:root:Found 3 titles: ['Salmo 97', 'Salmo 128', 'Salmo 82']
-INFO:root:Found 3 URLs: ['/salmos_97/', '/salmos_128/', '/salmos_82/']
-INFO:root:Found 3 descriptions: ['O Senhor reina!\nExulte a terra\ne alegrem-se as reg', 'Como é feliz quem teme o Senhor,\nquem anda em seus', 'É Deus quem preside a assembleia divina;\nno meio d']
-INFO:root:Found 3 dates: ['3 de Junho de 2025', '2 de Junho de 2025', '1 de Junho de 2025']
+INFO:root:Response length: 241870 characters
+INFO:root:HTML parsed, length: 231891 characters
+INFO:root:Found 3 titles: ['Salmo 3', 'Salmo 97', 'Salmo 128']
+INFO:root:Found 3 URLs: ['/salmos_3/', '/salmos_97/', '/salmos_128/']
+INFO:root:Found 3 descriptions: ['Senhor, muitos são os meus adversários!\nMuitos se ', 'O Senhor reina!\nExulte a terra\ne alegrem-se as reg', 'Como é feliz quem teme o Senhor,\nquem anda em seus']
+INFO:root:Found 3 dates: ['4 de Junho de 2025', '3 de Junho de 2025', '2 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
-INFO:root:Processing entry 2: Title=' Salmo 128', ID=566f59e35e0f2396b80f951a21a49154
-INFO:root:Processing entry 3: Title=' Salmo 82', ID=b08571775c4d91acb25aaf79665479aa
+INFO:root:Processing entry 1: Title=' Salmo 3', ID=2382efb24e8b2ed4937c03831af37388
+INFO:root:Processing entry 2: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
+INFO:root:Processing entry 3: Title=' Salmo 128', ID=566f59e35e0f2396b80f951a21a49154
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 3
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_3/
+INFO:root:🔹 Description: Senhor, muitos são os meus adversários!
+Muitos se rebelam contra mim! 
+São muitos os que dizem a meu respeito:
+"Deus nunca o salvará!" 
+Mas tu, Senhor,
+és o escudo que me protege;
+és a minha glória
+e me fazes andar de cabeça erguida. 
+Ao Senhor clamo em alta voz,
+e do seu santo monte ele me responde. 
+Eu me deito e durmo, e torno a acordar,
+porque é o Senhor que me sustém. 
+Não me assustam os milhares que me cercam. 
+Levanta-te, Senhor!
+Salva-me, Deus meu!
+Quebra o queixo de todos os meus inimigos;
+arrebenta os dentes dos ímpios. 
+Do Senhor vem o livramento.
+A tua bênção está sobre o teu povo. 
+ Salmo 3
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 97
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_97/
 INFO:root:🔹 Description: O Senhor reina!
@@ -136,95 +167,88 @@ e veja os filhos dos seus filhos.
 Haja paz em Israel! 
  Salmo 128
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 82
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_82/
-INFO:root:🔹 Description: É Deus quem preside a assembleia divina;
-no meio dos deuses, ele é o juiz. 
-"Até quando vocês vão absolver os culpados
-e favorecer os ímpios? 
-"Garantam justiça para os fracos
-e para os órfãos;
-mantenham os direitos dos necessitados
-e dos oprimidos. 
-Livrem os fracos e os pobres;
-libertem-nos das mãos dos ímpios. 
-"Eles nada sabem, nada entendem.
-Vagueiam pelas trevas;
-todos os fundamentos da terra estão abalados. 
-"Eu disse: 'Vocês são deuses,
-todos vocês são filhos do Altíssimo'. 
-Mas vocês morrerão como simples homens;
-cairão como qualquer outro governante." 
-Levanta-te, ó Deus, julga a terra,
-pois todas as nações te pertencem. 
- Salmo 82
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245875 characters
-INFO:root:HTML parsed, length: 235581 characters
-INFO:root:Found 3 titles: ['Confiando na vontade de Deus', 'Os planos de Deus são melhores', 'Todo dia é motivo de agradecermos a Deus']
+INFO:root:Response length: 246116 characters
+INFO:root:HTML parsed, length: 235824 characters
+INFO:root:Found 3 titles: ['Jesus Cristo, Filho de Deus, Salvador', 'Confiando na vontade de Deus', 'Os planos de Deus são melhores']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Como é grande a tua bondade,\nque reservaste para a', 'Imagine a melhor bênção possível para sua vida... ', 'Em tudo dai graças, porque esta é a vontade de Deu']
-INFO:root:Found 1 dates: ['Terça, 3 de junho de 2025']
+INFO:root:Found 3 descriptions: ['E vimos e testemunhamos que o Pai enviou seu Filho', 'Como é grande a tua bondade,\nque reservaste para a', 'Imagine a melhor bênção possível para sua vida... ']
+INFO:root:Found 1 dates: ['Quarta, 4 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Confiando na vontade de Deus', ID=391749514061512093e08aea64e3314b
+INFO:root:Processing entry 1: Title='Jesus Cristo, Filho de Deus, Salvador', ID=0c652e892e6a908fbe8abfea1bd53e1f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Confiando na vontade de Deus - Palavra de Hoje
+INFO:root:🔹 Title: Jesus Cristo, Filho de Deus, Salvador - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Como é grande a tua bondade,
-que reservaste para aqueles que te temem,
-e que, à vista dos homens,
-concedes àqueles que se refugiam em ti!
-- Salmo 31:19
+INFO:root:🔹 Description: E vimos e testemunhamos que o Pai enviou seu Filho para ser o Salvador do mundo. Se alguém confessa publicamente que Jesus é o Filho de Deus, Deus permanece nele, e ele em Deus.
+- 1 João 4:14-15
 
-Seria maravilhoso não ter problemas com ninguém, receber apenas boas notícias e não encontrar obstáculos em nosso caminho! Claro, gostaríamos de viver uma vida tranquila e tranquila. Mas nossa realidade aqui na Terra é diferente. Enfrentamos desafios e dificuldades quase todos os dias, pois fazem parte da vida.
-Mas há algo mais que é verdade na vida de um crente: em meio a essas provações, não estamos sozinhos. Nosso Senhor Jesus Cristo nos ajuda, nos fortalece e nos traz paz. Mesmo nos momentos de maior tristeza ou dificuldade, Ele está ao nosso lado e nos mostra Sua bondade: basta estarmos atentos.
-Mas, muitas vezes, nosso foco permanece no problema, e todos os tipos de perguntas surgem. Por que isso não acaba logo? Por que Deus não intervém e me dá paz? Por que meu filho continua rebelde? Por que meus vizinhos não param de nos incomodar? Fazemos milhares de perguntas ao Senhor, sem parar um momento para lembrar tudo o que Deus fez por nós e as muitas promessas que Ele nos fez.
-Quando nos lembramos da bondade de Deus, nossos corações se enchem de esperança. Ele foi fiel no passado. Ele é fiel hoje e será fiel amanhã. Mesmo que nem sempre entendamos seus caminhos, podemos confiar que sua natureza não muda: Deus é bom. Seu amor é constante, sua misericórdia se renova a cada manhã e sua graça nos sustenta mesmo quando não a sentimos. A história de nossas vidas está entrelaçada com atos de sua bondade, muitos dos quais só compreenderemos plenamente na eternidade.
-Portanto, o desafio para nós é olhar além das dificuldades e fixar nossos olhos naquele que nunca falha. Confiemos nEle, mesmo quando não entendemos o que Ele permite. Se Deus foi bom no passado, Ele o será novamente. Sua fidelidade é a nossa âncora, e Sua bondade, o nosso refúgio seguro.
 
-Recordarei os feitos do Senhor;
-recordarei os teus antigos milagres.
-Meditarei em todas as tuas obras
-e considerarei todos os teus feitos.
-- Salmo 77:11-12
+Nisto consiste o amor: não em que nós tenhamos amado a Deus, mas em que ele nos amou e enviou seu Filho como propiciação pelos nossos pecados.
+- 1 João 4:10
 
-Veja também: Razões para confiar em Deus em meio às lutas
+Desde o nascimento da igreja, houve períodos de perseguição, mas a igreja do Senhor permaneceu firme e forte. É por isso que, mesmo hoje, milhares de anos após a morte e ressurreição de Jesus, há pessoas que proclamam Jesus como Senhor e Salvador e escolhem viver para Ele.
+No início, e para se reconhecerem mutuamente, a igreja primitiva usava o símbolo do peixe, o Ichthys. Com este símbolo, declaravam a verdade que ardia em seus corações: pertenciam e serviam a Jesus Cristo, o Filho de Deus, Salvador do mundo. Nós também somos chamados a declarar esta verdade onde quer que formos. Estamos fazendo isso?
+Aproveitemos todas as oportunidades que este dia nos apresenta para testemunhar que Jesus é o Filho de Deus, o Salvador do mundo. É graças a Ele que somos purificados de todo pecado e temos a certeza da vida eterna. Levemos a Sua presença aonde quer que formos.
+Pode ser um gesto simples, como sorrir para uma pessoa desanimada. Talvez possamos animar alguém com uma frase simples como: "Nunca se esqueça de que Deus te ama". Ou podemos rapidamente nos oferecer para orar por alguém que compartilha uma preocupação conosco. Se estivermos atentos e nos deixarmos guiar pelo Espírito Santo, reconheceremos as oportunidades.
+Proclamemos o que vivenciamos. Em Cristo, Deus nos transformou, nos deu a sua salvação e nos encheu de esperança. Ele também quer alcançar aqueles ao nosso redor com o seu amor e perdão. Sejamos canais de bênção todos os dias.
+Veja também: A história de Jesus (o filho de Deus)
  
 Propósito de Deus: Como descobrir e entender o seu
 Versículos sobre Propósito
 Qual o propósito da vida segundo a Bíblia
 
  
-Como é grande a tua bondade,
-que reservaste para aqueles que te temem,
-e que, à vista dos homens,
-concedes àqueles que se refugiam em ti!
-- Salmo 31:19
+E vimos e testemunhamos que o Pai enviou seu Filho para ser o Salvador do mundo. Se alguém confessa publicamente que Jesus é o Filho de Deus, Deus permanece nele, e ele em Deus.
+- 1 João 4:14-15
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 254617 characters
-INFO:root:HTML parsed, length: 244090 characters
-INFO:root:Found 3 titles: ['Jesus cura o coração ferido', 'Devocional: Vencedores por meio do amor de Cristo', 'Andamos pelo que cremos, não pelo que vemos!']
-INFO:root:Found 6 URLs: ['/medico_dos_medicos/', '/provas_do_amor_de_deus/', '/seja_mais_que_vencedor_estudo/']
-INFO:root:Found 3 descriptions: ['O Senhor está perto\ndos que têm o coração quebrant', 'Mas em todas estas coisas somos mais que vencedore', 'O Senhor lutará por vocês; tão somente acalmem-se"']
-INFO:root:Found 3 dates: ['JUNHO\n\n3\nTERÇA', 'JUNHO\n\n2\nSEGUNDA', 'JUNHO\n\n1\nDOMINGO']
+INFO:root:Response length: 255312 characters
+INFO:root:HTML parsed, length: 244791 characters
+INFO:root:Found 3 titles: ['Entregando o seu melhor a Deus', 'Jesus cura o coração ferido', 'Devocional: Vencedores por meio do amor de Cristo']
+INFO:root:Found 5 URLs: ['/versiculos_para_louvar_a_deus/', '/medico_dos_medicos/', '/provas_do_amor_de_deus/']
+INFO:root:Found 3 descriptions: ['Tudo o que fizerem, façam de todo o coração, como ', 'O Senhor está perto\ndos que têm o coração quebrant', 'Mas em todas estas coisas somos mais que vencedore']
+INFO:root:Found 3 dates: ['JUNHO\n\n4\nQUARTA', 'JUNHO\n\n3\nTERÇA', 'JUNHO\n\n2\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Jesus cura o coração ferido', ID=c3ea9c14c818961a8e99f1cd038d1a85
-INFO:root:Processing entry 2: Title='Devocional: Vencedores por meio do amor de Cristo', ID=5c531fb2c2a684cfdacf351cda7854c2
-INFO:root:Processing entry 3: Title='Andamos pelo que cremos, não pelo que vemos!', ID=80996dd0ec08b3ef405558a9f2841b2e
+INFO:root:Processing entry 1: Title='Entregando o seu melhor a Deus', ID=3b39ccb43261e03adff1cc8e6e156fb3
+INFO:root:Processing entry 2: Title='Jesus cura o coração ferido', ID=c3ea9c14c818961a8e99f1cd038d1a85
+INFO:root:Processing entry 3: Title='Devocional: Vencedores por meio do amor de Cristo', ID=5c531fb2c2a684cfdacf351cda7854c2
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Entregando o seu melhor a Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
+INFO:root:🔹 Description: Tudo o que fizerem, façam de todo o coração, como para o Senhor, e não para os homens,
+- Colossenses 3:23
+
+Deus é digno do nosso melhor. Ele não procura perfeição, mas sim corações sinceros e comprometidos com Sua vontade. Quando entregamos algo a Ele, devemos fazê-lo com excelência, dedicação e amor, como uma oferta viva e agradável. Isso vale para tudo: nosso trabalho, nossas palavras, nosso tempo e nossos talentos.
+Muitas vezes, somos tentados a dar o que sobra, o tempo que resta, a atenção limitada, o esforço mínimo. No entanto, o exemplo de Abel nos mostra o valor de oferecer o melhor. Ele entregou das primícias do seu rebanho, e Deus se agradou da sua oferta (Gênesis 4:4). Da mesma forma, somos chamados a priorizar o Senhor em nossas ações diárias, colocando-O no centro de tudo o que fazemos.
+Entregar o melhor a Deus não significa agir por obrigação, mas por gratidão. Afinal, Ele nos deu o Seu melhor: Jesus Cristo, o Filho amado, que se entregou por nós na cruz. Em resposta a esse amor imensurável, devemos viver de forma que O honre, buscando excelência não para sermos vistos pelos homens, mas para glorificar o nome d’Ele.
+Examine sua vida hoje: em que áreas você pode melhorar sua entrega ao Senhor? Em seu serviço na igreja, no seu relacionamento com as pessoas, na sua devoção pessoal? Peça ao Espírito Santo que o ajude a viver com integridade e fervor, oferecendo a Deus o que Ele merece, o melhor de você.
+Porque quando damos o nosso melhor ao Senhor, Ele se alegra e nos capacita ainda mais para cumprir Seu propósito em nossas vidas.
+Vivendo para a glória de Deus
+
+
+Priorize a Deus em tudo: Coloque Deus em primeiro lugar nas suas decisões, ações e pensamentos. Ele honra aqueles que O colocam no centro de suas vidas com fidelidade e amor.
+
+Sirva com coração sincero: Não sirva por obrigação ou aparência. Entregue seu tempo, dons e talentos com alegria, sabendo que tudo o que é feito para Deus tem valor eterno.
+
+Cultive uma vida de excelência: Busque fazer tudo com dedicação e capricho, refletindo o caráter de Cristo. A excelência cristã inspira outros e glorifica a Deus em cada detalhe da vida.
+
+Para orar:
+
+Senhor, entrego a Ti o melhor de mim. Que minhas ações, palavras e pensamentos Te glorifiquem. Molda meu coração para Te servir com amor, excelência e sinceridade. Amém.
+
+Veja também: Formas de louvar ao Senhor de todo o nosso coração
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Jesus cura o coração ferido
 INFO:root:🔹 URL: https://www.bibliaon.com/medico_dos_medicos/
 INFO:root:🔹 Description: O Senhor está perto
@@ -281,47 +305,13 @@ Veja também:
 Somos mais que vencedores (Estudo Bíblico)
 O amor de Deus é incondicional (Estudo Bíblico)
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Andamos pelo que cremos, não pelo que vemos!
-INFO:root:🔹 URL: https://www.bibliaon.com/seja_mais_que_vencedor_estudo/
-INFO:root:🔹 Description: O Senhor lutará por vocês; tão somente acalmem-se".
-Disse então o Senhor a Moisés: "Por que você está clamando a mim? Diga aos israe­litas que sigam avante.Êxodo 14:14-15
-
-Imagine, se ver sem saída, entre o mar e os egípcios. Da mesma forma, podemos nos encontrar em dificuldades e tribulações que parecem não haver saída. Nessas horas, constatar os problemas não ajudam em nada.
-Assim como o povo de Israel, já temos uma palavra da parte de Deus, por isso, devemos avançar sob a orientação do Senhor:
-
-Porque vivemos por fé, e não pelo que vemos.2 Coríntios 5:7 
-
-Vivemos por que cremos e assim devemos continuar: a saída está por meio da fé em Deus. Não precisamos de uma justificativa lógica para avançar... precisamos do sim de Deus!
-Quando avançamos e obedecemos a Deus, o mar se abre, o que era impossível acontece e aumentamos a nossa intimidade com Ele.
-Acalme-se, avance por meio da fé me Cristo Jesus!
-Para frente é que se anda!
-
-
-Se está perdido, sem saída, recorra a Deus, ore, Ele te mostrará uma direção.
-
-
-Se Deus te indicou uma saída, não duvide, obedeça.
-
-
-Deus não vai te guiar para um caminho de destruição. Confie nele!
-
-
-Para Orar:
-
-Senhor Deus, sinto-me sem saída. Dá-me a Sua direção e conduza-me de forma que o Seu nome seja glorificado. Sei que estás acima dos problemas, por isso, confio na Sua Palavra. Amém.
-
-Sugestão de leitura:
-
-História e biografia de Moisés segundo a Bíblia 
-Reflexão Bíblica: 14 mensagens de fé e esperança em Deus
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225662 characters
-INFO:root:HTML parsed, length: 224243 characters
+INFO:root:Response length: 226914 characters
+INFO:root:HTML parsed, length: 225495 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 26 URLs: ['/wiki/Jaur%C3%A9guiberry_(coura%C3%A7ado)', '/wiki/Jaur%C3%A9guiberry_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
-INFO:root:Found 1 descriptions: ['O Jauréguiberry foi um couraçado pré-dreadnought o']
+INFO:root:Found 26 URLs: ['/wiki/Lambeosaurus', '/wiki/Lambeosaurus', '/wiki/Lawrence_Lambe']
+INFO:root:Found 1 descriptions: ['Lambeosaurus (em português: "lagarto de Lambe) é u']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -331,9 +321,9 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Jaur%C3%A9guiberry_(coura%C3%A7ado)
-INFO:root:🔹 Description: O Jauréguiberry foi um couraçado pré-dreadnought operado pela Marinha Nacional Francesa de 1897 a 1919. Sua construção começou em abril de 1891 na Forges et Chantiers de la Méditerranée e foi lançado ao mar em outubro de 1893. Ele era membro de um grupo de cinco navios semelhantes entre si, ao lado do Charles Martel, Carnot, Masséna e Bouvet. O Jauréguiberry era armado com uma bateria principal de dois canhões de 305 milímetros montados em duas torres de artilharia únicas e dois canhões de 274 milímetros também em duas torres únicas, tinha um deslocamento de mais de doze mil toneladas e conseguia alcançar uma velocidade máxima de dezessete nós.
-Sua carreira foi relativamente tranquila em tempos de paz, com a maior parte de seu serviço em atividades de treinamento no Mar Mediterrâneo. Sofreu alguns pequenos acidentes, incluindo quatro explosões de torpedos ar comprimido. Ele juntou-se à Esquadra Internacional que interveio em 1897 e 1898 na revolta grega em Creta contra o domínio do Império Otomano, durante a Guerra Greco-Turca de 1897. Em 1907 foi designado para a Divisão de Reserva, mas continuou a participar de manobras navais. (Leia mais...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Lambeosaurus
+INFO:root:🔹 Description: Lambeosaurus (em português: "lagarto de Lambe) é um gênero de dinossauro hadrossaurídeo que viveu há cerca de 75 milhões de anos, no período Cretáceo Superior (estágio Campaniano) da América do Norte. Este dinossauro bípede/quadrúpede, herbívoro, é conhecido por sua distinta crista craniana oca, que nas espécies mais conhecidas se assemelhava a uma luva. Várias espécies possíveis foram nomeadas, do Canadá, Estados Unidos e México, mas apenas as duas espécies canadenses são atualmente reconhecidas como válidas.
+O material relevante para o gênero foi nomeado pela primeira vez por Lawrence Lambe em 1902. Mais de vinte anos depois, o nome moderno foi cunhado em 1923 por William Parks, em homenagem a Lambe, com base em espécimes mais bem preservados. O gênero tem uma história taxonômica complicada, em parte porque os hadrossaurídeos com crista de corpo pequeno, agora reconhecidos como juvenis, já foram considerados pertencentes a seus próprios gêneros e espécies. (Leia mais...)
 
 
 
@@ -341,49 +331,49 @@ Compartilhe:
 
 
 
-Artigos destacados: 1496 •
+Artigos destacados: 1497 •
 Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225662 characters
-INFO:root:HTML parsed, length: 224243 characters
-INFO:root:Found 1 titles: ['3 de junho na história']
-INFO:root:Found 43 URLs: ['/wiki/Ficheiro:Muhammad_Ali_NYWTS.jpg', '/wiki/Dia_Mundial_da_Bicicleta', '/wiki/1992']
-INFO:root:Found 1 descriptions: ['Muhammad Ali\nDia Mundial da Bicicleta (2018)\n\n1992']
+INFO:root:Response length: 226914 characters
+INFO:root:HTML parsed, length: 225495 characters
+INFO:root:Found 1 titles: ['4 de junho na história']
+INFO:root:Found 42 URLs: ['/wiki/Ficheiro:FordQuadricycle.jpg', '/wiki/Dia_Internacional_das_Crian%C3%A7as_V%C3%ADtimas_de_Agress%C3%A3o', '/wiki/1896']
+INFO:root:Found 1 descriptions: ['Quadriciclo de Ford\nDia Internacional das Crianças']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='3 de junho na história', ID=b213607abd87f717ed75f8ff3af7d0f5
+INFO:root:Processing entry 1: Title='4 de junho na história', ID=dc73294f2b4ea99be73fb9b891b26864
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 3 de junho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Muhammad_Ali_NYWTS.jpg
-INFO:root:🔹 Description: Muhammad Ali
-Dia Mundial da Bicicleta (2018)
+INFO:root:🔹 Title: 4 de junho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:FordQuadricycle.jpg
+INFO:root:🔹 Description: Quadriciclo de Ford
+Dia Internacional das Crianças Vítimas de Agressão (1982)
 
-1992 – Começa no Rio de Janeiro a Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento.
-2006 – A união da Sérvia e Montenegro chega ao fim com a declaração formal de independência de Montenegro.
-2017 – Oito pessoas são assassinadas e dezenas são feridas em atentados terroristas na Ponte de Londres e no Mercado de Borough, em Londres.
+1896 – Henry Ford conclui o Quadriciclo de Ford (imagem), seu primeiro automóvel movido a gasolina, e faz um teste de sucesso.
+1940 – Segunda Guerra Mundial: é completada a retirada de Dunquerque, com a evacuação de 300 mil soldados aliados.
+1989 – Protestos na Praça da Paz Celestial são violentamente reprimidos em Pequim, pelo Exército Popular de Libertação, com pelo menos 241 mortos.
 Nasceram neste dia…
-João Manuel, Príncipe de Portugal  (1537–1554)  •  Jefferson Davis (1808–1889)  •  Marion Zimmer Bradley (1930–1999)  •  Rafael Nadal (n. 1986)
+Jorge III do Reino Unido (1738–1820)  •  François Quesnay (1694–1774)  •  Jorge Palma (n. 1950)  •  Cecilia Bartoli (n. 1966)
 Morreram neste dia…
-William Harvey (1578–1657)  •  Franz Kafka (1883–1924)  •  Augusto Ruschi (1915–1986)  •  Muhammad Ali (imagem) (1942–2016)
+Giacomo Casanova (1725–1798)  •  Antonio José de Sucre (1795–1830)  •  Guilherme II da Alemanha (1859–1941)  •  Roberto Burle Marx (1909–1994)
 
 
-Ver mais • Outros dias: 1 • 2 • 3 • 4 • 5 • Ver todos
+Ver mais • Outros dias: 2 • 3 • 4 • 5 • 6 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225662 characters
-INFO:root:HTML parsed, length: 224243 characters
+INFO:root:Response length: 226914 characters
+INFO:root:HTML parsed, length: 225495 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Duisburg,_Landschaftspark_Duisburg-Nord,_Hochofen_5,_Halle_--_2024_--_4164_(kreativ_4).jpg']
-INFO:root:Found 1 descriptions: ['Foto artística baseada em uma foto de uma comporta']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Asbestnaya_Mount,_Adygea,_%D0%93%D0%BE%D1%80%D0%B0_%D0%90%D1%81%D0%B1%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D1%8F,_%D0%B2%D0%B8%D0%B4%D1%8B_%D1%81_%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D1%8B,_%D0%90%D0%B4%D1%8B%D0%B3%D0%B5%D1%8F,_%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%9A%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7.jpg']
+INFO:root:Found 1 descriptions: ['Céu nublado sobre o sistema montanhoso do Grande C']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5%2C_Halle_--_2024_--_4164_%28kreativ_4%29.jpg/960px-Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5%2C_Halle_--_2024_--_4164_%28kreativ_4%29.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Asbestnaya_Mount%2C_Adygea%2C_%D0%93%D0%BE%D1%80%D0%B0_%D0%90%D1%81%D0%B1%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D1%8F%2C_%D0%B2%D0%B8%D0%B4%D1%8B_%D1%81_%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D1%8B%2C_%D0%90%D0%B4%D1%8B%D0%B3%D0%B5%D1%8F%2C_%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%9A%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7.jpg/960px-Asbestnaya_Mount%2C_Adygea%2C_%D0%93%D0%BE%D1%80%D0%B0_%D0%90%D1%81%D0%B1%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D1%8F%2C_%D0%B2%D0%B8%D0%B4%D1%8B_%D1%81_%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D1%8B%2C_%D0%90%D0%B4%D1%8B%D0%B3%D0%B5%D1%8F%2C_%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%9A%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -392,15 +382,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Duisburg,_Landschaftspark_Duisburg-Nord,_Hochofen_5,_Halle_--_2024_--_4164_(kreativ_4).jpg
-INFO:root:🔹 Description: Foto artística baseada em uma foto de uma comporta rolante do alto-forno 5 no parque paisagístico Duisburg-Nord, Duisburgo, Renânia do Norte-Vestfália, Alemanha.
-(resolução original: 5 973 × 4 480)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Asbestnaya_Mount,_Adygea,_%D0%93%D0%BE%D1%80%D0%B0_%D0%90%D1%81%D0%B1%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D1%8F,_%D0%B2%D0%B8%D0%B4%D1%8B_%D1%81_%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D1%8B,_%D0%90%D0%B4%D1%8B%D0%B3%D0%B5%D1%8F,_%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%9A%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7.jpg
+INFO:root:🔹 Description: Céu nublado sobre o sistema montanhoso do Grande Cáucaso, em meio a neblina e névoa atmosférica. A paisagem apresenta características de diferentes eras geológicas: Triássico, Jurássico e Oligoceno. Panorama fotografado do monte Asbestnaya, República da Adigueia, cordilheira do Cáucaso.
+(resolução original: 4 912 × 3 264)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5%2C_Halle_--_2024_--_4164_%28kreativ_4%29.jpg/960px-Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5%2C_Halle_--_2024_--_4164_%28kreativ_4%29.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Asbestnaya_Mount%2C_Adygea%2C_%D0%93%D0%BE%D1%80%D0%B0_%D0%90%D1%81%D0%B1%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D1%8F%2C_%D0%B2%D0%B8%D0%B4%D1%8B_%D1%81_%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D1%8B%2C_%D0%90%D0%B4%D1%8B%D0%B3%D0%B5%D1%8F%2C_%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%9A%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7.jpg/960px-Asbestnaya_Mount%2C_Adygea%2C_%D0%93%D0%BE%D1%80%D0%B0_%D0%90%D1%81%D0%B1%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D1%8F%2C_%D0%B2%D0%B8%D0%B4%D1%8B_%D1%81_%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D1%8B%2C_%D0%90%D0%B4%D1%8B%D0%B3%D0%B5%D1%8F%2C_%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%9A%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -416,6 +406,7 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -424,20 +415,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  52 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  57 +++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  47 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  33 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 134 +++-------
+ feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  44 ++--
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |  10 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/atom.xml               |   8 +-
+ feeds/wikidestaque/feed.json              |   4 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 430 +++++++++++++-----------------
- 16 files changed, 330 insertions(+), 457 deletions(-)
+ output.log                                | 348 ++++++++++++++----------------
+ 17 files changed, 291 insertions(+), 327 deletions(-)
