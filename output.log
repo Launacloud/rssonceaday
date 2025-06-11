@@ -1,44 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119347 characters
-INFO:root:HTML parsed, length: 112462 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (10/06/2025)', 'Palavra de Ontem (09/06/2025)', 'Palavra de Anteontem (08/06/2025)']
-INFO:root:Found 3 URLs: ['/densamente/', '/retificar/', '/desvalorativo/']
-INFO:root:Found 11 descriptions: ['advérbio De modo denso, condensado; condensadament', 'Sinônimos:\n\nprofundamente, extremamente', 'Sílabas:den-sa-men-te']
-INFO:root:Found 3 dates: ['Palavra de Hoje (10/06/2025)', 'Palavra de Ontem (09/06/2025)', 'Palavra de Anteontem (08/06/2025)']
+INFO:root:Response length: 119735 characters
+INFO:root:HTML parsed, length: 112666 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (11/06/2025)', 'Palavra de Ontem (10/06/2025)', 'Palavra de Anteontem (09/06/2025)']
+INFO:root:Found 3 URLs: ['/gabola/', '/densamente/', '/retificar/']
+INFO:root:Found 13 descriptions: ['substantivo masculino e feminino Pessoa que gosta ', 'Sinônimos:\n\npávulo, fanfarrão, gabarola, valentão,', 'Antônimos:\n\nmodesto, simples']
+INFO:root:Found 3 dates: ['Palavra de Hoje (11/06/2025)', 'Palavra de Ontem (10/06/2025)', 'Palavra de Anteontem (09/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (10/06/2025)', ID=4cb2fa9078ff24f1ffec5f76802a6652
-INFO:root:Processing entry 2: Title='Palavra de Ontem (09/06/2025)', ID=f76107580822c3fcd347bd85883db2af
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/06/2025)', ID=4e2169abd9d5191e4dc7ba17aa5c705a
+INFO:root:Processing entry 1: Title='Palavra de Hoje (11/06/2025)', ID=a391a166a1be85aacfbb6f57b1307378
+INFO:root:Processing entry 2: Title='Palavra de Ontem (10/06/2025)', ID=286b24a20e2a68d09cc9e8976401833e
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/06/2025)', ID=1690449b95c9062512515f7b6b204d00
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (10/06/2025) - Significado completo de densamente:
-INFO:root:🔹 URL: https://www.dicio.com.br/densamente/
-INFO:root:🔹 Description: advérbio De modo denso, condensado; condensadamente: área indígena densamente habitada.De maneira muito unida, indissociável; solidamente.[Figurado] De modo muito complexo; de difícil compreensão; complexamente: texto densamente escrito.[Figurado] Emocionalmente profundo; profundamente: entrou densamente no processo de escritura do livro.Etimologia (origem da palavra densamente). A palavra densamente tem sua origem pela junção da palavra denso, e do sufixo adverbial -mente.
+INFO:root:🔹 Title: Palavra de Hoje (11/06/2025) - Significado completo de gabola:
+INFO:root:🔹 URL: https://www.dicio.com.br/gabola/
+INFO:root:🔹 Description: substantivo masculino e feminino Pessoa que gosta de falar de seus próprios feitos e qualidades; gabarola, fanfarrão.adjetivo Que se gaba, falando sempre de si mesmo e de suas próprias ações e qualidades.Etimologia (origem da palavra gabola). De gabar gab + ola.
  
 Sinônimos:
 
-profundamente, extremamente 
+pávulo, fanfarrão, gabarola, valentão, alardeador 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (09/06/2025) - Significado completo de retificar:
-INFO:root:🔹 URL: https://www.dicio.com.br/retificar/
+INFO:root:🔹 Title: Palavra de Ontem (10/06/2025) - Significado completo de densamente:
+INFO:root:🔹 URL: https://www.dicio.com.br/densamente/
 INFO:root:🔹 Description: Sinônimos:
 
-profundamente, extremamente
- Sílabas:den-sa-men-te
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (08/06/2025) - Significado completo de desvalorativo:
-INFO:root:🔹 URL: https://www.dicio.com.br/desvalorativo/
-INFO:root:🔹 Description: Sílabas:den-sa-men-te
+pávulo, fanfarrão, gabarola, valentão, alardeador
  
-Sinônimos:
+Antônimos:
 
-alinhar, corrigir, emendar, endireitar, consertar, arrumar, arranjar, compor, desencurvar, dispor, harmonizar, ordenar 
+modesto, simples 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (09/06/2025) - Significado completo de retificar:
+INFO:root:🔹 URL: https://www.dicio.com.br/retificar/
+INFO:root:🔹 Description: Antônimos:
+
+modesto, simples
+ Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,43 +48,99 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243243 characters
-INFO:root:HTML parsed, length: 232565 characters
-INFO:root:Found 1 titles: ['Salmos 25:10']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_25_10/']
-INFO:root:Found 1 descriptions: ['Todos os caminhos do Senhor\nsão amor e fidelidade\n']
+INFO:root:Response length: 243118 characters
+INFO:root:HTML parsed, length: 232440 characters
+INFO:root:Found 1 titles: ['João 1:14']
+INFO:root:Found 1 URLs: ['/versiculo/joao_1_14/']
+INFO:root:Found 1 descriptions: ['Aquele que é a Palavra tornou-se carne e viveu ent']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 25:10', ID=cf6a8abf21ff4303e121a60690b1943b
+INFO:root:Processing entry 1: Title='João 1:14', ID=fc831c90b1eb9d52fc6f7f301606143d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 25:10
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_25_10/
-INFO:root:🔹 Description: Todos os caminhos do Senhor
-são amor e fidelidade
-para com os que cumprem
-os preceitos da sua aliança. Salmos 25:10
+INFO:root:🔹 Title: João 1:14
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_1_14/
+INFO:root:🔹 Description: Aquele que é a Palavra tornou-se carne e viveu entre nós. Vimos a sua glória, glória como do Unigênito vindo do Pai, cheio de graça e de verdade. João 1:14
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 242364 characters
-INFO:root:HTML parsed, length: 232396 characters
-INFO:root:Found 3 titles: ['Salmo 93', 'Salmo 7', 'Salmo 127']
-INFO:root:Found 3 URLs: ['/salmos_93/', '/salmos_7/', '/salmos_127/']
-INFO:root:Found 3 descriptions: ['O Senhor reina!\nVestiu-se de majestade;\nde majesta', 'Senhor, meu Deus, em ti me refugio;\nsalva-me e liv', 'Se não for o Senhor o construtor da casa,\nserá inú']
-INFO:root:Found 3 dates: ['10 de Junho de 2025', '9 de Junho de 2025', '8 de Junho de 2025']
+INFO:root:Response length: 243777 characters
+INFO:root:HTML parsed, length: 233833 characters
+INFO:root:Found 3 titles: ['Salmo 9', 'Salmo 93', 'Salmo 7']
+INFO:root:Found 3 URLs: ['/salmos_9/', '/salmos_93/', '/salmos_7/']
+INFO:root:Found 3 descriptions: ['Senhor, quero dar-te graças de todo o coração\ne fa', 'O Senhor reina!\nVestiu-se de majestade;\nde majesta', 'Senhor, meu Deus, em ti me refugio;\nsalva-me e liv']
+INFO:root:Found 3 dates: ['11 de Junho de 2025', '10 de Junho de 2025', '9 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 93', ID=a3266148ae5a2899b43f65ea48da1d05
-INFO:root:Processing entry 2: Title=' Salmo 7', ID=a897ce550100384a27b28e86a2eb72b4
-INFO:root:Processing entry 3: Title=' Salmo 127', ID=e6ce2d3c047edc5b947e30c68dee6951
+INFO:root:Processing entry 1: Title=' Salmo 9', ID=8c922c6d9002e2d23b66b38ad26f10ab
+INFO:root:Processing entry 2: Title=' Salmo 93', ID=a3266148ae5a2899b43f65ea48da1d05
+INFO:root:Processing entry 3: Title=' Salmo 7', ID=a897ce550100384a27b28e86a2eb72b4
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 9
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_9/
+INFO:root:🔹 Description: Senhor, quero dar-te graças de todo o coração
+e falar de todas as tuas maravilhas. 
+Em ti quero alegrar-me e exultar,
+e cantar louvores ao teu nome, ó Altíssimo. 
+Quando os meus inimigos
+contigo se defrontam,
+tropeçam e são destruídos. 
+Pois defendeste o meu direito e a minha causa;
+em teu trono te assentaste,
+julgando com justiça. 
+Repreendeste as nações e destruíste os ímpios;
+para todo o sempre apagaste o nome deles. 
+O inimigo foi totalmente arrasado,
+para sempre;
+desarraigaste as suas cidades;
+já não há quem delas se lembre. 
+O Senhor reina para sempre;
+estabeleceu o seu trono para julgar. 
+Ele mesmo julga o mundo com justiça;
+governa os povos com retidão. 
+O Senhor é refúgio para os oprimidos,
+uma torre segura na hora da adversidade. 
+Os que conhecem o teu nome confiam em ti,
+pois tu, Senhor, jamais abandonas
+os que te buscam. 
+Cantem louvores ao Senhor,
+que reina em Sião;
+proclamem entre as nações os seus feitos. 
+Aquele que pede contas do sangue derramado
+não esquece;
+ele não ignora o clamor dos oprimidos. 
+Misericórdia, Senhor!
+Vê o sofrimento que me causam
+os que me odeiam.
+Salva-me das portas da morte, 
+para que, junto às portas da cidade de Sião,
+eu cante louvores a ti
+e ali exulte em tua salvação. 
+Caíram as nações na cova que abriram;
+os seus pés ficaram presos
+no laço que esconderam. 
+O Senhor é conhecido
+pela justiça que executa;
+os ímpios caem em suas próprias armadilhas.
+Interlúdio. 
+Voltem os ímpios ao pó,
+todas as nações que se esquecem de Deus! 
+Mas os pobres nunca serão esquecidos,
+nem se frustrará a esperança dos necessitados. 
+Levanta-te, Senhor!
+Não permitas que o mortal triunfe!
+Julgadas sejam as nações na tua presença. 
+Infunde-lhes terror, Senhor;
+saibam as nações
+que não passam de seres humanos. 
+ Salmo 9
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 93
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_93/
 INFO:root:🔹 Description: O Senhor reina!
@@ -152,80 +210,96 @@ ao nome do Senhor Altíssimo
 cantarei louvores. 
  Salmo 7
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 127
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_127/
-INFO:root:🔹 Description: Se não for o Senhor o construtor da casa,
-será inútil trabalhar na construção.
-Se não é o Senhor que vigia a cidade,
-será inútil a sentinela montar guarda. 
-Será inútil levantar cedo e dormir tarde,
-trabalhando arduamente por alimento.
-O Senhor concede o sono
-àqueles a quem ele ama. 
-Os filhos são herança do Senhor,
-uma recompensa que ele dá. 
-Como flechas nas mãos do guerreiro
-são os filhos nascidos na juventude. 
-Como é feliz o homem
-que tem a sua aljava cheia deles!
-Não será humilhado quando enfrentar
-seus inimigos no tribunal. 
- Salmo 127
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245040 characters
-INFO:root:HTML parsed, length: 234753 characters
-INFO:root:Found 3 titles: ['Crer e obedecer', 'A corrente do amor', 'Deus é maior e mais forte que os leões']
+INFO:root:Response length: 244918 characters
+INFO:root:HTML parsed, length: 234625 characters
+INFO:root:Found 3 titles: ['O que significa ser santo?', 'Crer e obedecer', 'A corrente do amor']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Quem crê no Filho tem a vida eterna; já quem rejei', 'Como o Pai me amou, assim eu os amei; permaneçam n', 'O meu Deus enviou o seu anjo, que fechou a boca do']
-INFO:root:Found 1 dates: ['Terça, 10 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Jesus Cristo nos salvou para sermos santos. Mas o ', 'Quem crê no Filho tem a vida eterna; já quem rejei', 'Como o Pai me amou, assim eu os amei; permaneçam n']
+INFO:root:Found 1 dates: ['Quarta, 11 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Crer e obedecer', ID=055327693464bd46c184e791e5e8fd62
+INFO:root:Processing entry 1: Title='O que significa ser santo?', ID=f67ede420c19373e360f70948c4934cc
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Crer e obedecer - Palavra de Hoje
+INFO:root:🔹 Title: O que significa ser santo? - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Quem crê no Filho tem a vida eterna; já quem rejeita o Filho não verá a vida, mas a ira de Deus permanece sobre ele".
-- João 3:36
+INFO:root:🔹 Description: Jesus Cristo nos salvou para sermos santos. Mas o que isso significa? Santidade significa ser separado para Deus. Caracteriza uma vida de total dedicação total a Deus, rejeitando o pecado. Quem é santo procura ser mais parecido com Jesus. E isso se reflete em nossa vida diária, na forma como agimos e como nos relacionamos com as pessoas.
 
-Crer em Jesus nos transforma completamente. Quando abrimos nossos corações para uma nova vida em Cristo Jesus, tudo muda. Conhecer a Deus e obedecer aos Seus mandamentos se tornam nossos maiores desejos. Portanto, a obediência é o fruto da nossa fé. Cremos em Jesus, nos entregamos a Ele e começamos a viver em obediência.
-É fácil obedecer a alguém que amamos e confiamos, porque sabemos que Ele só quer o melhor para nós. Esse é o coração de Deus Pai. Nele, temos a vida eterna! Em amor, Ele nos chama a crer e confiar, porque nossa salvação é pela fé. Mas, ao obedecer aos Seus mandamentos, expressamos de forma mais tangível nosso amor por Ele e nosso desejo de viver para Ele.
-Com a obediência, tudo em nossas vidas se encaixa. A obediência abre a porta para que vivamos uma vida mais feliz e com mais propósito.
+Mas, assim como é santo aquele que os chamou, sejam santos vocês também em tudo o que fizerem, pois está escrito: "Sejam santos, porque eu sou santo".
+- 1 Pedro 1:15-16
 
-"Nem todo aquele que me diz: 'Senhor, Senhor', entrará no Reino dos céus, mas apenas aquele que faz a vontade de meu Pai que está nos céus.
-- Mateus 7:21
+Ser santo é viver para Deus. Não tem a ver com se achar melhor ou mais "certinho" do que as outras pessoas. Mas tem a ver com a transformação interior, da mente e do caráter que o Espírito Santo opera na vida de quem crê em Jesus Cristo. Isso envolve viver fora dos padrões do mundo, não fazendo o que é considerado "normal" para a maioria das pessoas. Lembre-se que não é possível misturar a luz com as trevas.
+Precisamos viver conforme o modelo de Deus, dado em Jesus Cristo.
+Os cristãos são diariamente chamados a viver em santidade, mas isso não significa que já somos perfeitos. O Espírito Santo de Deus já iniciou a sua obra em nós, mas ainda estamos inacabados...
 
-A obediência é a expressão mais visível do que acontece dentro de nós. É fácil dizer que cremos em Deus e temos fé nele. Viver em obediência diariamente é um compromisso mais difícil e desafiador. A obediência nos chama a deixar de lado nossas preferências e nos concentrar no que Deus deseja e no que agrada ao seu coração.
-Escolha crer em Deus e obedecê-lo em todas as coisas. A vontade dele para você é boa, perfeita e agradável (Romanos 12:2). Viva a vida plena que ele preparou para você. Viva em amor e obediência àquele que o ama mais do que a todos. Viva para Jesus!
-Leia também: Mensagens de fé e esperança em Deus
+Portanto, meus amados, tendo tais promessas, purifiquemo-nos de toda impureza, tanto da carne como do espírito, aperfeiçoando a nossa santidade no temor de Deus.
+- 2 Coríntios 7:1
+
+Viva cada momento do seu dia tendo a consciência da eterna Santidade e Glória de Deus. Isso te ajudará a ter escolhas puras, em cada passo, buscando viver de forma agradável a Ele.
+Descubra aqui as características de quem é santo.
  
-Quem crê no Filho tem a vida eterna; já quem rejeita o Filho não verá a vida, mas a ira de Deus permanece sobre ele".
-- João 3:36
+Mas, assim como é santo aquele que os chamou, sejam santos vocês também em tudo o que fizerem, pois está escrito: "Sejam santos, porque eu sou santo".
+- 1 Pedro 1:15-16
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 254761 characters
-INFO:root:HTML parsed, length: 244240 characters
-INFO:root:Found 3 titles: ['Restaurarei o exausto e saciarei o enfraqueci\xaddo', 'Devocional Diário: Como é bom acordar de manhã', 'Exalte ao Senhor com todo louvor!']
-INFO:root:Found 3 URLs: ['/versiculos_para_momentos_dificeis/', '/bom_dia_abencoado_frases_mensagem/', '/versiculos_para_louvar_a_deus/']
-INFO:root:Found 3 descriptions: ['Em meio às lutas da vida, muitas vezes nos sentimo', 'Acordar de manhã é um momento de renovação e esper', 'Deem graças ao Senhor, porque ele é bom.\nO seu amo']
-INFO:root:Found 3 dates: ['JUNHO\n\n10\nTERÇA', 'JUNHO\n\n9\nSEGUNDA', 'JUNHO\n\n8\nDOMINGO']
+INFO:root:Response length: 254628 characters
+INFO:root:HTML parsed, length: 244106 characters
+INFO:root:Found 3 titles: ['Devocional: Recarregando para um novo dia', 'Restaurarei o exausto e saciarei o enfraqueci\xaddo', 'Devocional Diário: Como é bom acordar de manhã']
+INFO:root:Found 4 URLs: ['/mensagens_biblicas_bom_dia_com_deus/', '/esforca_te_e_tem_bom_animo/', '/versiculos_para_momentos_dificeis/']
+INFO:root:Found 3 descriptions: ['O dia que passou pode ter sido difícil e atribulad', 'Em meio às lutas da vida, muitas vezes nos sentimo', 'Acordar de manhã é um momento de renovação e esper']
+INFO:root:Found 3 dates: ['JUNHO\n\n11\nQUARTA', 'JUNHO\n\n10\nTERÇA', 'JUNHO\n\n9\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Restaurarei o exausto e saciarei o enfraqueci­do', ID=95025461e545e98cd335e532805b1ec6
-INFO:root:Processing entry 2: Title='Devocional Diário: Como é bom acordar de manhã', ID=fb81a09bb5593a21e404a38d25b8cc36
-INFO:root:Processing entry 3: Title='Exalte ao Senhor com todo louvor!', ID=38bf29ef27760b0d34d07e0110b1ddd4
+INFO:root:Processing entry 1: Title='Devocional: Recarregando para um novo dia', ID=eddc581b5ab478659859474a81b80fe0
+INFO:root:Processing entry 2: Title='Restaurarei o exausto e saciarei o enfraqueci­do', ID=95025461e545e98cd335e532805b1ec6
+INFO:root:Processing entry 3: Title='Devocional Diário: Como é bom acordar de manhã', ID=fb81a09bb5593a21e404a38d25b8cc36
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Devocional: Recarregando para um novo dia
+INFO:root:🔹 URL: https://www.bibliaon.com/mensagens_biblicas_bom_dia_com_deus/
+INFO:root:🔹 Description: O dia que passou pode ter sido difícil e atribulado, mas em Cristo, encontramos consolo na certeza de que a cada novo dia, somos chamados a renovar nossas forças em Deus. O Senhor é nossa fonte inesgotável de energia e ânimo, pronto para nos recarregar para os desafios que surgem a cada amanhecer.
+Na Palavra de Deus, em Isaías 40:31, encontramos a promessa que nos inspira:
+
+mas aqueles que esperam no Senhor
+renovam as suas forças.
+Voam alto como águias;
+correm e não ficam exaustos,
+andam e não se cansam.
+- Isaías 40:31
+
+Essa passagem nos lembra que, ao depositarmos nossa confiança no Senhor, Ele nos capacita a enfrentar cada dia com vigor e fé.
+Ao despertar, reconheçamos a importância de nos conectar com Deus por meio da oração e da leitura da Sua Palavra. Esses momentos são como uma recarga espiritual que nos prepara para os desafios que enfrentaremos. Enquanto buscamos a presença do Senhor, Ele nos fortalece e nos conduz com sabedoria.
+Que, em cada novo dia, possamos experimentar a renovação que só o amor de Deus proporciona. Que a certeza da Sua presença nos impulsione a voar alto, correr sem desfalecer e caminhar sem nos cansarmos. Assim, recarregados em Seu poder, enfrentaremos cada desafio com a confiança de que somos mais que vencedores em Cristo Jesus. Amém.
+
+Cria em mim um coração puro, ó Deus,
+e renova dentro de mim um espírito estável.
+- Salmos 51:10
+
+Renove-se com a Palavra de Deus
+
+Cultive o hábito de dedicar um tempo diário à leitura da Bíblia. Permita que as Escrituras permeiem sua mente, renovando sua perspectiva e fortalecendo sua fé.
+Não apenas leia, mas medite na Palavra de Deus. Reflita sobre os significados, aplique princípios à sua vida.
+Estabeleça uma comunicação constante com Deus por meio da oração. Compartilhe seus anseios, alegrias e desafios.
+
+Para Orar:
+
+Senhor, em tua graça infinita, peço orientação e força. Guia-me nos caminhos da retidão, concede-me sabedoria para os desafios. Envolva-me com tua paz, renova minhas forças e inspira-me a viver segundo teus propósitos. Em nome de Jesus, amém.
+
+Veja também:
+
+Bom dia com Deus: mensagens bíblicas
+Esforça-te e tem bom ânimo: Deus está contigo (Josué 1:9)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Restaurarei o exausto e saciarei o enfraqueci­do
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_momentos_dificeis/
+INFO:root:🔹 URL: https://www.bibliaon.com/esforca_te_e_tem_bom_animo/
 INFO:root:🔹 Description: Em meio às lutas da vida, muitas vezes nos sentimos exaustos, como se cada passo exigisse mais do que podemos dar. O coração pesa, a mente se agita e a alma clama por descanso. Mas há uma promessa poderosa em Jeremias 31:25: Deus vê o cansaço do nosso ser e promete nos restaurar:
 
 "Restaurarei o exausto e saciarei o enfraqueci­do".
@@ -251,7 +325,7 @@ Senhor, renova minhas forças neste dia. Quando me sinto fraco, sustenta-me com 
 Veja também: Versículos de força em momentos difíceis
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Devocional Diário: Como é bom acordar de manhã
-INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_momentos_dificeis/
 INFO:root:🔹 Description: Acordar de manhã é um momento de renovação e esperança, e a reflexão no Salmo 143:8 ressoa profundamente com essa experiência. O salmo nos convida a começar o dia buscando o amor leal de Deus. 
 
 Faze-me ouvir do teu amor leal pela manhã, pois em ti confio.
@@ -274,35 +348,10 @@ Senhor, ao começar este dia, busco Tua orientação e amor. Enche-me com Tua pa
 
 Veja também: Bom dia abençoado: 53 mensagens e frases com a paz de Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Exalte ao Senhor com todo louvor!
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
-INFO:root:🔹 Description: Deem graças ao Senhor, porque ele é bom.
-O seu amor dura para sempre!
-- Salmos 136:1
-
-Na luta ou na alegria, o nosso chamado é o mesmo: exaltar ao Senhor com todo louvor. O louvor é mais do que uma canção; é uma expressão viva da nossa fé, uma declaração de que Deus é soberano, independente das circunstâncias.
-Quando louvamos, algo poderoso acontece dentro de nós. O desânimo perde força, as dúvidas se dissipam, e a presença de Deus se torna mais real. O louvor nos lembra de quem Deus é: fiel, justo, amoroso, poderoso. Ele é digno de todo o nosso reconhecimento, não apenas quando tudo vai bem, mas também quando enfrentamos o vale da sombra da morte.
-Exaltar ao Senhor com todo louvor é um ato de entrega e confiança. É dizer com o coração: “Senhor, eu Te adoro não pelo que fazes, mas por quem Tu és.” Em meio à dor, louve. No dia bom, louve. Em cada fase da sua vida, levante sua voz e glorifique Aquele que nunca falha.
-O louvor transforma o ambiente. Ele abre portas, fortalece a fé e prepara o caminho para milagres. Quando Paulo e Silas louvaram na prisão, as correntes caíram. Assim também, quando você decide louvar mesmo em meio às tribulações, correntes espirituais são quebradas.
-Hoje, tome a decisão de exaltar ao Senhor com todo o seu louvor. Não retenha sua adoração. Deixe que sua vida cante a grandeza de Deus. Porque Ele é bom, e sua misericórdia não tem fim. Louve com alegria, com fé e com todo o coração.
-Ele é digno!
-
-
-Escolha adorar a Deus mesmo nas dificuldades. O louvor constante fortalece a fé e lembra sua alma de que Deus continua no controle, sempre digno de confiança.
-Mais do que pedir, dedique tempo para reconhecer a bondade, fidelidade e poder do Senhor. Isso alimenta a gratidão e mantém o coração alinhado com a verdade divina.
-
-Use o louvor como arma espiritual. Cante, ore e declare as promessas de Deus em voz alta. O ambiente muda quando a adoração verdadeira toma o lugar da preocupação.
-
-Para orar:
-
-Senhor Deus, eu Te louvo e Te exalto, pois Tu és digno de toda honra e glória. Em meio às lutas, escolho Te adorar com o meu coração. Renova em mim um espírito de gratidão e fé, e que meu louvor suba como um incenso agradável diante de Ti. Que minha vida seja um testemunho do Teu amor e da Tua fidelidade. Fortalece-me, Senhor, para Te adorar em todo tempo. Em nome de Jesus, amém.
-
-Veja também: 5 formas de louvar ao Senhor de todo o nosso coração
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 228141 characters
-INFO:root:HTML parsed, length: 226652 characters
+INFO:root:Response length: 225501 characters
+INFO:root:HTML parsed, length: 224082 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 26 URLs: ['/wiki/Saint_Louis_(coura%C3%A7ado)', '/wiki/Saint_Louis_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
 INFO:root:Found 1 descriptions: ['O Saint Louis foi um couraçado pré-dreadnought ope']
@@ -330,44 +379,44 @@ Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 228141 characters
-INFO:root:HTML parsed, length: 226652 characters
-INFO:root:Found 1 titles: ['10 de junho na história']
-INFO:root:Found 51 URLs: ['/wiki/Ficheiro:Lu%C3%ADs_de_Cam%C3%B5es_por_Fran%C3%A7ois_G%C3%A9rard.jpg', '/wiki/Dia_de_Portugal,_de_Cam%C3%B5es_e_das_Comunidades_Portuguesas', '/wiki/Dia_Internacional_do_Di%C3%A1logo_entre_Civiliza%C3%A7%C3%B5es']
-INFO:root:Found 1 descriptions: ['Luís de Camões\nDia de Portugal, de Camões e das Co']
+INFO:root:Response length: 225501 characters
+INFO:root:HTML parsed, length: 224082 characters
+INFO:root:Found 1 titles: ['11 de junho na história']
+INFO:root:Found 49 URLs: ['/wiki/Ficheiro:Batalha_Naval_do_Riachuelo_Pintura.jpg', '/wiki/Dia_Internacional_do_Brincar', '/wiki/Fundo_das_Na%C3%A7%C3%B5es_Unidas_para_a_Inf%C3%A2ncia']
+INFO:root:Found 1 descriptions: ['Batalha Naval do Riachuelo\nDia Internacional do Br']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='10 de junho na história', ID=e596ae817340da80a3e029d3c54e1ebe
+INFO:root:Processing entry 1: Title='11 de junho na história', ID=5fbe7f515146e759a707b5fa899f8862
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 10 de junho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Lu%C3%ADs_de_Cam%C3%B5es_por_Fran%C3%A7ois_G%C3%A9rard.jpg
-INFO:root:🔹 Description: Luís de Camões
-Dia de Portugal, de Camões e das Comunidades Portuguesas (1880); Dia Internacional do Diálogo entre Civilizações (2025)
+INFO:root:🔹 Title: 11 de junho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Batalha_Naval_do_Riachuelo_Pintura.jpg
+INFO:root:🔹 Description: Batalha Naval do Riachuelo
+Dia Internacional do Brincar (UNICEF, 2024) 
 
-1935 – Bob Smith e Bill Wilson fundam em Akron, Ohio, Estados Unidos, os Alcoólicos Anônimos.
-1967 – Termina a Guerra dos Seis Dias, com Israel e Síria concordando com um cessar-fogo.
-2003 – A sonda espacial  Spirit é lançada, iniciando a missão Mars Exploration Rovers da NASA.
+1865 – Guerra do Paraguai: a Batalha Naval do Riachuelo (pintura) é travada no riacho Riachuelo, na Argentina, entre a Marinha do Paraguai a Marinha do Brasil; o lado brasileiro tem vitória decisiva.
+1955 – Oitenta e três espectadores morrem e pelo menos 100 ficam feridos depois que um Austin-Healey e um Mercedes-Benz colidem nas 24 Horas de Le Mans, no mais mortífero acidente do automobilismo.
+2001 – Timothy McVeigh é executado por seu papel no atentado de Oklahoma City, Oklahoma, Estados Unidos.
 Nasceram neste dia…
-Gustave Courbet (1819–1877)  •  Saul Bellow (1915–2005)  •  Filipe, Duque de Edimburgo (1921–2021)  •  João Gilberto (1931–2019)
+Richard Strauss (1864–1949)  •  Jacques-Yves Cousteau (1910–1997)  •  Reginaldo Faria (n. 1937)  •  Jackie Stewart (n. 1939)
 Morreram neste dia…
-Luís de Camões (imagem) (c. 1524–1580)  •  André Marie Ampère (1775–1836)  •  Antoni Gaudí (1852–1926)  •  Ted Kaczynski (1942–2023)
+João III de Portugal (1502–1557)  •  Barbara Bodichon (1827–1891)  •  John Wayne (1907–1979)  •  Ricardo Rangel (1924–2004)
 
 
-Ver mais • Outros dias: 8 • 9 • 10 • 11 • 12 • Ver todos
+Ver mais • Outros dias: 9 • 10 • 11 • 12 • 13 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 228141 characters
-INFO:root:HTML parsed, length: 226652 characters
+INFO:root:Response length: 225501 characters
+INFO:root:HTML parsed, length: 224082 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine,_Kyoto,_Japan.jpg']
-INFO:root:Found 1 descriptions: ['Sequência de torii que leva ao santuário Fushimi I']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Portrait_of_Yi_Haeung_(National_Museum_of_Korea).jpg']
+INFO:root:Found 1 descriptions: ['Retrato de Heungseon Daewongun, regente do Reino d']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg/960px-Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Portrait_of_Yi_Haeung_%28National_Museum_of_Korea%29.jpg/500px-Portrait_of_Yi_Haeung_%28National_Museum_of_Korea%29.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -376,15 +425,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine,_Kyoto,_Japan.jpg
-INFO:root:🔹 Description: Sequência de torii que leva ao santuário Fushimi Inari-taisha em Quioto, Japão — um dos mais proeminentes do país. O trânsito sob o torii faz parte do ritual de purificação xintoísta.
-(resolução original: 5 765 × 3 843)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Portrait_of_Yi_Haeung_(National_Museum_of_Korea).jpg
+INFO:root:🔹 Description: Retrato de Heungseon Daewongun, regente do Reino de Joseon (Coreia) de 21 de janeiro de 1864 a 25 de julho de 1874. Pintura em seda, c. 1869; exibida no Museu Nacional da Coreia, Seul.
+(resolução original: 23 181 × 23 181)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg/960px-Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Portrait_of_Yi_Haeung_%28National_Museum_of_Korea%29.jpg/500px-Portrait_of_Yi_Haeung_%28National_Museum_of_Korea%29.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -400,7 +449,6 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -409,21 +457,20 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  49 ++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  26 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  58 +++--
+ feeds/devocional_de_hoje/feed.json        |  16 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  25 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  20 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  97 ++------
+ feeds/salmo_do_dia/atom.xml               |  77 +++++--
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   4 +-
- feeds/wikidestaque/feed.json              |   2 +-
+ feeds/wikidestaque/atom.xml               |   2 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 369 ++++++++++++------------------
- 17 files changed, 273 insertions(+), 397 deletions(-)
+ output.log                                | 362 ++++++++++++++++--------------
+ 16 files changed, 365 insertions(+), 286 deletions(-)
