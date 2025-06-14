@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120776 characters
-INFO:root:HTML parsed, length: 113476 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (13/06/2025)', 'Palavra de Ontem (12/06/2025)', 'Palavra de Anteontem (11/06/2025)']
-INFO:root:Found 3 URLs: ['/irma/', '/paixao/', '/gabola/']
-INFO:root:Found 15 descriptions: ['substantivo feminino Filha dos mesmos pais que out', 'Sinônimos:\n\nmana', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (13/06/2025)', 'Palavra de Ontem (12/06/2025)', 'Palavra de Anteontem (11/06/2025)']
+INFO:root:Response length: 120410 characters
+INFO:root:HTML parsed, length: 113293 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (14/06/2025)', 'Palavra de Ontem (13/06/2025)', 'Palavra de Anteontem (12/06/2025)']
+INFO:root:Found 3 URLs: ['/a-fim-de/', '/irma/', '/paixao/']
+INFO:root:Found 13 descriptions: ['locução prepositiva Com a finalidade de; pelo segu', 'Sinônimos:\n\npara, porque', 'Sílabas:a-fim-de']
+INFO:root:Found 3 dates: ['Palavra de Hoje (14/06/2025)', 'Palavra de Ontem (13/06/2025)', 'Palavra de Anteontem (12/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (13/06/2025)', ID=f7e85db7d63f444d4ac572db4bc6a2b6
-INFO:root:Processing entry 2: Title='Palavra de Ontem (12/06/2025)', ID=db9a2bfa424a5ca001deeb8c91196208
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/06/2025)', ID=e0d6e2773023eeba0cefd93927da41c4
+INFO:root:Processing entry 1: Title='Palavra de Hoje (14/06/2025)', ID=c1ec9d695ac645e261f4b550d1cca715
+INFO:root:Processing entry 2: Title='Palavra de Ontem (13/06/2025)', ID=725925b3c1619f61b905d42909c36cff
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/06/2025)', ID=47e658e960b695928c6337ce1fad1521
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (13/06/2025) - Significado completo de irmã:
+INFO:root:🔹 Title: Palavra de Hoje (14/06/2025) - Significado completo de a fim de:
+INFO:root:🔹 URL: https://www.dicio.com.br/a-fim-de/
+INFO:root:🔹 Description: locução prepositiva Com a finalidade de; pelo seguinte motivo, razão: ela foi à empresa a fim de receber seus honorários.Demonstração de desejo, vontade; com o objetivo de; com o propósito de; porque: não estava a fim de sair hoje.Disposição para fazer alguma coisa; com interesse: não estava a fim de ir ao shopping hoje.Etimologia (origem de a fim de). A locução prepositiva a fim de tem sua origem pela junção da preposição "a", da palavra "fim", e da preposição "de".
+ 
+Sinônimos:
+
+para, porque 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (13/06/2025) - Significado completo de irmã:
 INFO:root:🔹 URL: https://www.dicio.com.br/irma/
-INFO:root:🔹 Description: substantivo feminino Filha dos mesmos pais que outra pessoa; quem possui os mesmos pais que outra pessoa.[Religião] Mulher que fez votos religiosos; freira.Aquela que possui somente o mesmo pai ou a mesma mãe que outra pessoa; meia-irmã, irmã unilateral.[Figurado] Diz-se de duas coisas com relações e semelhanças profundas: a poesia e a pintura são irmãs.[Figurado] Aquela com quem se tem muita afinidade ou uma relação de amizade; amiga: minha prima é uma irmã para mim.[Gramática] Forma feminina de irmão.Etimologia (origem da palavra irmã). Do latim germana, feminino de germanus, "de mesma raça".
+INFO:root:🔹 Description: Sinônimos:
+
+para, porque
+ Sílabas:a-fim-de
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (12/06/2025) - Significado completo de paixão:
+INFO:root:🔹 URL: https://www.dicio.com.br/paixao/
+INFO:root:🔹 Description: Sílabas:a-fim-de
  
 Sinônimos:
 
 mana 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (12/06/2025) - Significado completo de paixão:
-INFO:root:🔹 URL: https://www.dicio.com.br/paixao/
-INFO:root:🔹 Description: Sinônimos:
-
-mana
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (11/06/2025) - Significado completo de gabola:
-INFO:root:🔹 URL: https://www.dicio.com.br/gabola/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:ir-mã
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,43 +46,63 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243144 characters
-INFO:root:HTML parsed, length: 232466 characters
-INFO:root:Found 1 titles: ['Cânticos 2:12']
-INFO:root:Found 1 URLs: ['/versiculo/cantico_dos_canticos_2_12/']
-INFO:root:Found 1 descriptions: ['Aparecem flores na terra,\ne chegou o tempo de cant']
+INFO:root:Response length: 243116 characters
+INFO:root:HTML parsed, length: 232438 characters
+INFO:root:Found 1 titles: ['Mateus 6:20']
+INFO:root:Found 1 URLs: ['/versiculo/mateus_6_20/']
+INFO:root:Found 1 descriptions: ['Mas acumulem para vocês tesouros nos céus, onde a ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Cânticos 2:12', ID=0c742fa155b4a472820ba093db02c024
+INFO:root:Processing entry 1: Title='Mateus 6:20', ID=e4789610b55aa188c0ed3220a564e9a8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Cânticos 2:12
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/cantico_dos_canticos_2_12/
-INFO:root:🔹 Description: Aparecem flores na terra,
-e chegou o tempo de cantar;
-já se ouve em nossa terra
-o arrulhar dos pombos. Cânticos 2:12
+INFO:root:🔹 Title: Mateus 6:20
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_6_20/
+INFO:root:🔹 Description: Mas acumulem para vocês tesouros nos céus, onde a traça e a ferrugem não destroem e onde os ladrões não arrombam nem furtam. Mateus 6:20
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 244283 characters
-INFO:root:HTML parsed, length: 234346 characters
-INFO:root:Found 3 titles: ['Salmo 147', 'Salmo 138', 'Salmo 9']
-INFO:root:Found 3 URLs: ['/salmos_147/', '/salmos_138/', '/salmos_9/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nComo é bom cantar louvores ao nosso Deus!', 'Eu te louvarei, Senhor, de todo o coração;\ndiante ', 'Senhor, quero dar-te graças de todo o coração\ne fa']
-INFO:root:Found 3 dates: ['13 de Junho de 2025', '12 de Junho de 2025', '11 de Junho de 2025']
+INFO:root:Response length: 242919 characters
+INFO:root:HTML parsed, length: 232958 characters
+INFO:root:Found 3 titles: ['Salmo 130', 'Salmo 147', 'Salmo 138']
+INFO:root:Found 3 URLs: ['/salmos_130/', '/salmos_147/', '/salmos_138/']
+INFO:root:Found 3 descriptions: ['Das profundezas clamo a ti, Senhor; \nouve, Senhor,', 'Aleluia!\nComo é bom cantar louvores ao nosso Deus!', 'Eu te louvarei, Senhor, de todo o coração;\ndiante ']
+INFO:root:Found 3 dates: ['14 de Junho de 2025', '13 de Junho de 2025', '12 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 147', ID=dfcb6cf1e08521a2bda738555423051a
-INFO:root:Processing entry 2: Title=' Salmo 138', ID=2c5fe024bc3f2d8b992de3e29b908819
-INFO:root:Processing entry 3: Title=' Salmo 9', ID=8c922c6d9002e2d23b66b38ad26f10ab
+INFO:root:Processing entry 1: Title=' Salmo 130', ID=ec79926a1e39d14d7b4e76e1576e9d96
+INFO:root:Processing entry 2: Title=' Salmo 147', ID=dfcb6cf1e08521a2bda738555423051a
+INFO:root:Processing entry 3: Title=' Salmo 138', ID=2c5fe024bc3f2d8b992de3e29b908819
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 130
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_130/
+INFO:root:🔹 Description: Das profundezas clamo a ti, Senhor; 
+ouve, Senhor, a minha voz!
+Estejam atentos os teus ouvidos
+às minhas súplicas! 
+Se tu, Soberano Senhor,
+registrasses os pecados, quem escaparia? 
+Mas contigo está o perdão
+para que sejas temido. 
+Espero no Senhor com todo o meu ser
+e na sua palavra ponho a minha esperança. 
+Espero pelo Senhor
+mais do que as sentinelas pela manhã;
+sim, mais do que as sentinelas
+esperam pela manhã! 
+Ponha a sua esperança no Senhor, ó Israel,
+pois no Senhor há amor leal
+e plena redenção. 
+Ele próprio redimirá Israel
+de todas as suas culpas. 
+ Salmo 130
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 147
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_147/
 INFO:root:🔹 Description: Aleluia!
@@ -161,122 +185,95 @@ Teu amor, Senhor, permanece para sempre;
 não abandones as obras das tuas mãos! 
  Salmo 138
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 9
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_9/
-INFO:root:🔹 Description: Senhor, quero dar-te graças de todo o coração
-e falar de todas as tuas maravilhas. 
-Em ti quero alegrar-me e exultar,
-e cantar louvores ao teu nome, ó Altíssimo. 
-Quando os meus inimigos
-contigo se defrontam,
-tropeçam e são destruídos. 
-Pois defendeste o meu direito e a minha causa;
-em teu trono te assentaste,
-julgando com justiça. 
-Repreendeste as nações e destruíste os ímpios;
-para todo o sempre apagaste o nome deles. 
-O inimigo foi totalmente arrasado,
-para sempre;
-desarraigaste as suas cidades;
-já não há quem delas se lembre. 
-O Senhor reina para sempre;
-estabeleceu o seu trono para julgar. 
-Ele mesmo julga o mundo com justiça;
-governa os povos com retidão. 
-O Senhor é refúgio para os oprimidos,
-uma torre segura na hora da adversidade. 
-Os que conhecem o teu nome confiam em ti,
-pois tu, Senhor, jamais abandonas
-os que te buscam. 
-Cantem louvores ao Senhor,
-que reina em Sião;
-proclamem entre as nações os seus feitos. 
-Aquele que pede contas do sangue derramado
-não esquece;
-ele não ignora o clamor dos oprimidos. 
-Misericórdia, Senhor!
-Vê o sofrimento que me causam
-os que me odeiam.
-Salva-me das portas da morte, 
-para que, junto às portas da cidade de Sião,
-eu cante louvores a ti
-e ali exulte em tua salvação. 
-Caíram as nações na cova que abriram;
-os seus pés ficaram presos
-no laço que esconderam. 
-O Senhor é conhecido
-pela justiça que executa;
-os ímpios caem em suas próprias armadilhas.
-Interlúdio. 
-Voltem os ímpios ao pó,
-todas as nações que se esquecem de Deus! 
-Mas os pobres nunca serão esquecidos,
-nem se frustrará a esperança dos necessitados. 
-Levanta-te, Senhor!
-Não permitas que o mortal triunfe!
-Julgadas sejam as nações na tua presença. 
-Infunde-lhes terror, Senhor;
-saibam as nações
-que não passam de seres humanos. 
- Salmo 9
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245327 characters
-INFO:root:HTML parsed, length: 235039 characters
-INFO:root:Found 3 titles: ['Receba força para seguir em frente', 'Com Deus superamos barreiras', 'O que significa ser santo?']
+INFO:root:Response length: 245458 characters
+INFO:root:HTML parsed, length: 235182 characters
+INFO:root:Found 3 titles: ['Fique calmo e preste atenção', 'Receba força para seguir em frente', 'Com Deus superamos barreiras']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Restaurarei o exausto e saciarei o enfraqueci\xaddo".', 'Tudo posso naquele que me fortalece.\n- Filipenses ', 'Jesus Cristo nos salvou para sermos santos. Mas o ']
-INFO:root:Found 1 dates: ['Sexta, 13 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Quando você for ao santuário de Deus, seja reveren', 'Restaurarei o exausto e saciarei o enfraqueci\xaddo".', 'Tudo posso naquele que me fortalece.\n- Filipenses ']
+INFO:root:Found 1 dates: ['Sábado, 14 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Receba força para seguir em frente', ID=42e94e52f20d22dbe21c09eda0852f5b
+INFO:root:Processing entry 1: Title='Fique calmo e preste atenção', ID=9b38f8da29bc99935846fb48a3c2a3ba
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Receba força para seguir em frente - Palavra de Hoje
+INFO:root:🔹 Title: Fique calmo e preste atenção - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Restaurarei o exausto e saciarei o enfraqueci­do".
-- Jeremias 31:25
+INFO:root:🔹 Description: Quando você for ao santuário de Deus, seja reverente. Quem se aproxima para ouvir é melhor do que os tolos que oferecem sacrifício sem saber que estão agindo mal.
+Não seja precipitado de lábios,
+nem apressado de coração
+para fazer promessas diante de Deus.
+Deus está nos céus,
+e você está na terra,
+por isso, fale pouco.
+- Eclesiastes 5:1-2
 
-Cada novo dia traz desafios, isso é um fato. Às vezes, acordamos nos sentindo fortes, prontos para lutar e vencer. Mas, outras vezes, nos sentimos exaustos, seja física, mental ou espiritualmente. Por isso, é bom lembrar que não precisamos enfrentar nossos desafios sozinhos: temos a ajuda do nosso Deus.
-Ele promete nos dar água para saciar a sede e saciá-la quando estivermos exaustos. Recorrer a Deus é a melhor coisa que podemos fazer quando nos sentimos sobrecarregados. Ele é o único que pode nos dar verdadeira clareza, descanso e força renovada para podermos seguir em frente com alegria, paz e otimismo.
+Frequentemente nos aproximamos de Deus com a mente cheia de coisas que queremos dizer. Principalmente quando não entendemos o que Ele está permitindo que aconteça, tendemos a ser rápidos em dar a Deus nossas opiniões e até mesmo conselhos. Uma atitude melhor e mais sábia é controlar nossas palavras e nos apresentar diante de Deus com calma e confiança.
+Reservar um tempo para ouvir a Deus nos enche de paz. Mesmo em meio às situações difíceis que enfrentamos, nossa fé nos lembra que Deus ainda está no controle. Seu amor por nós não acabou, nem acabará. Seus planos para nós continuam bons, e Sua vontade é agradável e perfeita. Ele é digno da nossa confiança! Cremos nisso?
 
-Bendito seja o Senhor, a minha Rocha,
-que treina as minhas mãos para a guerra
-e os meus dedos para a batalha.
-Ele é o meu aliado fiel, a minha fortaleza,
-a minha torre de proteção
-e o meu libertador;
-é o meu escudo, aquele em quem me refugio.
-- Salmo 144:1-2a
+Provem e vejam como o Senhor é bom.
+Como é feliz o homem que nele se refugia!
+- Salmo 34:8
 
-Se hoje você se sente impotente para lutar, se acha que não será capaz de enfrentar os desafios da vida, volte-se para Deus e receba novas forças! Descanse na rocha eterna. Permita que o Senhor o envolva com Seus braços poderosos e lhe mostre o próximo passo a dar. Não avance com suas próprias forças. Deixe que o Rei dos reis e Senhor dos senhores abra o caminho que você deve seguir e lhe mostre o que você deve fazer.
-Confie em Deus em meio às suas lutas. Ele é mais poderoso do que qualquer batalha ou inimigo que você possa enfrentar. O mesmo Deus que ajudou Davi contra Golias e Daniel contra os leões é quem está com você, cuidando de você e lutando por você. Ele pode renovar suas forças e ajudá-lo a seguir em frente. Com a ajuda Dele, você triunfará!
-Veja também: Versículos sobre vencer batalhas na vida
+Em tempos de provação, pode ser difícil confiar na bondade de Deus. Mas devemos lembrar que Deus não muda: Ele permanece bom, mesmo quando passamos por dificuldades.
+Mantenha a calma e preste atenção aos sinais de amor e bondade que Deus lhe dá. Cada novo amanhecer, cada sorriso de alguém que você ama, cada mordida na comida e cada palavra encorajadora que você lê na Bíblia demonstram o cuidado de Deus por você. Traga suas tristezas diante do Senhor e abra seu coração para receber o encorajamento e a força que Ele deseja lhe dar. Você não se arrependerá.
+Veja também: Formas como Deus cuida de tudo
  
-Restaurarei o exausto e saciarei o enfraqueci­do".
-- Jeremias 31:25
+Quando você for ao santuário de Deus, seja reverente. Quem se aproxima para ouvir é melhor do que os tolos que oferecem sacrifício sem saber que estão agindo mal.
+Não seja precipitado de lábios,
+nem apressado de coração
+para fazer promessas diante de Deus.
+Deus está nos céus,
+e você está na terra,
+por isso, fale pouco.
+- Eclesiastes 5:1-2
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 254898 characters
-INFO:root:HTML parsed, length: 244370 characters
-INFO:root:Found 3 titles: ['Deus te vê além das aparências', 'Fale com Deus a qualquer hora', 'Devocional: Recarregando para um novo dia']
-INFO:root:Found 5 URLs: ['/como_orar_e_falar_com_deus/', '/oracoes_para_o_trabalho/', '/oracao_de_madrugada_buscando_a_deus_sem_cessar/']
-INFO:root:Found 3 descriptions: ['O Senhor, contudo, disse a Samuel: "Não considere ', 'Cla\xadme a mim e eu responderei e direi a você coisa', 'O dia que passou pode ter sido difícil e atribulad']
-INFO:root:Found 3 dates: ['JUNHO\n\n13\nSEXTA', 'JUNHO\n\n12\nQUINTA', 'JUNHO\n\n11\nQUARTA']
+INFO:root:Response length: 254709 characters
+INFO:root:HTML parsed, length: 244181 characters
+INFO:root:Found 3 titles: ['Tempo de florescer e cantar', 'Deus te vê além das aparências', 'Fale com Deus a qualquer hora']
+INFO:root:Found 4 URLs: ['/versiculos_para_louvar_a_deus/', '/como_orar_e_falar_com_deus/', '/oracoes_para_o_trabalho/']
+INFO:root:Found 3 descriptions: ['Aparecem flores na terra, e chegou o tempo de cant', 'O Senhor, contudo, disse a Samuel: "Não considere ', 'Cla\xadme a mim e eu responderei e direi a você coisa']
+INFO:root:Found 3 dates: ['JUNHO\n\n14\nSÁBADO', 'JUNHO\n\n13\nSEXTA', 'JUNHO\n\n12\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Deus te vê além das aparências', ID=47cb39034ba39e6741e8f9158bf5b2fb
-INFO:root:Processing entry 2: Title='Fale com Deus a qualquer hora', ID=9f2f789edd5fea6a620a13904ed7cab1
-INFO:root:Processing entry 3: Title='Devocional: Recarregando para um novo dia', ID=eddc581b5ab478659859474a81b80fe0
+INFO:root:Processing entry 1: Title='Tempo de florescer e cantar', ID=611aa14513c31306ddbfd582bbde7881
+INFO:root:Processing entry 2: Title='Deus te vê além das aparências', ID=47cb39034ba39e6741e8f9158bf5b2fb
+INFO:root:Processing entry 3: Title='Fale com Deus a qualquer hora', ID=9f2f789edd5fea6a620a13904ed7cab1
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Tempo de florescer e cantar
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
+INFO:root:🔹 Description: Aparecem flores na terra, e chegou o tempo de cantar; já se ouve em nossa terra o arrulhar dos pombos.
+- Cânticos 2:12
+
+Há momentos em nossa caminhada com Deus que se assemelham ao inverno, tempos de silêncio, espera e frio na alma. Porém, a Palavra nos lembra que o inverno não é eterno. Chega o tempo das flores. Chega o tempo de cantar. Quando a estação da dor passa, uma nova vida começa a brotar.
+As flores na terra representam os sinais visíveis da restauração. São os frutos da fidelidade de Deus, que mesmo em silêncio, nunca deixa de agir. O canto, por sua vez, simboliza a alegria que retorna ao coração daquele que confia no Senhor, mesmo quando não entende o caminho.
+Ouvir o som dos pombos é perceber que a paz volta a habitar entre nós. É Deus sussurrando que o tempo de luto acabou e que é hora de se levantar, erguer a cabeça e viver o novo que Ele preparou.
+Não importa quão longo tenha sido o teu inverno. Se hoje você ainda caminha em meio ao frio, creia: as flores vão aparecer. A canção vai voltar aos teus lábios. A paz vai encher novamente tua casa em nome de Jesus.
+Deus é especialista em transformar desertos em jardins e lágrimas em celebração. Há um novo tempo se anunciando, um tempo de flores, de cânticos e de recomeços. Confie em Deus.
+O melhor de Deus ainda está por vir
+
+
+Reconheça os sinais de Deus no seu caminho: Mesmo pequenos, os sinais de florescer indicam que Deus está agindo. Perceba com fé os detalhes diários que revelam um novo tempo começando em sua vida.
+
+Escolha louvar mesmo em meio à transição: Antes que tudo mude, comece a cantar. O louvor prepara o terreno para a vitória e fortalece o coração enquanto o milagre continua em processo.
+
+Cultive a paz ouvindo a voz do Espírito: Permita que o Espírito Santo fale ao seu coração. Silencie o medo e deixe a paz de Deus te guiar.
+
+Para orar:
+
+Senhor, agradeço pelo novo tempo que se inicia. Que eu reconheça Teu florescer, cante com alegria e ouça Tua paz. Fortalece minha fé nos dias incertos e renova minha esperança. Que eu floresça segundo a Tua vontade. Amém.
+
+Veja também: Como louvar a Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Deus te vê além das aparências
 INFO:root:🔹 URL: https://www.bibliaon.com/como_orar_e_falar_com_deus/
 INFO:root:🔹 Description: O Senhor, contudo, disse a Samuel: "Não considere sua aparência nem sua altura, pois eu o rejeitei. O Senhor não vê como o homem: o homem vê a aparência, mas o Senhor vê o coração".
@@ -323,45 +320,10 @@ Como Orar (aprenda como pedir algo a Deus)
 Orações para proteger e abençoar o trabalho
 Orações para buscar a Deus sem cessar
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Devocional: Recarregando para um novo dia
-INFO:root:🔹 URL: https://www.bibliaon.com/oracao_de_madrugada_buscando_a_deus_sem_cessar/
-INFO:root:🔹 Description: O dia que passou pode ter sido difícil e atribulado, mas em Cristo, encontramos consolo na certeza de que a cada novo dia, somos chamados a renovar nossas forças em Deus. O Senhor é nossa fonte inesgotável de energia e ânimo, pronto para nos recarregar para os desafios que surgem a cada amanhecer.
-Na Palavra de Deus, em Isaías 40:31, encontramos a promessa que nos inspira:
-
-mas aqueles que esperam no Senhor
-renovam as suas forças.
-Voam alto como águias;
-correm e não ficam exaustos,
-andam e não se cansam.
-- Isaías 40:31
-
-Essa passagem nos lembra que, ao depositarmos nossa confiança no Senhor, Ele nos capacita a enfrentar cada dia com vigor e fé.
-Ao despertar, reconheçamos a importância de nos conectar com Deus por meio da oração e da leitura da Sua Palavra. Esses momentos são como uma recarga espiritual que nos prepara para os desafios que enfrentaremos. Enquanto buscamos a presença do Senhor, Ele nos fortalece e nos conduz com sabedoria.
-Que, em cada novo dia, possamos experimentar a renovação que só o amor de Deus proporciona. Que a certeza da Sua presença nos impulsione a voar alto, correr sem desfalecer e caminhar sem nos cansarmos. Assim, recarregados em Seu poder, enfrentaremos cada desafio com a confiança de que somos mais que vencedores em Cristo Jesus. Amém.
-
-Cria em mim um coração puro, ó Deus,
-e renova dentro de mim um espírito estável.
-- Salmos 51:10
-
-Renove-se com a Palavra de Deus
-
-Cultive o hábito de dedicar um tempo diário à leitura da Bíblia. Permita que as Escrituras permeiem sua mente, renovando sua perspectiva e fortalecendo sua fé.
-Não apenas leia, mas medite na Palavra de Deus. Reflita sobre os significados, aplique princípios à sua vida.
-Estabeleça uma comunicação constante com Deus por meio da oração. Compartilhe seus anseios, alegrias e desafios.
-
-Para Orar:
-
-Senhor, em tua graça infinita, peço orientação e força. Guia-me nos caminhos da retidão, concede-me sabedoria para os desafios. Envolva-me com tua paz, renova minhas forças e inspira-me a viver segundo teus propósitos. Em nome de Jesus, amém.
-
-Veja também:
-
-Bom dia com Deus: mensagens bíblicas
-Esforça-te e tem bom ânimo: Deus está contigo (Josué 1:9)
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226262 characters
-INFO:root:HTML parsed, length: 224843 characters
+INFO:root:Response length: 226481 characters
+INFO:root:HTML parsed, length: 225010 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 26 URLs: ['/wiki/Saint_Louis_(coura%C3%A7ado)', '/wiki/Saint_Louis_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
 INFO:root:Found 1 descriptions: ['O Saint Louis foi um couraçado pré-dreadnought ope']
@@ -384,13 +346,13 @@ Compartilhe:
 
 
 
-Artigos destacados: 1499 •
+Artigos destacados: 1500 •
 Artigos bons: 1913
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226262 characters
-INFO:root:HTML parsed, length: 224843 characters
+INFO:root:Response length: 226481 characters
+INFO:root:HTML parsed, length: 225010 characters
 INFO:root:Found 1 titles: ['13 de junho na história']
 INFO:root:Found 47 URLs: ['/wiki/Ficheiro:Pessoa_chapeu.jpg', '/wiki/Dia_Internacional_de_Conscientiza%C3%A7%C3%A3o_sobre_o_Albinismo', '/wiki/1373']
 INFO:root:Found 1 descriptions: ['Fernando Pessoa\nDia Internacional de Conscientizaç']
@@ -420,8 +382,8 @@ Ver mais • Outros dias: 11 • 12 • 13 • 14 • 15 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226262 characters
-INFO:root:HTML parsed, length: 224843 characters
+INFO:root:Response length: 226481 characters
+INFO:root:HTML parsed, length: 225010 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:SMS_Arcona_NH_65764_-_Restoration.jpg']
 INFO:root:Found 1 descriptions: ['Corveta a vapor da Marinha Imperial Alemã SMS Arco']
@@ -461,28 +423,24 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M feeds/wikidestaque/atom.xml
  M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++--
- feeds/devocional_de_hoje/feed.json        |  14 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  29 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  58 +++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  41 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  73 +++++--
+ feeds/salmo_do_dia/atom.xml               |  80 ++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   4 +-
  feeds/wikidestaque/feed.json              |   2 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 340 ++++++++++++++++--------------
- 17 files changed, 334 insertions(+), 274 deletions(-)
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 340 +++++++++++++-----------------
+ 15 files changed, 258 insertions(+), 354 deletions(-)
