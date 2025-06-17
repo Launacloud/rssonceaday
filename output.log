@@ -1,46 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119673 characters
-INFO:root:HTML parsed, length: 112650 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (16/06/2025)', 'Palavra de Ontem (15/06/2025)', 'Palavra de Anteontem (14/06/2025)']
-INFO:root:Found 3 URLs: ['/sistematico/', '/paradigma/', '/a-fim-de/']
-INFO:root:Found 13 descriptions: ['adjetivo Que se refere a um sistema, ao modo ou mé', 'Sinônimos:\n\nesquisito, excêntrico, arranjado, orde', 'Antônimos:\n\neventual, casual, caótico, confuso, ne']
-INFO:root:Found 3 dates: ['Palavra de Hoje (16/06/2025)', 'Palavra de Ontem (15/06/2025)', 'Palavra de Anteontem (14/06/2025)']
+INFO:root:Response length: 120300 characters
+INFO:root:HTML parsed, length: 113094 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (17/06/2025)', 'Palavra de Ontem (16/06/2025)', 'Palavra de Anteontem (15/06/2025)']
+INFO:root:Found 3 URLs: ['/temeroso/', '/sistematico/', '/paradigma/']
+INFO:root:Found 15 descriptions: ['adjetivo Que tem medo; que expressa receio; medros', 'Sinônimos:\n\nmedroso, poltrão, assustador, receoso,', 'Antônimos:\n\ncorajoso, destemeroso']
+INFO:root:Found 3 dates: ['Palavra de Hoje (17/06/2025)', 'Palavra de Ontem (16/06/2025)', 'Palavra de Anteontem (15/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (16/06/2025)', ID=825b1c72276fd09c7bc58863a6b0eac3
-INFO:root:Processing entry 2: Title='Palavra de Ontem (15/06/2025)', ID=510474f24d4bf8f365206d5d2d5fcc02
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (14/06/2025)', ID=8207932be1018f2fd206288c9f27e7fd
+INFO:root:Processing entry 1: Title='Palavra de Hoje (17/06/2025)', ID=bfeb45fe5cf386db90cea512a3c2011a
+INFO:root:Processing entry 2: Title='Palavra de Ontem (16/06/2025)', ID=2319b377ccb87d0f3aa39c93f746bb81
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (15/06/2025)', ID=cbd47b47b4befe6f5a08c576f8727d66
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (16/06/2025) - Significado completo de sistemático:
-INFO:root:🔹 URL: https://www.dicio.com.br/sistematico/
-INFO:root:🔹 Description: adjetivo Que se refere a um sistema, ao modo ou método de formar um todo organizado.Que contém método; em que há organização: teoria sistemática.[Por Extensão] Que se comporta ou se desenvolve de acordo com um método ou uma ordenação; organizado.[Gráficas] Diz-se do material que tem como base de referência o cícero (unidade de medida).[Biologia] Que faz referência ao que é sistemático; sistêmico.Etimologia (origem da palavra sistemático). Do latim systematicus.a.um.
+INFO:root:🔹 Title: Palavra de Hoje (17/06/2025) - Significado completo de temeroso:
+INFO:root:🔹 URL: https://www.dicio.com.br/temeroso/
+INFO:root:🔹 Description: adjetivo Que tem medo; que expressa receio; medroso: andava temeroso na escuridão.Que é assustador; que propaga o medo, o temor; assustador: ditador temeroso.[Gramática] A palavra temeroso tem alteração de pronúncia no plural; pronuncia-se: /temerósos/.Etimologia (origem da palavra temeroso). A palavra temeroso deriva da junção do verbo temer, e do sufixo -oso.
  
 Sinônimos:
 
-esquisito, excêntrico, arranjado, ordenado, metódico, comedido, sistêmico 
+medroso, poltrão, assustador, receoso, cobarde, covarde, temível, horroroso, pavoroso, temido 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (15/06/2025) - Significado completo de paradigma:
-INFO:root:🔹 URL: https://www.dicio.com.br/paradigma/
+INFO:root:🔹 Title: Palavra de Ontem (16/06/2025) - Significado completo de sistemático:
+INFO:root:🔹 URL: https://www.dicio.com.br/sistematico/
 INFO:root:🔹 Description: Sinônimos:
 
-esquisito, excêntrico, arranjado, ordenado, metódico, comedido, sistêmico
+medroso, poltrão, assustador, receoso, cobarde, covarde, temível, horroroso, pavoroso, temido
  
 Antônimos:
 
-eventual, casual, caótico, confuso, negligente, displicente 
+corajoso, destemeroso 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (14/06/2025) - Significado completo de a fim de:
-INFO:root:🔹 URL: https://www.dicio.com.br/a-fim-de/
+INFO:root:🔹 Title: Palavra de Anteontem (15/06/2025) - Significado completo de paradigma:
+INFO:root:🔹 URL: https://www.dicio.com.br/paradigma/
 INFO:root:🔹 Description: Antônimos:
 
-eventual, casual, caótico, confuso, negligente, displicente
- Classe gramatical:adjetivo e substantivo masculino
+corajoso, destemeroso
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,45 +48,79 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243197 characters
-INFO:root:HTML parsed, length: 232519 characters
-INFO:root:Found 1 titles: ['2 Samuel 22:31']
-INFO:root:Found 1 URLs: ['/versiculo/2_samuel_22_31/']
-INFO:root:Found 1 descriptions: ['"Este é o Deus\ncujo caminho é perfeito;\na palavra ']
+INFO:root:Response length: 243180 characters
+INFO:root:HTML parsed, length: 232502 characters
+INFO:root:Found 1 titles: ['Mateus 19:6']
+INFO:root:Found 1 URLs: ['/versiculo/mateus_19_6/']
+INFO:root:Found 1 descriptions: ['Assim, eles já não são dois, mas sim uma só carne.']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Samuel 22:31', ID=81b5acf32efd5b3d5154fb2fed86304b
+INFO:root:Processing entry 1: Title='Mateus 19:6', ID=900de1afe20c1cfbef25b1d40e9520f0
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Samuel 22:31
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_samuel_22_31/
-INFO:root:🔹 Description: "Este é o Deus
-cujo caminho é perfeito;
-a palavra do Senhor
-é comprovadamente genuína.
-Ele é escudo
-para todos os que nele se refugiam. 2 Samuel 22:31
+INFO:root:🔹 Title: Mateus 19:6
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_19_6/
+INFO:root:🔹 Description: Assim, eles já não são dois, mas sim uma só carne. Portanto, o que Deus uniu, ninguém separe". Mateus 19:6
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243892 characters
-INFO:root:HTML parsed, length: 233951 characters
-INFO:root:Found 3 titles: ['Salmo 79', 'Salmo 25', 'Salmo 130']
-INFO:root:Found 3 URLs: ['/salmos_79/', '/salmos_25/', '/salmos_130/']
-INFO:root:Found 3 descriptions: ['Ó Deus, as nações invadiram a tua herança,\nprofana', 'A ti, Senhor, elevo a minha alma. \nEm ti confio, ó', 'Das profundezas clamo a ti, Senhor; \nouve, Senhor,']
-INFO:root:Found 3 dates: ['16 de Junho de 2025', '15 de Junho de 2025', '14 de Junho de 2025']
+INFO:root:Response length: 244564 characters
+INFO:root:HTML parsed, length: 234634 characters
+INFO:root:Found 3 titles: ['Salmo 140', 'Salmo 79', 'Salmo 25']
+INFO:root:Found 3 URLs: ['/salmos_140/', '/salmos_79/', '/salmos_25/']
+INFO:root:Found 3 descriptions: ['Livra-me, Senhor, dos maus;\nprotege-me dos violent', 'Ó Deus, as nações invadiram a tua herança,\nprofana', 'A ti, Senhor, elevo a minha alma. \nEm ti confio, ó']
+INFO:root:Found 3 dates: ['17 de Junho de 2025', '16 de Junho de 2025', '15 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 79', ID=c848f0aa496275f7078cb360fbcd7adf
-INFO:root:Processing entry 2: Title=' Salmo 25', ID=e880629da3912517b7fddb927493f37f
-INFO:root:Processing entry 3: Title=' Salmo 130', ID=ec79926a1e39d14d7b4e76e1576e9d96
+INFO:root:Processing entry 1: Title=' Salmo 140', ID=8a3e302037b1455d1236975728e68da3
+INFO:root:Processing entry 2: Title=' Salmo 79', ID=c848f0aa496275f7078cb360fbcd7adf
+INFO:root:Processing entry 3: Title=' Salmo 25', ID=e880629da3912517b7fddb927493f37f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 140
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_140/
+INFO:root:🔹 Description: Livra-me, Senhor, dos maus;
+protege-me dos violentos, 
+que no coração tramam planos perversos
+e estão sempre provocando guerra. 
+Afiam a língua como a da serpente;
+veneno de víbora está em seus lábios. 
+Protege-me, Senhor, das mãos dos ímpios;
+protege-me dos violentos,
+que pretendem fazer-me tropeçar. 
+Homens arrogantes prepararam
+armadilhas contra mim,
+perversos estenderam as suas redes;
+no meu caminho armaram ciladas contra mim. 
+Eu declaro ao Senhor: Tu és o meu Deus.
+Ouve, Senhor, a minha súplica! 
+Ó Soberano Senhor, meu salvador poderoso,
+tu me proteges a cabeça no dia da batalha; 
+não atendas aos desejos dos ímpios, Senhor!
+Não permitas que os planos deles
+tenham sucesso,
+para que não se orgulhem. 
+Recaia sobre a cabeça dos que me cercam
+a maldade que os seus lábios proferiram. 
+Caiam brasas sobre eles,
+e sejam lançados ao fogo,
+em covas das quais jamais possam sair. 
+Que os difamadores
+não se estabeleçam na terra,
+que a desgraça persiga os violentos até a morte. 
+Sei que o Senhor defenderá
+a causa do necessitado
+e fará justiça aos pobres. 
+Com certeza os justos darão graças
+ao teu nome,
+e os homens íntegros viverão na tua presença. 
+ Salmo 140
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 79
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_79/
 INFO:root:🔹 Description: Ó Deus, as nações invadiram a tua herança,
@@ -196,102 +230,83 @@ porque a minha esperança está em ti.
 Ó Deus, liberta Israel de todas as suas aflições! 
  Salmo 25
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 130
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_130/
-INFO:root:🔹 Description: Das profundezas clamo a ti, Senhor; 
-ouve, Senhor, a minha voz!
-Estejam atentos os teus ouvidos
-às minhas súplicas! 
-Se tu, Soberano Senhor,
-registrasses os pecados, quem escaparia? 
-Mas contigo está o perdão
-para que sejas temido. 
-Espero no Senhor com todo o meu ser
-e na sua palavra ponho a minha esperança. 
-Espero pelo Senhor
-mais do que as sentinelas pela manhã;
-sim, mais do que as sentinelas
-esperam pela manhã! 
-Ponha a sua esperança no Senhor, ó Israel,
-pois no Senhor há amor leal
-e plena redenção. 
-Ele próprio redimirá Israel
-de todas as suas culpas. 
- Salmo 130
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245657 characters
-INFO:root:HTML parsed, length: 235374 characters
-INFO:root:Found 3 titles: ['Siga adiante com Deus!', 'Jesus cabe no seu coração!', 'Fique calmo e preste atenção']
+INFO:root:Response length: 245578 characters
+INFO:root:HTML parsed, length: 235286 characters
+INFO:root:Found 3 titles: ['Um só caminho', 'Siga adiante com Deus!', 'Jesus cabe no seu coração!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O próprio Senhor irá à sua frente e estará com voc', 'Muitas vezes achamos que precisamos estar perfeito', 'Quando você for ao santuário de Deus, seja reveren']
-INFO:root:Found 1 dates: ['Segunda, 16 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Há um ditado popular que diz que todos os caminhos', 'O próprio Senhor irá à sua frente e estará com voc', 'Muitas vezes achamos que precisamos estar perfeito']
+INFO:root:Found 1 dates: ['Terça, 17 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Siga adiante com Deus!', ID=13cc078cfd7093eef957109f74267b2a
+INFO:root:Processing entry 1: Title='Um só caminho', ID=4b5bc60ae4a30394c1ac5f7159347bbf
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Siga adiante com Deus! - Palavra de Hoje
+INFO:root:🔹 Title: Um só caminho - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O próprio Senhor irá à sua frente e estará com você; ele nunca o deixará, nunca o abandonará. Não tenha medo! Não desanime!"
-- Deuteronômio 31:8
+INFO:root:🔹 Description: Há um ditado popular que diz que todos os caminhos levam a Roma. Isso significa que há muitas maneiras de alcançar o mesmo resultado. Você pode voar para Roma do Brasil, Angola ou Portugal. Ou pode dirigir até Roma da Suíça, França ou Croácia. Seja de avião, barco, carro ou qualquer outro meio de transporte, mais cedo ou mais tarde você chegará a Roma... assim dizem.
+Algumas pessoas aplicam isso a Deus e dizem que todos os caminhos levam a Deus. No entanto, a Bíblia é muito clara: Jesus é o único caminho para o Pai. É somente por meio de Jesus que somos salvos. Jesus é o caminho para Deus e, por meio dele, somos perdoados de todos os erros que cometemos.
 
-Todos nós temos sonhos e desejos, mas, muitas vezes, nos concentramos mais em nossas falhas e deficiências do que naquilo que almejamos realizar com a ajuda do Senhor. Essa atitude nos leva a deixar de lado nossos desejos ou sonhos mais profundos, pensando que somos fracos ou imperfeitos demais para realizá-los.
-Continuamos dia após dia, trilhando o caminho tranquilo e seguro, fazendo o que é mais fácil e exige pouco esforço. No entanto, na Palavra de Deus, somos desafiados a usar corajosamente nossos dons e talentos para a glória de Deus. Nosso Pai amorosamente nos chama e nos exorta a usar todo o nosso potencial e dar o nosso melhor. Faremos isso?
-Ao darmos passos com nossas próprias forças, ficaremos exaustos e frustrados. Mas quando nos lembramos de que Deus vai à nossa frente, que temos Sua companhia e que com Ele todas as coisas são possíveis, nossos olhos espirituais se abrem e recebemos novas forças. Vemos como nosso Senhor abre portas e pavimenta o caminho para podermos seguir em frente, guiados por Ele. Dele recebemos o impulso necessário para dar passos de coragem.
+Pois o salário do pecado é a morte, mas o dom gratuito de Deus é a vida eterna em Cristo Jesus, nosso Senhor.
+- Romanos 6:23
 
-Sejam fortes e corajosos,
-todos vocês que esperam no Senhor!
-- Salmo 31:24
-
-Se há um desejo não realizado em seu coração, algo que você anseia fazer, mas não ousa fazer por se sentir incapaz, busque a Deus hoje mesmo para renovar suas forças. Diga ao Senhor: "Estou disposto" e coloque seu sonho em Suas mãos. Peça a Ele que lhe mostre como usar seus dons e os passos concretos que você pode dar para começar a avançar com Ele como seu líder.
-Siga em frente com o Senhor e comece a conquistar novos níveis para Sua glória!
-Veja também: Palavras de edificação e ânimo na Bíblia
+Jesus é o presente que Deus nos deu, e nele temos vida! Sem Jesus, o destino eterno da humanidade seria a morte eterna. Mas Deus, em seu infinito amor, enviou Jesus ao mundo para que, por meio dele, pudéssemos ser salvos.
+Todos que aceitam Jesus como Senhor e Salvador podem viver livres do medo do castigo eterno e da separação de Deus. É graças ao sacrifício de Jesus na cruz que podemos ter acesso ao Pai e ter a certeza de que estaremos com Ele por toda a eternidade.
+Se você já recebeu Jesus em sua vida, reserve um momento para agradecê-Lo por abrir o caminho para o Pai e lhe dar a certeza da vida eterna. Você já recebeu o maior presente!
+Mas se você ainda não recebeu Jesus em seu coração, pode fazê-lo agora mesmo. Ele está esperando por você de braços abertos, ansioso para tê-lo como Seu filho por toda a eternidade. Não O rejeite; Ele é o único caminho para Deus!
+Veja também: Eu sou o caminho, a verdade e a vida (Estudo Bíblico)
  
-O próprio Senhor irá à sua frente e estará com você; ele nunca o deixará, nunca o abandonará. Não tenha medo! Não desanime!"
-- Deuteronômio 31:8
+Pois o salário do pecado é a morte, mas o dom gratuito de Deus é a vida eterna em Cristo Jesus, nosso Senhor.
+- Romanos 6:23
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 253282 characters
-INFO:root:HTML parsed, length: 242767 characters
-INFO:root:Found 3 titles: ['Quem permanece no amor, permanece em Deus!', 'Aumente o seu amor', 'Tempo de florescer e cantar']
-INFO:root:Found 1 URLs: ['/versiculos_para_louvar_a_deus/']
-INFO:root:Found 3 descriptions: ['Assim conhecemos o amor que Deus tem por nós e con', 'Esta é a minha oração: que o amor de vocês aumente', 'Aparecem flores na terra, e chegou o tempo de cant']
-INFO:root:Found 3 dates: ['JUNHO\n\n16\nSEGUNDA', 'JUNHO\n\n15\nDOMINGO', 'JUNHO\n\n14\nSÁBADO']
+INFO:root:Response length: 253763 characters
+INFO:root:HTML parsed, length: 243248 characters
+INFO:root:Found 3 titles: ['Seu refúgio certo em tempos de incerteza', 'Quem permanece no amor, permanece em Deus!', 'Aumente o seu amor']
+INFO:root:Found 1 URLs: ['/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['"Este é o Deus cujo caminho é perfeito; a palavra ', 'Assim conhecemos o amor que Deus tem por nós e con', 'Esta é a minha oração: que o amor de vocês aumente']
+INFO:root:Found 3 dates: ['JUNHO\n\n17\nTERÇA', 'JUNHO\n\n16\nSEGUNDA', 'JUNHO\n\n15\nDOMINGO']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Quem permanece no amor, permanece em Deus!', ID=f8b20f1038a6afc7831852f8b640e2d6
+INFO:root:Processing entry 1: Title='Seu refúgio certo em tempos de incerteza', ID=ee6b0b4dc714db8f0f112c6fa6efc847
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Quem permanece no amor, permanece em Deus!
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
-INFO:root:🔹 Description: Assim conhecemos o amor que Deus tem por nós e confiamos nesse amor. Deus é amor. Todo aquele que permanece no amor permanece em Deus, e Deus nele.
-1 João 4:16 
+INFO:root:🔹 Title: Seu refúgio certo em tempos de incerteza
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 Description: "Este é o Deus cujo caminho é perfeito; a palavra do Senhor é comprovadamente genuína. Ele é escudo para todos os que nele se refugiam.
+- 2 Samuel 22:31 
 
-Permanecer em Deus é permanecer no amor. Deus é a própria fonte de amor, recebemos e compartilhamos através dos nossos atos. Essa é a maravilha do Evangelho, recebemos e compartilhamos esse amor! 
-Ao agirmos com amor com o nosso próximo, estamos compartilhando o Deus que cremos. Deus é a essência do amor e todo ato aponta para Ele. Quando perdoamos, quando ajudamos, quando oramos por alguém, Deus se manifesta através dessas atitudes. 
-Quanto mais amamos, mais somos amados, é um clico perfeito. Essa é a base do relacionamento com Deus: amar e ser amado. 
-Vivendo no amor de Deus 
+O caminho de Deus é perfeito, e Sua palavra é verdadeira. Este versículo nos oferece uma base firme: em um mundo repleto de incertezas, Deus é o caminho perfeito.
+Nada em nossa vida é desconhecido para o Senhor. Mesmo quando enfrentamos perdas, dúvidas, podemos confiar que o caminho de Deus é sempre o melhor. Seu propósito é eterno, e Ele vê além das nossas limitações. A perfeição do Seu caminho não está na ausência de dor, mas na certeza de que tudo coopera para o bem daqueles que O amam (Romanos 8:28).
+A Palavra do Senhor permanece inabalável. Ao longo dos séculos, foi provada, contestada e perseguida, mas nunca deixou de cumprir o que promete. Ela é luz para os nossos pés, direção segura em meio à escuridão. É nela que encontramos a verdade que liberta, consola e transforma.
+E mais: Deus é escudo. Não um escudo qualquer, mas um refúgio para todos os que se abrigam n’Ele. Não importa quão forte seja a tempestade ou quão grande o inimigo, aqueles que confiam no Senhor encontram proteção, paz e esperança.
+Hoje, mais do que nunca, precisamos lembrar: há um Deus cujo caminho é perfeito, cuja Palavra é verdadeira e cujo amor é escudo inabalável. Refugiar-se n’Ele não é fraqueza, é sabedoria. É escolher caminhar com Aquele que nunca falha. 
+Caminhando com a proteção de Deus 
 
-Tome a iniciativa, experimente o amor de Deus e seja surpreendido por Ele. 
-Se alimente do amor de Deus. Leia a Palavra.
-Ame a Deus e ame ao próximo. Esse são os maiores mandamentos! 
 
-Para Orar: 
+Confie nos caminhos de Deus, mesmo sem entender: Ainda que a direção pareça incerta, creia que Deus vê o todo. Submeta seus planos a Ele e siga com fé, sabendo que Seus caminhos são sempre perfeitos.
 
-Senhor, Teu amor é sublime. Quando busco a Ti, recebo o Teu amor. Quero transbordar e compartilhar a Tua essência através dos meus atos. Amém!
+Alimente-se diariamente da Palavra: A Bíblia é fonte de sabedoria, consolo e direção. Reserve tempo para ler, meditar e aplicar seus ensinamentos, permitindo que a verdade de Deus molde suas decisões e atitudes.
+
+Refugie-se em oração: Busque a presença de Deus em oração nos momentos bons e difíceis. Ele é o escudo fiel que fortalece, protege e responde quando nos colocamos diante d’Ele com confiança e sinceridade.
+
+Para orar: 
+
+Senhor Deus, Tu és perfeito em tudo o que fazes. Mesmo quando não entendo Teus caminhos, confio que são os melhores para mim. Ajuda-me a descansar na Tua Palavra, que é verdadeira e viva. Sê meu escudo nos dias difíceis e meu refúgio seguro em toda situação. Fortalece minha fé, guia meus passos e ensina-me a buscar Tua presença todos os dias. Em Ti encontro paz, direção e proteção. Em nome de Jesus, amém.
+
+Veja também: 7 razões para confiar em Deus em meio às lutas
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224701 characters
-INFO:root:HTML parsed, length: 223230 characters
+INFO:root:Response length: 225578 characters
+INFO:root:HTML parsed, length: 224092 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 20 URLs: ['/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs', '/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs', '/wiki/L%C3%ADngua_islandesa']
 INFO:root:Found 1 descriptions: ['O Museu Falológico Islandês (em islandês:  Hið ísl']
@@ -320,44 +335,44 @@ Artigos bons: 1914
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224701 characters
-INFO:root:HTML parsed, length: 223230 characters
-INFO:root:Found 1 titles: ['15 de junho na história']
-INFO:root:Found 48 URLs: ['/wiki/Ficheiro:Gago_Coutinho_e_Sacadura_Cabral.jpg', '/wiki/Dia_Mundial_de_Conscientiza%C3%A7%C3%A3o_da_Viol%C3%AAncia_contra_a_Pessoa_Idosa', '/wiki/Vento']
-INFO:root:Found 1 descriptions: ['Gago Coutinho e Sacadura Cabral a bordo do Lusitân']
+INFO:root:Response length: 225578 characters
+INFO:root:HTML parsed, length: 224092 characters
+INFO:root:Found 1 titles: ['16 de junho na história']
+INFO:root:Found 47 URLs: ['/wiki/Ficheiro:Valentina_Tereshkova,_First_Woman_in_Space_-_Flickr_-_San_Diego_Air_%5E_Space_Museum_Archives.jpg', '/wiki/Dia_Internacional_das_Remessas_Familiares', '/wiki/1846']
+INFO:root:Found 1 descriptions: ['Valentina Tereshkova\nDia Internacional das Remessa']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='15 de junho na história', ID=0aa64c8e8c4f4847e3201c93397f52b5
+INFO:root:Processing entry 1: Title='16 de junho na história', ID=cce78a12f8df0381cca433ba98c39696
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 15 de junho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Gago_Coutinho_e_Sacadura_Cabral.jpg
-INFO:root:🔹 Description: Gago Coutinho e Sacadura Cabral a bordo do Lusitânia
-Dia Mundial de Conscientização da Violência contra a Pessoa Idosa (2006); Dia Mundial do Vento (1967)
+INFO:root:🔹 Title: 16 de junho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Valentina_Tereshkova,_First_Woman_in_Space_-_Flickr_-_San_Diego_Air_%5E_Space_Museum_Archives.jpg
+INFO:root:🔹 Description: Valentina Tereshkova
+Dia Internacional das Remessas Familiares (2015)
 
-1888 – Guilherme II ascende ao trono alemão depois da morte de seu pai, Frederico III
-1922 – Os portugueses Gago Coutinho e Sacadura Cabral (imagem) realizam a primeira travessia aérea do Atlântico Sul ao chegar ao Rio de Janeiro num hidroavião.
-1954 – A União das Associações Europeias de Futebol é formada em Basileia, Suíça.
+1846 – Um conclave elege o Papa Pio IX, iniciando o pontificado mais longo da história do papado.
+1963 – A União Soviética lança a missão Vostok VI; a cosmonauta Valentina Tereshkova (imagem) torna-se a primeira mulher a ir ao espaço.
+1976 – Ocorre o Levante de Soweto, uma das mais sangrentas rebeliões negras durante a vigência do apartheid na África do Sul.
 Nasceram neste dia…
-Eduardo, o Príncipe Negro (1330–1376)  •  Edvard Grieg (1843–1907)  •  Herbert Simon (1916–2001)  •  Ice Cube (n. 1969)
+Giovanni Boccaccio (1313–1375)  •  Gerônimo (1829–1909)  •  Ariano Suassuna (1927–2014)  •  Tupac Shakur (1971–1996)
 Morreram neste dia…
-Guido Marlière (1767–1836)  •  Almada Negreiros (1903–1970)  •  James Hunt (1947–1993)  •  Ella Fitzgerald (1917–1996)
+Ernst Schröder (1841–1902)  •  Marc Bloch (1886–1944)  •  Kōjun (1903–2000)  •  Helmut Kohl (1930–2017)
 
 
-Ver mais • Outros dias: 13 • 14 • 15 • 16 • 17 • Ver todos
+Ver mais • Outros dias: 14 • 15 • 16 • 17 • 18 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224701 characters
-INFO:root:HTML parsed, length: 223230 characters
+INFO:root:Response length: 225578 characters
+INFO:root:HTML parsed, length: 224092 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Beacon_Stawa_M%C5%82yny,_%C5%9Awinouj%C5%9Bcie.jpg']
-INFO:root:Found 1 descriptions: ['Farol de Stawa Młyny, em forma de moinho de vento,']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Sepia_com%C3%BAn_(Sepia_officinalis),_Parque_natural_de_la_Arr%C3%A1bida,_Portugal,_2021-09-07,_DD_04.jpg']
+INFO:root:Found 1 descriptions: ['Choco-comum (Sepia officinalis), fotografado no Pa']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Beacon_Stawa_M%C5%82yny%2C_%C5%9Awinouj%C5%9Bcie.jpg/960px-Beacon_Stawa_M%C5%82yny%2C_%C5%9Awinouj%C5%9Bcie.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2021-09-07%2C_DD_04.jpg/500px-Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2021-09-07%2C_DD_04.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -366,15 +381,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Beacon_Stawa_M%C5%82yny,_%C5%9Awinouj%C5%9Bcie.jpg
-INFO:root:🔹 Description: Farol de Stawa Młyny, em forma de moinho de vento, marcando a rota de entrada para o porto de Świnoujście e a lagoa de Estetino no mar Báltico. Ele está localizado no noroeste da Polônia, na Pomerânia Ocidental.
-(resolução original: 4 961 × 3 303)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Sepia_com%C3%BAn_(Sepia_officinalis),_Parque_natural_de_la_Arr%C3%A1bida,_Portugal,_2021-09-07,_DD_04.jpg
+INFO:root:🔹 Description: Choco-comum (Sepia officinalis), fotografado no Parque Natural da Arrábida, Setúbal, Portugal. É uma espécie migratória que passa o verão e a primavera abaixo da costa para desovar, enquanto se desloca para profundidades cobertas entre 100 e 200 m durante o outono e o inverno. É um animal noturno, que passa o dia escondido sob a areia do fundo do mar. Como todos os cefalópodes mais evoluídos, ele pode mudar a cor de sua pele.
+(resolução original: 2 551 × 2 551)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Beacon_Stawa_M%C5%82yny%2C_%C5%9Awinouj%C5%9Bcie.jpg/960px-Beacon_Stawa_M%C5%82yny%2C_%C5%9Awinouj%C5%9Bcie.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2021-09-07%2C_DD_04.jpg/500px-Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2021-09-07%2C_DD_04.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -390,26 +405,28 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
+ M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  32 ++-
- feeds/devocional_de_hoje/feed.json        |   6 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  25 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  29 +--
+ feeds/devocional_de_hoje/feed.json        |   8 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  25 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 101 +++++-----
+ feeds/salmo_do_dia/atom.xml               |  60 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   5 +-
- feeds/wikidestaque/feed.json              |   2 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 314 ++++++++++++++----------------
- 15 files changed, 274 insertions(+), 290 deletions(-)
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 304 +++++++++++++++---------------
+ 16 files changed, 276 insertions(+), 261 deletions(-)
