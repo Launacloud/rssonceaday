@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120300 characters
-INFO:root:HTML parsed, length: 113094 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (17/06/2025)', 'Palavra de Ontem (16/06/2025)', 'Palavra de Anteontem (15/06/2025)']
-INFO:root:Found 3 URLs: ['/temeroso/', '/sistematico/', '/paradigma/']
-INFO:root:Found 15 descriptions: ['adjetivo Que tem medo; que expressa receio; medros', 'Sinônimos:\n\nmedroso, poltrão, assustador, receoso,', 'Antônimos:\n\ncorajoso, destemeroso']
-INFO:root:Found 3 dates: ['Palavra de Hoje (17/06/2025)', 'Palavra de Ontem (16/06/2025)', 'Palavra de Anteontem (15/06/2025)']
+INFO:root:Response length: 119971 characters
+INFO:root:HTML parsed, length: 112765 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (18/06/2025)', 'Palavra de Ontem (17/06/2025)', 'Palavra de Anteontem (16/06/2025)']
+INFO:root:Found 3 URLs: ['/leveza/', '/temeroso/', '/sistematico/']
+INFO:root:Found 15 descriptions: ['substantivo feminino Qualidade do que é leve, pouc', 'Sinônimos:\n\nleviandade, airosidade, frescor, singe', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (18/06/2025)', 'Palavra de Ontem (17/06/2025)', 'Palavra de Anteontem (16/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (17/06/2025)', ID=bfeb45fe5cf386db90cea512a3c2011a
-INFO:root:Processing entry 2: Title='Palavra de Ontem (16/06/2025)', ID=2319b377ccb87d0f3aa39c93f746bb81
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (15/06/2025)', ID=cbd47b47b4befe6f5a08c576f8727d66
+INFO:root:Processing entry 1: Title='Palavra de Hoje (18/06/2025)', ID=97140ae999213b75b154974399675e0e
+INFO:root:Processing entry 2: Title='Palavra de Ontem (17/06/2025)', ID=e903405990677b5263b44e955528375c
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/06/2025)', ID=e085ace50ec765154874d71315743952
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (17/06/2025) - Significado completo de temeroso:
-INFO:root:🔹 URL: https://www.dicio.com.br/temeroso/
-INFO:root:🔹 Description: adjetivo Que tem medo; que expressa receio; medroso: andava temeroso na escuridão.Que é assustador; que propaga o medo, o temor; assustador: ditador temeroso.[Gramática] A palavra temeroso tem alteração de pronúncia no plural; pronuncia-se: /temerósos/.Etimologia (origem da palavra temeroso). A palavra temeroso deriva da junção do verbo temer, e do sufixo -oso.
+INFO:root:🔹 Title: Palavra de Hoje (18/06/2025) - Significado completo de leveza:
+INFO:root:🔹 URL: https://www.dicio.com.br/leveza/
+INFO:root:🔹 Description: substantivo feminino Qualidade do que é leve, pouco espesso, pouco pesado, pouco maciço: a leveza de uma pluma, do alumínio.[Figurado] Natureza do que é suave, singelo, delicado; airosidade, frescor.[Pejorativo] Comportamento leviano, sem reflexão; leviandade.Etimologia (origem da palavra leveza). Leve + eza.
  
 Sinônimos:
 
-medroso, poltrão, assustador, receoso, cobarde, covarde, temível, horroroso, pavoroso, temido 
+leviandade, airosidade, frescor, singeleza, finesse 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (16/06/2025) - Significado completo de sistemático:
-INFO:root:🔹 URL: https://www.dicio.com.br/sistematico/
+INFO:root:🔹 Title: Palavra de Ontem (17/06/2025) - Significado completo de temeroso:
+INFO:root:🔹 URL: https://www.dicio.com.br/temeroso/
 INFO:root:🔹 Description: Sinônimos:
 
-medroso, poltrão, assustador, receoso, cobarde, covarde, temível, horroroso, pavoroso, temido
- 
-Antônimos:
-
-corajoso, destemeroso 
-
+leviandade, airosidade, frescor, singeleza, finesse
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (15/06/2025) - Significado completo de paradigma:
-INFO:root:🔹 URL: https://www.dicio.com.br/paradigma/
-INFO:root:🔹 Description: Antônimos:
-
-corajoso, destemeroso
- Classe gramatical:adjetivo
+INFO:root:🔹 Title: Palavra de Anteontem (16/06/2025) - Significado completo de sistemático:
+INFO:root:🔹 URL: https://www.dicio.com.br/sistematico/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:le-ve-za
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,86 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243180 characters
-INFO:root:HTML parsed, length: 232502 characters
-INFO:root:Found 1 titles: ['Mateus 19:6']
-INFO:root:Found 1 URLs: ['/versiculo/mateus_19_6/']
-INFO:root:Found 1 descriptions: ['Assim, eles já não são dois, mas sim uma só carne.']
+INFO:root:Response length: 243282 characters
+INFO:root:HTML parsed, length: 232604 characters
+INFO:root:Found 1 titles: ['Colossenses 3:16']
+INFO:root:Found 1 URLs: ['/versiculo/colossenses_3_16/']
+INFO:root:Found 1 descriptions: ['Habite ricamente em vocês a palavra de Cristo; ens']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Mateus 19:6', ID=900de1afe20c1cfbef25b1d40e9520f0
+INFO:root:Processing entry 1: Title='Colossenses 3:16', ID=c962661446839e2c41bd6991cf4f2250
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Mateus 19:6
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_19_6/
-INFO:root:🔹 Description: Assim, eles já não são dois, mas sim uma só carne. Portanto, o que Deus uniu, ninguém separe". Mateus 19:6
+INFO:root:🔹 Title: Colossenses 3:16
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/colossenses_3_16/
+INFO:root:🔹 Description: Habite ricamente em vocês a palavra de Cristo; ensinem e aconselhem-se uns aos outros com toda a sabedoria e cantem salmos, hinos e cânticos espirituais com gratidão a Deus em seu coração. Colossenses 3:16
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 244564 characters
-INFO:root:HTML parsed, length: 234634 characters
-INFO:root:Found 3 titles: ['Salmo 140', 'Salmo 79', 'Salmo 25']
-INFO:root:Found 3 URLs: ['/salmos_140/', '/salmos_79/', '/salmos_25/']
-INFO:root:Found 3 descriptions: ['Livra-me, Senhor, dos maus;\nprotege-me dos violent', 'Ó Deus, as nações invadiram a tua herança,\nprofana', 'A ti, Senhor, elevo a minha alma. \nEm ti confio, ó']
-INFO:root:Found 3 dates: ['17 de Junho de 2025', '16 de Junho de 2025', '15 de Junho de 2025']
+INFO:root:Response length: 244043 characters
+INFO:root:HTML parsed, length: 234109 characters
+INFO:root:Found 3 titles: ['Salmo 39', 'Salmo 140', 'Salmo 79']
+INFO:root:Found 3 URLs: ['/salmos_39/', '/salmos_140/', '/salmos_79/']
+INFO:root:Found 3 descriptions: ['Eu disse: Vigiarei a minha conduta\ne não pecarei e', 'Livra-me, Senhor, dos maus;\nprotege-me dos violent', 'Ó Deus, as nações invadiram a tua herança,\nprofana']
+INFO:root:Found 3 dates: ['18 de Junho de 2025', '17 de Junho de 2025', '16 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 140', ID=8a3e302037b1455d1236975728e68da3
-INFO:root:Processing entry 2: Title=' Salmo 79', ID=c848f0aa496275f7078cb360fbcd7adf
-INFO:root:Processing entry 3: Title=' Salmo 25', ID=e880629da3912517b7fddb927493f37f
+INFO:root:Processing entry 1: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
+INFO:root:Processing entry 2: Title=' Salmo 140', ID=8a3e302037b1455d1236975728e68da3
+INFO:root:Processing entry 3: Title=' Salmo 79', ID=c848f0aa496275f7078cb360fbcd7adf
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 39
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_39/
+INFO:root:🔹 Description: Eu disse: Vigiarei a minha conduta
+e não pecarei em palavras;
+porei mordaça em minha boca
+enquanto os ímpios
+estiverem na minha presença. 
+Enquanto me calei resignado,
+e me contive inutilmente,
+minha angústia aumentou. 
+Meu coração ardia-me no peito
+e, enquanto eu meditava, o fogo aumentava;
+então comecei a dizer: 
+Mostra-me, Senhor, o fim da minha vida
+e o número dos meus dias,
+para que eu saiba quão frágil sou. 
+Deste aos meus dias
+o comprimento de um palmo;
+a duração da minha vida é nada diante de ti.
+De fato, o homem não passa de um sopro. 
+Sim, cada um vai e volta como a sombra.
+Em vão se agita, amontoando riqueza
+sem saber quem ficará com ela. 
+Mas agora, Senhor, que hei de esperar?
+Minha esperança está em ti. 
+Livra-me de todas as minhas transgressões;
+não faças de mim
+um objeto de zombaria dos tolos. 
+Estou calado! Não posso abrir a boca,
+pois tu mesmo fizeste isso. 
+Afasta de mim o teu açoite;
+fui vencido pelo golpe da tua mão. 
+Tu repreendes e disciplinas o homem
+por causa do seu pecado;
+como traça destróis o que ele mais valoriza;
+de fato, o homem não passa de um sopro. 
+Ouve a minha oração, Senhor;
+escuta o meu grito de socorro;
+não sejas indiferente ao meu lamento.
+Pois sou para ti um estrangeiro,
+como foram todos os meus antepassados. 
+Desvia de mim os teus olhos,
+para que eu volte a ter alegria,
+antes que eu me vá e deixe de existir. 
+ Salmo 39
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 140
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_140/
 INFO:root:🔹 Description: Livra-me, Senhor, dos maus;
@@ -171,113 +211,102 @@ de geração em geração
 cantaremos os teus louvores. 
  Salmo 79
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 25
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_25/
-INFO:root:🔹 Description: A ti, Senhor, elevo a minha alma. 
-Em ti confio, ó meu Deus.
-Não deixes que eu seja humilhado
-nem que os meus inimigos triunfem sobre mim! 
-Nenhum dos que esperam em ti
-ficará decepcionado;
-decepcionados ficarão
-aqueles que, sem motivo, agem traiçoeiramente. 
-Mostra-me, Senhor, os teus caminhos,
-ensina-me as tuas veredas; 
-guia-me com a tua verdade e ensina-me,
-pois tu és Deus, meu Salvador,
-e a minha esperança está em ti o tempo todo. 
-Lembra-te, Senhor,
-da tua compaixão e da tua misericórdia,
-que tens mostrado desde a antiguidade. 
-Não te lembres dos pecados e transgressões
-da minha juventude;
-conforme a tua misericórdia, lembra-te de mim,
-pois tu, Senhor, és bom. 
-Bom e justo é o Senhor;
-por isso mostra o caminho aos pecadores. 
-Conduz os humildes na justiça
-e lhes ensina o seu caminho. 
-Todos os caminhos do Senhor
-são amor e fidelidade
-para com os que cumprem
-os preceitos da sua aliança. 
-Por amor do teu nome, Senhor,
-perdoa o meu pecado, que é tão grande! 
-Quem é o homem que teme o Senhor?
-Ele o instruirá no caminho que deve seguir. 
-Viverá em prosperidade,
-e os seus descendentes herdarão a terra. 
-O Senhor confia os seus segredos
-aos que o temem,
-e os leva a conhecer a sua aliança. 
-Os meus olhos estão sempre voltados
-para o Senhor,
-pois só ele tira os meus pés da armadilha. 
-Volta-te para mim e tem misericórdia de mim,
-pois estou só e aflito. 
-As angústias do meu coração se multiplicaram;
-liberta-me da minha aflição. 
-Olha para a minha tribulação
-e o meu sofrimento,
-e perdoa todos os meus pecados. 
-Vê como aumentaram os meus inimigos
-e com que fúria me odeiam! 
-Guarda a minha vida e livra-me!
-Não me deixes decepcionado,
-pois eu me refugio em ti. 
-Que a integridade e a retidão me protejam,
-porque a minha esperança está em ti. 
-Ó Deus, liberta Israel de todas as suas aflições! 
- Salmo 25
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245578 characters
-INFO:root:HTML parsed, length: 235286 characters
-INFO:root:Found 3 titles: ['Um só caminho', 'Siga adiante com Deus!', 'Jesus cabe no seu coração!']
+INFO:root:Response length: 241741 characters
+INFO:root:HTML parsed, length: 231464 characters
+INFO:root:Found 3 titles: ['O Senhor cuida de você como da menina dos seus olhos', 'Um só caminho', 'Siga adiante com Deus!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Há um ditado popular que diz que todos os caminhos', 'O próprio Senhor irá à sua frente e estará com voc', 'Muitas vezes achamos que precisamos estar perfeito']
-INFO:root:Found 1 dates: ['Terça, 17 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Pois o povo preferido do Senhor\né este povo,\nJacó ', 'Há um ditado popular que diz que todos os caminhos', 'O próprio Senhor irá à sua frente e estará com voc']
+INFO:root:Found 1 dates: ['Quarta, 18 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Um só caminho', ID=4b5bc60ae4a30394c1ac5f7159347bbf
+INFO:root:Processing entry 1: Title='O Senhor cuida de você como da menina dos seus olhos', ID=2ef4ed6825254f34730662b990723b39
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Um só caminho - Palavra de Hoje
+INFO:root:🔹 Title: O Senhor cuida de você como da menina dos seus olhos - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Há um ditado popular que diz que todos os caminhos levam a Roma. Isso significa que há muitas maneiras de alcançar o mesmo resultado. Você pode voar para Roma do Brasil, Angola ou Portugal. Ou pode dirigir até Roma da Suíça, França ou Croácia. Seja de avião, barco, carro ou qualquer outro meio de transporte, mais cedo ou mais tarde você chegará a Roma... assim dizem.
-Algumas pessoas aplicam isso a Deus e dizem que todos os caminhos levam a Deus. No entanto, a Bíblia é muito clara: Jesus é o único caminho para o Pai. É somente por meio de Jesus que somos salvos. Jesus é o caminho para Deus e, por meio dele, somos perdoados de todos os erros que cometemos.
+INFO:root:🔹 Description: Pois o povo preferido do Senhor
+é este povo,
+Jacó é a herança que lhe coube.
+"Numa terra deserta ele o encontrou,
+numa região árida e de ventos uivantes.
+Ele o protegeu e dele cuidou;
+guardou-o como
+a menina dos seus olhos,
+- Deuteronômio 32:9-10
 
-Pois o salário do pecado é a morte, mas o dom gratuito de Deus é a vida eterna em Cristo Jesus, nosso Senhor.
-- Romanos 6:23
+Como povo de Deus, somos especiais e importantes para Ele. Assim como um pai amoroso observa os perigos que cercam seus filhos e tenta protegê-los, Deus sabe que existem muitos perigos ao nosso redor e nos envolve com sua proteção. Em seu amor, ele nos guarda e cuida de nós de uma maneira especial, como a menina dos seus olhos.
+Os olhos são uma parte muito importante e delicada do corpo. Graças aos nossos olhos, podemos ver o caminho que estamos percorrendo, estar atentos ao que nos cerca e perceber perigos que ainda estão distantes. Sentimos uma sensação estranha quando um cílio cai em nosso olho ou algum outro objeto obstrui nossa visão. Portanto, por serem muito delicados e expostos a muitas ameaças, tentamos protegê-los e cuidar deles.
+Com esse mesmo cuidado e determinação, Deus cuida de você e de mim. Ele sabe que há um inimigo procurando nos atacar e nos afastar dele, e é por isso que Deus nos instrui e nos ensina a permanecer nele, cercados por sua proteção.
+Mas muitas vezes pensamos que somos fortes e que nada pode nos derrotar. A realidade é que, quando grandes perigos e ameaças nos sobrevêm, percebemos o quão frágeis somos. Precisamos da proteção de Deus! É maravilhoso saber que sempre podemos nos refugiar nele.
 
-Jesus é o presente que Deus nos deu, e nele temos vida! Sem Jesus, o destino eterno da humanidade seria a morte eterna. Mas Deus, em seu infinito amor, enviou Jesus ao mundo para que, por meio dele, pudéssemos ser salvos.
-Todos que aceitam Jesus como Senhor e Salvador podem viver livres do medo do castigo eterno e da separação de Deus. É graças ao sacrifício de Jesus na cruz que podemos ter acesso ao Pai e ter a certeza de que estaremos com Ele por toda a eternidade.
-Se você já recebeu Jesus em sua vida, reserve um momento para agradecê-Lo por abrir o caminho para o Pai e lhe dar a certeza da vida eterna. Você já recebeu o maior presente!
-Mas se você ainda não recebeu Jesus em seu coração, pode fazê-lo agora mesmo. Ele está esperando por você de braços abertos, ansioso para tê-lo como Seu filho por toda a eternidade. Não O rejeite; Ele é o único caminho para Deus!
-Veja também: Eu sou o caminho, a verdade e a vida (Estudo Bíblico)
+Deus é o nosso refúgio e a nossa fortaleza,
+auxílio sempre presente na adversidade.
+Por isso não temeremos,
+ainda que a terra trema
+e os montes afundem no coração do mar,
+ainda que estrondem as suas águas turbulentas
+e os montes sejam sacudidos
+pela sua fúria.
+- Salmo 46:1-3
+
+Se você sentir perigo ao seu redor, que o inimigo está tentando lhe fazer mal, lembre-se de que o Senhor o cerca com Sua proteção e cuida de você como a menina dos Seus olhos. Apegue-se ao Senhor e clame por Sua ajuda e proteção. Ele o livrará!
+Leia também: Menina dos olhos de Deus (Estudo Bíblico)
  
-Pois o salário do pecado é a morte, mas o dom gratuito de Deus é a vida eterna em Cristo Jesus, nosso Senhor.
-- Romanos 6:23
+Pois o povo preferido do Senhor
+é este povo,
+Jacó é a herança que lhe coube.
+"Numa terra deserta ele o encontrou,
+numa região árida e de ventos uivantes.
+Ele o protegeu e dele cuidou;
+guardou-o como
+a menina dos seus olhos,
+- Deuteronômio 32:9-10
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 253763 characters
-INFO:root:HTML parsed, length: 243248 characters
-INFO:root:Found 3 titles: ['Seu refúgio certo em tempos de incerteza', 'Quem permanece no amor, permanece em Deus!', 'Aumente o seu amor']
-INFO:root:Found 1 URLs: ['/razoes_para_confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['"Este é o Deus cujo caminho é perfeito; a palavra ', 'Assim conhecemos o amor que Deus tem por nós e con', 'Esta é a minha oração: que o amor de vocês aumente']
-INFO:root:Found 3 dates: ['JUNHO\n\n17\nTERÇA', 'JUNHO\n\n16\nSEGUNDA', 'JUNHO\n\n15\nDOMINGO']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Seu refúgio certo em tempos de incerteza', ID=ee6b0b4dc714db8f0f112c6fa6efc847
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 253937 characters
+INFO:root:HTML parsed, length: 243417 characters
+INFO:root:Found 3 titles: ['Geração de adoradores', 'Seu refúgio certo em tempos de incerteza', 'Quem permanece no amor, permanece em Deus!']
+INFO:root:Found 2 URLs: ['/adoracao_a_deus/', '/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['Vivemos em um tempo profético, no qual Deus está l', '"Este é o Deus cujo caminho é perfeito; a palavra ', 'Assim conhecemos o amor que Deus tem por nós e con']
+INFO:root:Found 3 dates: ['JUNHO\n\n18\nQUARTA', 'JUNHO\n\n17\nTERÇA', 'JUNHO\n\n16\nSEGUNDA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Geração de adoradores', ID=611f8ccc548c9e569f1deb0f2fe1f3e4
+INFO:root:Processing entry 2: Title='Seu refúgio certo em tempos de incerteza', ID=ee6b0b4dc714db8f0f112c6fa6efc847
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Geração de adoradores
+INFO:root:🔹 URL: https://www.bibliaon.com/adoracao_a_deus/
+INFO:root:🔹 Description: Vivemos em um tempo profético, no qual Deus está levantando uma geração que não se dobra aos ídolos deste mundo, mas que se prostra diante do trono de Deus com um coração sincero e quebrantado.
+
+No entanto, está chegando a hora, e de fato já chegou, em que os verdadeiros adoradores adorarão o Pai em espírito e em verdade. São estes os adoradores que o Pai procura.
+- João 4:23
+
+Você faz parte dessa geração. Não por merecimento ou posição social, mas porque foi chamado pelo Espírito Santo para viver uma vida de adoração genuína.
+Adorar não é apenas cantar canções ou estar em um culto; é viver diariamente para a glória de Deus. É refletir o caráter de Cristo em cada atitude, amar como Ele amou, perdoar como Ele perdoou e obedecer à Sua Palavra mesmo quando é difícil.
+A geração de adoradores que o Pai procura é aquela que entende que a adoração começa no secreto, longe dos palcos e da multidão. É no quarto fechado, no coração rendido, nas escolhas do dia a dia, que essa adoração se manifesta com poder e verdade.
+Não importa a sua idade, seu passado ou suas limitações. O que importa é a disposição do seu coração. Deus está te chamando para fazer parte de algo maior, um mover de adoração que transforma ambientes, cura feridas e atrai a glória de Deus para a Terra.
+Você foi criado para adorar. Assuma hoje sua identidade como adorador. Deixe que sua vida seja um altar vivo diante do Senhor. Porque mais do que palavras, Ele deseja um coração entregue.
+Você foi criado para adorar a Deus
+
+Separe momentos diários a sós com Deus em oração e leitura da Palavra. É nesse lugar íntimo que sua adoração se torna verdadeira e transforma sua vida.
+Adorar também é obedecer. Escolha agradar a Deus em suas atitudes, mesmo quando for difícil. A obediência revela um coração rendido e disposto a honrar o Senhor.
+Sua vida deve refletir Cristo em casa, no trabalho e com os amigos. Adorar é amar, perdoar e servir como Jesus, em todo lugar e a todo momento.
+
+Para orar:
+
+Senhor, ensina-me a Te buscar em espírito e em verdade, a Te obedecer com um coração rendido e sincero. Que minha vida seja um altar vivo, onde Teu nome seja glorificado em cada atitude. Renova meu coração, alinha meus pensamentos aos Teus e faz de mim instrumento do Teu amor. Eu Te entrego tudo, Pai. Que eu Te adore não só com palavras, mas com toda minha vida. Amém.
+
+Veja também: Versículos de adoração a Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Seu refúgio certo em tempos de incerteza
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
 INFO:root:🔹 Description: "Este é o Deus cujo caminho é perfeito; a palavra do Senhor é comprovadamente genuína. Ele é escudo para todos os que nele se refugiam.
@@ -305,11 +334,11 @@ Veja também: 7 razões para confiar em Deus em meio às lutas
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225578 characters
-INFO:root:HTML parsed, length: 224092 characters
+INFO:root:Response length: 223889 characters
+INFO:root:HTML parsed, length: 222418 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 20 URLs: ['/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs', '/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs', '/wiki/L%C3%ADngua_islandesa']
-INFO:root:Found 1 descriptions: ['O Museu Falológico Islandês (em islandês:  Hið ísl']
+INFO:root:Found 16 URLs: ['/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs', '/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs', '/wiki/Reykjav%C3%ADk']
+INFO:root:Found 1 descriptions: ['O Museu Falológico Islandês é um museu temático lo']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -320,7 +349,7 @@ INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
 INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs
-INFO:root:🔹 Description: O Museu Falológico Islandês (em islandês:  Hið íslenzka reðasafn, [ˈhɪːð ˈistlɛnska ˈrɛːðaˌsapn̥]) é um museu temático localizado na cidade islandesa de Reykjavík. Todo o seu acervo é composto por peças dedicados ao falo (do latim phallus: um dos vários sinônimos para o pênis).
+INFO:root:🔹 Description: O Museu Falológico Islandês é um museu temático localizado na cidade islandesa de Reykjavík. Todo o seu acervo é composto por peças dedicados ao falo (do latim phallus: um dos vários sinônimos para o pênis).
 Fundado em 1997 pelo professor Sigurður Hjartarson, possui um acervo de 280 exemplares de 93 espécies de animais e inclui 55 pênis retirados de baleias e até de ratos. O maior pênis do museu é de uma baleia-azul que tem 1,70 metros de comprimento, enquanto o menor exemplar fálico é o de um hamster, com apenas 2 milímetros. 
 Em julho de 2011, o museu obteve seu primeiro pênis humano, um dos muitos prometidos por possíveis doadores. Seu desprendimento do corpo do doador não saiu conforme o planejado e foi reduzido a uma massa enrugada marrom-acinzentada que foi conservada em um frasco de formalina. O museu continua em busca de "um mais jovem, maior e melhor". (Leia mais...)
 
@@ -335,44 +364,44 @@ Artigos bons: 1914
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225578 characters
-INFO:root:HTML parsed, length: 224092 characters
-INFO:root:Found 1 titles: ['16 de junho na história']
-INFO:root:Found 47 URLs: ['/wiki/Ficheiro:Valentina_Tereshkova,_First_Woman_in_Space_-_Flickr_-_San_Diego_Air_%5E_Space_Museum_Archives.jpg', '/wiki/Dia_Internacional_das_Remessas_Familiares', '/wiki/1846']
-INFO:root:Found 1 descriptions: ['Valentina Tereshkova\nDia Internacional das Remessa']
+INFO:root:Response length: 223889 characters
+INFO:root:HTML parsed, length: 222418 characters
+INFO:root:Found 1 titles: ['17 de junho na história']
+INFO:root:Found 48 URLs: ['/wiki/Ficheiro:Head_of_the_Statue_of_Liberty_1885.jpg', '/wiki/Dia_Mundial_do_Combate_%C3%A0_Seca_e_%C3%A0_Desertifica%C3%A7%C3%A3o', '/wiki/1885']
+INFO:root:Found 1 descriptions: ['Estátua da Liberdade\nDia Mundial do Combate à Seca']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='16 de junho na história', ID=cce78a12f8df0381cca433ba98c39696
+INFO:root:Processing entry 1: Title='17 de junho na história', ID=a2aa3d90f39ae796c83ca412c7b6c735
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 16 de junho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Valentina_Tereshkova,_First_Woman_in_Space_-_Flickr_-_San_Diego_Air_%5E_Space_Museum_Archives.jpg
-INFO:root:🔹 Description: Valentina Tereshkova
-Dia Internacional das Remessas Familiares (2015)
+INFO:root:🔹 Title: 17 de junho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Head_of_the_Statue_of_Liberty_1885.jpg
+INFO:root:🔹 Description: Estátua da Liberdade
+Dia Mundial do Combate à Seca e à Desertificação (1995)
 
-1846 – Um conclave elege o Papa Pio IX, iniciando o pontificado mais longo da história do papado.
-1963 – A União Soviética lança a missão Vostok VI; a cosmonauta Valentina Tereshkova (imagem) torna-se a primeira mulher a ir ao espaço.
-1976 – Ocorre o Levante de Soweto, uma das mais sangrentas rebeliões negras durante a vigência do apartheid na África do Sul.
+1885 – A Estátua da Liberdade, obra do escultor francês Auguste Bartholdi,  chega a Nova Iorque (imagem).
+1944 – A Islândia torna-se independente da Dinamarca e constitui uma república.
+1972 – Cinco funcionários da Casa Branca são detidos após arrombarem os escritórios do comitê do Partido Democrata a fim de fazerem escutas ilegais de membros da oposição, no que ficaria posteriormente conhecido como Caso Watergate.
 Nasceram neste dia…
-Giovanni Boccaccio (1313–1375)  •  Gerônimo (1829–1909)  •  Ariano Suassuna (1927–2014)  •  Tupac Shakur (1971–1996)
+João Maurício de Nassau (1604–1679)  •  Ígor Stravinski (1882–1971)  •  M. C. Escher (1898–1972)  •  Clodovil Hernandes (1937–2009)
 Morreram neste dia…
-Ernst Schröder (1841–1902)  •  Marc Bloch (1886–1944)  •  Kōjun (1903–2000)  •  Helmut Kohl (1930–2017)
+Masaharu Taniguchi (1893–1985)  •  Thomas Kuhn (1922–1996)  •  Bussunda (1962–2006)  •  Mohamed Morsi (1951–2019)
 
 
-Ver mais • Outros dias: 14 • 15 • 16 • 17 • 18 • Ver todos
+Ver mais • Outros dias: 15 • 16 • 17 • 18 • 19 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225578 characters
-INFO:root:HTML parsed, length: 224092 characters
+INFO:root:Response length: 223889 characters
+INFO:root:HTML parsed, length: 222418 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Sepia_com%C3%BAn_(Sepia_officinalis),_Parque_natural_de_la_Arr%C3%A1bida,_Portugal,_2021-09-07,_DD_04.jpg']
-INFO:root:Found 1 descriptions: ['Choco-comum (Sepia officinalis), fotografado no Pa']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg']
+INFO:root:Found 1 descriptions: ['Essa composição de ambigrama é um tributo inspirad']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2021-09-07%2C_DD_04.jpg/500px-Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2021-09-07%2C_DD_04.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg/500px-Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -381,15 +410,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Sepia_com%C3%BAn_(Sepia_officinalis),_Parque_natural_de_la_Arr%C3%A1bida,_Portugal,_2021-09-07,_DD_04.jpg
-INFO:root:🔹 Description: Choco-comum (Sepia officinalis), fotografado no Parque Natural da Arrábida, Setúbal, Portugal. É uma espécie migratória que passa o verão e a primavera abaixo da costa para desovar, enquanto se desloca para profundidades cobertas entre 100 e 200 m durante o outono e o inverno. É um animal noturno, que passa o dia escondido sob a areia do fundo do mar. Como todos os cefalópodes mais evoluídos, ele pode mudar a cor de sua pele.
-(resolução original: 2 551 × 2 551)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg
+INFO:root:🔹 Description: Essa composição de ambigrama é um tributo inspirado em Drawing Hands, uma famosa litografia do artista neerlandês M. C. Escher.
+(resolução original: 5 648 × 5 648)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2021-09-07%2C_DD_04.jpg/500px-Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2021-09-07%2C_DD_04.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg/500px-Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -405,6 +434,7 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -413,20 +443,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  29 +--
- feeds/devocional_de_hoje/feed.json        |   8 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  25 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  24 +-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  45 +++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  60 +++---
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 103 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/feed.json              |   2 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 304 +++++++++++++++---------------
- 16 files changed, 276 insertions(+), 261 deletions(-)
+ output.log                                | 375 ++++++++++++++++--------------
+ 17 files changed, 353 insertions(+), 310 deletions(-)
