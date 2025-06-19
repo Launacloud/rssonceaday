@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119971 characters
-INFO:root:HTML parsed, length: 112765 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (18/06/2025)', 'Palavra de Ontem (17/06/2025)', 'Palavra de Anteontem (16/06/2025)']
-INFO:root:Found 3 URLs: ['/leveza/', '/temeroso/', '/sistematico/']
-INFO:root:Found 15 descriptions: ['substantivo feminino Qualidade do que é leve, pouc', 'Sinônimos:\n\nleviandade, airosidade, frescor, singe', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (18/06/2025)', 'Palavra de Ontem (17/06/2025)', 'Palavra de Anteontem (16/06/2025)']
+INFO:root:Response length: 119371 characters
+INFO:root:HTML parsed, length: 112348 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (19/06/2025)', 'Palavra de Ontem (18/06/2025)', 'Palavra de Anteontem (17/06/2025)']
+INFO:root:Found 3 URLs: ['/lay-off/', '/leveza/', '/temeroso/']
+INFO:root:Found 13 descriptions: ['substantivo masculino Interrupção das atividades d', 'Sinônimos:\n\ndispensa, demissão, afastamento, inter', 'Sílabas:lay-off']
+INFO:root:Found 3 dates: ['Palavra de Hoje (19/06/2025)', 'Palavra de Ontem (18/06/2025)', 'Palavra de Anteontem (17/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (18/06/2025)', ID=97140ae999213b75b154974399675e0e
-INFO:root:Processing entry 2: Title='Palavra de Ontem (17/06/2025)', ID=e903405990677b5263b44e955528375c
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/06/2025)', ID=e085ace50ec765154874d71315743952
+INFO:root:Processing entry 1: Title='Palavra de Hoje (19/06/2025)', ID=9c9ec83411aeba4e3535c1f4db186eaf
+INFO:root:Processing entry 2: Title='Palavra de Ontem (18/06/2025)', ID=683bf928136ee2034095ba68bc55f437
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (17/06/2025)', ID=9941af9336a7dff1a2a9eeb48a163c1a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (18/06/2025) - Significado completo de leveza:
+INFO:root:🔹 Title: Palavra de Hoje (19/06/2025) - Significado completo de lay off:
+INFO:root:🔹 URL: https://www.dicio.com.br/lay-off/
+INFO:root:🔹 Description: substantivo masculino Interrupção das atividades de uma empresa ou de seus funcionários porque não há trabalho suficiente que justifique sua continuação.Ocasião em que uma empresa dispensa temporariamente seus funcionários em razão da falta de dinheiro ou de trabalho para os manter no emprego; demissão.[Por Extensão] Período em que alguém não está trabalhando ou realizando suas atividades laborais (escrita, esporte, música etc.): o atleta voltou a jogar depois de 5 meses em lay  off, causado por uma lesão.Interrupção de uma atividade; usado para pedir que alguém pare de fazer alguma coisa.Etimologia (origem de lay off). Do inglês lay off, layoff.
+ 
+Sinônimos:
+
+dispensa, demissão, afastamento, interrupção 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (18/06/2025) - Significado completo de leveza:
 INFO:root:🔹 URL: https://www.dicio.com.br/leveza/
-INFO:root:🔹 Description: substantivo feminino Qualidade do que é leve, pouco espesso, pouco pesado, pouco maciço: a leveza de uma pluma, do alumínio.[Figurado] Natureza do que é suave, singelo, delicado; airosidade, frescor.[Pejorativo] Comportamento leviano, sem reflexão; leviandade.Etimologia (origem da palavra leveza). Leve + eza.
+INFO:root:🔹 Description: Sinônimos:
+
+dispensa, demissão, afastamento, interrupção
+ Sílabas:lay-off
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (17/06/2025) - Significado completo de temeroso:
+INFO:root:🔹 URL: https://www.dicio.com.br/temeroso/
+INFO:root:🔹 Description: Sílabas:lay-off
  
 Sinônimos:
 
 leviandade, airosidade, frescor, singeleza, finesse 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (17/06/2025) - Significado completo de temeroso:
-INFO:root:🔹 URL: https://www.dicio.com.br/temeroso/
-INFO:root:🔹 Description: Sinônimos:
-
-leviandade, airosidade, frescor, singeleza, finesse
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (16/06/2025) - Significado completo de sistemático:
-INFO:root:🔹 URL: https://www.dicio.com.br/sistematico/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:le-ve-za
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,71 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243282 characters
-INFO:root:HTML parsed, length: 232604 characters
-INFO:root:Found 1 titles: ['Colossenses 3:16']
-INFO:root:Found 1 URLs: ['/versiculo/colossenses_3_16/']
-INFO:root:Found 1 descriptions: ['Habite ricamente em vocês a palavra de Cristo; ens']
+INFO:root:Response length: 243308 characters
+INFO:root:HTML parsed, length: 232630 characters
+INFO:root:Found 1 titles: ['Salmos 23:4']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_23_4/']
+INFO:root:Found 1 descriptions: ['Mesmo quando eu andar\npor um vale de trevas e mort']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Colossenses 3:16', ID=c962661446839e2c41bd6991cf4f2250
+INFO:root:Processing entry 1: Title='Salmos 23:4', ID=bd68e702e5c9238579de5f8f2139ad13
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Colossenses 3:16
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/colossenses_3_16/
-INFO:root:🔹 Description: Habite ricamente em vocês a palavra de Cristo; ensinem e aconselhem-se uns aos outros com toda a sabedoria e cantem salmos, hinos e cânticos espirituais com gratidão a Deus em seu coração. Colossenses 3:16
+INFO:root:🔹 Title: Salmos 23:4
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_23_4/
+INFO:root:🔹 Description: Mesmo quando eu andar
+por um vale de trevas e morte,
+não temerei perigo algum, pois tu estás comigo;
+a tua vara e o teu cajado me protegem. Salmos 23:4
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 244043 characters
-INFO:root:HTML parsed, length: 234109 characters
-INFO:root:Found 3 titles: ['Salmo 39', 'Salmo 140', 'Salmo 79']
-INFO:root:Found 3 URLs: ['/salmos_39/', '/salmos_140/', '/salmos_79/']
-INFO:root:Found 3 descriptions: ['Eu disse: Vigiarei a minha conduta\ne não pecarei e', 'Livra-me, Senhor, dos maus;\nprotege-me dos violent', 'Ó Deus, as nações invadiram a tua herança,\nprofana']
-INFO:root:Found 3 dates: ['18 de Junho de 2025', '17 de Junho de 2025', '16 de Junho de 2025']
+INFO:root:Response length: 243315 characters
+INFO:root:HTML parsed, length: 233363 characters
+INFO:root:Found 3 titles: ['Salmo 20', 'Salmo 39', 'Salmo 140']
+INFO:root:Found 3 URLs: ['/salmos_20/', '/salmos_39/', '/salmos_140/']
+INFO:root:Found 3 descriptions: ['Que o Senhor te responda\nno tempo da angústia;\no n', 'Eu disse: Vigiarei a minha conduta\ne não pecarei e', 'Livra-me, Senhor, dos maus;\nprotege-me dos violent']
+INFO:root:Found 3 dates: ['19 de Junho de 2025', '18 de Junho de 2025', '17 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
-INFO:root:Processing entry 2: Title=' Salmo 140', ID=8a3e302037b1455d1236975728e68da3
-INFO:root:Processing entry 3: Title=' Salmo 79', ID=c848f0aa496275f7078cb360fbcd7adf
+INFO:root:Processing entry 1: Title=' Salmo 20', ID=8b9cb5cd40f9096fbb8f17788869e2f7
+INFO:root:Processing entry 2: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
+INFO:root:Processing entry 3: Title=' Salmo 140', ID=8a3e302037b1455d1236975728e68da3
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 20
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_20/
+INFO:root:🔹 Description: Que o Senhor te responda
+no tempo da angústia;
+o nome do Deus de Jacó te proteja! 
+Do santuário te envie auxílio
+e de Sião te dê apoio. 
+Lembre-se de todas as tuas ofertas
+e aceite os teus holocaustos. 
+Conceda-te o desejo do teu coração
+e leve a efeito todos os teus planos. 
+Saudaremos a tua vitória com gritos de alegria
+e ergueremos as nossas bandeiras
+em nome do nosso Deus.
+Que o Senhor atenda a todos os teus pedidos! 
+Agora sei que o Senhor
+dará vitória ao seu ungido;
+dos seus santos céus lhe responde
+com o poder salvador da sua mão direita. 
+Alguns confiam em carros e outros em cavalos,
+mas nós confiamos
+no nome do Senhor, o nosso Deus. 
+Eles vacilam e caem,
+mas nós nos erguemos e estamos firmes. 
+Senhor, concede vitória ao rei!
+Responde-nos quando clamamos! 
+ Salmo 20
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 39
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_39/
 INFO:root:🔹 Description: Eu disse: Vigiarei a minha conduta
@@ -161,128 +196,86 @@ ao teu nome,
 e os homens íntegros viverão na tua presença. 
  Salmo 140
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 79
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_79/
-INFO:root:🔹 Description: Ó Deus, as nações invadiram a tua herança,
-profanaram o teu santo templo,
-reduziram Jerusalém a ruínas. 
-Deram os cadáveres dos teus servos
-às aves do céu por alimento;
-a carne dos teus fiéis, aos animais selvagens. 
-Derramaram o sangue deles como água
-ao redor de Jerusalém,
-e não há ninguém para sepultá-los. 
-Somos objeto de zombaria
-para os nossos vizinhos,
-de riso e menosprezo
-para os que vivem ao nosso redor. 
-Até quando, Senhor?
-Ficarás irado para sempre?
-Arderá o teu ciúme como o fogo? 
-Derrama a tua ira sobre as nações
-que não te reconhecem,
-sobre os reinos
-que não invocam o teu nome, 
-pois devoraram Jacó,
-deixando em ruínas a sua terra. 
-Não cobres de nós
-as maldades dos nossos antepassados;
-venha depressa ao nosso encontro
-a tua misericórdia,
-pois estamos totalmente desanimados! 
-Ajuda-nos, ó Deus, nosso Salvador,
-para a glória do teu nome;
-livra-nos e perdoa os nossos pecados,
-por amor do teu nome. 
-Por que as nações haverão de dizer:
-"Onde está o Deus deles?"
-Diante dos nossos olhos, mostra às nações
-a tua vingança pelo sangue dos teus servos. 
-Cheguem à tua presença
-os gemidos dos prisioneiros.
-Pela força do teu braço
-preserva os condenados à morte. 
-Retribui sete vezes mais aos nossos vizinhos
-as afrontas com que te insultaram, Senhor! 
-Então nós, o teu povo,
-as ovelhas das tuas pastagens,
-para sempre te louvaremos;
-de geração em geração
-cantaremos os teus louvores. 
- Salmo 79
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 241741 characters
-INFO:root:HTML parsed, length: 231464 characters
-INFO:root:Found 3 titles: ['O Senhor cuida de você como da menina dos seus olhos', 'Um só caminho', 'Siga adiante com Deus!']
+INFO:root:Response length: 245797 characters
+INFO:root:HTML parsed, length: 235520 characters
+INFO:root:Found 3 titles: ['De mãos dadas com o Senhor', 'O Senhor cuida de você como da menina dos seus olhos', 'Um só caminho']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Pois o povo preferido do Senhor\né este povo,\nJacó ', 'Há um ditado popular que diz que todos os caminhos', 'O próprio Senhor irá à sua frente e estará com voc']
-INFO:root:Found 1 dates: ['Quarta, 18 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Caminhar de mãos dadas com o Senhor é viver com a ', 'Pois o povo preferido do Senhor\né este povo,\nJacó ', 'Há um ditado popular que diz que todos os caminhos']
+INFO:root:Found 1 dates: ['Quinta, 19 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O Senhor cuida de você como da menina dos seus olhos', ID=2ef4ed6825254f34730662b990723b39
+INFO:root:Processing entry 1: Title='De mãos dadas com o Senhor', ID=49a048921573d80a2b3f717f648a9d1a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O Senhor cuida de você como da menina dos seus olhos - Palavra de Hoje
+INFO:root:🔹 Title: De mãos dadas com o Senhor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Pois o povo preferido do Senhor
-é este povo,
-Jacó é a herança que lhe coube.
-"Numa terra deserta ele o encontrou,
-numa região árida e de ventos uivantes.
-Ele o protegeu e dele cuidou;
-guardou-o como
-a menina dos seus olhos,
-- Deuteronômio 32:9-10
+INFO:root:🔹 Description: Caminhar de mãos dadas com o Senhor é viver com a certeza de que nunca estamos sozinhos. Quando tudo parece incerto e os ventos contrários tentam nos derrubar, é a mão firme de Deus que nos sustenta.
 
-Como povo de Deus, somos especiais e importantes para Ele. Assim como um pai amoroso observa os perigos que cercam seus filhos e tenta protegê-los, Deus sabe que existem muitos perigos ao nosso redor e nos envolve com sua proteção. Em seu amor, ele nos guarda e cuida de nós de uma maneira especial, como a menina dos seus olhos.
-Os olhos são uma parte muito importante e delicada do corpo. Graças aos nossos olhos, podemos ver o caminho que estamos percorrendo, estar atentos ao que nos cerca e perceber perigos que ainda estão distantes. Sentimos uma sensação estranha quando um cílio cai em nosso olho ou algum outro objeto obstrui nossa visão. Portanto, por serem muito delicados e expostos a muitas ameaças, tentamos protegê-los e cuidar deles.
-Com esse mesmo cuidado e determinação, Deus cuida de você e de mim. Ele sabe que há um inimigo procurando nos atacar e nos afastar dele, e é por isso que Deus nos instrui e nos ensina a permanecer nele, cercados por sua proteção.
-Mas muitas vezes pensamos que somos fortes e que nada pode nos derrotar. A realidade é que, quando grandes perigos e ameaças nos sobrevêm, percebemos o quão frágeis somos. Precisamos da proteção de Deus! É maravilhoso saber que sempre podemos nos refugiar nele.
+Pois eu sou o Senhor, o seu Deus,
+que o segura pela mão direita
+e diz a você: Não tema; eu o ajudarei.
+- Isaías 41:13
 
-Deus é o nosso refúgio e a nossa fortaleza,
-auxílio sempre presente na adversidade.
-Por isso não temeremos,
-ainda que a terra trema
-e os montes afundem no coração do mar,
-ainda que estrondem as suas águas turbulentas
-e os montes sejam sacudidos
-pela sua fúria.
-- Salmo 46:1-3
-
-Se você sentir perigo ao seu redor, que o inimigo está tentando lhe fazer mal, lembre-se de que o Senhor o cerca com Sua proteção e cuida de você como a menina dos Seus olhos. Apegue-se ao Senhor e clame por Sua ajuda e proteção. Ele o livrará!
-Leia também: Menina dos olhos de Deus (Estudo Bíblico)
+Ele não apenas observa de longe; Ele se aproxima, segura a nossa mão e caminha conosco, passo a passo.
+Há dias em que a caminhada parece longa demais. O fardo é pesado, o coração cansado, e os sonhos parecem distantes. Mas quando estamos de mãos dadas com o Senhor, recebemos força que vem do alto. Ele nos guia com sabedoria, nos envolve com paz e nos fortalece com amor. Deus não nos promete uma estrada sem desafios, mas nos garante a Sua presença constante.
+Assim como uma criança confia na mão do pai para atravessar uma rua movimentada, somos convidados a confiarmos em Deus para cada decisão e direção. De mãos dadas com o Senhor, superamos medos, vencemos batalhas e encontramos propósito.
+Não importa o quão escura esteja a noite ou quão incerto seja o futuro, quem anda com o Senhor não anda em trevas. Ele é luz, é refúgio, é companheiro fiel. Quando a fé vacilar, lembre-se: a mão d’Ele nunca solta a sua.
+Escolha segurar firme a mão de Deus. Caminhe com Ele em confiança, com os olhos fixos nas promessas e o coração cheio de esperança. Porque com Ele ao seu lado, o impossível se torna possível, e o caminho se transforma em bênção. De mãos dadas com o Senhor, você vai mais longe.
+Veja também: Proteção de Deus - 5 palavras bíblicas de amparo para nossas vidas
  
-Pois o povo preferido do Senhor
-é este povo,
-Jacó é a herança que lhe coube.
-"Numa terra deserta ele o encontrou,
-numa região árida e de ventos uivantes.
-Ele o protegeu e dele cuidou;
-guardou-o como
-a menina dos seus olhos,
-- Deuteronômio 32:9-10
+Pois eu sou o Senhor, o seu Deus,
+que o segura pela mão direita
+e diz a você: Não tema; eu o ajudarei.
+- Isaías 41:13
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 253937 characters
-INFO:root:HTML parsed, length: 243417 characters
-INFO:root:Found 3 titles: ['Geração de adoradores', 'Seu refúgio certo em tempos de incerteza', 'Quem permanece no amor, permanece em Deus!']
-INFO:root:Found 2 URLs: ['/adoracao_a_deus/', '/razoes_para_confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['Vivemos em um tempo profético, no qual Deus está l', '"Este é o Deus cujo caminho é perfeito; a palavra ', 'Assim conhecemos o amor que Deus tem por nós e con']
-INFO:root:Found 3 dates: ['JUNHO\n\n18\nQUARTA', 'JUNHO\n\n17\nTERÇA', 'JUNHO\n\n16\nSEGUNDA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Geração de adoradores', ID=611f8ccc548c9e569f1deb0f2fe1f3e4
-INFO:root:Processing entry 2: Title='Seu refúgio certo em tempos de incerteza', ID=ee6b0b4dc714db8f0f112c6fa6efc847
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 255205 characters
+INFO:root:HTML parsed, length: 244684 characters
+INFO:root:Found 3 titles: ['Não te deixarei, nem te desampararei', 'Geração de adoradores', 'Seu refúgio certo em tempos de incerteza']
+INFO:root:Found 3 URLs: ['/versiculos_para_restaurar_sua_confianca/', '/adoracao_a_deus/', '/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['porque Deus mesmo disse:\n"Nunca o deixarei,\nnunca ', 'Vivemos em um tempo profético, no qual Deus está l', '"Este é o Deus cujo caminho é perfeito; a palavra ']
+INFO:root:Found 3 dates: ['JUNHO\n\n19\nQUINTA', 'JUNHO\n\n18\nQUARTA', 'JUNHO\n\n17\nTERÇA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Não te deixarei, nem te desampararei', ID=212da20d217c5b9714637917d49bd920
+INFO:root:Processing entry 2: Title='Geração de adoradores', ID=611f8ccc548c9e569f1deb0f2fe1f3e4
+INFO:root:Processing entry 3: Title='Seu refúgio certo em tempos de incerteza', ID=ee6b0b4dc714db8f0f112c6fa6efc847
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Não te deixarei, nem te desampararei
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_restaurar_sua_confianca/
+INFO:root:🔹 Description: porque Deus mesmo disse:
+"Nunca o deixarei,
+nunca o abandonarei".
+- Hebreus 13:5b
+
+Em momentos de dificuldade, quando tudo ao nosso redor parece ruir, é comum sentirmos que estamos sozinhos. As tempestades da vida podem ser intensas, os ventos fortes e a escuridão profunda. Mas há uma verdade imutável que sustenta nossa fé: Deus não te abandona.
+Ele está presente em cada lágrima que você derrama, em cada oração silenciosa feita no meio da noite, em cada passo que você dá, mesmo quando parece não haver forças para continuar. Deus não é como os homens, que falham muitas vezes, desistem ou se afastam. O Senhor é fiel e eterno, e a Sua promessa permanece: Ele nunca nos deixará.
+Mesmo quando não O sentimos, Ele está agindo. Mesmo quando as portas se fecham, Ele está preparando outras maiores. Quando o caminho parece sem saída, Ele é o Deus que abre o mar. Quando o fardo está pesado demais, Ele nos convida:
+
+"Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.
+- Mateus 11:28
+
+Não permita que a dor do agora te faça esquecer da fidelidade de Deus no passado. Ele já te sustentou antes, e continuará te sustentando. Deus está contigo no vale, e também estará contigo no topo da montanha.
+Erga a cabeça, firme seus pés na rocha que é Cristo, e caminhe com fé. O Deus que começou a boa obra em você é fiel para completá-la. Creia: você nunca está só.
+Deus te vê, te ouve e, acima de tudo, nunca te abandona
+Deus te vê: Mesmo no silêncio da tua dor, quando ninguém percebe teu sofrimento, Deus contempla teu coração e conhece cada detalhe da tua luta. Nada escapa ao Seu olhar amoroso.
+Deus te ouve: Suas orações não são em vão. Cada súplica, mesmo em lágrimas ou sem palavras, é ouvida por um Pai que se importa e responde no tempo certo, com amor.
+Deus não te abandona: Nos vales escuros ou nas tempestades mais fortes, Deus permanece fiel. Ele caminha contigo, segura tua mão e te fortalece, mesmo quando tudo parece perdido.
+Para orar:
+
+Senhor, mesmo nas lutas, confio em Ti. Sei que me vês, me ouves e jamais me abandonas. Fortalece minha fé, renova minha esperança e guia meus passos. Amém.
+
+Veja também: Deus nunca nos abandona: 6 versículos para ver que Ele está contigo
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Geração de adoradores
 INFO:root:🔹 URL: https://www.bibliaon.com/adoracao_a_deus/
 INFO:root:🔹 Description: Vivemos em um tempo profético, no qual Deus está levantando uma geração que não se dobra aos ídolos deste mundo, mas que se prostra diante do trono de Deus com um coração sincero e quebrantado.
@@ -334,8 +327,8 @@ Veja também: 7 razões para confiar em Deus em meio às lutas
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223889 characters
-INFO:root:HTML parsed, length: 222418 characters
+INFO:root:Response length: 223492 characters
+INFO:root:HTML parsed, length: 222021 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 16 URLs: ['/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs', '/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs', '/wiki/Reykjav%C3%ADk']
 INFO:root:Found 1 descriptions: ['O Museu Falológico Islandês é um museu temático lo']
@@ -349,7 +342,7 @@ INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
 INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs
-INFO:root:🔹 Description: O Museu Falológico Islandês é um museu temático localizado na cidade islandesa de Reykjavík. Todo o seu acervo é composto por peças dedicados ao falo (do latim phallus: um dos vários sinônimos para o pênis).
+INFO:root:🔹 Description: O Museu Falológico Islandês é um museu temático localizado na cidade islandesa de Reykjavík. Todo o seu acervo é composto por peças dedicadas ao falo (do latim phallus: um dos vários sinônimos para o pênis).
 Fundado em 1997 pelo professor Sigurður Hjartarson, possui um acervo de 280 exemplares de 93 espécies de animais e inclui 55 pênis retirados de baleias e até de ratos. O maior pênis do museu é de uma baleia-azul que tem 1,70 metros de comprimento, enquanto o menor exemplar fálico é o de um hamster, com apenas 2 milímetros. 
 Em julho de 2011, o museu obteve seu primeiro pênis humano, um dos muitos prometidos por possíveis doadores. Seu desprendimento do corpo do doador não saiu conforme o planejado e foi reduzido a uma massa enrugada marrom-acinzentada que foi conservada em um frasco de formalina. O museu continua em busca de "um mais jovem, maior e melhor". (Leia mais...)
 
@@ -364,44 +357,45 @@ Artigos bons: 1914
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223889 characters
-INFO:root:HTML parsed, length: 222418 characters
-INFO:root:Found 1 titles: ['17 de junho na história']
-INFO:root:Found 48 URLs: ['/wiki/Ficheiro:Head_of_the_Statue_of_Liberty_1885.jpg', '/wiki/Dia_Mundial_do_Combate_%C3%A0_Seca_e_%C3%A0_Desertifica%C3%A7%C3%A3o', '/wiki/1885']
-INFO:root:Found 1 descriptions: ['Estátua da Liberdade\nDia Mundial do Combate à Seca']
+INFO:root:Response length: 223492 characters
+INFO:root:HTML parsed, length: 222021 characters
+INFO:root:Found 1 titles: ['18 de junho na história']
+INFO:root:Found 44 URLs: ['/wiki/Ficheiro:Battle_of_Waterloo_1815.PNG', '/wiki/Dia_do_Orgulho_Autista', '/wiki/Dia_da_Gastronomia_Sustent%C3%A1vel']
+INFO:root:Found 1 descriptions: ['Batalha de Waterloo\nDia do Orgulho Autista (2005);']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='17 de junho na história', ID=a2aa3d90f39ae796c83ca412c7b6c735
+INFO:root:Processing entry 1: Title='18 de junho na história', ID=4d85d818858f2665fe829fab0a8a6ed9
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 17 de junho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Head_of_the_Statue_of_Liberty_1885.jpg
-INFO:root:🔹 Description: Estátua da Liberdade
-Dia Mundial do Combate à Seca e à Desertificação (1995)
+INFO:root:🔹 Title: 18 de junho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Battle_of_Waterloo_1815.PNG
+INFO:root:🔹 Description: Batalha de Waterloo
+Dia do Orgulho Autista (2005); Dia da Gastronomia Sustentável (2017); Dia Internacional de Combate ao Discurso de Ódio (2022)
 
-1885 – A Estátua da Liberdade, obra do escultor francês Auguste Bartholdi,  chega a Nova Iorque (imagem).
-1944 – A Islândia torna-se independente da Dinamarca e constitui uma república.
-1972 – Cinco funcionários da Casa Branca são detidos após arrombarem os escritórios do comitê do Partido Democrata a fim de fazerem escutas ilegais de membros da oposição, no que ficaria posteriormente conhecido como Caso Watergate.
+1815 – Guerras Napoleónicas: a Batalha de Waterloo (pintura) leva Napoleão Bonaparte a abdicar do trono pela segunda e última vez.
+1908 – Inicia-se a imigração japonesa para o Brasil,  quando 781 pessoas desembarcam em Santos após uma viagem no Kasato Maru.
+1953 – O general Muhammad Naguib declara o fim da monarquia  egípcia e proclama a República do Egito.
 Nasceram neste dia…
-João Maurício de Nassau (1604–1679)  •  Ígor Stravinski (1882–1971)  •  M. C. Escher (1898–1972)  •  Clodovil Hernandes (1937–2009)
+Jürgen Habermas (n. 1929)  •  Paul McCartney (n. 1942)
+ •  Lídia Jorge (n. 1946)  •  Fernando Henrique Cardoso (n. 1931).
 Morreram neste dia…
-Masaharu Taniguchi (1893–1985)  •  Thomas Kuhn (1922–1996)  •  Bussunda (1962–2006)  •  Mohamed Morsi (1951–2019)
+Roald Amundsen (1872–1928)  •  Máximo Gorki (1868–1936)  •  José Saramago (1922–2010)  •  XXXTentacion (1998–2018)
 
 
-Ver mais • Outros dias: 15 • 16 • 17 • 18 • 19 • Ver todos
+Ver mais • Outros dias: 16 • 17 • 18 • 19 • 20 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223889 characters
-INFO:root:HTML parsed, length: 222418 characters
+INFO:root:Response length: 223492 characters
+INFO:root:HTML parsed, length: 222021 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg']
-INFO:root:Found 1 descriptions: ['Essa composição de ambigrama é um tributo inspirad']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Nottuln,_Gladbeck,_Grashalm_--_2024_--_4342.jpg']
+INFO:root:Found 1 descriptions: ['Espiga de aveia selvagem na hora dourada do amanhe']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg/500px-Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nottuln%2C_Gladbeck%2C_Grashalm_--_2024_--_4342.jpg/960px-Nottuln%2C_Gladbeck%2C_Grashalm_--_2024_--_4342.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -410,15 +404,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg
-INFO:root:🔹 Description: Essa composição de ambigrama é um tributo inspirado em Drawing Hands, uma famosa litografia do artista neerlandês M. C. Escher.
-(resolução original: 5 648 × 5 648)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Nottuln,_Gladbeck,_Grashalm_--_2024_--_4342.jpg
+INFO:root:🔹 Description: Espiga de aveia selvagem na hora dourada do amanhecer em um campo de cevada em Gladbeck, um distrito de Nottuln, na Renânia do Norte-Vestfália, Alemanha.
+(resolução original: 6 720 × 4 480)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg/500px-Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nottuln%2C_Gladbeck%2C_Grashalm_--_2024_--_4342.jpg/960px-Nottuln%2C_Gladbeck%2C_Grashalm_--_2024_--_4342.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -443,21 +437,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  24 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  28 ++-
  feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  45 +++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  49 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 103 ++++----
+ feeds/salmo_do_dia/atom.xml               |  76 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
  feeds/wikidestaque/feed.json              |   2 +-
- feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/atom.xml                    |  17 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 375 ++++++++++++++++--------------
- 17 files changed, 353 insertions(+), 310 deletions(-)
+ output.log                                | 358 ++++++++++++++----------------
+ 17 files changed, 300 insertions(+), 329 deletions(-)
