@@ -1,44 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119371 characters
-INFO:root:HTML parsed, length: 112348 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (19/06/2025)', 'Palavra de Ontem (18/06/2025)', 'Palavra de Anteontem (17/06/2025)']
-INFO:root:Found 3 URLs: ['/lay-off/', '/leveza/', '/temeroso/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Interrupção das atividades d', 'Sinônimos:\n\ndispensa, demissão, afastamento, inter', 'Sílabas:lay-off']
-INFO:root:Found 3 dates: ['Palavra de Hoje (19/06/2025)', 'Palavra de Ontem (18/06/2025)', 'Palavra de Anteontem (17/06/2025)']
+INFO:root:Response length: 118800 characters
+INFO:root:HTML parsed, length: 111777 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (20/06/2025)', 'Palavra de Ontem (19/06/2025)', 'Palavra de Anteontem (18/06/2025)']
+INFO:root:Found 3 URLs: ['/pequeninho/', '/lay-off/', '/leveza/']
+INFO:root:Found 12 descriptions: ['adjetivo [Antigo] Muito pequeno; pequenino, pequen', 'Sinônimos:\n\npequenino, pequenininho', 'Antônimos:\n\ngrande, enorme, gigantesco']
+INFO:root:Found 3 dates: ['Palavra de Hoje (20/06/2025)', 'Palavra de Ontem (19/06/2025)', 'Palavra de Anteontem (18/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (19/06/2025)', ID=9c9ec83411aeba4e3535c1f4db186eaf
-INFO:root:Processing entry 2: Title='Palavra de Ontem (18/06/2025)', ID=683bf928136ee2034095ba68bc55f437
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (17/06/2025)', ID=9941af9336a7dff1a2a9eeb48a163c1a
+INFO:root:Processing entry 1: Title='Palavra de Hoje (20/06/2025)', ID=cfe49dbf68666b813ff02f1dddd11d22
+INFO:root:Processing entry 2: Title='Palavra de Ontem (19/06/2025)', ID=b60bbb9a1a2b6c2dcdbd3a7fb92c4cd2
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (18/06/2025)', ID=0e92ed0541357f55b174197c2ba74a3e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (19/06/2025) - Significado completo de lay off:
-INFO:root:🔹 URL: https://www.dicio.com.br/lay-off/
-INFO:root:🔹 Description: substantivo masculino Interrupção das atividades de uma empresa ou de seus funcionários porque não há trabalho suficiente que justifique sua continuação.Ocasião em que uma empresa dispensa temporariamente seus funcionários em razão da falta de dinheiro ou de trabalho para os manter no emprego; demissão.[Por Extensão] Período em que alguém não está trabalhando ou realizando suas atividades laborais (escrita, esporte, música etc.): o atleta voltou a jogar depois de 5 meses em lay  off, causado por uma lesão.Interrupção de uma atividade; usado para pedir que alguém pare de fazer alguma coisa.Etimologia (origem de lay off). Do inglês lay off, layoff.
+INFO:root:🔹 Title: Palavra de Hoje (20/06/2025) - Significado completo de pequeninho:
+INFO:root:🔹 URL: https://www.dicio.com.br/pequeninho/
+INFO:root:🔹 Description: adjetivo [Antigo] Muito pequeno; pequenino, pequenininho.Etimologia (origem da palavra pequeninho). Pequeno + inho.
  
 Sinônimos:
 
-dispensa, demissão, afastamento, interrupção 
+pequenino, pequenininho 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (18/06/2025) - Significado completo de leveza:
-INFO:root:🔹 URL: https://www.dicio.com.br/leveza/
+INFO:root:🔹 Title: Palavra de Ontem (19/06/2025) - Significado completo de lay off:
+INFO:root:🔹 URL: https://www.dicio.com.br/lay-off/
 INFO:root:🔹 Description: Sinônimos:
 
-dispensa, demissão, afastamento, interrupção
- Sílabas:lay-off
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (17/06/2025) - Significado completo de temeroso:
-INFO:root:🔹 URL: https://www.dicio.com.br/temeroso/
-INFO:root:🔹 Description: Sílabas:lay-off
+pequenino, pequenininho
  
-Sinônimos:
+Antônimos:
 
-leviandade, airosidade, frescor, singeleza, finesse 
+grande, enorme, gigantesco 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (18/06/2025) - Significado completo de leveza:
+INFO:root:🔹 URL: https://www.dicio.com.br/leveza/
+INFO:root:🔹 Description: Antônimos:
+
+grande, enorme, gigantesco
+ Sílabas:pe-que-ni-nho
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,43 +48,96 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243308 characters
-INFO:root:HTML parsed, length: 232630 characters
-INFO:root:Found 1 titles: ['Salmos 23:4']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_23_4/']
-INFO:root:Found 1 descriptions: ['Mesmo quando eu andar\npor um vale de trevas e mort']
+INFO:root:Response length: 243359 characters
+INFO:root:HTML parsed, length: 232681 characters
+INFO:root:Found 1 titles: ['Gênesis 1:29']
+INFO:root:Found 1 URLs: ['/versiculo/genesis_1_29/']
+INFO:root:Found 1 descriptions: ['Disse Deus: "Eis que dou a vocês todas as plantas ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 23:4', ID=bd68e702e5c9238579de5f8f2139ad13
+INFO:root:Processing entry 1: Title='Gênesis 1:29', ID=041a2f14dd2940eb8e5d03443ad86083
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 23:4
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_23_4/
-INFO:root:🔹 Description: Mesmo quando eu andar
-por um vale de trevas e morte,
-não temerei perigo algum, pois tu estás comigo;
-a tua vara e o teu cajado me protegem. Salmos 23:4
+INFO:root:🔹 Title: Gênesis 1:29
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/genesis_1_29/
+INFO:root:🔹 Description: Disse Deus: "Eis que dou a vocês todas as plantas que nascem em toda a terra e produzem sementes, e todas as árvores que dão frutos com se­mentes. Elas servirão de alimento para vocês. Gênesis 1:29
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243315 characters
-INFO:root:HTML parsed, length: 233363 characters
-INFO:root:Found 3 titles: ['Salmo 20', 'Salmo 39', 'Salmo 140']
-INFO:root:Found 3 URLs: ['/salmos_20/', '/salmos_39/', '/salmos_140/']
-INFO:root:Found 3 descriptions: ['Que o Senhor te responda\nno tempo da angústia;\no n', 'Eu disse: Vigiarei a minha conduta\ne não pecarei e', 'Livra-me, Senhor, dos maus;\nprotege-me dos violent']
-INFO:root:Found 3 dates: ['19 de Junho de 2025', '18 de Junho de 2025', '17 de Junho de 2025']
+INFO:root:Response length: 243913 characters
+INFO:root:HTML parsed, length: 233971 characters
+INFO:root:Found 3 titles: ['Salmo 66', 'Salmo 20', 'Salmo 39']
+INFO:root:Found 3 URLs: ['/salmos_66/', '/salmos_20/', '/salmos_39/']
+INFO:root:Found 3 descriptions: ['Aclamem a Deus, povos de toda terra! \nCantem louvo', 'Que o Senhor te responda\nno tempo da angústia;\no n', 'Eu disse: Vigiarei a minha conduta\ne não pecarei e']
+INFO:root:Found 3 dates: ['20 de Junho de 2025', '19 de Junho de 2025', '18 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 20', ID=8b9cb5cd40f9096fbb8f17788869e2f7
-INFO:root:Processing entry 2: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
-INFO:root:Processing entry 3: Title=' Salmo 140', ID=8a3e302037b1455d1236975728e68da3
+INFO:root:Processing entry 1: Title=' Salmo 66', ID=15a03b6e313ede2b2a4b5a3c41b598ff
+INFO:root:Processing entry 2: Title=' Salmo 20', ID=8b9cb5cd40f9096fbb8f17788869e2f7
+INFO:root:Processing entry 3: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 66
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_66/
+INFO:root:🔹 Description: Aclamem a Deus, povos de toda terra! 
+Cantem louvores ao seu glorioso nome;
+louvem-no gloriosamente! 
+Digam a Deus:
+"Quão temíveis são os teus feitos!
+Tão grande é o teu poder que os teus inimigos
+rastejam diante de ti! 
+Toda a terra te adora
+e canta louvores a ti,
+canta louvores ao teu nome". 
+Venham e vejam o que Deus tem feito;
+como são impressionantes
+as suas obras em favor dos homens! 
+Ele transformou o mar em terra seca,
+e o povo atravessou as águas a pé;
+e ali nos alegramos nele. 
+Ele governa para sempre com o seu poder,
+seus olhos vigiam as nações;
+que os rebeldes
+não se levantem contra ele! 
+Bendigam o nosso Deus, ó povos,
+façam ressoar o som do seu louvor; 
+foi ele quem preservou a nossa vida
+impedindo que os nossos pés escorregassem. 
+Pois tu, ó Deus, nos submeteste à prova
+e nos refinaste como a prata. 
+Fizeste-nos cair numa armadilha
+e sobre nossas costas puseste fardos. 
+Deixaste que os inimigos cavalgassem
+sobre a nossa cabeça;
+passamos pelo fogo e pela água,
+mas a um lugar de fartura nos trouxeste. 
+Para o teu templo virei com holocaustos
+e cumprirei os meus votos para contigo, 
+votos que os meus lábios fizeram
+e a minha boca falou
+quando eu estava em dificuldade. 
+Oferecerei a ti animais gordos em holocausto;
+sacrificarei carneiros, cuja fumaça subirá a ti,
+e também novilhos e cabritos. 
+Venham e ouçam,
+todos vocês que temem a Deus;
+vou contar-lhes o que ele fez por mim. 
+A ele clamei com os lábios;
+com a língua o exaltei. 
+Se eu acalentasse o pecado no coração,
+o Senhor não me ouviria; 
+mas Deus me ouviu,
+deu atenção à oração que lhe dirigi. 
+Louvado seja Deus,
+que não rejeitou a minha oração
+nem afastou de mim o seu amor! 
+ Salmo 66
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 20
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_20/
 INFO:root:🔹 Description: Que o Senhor te responda
@@ -157,101 +212,80 @@ para que eu volte a ter alegria,
 antes que eu me vá e deixe de existir. 
  Salmo 39
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 140
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_140/
-INFO:root:🔹 Description: Livra-me, Senhor, dos maus;
-protege-me dos violentos, 
-que no coração tramam planos perversos
-e estão sempre provocando guerra. 
-Afiam a língua como a da serpente;
-veneno de víbora está em seus lábios. 
-Protege-me, Senhor, das mãos dos ímpios;
-protege-me dos violentos,
-que pretendem fazer-me tropeçar. 
-Homens arrogantes prepararam
-armadilhas contra mim,
-perversos estenderam as suas redes;
-no meu caminho armaram ciladas contra mim. 
-Eu declaro ao Senhor: Tu és o meu Deus.
-Ouve, Senhor, a minha súplica! 
-Ó Soberano Senhor, meu salvador poderoso,
-tu me proteges a cabeça no dia da batalha; 
-não atendas aos desejos dos ímpios, Senhor!
-Não permitas que os planos deles
-tenham sucesso,
-para que não se orgulhem. 
-Recaia sobre a cabeça dos que me cercam
-a maldade que os seus lábios proferiram. 
-Caiam brasas sobre eles,
-e sejam lançados ao fogo,
-em covas das quais jamais possam sair. 
-Que os difamadores
-não se estabeleçam na terra,
-que a desgraça persiga os violentos até a morte. 
-Sei que o Senhor defenderá
-a causa do necessitado
-e fará justiça aos pobres. 
-Com certeza os justos darão graças
-ao teu nome,
-e os homens íntegros viverão na tua presença. 
- Salmo 140
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245797 characters
-INFO:root:HTML parsed, length: 235520 characters
-INFO:root:Found 3 titles: ['De mãos dadas com o Senhor', 'O Senhor cuida de você como da menina dos seus olhos', 'Um só caminho']
+INFO:root:Response length: 245675 characters
+INFO:root:HTML parsed, length: 235400 characters
+INFO:root:Found 3 titles: ['Deixe Jesus mudar você', 'De mãos dadas com o Senhor', 'O Senhor cuida de você como da menina dos seus olhos']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Caminhar de mãos dadas com o Senhor é viver com a ', 'Pois o povo preferido do Senhor\né este povo,\nJacó ', 'Há um ditado popular que diz que todos os caminhos']
-INFO:root:Found 1 dates: ['Quinta, 19 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Habite ricamente em vocês a palavra de Cristo; ens', 'Caminhar de mãos dadas com o Senhor é viver com a ', 'Pois o povo preferido do Senhor\né este povo,\nJacó ']
+INFO:root:Found 1 dates: ['Sexta, 20 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='De mãos dadas com o Senhor', ID=49a048921573d80a2b3f717f648a9d1a
+INFO:root:Processing entry 1: Title='Deixe Jesus mudar você', ID=46fa94091052af6fee906027fe07afc5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: De mãos dadas com o Senhor - Palavra de Hoje
+INFO:root:🔹 Title: Deixe Jesus mudar você - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Caminhar de mãos dadas com o Senhor é viver com a certeza de que nunca estamos sozinhos. Quando tudo parece incerto e os ventos contrários tentam nos derrubar, é a mão firme de Deus que nos sustenta.
+INFO:root:🔹 Description: Habite ricamente em vocês a palavra de Cristo; ensinem e aconselhem-se uns aos outros com toda a sabedoria e cantem salmos, hinos e cânticos espirituais com gratidão a Deus em seu coração.
+- Colossenses 3:16
 
-Pois eu sou o Senhor, o seu Deus,
-que o segura pela mão direita
-e diz a você: Não tema; eu o ajudarei.
-- Isaías 41:13
-
-Ele não apenas observa de longe; Ele se aproxima, segura a nossa mão e caminha conosco, passo a passo.
-Há dias em que a caminhada parece longa demais. O fardo é pesado, o coração cansado, e os sonhos parecem distantes. Mas quando estamos de mãos dadas com o Senhor, recebemos força que vem do alto. Ele nos guia com sabedoria, nos envolve com paz e nos fortalece com amor. Deus não nos promete uma estrada sem desafios, mas nos garante a Sua presença constante.
-Assim como uma criança confia na mão do pai para atravessar uma rua movimentada, somos convidados a confiarmos em Deus para cada decisão e direção. De mãos dadas com o Senhor, superamos medos, vencemos batalhas e encontramos propósito.
-Não importa o quão escura esteja a noite ou quão incerto seja o futuro, quem anda com o Senhor não anda em trevas. Ele é luz, é refúgio, é companheiro fiel. Quando a fé vacilar, lembre-se: a mão d’Ele nunca solta a sua.
-Escolha segurar firme a mão de Deus. Caminhe com Ele em confiança, com os olhos fixos nas promessas e o coração cheio de esperança. Porque com Ele ao seu lado, o impossível se torna possível, e o caminho se transforma em bênção. De mãos dadas com o Senhor, você vai mais longe.
-Veja também: Proteção de Deus - 5 palavras bíblicas de amparo para nossas vidas
+O versículo de Colossenses 3:16 nos convida a uma vida enraizada na Palavra de Cristo. “Habite ricamente em vocês a palavra de Cristo” não é somente uma instrução; é um chamado para que a verdade do Evangelho se torne o alicerce de tudo o que somos e fazemos. Quando a Palavra habita em nós, ela molda nossos pensamentos, nossas atitudes e nossas ações.
+Esse versículo também destaca a importância da comunhão e do discipulado mútuo: “ensinem e aconselhem-se uns aos outros com toda a sabedoria.” Em Cristo, não caminhamos sozinhos. Somos chamados a partilhar da sabedoria que vem do alto, ajudando-nos mutuamente a crescer na fé. A Palavra nos equipa para sermos instrumentos de encorajamento, correção e edificação na vida do outro.
+Por fim, o texto nos impulsiona à adoração: “cantem salmos, hinos e cânticos espirituais com gratidão a Deus em seu coração.” A gratidão é o som natural de um coração cheio da Palavra. Quando reconhecemos tudo o que Cristo fez por nós, não conseguimos conter o louvor. A música se torna expressão da nossa fé e testemunho vivo da nossa esperança.
+Esse versículo nos desafia a vivermos onde a Palavra de Cristo seja a fonte de sabedoria, comunhão e adoração. Que cada um de nós permita que essa Palavra habite ricamente em nosso interior, transformando-nos de dentro para fora, para que nossa vida inteira glorifique ao Senhor.
+Veja também: Versículos sobre transformação
  
-Pois eu sou o Senhor, o seu Deus,
-que o segura pela mão direita
-e diz a você: Não tema; eu o ajudarei.
-- Isaías 41:13
+Habite ricamente em vocês a palavra de Cristo; ensinem e aconselhem-se uns aos outros com toda a sabedoria e cantem salmos, hinos e cânticos espirituais com gratidão a Deus em seu coração.
+- Colossenses 3:16
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255205 characters
-INFO:root:HTML parsed, length: 244684 characters
-INFO:root:Found 3 titles: ['Não te deixarei, nem te desampararei', 'Geração de adoradores', 'Seu refúgio certo em tempos de incerteza']
-INFO:root:Found 3 URLs: ['/versiculos_para_restaurar_sua_confianca/', '/adoracao_a_deus/', '/razoes_para_confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['porque Deus mesmo disse:\n"Nunca o deixarei,\nnunca ', 'Vivemos em um tempo profético, no qual Deus está l', '"Este é o Deus cujo caminho é perfeito; a palavra ']
-INFO:root:Found 3 dates: ['JUNHO\n\n19\nQUINTA', 'JUNHO\n\n18\nQUARTA', 'JUNHO\n\n17\nTERÇA']
+INFO:root:Response length: 254119 characters
+INFO:root:HTML parsed, length: 243599 characters
+INFO:root:Found 3 titles: ['Vivendo para Deus', 'Não te deixarei, nem te desampararei', 'Geração de adoradores']
+INFO:root:Found 4 URLs: ['/agradecimento_pela_vida/', '/perdao/', '/versiculos_para_restaurar_sua_confianca/']
+INFO:root:Found 3 descriptions: ['Porque, morrendo, ele morreu para o pecado uma vez', 'porque Deus mesmo disse:\n"Nunca o deixarei,\nnunca ', 'Vivemos em um tempo profético, no qual Deus está l']
+INFO:root:Found 3 dates: ['JUNHO\n\n20\nSEXTA', 'JUNHO\n\n19\nQUINTA', 'JUNHO\n\n18\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Não te deixarei, nem te desampararei', ID=212da20d217c5b9714637917d49bd920
-INFO:root:Processing entry 2: Title='Geração de adoradores', ID=611f8ccc548c9e569f1deb0f2fe1f3e4
-INFO:root:Processing entry 3: Title='Seu refúgio certo em tempos de incerteza', ID=ee6b0b4dc714db8f0f112c6fa6efc847
+INFO:root:Processing entry 1: Title='Vivendo para Deus', ID=cad1a031da605e5e51422729a02319d2
+INFO:root:Processing entry 2: Title='Não te deixarei, nem te desampararei', ID=212da20d217c5b9714637917d49bd920
+INFO:root:Processing entry 3: Title='Geração de adoradores', ID=611f8ccc548c9e569f1deb0f2fe1f3e4
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Vivendo para Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/agradecimento_pela_vida/
+INFO:root:🔹 Description: Porque, morrendo, ele morreu para o pecado uma vez por todas; mas, vivendo, vive para Deus. Da mesma forma, considerem-se mortos para o pecado, mas vivos para Deus em Cristo Jesus.
+- Romanos 6:10-11
+
+O sacrifício de Jesus é tão bom e superior que foi preciso ser feito apenas uma vez. Ao contrário dos sacrifícios para perdão de pecados feito pelo povo de Israel, repetido diversas vezes sacrificando animais, o sacrifício de Jesus foi definitivo.
+Sabe aquele ditado popular "estou pagando meus pecados"? Pois saiba que você não pagou e nem vai pagar por eles, Jesus já pagou na Cruz! Hoje não estamos vivendo sob o domínio do pecado, para satisfazer a carne, estamos vivendo para agradar a Deus e a Deus somente.
+Estávamos mortos, mas a morte de Jesus nos deu vida. Aproveite sua vida diante de Deus, sabendo que agora você tem um acesso ilimitado à presença divina.
+Viva para Deus!
+
+Separe um tempo na sua semana para dedicar ao Senhor, agradeça pelo sacrifício de Cristo e aproveite Sua presença.
+Aprenda a sentir prazer na vida, pois Jesus te deu vida verdadeira.
+Em Jesus você tem vida, dedique-se a conhecê-lo cada vez mais.
+
+Para orar:
+
+Senhor Deus, dedico a minha vida ao Senhor. Agora que entendo que Jesus sofreu a minha morte, que agora eu viva para Ti todos os momento da minha vida. Te agradeço pelo sacrifício supremo de Jesus e creio em sua ressurreição, aguardo ansiosamente pelo seu retorno. Em nome de Jesus, amém!
+
+Veja também:
+
+
+Versículos de gratidão pela vida;
+
+Versículos sobre o Perdão.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Não te deixarei, nem te desampararei
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_restaurar_sua_confianca/
+INFO:root:🔹 URL: https://www.bibliaon.com/perdao/
 INFO:root:🔹 Description: porque Deus mesmo disse:
 "Nunca o deixarei,
 nunca o abandonarei".
@@ -277,7 +311,7 @@ Senhor, mesmo nas lutas, confio em Ti. Sei que me vês, me ouves e jamais me aba
 Veja também: Deus nunca nos abandona: 6 versículos para ver que Ele está contigo
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Geração de adoradores
-INFO:root:🔹 URL: https://www.bibliaon.com/adoracao_a_deus/
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_restaurar_sua_confianca/
 INFO:root:🔹 Description: Vivemos em um tempo profético, no qual Deus está levantando uma geração que não se dobra aos ídolos deste mundo, mas que se prostra diante do trono de Deus com um coração sincero e quebrantado.
 
 No entanto, está chegando a hora, e de fato já chegou, em que os verdadeiros adoradores adorarão o Pai em espírito e em verdade. São estes os adoradores que o Pai procura.
@@ -300,38 +334,13 @@ Senhor, ensina-me a Te buscar em espírito e em verdade, a Te obedecer com um co
 
 Veja também: Versículos de adoração a Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Seu refúgio certo em tempos de incerteza
-INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
-INFO:root:🔹 Description: "Este é o Deus cujo caminho é perfeito; a palavra do Senhor é comprovadamente genuína. Ele é escudo para todos os que nele se refugiam.
-- 2 Samuel 22:31 
-
-O caminho de Deus é perfeito, e Sua palavra é verdadeira. Este versículo nos oferece uma base firme: em um mundo repleto de incertezas, Deus é o caminho perfeito.
-Nada em nossa vida é desconhecido para o Senhor. Mesmo quando enfrentamos perdas, dúvidas, podemos confiar que o caminho de Deus é sempre o melhor. Seu propósito é eterno, e Ele vê além das nossas limitações. A perfeição do Seu caminho não está na ausência de dor, mas na certeza de que tudo coopera para o bem daqueles que O amam (Romanos 8:28).
-A Palavra do Senhor permanece inabalável. Ao longo dos séculos, foi provada, contestada e perseguida, mas nunca deixou de cumprir o que promete. Ela é luz para os nossos pés, direção segura em meio à escuridão. É nela que encontramos a verdade que liberta, consola e transforma.
-E mais: Deus é escudo. Não um escudo qualquer, mas um refúgio para todos os que se abrigam n’Ele. Não importa quão forte seja a tempestade ou quão grande o inimigo, aqueles que confiam no Senhor encontram proteção, paz e esperança.
-Hoje, mais do que nunca, precisamos lembrar: há um Deus cujo caminho é perfeito, cuja Palavra é verdadeira e cujo amor é escudo inabalável. Refugiar-se n’Ele não é fraqueza, é sabedoria. É escolher caminhar com Aquele que nunca falha. 
-Caminhando com a proteção de Deus 
-
-
-Confie nos caminhos de Deus, mesmo sem entender: Ainda que a direção pareça incerta, creia que Deus vê o todo. Submeta seus planos a Ele e siga com fé, sabendo que Seus caminhos são sempre perfeitos.
-
-Alimente-se diariamente da Palavra: A Bíblia é fonte de sabedoria, consolo e direção. Reserve tempo para ler, meditar e aplicar seus ensinamentos, permitindo que a verdade de Deus molde suas decisões e atitudes.
-
-Refugie-se em oração: Busque a presença de Deus em oração nos momentos bons e difíceis. Ele é o escudo fiel que fortalece, protege e responde quando nos colocamos diante d’Ele com confiança e sinceridade.
-
-Para orar: 
-
-Senhor Deus, Tu és perfeito em tudo o que fazes. Mesmo quando não entendo Teus caminhos, confio que são os melhores para mim. Ajuda-me a descansar na Tua Palavra, que é verdadeira e viva. Sê meu escudo nos dias difíceis e meu refúgio seguro em toda situação. Fortalece minha fé, guia meus passos e ensina-me a buscar Tua presença todos os dias. Em Ti encontro paz, direção e proteção. Em nome de Jesus, amém.
-
-Veja também: 7 razões para confiar em Deus em meio às lutas
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223492 characters
-INFO:root:HTML parsed, length: 222021 characters
+INFO:root:Response length: 224949 characters
+INFO:root:HTML parsed, length: 223478 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 16 URLs: ['/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs', '/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs', '/wiki/Reykjav%C3%ADk']
-INFO:root:Found 1 descriptions: ['O Museu Falológico Islandês é um museu temático lo']
+INFO:root:Found 20 URLs: ['/wiki/I%C3%A9na_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado', '/wiki/Dreadnought']
+INFO:root:Found 1 descriptions: ['O Iéna foi um couraçado pré-dreadnought operado pe']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -341,10 +350,9 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Museu_Falol%C3%B3gico_Island%C3%AAs
-INFO:root:🔹 Description: O Museu Falológico Islandês é um museu temático localizado na cidade islandesa de Reykjavík. Todo o seu acervo é composto por peças dedicadas ao falo (do latim phallus: um dos vários sinônimos para o pênis).
-Fundado em 1997 pelo professor Sigurður Hjartarson, possui um acervo de 280 exemplares de 93 espécies de animais e inclui 55 pênis retirados de baleias e até de ratos. O maior pênis do museu é de uma baleia-azul que tem 1,70 metros de comprimento, enquanto o menor exemplar fálico é o de um hamster, com apenas 2 milímetros. 
-Em julho de 2011, o museu obteve seu primeiro pênis humano, um dos muitos prometidos por possíveis doadores. Seu desprendimento do corpo do doador não saiu conforme o planejado e foi reduzido a uma massa enrugada marrom-acinzentada que foi conservada em um frasco de formalina. O museu continua em busca de "um mais jovem, maior e melhor". (Leia mais...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/I%C3%A9na_(coura%C3%A7ado)
+INFO:root:🔹 Description: O Iéna foi um couraçado pré-dreadnought operado pela Marinha Nacional Francesa, cujo projeto foi baseado nos navios da predecessora Classe Charlegmane. Sua construção começou em janeiro de 1898 no Arsenal de Brest e foi lançado ao mar em setembro do mesmo ano, sendo comissionado na frota francesa em abril de 1902. Era armado com uma bateria principal composta por quatro canhões de 305 milímetros montados em duas torres de artilharia duplas, tinha um deslocamento carregado de doze mil toneladas e conseguia alcançar uma velocidade máxima de dezoito nós.
+O Iéna serviu por toda sua carreira na Esquadra do Mediterrâneo, muitas vezes atuando como sua capitânia. Suas principais atividades consistiram na realização de exercícios de rotina e viagens diplomáticas para portos estrangeiros. O navio foi destruído em 3 de julho de 1907 por uma explosão de um de seus depósitos de munição enquanto estava em uma doca seca em Toulon para reformas, com as causas sendo atribuídas à decomposição do propelente Poudre B. Seus destroços foram afundados como como alvo de tiro em dezembro de 1909 e depois desmontados em 1912. (Leia mais...)
 
 
 
@@ -353,49 +361,48 @@ Compartilhe:
 
 
 Artigos destacados: 1500 •
-Artigos bons: 1914
+Artigos bons: 1915
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223492 characters
-INFO:root:HTML parsed, length: 222021 characters
-INFO:root:Found 1 titles: ['18 de junho na história']
-INFO:root:Found 44 URLs: ['/wiki/Ficheiro:Battle_of_Waterloo_1815.PNG', '/wiki/Dia_do_Orgulho_Autista', '/wiki/Dia_da_Gastronomia_Sustent%C3%A1vel']
-INFO:root:Found 1 descriptions: ['Batalha de Waterloo\nDia do Orgulho Autista (2005);']
+INFO:root:Response length: 224949 characters
+INFO:root:HTML parsed, length: 223478 characters
+INFO:root:Found 1 titles: ['19 de junho na história']
+INFO:root:Found 51 URLs: ['/wiki/Ficheiro:Julian_Assange_August_2014.jpg', '/wiki/Dia_Internacional_para_a_Elimina%C3%A7%C3%A3o_da_Viol%C3%AAncia_Sexual_em_Conflitos', '/wiki/Dia_da_Independ%C3%AAncia']
+INFO:root:Found 1 descriptions: ['Julian Assange\nDia Internacional para a Eliminação']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='18 de junho na história', ID=4d85d818858f2665fe829fab0a8a6ed9
+INFO:root:Processing entry 1: Title='19 de junho na história', ID=7ed7f59224ef7afde40afcd50942c816
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 18 de junho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Battle_of_Waterloo_1815.PNG
-INFO:root:🔹 Description: Batalha de Waterloo
-Dia do Orgulho Autista (2005); Dia da Gastronomia Sustentável (2017); Dia Internacional de Combate ao Discurso de Ódio (2022)
+INFO:root:🔹 Title: 19 de junho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Julian_Assange_August_2014.jpg
+INFO:root:🔹 Description: Julian Assange
+Dia Internacional para a Eliminação da Violência Sexual em Conflitos (2015); Dia da Independência do Kuwait (1961); Festa de Corpus Christ (2025)
 
-1815 – Guerras Napoleónicas: a Batalha de Waterloo (pintura) leva Napoleão Bonaparte a abdicar do trono pela segunda e última vez.
-1908 – Inicia-se a imigração japonesa para o Brasil,  quando 781 pessoas desembarcam em Santos após uma viagem no Kasato Maru.
-1953 – O general Muhammad Naguib declara o fim da monarquia  egípcia e proclama a República do Egito.
+1867 – São executados em Santiago de Querétaro o imperador Maximiliano do México e os seus generais Tomás Mejía e Miguel Miramón, por ordem de Benito Juárez.
+1970 – É firmado em Washington, D.C. o Tratado de Cooperação em Matéria de Patentes.
+2012 — O fundador do WikiLeaks, Julian Assange (imagem), pede direito de asilo à embaixada do Equador em Londres por temer extradição para os Estados Unidos após a publicação de documentos confidenciais.
 Nasceram neste dia…
-Jürgen Habermas (n. 1929)  •  Paul McCartney (n. 1942)
- •  Lídia Jorge (n. 1946)  •  Fernando Henrique Cardoso (n. 1931).
+Blaise Pascal (1623–1662)  •  José Artigas (1764–1850)  •  Chico Buarque (n. 1944)  •  Salman Rushdie (n. 1947)
 Morreram neste dia…
-Roald Amundsen (1872–1928)  •  Máximo Gorki (1868–1936)  •  José Saramago (1922–2010)  •  XXXTentacion (1998–2018)
+Étienne Geoffroy Saint-Hilaire (1722–1844)  •  Francesco Baracca (1888–1918)  •  Thomas John Watson (1874–1956)  •  Anton Yelchin (1989–2016)
 
 
-Ver mais • Outros dias: 16 • 17 • 18 • 19 • 20 • Ver todos
+Ver mais • Outros dias: 17 • 18 • 19 • 20 • 21 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223492 characters
-INFO:root:HTML parsed, length: 222021 characters
+INFO:root:Response length: 224949 characters
+INFO:root:HTML parsed, length: 223478 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Nottuln,_Gladbeck,_Grashalm_--_2024_--_4342.jpg']
-INFO:root:Found 1 descriptions: ['Espiga de aveia selvagem na hora dourada do amanhe']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Rainbow_lorikeet_(Trichoglossus_moluccanus_moluccanus)_Sydney.jpg']
+INFO:root:Found 1 descriptions: ['Lóris-molucano (Trichoglossus moluccanus) no Jardi']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nottuln%2C_Gladbeck%2C_Grashalm_--_2024_--_4342.jpg/960px-Nottuln%2C_Gladbeck%2C_Grashalm_--_2024_--_4342.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg/500px-Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -404,15 +411,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Nottuln,_Gladbeck,_Grashalm_--_2024_--_4342.jpg
-INFO:root:🔹 Description: Espiga de aveia selvagem na hora dourada do amanhecer em um campo de cevada em Gladbeck, um distrito de Nottuln, na Renânia do Norte-Vestfália, Alemanha.
-(resolução original: 6 720 × 4 480)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Rainbow_lorikeet_(Trichoglossus_moluccanus_moluccanus)_Sydney.jpg
+INFO:root:🔹 Description: Lóris-molucano (Trichoglossus moluccanus) no Jardim Botânico Real de Sydney, Australia. É comum ao longo da costa leste, do norte de Queensland ao sul da Austrália. Seu habitat são florestas tropicais, matas costeiras e áreas arborizadas.
+(resolução original: 2 702 × 2 702)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nottuln%2C_Gladbeck%2C_Grashalm_--_2024_--_4342.jpg/960px-Nottuln%2C_Gladbeck%2C_Grashalm_--_2024_--_4342.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg/500px-Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -437,21 +444,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  28 ++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  49 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 ++--
+ feeds/devocional_de_hoje/feed.json        |  16 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  25 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  20 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  76 +++----
+ feeds/salmo_do_dia/atom.xml               |  93 +++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidestaque/feed.json              |   2 +-
+ feeds/wikidestaque/atom.xml               |   7 +-
+ feeds/wikidestaque/feed.json              |   4 +-
  feeds/wikidia/atom.xml                    |  17 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 358 ++++++++++++++----------------
- 17 files changed, 300 insertions(+), 329 deletions(-)
+ output.log                                | 383 +++++++++++++++---------------
+ 17 files changed, 342 insertions(+), 346 deletions(-)
