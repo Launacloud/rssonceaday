@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 118475 characters
-INFO:root:HTML parsed, length: 111590 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (22/06/2025)', 'Palavra de Ontem (21/06/2025)', 'Palavra de Anteontem (20/06/2025)']
-INFO:root:Found 3 URLs: ['/idilico/', '/desjejuar/', '/pequeninho/']
-INFO:root:Found 12 descriptions: ['adjetivo Que se refere a idílio, aos pastores, aos', 'Sinônimos:\n\nidílio, maravilhoso, fantasioso, devan', 'Antônimos:\n\nreal, palpável, realista, verdadeiro']
-INFO:root:Found 3 dates: ['Palavra de Hoje (22/06/2025)', 'Palavra de Ontem (21/06/2025)', 'Palavra de Anteontem (20/06/2025)']
+INFO:root:Response length: 118353 characters
+INFO:root:HTML parsed, length: 111651 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (23/06/2025)', 'Palavra de Ontem (22/06/2025)', 'Palavra de Anteontem (21/06/2025)']
+INFO:root:Found 3 URLs: ['/parusia/', '/idilico/', '/desjejuar/']
+INFO:root:Found 12 descriptions: ['substantivo feminino [Religião] Volta de Jesus Cri', 'Sinônimos:\n\nparúsia', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (23/06/2025)', 'Palavra de Ontem (22/06/2025)', 'Palavra de Anteontem (21/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (22/06/2025)', ID=b877ea5c43cb0e1325101809d00602eb
-INFO:root:Processing entry 2: Title='Palavra de Ontem (21/06/2025)', ID=6dfae288f3e3a7fabb87819bb5276395
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/06/2025)', ID=087a49d9de247a9bdc2add72bd12a51c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (23/06/2025)', ID=822110b90a06b25c8b6d014caa712541
+INFO:root:Processing entry 2: Title='Palavra de Ontem (22/06/2025)', ID=28b4f7ef8ad723a83fb35e37c706bb29
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/06/2025)', ID=4c96d50cd50306d99776b19dd5e0bf03
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (22/06/2025) - Significado completo de idílico:
-INFO:root:🔹 URL: https://www.dicio.com.br/idilico/
-INFO:root:🔹 Description: adjetivo Que se refere a idílio, aos pastores, aos seus rebanhos e animais; pastoril, puro, bucólico.Que resulta de um sonho, de um devaneio, de uma utopia.[Figurado] Que é maravilhoso, ideal; longe da realidade: descrição idílica.[Figurado] Muito suave, terno, maravilhoso, utópico, fantasioso etc.Etimologia (origem da palavra idílico). A palavra idílico deriva da junção de idílio, e do sufixo -ico.
+INFO:root:🔹 Title: Palavra de Hoje (23/06/2025) - Significado completo de parusia:
+INFO:root:🔹 URL: https://www.dicio.com.br/parusia/
+INFO:root:🔹 Description: substantivo feminino [Religião] Volta de Jesus Cristo no fim dos tempos, para o Juízo Final, descrito como o último julgamento de Deus sobre os seres da Terra; parúsia.[Religião] Segunda vinda de Jesus Cristo à Terra.Etimologia (origem da palavra parusia). Do grego parousia, as “volta, chegada, advento”.
  
 Sinônimos:
 
-idílio, maravilhoso, fantasioso, devaneio, sonho, ideal, bucólico, puro 
+parúsia 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (21/06/2025) - Significado completo de desjejuar:
-INFO:root:🔹 URL: https://www.dicio.com.br/desjejuar/
+INFO:root:🔹 Title: Palavra de Ontem (22/06/2025) - Significado completo de idílico:
+INFO:root:🔹 URL: https://www.dicio.com.br/idilico/
 INFO:root:🔹 Description: Sinônimos:
 
-idílio, maravilhoso, fantasioso, devaneio, sonho, ideal, bucólico, puro
- 
-Antônimos:
-
-real, palpável, realista, verdadeiro 
-
+parúsia
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (20/06/2025) - Significado completo de pequeninho:
-INFO:root:🔹 URL: https://www.dicio.com.br/pequeninho/
-INFO:root:🔹 Description: Antônimos:
-
-real, palpável, realista, verdadeiro
- Classe gramatical:adjetivo
+INFO:root:🔹 Title: Palavra de Anteontem (21/06/2025) - Significado completo de desjejuar:
+INFO:root:🔹 URL: https://www.dicio.com.br/desjejuar/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:pa-ru-si-a
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,119 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243239 characters
-INFO:root:HTML parsed, length: 232561 characters
-INFO:root:Found 1 titles: ['1 João 5:4']
-INFO:root:Found 1 URLs: ['/versiculo/1_joao_5_4/']
-INFO:root:Found 1 descriptions: ['O que é nascido de Deus vence o mundo; e esta é a ']
+INFO:root:Response length: 243085 characters
+INFO:root:HTML parsed, length: 232407 characters
+INFO:root:Found 1 titles: ['2 Timóteo 4:7']
+INFO:root:Found 1 URLs: ['/versiculo/2_timoteo_4_7/']
+INFO:root:Found 1 descriptions: ['Combati o bom combate, terminei a corrida, guardei']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 João 5:4', ID=4de522b201b9147eb16c45f177227bd2
+INFO:root:Processing entry 1: Title='2 Timóteo 4:7', ID=59855ab4a8fe9c6008821b3f749f9334
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 João 5:4
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_joao_5_4/
-INFO:root:🔹 Description: O que é nascido de Deus vence o mundo; e esta é a vitória que vence o mundo: a nossa fé. 1 João 5:4
+INFO:root:🔹 Title: 2 Timóteo 4:7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_timoteo_4_7/
+INFO:root:🔹 Description: Combati o bom combate, terminei a corrida, guardei a fé. 2 Timóteo 4:7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 247007 characters
-INFO:root:HTML parsed, length: 237109 characters
-INFO:root:Found 3 titles: ['Salmo 43', 'Salmo 89', 'Salmo 66']
-INFO:root:Found 3 URLs: ['/salmos_43/', '/salmos_89/', '/salmos_66/']
-INFO:root:Found 3 descriptions: ['Faze-me justiça, ó Deus,\ne defende a minha causa c', 'Cantarei para sempre o amor do Senhor;\ncom minha b', 'Aclamem a Deus, povos de toda terra! \nCantem louvo']
-INFO:root:Found 3 dates: ['22 de Junho de 2025', '21 de Junho de 2025', '20 de Junho de 2025']
+INFO:root:Response length: 247848 characters
+INFO:root:HTML parsed, length: 237969 characters
+INFO:root:Found 3 titles: ['Salmo 31', 'Salmo 43', 'Salmo 89']
+INFO:root:Found 3 URLs: ['/salmos_31/', '/salmos_43/', '/salmos_89/']
+INFO:root:Found 3 descriptions: ['Em ti, Senhor, me refugio;\nnunca permitas que eu s', 'Faze-me justiça, ó Deus,\ne defende a minha causa c', 'Cantarei para sempre o amor do Senhor;\ncom minha b']
+INFO:root:Found 3 dates: ['23 de Junho de 2025', '22 de Junho de 2025', '21 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 43', ID=637739b6a41438cafeba86488eda1a45
-INFO:root:Processing entry 2: Title=' Salmo 89', ID=e46bb9c27225d3ff0b9681b0878a0e4f
-INFO:root:Processing entry 3: Title=' Salmo 66', ID=15a03b6e313ede2b2a4b5a3c41b598ff
+INFO:root:Processing entry 1: Title=' Salmo 31', ID=c35edf8fc04fcd7848dc48e60fe7e4ea
+INFO:root:Processing entry 2: Title=' Salmo 43', ID=637739b6a41438cafeba86488eda1a45
+INFO:root:Processing entry 3: Title=' Salmo 89', ID=e46bb9c27225d3ff0b9681b0878a0e4f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 31
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_31/
+INFO:root:🔹 Description: Em ti, Senhor, me refugio;
+nunca permitas que eu seja humilhado;
+livra-me pela tua justiça. 
+Inclina os teus ouvidos para mim,
+vem livrar-me depressa!
+Sê minha rocha de refúgio,
+uma fortaleza poderosa para me salvar. 
+Sim, tu és a minha rocha e a minha fortaleza;
+por amor do teu nome, conduze-me e guia-me. 
+Tira-me da armadilha que me prepararam,
+pois tu és o meu refúgio. 
+Nas tuas mãos entrego o meu espírito;
+resgata-me, Senhor, Deus da verdade. 
+Odeio aqueles que se apegam a ídolos inúteis;
+eu, porém, confio no Senhor. 
+Exultarei com grande alegria por teu amor,
+pois viste a minha aflição
+e conheceste a angústia da minha alma. 
+Não me entregaste
+nas mãos dos meus inimigos;
+deste-me segurança e liberdade. 
+Misericórdia, Senhor! Estou em desespero!
+A tristeza me consome
+a vista, o vigor e o apetite. 
+Minha vida é consumida pela angústia,
+e os meus anos pelo gemido;
+minha aflição esgota as minhas forças,
+e os meus ossos se enfraquecem. 
+Por causa de todos os meus adversários,
+sou motivo de ultraje para os meus vizinhos
+e de medo para os meus amigos;
+os que me veem na rua fogem de mim. 
+Sou esquecido por eles
+como se estivesse morto;
+tornei-me como um pote quebrado. 
+Ouço muitos cochicharem a meu respeito;
+o pavor me domina,
+pois conspiram contra mim,
+tramando tirar-me a vida. 
+Mas eu confio em ti, Senhor,
+e digo: Tu és o meu Deus. 
+O meu futuro está nas tuas mãos;
+livra-me dos meus inimigos
+e daqueles que me perseguem. 
+Faze o teu rosto resplandecer
+sobre o teu servo;
+salva-me por teu amor leal. 
+Não permitas que eu seja humilhado, Senhor,
+pois tenho clamado a ti;
+mas que os ímpios sejam humilhados,
+e calados fiquem no Sheol. 
+Sejam emudecidos os seus lábios mentirosos,
+pois com arrogância e desprezo
+humilham os justos. 
+Como é grande a tua bondade,
+que reservaste para aqueles que te temem,
+e que, à vista dos homens,
+concedes àqueles que se refugiam em ti! 
+No abrigo da tua presença os escondes
+das intrigas dos homens;
+na tua habitação os proteges
+das línguas acusadoras. 
+Bendito seja o Senhor,
+pois mostrou o seu maravilhoso amor
+para comigo
+quando eu estava numa cidade cercada. 
+Alarmado, eu disse:
+Fui excluído da tua presença!
+Contudo, ouviste as minhas súplicas
+quando clamei a ti por socorro. 
+Amem o Senhor, todos vocês, os seus santos!
+O Senhor preserva os fiéis,
+mas aos arrogantes dá o que merecem. 
+Sejam fortes e corajosos,
+todos vocês que esperam no Senhor! 
+ Salmo 31
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 43
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_43/
 INFO:root:🔹 Description: Faze-me justiça, ó Deus,
@@ -235,184 +308,83 @@ Bendito seja o Senhor para sempre!
 Amém e amém. 
  Salmo 89
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 66
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_66/
-INFO:root:🔹 Description: Aclamem a Deus, povos de toda terra! 
-Cantem louvores ao seu glorioso nome;
-louvem-no gloriosamente! 
-Digam a Deus:
-"Quão temíveis são os teus feitos!
-Tão grande é o teu poder que os teus inimigos
-rastejam diante de ti! 
-Toda a terra te adora
-e canta louvores a ti,
-canta louvores ao teu nome". 
-Venham e vejam o que Deus tem feito;
-como são impressionantes
-as suas obras em favor dos homens! 
-Ele transformou o mar em terra seca,
-e o povo atravessou as águas a pé;
-e ali nos alegramos nele. 
-Ele governa para sempre com o seu poder,
-seus olhos vigiam as nações;
-que os rebeldes
-não se levantem contra ele! 
-Bendigam o nosso Deus, ó povos,
-façam ressoar o som do seu louvor; 
-foi ele quem preservou a nossa vida
-impedindo que os nossos pés escorregassem. 
-Pois tu, ó Deus, nos submeteste à prova
-e nos refinaste como a prata. 
-Fizeste-nos cair numa armadilha
-e sobre nossas costas puseste fardos. 
-Deixaste que os inimigos cavalgassem
-sobre a nossa cabeça;
-passamos pelo fogo e pela água,
-mas a um lugar de fartura nos trouxeste. 
-Para o teu templo virei com holocaustos
-e cumprirei os meus votos para contigo, 
-votos que os meus lábios fizeram
-e a minha boca falou
-quando eu estava em dificuldade. 
-Oferecerei a ti animais gordos em holocausto;
-sacrificarei carneiros, cuja fumaça subirá a ti,
-e também novilhos e cabritos. 
-Venham e ouçam,
-todos vocês que temem a Deus;
-vou contar-lhes o que ele fez por mim. 
-A ele clamei com os lábios;
-com a língua o exaltei. 
-Se eu acalentasse o pecado no coração,
-o Senhor não me ouviria; 
-mas Deus me ouviu,
-deu atenção à oração que lhe dirigi. 
-Louvado seja Deus,
-que não rejeitou a minha oração
-nem afastou de mim o seu amor! 
- Salmo 66
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245130 characters
-INFO:root:HTML parsed, length: 234846 characters
-INFO:root:Found 3 titles: ['O farol que ilumina a sua vida', 'Você é unico, obra maravilhosa sem comparação', 'Deixe Jesus mudar você']
+INFO:root:Response length: 245247 characters
+INFO:root:HTML parsed, length: 234962 characters
+INFO:root:Found 3 titles: ['Deposite a sua esperança no lugar certo', 'O farol que ilumina a sua vida', 'Você é unico, obra maravilhosa sem comparação']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Lâmpada para os meus pés é a tua palavra, e luz pa', 'Tu criaste o íntimo do meu ser\ne me teceste no ven', 'Habite ricamente em vocês a palavra de Cristo; ens']
-INFO:root:Found 1 dates: ['Domingo, 22 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Vivemos em tempos em que muitas pessoas depositam ', 'Lâmpada para os meus pés é a tua palavra, e luz pa', 'Tu criaste o íntimo do meu ser\ne me teceste no ven']
+INFO:root:Found 1 dates: ['Segunda, 23 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O farol que ilumina a sua vida', ID=f00978c8ade18360d8f8c015b80c80aa
+INFO:root:Processing entry 1: Title='Deposite a sua esperança no lugar certo', ID=acb5bfcf043d7493624ecddc7d96938e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O farol que ilumina a sua vida - Palavra de Hoje
+INFO:root:🔹 Title: Deposite a sua esperança no lugar certo - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Lâmpada para os meus pés é a tua palavra, e luz para o meu caminho.
-- Salmo 119:105
+INFO:root:🔹 Description: Vivemos em tempos em que muitas pessoas depositam sua esperança em lugares frágeis e passageiros. Seja no dinheiro, nas conquistas profissionais, nos relacionamentos ou até mesmo nas próprias forças, é comum buscarmos segurança em coisas que podem falhar. No entanto, a Palavra de Deus nos lembra que a verdadeira esperança deve estar firmada no Senhor.
 
-Quando os ventos sopram forte e as ondas parecem nos arrastar para longe da segurança, é fácil sentir-se perdido, sem direção. Nessas horas, Deus se apresenta como o farol firme e constante que nos guia em meio à escuridão.
-O farol não impede que a tempestade venha, nem faz o mar se acalmar de imediato, mas ele permanece ali, firme, iluminando o caminho para os que estão em perigo. Assim é o amor de Deus: inabalável, eterno e cheio de graça. Sua Palavra é como essa luz que nunca se apaga, mostrando o rumo certo mesmo quando nossos olhos se enchem de lágrimas e o medo tenta nos paralisar.
-Quantas vezes, em momentos de desânimo ou incerteza, você já sentiu o coração aquecido por um simples versículo lido no momento certo? Ou por uma oração sussurrada no silêncio da madrugada? Essa é a presença do Senhor, te lembrando que você não está sozinho, que Ele vê cada lágrima e ouve cada clamor.
-Deus deseja que você confie n'Ele como o navegador confia no farol. Ele te chama para avançar, mesmo quando a neblina cobre a visão. Caminhe pela fé, sabendo que a luz de Cristo sempre apontará a direção.
-Não importa o quão escura seja a noite ou quão forte seja a tempestade, a luz de Deus nunca falha. Ele é o farol que ilumina a sua vida, conduzindo você com amor e propósito até o porto seguro.
-Veja também: Jesus é a verdade que liberta (Estudo Bíblico)
+"Mas bendito é o homem
+cuja confiança está no Senhor,
+cuja confiança nele está.
+- Jeremias 17:7 
+
+Jeremias 17:7 nos chama a atenção para a diferença entre aquele que confia em Deus e aquele que confia em si mesmo ou nas circunstâncias. Enquanto as promessas humanas são passageiras e incertas, as promessas de Deus são eternas e imutáveis. Ele é a Rocha firme que nunca nos decepciona.
+Depositar nossa esperança em Deus não significa ignorar as responsabilidades da vida ou deixar de fazer planos, mas sim reconhecer que o controle final está nas mãos d'Ele. Significa descansar na certeza de que Ele cuida de cada detalhe, mesmo quando as circunstâncias parecem contrárias.
+Quando nossa esperança está no Senhor, somos fortalecidos nos momentos de tribulação. Mesmo nas perdas, nas doenças ou nas crises, sabemos que Deus continua presente, operando em nosso favor.
+A Bíblia nos garante que "todas as coisas cooperam para o bem daqueles que amam a Deus" (Romanos 8:28).
+Onde você tem depositado a sua esperança? Se for em coisas passageiras, hoje é o dia de mudar.
+Entregue suas ansiedades, seus sonhos e seus medos nas mãos do Senhor. Confie n'Ele de todo o coração. Ele é fiel para sustentar você em todas as estações da vida. 
+Veja também: Versículos de fé e esperança que vão alegrar seu dia.
  
-Lâmpada para os meus pés é a tua palavra, e luz para o meu caminho.
-- Salmo 119:105
+"Mas bendito é o homem
+cuja confiança está no Senhor,
+cuja confiança nele está.
+- Jeremias 17:7 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 252978 characters
-INFO:root:HTML parsed, length: 242466 characters
-INFO:root:Found 3 titles: ['Aumentando a intimidade com Deus', 'Senhor nos ouve no dia da angústia', 'Vivendo para Deus']
-INFO:root:Found 3 URLs: ['/angustia/', '/agradecimento_pela_vida/', '/perdao/']
-INFO:root:Found 3 descriptions: ['Mas, para mim, bom é estar perto de Deus;\nfiz do S', 'Que o Senhor te responda\nno tempo da angústia;\no n', 'Porque, morrendo, ele morreu para o pecado uma vez']
-INFO:root:Found 3 dates: ['JUNHO\n\n22\nDOMINGO', 'JUNHO\n\n21\nSÁBADO', 'JUNHO\n\n20\nSEXTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Aumentando a intimidade com Deus', ID=840b5aea0b025240701ac683936a29d3
-INFO:root:Processing entry 2: Title='Senhor nos ouve no dia da angústia', ID=65189ebcc58d035873b4af241daaf3b5
-INFO:root:Processing entry 3: Title='Vivendo para Deus', ID=cad1a031da605e5e51422729a02319d2
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 253166 characters
+INFO:root:HTML parsed, length: 242656 characters
+INFO:root:Found 3 titles: ['Esta é a energia que precisamos!', 'Aumentando a intimidade com Deus', 'Senhor nos ouve no dia da angústia']
+INFO:root:Found 1 URLs: ['/angustia/']
+INFO:root:Found 3 descriptions: ['Ele fortalece o cansado\ne dá grande vigor ao que e', 'Mas, para mim, bom é estar perto de Deus;\nfiz do S', 'Que o Senhor te responda\nno tempo da angústia;\no n']
+INFO:root:Found 3 dates: ['JUNHO\n\n23\nSEGUNDA', 'JUNHO\n\n22\nDOMINGO', 'JUNHO\n\n21\nSÁBADO']
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='Esta é a energia que precisamos!', ID=d04d578567438a1d9a3f941cb6768c05
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Aumentando a intimidade com Deus
+INFO:root:🔹 Title: Esta é a energia que precisamos!
 INFO:root:🔹 URL: https://www.bibliaon.com/angustia/
-INFO:root:🔹 Description: Mas, para mim, bom é estar perto de Deus;
-fiz do Soberano Senhor o meu refúgio;
-proclamarei todos os teus feitos.
-Salmos 73:28 
+INFO:root:🔹 Description: Ele fortalece o cansado
+e dá grande vigor ao que está sem forças.
+Isaías 40:29
 
-O nosso Deus é vivo e quer relacionar-se conosco. Ele quer ouvir a nossa voz, quer ser adorado e amado. Da mesma forma, Deus quer abençoar-nos dando um futuro próspero. O relacionamento é um caminho de duas vias: amar e ser amado. Para isso é necessário tomarmos iniciativa, pois Deus já nos provou o Seu amor.
-Confiar totalmente no poder de Deus é um sinal de intimidade. Quando cremos de verdade, não temos medo de compartilhar os nossos sentimentos a Ele. Estar perto de Deus nos traz segurança - mesmo em dias de tempestade. A intimidade vem com a confiança o que resulta em fé e obras. 
-Tomando a iniciativa 
+Somente Deus é capaz de restaurar as nossas forças de uma maneira eficaz. A vida cristã não é fácil. Tem vezes que estamos cansados ao ponto de nada ser capaz de nos reanimar, até um bom sermão ou conselho. Não podemos descartar que isso pode acontecer conosco.
+Quando estamos cansados a esse nível só há um único recurso: pedir a Deus - em fé e sinceridade - que restaure as nossas forças e nos dê ânimo. Somente Deus é capaz de fortalecer o que está fraco e dar forças onde não há energia. Deus é a fonte inesgotável de poder.
+Quando o profeta Isaías liberou esta palavra a seu povo, foi uma resposta enérgica de Deus ao desânimo e à fraqueza. Não havia exigências na promessa, Deus agiria de fato sem reservas. E em situações como esta, de forte desânimo e cansaço, Deus é fiel para agir.
+O que devemos fazer é reconhecermos de fato o poder de Deus e verdadeiramente pedir a sua intervenção. Deus restaura o cansado, fortalece o que está sem forças. Basta confiar no seu poder e clamar pelo seu agir!
+Precisamos de Deus!
 
-Busque a Deus de todo o coração (Jeremias 29:13). Pratique o Evangelho.
-Procure a Sua presença em oração. Peça uma resposta de Deus aos seus anseios.
-Aprenda a discernir (Jó 34:4), esteja atento aos pequenos sinais.
-Dedique uma parte do seu dia para orar e meditar. Procure ser constante.
+Abra seu coração e coloque a sua situação diante de Deus. Talvez esse momento possa ser a hora perfeita de se entregar nas mãos de Deus, confiando completamente no seu poder.
+Mesmo com poucas forças, continue em fé, em espírito de oração buscando a presença de Deus. Esteja atento para ouvir a sua voz.
+Faça um momento de leitura da Palavra. A Bíblia é o "energético" do Cristão! É o modo mais rápido para alimentar o seu espírito.
 
 Para Orar:
 
-Senhor Deus, quero estar perto de Ti. O Teu amor não tem fim e a Tua misericórdia dura para sempre. Ouve a minha voz e fala ao meu coração. Em nome de Jesus, amém!
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Senhor nos ouve no dia da angústia
-INFO:root:🔹 URL: https://www.bibliaon.com/agradecimento_pela_vida/
-INFO:root:🔹 Description: Que o Senhor te responda
-no tempo da angústia;
-o nome do Deus de Jacó te proteja!
-- Salmo 20:1a
-
-Quando tudo parece desabar e a alma se encontra abatida, há uma promessa que brilha como luz na escuridão: o Senhor nos ouve no dia da angústia. Este versículo, curto, mas profundo, revela o coração de um Deus que não é indiferente ao nosso sofrimento. Ele não apenas observa de longe, mas inclina Seus ouvidos para os clamores sinceros dos que O buscam.
-O salmista não fala de uma possibilidade, mas de uma certeza: “Que o Senhor te responda…” Há consolo em saber que não estamos sozinhos quando o medo bate à porta, quando os planos falham ou quando as forças se esgotam. A oração, nesse contexto, não é um ato religioso vazio, mas um encontro com o Deus vivo, que socorre, protege e fortalece.
-E mais: “O nome do Deus de Jacó te proteja.” O nome de Deus não é apenas um título; é expressão do Seu caráter, da Sua fidelidade, da Sua aliança. O mesmo Deus que guiou Jacó em meio às suas lutas e transformou sua história é o mesmo que hoje guarda e sustenta os Seus filhos. Não importa a dimensão da angústia ou a intensidade da dor, há um refúgio seguro no Senhor.
-No dia da aflição, não se desespere. Clame. Confie. Deus ouve. Ele age no tempo certo e com perfeição. Que o nome do Senhor seja teu abrigo, tua rocha firme e tua esperança viva. Porque aquele que confia no Senhor jamais será confundido.
-Deus responde ao coração que clama
-
-
-No dia da angústia, Deus inclina os ouvidos para Seus filhos. Ele não ignora o sofrimento, mas responde com amor, consolo e direção àqueles que O buscam com fé e sinceridade.
-O nome do Senhor representa proteção, fidelidade e presença constante. Quando tudo falha, Ele permanece. Em Seu nome encontramos abrigo, força renovada e paz que excede todo entendimento, mesmo em tempos difíceis.
-
-Confiar em Deus transforma a dor em esperança. Sabemos que, mesmo sem entender os caminhos, Ele age com perfeição. O coração que espera no Senhor será fortalecido e jamais será confundido.
-
-Para orar:
-
-Senhor, no dia da angústia, volto meu coração a Ti. Ouve meu clamor, fortalece minha fé e protege-me com Teu poderoso nome. Sê meu refúgio, minha paz e minha esperança. Em Ti confio, hoje e sempre. Amém.
-
-Veja também: Versículos para vencer a angústia
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Vivendo para Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/perdao/
-INFO:root:🔹 Description: Porque, morrendo, ele morreu para o pecado uma vez por todas; mas, vivendo, vive para Deus. Da mesma forma, considerem-se mortos para o pecado, mas vivos para Deus em Cristo Jesus.
-- Romanos 6:10-11
-
-O sacrifício de Jesus é tão bom e superior que foi preciso ser feito apenas uma vez. Ao contrário dos sacrifícios para perdão de pecados feito pelo povo de Israel, repetido diversas vezes sacrificando animais, o sacrifício de Jesus foi definitivo.
-Sabe aquele ditado popular "estou pagando meus pecados"? Pois saiba que você não pagou e nem vai pagar por eles, Jesus já pagou na Cruz! Hoje não estamos vivendo sob o domínio do pecado, para satisfazer a carne, estamos vivendo para agradar a Deus e a Deus somente.
-Estávamos mortos, mas a morte de Jesus nos deu vida. Aproveite sua vida diante de Deus, sabendo que agora você tem um acesso ilimitado à presença divina.
-Viva para Deus!
-
-Separe um tempo na sua semana para dedicar ao Senhor, agradeça pelo sacrifício de Cristo e aproveite Sua presença.
-Aprenda a sentir prazer na vida, pois Jesus te deu vida verdadeira.
-Em Jesus você tem vida, dedique-se a conhecê-lo cada vez mais.
-
-Para orar:
-
-Senhor Deus, dedico a minha vida ao Senhor. Agora que entendo que Jesus sofreu a minha morte, que agora eu viva para Ti todos os momento da minha vida. Te agradeço pelo sacrifício supremo de Jesus e creio em sua ressurreição, aguardo ansiosamente pelo seu retorno. Em nome de Jesus, amém!
-
-Veja também:
-
-
-Versículos de gratidão pela vida;
-
-Versículos sobre o Perdão.
+Deus, Tu és a fonte de todo poder! Estou sem forças e cansado, mas confio em Ti. Creio no Teu poder. Não há nada impossível para Ti. És capaz de mudar a minha vida completamente. Fortalece a minha alma, em nome de Jesus. Amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224693 characters
-INFO:root:HTML parsed, length: 223222 characters
+INFO:root:Response length: 225824 characters
+INFO:root:HTML parsed, length: 224353 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 21 URLs: ['/wiki/I%C3%A9na_(coura%C3%A7ado)', '/wiki/I%C3%A9na_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
 INFO:root:Found 1 descriptions: ['O Iéna foi um couraçado pré-dreadnought operado pe']
@@ -435,47 +407,49 @@ Compartilhe:
 
 
 
-Artigos destacados: 1500 •
-Artigos bons: 1915
+Artigos destacados: 1501 •
+Artigos bons: 1916
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224693 characters
-INFO:root:HTML parsed, length: 223222 characters
-INFO:root:Found 1 titles: ['22 de junho na história']
-INFO:root:Found 50 URLs: ['/wiki/Ficheiro:Meryl_Streep_by_Jack_Mitchell.jpg', '/wiki/1622', '/wiki/Guerra_Luso-Holandesa']
-INFO:root:Found 1 descriptions: ['Meryl Streep\n1622 – Guerra Luso-Holandesa: forças ']
+INFO:root:Response length: 225824 characters
+INFO:root:HTML parsed, length: 224353 characters
+INFO:root:Found 1 titles: ['23 de junho na história']
+INFO:root:Found 50 URLs: ['/wiki/Ficheiro:Elza_Soares_recebendo_o_diploma_de_Embaixatriz_do_Samba_no_Museu_da_Imagem_e_do_Sim,_com_Garrincha_ao_fundo_(cropped).tif', '/wiki/Dia_das_Na%C3%A7%C3%B5es_Unidas_para_o_Servi%C3%A7o_P%C3%BAblico', '/wiki/Dia_Internacional_das_Vi%C3%BAvas']
+INFO:root:Found 1 descriptions: ['Elza Soares\nDia das Nações Unidas para o Serviço P']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='22 de junho na história', ID=aa84e6e5f024854f3334dbf961a750d8
+INFO:root:Processing entry 1: Title='23 de junho na história', ID=ca58fbe2a9c3973191d35a019963519b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 22 de junho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Meryl_Streep_by_Jack_Mitchell.jpg
-INFO:root:🔹 Description: Meryl Streep
-1622 – Guerra Luso-Holandesa: forças portuguesas repelem uma invasão holandesa na Batalha de Macau.
-1633 – A Congregação para a Doutrina da Fé em Roma força Galileu Galilei a renegar a ideia de que o Sol é o centro do universo, e não a Terra.
-1941 – Segunda Guerra Mundial: a Alemanha Nazista invade a União Soviética na Operação Barbarossa.
+INFO:root:🔹 Title: 23 de junho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Elza_Soares_recebendo_o_diploma_de_Embaixatriz_do_Samba_no_Museu_da_Imagem_e_do_Sim,_com_Garrincha_ao_fundo_(cropped).tif
+INFO:root:🔹 Description: Elza Soares
+Dia das Nações Unidas para o Serviço Público (2003); Dia Internacional das Viúvas (2011); Aniversário Oficial do Grande Duque em Luxemburgo (1962)
+
+1894 – É fundado na Sorbonne, em Paris, o Comitê Olímpico Internacional, por iniciativa do barão Pierre de Coubertin.
+1961 – Entra em vigor o Tratado da Antártida, que estabelece a Antártica como uma reserva científica e proíbe a atividade militar no continente.
+2018 – Doze meninos e um assistente técnico de um time de futebol ficam presos em uma caverna inundada na Cordilheira Doi Nang Non, Tailândia, levando a uma operação de resgate de 18 dias.
 Nasceram neste dia…
-Giuseppe Mazzini (1805–1872)  •  Robert von Greim (1892–1945)  •  Abbas Kiarostami (1940–2016)  •  Meryl Streep (imagem) (n. 1949)
+Giambattista Vico (1668–1744)  •  Dercy Gonçalves (1907–2008)  •  Alan Turing (1912–1954)  •  Elza Soares (imagem) (1930–2022)
 Morreram neste dia…
-Papa Inocêncio V (c. 1225–1276)  •  Felix Klein (1849–1925)  •  Judy Garland (1922–1969)  •  Darius Milhaud (1892–1974)
+Vespasiano (9–79)  •  Nicolau Tolentino de Almeida (1740–1811)  •  Matthias Schleiden (1804–1881)  •  Jonas Salk (1914–1995)
 
 
-Ver mais • Outros dias: 20 • 21 • 22 • 23 • 24 • Ver todos
+Ver mais • Outros dias: 21 • 22 • 23 • 24 • 25 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224693 characters
-INFO:root:HTML parsed, length: 223222 characters
+INFO:root:Response length: 225824 characters
+INFO:root:HTML parsed, length: 224353 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Stained_glass_in_Nysa_cathedral.jpg']
-INFO:root:Found 1 descriptions: ['Vitral localizado na Basílica de São Tiago e Santa']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Helsinki_Olympic_Stadium_Tower.jpg']
+INFO:root:Found 1 descriptions: ['Torre em estilo funcionalista do Estádio Olímpico ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Stained_glass_in_Nysa_cathedral.jpg/500px-Stained_glass_in_Nysa_cathedral.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Helsinki_Olympic_Stadium_Tower.jpg/500px-Helsinki_Olympic_Stadium_Tower.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -484,15 +458,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Stained_glass_in_Nysa_cathedral.jpg
-INFO:root:🔹 Description: Vitral localizado na Basílica de São Tiago e Santa Inês, uma igreja em Nysa, Polônia, retrata anjos adorando a hóstia sagrada e o vinho durante uma epiclese ao Espírito Santo, representado como uma pomba.
-(resolução original: 2 482 × 2 318)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Helsinki_Olympic_Stadium_Tower.jpg
+INFO:root:🔹 Description: Torre em estilo funcionalista do Estádio Olímpico de Helsinque, Finlândia, projetada por Yrjö Lindegren e Toivo Jäntti. Os Jogos da 15.ª Olimpíada foram realizados nesse estádio em 1952.
+(resolução original: 2 069 × 2 069)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Stained_glass_in_Nysa_cathedral.jpg/500px-Stained_glass_in_Nysa_cathedral.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Helsinki_Olympic_Stadium_Tower.jpg/500px-Helsinki_Olympic_Stadium_Tower.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -508,6 +482,7 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -516,20 +491,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++--
- feeds/devocional_de_hoje/feed.json        |  14 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  33 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  66 +----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  27 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  52 +++--
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 133 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/atom.xml               |   6 +-
+ feeds/wikidestaque/feed.json              |   2 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   5 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 333 ++++++++++++++----------------
- 16 files changed, 269 insertions(+), 314 deletions(-)
+ output.log                                | 438 ++++++++++++++----------------
+ 17 files changed, 363 insertions(+), 433 deletions(-)
