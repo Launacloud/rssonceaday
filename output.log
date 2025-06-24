@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 118353 characters
-INFO:root:HTML parsed, length: 111651 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (23/06/2025)', 'Palavra de Ontem (22/06/2025)', 'Palavra de Anteontem (21/06/2025)']
-INFO:root:Found 3 URLs: ['/parusia/', '/idilico/', '/desjejuar/']
-INFO:root:Found 12 descriptions: ['substantivo feminino [Religião] Volta de Jesus Cri', 'Sinônimos:\n\nparúsia', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (23/06/2025)', 'Palavra de Ontem (22/06/2025)', 'Palavra de Anteontem (21/06/2025)']
+INFO:root:Response length: 119814 characters
+INFO:root:HTML parsed, length: 112721 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (24/06/2025)', 'Palavra de Ontem (23/06/2025)', 'Palavra de Anteontem (22/06/2025)']
+INFO:root:Found 3 URLs: ['/tradicao/', '/parusia/', '/idilico/']
+INFO:root:Found 14 descriptions: ['substantivo feminino Costume transmitido de geraçã', 'Sinônimos:\n\nhistória, recordação, memória, lenda, ', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (24/06/2025)', 'Palavra de Ontem (23/06/2025)', 'Palavra de Anteontem (22/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (23/06/2025)', ID=822110b90a06b25c8b6d014caa712541
-INFO:root:Processing entry 2: Title='Palavra de Ontem (22/06/2025)', ID=28b4f7ef8ad723a83fb35e37c706bb29
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/06/2025)', ID=4c96d50cd50306d99776b19dd5e0bf03
+INFO:root:Processing entry 1: Title='Palavra de Hoje (24/06/2025)', ID=b88ddeb408c3a3782781a48273fc8298
+INFO:root:Processing entry 2: Title='Palavra de Ontem (23/06/2025)', ID=6a97edabc9f7c76c48d7cd700d2a17c5
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/06/2025)', ID=d0a0ac4385f27251f199d08e7d8c5d0d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (23/06/2025) - Significado completo de parusia:
-INFO:root:🔹 URL: https://www.dicio.com.br/parusia/
-INFO:root:🔹 Description: substantivo feminino [Religião] Volta de Jesus Cristo no fim dos tempos, para o Juízo Final, descrito como o último julgamento de Deus sobre os seres da Terra; parúsia.[Religião] Segunda vinda de Jesus Cristo à Terra.Etimologia (origem da palavra parusia). Do grego parousia, as “volta, chegada, advento”.
+INFO:root:🔹 Title: Palavra de Hoje (24/06/2025) - Significado completo de tradição:
+INFO:root:🔹 URL: https://www.dicio.com.br/tradicao/
+INFO:root:🔹 Description: substantivo feminino Costume transmitido de geração a geração ou aquilo que se faz por hábito; costume: as tradições de uma região.Herança cultural, legado passado de uma geração para outra: não concordava com tradições que violavam os direitos dos animais.Transmissão oral de doutrinas, de lendas, de costumes etc., durante longo espaço de tempo, de geração para geração.Religião.Transmissão oral, às vezes registrada por escrito, dos fatos ou das doutrinas religiosas.[Jurídico] Entrega material de um bem móvel, objeto de uma transferência de propriedade.Ação ou efeito de transmitir, de fazer a transferência entre uma coisa e outra.Etimologia (origem da palavra tradição). Do latim traditio.onis, "ato de entregar".
  
 Sinônimos:
 
-parúsia 
+história, recordação, memória, lenda, símbolo, costume, hábito 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (22/06/2025) - Significado completo de idílico:
-INFO:root:🔹 URL: https://www.dicio.com.br/idilico/
+INFO:root:🔹 Title: Palavra de Ontem (23/06/2025) - Significado completo de parusia:
+INFO:root:🔹 URL: https://www.dicio.com.br/parusia/
 INFO:root:🔹 Description: Sinônimos:
 
-parúsia
+história, recordação, memória, lenda, símbolo, costume, hábito
  Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (21/06/2025) - Significado completo de desjejuar:
-INFO:root:🔹 URL: https://www.dicio.com.br/desjejuar/
+INFO:root:🔹 Title: Palavra de Anteontem (22/06/2025) - Significado completo de idílico:
+INFO:root:🔹 URL: https://www.dicio.com.br/idilico/
 INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:pa-ru-si-a
+ Sílabas:tra-di-ção
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,69 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243085 characters
-INFO:root:HTML parsed, length: 232407 characters
-INFO:root:Found 1 titles: ['2 Timóteo 4:7']
-INFO:root:Found 1 URLs: ['/versiculo/2_timoteo_4_7/']
-INFO:root:Found 1 descriptions: ['Combati o bom combate, terminei a corrida, guardei']
+INFO:root:Response length: 243072 characters
+INFO:root:HTML parsed, length: 232394 characters
+INFO:root:Found 1 titles: ['Hebreus 12:14']
+INFO:root:Found 1 URLs: ['/versiculo/hebreus_12_14/']
+INFO:root:Found 1 descriptions: ['Esforcem-se para viver em paz com todos e para ser']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Timóteo 4:7', ID=59855ab4a8fe9c6008821b3f749f9334
+INFO:root:Processing entry 1: Title='Hebreus 12:14', ID=a12cc3b242aa4cdc56afec841fde2828
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Timóteo 4:7
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_timoteo_4_7/
-INFO:root:🔹 Description: Combati o bom combate, terminei a corrida, guardei a fé. 2 Timóteo 4:7
+INFO:root:🔹 Title: Hebreus 12:14
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_12_14/
+INFO:root:🔹 Description: Esforcem-se para viver em paz com todos e para serem santos; sem santidade ninguém verá o Senhor. Hebreus 12:14
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 247848 characters
-INFO:root:HTML parsed, length: 237969 characters
-INFO:root:Found 3 titles: ['Salmo 31', 'Salmo 43', 'Salmo 89']
-INFO:root:Found 3 URLs: ['/salmos_31/', '/salmos_43/', '/salmos_89/']
-INFO:root:Found 3 descriptions: ['Em ti, Senhor, me refugio;\nnunca permitas que eu s', 'Faze-me justiça, ó Deus,\ne defende a minha causa c', 'Cantarei para sempre o amor do Senhor;\ncom minha b']
-INFO:root:Found 3 dates: ['23 de Junho de 2025', '22 de Junho de 2025', '21 de Junho de 2025']
+INFO:root:Response length: 244022 characters
+INFO:root:HTML parsed, length: 234085 characters
+INFO:root:Found 3 titles: ['Salmo 26', 'Salmo 31', 'Salmo 43']
+INFO:root:Found 3 URLs: ['/salmos_26/', '/salmos_31/', '/salmos_43/']
+INFO:root:Found 3 descriptions: ['Faze-me justiça, Senhor,\npois tenho vivido com int', 'Em ti, Senhor, me refugio;\nnunca permitas que eu s', 'Faze-me justiça, ó Deus,\ne defende a minha causa c']
+INFO:root:Found 3 dates: ['24 de Junho de 2025', '23 de Junho de 2025', '22 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 31', ID=c35edf8fc04fcd7848dc48e60fe7e4ea
-INFO:root:Processing entry 2: Title=' Salmo 43', ID=637739b6a41438cafeba86488eda1a45
-INFO:root:Processing entry 3: Title=' Salmo 89', ID=e46bb9c27225d3ff0b9681b0878a0e4f
+INFO:root:Processing entry 1: Title=' Salmo 26', ID=72190ff759f5b648f9f92b3583670f31
+INFO:root:Processing entry 2: Title=' Salmo 31', ID=c35edf8fc04fcd7848dc48e60fe7e4ea
+INFO:root:Processing entry 3: Title=' Salmo 43', ID=637739b6a41438cafeba86488eda1a45
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 26
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_26/
+INFO:root:🔹 Description: Faze-me justiça, Senhor,
+pois tenho vivido com integridade.
+Tenho confiado no Senhor, sem vacilar. 
+Sonda-me, Senhor, e prova-me,
+examina o meu coração e a minha mente; 
+pois o teu amor está sempre diante de mim,
+e continuamente sigo a tua verdade. 
+Não me associo com homens falsos
+nem ando com hipócritas; 
+detesto o ajuntamento dos malfeitores
+e não me assento com os ímpios. 
+Lavo as mãos na inocência,
+e do teu altar, Senhor, me aproximo 
+cantando hinos de gratidão
+e falando de todas as tuas maravilhas. 
+Eu amo, Senhor, o lugar da tua habitação,
+onde a tua glória habita. 
+Não me dês o destino dos pecadores
+nem o fim dos assassinos; 
+suas mãos executam planos perversos,
+praticam suborno abertamente. 
+Mas eu vivo com integridade;
+livra-me e tem misericórdia de mim. 
+Os meus pés estão firmes na retidão;
+na grande assembleia bendirei o Senhor. 
+ Salmo 26
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 31
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_31/
 INFO:root:🔹 Description: Em ti, Senhor, me refugio;
@@ -181,213 +210,90 @@ Pois ainda o louvarei;
 ele é o meu Salvador e o meu Deus. 
  Salmo 43
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 89
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_89/
-INFO:root:🔹 Description: Cantarei para sempre o amor do Senhor;
-com minha boca anunciarei
-a tua fidelidade por todas as gerações. 
-Sei que firme está o teu amor para sempre,
-e que firmaste nos céus a tua fidelidade. 
-Tu disseste: "Fiz aliança com o meu escolhido,
-jurei ao meu servo Davi: 
-'Estabelecerei a tua linhagem para sempre
-e firmarei o teu trono
-por todas as gerações' ". 
-Os céus louvam as tuas maravilhas, Senhor,
-e a tua fidelidade na assembleia dos santos. 
-Pois quem nos céus
-poderá comparar-se ao Senhor?
-Quem entre os seres celestiais
-assemelha-se ao Senhor? 
-Na assembleia dos santos Deus é temível,
-mais do que todos os que o rodeiam. 
-Ó Senhor, Deus dos Exércitos,
-quem é semelhante a ti?
-És poderoso, Senhor,
-envolto em tua fidelidade. 
-Tu dominas o revolto mar;
-quando se agigantam as suas ondas,
-tu as acalmas. 
-Esmagaste e mataste o Monstro dos Mares;
-com teu braço forte
-dispersaste os teus inimigos. 
-Os céus são teus, e tua também é a terra;
-fundaste o mundo e tudo o que nele existe. 
-Tu criaste o Norte e o Sul;
-o Tabor e o Hermom
-cantam de alegria pelo teu nome. 
-O teu braço é poderoso;
-a tua mão é forte, exaltada é tua mão direita. 
-A retidão e a justiça são os alicerces
-do teu trono;
-o amor e a fidelidade vão à tua frente. 
-Como é feliz o povo
-que aprendeu a aclamar-te, Senhor,
-e que anda na luz da tua presença! 
-Sem cessar exultam no teu nome,
-e alegram-se na tua retidão, 
-pois tu és a nossa glória e a nossa força,
-e pelo teu favor exaltas a nossa força. 
-Sim, Senhor, tu és o nosso escudo,
-ó Santo de Israel, tu és o nosso rei. 
-Numa visão falaste um dia,
-e aos teus fiéis disseste:
-"Cobri de forças um guerreiro,
-exaltei um homem escolhido dentre o povo. 
-Encontrei o meu servo Davi;
-ungi-o com o meu óleo sagrado. 
-A minha mão o susterá,
-e o meu braço o fará forte. 
-Nenhum inimigo o sujeitará a tributos;
-nenhum injusto o oprimirá. 
-Esmagarei diante dele os seus adversários
-e destruirei os seus inimigos. 
-A minha fidelidade e o meu amor
-o acompanharão,
-e pelo meu nome aumentará o seu poder. 
-A sua mão dominará até o mar;
-sua mão direita, até os rios. 
-Ele me dirá: 'Tu és o meu Pai,
-o meu Deus, a Rocha que me salva'. 
-Também o nomearei meu primogênito,
-o mais exaltado dos reis da terra. 
-Manterei o meu amor por ele para sempre,
-e a minha aliança com ele jamais se quebrará. 
-Firmarei a sua linhagem para sempre,
-e o seu trono durará enquanto existirem céus. 
-"Se os seus filhos abandonarem a minha lei
-e não seguirem as minhas ordenanças, 
-se violarem os meus decretos
-e deixarem de obedecer aos meus mandamentos, 
-com a vara castigarei o seu pecado,
-e a sua iniquidade com açoites; 
-mas não afastarei dele o meu amor;
-jamais desistirei da minha fidelidade. 
-Não violarei a minha aliança
-nem modificarei as promessas dos meus lábios. 
-De uma vez para sempre jurei
-pela minha santidade
-e não mentirei a Davi, 
-que a sua linhagem permanecerá para sempre,
-e o seu trono durará como o sol; 
-será estabelecido para sempre como a lua,
-a fiel testemunha no céu." 
-Mas tu o rejeitaste, recusaste-o
-e te enfureceste com o teu ungido. 
-Revogaste a aliança com o teu servo
-e desonraste a sua coroa, lançando-a ao chão. 
-Derrubaste todos os seus muros
-e reduziste a ruínas as suas fortalezas. 
-Todos os que passam o saqueiam;
-tornou-se objeto de zombaria
-para os seus vizinhos. 
-Tu exaltaste a mão direita dos seus adversários
-e encheste de alegria todos os seus inimigos. 
-Tiraste o fio da sua espada
-e não o apoiaste na batalha. 
-Deste fim ao seu esplendor
-e atiraste ao chão o seu trono. 
-Encurtaste os dias da sua juventude;
-com um manto de vergonha o cobriste. 
-Até quando, Senhor?
-Para sempre te esconderás?
-Até quando a tua ira queimará como fogo? 
-Lembra-te de como é passageira a minha vida.
-Terás criado em vão todos os homens? 
-Que homem pode viver e não ver a morte,
-ou livrar-se do poder da sepultura? 
-Ó Senhor, onde está o teu antigo amor,
-que com fidelidade juraste a Davi? 
-Lembra-te, Senhor,
-das afrontas que o teu servo tem sofrido,
-das zombarias que no íntimo
-tenho que suportar de todos os povos, 
-das zombarias dos teus inimigos, Senhor,
-com que afrontam a cada passo o teu ungido. 
-Bendito seja o Senhor para sempre!
-Amém e amém. 
- Salmo 89
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245247 characters
-INFO:root:HTML parsed, length: 234962 characters
-INFO:root:Found 3 titles: ['Deposite a sua esperança no lugar certo', 'O farol que ilumina a sua vida', 'Você é unico, obra maravilhosa sem comparação']
+INFO:root:Response length: 245218 characters
+INFO:root:HTML parsed, length: 234930 characters
+INFO:root:Found 3 titles: ['Amar a Deus acima de todas as coisas', 'Deposite a sua esperança no lugar certo', 'O farol que ilumina a sua vida']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Vivemos em tempos em que muitas pessoas depositam ', 'Lâmpada para os meus pés é a tua palavra, e luz pa', 'Tu criaste o íntimo do meu ser\ne me teceste no ven']
-INFO:root:Found 1 dates: ['Segunda, 23 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Ame o Senhor, o seu Deus, de todo o seu coração, d', 'Vivemos em tempos em que muitas pessoas depositam ', 'Lâmpada para os meus pés é a tua palavra, e luz pa']
+INFO:root:Found 1 dates: ['Terça, 24 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deposite a sua esperança no lugar certo', ID=acb5bfcf043d7493624ecddc7d96938e
+INFO:root:Processing entry 1: Title='Amar a Deus acima de todas as coisas', ID=36c8ecebaed6b689c359600ff63800d0
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deposite a sua esperança no lugar certo - Palavra de Hoje
+INFO:root:🔹 Title: Amar a Deus acima de todas as coisas - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Vivemos em tempos em que muitas pessoas depositam sua esperança em lugares frágeis e passageiros. Seja no dinheiro, nas conquistas profissionais, nos relacionamentos ou até mesmo nas próprias forças, é comum buscarmos segurança em coisas que podem falhar. No entanto, a Palavra de Deus nos lembra que a verdadeira esperança deve estar firmada no Senhor.
+INFO:root:🔹 Description: Ame o Senhor, o seu Deus, de todo o seu coração, de toda a sua alma e de todas as suas forças.
+- Deuteronômio 6:5
 
-"Mas bendito é o homem
-cuja confiança está no Senhor,
-cuja confiança nele está.
-- Jeremias 17:7 
 
-Jeremias 17:7 nos chama a atenção para a diferença entre aquele que confia em Deus e aquele que confia em si mesmo ou nas circunstâncias. Enquanto as promessas humanas são passageiras e incertas, as promessas de Deus são eternas e imutáveis. Ele é a Rocha firme que nunca nos decepciona.
-Depositar nossa esperança em Deus não significa ignorar as responsabilidades da vida ou deixar de fazer planos, mas sim reconhecer que o controle final está nas mãos d'Ele. Significa descansar na certeza de que Ele cuida de cada detalhe, mesmo quando as circunstâncias parecem contrárias.
-Quando nossa esperança está no Senhor, somos fortalecidos nos momentos de tribulação. Mesmo nas perdas, nas doenças ou nas crises, sabemos que Deus continua presente, operando em nosso favor.
-A Bíblia nos garante que "todas as coisas cooperam para o bem daqueles que amam a Deus" (Romanos 8:28).
-Onde você tem depositado a sua esperança? Se for em coisas passageiras, hoje é o dia de mudar.
-Entregue suas ansiedades, seus sonhos e seus medos nas mãos do Senhor. Confie n'Ele de todo o coração. Ele é fiel para sustentar você em todas as estações da vida. 
-Veja também: Versículos de fé e esperança que vão alegrar seu dia.
+"De todos os mandamentos, qual é o mais importante?"
+Respondeu Jesus: "O mais importante é este: 'Ouça, ó Israel, o Senhor, o nosso Deus, o Senhor é o único Senhor.
+Ame o Senhor, o seu Deus, de todo o seu coração, de toda a sua alma, de todo o seu entendimento e de todas as suas forças'.
+- Marcos 12:28b-30
+
+Na sociedade atual, usamos a palavra “amor” para quase tudo. Não amamos apenas nossas famílias e amigos, mas também dizemos que amamos viajar, tomar sorvete ou comprar roupas novas. A palavra “amor” se diluiu e perdeu seu poder.
+Quando a Bíblia fala sobre como deve ser o nosso amor por Deus, ela nos diz para amá-Lo de todo o nosso coração, toda a nossa alma, todo o nosso entendimento e todas as nossas forças. Em outras palavras, devemos amar a Deus com todo o nosso ser! Se amamos a Deus, devemos dedicar a Ele o melhor do nosso tempo, desejar conversar com Ele e buscar conhecê-Lo melhor. É isso que as pessoas que se amam fazem, não é?
+Mas, se formos honestos, às vezes damos a Deus as migalhas do nosso tempo, do nosso coração e das nossas forças. De manhã, estamos com pressa. À tarde, estamos ocupados. E à noite, estamos cansados. Quando passamos tempo de qualidade com Ele? Quando abrimos nossos corações para expressar nosso amor e receber o Dele?
+Hoje é um bom dia para nos examinarmos e decidirmos amar a Deus mais profunda e firmemente. Escolhamos passar mais tempo com Ele e viver de maneiras que tragam alegria ao Seu coração. Demonstremos claramente o nosso amor por Ele, fazendo a Sua vontade e vivendo para Ele. Veremos como tudo melhora, porque obedecer a Deus sempre traz bênçãos.
+Veja também: Como amar a Deus acima de tudo (reflexão bíblica)
  
-"Mas bendito é o homem
-cuja confiança está no Senhor,
-cuja confiança nele está.
-- Jeremias 17:7 
+Ame o Senhor, o seu Deus, de todo o seu coração, de toda a sua alma e de todas as suas forças.
+- Deuteronômio 6:5
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 253166 characters
-INFO:root:HTML parsed, length: 242656 characters
-INFO:root:Found 3 titles: ['Esta é a energia que precisamos!', 'Aumentando a intimidade com Deus', 'Senhor nos ouve no dia da angústia']
-INFO:root:Found 1 URLs: ['/angustia/']
-INFO:root:Found 3 descriptions: ['Ele fortalece o cansado\ne dá grande vigor ao que e', 'Mas, para mim, bom é estar perto de Deus;\nfiz do S', 'Que o Senhor te responda\nno tempo da angústia;\no n']
-INFO:root:Found 3 dates: ['JUNHO\n\n23\nSEGUNDA', 'JUNHO\n\n22\nDOMINGO', 'JUNHO\n\n21\nSÁBADO']
+INFO:root:Response length: 253287 characters
+INFO:root:HTML parsed, length: 242773 characters
+INFO:root:Found 3 titles: ['Eu creio no poder de Deus!', 'Esta é a energia que precisamos!', 'Aumentando a intimidade com Deus']
+INFO:root:Found 1 URLs: ['/versiculos_poder_da_fe/']
+INFO:root:Found 3 descriptions: ['Há uma verdade inabalável que sustenta o coração d', 'Ele fortalece o cansado\ne dá grande vigor ao que e', 'Mas, para mim, bom é estar perto de Deus;\nfiz do S']
+INFO:root:Found 3 dates: ['JUNHO\n\n24\nTERÇA', 'JUNHO\n\n23\nSEGUNDA', 'JUNHO\n\n22\nDOMINGO']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Esta é a energia que precisamos!', ID=d04d578567438a1d9a3f941cb6768c05
+INFO:root:Processing entry 1: Title='Eu creio no poder de Deus!', ID=52867e3a96766cf545c81e532e65e779
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Esta é a energia que precisamos!
-INFO:root:🔹 URL: https://www.bibliaon.com/angustia/
-INFO:root:🔹 Description: Ele fortalece o cansado
-e dá grande vigor ao que está sem forças.
-Isaías 40:29
+INFO:root:🔹 Title: Eu creio no poder de Deus!
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_poder_da_fe/
+INFO:root:🔹 Description: Há uma verdade inabalável que sustenta o coração daquele que crê: o poder de Deus é real, presente e absoluto! Quando tudo parece desmoronar, quando as forças se vão e a esperança ameaça desaparecer, é nesse momento que devemos levantar os olhos e declarar com fé: Eu creio no poder de Deus!
 
-Somente Deus é capaz de restaurar as nossas forças de uma maneira eficaz. A vida cristã não é fácil. Tem vezes que estamos cansados ao ponto de nada ser capaz de nos reanimar, até um bom sermão ou conselho. Não podemos descartar que isso pode acontecer conosco.
-Quando estamos cansados a esse nível só há um único recurso: pedir a Deus - em fé e sinceridade - que restaure as nossas forças e nos dê ânimo. Somente Deus é capaz de fortalecer o que está fraco e dar forças onde não há energia. Deus é a fonte inesgotável de poder.
-Quando o profeta Isaías liberou esta palavra a seu povo, foi uma resposta enérgica de Deus ao desânimo e à fraqueza. Não havia exigências na promessa, Deus agiria de fato sem reservas. E em situações como esta, de forte desânimo e cansaço, Deus é fiel para agir.
-O que devemos fazer é reconhecermos de fato o poder de Deus e verdadeiramente pedir a sua intervenção. Deus restaura o cansado, fortalece o que está sem forças. Basta confiar no seu poder e clamar pelo seu agir!
-Precisamos de Deus!
+Pois nada é impossível para Deus".
+- Lucas 1:37
 
-Abra seu coração e coloque a sua situação diante de Deus. Talvez esse momento possa ser a hora perfeita de se entregar nas mãos de Deus, confiando completamente no seu poder.
-Mesmo com poucas forças, continue em fé, em espírito de oração buscando a presença de Deus. Esteja atento para ouvir a sua voz.
-Faça um momento de leitura da Palavra. A Bíblia é o "energético" do Cristão! É o modo mais rápido para alimentar o seu espírito.
+O Deus que abriu o mar Vermelho para libertar Seu povo, que fechou a boca dos leões para proteger Daniel, que ressuscitou Jesus dentre os mortos, é o mesmo Deus que cuida de você. Ele não mudou. Seu poder não enfraqueceu com o tempo. Ele continua operando milagres, transformando vidas, restaurando famílias, curando feridas e abrindo portas onde só havia muros.
+Crer no poder de Deus é caminhar mesmo sem ver, é confiar mesmo sem entender, é descansar mesmo em meio aos problemas. A fé não ignora as dificuldades, mas os enfrenta com a certeza de que o nosso Deus é maior do que qualquer adversidade.
+Se você está enfrentando dias difíceis, não desista. Deus está agindo, ainda que você não perceba. Ele trabalha nos bastidores da sua história, preparando o melhor. Continue orando, continue crendo, continue caminhando. O impossível de hoje será o testemunho de amanhã.
+Levante-se em fé. Declare sobre sua vida, sua casa, sua saúde e seus sonhos: Eu creio no poder de Deus!
+Porque aquele que prometeu é fiel para cumprir. E no tempo certo, você verá a glória dEle se manifestar de maneira extraordinária.
+Quando a fé se firma no Deus do impossível, o medo perde a força
 
-Para Orar:
 
-Deus, Tu és a fonte de todo poder! Estou sem forças e cansado, mas confio em Ti. Creio no Teu poder. Não há nada impossível para Ti. És capaz de mudar a minha vida completamente. Fortalece a minha alma, em nome de Jesus. Amém.
+Crer no poder de Deus é descansar, mesmo quando o caos cerca. Ele está no controle e transforma a dor em força, a lágrima em renovo e o deserto em caminho.
+Mesmo sem entender os caminhos, a fé insiste em continuar. Deus honra os que confiam n'Ele, realizando o impossível e mostrando que nenhuma promessa dEle falha com o tempo.
+
+Quem crê em Deus não caminha sozinho. Sua presença sustenta, guia e renova. Mesmo nos dias mais escuros, Sua luz brilha forte, trazendo consolo, direção e propósito ao coração cansado.
+
+Para orar:
+
+Senhor Deus Todo-Poderoso, eu clamo a Ti com fé! Manifesta Teu poder na minha vida, rompe as correntes, cura, restaura, transforma! Mesmo sem ver, eu confio. Tu és fiel, meu refúgio e força! Opera o impossível, Senhor, e que Tua glória resplandeça sobre mim. Eu creio, espero e Te adoro! Amém!
+
+Veja também: Versículos de como a fé move o coração de Deus
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225824 characters
-INFO:root:HTML parsed, length: 224353 characters
+INFO:root:Response length: 223946 characters
+INFO:root:HTML parsed, length: 222474 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 21 URLs: ['/wiki/I%C3%A9na_(coura%C3%A7ado)', '/wiki/I%C3%A9na_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
-INFO:root:Found 1 descriptions: ['O Iéna foi um couraçado pré-dreadnought operado pe']
+INFO:root:Found 18 URLs: ['/wiki/Olive_Morris', '/wiki/Jamaica', '/wiki/Ativista']
+INFO:root:Found 1 descriptions: ['Olive Elaine Morris foi uma líder comunitária nasc']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -397,9 +303,8 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/I%C3%A9na_(coura%C3%A7ado)
-INFO:root:🔹 Description: O Iéna foi um couraçado pré-dreadnought operado pela Marinha Nacional Francesa, cujo projeto foi baseado nos navios da predecessora Classe Charlegmane. Sua construção começou em janeiro de 1898 no Arsenal de Brest e foi lançado ao mar em setembro do mesmo ano, sendo comissionado na frota francesa em abril de 1902. Era armado com uma bateria principal composta por quatro canhões de 305 milímetros montados em duas torres de artilharia duplas, tinha um deslocamento carregado de doze mil toneladas e conseguia alcançar uma velocidade máxima de dezoito nós.
-O Iéna serviu por toda sua carreira na Esquadra do Mediterrâneo, muitas vezes atuando como sua capitânia. Suas principais atividades consistiram na realização de exercícios de rotina e viagens diplomáticas para portos estrangeiros. O navio foi destruído em 3 de julho de 1907 por uma explosão de um de seus depósitos de munição enquanto estava em uma doca seca em Toulon para reformas, com as causas sendo atribuídas à decomposição do propelente Poudre B. Seus destroços foram afundados como como alvo de tiro em dezembro de 1909 e depois desmontados em 1912. (Leia mais...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Olive_Morris
+INFO:root:🔹 Description: Olive Elaine Morris foi uma líder comunitária nascida na Jamaica e ativista nas campanhas feministas, nacionalistas negras e pelos direitos dos ocupantes da década de 1970. Aos dezessete anos, alegou ter sido agredida por policiais metropolitanos após um incidente envolvendo um diplomata nigeriano em Brixton, no sul de Londres. Ela unificou a organização Panteras Negras Britânicas, tornando-se uma comunista marxista-leninista e uma feminista radical. Além disso, ocupou prédios na Railton Road em Brixton; hospedou-se em Sabarr Books e, posteriormente, na 121 Center, outro local usado como escritórios pelo coletivo Race Today. Morris tornou-se uma importante organizadora do Movimento de Mulheres Negras no Reino Unido, co-fundadora do Grupo de Mulheres Negras de Brixton e da Organização de Mulheres de Ascendência Africana e Asiática em Londres. (Leia mais...)
 
 
 
@@ -412,44 +317,44 @@ Artigos bons: 1916
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225824 characters
-INFO:root:HTML parsed, length: 224353 characters
-INFO:root:Found 1 titles: ['23 de junho na história']
-INFO:root:Found 50 URLs: ['/wiki/Ficheiro:Elza_Soares_recebendo_o_diploma_de_Embaixatriz_do_Samba_no_Museu_da_Imagem_e_do_Sim,_com_Garrincha_ao_fundo_(cropped).tif', '/wiki/Dia_das_Na%C3%A7%C3%B5es_Unidas_para_o_Servi%C3%A7o_P%C3%BAblico', '/wiki/Dia_Internacional_das_Vi%C3%BAvas']
-INFO:root:Found 1 descriptions: ['Elza Soares\nDia das Nações Unidas para o Serviço P']
+INFO:root:Response length: 223946 characters
+INFO:root:HTML parsed, length: 222474 characters
+INFO:root:Found 1 titles: ['24 de junho na história']
+INFO:root:Found 50 URLs: ['/wiki/Ficheiro:S%C3%A3o_nun%27alvares_pereira.jpg', '/wiki/Dia_de_S%C3%A3o_Jo%C3%A3o', '/wiki/Cristianismo']
+INFO:root:Found 1 descriptions: ['Nuno Álvares Pereira\nDia de São João no cristianis']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='23 de junho na história', ID=ca58fbe2a9c3973191d35a019963519b
+INFO:root:Processing entry 1: Title='24 de junho na história', ID=e8c8657b720ec579084e497a140a3da7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 23 de junho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Elza_Soares_recebendo_o_diploma_de_Embaixatriz_do_Samba_no_Museu_da_Imagem_e_do_Sim,_com_Garrincha_ao_fundo_(cropped).tif
-INFO:root:🔹 Description: Elza Soares
-Dia das Nações Unidas para o Serviço Público (2003); Dia Internacional das Viúvas (2011); Aniversário Oficial do Grande Duque em Luxemburgo (1962)
+INFO:root:🔹 Title: 24 de junho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:S%C3%A3o_nun%27alvares_pereira.jpg
+INFO:root:🔹 Description: Nuno Álvares Pereira
+Dia de São João no cristianismo; Feriado Nacional do Quebec (1925); Dia Internacional das Mulheres na Diplomacia (2022)
 
-1894 – É fundado na Sorbonne, em Paris, o Comitê Olímpico Internacional, por iniciativa do barão Pierre de Coubertin.
-1961 – Entra em vigor o Tratado da Antártida, que estabelece a Antártica como uma reserva científica e proíbe a atividade militar no continente.
-2018 – Doze meninos e um assistente técnico de um time de futebol ficam presos em uma caverna inundada na Cordilheira Doi Nang Non, Tailândia, levando a uma operação de resgate de 18 dias.
+1128 – Ocorre a Batalha de São Mamede, com a vitória de Afonso Henriques sobre as tropas de sua mãe, Teresa de Leão, Condessa de Portucale.
+1947 – Kenneth Arnold faz o primeiro avistamento de OVNIs amplamente divulgado perto do Monte Rainier, em Washington, Estados Unidos.
+1948 – O Bloqueio de Berlim tem o seu início com a União Soviética a tornar impossível a viagem por terra entre o leste e o oeste de Berlim.
 Nasceram neste dia…
-Giambattista Vico (1668–1744)  •  Dercy Gonçalves (1907–2008)  •  Alan Turing (1912–1954)  •  Elza Soares (imagem) (1930–2022)
+Nuno Álvares Pereira (imagem) (1360–1431)  •  São João da Cruz (1542–1591)  •  Juan Manuel Fangio (1911–1995)  •  Lionel Messi (n. 1987)
 Morreram neste dia…
-Vespasiano (9–79)  •  Nicolau Tolentino de Almeida (1740–1811)  •  Matthias Schleiden (1804–1881)  •  Jonas Salk (1914–1995)
+Lucrécia Bórgia (1480–1519)  •  Ernesto Bozzano (1862–1943)  •  František Kupka (1871–1957)  •  Milton Santos (1926–2001)
 
 
-Ver mais • Outros dias: 21 • 22 • 23 • 24 • 25 • Ver todos
+Ver mais • Outros dias: 22 • 23 • 24 • 25 • 26 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225824 characters
-INFO:root:HTML parsed, length: 224353 characters
+INFO:root:Response length: 223946 characters
+INFO:root:HTML parsed, length: 222474 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Helsinki_Olympic_Stadium_Tower.jpg']
-INFO:root:Found 1 descriptions: ['Torre em estilo funcionalista do Estádio Olímpico ']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg']
+INFO:root:Found 1 descriptions: ['Salão da antiga prefeitura em Göttingen, na Baixa ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Helsinki_Olympic_Stadium_Tower.jpg/500px-Helsinki_Olympic_Stadium_Tower.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg/960px-G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -458,15 +363,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Helsinki_Olympic_Stadium_Tower.jpg
-INFO:root:🔹 Description: Torre em estilo funcionalista do Estádio Olímpico de Helsinque, Finlândia, projetada por Yrjö Lindegren e Toivo Jäntti. Os Jogos da 15.ª Olimpíada foram realizados nesse estádio em 1952.
-(resolução original: 2 069 × 2 069)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg
+INFO:root:🔹 Description: Salão da antiga prefeitura em Göttingen, na Baixa Saxônia, Alemanha. O grande salão, com duas naves e um teto de madeira, foi redecorado em 1883, pelo pintor e designer de interiores alemão, Hermann Schaper.
+(resolução original: 6 589 × 4 392)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Helsinki_Olympic_Stadium_Tower.jpg/500px-Helsinki_Olympic_Stadium_Tower.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg/960px-G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -491,21 +396,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  66 +----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  27 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  32 ++-
+ feeds/devocional_de_hoje/feed.json        |   8 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  30 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 133 +++++----
+ feeds/salmo_do_dia/atom.xml               | 154 +++---------
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   6 +-
- feeds/wikidestaque/feed.json              |   2 +-
+ feeds/wikidestaque/atom.xml               |   5 +-
+ feeds/wikidestaque/feed.json              |   4 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 438 ++++++++++++++----------------
- 17 files changed, 363 insertions(+), 433 deletions(-)
+ output.log                                | 405 +++++++++++-------------------
+ 17 files changed, 265 insertions(+), 473 deletions(-)
