@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119814 characters
-INFO:root:HTML parsed, length: 112721 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (24/06/2025)', 'Palavra de Ontem (23/06/2025)', 'Palavra de Anteontem (22/06/2025)']
-INFO:root:Found 3 URLs: ['/tradicao/', '/parusia/', '/idilico/']
-INFO:root:Found 14 descriptions: ['substantivo feminino Costume transmitido de geraçã', 'Sinônimos:\n\nhistória, recordação, memória, lenda, ', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (24/06/2025)', 'Palavra de Ontem (23/06/2025)', 'Palavra de Anteontem (22/06/2025)']
+INFO:root:Response length: 119643 characters
+INFO:root:HTML parsed, length: 112550 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (25/06/2025)', 'Palavra de Ontem (24/06/2025)', 'Palavra de Anteontem (23/06/2025)']
+INFO:root:Found 3 URLs: ['/lauto/', '/tradicao/', '/parusia/']
+INFO:root:Found 14 descriptions: ['adjetivo Que se apresenta de maneira excessiva, ab', 'Sinônimos:\n\nluxuoso, suntuoso, magnificente, farto', 'Antônimos:\n\nmodesto, humilde, discreto']
+INFO:root:Found 3 dates: ['Palavra de Hoje (25/06/2025)', 'Palavra de Ontem (24/06/2025)', 'Palavra de Anteontem (23/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (24/06/2025)', ID=b88ddeb408c3a3782781a48273fc8298
-INFO:root:Processing entry 2: Title='Palavra de Ontem (23/06/2025)', ID=6a97edabc9f7c76c48d7cd700d2a17c5
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/06/2025)', ID=d0a0ac4385f27251f199d08e7d8c5d0d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (25/06/2025)', ID=1c98fa12ed33d56a0ba6d1c351a3d2c1
+INFO:root:Processing entry 2: Title='Palavra de Ontem (24/06/2025)', ID=b403d58fb96d4a19908acf271788c6fd
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (23/06/2025)', ID=81b99b0ee713f91c99dc8a7c204e2a91
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (24/06/2025) - Significado completo de tradição:
-INFO:root:🔹 URL: https://www.dicio.com.br/tradicao/
-INFO:root:🔹 Description: substantivo feminino Costume transmitido de geração a geração ou aquilo que se faz por hábito; costume: as tradições de uma região.Herança cultural, legado passado de uma geração para outra: não concordava com tradições que violavam os direitos dos animais.Transmissão oral de doutrinas, de lendas, de costumes etc., durante longo espaço de tempo, de geração para geração.Religião.Transmissão oral, às vezes registrada por escrito, dos fatos ou das doutrinas religiosas.[Jurídico] Entrega material de um bem móvel, objeto de uma transferência de propriedade.Ação ou efeito de transmitir, de fazer a transferência entre uma coisa e outra.Etimologia (origem da palavra tradição). Do latim traditio.onis, "ato de entregar".
+INFO:root:🔹 Title: Palavra de Hoje (25/06/2025) - Significado completo de lauto:
+INFO:root:🔹 URL: https://www.dicio.com.br/lauto/
+INFO:root:🔹 Description: adjetivo Que se apresenta de maneira excessiva, abundante, copiosa, magnífica; suntuoso, opíparo, explêndido: tive a oportunidade de ir a uma lauta cerimônia de casamento.Etimologia (origem da palavra lauto). A palavra lauto deriva do latim “lautos,a,um”, que significa elegante, distinto, como particípio do verbo “lavare”.
  
 Sinônimos:
 
-história, recordação, memória, lenda, símbolo, costume, hábito 
+luxuoso, suntuoso, magnificente, farto, abundante, aparatoso, opíparo, elegante, distinto 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (23/06/2025) - Significado completo de parusia:
-INFO:root:🔹 URL: https://www.dicio.com.br/parusia/
+INFO:root:🔹 Title: Palavra de Ontem (24/06/2025) - Significado completo de tradição:
+INFO:root:🔹 URL: https://www.dicio.com.br/tradicao/
 INFO:root:🔹 Description: Sinônimos:
 
-história, recordação, memória, lenda, símbolo, costume, hábito
- Classe gramatical:substantivo feminino
+luxuoso, suntuoso, magnificente, farto, abundante, aparatoso, opíparo, elegante, distinto
+ 
+Antônimos:
+
+modesto, humilde, discreto 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (22/06/2025) - Significado completo de idílico:
-INFO:root:🔹 URL: https://www.dicio.com.br/idilico/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:tra-di-ção
+INFO:root:🔹 Title: Palavra de Anteontem (23/06/2025) - Significado completo de parusia:
+INFO:root:🔹 URL: https://www.dicio.com.br/parusia/
+INFO:root:🔹 Description: Antônimos:
+
+modesto, humilde, discreto
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +48,87 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243072 characters
-INFO:root:HTML parsed, length: 232394 characters
-INFO:root:Found 1 titles: ['Hebreus 12:14']
-INFO:root:Found 1 URLs: ['/versiculo/hebreus_12_14/']
-INFO:root:Found 1 descriptions: ['Esforcem-se para viver em paz com todos e para ser']
+INFO:root:Response length: 243059 characters
+INFO:root:HTML parsed, length: 232381 characters
+INFO:root:Found 1 titles: ['Eclesiastes 3:1']
+INFO:root:Found 1 URLs: ['/versiculo/eclesiastes_3_1/']
+INFO:root:Found 1 descriptions: ['Para tudo há uma ocasião certa;\nhá um tempo certo ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Hebreus 12:14', ID=a12cc3b242aa4cdc56afec841fde2828
+INFO:root:Processing entry 1: Title='Eclesiastes 3:1', ID=b27362adcb2f7aecad93823b0fb2b694
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Hebreus 12:14
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_12_14/
-INFO:root:🔹 Description: Esforcem-se para viver em paz com todos e para serem santos; sem santidade ninguém verá o Senhor. Hebreus 12:14
+INFO:root:🔹 Title: Eclesiastes 3:1
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/eclesiastes_3_1/
+INFO:root:🔹 Description: Para tudo há uma ocasião certa;
+há um tempo certo para cada propósito
+debaixo do céu: Eclesiastes 3:1
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 244022 characters
-INFO:root:HTML parsed, length: 234085 characters
-INFO:root:Found 3 titles: ['Salmo 26', 'Salmo 31', 'Salmo 43']
-INFO:root:Found 3 URLs: ['/salmos_26/', '/salmos_31/', '/salmos_43/']
-INFO:root:Found 3 descriptions: ['Faze-me justiça, Senhor,\npois tenho vivido com int', 'Em ti, Senhor, me refugio;\nnunca permitas que eu s', 'Faze-me justiça, ó Deus,\ne defende a minha causa c']
-INFO:root:Found 3 dates: ['24 de Junho de 2025', '23 de Junho de 2025', '22 de Junho de 2025']
+INFO:root:Response length: 244751 characters
+INFO:root:HTML parsed, length: 234825 characters
+INFO:root:Found 3 titles: ['Salmo 65', 'Salmo 26', 'Salmo 31']
+INFO:root:Found 3 URLs: ['/salmos_65/', '/salmos_26/', '/salmos_31/']
+INFO:root:Found 3 descriptions: ['O louvor te aguarda em Sião, ó Deus;\nos votos que ', 'Faze-me justiça, Senhor,\npois tenho vivido com int', 'Em ti, Senhor, me refugio;\nnunca permitas que eu s']
+INFO:root:Found 3 dates: ['25 de Junho de 2025', '24 de Junho de 2025', '23 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 26', ID=72190ff759f5b648f9f92b3583670f31
-INFO:root:Processing entry 2: Title=' Salmo 31', ID=c35edf8fc04fcd7848dc48e60fe7e4ea
-INFO:root:Processing entry 3: Title=' Salmo 43', ID=637739b6a41438cafeba86488eda1a45
+INFO:root:Processing entry 1: Title=' Salmo 65', ID=b6781d58846158def0489f653b3a2637
+INFO:root:Processing entry 2: Title=' Salmo 26', ID=72190ff759f5b648f9f92b3583670f31
+INFO:root:Processing entry 3: Title=' Salmo 31', ID=c35edf8fc04fcd7848dc48e60fe7e4ea
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 65
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_65/
+INFO:root:🔹 Description: O louvor te aguarda em Sião, ó Deus;
+os votos que te fizemos serão cumpridos. 
+Ó tu que ouves a oração,
+a ti virão todos os homens. 
+Quando os nossos pecados pesavam sobre nós,
+tu mesmo fizeste propiciação
+por nossas transgressões. 
+Como são felizes aqueles que escolhes
+e trazes a ti para que vivam nos teus átrios!
+Transbordamos de bênçãos da tua casa,
+do teu santo templo! 
+Tu nos respondes
+com temíveis feitos de justiça,
+ó Deus, nosso Salvador,
+esperança de todos os confins da terra
+e dos mais distantes mares. 
+Tu que firmaste os montes pela tua força,
+pelo teu grande poder. 
+Tu que acalmas o bramido dos mares,
+o bramido de suas ondas,
+e o tumulto das nações. 
+Tremem os habitantes das terras distantes
+diante das tuas maravilhas;
+do nascente ao poente
+despertas canções de alegria. 
+Cuidas da terra e a regas;
+fartamente a enriqueces.
+Os riachos de Deus transbordam
+para que nunca falte o trigo,
+pois assim ordenaste. 
+Encharcas os seus sulcos
+e aplainas os seus torrões;
+tu a amoleces com chuvas
+e abençoas as suas colheitas. 
+Coroas o ano com a tua bondade,
+e por onde passas emana fartura; 
+fartura vertem as pastagens do deserto,
+e as colinas se vestem de alegria. 
+Os campos se revestem de rebanhos,
+e os vales se cobrem de trigo;
+eles exultam e cantam de alegria! 
+ Salmo 65
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 26
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_26/
 INFO:root:🔹 Description: Faze-me justiça, Senhor,
@@ -184,83 +237,87 @@ Sejam fortes e corajosos,
 todos vocês que esperam no Senhor! 
  Salmo 31
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 43
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_43/
-INFO:root:🔹 Description: Faze-me justiça, ó Deus,
-e defende a minha causa contra um povo infiel;
-livra-me dos homens traidores e perversos. 
-Pois tu, ó Deus, és a minha fortaleza.
-Por que me rejeitaste?
-Por que devo sair vagueando e pranteando,
-oprimido pelo inimigo? 
-Envia a tua luz e a tua verdade;
-elas me guiarão
-e me levarão ao teu santo monte,
-ao lugar onde habitas. 
-Então irei ao altar de Deus,
-a Deus, a fonte da minha plena alegria.
-Com a harpa te louvarei,
-ó Deus, meu Deus! 
-Por que você está assim tão triste,
-ó minha alma?
-Por que está assim tão perturbada
-dentro de mim?
-Ponha a sua esperança em Deus!
-Pois ainda o louvarei;
-ele é o meu Salvador e o meu Deus. 
- Salmo 43
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245218 characters
-INFO:root:HTML parsed, length: 234930 characters
-INFO:root:Found 3 titles: ['Amar a Deus acima de todas as coisas', 'Deposite a sua esperança no lugar certo', 'O farol que ilumina a sua vida']
+INFO:root:Response length: 245720 characters
+INFO:root:HTML parsed, length: 235435 characters
+INFO:root:Found 3 titles: ['Não duvide, confie nas promessas do Senhor', 'Amar a Deus acima de todas as coisas', 'Deposite a sua esperança no lugar certo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Ame o Senhor, o seu Deus, de todo o seu coração, d', 'Vivemos em tempos em que muitas pessoas depositam ', 'Lâmpada para os meus pés é a tua palavra, e luz pa']
-INFO:root:Found 1 dates: ['Terça, 24 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Mesmo assim não duvidou nem foi incrédulo em relaç', 'Ame o Senhor, o seu Deus, de todo o seu coração, d', 'Vivemos em tempos em que muitas pessoas depositam ']
+INFO:root:Found 1 dates: ['Quarta, 25 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Amar a Deus acima de todas as coisas', ID=36c8ecebaed6b689c359600ff63800d0
+INFO:root:Processing entry 1: Title='Não duvide, confie nas promessas do Senhor', ID=1d087033b2070e250df52cdff4d39299
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Amar a Deus acima de todas as coisas - Palavra de Hoje
+INFO:root:🔹 Title: Não duvide, confie nas promessas do Senhor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Ame o Senhor, o seu Deus, de todo o seu coração, de toda a sua alma e de todas as suas forças.
-- Deuteronômio 6:5
+INFO:root:🔹 Description: Mesmo assim não duvidou nem foi incrédulo em relação à promessa de Deus, mas foi fortalecido em sua fé e deu glória a Deus, estando plenamente convencido de que ele era poderoso para cumprir o que havia prometido.
+- Romanos 4:20-21
 
+Abraão estava em um período de espera: Deus havia prometido que ele e Sara teriam filhos, mas os anos se passaram e Sara não engravidou. No entanto, Abraão permaneceu firme e forte em sua fé. Não somente isso, ele deu glória a Deus antecipadamente, porque sabia que estava servindo ao Deus Todo-Poderoso, para quem nada é impossível. Ele sabia que Deus sempre cumpre o que promete.
+O texto de Romanos diz que Abraão estava plenamente convicto de que Deus era capaz de cumprir Sua promessa. Você tem essa mesma confiança? Está completamente convicto de que Deus cumprirá as promessas que você recebeu Dele em Sua Palavra?
+Lembre-se do que Números 23:19 diz:
 
-"De todos os mandamentos, qual é o mais importante?"
-Respondeu Jesus: "O mais importante é este: 'Ouça, ó Israel, o Senhor, o nosso Deus, o Senhor é o único Senhor.
-Ame o Senhor, o seu Deus, de todo o seu coração, de toda a sua alma, de todo o seu entendimento e de todas as suas forças'.
-- Marcos 12:28b-30
+Deus não é homem para que minta,
+nem filho de homem
+para que se arrependa.
+Acaso ele fala e deixa de agir?
+Acaso promete e deixa de cumprir?
+- Números 23:19
 
-Na sociedade atual, usamos a palavra “amor” para quase tudo. Não amamos apenas nossas famílias e amigos, mas também dizemos que amamos viajar, tomar sorvete ou comprar roupas novas. A palavra “amor” se diluiu e perdeu seu poder.
-Quando a Bíblia fala sobre como deve ser o nosso amor por Deus, ela nos diz para amá-Lo de todo o nosso coração, toda a nossa alma, todo o nosso entendimento e todas as nossas forças. Em outras palavras, devemos amar a Deus com todo o nosso ser! Se amamos a Deus, devemos dedicar a Ele o melhor do nosso tempo, desejar conversar com Ele e buscar conhecê-Lo melhor. É isso que as pessoas que se amam fazem, não é?
-Mas, se formos honestos, às vezes damos a Deus as migalhas do nosso tempo, do nosso coração e das nossas forças. De manhã, estamos com pressa. À tarde, estamos ocupados. E à noite, estamos cansados. Quando passamos tempo de qualidade com Ele? Quando abrimos nossos corações para expressar nosso amor e receber o Dele?
-Hoje é um bom dia para nos examinarmos e decidirmos amar a Deus mais profunda e firmemente. Escolhamos passar mais tempo com Ele e viver de maneiras que tragam alegria ao Seu coração. Demonstremos claramente o nosso amor por Ele, fazendo a Sua vontade e vivendo para Ele. Veremos como tudo melhora, porque obedecer a Deus sempre traz bênçãos.
-Veja também: Como amar a Deus acima de tudo (reflexão bíblica)
+Confie nas promessas de Deus! Aproxime-se d'Ele com fé e agradeça pelo que Ele fez em sua vida até agora e pelo que Ele fará. Em Cristo, Deus o salvou, perdoou e lhe deu uma vida abundante, cheia de esperança e segurança. Graças à obra de Cristo em você, você pode confiar que Deus está com você em todos os momentos, ajudando-o e suprindo suas necessidades.
+Aproxime-se de Deus com confiança e apresente a Ele as áreas em que você ainda espera que Ele atue. Entregue a Ele seus problemas familiares ou necessidades financeiras. Coloque tudo o que o preocupa em Suas mãos.
+Aproxime-se dEle com o coração cheio de fé, confiança e convicção, pois você serve ao Deus Todo-Poderoso que cumprirá tudo o que prometeu. Amém!
+Leia também: Promessas de Deus para abençoar o seu dia
  
-Ame o Senhor, o seu Deus, de todo o seu coração, de toda a sua alma e de todas as suas forças.
-- Deuteronômio 6:5
+Mesmo assim não duvidou nem foi incrédulo em relação à promessa de Deus, mas foi fortalecido em sua fé e deu glória a Deus, estando plenamente convencido de que ele era poderoso para cumprir o que havia prometido.
+- Romanos 4:20-21
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 253287 characters
-INFO:root:HTML parsed, length: 242773 characters
-INFO:root:Found 3 titles: ['Eu creio no poder de Deus!', 'Esta é a energia que precisamos!', 'Aumentando a intimidade com Deus']
-INFO:root:Found 1 URLs: ['/versiculos_poder_da_fe/']
-INFO:root:Found 3 descriptions: ['Há uma verdade inabalável que sustenta o coração d', 'Ele fortalece o cansado\ne dá grande vigor ao que e', 'Mas, para mim, bom é estar perto de Deus;\nfiz do S']
-INFO:root:Found 3 dates: ['JUNHO\n\n24\nTERÇA', 'JUNHO\n\n23\nSEGUNDA', 'JUNHO\n\n22\nDOMINGO']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Eu creio no poder de Deus!', ID=52867e3a96766cf545c81e532e65e779
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 254568 characters
+INFO:root:HTML parsed, length: 244047 characters
+INFO:root:Found 3 titles: ['Aproxime-se do Pai', 'Eu creio no poder de Deus!', 'Esta é a energia que precisamos!']
+INFO:root:Found 2 URLs: ['/buscar_a_deus/', '/versiculos_poder_da_fe/']
+INFO:root:Found 3 descriptions: ['Chegai-vos a Deus, e ele se chegará a vós.\n- Tiago', 'Há uma verdade inabalável que sustenta o coração d', 'Ele fortalece o cansado\ne dá grande vigor ao que e']
+INFO:root:Found 3 dates: ['JUNHO\n\n25\nQUARTA', 'JUNHO\n\n24\nTERÇA', 'JUNHO\n\n23\nSEGUNDA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Aproxime-se do Pai', ID=53d81d5a7519cbcd8e085ea27993537b
+INFO:root:Processing entry 2: Title='Eu creio no poder de Deus!', ID=52867e3a96766cf545c81e532e65e779
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Aproxime-se do Pai
+INFO:root:🔹 URL: https://www.bibliaon.com/buscar_a_deus/
+INFO:root:🔹 Description: Chegai-vos a Deus, e ele se chegará a vós.
+- Tiago 4:8a
+
+A vida pode nos arrastar em muitas direções. Problemas, distrações, pressões e frustrações tentam nos afastar da presença de Deus. Mas há uma verdade que não muda: quanto mais nos aproximamos do Pai, mais sentimos Sua paz, Sua direção e Seu amor transformador.
+A verdadeira força não está em nossas habilidades, mas em nossa proximidade com Ele. Quando decidimos buscar ao Senhor de todo o coração, descobrimos que Ele sempre esteve ali, esperando por nós.
+Estar perto de Deus não significa ausência de lutas, mas a certeza de que não estamos sozinhos nelas. Em tempos difíceis, o Pai nos sustenta. Em momentos de dúvida, Ele nos guia. E nos dias bons, Ele se alegra conosco. A intimidade com Deus é construída diariamente: através da oração sincera, da leitura da Palavra e da obediência à Sua vontade. Não é sobre religião, é sobre relacionamento.
+Talvez você sinta que se afastou. Talvez a rotina tenha abafado sua fé. Mas hoje é o dia de recomeçar. Deus não está longe. Ele está ao seu lado, esperando apenas um passo seu em direção a Ele. Basta um coração quebrantado e sincero. Ele acolhe, perdoa, restaura e renova.
+Não há lugar mais seguro, mais cheio de propósito e paz, do que aos pés do Pai. Então, desligue as distrações, silencie as vozes externas e volte seu coração para Aquele que nunca deixou de te amar. Fique mais perto do Pai. É lá que você vai encontrar tudo o que o mundo não pode oferecer: descanso para a alma, direção para os passos e esperança que não falha.
+Aproxime-se. Ele está te esperando
+
+
+Separe um tempo para oração e leitura da Bíblia. A constância no relacionamento com o Pai fortalece sua fé e renova sua mente todos os dias.
+
+Afaste-se de tudo que rouba seu foco espiritual. Reduza o tempo nas redes sociais e cultive momentos de silêncio para ouvir a voz de Deus com clareza.
+
+A fé se expressa na obediência. Mesmo quando não compreendemos, confiar na direção de Deus nos leva por caminhos de paz, crescimento e propósito eterno.
+
+Para orar:
+
+Pai amado, eu me aproximo de Ti com um coração sincero. Perdoa meus erros e renova em mim o desejo de Te buscar todos os dias. Que Tua presença seja meu abrigo, minha força e direção. Ensina-me a Te ouvir, a Te obedecer e a caminhar em fé, mesmo quando não entendo. Ajuda-me a vencer as distrações e a viver perto de Ti, firmemente enraizado em Teu amor. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre buscar a Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Eu creio no poder de Deus!
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_poder_da_fe/
 INFO:root:🔹 Description: Há uma verdade inabalável que sustenta o coração daquele que crê: o poder de Deus é real, presente e absoluto! Quando tudo parece desmoronar, quando as forças se vão e a esperança ameaça desaparecer, é nesse momento que devemos levantar os olhos e declarar com fé: Eu creio no poder de Deus!
@@ -289,8 +346,8 @@ Veja também: Versículos de como a fé move o coração de Deus
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223946 characters
-INFO:root:HTML parsed, length: 222474 characters
+INFO:root:Response length: 223600 characters
+INFO:root:HTML parsed, length: 222128 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 18 URLs: ['/wiki/Olive_Morris', '/wiki/Jamaica', '/wiki/Ativista']
 INFO:root:Found 1 descriptions: ['Olive Elaine Morris foi uma líder comunitária nasc']
@@ -313,48 +370,48 @@ Compartilhe:
 
 
 Artigos destacados: 1501 •
-Artigos bons: 1916
+Artigos bons: 1915
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223946 characters
-INFO:root:HTML parsed, length: 222474 characters
-INFO:root:Found 1 titles: ['24 de junho na história']
-INFO:root:Found 50 URLs: ['/wiki/Ficheiro:S%C3%A3o_nun%27alvares_pereira.jpg', '/wiki/Dia_de_S%C3%A3o_Jo%C3%A3o', '/wiki/Cristianismo']
-INFO:root:Found 1 descriptions: ['Nuno Álvares Pereira\nDia de São João no cristianis']
+INFO:root:Response length: 223600 characters
+INFO:root:HTML parsed, length: 222128 characters
+INFO:root:Found 1 titles: ['25 de junho na história']
+INFO:root:Found 46 URLs: ['/wiki/Ficheiro:Flag_of_Mozambique.svg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Mo%C3%A7ambique']
+INFO:root:Found 1 descriptions: ['Bandeira de Moçambique\nDia da Independência de Moç']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='24 de junho na história', ID=e8c8657b720ec579084e497a140a3da7
+INFO:root:Processing entry 1: Title='25 de junho na história', ID=44c83260b5ceda4c20cf425e674e2511
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 24 de junho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:S%C3%A3o_nun%27alvares_pereira.jpg
-INFO:root:🔹 Description: Nuno Álvares Pereira
-Dia de São João no cristianismo; Feriado Nacional do Quebec (1925); Dia Internacional das Mulheres na Diplomacia (2022)
+INFO:root:🔹 Title: 25 de junho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Flag_of_Mozambique.svg
+INFO:root:🔹 Description: Bandeira de Moçambique
+Dia da Independência de Moçambique (bandeira) (1975) 
 
-1128 – Ocorre a Batalha de São Mamede, com a vitória de Afonso Henriques sobre as tropas de sua mãe, Teresa de Leão, Condessa de Portucale.
-1947 – Kenneth Arnold faz o primeiro avistamento de OVNIs amplamente divulgado perto do Monte Rainier, em Washington, Estados Unidos.
-1948 – O Bloqueio de Berlim tem o seu início com a União Soviética a tornar impossível a viagem por terra entre o leste e o oeste de Berlim.
+1950 – Tem início a Guerra da Coreia, com a invasão da Coreia do Sul pela Coreia do Norte.
+1996 – Atentado às torres de Khobar na Arábia Saudita mata 19 soldados americanos.
+2007 – É inaugurado em Lisboa o Museu Coleção Berardo.
 Nasceram neste dia…
-Nuno Álvares Pereira (imagem) (1360–1431)  •  São João da Cruz (1542–1591)  •  Juan Manuel Fangio (1911–1995)  •  Lionel Messi (n. 1987)
+Antoni Gaudí (1852–1926)  •  George Orwell (1903–1950)  •  George Michael (1963–2016)  •  Dikembe Mutombo (1966–2024)
 Morreram neste dia…
-Lucrécia Bórgia (1480–1519)  •  Ernesto Bozzano (1862–1943)  •  František Kupka (1871–1957)  •  Milton Santos (1926–2001)
+Bento de Jesus Caraça (1901–1948)  •  Michel Foucault (1926–1984)  •  Jacques-Yves Cousteau  (1910–1997)  •  Michael Jackson (1958–2009)
 
 
-Ver mais • Outros dias: 22 • 23 • 24 • 25 • 26 • Ver todos
+Ver mais • Outros dias: 23 • 24 • 25 • 26 • 27 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223946 characters
-INFO:root:HTML parsed, length: 222474 characters
+INFO:root:Response length: 223600 characters
+INFO:root:HTML parsed, length: 222128 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg']
-INFO:root:Found 1 descriptions: ['Salão da antiga prefeitura em Göttingen, na Baixa ']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Maritimes_Museum_Hamburg_(2024)-L1005406.jpg']
+INFO:root:Found 1 descriptions: ['Edifício, que desde 25 de junho de 2008, abriga o ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg/960px-G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Maritimes_Museum_Hamburg_%282024%29-L1005406.jpg/960px-Maritimes_Museum_Hamburg_%282024%29-L1005406.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -363,15 +420,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg
-INFO:root:🔹 Description: Salão da antiga prefeitura em Göttingen, na Baixa Saxônia, Alemanha. O grande salão, com duas naves e um teto de madeira, foi redecorado em 1883, pelo pintor e designer de interiores alemão, Hermann Schaper.
-(resolução original: 6 589 × 4 392)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Maritimes_Museum_Hamburg_(2024)-L1005406.jpg
+INFO:root:🔹 Description: Edifício, que desde 25 de junho de 2008, abriga o Museu Internacional da Marinha de Hamburgo, na Alemanha, foi construído em 1878–1879 para servir como armazém no porto do rio Elba. Foi projetado por Wilhelm Emil Meerwein e Bernhard Hanssen no estilo neogótico da Escola de Arquitetura de Hanôver.
+(resolução original: 8 668 × 5 757)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg/960px-G%C3%B6ttingen_asv2022-06_img37_Altes_Rathaus.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Maritimes_Museum_Hamburg_%282024%29-L1005406.jpg/960px-Maritimes_Museum_Hamburg_%282024%29-L1005406.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -396,21 +453,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  32 ++-
- feeds/devocional_de_hoje/feed.json        |   8 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  30 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  25 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  30 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 154 +++---------
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  69 ++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   5 +-
- feeds/wikidestaque/feed.json              |   4 +-
+ feeds/wikidestaque/atom.xml               |   4 +-
+ feeds/wikidestaque/feed.json              |   2 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 405 +++++++++++-------------------
- 17 files changed, 265 insertions(+), 473 deletions(-)
+ output.log                                | 325 +++++++++++++++++-------------
+ 17 files changed, 333 insertions(+), 236 deletions(-)
