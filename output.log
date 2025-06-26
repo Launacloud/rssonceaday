@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119643 characters
-INFO:root:HTML parsed, length: 112550 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (25/06/2025)', 'Palavra de Ontem (24/06/2025)', 'Palavra de Anteontem (23/06/2025)']
-INFO:root:Found 3 URLs: ['/lauto/', '/tradicao/', '/parusia/']
-INFO:root:Found 14 descriptions: ['adjetivo Que se apresenta de maneira excessiva, ab', 'Sinônimos:\n\nluxuoso, suntuoso, magnificente, farto', 'Antônimos:\n\nmodesto, humilde, discreto']
-INFO:root:Found 3 dates: ['Palavra de Hoje (25/06/2025)', 'Palavra de Ontem (24/06/2025)', 'Palavra de Anteontem (23/06/2025)']
+INFO:root:Response length: 119532 characters
+INFO:root:HTML parsed, length: 112439 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (26/06/2025)', 'Palavra de Ontem (25/06/2025)', 'Palavra de Anteontem (24/06/2025)']
+INFO:root:Found 3 URLs: ['/anfictione-2/', '/lauto/', '/tradicao/']
+INFO:root:Found 14 descriptions: ['substantivo masculino [História] Membro do conselh', 'Sinônimos:\n\nanfictião', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (26/06/2025)', 'Palavra de Ontem (25/06/2025)', 'Palavra de Anteontem (24/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (25/06/2025)', ID=1c98fa12ed33d56a0ba6d1c351a3d2c1
-INFO:root:Processing entry 2: Title='Palavra de Ontem (24/06/2025)', ID=b403d58fb96d4a19908acf271788c6fd
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (23/06/2025)', ID=81b99b0ee713f91c99dc8a7c204e2a91
+INFO:root:Processing entry 1: Title='Palavra de Hoje (26/06/2025)', ID=04675bb375495f615b95edc11f0698ca
+INFO:root:Processing entry 2: Title='Palavra de Ontem (25/06/2025)', ID=b554d3e4c9d3715b1e248d0708bc897e
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/06/2025)', ID=03ca73bcdac6f86c0e6f2c5c01b43fbf
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (25/06/2025) - Significado completo de lauto:
-INFO:root:🔹 URL: https://www.dicio.com.br/lauto/
-INFO:root:🔹 Description: adjetivo Que se apresenta de maneira excessiva, abundante, copiosa, magnífica; suntuoso, opíparo, explêndido: tive a oportunidade de ir a uma lauta cerimônia de casamento.Etimologia (origem da palavra lauto). A palavra lauto deriva do latim “lautos,a,um”, que significa elegante, distinto, como particípio do verbo “lavare”.
+INFO:root:🔹 Title: Palavra de Hoje (26/06/2025) - Significado completo de anfictíone:
+INFO:root:🔹 URL: https://www.dicio.com.br/anfictione-2/
+INFO:root:🔹 Description: substantivo masculino [História] Membro do conselho de representantes dos antigos Estados na Grécia antiga; anfictião.Etimologia (origem da palavra anfictíone). Do grego amphiktúón; amphiktýon.
  
 Sinônimos:
 
-luxuoso, suntuoso, magnificente, farto, abundante, aparatoso, opíparo, elegante, distinto 
+anfictião 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (24/06/2025) - Significado completo de tradição:
-INFO:root:🔹 URL: https://www.dicio.com.br/tradicao/
+INFO:root:🔹 Title: Palavra de Ontem (25/06/2025) - Significado completo de lauto:
+INFO:root:🔹 URL: https://www.dicio.com.br/lauto/
 INFO:root:🔹 Description: Sinônimos:
 
-luxuoso, suntuoso, magnificente, farto, abundante, aparatoso, opíparo, elegante, distinto
- 
-Antônimos:
-
-modesto, humilde, discreto 
-
+anfictião
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (23/06/2025) - Significado completo de parusia:
-INFO:root:🔹 URL: https://www.dicio.com.br/parusia/
-INFO:root:🔹 Description: Antônimos:
-
-modesto, humilde, discreto
- Classe gramatical:adjetivo
+INFO:root:🔹 Title: Palavra de Anteontem (24/06/2025) - Significado completo de tradição:
+INFO:root:🔹 URL: https://www.dicio.com.br/tradicao/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:an-fic-tí-o-ne
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,42 +42,91 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243059 characters
-INFO:root:HTML parsed, length: 232381 characters
-INFO:root:Found 1 titles: ['Eclesiastes 3:1']
-INFO:root:Found 1 URLs: ['/versiculo/eclesiastes_3_1/']
-INFO:root:Found 1 descriptions: ['Para tudo há uma ocasião certa;\nhá um tempo certo ']
+INFO:root:Response length: 243146 characters
+INFO:root:HTML parsed, length: 232468 characters
+INFO:root:Found 1 titles: ['Provérbios 15:17']
+INFO:root:Found 1 URLs: ['/versiculo/proverbios_15_17/']
+INFO:root:Found 1 descriptions: ['É melhor ter verduras na refeição\nonde há amor\ndo ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Eclesiastes 3:1', ID=b27362adcb2f7aecad93823b0fb2b694
+INFO:root:Processing entry 1: Title='Provérbios 15:17', ID=fda88208a4d463718c63c2369733a8f0
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Eclesiastes 3:1
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/eclesiastes_3_1/
-INFO:root:🔹 Description: Para tudo há uma ocasião certa;
-há um tempo certo para cada propósito
-debaixo do céu: Eclesiastes 3:1
+INFO:root:🔹 Title: Provérbios 15:17
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_15_17/
+INFO:root:🔹 Description: É melhor ter verduras na refeição
+onde há amor
+do que um boi gordo
+acompanhado de ódio. Provérbios 15:17
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 244751 characters
-INFO:root:HTML parsed, length: 234825 characters
-INFO:root:Found 3 titles: ['Salmo 65', 'Salmo 26', 'Salmo 31']
-INFO:root:Found 3 URLs: ['/salmos_65/', '/salmos_26/', '/salmos_31/']
-INFO:root:Found 3 descriptions: ['O louvor te aguarda em Sião, ó Deus;\nos votos que ', 'Faze-me justiça, Senhor,\npois tenho vivido com int', 'Em ti, Senhor, me refugio;\nnunca permitas que eu s']
-INFO:root:Found 3 dates: ['25 de Junho de 2025', '24 de Junho de 2025', '23 de Junho de 2025']
+INFO:root:Response length: 243600 characters
+INFO:root:HTML parsed, length: 233649 characters
+INFO:root:Found 3 titles: ['Salmo 83', 'Salmo 65', 'Salmo 26']
+INFO:root:Found 3 URLs: ['/salmos_83/', '/salmos_65/', '/salmos_26/']
+INFO:root:Found 3 descriptions: ['Ó Deus, não te emudeças;\nnão fiques em silêncio ne', 'O louvor te aguarda em Sião, ó Deus;\nos votos que ', 'Faze-me justiça, Senhor,\npois tenho vivido com int']
+INFO:root:Found 3 dates: ['26 de Junho de 2025', '25 de Junho de 2025', '24 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 65', ID=b6781d58846158def0489f653b3a2637
-INFO:root:Processing entry 2: Title=' Salmo 26', ID=72190ff759f5b648f9f92b3583670f31
-INFO:root:Processing entry 3: Title=' Salmo 31', ID=c35edf8fc04fcd7848dc48e60fe7e4ea
+INFO:root:Processing entry 1: Title=' Salmo 83', ID=455a2a5421c5fd34019d89d09ee08877
+INFO:root:Processing entry 2: Title=' Salmo 65', ID=b6781d58846158def0489f653b3a2637
+INFO:root:Processing entry 3: Title=' Salmo 26', ID=72190ff759f5b648f9f92b3583670f31
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 83
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_83/
+INFO:root:🔹 Description: Ó Deus, não te emudeças;
+não fiques em silêncio nem te detenhas, ó Deus. 
+Vê como se agitam os teus inimigos,
+como os teus adversários
+te desafiam de cabeça erguida. 
+Com astúcia conspiram contra o teu povo;
+tramam contra aqueles
+que são o teu tesouro. 
+Eles dizem: "Venham,
+vamos destruí-los como nação,
+para que o nome de Israel
+não seja mais lembrado!" 
+Com um só propósito tramam juntos;
+é contra ti que fazem acordo 
+as tendas de Edom e os ismaelitas,
+Moabe e os hagarenos, 
+Gebal, Amom e Amaleque,
+a Filístia, com os habitantes de Tiro. 
+Até a Assíria aliou-se a eles,
+e trouxe força aos descendentes de Ló. 
+Trata-os como trataste Midiã,
+como trataste Sísera e Jabim no rio Quisom, 
+os quais morreram em En-Dor
+e se tornaram esterco para a terra. 
+Faze com os seus nobres o que fizeste
+com Orebe e Zeebe,
+e com todos os seus príncipes
+o que fizeste com Zeba e Zalmuna, 
+que disseram:
+"Vamos apossar-nos das pastagens de Deus". 
+Faze-os como folhas secas
+levadas no redemoinho, ó meu Deus,
+como palha ao vento. 
+Assim como o fogo consome a floresta
+e as chamas incendeiam os montes, 
+persegue-os com o teu vendaval
+e aterroriza-os com a tua tempestade. 
+Cobre-lhes de vergonha o rosto
+até que busquem o teu nome, Senhor. 
+Sejam eles humilhados e aterrorizados
+para sempre;
+pereçam em completa desgraça. 
+Saibam eles que tu, cujo nome é Senhor,
+somente tu, és o Altíssimo sobre toda a terra. 
+ Salmo 83
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 65
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_65/
 INFO:root:🔹 Description: O louvor te aguarda em Sião, ó Deus;
@@ -158,141 +201,84 @@ Os meus pés estão firmes na retidão;
 na grande assembleia bendirei o Senhor. 
  Salmo 26
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 31
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_31/
-INFO:root:🔹 Description: Em ti, Senhor, me refugio;
-nunca permitas que eu seja humilhado;
-livra-me pela tua justiça. 
-Inclina os teus ouvidos para mim,
-vem livrar-me depressa!
-Sê minha rocha de refúgio,
-uma fortaleza poderosa para me salvar. 
-Sim, tu és a minha rocha e a minha fortaleza;
-por amor do teu nome, conduze-me e guia-me. 
-Tira-me da armadilha que me prepararam,
-pois tu és o meu refúgio. 
-Nas tuas mãos entrego o meu espírito;
-resgata-me, Senhor, Deus da verdade. 
-Odeio aqueles que se apegam a ídolos inúteis;
-eu, porém, confio no Senhor. 
-Exultarei com grande alegria por teu amor,
-pois viste a minha aflição
-e conheceste a angústia da minha alma. 
-Não me entregaste
-nas mãos dos meus inimigos;
-deste-me segurança e liberdade. 
-Misericórdia, Senhor! Estou em desespero!
-A tristeza me consome
-a vista, o vigor e o apetite. 
-Minha vida é consumida pela angústia,
-e os meus anos pelo gemido;
-minha aflição esgota as minhas forças,
-e os meus ossos se enfraquecem. 
-Por causa de todos os meus adversários,
-sou motivo de ultraje para os meus vizinhos
-e de medo para os meus amigos;
-os que me veem na rua fogem de mim. 
-Sou esquecido por eles
-como se estivesse morto;
-tornei-me como um pote quebrado. 
-Ouço muitos cochicharem a meu respeito;
-o pavor me domina,
-pois conspiram contra mim,
-tramando tirar-me a vida. 
-Mas eu confio em ti, Senhor,
-e digo: Tu és o meu Deus. 
-O meu futuro está nas tuas mãos;
-livra-me dos meus inimigos
-e daqueles que me perseguem. 
-Faze o teu rosto resplandecer
-sobre o teu servo;
-salva-me por teu amor leal. 
-Não permitas que eu seja humilhado, Senhor,
-pois tenho clamado a ti;
-mas que os ímpios sejam humilhados,
-e calados fiquem no Sheol. 
-Sejam emudecidos os seus lábios mentirosos,
-pois com arrogância e desprezo
-humilham os justos. 
-Como é grande a tua bondade,
-que reservaste para aqueles que te temem,
-e que, à vista dos homens,
-concedes àqueles que se refugiam em ti! 
-No abrigo da tua presença os escondes
-das intrigas dos homens;
-na tua habitação os proteges
-das línguas acusadoras. 
-Bendito seja o Senhor,
-pois mostrou o seu maravilhoso amor
-para comigo
-quando eu estava numa cidade cercada. 
-Alarmado, eu disse:
-Fui excluído da tua presença!
-Contudo, ouviste as minhas súplicas
-quando clamei a ti por socorro. 
-Amem o Senhor, todos vocês, os seus santos!
-O Senhor preserva os fiéis,
-mas aos arrogantes dá o que merecem. 
-Sejam fortes e corajosos,
-todos vocês que esperam no Senhor! 
- Salmo 31
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245720 characters
-INFO:root:HTML parsed, length: 235435 characters
-INFO:root:Found 3 titles: ['Não duvide, confie nas promessas do Senhor', 'Amar a Deus acima de todas as coisas', 'Deposite a sua esperança no lugar certo']
+INFO:root:Response length: 245942 characters
+INFO:root:HTML parsed, length: 235655 characters
+INFO:root:Found 3 titles: ['Ele é insubstituível', 'Não duvide, confie nas promessas do Senhor', 'Amar a Deus acima de todas as coisas']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Mesmo assim não duvidou nem foi incrédulo em relaç', 'Ame o Senhor, o seu Deus, de todo o seu coração, d', 'Vivemos em tempos em que muitas pessoas depositam ']
-INFO:root:Found 1 dates: ['Quarta, 25 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Vivemos em um tempo de muitas opções. As pessoas t', 'Mesmo assim não duvidou nem foi incrédulo em relaç', 'Ame o Senhor, o seu Deus, de todo o seu coração, d']
+INFO:root:Found 1 dates: ['Quinta, 26 de junho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Não duvide, confie nas promessas do Senhor', ID=1d087033b2070e250df52cdff4d39299
+INFO:root:Processing entry 1: Title='Ele é insubstituível', ID=8bdb624910f9b24d2175f9bf30ab5b39
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Não duvide, confie nas promessas do Senhor - Palavra de Hoje
+INFO:root:🔹 Title: Ele é insubstituível - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Mesmo assim não duvidou nem foi incrédulo em relação à promessa de Deus, mas foi fortalecido em sua fé e deu glória a Deus, estando plenamente convencido de que ele era poderoso para cumprir o que havia prometido.
-- Romanos 4:20-21
+INFO:root:🔹 Description: Vivemos em um tempo de muitas opções. As pessoas trocam produtos, empregos e até relacionamentos com facilidade. No entanto, há uma verdade eterna e imutável: Jesus Cristo é insubstituível. 
 
-Abraão estava em um período de espera: Deus havia prometido que ele e Sara teriam filhos, mas os anos se passaram e Sara não engravidou. No entanto, Abraão permaneceu firme e forte em sua fé. Não somente isso, ele deu glória a Deus antecipadamente, porque sabia que estava servindo ao Deus Todo-Poderoso, para quem nada é impossível. Ele sabia que Deus sempre cumpre o que promete.
-O texto de Romanos diz que Abraão estava plenamente convicto de que Deus era capaz de cumprir Sua promessa. Você tem essa mesma confiança? Está completamente convicto de que Deus cumprirá as promessas que você recebeu Dele em Sua Palavra?
-Lembre-se do que Números 23:19 diz:
+Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.
+- João 14:6 
 
-Deus não é homem para que minta,
-nem filho de homem
-para que se arrependa.
-Acaso ele fala e deixa de agir?
-Acaso promete e deixa de cumprir?
-- Números 23:19
-
-Confie nas promessas de Deus! Aproxime-se d'Ele com fé e agradeça pelo que Ele fez em sua vida até agora e pelo que Ele fará. Em Cristo, Deus o salvou, perdoou e lhe deu uma vida abundante, cheia de esperança e segurança. Graças à obra de Cristo em você, você pode confiar que Deus está com você em todos os momentos, ajudando-o e suprindo suas necessidades.
-Aproxime-se de Deus com confiança e apresente a Ele as áreas em que você ainda espera que Ele atue. Entregue a Ele seus problemas familiares ou necessidades financeiras. Coloque tudo o que o preocupa em Suas mãos.
-Aproxime-se dEle com o coração cheio de fé, confiança e convicção, pois você serve ao Deus Todo-Poderoso que cumprirá tudo o que prometeu. Amém!
-Leia também: Promessas de Deus para abençoar o seu dia
+Quando Jesus declarou ser o caminho, a verdade e a vida, Ele não se colocou como uma alternativa entre muitas. Ele afirmou ser o único caminho para Deus. Nenhuma filosofia, religião ou esforço humano pode preencher o vazio que há no coração do homem. Somente Cristo pode nos reconciliar com o Pai, porque somente Ele pagou o preço pelos nossos pecados na cruz.
+Em um mundo que tenta relativizar tudo, é essencial reafirmar que Jesus é único. Ele não é apenas um bom mestre, um profeta ou um exemplo de moralidade. Ele é o Filho de Deus, o Cordeiro que tira o pecado do mundo. Sua obra redentora é suficiente e perfeita, e nada pode ser adicionado a ela.
+Tentar substituir Jesus por outra fonte de sentido, salvação ou paz é como tentar viver sem ar. Nada mais satisfaz. Nem riquezas, nem sucesso, nem conhecimento. Só Ele oferece descanso verdadeiro à alma cansada, cura para o quebrantado e esperança para o perdido.
+Muitos já tentaram apresentar alternativas ao evangelho, mas nenhuma resistiu ao tempo ou ao coração humano. Só em Jesus encontramos perdão, nova vida e a certeza da eternidade. Ele é o centro da história, o fundamento da fé e a rocha inabalável em meio às tempestades da vida.
+Diante disso, somos desafiados a nos render totalmente a Ele, a reconhecer que não há outro nome dado entre os homens pelo qual devamos ser salvos (Atos 4:12). Ele é insubstituível. Que o nosso coração jamais procure substitutos, mas se mantenha firme na fé, confiando unicamente naquele que vive e reina para sempre.
+Jesus é tudo!
+Veja também: Eu sou o caminho, a verdade e a vida (Estudo Bíblico)
  
-Mesmo assim não duvidou nem foi incrédulo em relação à promessa de Deus, mas foi fortalecido em sua fé e deu glória a Deus, estando plenamente convencido de que ele era poderoso para cumprir o que havia prometido.
-- Romanos 4:20-21
+Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.
+- João 14:6 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 254568 characters
-INFO:root:HTML parsed, length: 244047 characters
-INFO:root:Found 3 titles: ['Aproxime-se do Pai', 'Eu creio no poder de Deus!', 'Esta é a energia que precisamos!']
-INFO:root:Found 2 URLs: ['/buscar_a_deus/', '/versiculos_poder_da_fe/']
-INFO:root:Found 3 descriptions: ['Chegai-vos a Deus, e ele se chegará a vós.\n- Tiago', 'Há uma verdade inabalável que sustenta o coração d', 'Ele fortalece o cansado\ne dá grande vigor ao que e']
-INFO:root:Found 3 dates: ['JUNHO\n\n25\nQUARTA', 'JUNHO\n\n24\nTERÇA', 'JUNHO\n\n23\nSEGUNDA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Aproxime-se do Pai', ID=53d81d5a7519cbcd8e085ea27993537b
-INFO:root:Processing entry 2: Title='Eu creio no poder de Deus!', ID=52867e3a96766cf545c81e532e65e779
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 255392 characters
+INFO:root:HTML parsed, length: 244870 characters
+INFO:root:Found 3 titles: ['Focado na Palavra de Deus', 'Aproxime-se do Pai', 'Eu creio no poder de Deus!']
+INFO:root:Found 3 URLs: ['/razoes_para_ler_a_biblia/', '/buscar_a_deus/', '/versiculos_poder_da_fe/']
+INFO:root:Found 3 descriptions: ['A tua palavra é lâmpada\nque ilumina os meus passos', 'Chegai-vos a Deus, e ele se chegará a vós.\n- Tiago', 'Há uma verdade inabalável que sustenta o coração d']
+INFO:root:Found 3 dates: ['JUNHO\n\n26\nQUINTA', 'JUNHO\n\n25\nQUARTA', 'JUNHO\n\n24\nTERÇA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Focado na Palavra de Deus', ID=88a6010d640aaf381dca2e34ee02b4b0
+INFO:root:Processing entry 2: Title='Aproxime-se do Pai', ID=53d81d5a7519cbcd8e085ea27993537b
+INFO:root:Processing entry 3: Title='Eu creio no poder de Deus!', ID=52867e3a96766cf545c81e532e65e779
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Focado na Palavra de Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_ler_a_biblia/
+INFO:root:🔹 Description: A tua palavra é lâmpada
+que ilumina os meus passos
+e luz que clareia o meu caminho.
+- Salmos 119:105 
+
+ A Palavra de Deus é o nosso guia seguro, o alicerce firme sobre o qual podemos construir nossas vidas. Quando damos atenção às Escrituras, somos lembrados das promessas eternas do Senhor, da Sua fidelidade e do Seu amor incondicional.
+Focar na Palavra de Deus é mais do que apenas lê-la ocasionalmente. É meditarmos nela dia e noite, como diz o Salmo 1. É permitirmos que ela transforme nosso modo de pensar, sentir e agir. A Bíblia não é apenas um livro; ela é viva e eficaz, capaz de discernir os pensamentos do coração e nos conduzir à verdade.
+Nos momentos de dúvida, a Palavra nos traz direção. Quando estamos fracos, ela nos fortalece. Em tempos de tristeza, encontramos consolo em suas páginas. E nos dias de alegria, ela nos lembra de agradecer ao nosso Criador. Jesus mesmo disse: “Nem só de pão viverá o homem, mas de toda palavra que procede da boca de Deus.” (Mateus 4:4)
+Que cultivemos o hábito de buscar diariamente a orientação de Deus nas Escrituras. Ler, meditar, memorizar e praticar a Palavra deve ser prioridade para todo que deseja crescer espiritualmente e viver segundo a vontade de Deus.
+Ao focarmos na Palavra, nossos olhos se desviam das preocupações do mundo e se voltam para o céu. Que o nosso coração esteja sempre atento à voz do Senhor, pois somente nela encontramos vida, paz e esperança verdadeira. 
+Dicas para focar na Palavra de Deus 
+
+
+Organize um tempo diário de leitura: Separe um momento específico do seu dia, seja pela manhã, à tarde ou à noite, para ler a Bíblia com calma e atenção. A constância fortalece sua intimidade com Deus e ajuda a manter o foco espiritual.
+
+Medite e reflita sobre o que leu: Não leia apenas por obrigação. Escolha um versículo ou trecho e medite sobre seu significado. Pergunte-se: “O que Deus quer me ensinar com isso?” Anote seus pensamentos e ore pedindo sabedoria para aplicar em sua vida. 
+
+Viva o que a Palavra ensina: A verdadeira transformação acontece quando colocamos em prática o que aprendemos. Seja no perdão, no amor ao próximo, na paciência ou na fé, permita que a Palavra molde suas atitudes e decisões no dia a dia.
+
+Para orar: 
+
+Senhor, dá-me sede da Tua Palavra. Que meu coração se encha da Tua verdade e meus passos sigam a Tua luz. Ajuda-me a ouvir Tua voz, meditar nos Teus ensinos e viver conforme Tua vontade. Que eu nunca me afaste de Ti. Em nome de Jesus, amém.
+
+Conheça os benefícios de ler a Bíblia.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Aproxime-se do Pai
 INFO:root:🔹 URL: https://www.bibliaon.com/buscar_a_deus/
 INFO:root:🔹 Description: Chegai-vos a Deus, e ele se chegará a vós.
@@ -346,8 +332,8 @@ Veja também: Versículos de como a fé move o coração de Deus
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223600 characters
-INFO:root:HTML parsed, length: 222128 characters
+INFO:root:Response length: 223274 characters
+INFO:root:HTML parsed, length: 221802 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 18 URLs: ['/wiki/Olive_Morris', '/wiki/Jamaica', '/wiki/Ativista']
 INFO:root:Found 1 descriptions: ['Olive Elaine Morris foi uma líder comunitária nasc']
@@ -374,8 +360,8 @@ Artigos bons: 1915
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223600 characters
-INFO:root:HTML parsed, length: 222128 characters
+INFO:root:Response length: 223274 characters
+INFO:root:HTML parsed, length: 221802 characters
 INFO:root:Found 1 titles: ['25 de junho na história']
 INFO:root:Found 46 URLs: ['/wiki/Ficheiro:Flag_of_Mozambique.svg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Mo%C3%A7ambique']
 INFO:root:Found 1 descriptions: ['Bandeira de Moçambique\nDia da Independência de Moç']
@@ -405,8 +391,8 @@ Ver mais • Outros dias: 23 • 24 • 25 • 26 • 27 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223600 characters
-INFO:root:HTML parsed, length: 222128 characters
+INFO:root:Response length: 223274 characters
+INFO:root:HTML parsed, length: 221802 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Maritimes_Museum_Hamburg_(2024)-L1005406.jpg']
 INFO:root:Found 1 descriptions: ['Edifício, que desde 25 de junho de 2008, abriga o ']
@@ -444,30 +430,24 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  25 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  29 ++-
  feeds/devocional_de_hoje/feed.json        |   6 +
  feeds/palavra_biblica_do_dia/atom.xml     |  30 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  69 ++++---
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 125 ++++-------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   4 +-
- feeds/wikidestaque/feed.json              |   2 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 325 +++++++++++++++++-------------
- 17 files changed, 333 insertions(+), 236 deletions(-)
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 349 ++++++++++++++----------------
+ 14 files changed, 286 insertions(+), 334 deletions(-)
