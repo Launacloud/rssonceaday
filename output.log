@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121062 characters
-INFO:root:HTML parsed, length: 113854 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (30/06/2025)', 'Palavra de Ontem (29/06/2025)', 'Palavra de Anteontem (28/06/2025)']
-INFO:root:Found 3 URLs: ['/revidar/', '/tenue/', '/saneamento/']
-INFO:root:Found 15 descriptions: ['verbo transitivo direto e bitransitivo Vingar uma ', 'Sinônimos:\n\nreplicar, responder, retrucar, objetar', 'Classe gramatical:verbo bitransitivo, verbo intran']
-INFO:root:Found 3 dates: ['Palavra de Hoje (30/06/2025)', 'Palavra de Ontem (29/06/2025)', 'Palavra de Anteontem (28/06/2025)']
+INFO:root:Response length: 120654 characters
+INFO:root:HTML parsed, length: 113239 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (01/07/2025)', 'Palavra de Ontem (30/06/2025)', 'Palavra de Anteontem (29/06/2025)']
+INFO:root:Found 3 URLs: ['/persuasivo/', '/revidar/', '/tenue/']
+INFO:root:Found 16 descriptions: ['adjetivo Que tem facilidade de convencer, influenc', 'Sinônimos:\n\npersuasório, suasivo, convincente, sua', 'Antônimos:\n\ndissuasório']
+INFO:root:Found 3 dates: ['Palavra de Hoje (01/07/2025)', 'Palavra de Ontem (30/06/2025)', 'Palavra de Anteontem (29/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (30/06/2025)', ID=9f85740e07082d4e588e5abdee660081
-INFO:root:Processing entry 2: Title='Palavra de Ontem (29/06/2025)', ID=3b51e8c47e1c591fdb67c113a0bc1ab8
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/06/2025)', ID=9d718abde0d07f15f16ce9a76e6fb643
+INFO:root:Processing entry 1: Title='Palavra de Hoje (01/07/2025)', ID=d83d0abbb944e47a840455b3bc4a7b08
+INFO:root:Processing entry 2: Title='Palavra de Ontem (30/06/2025)', ID=420b06981a1a4dec028e64203aaea4ab
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/06/2025)', ID=88ef3be316b3d5c9dedcb922b4ebbb13
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (30/06/2025) - Significado completo de revidar:
-INFO:root:🔹 URL: https://www.dicio.com.br/revidar/
-INFO:root:🔹 Description: verbo transitivo direto e bitransitivo Vingar uma ofensa ou uma agressão com outra maior: revidar os golpes; revidada as ofensas com xingamentos piores.verbo transitivo direto, transitivo indireto e intransitivo Dar uma resposta contrária de modo assertivo, incisivo; replicar, objetar, contradizer: revidei o comentário tão logo me deixou falar; revidei com mais fatos e ele teve de se calar; falou com tanta raiva que acabei por revidar.Etimologia (origem da palavra revidar). De origem incerta; talvez forma alterada de re + /en/vidar.
+INFO:root:🔹 Title: Palavra de Hoje (01/07/2025) - Significado completo de persuasivo:
+INFO:root:🔹 URL: https://www.dicio.com.br/persuasivo/
+INFO:root:🔹 Description: adjetivo Que tem facilidade de convencer, influenciando alguém a fazer certa coisa, a acreditar em determinada crença, a mudar de opinião ou de comportamento.Que possui grande habilidade para persuadir, para induzir alguém a fazer algo.Etimologia (origem da palavra persuasivo). Do latim persuasivus.a.um.
  
 Sinônimos:
 
-replicar, responder, retrucar, objetar, retorquir, contradizer 
+persuasório, suasivo, convincente, suasório 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (29/06/2025) - Significado completo de tênue:
-INFO:root:🔹 URL: https://www.dicio.com.br/tenue/
+INFO:root:🔹 Title: Palavra de Ontem (30/06/2025) - Significado completo de revidar:
+INFO:root:🔹 URL: https://www.dicio.com.br/revidar/
 INFO:root:🔹 Description: Sinônimos:
 
-replicar, responder, retrucar, objetar, retorquir, contradizer
- Classe gramatical:verbo bitransitivo, verbo intransitivo, verbo regência múltipla, verbo transitivo direto e verbo transitivo indireto
+persuasório, suasivo, convincente, suasório
+ 
+Antônimos:
+
+dissuasório 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (28/06/2025) - Significado completo de saneamento:
-INFO:root:🔹 URL: https://www.dicio.com.br/saneamento/
-INFO:root:🔹 Description: Classe gramatical:verbo bitransitivo, verbo intransitivo, verbo regência múltipla, verbo transitivo direto e verbo transitivo indireto
- Sílabas:re-vi-dar
+INFO:root:🔹 Title: Palavra de Anteontem (29/06/2025) - Significado completo de tênue:
+INFO:root:🔹 URL: https://www.dicio.com.br/tenue/
+INFO:root:🔹 Description: Antônimos:
+
+dissuasório
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,42 +48,70 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243221 characters
-INFO:root:HTML parsed, length: 232543 characters
-INFO:root:Found 1 titles: ['Salmos 26:2-3']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_26_2-3/']
-INFO:root:Found 1 descriptions: ['Sonda-me, Senhor, e prova-me,\nexamina o meu coraçã']
+INFO:root:Response length: 243192 characters
+INFO:root:HTML parsed, length: 232514 characters
+INFO:root:Found 1 titles: ['2 Pedro 3:8']
+INFO:root:Found 1 URLs: ['/versiculo/2_pedro_3_8/']
+INFO:root:Found 1 descriptions: ['Não se esqueçam disto, amados: para o Senhor um di']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 26:2-3', ID=df0281d64f4cb4ca4ebebc3b2e3f0227
+INFO:root:Processing entry 1: Title='2 Pedro 3:8', ID=c0ae2c75ae9352b94b36cd565fc67b4b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 26:2-3
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_26_2-3/
-INFO:root:🔹 Description: Sonda-me, Senhor, e prova-me,
-examina o meu coração e a minha mente; pois o teu amor está sempre diante de mim,
-e continuamente sigo a tua verdade. Salmos 26:2-3
+INFO:root:🔹 Title: 2 Pedro 3:8
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_pedro_3_8/
+INFO:root:🔹 Description: Não se esqueçam disto, amados: para o Senhor um dia é como mil anos, e mil anos como um dia. 2 Pedro 3:8
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 245228 characters
-INFO:root:HTML parsed, length: 235295 characters
-INFO:root:Found 3 titles: ['Salmo 16', 'Salmo 120', 'Salmo 105']
-INFO:root:Found 3 URLs: ['/salmos_16/', '/salmos_120/', '/salmos_105/']
-INFO:root:Found 3 descriptions: ['Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen', 'Eu clamo pelo Senhor na minha angústia,\ne ele me r', 'Deem graças ao Senhor,\nproclamem o seu nome;\ndivul']
-INFO:root:Found 3 dates: ['30 de Junho de 2025', '29 de Junho de 2025', '28 de Junho de 2025']
+INFO:root:Response length: 242182 characters
+INFO:root:HTML parsed, length: 232209 characters
+INFO:root:Found 3 titles: ['Salmo 75', 'Salmo 16', 'Salmo 120']
+INFO:root:Found 3 URLs: ['/salmos_75/', '/salmos_16/', '/salmos_120/']
+INFO:root:Found 3 descriptions: ['Damos-te graças, ó Deus,\ndamos-te graças, pois per', 'Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen', 'Eu clamo pelo Senhor na minha angústia,\ne ele me r']
+INFO:root:Found 3 dates: ['1 de Julho de 2025', '30 de Junho de 2025', '29 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
-INFO:root:Processing entry 2: Title=' Salmo 120', ID=49152a5bfdcdab894006a944c5e2cf87
-INFO:root:Processing entry 3: Title=' Salmo 105', ID=6fafeb25d43075163de3a839b93cc4d1
+INFO:root:Processing entry 1: Title=' Salmo 75', ID=c2d6745375247eaf0fba5b419098a069
+INFO:root:Processing entry 2: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
+INFO:root:Processing entry 3: Title=' Salmo 120', ID=49152a5bfdcdab894006a944c5e2cf87
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 75
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_75/
+INFO:root:🔹 Description: Damos-te graças, ó Deus,
+damos-te graças, pois perto está o teu nome;
+todos falam dos teus feitos maravilhosos. 
+Tu dizes: "Eu determino o tempo
+em que julgarei com justiça. 
+Quando treme a terra
+com todos os seus habitantes,
+sou eu que mantenho firmes
+as suas colunas. 
+"Aos arrogantes digo: Parem de vangloriar-se!
+E aos ímpios: Não se rebelem! 
+Não se rebelem contra os céus;
+não falem com insolência". 
+Não é do oriente nem do ocidente
+nem do deserto que vem a exaltação. 
+É Deus quem julga:
+Humilha a um, a outro exalta. 
+Na mão do Senhor está um cálice
+cheio de vinho espumante e misturado;
+ele o derrama, e todos os ímpios da terra
+o bebem até a última gota. 
+Quanto a mim,
+para sempre anunciarei essas coisas;
+cantarei louvores ao Deus de Jacó. 
+Destruirei o poder de todos os ímpios,
+mas o poder dos justos aumentará. 
+ Salmo 75
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 16
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_16/
 INFO:root:🔹 Description: Protege-me, ó Deus,
@@ -133,141 +167,29 @@ mas, ainda que eu fale de paz,
 eles só falam de guerra. 
  Salmo 120
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 105
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_105/
-INFO:root:🔹 Description: Deem graças ao Senhor,
-proclamem o seu nome;
-divulguem os seus feitos entre as nações. 
-Cantem para ele e louvem-no;
-relatem todas as suas maravilhas. 
-Gloriem-se no seu santo nome;
-alegre-se o coração dos
-que buscam o Senhor. 
-Recorram ao Senhor e ao seu poder;
-busquem sempre a sua presença. 
-Lembrem-se das maravilhas que ele fez,
-dos seus prodígios
-e das sentenças de juízo que pronunciou, 
-ó descendentes de Abraão, seu servo,
-ó filhos de Jacó, seus escolhidos. 
-Ele é o Senhor, o nosso Deus;
-seus decretos são para toda a terra. 
-Ele se lembra para sempre da sua aliança,
-por mil gerações, da palavra que ordenou, 
-da aliança que fez com Abraão,
-do juramento que fez a Isaque. 
-Ele o confirmou como decreto a Jacó,
-a Israel como aliança eterna, quando disse: 
-"Darei a você a terra de Canaã,
-a herança que lhe pertence". 
-Quando ainda eram poucos,
-um punhado de peregrinos na terra, 
-e vagueavam de nação em nação,
-de um reino a outro, 
-ele não permitiu que ninguém os oprimisse,
-mas a favor deles repreendeu reis, dizendo: 
-"Não toquem nos meus ungidos;
-não maltratem os meus profetas". 
-Ele mandou vir fome sobre a terra
-e destruiu todo o seu sustento; 
-mas enviou um homem adiante deles,
-José, que foi vendido como escravo. 
-Machucaram-lhe os pés com correntes
-e com ferros prenderam-lhe o pescoço, 
-até cumprir-se a sua predição
-e a palavra do Senhor confirmar o que dissera. 
-O rei mandou soltá-lo,
-o governante dos povos o libertou. 
-Ele o constituiu senhor de seu palácio
-e administrador de todos os seus bens, 
-para instruir os seus oficiais como desejasse
-e ensinar a sabedoria às autoridades do rei. 
-Então Israel foi para o Egito,
-Jacó viveu como estrangeiro na terra de Cam. 
-Deus fez proliferar o seu povo,
-tornou-o mais poderoso
-do que os seus adversários 
-e mudou o coração deles
-para que odiassem o seu povo,
-para que tramassem contra os seus servos. 
-Então enviou seu servo Moisés,
-e Arão, a quem tinha escolhido, 
-por meio dos quais realizou
-os seus sinais milagrosos
-e as suas maravilhas na terra de Cam. 
-Ele enviou trevas, e houve trevas,
-e eles não se rebelaram contra as suas palavras. 
-Ele transformou as águas deles em sangue,
-causando a morte dos seus peixes. 
-A terra deles ficou infestada de rãs,
-até mesmo os aposentos reais. 
-Ele ordenou, e enxames de moscas e piolhos
-invadiram o território deles. 
-Deu-lhes granizo, em vez de chuva,
-e raios flamejantes por toda a sua terra; 
-arrasou as suas videiras e figueiras
-e destruiu as árvores do seu território. 
-Ordenou, e vieram enxames de gafanhotos,
-gafanhotos inumeráveis, 
-e devoraram toda a vegetação daquela terra,
-e consumiram tudo o que a lavoura produziu. 
-Depois matou todos os primogênitos
-da terra deles,
-todas as primícias da sua virilidade. 
-Ele tirou de lá Israel,
-que saiu cheio de prata e ouro.
-Não havia em suas tribos quem fraquejasse. 
-Os egípcios alegraram-se quando eles saíram,
-pois estavam com verdadeiro pavor
-dos israelitas. 
-Ele estendeu uma nuvem para lhes dar sombra,
-e fogo para iluminar a noite. 
-Pediram, e ele enviou codornizes
-e saciou-os com pão do céu. 
-Ele fendeu a rocha, e jorrou água,
-que escorreu como um rio pelo deserto. 
-Pois ele se lembrou da santa promessa
-que fizera ao seu servo Abraão. 
-Fez o seu povo sair cheio de júbilo
-e os seus escolhidos com cânticos alegres. 
-Deu-lhes as terras das nações,
-e eles tomaram posse
-do fruto do trabalho de outros povos, 
-para que obedecessem aos seus decretos
-e guardassem as suas leis.
-Aleluia! 
- Salmo 105
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245733 characters
-INFO:root:HTML parsed, length: 235437 characters
-INFO:root:Found 3 titles: ['Silencie as brigas', 'Em busca da felicidade', 'Clamar para mudar']
+INFO:root:Response length: 245373 characters
+INFO:root:HTML parsed, length: 235080 characters
+INFO:root:Found 3 titles: ['Valorize o que Deus já te deu', 'Silencie as brigas', 'Em busca da felicidade']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Às vezes, a gente fala sem pensar ou deixa o orgul', 'Se vocês obedecerem aos meus mandamentos, permanec', 'Há momentos na vida em que tudo parece desmoronar.']
-INFO:root:Found 1 dates: ['Segunda, 30 de junho de 2025']
+INFO:root:Found 3 descriptions: ['Em meio aos desejos não realizados e aos sonhos ai', 'Às vezes, a gente fala sem pensar ou deixa o orgul', 'Se vocês obedecerem aos meus mandamentos, permanec']
+INFO:root:Found 1 dates: ['Terça, 1 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Silencie as brigas', ID=bc0d7ebf3406ca1a15b0694825ee15eb
+INFO:root:Processing entry 1: Title='Valorize o que Deus já te deu', ID=9131c6e9b9d85d52853df9fe8e279952
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Silencie as brigas - Palavra de Hoje
+INFO:root:🔹 Title: Valorize o que Deus já te deu - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Às vezes, a gente fala sem pensar ou deixa o orgulho tomar conta, e isso pode causar problemas enormes. O versículo de Provérbios 17:14 nos dá uma imagem clara: começar uma briga é como abrir um buraco numa represa. No começo, parece algo pequeno, mas se não for cuidado, a água estoura tudo e causa um grande estrago.
-
-Começar uma discussão
-é como abrir brecha num dique;
-por isso resolva a questão
-antes que surja a contenda.
-Provérbios 17:14
-
-A mensagem é simples: é muito melhor resolver um desentendimento enquanto ainda é pequeno, antes que vire uma discussão séria. Para isso, é preciso ter humildade, saber ouvir e controlar as emoções, algo que nem sempre é fácil, especialmente quando estamos com a cabeça quente.
-Muitas vezes, relacionamentos entre familiares, amigos ou colegas de trabalho, não acabam por grandes motivos, mas por pequenas coisas que foram sendo deixadas de lado. Um comentário mal colocado, um gesto mal interpretado, um silêncio que machuca. Quando a gente percebe, já é tarde, e a relação está quebrada.
-Deus nos ensina a agir com sabedoria. Ele quer que sejamos pessoas que promovem a paz, não que espalham confusão. Ser sábio é saber a hora de falar, de ceder, de entender o outro antes que a raiva tome conta. Manter a paz exige esforço, mas vale muito mais do que viver em briga.
-Se você sente que há algo mal resolvido com alguém, não adie. Converse, perdoe, tente de novo. Depois que o dique rompe, não dá pra conter a água. Resolva agora. Cuide de quem você ama. Não espere a represa estourar.
-Veja também: Conselhos da Bíblia para resolver conflitos
+INFO:root:🔹 Description: Em meio aos desejos não realizados e aos sonhos ainda não alcançados, é fácil esquecer o quanto já fomos abençoados por Deus. Muitas vezes, nossos olhos estão tão voltados para o que ainda queremos conquistar, que deixamos de enxergar o valor do que já possuímos. Mas hoje, Deus te convida a parar por um momento e reconhecer: você já tem muito mais do que imagina.
+Você tem vida, e isso já é um milagre. O simples fato de acordar hoje é uma prova do cuidado e do amor de Deus. Há pessoas que dariam tudo para ter o que você tem: uma família, saúde, amigos, um lar, alimento na mesa, ou até mesmo a fé que te sustenta. Cada detalhe da sua vida é uma dádiva que o Senhor te confiou.
+A Bíblia nos ensina que “quem é fiel no pouco, também é fiel no muito”. Quando aprendemos a valorizar o pouco, aquilo que já está em nossas mãos, abrimos espaço para que Deus confie a nós coisas maiores. A gratidão é uma chave poderosa que destranca portas de bênçãos e multiplica aquilo que temos.
+Não permita que a comparação ou a ansiedade te roubem a alegria do momento. Olhe ao redor com um coração grato. Louve a Deus não apenas pelo que virá, mas pelo que Ele já fez e está fazendo em sua vida agora. Valorizar o que temos é reconhecer a mão de Deus em cada detalhe da nossa história.
+Escolha ser grato. Celebre as bênçãos que você já tem. Porque quando você valoriza o que Deus já te deu, você demonstra que está pronto para viver ainda mais daquilo que Ele preparou para você.
+Agradeça a Deus por mais um dia, veja: Mensagens de gratidão a Deus por mais um dia.
  
 Começar uma discussão
 é como abrir brecha num dique;
@@ -278,73 +200,44 @@ Provérbios 17:14
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255067 characters
-INFO:root:HTML parsed, length: 244554 characters
-INFO:root:Found 3 titles: ['Seja gentil e equilibrado pelo amor de Deus', 'A fidelidade do Senhor', 'Mesmo em meio à dor, o amor de Deus permanece']
-INFO:root:Found 2 URLs: ['/versiculos_lindos_fidelidade_de_deus/', '/o_amor_incondicional_de_deus_estudo/']
-INFO:root:Found 3 descriptions: ['Que a moderação de vocês seja conhecida por todos.', 'Vivemos em um mundo marcado por incertezas, onde o', 'Mesmo não florescendo a figueira\ne não havendo uva']
-INFO:root:Found 3 dates: ['JUNHO\n\n30\nSEGUNDA', 'JUNHO\n\n29\nDOMINGO', 'JUNHO\n\n28\nSÁBADO']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Seja gentil e equilibrado pelo amor de Deus', ID=ced70008f2d5fc1763adaf68217a0815
-INFO:root:Processing entry 2: Title='A fidelidade do Senhor', ID=7485ab23c1df8bbf1d09d7d8e5ce6454
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 253255 characters
+INFO:root:HTML parsed, length: 242739 characters
+INFO:root:Found 3 titles: ['Continue amando!', 'Seja gentil e equilibrado pelo amor de Deus', 'A fidelidade do Senhor']
+INFO:root:Found 1 URLs: ['/versiculos_lindos_fidelidade_de_deus/']
+INFO:root:Found 3 descriptions: ['Seja constante o amor fraternal.\nHebreus 13:1\xa0\n\nAs', 'Que a moderação de vocês seja conhecida por todos.', 'Vivemos em um mundo marcado por incertezas, onde o']
+INFO:root:Found 3 dates: ['JULHO\n\n1\nTERÇA', 'JUNHO\n\n30\nSEGUNDA', 'JUNHO\n\n29\nDOMINGO']
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='Continue amando!', ID=df945a3666fa2429200d5f088df41196
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Seja gentil e equilibrado pelo amor de Deus
+INFO:root:🔹 Title: Continue amando!
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_lindos_fidelidade_de_deus/
-INFO:root:🔹 Description: Que a moderação de vocês seja conhecida por todos. Perto está o Senhor.
-- Filipenses 4:5
+INFO:root:🔹 Description: Seja constante o amor fraternal.
+Hebreus 13:1 
 
-O equilíbrio, a brandura e gentileza são valores que devem ser cultivados nos dias que seguem. É triste, mas parece estar em falta pessoas amáveis, atenciosas e moderadas em casa, na vizinhança, no trânsito, na escola, no trabalho, em repartições públicas, nas redes sociais e, infelizmente, até mesmo nas igrejas.
-O discurso de ódio (grosserias e extremismo) tem ganhado força nas mídias, nos relacionamentos e nas atitudes de muitas pessoas. Mas a Bíblia nos mostra um caminho oposto: a moderação gerada pelo Amor. Amar é a resposta certa para um mundo tão hostil e desequilibrado. Considere o exemplo de Cristo e aprenda com Ele, que é manso e humilde de coração (Mateus 11:29).
-O amor de Deus nos torna mais gentis e amáveis
+Assim como Deus nos ama - e permanece nos amando - é importante amarmos os nossos irmãos em Cristo. Às vezes temos compaixão de pessoas desconhecidas e deixamos de dar atenção aos nossos amigos próximos.
+Há momentos que é necessário chorar quando o momento é triste, mas também sorrir quando o momento é de júbilo (Romanos 12:15). Essa ajuda pode ser um tempo dedicado a ouvi-lo, uma oração ou até mesmo um conselho. O amor fraternal nos mantém unidos e onde há dois reunidos no nome de Jesus, Ele está presente (Mateus 18:20). 
+Invista tempo e amor para com os seus amigos. Jesus - o nosso maior amigo - dedicou a Sua vida para nos salvar, dedique-se no amor fraternal. 
+Cultivando o amor fraternal
 
-Reflita: até mesmo as suas convicções mais fortes devem ser equilibradas pelo amor de Deus.
-Deixe que o Espírito de Deus produza em você os Seus frutos. Leia Gálatas 5:19-23
-Deus está perto de você quando conversa, escreve, trabalha, estuda, dirige, enfim, agrade-O!
-A moderação se nota no pensar e falar, nos relacionamentos, no modo em que nos vestimos, até na maneira que comemos.
-Busque ser mais parecido com Cristo, em todas as suas atitudes, no dia a dia.
+Procure manter contato com os seus amigos regularmente. Esteja próximo. 
+Repare nos detalhes, mostre-se disponível para ajudar o seu irmão. 
+Incentive os seus amigos a se dedicarem a Deus, o esforço na fé nos une. 
 
-Para Orar:
+Para Orar: 
 
-Senhor, ajuda-me a ser mais semelhante a Jesus Cristo. Quero ser equilibrado, manso e humilde de coração. Ensina-me a viver demonstrando o Teu amor em tudo que faço. Que as minhas atitudes demonstrem que o Senhor é o meu Deus. Que eu não imite o mundo, que eu não te envergonhe, nem te entristeça, oh Pai. Fica comigo e ajuda-me a cada dia. No nome precioso de Jesus, Amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A fidelidade do Senhor
-INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
-INFO:root:🔹 Description: Vivemos em um mundo marcado por incertezas, onde o mal muitas vezes parece prevalecer. Em meio às batalhas espirituais e dificuldades diárias, o coração pode vacilar, enfraquecer e até duvidar da presença de Deus. Contudo, este versículo nos lembra de uma verdade eterna: o Senhor é fiel.
-
-Mas o Senhor é fiel; ele os fortalecerá e os guardará do Maligno.
-- 2 Tessalonicenses 3:3
-
-A fidelidade de Deus não depende das circunstâncias ou do nosso desempenho. Ele é constante, imutável e comprometido com aqueles que confiam em Seu nome. Mesmo quando somos infiéis, Ele permanece fiel, pois não pode negar a Si mesmo (2 Timóteo 2:13). Em Sua fidelidade, Ele nos fortalece, não apenas fisicamente, mas espiritualmente. Ele renova nossas forças, levanta os cansados e sustenta os que estão a ponto de cair.
-O Senhor nos guarda do Maligno. Isso não significa que nunca enfrentaremos tentações ou tribulações, mas sim que, mesmo em meio às provas, estamos protegidos sob Suas asas.
-O inimigo pode tentar nos atingir, mas Deus estabelece limites que ele não pode ultrapassar. Somos selados pelo Espírito Santo e amparados pela graça divina.
-Essa promessa deve nos encher de esperança e confiança. Podemos prosseguir com coragem, sabendo que não caminhamos sozinhos. O mesmo Deus que começou a boa obra em nós é fiel para completá-la (Filipenses 1:6).
-Quando o medo tentar nos dominar, lembremo-nos: o Senhor é fiel. Quando a dúvida sussurrar em nossos ouvidos, proclamemos Sua Palavra. Em todo tempo, sigamos firmes, sabendo que Aquele que nos fortalece e nos guarda é digno de toda confiança.
-Confiança inabalável em Deus
-
-
-Deus é fiel em todo tempo: Mesmo quando tudo ao redor desmorona, Deus continua sendo fiel. Sua presença constante nos sustenta e nos lembra que nunca estamos sozinhos nas lutas da vida.
-
-Força que vem do alto: Não enfrentamos as batalhas com nossas forças, mas com a que vem do Senhor. Ele renova nosso interior e nos capacita a vencer mesmo nas situações mais difíceis.
-
-Proteção contra o mal: O Senhor é nosso escudo contra o Maligno. Mesmo em tempos de aflição, Ele coloca limites ao inimigo e nos cobre com Sua poderosa e infalível proteção.
-
-Para orar:
-
-Senhor Deus, agradeço por Tua fidelidade que nunca falha. Em meio às lutas, fortalece-me com Tua força e guarda-me do Maligno. Que minha fé permaneça firme, mesmo nos dias difíceis. Renova meu espírito, enche meu coração de paz e guia meus passos segundo Tua vontade. Confio em Ti, meu refúgio seguro. Em nome de Jesus, amém.
-
-Veja também: Versículos lindos sobre a fidelidade de Deus
+Senhor, use-me como um instrumento nas Tuas mãos. Que a minha vida possa ser um canal de bênção para os meus irmãos. Capacita-me a ajudar mais e mais. Amém!
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225173 characters
-INFO:root:HTML parsed, length: 223702 characters
+INFO:root:Response length: 224131 characters
+INFO:root:HTML parsed, length: 222684 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 24 URLs: ['/wiki/Governo_Artur_Bernardes', '/wiki/Governo_Artur_Bernardes', '/wiki/Partido_Republicano_Mineiro']
-INFO:root:Found 1 descriptions: ['O governo Artur Bernardes foi empossado em 15 de n']
+INFO:root:Found 1 descriptions: ['O governo Artur Bernardes iniciou-se em 15 de nove']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -355,7 +248,7 @@ INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
 INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Governo_Artur_Bernardes
-INFO:root:🔹 Description: O governo Artur Bernardes foi empossado em 15 de novembro de 1922, após a vitória do líder do Partido Republicano Mineiro (PRM) na eleição à Presidência da República do Brasil. Ele durou até 15 de novembro de 1926, quando transmitiu o poder a Washington Luís. Artur Bernardes, representante da política do café com leite e dos últimos anos da Primeira República, governou quase continuamente sob estado de sítio, ancorado na classe política, oligarquias rurais e urbanas e altas patentes das Forças Armadas contra uma série de revoltas militares tenentistas.
+INFO:root:🔹 Description: O governo Artur Bernardes iniciou-se em 15 de novembro de 1922, após a vitória do líder do Partido Republicano Mineiro (PRM) na eleição à Presidência da República do Brasil. Ele durou até 15 de novembro de 1926, quando transmitiu o poder a Washington Luís. Artur Bernardes, representante da política do café com leite e dos últimos anos da Primeira República, governou quase continuamente sob estado de sítio, ancorado na classe política, oligarquias rurais e urbanas e altas patentes das Forças Armadas contra uma série de revoltas militares tenentistas.
 Nas cidades, especialmente no Rio de Janeiro, o governo Bernardes foi impopular devido à inflação e à moeda depreciada pelos esquemas de valorização do café. A administração cortou despesas públicas, transformou o Banco do Brasil num banco emissor e buscou um empréstimo com banqueiros britânicos. As negociações foram infrutíferas, mas muitas das recomendações da missão de especialistas financeiros, liderada por Edwin Montagu, foram seguidas. Ao final de 1924 o governo expeliu os paulistas da direção da economia, abandonou o apoio federal à defesa do café e, através de uma política contracionista e recessiva, controlou o câmbio e a inflação às custas da produção industrial. (Leia mais...)
 
 
@@ -369,44 +262,44 @@ Artigos bons: 1915
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225173 characters
-INFO:root:HTML parsed, length: 223702 characters
-INFO:root:Found 1 titles: ['29 de junho na história']
-INFO:root:Found 56 URLs: ['/wiki/Ficheiro:Soyuz_11_crew.jpg', '/wiki/Festa_de_S%C3%A3o_Pedro_e_S%C3%A3o_Paulo', '/wiki/Cristianismo_ocidental']
-INFO:root:Found 1 descriptions: ['Soyuz 11\nFesta de São Pedro e São Paulo no cristia']
+INFO:root:Response length: 224131 characters
+INFO:root:HTML parsed, length: 222684 characters
+INFO:root:Found 1 titles: ['1 de julho na história']
+INFO:root:Found 50 URLs: ['/wiki/Ficheiro:Amalia_Rodrigues,_Bestanddeelnr_922-1813.jpg', '/wiki/Dia_do_Canad%C3%A1', '/wiki/Dia_da_Independ%C3%AAncia']
+INFO:root:Found 1 descriptions: ['Amália Rodrigues\nDia do Canadá (1867); Dia da Inde']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='29 de junho na história', ID=a984db73577446fd6a7ee8604df345a4
+INFO:root:Processing entry 1: Title='1 de julho na história', ID=f2f2de8c24de14b9fac531693e66d18f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 29 de junho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Soyuz_11_crew.jpg
-INFO:root:🔹 Description: Soyuz 11
-Festa de São Pedro e São Paulo no cristianismo ocidental; Dia da Independência das Seicheles (1976); Dia Internacional dos Trópicos (2016)
+INFO:root:🔹 Title: 1 de julho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Amalia_Rodrigues,_Bestanddeelnr_922-1813.jpg
+INFO:root:🔹 Description: Amália Rodrigues
+Dia do Canadá (1867); Dia da Independência de Ruanda (1962)
 
-1613 – O Globe Theatre, em Londres, onde William Shakespeare apresentou suas peças, é destruído por um incêndio.
-1971 – A cápsula da tripulação da missão Soyuz 11 se despressuriza antes da reentrada atmosférica, matando os cosmonautas Georgi Dobrovolski, Vladislav Volkov e Viktor Patsayev (imagem dos tripulantes), únicos humanos mortos no espaço.
-2014 – O Estado Islâmico do Iraque e do Levante se autodenomina califado da Síria e do norte do Iraque.
+1858 – On the Tendency of Species to form Varieties; and on the Perpetuation of Varieties and Species by Natural Means of Selection, conjunto de dois artigos científicos sobre a teoria da evolução de Charles Darwin e Alfred Russel Wallace, é apresentado pela primeira vez, diante de um grupo de naturalistas, na Sociedade Linneana de Londres.
+1967 – Entra em vigor o Tratado de Bruxelas, unificando a CEE, a CECA e a CEEA.
+2002 – É estabelecido na Haia o Tribunal Penal Internacional.
 Nasceram neste dia…
-Iúçufe I de Granada (1318–1354)  •  Rembert Dodoens (1517–1585)  •  Antoine de Saint-Exupéry (1900–1944)  •  Nicole Scherzinger (n. 1978)
+Amália Rodrigues (imagem) (1920–1999)  •  Sydney Pollack (1934–2008)  •  Diana, Princesa de Gales (1961–1997)  •  Maria Adelaide Amaral (n. 1942)
 Morreram neste dia…
-Margarida Beaufort (1443–1509)  •  Floriano Peixoto (1839–1895)  •  Paul Klee (1879–1940)  •  Katharine Hepburn (1907–2003)
+Delfim Moreira (1868–1920)  •  Erik Satie (1866–1925)  •  William Lawrence Bragg (1890–1971)  •  Anneliese Michel (1952–1976)
 
 
-Ver mais • Outros dias: 27 • 28 • 29 • 30 • 1 • Ver todos
+Ver mais • Outros dias: 29 • 30 • 1 • 2 • 3 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225173 characters
-INFO:root:HTML parsed, length: 223702 characters
+INFO:root:Response length: 224131 characters
+INFO:root:HTML parsed, length: 222684 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Lavant_St._Peter_und_Paul_Hochaltar_01.jpg']
-INFO:root:Found 1 descriptions: ['Altar da igreja dos santos Pedro e Paulo em Lavant']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:CN_Tower,_Toronto,_Canada_(Unsplash_DJ_kOgH5u0o).jpg']
+INFO:root:Found 1 descriptions: ['Vista da parte inferior da CN Tower, em Toronto, C']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lavant_St._Peter_und_Paul_Hochaltar_01.jpg/500px-Lavant_St._Peter_und_Paul_Hochaltar_01.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/CN_Tower%2C_Toronto%2C_Canada_%28Unsplash_DJ_kOgH5u0o%29.jpg/960px-CN_Tower%2C_Toronto%2C_Canada_%28Unsplash_DJ_kOgH5u0o%29.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -415,15 +308,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Lavant_St._Peter_und_Paul_Hochaltar_01.jpg
-INFO:root:🔹 Description: Altar da igreja dos santos Pedro e Paulo em Lavant, no Tirol Oriental, Áustria. Os dois santos estão representados no tríptico, ao lado da Virgem Maria.
-(resolução original: 7 621 × 7 621)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:CN_Tower,_Toronto,_Canada_(Unsplash_DJ_kOgH5u0o).jpg
+INFO:root:🔹 Description: Vista da parte inferior da CN Tower, em Toronto, Canadá. Concluída em 1976, é a terceira torre de telecomunicações mais alta do mundo.
+(resolução original: 5 582 × 3 721)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lavant_St._Peter_und_Paul_Hochaltar_01.jpg/500px-Lavant_St._Peter_und_Paul_Hochaltar_01.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/CN_Tower%2C_Toronto%2C_Canada_%28Unsplash_DJ_kOgH5u0o%29.jpg/960px-CN_Tower%2C_Toronto%2C_Canada_%28Unsplash_DJ_kOgH5u0o%29.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -448,21 +341,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  71 ++----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  31 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 +---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  19 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  56 +++--
+ feeds/salmo_do_dia/atom.xml               | 133 +++-------
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   5 +-
- feeds/wikidestaque/feed.json              |   4 +-
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/feed.json              |   2 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 382 +++++++++++++-----------------
- 17 files changed, 295 insertions(+), 380 deletions(-)
+ output.log                                | 405 +++++++++++-------------------
+ 17 files changed, 247 insertions(+), 480 deletions(-)
