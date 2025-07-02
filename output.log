@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120654 characters
-INFO:root:HTML parsed, length: 113239 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (01/07/2025)', 'Palavra de Ontem (30/06/2025)', 'Palavra de Anteontem (29/06/2025)']
-INFO:root:Found 3 URLs: ['/persuasivo/', '/revidar/', '/tenue/']
-INFO:root:Found 16 descriptions: ['adjetivo Que tem facilidade de convencer, influenc', 'Sinônimos:\n\npersuasório, suasivo, convincente, sua', 'Antônimos:\n\ndissuasório']
-INFO:root:Found 3 dates: ['Palavra de Hoje (01/07/2025)', 'Palavra de Ontem (30/06/2025)', 'Palavra de Anteontem (29/06/2025)']
+INFO:root:Response length: 120359 characters
+INFO:root:HTML parsed, length: 113129 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (02/07/2025)', 'Palavra de Ontem (01/07/2025)', 'Palavra de Anteontem (30/06/2025)']
+INFO:root:Found 3 URLs: ['/ambito/', '/persuasivo/', '/revidar/']
+INFO:root:Found 15 descriptions: ['substantivo masculino Campo de atuação; domínio, á', 'Sinônimos:\n\ncircunferência, círculo, perímetro, re', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (02/07/2025)', 'Palavra de Ontem (01/07/2025)', 'Palavra de Anteontem (30/06/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (01/07/2025)', ID=d83d0abbb944e47a840455b3bc4a7b08
-INFO:root:Processing entry 2: Title='Palavra de Ontem (30/06/2025)', ID=420b06981a1a4dec028e64203aaea4ab
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/06/2025)', ID=88ef3be316b3d5c9dedcb922b4ebbb13
+INFO:root:Processing entry 1: Title='Palavra de Hoje (02/07/2025)', ID=976b9662324adef3f92315b786bb2619
+INFO:root:Processing entry 2: Title='Palavra de Ontem (01/07/2025)', ID=9749274ced0214fd39ccb908766e52ae
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/06/2025)', ID=16612bca9410e877e6dc9779a0d26364
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (01/07/2025) - Significado completo de persuasivo:
-INFO:root:🔹 URL: https://www.dicio.com.br/persuasivo/
-INFO:root:🔹 Description: adjetivo Que tem facilidade de convencer, influenciando alguém a fazer certa coisa, a acreditar em determinada crença, a mudar de opinião ou de comportamento.Que possui grande habilidade para persuadir, para induzir alguém a fazer algo.Etimologia (origem da palavra persuasivo). Do latim persuasivus.a.um.
+INFO:root:🔹 Title: Palavra de Hoje (02/07/2025) - Significado completo de âmbito:
+INFO:root:🔹 URL: https://www.dicio.com.br/ambito/
+INFO:root:🔹 Description: substantivo masculino Campo de atuação; domínio, área, linha: âmbito jurídico.[Figurado] Origem desse domínio ou de um campo de ação: é do âmbito do governo zelar pela segurança do povo.Espaço físico onde acontece algum tipo de trabalho, ocupação ou diversas atividades: as atividades educativas ocorrem em âmbito escolar.Área que circunda ou envolve algo; recinto.Área situada dentro de um limite definido: somente poderá circular na biblioteca quem pertencer ao âmbito da faculdade.Etimologia (origem da palavra âmbito). A palavra âmbito deriva do latim "ambitus,us", que significa circuito.
  
 Sinônimos:
 
-persuasório, suasivo, convincente, suasório 
+circunferência, círculo, perímetro, recinto, espaço, ambiente, esfera, campo, domínio, área, linha, setor, dimensão, extensão, plano 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (30/06/2025) - Significado completo de revidar:
-INFO:root:🔹 URL: https://www.dicio.com.br/revidar/
+INFO:root:🔹 Title: Palavra de Ontem (01/07/2025) - Significado completo de persuasivo:
+INFO:root:🔹 URL: https://www.dicio.com.br/persuasivo/
 INFO:root:🔹 Description: Sinônimos:
 
-persuasório, suasivo, convincente, suasório
- 
-Antônimos:
-
-dissuasório 
-
+circunferência, círculo, perímetro, recinto, espaço, ambiente, esfera, campo, domínio, área, linha, setor, dimensão, extensão, plano
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (29/06/2025) - Significado completo de tênue:
-INFO:root:🔹 URL: https://www.dicio.com.br/tenue/
-INFO:root:🔹 Description: Antônimos:
-
-dissuasório
- Classe gramatical:adjetivo
+INFO:root:🔹 Title: Palavra de Anteontem (30/06/2025) - Significado completo de revidar:
+INFO:root:🔹 URL: https://www.dicio.com.br/revidar/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:âm-bi-to
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,66 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243192 characters
-INFO:root:HTML parsed, length: 232514 characters
-INFO:root:Found 1 titles: ['2 Pedro 3:8']
-INFO:root:Found 1 URLs: ['/versiculo/2_pedro_3_8/']
-INFO:root:Found 1 descriptions: ['Não se esqueçam disto, amados: para o Senhor um di']
+INFO:root:Response length: 243534 characters
+INFO:root:HTML parsed, length: 232835 characters
+INFO:root:Found 1 titles: ['2 Coríntios 6:14']
+INFO:root:Found 1 URLs: ['/versiculo/2_corintios_6_14/']
+INFO:root:Found 1 descriptions: ['Não se ponham em jugo desigual com descrentes. Poi']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Pedro 3:8', ID=c0ae2c75ae9352b94b36cd565fc67b4b
+INFO:root:Processing entry 1: Title='2 Coríntios 6:14', ID=ab505d8edfebb7103516722013d788a8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Pedro 3:8
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_pedro_3_8/
-INFO:root:🔹 Description: Não se esqueçam disto, amados: para o Senhor um dia é como mil anos, e mil anos como um dia. 2 Pedro 3:8
+INFO:root:🔹 Title: 2 Coríntios 6:14
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_corintios_6_14/
+INFO:root:🔹 Description: Não se ponham em jugo desigual com descrentes. Pois o que têm em comum a justiça e a maldade? Ou que comunhão pode ter a luz com as trevas? 2 Coríntios 6:14
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 242182 characters
-INFO:root:HTML parsed, length: 232209 characters
-INFO:root:Found 3 titles: ['Salmo 75', 'Salmo 16', 'Salmo 120']
-INFO:root:Found 3 URLs: ['/salmos_75/', '/salmos_16/', '/salmos_120/']
-INFO:root:Found 3 descriptions: ['Damos-te graças, ó Deus,\ndamos-te graças, pois per', 'Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen', 'Eu clamo pelo Senhor na minha angústia,\ne ele me r']
-INFO:root:Found 3 dates: ['1 de Julho de 2025', '30 de Junho de 2025', '29 de Junho de 2025']
+INFO:root:Response length: 242673 characters
+INFO:root:HTML parsed, length: 232684 characters
+INFO:root:Found 3 titles: ['Salmo 110', 'Salmo 75', 'Salmo 16']
+INFO:root:Found 3 URLs: ['/salmos_110/', '/salmos_75/', '/salmos_16/']
+INFO:root:Found 3 descriptions: ['O Senhor disse ao meu Senhor:\n"Senta-te à minha di', 'Damos-te graças, ó Deus,\ndamos-te graças, pois per', 'Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen']
+INFO:root:Found 3 dates: ['2 de Julho de 2025', '1 de Julho de 2025', '30 de Junho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 75', ID=c2d6745375247eaf0fba5b419098a069
-INFO:root:Processing entry 2: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
-INFO:root:Processing entry 3: Title=' Salmo 120', ID=49152a5bfdcdab894006a944c5e2cf87
+INFO:root:Processing entry 1: Title=' Salmo 110', ID=4a28a37e04a23862302f45e5b61a9821
+INFO:root:Processing entry 2: Title=' Salmo 75', ID=c2d6745375247eaf0fba5b419098a069
+INFO:root:Processing entry 3: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 110
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_110/
+INFO:root:🔹 Description: O Senhor disse ao meu Senhor:
+"Senta-te à minha direita
+até que eu faça dos teus inimigos
+um estrado para os teus pés". 
+O Senhor estenderá
+o cetro de teu poder desde Sião,
+e dominarás sobre os teus inimigos! 
+Quando convocares as tuas tropas,
+o teu povo se apresentará voluntariamente.
+Trajando vestes santas,
+desde o romper da alvorada
+os teus jovens virão como o orvalho. 
+O Senhor jurou e não se arrependerá:
+"Tu és sacerdote para sempre,
+segundo a ordem de Melquisedeque". 
+O Senhor está à tua direita;
+ele esmagará reis no dia da sua ira. 
+Julgará as nações, amontoando os mortos
+e esmagando governantes
+em toda a extensão da terra. 
+No caminho beberá de um ribeiro,
+e então erguerá a cabeça. 
+ Salmo 110
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 75
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_75/
 INFO:root:🔹 Description: Damos-te graças, ó Deus,
@@ -146,95 +166,77 @@ a alegria plena da tua presença,
 eterno prazer à tua direita. 
  Salmo 16
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 120
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_120/
-INFO:root:🔹 Description: Eu clamo pelo Senhor na minha angústia,
-e ele me responde. 
-Senhor, livra-me dos lábios mentirosos
-e da língua traiçoeira! 
-O que ele dará a você?
-Como lhe retribuirá, ó língua enganadora? 
-Ele a castigará
-com flechas afiadas de guerreiro,
-com brasas incandescentes de sândalo. 
-Ai de mim, que vivo como estrangeiro
-em Meseque,
-que habito entre as tendas de Quedar! 
-Tenho vivido tempo demais
-entre os que odeiam a paz. 
-Sou um homem de paz;
-mas, ainda que eu fale de paz,
-eles só falam de guerra. 
- Salmo 120
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245373 characters
-INFO:root:HTML parsed, length: 235080 characters
-INFO:root:Found 3 titles: ['Valorize o que Deus já te deu', 'Silencie as brigas', 'Em busca da felicidade']
+INFO:root:Response length: 245644 characters
+INFO:root:HTML parsed, length: 235338 characters
+INFO:root:Found 3 titles: ['Quando até os inimigos reconhecem Deus', 'Valorize o que Deus já te deu', 'Silencie as brigas']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Em meio aos desejos não realizados e aos sonhos ai', 'Às vezes, a gente fala sem pensar ou deixa o orgul', 'Se vocês obedecerem aos meus mandamentos, permanec']
-INFO:root:Found 1 dates: ['Terça, 1 de julho de 2025']
+INFO:root:Found 3 descriptions: ['"Louvado seja o Deus de Sadraque, Mesaque e Abede-', 'O Senhor é a minha força e o meu escudo;\nnele o me', 'Às vezes, a gente fala sem pensar ou deixa o orgul']
+INFO:root:Found 1 dates: ['Quarta, 2 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Valorize o que Deus já te deu', ID=9131c6e9b9d85d52853df9fe8e279952
+INFO:root:Processing entry 1: Title='Quando até os inimigos reconhecem Deus', ID=a2ee5fca56be3f6c420e2a59b6bb548b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Valorize o que Deus já te deu - Palavra de Hoje
+INFO:root:🔹 Title: Quando até os inimigos reconhecem Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Em meio aos desejos não realizados e aos sonhos ainda não alcançados, é fácil esquecer o quanto já fomos abençoados por Deus. Muitas vezes, nossos olhos estão tão voltados para o que ainda queremos conquistar, que deixamos de enxergar o valor do que já possuímos. Mas hoje, Deus te convida a parar por um momento e reconhecer: você já tem muito mais do que imagina.
-Você tem vida, e isso já é um milagre. O simples fato de acordar hoje é uma prova do cuidado e do amor de Deus. Há pessoas que dariam tudo para ter o que você tem: uma família, saúde, amigos, um lar, alimento na mesa, ou até mesmo a fé que te sustenta. Cada detalhe da sua vida é uma dádiva que o Senhor te confiou.
-A Bíblia nos ensina que “quem é fiel no pouco, também é fiel no muito”. Quando aprendemos a valorizar o pouco, aquilo que já está em nossas mãos, abrimos espaço para que Deus confie a nós coisas maiores. A gratidão é uma chave poderosa que destranca portas de bênçãos e multiplica aquilo que temos.
-Não permita que a comparação ou a ansiedade te roubem a alegria do momento. Olhe ao redor com um coração grato. Louve a Deus não apenas pelo que virá, mas pelo que Ele já fez e está fazendo em sua vida agora. Valorizar o que temos é reconhecer a mão de Deus em cada detalhe da nossa história.
-Escolha ser grato. Celebre as bênçãos que você já tem. Porque quando você valoriza o que Deus já te deu, você demonstra que está pronto para viver ainda mais daquilo que Ele preparou para você.
-Agradeça a Deus por mais um dia, veja: Mensagens de gratidão a Deus por mais um dia.
+INFO:root:🔹 Description: "Louvado seja o Deus de Sadraque, Mesaque e Abede-Nego, que enviou o seu anjo e livrou os seus servos! Eles confiaram nele, desafiaram a ordem do rei, preferindo abrir mão de sua vida a prestar culto e adorar a outro deus que não fosse o seu próprio Deus.
+- Daniel 3:28 
+
+Esse louvor não saiu da boca de um profeta ou sacerdote, mas do rei que ordenou que Sadraque, Mesaque e Abede-Nego fossem lançados na fornalha ardente. Nabucodonosor, o mesmo que havia exigido adoração à sua estátua, reconheceu o Deus dos três jovens como o verdadeiro e poderoso Senhor.
+O que provocou essa mudança? A fidelidade inabalável de Sadraque, Mesaque e Abede-Nego. Eles preferiram enfrentar a morte a negar seu Deus. E no meio da fornalha, Deus não apenas os livrou, mas se fez presente. O rei viu “um quarto homem”, semelhante a um filho dos deuses, andando com eles no fogo. O milagre não foi apenas o livramento, mas a manifestação de Deus naquele meio.
+Esse episódio nos lembra que a nossa fidelidade em tempos de prova pode ser o maior testemunho da grandeza de Deus. Quando permanecemos firmes, mesmo sob pressão, mesmo sendo ridicularizados, rejeitados ou injustiçados, Deus se manifesta, e até os que nos perseguem podem ser impactados.
+Muitas vezes, buscamos aprovação, queremos ser entendidos e aceitos. Mas há momentos em que nossa firmeza e fé silenciosa falam mais alto do que palavras. E é justamente nesses momentos que o céu se abre, a glória de Deus se revela e corações antes endurecidos são tocados.
+Se você permanecer fiel, Deus será visto na sua vida, até por quem tentou apagar sua fé. Porque o fogo não destrói quem anda com Deus; ele revela quem Ele é. 
+Saiba mais sobre esta história: Os três jovens jogados na fornalha: a história explicada (Estudo Bíblico)
  
-Começar uma discussão
-é como abrir brecha num dique;
-por isso resolva a questão
-antes que surja a contenda.
-Provérbios 17:14
+"Louvado seja o Deus de Sadraque, Mesaque e Abede-Nego, que enviou o seu anjo e livrou os seus servos! Eles confiaram nele, desafiaram a ordem do rei, preferindo abrir mão de sua vida a prestar culto e adorar a outro deus que não fosse o seu próprio Deus.
+- Daniel 3:28 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 253255 characters
-INFO:root:HTML parsed, length: 242739 characters
-INFO:root:Found 3 titles: ['Continue amando!', 'Seja gentil e equilibrado pelo amor de Deus', 'A fidelidade do Senhor']
-INFO:root:Found 1 URLs: ['/versiculos_lindos_fidelidade_de_deus/']
-INFO:root:Found 3 descriptions: ['Seja constante o amor fraternal.\nHebreus 13:1\xa0\n\nAs', 'Que a moderação de vocês seja conhecida por todos.', 'Vivemos em um mundo marcado por incertezas, onde o']
-INFO:root:Found 3 dates: ['JULHO\n\n1\nTERÇA', 'JUNHO\n\n30\nSEGUNDA', 'JUNHO\n\n29\nDOMINGO']
+INFO:root:Response length: 252660 characters
+INFO:root:HTML parsed, length: 242126 characters
+INFO:root:Found 3 titles: ['Devocional Diário: Não cai uma folha da árvore se Deus não deixar', 'Continue amando!', 'Seja gentil e equilibrado pelo amor de Deus']
+INFO:root:Found 1 URLs: ['/nao_cai_uma_folha_da_arvore_se_deus_nao_permitir_onde_esta_escrito/']
+INFO:root:Found 3 descriptions: ['A frase "Não cai uma folha da árvore se Deus não d', 'Seja constante o amor fraternal.\nHebreus 13:1\xa0\n\nAs', 'Que a moderação de vocês seja conhecida por todos.']
+INFO:root:Found 3 dates: ['JULHO\n\n2\nQUARTA', 'JULHO\n\n1\nTERÇA', 'JUNHO\n\n30\nSEGUNDA']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Continue amando!', ID=df945a3666fa2429200d5f088df41196
+INFO:root:Processing entry 1: Title='Devocional Diário: Não cai uma folha da árvore se Deus não deixar', ID=03d03bad93cba76f8a38e3e29564049d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Continue amando!
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_lindos_fidelidade_de_deus/
-INFO:root:🔹 Description: Seja constante o amor fraternal.
-Hebreus 13:1 
+INFO:root:🔹 Title: Devocional Diário: Não cai uma folha da árvore se Deus não deixar
+INFO:root:🔹 URL: https://www.bibliaon.com/nao_cai_uma_folha_da_arvore_se_deus_nao_permitir_onde_esta_escrito/
+INFO:root:🔹 Description: A frase "Não cai uma folha da árvore se Deus não deixar" nos lembra que Deus está sempre no controle das coisas. Isso significa que nada acontece sem que Ele permita. Assim como uma folha não cai da árvore sem que Deus deixe, as coisas na nossa vida também acontecem conforme o que Ele quer.
 
-Assim como Deus nos ama - e permanece nos amando - é importante amarmos os nossos irmãos em Cristo. Às vezes temos compaixão de pessoas desconhecidas e deixamos de dar atenção aos nossos amigos próximos.
-Há momentos que é necessário chorar quando o momento é triste, mas também sorrir quando o momento é de júbilo (Romanos 12:15). Essa ajuda pode ser um tempo dedicado a ouvi-lo, uma oração ou até mesmo um conselho. O amor fraternal nos mantém unidos e onde há dois reunidos no nome de Jesus, Ele está presente (Mateus 18:20). 
-Invista tempo e amor para com os seus amigos. Jesus - o nosso maior amigo - dedicou a Sua vida para nos salvar, dedique-se no amor fraternal. 
-Cultivando o amor fraternal
+Todas as árvores do campo saberão que eu, o Senhor, faço cair a árvore alta e faço crescer bem alto a árvore baixa. Eu resseco a árvore verde e faço florescer a árvore seca. "Eu, o Senhor, falei, e o farei".
+- Ezequiel 17:24
 
-Procure manter contato com os seus amigos regularmente. Esteja próximo. 
-Repare nos detalhes, mostre-se disponível para ajudar o seu irmão. 
-Incentive os seus amigos a se dedicarem a Deus, o esforço na fé nos une. 
+Este ditado nos faz pensar em confiar mais em Deus e não se preocupar tanto com os problemas em nossa volta. Mesmo quando as coisas estão difíceis, podemos confiar que Ele está cuidando de nós. Também nos lembra que precisamos de Deus para tudo. Assim como uma folha precisa da árvore para viver, nós precisamos de Deus para nos sustentar e nos proteger.
+Podemos ficar tranquilos sabendo que Deus está cuidando de nós em todas as situações!
+Confie em Deus! 
 
-Para Orar: 
+Confie em sua sabedoria e amor para guiar você através de todas as situações. Deus está no controle.
+Ao invés de se preocupar com o futuro, entregue suas preocupações a Deus. Confie que Ele tem um plano para sua vida e cuidará de você. 
+Cultive uma atitude de gratidão em todas as circunstâncias. Seja grato por todas as bênçãos que Ele proporciona.
 
-Senhor, use-me como um instrumento nas Tuas mãos. Que a minha vida possa ser um canal de bênção para os meus irmãos. Capacita-me a ajudar mais e mais. Amém!
+Para orar:
+
+Senhor, confio em Teu cuidado constante. Guia-me através das estações da minha vida com Tua sabedoria infinita. Ajuda-me a abandonar a ansiedade e a cultivar uma fé inabalável em Tua providência. Que eu sempre reconheça e agradeça por Tuas bênçãos em minha vida. Amém.
+
+Veja também: Não cai uma folha da árvore se Deus não permitir: o versículo existe?
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224131 characters
-INFO:root:HTML parsed, length: 222684 characters
+INFO:root:Response length: 224124 characters
+INFO:root:HTML parsed, length: 222677 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 24 URLs: ['/wiki/Governo_Artur_Bernardes', '/wiki/Governo_Artur_Bernardes', '/wiki/Partido_Republicano_Mineiro']
 INFO:root:Found 1 descriptions: ['O governo Artur Bernardes iniciou-se em 15 de nove']
@@ -258,12 +260,12 @@ Compartilhe:
 
 
 Artigos destacados: 1503 •
-Artigos bons: 1915
+Artigos bons: 1916
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224131 characters
-INFO:root:HTML parsed, length: 222684 characters
+INFO:root:Response length: 224124 characters
+INFO:root:HTML parsed, length: 222677 characters
 INFO:root:Found 1 titles: ['1 de julho na história']
 INFO:root:Found 50 URLs: ['/wiki/Ficheiro:Amalia_Rodrigues,_Bestanddeelnr_922-1813.jpg', '/wiki/Dia_do_Canad%C3%A1', '/wiki/Dia_da_Independ%C3%AAncia']
 INFO:root:Found 1 descriptions: ['Amália Rodrigues\nDia do Canadá (1867); Dia da Inde']
@@ -293,8 +295,8 @@ Ver mais • Outros dias: 29 • 30 • 1 • 2 • 3 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224131 characters
-INFO:root:HTML parsed, length: 222684 characters
+INFO:root:Response length: 224124 characters
+INFO:root:HTML parsed, length: 222677 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:CN_Tower,_Toronto,_Canada_(Unsplash_DJ_kOgH5u0o).jpg']
 INFO:root:Found 1 descriptions: ['Vista da parte inferior da CN Tower, em Toronto, C']
@@ -334,28 +336,24 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M feeds/wikidestaque/atom.xml
  M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 +---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  19 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  25 +--
+ feeds/devocional_de_hoje/feed.json        |   8 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 133 +++-------
+ feeds/palavra_do_dia/atom.xml             |  18 +--
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  45 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/atom.xml               |   4 +-
  feeds/wikidestaque/feed.json              |   2 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 405 +++++++++++-------------------
- 17 files changed, 247 insertions(+), 480 deletions(-)
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 244 ++++++++++++++----------------
+ 15 files changed, 204 insertions(+), 220 deletions(-)
