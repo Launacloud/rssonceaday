@@ -1,40 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120527 characters
-INFO:root:HTML parsed, length: 113227 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (07/07/2025)', 'Palavra de Ontem (06/07/2025)', 'Palavra de Anteontem (05/07/2025)']
-INFO:root:Found 3 URLs: ['/emprego/', '/debulhar/', '/lisonjeado/']
-INFO:root:Found 14 descriptions: ['substantivo masculino Ato ou efeito de empregar, a', 'Sinônimos:\n\nocupação, ofício, serviço, tarefa, tra', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (07/07/2025)', 'Palavra de Ontem (06/07/2025)', 'Palavra de Anteontem (05/07/2025)']
+INFO:root:Response length: 119147 characters
+INFO:root:HTML parsed, length: 112421 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (08/07/2025)', 'Palavra de Ontem (07/07/2025)', 'Palavra de Anteontem (06/07/2025)']
+INFO:root:Found 3 URLs: ['/gincana/', '/emprego/', '/debulhar/']
+INFO:root:Found 12 descriptions: ['substantivo feminino Conjunto de provas disputadas', 'Classe gramatical:substantivo feminino', 'Sílabas:gin-ca-na']
+INFO:root:Found 3 dates: ['Palavra de Hoje (08/07/2025)', 'Palavra de Ontem (07/07/2025)', 'Palavra de Anteontem (06/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (07/07/2025)', ID=5994793ea9c6d220f10f95fd84469ed4
-INFO:root:Processing entry 2: Title='Palavra de Ontem (06/07/2025)', ID=95582b32f989f059a4a98c72a3751b97
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (05/07/2025)', ID=18b85fcb4d31cea348ed14b88192fef8
+INFO:root:Processing entry 1: Title='Palavra de Hoje (08/07/2025)', ID=705361279d8eaf351c4a0df80a9a0fb4
+INFO:root:Processing entry 2: Title='Palavra de Ontem (07/07/2025)', ID=923eb82c4ef56c8099e41a1c7aba9c48
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/07/2025)', ID=b53160bfce76c419a6525d2b8e04b8bc
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (07/07/2025) - Significado completo de emprego:
+INFO:root:🔹 Title: Palavra de Hoje (08/07/2025) - Significado completo de gincana:
+INFO:root:🔹 URL: https://www.dicio.com.br/gincana/
+INFO:root:🔹 Description: substantivo feminino Conjunto de provas disputadas entre grupos, em que os concorrentes devem seguir um percurso complicado e entremeado de obstáculos que resultam em incidentes cômicos.[Por Extensão] Competição em que os participantes (individual ou equipe) precisam responder perguntas ou cumprir tarefas.Etimologia (origem da palavra gincana). Do inglês gymkhana; pelo hindi gend-khâna.
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (07/07/2025) - Significado completo de emprego:
 INFO:root:🔹 URL: https://www.dicio.com.br/emprego/
-INFO:root:🔹 Description: substantivo masculino Ato ou efeito de empregar, atribuir uma colocação ou função a alguém; que fazer com essa pessoa trabalhe; trabalho.Função ou cargo que alguém ocupa: emprego público.Prática ou aplicação de alguma coisa; uso, aplicação: emprego conveniente do capital.Lugar onde se trabalha: hoje vou almoçar no emprego.[Linguística] Utilização de uma palavra numa sentença com um sentido próprio: emprego de uma palavra com ironia.Etimologia (origem da palavra emprego). Forma derivada de empregar.
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:gin-ca-na
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (06/07/2025) - Significado completo de debulhar:
+INFO:root:🔹 URL: https://www.dicio.com.br/debulhar/
+INFO:root:🔹 Description: Sílabas:gin-ca-na
  
 Sinônimos:
 
 ocupação, ofício, serviço, tarefa, trabalho, aplicação, uso, utilização, serventia 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (06/07/2025) - Significado completo de debulhar:
-INFO:root:🔹 URL: https://www.dicio.com.br/debulhar/
-INFO:root:🔹 Description: Sinônimos:
-
-ocupação, ofício, serviço, tarefa, trabalho, aplicação, uso, utilização, serventia
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (05/07/2025) - Significado completo de lisonjeado:
-INFO:root:🔹 URL: https://www.dicio.com.br/lisonjeado/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:em-pre-go
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,41 +40,89 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243575 characters
-INFO:root:HTML parsed, length: 232876 characters
-INFO:root:Found 1 titles: ['Amós 3:3']
-INFO:root:Found 1 URLs: ['/versiculo/amos_3_3/']
-INFO:root:Found 1 descriptions: ['Duas pessoas andarão juntas\nse não estiverem de ac']
+INFO:root:Response length: 243450 characters
+INFO:root:HTML parsed, length: 232751 characters
+INFO:root:Found 1 titles: ['Ezequiel 36:26']
+INFO:root:Found 1 URLs: ['/versiculo/ezequiel_36_26/']
+INFO:root:Found 1 descriptions: ['Darei a vocês um coração novo e porei um espírito ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Amós 3:3', ID=6c66abe08602b442cde779084388b4ff
+INFO:root:Processing entry 1: Title='Ezequiel 36:26', ID=d2ebb24572e07ab1d985b36c3d638ef3
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Amós 3:3
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/amos_3_3/
-INFO:root:🔹 Description: Duas pessoas andarão juntas
-se não estiverem de acordo? Amós 3:3
+INFO:root:🔹 Title: Ezequiel 36:26
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/ezequiel_36_26/
+INFO:root:🔹 Description: Darei a vocês um coração novo e porei um espírito novo em vocês; tirarei de vocês o coração de pedra e, em troca, darei um coração de carne. Ezequiel 36:26
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 242539 characters
-INFO:root:HTML parsed, length: 232545 characters
-INFO:root:Found 3 titles: ['Salmo 8', 'Salmo 23', 'Salmo 2']
-INFO:root:Found 3 URLs: ['/salmos_8/', '/salmos_23/', '/salmos_2/']
-INFO:root:Found 3 descriptions: ['Senhor, Senhor nosso,\ncomo é majestoso o teu nome ', 'O Senhor é o meu pastor; de nada terei falta. \nEm ', 'Por que se amotinam as nações\ne os povos tramam em']
-INFO:root:Found 3 dates: ['7 de Julho de 2025', '6 de Julho de 2025', '5 de Julho de 2025']
+INFO:root:Response length: 243130 characters
+INFO:root:HTML parsed, length: 233147 characters
+INFO:root:Found 3 titles: ['Salmo 132', 'Salmo 8', 'Salmo 23']
+INFO:root:Found 3 URLs: ['/salmos_132/', '/salmos_8/', '/salmos_23/']
+INFO:root:Found 3 descriptions: ['Senhor, lembra-te de Davi\ne das dificuldades que e', 'Senhor, Senhor nosso,\ncomo é majestoso o teu nome ', 'O Senhor é o meu pastor; de nada terei falta. \nEm ']
+INFO:root:Found 3 dates: ['8 de Julho de 2025', '7 de Julho de 2025', '6 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
-INFO:root:Processing entry 2: Title=' Salmo 23', ID=55cf3da6e8cae97ccf3b295406df8fc3
-INFO:root:Processing entry 3: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
+INFO:root:Processing entry 1: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
+INFO:root:Processing entry 2: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
+INFO:root:Processing entry 3: Title=' Salmo 23', ID=55cf3da6e8cae97ccf3b295406df8fc3
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 132
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_132/
+INFO:root:🔹 Description: Senhor, lembra-te de Davi
+e das dificuldades que enfrentou. 
+Ele jurou ao Senhor
+e fez um voto ao Poderoso de Jacó: 
+"Não entrarei na minha tenda
+nem me deitarei no meu leito; 
+não permitirei
+que os meus olhos peguem no sono
+nem que as minhas pálpebras descansem, 
+enquanto não encontrar
+um lugar para o Senhor,
+uma habitação para o Poderoso de Jacó". 
+Soubemos que a arca estava em Efrata,
+mas nós a encontramos nos campos de Jaar: 
+"Vamos para a habitação do Senhor!
+Vamos adorá-lo diante do estrado de seus pés! 
+Levanta-te, Senhor,
+e vem para o teu lugar de descanso,
+tu e a arca onde está o teu poder. 
+Vistam-se de retidão os teus sacerdotes;
+cantem de alegria os teus fiéis". 
+Por amor ao teu servo Davi,
+não rejeites o teu ungido. 
+O Senhor fez um juramento a Davi,
+um juramento firme que ele não revogará:
+"Colocarei um dos seus descendentes
+no seu trono. 
+Se os seus filhos forem fiéis à minha aliança
+e aos testemunhos que eu lhes ensino,
+também os filhos deles
+o sucederão no trono para sempre". 
+O Senhor escolheu Sião,
+com o desejo de fazê-la sua habitação: 
+"Este será o meu lugar de descanso
+para sempre;
+aqui firmarei o meu trono,
+pois esse é o meu desejo. 
+Abençoarei este lugar com fartura;
+os seus pobres suprirei de pão. 
+Vestirei de salvação os seus sacerdotes
+e os seus fiéis a celebrarão com grande alegria. 
+"Ali farei renascer o poder de Davi
+e farei brilhar a luz do meu ungido. 
+Vestirei de vergonha os seus inimigos,
+mas nele brilhará a sua coroa". 
+ Salmo 132
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 8
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_8/
 INFO:root:🔹 Description: Senhor, Senhor nosso,
@@ -129,71 +175,36 @@ me acompanharão todos os dias da minha vida,
 e voltarei à casa do Senhor enquanto eu viver. 
  Salmo 23
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 2
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_2/
-INFO:root:🔹 Description: Por que se amotinam as nações
-e os povos tramam em vão? 
-Os reis da terra tomam posição
-e os governantes conspiram unidos
-contra o Senhor e contra o seu ungido,
-e dizem: 
-"Façamos em pedaços as suas correntes,
-lancemos de nós as suas algemas!" 
-Do seu trono nos céus o Senhor põe-se a rir e caçoa deles. 
-Em sua ira os repreende
-e em seu furor os aterroriza, dizendo: 
-"Eu mesmo estabeleci o meu rei
-em Sião, no meu santo monte". 
-Proclamarei o decreto do Senhor:
-Ele me disse: "Tu és meu filho;
-eu hoje te gerei. 
-Pede-me, e te darei as nações como herança
-e os confins da terra como tua propriedade. 
-Tu as quebrarás com vara de ferro
-e as despedaçarás como a um vaso de barro". 
-Por isso, ó reis, sejam prudentes;
-aceitem a advertência, autoridades da terra. 
-Adorem o Senhor com temor;
-exultem com tremor. 
-Beijem o filho, para que ele não se ire
-e vocês não sejam destruídos de repente,
-pois num instante acende-se a sua ira.
-Como são felizes todos os que nele se refugiam! 
- Salmo 2
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 246329 characters
-INFO:root:HTML parsed, length: 236020 characters
-INFO:root:Found 3 titles: ['Permaneçam firmes no Senhor, mesmo que estejam cercados por leões', 'Não deixe seu amor esfriar', 'Ele levou sobre si as nossas dores']
+INFO:root:Response length: 246576 characters
+INFO:root:HTML parsed, length: 236262 characters
+INFO:root:Found 3 titles: ['Alegre-se, você foi escolhido!', 'Permaneçam firmes no Senhor, mesmo que estejam cercados por leões', 'Não deixe seu amor esfriar']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O meu Deus enviou o seu anjo, que fechou a boca do', '"Como o Pai me amou, assim eu os amei; permaneçam ', 'Certamente ele tomou sobre si\nas nossas enfermidad']
-INFO:root:Found 1 dates: ['Segunda, 7 de julho de 2025']
+INFO:root:Found 3 descriptions: ['Vocês não me escolheram, mas eu os escolhi para ir', 'O meu Deus enviou o seu anjo, que fechou a boca do', '"Como o Pai me amou, assim eu os amei; permaneçam ']
+INFO:root:Found 1 dates: ['Terça, 8 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Permaneçam firmes no Senhor, mesmo que estejam cercados por leões', ID=2d78510aba9a1bd85c6289c9b53c69d2
+INFO:root:Processing entry 1: Title='Alegre-se, você foi escolhido!', ID=323d1cac4574e2ac9b3ecac63774f8db
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Permaneçam firmes no Senhor, mesmo que estejam cercados por leões - Palavra de Hoje
+INFO:root:🔹 Title: Alegre-se, você foi escolhido! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O meu Deus enviou o seu anjo, que fechou a boca dos leões. Eles não me fizeram mal algum, pois fui considerado inocente à vista de Deus. Também contra ti não cometi mal algum, ó rei".
-- Daniel 6:22 
+INFO:root:🔹 Description: Vocês não me escolheram, mas eu os escolhi para irem e darem fruto, fruto que permaneça, a fim de que o Pai conceda a vocês o que pedirem em meu nome.
+- João 15:16
 
-Há momentos na vida em que parece que os problemas vêm de todos os lados. Todos nós passamos por essas fases, e são momentos que nos esgotam física, emocional e espiritualmente. É nesses momentos que verdadeiramente demonstramos a profundidade da nossa fé em Deus.
-Na Bíblia, lemos sobre Daniel e como ele enfrentou oposição e problemas. Ele vivia em uma sociedade pagã, mas sua fé em Deus nunca vacilou. Quando atacado, ele se voltou para Deus em busca de encorajamento e permaneceu firme em sua fé. Justamente por ser fiel a Deus, ele foi literalmente jogado em uma cova cheia de leões famintos.
-A Bíblia não nos conta sobre Daniel gritando histericamente ou revidando contra aqueles que queriam jogá-lo na cova. O que sabemos é que ele continuou a confiar em Deus e não tentou escapar dos leões mentindo ou comprometendo sua fé. Ele sabia a quem servia: o Deus Todo-Poderoso que o amava, o ajudava em todas as coisas e era capaz de livrá-lo do ataque de seus inimigos. Ele permaneceu firme no Senhor, e Deus o livrou dos leões famintos.
-Enfrentemos os problemas da vida com fé, firmes no Senhor, sabendo que Ele cuida de nós, nos ama e agirá no Seu tempo. Não duvidemos do amor de Deus. Em meio às dificuldades diárias, elevemos nossos olhos e nossas orações a Deus com confiança. Ele não nos decepcionará.
-O Senhor cuida da vida dos íntegros,
-e a herança deles permanecerá para sempre.
+Ser escolhido é um desejo profundo no coração de todo ser humano. Quando somos jovens, ansiamos que nossos pais nos escolham para passar tempo conosco. Depois, quando começamos a escola, queremos ser escolhidos no recreio para brincar e nos divertir juntos. À medida que crescemos, ansiamos por ser escolhidos como amigos, funcionários ou cônjuges.
+Saber que somos escolhidos nos faz sentir especiais. Isso nos diz que alguém viu valor em nós e decidiu investir seu tempo em nós. Agora, quão mais maravilhoso deve ser saber que o Deus que criou o universo escolheu você para estar neste mundo neste momento da história! Você já pensou nisso?
+Você não é um produto do acaso. Deus o criou com amor e, em sua infinita misericórdia, enviou Jesus ao mundo para morrer por você, porque ele o ama e quer que você passe a eternidade com ele. Mas Deus também o escolheu para que, enquanto você estiver aqui na Terra, sua vida seja frutífera. Suas palavras, suas atitudes, sua vida, podem impactar positivamente aqueles ao seu redor, aproximando-os de Deus.
 
-Em tempos de adversidade
-não ficarão decepcionados;
-em dias de fome desfrutarão fartura.
-- Salmo 37:18-19 
+Porque somos criação de Deus realizada em Cristo Jesus para fazermos boas obras, as quais Deus preparou antes para nós as praticarmos.
+- Efésios 2:10
 
-Veja também: A história de Daniel.
+Alegre-se, porque o Senhor o escolheu, e nele você é valioso e especial. Tudo o que você faz guiado por Ele e em Seu nome tem um impacto eterno. Isso significa que cada sorriso ou copo d'água, cada palavra de encorajamento ou abraço dado em Seu nome durará para sempre.
+Permita que o Senhor o use todos os dias para abençoar outras pessoas. Proclame o Seu imenso amor, perdão e misericórdia com suas palavras e ações. Impacte o seu entorno para a glória de Deus. Você foi escolhido para esta preciosa missão!
+Leia também: Mensagens de Deus para mim
  
 Quando as dúvidas vierem, lembre-se do amor que Jesus tem por você e extraia forças disso.
 Quando a dor vier, lembre-se do amor que Jesus tem por você e extraia forças disso.
@@ -203,27 +214,47 @@ Quando as finanças diminuírem, lembre-se do amor que Jesus tem por você e ext
 Todos os dias da sua vida, lembre-se do amor que Jesus tem por você e extraia forças disso.
 
  
-O meu Deus enviou o seu anjo, que fechou a boca dos leões. Eles não me fizeram mal algum, pois fui considerado inocente à vista de Deus. Também contra ti não cometi mal algum, ó rei".
-- Daniel 6:22 
+Vocês não me escolheram, mas eu os escolhi para irem e darem fruto, fruto que permaneça, a fim de que o Pai conceda a vocês o que pedirem em meu nome.
+- João 15:16
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255621 characters
-INFO:root:HTML parsed, length: 245076 characters
-INFO:root:Found 3 titles: ['O tempo de Deus', 'Nunca canse de fazer o bem!', 'Separe um momento para falar com Deus']
-INFO:root:Found 3 URLs: ['/paciencia/', '/fazer_o_bem/', '/estudo_sobre_oracao/']
-INFO:root:Found 3 descriptions: ['Não se esqueçam disto, amados: para o Senhor um di', 'Quanto a vocês, irmãos, nunca se cansem de fazer o', 'Os justos clamam, o Senhor os ouve\ne os livra de t']
-INFO:root:Found 3 dates: ['JULHO\n\n7\nSEGUNDA', 'JULHO\n\n6\nDOMINGO', 'JULHO\n\n5\nSÁBADO']
+INFO:root:Response length: 255693 characters
+INFO:root:HTML parsed, length: 245148 characters
+INFO:root:Found 3 titles: ['Ele nos ouve e responde no tempo certo', 'O tempo de Deus', 'Nunca canse de fazer o bem!']
+INFO:root:Found 3 URLs: ['/clama_a_mim_e_responder_te_ei_estudo/', '/paciencia/', '/fazer_o_bem/']
+INFO:root:Found 3 descriptions: ['Clama a mim, e responder-te-ei, e anunciar-te-ei c', 'Não se esqueçam disto, amados: para o Senhor um di', 'Quanto a vocês, irmãos, nunca se cansem de fazer o']
+INFO:root:Found 3 dates: ['JULHO\n\n8\nTERÇA', 'JULHO\n\n7\nSEGUNDA', 'JULHO\n\n6\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O tempo de Deus', ID=b1ab7791fffdd32e5c817cb2ed1c15f4
-INFO:root:Processing entry 2: Title='Nunca canse de fazer o bem!', ID=e66976bb54b91a8b25eee2c14a36b71d
-INFO:root:Processing entry 3: Title='Separe um momento para falar com Deus', ID=99913aba523d54be4be56eeefcbeb53d
+INFO:root:Processing entry 1: Title='Ele nos ouve e responde no tempo certo', ID=c6efa6cecbe7c6bc110e782a75aa49d8
+INFO:root:Processing entry 2: Title='O tempo de Deus', ID=b1ab7791fffdd32e5c817cb2ed1c15f4
+INFO:root:Processing entry 3: Title='Nunca canse de fazer o bem!', ID=e66976bb54b91a8b25eee2c14a36b71d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Ele nos ouve e responde no tempo certo
+INFO:root:🔹 URL: https://www.bibliaon.com/clama_a_mim_e_responder_te_ei_estudo/
+INFO:root:🔹 Description: Clama a mim, e responder-te-ei, e anunciar-te-ei coisas grandes e ocultas, que não sabes.
+- Jeremias 33:3
+
+Quantas vezes nos sentimos sozinhos em meio às lutas da vida, como se nossas orações não passassem do teto? Em momentos assim, somos tentados a pensar que Deus está distante, indiferente à nossa dor. No entanto, a verdade revelada nas Escrituras é clara e consoladora: Ele nos ouve.
+Deus não apenas ouve, Ele se importa conosco. Sua atenção não está limitada aos grandes eventos do mundo; ao contrário, Ele está atento até ao sussurro do coração contrito. Jesus nos ensinou que até os cabelos da nossa cabeça estão contados (Mateus 10:30), mostrando o cuidado pessoal e detalhado do Pai por cada um de nós.
+Mesmo quando o silêncio parece prevalecer, a fé nos lembra que o céu não está em silêncio. Deus está agindo. Às vezes, Ele responde com um sim imediato. Outras vezes, Ele nos chama a esperar, pois há um tempo perfeito para cada propósito. E há momentos em que Ele nos diz “não”, não por desprezo, mas porque conhece o fim desde o começo, e sabe o que é melhor.
+O que nos cabe é confiar. Persistirmos em oração, abrirmos o coração, buscarmos a presença do Pai com sinceridade. Ele ouve o clamor do justo, o grito do aflito, o gemido de quem já não sabe como orar.
+“Ele nos ouve” não é apenas uma frase de consolo. É uma verdade eterna, firmada no caráter fiel de Deus. Que essa certeza encha o seu coração de esperança. Não desista de orar. Não pare de clamar. O Pai está ouvindo, e no tempo certo, Ele responderá.
+Deus escuta cada oração com amor e propósito
+Deus está atento aos detalhes da sua dor: Nada escapa ao olhar do Senhor. Ele ouve até o sussurro do coração cansado. Sua atenção é pessoal, constante e cheia de amor, mesmo quando tudo parece silêncio ao redor.
+A resposta de Deus tem um tempo perfeito: Deus não se atrasa nem antecipa. Seu “sim”, “não” ou “espere” são sempre para o nosso bem. Confiar no tempo d’Ele é descansar no controle perfeito do Pai celestial.
+A oração é uma ponte para a esperança: Orar nos conecta ao coração de Deus. Mesmo sem palavras bonitas, o clamor sincero move o céu. Persevere na oração, o Pai ouve e age, mesmo quando não sentimos imediatamente.
+Para orar:
+
+Senhor, mesmo quando o silêncio me cerca, sei que Tu me ouves. Fortalece minha fé, renova minha esperança e ajuda-me a confiar no Teu tempo. Que minha oração suba como incenso diante de Ti. Amém.
+
+Veja também: Explicação de Jeremias 33:3: Clama a mim e responder-te-ei (Estudo)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O tempo de Deus
 INFO:root:🔹 URL: https://www.bibliaon.com/paciencia/
 INFO:root:🔹 Description: Não se esqueçam disto, amados: para o Senhor um dia é como mil anos, e mil anos como um dia.
@@ -278,36 +309,10 @@ Senhor, fortalece meu coração para não me cansar de fazer o bem. Que eu sirva
 
 Veja também: Versículos sobre fazer o bem.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Separe um momento para falar com Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/estudo_sobre_oracao/
-INFO:root:🔹 Description: Os justos clamam, o Senhor os ouve
-e os livra de todas as suas tribulações.
-- Salmo 34:17
-
-No meio à correria do dia, é fácil se perder nas tarefas, nas preocupações e nas distrações que o dia nos oferece. Muitas vezes, acordamos já correndo, terminamos o dia exaustos e vamos dormir sem ao menos termos parado para falar com Deus. O relacionamento com o Senhor precisa ser cultivado diariamente, com tempo dedicado, atenção e coração sincero.
-Separar um momento para falar com Deus não é apenas uma obrigação, é um privilégio. É a oportunidade de nos conectarmos com Deus, de sermos ouvidos, acolhidos e transformados. É nesse tempo de oração que encontramos paz para a alma, direção para os passos e consolo para as dores.
-Jesus, mesmo sendo o Filho de Deus, tirava momentos para se afastar da multidão e conversar com o Pai. Se Ele fez disso uma prioridade, quanto mais devemos fazer! Um coração cheio de fé e uma mente aberta à voz do Espírito Santo podem mudar completamente a maneira como enfrentamos o dia.
-Não importa se você tem somente cinco minutos ou uma hora. O que importa é a sinceridade do seu coração. Fale com Deus como um filho fala com um pai amoroso. Conte a Ele seus medos, suas alegrias, seus sonhos. Escute o que Ele tem a dizer por meio da Sua Palavra e da paz que Ele planta em seu coração.
-Hoje, separe um momento. Apenas você e Deus. Desligue o celular, feche a porta, silencie a mente. E ali, nesse lugar secreto, você verá que Ele está te esperando, pronto para te ouvir, te renovar e te guiar. Nada é mais importante do que estar na presença d’Ele.
-Preparando um momento com Deus
-
-
-Escolha um lugar tranquilo: Encontre um espaço onde você possa estar em silêncio, longe das distrações. Um ambiente calmo ajuda a focar no Senhor e a abrir o coração em oração sincera.
-
-Leve um coração sincero: Mais importante que palavras bonitas é a sinceridade diante de Deus. Fale com Ele como um filho ao Pai, expondo suas alegrias, angústias e desejos com verdade e humildade.
-
-Tenha constância: Estabeleça uma rotina de comunhão diária. Mesmo que breve, esse tempo com Deus trará direção, paz e fortalecimento espiritual, mostrando que Ele está presente em todos os momentos da sua vida.
-
-Para orar:
-
-Senhor, neste momento me coloco diante de Ti. Acalma meu coração, fortalece minha fé e guia meus passos. Que eu ouça Tua voz, sinta Tua paz e viva segundo a Tua vontade. Amém.
-
-Veja também: Estudo Bíblico sobre Oração.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223349 characters
-INFO:root:HTML parsed, length: 221902 characters
+INFO:root:Response length: 224284 characters
+INFO:root:HTML parsed, length: 222837 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 24 URLs: ['/wiki/Bouvet_(coura%C3%A7ado)', '/wiki/Bouvet_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
 INFO:root:Found 1 descriptions: ['O Bouvet foi um couraçado pré-dreadnought operado ']
@@ -335,44 +340,42 @@ Artigos bons: 1916
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223349 characters
-INFO:root:HTML parsed, length: 221902 characters
-INFO:root:Found 1 titles: ['7 de julho na história']
-INFO:root:Found 49 URLs: ['/wiki/Ficheiro:Gustav_Mahler_1909.jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Ilhas_Salom%C3%A3o']
-INFO:root:Found 1 descriptions: ['Gustav Mahler\nDia da Independência das Ilhas Salom']
+INFO:root:Response length: 224284 characters
+INFO:root:HTML parsed, length: 222837 characters
+INFO:root:Found 1 titles: ['8 de julho na história']
+INFO:root:Found 46 URLs: ['/wiki/Ficheiro:Shinz%C5%8D_Abe_20120501.jpg', '/wiki/1579', '/wiki/M%C3%A3e_de_Deus_de_Caz%C3%A3']
+INFO:root:Found 1 descriptions: ['Shinzo Abe\n1579 – Mãe de Deus de Cazã, um ícone sa']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='7 de julho na história', ID=0d6bfd153af6d4df497975217c27ae37
+INFO:root:Processing entry 1: Title='8 de julho na história', ID=fb212575a367d03d9924275e0befe19a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 7 de julho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Gustav_Mahler_1909.jpg
-INFO:root:🔹 Description: Gustav Mahler
-Dia da Independência das Ilhas Salomão (1978)
-
-1798 – Devido ao Caso XYZ, o Congresso dos Estados Unidos rescinde o Tratado de Aliança com a França, desencadeando a Quase-guerra.
-1991 – Guerras Iugoslavas: a assinatura do Acordo de Brioni encerra a Guerra dos Dez Dias e garante a independência da Eslovênia.
-2021 – O presidente do Haiti Jovenel Moïse é assassinado em Pétion-Ville, dentro de sua casa.
+INFO:root:🔹 Title: 8 de julho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Shinz%C5%8D_Abe_20120501.jpg
+INFO:root:🔹 Description: Shinzo Abe
+1579 – Mãe de Deus de Cazã, um ícone sagrado da Igreja Ortodoxa Russa, é descoberta no subsolo da cidade de Cazã, no Tartaristão.
+1889 – É publicada a primeira edição do jornal económico norte-americano The Wall Street Journal.
+2022 – O ex-primeiro-ministro do Japão Shinzo Abe (imagem) é assassinado durante um discurso em Nara.
 Nasceram neste dia…
-Giuseppe Piazzi (1746–1826)  •  Artur de Azevedo (1855–1908)  •  Gustav Mahler (imagem) (1860–1911)  •  Ringo Starr (n. 1940)
+Artemisia Gentileschi (1593–1656)  •  Jean de La Fontaine (1621–1695)  •  Manuel de Arriaga (1840–1917)  •  Beck (n. 1970)
 Morreram neste dia…
-Guerra Junqueiro (1850–1923)  •  Arthur Conan Doyle (1859–1930)  •  Cazuza (1958–1990)  •  Maria Barroso (1925–2015)
+Christiaan Huygens (1629–1695)  •  Torbern Bergman (1735–1784)  •  Jean Moulin (1899–1943)  •  José Eduardo dos Santos (1942–2022)
 
 
-Ver mais • Outros dias: 5 • 6 • 7 • 8 • 9 • Ver todos
+Ver mais • Outros dias: 6 • 7 • 8 • 9 • 10 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223349 characters
-INFO:root:HTML parsed, length: 221902 characters
+INFO:root:Response length: 224284 characters
+INFO:root:HTML parsed, length: 222837 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Krakow-Collegium_Novum.jpg']
-INFO:root:Found 1 descriptions: ['Abóbada diamante em estilo neogótico do Collegium ']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg']
+INFO:root:Found 1 descriptions: ['Estátua que adorna a fachada da catedral de Santo ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Krakow-Collegium_Novum.jpg/500px-Krakow-Collegium_Novum.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg/500px-Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -381,15 +384,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Krakow-Collegium_Novum.jpg
-INFO:root:🔹 Description: Abóbada diamante em estilo neogótico do Collegium Novum, sede da Universidade Jaguelônica de Cracóvia, na Polônia.
-(resolução original: 3 269 × 3 269)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg
+INFO:root:🔹 Description: Estátua que adorna a fachada da catedral de Santo Antônio de Pádua em Breda, nos Países Baixos. A santa, que segura a cruz com a mão esquerda, segura um cálice na mão direita, do qual emerge uma hóstia radiante, para enfatizar um orgulho renovado do catolicismo. Na base, a data de construção da catedral, 1837, em algarismos romanos.
+(resolução original: 9 920 × 9 098)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Krakow-Collegium_Novum.jpg/500px-Krakow-Collegium_Novum.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg/500px-Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -413,13 +416,13 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  32 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  27 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  94 +++-----
+ feeds/palavra_do_dia/atom.xml             |  10 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  79 ++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
@@ -428,5 +431,5 @@ INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 +++--
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 377 +++++++++++++-----------------
- 16 files changed, 290 insertions(+), 383 deletions(-)
+ output.log                                | 344 ++++++++++++++----------------
+ 16 files changed, 298 insertions(+), 309 deletions(-)
