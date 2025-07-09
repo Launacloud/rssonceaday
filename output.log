@@ -1,38 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119147 characters
-INFO:root:HTML parsed, length: 112421 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (08/07/2025)', 'Palavra de Ontem (07/07/2025)', 'Palavra de Anteontem (06/07/2025)']
-INFO:root:Found 3 URLs: ['/gincana/', '/emprego/', '/debulhar/']
-INFO:root:Found 12 descriptions: ['substantivo feminino Conjunto de provas disputadas', 'Classe gramatical:substantivo feminino', 'Sílabas:gin-ca-na']
-INFO:root:Found 3 dates: ['Palavra de Hoje (08/07/2025)', 'Palavra de Ontem (07/07/2025)', 'Palavra de Anteontem (06/07/2025)']
+INFO:root:Response length: 119445 characters
+INFO:root:HTML parsed, length: 112536 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (09/07/2025)', 'Palavra de Ontem (08/07/2025)', 'Palavra de Anteontem (07/07/2025)']
+INFO:root:Found 3 URLs: ['/desmembrado/', '/gincana/', '/emprego/']
+INFO:root:Found 13 descriptions: ['adjetivo Que foi dividido; separado em partes meno', 'Sinônimos:\n\ndesligado, dividido, afastado, enfraqu', 'Antônimos:\n\núnico, unido, homogêneo, remembrado']
+INFO:root:Found 3 dates: ['Palavra de Hoje (09/07/2025)', 'Palavra de Ontem (08/07/2025)', 'Palavra de Anteontem (07/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (08/07/2025)', ID=705361279d8eaf351c4a0df80a9a0fb4
-INFO:root:Processing entry 2: Title='Palavra de Ontem (07/07/2025)', ID=923eb82c4ef56c8099e41a1c7aba9c48
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/07/2025)', ID=b53160bfce76c419a6525d2b8e04b8bc
+INFO:root:Processing entry 1: Title='Palavra de Hoje (09/07/2025)', ID=a61bef41a53d29e00407e0bfcb92b571
+INFO:root:Processing entry 2: Title='Palavra de Ontem (08/07/2025)', ID=b6244a6eb51341d138f3c7685717dcea
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/07/2025)', ID=c19ebdc8a473b9857ebac248521741ce
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (08/07/2025) - Significado completo de gincana:
-INFO:root:🔹 URL: https://www.dicio.com.br/gincana/
-INFO:root:🔹 Description: substantivo feminino Conjunto de provas disputadas entre grupos, em que os concorrentes devem seguir um percurso complicado e entremeado de obstáculos que resultam em incidentes cômicos.[Por Extensão] Competição em que os participantes (individual ou equipe) precisam responder perguntas ou cumprir tarefas.Etimologia (origem da palavra gincana). Do inglês gymkhana; pelo hindi gend-khâna.
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (07/07/2025) - Significado completo de emprego:
-INFO:root:🔹 URL: https://www.dicio.com.br/emprego/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:gin-ca-na
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (06/07/2025) - Significado completo de debulhar:
-INFO:root:🔹 URL: https://www.dicio.com.br/debulhar/
-INFO:root:🔹 Description: Sílabas:gin-ca-na
+INFO:root:🔹 Title: Palavra de Hoje (09/07/2025) - Significado completo de desmembrado:
+INFO:root:🔹 URL: https://www.dicio.com.br/desmembrado/
+INFO:root:🔹 Description: adjetivo Que foi dividido; separado em partes menores; separado: processo desmembrado em capítulos.Que teve os membros separados; que foi alvo de mutilação; mutilado: corpo desmembrado.[Figurado] Sem vigor, energia ou força; desvigorado.Ação ou efeito de desmembrar, cortar um corpo em membros.Etimologia (origem da palavra desmembrado). A palavra desmembrado tem sua origem no verbo desmembrar, com o sentido de cortar os membros de um corpo.
  
 Sinônimos:
 
-ocupação, ofício, serviço, tarefa, trabalho, aplicação, uso, utilização, serventia 
+desligado, dividido, afastado, enfraquecido, separado, desanexado 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (08/07/2025) - Significado completo de gincana:
+INFO:root:🔹 URL: https://www.dicio.com.br/gincana/
+INFO:root:🔹 Description: Sinônimos:
+
+desligado, dividido, afastado, enfraquecido, separado, desanexado
+ 
+Antônimos:
+
+único, unido, homogêneo, remembrado 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (07/07/2025) - Significado completo de emprego:
+INFO:root:🔹 URL: https://www.dicio.com.br/emprego/
+INFO:root:🔹 Description: Antônimos:
+
+único, unido, homogêneo, remembrado
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +48,88 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243450 characters
-INFO:root:HTML parsed, length: 232751 characters
-INFO:root:Found 1 titles: ['Ezequiel 36:26']
-INFO:root:Found 1 URLs: ['/versiculo/ezequiel_36_26/']
-INFO:root:Found 1 descriptions: ['Darei a vocês um coração novo e porei um espírito ']
+INFO:root:Response length: 243482 characters
+INFO:root:HTML parsed, length: 232783 characters
+INFO:root:Found 1 titles: ['Oséias 6:3']
+INFO:root:Found 1 URLs: ['/versiculo/oseias_6_3/']
+INFO:root:Found 1 descriptions: ['Conheçamos o Senhor;\nesforcemo-nos por conhecê-lo.']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Ezequiel 36:26', ID=d2ebb24572e07ab1d985b36c3d638ef3
+INFO:root:Processing entry 1: Title='Oséias 6:3', ID=751226a8b39c6ee04bc223f6c43c150c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Ezequiel 36:26
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/ezequiel_36_26/
-INFO:root:🔹 Description: Darei a vocês um coração novo e porei um espírito novo em vocês; tirarei de vocês o coração de pedra e, em troca, darei um coração de carne. Ezequiel 36:26
+INFO:root:🔹 Title: Oséias 6:3
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/oseias_6_3/
+INFO:root:🔹 Description: Conheçamos o Senhor;
+esforcemo-nos por conhecê-lo.
+Tão certo como nasce o sol,
+ele aparecerá;
+virá para nós como as chuvas de inverno,
+como as chuvas de primavera
+que regam a terra." Oséias 6:3
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243130 characters
-INFO:root:HTML parsed, length: 233147 characters
-INFO:root:Found 3 titles: ['Salmo 132', 'Salmo 8', 'Salmo 23']
-INFO:root:Found 3 URLs: ['/salmos_132/', '/salmos_8/', '/salmos_23/']
-INFO:root:Found 3 descriptions: ['Senhor, lembra-te de Davi\ne das dificuldades que e', 'Senhor, Senhor nosso,\ncomo é majestoso o teu nome ', 'O Senhor é o meu pastor; de nada terei falta. \nEm ']
-INFO:root:Found 3 dates: ['8 de Julho de 2025', '7 de Julho de 2025', '6 de Julho de 2025']
+INFO:root:Response length: 243774 characters
+INFO:root:HTML parsed, length: 233803 characters
+INFO:root:Found 3 titles: ['Salmo 48', 'Salmo 132', 'Salmo 8']
+INFO:root:Found 3 URLs: ['/salmos_48/', '/salmos_132/', '/salmos_8/']
+INFO:root:Found 3 descriptions: ['Grande é o Senhor,\ne digno de todo louvor\nna cidad', 'Senhor, lembra-te de Davi\ne das dificuldades que e', 'Senhor, Senhor nosso,\ncomo é majestoso o teu nome ']
+INFO:root:Found 3 dates: ['9 de Julho de 2025', '8 de Julho de 2025', '7 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
-INFO:root:Processing entry 2: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
-INFO:root:Processing entry 3: Title=' Salmo 23', ID=55cf3da6e8cae97ccf3b295406df8fc3
+INFO:root:Processing entry 1: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
+INFO:root:Processing entry 2: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
+INFO:root:Processing entry 3: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 48
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_48/
+INFO:root:🔹 Description: Grande é o Senhor,
+e digno de todo louvor
+na cidade do nosso Deus. 
+Seu santo monte, belo e majestoso,
+é a alegria de toda a terra.
+Como as alturas do Zafom é o monte Sião,
+a cidade do grande Rei. 
+Nas suas cidadelas
+Deus se revela como sua proteção. 
+Vejam! Os reis somaram forças,
+e juntos avançaram contra ela. 
+Quando a viram, ficaram atônitos,
+fugiram aterrorizados. 
+Ali mesmo o pavor os dominou;
+contorceram-se como a mulher no parto. 
+Foste como o vento oriental
+quando destruiu os navios de Társis. 
+Como já temos ouvido,
+agora também temos visto
+na cidade do Senhor dos Exércitos,
+na cidade de nosso Deus:
+Deus a preserva firme para sempre. 
+No teu templo, ó Deus,
+meditamos em teu amor leal. 
+Como o teu nome, ó Deus,
+o teu louvor alcança os confins da terra;
+a tua mão direita está cheia de justiça. 
+O monte Sião se alegra,
+as cidades de Judá exultam
+por causa das tuas decisões justas. 
+Percorram Sião, contornando-a,
+contem as suas torres, 
+observem bem as suas muralhas,
+examinem as suas cidadelas,
+para que vocês falem à próxima geração 
+que este Deus é o nosso Deus
+para todo o sempre;
+ele será o nosso guia até o fim. 
+ Salmo 48
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 132
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_132/
 INFO:root:🔹 Description: Senhor, lembra-te de Davi
@@ -153,88 +209,93 @@ Senhor, Senhor nosso,
 como é majestoso o teu nome em toda a terra! 
  Salmo 8
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 23
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_23/
-INFO:root:🔹 Description: O Senhor é o meu pastor; de nada terei falta. 
-Em verdes pastagens me faz repousar
-e me conduz a águas tranquilas; 
-restaura-me o vigor.
-Guia-me nas veredas da justiça
-por amor do seu nome. 
-Mesmo quando eu andar
-por um vale de trevas e morte,
-não temerei perigo algum, pois tu estás comigo;
-a tua vara e o teu cajado me protegem. 
-Preparas um banquete para mim
-à vista dos meus inimigos.
-Tu me honras,
-ungindo a minha cabeça com óleo
-e fazendo transbordar o meu cálice. 
-Sei que a bondade e a fidelidade
-me acompanharão todos os dias da minha vida,
-e voltarei à casa do Senhor enquanto eu viver. 
- Salmo 23
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 246576 characters
-INFO:root:HTML parsed, length: 236262 characters
-INFO:root:Found 3 titles: ['Alegre-se, você foi escolhido!', 'Permaneçam firmes no Senhor, mesmo que estejam cercados por leões', 'Não deixe seu amor esfriar']
+INFO:root:Response length: 246265 characters
+INFO:root:HTML parsed, length: 235963 characters
+INFO:root:Found 3 titles: ['Servindo somente a Deus, vivendo para Ele', 'Alegre-se, você foi escolhido!', 'Permaneçam firmes no Senhor, mesmo que estejam cercados por leões']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Vocês não me escolheram, mas eu os escolhi para ir', 'O meu Deus enviou o seu anjo, que fechou a boca do', '"Como o Pai me amou, assim eu os amei; permaneçam ']
-INFO:root:Found 1 dates: ['Terça, 8 de julho de 2025']
+INFO:root:Found 3 descriptions: ["'Adore o Senhor, o seu Deus, e só a ele preste cul", 'Vocês não me escolheram, mas eu os escolhi para ir', 'O meu Deus enviou o seu anjo, que fechou a boca do']
+INFO:root:Found 1 dates: ['Quarta, 9 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Alegre-se, você foi escolhido!', ID=323d1cac4574e2ac9b3ecac63774f8db
+INFO:root:Processing entry 1: Title='Servindo somente a Deus, vivendo para Ele', ID=589aa2a288202712809bbece68c22ca9
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Alegre-se, você foi escolhido! - Palavra de Hoje
+INFO:root:🔹 Title: Servindo somente a Deus, vivendo para Ele - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Vocês não me escolheram, mas eu os escolhi para irem e darem fruto, fruto que permaneça, a fim de que o Pai conceda a vocês o que pedirem em meu nome.
-- João 15:16
+INFO:root:🔹 Description: 'Adore o Senhor, o seu Deus, e só a ele preste culto'".
+- Mateus 4:10b
 
-Ser escolhido é um desejo profundo no coração de todo ser humano. Quando somos jovens, ansiamos que nossos pais nos escolham para passar tempo conosco. Depois, quando começamos a escola, queremos ser escolhidos no recreio para brincar e nos divertir juntos. À medida que crescemos, ansiamos por ser escolhidos como amigos, funcionários ou cônjuges.
-Saber que somos escolhidos nos faz sentir especiais. Isso nos diz que alguém viu valor em nós e decidiu investir seu tempo em nós. Agora, quão mais maravilhoso deve ser saber que o Deus que criou o universo escolheu você para estar neste mundo neste momento da história! Você já pensou nisso?
-Você não é um produto do acaso. Deus o criou com amor e, em sua infinita misericórdia, enviou Jesus ao mundo para morrer por você, porque ele o ama e quer que você passe a eternidade com ele. Mas Deus também o escolheu para que, enquanto você estiver aqui na Terra, sua vida seja frutífera. Suas palavras, suas atitudes, sua vida, podem impactar positivamente aqueles ao seu redor, aproximando-os de Deus.
 
-Porque somos criação de Deus realizada em Cristo Jesus para fazermos boas obras, as quais Deus preparou antes para nós as praticarmos.
-- Efésios 2:10
+Contudo, aos que o receberam, aos que creram em seu nome, deu-lhes o direito de se tornarem filhos de Deus,
+- João 1:12
 
-Alegre-se, porque o Senhor o escolheu, e nele você é valioso e especial. Tudo o que você faz guiado por Ele e em Seu nome tem um impacto eterno. Isso significa que cada sorriso ou copo d'água, cada palavra de encorajamento ou abraço dado em Seu nome durará para sempre.
-Permita que o Senhor o use todos os dias para abençoar outras pessoas. Proclame o Seu imenso amor, perdão e misericórdia com suas palavras e ações. Impacte o seu entorno para a glória de Deus. Você foi escolhido para esta preciosa missão!
-Leia também: Mensagens de Deus para mim
+Receber a Cristo como Salvador e Senhor de nossas vidas é a melhor decisão que podemos tomar. A partir desse momento, deixamos de ser criaturas de Deus e passamos a ser Seus filhos, com todos os direitos por toda a eternidade. Que grande privilégio!
+Algo maravilhoso acontece: o Espírito Santo vem habitar em nós. Sua obra em nós nos ajuda a viver vitoriosamente, servindo ao Senhor e fazendo o que Lhe agrada. Mas precisamos reservar um tempo para orar, ler a Palavra e permitir que Deus fale conosco. Servir a Deus exige dedicação, escolher viver cada dia de forma que nossas palavras e atitudes agradem a Deus e tragam alegria ao Seu coração.
+Passar tempo com Deus renova nosso espírito, nos ajuda a ver as coisas sob Sua perspectiva, alinhando-nos com Sua vontade. Se você perceber que as responsabilidades diárias estão impedindo você de passar tempo com Deus, pense em como você pode reorganizar seus dias para priorizar o Senhor.
+Deus não compartilha Sua glória com ninguém, e isso é bom. Quando permitimos que Ele reine sobre todas as áreas da nossa vida, tudo se encaixa com mais perfeição, porque Ele sabe o que é melhor para nós. Você quer viver a vida abundante que Deus preparou para você desde antes da fundação do mundo? Sirva somente a Ele e viva para Ele! Há grande bênção para aqueles que permitem que Deus reine em tudo.
+
+Alegrem-se, porém,
+todos os que se refugiam em ti;
+cantem sempre de alegria!
+Estende sobre eles a tua proteção.
+Em ti exultem os que amam o teu nome.
+Pois tu, Senhor, abençoas o justo;
+o teu favor o protege como um escudo.
+- Salmo 5:11-12
+
+Veja também: Razões para servir a Deus com alegria.
  
-Quando as dúvidas vierem, lembre-se do amor que Jesus tem por você e extraia forças disso.
-Quando a dor vier, lembre-se do amor que Jesus tem por você e extraia forças disso.
-Quando os outros falharem com você ou lhe derem as costas, lembre-se do amor que Jesus tem por você e extraia forças disso.
-Quando a doença vier, lembre-se do amor que Jesus tem por você e extraia forças disso.
-Quando as finanças diminuírem, lembre-se do amor que Jesus tem por você e extraia forças disso.
-Todos os dias da sua vida, lembre-se do amor que Jesus tem por você e extraia forças disso.
-
- 
-Vocês não me escolheram, mas eu os escolhi para irem e darem fruto, fruto que permaneça, a fim de que o Pai conceda a vocês o que pedirem em meu nome.
-- João 15:16
+'Adore o Senhor, o seu Deus, e só a ele preste culto'".
+- Mateus 4:10b
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255693 characters
-INFO:root:HTML parsed, length: 245148 characters
-INFO:root:Found 3 titles: ['Ele nos ouve e responde no tempo certo', 'O tempo de Deus', 'Nunca canse de fazer o bem!']
-INFO:root:Found 3 URLs: ['/clama_a_mim_e_responder_te_ei_estudo/', '/paciencia/', '/fazer_o_bem/']
-INFO:root:Found 3 descriptions: ['Clama a mim, e responder-te-ei, e anunciar-te-ei c', 'Não se esqueçam disto, amados: para o Senhor um di', 'Quanto a vocês, irmãos, nunca se cansem de fazer o']
-INFO:root:Found 3 dates: ['JULHO\n\n8\nTERÇA', 'JULHO\n\n7\nSEGUNDA', 'JULHO\n\n6\nDOMINGO']
+INFO:root:Response length: 255284 characters
+INFO:root:HTML parsed, length: 244741 characters
+INFO:root:Found 3 titles: ['Chamados para servir', 'Ele nos ouve e responde no tempo certo', 'O tempo de Deus']
+INFO:root:Found 3 URLs: ['/razoes_para_servir_a_deus/', '/clama_a_mim_e_responder_te_ei_estudo/', '/paciencia/']
+INFO:root:Found 3 descriptions: ['"Pois nem mesmo o Filho do homem veio para ser ser', 'Clama a mim, e responder-te-ei, e anunciar-te-ei c', 'Não se esqueçam disto, amados: para o Senhor um di']
+INFO:root:Found 3 dates: ['JULHO\n\n9\nQUARTA', 'JULHO\n\n8\nTERÇA', 'JULHO\n\n7\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Ele nos ouve e responde no tempo certo', ID=c6efa6cecbe7c6bc110e782a75aa49d8
-INFO:root:Processing entry 2: Title='O tempo de Deus', ID=b1ab7791fffdd32e5c817cb2ed1c15f4
-INFO:root:Processing entry 3: Title='Nunca canse de fazer o bem!', ID=e66976bb54b91a8b25eee2c14a36b71d
+INFO:root:Processing entry 1: Title='Chamados para servir', ID=886cd7cc51058f974ffbe2d1a2ec8429
+INFO:root:Processing entry 2: Title='Ele nos ouve e responde no tempo certo', ID=c6efa6cecbe7c6bc110e782a75aa49d8
+INFO:root:Processing entry 3: Title='O tempo de Deus', ID=b1ab7791fffdd32e5c817cb2ed1c15f4
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Chamados para servir
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_servir_a_deus/
+INFO:root:🔹 Description: "Pois nem mesmo o Filho do homem veio para ser servido, mas para servir e dar a sua vida em resgate por muitos".
+- Marcos 10:45
+
+Quantas vezes desejamos reconhecimento, sucesso ou conforto em nossas jornadas diárias? Vivemos em uma cultura que valoriza ser servido, estar no topo, conquistar aplausos. Mas Jesus, o Rei dos reis, o Filho do Deus Altíssimo, escolheu um caminho completamente oposto.
+Neste versículo, Jesus nos confronta com uma verdade que vira o mundo de cabeça para baixo: o maior no Reino de Deus é aquele que serve. Jesus não veio com uma coroa de ouro, mas com uma toalha na cintura, lavando os pés de pecadores. Ele não exigiu tronos, mas se entregou numa cruz.
+A palavra “resgate” usada aqui tem peso eterno. Significa que a vida de Jesus foi o preço pago para nos libertar da escravidão do pecado. O Deus que poderia exigir tudo de nós, escolheu entregar tudo por nós.
+Não servimos porque é conveniente. Servimos porque fomos servidos primeiro. Amamos porque fomos amados primeiro. Quando entendemos isso, o servir deixa de ser obrigação e se torna privilégio.
+Hoje, reflita: em que áreas da sua vida você pode refletir o coração servo de Cristo?
+Na sua casa, no trabalho, na igreja, o amor de Jesus pode ser revelado por meio de suas atitudes humildes.
+Vivendo o chamado de Cristo
+
+
+Adote uma postura de humildade: Comece cada dia pedindo a Deus um coração disposto a servir. Procure oportunidades simples, como ouvir alguém, ajudar nas tarefas ou encorajar um amigo.
+
+Coloque as necessidades dos outros em primeiro lugar: Olhe ao redor e perceba quem está cansado, sobrecarregado ou esquecido. Escolha conscientemente sair do centro e agir com compaixão.
+
+Sirva com intenção e alegria: Escolha agir mesmo quando for difícil ou cansativo. A alegria verdadeira brota quando seguimos o exemplo de Jesus, entregando-nos com propósito ao bem dos outros.
+
+Para orar:
+
+Senhor Jesus, obrigado por me amar a ponto de dar Sua vida por mim. Ajuda-me a seguir o Teu exemplo, servindo com humildade, amor e entrega. Que eu viva não para ser servido, mas para Te honrar através do serviço aos outros. Amém.
+
+Veja também: Razões para servir a Deus com alegria.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Ele nos ouve e responde no tempo certo
 INFO:root:🔹 URL: https://www.bibliaon.com/clama_a_mim_e_responder_te_ei_estudo/
 INFO:root:🔹 Description: Clama a mim, e responder-te-ei, e anunciar-te-ei coisas grandes e ocultas, que não sabes.
@@ -282,40 +343,13 @@ Senhor, ensina-me a confiar no Teu tempo. Mesmo quando não entendo, quero crer 
 
 Veja também: Versículos sobre paciência
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Nunca canse de fazer o bem!
-INFO:root:🔹 URL: https://www.bibliaon.com/fazer_o_bem/
-INFO:root:🔹 Description: Quanto a vocês, irmãos, nunca se cansem de fazer o bem.
-- 2 Tessalonicenses 3:13
-
-Em um mundo marcado pela pressa, ingratidão e egoísmo, fazer o bem pode parecer cansativo. Muitas vezes, ajudamos, perdoamos, oferecemos amor e compreensão, mas recebemos em troca silêncio, ingratidão ou até desprezo. Nessas horas, surge a tentação de parar, de pensar que não vale a pena. No entanto, a Palavra de Deus nos lembra com clareza: nunca nos cansemos de fazer o bem.
-O bem não depende da reação do outro, mas da transformação que Deus já realizou em nosso coração. Somos chamados a refletir a bondade do nosso Pai Celestial, que faz o sol nascer sobre justos e injustos, e que é rico em misericórdia para com todos. Cada atitude de amor, mesmo que pequena, é uma semente plantada na eternidade. Pode parecer invisível agora, mas tem valor diante de Deus.
-Jesus não se cansou de amar, mesmo sendo traído, rejeitado e crucificado. Seu exemplo nos fortalece. Ele nos mostrou que o bem tem poder, poder de transformar vidas, curar feridas e revelar o Reino de Deus aqui na Terra.
-Se você tem feito o bem e se sentido cansado, olhe para Cristo. Sua recompensa não virá necessariamente dos homens, mas do Senhor, que vê tudo em secreto e retribui com graça abundante. Continue firme, mesmo quando for difícil. O bem que você faz hoje pode ser a resposta de oração de alguém, o consolo em meio à dor ou o começo de uma nova história.
-Não desanime. Nunca pare. O bem, quando feito em amor, nunca é em vão. Que o Espírito Santo renove suas forças a cada dia, e que você siga firme, sem jamais se cansar de fazer o bem.
-Fazendo o bem!
-
-
-Ore antes de agir: Busque direção em oração antes de fazer o bem. Deus mostrará quem precisa, como ajudar e renovará suas forças para continuar mesmo diante do cansaço ou da ingratidão.
-
-Não espere reconhecimento: Faça o bem por amor a Deus, não por aplausos. O verdadeiro galardão vem do Senhor, que vê seu coração e recompensa com paz, alegria e frutos eternos.
-
-Sirva com constância: A bondade diária, mesmo em pequenos gestos, molda seu caráter e influencia a vida de quem convive com você.
-
-Cerque-se de encorajamento: Caminhe com irmãos na fé que também vivem para servir. Compartilhar experiências e orações fortalece a fé e renova a motivação para continuar fazendo o bem sem desistir.
-
-Para orar:
-
-Senhor, fortalece meu coração para não me cansar de fazer o bem. Que eu sirva com amor, mesmo sem reconhecimento, confiando na Tua recompensa. Renova minhas forças e guia meus passos, em nome de Jesus. Amém.
-
-Veja também: Versículos sobre fazer o bem.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224284 characters
-INFO:root:HTML parsed, length: 222837 characters
+INFO:root:Response length: 223792 characters
+INFO:root:HTML parsed, length: 222345 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 24 URLs: ['/wiki/Bouvet_(coura%C3%A7ado)', '/wiki/Bouvet_(coura%C3%A7ado)', '/wiki/Coura%C3%A7ado']
-INFO:root:Found 1 descriptions: ['O Bouvet foi um couraçado pré-dreadnought operado ']
+INFO:root:Found 23 URLs: ['/wiki/Andrew_Jackson', '/wiki/Andrew_Jackson', '/wiki/Agricultor']
+INFO:root:Found 1 descriptions: ['Andrew Jackson foi um fazendeiro, mercador de escr']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -325,9 +359,9 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Bouvet_(coura%C3%A7ado)
-INFO:root:🔹 Description: O Bouvet foi um couraçado pré-dreadnought operado pela Marinha Nacional Francesa, membro de um grupo de cinco navios semelhantes entre si, ao lado do Charles Martel, Carnot, Jauréguiberry e Masséna. Sua construção começou em janeiro de 1893 no Arsenal de Lorient e foi lançado ao mar em abril de 1896, sendo comissionado na frota francesa em junho de 1898. Era armado com uma bateria principal composta por dois canhões de 305 milímetros montados em duas torres de artilharia únicas e dois canhões de 274 milímetros também em duas torres únicas, tinha um deslocamento de mais de doze mil toneladas e conseguia alcançar uma velocidade máxima de dezoito nós, rápida para os padrões da época.
-O projeto do Bouvet foi o mais bem-sucedido de todos os cinco navios e ele serviu de base para a sucessora Classe Charlemagne, mas mesmo assim sofria de problemas de instabilidade. Ele teve uma carreira relativamente tranquila em tempos de paz, a maior parte em exercícios de rotina na Esquadra do Mediterrâneo. O navio mesmo assim envolveu-se em uma colisão com o couraçado Gaulois em 1903 e depois ajudou na resposta a uma erupção do Monte Vesúvio em 1906. Foi tirado do serviço ativo no ano seguinte e passou a atuar na frota de treinamento, porém voltou para a ativa em julho de 1914 depois do início da Primeira Guerra Mundial. (Leia mais...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Andrew_Jackson
+INFO:root:🔹 Description: Andrew Jackson foi um fazendeiro, mercador de escravos,  militar e estadista americano que foi o sétimo presidente dos Estados Unidos de 1829 a 1837. Antes de ser eleito para a presidência, ganhou fama como general do Exército dos EUA e ocupou cargos em ambas as casas do Congresso dos EUA. Sua Presidência é lembrada pelo que apresentava como a defesa do "homem comum", em oposição a uma "aristocracia corrupta", pela defesa da unidade nacional e por políticas racistas, especialmente em relação aos povos nativos.
+Jackson nasceu nas Carolinas coloniais antes da Guerra Revolucionária Americana. Tornou-se advogado na fronteira e casou-se com Rachel Donelson Robards. Em 1801, foi nomeado coronel da milícia do Tennessee e eleito comandante no ano seguinte. Ele liderou tropas durante a Guerra Creek de 1813-1814, vencendo a Batalha de Horseshoe Bend. Mais tarde, comandou as forças dos EUA na Primeira Guerra Seminole, que levou à anexação da Flórida, que pertencia à Espanha. (Leia mais...)
 
 
 
@@ -336,46 +370,48 @@ Compartilhe:
 
 
 Artigos destacados: 1503 •
-Artigos bons: 1916
+Artigos bons: 1917
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224284 characters
-INFO:root:HTML parsed, length: 222837 characters
-INFO:root:Found 1 titles: ['8 de julho na história']
-INFO:root:Found 46 URLs: ['/wiki/Ficheiro:Shinz%C5%8D_Abe_20120501.jpg', '/wiki/1579', '/wiki/M%C3%A3e_de_Deus_de_Caz%C3%A3']
-INFO:root:Found 1 descriptions: ['Shinzo Abe\n1579 – Mãe de Deus de Cazã, um ícone sa']
+INFO:root:Response length: 223792 characters
+INFO:root:HTML parsed, length: 222345 characters
+INFO:root:Found 1 titles: ['9 de julho na história']
+INFO:root:Found 51 URLs: ['/wiki/Ficheiro:Flag_of_Argentina.svg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Argentina']
+INFO:root:Found 1 descriptions: ['Bandeira da Argentina\nDia da Independência da Arge']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='8 de julho na história', ID=fb212575a367d03d9924275e0befe19a
+INFO:root:Processing entry 1: Title='9 de julho na história', ID=ca9318629c3015971ea0c78a5a4b8daa
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 8 de julho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Shinz%C5%8D_Abe_20120501.jpg
-INFO:root:🔹 Description: Shinzo Abe
-1579 – Mãe de Deus de Cazã, um ícone sagrado da Igreja Ortodoxa Russa, é descoberta no subsolo da cidade de Cazã, no Tartaristão.
-1889 – É publicada a primeira edição do jornal económico norte-americano The Wall Street Journal.
-2022 – O ex-primeiro-ministro do Japão Shinzo Abe (imagem) é assassinado durante um discurso em Nara.
+INFO:root:🔹 Title: 9 de julho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Flag_of_Argentina.svg
+INFO:root:🔹 Description: Bandeira da Argentina
+Dia da Independência da Argentina (bandeira) (1816) e do Sudão do Sul (2011)
+
+1850 – O profeta Báb, fundador do babismo, é executado em Tabriz, na Pérsia.
+1932 – Tem início a Revolução Constitucionalista no estado brasileiro de São Paulo, que, apoiado pelo  sul de Mato Grosso, ergue-se contra o governo central de Getúlio Vargas.
+1955 – É divulgado em Londres o Manifesto Russell-Einstein, pedindo a redução do risco de uma guerra nuclear.
 Nasceram neste dia…
-Artemisia Gentileschi (1593–1656)  •  Jean de La Fontaine (1621–1695)  •  Manuel de Arriaga (1840–1917)  •  Beck (n. 1970)
+Ann Radcliffe (1764–1823)  •  Carlos Chagas (1878–1934)  •  Mercedes Sosa (1935–2009)  •  Tom Hanks (n. 1956)
 Morreram neste dia…
-Christiaan Huygens (1629–1695)  •  Torbern Bergman (1735–1784)  •  Jean Moulin (1899–1943)  •  José Eduardo dos Santos (1942–2022)
+Filipe V de Espanha (1683–1746)  •  Vinicius de Moraes (1913–1980)  •  Fernando de la Rúa (1937–2019)  •  Luis Suárez Miramontes (1935–2023)
 
 
-Ver mais • Outros dias: 6 • 7 • 8 • 9 • 10 • Ver todos
+Ver mais • Outros dias: 7 • 8 • 9 • 10 • 11 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224284 characters
-INFO:root:HTML parsed, length: 222837 characters
+INFO:root:Response length: 223792 characters
+INFO:root:HTML parsed, length: 222345 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg']
-INFO:root:Found 1 descriptions: ['Estátua que adorna a fachada da catedral de Santo ']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Rifling_of_a_cannon_(M75;_90mm;_y.1891;_Austro-Hungarian;_exposed_in_Ljubljana,_Slovenia).jpg']
+INFO:root:Found 1 descriptions: ['Ranhura de um canhão M75, fabricado em 1891 no Imp']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg/500px-Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Rifling_of_a_cannon_%28M75%3B_90mm%3B_y.1891%3B_Austro-Hungarian%3B_exposed_in_Ljubljana%2C_Slovenia%29.jpg/500px-Rifling_of_a_cannon_%28M75%3B_90mm%3B_y.1891%3B_Austro-Hungarian%3B_exposed_in_Ljubljana%2C_Slovenia%29.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -384,15 +420,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg
-INFO:root:🔹 Description: Estátua que adorna a fachada da catedral de Santo Antônio de Pádua em Breda, nos Países Baixos. A santa, que segura a cruz com a mão esquerda, segura um cálice na mão direita, do qual emerge uma hóstia radiante, para enfatizar um orgulho renovado do catolicismo. Na base, a data de construção da catedral, 1837, em algarismos romanos.
-(resolução original: 9 920 × 9 098)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Rifling_of_a_cannon_(M75;_90mm;_y.1891;_Austro-Hungarian;_exposed_in_Ljubljana,_Slovenia).jpg
+INFO:root:🔹 Description: Ranhura de um canhão M75, fabricado em 1891 no Império Austro-Húngaro, em exposição no castelo de Liubliana, na Eslovênia. A imagem foi obtida através da composição digital de 43 macrofotografias.
+(resolução original: 3 970 × 3 325)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg/500px-Breda_beeld_van_een_heilige_-_Sint-Antoniuskathedraal_2024-09-17.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Rifling_of_a_cannon_%28M75%3B_90mm%3B_y.1891%3B_Austro-Hungarian%3B_exposed_in_Ljubljana%2C_Slovenia%29.jpg/500px-Rifling_of_a_cannon_%28M75%3B_90mm%3B_y.1891%3B_Austro-Hungarian%3B_exposed_in_Ljubljana%2C_Slovenia%29.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -408,6 +444,7 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -416,20 +453,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  51 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  27 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  39 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  10 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  79 ++++---
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               |  62 +++--
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/atom.xml               |   6 +-
+ feeds/wikidestaque/feed.json              |   4 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 344 ++++++++++++++----------------
- 16 files changed, 298 insertions(+), 309 deletions(-)
+ output.log                                | 368 ++++++++++++++++--------------
+ 17 files changed, 355 insertions(+), 299 deletions(-)
