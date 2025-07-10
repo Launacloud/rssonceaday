@@ -1,46 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119445 characters
-INFO:root:HTML parsed, length: 112536 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (09/07/2025)', 'Palavra de Ontem (08/07/2025)', 'Palavra de Anteontem (07/07/2025)']
-INFO:root:Found 3 URLs: ['/desmembrado/', '/gincana/', '/emprego/']
-INFO:root:Found 13 descriptions: ['adjetivo Que foi dividido; separado em partes meno', 'Sinônimos:\n\ndesligado, dividido, afastado, enfraqu', 'Antônimos:\n\núnico, unido, homogêneo, remembrado']
-INFO:root:Found 3 dates: ['Palavra de Hoje (09/07/2025)', 'Palavra de Ontem (08/07/2025)', 'Palavra de Anteontem (07/07/2025)']
+INFO:root:Response length: 119040 characters
+INFO:root:HTML parsed, length: 112155 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (10/07/2025)', 'Palavra de Ontem (09/07/2025)', 'Palavra de Anteontem (08/07/2025)']
+INFO:root:Found 3 URLs: ['/prerrogativa/', '/desmembrado/', '/gincana/']
+INFO:root:Found 13 descriptions: ['substantivo feminino Privilégio ou vantagem que al', 'Sinônimos:\n\nprivilégio, regalia, vantagem, distinç', 'Antônimos:\n\ndever, obrigação']
+INFO:root:Found 3 dates: ['Palavra de Hoje (10/07/2025)', 'Palavra de Ontem (09/07/2025)', 'Palavra de Anteontem (08/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (09/07/2025)', ID=a61bef41a53d29e00407e0bfcb92b571
-INFO:root:Processing entry 2: Title='Palavra de Ontem (08/07/2025)', ID=b6244a6eb51341d138f3c7685717dcea
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/07/2025)', ID=c19ebdc8a473b9857ebac248521741ce
+INFO:root:Processing entry 1: Title='Palavra de Hoje (10/07/2025)', ID=18d1cb9a34a3304c2005aaeb178d98a8
+INFO:root:Processing entry 2: Title='Palavra de Ontem (09/07/2025)', ID=b41df6f032e58be9d3eb7200816be42f
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/07/2025)', ID=5149959f42e9b135d7d77b44ef84d886
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (09/07/2025) - Significado completo de desmembrado:
-INFO:root:🔹 URL: https://www.dicio.com.br/desmembrado/
-INFO:root:🔹 Description: adjetivo Que foi dividido; separado em partes menores; separado: processo desmembrado em capítulos.Que teve os membros separados; que foi alvo de mutilação; mutilado: corpo desmembrado.[Figurado] Sem vigor, energia ou força; desvigorado.Ação ou efeito de desmembrar, cortar um corpo em membros.Etimologia (origem da palavra desmembrado). A palavra desmembrado tem sua origem no verbo desmembrar, com o sentido de cortar os membros de um corpo.
+INFO:root:🔹 Title: Palavra de Hoje (10/07/2025) - Significado completo de prerrogativa:
+INFO:root:🔹 URL: https://www.dicio.com.br/prerrogativa/
+INFO:root:🔹 Description: substantivo feminino Privilégio ou vantagem que algumas pessoas possuem por pertencerem a determinada classe, que faz com que elas sejam tratadas de maneira diferente das demais; privilégio.Direito próprio de um ofício, cargo ou profissão; regalia: usufruía das prerrogativas que a política lhe trazia.Etimologia (origem da palavra prerrogativa). A palavra prerrogativa deriva do latim "praerogativa, ae", ser o primeiro a votar.
  
 Sinônimos:
 
-desligado, dividido, afastado, enfraquecido, separado, desanexado 
+privilégio, regalia, vantagem, distinção, honraria, benefício, direito, apanágio 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (08/07/2025) - Significado completo de gincana:
-INFO:root:🔹 URL: https://www.dicio.com.br/gincana/
+INFO:root:🔹 Title: Palavra de Ontem (09/07/2025) - Significado completo de desmembrado:
+INFO:root:🔹 URL: https://www.dicio.com.br/desmembrado/
 INFO:root:🔹 Description: Sinônimos:
 
-desligado, dividido, afastado, enfraquecido, separado, desanexado
+privilégio, regalia, vantagem, distinção, honraria, benefício, direito, apanágio
  
 Antônimos:
 
-único, unido, homogêneo, remembrado 
+dever, obrigação 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (07/07/2025) - Significado completo de emprego:
-INFO:root:🔹 URL: https://www.dicio.com.br/emprego/
+INFO:root:🔹 Title: Palavra de Anteontem (08/07/2025) - Significado completo de gincana:
+INFO:root:🔹 URL: https://www.dicio.com.br/gincana/
 INFO:root:🔹 Description: Antônimos:
 
-único, unido, homogêneo, remembrado
- Classe gramatical:adjetivo
+dever, obrigação
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,46 +48,167 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243482 characters
-INFO:root:HTML parsed, length: 232783 characters
-INFO:root:Found 1 titles: ['Oséias 6:3']
-INFO:root:Found 1 URLs: ['/versiculo/oseias_6_3/']
-INFO:root:Found 1 descriptions: ['Conheçamos o Senhor;\nesforcemo-nos por conhecê-lo.']
+INFO:root:Response length: 243603 characters
+INFO:root:HTML parsed, length: 232904 characters
+INFO:root:Found 1 titles: ['Tito 3:9']
+INFO:root:Found 1 URLs: ['/versiculo/tito_3_9/']
+INFO:root:Found 1 descriptions: ['Evite, porém, controvérsias tolas, genealogias, di']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Oséias 6:3', ID=751226a8b39c6ee04bc223f6c43c150c
+INFO:root:Processing entry 1: Title='Tito 3:9', ID=d9b8b3a60f6fece5f0db27c3e36a1776
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Oséias 6:3
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/oseias_6_3/
-INFO:root:🔹 Description: Conheçamos o Senhor;
-esforcemo-nos por conhecê-lo.
-Tão certo como nasce o sol,
-ele aparecerá;
-virá para nós como as chuvas de inverno,
-como as chuvas de primavera
-que regam a terra." Oséias 6:3
+INFO:root:🔹 Title: Tito 3:9
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tito_3_9/
+INFO:root:🔹 Description: Evite, porém, controvérsias tolas, genealogias, discussões e contendas a respeito da Lei, porque essas coisas são inúteis e sem valor. Tito 3:9
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243774 characters
-INFO:root:HTML parsed, length: 233803 characters
-INFO:root:Found 3 titles: ['Salmo 48', 'Salmo 132', 'Salmo 8']
-INFO:root:Found 3 URLs: ['/salmos_48/', '/salmos_132/', '/salmos_8/']
-INFO:root:Found 3 descriptions: ['Grande é o Senhor,\ne digno de todo louvor\nna cidad', 'Senhor, lembra-te de Davi\ne das dificuldades que e', 'Senhor, Senhor nosso,\ncomo é majestoso o teu nome ']
-INFO:root:Found 3 dates: ['9 de Julho de 2025', '8 de Julho de 2025', '7 de Julho de 2025']
+INFO:root:Response length: 247483 characters
+INFO:root:HTML parsed, length: 237570 characters
+INFO:root:Found 3 titles: ['Salmo 106', 'Salmo 48', 'Salmo 132']
+INFO:root:Found 3 URLs: ['/salmos_106/', '/salmos_48/', '/salmos_132/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nDeem graças ao Senhor porque ele é bom;\no', 'Grande é o Senhor,\ne digno de todo louvor\nna cidad', 'Senhor, lembra-te de Davi\ne das dificuldades que e']
+INFO:root:Found 3 dates: ['10 de Julho de 2025', '9 de Julho de 2025', '8 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
-INFO:root:Processing entry 2: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
-INFO:root:Processing entry 3: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
+INFO:root:Processing entry 1: Title=' Salmo 106', ID=72d02b08d54e5be369d917261872f13c
+INFO:root:Processing entry 2: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
+INFO:root:Processing entry 3: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 106
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_106/
+INFO:root:🔹 Description: Aleluia!
+Deem graças ao Senhor porque ele é bom;
+o seu amor dura para sempre. 
+Quem poderá descrever
+os feitos poderosos do Senhor,
+ou declarar todo o louvor que lhe é devido? 
+Como são felizes
+os que perseveram na retidão,
+que sempre praticam a justiça! 
+Lembra-te de mim, Senhor,
+quando tratares com bondade o teu povo;
+vem em meu auxílio quando o salvares, 
+para que eu possa testemunhar
+o bem-estar dos teus escolhidos,
+alegrar-me com a alegria do teu povo
+e louvar-te com a tua herança. 
+Pecamos como os nossos antepassados;
+fizemos o mal e fomos rebeldes. 
+No Egito, os nossos antepassados
+não deram atenção às tuas maravilhas;
+não se lembraram das muitas manifestações
+do teu amor leal
+e rebelaram-se junto ao mar, o mar Vermelho. 
+Contudo, ele os salvou por causa do seu nome,
+para manifestar o seu poder. 
+Repreendeu o mar Vermelho, e este secou;
+ele os conduziu pelas profundezas
+como por um deserto. 
+Salvou-os das mãos daqueles que os odiavam;
+das mãos dos inimigos os resgatou. 
+As águas cobriram os seus adversários;
+nenhum deles sobreviveu. 
+Então creram nas suas promessas
+e a ele cantaram louvores. 
+Mas logo se esqueceram do que ele tinha feito
+e não esperaram para saber o seu plano. 
+Dominados pela gula no deserto,
+puseram Deus à prova nas regiões áridas. 
+Deu-lhes o que pediram,
+mas mandou sobre eles uma doença terrível. 
+No acampamento
+tiveram inveja de Moisés e de Arão,
+daquele que fora consagrado ao Senhor. 
+A terra abriu-se, engoliu Datã
+e sepultou o grupo de Abirão; 
+fogo surgiu entre os seus seguidores;
+as chamas consumiram os ímpios. 
+Em Horebe fizeram um bezerro,
+adoraram um ídolo de metal. 
+Trocaram a Glória deles
+pela imagem de um boi que come capim. 
+Esqueceram-se de Deus, seu Salvador,
+que fizera coisas grandiosas no Egito, 
+maravilhas na terra de Cam
+e feitos temíveis junto ao mar Vermelho. 
+Por isso, ele ameaçou destruí-los;
+mas Moisés, seu escolhido,
+intercedeu diante dele,
+para evitar que a sua ira os destruísse. 
+Também rejeitaram a terra desejável;
+não creram na promessa dele. 
+Queixaram-se em suas tendas
+e não obedeceram ao Senhor. 
+Assim, de mão levantada,
+ele jurou que os abateria no deserto 
+e dispersaria os seus descendentes
+entre as nações e os espalharia por outras terras. 
+Sujeitaram-se ao jugo de Baal-Peor
+e comeram sacrifícios oferecidos
+a ídolos mortos; 
+provocaram a ira do Senhor
+com os seus atos,
+e uma praga irrompeu no meio deles. 
+Mas Fineias se interpôs para executar o juízo,
+e a praga foi interrompida. 
+Isso lhe foi creditado como um ato de justiça
+que para sempre será lembrado,
+por todas as gerações. 
+Provocaram a ira de Deus
+junto às águas de Meribá;
+e, por causa deles, Moisés foi castigado; 
+rebelaram-se contra o Espírito de Deus,
+e Moisés falou sem refletir. 
+Eles não destruíram os povos,
+como o Senhor tinha ordenado, 
+em vez disso, misturaram-se com as nações
+e imitaram as suas práticas. 
+Prestaram culto aos seus ídolos,
+que se tornaram uma armadilha para eles. 
+Sacrificaram seus filhos e suas filhas
+aos demônios. 
+Derramaram sangue inocente,
+o sangue de seus filhos e filhas
+sacrificados aos ídolos de Canaã;
+e a terra foi profanada pelo sangue deles. 
+Tornaram-se impuros pelos seus atos;
+prostituíram-se por suas ações. 
+Por isso acendeu-se a ira do Senhor
+contra o seu povo
+e ele sentiu aversão por sua herança. 
+Entregou-os nas mãos das nações,
+e os seus adversários dominaram sobre eles. 
+Os seus inimigos os oprimiram
+e os subjugaram com o seu poder. 
+Ele os libertou muitas vezes,
+embora eles persistissem
+em seus planos de rebelião
+e afundassem em sua maldade. 
+Mas Deus atentou para o sofrimento deles
+quando ouviu o seu clamor. 
+Lembrou-se da sua aliança com eles,
+e arrependeu-se,
+por causa do seu imenso amor leal. 
+Fez com que os seus captores
+tivessem misericórdia deles. 
+Salva-nos, Senhor, nosso Deus!
+Ajunta-nos dentre as nações,
+para que demos graças ao teu santo nome
+e façamos do teu louvor a nossa glória. 
+Bendito seja o Senhor, o Deus de Israel,
+por toda a eternidade.
+Que todo o povo diga: "Amém!"
+Aleluia! 
+ Salmo 106
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 48
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_48/
 INFO:root:🔹 Description: Grande é o Senhor,
@@ -179,97 +300,77 @@ Vestirei de vergonha os seus inimigos,
 mas nele brilhará a sua coroa". 
  Salmo 132
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 8
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_8/
-INFO:root:🔹 Description: Senhor, Senhor nosso,
-como é majestoso o teu nome em toda a terra!
-Tu, cuja glória é cantada nos céus. 
-Dos lábios das crianças e dos recém-nascidos
-firmaste o teu nome como fortaleza,
-por causa dos teus adversários,
-para silenciar o inimigo que busca vingança. 
-Quando contemplo os teus céus,
-obra dos teus dedos,
-a lua e as estrelas que ali firmaste, 
-pergunto: Que é o homem,
-para que com ele te importes?
-E o filho do homem,
-para que com ele te preocupes? 
-Tu o fizeste um pouco menor
-do que os seres celestiais
-e o coroaste de glória e de honra. 
-Tu o fizeste dominar
-as obras das tuas mãos;
-sob os seus pés tudo puseste: 
-todos os rebanhos e manadas,
-e até os animais selvagens, 
-as aves do céu, os peixes do mar
-e tudo o que percorre as veredas dos mares. 
-Senhor, Senhor nosso,
-como é majestoso o teu nome em toda a terra! 
- Salmo 8
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 246265 characters
-INFO:root:HTML parsed, length: 235963 characters
-INFO:root:Found 3 titles: ['Servindo somente a Deus, vivendo para Ele', 'Alegre-se, você foi escolhido!', 'Permaneçam firmes no Senhor, mesmo que estejam cercados por leões']
+INFO:root:Response length: 245956 characters
+INFO:root:HTML parsed, length: 235650 characters
+INFO:root:Found 3 titles: ['Crer em Jesus não é uma aposta', 'Servindo somente a Deus, vivendo para Ele', 'Alegre-se, você foi escolhido!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ["'Adore o Senhor, o seu Deus, e só a ele preste cul", 'Vocês não me escolheram, mas eu os escolhi para ir', 'O meu Deus enviou o seu anjo, que fechou a boca do']
-INFO:root:Found 1 dates: ['Quarta, 9 de julho de 2025']
+INFO:root:Found 3 descriptions: ['Respondeu Jesus: "Eu sou o caminho, a verdade e a ', "'Adore o Senhor, o seu Deus, e só a ele preste cul", 'Vocês não me escolheram, mas eu os escolhi para ir']
+INFO:root:Found 1 dates: ['Quinta, 10 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Servindo somente a Deus, vivendo para Ele', ID=589aa2a288202712809bbece68c22ca9
+INFO:root:Processing entry 1: Title='Crer em Jesus não é uma aposta', ID=9632c0fb508525a7be9af02c51d5353b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Servindo somente a Deus, vivendo para Ele - Palavra de Hoje
+INFO:root:🔹 Title: Crer em Jesus não é uma aposta - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: 'Adore o Senhor, o seu Deus, e só a ele preste culto'".
-- Mateus 4:10b
+INFO:root:🔹 Description: Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.
+- João 14:6
 
-
-Contudo, aos que o receberam, aos que creram em seu nome, deu-lhes o direito de se tornarem filhos de Deus,
-- João 1:12
-
-Receber a Cristo como Salvador e Senhor de nossas vidas é a melhor decisão que podemos tomar. A partir desse momento, deixamos de ser criaturas de Deus e passamos a ser Seus filhos, com todos os direitos por toda a eternidade. Que grande privilégio!
-Algo maravilhoso acontece: o Espírito Santo vem habitar em nós. Sua obra em nós nos ajuda a viver vitoriosamente, servindo ao Senhor e fazendo o que Lhe agrada. Mas precisamos reservar um tempo para orar, ler a Palavra e permitir que Deus fale conosco. Servir a Deus exige dedicação, escolher viver cada dia de forma que nossas palavras e atitudes agradem a Deus e tragam alegria ao Seu coração.
-Passar tempo com Deus renova nosso espírito, nos ajuda a ver as coisas sob Sua perspectiva, alinhando-nos com Sua vontade. Se você perceber que as responsabilidades diárias estão impedindo você de passar tempo com Deus, pense em como você pode reorganizar seus dias para priorizar o Senhor.
-Deus não compartilha Sua glória com ninguém, e isso é bom. Quando permitimos que Ele reine sobre todas as áreas da nossa vida, tudo se encaixa com mais perfeição, porque Ele sabe o que é melhor para nós. Você quer viver a vida abundante que Deus preparou para você desde antes da fundação do mundo? Sirva somente a Ele e viva para Ele! Há grande bênção para aqueles que permitem que Deus reine em tudo.
-
-Alegrem-se, porém,
-todos os que se refugiam em ti;
-cantem sempre de alegria!
-Estende sobre eles a tua proteção.
-Em ti exultem os que amam o teu nome.
-Pois tu, Senhor, abençoas o justo;
-o teu favor o protege como um escudo.
-- Salmo 5:11-12
-
-Veja também: Razões para servir a Deus com alegria.
+Crer em Jesus não é uma aposta. Uma aposta envolve incerteza, risco e a possibilidade de perda. Mas a fé em Cristo é a resposta segura a uma verdade revelada, sólida e eterna. Jesus não nos chamou a jogar com o destino da nossa alma, mas a confiar plenamente nEle, que venceu a morte e nos oferece vida eterna.
+Muitos veem a fé como um “plano B”, uma tentativa de garantir algo “caso tudo isso seja verdade”. Mas a Palavra de Deus não nos dá margem para esse tipo de pensamento. Jesus afirma ser o caminho, não um caminho.
+A fé verdadeira não se baseia em probabilidades, mas em uma convicção firme do que se espera e na certeza do que não se vê (Hebreus 11:1).
+Crer em Jesus é entregar a vida Aquele que deu a Sua por nós na cruz. É confiar em Suas promessas, andar em obediência e viver com esperança. Quem crê não está se arriscando, mas se firmando na Rocha eterna. A fé em Cristo transforma, liberta e salva.
+O mundo tenta nos convencer de que tudo é incerto, mas o Evangelho nos apresenta uma verdade imutável: Jesus é Deus, Ele vive e voltará. Apostar é duvidar. Crer é descansar em quem é digno de toda confiança.
+Não jogue com a sua eternidade. Não trate Jesus como uma chance, mas como a única Verdade. A fé não é um jogo, é a resposta de um coração convencido pela graça, tocado pelo amor e transformado pelo poder do Salvador.
+Veja também: Jesus é Deus: 7 verdades bíblicas que confirmam
  
-'Adore o Senhor, o seu Deus, e só a ele preste culto'".
-- Mateus 4:10b
+Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.
+- João 14:6
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255284 characters
-INFO:root:HTML parsed, length: 244741 characters
-INFO:root:Found 3 titles: ['Chamados para servir', 'Ele nos ouve e responde no tempo certo', 'O tempo de Deus']
-INFO:root:Found 3 URLs: ['/razoes_para_servir_a_deus/', '/clama_a_mim_e_responder_te_ei_estudo/', '/paciencia/']
-INFO:root:Found 3 descriptions: ['"Pois nem mesmo o Filho do homem veio para ser ser', 'Clama a mim, e responder-te-ei, e anunciar-te-ei c', 'Não se esqueçam disto, amados: para o Senhor um di']
-INFO:root:Found 3 dates: ['JULHO\n\n9\nQUARTA', 'JULHO\n\n8\nTERÇA', 'JULHO\n\n7\nSEGUNDA']
+INFO:root:Response length: 255648 characters
+INFO:root:HTML parsed, length: 245106 characters
+INFO:root:Found 3 titles: ['Agradeça a Deus e as pessoas', 'Chamados para servir', 'Ele nos ouve e responde no tempo certo']
+INFO:root:Found 3 URLs: ['/como_mostrar_sua_gratidao_a_deus/', '/razoes_para_servir_a_deus/', '/clama_a_mim_e_responder_te_ei_estudo/']
+INFO:root:Found 3 descriptions: ['Deem graças em todas as circunstâncias, pois esta ', '"Pois nem mesmo o Filho do homem veio para ser ser', 'Clama a mim, e responder-te-ei, e anunciar-te-ei c']
+INFO:root:Found 3 dates: ['JULHO\n\n10\nQUINTA', 'JULHO\n\n9\nQUARTA', 'JULHO\n\n8\nTERÇA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Chamados para servir', ID=886cd7cc51058f974ffbe2d1a2ec8429
-INFO:root:Processing entry 2: Title='Ele nos ouve e responde no tempo certo', ID=c6efa6cecbe7c6bc110e782a75aa49d8
-INFO:root:Processing entry 3: Title='O tempo de Deus', ID=b1ab7791fffdd32e5c817cb2ed1c15f4
+INFO:root:Processing entry 1: Title='Agradeça a Deus e as pessoas', ID=d787d812f89ef26278474c017e920b6c
+INFO:root:Processing entry 2: Title='Chamados para servir', ID=886cd7cc51058f974ffbe2d1a2ec8429
+INFO:root:Processing entry 3: Title='Ele nos ouve e responde no tempo certo', ID=c6efa6cecbe7c6bc110e782a75aa49d8
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Agradeça a Deus e as pessoas
+INFO:root:🔹 URL: https://www.bibliaon.com/como_mostrar_sua_gratidao_a_deus/
+INFO:root:🔹 Description: Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.
+- 1 Tessalonicenses 5:18
+
+A gratidão é uma expressão poderosa da nossa fé. Quando agradecemos a Deus, reconhecemos Sua soberania, bondade e cuidado contínuo por nossas vidas. Em todos os momentos, bons ou difíceis, somos chamados a dar graças, não porque tudo seja perfeito, mas porque sabemos que Deus está conosco e transforma cada situação para o nosso bem.
+A gratidão a Deus nos aproxima d'Ele. Ao reconhecermos Suas bênçãos, grandes ou pequenas, cultivamos um coração mais humilde e sensível à Sua presença. Deus não espera que sejamos gratos apenas quando tudo vai bem. Ele deseja que aprendamos a confiar mesmo nas provações, certos de que Ele está agindo em nosso favor.
+Mas a gratidão não deve se limitar ao nosso relacionamento com Deus. Devemos também ser gratos às pessoas que Ele coloca em nosso caminho. Amigos, familiares, irmãos da fé, colegas de trabalho, cada um, de alguma forma, contribui para nosso crescimento. Um simples “obrigado” pode fortalecer laços, encorajar corações e testemunhar o amor de Cristo.
+Quantas vezes deixamos de agradecer por gestos simples que fizeram grande diferença? Reconhecer o esforço do outro é também uma forma de adorar a Deus, pois Ele nos chama a viver em comunhão e amor.
+Comece o dia louvando a Deus. Agradeça pela vida, pela salvação em Jesus, pela provisão diária. E não se esqueça de agradecer às pessoas ao seu redor. Um coração grato transforma ambientes, renova relacionamentos e reflete a luz de Cristo no mundo. A gratidão é uma semente que, quando plantada, gera frutos eternos.
+Vivendo com gratidão no dia a dia
+
+Antes mesmo de checar o celular ou começar suas tarefas, reserve um momento para falar com Deus. Agradeça pela vida, pela salvação, pela saúde e por tudo o que Ele tem feito. Isso fortalece sua fé.
+Diga “obrigado” com sinceridade às pessoas ao seu redor, seja em casa, no trabalho ou na igreja. Pequenos gestos podem ser grandes demonstrações de apreço e amor.
+Crie o hábito de escrever, ao final do dia, três coisas pelas quais você é grato. Essa prática simples treina sua mente para enxergar as bênçãos, mesmo nos dias difíceis, e te ajuda a manter um coração grato diante de Deus.
+
+Para orar:
+
+Senhor, obrigado por Teu amor e cuidado constantes. Ensina-me a ser grato em todas as situações, reconhecendo Tuas bênçãos e o valor das pessoas ao meu redor. Que meu coração reflita a Tua graça e minhas palavras edifiquem. Ajuda-me a viver com humildade, amor e gratidão. Em nome de Jesus, amém.
+
+Veja também: Como agradecer a Deus - 8 formas de mostrar sua gratidão
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Chamados para servir
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_servir_a_deus/
 INFO:root:🔹 Description: "Pois nem mesmo o Filho do homem veio para ser servido, mas para servir e dar a sua vida em resgate por muitos".
@@ -316,37 +417,10 @@ Senhor, mesmo quando o silêncio me cerca, sei que Tu me ouves. Fortalece minha 
 
 Veja também: Explicação de Jeremias 33:3: Clama a mim e responder-te-ei (Estudo)
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O tempo de Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/paciencia/
-INFO:root:🔹 Description: Não se esqueçam disto, amados: para o Senhor um dia é como mil anos, e mil anos como um dia.
-- 2 Pedro 3:8
-
-Esse versículo nos lembra que o tempo de Deus não é como o nosso. Vivemos presos ao relógio, preocupados com o agora, com o amanhã, com os prazos e as esperas. Mas Deus enxerga o tempo de maneira eterna e perfeita.
-Muitas vezes nos desesperamos por promessas que parecem não se cumprir, orações que demoram a ser respondidas, sonhos que parecem tardar. Contudo, a Palavra nos ensina que Deus nunca atrasa. Ele age no momento certo, de acordo com Sua vontade soberana. O que parece demora para nós, é propósito em ação para Ele.
-A paciência é uma virtude que Deus deseja formar em nós. Enquanto esperamos, Ele trabalha em nosso caráter, fortalece nossa fé e nos prepara para receber o que está por vir. Não devemos medir o agir de Deus com os nossos relógios, mas com a confiança de que Ele é fiel.
-Quando entendemos que mil anos são como um dia para o Senhor, aprendemos a descansar. Sabemos que Ele não esqueceu de nós. Ele está agindo, mesmo que não vejamos. O tempo de Deus não é uma barreira, é um mistério cheio de graça.
-Portanto, amados, não desanimem. As promessas de Deus continuam de pé. O tempo dEle é perfeito. Que a esperança encha seu coração, mesmo na espera, pois Aquele que prometeu é fiel para cumprir, no tempo certo, no tempo de Deus.
-Razões para confiar no tempo de Deus
-
-
-Deus vê além do agora: Ele enxerga o futuro com perfeição. Mesmo quando não entendemos, Deus sabe o que é melhor e age com propósito.
-
-A espera molda o caráter: Durante a espera, Deus trabalha em nosso interior, ensinando paciência, fé e obediência. Crescemos espiritualmente enquanto confiamos nEle.
-
-Suas promessas não falham: O tempo não apaga o que Deus prometeu. Ele cumpre Sua palavra com fidelidade, mesmo que leve mais tempo do que esperamos.
-
-A resposta certa vem no momento certo: Deus nunca se atrasa. Ele sabe quando estamos prontos para receber. A resposta virá quando for perfeita para o nosso bem e crescimento.
-
-Para orar:
-
-Senhor, ensina-me a confiar no Teu tempo. Mesmo quando não entendo, quero crer que Tu estás agindo por amor. Fortalece minha fé, dá-me paciência e paz na espera. Amém.
-
-Veja também: Versículos sobre paciência
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223792 characters
-INFO:root:HTML parsed, length: 222345 characters
+INFO:root:Response length: 223785 characters
+INFO:root:HTML parsed, length: 222338 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 23 URLs: ['/wiki/Andrew_Jackson', '/wiki/Andrew_Jackson', '/wiki/Agricultor']
 INFO:root:Found 1 descriptions: ['Andrew Jackson foi um fazendeiro, mercador de escr']
@@ -374,8 +448,8 @@ Artigos bons: 1917
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223792 characters
-INFO:root:HTML parsed, length: 222345 characters
+INFO:root:Response length: 223785 characters
+INFO:root:HTML parsed, length: 222338 characters
 INFO:root:Found 1 titles: ['9 de julho na história']
 INFO:root:Found 51 URLs: ['/wiki/Ficheiro:Flag_of_Argentina.svg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Argentina']
 INFO:root:Found 1 descriptions: ['Bandeira da Argentina\nDia da Independência da Arge']
@@ -405,8 +479,8 @@ Ver mais • Outros dias: 7 • 8 • 9 • 10 • 11 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223792 characters
-INFO:root:HTML parsed, length: 222345 characters
+INFO:root:Response length: 223785 characters
+INFO:root:HTML parsed, length: 222338 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Rifling_of_a_cannon_(M75;_90mm;_y.1891;_Austro-Hungarian;_exposed_in_Ljubljana,_Slovenia).jpg']
 INFO:root:Found 1 descriptions: ['Ranhura de um canhão M75, fabricado em 1891 no Imp']
@@ -444,30 +518,24 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  51 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  39 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  36 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  62 +++--
+ feeds/salmo_do_dia/atom.xml               | 155 +++++++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   6 +-
- feeds/wikidestaque/feed.json              |   4 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 368 ++++++++++++++++--------------
- 17 files changed, 355 insertions(+), 299 deletions(-)
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 391 +++++++++++++++++-------------
+ 14 files changed, 424 insertions(+), 297 deletions(-)
