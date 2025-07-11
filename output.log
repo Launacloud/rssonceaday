@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119040 characters
-INFO:root:HTML parsed, length: 112155 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (10/07/2025)', 'Palavra de Ontem (09/07/2025)', 'Palavra de Anteontem (08/07/2025)']
-INFO:root:Found 3 URLs: ['/prerrogativa/', '/desmembrado/', '/gincana/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Privilégio ou vantagem que al', 'Sinônimos:\n\nprivilégio, regalia, vantagem, distinç', 'Antônimos:\n\ndever, obrigação']
-INFO:root:Found 3 dates: ['Palavra de Hoje (10/07/2025)', 'Palavra de Ontem (09/07/2025)', 'Palavra de Anteontem (08/07/2025)']
+INFO:root:Response length: 119420 characters
+INFO:root:HTML parsed, length: 112351 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (11/07/2025)', 'Palavra de Ontem (10/07/2025)', 'Palavra de Anteontem (09/07/2025)']
+INFO:root:Found 3 URLs: ['/mundializacao/', '/prerrogativa/', '/desmembrado/']
+INFO:root:Found 14 descriptions: ['substantivo feminino Ação de mundializar, de torna', 'Sinônimos:\n\nglobalização, universalização', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (11/07/2025)', 'Palavra de Ontem (10/07/2025)', 'Palavra de Anteontem (09/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (10/07/2025)', ID=18d1cb9a34a3304c2005aaeb178d98a8
-INFO:root:Processing entry 2: Title='Palavra de Ontem (09/07/2025)', ID=b41df6f032e58be9d3eb7200816be42f
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/07/2025)', ID=5149959f42e9b135d7d77b44ef84d886
+INFO:root:Processing entry 1: Title='Palavra de Hoje (11/07/2025)', ID=9d45e5713171dc49082a61802cb2b57b
+INFO:root:Processing entry 2: Title='Palavra de Ontem (10/07/2025)', ID=169262740c72cd8517a0b2c19e23e440
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/07/2025)', ID=8ce708c9835afe8d0e5aeae83dc0a6f9
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (10/07/2025) - Significado completo de prerrogativa:
-INFO:root:🔹 URL: https://www.dicio.com.br/prerrogativa/
-INFO:root:🔹 Description: substantivo feminino Privilégio ou vantagem que algumas pessoas possuem por pertencerem a determinada classe, que faz com que elas sejam tratadas de maneira diferente das demais; privilégio.Direito próprio de um ofício, cargo ou profissão; regalia: usufruía das prerrogativas que a política lhe trazia.Etimologia (origem da palavra prerrogativa). A palavra prerrogativa deriva do latim "praerogativa, ae", ser o primeiro a votar.
+INFO:root:🔹 Title: Palavra de Hoje (11/07/2025) - Significado completo de mundialização:
+INFO:root:🔹 URL: https://www.dicio.com.br/mundializacao/
+INFO:root:🔹 Description: substantivo feminino Ação de mundializar, de tornar mundial, comum, universal, sendo capaz de se expandir ou de alcançar tudo e todos; globalização, universalização.Ação do que alcança o mundo ou que desperta o interesse da população mundial, global.Etimologia (origem da palavra mundialização). A palavra mundialização deriva da junção do verbo mundializar e do sufixo - ão.
  
 Sinônimos:
 
-privilégio, regalia, vantagem, distinção, honraria, benefício, direito, apanágio 
+globalização, universalização 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (09/07/2025) - Significado completo de desmembrado:
-INFO:root:🔹 URL: https://www.dicio.com.br/desmembrado/
+INFO:root:🔹 Title: Palavra de Ontem (10/07/2025) - Significado completo de prerrogativa:
+INFO:root:🔹 URL: https://www.dicio.com.br/prerrogativa/
 INFO:root:🔹 Description: Sinônimos:
 
-privilégio, regalia, vantagem, distinção, honraria, benefício, direito, apanágio
- 
-Antônimos:
-
-dever, obrigação 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (08/07/2025) - Significado completo de gincana:
-INFO:root:🔹 URL: https://www.dicio.com.br/gincana/
-INFO:root:🔹 Description: Antônimos:
-
-dever, obrigação
+globalização, universalização
  Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (09/07/2025) - Significado completo de desmembrado:
+INFO:root:🔹 URL: https://www.dicio.com.br/desmembrado/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:mun-di-a-li-za-ção
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,80 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243603 characters
-INFO:root:HTML parsed, length: 232904 characters
-INFO:root:Found 1 titles: ['Tito 3:9']
-INFO:root:Found 1 URLs: ['/versiculo/tito_3_9/']
-INFO:root:Found 1 descriptions: ['Evite, porém, controvérsias tolas, genealogias, di']
+INFO:root:Response length: 243473 characters
+INFO:root:HTML parsed, length: 232774 characters
+INFO:root:Found 1 titles: ['Salmos 126:3']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_126_3/']
+INFO:root:Found 1 descriptions: ['Sim, coisas grandiosas fez o Senhor por nós,\npor i']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Tito 3:9', ID=d9b8b3a60f6fece5f0db27c3e36a1776
+INFO:root:Processing entry 1: Title='Salmos 126:3', ID=287153e962b24dfe759bec02be8407d9
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Tito 3:9
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tito_3_9/
-INFO:root:🔹 Description: Evite, porém, controvérsias tolas, genealogias, discussões e contendas a respeito da Lei, porque essas coisas são inúteis e sem valor. Tito 3:9
+INFO:root:🔹 Title: Salmos 126:3
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_126_3/
+INFO:root:🔹 Description: Sim, coisas grandiosas fez o Senhor por nós,
+por isso estamos alegres. Salmos 126:3
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 247483 characters
-INFO:root:HTML parsed, length: 237570 characters
-INFO:root:Found 3 titles: ['Salmo 106', 'Salmo 48', 'Salmo 132']
-INFO:root:Found 3 URLs: ['/salmos_106/', '/salmos_48/', '/salmos_132/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nDeem graças ao Senhor porque ele é bom;\no', 'Grande é o Senhor,\ne digno de todo louvor\nna cidad', 'Senhor, lembra-te de Davi\ne das dificuldades que e']
-INFO:root:Found 3 dates: ['10 de Julho de 2025', '9 de Julho de 2025', '8 de Julho de 2025']
+INFO:root:Response length: 246999 characters
+INFO:root:HTML parsed, length: 237082 characters
+INFO:root:Found 3 titles: ['Salmo 30', 'Salmo 106', 'Salmo 48']
+INFO:root:Found 3 URLs: ['/salmos_30/', '/salmos_106/', '/salmos_48/']
+INFO:root:Found 3 descriptions: ['Eu te exaltarei, Senhor,\npois tu me reergueste\ne n', 'Aleluia!\nDeem graças ao Senhor porque ele é bom;\no', 'Grande é o Senhor,\ne digno de todo louvor\nna cidad']
+INFO:root:Found 3 dates: ['11 de Julho de 2025', '10 de Julho de 2025', '9 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 106', ID=72d02b08d54e5be369d917261872f13c
-INFO:root:Processing entry 2: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
-INFO:root:Processing entry 3: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
+INFO:root:Processing entry 1: Title=' Salmo 30', ID=342758d9d6e6e746d96114f4fb23c117
+INFO:root:Processing entry 2: Title=' Salmo 106', ID=72d02b08d54e5be369d917261872f13c
+INFO:root:Processing entry 3: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 30
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_30/
+INFO:root:🔹 Description: Eu te exaltarei, Senhor,
+pois tu me reergueste
+e não deixaste que os meus inimigos
+se divertissem à minha custa. 
+Senhor meu Deus, a ti clamei por socorro,
+e tu me curaste. 
+Senhor, tiraste-me da sepultura;
+prestes a descer à cova, devolveste-me à vida. 
+Cantem louvores ao Senhor,
+vocês, os seus fiéis;
+louvem o seu santo nome. 
+Pois a sua ira só dura um instante,
+mas o seu favor dura a vida toda;
+o choro pode persistir uma noite,
+mas de manhã irrompe a alegria. 
+Quando me senti seguro, disse:
+Jamais serei abalado! 
+Senhor, com o teu favor,
+deste-me firmeza e estabilidade;
+mas, quando escondeste a tua face,
+fiquei aterrorizado. 
+A ti, Senhor, clamei,
+ao Senhor pedi misericórdia: 
+Se eu morrer, se eu descer à cova,
+que vantagem haverá?
+Acaso o pó te louvará?
+Proclamará a tua fidelidade? 
+Ouve, Senhor, e tem misericórdia de mim;
+Senhor, sê tu o meu auxílio. 
+Mudaste o meu pranto em dança,
+a minha veste de lamento em veste de alegria, 
+para que o meu coração
+cante louvores a ti e não se cale.
+Senhor, meu Deus,
+eu te darei graças para sempre. 
+ Salmo 30
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 106
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_106/
 INFO:root:🔹 Description: Aleluia!
@@ -251,104 +285,84 @@ para todo o sempre;
 ele será o nosso guia até o fim. 
  Salmo 48
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 132
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_132/
-INFO:root:🔹 Description: Senhor, lembra-te de Davi
-e das dificuldades que enfrentou. 
-Ele jurou ao Senhor
-e fez um voto ao Poderoso de Jacó: 
-"Não entrarei na minha tenda
-nem me deitarei no meu leito; 
-não permitirei
-que os meus olhos peguem no sono
-nem que as minhas pálpebras descansem, 
-enquanto não encontrar
-um lugar para o Senhor,
-uma habitação para o Poderoso de Jacó". 
-Soubemos que a arca estava em Efrata,
-mas nós a encontramos nos campos de Jaar: 
-"Vamos para a habitação do Senhor!
-Vamos adorá-lo diante do estrado de seus pés! 
-Levanta-te, Senhor,
-e vem para o teu lugar de descanso,
-tu e a arca onde está o teu poder. 
-Vistam-se de retidão os teus sacerdotes;
-cantem de alegria os teus fiéis". 
-Por amor ao teu servo Davi,
-não rejeites o teu ungido. 
-O Senhor fez um juramento a Davi,
-um juramento firme que ele não revogará:
-"Colocarei um dos seus descendentes
-no seu trono. 
-Se os seus filhos forem fiéis à minha aliança
-e aos testemunhos que eu lhes ensino,
-também os filhos deles
-o sucederão no trono para sempre". 
-O Senhor escolheu Sião,
-com o desejo de fazê-la sua habitação: 
-"Este será o meu lugar de descanso
-para sempre;
-aqui firmarei o meu trono,
-pois esse é o meu desejo. 
-Abençoarei este lugar com fartura;
-os seus pobres suprirei de pão. 
-Vestirei de salvação os seus sacerdotes
-e os seus fiéis a celebrarão com grande alegria. 
-"Ali farei renascer o poder de Davi
-e farei brilhar a luz do meu ungido. 
-Vestirei de vergonha os seus inimigos,
-mas nele brilhará a sua coroa". 
- Salmo 132
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245956 characters
-INFO:root:HTML parsed, length: 235650 characters
-INFO:root:Found 3 titles: ['Crer em Jesus não é uma aposta', 'Servindo somente a Deus, vivendo para Ele', 'Alegre-se, você foi escolhido!']
+INFO:root:Response length: 245823 characters
+INFO:root:HTML parsed, length: 235517 characters
+INFO:root:Found 3 titles: ['Vestidos de amor', 'Crer em Jesus não é uma aposta', 'Servindo somente a Deus, vivendo para Ele']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Respondeu Jesus: "Eu sou o caminho, a verdade e a ', "'Adore o Senhor, o seu Deus, e só a ele preste cul", 'Vocês não me escolheram, mas eu os escolhi para ir']
-INFO:root:Found 1 dates: ['Quinta, 10 de julho de 2025']
+INFO:root:Found 3 descriptions: ['Acima de tudo, porém, revistam-se do amor, que é o', 'Respondeu Jesus: "Eu sou o caminho, a verdade e a ', "'Adore o Senhor, o seu Deus, e só a ele preste cul"]
+INFO:root:Found 1 dates: ['Sexta, 11 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Crer em Jesus não é uma aposta', ID=9632c0fb508525a7be9af02c51d5353b
+INFO:root:Processing entry 1: Title='Vestidos de amor', ID=2b323cd8bbdca816370a62c1fe1c8004
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Crer em Jesus não é uma aposta - Palavra de Hoje
+INFO:root:🔹 Title: Vestidos de amor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.
-- João 14:6
+INFO:root:🔹 Description: Acima de tudo, porém, revistam-se do amor, que é o elo perfeito.
+- Colossenses 3:14
 
-Crer em Jesus não é uma aposta. Uma aposta envolve incerteza, risco e a possibilidade de perda. Mas a fé em Cristo é a resposta segura a uma verdade revelada, sólida e eterna. Jesus não nos chamou a jogar com o destino da nossa alma, mas a confiar plenamente nEle, que venceu a morte e nos oferece vida eterna.
-Muitos veem a fé como um “plano B”, uma tentativa de garantir algo “caso tudo isso seja verdade”. Mas a Palavra de Deus não nos dá margem para esse tipo de pensamento. Jesus afirma ser o caminho, não um caminho.
-A fé verdadeira não se baseia em probabilidades, mas em uma convicção firme do que se espera e na certeza do que não se vê (Hebreus 11:1).
-Crer em Jesus é entregar a vida Aquele que deu a Sua por nós na cruz. É confiar em Suas promessas, andar em obediência e viver com esperança. Quem crê não está se arriscando, mas se firmando na Rocha eterna. A fé em Cristo transforma, liberta e salva.
-O mundo tenta nos convencer de que tudo é incerto, mas o Evangelho nos apresenta uma verdade imutável: Jesus é Deus, Ele vive e voltará. Apostar é duvidar. Crer é descansar em quem é digno de toda confiança.
-Não jogue com a sua eternidade. Não trate Jesus como uma chance, mas como a única Verdade. A fé não é um jogo, é a resposta de um coração convencido pela graça, tocado pelo amor e transformado pelo poder do Salvador.
-Veja também: Jesus é Deus: 7 verdades bíblicas que confirmam
+
+Assim conhecemos o amor que Deus tem por nós e confiamos nesse amor. Deus é amor. Todo aquele que permanece no amor permanece em Deus, e Deus nele.
+- 1 João 4:16
+
+Há pessoas difíceis de amar. Suas palavras e atitudes são frequentemente ásperas, suas ações egoístas e, por mais que tentemos, lutamos para ver algo de bom nelas. No entanto, Deus não apenas as ama, mas também nos chama para amá-las. Como fazemos isso? Enchendo-nos do amor de Deus!
+O verdadeiro amor é algo que brota do coração. É uma decisão firme que surge das profundezas do nosso ser, algo que nos impulsiona a ser compreensivos, gentis e perdoadores, mesmo quando a outra pessoa não retribui esse amor. Humanamente falando, isso parece impossível. É por isso que a Bíblia nos dá a fórmula: permaneça no amor de Deus!
+Se nos revestirmos do amor de Deus todos os dias, se permanecermos em seus braços, sentindo sua presença, seu amor e compaixão em todos os momentos, nosso primeiro impulso em qualquer situação será o amor. Ao contrário, se vivermos focados em nossas emoções ou necessidades, reagiremos mal.
+É por isso que a Bíblia nos convoca a nos revestirmos de amor, que é o elo perfeito para nossos relacionamentos com nossos irmãos na fé e com os outros. Ao permanecermos firmes em Deus, somos preenchidos com Seu amor todos os dias, e nossas reações a cada situação demonstram quem é o Rei de nossas vidas.
+Escolha hoje mesmo revestir-se do amor de Deus, permitindo que Seu amor o preencha e o guie em tudo o que você enfrentar. Espalhe o amor de Deus com suas palavras e ações. Contribua para um mundo melhor, onde o amor de Deus reine e transforme as situações.
+Veja também: Amar o próximo: 7 atitudes de amor ao próximo na Bíblia.
  
-Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.
-- João 14:6
+Acima de tudo, porém, revistam-se do amor, que é o elo perfeito.
+- Colossenses 3:14
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255648 characters
-INFO:root:HTML parsed, length: 245106 characters
-INFO:root:Found 3 titles: ['Agradeça a Deus e as pessoas', 'Chamados para servir', 'Ele nos ouve e responde no tempo certo']
-INFO:root:Found 3 URLs: ['/como_mostrar_sua_gratidao_a_deus/', '/razoes_para_servir_a_deus/', '/clama_a_mim_e_responder_te_ei_estudo/']
-INFO:root:Found 3 descriptions: ['Deem graças em todas as circunstâncias, pois esta ', '"Pois nem mesmo o Filho do homem veio para ser ser', 'Clama a mim, e responder-te-ei, e anunciar-te-ei c']
-INFO:root:Found 3 dates: ['JULHO\n\n10\nQUINTA', 'JULHO\n\n9\nQUARTA', 'JULHO\n\n8\nTERÇA']
+INFO:root:Response length: 256096 characters
+INFO:root:HTML parsed, length: 245552 characters
+INFO:root:Found 3 titles: ['Recebendo um coração novo', 'Agradeça a Deus e as pessoas', 'Chamados para servir']
+INFO:root:Found 3 URLs: ['/transformacao/', '/como_mostrar_sua_gratidao_a_deus/', '/razoes_para_servir_a_deus/']
+INFO:root:Found 3 descriptions: ['Quantas vezes sentimos que nossos corações se endu', 'Deem graças em todas as circunstâncias, pois esta ', '"Pois nem mesmo o Filho do homem veio para ser ser']
+INFO:root:Found 3 dates: ['JULHO\n\n11\nSEXTA', 'JULHO\n\n10\nQUINTA', 'JULHO\n\n9\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Agradeça a Deus e as pessoas', ID=d787d812f89ef26278474c017e920b6c
-INFO:root:Processing entry 2: Title='Chamados para servir', ID=886cd7cc51058f974ffbe2d1a2ec8429
-INFO:root:Processing entry 3: Title='Ele nos ouve e responde no tempo certo', ID=c6efa6cecbe7c6bc110e782a75aa49d8
+INFO:root:Processing entry 1: Title='Recebendo um coração novo', ID=93a91885b9725aa57fbf7970449256db
+INFO:root:Processing entry 2: Title='Agradeça a Deus e as pessoas', ID=d787d812f89ef26278474c017e920b6c
+INFO:root:Processing entry 3: Title='Chamados para servir', ID=886cd7cc51058f974ffbe2d1a2ec8429
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Recebendo um coração novo
+INFO:root:🔹 URL: https://www.bibliaon.com/transformacao/
+INFO:root:🔹 Description: Quantas vezes sentimos que nossos corações se endurecem com o passar do tempo? As decepções da vida, os pecados repetidos, as mágoas não resolvidas e a rotina podem nos tornar insensíveis à voz de Deus. Mas o Senhor, em Sua infinita misericórdia, não nos deixa nessa condição. Ele promete algo extraordinário: um coração novo.
+
+Darei a vocês um coração novo e porei um espírito novo em vocês; tirarei de vocês o coração de pedra e, em troca, darei um coração de carne.
+- Ezequiel 36:26
+
+Esse versículo de Ezequiel é uma promessa poderosa de restauração. Deus não está interessado apenas em mudar nossos comportamentos superficiais, mas deseja uma transformação profunda e interior. O coração, na linguagem bíblica, é o centro da vontade, das emoções e das decisões. Quando Deus promete nos dar um coração novo, Ele está oferecendo renovar nossa essência, aquilo que somos no íntimo.
+Receber esse novo coração é uma obra do Espírito Santo. Não conseguimos fazer isso por esforço próprio. É uma troca divina: Deus retira o coração endurecido pelo pecado e o substitui por um coração sensível à Sua vontade. O novo coração pulsa com fé, arrependimento, amor e obediência. Ele é moldado segundo o caráter de Cristo.
+Mas essa promessa também nos chama à rendição. Precisamos reconhecer nossa necessidade de mudança e nos abrir para que Deus opere em nós. Muitas vezes, nos apegamos ao velho coração por medo de perder o controle ou por comodismo espiritual. Somente quando nos rendemos totalmente ao Senhor é que experimentamos essa renovação verdadeira.
+O coração novo também traz novos frutos. Ele nos move a amar como Jesus amou, a perdoar, a servir, a buscar a presença de Deus com alegria. Não se trata apenas de sentir, mas de viver de forma transformada. Aquele que recebe um coração novo caminha em novidade de vida, guiado pelo Espírito e não mais pela carne.
+Hoje, essa promessa ainda está disponível para todo aquele que crê. Deus continua sendo o mesmo, pronto para transformar vidas com Seu amor restaurador.
+Seja transformado de dentro para fora
+
+O primeiro passo para receber um coração novo é admitir que o coração atual está endurecido ou distante de Deus. Ore com sinceridade, pedindo ao Senhor que revele áreas endurecidas pela mágoa, orgulho ou pecado.
+
+O novo coração é obra do Espírito, não de esforço humano. Renda-se à direção de Deus diariamente, permitindo que Ele molde seus pensamentos, desejos e atitudes.
+
+Um coração novo precisa de alimento espiritual. Medite na Palavra, permitindo que ela renove sua mente e encha seu coração com a verdade. Quanto mais a Palavra habita em você, mais sensível seu coração se torna à voz de Deus.
+
+Para orar:
+
+Senhor, entrega-me um coração novo, sensível à Tua voz e guiado pelo Teu Espírito. Remove todo endurecimento e enche-me com Teu amor, graça e verdade. Transforma meu interior e faz-me viver segundo a Tua vontade, refletindo Teu caráter em tudo. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre transformação.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Agradeça a Deus e as pessoas
 INFO:root:🔹 URL: https://www.bibliaon.com/como_mostrar_sua_gratidao_a_deus/
 INFO:root:🔹 Description: Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.
@@ -397,30 +411,10 @@ Senhor Jesus, obrigado por me amar a ponto de dar Sua vida por mim. Ajuda-me a s
 
 Veja também: Razões para servir a Deus com alegria.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Ele nos ouve e responde no tempo certo
-INFO:root:🔹 URL: https://www.bibliaon.com/clama_a_mim_e_responder_te_ei_estudo/
-INFO:root:🔹 Description: Clama a mim, e responder-te-ei, e anunciar-te-ei coisas grandes e ocultas, que não sabes.
-- Jeremias 33:3
-
-Quantas vezes nos sentimos sozinhos em meio às lutas da vida, como se nossas orações não passassem do teto? Em momentos assim, somos tentados a pensar que Deus está distante, indiferente à nossa dor. No entanto, a verdade revelada nas Escrituras é clara e consoladora: Ele nos ouve.
-Deus não apenas ouve, Ele se importa conosco. Sua atenção não está limitada aos grandes eventos do mundo; ao contrário, Ele está atento até ao sussurro do coração contrito. Jesus nos ensinou que até os cabelos da nossa cabeça estão contados (Mateus 10:30), mostrando o cuidado pessoal e detalhado do Pai por cada um de nós.
-Mesmo quando o silêncio parece prevalecer, a fé nos lembra que o céu não está em silêncio. Deus está agindo. Às vezes, Ele responde com um sim imediato. Outras vezes, Ele nos chama a esperar, pois há um tempo perfeito para cada propósito. E há momentos em que Ele nos diz “não”, não por desprezo, mas porque conhece o fim desde o começo, e sabe o que é melhor.
-O que nos cabe é confiar. Persistirmos em oração, abrirmos o coração, buscarmos a presença do Pai com sinceridade. Ele ouve o clamor do justo, o grito do aflito, o gemido de quem já não sabe como orar.
-“Ele nos ouve” não é apenas uma frase de consolo. É uma verdade eterna, firmada no caráter fiel de Deus. Que essa certeza encha o seu coração de esperança. Não desista de orar. Não pare de clamar. O Pai está ouvindo, e no tempo certo, Ele responderá.
-Deus escuta cada oração com amor e propósito
-Deus está atento aos detalhes da sua dor: Nada escapa ao olhar do Senhor. Ele ouve até o sussurro do coração cansado. Sua atenção é pessoal, constante e cheia de amor, mesmo quando tudo parece silêncio ao redor.
-A resposta de Deus tem um tempo perfeito: Deus não se atrasa nem antecipa. Seu “sim”, “não” ou “espere” são sempre para o nosso bem. Confiar no tempo d’Ele é descansar no controle perfeito do Pai celestial.
-A oração é uma ponte para a esperança: Orar nos conecta ao coração de Deus. Mesmo sem palavras bonitas, o clamor sincero move o céu. Persevere na oração, o Pai ouve e age, mesmo quando não sentimos imediatamente.
-Para orar:
-
-Senhor, mesmo quando o silêncio me cerca, sei que Tu me ouves. Fortalece minha fé, renova minha esperança e ajuda-me a confiar no Teu tempo. Que minha oração suba como incenso diante de Ti. Amém.
-
-Veja também: Explicação de Jeremias 33:3: Clama a mim e responder-te-ei (Estudo)
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223785 characters
-INFO:root:HTML parsed, length: 222338 characters
+INFO:root:Response length: 223769 characters
+INFO:root:HTML parsed, length: 222322 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 23 URLs: ['/wiki/Andrew_Jackson', '/wiki/Andrew_Jackson', '/wiki/Agricultor']
 INFO:root:Found 1 descriptions: ['Andrew Jackson foi um fazendeiro, mercador de escr']
@@ -448,44 +442,44 @@ Artigos bons: 1917
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223785 characters
-INFO:root:HTML parsed, length: 222338 characters
-INFO:root:Found 1 titles: ['9 de julho na história']
-INFO:root:Found 51 URLs: ['/wiki/Ficheiro:Flag_of_Argentina.svg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Argentina']
-INFO:root:Found 1 descriptions: ['Bandeira da Argentina\nDia da Independência da Arge']
+INFO:root:Response length: 223769 characters
+INFO:root:HTML parsed, length: 222322 characters
+INFO:root:Found 1 titles: ['10 de julho na história']
+INFO:root:Found 46 URLs: ['/wiki/Ficheiro:Antalya_Museum_Hadrian_in_armour_6510.jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Bahamas']
+INFO:root:Found 1 descriptions: ['Adriano\nDia da Independência nas Bahamas (1973)\n\n1']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='9 de julho na história', ID=ca9318629c3015971ea0c78a5a4b8daa
+INFO:root:Processing entry 1: Title='10 de julho na história', ID=46bee4ce25c9a15632d4954c438bf292
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 9 de julho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Flag_of_Argentina.svg
-INFO:root:🔹 Description: Bandeira da Argentina
-Dia da Independência da Argentina (bandeira) (1816) e do Sudão do Sul (2011)
+INFO:root:🔹 Title: 10 de julho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Antalya_Museum_Hadrian_in_armour_6510.jpg
+INFO:root:🔹 Description: Adriano
+Dia da Independência nas Bahamas (1973)
 
-1850 – O profeta Báb, fundador do babismo, é executado em Tabriz, na Pérsia.
-1932 – Tem início a Revolução Constitucionalista no estado brasileiro de São Paulo, que, apoiado pelo  sul de Mato Grosso, ergue-se contra o governo central de Getúlio Vargas.
-1955 – É divulgado em Londres o Manifesto Russell-Einstein, pedindo a redução do risco de uma guerra nuclear.
+1584 – Guilherme I, Príncipe de Orange é assassinado dentro de sua casa em Delft, nos Países Baixos, por Balthasar Gérard.
+1962 – Telstar 1, o primeiro satélite de comunicações do mundo, é lançado em órbita.
+2020 – Santa Sofia, em Istambul, é convertida novamente em mesquita por decreto do presidente da Turquia Recep Tayyip Erdoğan.
 Nasceram neste dia…
-Ann Radcliffe (1764–1823)  •  Carlos Chagas (1878–1934)  •  Mercedes Sosa (1935–2009)  •  Tom Hanks (n. 1956)
+João Calvino (1509–1564)  •  Camille Pissaro (1830–1903)  •  Owen Chamberlain (1920–2006)  •  Claudia Leitte (n. 1980)
 Morreram neste dia…
-Filipe V de Espanha (1683–1746)  •  Vinicius de Moraes (1913–1980)  •  Fernando de la Rúa (1937–2019)  •  Luis Suárez Miramontes (1935–2023)
+Adriano (estátua) (76–138)  •  Augusto Meyer (1902–1970)  •  Jackson do Pandeiro (1919–1982)  •  Maria de Lourdes Pintasilgo (1930–2004)
 
 
-Ver mais • Outros dias: 7 • 8 • 9 • 10 • 11 • Ver todos
+Ver mais • Outros dias: 8 • 9 • 10 • 11 • 12 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223785 characters
-INFO:root:HTML parsed, length: 222338 characters
+INFO:root:Response length: 223769 characters
+INFO:root:HTML parsed, length: 222322 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Rifling_of_a_cannon_(M75;_90mm;_y.1891;_Austro-Hungarian;_exposed_in_Ljubljana,_Slovenia).jpg']
-INFO:root:Found 1 descriptions: ['Ranhura de um canhão M75, fabricado em 1891 no Imp']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Autor_nieznany,_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg']
+INFO:root:Found 1 descriptions: ['Representação “a seco” de Santa Ana do século VIII']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Rifling_of_a_cannon_%28M75%3B_90mm%3B_y.1891%3B_Austro-Hungarian%3B_exposed_in_Ljubljana%2C_Slovenia%29.jpg/500px-Rifling_of_a_cannon_%28M75%3B_90mm%3B_y.1891%3B_Austro-Hungarian%3B_exposed_in_Ljubljana%2C_Slovenia%29.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Autor_nieznany%2C_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg/500px-Autor_nieznany%2C_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -494,15 +488,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Rifling_of_a_cannon_(M75;_90mm;_y.1891;_Austro-Hungarian;_exposed_in_Ljubljana,_Slovenia).jpg
-INFO:root:🔹 Description: Ranhura de um canhão M75, fabricado em 1891 no Império Austro-Húngaro, em exposição no castelo de Liubliana, na Eslovênia. A imagem foi obtida através da composição digital de 43 macrofotografias.
-(resolução original: 3 970 × 3 325)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Autor_nieznany,_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg
+INFO:root:🔹 Description: Representação “a seco” de Santa Ana do século VIII ou talvez IX, encontrada entre as ruínas da catedral de Faras, hoje no Sudão e na época parte do reino núbio de Macúria. A obra foi encontrada na nave norte do edifício pelo arqueólogo polonês Kazimierz Michałowski e está conservada no Museu Nacional de Varsóvia.
+(resolução original: 2 500 × 2 270)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Rifling_of_a_cannon_%28M75%3B_90mm%3B_y.1891%3B_Austro-Hungarian%3B_exposed_in_Ljubljana%2C_Slovenia%29.jpg/500px-Rifling_of_a_cannon_%28M75%3B_90mm%3B_y.1891%3B_Austro-Hungarian%3B_exposed_in_Ljubljana%2C_Slovenia%29.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Autor_nieznany%2C_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg/500px-Autor_nieznany%2C_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -519,23 +513,27 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
  M feeds/wikidia/atom.xml
+ M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  36 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  25 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 155 +++++++++---
+ feeds/salmo_do_dia/atom.xml               |  86 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 391 +++++++++++++++++-------------
- 14 files changed, 424 insertions(+), 297 deletions(-)
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 351 ++++++++++++++----------------
+ 16 files changed, 301 insertions(+), 326 deletions(-)
