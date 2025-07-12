@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119420 characters
-INFO:root:HTML parsed, length: 112351 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (11/07/2025)', 'Palavra de Ontem (10/07/2025)', 'Palavra de Anteontem (09/07/2025)']
-INFO:root:Found 3 URLs: ['/mundializacao/', '/prerrogativa/', '/desmembrado/']
-INFO:root:Found 14 descriptions: ['substantivo feminino Ação de mundializar, de torna', 'Sinônimos:\n\nglobalização, universalização', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (11/07/2025)', 'Palavra de Ontem (10/07/2025)', 'Palavra de Anteontem (09/07/2025)']
+INFO:root:Response length: 119279 characters
+INFO:root:HTML parsed, length: 112256 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (12/07/2025)', 'Palavra de Ontem (11/07/2025)', 'Palavra de Anteontem (10/07/2025)']
+INFO:root:Found 3 URLs: ['/cais/', '/mundializacao/', '/prerrogativa/']
+INFO:root:Found 14 descriptions: ['substantivo masculino plural Plataforma onde um na', 'Sinônimos:\n\nembarcadouro, gare', 'Classe gramatical:substantivo masculino de dois nú']
+INFO:root:Found 3 dates: ['Palavra de Hoje (12/07/2025)', 'Palavra de Ontem (11/07/2025)', 'Palavra de Anteontem (10/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (11/07/2025)', ID=9d45e5713171dc49082a61802cb2b57b
-INFO:root:Processing entry 2: Title='Palavra de Ontem (10/07/2025)', ID=169262740c72cd8517a0b2c19e23e440
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/07/2025)', ID=8ce708c9835afe8d0e5aeae83dc0a6f9
+INFO:root:Processing entry 1: Title='Palavra de Hoje (12/07/2025)', ID=7213d609a3086ec29aaf92f7255216f8
+INFO:root:Processing entry 2: Title='Palavra de Ontem (11/07/2025)', ID=72dd2c1cf4c6dcae85b623652fbfdacf
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (10/07/2025)', ID=f17ee727a965f19649a4a121b5391ae5
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (11/07/2025) - Significado completo de mundialização:
-INFO:root:🔹 URL: https://www.dicio.com.br/mundializacao/
-INFO:root:🔹 Description: substantivo feminino Ação de mundializar, de tornar mundial, comum, universal, sendo capaz de se expandir ou de alcançar tudo e todos; globalização, universalização.Ação do que alcança o mundo ou que desperta o interesse da população mundial, global.Etimologia (origem da palavra mundialização). A palavra mundialização deriva da junção do verbo mundializar e do sufixo - ão.
+INFO:root:🔹 Title: Palavra de Hoje (12/07/2025) - Significado completo de cais:
+INFO:root:🔹 URL: https://www.dicio.com.br/cais/
+INFO:root:🔹 Description: substantivo masculino plural Plataforma onde um navio se atraca para embarque e desembarque de passageiros e carga.Muralha de alvenaria, levantada ao longo de um curso de água para firmar as margens e impedir transbordamentos.Margem de um porto, geralmente empedrada ou lajeada para facilitar o acostamento dos barcos, bem como sua carga e descarga.Etimologia (origem da palavra cais). Do gaulês caio; pelo francês quai.
  
 Sinônimos:
 
-globalização, universalização 
+embarcadouro, gare 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (10/07/2025) - Significado completo de prerrogativa:
-INFO:root:🔹 URL: https://www.dicio.com.br/prerrogativa/
+INFO:root:🔹 Title: Palavra de Ontem (11/07/2025) - Significado completo de mundialização:
+INFO:root:🔹 URL: https://www.dicio.com.br/mundializacao/
 INFO:root:🔹 Description: Sinônimos:
 
-globalização, universalização
- Classe gramatical:substantivo feminino
+embarcadouro, gare
+ Classe gramatical:substantivo masculino de dois números
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (09/07/2025) - Significado completo de desmembrado:
-INFO:root:🔹 URL: https://www.dicio.com.br/desmembrado/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:mun-di-a-li-za-ção
+INFO:root:🔹 Title: Palavra de Anteontem (10/07/2025) - Significado completo de prerrogativa:
+INFO:root:🔹 URL: https://www.dicio.com.br/prerrogativa/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino de dois números
+ Sílabas:cais
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,41 +42,72 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243473 characters
-INFO:root:HTML parsed, length: 232774 characters
-INFO:root:Found 1 titles: ['Salmos 126:3']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_126_3/']
-INFO:root:Found 1 descriptions: ['Sim, coisas grandiosas fez o Senhor por nós,\npor i']
+INFO:root:Response length: 243487 characters
+INFO:root:HTML parsed, length: 232788 characters
+INFO:root:Found 1 titles: ['Números 23:19']
+INFO:root:Found 1 URLs: ['/versiculo/numeros_23_19/']
+INFO:root:Found 1 descriptions: ['Deus não é homem para que minta,\nnem filho de home']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 126:3', ID=287153e962b24dfe759bec02be8407d9
+INFO:root:Processing entry 1: Title='Números 23:19', ID=930400db281ac96048ca8550e413b832
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 126:3
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_126_3/
-INFO:root:🔹 Description: Sim, coisas grandiosas fez o Senhor por nós,
-por isso estamos alegres. Salmos 126:3
+INFO:root:🔹 Title: Números 23:19
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/numeros_23_19/
+INFO:root:🔹 Description: Deus não é homem para que minta,
+nem filho de homem
+para que se arrependa.
+Acaso ele fala e deixa de agir?
+Acaso promete e deixa de cumprir? Números 23:19
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 246999 characters
-INFO:root:HTML parsed, length: 237082 characters
-INFO:root:Found 3 titles: ['Salmo 30', 'Salmo 106', 'Salmo 48']
-INFO:root:Found 3 URLs: ['/salmos_30/', '/salmos_106/', '/salmos_48/']
-INFO:root:Found 3 descriptions: ['Eu te exaltarei, Senhor,\npois tu me reergueste\ne n', 'Aleluia!\nDeem graças ao Senhor porque ele é bom;\no', 'Grande é o Senhor,\ne digno de todo louvor\nna cidad']
-INFO:root:Found 3 dates: ['11 de Julho de 2025', '10 de Julho de 2025', '9 de Julho de 2025']
+INFO:root:Response length: 246535 characters
+INFO:root:HTML parsed, length: 236610 characters
+INFO:root:Found 3 titles: ['Salmo 101', 'Salmo 30', 'Salmo 106']
+INFO:root:Found 3 URLs: ['/salmos_101/', '/salmos_30/', '/salmos_106/']
+INFO:root:Found 3 descriptions: ['Cantarei a lealdade e a justiça.\nA ti, Senhor, can', 'Eu te exaltarei, Senhor,\npois tu me reergueste\ne n', 'Aleluia!\nDeem graças ao Senhor porque ele é bom;\no']
+INFO:root:Found 3 dates: ['12 de Julho de 2025', '11 de Julho de 2025', '10 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 30', ID=342758d9d6e6e746d96114f4fb23c117
-INFO:root:Processing entry 2: Title=' Salmo 106', ID=72d02b08d54e5be369d917261872f13c
-INFO:root:Processing entry 3: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
+INFO:root:Processing entry 1: Title=' Salmo 101', ID=abd166d429ab88ca02f4860a95e1240a
+INFO:root:Processing entry 2: Title=' Salmo 30', ID=342758d9d6e6e746d96114f4fb23c117
+INFO:root:Processing entry 3: Title=' Salmo 106', ID=72d02b08d54e5be369d917261872f13c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 101
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_101/
+INFO:root:🔹 Description: Cantarei a lealdade e a justiça.
+A ti, Senhor, cantarei louvores! 
+Seguirei o caminho da integridade;
+quando virás ao meu encontro?
+Em minha casa viverei de coração íntegro. 
+Repudiarei todo mal.
+Odeio a conduta dos infiéis;
+jamais me dominará! 
+Longe estou dos perversos de coração;
+não quero envolver-me com o mal. 
+Farei calar ao que difama o próximo às ocultas.
+Não vou tolerar o homem de olhos arrogantes
+e de coração orgulhoso. 
+Meus olhos aprovam os fiéis da terra,
+e eles habitarão comigo.
+Somente quem tem vida íntegra me servirá. 
+Quem pratica a fraude
+não habitará no meu santuário;
+o mentiroso não permanecerá
+na minha presença. 
+Cada manhã fiz calar
+todos os ímpios desta terra;
+eliminei todos os malfeitores
+da cidade do Senhor. 
+ Salmo 101
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 30
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_30/
 INFO:root:🔹 Description: Eu te exaltarei, Senhor,
@@ -243,100 +274,83 @@ Que todo o povo diga: "Amém!"
 Aleluia! 
  Salmo 106
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 48
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_48/
-INFO:root:🔹 Description: Grande é o Senhor,
-e digno de todo louvor
-na cidade do nosso Deus. 
-Seu santo monte, belo e majestoso,
-é a alegria de toda a terra.
-Como as alturas do Zafom é o monte Sião,
-a cidade do grande Rei. 
-Nas suas cidadelas
-Deus se revela como sua proteção. 
-Vejam! Os reis somaram forças,
-e juntos avançaram contra ela. 
-Quando a viram, ficaram atônitos,
-fugiram aterrorizados. 
-Ali mesmo o pavor os dominou;
-contorceram-se como a mulher no parto. 
-Foste como o vento oriental
-quando destruiu os navios de Társis. 
-Como já temos ouvido,
-agora também temos visto
-na cidade do Senhor dos Exércitos,
-na cidade de nosso Deus:
-Deus a preserva firme para sempre. 
-No teu templo, ó Deus,
-meditamos em teu amor leal. 
-Como o teu nome, ó Deus,
-o teu louvor alcança os confins da terra;
-a tua mão direita está cheia de justiça. 
-O monte Sião se alegra,
-as cidades de Judá exultam
-por causa das tuas decisões justas. 
-Percorram Sião, contornando-a,
-contem as suas torres, 
-observem bem as suas muralhas,
-examinem as suas cidadelas,
-para que vocês falem à próxima geração 
-que este Deus é o nosso Deus
-para todo o sempre;
-ele será o nosso guia até o fim. 
- Salmo 48
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245823 characters
-INFO:root:HTML parsed, length: 235517 characters
-INFO:root:Found 3 titles: ['Vestidos de amor', 'Crer em Jesus não é uma aposta', 'Servindo somente a Deus, vivendo para Ele']
+INFO:root:Response length: 246175 characters
+INFO:root:HTML parsed, length: 235864 characters
+INFO:root:Found 3 titles: ['Morra um pouco a cada dia para viver plenamente', 'Vestidos de amor', 'Crer em Jesus não é uma aposta']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Acima de tudo, porém, revistam-se do amor, que é o', 'Respondeu Jesus: "Eu sou o caminho, a verdade e a ', "'Adore o Senhor, o seu Deus, e só a ele preste cul"]
-INFO:root:Found 1 dates: ['Sexta, 11 de julho de 2025']
+INFO:root:Found 3 descriptions: ['Portanto, não permitam que o pecado continue domin', 'Acima de tudo, porém, revistam-se do amor, que é o', 'Respondeu Jesus: "Eu sou o caminho, a verdade e a ']
+INFO:root:Found 1 dates: ['Sábado, 12 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Vestidos de amor', ID=2b323cd8bbdca816370a62c1fe1c8004
+INFO:root:Processing entry 1: Title='Morra um pouco a cada dia para viver plenamente', ID=b40a73dfeb7b3f4fe3ed7b5d90bef5d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Vestidos de amor - Palavra de Hoje
+INFO:root:🔹 Title: Morra um pouco a cada dia para viver plenamente - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Acima de tudo, porém, revistam-se do amor, que é o elo perfeito.
-- Colossenses 3:14
+INFO:root:🔹 Description: Portanto, não permitam que o pecado continue dominando o corpo mortal de vocês, fazendo que obedeçam aos seus desejos.
+Não ofereçam os membros do corpo de vocês ao pecado, como instrumentos de injustiça; antes ofereçam-se a Deus como quem voltou da morte para a vida; e ofereçam os membros do corpo de vocês a ele, como instrumentos de justiça.
+Pois o pecado não os dominará, porque vocês não estão debaixo da Lei, mas debaixo da graça.
+- Romanos 6:12-14
 
-
-Assim conhecemos o amor que Deus tem por nós e confiamos nesse amor. Deus é amor. Todo aquele que permanece no amor permanece em Deus, e Deus nele.
-- 1 João 4:16
-
-Há pessoas difíceis de amar. Suas palavras e atitudes são frequentemente ásperas, suas ações egoístas e, por mais que tentemos, lutamos para ver algo de bom nelas. No entanto, Deus não apenas as ama, mas também nos chama para amá-las. Como fazemos isso? Enchendo-nos do amor de Deus!
-O verdadeiro amor é algo que brota do coração. É uma decisão firme que surge das profundezas do nosso ser, algo que nos impulsiona a ser compreensivos, gentis e perdoadores, mesmo quando a outra pessoa não retribui esse amor. Humanamente falando, isso parece impossível. É por isso que a Bíblia nos dá a fórmula: permaneça no amor de Deus!
-Se nos revestirmos do amor de Deus todos os dias, se permanecermos em seus braços, sentindo sua presença, seu amor e compaixão em todos os momentos, nosso primeiro impulso em qualquer situação será o amor. Ao contrário, se vivermos focados em nossas emoções ou necessidades, reagiremos mal.
-É por isso que a Bíblia nos convoca a nos revestirmos de amor, que é o elo perfeito para nossos relacionamentos com nossos irmãos na fé e com os outros. Ao permanecermos firmes em Deus, somos preenchidos com Seu amor todos os dias, e nossas reações a cada situação demonstram quem é o Rei de nossas vidas.
-Escolha hoje mesmo revestir-se do amor de Deus, permitindo que Seu amor o preencha e o guie em tudo o que você enfrentar. Espalhe o amor de Deus com suas palavras e ações. Contribua para um mundo melhor, onde o amor de Deus reine e transforme as situações.
-Veja também: Amar o próximo: 7 atitudes de amor ao próximo na Bíblia.
+A luta entre a carne e o espírito é real, e muitas vezes pensamos que essa luta só acontece por coisas muito grandes e notáveis. Roubar, matar, usar drogas, cometer adultério, essas são palavras grandes, algo que não fazemos porque sabemos que ofende a Deus. Morremos para esses pecados; não permitimos que eles reinem.
+Mas, mesmo amando a Deus e desejando viver para Ele, todos os dias lutamos com várias atitudes que querem nos prender e controlar. Isso pode ser devido a medos ou experiências passadas. Seja qual for o motivo, também precisamos morrer para esses sentimentos se quisermos viver a vida abundante e plena que Deus quer nos dar.
+Por exemplo, se alguém nos decepcionou na infância, podemos lutar constantemente com a ideia de confiar em Deus. Sabemos que devemos, mas achamos difícil. Preferimos controlar tudo e confiar em nós mesmos, deixando pouco espaço para a fé. Se sofremos privação material ou emocional em nossos anos de formação, nossa luta pode ser com a ideia de que Deus é o Pai amoroso que cuida de Seu povo e pode suprir todas as necessidades.
+Seja o que for, todos nós temos lutas, mas Deus não quer que esses medos ou dúvidas reinem em nós. Ele nos chama a morrer todos os dias para essas emoções que nos oprimem e a escolher lembrar que fomos redimidos, salvos e amados pelo Deus Todo-Poderoso. Sua graça nos cobre e, nEle, somos livres dos laços que tentam nos impedir de viver livres pela eternidade.
+Peça a Deus que lhe mostre as áreas da sua vida que você não entregou completamente a Ele. Leve tudo isso diante do Senhor e escolha morrer para tudo o que o prende e o impede de confiar Nele de todo o coração. Receba a liberdade que Ele deseja lhe dar e viva para Ele com alegria.
+Veja também: Os Frutos da Carne e os Frutos do Espírito (Estudo Bíblico)
  
-Acima de tudo, porém, revistam-se do amor, que é o elo perfeito.
-- Colossenses 3:14
+Portanto, não permitam que o pecado continue dominando o corpo mortal de vocês, fazendo que obedeçam aos seus desejos.
+Não ofereçam os membros do corpo de vocês ao pecado, como instrumentos de injustiça; antes ofereçam-se a Deus como quem voltou da morte para a vida; e ofereçam os membros do corpo de vocês a ele, como instrumentos de justiça.
+Pois o pecado não os dominará, porque vocês não estão debaixo da Lei, mas debaixo da graça.
+- Romanos 6:12-14
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 256096 characters
-INFO:root:HTML parsed, length: 245552 characters
-INFO:root:Found 3 titles: ['Recebendo um coração novo', 'Agradeça a Deus e as pessoas', 'Chamados para servir']
-INFO:root:Found 3 URLs: ['/transformacao/', '/como_mostrar_sua_gratidao_a_deus/', '/razoes_para_servir_a_deus/']
-INFO:root:Found 3 descriptions: ['Quantas vezes sentimos que nossos corações se endu', 'Deem graças em todas as circunstâncias, pois esta ', '"Pois nem mesmo o Filho do homem veio para ser ser']
-INFO:root:Found 3 dates: ['JULHO\n\n11\nSEXTA', 'JULHO\n\n10\nQUINTA', 'JULHO\n\n9\nQUARTA']
+INFO:root:Response length: 256219 characters
+INFO:root:HTML parsed, length: 245674 characters
+INFO:root:Found 3 titles: ['A fé vê o que os olhos não veem', 'Recebendo um coração novo', 'Agradeça a Deus e as pessoas']
+INFO:root:Found 3 URLs: ['/versiculos_sobre_o_poder_da_oracao/', '/transformacao/', '/como_mostrar_sua_gratidao_a_deus/']
+INFO:root:Found 3 descriptions: ['Ora, a fé é a certeza daquilo que esperamos e a pr', 'Quantas vezes sentimos que nossos corações se endu', 'Deem graças em todas as circunstâncias, pois esta ']
+INFO:root:Found 3 dates: ['JULHO\n\n12\nSÁBADO', 'JULHO\n\n11\nSEXTA', 'JULHO\n\n10\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Recebendo um coração novo', ID=93a91885b9725aa57fbf7970449256db
-INFO:root:Processing entry 2: Title='Agradeça a Deus e as pessoas', ID=d787d812f89ef26278474c017e920b6c
-INFO:root:Processing entry 3: Title='Chamados para servir', ID=886cd7cc51058f974ffbe2d1a2ec8429
+INFO:root:Processing entry 1: Title='A fé vê o que os olhos não veem', ID=0c57612fd9bc3243803ad8adaf690f90
+INFO:root:Processing entry 2: Title='Recebendo um coração novo', ID=93a91885b9725aa57fbf7970449256db
+INFO:root:Processing entry 3: Title='Agradeça a Deus e as pessoas', ID=d787d812f89ef26278474c017e920b6c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A fé vê o que os olhos não veem
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_sobre_o_poder_da_oracao/
+INFO:root:🔹 Description: Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos.
+- Hebreus 11:1
+
+A fé é o olhar que enxerga além do natural. Enquanto os olhos humanos veem limitações, crises e impossibilidades, a fé contempla promessas, caminhos abertos e o mover de Deus. Ela não se apoia em evidências, mas na fidelidade do Senhor.
+Quando Abraão subiu o monte para sacrificar Isaque, seus olhos viam a lenha, o fogo e a ausência do cordeiro. Mas sua fé via Jeová-Jiré, o Deus que provê. Moisés, ao enfrentar o mar Vermelho, via águas intransponíveis e um exército em sua retaguarda. Porém, pela fé, ele viu o mar se abrir antes mesmo de o cajado tocar as águas.
+É essa fé que precisamos hoje. Uma fé que não depende de diagnósticos médicos, de saldos bancários ou de notícias nos jornais. Uma fé que se firma na Palavra de Deus, que chama à existência as coisas que não existem como se já fossem.
+A fé não nega a realidade, mas a supera. Ela nos faz caminhar sobre as águas, descansar em meio à tempestade, louvar no vale da sombra da morte. Porque onde os olhos naturais veem o fim, a fé vê um novo começo.
+Que nossos corações sejam tomados por essa fé viva, ardente, inabalável. Que, mesmo quando tudo parecer perdido, possamos declarar com ousadia: “Eu sei em quem tenho crido!” Pois os céus se movem por aqueles que ousam crer.
+Vendo e avançando com fé
+
+
+Declare a Palavra de Deus com fé: Mesmo sem ver, proclame promessas bíblicas com fé. Suas palavras moldam sua realidade espiritual antes de se manifestarem no natural. A fé fala antes de enxergar.
+
+Ore com confiança, não com dúvida: Busque a Deus esperando resposta, não temendo o silêncio. Fé verdadeira se expressa em oração persistente, mesmo quando os olhos não percebem mudança imediata.
+
+Caminhe por obediência, não por emoção: Tome decisões baseadas na direção de Deus, não nas circunstâncias. A fé age mesmo sem garantias visíveis, confiando que Deus já preparou o caminho.
+
+Para orar: 
+
+Senhor, fortalece minha fé para enxergar além das circunstâncias. Que eu confie nas Tuas promessas mesmo quando meus olhos não veem saída. Ensina-me a descansar em Ti, crendo no Teu tempo e na Tua fidelidade. Que minha vida seja guiada pela fé, não pelo medo. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre o poder da oração
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Recebendo um coração novo
 INFO:root:🔹 URL: https://www.bibliaon.com/transformacao/
 INFO:root:🔹 Description: Quantas vezes sentimos que nossos corações se endurecem com o passar do tempo? As decepções da vida, os pecados repetidos, as mágoas não resolvidas e a rotina podem nos tornar insensíveis à voz de Deus. Mas o Senhor, em Sua infinita misericórdia, não nos deixa nessa condição. Ele promete algo extraordinário: um coração novo.
@@ -385,36 +399,10 @@ Senhor, obrigado por Teu amor e cuidado constantes. Ensina-me a ser grato em tod
 
 Veja também: Como agradecer a Deus - 8 formas de mostrar sua gratidão
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Chamados para servir
-INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_servir_a_deus/
-INFO:root:🔹 Description: "Pois nem mesmo o Filho do homem veio para ser servido, mas para servir e dar a sua vida em resgate por muitos".
-- Marcos 10:45
-
-Quantas vezes desejamos reconhecimento, sucesso ou conforto em nossas jornadas diárias? Vivemos em uma cultura que valoriza ser servido, estar no topo, conquistar aplausos. Mas Jesus, o Rei dos reis, o Filho do Deus Altíssimo, escolheu um caminho completamente oposto.
-Neste versículo, Jesus nos confronta com uma verdade que vira o mundo de cabeça para baixo: o maior no Reino de Deus é aquele que serve. Jesus não veio com uma coroa de ouro, mas com uma toalha na cintura, lavando os pés de pecadores. Ele não exigiu tronos, mas se entregou numa cruz.
-A palavra “resgate” usada aqui tem peso eterno. Significa que a vida de Jesus foi o preço pago para nos libertar da escravidão do pecado. O Deus que poderia exigir tudo de nós, escolheu entregar tudo por nós.
-Não servimos porque é conveniente. Servimos porque fomos servidos primeiro. Amamos porque fomos amados primeiro. Quando entendemos isso, o servir deixa de ser obrigação e se torna privilégio.
-Hoje, reflita: em que áreas da sua vida você pode refletir o coração servo de Cristo?
-Na sua casa, no trabalho, na igreja, o amor de Jesus pode ser revelado por meio de suas atitudes humildes.
-Vivendo o chamado de Cristo
-
-
-Adote uma postura de humildade: Comece cada dia pedindo a Deus um coração disposto a servir. Procure oportunidades simples, como ouvir alguém, ajudar nas tarefas ou encorajar um amigo.
-
-Coloque as necessidades dos outros em primeiro lugar: Olhe ao redor e perceba quem está cansado, sobrecarregado ou esquecido. Escolha conscientemente sair do centro e agir com compaixão.
-
-Sirva com intenção e alegria: Escolha agir mesmo quando for difícil ou cansativo. A alegria verdadeira brota quando seguimos o exemplo de Jesus, entregando-nos com propósito ao bem dos outros.
-
-Para orar:
-
-Senhor Jesus, obrigado por me amar a ponto de dar Sua vida por mim. Ajuda-me a seguir o Teu exemplo, servindo com humildade, amor e entrega. Que eu viva não para ser servido, mas para Te honrar através do serviço aos outros. Amém.
-
-Veja também: Razões para servir a Deus com alegria.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223769 characters
-INFO:root:HTML parsed, length: 222322 characters
+INFO:root:Response length: 222757 characters
+INFO:root:HTML parsed, length: 221310 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 23 URLs: ['/wiki/Andrew_Jackson', '/wiki/Andrew_Jackson', '/wiki/Agricultor']
 INFO:root:Found 1 descriptions: ['Andrew Jackson foi um fazendeiro, mercador de escr']
@@ -442,44 +430,44 @@ Artigos bons: 1917
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223769 characters
-INFO:root:HTML parsed, length: 222322 characters
-INFO:root:Found 1 titles: ['10 de julho na história']
-INFO:root:Found 46 URLs: ['/wiki/Ficheiro:Antalya_Museum_Hadrian_in_armour_6510.jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Bahamas']
-INFO:root:Found 1 descriptions: ['Adriano\nDia da Independência nas Bahamas (1973)\n\n1']
+INFO:root:Response length: 222757 characters
+INFO:root:HTML parsed, length: 221310 characters
+INFO:root:Found 1 titles: ['11 de julho na história']
+INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Webb%27s_First_Deep_Field.jpg', '/wiki/Dia_Mundial_da_Popula%C3%A7%C3%A3o', '/wiki/1973']
+INFO:root:Found 1 descriptions: ["Webb's First Deep Field\nDia Mundial da População ("]
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='10 de julho na história', ID=46bee4ce25c9a15632d4954c438bf292
+INFO:root:Processing entry 1: Title='11 de julho na história', ID=27daf254678949aea3a4efe7f40c06c9
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 10 de julho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Antalya_Museum_Hadrian_in_armour_6510.jpg
-INFO:root:🔹 Description: Adriano
-Dia da Independência nas Bahamas (1973)
+INFO:root:🔹 Title: 11 de julho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Webb%27s_First_Deep_Field.jpg
+INFO:root:🔹 Description: Webb's First Deep Field
+Dia Mundial da População (1990)
 
-1584 – Guilherme I, Príncipe de Orange é assassinado dentro de sua casa em Delft, nos Países Baixos, por Balthasar Gérard.
-1962 – Telstar 1, o primeiro satélite de comunicações do mundo, é lançado em órbita.
-2020 – Santa Sofia, em Istambul, é convertida novamente em mesquita por decreto do presidente da Turquia Recep Tayyip Erdoğan.
+1973 – Voo Varig 820 cai ao se aproximar do Aeroporto de Paris-Orly, matando 123 das 134 pessoas a bordo.
+1995 – Guerra da Bósnia: começa o Massacre de Srebrenica, matando mais de oito mil bósnios muçulmanos.
+2022 – NASA divulga o Primeiro Campo Profundo de Webb (imagem), a primeira imagem tirada pelo Telescópio Espacial James Webb e a de maior resolução do Universo primitivo já capturada.
 Nasceram neste dia…
-João Calvino (1509–1564)  •  Camille Pissaro (1830–1903)  •  Owen Chamberlain (1920–2006)  •  Claudia Leitte (n. 1980)
+Jean-Baptiste Bourguignon d'Anville (1697–1782)  •  Carlos Gomes (1836–1896)  •  César Lattes (1924–2005)  •  Giorgio Armani (n. 1934)
 Morreram neste dia…
-Adriano (estátua) (76–138)  •  Augusto Meyer (1902–1970)  •  Jackson do Pandeiro (1919–1982)  •  Maria de Lourdes Pintasilgo (1930–2004)
+George Gershwin (1898–1937)  •  Laurence Olivier (1907–1989)  •  Cândida Branca Flor (1949–2001)  •  Satoru Iwata (1959–2015)
 
 
-Ver mais • Outros dias: 8 • 9 • 10 • 11 • 12 • Ver todos
+Ver mais • Outros dias: 9 • 10 • 11 • 12 • 13 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223769 characters
-INFO:root:HTML parsed, length: 222322 characters
+INFO:root:Response length: 222757 characters
+INFO:root:HTML parsed, length: 221310 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Autor_nieznany,_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg']
-INFO:root:Found 1 descriptions: ['Representação “a seco” de Santa Ana do século VIII']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Soba-Noodles-Deliveryman-Tokyo-1935.png']
+INFO:root:Found 1 descriptions: ['Entregador de bicicleta transporta, apoiando-a nos']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Autor_nieznany%2C_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg/500px-Autor_nieznany%2C_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Soba-Noodles-Deliveryman-Tokyo-1935.png/500px-Soba-Noodles-Deliveryman-Tokyo-1935.png
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -488,15 +476,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Autor_nieznany,_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg
-INFO:root:🔹 Description: Representação “a seco” de Santa Ana do século VIII ou talvez IX, encontrada entre as ruínas da catedral de Faras, hoje no Sudão e na época parte do reino núbio de Macúria. A obra foi encontrada na nave norte do edifício pelo arqueólogo polonês Kazimierz Michałowski e está conservada no Museu Nacional de Varsóvia.
-(resolução original: 2 500 × 2 270)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Soba-Noodles-Deliveryman-Tokyo-1935.png
+INFO:root:🔹 Description: Entregador de bicicleta transporta, apoiando-a nos ombros, uma pilha de tigelas com sobá em Tóquio, Japão. A fotografia foi publicada pelo periódico Mainichi Shimbun em 1935.
+(resolução original: 1 550 × 1 550)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Autor_nieznany%2C_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg/500px-Autor_nieznany%2C_%C5%9Bw._Anna_-_fragment_postaci._Malowid%C5%82o_%C5%9Bcienne.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Soba-Noodles-Deliveryman-Tokyo-1935.png/500px-Soba-Noodles-Deliveryman-Tokyo-1935.png
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -520,20 +508,20 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  49 +++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  25 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  28 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  86 ++++----
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  68 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 351 ++++++++++++++----------------
- 16 files changed, 301 insertions(+), 326 deletions(-)
+ output.log                                | 339 ++++++++++++++----------------
+ 16 files changed, 281 insertions(+), 322 deletions(-)
