@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121863 characters
-INFO:root:HTML parsed, length: 114380 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (18/07/2025)', 'Palavra de Ontem (17/07/2025)', 'Palavra de Anteontem (16/07/2025)']
-INFO:root:Found 3 URLs: ['/crendice/', '/pele-2/', '/presuncao/']
-INFO:root:Found 15 descriptions: ['substantivo feminino Crença popular sem fundamento', 'Sinônimos:\n\nilusão, superstição', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (18/07/2025)', 'Palavra de Ontem (17/07/2025)', 'Palavra de Anteontem (16/07/2025)']
+INFO:root:Response length: 120090 characters
+INFO:root:HTML parsed, length: 112814 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (19/07/2025)', 'Palavra de Ontem (18/07/2025)', 'Palavra de Anteontem (17/07/2025)']
+INFO:root:Found 3 URLs: ['/solito-2/', '/crendice/', '/pele-2/']
+INFO:root:Found 14 descriptions: ['adjetivo Que se faz por hábito, por se ter acostum', 'Sinônimos:\n\ncostumaz, habitual, costumeiro, usual,', 'Antônimos:\n\nincomum, insólito']
+INFO:root:Found 3 dates: ['Palavra de Hoje (19/07/2025)', 'Palavra de Ontem (18/07/2025)', 'Palavra de Anteontem (17/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (18/07/2025)', ID=ab7541272f6482191f2ce4e8ec8d267a
-INFO:root:Processing entry 2: Title='Palavra de Ontem (17/07/2025)', ID=d173e79537c89e39b4703ab5d073265a
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/07/2025)', ID=56b4cf5ce5dcd46a3c5cbd7e6198a466
+INFO:root:Processing entry 1: Title='Palavra de Hoje (19/07/2025)', ID=6d04c4552a77bff9cc7a21229dbf1a4a
+INFO:root:Processing entry 2: Title='Palavra de Ontem (18/07/2025)', ID=fa5f87b3a33f226f5d82ea23d7868d4d
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (17/07/2025)', ID=e2a64b2d5b4a5367b26909be103d6d57
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (18/07/2025) - Significado completo de crendice:
-INFO:root:🔹 URL: https://www.dicio.com.br/crendice/
-INFO:root:🔹 Description: substantivo feminino Crença popular sem fundamento, geralmente motivada por algum tipo de superstição: é crendice aceitar que leite com manga faz mal.Crença que não se pauta em preceitos religiosos e, por isso, não tem aval de alguma religião ou igreja.Etimologia (origem da palavra crendice). De crer, crente crend + ice.
+INFO:root:🔹 Title: Palavra de Hoje (19/07/2025) - Significado completo de sólito:
+INFO:root:🔹 URL: https://www.dicio.com.br/solito-2/
+INFO:root:🔹 Description: adjetivo Que se faz por hábito, por se ter acostumado; habitual.Que tende a ocorrer frequentemente; costumeiro, usual.Etimologia (origem da palavra sólito). Do latim solitus.a.um.
  
 Sinônimos:
 
-ilusão, superstição 
+costumaz, habitual, costumeiro, usual, comum, frequente 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (17/07/2025) - Significado completo de pelé:
-INFO:root:🔹 URL: https://www.dicio.com.br/pele-2/
+INFO:root:🔹 Title: Palavra de Ontem (18/07/2025) - Significado completo de crendice:
+INFO:root:🔹 URL: https://www.dicio.com.br/crendice/
 INFO:root:🔹 Description: Sinônimos:
 
-ilusão, superstição
- Classe gramatical:substantivo feminino
+costumaz, habitual, costumeiro, usual, comum, frequente
+ 
+Antônimos:
+
+incomum, insólito 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (16/07/2025) - Significado completo de presunção:
-INFO:root:🔹 URL: https://www.dicio.com.br/presuncao/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:cren-di-ce
+INFO:root:🔹 Title: Palavra de Anteontem (17/07/2025) - Significado completo de pelé:
+INFO:root:🔹 URL: https://www.dicio.com.br/pele-2/
+INFO:root:🔹 Description: Antônimos:
+
+incomum, insólito
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +48,88 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243705 characters
-INFO:root:HTML parsed, length: 233006 characters
-INFO:root:Found 1 titles: ['Tiago 1:26-27']
-INFO:root:Found 1 URLs: ['/versiculo/tiago_1_26-27/']
-INFO:root:Found 1 descriptions: ['Se alguém se considera religioso, mas não refreia ']
+INFO:root:Response length: 243768 characters
+INFO:root:HTML parsed, length: 233069 characters
+INFO:root:Found 1 titles: ['Neemias 8:10']
+INFO:root:Found 1 URLs: ['/versiculo/neemias_8_10/']
+INFO:root:Found 1 descriptions: ['E Neemias acrescentou: "Podem sair, e comam e beba']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Tiago 1:26-27', ID=6bba4c767fada2655ede680ebb695bbf
+INFO:root:Processing entry 1: Title='Neemias 8:10', ID=d761ba0c088a65730810752ec46c1524
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Tiago 1:26-27
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_1_26-27/
-INFO:root:🔹 Description: Se alguém se considera religioso, mas não refreia a sua língua, engana-se a si mesmo. Sua religião não tem valor algum! A religião que Deus, o nosso Pai, aceita como pura e imaculada é esta: cuidar dos órfãos e das viúvas em suas dificuldades e não se deixar corromper pelo mundo. Tiago 1:26-27
+INFO:root:🔹 Title: Neemias 8:10
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/neemias_8_10/
+INFO:root:🔹 Description: E Neemias acrescentou: "Podem sair, e comam e bebam do melhor que tiverem, e repartam com os que nada têm preparado. Este dia é consagrado ao nosso Senhor. Não se entristeçam, porque a alegria do Senhor os fortalecerá". Neemias 8:10
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 242363 characters
-INFO:root:HTML parsed, length: 232374 characters
-INFO:root:Found 3 titles: ['Salmo 70', 'Salmo 137', 'Salmo 64']
-INFO:root:Found 3 URLs: ['/salmos_70/', '/salmos_137/', '/salmos_64/']
-INFO:root:Found 3 descriptions: ['Livra-me, ó Deus!\nApressa-te, Senhor, a ajudar-me!', 'Junto aos rios da Babilônia\nnós nos sentamos e cho', 'Ouve-me, ó Deus, quando faço a minha queixa;\nprote']
-INFO:root:Found 3 dates: ['18 de Julho de 2025', '17 de Julho de 2025', '16 de Julho de 2025']
+INFO:root:Response length: 242884 characters
+INFO:root:HTML parsed, length: 232901 characters
+INFO:root:Found 3 titles: ['Salmo 116', 'Salmo 70', 'Salmo 137']
+INFO:root:Found 3 URLs: ['/salmos_116/', '/salmos_70/', '/salmos_137/']
+INFO:root:Found 3 descriptions: ['Eu amo o Senhor, porque ele me ouviu\nquando lhe fi', 'Livra-me, ó Deus!\nApressa-te, Senhor, a ajudar-me!', 'Junto aos rios da Babilônia\nnós nos sentamos e cho']
+INFO:root:Found 3 dates: ['19 de Julho de 2025', '18 de Julho de 2025', '17 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 70', ID=0243729b41be61da1625e2b52b3c2b05
-INFO:root:Processing entry 2: Title=' Salmo 137', ID=491c4125bdbea6fbf3c781fcbabba473
-INFO:root:Processing entry 3: Title=' Salmo 64', ID=c0e338202ef3a7c9360cc85f5e2fa4dc
+INFO:root:Processing entry 1: Title=' Salmo 116', ID=515f571b9537cbf552404892a7122f8d
+INFO:root:Processing entry 2: Title=' Salmo 70', ID=0243729b41be61da1625e2b52b3c2b05
+INFO:root:Processing entry 3: Title=' Salmo 137', ID=491c4125bdbea6fbf3c781fcbabba473
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 116
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_116/
+INFO:root:🔹 Description: Eu amo o Senhor, porque ele me ouviu
+quando lhe fiz a minha súplica. 
+Ele inclinou os seus ouvidos para mim;
+eu o invocarei toda a minha vida. 
+As cordas da morte me envolveram,
+as angústias do Sheol vieram sobre mim;
+aflição e tristeza me dominaram. 
+Então clamei pelo nome do Senhor:
+Livra-me, Senhor! 
+O Senhor é misericordioso e justo;
+o nosso Deus é compassivo. 
+O Senhor protege os simples;
+quando eu já estava sem forças, ele me salvou. 
+Retorne ao seu descanso, ó minha alma,
+porque o Senhor tem sido bom para você! 
+Pois tu me livraste da morte,
+livraste os meus olhos das lágrimas
+e os meus pés de tropeçar, 
+para que eu pudesse andar diante do Senhor
+na terra dos viventes. 
+Eu cri, ainda que tenha dito:
+Estou muito aflito. 
+Em pânico eu disse:
+Ninguém merece confiança. 
+Como posso retribuir ao Senhor
+toda a sua bondade para comigo? 
+Erguerei o cálice da salvação
+e invocarei o nome do Senhor. 
+Cumprirei para com o Senhor
+os meus votos,
+na presença de todo o seu povo. 
+O Senhor vê com pesar
+a morte de seus fiéis. 
+Senhor, sou teu servo,
+Sim, sou teu servo, filho da tua serva;
+livraste-me das minhas correntes. 
+Oferecerei a ti um sacrifício de gratidão
+e invocarei o nome do Senhor. 
+Cumprirei para com o Senhor
+os meus votos,
+na presença de todo o seu povo, 
+nos pátios da casa do Senhor,
+no seu interior, ó Jerusalém!
+Aleluia! 
+ Salmo 116
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 70
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_70/
 INFO:root:🔹 Description: Livra-me, ó Deus!
@@ -129,86 +183,88 @@ Feliz aquele que pegar os seus filhos
 e os despedaçar contra a rocha! 
  Salmo 137
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 64
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_64/
-INFO:root:🔹 Description: Ouve-me, ó Deus, quando faço a minha queixa;
-protege a minha vida do inimigo ameaçador. 
-Defende-me da conspiração dos ímpios
-e da ruidosa multidão de malfeitores. 
-Eles afiam a língua como espada
-e apontam, como flechas, palavras envenenadas. 
-De onde estão emboscados
-atiram no homem íntegro;
-atiram de surpresa, sem nenhum temor. 
-Animam-se uns aos outros
-com planos malignos,
-combinam como ocultar as suas armadilhas,
-e dizem: "Quem as verá?" 
-Tramam a injustiça e dizem:
-"Fizemos um plano perfeito!"
-A mente e o coração de cada um deles
-o escondem! 
-Mas Deus atirará neles suas flechas;
-repentinamente serão atingidos. 
-Pelas próprias palavras
-farão cair uns aos outros;
-menearão a cabeça e zombarão deles
-todos os que os virem. 
-Todos os homens temerão
-e proclamarão as obras de Deus,
-refletindo no que ele fez. 
-Alegrem-se os justos no Senhor
-e nele busquem refúgio;
-congratulem-se todos os retos de coração! 
- Salmo 64
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245482 characters
-INFO:root:HTML parsed, length: 235173 characters
-INFO:root:Found 3 titles: ['Eu creio no Deus do impossível', 'Poder, amor e domínio', 'Louve a Deus e reconheça o que Ele fez por você']
+INFO:root:Response length: 245477 characters
+INFO:root:HTML parsed, length: 235169 characters
+INFO:root:Found 3 titles: ['Não resista à direção de Deus', 'Eu creio no Deus do impossível', 'Poder, amor e domínio']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Pois nada é impossível para Deus".\n- Lucas 1:37\n\nE', 'Pois Deus não nos deu espírito de covardia, mas de', '"O Senhor vive! Bendita seja a minha Rocha! Exalta']
-INFO:root:Found 1 dates: ['Sexta, 18 de julho de 2025']
+INFO:root:Found 3 descriptions: ['Dei-lhes, entretanto, esta ordem: Obedeçam-me, e e', 'Pois nada é impossível para Deus".\n- Lucas 1:37\n\nE', 'Pois Deus não nos deu espírito de covardia, mas de']
+INFO:root:Found 1 dates: ['Sábado, 19 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Eu creio no Deus do impossível', ID=ed5ce56452af999bb40e81069905c2c0
+INFO:root:Processing entry 1: Title='Não resista à direção de Deus', ID=275e81b939a246107a02b7c1cbc5c6d7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Eu creio no Deus do impossível - Palavra de Hoje
+INFO:root:🔹 Title: Não resista à direção de Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Pois nada é impossível para Deus".
-- Lucas 1:37
+INFO:root:🔹 Description: Dei-lhes, entretanto, esta ordem: Obedeçam-me, e eu serei o seu Deus e vocês serão o meu povo. Vocês andarão em todo o caminho que eu ordenar, para que tudo vá bem a vocês.
+- Jeremias 7:23
 
-Essa é uma promessa poderosa que sustenta minha fé todos os dias. Em meio aos problemas, quando tudo parece perdido e não há mais caminhos, é nesse momento que a mão de Deus se revela com mais força. Ele é o Deus do impossível, aquele que abre mares, derruba muralhas, cura doenças incuráveis e transforma lágrimas em alegria.
-Muitas vezes, somos tentados a olhar apenas para o problema. O diagnóstico do médico, a conta que não fecha, o relacionamento destruído, a porta que se fechou. Mas a fé não se baseia no que os olhos veem. A fé crê mesmo quando tudo diz que não. E é nesse lugar de entrega e confiança que Deus age com poder.
-Eu creio no Deus que transforma o impossível em uma possibilidade maravilhosa. Creio no Deus que ressuscita sonhos mortos e traz vida onde havia morte. Ele não é limitado pelo tempo, pelo espaço, nem pelas leis da lógica humana. O que é impossível para os homens é possível para Ele.
-Mesmo que tudo ao meu redor diga que não há solução, eu escolho confiar em Deus. Eu creio no Deus do impossível. Ele não falha, não se atrasa e não se esquece de nenhuma promessa. Ele está trabalhando, mesmo quando não vejo. E no tempo certo, o milagre virá. Porque para Deus, nada é impossível.
-Eu creio no Deus do impossível, e você?
-Veja também: Versículos que mostram que Deus está no controle de tudo
+Deus sempre quer o melhor para nós. Esta é uma realidade que muitas vezes não conseguimos compreender. Ele quer que tudo corra bem para nós na vida e, por isso, nos deixou instruções claras sobre o que é bom e o que não é. No entanto, o coração humano tende a ser rebelde e, por isso, tentamos fazer as coisas à nossa maneira.
+A maneira como agimos quando surgem problemas demonstra o nível de confiança que temos em Deus. Se nos voltarmos para o Senhor e perguntarmos: “O que devo fazer?”, estamos no caminho certo. Mas se a nossa resposta às dificuldades da vida for ficarmos irados com o Senhor e fazermos o que queremos, ainda não compreendemos o Seu grande amor e que Ele deseja o nosso bem.
+Em vez de resistir, busquemos a orientação de Deus para superar os desafios da vida. Ele tem a solução para todos os problemas e quer nos guiar à vitória. Confiemos no Seu amor, esperemos nEle e permitamos que Ele nos ajude no Seu ritmo e no Seu tempo. Enquanto aguardamos a Sua intervenção, não duvidemos da bondade do nosso Pai celestial.
+
+Mostra-me, Senhor, os teus caminhos,
+ensina-me as tuas veredas;
+guia-me com a tua verdade e ensina-me,
+pois tu és Deus, meu Salvador,
+e a minha esperança está em ti o tempo todo.
+- Salmo 25:4-5
+
+Quando abandonamos nossa rebelião, nossa resistência à vontade do Senhor, Ele abre caminho para que Sua paz nos preencha, ajudando-nos a esperar nEle. Não resista à Sua orientação. Clame a Ele com um coração sincero e espere no Deus da sua salvação. Ele virá e o ajudará.
+Veja também: Mensagens de fé e esperança em Deus
  
-Pois nada é impossível para Deus".
-- Lucas 1:37
+Dei-lhes, entretanto, esta ordem: Obedeçam-me, e eu serei o seu Deus e vocês serão o meu povo. Vocês andarão em todo o caminho que eu ordenar, para que tudo vá bem a vocês.
+- Jeremias 7:23
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 254444 characters
-INFO:root:HTML parsed, length: 243911 characters
-INFO:root:Found 3 titles: ['Fé e coragem', 'Esperança renovada a cada manhã', 'O castigo que nos trouxe a paz!']
-INFO:root:Found 2 URLs: ['/mensagem_de_fe_em_deus/', '/fe_e_esperanca_para_alegrar/']
-INFO:root:Found 3 descriptions: ['Sejam fortes e corajosos. Não tenham medo nem fiqu', 'Senhor, tem misericórdia de nós;\npois em ti espera', 'Mas ele foi traspassado\npor causa das nossas trans']
-INFO:root:Found 3 dates: ['JULHO\n\n18\nSEXTA', 'JULHO\n\n17\nQUINTA', 'JULHO\n\n16\nQUARTA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Fé e coragem', ID=aceeb347935328eda2c67e3fe6dee88b
-INFO:root:Processing entry 2: Title='Esperança renovada a cada manhã', ID=6e1613945513a62ec14740d93c1fa351
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 255277 characters
+INFO:root:HTML parsed, length: 244738 characters
+INFO:root:Found 3 titles: ['Vivemos pela graça de Deus', 'Fé e coragem', 'Esperança renovada a cada manhã']
+INFO:root:Found 3 URLs: ['/historia/', '/mensagem_de_fe_em_deus/', '/fe_e_esperanca_para_alegrar/']
+INFO:root:Found 3 descriptions: ['Graças ao grande amor do Senhor\né que não somos co', 'Sejam fortes e corajosos. Não tenham medo nem fiqu', 'Senhor, tem misericórdia de nós;\npois em ti espera']
+INFO:root:Found 3 dates: ['JULHO\n\n19\nSÁBADO', 'JULHO\n\n18\nSEXTA', 'JULHO\n\n17\nQUINTA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Vivemos pela graça de Deus', ID=55b6aae73228c5932c5a59fcb96f85b7
+INFO:root:Processing entry 2: Title='Fé e coragem', ID=aceeb347935328eda2c67e3fe6dee88b
+INFO:root:Processing entry 3: Title='Esperança renovada a cada manhã', ID=6e1613945513a62ec14740d93c1fa351
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Vivemos pela graça de Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/historia/
+INFO:root:🔹 Description: Graças ao grande amor do Senhor
+é que não somos consumidos,
+pois as suas misericórdias são inesgotáveis.
+Renovam-se cada manhã;
+grande é a sua fidelidade!
+- Lamentações 3:22-2
+
+O versículo de Lamentações 3:22-23 nos traz um lembrete poderoso: não somos consumidos por causa do grande amor do Senhor. Mesmo nos momentos mais difíceis, temos que reconhecer que a misericórdia de Deus nos sustenta a cada dia.
+Não é nossa força, nem nossa inteligência, tampouco nossa fé impecável que nos mantém de pé. É a graça de Deus, expressa em misericórdias que jamais se esgotam. Elas se renovam a cada manhã, como se Deus soubesse exatamente o quanto precisamos recomeçar, não apenas uma vez, mas todos os dias.
+Quantas vezes acordamos sentindo o peso dos erros do dia anterior, o fardo de uma culpa, ou a incerteza sobre o amanhã? E, ainda assim, lá está Deus, nos presenteando com um novo começo. Ele não se cansa de nos amar. Sua fidelidade não vacila diante das nossas falhas.
+Esse amor é a razão pela qual ainda estamos aqui. Em vez de sermos destruídos pelas circunstâncias, somos sustentados por um amor que não falha, não muda, não acaba. Essa fidelidade é firme como uma rocha, mesmo quando tudo ao redor desmorona.
+Não importa o que você esteja enfrentando hoje, há misericórdia suficiente para este dia. Levante-se com a certeza de que o amor de Deus é maior do que sua dor, e que Ele permanece fiel, mesmo quando nós somos inconstantes.
+Cada manhã é um convite de Deus para recomeçarmos. Que essa verdade nos conduza em fé, gratidão e esperança.
+Descansando na fidelidade de Deus
+
+Reconheça a misericórdia de Deus ao acordar. Ore, agradeça e entregue suas preocupações a Ele, confiando que sua fidelidade guiará cada passo do seu dia.
+Aceite o perdão de Deus e não viva preso aos erros do passado. Suas misericórdias são novas hoje; abrace essa verdade e caminhe com esperança renovada.
+Seja constante nas pequenas atitudes diárias: ame, sirva, perdoe. Honre a fidelidade de Deus com uma vida que reflete gratidão e confiança no cuidado d’Ele.
+
+Para orar:
+
+Senhor, agradeço por Teu amor imenso e Tua misericórdia que se renova a cada manhã. Mesmo quando sou fraco, Tu permaneces fiel. Ensina-me a confiar, recomeçar e viver segundo Tua graça. Amém.
+
+Veja também: Versículos de como Deus escreve minha história
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Fé e coragem
 INFO:root:🔹 URL: https://www.bibliaon.com/mensagem_de_fe_em_deus/
 INFO:root:🔹 Description: Sejam fortes e corajosos. Não tenham medo nem fiquem apavorados por causa delas, pois o Senhor, o seu Deus, vai com vocês; nunca os deixará, nunca os abandonará".
@@ -265,11 +321,11 @@ Veja também: Versículos de fé e esperança que vão alegrar seu dia
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223575 characters
-INFO:root:HTML parsed, length: 222127 characters
+INFO:root:Response length: 221923 characters
+INFO:root:HTML parsed, length: 220475 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 14 URLs: ['/wiki/Suffren_(coura%C3%A7ado)', '/wiki/Suffren_(coura%C3%A7ado)', '/wiki/Marinha_Nacional_Francesa']
-INFO:root:Found 1 descriptions: ['O Suffren foi um couraçado pré-dreadnought operado']
+INFO:root:Found 18 URLs: ['/wiki/Dreamsnake', '/wiki/Romance', '/wiki/Fic%C3%A7%C3%A3o_cient%C3%ADfica']
+INFO:root:Found 1 descriptions: ['Dreamsnake é um romance de ficção científica da es']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -279,9 +335,9 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Suffren_(coura%C3%A7ado)
-INFO:root:🔹 Description: O Suffren foi um couraçado pré-dreadnought operado pela Marinha Nacional Francesa. Sua construção começou em janeiro de 1899, no Arsenal de Brest, e foi lançado ao mar em julho do mesmo ano. Contudo, atrasos na entrega de materiais postergaram sua equipagem, e ele só foi comissionado em fevereiro de 1904. Era armado com uma bateria principal composta por quatro canhões de 305 milímetros montados em duas torres de artilharia duplas, tinha um deslocamento de quase treze mil toneladas e conseguia alcançar uma velocidade máxima de dezessete nós.
-O couraçado teve uma carreira em tempos de paz marcada por acidentes e colisões com outros navios. Ele escoltou comboios de tropas do Norte da África quando a Primeira Guerra Mundial começou em 1914 e no ano seguinte foi designado para apoiar a Campanha de Galípoli, participando do bombardeio de fortificações otomanas. Em 1916 foi transferido para a Grécia a fim de impedir que os gregos interferissem na Frente da Macedônia. O Suffren acabou torpedeado e afundado pelo submarino alemão SM U-52 em 26 de novembro, próximo do litoral de Portugal. (Leia mais...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Dreamsnake
+INFO:root:🔹 Description: Dreamsnake é um romance de ficção científica da escritora americana Vonda N. McIntyre lançado em 1978. Esta é uma expansão de seu romance de 1973 intitulado Of Mist, and Grass, and Sand, na qual ela ganhou seu primeiro prêmio Nebula. A história se passa na Terra após um holocausto nuclear. A personagem principal, Snake, é uma curandeira que usa serpentes geneticamente modificadas para curar doenças — considerada uma "serpente dos sonhos" (em inglês: Dreamsnake) alienígena, cujo veneno dá aos pacientes terminais sonhos agradáveis. A obra destaca Snake enquanto ela procura substituir sua serpente dos sonhos após sua morte.
+O livro é considerado um exemplo de ficção científica da segunda onda do feminismo. McIntyre subverteu as narrativas convencionais de gênero, isto é, ao reescrever uma típica busca heroica para colocar uma mulher como protagonista da história, e também ao usar dispositivos como evitar pronomes de gênero para desafiar as expectativas sobre identidades de gênero dos personagens. Dreamsnake também explorou paradigmas sociais e sexuais de uma perspectiva feminista, com temas de cura e interação intercultural. (Leia mais...)
 
 
 
@@ -294,44 +350,42 @@ Artigos bons: 1917
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223575 characters
-INFO:root:HTML parsed, length: 222127 characters
-INFO:root:Found 1 titles: ['17 de julho na história']
-INFO:root:Found 49 URLs: ['/wiki/Ficheiro:TAM_Linhas_A%C3%A9reas_Flight_3054.jpg', '/wiki/Dia_Mundial_do_Emoji', '/wiki/1791']
-INFO:root:Found 1 descriptions: ['Voo TAM 3054\nDia Mundial do Emoji (2014)\n\n1791 – R']
+INFO:root:Response length: 221923 characters
+INFO:root:HTML parsed, length: 220475 characters
+INFO:root:Found 1 titles: ['19 de julho na história']
+INFO:root:Found 46 URLs: ['/wiki/Ficheiro:UA232precrash.gif', '/wiki/1943', '/wiki/Segunda_Guerra_Mundial']
+INFO:root:Found 1 descriptions: ['Voo United Airlines 232\n1943 — Segunda Guerra Mund']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='17 de julho na história', ID=33454bd2aa41f5276c3c34de3761f3c2
+INFO:root:Processing entry 1: Title='19 de julho na história', ID=16828d4803462606497e08281a531a54
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 17 de julho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:TAM_Linhas_A%C3%A9reas_Flight_3054.jpg
-INFO:root:🔹 Description: Voo TAM 3054
-Dia Mundial do Emoji (2014)
-
-1791 – Revolução Francesa: membros da Guarda Nacional Francesa sob o comando do general Lafayette abrem fogo contra uma multidão de jacobinos radicais no Campo de Marte, em Paris, matando dezenas de pessoas.
-1945 – Tem início a Conferência de Potsdam, para discutir o futuro da Alemanha vencida e marca o prelúdio da Guerra Fria.
-2007 – O voo TAM 3054 colide com prédios ao tentar pousar no Aeroporto de Congonhas (imagem dos destroços), em São Paulo, causando a morte de 199 pessoas e se tornando o pior acidente aéreo da história do Brasil.
+INFO:root:🔹 Title: 19 de julho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:UA232precrash.gif
+INFO:root:🔹 Description: Voo United Airlines 232
+1943 — Segunda Guerra Mundial: Roma é bombardeada por mais de 500 aviões aliados, causando milhares de baixas.
+1989 – O voo United Airlines 232 (imagem da aeronave) cai em Sioux City, Iowa, Estados Unidos, matando 111 das 296 pessoas a bordo.
+2018 – A Knesset aprova a Lei Básica do Estado-Nação, definindo Israel como o estado-nação do povo judeu.
 Nasceram neste dia…
-Juan Antonio Samaranch (1920–2010)  •  Carlos Alberto Torres (1944–2016)  •  Camila do Reino Unido (n. 1947)  •  Angela Merkel (n. 1954)
+Edgar Degas (1834–1917)  •  Francisco Sá Carneiro (1934–1980)  •  Brian May (n. 1947)  •  Benedict Cumberbatch (n. 1976)
 Morreram neste dia…
-Estefânia de Hohenzollern-Sigmaringen (1837–1859)  •  Henri Poincaré (1854–1912)  •  Billie Holiday (1915–1959)  •  Juan Manuel Fangio (1911–1995)
+Pierre Louis Dulong (1785–1838)  •  Luz del Fuego (1917–1967)  •  Dercy Gonçalves (1907–2008)  •  Rutger Hauer (1944–2019)
 
 
-Ver mais • Outros dias: 15 • 16 • 17 • 18 • 19 • Ver todos
+Ver mais • Outros dias: 17 • 18 • 19 • 20 • 21 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 223575 characters
-INFO:root:HTML parsed, length: 222127 characters
+INFO:root:Response length: 221923 characters
+INFO:root:HTML parsed, length: 220475 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Leopard_(Panthera_pardus_pardus)_Kruger.jpg']
-INFO:root:Found 1 descriptions: ['Fêmea de leopardo (Panthera pardus pardus) de seis']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:STS-135_final_flyaround_of_ISS_1.jpg']
+INFO:root:Found 1 descriptions: ['Estação Espacial Internacional fotografada pela tr']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Leopard_%28Panthera_pardus_pardus%29_Kruger.jpg/960px-Leopard_%28Panthera_pardus_pardus%29_Kruger.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/STS-135_final_flyaround_of_ISS_1.jpg/960px-STS-135_final_flyaround_of_ISS_1.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -340,15 +394,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Leopard_(Panthera_pardus_pardus)_Kruger.jpg
-INFO:root:🔹 Description: Fêmea de leopardo (Panthera pardus pardus) de seis anos, fotografada no Parque Nacional Kruger, na África do Sul.
-(resolução original: 5 189 × 3 460)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:STS-135_final_flyaround_of_ISS_1.jpg
+INFO:root:🔹 Description: Estação Espacial Internacional fotografada pela tripulação do ônibus espacial Atlantis em 19 de julho de 2011, durante a missão STS-135. Ao longe, é possível ver a Lua.
+(resolução original: 4 256 × 2 832)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Leopard_%28Panthera_pardus_pardus%29_Kruger.jpg/960px-Leopard_%28Panthera_pardus_pardus%29_Kruger.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/STS-135_final_flyaround_of_ISS_1.jpg/960px-STS-135_final_flyaround_of_ISS_1.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -364,24 +418,30 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
+ M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 +--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  21 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  29 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  27 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 452 +-------------------
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  79 ++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 687 +++++-------------------------
- 14 files changed, 209 insertions(+), 1100 deletions(-)
+ feeds/wikidestaque/atom.xml               |   6 +-
+ feeds/wikidestaque/feed.json              |   4 +-
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 342 +++++++++++++++++-------------
+ 17 files changed, 348 insertions(+), 251 deletions(-)
