@@ -1,40 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119014 characters
-INFO:root:HTML parsed, length: 111945 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (21/07/2025)', 'Palavra de Ontem (20/07/2025)', 'Palavra de Anteontem (19/07/2025)']
-INFO:root:Found 3 URLs: ['/suborno/', '/inassistido/', '/solito-2/']
-INFO:root:Found 14 descriptions: ['substantivo masculino Ação ou efeito de subornar, ', 'Sinônimos:\n\naliciamento, aliciação, bola, compra, ', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (21/07/2025)', 'Palavra de Ontem (20/07/2025)', 'Palavra de Anteontem (19/07/2025)']
+INFO:root:Response length: 118717 characters
+INFO:root:HTML parsed, length: 112015 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (22/07/2025)', 'Palavra de Ontem (21/07/2025)', 'Palavra de Anteontem (20/07/2025)']
+INFO:root:Found 3 URLs: ['/conteudista/', '/suborno/', '/inassistido/']
+INFO:root:Found 12 descriptions: ['substantivo masculino e feminino Pessoa responsáve', 'Classe gramatical:adjetivo de dois gêneros e subst', 'Sílabas:con-te-u-dis-ta']
+INFO:root:Found 3 dates: ['Palavra de Hoje (22/07/2025)', 'Palavra de Ontem (21/07/2025)', 'Palavra de Anteontem (20/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (21/07/2025)', ID=d3325321624841c4f0d1f9369426d564
-INFO:root:Processing entry 2: Title='Palavra de Ontem (20/07/2025)', ID=625e426acac64ecfff5709bf3cfc1d96
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (19/07/2025)', ID=36709ef7d5e161aff083a0355573d9ba
+INFO:root:Processing entry 1: Title='Palavra de Hoje (22/07/2025)', ID=1a3f9774d3c484871eeaee2243578aec
+INFO:root:Processing entry 2: Title='Palavra de Ontem (21/07/2025)', ID=74b3b3e7f2988444e5e7184b8c2c352b
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/07/2025)', ID=af9982a5757808683fe8a9443d7ec979
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (21/07/2025) - Significado completo de suborno:
+INFO:root:🔹 Title: Palavra de Hoje (22/07/2025) - Significado completo de conteudista:
+INFO:root:🔹 URL: https://www.dicio.com.br/conteudista/
+INFO:root:🔹 Description: substantivo masculino e feminino Pessoa responsável pelo conteúdo técnico de um trabalho, especialmente quando realizado por um grupo ou equipe multidisciplinar.Algo ou alguém que representa a valorização do conteúdo em detrimento da forma.Pessoa que, em editoras, é a responsável pelo conteúdo técnico de uma obra.adjetivo Que dá prioridade ao conteúdo em detrimento da forma.Que se responsabiliza pelo conteúdo técnico num trabalho realizado por uma equipe ou grupo multidisciplinar.Etimologia (origem da palavra conteudista). Conteúdo + ista.
+ Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (21/07/2025) - Significado completo de suborno:
 INFO:root:🔹 URL: https://www.dicio.com.br/suborno/
-INFO:root:🔹 Description: substantivo masculino Ação ou efeito de subornar, de oferecer dinheiro a alguém, buscando obter algo ilegal; corrupção: foi preso com alegações de suborno.O valor ou benefício que se oferece por essa ação: aceitou 50.000 de suborno.Ato de aliciar alguém a fazer alguma coisa, oferecendo-lhe dinheiro ou outros benefícios ilícitos, em proveito próprio; peita.Etimologia (origem da palavra suborno). Forma regressiva de subornar.
+INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+ Sílabas:con-te-u-dis-ta
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (20/07/2025) - Significado completo de inassistido:
+INFO:root:🔹 URL: https://www.dicio.com.br/inassistido/
+INFO:root:🔹 Description: Sílabas:con-te-u-dis-ta
  
 Sinônimos:
 
 aliciamento, aliciação, bola, compra, corrução, feita, peita, propina, subornação, subornamento, corrompimento 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (20/07/2025) - Significado completo de inassistido:
-INFO:root:🔹 URL: https://www.dicio.com.br/inassistido/
-INFO:root:🔹 Description: Sinônimos:
-
-aliciamento, aliciação, bola, compra, corrução, feita, peita, propina, subornação, subornamento, corrompimento
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (19/07/2025) - Significado completo de sólito:
-INFO:root:🔹 URL: https://www.dicio.com.br/solito-2/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:su-bor-no
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,46 +40,83 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243696 characters
-INFO:root:HTML parsed, length: 232997 characters
-INFO:root:Found 1 titles: ['Daniel 2:21-22']
-INFO:root:Found 1 URLs: ['/versiculo/daniel_2_21-22/']
-INFO:root:Found 1 descriptions: ['Ele muda as épocas e as estações;\ndestrona reis e ']
+INFO:root:Response length: 243528 characters
+INFO:root:HTML parsed, length: 232829 characters
+INFO:root:Found 1 titles: ['Jeremias 29:13']
+INFO:root:Found 1 URLs: ['/versiculo/jeremias_29_13/']
+INFO:root:Found 1 descriptions: ['Vocês me procurarão e me acharão quando me procura']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Daniel 2:21-22', ID=c04c6f71b28c916181fc796f6659c441
+INFO:root:Processing entry 1: Title='Jeremias 29:13', ID=f96702e7730236e39bf53ac4eca153dd
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Daniel 2:21-22
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/daniel_2_21-22/
-INFO:root:🔹 Description: Ele muda as épocas e as estações;
-destrona reis e os estabelece.
-Dá sabedoria aos sábios
-e conhecimento aos que
-sabem discernir. Revela coisas profundas e ocultas;
-conhece o que jaz nas trevas,
-e a luz habita com ele. Daniel 2:21-22
+INFO:root:🔹 Title: Jeremias 29:13
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jeremias_29_13/
+INFO:root:🔹 Description: Vocês me procurarão e me acharão quando me procurarem de todo o coração. Jeremias 29:13
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243075 characters
-INFO:root:HTML parsed, length: 233090 characters
-INFO:root:Found 3 titles: ['Salmo 121', 'Salmo 63', 'Salmo 116']
-INFO:root:Found 3 URLs: ['/salmos_121/', '/salmos_63/', '/salmos_116/']
-INFO:root:Found 3 descriptions: ['Levanto os meus olhos para os montes\ne pergunto:\nD', 'Ó Deus, tu és o meu Deus,\neu te busco intensamente', 'Eu amo o Senhor, porque ele me ouviu\nquando lhe fi']
-INFO:root:Found 3 dates: ['21 de Julho de 2025', '20 de Julho de 2025', '19 de Julho de 2025']
+INFO:root:Response length: 243071 characters
+INFO:root:HTML parsed, length: 233084 characters
+INFO:root:Found 3 titles: ['Salmo 81', 'Salmo 121', 'Salmo 63']
+INFO:root:Found 3 URLs: ['/salmos_81/', '/salmos_121/', '/salmos_63/']
+INFO:root:Found 3 descriptions: ['Cantem de alegria a Deus, nossa força;\naclamem o D', 'Levanto os meus olhos para os montes\ne pergunto:\nD', 'Ó Deus, tu és o meu Deus,\neu te busco intensamente']
+INFO:root:Found 3 dates: ['22 de Julho de 2025', '21 de Julho de 2025', '20 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 121', ID=98f635e6d01f1c89090e151efae7c021
-INFO:root:Processing entry 2: Title=' Salmo 63', ID=f0010b8e8f70e3e74affd7797680d0c6
-INFO:root:Processing entry 3: Title=' Salmo 116', ID=515f571b9537cbf552404892a7122f8d
+INFO:root:Processing entry 1: Title=' Salmo 81', ID=217c73953ef40620789252b2837f3900
+INFO:root:Processing entry 2: Title=' Salmo 121', ID=98f635e6d01f1c89090e151efae7c021
+INFO:root:Processing entry 3: Title=' Salmo 63', ID=f0010b8e8f70e3e74affd7797680d0c6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 81
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_81/
+INFO:root:🔹 Description: Cantem de alegria a Deus, nossa força;
+aclamem o Deus de Jacó! 
+Comecem o louvor, façam ressoar o tamborim,
+toquem a lira e a harpa melodiosa. 
+Toquem a trombeta na lua nova
+e no dia de lua cheia, dia da nossa festa; 
+porque este é um decreto para Israel,
+uma ordenança do Deus de Jacó, 
+que ele estabeleceu como estatuto para José,
+quando atacou o Egito.
+Ali ouvimos uma língua que não conhecíamos. 
+Ele diz: "Tirei o peso dos seus ombros;
+suas mãos ficaram livres dos cestos de cargas. 
+Na sua aflição vocês clamaram e eu os livrei,
+do esconderijo dos trovões lhes respondi;
+eu os pus à prova nas águas de Meribá. 
+"Ouça, meu povo, as minhas advertências;
+se tão somente você me escutasse, ó Israel! 
+Não tenha deus estrangeiro no seu meio;
+não se incline perante nenhum deus estranho. 
+Eu sou o Senhor, o seu Deus,
+que o tirei da terra do Egito.
+Abra a sua boca, e eu o alimentarei. 
+"Mas o meu povo não quis ouvir-me;
+Israel não quis obedecer-me. 
+Por isso os entreguei
+ao seu coração obstinado,
+para seguirem os seus próprios planos. 
+"Se o meu povo apenas me ouvisse,
+se Israel seguisse os meus caminhos, 
+com rapidez eu subjugaria os seus inimigos
+e voltaria a minha mão
+contra os seus adversários! 
+Os que odeiam o Senhor
+se renderiam diante dele
+e receberiam um castigo perpétuo. 
+Mas eu sustentaria Israel
+com o melhor trigo,
+e com o mel da rocha eu o satisfaria". 
+ Salmo 81
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 121
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_121/
 INFO:root:🔹 Description: Levanto os meus olhos para os montes
@@ -138,134 +173,94 @@ o louvarão,
 mas a boca dos mentirosos será tapada. 
  Salmo 63
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 116
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_116/
-INFO:root:🔹 Description: Eu amo o Senhor, porque ele me ouviu
-quando lhe fiz a minha súplica. 
-Ele inclinou os seus ouvidos para mim;
-eu o invocarei toda a minha vida. 
-As cordas da morte me envolveram,
-as angústias do Sheol vieram sobre mim;
-aflição e tristeza me dominaram. 
-Então clamei pelo nome do Senhor:
-Livra-me, Senhor! 
-O Senhor é misericordioso e justo;
-o nosso Deus é compassivo. 
-O Senhor protege os simples;
-quando eu já estava sem forças, ele me salvou. 
-Retorne ao seu descanso, ó minha alma,
-porque o Senhor tem sido bom para você! 
-Pois tu me livraste da morte,
-livraste os meus olhos das lágrimas
-e os meus pés de tropeçar, 
-para que eu pudesse andar diante do Senhor
-na terra dos viventes. 
-Eu cri, ainda que tenha dito:
-Estou muito aflito. 
-Em pânico eu disse:
-Ninguém merece confiança. 
-Como posso retribuir ao Senhor
-toda a sua bondade para comigo? 
-Erguerei o cálice da salvação
-e invocarei o nome do Senhor. 
-Cumprirei para com o Senhor
-os meus votos,
-na presença de todo o seu povo. 
-O Senhor vê com pesar
-a morte de seus fiéis. 
-Senhor, sou teu servo,
-Sim, sou teu servo, filho da tua serva;
-livraste-me das minhas correntes. 
-Oferecerei a ti um sacrifício de gratidão
-e invocarei o nome do Senhor. 
-Cumprirei para com o Senhor
-os meus votos,
-na presença de todo o seu povo, 
-nos pátios da casa do Senhor,
-no seu interior, ó Jerusalém!
-Aleluia! 
- Salmo 116
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245939 characters
-INFO:root:HTML parsed, length: 235634 characters
-INFO:root:Found 3 titles: ['O caminho da sabedoria', 'Obedeça às instruções de Deus, confie e você terá vitória', 'Não resista à direção de Deus']
+INFO:root:Response length: 245854 characters
+INFO:root:HTML parsed, length: 235549 characters
+INFO:root:Found 3 titles: ['Ensina-me a fazer a tua vontade, Senhor', 'O caminho da sabedoria', 'Obedeça às instruções de Deus, confie e você terá vitória']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['A passagem de Oséias fala diretamente ao nosso cor', 'Naquela noite, o Senhor disse a Gideão: "Levante-s', 'Dei-lhes, entretanto, esta ordem: Obedeçam-me, e e']
-INFO:root:Found 1 dates: ['Segunda, 21 de julho de 2025']
+INFO:root:Found 3 descriptions: ['Ensina-me a fazer a tua vontade,\npois tu és o meu ', 'A passagem de Oséias fala diretamente ao nosso cor', 'Naquela noite, o Senhor disse a Gideão: "Levante-s']
+INFO:root:Found 1 dates: ['Terça, 22 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O caminho da sabedoria', ID=1651a8914019d7be29508c48ab5571d0
+INFO:root:Processing entry 1: Title='Ensina-me a fazer a tua vontade, Senhor', ID=aee2cdeae437ee1f4a259060d662a65d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O caminho da sabedoria - Palavra de Hoje
+INFO:root:🔹 Title: Ensina-me a fazer a tua vontade, Senhor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: A passagem de Oséias fala diretamente ao nosso coração, especialmente nos momentos em que estamos tentando entender o que é certo, o que é justo, e como viver de forma coerente com nossa fé.
+INFO:root:🔹 Description: Ensina-me a fazer a tua vontade,
+pois tu és o meu Deus;
+que o teu bondoso Espírito
+me conduza por terreno plano.
+- Salmo 143:10
 
-Quem é sábio? Aquele que considerar essas coisas. Quem tem discernimento? Aquele que as compreender. Os caminhos do Senhor são justos; os justos andam neles, mas os rebeldes neles tropeçam.
-- Oséias 14:9
+Todos nós que amamos a Deus desejamos fazer a Sua vontade, viver em obediência e trazer alegria ao Seu coração. No entanto, muitas vezes, mesmo sabendo o que Deus quer que façamos, nossas emoções tentam nos levar por outro caminho, e uma luta irrompe. O que devemos fazer em momentos como este? Clame a Deus!
+Deus não é passivo, nem nos deixa à própria sorte. Ele nos disse claramente o que é melhor para nós: obedecer aos Seus mandamentos e viver conforme a Sua vontade. Mas Ele não exige nada sem nos dar qualquer tipo de ajuda. Ele está conosco em todos os momentos, e quando surgem lutas dentro de nós, podemos clamar a Ele por ajuda. Ele vem em nosso socorro e nos dá a direção e a ajuda de que precisamos para perseverar Nele.
+Se houver alguma luta dentro de você agora, se você acha que não consegue prosseguir, não desista. Clame ao Senhor por ajuda e apegue-se a Ele. Fique alerta, pois Ele lhe mostrará o caminho a seguir. Ao obedecer à direção de Deus, você viverá com mais alegria, porque a obediência o aproximará de Deus, e Sua presença trará alegria e paz ao seu coração.
 
-Deus, por meio do profeta Oséias, mostrou que a sabedoria verdadeira não está apenas no saber, mas em observar, refletir e escolher o caminho certo, o caminho d'Ele.
-Perceba que o texto não diz que os caminhos do Senhor são fáceis, mas sim justos. Ou seja, eles são retos, firmes e conduzem à vida.
-No entanto, a forma como cada um caminha por essa estrada revela o que há dentro de si. Os justos, aqueles que buscam viver segundo os princípios de Deus, andam com segurança, mesmo quando o terreno é difícil. Já os rebeldes tropeçam. Não porque o caminho é injusto, mas porque seu coração resiste à direção de Deus.
-Essa reflexão nos leva a um ponto importante: nossas escolhas mostram se estamos dispostos a confiar nos caminhos do Senhor ou a seguirmos nossa própria vontade.
-A sabedoria que Deus valoriza é prática, humilde e cheia de reverência. Ela não é feita apenas de palavras bonitas ou conhecimento, mas de atitudes que mostram confiança e obediência a Deus.
-A pergunta que esse versículo nos deixa é: estamos apenas ouvindo, ou estamos considerando e compreendendo o que Deus nos mostra? A rebeldia pode parecer liberdade, mas no fim, é um tropeço. Já a obediência, por mais desafiadora que pareça, nos faz caminhar firmes nos caminhos justos do Senhor.
-Que tenhamos sabedoria para escolher bem, todos os dias.
-Veja também: Frases de sabedoria de Deus para ajudar a sermos mais sábios
+Tu me farás conhecer a vereda da vida,
+a alegria plena da tua presença,
+eterno prazer à tua direita.
+- Salmo 16:11
+
+Em tempos de luta, clame, ouça e obedeça. O Senhor o ajudará a seguir o caminho que Ele preparou para você, um caminho que lhe trará grande alegria e satisfação.
+Que o Senhor sempre o ajude a viver em Seu propósito e a andar em Sua vontade! Amém.
+Veja também: Versículos para tomar decisões segundo a vontade de Deus
  
-Quem é sábio? Aquele que considerar essas coisas. Quem tem discernimento? Aquele que as compreender. Os caminhos do Senhor são justos; os justos andam neles, mas os rebeldes neles tropeçam.
-- Oséias 14:9
+Ensina-me a fazer a tua vontade,
+pois tu és o meu Deus;
+que o teu bondoso Espírito
+me conduza por terreno plano.
+- Salmo 143:10
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 254155 characters
-INFO:root:HTML parsed, length: 243618 characters
-INFO:root:Found 3 titles: ['Sossegue o seu coração...', 'Tudo o que necessitamos', 'Vivemos pela graça de Deus']
-INFO:root:Found 1 URLs: ['/historia/']
-INFO:root:Found 3 descriptions: ['Reduziu a tempestade a uma brisa\ne serenou as onda', 'Seu divino poder nos deu tudo de que necessitamos ', 'Graças ao grande amor do Senhor\né que não somos co']
-INFO:root:Found 3 dates: ['JULHO\n\n21\nSEGUNDA', 'JULHO\n\n20\nDOMINGO', 'JULHO\n\n19\nSÁBADO']
+INFO:root:Response length: 254350 characters
+INFO:root:HTML parsed, length: 243811 characters
+INFO:root:Found 3 titles: ['Deus pode conduzir seus sonhos', 'Sossegue o seu coração...', 'Tudo o que necessitamos']
+INFO:root:Found 1 URLs: ['/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'Reduziu a tempestade a uma brisa\ne serenou as onda', 'Seu divino poder nos deu tudo de que necessitamos ']
+INFO:root:Found 3 dates: ['JULHO\n\n22\nTERÇA', 'JULHO\n\n21\nSEGUNDA', 'JULHO\n\n20\nDOMINGO']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Sossegue o seu coração...', ID=97738d24dbf02ddd6223cd2df3d4d11f
+INFO:root:Processing entry 1: Title='Deus pode conduzir seus sonhos', ID=06a2d06bca53aac9185e7ab132a3bc8f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Sossegue o seu coração...
-INFO:root:🔹 URL: https://www.bibliaon.com/historia/
-INFO:root:🔹 Description: Reduziu a tempestade a uma brisa
-e serenou as ondas.
-As ondas sossegaram, eles se alegraram,
-e Deus os guiou ao porto almejado.
-Salmos 107:29-30
+INFO:root:🔹 Title: Deus pode conduzir seus sonhos
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
+confie nele, e ele agirá:
+- Salmo 37:5
 
-Por vezes, atravessamos momentos de grande desespero e agonia. São situações difíceis que ocorrem em nossas vidas que trazem grande aperto e aflição. De repente, esquecemos e tentamos resolver do nosso jeito, sem esperar em Deus...
-Certa vez, os discípulos de Jesus também enfrentaram um momento semelhante. Estavam num barco, em alto mar, quando veio uma grande tempestade, ao ponto de temerem o pior. Esqueceram-se que o Senhor, que controla todas as coisas, estava com eles no barco e tudo pode fazer. Mas clamaram por Ele e tudo foi resolvido!
-Assim também acontece conosco: se temos Jesus no "barco", não precisamos temer o mal. Se Deus está no controle das nossas vidas, podemos confiar e descansar, pois Ele cuida de tudo... Se amamos a Deus, todas as coisas vão cooperar para o nosso bem. Ele é o Deus do impossível que acalma as tormentas e lhe sustenta para prosseguir. Confie e se alegre em Jesus, pois Ele te guiará ao porto desejado!
-Confie em Deus e sossegue o seu coração!
+Sonhar é um dom dado por Deus. Desde cedo, Ele planta em nosso coração desejos e visões que muitas vezes parecem grandes demais para nossa capacidade. No entanto, quando confiamos nossos sonhos ao Senhor, Ele se encarrega de conduzi-los ao lugar certo, no tempo certo.
+Deus não é contra os sonhos. Pelo contrário, Ele é o maior incentivador dos nossos propósitos, desde que estejam alinhados com a Sua vontade. Quando José sonhou que governaria, parecia impossível para um jovem pastor de ovelhas. Mas Deus conduziu cada etapa: o poço, a prisão, e finalmente o palácio. Tudo fazia parte do plano divino.
+Confiar em Deus é mais do que esperar que Ele realize nossos desejos; é permitir que Ele transforme nossos sonhos segundo o Seu propósito. Às vezes, Ele muda os planos, adia respostas ou nos direciona por caminhos inesperados. Mesmo assim, podemos descansar, pois Ele é fiel para cumprir tudo o que prometeu.
+Seus sonhos não são pequenos demais para Deus, nem grandes demais para Ele realizar. O que você precisa é entregar, confiar e caminhar em obediência. Deus abre portas que ninguém pode fechar, levanta pessoas para ajudar e prepara oportunidades que vão além da nossa imaginação.
+Não desista. Continue sonhando, orando e esperando. Deus pode e quer conduzir seus sonhos. Quando Ele guia, o resultado sempre é maior e mais perfeito do que aquilo que imaginamos. O Criador do universo também é o autor da sua história.
+Confie, descanse e deixe Deus conduzir os seus sonhos
 
 
-Ore e entregue a Deus as situações difíceis que você tem passado.
+Confie no tempo de Deus: Mesmo quando tudo parecer parado ou fora do plano, lembre-se: Deus trabalha nos bastidores. Confie que cada passo, inclusive os difíceis, fazem parte do cumprimento dos Seus propósitos eternos.
 
-Confie que Deus acalma as tempestades da vida e do seu coração.
-Você não consegue sozinho! Entregue o controle da sua vida a Jesus e descanse no Seu cuidado e amor.
+Descanse na fidelidade do Senhor: Deus não abandona aqueles que Nele esperam. Descanse no caráter imutável do Pai, sabendo que Ele é fiel para cumprir promessas, mesmo quando as circunstâncias dizem o contrário.
 
-Leia a Bíblia e encontre nela a fé e a paz que você tanto necessita.
-Não se esqueça que o Senhor está contigo em todo tempo. Busque-o e encontrará refúgio seguro nele.
+Entregue e obedeça com fé: A entrega verdadeira envolve ação e obediência. Ao colocar seus sonhos nas mãos de Deus, esteja disposto a seguir as direções que Ele der, mesmo que não façam sentido no momento.
 
-Para Orar:
+Para orar:
 
-Senhor, ajuda-me! São tantos os problemas à minha volta, parecem que vão me encobrir e me sufocar... Senhor, sem Ti eu nada posso fazer! Acalma essa tempestade e acalma também o meu coração. Ensina-me a confiar totalmente na Tua Palavra e sossegar as minhas emoções, pela tua misericórdia! Não sei como, mas Tu, Jesus, sabes de todas as coisas e podes trazer uma solução para isso tudo. Eu me entrego a Ti, Deus! Estou em tuas mãos, seguras e poderosas. Guia-me por águas tranquilas, por amor do Teu nome, Jesus. Amém!
+Senhor, entrego meus sonhos em Tuas mãos. Conduze cada passo, mesmo quando não entendo o caminho. Confio em Teu tempo e descanso na Tua fidelidade. Que Tua vontade se cumpra em minha vida. Amém.
+
+Veja também: Razões para confiar em Deus
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225952 characters
-INFO:root:HTML parsed, length: 224480 characters
+INFO:root:Response length: 222324 characters
+INFO:root:HTML parsed, length: 220871 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 18 URLs: ['/wiki/Dreamsnake', '/wiki/Romance', '/wiki/Fic%C3%A7%C3%A3o_cient%C3%ADfica']
 INFO:root:Found 1 descriptions: ['Dreamsnake é um romance de ficção científica da es']
@@ -293,44 +288,44 @@ Artigos bons: 1917
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225952 characters
-INFO:root:HTML parsed, length: 224480 characters
-INFO:root:Found 1 titles: ['20 de julho na história']
-INFO:root:Found 62 URLs: ['/wiki/Dia_internacional_do_xadrez', '/wiki/Dia_Internacional_da_Lua', '/wiki/Dia_do_Amigo']
-INFO:root:Found 1 descriptions: ['Apollo 11\nDia Mundial do Xadrez (1966); Dia Intern']
+INFO:root:Response length: 222324 characters
+INFO:root:HTML parsed, length: 220871 characters
+INFO:root:Found 1 titles: ['21 de julho na história']
+INFO:root:Found 47 URLs: ['/wiki/Ficheiro:ErnestHemingway.jpg', '/wiki/B%C3%A9lgica', '/wiki/356_a.C.']
+INFO:root:Found 1 descriptions: ['Ernest Hemingway\nDia Nacional da Bélgica (1831)\n\n3']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='20 de julho na história', ID=e3df569a1804def15d0d5b8671c66bf0
+INFO:root:Processing entry 1: Title='21 de julho na história', ID=86b2142828ab2824af8430b7f43bc867
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 20 de julho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Dia_internacional_do_xadrez
-INFO:root:🔹 Description: Apollo 11
-Dia Mundial do Xadrez (1966); Dia Internacional da Lua (2021); Dia do Amigo no Brasil, no Uruguai, na Argentina e em Moçambique
+INFO:root:🔹 Title: 21 de julho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:ErnestHemingway.jpg
+INFO:root:🔹 Description: Ernest Hemingway
+Dia Nacional da Bélgica (1831)
 
-1897 – Sob a presidência de Machado de Assis, é fundada no Rio de Janeiro a Academia Brasileira de Letras.
-1944 – Segunda Guerra Mundial: o líder da Alemanha Nazista Adolf Hitler sobrevive a uma tentativa de assassinato comandada pelo coronel do exército Claus von Stauffenberg.
-1969 – A tripulação do módulo lunar Apollo 11 realiza com sucesso o primeiro pouso tripulado na Lua, no Mar da Tranquilidade; os astronautas norte-americanos Neil Armstrong e Buzz Aldrin se tornam os primeiros humanos a  caminhar no satélite (vídeo).
+356 a.C. – Heróstrato destrói o Templo de Ártemis, uma das sete maravilhas do Mundo Antigo.
+1798 – Guerras Revolucionárias Francesas: durante a Campanha do Egito, tropas napoleônicas derrotam as forças locais mamelucas na Batalha das Pirâmides.
+1983 — A temperatura mais baixa do mundo em um local habitado é registrada na Estação Vostok, na Antártida, a -89,2 °C.
 Nasceram neste dia…
-Gregor Mendel (1822–1884)  •  Santos Dumont (1873–1932)  •  Edmund Hillary (1919–2008)  •  Gisele Bündchen (n. 1980)
+Papa Sisto IV (1414–1484)  •  Filipe Néri (1515–1595)  •  Ernest Hemingway (imagem) (1899–1961)  •  Robin Williams (1951–2014)
 Morreram neste dia…
-Roberto II de França (972–1031)  •  Padre Cícero (1844–1934)  •  Bruce Lee (1940–1973)  •  Chester Bennington (1976–2017)
+Manuel II Paleólogo (1350–1425)  •  Martim Afonso de Sousa (1490–1571)  •  Robert Burns (1759–1796)  •  Alan Shepard (1923–1998)
 
 
-Ver mais • Outros dias: 18 • 19 • 20 • 21 • 22 • Ver todos
+Ver mais • Outros dias: 19 • 20 • 21 • 22 • 23 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 225952 characters
-INFO:root:HTML parsed, length: 224480 characters
+INFO:root:Response length: 222324 characters
+INFO:root:HTML parsed, length: 220871 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Go%C3%ABngarijpsterpoelen_(Frysk)_Goai%C3%AFngarypster_Puollen_(d.j.b.)_20.jpg']
-INFO:root:Found 1 descriptions: ['O Goëngarijpsterpoelen (em frísio e oficialmente: ']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg']
+INFO:root:Found 1 descriptions: ['Trem da empresa química chilena Sociedad Química y']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Go%C3%ABngarijpsterpoelen_%28Frysk%29_Goai%C3%AFngarypster_Puollen_%28d.j.b.%29_20.jpg/960px-Go%C3%ABngarijpsterpoelen_%28Frysk%29_Goai%C3%AFngarypster_Puollen_%28d.j.b.%29_20.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg/960px-SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -339,15 +334,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Go%C3%ABngarijpsterpoelen_(Frysk)_Goai%C3%AFngarypster_Puollen_(d.j.b.)_20.jpg
-INFO:root:🔹 Description: O Goëngarijpsterpoelen (em frísio e oficialmente: Goaiïngarypster Puollen) é um lago no município de De Fryske Marren, na Frísia, nos Países Baixos. Os primeiros raios de sol da manhã dissipam a neblina e iluminam as árvores e os juncos.
-(resolução original: 5 183 × 2 748)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg
+INFO:root:🔹 Description: Trem da empresa química chilena Sociedad Química y Minera (SQM) transporta nitrato a granel de Tocopilla para Barriles. Em primeiro plano, as locomotivas elétricas GE 289A “Boxcab”.
+(resolução original: 5 542 × 3 421)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Go%C3%ABngarijpsterpoelen_%28Frysk%29_Goai%C3%AFngarypster_Puollen_%28d.j.b.%29_20.jpg/960px-Go%C3%ABngarijpsterpoelen_%28Frysk%29_Goai%C3%AFngarypster_Puollen_%28d.j.b.%29_20.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg/960px-SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -371,13 +366,13 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  35 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  32 +--
+ feeds/devocional_de_hoje/feed.json        |   8 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  34 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  10 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  41 ++--
+ feeds/salmo_do_dia/atom.xml               |  89 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
@@ -386,5 +381,5 @@ INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++---
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 333 +++++++++++++-----------------
- 16 files changed, 260 insertions(+), 322 deletions(-)
+ output.log                                | 346 ++++++++++++++----------------
+ 16 files changed, 294 insertions(+), 321 deletions(-)
