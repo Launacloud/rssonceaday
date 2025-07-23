@@ -1,38 +1,34 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 118717 characters
-INFO:root:HTML parsed, length: 112015 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (22/07/2025)', 'Palavra de Ontem (21/07/2025)', 'Palavra de Anteontem (20/07/2025)']
-INFO:root:Found 3 URLs: ['/conteudista/', '/suborno/', '/inassistido/']
-INFO:root:Found 12 descriptions: ['substantivo masculino e feminino Pessoa responsáve', 'Classe gramatical:adjetivo de dois gêneros e subst', 'Sílabas:con-te-u-dis-ta']
-INFO:root:Found 3 dates: ['Palavra de Hoje (22/07/2025)', 'Palavra de Ontem (21/07/2025)', 'Palavra de Anteontem (20/07/2025)']
+INFO:root:Response length: 118107 characters
+INFO:root:HTML parsed, length: 111772 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (23/07/2025)', 'Palavra de Ontem (22/07/2025)', 'Palavra de Anteontem (21/07/2025)']
+INFO:root:Found 3 URLs: ['/paleontologia/', '/conteudista/', '/suborno/']
+INFO:root:Found 10 descriptions: ['substantivo feminino Ciência que estuda os animais', 'Classe gramatical:substantivo feminino', 'Sílabas:pa-le-on-to-lo-gi-a']
+INFO:root:Found 3 dates: ['Palavra de Hoje (23/07/2025)', 'Palavra de Ontem (22/07/2025)', 'Palavra de Anteontem (21/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (22/07/2025)', ID=1a3f9774d3c484871eeaee2243578aec
-INFO:root:Processing entry 2: Title='Palavra de Ontem (21/07/2025)', ID=74b3b3e7f2988444e5e7184b8c2c352b
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/07/2025)', ID=af9982a5757808683fe8a9443d7ec979
+INFO:root:Processing entry 1: Title='Palavra de Hoje (23/07/2025)', ID=350340827bd142d21afcb465e36d6637
+INFO:root:Processing entry 2: Title='Palavra de Ontem (22/07/2025)', ID=7028ccd7d5b957b8b21c0d456f292f4a
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/07/2025)', ID=2d4674a3330ef6fd243036f2d88791ae
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (22/07/2025) - Significado completo de conteudista:
+INFO:root:🔹 Title: Palavra de Hoje (23/07/2025) - Significado completo de paleontologia:
+INFO:root:🔹 URL: https://www.dicio.com.br/paleontologia/
+INFO:root:🔹 Description: substantivo feminino Ciência que estuda os animais e vegetais fósseis, especialmente aqueles que existiram em períodos geológicos passados, através da análise dos traços deixados nos sedimentos geológicos.Compêndio ou obra que trata dessa ciência.Etimologia (origem da palavra paleontologia). A palavra paleontologia deriva da junção de paleo-, do grego palaiós, “antigo” + onto + logia; e derivada do francês paléontologie.
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (22/07/2025) - Significado completo de conteudista:
 INFO:root:🔹 URL: https://www.dicio.com.br/conteudista/
-INFO:root:🔹 Description: substantivo masculino e feminino Pessoa responsável pelo conteúdo técnico de um trabalho, especialmente quando realizado por um grupo ou equipe multidisciplinar.Algo ou alguém que representa a valorização do conteúdo em detrimento da forma.Pessoa que, em editoras, é a responsável pelo conteúdo técnico de uma obra.adjetivo Que dá prioridade ao conteúdo em detrimento da forma.Que se responsabiliza pelo conteúdo técnico num trabalho realizado por uma equipe ou grupo multidisciplinar.Etimologia (origem da palavra conteudista). Conteúdo + ista.
- Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:pa-le-on-to-lo-gi-a
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (21/07/2025) - Significado completo de suborno:
+INFO:root:🔹 Title: Palavra de Anteontem (21/07/2025) - Significado completo de suborno:
 INFO:root:🔹 URL: https://www.dicio.com.br/suborno/
-INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
- Sílabas:con-te-u-dis-ta
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (20/07/2025) - Significado completo de inassistido:
-INFO:root:🔹 URL: https://www.dicio.com.br/inassistido/
-INFO:root:🔹 Description: Sílabas:con-te-u-dis-ta
- 
-Sinônimos:
-
-aliciamento, aliciação, bola, compra, corrução, feita, peita, propina, subornação, subornamento, corrompimento 
-
+INFO:root:🔹 Description: Sílabas:pa-le-on-to-lo-gi-a
+ Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +36,66 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243528 characters
-INFO:root:HTML parsed, length: 232829 characters
-INFO:root:Found 1 titles: ['Jeremias 29:13']
-INFO:root:Found 1 URLs: ['/versiculo/jeremias_29_13/']
-INFO:root:Found 1 descriptions: ['Vocês me procurarão e me acharão quando me procura']
+INFO:root:Response length: 243493 characters
+INFO:root:HTML parsed, length: 232794 characters
+INFO:root:Found 1 titles: ['Filipenses 4:13']
+INFO:root:Found 1 URLs: ['/versiculo/filipenses_4_13/']
+INFO:root:Found 1 descriptions: ['Tudo posso naquele que me fortalece. Filipenses 4:']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jeremias 29:13', ID=f96702e7730236e39bf53ac4eca153dd
+INFO:root:Processing entry 1: Title='Filipenses 4:13', ID=56c3ca1de9f163a06781deec38fd2254
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jeremias 29:13
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jeremias_29_13/
-INFO:root:🔹 Description: Vocês me procurarão e me acharão quando me procurarem de todo o coração. Jeremias 29:13
+INFO:root:🔹 Title: Filipenses 4:13
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_4_13/
+INFO:root:🔹 Description: Tudo posso naquele que me fortalece. Filipenses 4:13
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243071 characters
-INFO:root:HTML parsed, length: 233084 characters
-INFO:root:Found 3 titles: ['Salmo 81', 'Salmo 121', 'Salmo 63']
-INFO:root:Found 3 URLs: ['/salmos_81/', '/salmos_121/', '/salmos_63/']
-INFO:root:Found 3 descriptions: ['Cantem de alegria a Deus, nossa força;\naclamem o D', 'Levanto os meus olhos para os montes\ne pergunto:\nD', 'Ó Deus, tu és o meu Deus,\neu te busco intensamente']
-INFO:root:Found 3 dates: ['22 de Julho de 2025', '21 de Julho de 2025', '20 de Julho de 2025']
+INFO:root:Response length: 242775 characters
+INFO:root:HTML parsed, length: 232785 characters
+INFO:root:Found 3 titles: ['Salmo 11', 'Salmo 81', 'Salmo 121']
+INFO:root:Found 3 URLs: ['/salmos_11/', '/salmos_81/', '/salmos_121/']
+INFO:root:Found 3 descriptions: ['No Senhor me refugio.\nComo então vocês podem dizer', 'Cantem de alegria a Deus, nossa força;\naclamem o D', 'Levanto os meus olhos para os montes\ne pergunto:\nD']
+INFO:root:Found 3 dates: ['23 de Julho de 2025', '22 de Julho de 2025', '21 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 81', ID=217c73953ef40620789252b2837f3900
-INFO:root:Processing entry 2: Title=' Salmo 121', ID=98f635e6d01f1c89090e151efae7c021
-INFO:root:Processing entry 3: Title=' Salmo 63', ID=f0010b8e8f70e3e74affd7797680d0c6
+INFO:root:Processing entry 1: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
+INFO:root:Processing entry 2: Title=' Salmo 81', ID=217c73953ef40620789252b2837f3900
+INFO:root:Processing entry 3: Title=' Salmo 121', ID=98f635e6d01f1c89090e151efae7c021
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 11
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_11/
+INFO:root:🔹 Description: No Senhor me refugio.
+Como então vocês podem dizer-me:
+"Fuja como um pássaro para os montes"? 
+Vejam! Os ímpios preparam os seus arcos;
+colocam as flechas contra as cordas
+para das sombras as atirarem
+nos retos de coração. 
+Quando os fundamentos
+estão sendo destruídos,
+que pode fazer o justo? 
+O Senhor está no seu santo templo;
+o Senhor tem o seu trono nos céus.
+Seus olhos observam;
+seus olhos examinam os filhos dos homens. 
+O Senhor prova o justo,
+mas o ímpio e a quem ama a injustiça,
+a sua alma odeia. 
+Sobre os ímpios ele fará chover
+brasas ardentes e enxofre incandescente;
+vento ressecante é o que terão. 
+Pois o Senhor é justo e ama a justiça;
+os retos verão a sua face. 
+ Salmo 11
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 81
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_81/
 INFO:root:🔹 Description: Cantem de alegria a Deus, nossa força;
@@ -140,97 +162,92 @@ e a sua chegada,
 desde agora e para sempre. 
  Salmo 121
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 63
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_63/
-INFO:root:🔹 Description: Ó Deus, tu és o meu Deus,
-eu te busco intensamente;
-a minha alma tem sede de ti!
-Todo o meu ser anseia por ti,
-numa terra seca, exausta e sem água. 
-Quero contemplar-te no santuário
-e avistar o teu poder e a tua glória. 
-O teu amor é melhor do que a vida!
-Por isso os meus lábios te exaltarão. 
-Enquanto eu viver te bendirei,
-e em teu nome levantarei as minhas mãos. 
-A minha alma ficará satisfeita
-como quando tem rico banquete;
-com lábios jubilosos a minha boca te louvará. 
-Quando me deito, lembro-me de ti;
-penso em ti durante as vigílias da noite. 
-Porque és a minha ajuda,
-canto de alegria à sombra das tuas asas. 
-A minha alma apega-se a ti;
-a tua mão direita me sustém. 
-Aqueles, porém, que querem matar-me
-serão destruídos;
-descerão às profundezas da terra. 
-Serão entregues à espada
-e devorados por chacais. 
-Mas o rei se alegrará em Deus;
-todos os que juram pelo nome de Deus
-o louvarão,
-mas a boca dos mentirosos será tapada. 
- Salmo 63
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245854 characters
-INFO:root:HTML parsed, length: 235549 characters
-INFO:root:Found 3 titles: ['Ensina-me a fazer a tua vontade, Senhor', 'O caminho da sabedoria', 'Obedeça às instruções de Deus, confie e você terá vitória']
+INFO:root:Response length: 245824 characters
+INFO:root:HTML parsed, length: 235517 characters
+INFO:root:Found 3 titles: ['Sem medo do futuro', 'Ensina-me a fazer a tua vontade, Senhor', 'O caminho da sabedoria']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Ensina-me a fazer a tua vontade,\npois tu és o meu ', 'A passagem de Oséias fala diretamente ao nosso cor', 'Naquela noite, o Senhor disse a Gideão: "Levante-s']
-INFO:root:Found 1 dates: ['Terça, 22 de julho de 2025']
+INFO:root:Found 3 descriptions: ['Reveste-se de força e dignidade;\nsorri diante do f', 'Ensina-me a fazer a tua vontade,\npois tu és o meu ', 'A passagem de Oséias fala diretamente ao nosso cor']
+INFO:root:Found 1 dates: ['Quarta, 23 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Ensina-me a fazer a tua vontade, Senhor', ID=aee2cdeae437ee1f4a259060d662a65d
+INFO:root:Processing entry 1: Title='Sem medo do futuro', ID=ea199ea56041ca2e09c7e2865e2b7acc
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Ensina-me a fazer a tua vontade, Senhor - Palavra de Hoje
+INFO:root:🔹 Title: Sem medo do futuro - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Ensina-me a fazer a tua vontade,
-pois tu és o meu Deus;
-que o teu bondoso Espírito
-me conduza por terreno plano.
-- Salmo 143:10
+INFO:root:🔹 Description: Reveste-se de força e dignidade;
+sorri diante do futuro.
+- Provérbios 31:25
 
-Todos nós que amamos a Deus desejamos fazer a Sua vontade, viver em obediência e trazer alegria ao Seu coração. No entanto, muitas vezes, mesmo sabendo o que Deus quer que façamos, nossas emoções tentam nos levar por outro caminho, e uma luta irrompe. O que devemos fazer em momentos como este? Clame a Deus!
-Deus não é passivo, nem nos deixa à própria sorte. Ele nos disse claramente o que é melhor para nós: obedecer aos Seus mandamentos e viver conforme a Sua vontade. Mas Ele não exige nada sem nos dar qualquer tipo de ajuda. Ele está conosco em todos os momentos, e quando surgem lutas dentro de nós, podemos clamar a Ele por ajuda. Ele vem em nosso socorro e nos dá a direção e a ajuda de que precisamos para perseverar Nele.
-Se houver alguma luta dentro de você agora, se você acha que não consegue prosseguir, não desista. Clame ao Senhor por ajuda e apegue-se a Ele. Fique alerta, pois Ele lhe mostrará o caminho a seguir. Ao obedecer à direção de Deus, você viverá com mais alegria, porque a obediência o aproximará de Deus, e Sua presença trará alegria e paz ao seu coração.
 
-Tu me farás conhecer a vereda da vida,
-a alegria plena da tua presença,
-eterno prazer à tua direita.
-- Salmo 16:11
+Senhor, tu és a minha porção e o meu cálice;
+és tu que garantes o meu futuro.
+- Salmo 16:5
 
-Em tempos de luta, clame, ouça e obedeça. O Senhor o ajudará a seguir o caminho que Ele preparou para você, um caminho que lhe trará grande alegria e satisfação.
-Que o Senhor sempre o ajude a viver em Seu propósito e a andar em Sua vontade! Amém.
-Veja também: Versículos para tomar decisões segundo a vontade de Deus
+Se passamos muito tempo assistindo ao noticiário ou falando sobre o que está acontecendo ao nosso redor, podemos sentir um sentimento estranho crescendo em nossos corações: o medo. A situação mundial parece estar indo de mal a pior. Mas não é só isso. Todos nós temos lutas e problemas pessoais.
+Quando o fardo parece muito pesado, devemos lembrar que nosso Deus é todo-poderoso e tem tudo sob Seu controle. Ele cuida de Seus filhos e Seu propósito é bom. Nada que acontece escapa de Suas mãos; podemos confiar em Seu amor e poder, e até sorrir porque sabemos o final da história: Jesus é o vencedor!
+Se houver uma situação pesando em seu coração, leve-a aos pés do Senhor. Entregue a Ele seus fardos e medos e peça a Ele que o ajude a sentir Sua presença, a descansar em Sua paz e a lembrar que o futuro está em Suas mãos. Ele pode guardá-lo e protegê-lo. Ele pode ajudá-lo a sentir paz e a vencer, porque Ele já venceu. Ele já venceu o maligno, e o futuro que aguarda todos os seus filhos é de paz, alegria, amor e todas as coisas boas que Deus preparou para nós.
+
+Por essa causa também sofro, mas não me envergonho, porque sei em quem tenho crido e estou bem certo de que ele é poderoso para guardar o que lhe confiei até aquele dia.
+- 2 Timóteo 1:12
+
+Apegue-se ao Senhor e lembre-se de que Ele está com você em todos os momentos. Ele é poderoso o suficiente para ajudá-lo hoje, restaurando sua fé e confiança nEle. Com o coração repleto da Sua presença, você não viverá com medo do futuro.
+Veja também: Versículos de esperança para o futuro
  
-Ensina-me a fazer a tua vontade,
-pois tu és o meu Deus;
-que o teu bondoso Espírito
-me conduza por terreno plano.
-- Salmo 143:10
+Reveste-se de força e dignidade;
+sorri diante do futuro.
+- Provérbios 31:25
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 254350 characters
-INFO:root:HTML parsed, length: 243811 characters
-INFO:root:Found 3 titles: ['Deus pode conduzir seus sonhos', 'Sossegue o seu coração...', 'Tudo o que necessitamos']
-INFO:root:Found 1 URLs: ['/razoes_para_confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'Reduziu a tempestade a uma brisa\ne serenou as onda', 'Seu divino poder nos deu tudo de que necessitamos ']
-INFO:root:Found 3 dates: ['JULHO\n\n22\nTERÇA', 'JULHO\n\n21\nSEGUNDA', 'JULHO\n\n20\nDOMINGO']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus pode conduzir seus sonhos', ID=06a2d06bca53aac9185e7ab132a3bc8f
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 255404 characters
+INFO:root:HTML parsed, length: 244861 characters
+INFO:root:Found 3 titles: ['Guardado ileso na batalha', 'Deus pode conduzir seus sonhos', 'Sossegue o seu coração...']
+INFO:root:Found 2 URLs: ['/salmo_27_protecao_de_deus/', '/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['Ele me guarda ileso na batalha, sendo muitos os qu', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'Reduziu a tempestade a uma brisa\ne serenou as onda']
+INFO:root:Found 3 dates: ['JULHO\n\n23\nQUARTA', 'JULHO\n\n22\nTERÇA', 'JULHO\n\n21\nSEGUNDA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Guardado ileso na batalha', ID=a1523d8905fac98af737111c0a560bb9
+INFO:root:Processing entry 2: Title='Deus pode conduzir seus sonhos', ID=06a2d06bca53aac9185e7ab132a3bc8f
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Guardado ileso na batalha
+INFO:root:🔹 URL: https://www.bibliaon.com/salmo_27_protecao_de_deus/
+INFO:root:🔹 Description: Ele me guarda ileso na batalha, sendo muitos os que estão contra mim.
+- Salmo 55:18
+
+Quando tudo ao nosso redor parece ruir e os ataques surgem de todos os lados, é nesse exato momento que descobrimos quem nos protege de verdade. Deus não fica vendo nossas batalhas, Ele é o guerreiro que vai à frente, o escudo que nos protege, a mão invisível que nos mantém de pé quando tudo conspira contra nós.
+Quantas vezes nos sentimos sozinhos diante de inimigos? Medos, pressões, pessoas, circunstâncias, tudo parece conspirar para nossa queda. Mas o Senhor, em Sua fidelidade, nos guarda ilesos. Não porque merecemos, mas porque Ele é amor. Ele não nos poupa da batalha, mas garante que ela não será o nosso fim.
+O salmista não fala de um campo tranquilo, mas de um cenário de guerra. Mesmo assim, ele declara com confiança: “Ele me guarda ileso.” Essa é a essência da vida com Deus, não a ausência de problemas, mas a certeza de proteção em meio a eles.
+A Palavra nos lembra que o número dos inimigos não define o resultado da batalha. Não importa quantos estejam contra você, importa quem está com você. E se é Deus quem te guarda, não há força contrária que possa te derrubar.
+
+Mil poderão cair ao teu lado, e dez mil à tua direita; mas tu não serás atingido.
+- Salmo 91:7
+
+Hoje, se o combate for intenso, se as vozes contrárias forem altas, permaneça firme. O Deus que guarda o seu coração também protege o seu caminho. E quando tudo passar, você será testemunha viva de que Ele, mais uma vez, te livrou.
+Você é protegido. Você é sustentado. Você está guardado por Deus.
+
+
+Confie em Deus mesmo quando tudo parecer contrário: A oposição pode ser grande, mas Deus é maior. Sua proteção não depende das circunstâncias, mas da fidelidade d’Aquele que nunca falha.
+
+Encare a batalha com a certeza da vitória: Você não luta sozinho. Deus vai à frente, abre caminhos e te guarda ileso. A presença d’Ele transforma campos de guerra em testemunhos de livramento.
+
+Declare a fidelidade de Deus com ousadia: Mesmo em meio à luta, proclame que Deus é o seu escudo. Sua confiança declarada fortalece a fé e inspira outros a crerem também.
+
+Para orar:
+
+Senhor, em meio às batalhas que enfrento, clamo pelo Teu socorro! Guarda-me com Teu poder, sustenta-me com Tua mão forte. Mesmo cercado por muitos, confio que estás comigo. Levanta-Te, ó Deus, e luta por mim! Que eu saia ileso, para que Teu nome seja glorificado. Em Ti está minha vitória! Amém!
+
+Veja também: Salmo 27 - estudo bíblico sobre a proteção e livramento de Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Deus pode conduzir seus sonhos
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
 INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
@@ -259,8 +276,8 @@ Veja também: Razões para confiar em Deus
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222324 characters
-INFO:root:HTML parsed, length: 220871 characters
+INFO:root:Response length: 221442 characters
+INFO:root:HTML parsed, length: 219994 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 18 URLs: ['/wiki/Dreamsnake', '/wiki/Romance', '/wiki/Fic%C3%A7%C3%A3o_cient%C3%ADfica']
 INFO:root:Found 1 descriptions: ['Dreamsnake é um romance de ficção científica da es']
@@ -288,44 +305,42 @@ Artigos bons: 1917
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222324 characters
-INFO:root:HTML parsed, length: 220871 characters
-INFO:root:Found 1 titles: ['21 de julho na história']
-INFO:root:Found 47 URLs: ['/wiki/Ficheiro:ErnestHemingway.jpg', '/wiki/B%C3%A9lgica', '/wiki/356_a.C.']
-INFO:root:Found 1 descriptions: ['Ernest Hemingway\nDia Nacional da Bélgica (1831)\n\n3']
+INFO:root:Response length: 221442 characters
+INFO:root:HTML parsed, length: 219994 characters
+INFO:root:Found 1 titles: ['23 de julho na história']
+INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Amy_Winehouse_f4962007_crop.jpg', '/wiki/1921', '/wiki/Concess%C3%A3o_Internacional_de_Xangai']
+INFO:root:Found 1 descriptions: ['Amy Winehouse\n1921 – Começa em Xangai o 1.º Congre']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='21 de julho na história', ID=86b2142828ab2824af8430b7f43bc867
+INFO:root:Processing entry 1: Title='23 de julho na história', ID=8382765ed4849df2678b49f3aad3af14
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 21 de julho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:ErnestHemingway.jpg
-INFO:root:🔹 Description: Ernest Hemingway
-Dia Nacional da Bélgica (1831)
-
-356 a.C. – Heróstrato destrói o Templo de Ártemis, uma das sete maravilhas do Mundo Antigo.
-1798 – Guerras Revolucionárias Francesas: durante a Campanha do Egito, tropas napoleônicas derrotam as forças locais mamelucas na Batalha das Pirâmides.
-1983 — A temperatura mais baixa do mundo em um local habitado é registrada na Estação Vostok, na Antártida, a -89,2 °C.
+INFO:root:🔹 Title: 23 de julho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Amy_Winehouse_f4962007_crop.jpg
+INFO:root:🔹 Description: Amy Winehouse
+1921 – Começa em Xangai o 1.º Congresso Nacional do Partido Comunista da China.
+1967 – Eclodem os Distúrbios de Detroit, um dos piores motins da história dos Estados Unidos, resultando em 43 mortes e milhares de edifícios sendo incendiados.
+1995 – Alan Hale e Thomas Bopp descobrem o cometa Hale-Bopp, um dos maiores e mais brilhantes do século XX.
 Nasceram neste dia…
-Papa Sisto IV (1414–1484)  •  Filipe Néri (1515–1595)  •  Ernest Hemingway (imagem) (1899–1961)  •  Robin Williams (1951–2014)
+Edward Adrian Wilson (1872–1912)  •  Vladimir Prelog (1906–1998)  •  Amália Rodrigues (1920–1999)  •  Maria João Pires (n. 1944)
 Morreram neste dia…
-Manuel II Paleólogo (1350–1425)  •  Martim Afonso de Sousa (1490–1571)  •  Robert Burns (1759–1796)  •  Alan Shepard (1923–1998)
+Santos Dumont (1873–1932)  •  Carlos Paredes (1925–2004)  •  Amy Winehouse (imagem) (1983–2011)  •  Djalma Santos (1929–2013)
 
 
-Ver mais • Outros dias: 19 • 20 • 21 • 22 • 23 • Ver todos
+Ver mais • Outros dias: 21 • 22 • 23 • 24 • 25 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222324 characters
-INFO:root:HTML parsed, length: 220871 characters
+INFO:root:Response length: 221442 characters
+INFO:root:HTML parsed, length: 219994 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg']
-INFO:root:Found 1 descriptions: ['Trem da empresa química chilena Sociedad Química y']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg']
+INFO:root:Found 1 descriptions: ['Estrutura de madeira, fotografada de baixo para ci']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg/960px-SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg/960px-WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -334,15 +349,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg
-INFO:root:🔹 Description: Trem da empresa química chilena Sociedad Química y Minera (SQM) transporta nitrato a granel de Tocopilla para Barriles. Em primeiro plano, as locomotivas elétricas GE 289A “Boxcab”.
-(resolução original: 5 542 × 3 421)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg
+INFO:root:🔹 Description: Estrutura de madeira, fotografada de baixo para cima, da torre de observação turística “Alpenblick”, no município de Ulrichsberg, na Áustria.
+(resolução original: 7 658 × 5 106)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg/960px-SQM_GE_289A_Boxcab_Quillagua_-_Barriles.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg/960px-WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -366,20 +381,20 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  32 +--
- feeds/devocional_de_hoje/feed.json        |   8 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  34 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  29 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  38 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  10 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  89 ++++----
+ feeds/salmo_do_dia/atom.xml               |  57 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  feeds/wikidestaque/atom.xml               |   2 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 346 ++++++++++++++----------------
- 16 files changed, 294 insertions(+), 321 deletions(-)
+ output.log                                | 320 +++++++++++++++---------------
+ 16 files changed, 283 insertions(+), 269 deletions(-)
