@@ -1,34 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 118107 characters
-INFO:root:HTML parsed, length: 111772 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (23/07/2025)', 'Palavra de Ontem (22/07/2025)', 'Palavra de Anteontem (21/07/2025)']
-INFO:root:Found 3 URLs: ['/paleontologia/', '/conteudista/', '/suborno/']
-INFO:root:Found 10 descriptions: ['substantivo feminino Ciência que estuda os animais', 'Classe gramatical:substantivo feminino', 'Sílabas:pa-le-on-to-lo-gi-a']
-INFO:root:Found 3 dates: ['Palavra de Hoje (23/07/2025)', 'Palavra de Ontem (22/07/2025)', 'Palavra de Anteontem (21/07/2025)']
+INFO:root:Response length: 117987 characters
+INFO:root:HTML parsed, length: 111652 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (24/07/2025)', 'Palavra de Ontem (23/07/2025)', 'Palavra de Anteontem (22/07/2025)']
+INFO:root:Found 3 URLs: ['/uivar/', '/paleontologia/', '/conteudista/']
+INFO:root:Found 10 descriptions: ['verbo intransitivo Dar uivos, som dos lobos, cães ', 'Sinônimos:\n\ncuincar, chiar, ganir, ulular, gritar,', 'Classe gramatical:verbo intransitivo']
+INFO:root:Found 3 dates: ['Palavra de Hoje (24/07/2025)', 'Palavra de Ontem (23/07/2025)', 'Palavra de Anteontem (22/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (23/07/2025)', ID=350340827bd142d21afcb465e36d6637
-INFO:root:Processing entry 2: Title='Palavra de Ontem (22/07/2025)', ID=7028ccd7d5b957b8b21c0d456f292f4a
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/07/2025)', ID=2d4674a3330ef6fd243036f2d88791ae
+INFO:root:Processing entry 1: Title='Palavra de Hoje (24/07/2025)', ID=dd4a564ab6c5e52d57a32e9faa736c91
+INFO:root:Processing entry 2: Title='Palavra de Ontem (23/07/2025)', ID=e328eaef1e4e368608d74a83499035f4
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/07/2025)', ID=1840845879b0fb0bda98ddae46656e66
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (23/07/2025) - Significado completo de paleontologia:
+INFO:root:🔹 Title: Palavra de Hoje (24/07/2025) - Significado completo de uivar:
+INFO:root:🔹 URL: https://www.dicio.com.br/uivar/
+INFO:root:🔹 Description: verbo intransitivo Dar uivos, som dos lobos, cães ou animais semelhantes.Berrar de maneira semelhante ao uivo; ulular, vociferar.verbo transitivo direto, bitransitivo e intransitivo [Figurado] Soltar gritos prolongados: uivava que o mundo ia acabar; uivar de dor; terminou a vida a uivar.substantivo masculino Uivo; a voz da fera: ressoava longe o uivar das feras.Etimologia (origem da palavra uivar). Do latim ululare.
+ 
+Sinônimos:
+
+cuincar, chiar, ganir, ulular, gritar, berrar, gemer 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (23/07/2025) - Significado completo de paleontologia:
 INFO:root:🔹 URL: https://www.dicio.com.br/paleontologia/
-INFO:root:🔹 Description: substantivo feminino Ciência que estuda os animais e vegetais fósseis, especialmente aqueles que existiram em períodos geológicos passados, através da análise dos traços deixados nos sedimentos geológicos.Compêndio ou obra que trata dessa ciência.Etimologia (origem da palavra paleontologia). A palavra paleontologia deriva da junção de paleo-, do grego palaiós, “antigo” + onto + logia; e derivada do francês paléontologie.
- Classe gramatical:substantivo feminino
+INFO:root:🔹 Description: Sinônimos:
+
+cuincar, chiar, ganir, ulular, gritar, berrar, gemer
+ Classe gramatical:verbo intransitivo
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (22/07/2025) - Significado completo de conteudista:
+INFO:root:🔹 Title: Palavra de Anteontem (22/07/2025) - Significado completo de conteudista:
 INFO:root:🔹 URL: https://www.dicio.com.br/conteudista/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:pa-le-on-to-lo-gi-a
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (21/07/2025) - Significado completo de suborno:
-INFO:root:🔹 URL: https://www.dicio.com.br/suborno/
-INFO:root:🔹 Description: Sílabas:pa-le-on-to-lo-gi-a
- Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+INFO:root:🔹 Description: Classe gramatical:verbo intransitivo
+ Sílabas:ui-var
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -36,40 +42,62 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243493 characters
-INFO:root:HTML parsed, length: 232794 characters
-INFO:root:Found 1 titles: ['Filipenses 4:13']
-INFO:root:Found 1 URLs: ['/versiculo/filipenses_4_13/']
-INFO:root:Found 1 descriptions: ['Tudo posso naquele que me fortalece. Filipenses 4:']
+INFO:root:Response length: 243379 characters
+INFO:root:HTML parsed, length: 232680 characters
+INFO:root:Found 1 titles: ['Romanos 12:19']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_12_19/']
+INFO:root:Found 1 descriptions: ['Amados, nunca procurem vingar-se, mas deixem com D']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Filipenses 4:13', ID=56c3ca1de9f163a06781deec38fd2254
+INFO:root:Processing entry 1: Title='Romanos 12:19', ID=8bc93bf848b845b8d365f563df343088
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Filipenses 4:13
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_4_13/
-INFO:root:🔹 Description: Tudo posso naquele que me fortalece. Filipenses 4:13
+INFO:root:🔹 Title: Romanos 12:19
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_12_19/
+INFO:root:🔹 Description: Amados, nunca procurem vingar-se, mas deixem com Deus a ira, pois está escrito: "Minha é a vingança; eu retribuirei", diz o Senhor. Romanos 12:19
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 242775 characters
-INFO:root:HTML parsed, length: 232785 characters
-INFO:root:Found 3 titles: ['Salmo 11', 'Salmo 81', 'Salmo 121']
-INFO:root:Found 3 URLs: ['/salmos_11/', '/salmos_81/', '/salmos_121/']
-INFO:root:Found 3 descriptions: ['No Senhor me refugio.\nComo então vocês podem dizer', 'Cantem de alegria a Deus, nossa força;\naclamem o D', 'Levanto os meus olhos para os montes\ne pergunto:\nD']
-INFO:root:Found 3 dates: ['23 de Julho de 2025', '22 de Julho de 2025', '21 de Julho de 2025']
+INFO:root:Response length: 242768 characters
+INFO:root:HTML parsed, length: 232778 characters
+INFO:root:Found 3 titles: ['Salmo 67', 'Salmo 11', 'Salmo 81']
+INFO:root:Found 3 URLs: ['/salmos_67/', '/salmos_11/', '/salmos_81/']
+INFO:root:Found 3 descriptions: ['Que Deus tenha misericórdia de nós\ne nos abençoe,\n', 'No Senhor me refugio.\nComo então vocês podem dizer', 'Cantem de alegria a Deus, nossa força;\naclamem o D']
+INFO:root:Found 3 dates: ['24 de Julho de 2025', '23 de Julho de 2025', '22 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
-INFO:root:Processing entry 2: Title=' Salmo 81', ID=217c73953ef40620789252b2837f3900
-INFO:root:Processing entry 3: Title=' Salmo 121', ID=98f635e6d01f1c89090e151efae7c021
+INFO:root:Processing entry 1: Title=' Salmo 67', ID=82158f60bd73913bca9322cbd1a40b7a
+INFO:root:Processing entry 2: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
+INFO:root:Processing entry 3: Title=' Salmo 81', ID=217c73953ef40620789252b2837f3900
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 67
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_67/
+INFO:root:🔹 Description: Que Deus tenha misericórdia de nós
+e nos abençoe,
+e faça resplandecer
+o seu rosto sobre nós, 
+para que sejam conhecidos na terra
+os teus caminhos, ó Deus,
+a tua salvação entre todas as nações. 
+Louvem-te os povos, ó Deus;
+louvem-te todos os povos. 
+Exultem e cantem de alegria as nações,
+pois governas os povos com justiça
+e guias as nações na terra. 
+Louvem-te os povos, ó Deus;
+louvem-te todos os povos. 
+Que a terra dê a sua colheita,
+e Deus, o nosso Deus, nos abençoe! 
+Que Deus nos abençoe,
+e o temam todos os confins da terra. 
+ Salmo 67
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 11
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_11/
 INFO:root:🔹 Description: No Senhor me refugio.
@@ -139,86 +167,78 @@ com o melhor trigo,
 e com o mel da rocha eu o satisfaria". 
  Salmo 81
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 121
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_121/
-INFO:root:🔹 Description: Levanto os meus olhos para os montes
-e pergunto:
-De onde me vem o socorro? 
-O meu socorro vem do Senhor,
-que fez os céus e a terra. 
-Ele não permitirá que você tropece;
-o seu protetor se manterá alerta, 
-sim, o protetor de Israel não dormirá;
-ele está sempre alerta! 
-O Senhor é o seu protetor;
-como sombra que o protege,
-ele está à sua direita. 
-De dia o sol não o ferirá;
-nem a lua, de noite. 
-O Senhor o protegerá de todo o mal,
-protegerá a sua vida. 
-O Senhor protegerá a sua saída
-e a sua chegada,
-desde agora e para sempre. 
- Salmo 121
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245824 characters
-INFO:root:HTML parsed, length: 235517 characters
-INFO:root:Found 3 titles: ['Sem medo do futuro', 'Ensina-me a fazer a tua vontade, Senhor', 'O caminho da sabedoria']
+INFO:root:Response length: 245764 characters
+INFO:root:HTML parsed, length: 235463 characters
+INFO:root:Found 3 titles: ['Buscando ser mais como Cristo', 'Sem medo do futuro', 'Ensina-me a fazer a tua vontade, Senhor']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Reveste-se de força e dignidade;\nsorri diante do f', 'Ensina-me a fazer a tua vontade,\npois tu és o meu ', 'A passagem de Oséias fala diretamente ao nosso cor']
-INFO:root:Found 1 dates: ['Quarta, 23 de julho de 2025']
+INFO:root:Found 3 descriptions: ['Se o nosso desejo como cristãos é impactar positiv', 'Reveste-se de força e dignidade;\nsorri diante do f', 'Ensina-me a fazer a tua vontade,\npois tu és o meu ']
+INFO:root:Found 1 dates: ['Quinta, 24 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Sem medo do futuro', ID=ea199ea56041ca2e09c7e2865e2b7acc
+INFO:root:Processing entry 1: Title='Buscando ser mais como Cristo', ID=6a35ef9bfa13d845c81e1a968936cc59
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Sem medo do futuro - Palavra de Hoje
+INFO:root:🔹 Title: Buscando ser mais como Cristo - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Reveste-se de força e dignidade;
-sorri diante do futuro.
-- Provérbios 31:25
+INFO:root:🔹 Description: Se o nosso desejo como cristãos é impactar positivamente este mundo e fazer uma diferença real, devemos nos esforçar para ser mais como Jesus a cada dia. O mundo nos convoca a lutar pelas melhores posições, a sermos cruelmente competitivos e a pensar que os fins justificam os meios. Mas alcançaremos o verdadeiro impacto espalhando o amor e a presença de Jesus.
+Deus nos chama a sermos humildes, a amar e a valorizar os outros, buscando o bem daqueles ao nosso redor e a imitar Jesus em tudo o que fazemos. Ao sermos mais como Cristo, deixaremos uma marca de amor e bênção no coração de todos que nos conhecem. Que legado maior poderíamos desejar?
 
+Nada façam por ambição egoísta ou por vaidade, mas humildemente considerem os outros superiores a vocês mesmos. Cada um cuide, não somente dos seus interesses, mas também dos interesses dos outros. Seja a atitude de vocês a mesma de Cristo Jesus, que, embora sendo Deus, não considerou que o ser igual a Deus era algo a que devia apegar-se;
+- Filipenses 2:3-6
 
-Senhor, tu és a minha porção e o meu cálice;
-és tu que garantes o meu futuro.
-- Salmo 16:5
+Em vez de buscar a excelência, a vitória, a conquista e a demonstração de que somos melhores, devemos nos concentrar em imitar Jesus e viver como Ele. Se cada uma de nossas ações for inspirada pelo amor, pela justiça e pelo desejo de abençoar, Cristo brilhará através de nós.
+Se, em vez de nos apegarmos aos nossos direitos de viver melhor e ter mais, buscarmos maneiras de servir e amar o próximo, cuidando verdadeiramente dele, assim como Jesus fez, Seu amor fluirá por nossas vidas e Seu evangelho se espalhará. Não há missão mais preciosa do que alcançar outros com as boas novas da salvação.
+Escolha hoje ser mais como Cristo e viva para Ele. Sua parte do mundo receberá grandes bênçãos!
 
-Se passamos muito tempo assistindo ao noticiário ou falando sobre o que está acontecendo ao nosso redor, podemos sentir um sentimento estranho crescendo em nossos corações: o medo. A situação mundial parece estar indo de mal a pior. Mas não é só isso. Todos nós temos lutas e problemas pessoais.
-Quando o fardo parece muito pesado, devemos lembrar que nosso Deus é todo-poderoso e tem tudo sob Seu controle. Ele cuida de Seus filhos e Seu propósito é bom. Nada que acontece escapa de Suas mãos; podemos confiar em Seu amor e poder, e até sorrir porque sabemos o final da história: Jesus é o vencedor!
-Se houver uma situação pesando em seu coração, leve-a aos pés do Senhor. Entregue a Ele seus fardos e medos e peça a Ele que o ajude a sentir Sua presença, a descansar em Sua paz e a lembrar que o futuro está em Suas mãos. Ele pode guardá-lo e protegê-lo. Ele pode ajudá-lo a sentir paz e a vencer, porque Ele já venceu. Ele já venceu o maligno, e o futuro que aguarda todos os seus filhos é de paz, alegria, amor e todas as coisas boas que Deus preparou para nós.
-
-Por essa causa também sofro, mas não me envergonho, porque sei em quem tenho crido e estou bem certo de que ele é poderoso para guardar o que lhe confiei até aquele dia.
-- 2 Timóteo 1:12
-
-Apegue-se ao Senhor e lembre-se de que Ele está com você em todos os momentos. Ele é poderoso o suficiente para ajudá-lo hoje, restaurando sua fé e confiança nEle. Com o coração repleto da Sua presença, você não viverá com medo do futuro.
-Veja também: Versículos de esperança para o futuro
+Busque ser como Jesus, conheça seus principais ensinamentos.
  
-Reveste-se de força e dignidade;
-sorri diante do futuro.
-- Provérbios 31:25
+Nada façam por ambição egoísta ou por vaidade, mas humildemente considerem os outros superiores a vocês mesmos. Cada um cuide, não somente dos seus interesses, mas também dos interesses dos outros. Seja a atitude de vocês a mesma de Cristo Jesus, que, embora sendo Deus, não considerou que o ser igual a Deus era algo a que devia apegar-se;
+- Filipenses 2:3-6
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255404 characters
-INFO:root:HTML parsed, length: 244861 characters
-INFO:root:Found 3 titles: ['Guardado ileso na batalha', 'Deus pode conduzir seus sonhos', 'Sossegue o seu coração...']
-INFO:root:Found 2 URLs: ['/salmo_27_protecao_de_deus/', '/razoes_para_confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['Ele me guarda ileso na batalha, sendo muitos os qu', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'Reduziu a tempestade a uma brisa\ne serenou as onda']
-INFO:root:Found 3 dates: ['JULHO\n\n23\nQUARTA', 'JULHO\n\n22\nTERÇA', 'JULHO\n\n21\nSEGUNDA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Guardado ileso na batalha', ID=a1523d8905fac98af737111c0a560bb9
-INFO:root:Processing entry 2: Title='Deus pode conduzir seus sonhos', ID=06a2d06bca53aac9185e7ab132a3bc8f
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 255647 characters
+INFO:root:HTML parsed, length: 245104 characters
+INFO:root:Found 3 titles: ['O perfeito amor de Deus', 'Guardado ileso na batalha', 'Deus pode conduzir seus sonhos']
+INFO:root:Found 3 URLs: ['/provas_do_amor_de_deus/', '/salmo_27_protecao_de_deus/', '/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['No amor não há medo; ao contrário o perfeito amor ', 'Ele me guarda ileso na batalha, sendo muitos os qu', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e']
+INFO:root:Found 3 dates: ['JULHO\n\n24\nQUINTA', 'JULHO\n\n23\nQUARTA', 'JULHO\n\n22\nTERÇA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='O perfeito amor de Deus', ID=581bba3ea5066565099d3f650df13048
+INFO:root:Processing entry 2: Title='Guardado ileso na batalha', ID=a1523d8905fac98af737111c0a560bb9
+INFO:root:Processing entry 3: Title='Deus pode conduzir seus sonhos', ID=06a2d06bca53aac9185e7ab132a3bc8f
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O perfeito amor de Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/provas_do_amor_de_deus/
+INFO:root:🔹 Description: No amor não há medo; ao contrário o perfeito amor expulsa o medo, porque o medo supõe castigo. Aquele que tem medo não está aperfeiçoado no amor.
+- 1 João 4:18
+
+Este versículo nos revela uma das verdades mais profundas da fé em Jesus: o amor de Deus, manifestado em Jesus Cristo, é libertador. Ele não oprime, não condena, não nos deixa paralisados pelo medo, mas nos acolhe, transforma e nos convida a vivermos em plena confiança.
+O medo, especialmente o medo do castigo, nasce da incerteza e da distância entre a criatura e o Criador. Quando não compreendemos o caráter amoroso de Deus, passamos a vê-Lo como um juiz implacável. Porém, a cruz de Cristo nos mostra o oposto: Deus é amor. Em Jesus, o amor foi encarnado, sofreu por nós, e venceu o pecado e a morte. Esse amor não exige perfeição humana, mas entrega sincera. Ele nos chama à intimidade, não ao afastamento.
+O “perfeito amor” mencionado na carta de João é o amor maduro, que conhece e confia no coração de Deus. Quando somos aperfeiçoados nesse amor, o medo se dissipa porque sabemos que não estamos sozinhos, nem à mercê da condenação, mas seguros nos braços do Pai.
+O poder do amor de Jesus é transformador: cura feridas, restaura dignidade, quebra correntes de culpa e nos convida a amar como fomos amados. Esse amor lança fora o medo, porque é firme, fiel e eterno. Quem experimenta esse amor não teme o amanhã, nem o juízo, porque já foi alcançado pela graça.
+Ser aperfeiçoado no amor é caminhar diariamente com Cristo, deixando que Seu amor nos molde, nos liberte e nos conduza à verdadeira paz.
+O amor expulsa o medo
+
+Lembre-se todos os dias de que Deus te ama incondicionalmente. Meditar nesse amor elimina o medo e fortalece a fé para enfrentar qualquer circunstância com coragem.
+Sempre que o medo surgir, combata-o com as promessas de Deus. Leia a Palavra, ore e declare que o amor de Cristo é maior que qualquer temor.
+Pratique o amor que liberta, perdoa e acolhe. Ao amar com sinceridade, você se torna reflexo do amor de Jesus e ajuda a expulsar o medo alheio.
+
+Para orar:
+
+Senhor, teu amor perfeito lança fora todo medo. Ajuda-me a confiar plenamente em Ti, a viver sem temor, sabendo que sou amado e perdoado. Aperfeiçoa-me no teu amor, para que eu ame como Cristo amou, com graça e verdade. Que o teu amor seja minha força e minha paz. Amém.
+
+Veja também: 7 características do amor de Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Guardado ileso na batalha
 INFO:root:🔹 URL: https://www.bibliaon.com/salmo_27_protecao_de_deus/
 INFO:root:🔹 Description: Ele me guarda ileso na batalha, sendo muitos os que estão contra mim.
@@ -276,11 +296,11 @@ Veja também: Razões para confiar em Deus
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 221442 characters
-INFO:root:HTML parsed, length: 219994 characters
+INFO:root:Response length: 221530 characters
+INFO:root:HTML parsed, length: 220083 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 18 URLs: ['/wiki/Dreamsnake', '/wiki/Romance', '/wiki/Fic%C3%A7%C3%A3o_cient%C3%ADfica']
-INFO:root:Found 1 descriptions: ['Dreamsnake é um romance de ficção científica da es']
+INFO:root:Found 22 URLs: ['/wiki/Lisa_Su', '/wiki/Lisa_Su', '/wiki/Engenharia_el%C3%A9trica']
+INFO:root:Found 1 descriptions: ['Lisa Tzwu-Fang Su é uma executiva de negócios e en']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -290,9 +310,9 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Dreamsnake
-INFO:root:🔹 Description: Dreamsnake é um romance de ficção científica da escritora americana Vonda N. McIntyre lançado em 1978. Esta é uma expansão de seu romance de 1973 intitulado Of Mist, and Grass, and Sand, na qual ela ganhou seu primeiro prêmio Nebula. A história se passa na Terra após um holocausto nuclear. A personagem principal, Snake, é uma curandeira que usa serpentes geneticamente modificadas para curar doenças — considerada uma "serpente dos sonhos" (em inglês: Dreamsnake) alienígena, cujo veneno dá aos pacientes terminais sonhos agradáveis. A obra destaca Snake enquanto ela procura substituir sua serpente dos sonhos após sua morte.
-O livro é considerado um exemplo de ficção científica da segunda onda do feminismo. McIntyre subverteu as narrativas convencionais de gênero, isto é, ao reescrever uma típica busca heroica para colocar uma mulher como protagonista da história, e também ao usar dispositivos como evitar pronomes de gênero para desafiar as expectativas sobre identidades de gênero dos personagens. Dreamsnake também explorou paradigmas sociais e sexuais de uma perspectiva feminista, com temas de cura e interação intercultural. (Leia mais...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Lisa_Su
+INFO:root:🔹 Description: Lisa Tzwu-Fang Su é uma executiva de negócios e engenheira elétrica sino-americana, atual presidente e diretora-executiva (CEO) da empresa de semicondutores Advanced Micro Devices (AMD). É prima de Jensen Huang, cofundador e CEO da Nvidia, fabricante de placas de vídeo.
+Su nasceu em Taiwan e se mudou junto à família para os Estados Unidos quando criança. Após obter três diplomas no Instituto de Tecnologia de Massachusetts (MIT), trabalhou na Texas Instruments, IBM e Freescale Semiconductor em cargos de engenharia e gestão. Ela é conhecida por seu trabalho no desenvolvimento de tecnologias de fabricação de semicondutores de silício e chips semicondutores mais eficientes durante seu tempo como vice-presidente do Centro de Pesquisa e Desenvolvimento de Semicondutores da IBM. (Leia mais...)
 
 
 
@@ -305,42 +325,42 @@ Artigos bons: 1917
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 221442 characters
-INFO:root:HTML parsed, length: 219994 characters
-INFO:root:Found 1 titles: ['23 de julho na história']
-INFO:root:Found 45 URLs: ['/wiki/Ficheiro:Amy_Winehouse_f4962007_crop.jpg', '/wiki/1921', '/wiki/Concess%C3%A3o_Internacional_de_Xangai']
-INFO:root:Found 1 descriptions: ['Amy Winehouse\n1921 – Começa em Xangai o 1.º Congre']
+INFO:root:Response length: 221530 characters
+INFO:root:HTML parsed, length: 220083 characters
+INFO:root:Found 1 titles: ['24 de julho na história']
+INFO:root:Found 50 URLs: ['/wiki/Ficheiro:Sunset_across_Machu_Picchu.jpg', '/wiki/1911', '/wiki/Hiram_Bingham']
+INFO:root:Found 1 descriptions: ['Machu Picchu\n1911 – Hiram Bingham III redescobre M']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='23 de julho na história', ID=8382765ed4849df2678b49f3aad3af14
+INFO:root:Processing entry 1: Title='24 de julho na história', ID=1b6777af86e1475335099af0eb42e396
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 23 de julho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Amy_Winehouse_f4962007_crop.jpg
-INFO:root:🔹 Description: Amy Winehouse
-1921 – Começa em Xangai o 1.º Congresso Nacional do Partido Comunista da China.
-1967 – Eclodem os Distúrbios de Detroit, um dos piores motins da história dos Estados Unidos, resultando em 43 mortes e milhares de edifícios sendo incendiados.
-1995 – Alan Hale e Thomas Bopp descobrem o cometa Hale-Bopp, um dos maiores e mais brilhantes do século XX.
+INFO:root:🔹 Title: 24 de julho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Sunset_across_Machu_Picchu.jpg
+INFO:root:🔹 Description: Machu Picchu
+1911 – Hiram Bingham III redescobre Machu Picchu (imagem), "a cidade perdida dos Incas".
+1923 – Grécia, Bulgária e outros países que lutaram na Primeira Guerra Mundial assinam o Tratado de Lausanne, estabelecendo as fronteiras da Turquia moderna.
+1959 – Na abertura da Exposição Nacional Americana, em Moscou, o vice-presidente dos Estados Unidos Richard Nixon e o primeiro-ministro da União Soviética Nikita Khrushchov têm um "Debate da Cozinha".
 Nasceram neste dia…
-Edward Adrian Wilson (1872–1912)  •  Vladimir Prelog (1906–1998)  •  Amália Rodrigues (1920–1999)  •  Maria João Pires (n. 1944)
+Simón Bolívar (1783–1830)  •  Alexandre Dumas (1802–1870)  •  Giuseppe Di Stefano (1921–2008)  •  Jennifer Lopez (n. 1969)
 Morreram neste dia…
-Santos Dumont (1873–1932)  •  Carlos Paredes (1925–2004)  •  Amy Winehouse (imagem) (1983–2011)  •  Djalma Santos (1929–2013)
+Carlos, Príncipe das Astúrias (1545–1568)  •  Martin Van Buren (1782–1862)  •  Peter Sellers (1925–1980)  •  Doris Monteiro (1934–2023)
 
 
-Ver mais • Outros dias: 21 • 22 • 23 • 24 • 25 • Ver todos
+Ver mais • Outros dias: 22 • 23 • 24 • 25 • 26 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 221442 characters
-INFO:root:HTML parsed, length: 219994 characters
+INFO:root:Response length: 221530 characters
+INFO:root:HTML parsed, length: 220083 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg']
-INFO:root:Found 1 descriptions: ['Estrutura de madeira, fotografada de baixo para ci']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Ganymede_-_Perijove_34_Composite.jpg']
+INFO:root:Found 1 descriptions: ['Imagem composta de Ganimedes, a maior lua de Júpit']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg/960px-WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ganymede_-_Perijove_34_Composite.jpg/500px-Ganymede_-_Perijove_34_Composite.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -349,15 +369,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg
-INFO:root:🔹 Description: Estrutura de madeira, fotografada de baixo para cima, da torre de observação turística “Alpenblick”, no município de Ulrichsberg, na Áustria.
-(resolução original: 7 658 × 5 106)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Ganymede_-_Perijove_34_Composite.jpg
+INFO:root:🔹 Description: Imagem composta de Ganimedes, a maior lua de Júpiter, capturada pela sonda espacial Juno em 24 de julho de 2021.
+(resolução original: 3 445 × 3 445)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg/960px-WTB_20220723_Ulrichsberg_Aussichtsturm_Alpenblick_9792.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ganymede_-_Perijove_34_Composite.jpg/500px-Ganymede_-_Perijove_34_Composite.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -373,6 +393,7 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -381,20 +402,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  29 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  24 ++-
  feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  38 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  28 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  14 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  57 +++---
+ feeds/salmo_do_dia/atom.xml               |  43 +++--
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidestaque/atom.xml               |   6 +-
+ feeds/wikidestaque/feed.json              |   4 +-
+ feeds/wikidia/atom.xml                    |  14 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 320 +++++++++++++++---------------
- 16 files changed, 283 insertions(+), 269 deletions(-)
+ output.log                                | 296 +++++++++++++++---------------
+ 17 files changed, 266 insertions(+), 241 deletions(-)
