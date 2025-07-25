@@ -1,40 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 117987 characters
-INFO:root:HTML parsed, length: 111652 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (24/07/2025)', 'Palavra de Ontem (23/07/2025)', 'Palavra de Anteontem (22/07/2025)']
-INFO:root:Found 3 URLs: ['/uivar/', '/paleontologia/', '/conteudista/']
-INFO:root:Found 10 descriptions: ['verbo intransitivo Dar uivos, som dos lobos, cães ', 'Sinônimos:\n\ncuincar, chiar, ganir, ulular, gritar,', 'Classe gramatical:verbo intransitivo']
-INFO:root:Found 3 dates: ['Palavra de Hoje (24/07/2025)', 'Palavra de Ontem (23/07/2025)', 'Palavra de Anteontem (22/07/2025)']
+INFO:root:Response length: 118144 characters
+INFO:root:HTML parsed, length: 111809 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (25/07/2025)', 'Palavra de Ontem (24/07/2025)', 'Palavra de Anteontem (23/07/2025)']
+INFO:root:Found 3 URLs: ['/frontao/', '/uivar/', '/paleontologia/']
+INFO:root:Found 10 descriptions: ['substantivo masculino [Arquitetura] Ornato arquite', 'Classe gramatical:substantivo masculino', 'Sílabas:fron-tão']
+INFO:root:Found 3 dates: ['Palavra de Hoje (25/07/2025)', 'Palavra de Ontem (24/07/2025)', 'Palavra de Anteontem (23/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (24/07/2025)', ID=dd4a564ab6c5e52d57a32e9faa736c91
-INFO:root:Processing entry 2: Title='Palavra de Ontem (23/07/2025)', ID=e328eaef1e4e368608d74a83499035f4
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/07/2025)', ID=1840845879b0fb0bda98ddae46656e66
+INFO:root:Processing entry 1: Title='Palavra de Hoje (25/07/2025)', ID=abb59c50bc59c82ec66dab881dc49aea
+INFO:root:Processing entry 2: Title='Palavra de Ontem (24/07/2025)', ID=cd1eb29c4f78195e835bc526a068cd9c
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (23/07/2025)', ID=412b0ff466e7abbd7423714d810682be
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (24/07/2025) - Significado completo de uivar:
+INFO:root:🔹 Title: Palavra de Hoje (25/07/2025) - Significado completo de frontão:
+INFO:root:🔹 URL: https://www.dicio.com.br/frontao/
+INFO:root:🔹 Description: substantivo masculino [Arquitetura] Ornato arquitetônico na face principal de um edifício, geralmente decorando a fachada principal, composto pela cimalha e duas empenas.Ornamento que, anexo ao remate de portas, janelas, mobília ou objetos de ouro, tem o formato semelhante ao do triângulo.Muro contra o qual os jogadores da chamada "pelota basca" atiram a bola; local onde se pratica esse jogo; o próprio jogo.Nome popular do jogo de bola de origem espanhola.expressão Frontão do Partenon. Parte frontal, decorada e triangular, que sustentava uma cobertura, composta por um telhado de duas águas, do Paternon grego, templo que simboliza a hegemonia de Atenas, construído entre 447-436 a.C.Etimologia (origem da palavra frontão). Do francês fronton.
+ Classe gramatical:substantivo masculino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (24/07/2025) - Significado completo de uivar:
 INFO:root:🔹 URL: https://www.dicio.com.br/uivar/
-INFO:root:🔹 Description: verbo intransitivo Dar uivos, som dos lobos, cães ou animais semelhantes.Berrar de maneira semelhante ao uivo; ulular, vociferar.verbo transitivo direto, bitransitivo e intransitivo [Figurado] Soltar gritos prolongados: uivava que o mundo ia acabar; uivar de dor; terminou a vida a uivar.substantivo masculino Uivo; a voz da fera: ressoava longe o uivar das feras.Etimologia (origem da palavra uivar). Do latim ululare.
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:fron-tão
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (23/07/2025) - Significado completo de paleontologia:
+INFO:root:🔹 URL: https://www.dicio.com.br/paleontologia/
+INFO:root:🔹 Description: Sílabas:fron-tão
  
 Sinônimos:
 
 cuincar, chiar, ganir, ulular, gritar, berrar, gemer 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (23/07/2025) - Significado completo de paleontologia:
-INFO:root:🔹 URL: https://www.dicio.com.br/paleontologia/
-INFO:root:🔹 Description: Sinônimos:
-
-cuincar, chiar, ganir, ulular, gritar, berrar, gemer
- Classe gramatical:verbo intransitivo
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (22/07/2025) - Significado completo de conteudista:
-INFO:root:🔹 URL: https://www.dicio.com.br/conteudista/
-INFO:root:🔹 Description: Classe gramatical:verbo intransitivo
- Sílabas:ui-var
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +40,95 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243379 characters
-INFO:root:HTML parsed, length: 232680 characters
-INFO:root:Found 1 titles: ['Romanos 12:19']
-INFO:root:Found 1 URLs: ['/versiculo/romanos_12_19/']
-INFO:root:Found 1 descriptions: ['Amados, nunca procurem vingar-se, mas deixem com D']
+INFO:root:Response length: 243372 characters
+INFO:root:HTML parsed, length: 232673 characters
+INFO:root:Found 1 titles: ['Oséias 6:6']
+INFO:root:Found 1 URLs: ['/versiculo/oseias_6_6/']
+INFO:root:Found 1 descriptions: ['Pois desejo misericórdia\ne não sacrifícios;\nconhec']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Romanos 12:19', ID=8bc93bf848b845b8d365f563df343088
+INFO:root:Processing entry 1: Title='Oséias 6:6', ID=bada6ded191710d67bd665d5128de751
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Romanos 12:19
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_12_19/
-INFO:root:🔹 Description: Amados, nunca procurem vingar-se, mas deixem com Deus a ira, pois está escrito: "Minha é a vingança; eu retribuirei", diz o Senhor. Romanos 12:19
+INFO:root:🔹 Title: Oséias 6:6
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/oseias_6_6/
+INFO:root:🔹 Description: Pois desejo misericórdia
+e não sacrifícios;
+conhecimento de Deus
+em vez de holocaustos. Oséias 6:6
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 242768 characters
-INFO:root:HTML parsed, length: 232778 characters
-INFO:root:Found 3 titles: ['Salmo 67', 'Salmo 11', 'Salmo 81']
-INFO:root:Found 3 URLs: ['/salmos_67/', '/salmos_11/', '/salmos_81/']
-INFO:root:Found 3 descriptions: ['Que Deus tenha misericórdia de nós\ne nos abençoe,\n', 'No Senhor me refugio.\nComo então vocês podem dizer', 'Cantem de alegria a Deus, nossa força;\naclamem o D']
-INFO:root:Found 3 dates: ['24 de Julho de 2025', '23 de Julho de 2025', '22 de Julho de 2025']
+INFO:root:Response length: 242989 characters
+INFO:root:HTML parsed, length: 233009 characters
+INFO:root:Found 3 titles: ['Salmo 144', 'Salmo 67', 'Salmo 11']
+INFO:root:Found 3 URLs: ['/salmos_144/', '/salmos_67/', '/salmos_11/']
+INFO:root:Found 3 descriptions: ['Bendito seja o Senhor, a minha Rocha,\nque treina a', 'Que Deus tenha misericórdia de nós\ne nos abençoe,\n', 'No Senhor me refugio.\nComo então vocês podem dizer']
+INFO:root:Found 3 dates: ['25 de Julho de 2025', '24 de Julho de 2025', '23 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 67', ID=82158f60bd73913bca9322cbd1a40b7a
-INFO:root:Processing entry 2: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
-INFO:root:Processing entry 3: Title=' Salmo 81', ID=217c73953ef40620789252b2837f3900
+INFO:root:Processing entry 1: Title=' Salmo 144', ID=49ac889de8bc5a68b31e914f265de5df
+INFO:root:Processing entry 2: Title=' Salmo 67', ID=82158f60bd73913bca9322cbd1a40b7a
+INFO:root:Processing entry 3: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 144
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_144/
+INFO:root:🔹 Description: Bendito seja o Senhor, a minha Rocha,
+que treina as minhas mãos para a guerra
+e os meus dedos para a batalha. 
+Ele é o meu aliado fiel, a minha fortaleza,
+a minha torre de proteção
+e o meu libertador;
+é o meu escudo, aquele em quem me refugio.
+Ele subjuga a mim os povos. 
+Senhor, que é o homem
+para que te importes com ele,
+ou o filho do homem
+para que por ele te interesses? 
+O homem é como um sopro;
+seus dias são como sombra passageira. 
+Estende, Senhor, os teus céus e desce;
+toca os montes para que fumeguem. 
+Envia relâmpagos e dispersa os inimigos;
+atira as tuas flechas e faze-os debandar. 
+Das alturas, estende a tua mão e liberta-me;
+salva-me da imensidão das águas,
+das mãos desses estrangeiros, 
+que têm lábios mentirosos
+e que, com a mão direita erguida,
+juram falsamente. 
+Cantarei uma nova canção a ti, ó Deus;
+tocarei para ti a lira de dez cordas, 
+para aquele que dá vitória aos reis,
+que livra o seu servo Davi
+da espada mortal. 
+Dá-me libertação;
+salva-me das mãos dos estrangeiros,
+que têm lábios mentirosos
+e que, com a mão direita erguida,
+juram falsamente. 
+Então, na juventude,
+os nossos filhos serão como plantas viçosas;
+as nossas filhas, como colunas
+esculpidas para ornar um palácio. 
+Os nossos celeiros estarão cheios
+das mais variadas provisões.
+Os nossos rebanhos se multiplicarão
+aos milhares,
+às dezenas de milhares em nossos campos; 
+o nosso gado dará suas crias;
+não haverá praga alguma nem aborto.
+Não haverá gritos de aflição em nossas ruas. 
+Como é feliz o povo assim abençoado!
+Como é feliz o povo cujo Deus é o Senhor! 
+ Salmo 144
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 67
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_67/
 INFO:root:🔹 Description: Que Deus tenha misericórdia de nós
@@ -124,99 +177,89 @@ Pois o Senhor é justo e ama a justiça;
 os retos verão a sua face. 
  Salmo 11
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 81
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_81/
-INFO:root:🔹 Description: Cantem de alegria a Deus, nossa força;
-aclamem o Deus de Jacó! 
-Comecem o louvor, façam ressoar o tamborim,
-toquem a lira e a harpa melodiosa. 
-Toquem a trombeta na lua nova
-e no dia de lua cheia, dia da nossa festa; 
-porque este é um decreto para Israel,
-uma ordenança do Deus de Jacó, 
-que ele estabeleceu como estatuto para José,
-quando atacou o Egito.
-Ali ouvimos uma língua que não conhecíamos. 
-Ele diz: "Tirei o peso dos seus ombros;
-suas mãos ficaram livres dos cestos de cargas. 
-Na sua aflição vocês clamaram e eu os livrei,
-do esconderijo dos trovões lhes respondi;
-eu os pus à prova nas águas de Meribá. 
-"Ouça, meu povo, as minhas advertências;
-se tão somente você me escutasse, ó Israel! 
-Não tenha deus estrangeiro no seu meio;
-não se incline perante nenhum deus estranho. 
-Eu sou o Senhor, o seu Deus,
-que o tirei da terra do Egito.
-Abra a sua boca, e eu o alimentarei. 
-"Mas o meu povo não quis ouvir-me;
-Israel não quis obedecer-me. 
-Por isso os entreguei
-ao seu coração obstinado,
-para seguirem os seus próprios planos. 
-"Se o meu povo apenas me ouvisse,
-se Israel seguisse os meus caminhos, 
-com rapidez eu subjugaria os seus inimigos
-e voltaria a minha mão
-contra os seus adversários! 
-Os que odeiam o Senhor
-se renderiam diante dele
-e receberiam um castigo perpétuo. 
-Mas eu sustentaria Israel
-com o melhor trigo,
-e com o mel da rocha eu o satisfaria". 
- Salmo 81
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245764 characters
-INFO:root:HTML parsed, length: 235463 characters
-INFO:root:Found 3 titles: ['Buscando ser mais como Cristo', 'Sem medo do futuro', 'Ensina-me a fazer a tua vontade, Senhor']
+INFO:root:Response length: 245641 characters
+INFO:root:HTML parsed, length: 235341 characters
+INFO:root:Found 3 titles: ['A misericórdia de Deus enche a terra', 'Buscando ser mais como Cristo', 'Sem medo do futuro']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Se o nosso desejo como cristãos é impactar positiv', 'Reveste-se de força e dignidade;\nsorri diante do f', 'Ensina-me a fazer a tua vontade,\npois tu és o meu ']
-INFO:root:Found 1 dates: ['Quinta, 24 de julho de 2025']
+INFO:root:Found 3 descriptions: ['Ele ama a justiça e a retidão;\na terra está cheia ', 'Se o nosso desejo como cristãos é impactar positiv', 'Reveste-se de força e dignidade;\nsorri diante do f']
+INFO:root:Found 1 dates: ['Sexta, 25 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Buscando ser mais como Cristo', ID=6a35ef9bfa13d845c81e1a968936cc59
+INFO:root:Processing entry 1: Title='A misericórdia de Deus enche a terra', ID=a801b8c8690b3debed0faec4b00fed7d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Buscando ser mais como Cristo - Palavra de Hoje
+INFO:root:🔹 Title: A misericórdia de Deus enche a terra - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Se o nosso desejo como cristãos é impactar positivamente este mundo e fazer uma diferença real, devemos nos esforçar para ser mais como Jesus a cada dia. O mundo nos convoca a lutar pelas melhores posições, a sermos cruelmente competitivos e a pensar que os fins justificam os meios. Mas alcançaremos o verdadeiro impacto espalhando o amor e a presença de Jesus.
-Deus nos chama a sermos humildes, a amar e a valorizar os outros, buscando o bem daqueles ao nosso redor e a imitar Jesus em tudo o que fazemos. Ao sermos mais como Cristo, deixaremos uma marca de amor e bênção no coração de todos que nos conhecem. Que legado maior poderíamos desejar?
+INFO:root:🔹 Description: Ele ama a justiça e a retidão;
+a terra está cheia da bondade do Senhor.
+- Salmo 33:5
 
-Nada façam por ambição egoísta ou por vaidade, mas humildemente considerem os outros superiores a vocês mesmos. Cada um cuide, não somente dos seus interesses, mas também dos interesses dos outros. Seja a atitude de vocês a mesma de Cristo Jesus, que, embora sendo Deus, não considerou que o ser igual a Deus era algo a que devia apegar-se;
-- Filipenses 2:3-6
+É incrível pensar que, em meio a tanta dor e injustiça, Deus continua a ter misericórdia da humanidade, dando a todos a oportunidade de se arrependerem e se tornarem seus filhos. Nada se compara ao amor de Deus e ao seu profundo desejo de que todos sejam salvos.
+Pela misericórdia do Senhor, estamos aqui hoje, cada um dos milhões de habitantes do planeta Terra. Deus nos conhece individualmente; Ele criou cada pessoa com um propósito e anseia por nos acolher em seu Reino. Sim, Deus vê todo o mal neste mundo. Sim, Ele é o Deus da justiça que dará a cada pessoa o que ela merece.
+Mas mesmo hoje, a misericórdia de Deus enche a Terra, e seu braço amoroso permanece estendido com o desejo de salvar e redimir. Ainda há oportunidade para arrependimento, perdão e para começar a caminhar com o Senhor. Como filhos de Deus, não devemos perder a esperança. Somos chamados a orar por aqueles que nos rodeiam e ser uma ponte entre nossos semelhantes e a misericórdia de Deus.
 
-Em vez de buscar a excelência, a vitória, a conquista e a demonstração de que somos melhores, devemos nos concentrar em imitar Jesus e viver como Ele. Se cada uma de nossas ações for inspirada pelo amor, pela justiça e pelo desejo de abençoar, Cristo brilhará através de nós.
-Se, em vez de nos apegarmos aos nossos direitos de viver melhor e ter mais, buscarmos maneiras de servir e amar o próximo, cuidando verdadeiramente dele, assim como Jesus fez, Seu amor fluirá por nossas vidas e Seu evangelho se espalhará. Não há missão mais preciosa do que alcançar outros com as boas novas da salvação.
-Escolha hoje ser mais como Cristo e viva para Ele. Sua parte do mundo receberá grandes bênçãos!
+Graças ao grande amor do Senhor
+é que não somos consumidos,
+pois as suas misericórdias são inesgotáveis.
+Renovam-se cada manhã;
+grande é a sua fidelidade!
+- Lamentações 3:22-23
 
-Busque ser como Jesus, conheça seus principais ensinamentos.
+Louvemos a Deus pela misericórdia que nos concedeu e vivamos vidas que impactem e atraiam outros para o seu Reino. Não permitamos que o mal continue escravizando vidas. Demonstremos o amor misericordioso de Deus com nossas palavras e ações.
+Veja também: Reflexão sobre o amor de Deus (Estudo Bíblico)
  
-Nada façam por ambição egoísta ou por vaidade, mas humildemente considerem os outros superiores a vocês mesmos. Cada um cuide, não somente dos seus interesses, mas também dos interesses dos outros. Seja a atitude de vocês a mesma de Cristo Jesus, que, embora sendo Deus, não considerou que o ser igual a Deus era algo a que devia apegar-se;
-- Filipenses 2:3-6
+Ele ama a justiça e a retidão;
+a terra está cheia da bondade do Senhor.
+- Salmo 33:5
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255647 characters
-INFO:root:HTML parsed, length: 245104 characters
-INFO:root:Found 3 titles: ['O perfeito amor de Deus', 'Guardado ileso na batalha', 'Deus pode conduzir seus sonhos']
-INFO:root:Found 3 URLs: ['/provas_do_amor_de_deus/', '/salmo_27_protecao_de_deus/', '/razoes_para_confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['No amor não há medo; ao contrário o perfeito amor ', 'Ele me guarda ileso na batalha, sendo muitos os qu', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e']
-INFO:root:Found 3 dates: ['JULHO\n\n24\nQUINTA', 'JULHO\n\n23\nQUARTA', 'JULHO\n\n22\nTERÇA']
+INFO:root:Response length: 255513 characters
+INFO:root:HTML parsed, length: 244970 characters
+INFO:root:Found 3 titles: ['Dedicando o dia a Deus', 'O perfeito amor de Deus', 'Guardado ileso na batalha']
+INFO:root:Found 3 URLs: ['/como_mostrar_sua_gratidao_a_deus/', '/provas_do_amor_de_deus/', '/salmo_27_protecao_de_deus/']
+INFO:root:Found 3 descriptions: ['Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'No amor não há medo; ao contrário o perfeito amor ', 'Ele me guarda ileso na batalha, sendo muitos os qu']
+INFO:root:Found 3 dates: ['JULHO\n\n25\nSEXTA', 'JULHO\n\n24\nQUINTA', 'JULHO\n\n23\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O perfeito amor de Deus', ID=581bba3ea5066565099d3f650df13048
-INFO:root:Processing entry 2: Title='Guardado ileso na batalha', ID=a1523d8905fac98af737111c0a560bb9
-INFO:root:Processing entry 3: Title='Deus pode conduzir seus sonhos', ID=06a2d06bca53aac9185e7ab132a3bc8f
+INFO:root:Processing entry 1: Title='Dedicando o dia a Deus', ID=d6f66a41325c7c63830a7d365f7a2ebd
+INFO:root:Processing entry 2: Title='O perfeito amor de Deus', ID=581bba3ea5066565099d3f650df13048
+INFO:root:Processing entry 3: Title='Guardado ileso na batalha', ID=a1523d8905fac98af737111c0a560bb9
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Dedicando o dia a Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/como_mostrar_sua_gratidao_a_deus/
+INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
+confie nele, e ele agirá:
+- Salmo 37:5
+
+Ao despertar para um novo dia, que sua primeira atitude seja olhar para o alto e dedicar cada instante ao Senhor. Entregar o dia a Deus é mais do que um gesto de fé, é reconhecer que sem Ele nada podemos fazer. É declarar que cada passo, pensamento e decisão será guiado pela Sua sabedoria e cuidado.
+Muitas vezes, nos levantamos já apressados, envolvidos por compromissos e preocupações. Mas quando paramos, mesmo que por um breve momento, para orar e consagrar o nosso dia, algo muda dentro de nós. A paz de Deus começa a preencher o coração, e a certeza de que Ele está no controle nos fortalece.
+Dedicar o dia a Deus é viver com propósito. É buscar refletir o amor de Cristo em nossas palavras, atitudes e relacionamentos. É pedir direção diante dos desafios, agradecer pelas pequenas conquistas e confiar, mesmo quando as coisas parecem fugir do nosso controle.
+Que neste dia você se lembre: Deus vai à sua frente, preparando o caminho. Ele caminha ao seu lado, sustentando suas forças. E Ele está acima de tudo, governando soberanamente sobre sua vida. Nada passa despercebido aos olhos do Pai.
+Comece hoje com oração, continue com fé e termine com gratidão. Porque quando colocamos Deus em primeiro lugar, tudo encontra o seu lugar. E mesmo que nem tudo saia como planejamos, teremos a certeza de que o Senhor está trabalhando em nosso favor.
+Entregue seu dia a Deus
+
+
+Ore ao acordar: Separe os primeiros minutos do dia para orar. Agradeça, peça direção e consagre suas tarefas ao Senhor, reconhecendo que Ele está no controle de tudo.
+
+Inclua Deus nas decisões: Antes de agir ou decidir, peça sabedoria a Deus. Isso evita impulsos e fortalece a confiança de que Ele está guiando cada passo de acordo com Sua vontade.
+
+Espalhe o amor de Cristo: Durante o dia, demonstre gentileza, paciência e compaixão. Suas atitudes podem ser reflexo da presença de Deus e abençoar outras vidas ao seu redor.
+
+Para orar:
+
+Senhor, neste novo dia, coloco minha vida em Tuas mãos. Guia meus passos, dirige minhas decisões e enche meu coração com Tua paz. Que eu reflita Teu amor em tudo o que fizer. Fortalece-me nos desafios e alegra-me nas conquistas. Que Teu nome seja glorificado em cada momento. Amém.
+
+Veja também: 8 formas de mostrar sua gratidão a Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O perfeito amor de Deus
 INFO:root:🔹 URL: https://www.bibliaon.com/provas_do_amor_de_deus/
 INFO:root:🔹 Description: No amor não há medo; ao contrário o perfeito amor expulsa o medo, porque o medo supõe castigo. Aquele que tem medo não está aperfeiçoado no amor.
@@ -268,36 +311,10 @@ Senhor, em meio às batalhas que enfrento, clamo pelo Teu socorro! Guarda-me com
 
 Veja também: Salmo 27 - estudo bíblico sobre a proteção e livramento de Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Deus pode conduzir seus sonhos
-INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
-INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
-confie nele, e ele agirá:
-- Salmo 37:5
-
-Sonhar é um dom dado por Deus. Desde cedo, Ele planta em nosso coração desejos e visões que muitas vezes parecem grandes demais para nossa capacidade. No entanto, quando confiamos nossos sonhos ao Senhor, Ele se encarrega de conduzi-los ao lugar certo, no tempo certo.
-Deus não é contra os sonhos. Pelo contrário, Ele é o maior incentivador dos nossos propósitos, desde que estejam alinhados com a Sua vontade. Quando José sonhou que governaria, parecia impossível para um jovem pastor de ovelhas. Mas Deus conduziu cada etapa: o poço, a prisão, e finalmente o palácio. Tudo fazia parte do plano divino.
-Confiar em Deus é mais do que esperar que Ele realize nossos desejos; é permitir que Ele transforme nossos sonhos segundo o Seu propósito. Às vezes, Ele muda os planos, adia respostas ou nos direciona por caminhos inesperados. Mesmo assim, podemos descansar, pois Ele é fiel para cumprir tudo o que prometeu.
-Seus sonhos não são pequenos demais para Deus, nem grandes demais para Ele realizar. O que você precisa é entregar, confiar e caminhar em obediência. Deus abre portas que ninguém pode fechar, levanta pessoas para ajudar e prepara oportunidades que vão além da nossa imaginação.
-Não desista. Continue sonhando, orando e esperando. Deus pode e quer conduzir seus sonhos. Quando Ele guia, o resultado sempre é maior e mais perfeito do que aquilo que imaginamos. O Criador do universo também é o autor da sua história.
-Confie, descanse e deixe Deus conduzir os seus sonhos
-
-
-Confie no tempo de Deus: Mesmo quando tudo parecer parado ou fora do plano, lembre-se: Deus trabalha nos bastidores. Confie que cada passo, inclusive os difíceis, fazem parte do cumprimento dos Seus propósitos eternos.
-
-Descanse na fidelidade do Senhor: Deus não abandona aqueles que Nele esperam. Descanse no caráter imutável do Pai, sabendo que Ele é fiel para cumprir promessas, mesmo quando as circunstâncias dizem o contrário.
-
-Entregue e obedeça com fé: A entrega verdadeira envolve ação e obediência. Ao colocar seus sonhos nas mãos de Deus, esteja disposto a seguir as direções que Ele der, mesmo que não façam sentido no momento.
-
-Para orar:
-
-Senhor, entrego meus sonhos em Tuas mãos. Conduze cada passo, mesmo quando não entendo o caminho. Confio em Teu tempo e descanso na Tua fidelidade. Que Tua vontade se cumpra em minha vida. Amém.
-
-Veja também: Razões para confiar em Deus
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 221530 characters
-INFO:root:HTML parsed, length: 220083 characters
+INFO:root:Response length: 221524 characters
+INFO:root:HTML parsed, length: 220077 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 22 URLs: ['/wiki/Lisa_Su', '/wiki/Lisa_Su', '/wiki/Engenharia_el%C3%A9trica']
 INFO:root:Found 1 descriptions: ['Lisa Tzwu-Fang Su é uma executiva de negócios e en']
@@ -325,8 +342,8 @@ Artigos bons: 1917
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 221530 characters
-INFO:root:HTML parsed, length: 220083 characters
+INFO:root:Response length: 221524 characters
+INFO:root:HTML parsed, length: 220077 characters
 INFO:root:Found 1 titles: ['24 de julho na história']
 INFO:root:Found 50 URLs: ['/wiki/Ficheiro:Sunset_across_Machu_Picchu.jpg', '/wiki/1911', '/wiki/Hiram_Bingham']
 INFO:root:Found 1 descriptions: ['Machu Picchu\n1911 – Hiram Bingham III redescobre M']
@@ -354,8 +371,8 @@ Ver mais • Outros dias: 22 • 23 • 24 • 25 • 26 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 221530 characters
-INFO:root:HTML parsed, length: 220083 characters
+INFO:root:Response length: 221524 characters
+INFO:root:HTML parsed, length: 220077 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Ganymede_-_Perijove_34_Composite.jpg']
 INFO:root:Found 1 descriptions: ['Imagem composta de Ganimedes, a maior lua de Júpit']
@@ -393,30 +410,24 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  24 ++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  28 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 ++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  27 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  14 +-
+ feeds/palavra_do_dia/atom.xml             |  10 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  43 +++--
+ feeds/salmo_do_dia/atom.xml               |  93 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   6 +-
- feeds/wikidestaque/feed.json              |   4 +-
- feeds/wikidia/atom.xml                    |  14 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 296 +++++++++++++++---------------
- 17 files changed, 266 insertions(+), 241 deletions(-)
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 328 +++++++++++++++---------------
+ 14 files changed, 297 insertions(+), 284 deletions(-)
