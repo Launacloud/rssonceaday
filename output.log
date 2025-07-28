@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119533 characters
-INFO:root:HTML parsed, length: 112877 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (27/07/2025)', 'Palavra de Ontem (26/07/2025)', 'Palavra de Anteontem (25/07/2025)']
-INFO:root:Found 3 URLs: ['/cabra/', '/pressagio/', '/frontao/']
-INFO:root:Found 12 descriptions: ['substantivo feminino Animal mamífero do gênero Cap', 'Sinônimos:\n\ncabrito', 'Classe gramatical:substantivo de dois gêneros']
-INFO:root:Found 3 dates: ['Palavra de Hoje (27/07/2025)', 'Palavra de Ontem (26/07/2025)', 'Palavra de Anteontem (25/07/2025)']
+INFO:root:Response length: 119955 characters
+INFO:root:HTML parsed, length: 112932 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (28/07/2025)', 'Palavra de Ontem (27/07/2025)', 'Palavra de Anteontem (26/07/2025)']
+INFO:root:Found 3 URLs: ['/verossimilhanca/', '/cabra/', '/pressagio/']
+INFO:root:Found 14 descriptions: ['substantivo feminino Característica do que é veros', 'Sinônimos:\n\nprobabilidade, verossimilhante', 'Antônimos:\n\ninverossimilhança']
+INFO:root:Found 3 dates: ['Palavra de Hoje (28/07/2025)', 'Palavra de Ontem (27/07/2025)', 'Palavra de Anteontem (26/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (27/07/2025)', ID=8482b192d84b02fabfc8884505017626
-INFO:root:Processing entry 2: Title='Palavra de Ontem (26/07/2025)', ID=1d840d0051d1dbed13568daf72755b51
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/07/2025)', ID=5e400138f0dfab4c1dfd1aa98fb28350
+INFO:root:Processing entry 1: Title='Palavra de Hoje (28/07/2025)', ID=8645e630c012969b0140431016ff455b
+INFO:root:Processing entry 2: Title='Palavra de Ontem (27/07/2025)', ID=800ccd375363f404932bd7f1723dfd88
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (26/07/2025)', ID=8d8b3dfbed899a009215d78652c8d035
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (27/07/2025) - Significado completo de cabra:
-INFO:root:🔹 URL: https://www.dicio.com.br/cabra/
-INFO:root:🔹 Description: substantivo feminino Animal mamífero do gênero Capra, da família dos bovídeos, com chifres ocos, arqueados para trás, que compreende várias espécies; fêmea do bode.[Figurado] Pessoa dissoluta, de mau gênio ou de temperamento difícil.Pequeno guindaste ou máquina para levantar grandes pesos.Sexto grupo (número 6) que, no jogo do bicho, abrange as dezenas 21, 22, 23 e 24.[Zoologia] Inseto semelhante à aranha e que anda à tona da água.substantivo masculino Indivíduo que deriva da mistura de um indígena e um branco.[Popular] Qualquer pessoa; cara, mano.[Popular] Aquele que trabalha a mando de outra pessoa; capanga.[Pejorativo] Quem trabalha na roça; trabalhador rural.Etimologia (origem da palavra cabra). Do latim capram.
+INFO:root:🔹 Title: Palavra de Hoje (28/07/2025) - Significado completo de verossimilhança:
+INFO:root:🔹 URL: https://www.dicio.com.br/verossimilhanca/
+INFO:root:🔹 Description: substantivo feminino Característica do que é verossímil, que que aparenta ser ou é tido como verdadeiro; verossimilhante.Qualidade do que parece verdadeiro, do que não contraria a verdade: havia verossimilhança na alegação do réu.[Literatura] Numa obra literária, a coerência, a ligação harmônica entre os elementos fantasiosos ou imaginários que são essenciais para o entendimento do texto.Etimologia (origem da palavra verossimilhança). Verossímil/h/ + ança.
  
 Sinônimos:
 
-cabrito 
+probabilidade, verossimilhante 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (26/07/2025) - Significado completo de presságio:
-INFO:root:🔹 URL: https://www.dicio.com.br/pressagio/
+INFO:root:🔹 Title: Palavra de Ontem (27/07/2025) - Significado completo de cabra:
+INFO:root:🔹 URL: https://www.dicio.com.br/cabra/
 INFO:root:🔹 Description: Sinônimos:
 
-cabrito
- Classe gramatical:substantivo de dois gêneros
+probabilidade, verossimilhante
+ 
+Antônimos:
+
+inverossimilhança 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (25/07/2025) - Significado completo de frontão:
-INFO:root:🔹 URL: https://www.dicio.com.br/frontao/
-INFO:root:🔹 Description: Classe gramatical:substantivo de dois gêneros
- Sílabas:ca-bra
+INFO:root:🔹 Title: Palavra de Anteontem (26/07/2025) - Significado completo de presságio:
+INFO:root:🔹 URL: https://www.dicio.com.br/pressagio/
+INFO:root:🔹 Description: Antônimos:
+
+inverossimilhança
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +48,96 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243684 characters
-INFO:root:HTML parsed, length: 232985 characters
-INFO:root:Found 1 titles: ['1 Coríntios 13:4-7']
-INFO:root:Found 1 URLs: ['/versiculo/1_corintios_13_4-7/']
-INFO:root:Found 1 descriptions: ['O amor é paciente, o amor é bondoso. Não inveja, n']
+INFO:root:Response length: 243673 characters
+INFO:root:HTML parsed, length: 232974 characters
+INFO:root:Found 1 titles: ['Provérbios 14:30']
+INFO:root:Found 1 URLs: ['/versiculo/proverbios_14_30/']
+INFO:root:Found 1 descriptions: ['O coração em paz dá vida ao corpo,\nmas a inveja ap']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Coríntios 13:4-7', ID=fa7f708928c0d8867112c4407cbd408d
+INFO:root:Processing entry 1: Title='Provérbios 14:30', ID=eb81d16a027c4807f20de843063ee90f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Coríntios 13:4-7
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_corintios_13_4-7/
-INFO:root:🔹 Description: O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha. Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor. O amor não se alegra com a injustiça, mas se alegra com a verdade. Tudo sofre, tudo crê, tudo espera, tudo suporta. 1 Coríntios 13:4-7
+INFO:root:🔹 Title: Provérbios 14:30
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_14_30/
+INFO:root:🔹 Description: O coração em paz dá vida ao corpo,
+mas a inveja apodrece os ossos. Provérbios 14:30
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 242445 characters
-INFO:root:HTML parsed, length: 232453 characters
-INFO:root:Found 3 titles: ['Salmo 134', 'Salmo 13', 'Salmo 144']
-INFO:root:Found 3 URLs: ['/salmos_134/', '/salmos_13/', '/salmos_144/']
-INFO:root:Found 3 descriptions: ['Venham! Bendigam o Senhor\ntodos vocês, servos do S', 'Até quando, Senhor?\nPara sempre te esquecerás de m', 'Bendito seja o Senhor, a minha Rocha,\nque treina a']
-INFO:root:Found 3 dates: ['27 de Julho de 2025', '26 de Julho de 2025', '25 de Julho de 2025']
+INFO:root:Response length: 242592 characters
+INFO:root:HTML parsed, length: 232596 characters
+INFO:root:Found 3 titles: ['Salmo 33', 'Salmo 134', 'Salmo 13']
+INFO:root:Found 3 URLs: ['/salmos_33/', '/salmos_134/', '/salmos_13/']
+INFO:root:Found 3 descriptions: ['Cantem de alegria ao Senhor,\nvocês que são justos;', 'Venham! Bendigam o Senhor\ntodos vocês, servos do S', 'Até quando, Senhor?\nPara sempre te esquecerás de m']
+INFO:root:Found 3 dates: ['28 de Julho de 2025', '27 de Julho de 2025', '26 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 134', ID=24f356853788225a16d0b291b2612761
-INFO:root:Processing entry 2: Title=' Salmo 13', ID=929ac7e9fc48e8e2f594f5526caa6071
-INFO:root:Processing entry 3: Title=' Salmo 144', ID=49ac889de8bc5a68b31e914f265de5df
+INFO:root:Processing entry 1: Title=' Salmo 33', ID=b5fdbe77bb9ade637a5290d93190889c
+INFO:root:Processing entry 2: Title=' Salmo 134', ID=24f356853788225a16d0b291b2612761
+INFO:root:Processing entry 3: Title=' Salmo 13', ID=929ac7e9fc48e8e2f594f5526caa6071
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 33
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_33/
+INFO:root:🔹 Description: Cantem de alegria ao Senhor,
+vocês que são justos;
+aos que são retos fica bem louvá-lo. 
+Louvem o Senhor com harpa;
+ofereçam-lhe música com lira de dez cordas. 
+Cantem-lhe uma nova canção;
+toquem com habilidade ao aclamá-lo. 
+Pois a palavra do Senhor é verdadeira;
+ele é fiel em tudo o que faz. 
+Ele ama a justiça e a retidão;
+a terra está cheia da bondade do Senhor. 
+Mediante a palavra do Senhor
+foram feitos os céus,
+e os corpos celestes, pelo sopro de sua boca. 
+Ele ajunta as águas do mar num só lugar;
+das profundezas faz reservatórios. 
+Toda a terra tema o Senhor;
+tremam diante dele
+todos os habitantes do mundo. 
+Pois ele falou, e tudo se fez;
+ele ordenou, e tudo surgiu. 
+O Senhor desfaz os planos das nações
+e frustra os propósitos dos povos. 
+Mas os planos do Senhor
+permanecem para sempre,
+os propósitos do seu coração,
+por todas as gerações. 
+Como é feliz a nação
+que tem o Senhor como Deus,
+o povo que ele escolheu para lhe pertencer! 
+Dos céus olha o Senhor
+e vê toda a humanidade; 
+do seu trono ele observa
+todos os habitantes da terra; 
+ele, que forma o coração de todos,
+que conhece tudo o que fazem. 
+Nenhum rei se salva
+pelo tamanho do seu exército;
+nenhum guerreiro escapa por sua grande força. 
+O cavalo é vã esperança de vitória;
+apesar da sua grande força, é incapaz de salvar. 
+Mas o Senhor protege aqueles que o temem,
+aqueles que firmam a esperança no seu amor, 
+para livrá-los da morte e garantir-lhes vida,
+mesmo em tempos de fome. 
+Nossa esperança está no Senhor;
+ele é o nosso auxílio e a nossa proteção. 
+Nele se alegra o nosso coração,
+pois confiamos no seu santo nome. 
+Esteja sobre nós o teu amor, Senhor,
+como está em ti a nossa esperança. 
+ Salmo 33
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 134
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_134/
 INFO:root:🔹 Description: Venham! Bendigam o Senhor
@@ -107,110 +169,87 @@ Quero cantar ao Senhor
 pelo bem que me tem feito. 
  Salmo 13
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 144
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_144/
-INFO:root:🔹 Description: Bendito seja o Senhor, a minha Rocha,
-que treina as minhas mãos para a guerra
-e os meus dedos para a batalha. 
-Ele é o meu aliado fiel, a minha fortaleza,
-a minha torre de proteção
-e o meu libertador;
-é o meu escudo, aquele em quem me refugio.
-Ele subjuga a mim os povos. 
-Senhor, que é o homem
-para que te importes com ele,
-ou o filho do homem
-para que por ele te interesses? 
-O homem é como um sopro;
-seus dias são como sombra passageira. 
-Estende, Senhor, os teus céus e desce;
-toca os montes para que fumeguem. 
-Envia relâmpagos e dispersa os inimigos;
-atira as tuas flechas e faze-os debandar. 
-Das alturas, estende a tua mão e liberta-me;
-salva-me da imensidão das águas,
-das mãos desses estrangeiros, 
-que têm lábios mentirosos
-e que, com a mão direita erguida,
-juram falsamente. 
-Cantarei uma nova canção a ti, ó Deus;
-tocarei para ti a lira de dez cordas, 
-para aquele que dá vitória aos reis,
-que livra o seu servo Davi
-da espada mortal. 
-Dá-me libertação;
-salva-me das mãos dos estrangeiros,
-que têm lábios mentirosos
-e que, com a mão direita erguida,
-juram falsamente. 
-Então, na juventude,
-os nossos filhos serão como plantas viçosas;
-as nossas filhas, como colunas
-esculpidas para ornar um palácio. 
-Os nossos celeiros estarão cheios
-das mais variadas provisões.
-Os nossos rebanhos se multiplicarão
-aos milhares,
-às dezenas de milhares em nossos campos; 
-o nosso gado dará suas crias;
-não haverá praga alguma nem aborto.
-Não haverá gritos de aflição em nossas ruas. 
-Como é feliz o povo assim abençoado!
-Como é feliz o povo cujo Deus é o Senhor! 
- Salmo 144
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 245458 characters
-INFO:root:HTML parsed, length: 235152 characters
-INFO:root:Found 3 titles: ['Entregue o seu caminho ao Senhor', 'Alcançando um coração sábio', 'A misericórdia de Deus enche a terra']
+INFO:root:Response length: 245301 characters
+INFO:root:HTML parsed, length: 234989 characters
+INFO:root:Found 3 titles: ['Você está pronto para a volta de Jesus?', 'Entregue o seu caminho ao Senhor', 'Alcançando um coração sábio']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'Ensina-nos a contar os nossos dias para que o noss', 'Ele ama a justiça e a retidão;\na terra está cheia ']
-INFO:root:Found 1 dates: ['Domingo, 27 de julho de 2025']
+INFO:root:Found 3 descriptions: ['Porque assim como o relâmpago sai do Oriente e se ', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'Ensina-nos a contar os nossos dias para que o noss']
+INFO:root:Found 1 dates: ['Segunda, 28 de julho de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Entregue o seu caminho ao Senhor', ID=dedb34c231030b83041aa755d5385e00
+INFO:root:Processing entry 1: Title='Você está pronto para a volta de Jesus?', ID=d0392862a20da8e422d81773d6d035c5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Entregue o seu caminho ao Senhor - Palavra de Hoje
+INFO:root:🔹 Title: Você está pronto para a volta de Jesus? - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
-confie nele, e ele agirá
-- Salmos 37:5
+INFO:root:🔹 Description: Porque assim como o relâmpago sai do Oriente e se mostra no Ocidente, assim será a vinda do Filho do homem.
+- Mateus 24:27 
 
-Há momentos na vida em que o futuro parece incerto. Os nossos planos, por mais bem elaborados que sejam, podem desmoronar. Nessa hora, Deus nos convida a um gesto de fé: "Entregue o seu caminho ao Senhor." Entregar não é simplesmente falar a Deus o que desejamos, é confiar que Ele sabe o que é melhor, mesmo quando não entendemos o processo.
-Entregar o caminho ao Senhor é reconhecer que Ele é soberano, que vê além do que enxergamos e que conduz todas as coisas para o bem daqueles que O amam. Muitas vezes queremos controlar o tempo, os resultados, as pessoas. Mas é Deus que tem o controle de todas as coisas.
-Confiar é o próximo passo. A entrega verdadeira é acompanhada de confiança. É dizer: “Senhor, aqui estão os meus planos, meus sonhos, meus medos. Que seja feita a Tua vontade.” E quando confiamos, podemos esperar com esperança, sabendo que Ele agirá. Não no nosso tempo, mas no tempo perfeito dEle. Não da nossa maneira, mas de uma forma que trará glória ao Seu nome e crescimento ao nosso coração.
-Talvez hoje você esteja diante de uma decisão difícil, ou sentindo-se cansado por lutar com suas próprias forças. Lembre-se: Deus cuida dos que O buscam. Entregue. Confie. Espere. O Senhor é fiel para agir com graça, sabedoria e amor.
-Ele não falha. Seus caminhos são mais altos que os nossos. E quando entregamos a Ele a direção da nossa vida, descobrimos que o melhor lugar para estar é no centro da Sua vontade.
-Veja também: Razões para confiar em Deus em meio às lutas
+Jesus prometeu que um dia retornará para procurar aqueles que o amam. A cada dia nos aproximamos desse dia, mas ninguém sabe quando será, seu retorno pegará todos de surpresa.
+Jesus pode voltar a qualquer momento! Portanto, precisamos estar preparados em todos os momentos. Mas como fazemos isso? Dedicar nossas vidas a Jesus e viver todos os dias com ele. Aqueles que amam Jesus não serão pegos de surpresa naquele dia. Eles estarão preparados para se reunirem com seu amado Senhor e Salvador. 
+
+"Portanto, vigiem, porque vocês não sabem em que dia virá o seu Senhor.
+Mas entendam isto: se o dono da casa soubesse a que hora da noite o ladrão viria, ele ficaria de guarda e não deixaria que a sua casa fosse arrombada.
+Assim, vocês também precisam estar preparados, porque o Filho do homem virá numa hora em que vocês menos esperam.
+- Mateus 24:42-44 
+
+Permaneça firme no Senhor. Fale com ele, leia sua Palavra, receba seu amor todos os dias, viva dentro de sua vontade. Conte com Deus para tomar suas decisões, não o separe do seu dia a dia. Prepare-se agora para a eternidade com Jesus e comece a desfrutar da sua presença e do seu amor. O melhor ainda está por vir, não duvide.
+Você está pronto para a volta de Jesus? Veja: Versículos que falam dos sinais da volta de Jesus
  
-Entregue o seu caminho ao Senhor;
-confie nele, e ele agirá
-- Salmos 37:5
+Porque assim como o relâmpago sai do Oriente e se mostra no Ocidente, assim será a vinda do Filho do homem.
+- Mateus 24:27 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255635 characters
-INFO:root:HTML parsed, length: 245091 characters
-INFO:root:Found 3 titles: ['Ele cura todas as suas doenças', 'O dom da generosidade', 'Dedicando o dia a Deus']
-INFO:root:Found 3 URLs: ['/medico_dos_medicos/', '/os_frutos_do_espirito/', '/como_mostrar_sua_gratidao_a_deus/']
-INFO:root:Found 3 descriptions: ['É ele que perdoa todos os seus pecados\ne cura toda', 'Em tudo o que fiz, mostrei a vocês que mediante tr', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e']
-INFO:root:Found 3 dates: ['JULHO\n\n27\nDOMINGO', 'JULHO\n\n26\nSÁBADO', 'JULHO\n\n25\nSEXTA']
+INFO:root:Response length: 255548 characters
+INFO:root:HTML parsed, length: 245000 characters
+INFO:root:Found 3 titles: ['Devocional: Com a esperança acesa na memória', 'Ele cura todas as suas doenças', 'O dom da generosidade']
+INFO:root:Found 5 URLs: ['/versiculos_de_esperanca/', '/quero_trazer_a_memoria_aquilo_que_me_da_esperanca/', '/vale_de_ossos_secos_estudo_biblico/']
+INFO:root:Found 3 descriptions: ['Todavia, lembro-me também\ndo que pode me dar esper', 'É ele que perdoa todos os seus pecados\ne cura toda', 'Em tudo o que fiz, mostrei a vocês que mediante tr']
+INFO:root:Found 3 dates: ['JULHO\n\n28\nSEGUNDA', 'JULHO\n\n27\nDOMINGO', 'JULHO\n\n26\nSÁBADO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Ele cura todas as suas doenças', ID=3ae3cc4fd135150f8ac4bac4530233a8
-INFO:root:Processing entry 2: Title='O dom da generosidade', ID=c4f65aeee64c1333cd4191352a2c948a
-INFO:root:Processing entry 3: Title='Dedicando o dia a Deus', ID=d6f66a41325c7c63830a7d365f7a2ebd
+INFO:root:Processing entry 1: Title='Devocional: Com a esperança acesa na memória', ID=01393ff5fb9e442bb9869c6fd55a3ab9
+INFO:root:Processing entry 2: Title='Ele cura todas as suas doenças', ID=3ae3cc4fd135150f8ac4bac4530233a8
+INFO:root:Processing entry 3: Title='O dom da generosidade', ID=c4f65aeee64c1333cd4191352a2c948a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Devocional: Com a esperança acesa na memória
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_de_esperanca/
+INFO:root:🔹 Description: Todavia, lembro-me também
+do que pode me dar esperança:
+- Lamentações 3:21 
+
+Esta passagem nos lembra da importância de manter a esperança mesmo em meio às adversidades. Nossa fé é constantemente desafiada pelos problemas da vida, mas a Palavra de Deus nos assegura que há esperança, independentemente das circunstâncias.
+Na caminhada da vida, enfrentamos momentos difíceis que podem nos fazer questionar o propósito e a direção de Deus. No entanto, a recordação de Sua fidelidade e amor nos traz a esperança necessária para perseverar.
+O contexto deste versículo revela as lamentações de Jeremias diante da destruição de Jerusalém. Mesmo em meio à desolação, Jeremias encontra esperança ao lembrar-se do Senhor e Sua misericórdia.
+Da mesma forma, em nossas lutas pessoais, podemos encontrar conforto ao lembrar-nos do que Deus fez por nós no passado e confiar que Ele continuará a sustentar-nos no presente e futuro. A esperança que recebemos de Deus transcende as circunstâncias e renova nossas forças para enfrentar cada desafio.
+Portanto, que possamos guardar em nossos corações a lembrança da esperança que o Senhor nos oferece, pois nela encontramos fortaleza para superar as tribulações e confiança para seguir adiante com fé.
+Mantenha a esperança acesa
+
+Lembre-se dos momentos em que Deus demonstrou fidelidade e misericórdia, alimentando a esperança diante das adversidades.
+Busque a presença de Deus em oração constante, compartilhando suas preocupações e confiando que Ele é capaz de transformar situações difíceis.
+Encoraje outros com palavras de fé e testemunhos de superação, criando uma comunidade de apoio que fortaleça a esperança mútua em Deus.
+
+Para Orar:
+
+Senhor, confiamos em Tua graça. Ilumina nossos caminhos, renova nossa esperança e fortalece nossa fé. Capacita-nos a refletir Teu amor, buscando Tua presença em oração constante. Que, ao compartilhar a esperança, possamos inspirar outros a confiar em Ti. Amém.
+
+Veja Também: 
+
+Versículos de esperança para sua vida
+Quero trazer à memória aquilo que me dá esperança
+O Vale de Ossos Secos: estudo bíblico sobre a esperança
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Ele cura todas as suas doenças
-INFO:root:🔹 URL: https://www.bibliaon.com/medico_dos_medicos/
+INFO:root:🔹 URL: https://www.bibliaon.com/quero_trazer_a_memoria_aquilo_que_me_da_esperanca/
 INFO:root:🔹 Description: É ele que perdoa todos os seus pecados
 e cura todas as suas doenças,
 - Salmos 103:3
@@ -237,7 +276,7 @@ Senhor Deus, Tu és o nosso Médico. Clamo a Ti com fé, pedindo que cures minha
 Veja também: Jesus é o Médico dos médicos
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O dom da generosidade
-INFO:root:🔹 URL: https://www.bibliaon.com/os_frutos_do_espirito/
+INFO:root:🔹 URL: https://www.bibliaon.com/vale_de_ossos_secos_estudo_biblico/
 INFO:root:🔹 Description: Em tudo o que fiz, mostrei a vocês que mediante trabalho árduo devemos ajudar os fracos, lembrando as palavras do próprio Senhor Jesus, que disse: 'Há maior felicidade em dar do que em receber' ".
 - Atos 20:35
 
@@ -262,36 +301,10 @@ Senhor, obrigado pelo Teu amor e por tudo que tens me dado. Ensina-me a ser gene
 
 Veja também: 9 frutos do Espírito que vão transformar sua vida
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Dedicando o dia a Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/como_mostrar_sua_gratidao_a_deus/
-INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
-confie nele, e ele agirá:
-- Salmo 37:5
-
-Ao despertar para um novo dia, que sua primeira atitude seja olhar para o alto e dedicar cada instante ao Senhor. Entregar o dia a Deus é mais do que um gesto de fé, é reconhecer que sem Ele nada podemos fazer. É declarar que cada passo, pensamento e decisão será guiado pela Sua sabedoria e cuidado.
-Muitas vezes, nos levantamos já apressados, envolvidos por compromissos e preocupações. Mas quando paramos, mesmo que por um breve momento, para orar e consagrar o nosso dia, algo muda dentro de nós. A paz de Deus começa a preencher o coração, e a certeza de que Ele está no controle nos fortalece.
-Dedicar o dia a Deus é viver com propósito. É buscar refletir o amor de Cristo em nossas palavras, atitudes e relacionamentos. É pedir direção diante dos desafios, agradecer pelas pequenas conquistas e confiar, mesmo quando as coisas parecem fugir do nosso controle.
-Que neste dia você se lembre: Deus vai à sua frente, preparando o caminho. Ele caminha ao seu lado, sustentando suas forças. E Ele está acima de tudo, governando soberanamente sobre sua vida. Nada passa despercebido aos olhos do Pai.
-Comece hoje com oração, continue com fé e termine com gratidão. Porque quando colocamos Deus em primeiro lugar, tudo encontra o seu lugar. E mesmo que nem tudo saia como planejamos, teremos a certeza de que o Senhor está trabalhando em nosso favor.
-Entregue seu dia a Deus
-
-
-Ore ao acordar: Separe os primeiros minutos do dia para orar. Agradeça, peça direção e consagre suas tarefas ao Senhor, reconhecendo que Ele está no controle de tudo.
-
-Inclua Deus nas decisões: Antes de agir ou decidir, peça sabedoria a Deus. Isso evita impulsos e fortalece a confiança de que Ele está guiando cada passo de acordo com Sua vontade.
-
-Espalhe o amor de Cristo: Durante o dia, demonstre gentileza, paciência e compaixão. Suas atitudes podem ser reflexo da presença de Deus e abençoar outras vidas ao seu redor.
-
-Para orar:
-
-Senhor, neste novo dia, coloco minha vida em Tuas mãos. Guia meus passos, dirige minhas decisões e enche meu coração com Tua paz. Que eu reflita Teu amor em tudo o que fizer. Fortalece-me nos desafios e alegra-me nas conquistas. Que Teu nome seja glorificado em cada momento. Amém.
-
-Veja também: 8 formas de mostrar sua gratidão a Deus
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222067 characters
-INFO:root:HTML parsed, length: 220620 characters
+INFO:root:Response length: 221964 characters
+INFO:root:HTML parsed, length: 220517 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 22 URLs: ['/wiki/Lisa_Su', '/wiki/Lisa_Su', '/wiki/Engenharia_el%C3%A9trica']
 INFO:root:Found 1 descriptions: ['Lisa Tzwu-Fang Su é uma executiva de negócios e en']
@@ -315,48 +328,48 @@ Compartilhe:
 
 
 Artigos destacados: 1503 •
-Artigos bons: 1917
+Artigos bons: 1918
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222067 characters
-INFO:root:HTML parsed, length: 220620 characters
-INFO:root:Found 1 titles: ['25 de julho na história']
-INFO:root:Found 46 URLs: ['/wiki/Ficheiro:Otelo_Saraiva_de_Carvalho_1976_b.tif', '/wiki/Dia_Nacional_da_Galiza', '/wiki/Dia_Mundial_da_Preven%C3%A7%C3%A3o_do_Afogamento']
-INFO:root:Found 1 descriptions: ['Otelo Saraiva de Carvalho\nDia Nacional da Galiza (']
+INFO:root:Response length: 221964 characters
+INFO:root:HTML parsed, length: 220517 characters
+INFO:root:Found 1 titles: ['28 de julho na história']
+INFO:root:Found 52 URLs: ['/wiki/Ficheiro:TelegramWW1.jpg', '/wiki/Dia_Mundial_de_Combate_%C3%A0_Hepatite', '/wiki/Organiza%C3%A7%C3%A3o_Mundial_da_Sa%C3%BAde']
+INFO:root:Found 1 descriptions: ['Telegrama da Áustria-Hungria ao Reino da Sérvia de']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='25 de julho na história', ID=6fa0d278f639df5ca90399bd0b961e00
+INFO:root:Processing entry 1: Title='28 de julho na história', ID=e3715d14d5d6a43aa57de2ac2ee61dff
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 25 de julho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Otelo_Saraiva_de_Carvalho_1976_b.tif
-INFO:root:🔹 Description: Otelo Saraiva de Carvalho
-Dia Nacional da Galiza (1919); Dia Mundial da Prevenção do Afogamento (2021)
+INFO:root:🔹 Title: 28 de julho na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:TelegramWW1.jpg
+INFO:root:🔹 Description: Telegrama da Áustria-Hungria ao Reino da Sérvia declarando guerra, 28 de julho de 1914
+Dia Mundial de Combate à Hepatite (OMS, 2004); Dia da Independência do Peru (1821)
 
-315 – A construção do Arco de Constantino, dedicado em comemoração à vitória do imperador romano Constantino sobre Magêncio na Batalha da Ponte Mílvia, é concluída.
-1978 – Nasce Louise Brown, o primeiro ser humano concebido através da fertilização in vitro.
-2000 – O voo Air France 4590 cai ao decolar do Aeroporto de Paris-Charles de Gaulle, matando 113 pessoas.
+1911 – Começa a Expedição Antártica Australasiática, com o navio a vapor SY Aurora partindo de Londres.
+1914 – A Áustria-Hungria declara guerra ao Reino da Sérvia (telegrama), iniciando a Primeira Guerra Mundial.
+2010 – O voo Airblue 202 cai nas colinas de Margalla, ao norte de Islamabad, matando todas as 152 pessoas a bordo, sendo o pior acidente aéreo na história do Paquistão e o primeiro envolvendo um Airbus A321.
 Nasceram neste dia…
-Giuseppe Moscati (1880–1927)  •  Elias Canetti (1905–1994)  •  Nelson Sargento (1924–2021)  •  Eduardo Souto de Moura (n. 1952)
+Ludwig Feuerbach (1804–1872)  •  Jacques Piccard (1922–2008)  •  Santiago Calatrava (n. 1951)  •  Hugo Chávez (1954–2013)
 Morreram neste dia…
-Fernando I do Sacro Império Romano-Germânico (1503–1564)  •  Samuel Taylor Coleridge (1722–1834)  •  Randy Pausch (1960–2008)  •  Otelo Saraiva de Carvalho (imagem) (1936–2021)
+Teodósio II (401–450)  •  Antonio Vivaldi (1678–1741)  •  Johann Sebastian Bach (1685–1750)  •  Ruth de Souza (1921–2019)
 
 
-Ver mais • Outros dias: 23 • 24 • 25 • 26 • 27 • Ver todos
+Ver mais • Outros dias: 26 • 27 • 28 • 29 • 30 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 222067 characters
-INFO:root:HTML parsed, length: 220620 characters
+INFO:root:Response length: 221964 characters
+INFO:root:HTML parsed, length: 220517 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Cesenatico_-_Porto_Canale_(2023).jpg']
-INFO:root:Found 1 descriptions: ['Hoje é dia de Santiago Maior, um dia de festa no c']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Crystals_growing_from_melted_sulfur.jpg']
+INFO:root:Found 1 descriptions: ['Cristalização de enxofre líquido observada ao micr']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Cesenatico_-_Porto_Canale_%282023%29.jpg/960px-Cesenatico_-_Porto_Canale_%282023%29.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Crystals_growing_from_melted_sulfur.jpg/960px-Crystals_growing_from_melted_sulfur.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -365,15 +378,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Cesenatico_-_Porto_Canale_(2023).jpg
-INFO:root:🔹 Description: Hoje é dia de Santiago Maior, um dia de festa no coração de Cesenatico, Itália, com o canal portuário de Leonardo e suas embarcações históricas características.
-(resolução original: 6 000 × 4 000)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Crystals_growing_from_melted_sulfur.jpg
+INFO:root:🔹 Description: Cristalização de enxofre líquido observada ao microscópio. Ampliação 10×.
+(resolução original: 6 016 × 4 016)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Cesenatico_-_Porto_Canale_%282023%29.jpg/960px-Cesenatico_-_Porto_Canale_%282023%29.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Crystals_growing_from_melted_sulfur.jpg/960px-Crystals_growing_from_melted_sulfur.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -389,24 +402,30 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
+ M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 +++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  23 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  51 ++--
+ feeds/devocional_de_hoje/feed.json        |  16 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  26 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  32 ++--
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 105 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 237 ++++++++++++++----------------
- 14 files changed, 197 insertions(+), 224 deletions(-)
+ feeds/wikidestaque/atom.xml               |   4 +-
+ feeds/wikidestaque/feed.json              |   2 +-
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 385 +++++++++++++++---------------
+ 17 files changed, 355 insertions(+), 341 deletions(-)
