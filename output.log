@@ -1,44 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120990 characters
-INFO:root:HTML parsed, length: 113568 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (31/07/2025)', 'Palavra de Ontem (30/07/2025)', 'Palavra de Anteontem (29/07/2025)']
-INFO:root:Found 3 URLs: ['/butim/', '/impureza/', '/casado/']
-INFO:root:Found 15 descriptions: ['substantivo masculino Conjunto dos bens que são re', 'Sinônimos:\n\npilhagem, caça, lucro, proveito', 'Sílabas:bu-tim']
-INFO:root:Found 3 dates: ['Palavra de Hoje (31/07/2025)', 'Palavra de Ontem (30/07/2025)', 'Palavra de Anteontem (29/07/2025)']
+INFO:root:Response length: 119918 characters
+INFO:root:HTML parsed, length: 112886 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (01/08/2025)', 'Palavra de Ontem (31/07/2025)', 'Palavra de Anteontem (30/07/2025)']
+INFO:root:Found 3 URLs: ['/redemunho/', '/butim/', '/impureza/']
+INFO:root:Found 13 descriptions: ['substantivo masculino Encontro de ventos ou de ond', 'Sinônimos:\n\nredemoinho, rajada, sorvedouro, vorage', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (01/08/2025)', 'Palavra de Ontem (31/07/2025)', 'Palavra de Anteontem (30/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (31/07/2025)', ID=84c671bd9ff91b9b3a4e156cb3444877
-INFO:root:Processing entry 2: Title='Palavra de Ontem (30/07/2025)', ID=b1b22f91e5df2b59b226c0bd58c697c1
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/07/2025)', ID=88f40b4d85533737f4f091a660c067c6
+INFO:root:Processing entry 1: Title='Palavra de Hoje (01/08/2025)', ID=a110dcee2b76405ac2893fd701096c0c
+INFO:root:Processing entry 2: Title='Palavra de Ontem (31/07/2025)', ID=d087e92824e85e5bea9f6f15d74f1370
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/07/2025)', ID=bdc388c0f48d9fc4261cbed68e2c8d0d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (31/07/2025) - Significado completo de butim:
-INFO:root:🔹 URL: https://www.dicio.com.br/butim/
-INFO:root:🔹 Description: substantivo masculino Conjunto dos bens que são retirados aos inimigos em razão de uma investida, ataque, conflito etc.: butim de guerra.[Por Extensão] Qualquer mercadoria ou produto conseguido por roubo.Caça ou peixe que resultam de uma caçada ou pescaria.[Popular] Aquilo que se ganha em razão de alguma coisa; lucro, proveito.Etimologia (origem da palavra butim). Do francês butin.
+INFO:root:🔹 Title: Palavra de Hoje (01/08/2025) - Significado completo de redemunho:
+INFO:root:🔹 URL: https://www.dicio.com.br/redemunho/
+INFO:root:🔹 Description: substantivo masculino Encontro de ventos ou de ondas que seguiam em direções opostas; redemoinho.Movimento breve, rápido e circular nas águas de um rio, do mar etc.Alteração da direção do vento; pé de vento, rajada.Etimologia (origem da palavra redemunho). A palavra redemunho deriva de redemoinho.
  
 Sinônimos:
 
-pilhagem, caça, lucro, proveito 
+redemoinho, rajada, sorvedouro, voragem, rodamoinho, rodomoinho 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (30/07/2025) - Significado completo de impureza:
-INFO:root:🔹 URL: https://www.dicio.com.br/impureza/
+INFO:root:🔹 Title: Palavra de Ontem (31/07/2025) - Significado completo de butim:
+INFO:root:🔹 URL: https://www.dicio.com.br/butim/
 INFO:root:🔹 Description: Sinônimos:
 
-pilhagem, caça, lucro, proveito
- Sílabas:bu-tim
+redemoinho, rajada, sorvedouro, voragem, rodamoinho, rodomoinho
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (29/07/2025) - Significado completo de casado:
-INFO:root:🔹 URL: https://www.dicio.com.br/casado/
-INFO:root:🔹 Description: Sílabas:bu-tim
- 
-Sinônimos:
-
-impudicícia, sujeira, poluição, sordidez, imoralidade, porcaria, obscenidade, contaminação 
-
+INFO:root:🔹 Title: Palavra de Anteontem (30/07/2025) - Significado completo de impureza:
+INFO:root:🔹 URL: https://www.dicio.com.br/impureza/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:re-de-mu-nho
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,40 +42,63 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243537 characters
-INFO:root:HTML parsed, length: 232837 characters
-INFO:root:Found 1 titles: ['Filemom 1:4']
-INFO:root:Found 1 URLs: ['/versiculo/filemom_1_4/']
-INFO:root:Found 1 descriptions: ['Sempre dou graças a meu Deus, lembrando-me de você']
+INFO:root:Response length: 243489 characters
+INFO:root:HTML parsed, length: 232789 characters
+INFO:root:Found 1 titles: ['Salmos 91:1-2']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_91_1-2/']
+INFO:root:Found 1 descriptions: ['Aquele que habita no abrigo do Altíssimo\ne descans']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Filemom 1:4', ID=41a27f38e1e7124cc15ed08c2c3ee0cb
+INFO:root:Processing entry 1: Title='Salmos 91:1-2', ID=cd3fe62cd5f375e6be365eaebaa90966
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Filemom 1:4
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filemom_1_4/
-INFO:root:🔹 Description: Sempre dou graças a meu Deus, lembrando-me de você nas minhas orações, Filemom 1:4
+INFO:root:🔹 Title: Salmos 91:1-2
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_91_1-2/
+INFO:root:🔹 Description: Aquele que habita no abrigo do Altíssimo
+e descansa à sombra do Todo-poderoso pode dizer ao Senhor:
+"Tu és o meu refúgio e a minha fortaleza,
+o meu Deus, em quem confio". Salmos 91:1-2
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 245237 characters
-INFO:root:HTML parsed, length: 235294 characters
-INFO:root:Found 3 titles: ['Salmo 114', 'Salmo 47', 'Salmo 68']
-INFO:root:Found 3 URLs: ['/salmos_114/', '/salmos_47/', '/salmos_68/']
-INFO:root:Found 3 descriptions: ['Quando Israel saiu do Egito\ne a casa de Jacó saiu ', 'Batam palmas, vocês, todos os povos;\naclamem a Deu', 'Que Deus se levante!\nSejam espalhados os seus inim']
-INFO:root:Found 3 dates: ['31 de Julho de 2025', '30 de Julho de 2025', '29 de Julho de 2025']
+INFO:root:Response length: 246167 characters
+INFO:root:HTML parsed, length: 236161 characters
+INFO:root:Found 3 titles: ['Salmo 15', 'Salmo 114', 'Salmo 47']
+INFO:root:Found 3 URLs: ['/salmos_15/', '/salmos_114/', '/salmos_47/']
+INFO:root:Found 3 descriptions: ['Senhor, quem habitará no teu santuário?\nQuem poder', 'Quando Israel saiu do Egito\ne a casa de Jacó saiu ', 'Batam palmas, vocês, todos os povos;\naclamem a Deu']
+INFO:root:Found 3 dates: ['1 de Agosto de 2025', '31 de Julho de 2025', '30 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 114', ID=d6e74d49122c592b0d1572e2dff6e74f
-INFO:root:Processing entry 2: Title=' Salmo 47', ID=2cf72a8f20404ab489b27d6675339716
-INFO:root:Processing entry 3: Title=' Salmo 68', ID=906e07fabc5c47e7e79f302862fabb28
+INFO:root:Processing entry 1: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
+INFO:root:Processing entry 2: Title=' Salmo 114', ID=d6e74d49122c592b0d1572e2dff6e74f
+INFO:root:Processing entry 3: Title=' Salmo 47', ID=2cf72a8f20404ab489b27d6675339716
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 15
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_15/
+INFO:root:🔹 Description: Senhor, quem habitará no teu santuário?
+Quem poderá morar no teu santo monte? 
+Aquele que é íntegro em sua conduta
+e pratica o que é justo;
+que de coração fala a verdade 
+e não usa a língua para difamar;
+que nenhum mal faz ao seu semelhante
+e não lança calúnia contra o seu próximo; 
+que rejeita quem merece desprezo,
+mas honra os que temem o Senhor;
+que mantém a sua palavra,
+mesmo quando sai prejudicado; 
+que não empresta o seu dinheiro visando a algum lucro
+nem aceita suborno contra o inocente.
+Quem assim procede
+nunca será abalado! 
+ Salmo 15
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 114
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_114/
 INFO:root:🔹 Description: Quando Israel saiu do Egito
@@ -128,175 +147,94 @@ pois os governantes da terra pertencem a Deus;
 ele é soberanamente exaltado. 
  Salmo 47
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 68
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_68/
-INFO:root:🔹 Description: Que Deus se levante!
-Sejam espalhados os seus inimigos,
-fujam dele os seus adversários. 
-Que tu os dissipes
-assim como o vento leva a fumaça;
-como a cera se derrete na presença do fogo,
-assim pereçam os ímpios na presença de Deus. 
-Alegrem-se, porém, os justos!
-Exultem diante de Deus!
-Regozijem-se com grande alegria! 
-Cantem a Deus, louvem o seu nome,
-exaltem aquele que cavalga sobre as nuvens;
-seu nome é Senhor!
-Exultem diante dele! 
-Pai para os órfãos e defensor das viúvas
-é Deus em sua santa habitação. 
-Deus dá um lar aos solitários,
-liberta os presos para a prosperidade,
-mas os rebeldes vivem em terra árida. 
-Quando saíste à frente do teu povo, ó Deus,
-quando marchaste pelo ermo, 
-a terra tremeu,
-o céu derramou chuva
-diante de Deus, o Deus do Sinai;
-diante de Deus, o Deus de Israel. 
-Deste chuvas generosas, ó Deus;
-refrescaste a tua herança exausta. 
-O teu povo nela se instalou,
-e da tua bondade, ó Deus, supriste os pobres. 
-O Senhor anunciou a palavra,
-e muitos mensageiros a proclamavam: 
-"Reis e exércitos fogem em debandada;
-a dona de casa reparte os despojos. 
-Mesmo quando vocês dormem
-entre as fogueiras do acampamento,
-as asas da minha pomba
-estão recobertas de prata;
-as suas penas, de ouro reluzente". 
-Quando o Todo-poderoso espalhou os reis,
-foi como neve no monte Zalmom. 
-Os montes de Basã são majestosos;
-escarpados são os montes de Basã. 
-Por que, ó montes escarpados,
-estão com inveja do monte que Deus
-escolheu para sua habitação,
-onde o próprio Senhor habitará para sempre? 
-Os carros de Deus são incontáveis,
-são milhares de milhares;
-neles o Senhor veio do Sinai
-para o seu Lugar Santo. 
-Quando subiste em triunfo às alturas,
-ó Senhor Deus,
-levaste cativos muitos prisioneiros;
-recebeste homens como dádivas,
-até mesmo rebeldes,
-para estabeleceres morada. 
-Bendito seja o Senhor,
-Deus, nosso Salvador,
-que cada dia suporta as nossas cargas. 
-O nosso Deus é um Deus que salva;
-ele é o Soberano, ele é o Senhor
-que nos livra da morte. 
-Certamente Deus
-esmagará a cabeça dos seus inimigos,
-o crânio cabeludo
-dos que persistem em seus pecados. 
-"Eu os trarei de Basã", diz o Senhor,
-"eu os trarei das profundezas do mar, 
-para que você encharque os pés
-no sangue dos inimigos,
-sangue do qual a língua dos cães
-terá a sua porção." 
-Já se vê a tua marcha triunfal, ó Deus,
-a marcha do meu Deus e Rei
-adentrando o santuário. 
-À frente estão os cantores, depois os músicos;
-com eles vão as jovens tocando tamborins. 
-Bendigam a Deus na grande congregação!
-Bendigam o Senhor,
-descendentes de Israel! 
-Ali está a pequena tribo de Benjamim,
-a conduzi-los,
-os príncipes de Judá
-acompanhados de suas tropas,
-e os príncipes de Zebulom e Naftali. 
-A favor de vocês,
-manifeste Deus o seu poder!
-Mostra, ó Deus, o poder que já tens operado
-para conosco. 
-Por causa do teu templo em Jerusalém,
-reis te trarão presentes. 
-Repreende a fera entre os juncos,
-a manada de touros
-entre os bezerros das nações.
-Humilhados, tragam barras de prata.
-Espalha as nações que têm prazer na guerra. 
-Ricos tecidos venham do Egito;
-a Etiópia corra para Deus de mãos cheias. 
-Cantem a Deus, reinos da terra,
-louvem o Senhor, 
-aquele que cavalga os céus, os antigos céus.
-Escutem! Ele troveja com voz poderosa. 
-Proclamem o poder de Deus!
-Sua majestade está sobre Israel,
-seu poder está nas altas nuvens. 
-Tu és temível no teu santuário, ó Deus;
-é o Deus de Israel
-que dá poder e força ao seu povo.
-Bendito seja Deus! 
- Salmo 68
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 246170 characters
-INFO:root:HTML parsed, length: 235862 characters
-INFO:root:Found 3 titles: ['Persevere e viverás grandes coisas', 'Creia e confesse, confesse e creia', 'Fortalecido no amor de Deus']
+INFO:root:Response length: 246213 characters
+INFO:root:HTML parsed, length: 235901 characters
+INFO:root:Found 3 titles: ['Você tem sede de Deus?', 'Persevere e viverás grandes coisas', 'Creia e confesse, confesse e creia']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Alegrem-se na esperança, sejam pacientes na tribul', 'Se você confessar com a sua boca que Jesus é Senho', 'O Senhor é a minha força e o meu escudo;\nnele o me']
-INFO:root:Found 1 dates: ['Quinta, 31 de julho de 2025']
+INFO:root:Found 3 descriptions: ['Como a corça anseia por águas correntes,\na minha a', 'Alegrem-se na esperança, sejam pacientes na tribul', 'Se você confessar com a sua boca que Jesus é Senho']
+INFO:root:Found 1 dates: ['Sexta, 1 de agosto de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Persevere e viverás grandes coisas', ID=bed1bf3e808b6dd6951177d01e675d69
+INFO:root:Processing entry 1: Title='Você tem sede de Deus?', ID=68a09cdef5b427aae4a0eaeb4948fa70
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Persevere e viverás grandes coisas - Palavra de Hoje
+INFO:root:🔹 Title: Você tem sede de Deus? - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Alegrem-se na esperança, sejam pacientes na tribulação, perseverem na oração.
-- Romanos 12:12 
+INFO:root:🔹 Description: Como a corça anseia por águas correntes,
+a minha alma anseia por ti, ó Deus.
+- Salmo 42:1
 
+Todos nós temos sede. Não apenas de água, mas de algo mais profundo, algo que sacie a alma. Vivemos em um mundo barulhento, cheio de distrações, conquistas e promessas vazias. Corremos atrás de sucesso, prazer, reconhecimento e segurança. Mas, mesmo depois de alcançar muitas dessas coisas, por que ainda sentimos um vazio dentro de nós?
+Essa sede que você sente pode ser espiritual. É a alma clamando pelo seu Criador. É o coração dizendo: “Preciso de mais, preciso de Deus.” Assim como o corpo não sobrevive sem água, a alma não sobrevive sem a presença de Deus.
+Muitos tentam silenciar esse anseio com entretenimento, relacionamentos ou bens materiais. No entanto, a verdadeira saciedade só vem quando nos voltamos ao Senhor. Ele é a fonte de água viva. Jesus disse:
 
-Por isso não desanimamos. Embora exteriormente estejamos a desgastar-nos, interiormente estamos sendo renovados dia após dia, pois os nossos sofrimentos leves e momentâneos estão produzindo para nós uma glória eterna que pesa mais do que todos eles.
-- 2 Coríntios 4:16-17 
+mas quem beber da água que eu lhe der nunca mais terá sede. Ao contrário, a água que eu lhe der se tornará nele uma fonte de água a jorrar para a vida eterna".
+- João 4:14
 
-Frequentemente temos grandes sonhos e sentimos o desejo de ver e vivenciar grandes coisas. Mas raramente o caminho em direção ao que desejamos é completamente tranquilo e sem obstáculos. Geralmente encontramos dificuldades, especialmente se nossos sonhos são nos aproximar de Deus e fazer coisas para o Seu reino.
-O inimigo tentará impedir o seu progresso, pode ter certeza disso. É por isso que a Bíblia nos encoraja constantemente a perseverar, não a desistir, mas a seguir em frente, firmes no Senhor. Por quê? Porque aqueles que perseveram e avançam no processo são os que vivenciam grandes coisas com o Senhor.
-Você pode sentir que Deus o chamou para algo no ministério ou colocou um sonho específico em seu coração. Mas, com o passar do tempo, tudo parece muito difícil e você se sente desanimado. Escolha perseverar hoje! Não desista; continue com Jesus. Se Ele o chamou, Ele o ajudará a realizar esse sonho. Não desista!
-Cada dificuldade ou obstáculo pode ser transformado em um testemunho claro do poder de Deus. Assim como o Senhor guiou seu povo pelo deserto, cuidou dele e o guiou até a Terra Prometida, Ele está com você, cuidando de você e ajudando você a seguir em frente. Apegue-se a Ele! 
-
-Também no deserto vocês viram como o Senhor, o seu Deus, os carregou, como um pai carrega seu filho, por todo o caminho que percorreram até chegarem a este lugar.
-- Deuteronômio 1:31 
-
-Não se esqueça de que você serve ao Deus Todo-Poderoso. Persevere e permaneça firme nEle. Com Ele como guia e companheiro, você experimentará grandes coisas para a Sua glória. 
-Veja também: Esforça-te e tem bom ânimo: Deus está contigo (Josué 1:9)
+Deus não está distante. Ele vê sua sede, suas lutas, suas lágrimas. E mais do que isso: Ele quer te preencher. O amor d’Ele é real, é presente e é suficiente. Você não precisa entender tudo ou estar perfeito. Basta vir. Basta reconhecer essa sede e dar o primeiro passo em direção a Ele.
+E você, tem sede de Deus?
+Hoje é o momento ideal para buscar a fonte. Não ignore essa inquietação em seu coração. Volte-se ao Senhor. Fale com Ele, mesmo que em palavras simples. Leia a Palavra, procure conhecê-Lo mais.
+Deixe Deus saciar sua sede mais profunda. Ele está esperando por você!
+Veja também: Jesus é a fonte de água viva: versículos (com explicação)
  
-Alegrem-se na esperança, sejam pacientes na tribulação, perseverem na oração.
-- Romanos 12:12 
+Como a corça anseia por águas correntes,
+a minha alma anseia por ti, ó Deus.
+- Salmo 42:1
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255379 characters
-INFO:root:HTML parsed, length: 244839 characters
-INFO:root:Found 3 titles: ['3 motivos para ficar feliz hoje', 'Deus vai além da bênção', 'Proclamando palavras de vitória']
-INFO:root:Found 3 URLs: ['/bom_dia_abencoado_frases_mensagem/', '/deus_tem_o_melhor/', '/vitoria/']
-INFO:root:Found 3 descriptions: ['Graças ao grande amor do Senhor\né que não somos co', 'Àquele que é capaz de fazer infinitamente mais do ', 'A Palavra de Deus nos lembra de uma verdade podero']
-INFO:root:Found 3 dates: ['JULHO\n\n31\nQUINTA', 'JULHO\n\n30\nQUARTA', 'JULHO\n\n29\nTERÇA']
+INFO:root:Response length: 255730 characters
+INFO:root:HTML parsed, length: 245197 characters
+INFO:root:Found 3 titles: ['Seja um canal de boas novas', '3 motivos para ficar feliz hoje', 'Deus vai além da bênção']
+INFO:root:Found 3 URLs: ['/orai_uns_pelos_outros_confissao_oracao_cura/', '/bom_dia_abencoado_frases_mensagem/', '/deus_tem_o_melhor/']
+INFO:root:Found 3 descriptions: ['Como são belos nos montes\nos pés daqueles que anun', 'Graças ao grande amor do Senhor\né que não somos co', 'Àquele que é capaz de fazer infinitamente mais do ']
+INFO:root:Found 3 dates: ['AGOSTO\n\n1\nSEXTA', 'JULHO\n\n31\nQUINTA', 'JULHO\n\n30\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='3 motivos para ficar feliz hoje', ID=a9400c9acd600076cc019942f242da65
-INFO:root:Processing entry 2: Title='Deus vai além da bênção', ID=632c66d754bbffe4d0ff8c8445c3bc31
-INFO:root:Processing entry 3: Title='Proclamando palavras de vitória', ID=dd821e84d9d3939b698f536bf8d53473
+INFO:root:Processing entry 1: Title='Seja um canal de boas novas', ID=0f63f928eca6c78374c59bc37fd6e49a
+INFO:root:Processing entry 2: Title='3 motivos para ficar feliz hoje', ID=a9400c9acd600076cc019942f242da65
+INFO:root:Processing entry 3: Title='Deus vai além da bênção', ID=632c66d754bbffe4d0ff8c8445c3bc31
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Seja um canal de boas novas
+INFO:root:🔹 URL: https://www.bibliaon.com/orai_uns_pelos_outros_confissao_oracao_cura/
+INFO:root:🔹 Description: Como são belos nos montes
+os pés daqueles que anunciam
+boas-novas,
+que proclamam a paz,
+que trazem boas notícias,
+que proclamam salvação,
+que dizem a Sião:
+"O seu Deus reina!"
+- Isaías 52:7
+
+Você já parou para pensar que pode ser um instrumento de bênção na vida de alguém? Vivemos em um mundo onde somos bombardeados com notícias difíceis: crises, violência, dores e incertezas. Em meio a tudo isso, que diferença faz alguém que escolhe ser um canal de boas novas!
+Ser um canal de boas novas não significa fingir que está tudo bem. Significa, sim, escolher transmitir esperança, fé e amor, mesmo nos dias nublados. É levar uma palavra que consola, um gesto que acolhe, um sorriso que levanta.
+Deus nos convida a sermos mensageiros da paz, da graça e da salvação. Isso não exige grandes feitos; começa em pequenas atitudes. Uma palavra amiga no momento certo, um bom conselho, uma oração silenciosa por alguém aflito, tudo isso tem poder de transformar a vida de alguém.
+A boa nova maior que podemos compartilhar é o amor de Jesus. Ele transforma vidas, cura corações e oferece uma nova chance todos os dias. E quando deixamos que esse amor transborde em nós, ele naturalmente alcança os outros.
+Escolha ser um portador de boas notícias. Em vez de espalhar medo, semeie esperança. Em vez de críticas, distribua palavras de encorajamento. Há tanta gente precisando ouvir que ainda existe bondade, fé e luz no mundo.
+Você foi chamado para fazer a diferença. Então, onde quer que esteja, com quem quer que esteja, seja um canal de boas novas.
+Espalhando boas novas
+
+
+Compartilhe palavras de esperança: Em vez de repetir más notícias, escolha falar de fé e encorajamento. Uma palavra positiva pode renovar forças e transformar o dia de alguém ao seu redor.
+
+Demonstre amor com atitudes simples: Um abraço, um sorriso, uma ajuda inesperada, pequenos gestos comunicam cuidado e compaixão. Seja intencional em espalhar bondade nas situações mais comuns do dia a dia.
+Ore por alguém todos os dias: A oração é um ato silencioso, mas poderoso. Separe um momento diário para interceder por alguém. Isso fortalece sua fé e abençoa vidas de forma invisível, mas real.
+
+Ore por alguém hoje:
+
+Senhor, abençoa essa pessoa que coloco agora diante de Ti. Que ela sinta Tua paz, receba força para os desafios e esperança para seguir em frente. Renova sua fé, cura suas feridas e cerca-a com Teu amor. Usa-me, se for da Tua vontade, para ser bênção na vida dela. Amém.
+
+Veja também: Orai uns pelos outros (Estudo Bíblico)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: 3 motivos para ficar feliz hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
 INFO:root:🔹 Description: Graças ao grande amor do Senhor
@@ -358,36 +296,10 @@ Senhor, eu confio em Ti, mesmo quando não entendo. Sei que tens planos maiores 
 
 Veja também: Deus sempre tem o melhor para nossas vidas em 12 versículos
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Proclamando palavras de vitória
-INFO:root:🔹 URL: https://www.bibliaon.com/vitoria/
-INFO:root:🔹 Description: A Palavra de Deus nos lembra de uma verdade poderosa: somos mais que vencedores em Cristo Jesus! Não apenas sobreviventes, mas vencedores por completo, cheios de esperança e fé.
-
-Mas em todas estas coisas somos mais que vencedores, por meio daquele que nos amou.
-- Romanos 8:37
-
-Proclamar palavras de vitória é mais do que ter pensamentos positivos. É declarar com fé aquilo que Deus já prometeu. Mesmo que as circunstâncias pareçam adversas, a nossa confiança está em um Deus que nunca falha. Ele é aquele que abre caminhos no deserto, que transforma lágrimas em alegria, e que faz do fraco um guerreiro.
-Muitas vezes, nossas palavras moldam a realidade ao nosso redor. Quando escolhemos declarar vida, cura, restauração e paz, estamos ativando o poder do céu sobre nossas situações. As promessas de Deus são vivas e eficazes, e quando cremos nelas, não há batalha que não possa ser vencida.
-Hoje, escolha levantar sua voz com ousadia e fé. Diga: “Eu sou forte, porque o Senhor me fortalece. Eu vencerei, porque Cristo já venceu por mim. Nada poderá me separar do amor de Deus!”
-A vitória já foi conquistada na cruz. Proclame essas palavras com fé todos os dias, confiando que aquele que começou a boa obra em nossas vidas é fiel para completá-la.
-Levante-se. Proclame. Viva como quem já venceu, porque em Cristo, você é mais que vencedor!
-Você já venceu em Cristo
-
-Mesmo quando tudo parece contrário, proclame as promessas de Deus sobre sua vida. Suas palavras têm poder para transformar ambientes e fortalecer sua fé diante das lutas.
-
-Não aceite pensamentos de derrota. Em Cristo, você é capacitado e amado. Recuse a voz do medo e abrace sua identidade de vencedor em Deus.
-
-A vitória já foi conquistada na cruz. Enfrente cada dia com confiança, crendo que Deus está à frente, abrindo caminhos e guiando você rumo à plenitude de Suas promessas.
-
-Para orar:
-
-Senhor Deus, obrigado porque em Ti sou mais que vencedor. Renova minha fé e ensina-me a declarar Tua Palavra com ousadia. Que eu rejeite toda mentira e caminhe com esperança, confiando nas Tuas promessas. Fortalece-me a cada dia para viver como quem já venceu em Cristo. Em nome de Jesus, amém.
-
-Veja também: Versículos de vitória para sua vida.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224836 characters
-INFO:root:HTML parsed, length: 223389 characters
+INFO:root:Response length: 224769 characters
+INFO:root:HTML parsed, length: 223322 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 28 URLs: ['/wiki/Estado_de_s%C3%ADtio_no_Brasil_(1922%E2%80%931927)', '/wiki/Estado_de_s%C3%ADtio_no_Brasil_(1922%E2%80%931927)', '/wiki/Governo_Epit%C3%A1cio_Pessoa']
 INFO:root:Found 1 descriptions: ['Um estado de sítio vigorou no Brasil em grande par']
@@ -411,48 +323,48 @@ Compartilhe:
 
 
 Artigos destacados: 1503 •
-Artigos bons: 1918
+Artigos bons: 1919
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224836 characters
-INFO:root:HTML parsed, length: 223389 characters
-INFO:root:Found 1 titles: ['30 de julho na história']
-INFO:root:Found 54 URLs: ['/wiki/Ficheiro:Bundesarchiv_Bild_146-2005-0057,_Otto_von_Bismarck_(cropped).jpg', '/wiki/Dia_do_Amigo', '/wiki/Dia_Mundial_contra_o_Tr%C3%A1fico_de_Pessoas']
-INFO:root:Found 1 descriptions: ['Otto von Bismarck\nDia Internacional da Amizade (20']
+INFO:root:Response length: 224769 characters
+INFO:root:HTML parsed, length: 223322 characters
+INFO:root:Found 1 titles: ['1 de agosto na história']
+INFO:root:Found 50 URLs: ['/wiki/Ficheiro:Claudius_crop.jpg', '/wiki/Dia_da_Pachamama', '/wiki/Dia_da_Independ%C3%AAncia']
+INFO:root:Found 1 descriptions: ['Cláudio\nDia da Pachamama; Dia da Independência do ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='30 de julho na história', ID=b78a3785685e5e66f482112ef9fc060e
+INFO:root:Processing entry 1: Title='1 de agosto na história', ID=b319b197f0fdf10323d010a7a508263a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 30 de julho na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Bundesarchiv_Bild_146-2005-0057,_Otto_von_Bismarck_(cropped).jpg
-INFO:root:🔹 Description: Otto von Bismarck
-Dia Internacional da Amizade (2011); Dia Mundial contra o Tráfico de Pessoas (2014); Dia da Independência de Vanuatu (1980)
+INFO:root:🔹 Title: 1 de agosto na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Claudius_crop.jpg
+INFO:root:🔹 Description: Cláudio
+Dia da Pachamama; Dia da Independência do Benim (1960)
 
-762 – O califa abássida Almançor funda Bagdá para ser a nova capital.
-1811 – O padre Miguel Hidalgo, líder da insurreição mexicana, é executado pelos espanhóis na cidade de Chihuahua, México.
-1930 – Em Montevidéu, o Uruguai vence a Argentina na primeira Copa do Mundo FIFA.
+1834 – O Ato do Parlamento Slavery Abolition Act 1833, prevendo a abolição gradual da escravidão no Império Britânico, entra em vigor.
+1944 – Segunda Guerra Mundial: irrompe a Revolta de Varsóvia, em resposta à ocupação da Alemanha Nazista na Polônia.
+2017 – A China inaugura a Base de Apoio do Exército de Libertação Popular da China no Djibouti, sua primeira base militar em território estrangeiro.
 Nasceram neste dia…
-Henry Ford (1863–1947)  •  Mário Quintana (1906–1994)  •  Eunice Muñoz (1928–2022)  •  Arnold Schwarzenegger (n. 1947)
+Cláudio (estátua) (10 a.C.–54)  •  António Maria Lisboa (1928–1953)  •  Yves Saint Laurent (1936–2008)  •  Antonio Negri (1933–2023)
 Morreram neste dia…
-Otto von Bismarck (imagem) (1815–1898)  •  Meiji (1852–1912)  •  Câmara Cascudo (1898–1986)  •  Ingmar Bergman (1918–2007)
+Hintze Ribeiro (1849–1907)  •  Sviatoslav Richter (1915–1997)  •  Corazón Aquino (1933–2009)  •  Orlando Orfei (1920–2015)
 
 
-Ver mais • Outros dias: 28 • 29 • 30 • 31 • 1 • Ver todos
+Ver mais • Outros dias: 30 • 31 • 1 • 2 • 3 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224836 characters
-INFO:root:HTML parsed, length: 223389 characters
+INFO:root:Response length: 224769 characters
+INFO:root:HTML parsed, length: 223322 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:036_Milky_Way_during_Perseids_seen_from_Oeschinensee_with_water_reflections_Photo_by_Giles_Laurent.jpg']
-INFO:root:Found 1 descriptions: ['Via Láctea, fotografada durante as Perseidas, é re']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg']
+INFO:root:Found 1 descriptions: ['O Café-Concerto, pintura a óleo de Édouard Manet, ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/036_Milky_Way_during_Perseids_seen_from_Oeschinensee_with_water_reflections_Photo_by_Giles_Laurent.jpg/500px-036_Milky_Way_during_Perseids_seen_from_Oeschinensee_with_water_reflections_Photo_by_Giles_Laurent.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg/500px-Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -461,15 +373,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:036_Milky_Way_during_Perseids_seen_from_Oeschinensee_with_water_reflections_Photo_by_Giles_Laurent.jpg
-INFO:root:🔹 Description: Via Láctea, fotografada durante as Perseidas, é refletida nas águas do lago Oeschinen, no Oberland Bernês, Suíça.
-(resolução original: 7 457 × 7 457)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg
+INFO:root:🔹 Description: O Café-Concerto, pintura a óleo de Édouard Manet, de 1878, conservada no Museu de Arte Walters, em Baltimore, Estados Unidos. O tema é uma brasserie parisiense lotada do final do século XIX.
+(resolução original: 5 013 × 5 013)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/036_Milky_Way_during_Perseids_seen_from_Oeschinensee_with_water_reflections_Photo_by_Giles_Laurent.jpg/500px-036_Milky_Way_during_Perseids_seen_from_Oeschinensee_with_water_reflections_Photo_by_Giles_Laurent.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg/500px-Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -485,6 +397,7 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -493,20 +406,21 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  64 +++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  56 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  30 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  32 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  20 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  76 ++-----
+ feeds/salmo_do_dia/atom.xml               | 131 ++--------
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidestaque/atom.xml               |   4 +-
+ feeds/wikidestaque/feed.json              |   2 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 366 ++++++++++++++----------------
- 16 files changed, 301 insertions(+), 360 deletions(-)
+ output.log                                | 422 +++++++++++-------------------
+ 17 files changed, 287 insertions(+), 479 deletions(-)
