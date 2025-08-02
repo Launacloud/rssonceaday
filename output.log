@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119918 characters
-INFO:root:HTML parsed, length: 112886 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (01/08/2025)', 'Palavra de Ontem (31/07/2025)', 'Palavra de Anteontem (30/07/2025)']
-INFO:root:Found 3 URLs: ['/redemunho/', '/butim/', '/impureza/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Encontro de ventos ou de ond', 'Sinônimos:\n\nredemoinho, rajada, sorvedouro, vorage', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (01/08/2025)', 'Palavra de Ontem (31/07/2025)', 'Palavra de Anteontem (30/07/2025)']
+INFO:root:Response length: 118728 characters
+INFO:root:HTML parsed, length: 112025 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (02/08/2025)', 'Palavra de Ontem (01/08/2025)', 'Palavra de Anteontem (31/07/2025)']
+INFO:root:Found 3 URLs: ['/bodega/', '/redemunho/', '/butim/']
+INFO:root:Found 11 descriptions: ['substantivo feminino Pequeno armazém onde se comer', 'Sinônimos:\n\nbaiuca, locanda, taberna, tasca, taver', 'Classe gramatical:interjeição e substantivo femini']
+INFO:root:Found 3 dates: ['Palavra de Hoje (02/08/2025)', 'Palavra de Ontem (01/08/2025)', 'Palavra de Anteontem (31/07/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (01/08/2025)', ID=a110dcee2b76405ac2893fd701096c0c
-INFO:root:Processing entry 2: Title='Palavra de Ontem (31/07/2025)', ID=d087e92824e85e5bea9f6f15d74f1370
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/07/2025)', ID=bdc388c0f48d9fc4261cbed68e2c8d0d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (02/08/2025)', ID=85b0f532aa12907e1b905109bf7a9676
+INFO:root:Processing entry 2: Title='Palavra de Ontem (01/08/2025)', ID=22c8904126ad0d9b552117650570ea6d
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (31/07/2025)', ID=7f8845a2a722c4c6778adf044ebac3bf
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (01/08/2025) - Significado completo de redemunho:
-INFO:root:🔹 URL: https://www.dicio.com.br/redemunho/
-INFO:root:🔹 Description: substantivo masculino Encontro de ventos ou de ondas que seguiam em direções opostas; redemoinho.Movimento breve, rápido e circular nas águas de um rio, do mar etc.Alteração da direção do vento; pé de vento, rajada.Etimologia (origem da palavra redemunho). A palavra redemunho deriva de redemoinho.
+INFO:root:🔹 Title: Palavra de Hoje (02/08/2025) - Significado completo de bodega:
+INFO:root:🔹 URL: https://www.dicio.com.br/bodega/
+INFO:root:🔹 Description: substantivo feminino Pequeno armazém onde se comercializam produtos de primeira necessidade, artigos diversos etc.; venda, comércio.Comida malfeita, de má qualidade e péssimo gosto.Coisa sem préstimo, que não serve para nada; pândega.Ação ou comportamento da pessoa indecente, sem pudor; indecência.Coisa suja, sem valor nem cuidado; porcaria.[Antigo] Restaurante para o povo.interjeição Expressão de irritação, de raiva, de oposição e contrariedade.Etimologia (origem da palavra bodega). A palavra bodega tem sua origem no latim "apotheca,ae", do grego “apotheke,es”, com o sentido de armazém, depósito.
  
 Sinônimos:
 
-redemoinho, rajada, sorvedouro, voragem, rodamoinho, rodomoinho 
+baiuca, locanda, taberna, tasca, taverna, tenda, venda, comércio, pândega, indecência 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (31/07/2025) - Significado completo de butim:
-INFO:root:🔹 URL: https://www.dicio.com.br/butim/
+INFO:root:🔹 Title: Palavra de Ontem (01/08/2025) - Significado completo de redemunho:
+INFO:root:🔹 URL: https://www.dicio.com.br/redemunho/
 INFO:root:🔹 Description: Sinônimos:
 
-redemoinho, rajada, sorvedouro, voragem, rodamoinho, rodomoinho
- Classe gramatical:substantivo masculino
+baiuca, locanda, taberna, tasca, taverna, tenda, venda, comércio, pândega, indecência
+ Classe gramatical:interjeição e substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (30/07/2025) - Significado completo de impureza:
-INFO:root:🔹 URL: https://www.dicio.com.br/impureza/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:re-de-mu-nho
+INFO:root:🔹 Title: Palavra de Anteontem (31/07/2025) - Significado completo de butim:
+INFO:root:🔹 URL: https://www.dicio.com.br/butim/
+INFO:root:🔹 Description: Classe gramatical:interjeição e substantivo feminino
+ Sílabas:bo-de-ga
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,43 +42,72 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 243489 characters
-INFO:root:HTML parsed, length: 232789 characters
-INFO:root:Found 1 titles: ['Salmos 91:1-2']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_91_1-2/']
-INFO:root:Found 1 descriptions: ['Aquele que habita no abrigo do Altíssimo\ne descans']
+INFO:root:Response length: 243468 characters
+INFO:root:HTML parsed, length: 232768 characters
+INFO:root:Found 1 titles: ['Mateus 7:15']
+INFO:root:Found 1 URLs: ['/versiculo/mateus_7_15/']
+INFO:root:Found 1 descriptions: ['"Cuidado com os falsos profetas. Eles vêm a vocês ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 91:1-2', ID=cd3fe62cd5f375e6be365eaebaa90966
+INFO:root:Processing entry 1: Title='Mateus 7:15', ID=4927411b02bf7303e826038a6b8c4a91
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 91:1-2
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_91_1-2/
-INFO:root:🔹 Description: Aquele que habita no abrigo do Altíssimo
-e descansa à sombra do Todo-poderoso pode dizer ao Senhor:
-"Tu és o meu refúgio e a minha fortaleza,
-o meu Deus, em quem confio". Salmos 91:1-2
+INFO:root:🔹 Title: Mateus 7:15
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_7_15/
+INFO:root:🔹 Description: "Cuidado com os falsos profetas. Eles vêm a vocês vestidos de peles de ovelhas, mas por dentro são lobos devoradores. Mateus 7:15
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 246167 characters
-INFO:root:HTML parsed, length: 236161 characters
-INFO:root:Found 3 titles: ['Salmo 15', 'Salmo 114', 'Salmo 47']
-INFO:root:Found 3 URLs: ['/salmos_15/', '/salmos_114/', '/salmos_47/']
-INFO:root:Found 3 descriptions: ['Senhor, quem habitará no teu santuário?\nQuem poder', 'Quando Israel saiu do Egito\ne a casa de Jacó saiu ', 'Batam palmas, vocês, todos os povos;\naclamem a Deu']
-INFO:root:Found 3 dates: ['1 de Agosto de 2025', '31 de Julho de 2025', '30 de Julho de 2025']
+INFO:root:Response length: 242087 characters
+INFO:root:HTML parsed, length: 232088 characters
+INFO:root:Found 3 titles: ['Salmo 99', 'Salmo 15', 'Salmo 114']
+INFO:root:Found 3 URLs: ['/salmos_99/', '/salmos_15/', '/salmos_114/']
+INFO:root:Found 3 descriptions: ['O Senhor reina! As nações tremem!\nO seu trono está', 'Senhor, quem habitará no teu santuário?\nQuem poder', 'Quando Israel saiu do Egito\ne a casa de Jacó saiu ']
+INFO:root:Found 3 dates: ['2 de Agosto de 2025', '1 de Agosto de 2025', '31 de Julho de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
-INFO:root:Processing entry 2: Title=' Salmo 114', ID=d6e74d49122c592b0d1572e2dff6e74f
-INFO:root:Processing entry 3: Title=' Salmo 47', ID=2cf72a8f20404ab489b27d6675339716
+INFO:root:Processing entry 1: Title=' Salmo 99', ID=a1e778bc43d196a0c2c80b1bfa45143c
+INFO:root:Processing entry 2: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
+INFO:root:Processing entry 3: Title=' Salmo 114', ID=d6e74d49122c592b0d1572e2dff6e74f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 99
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_99/
+INFO:root:🔹 Description: O Senhor reina! As nações tremem!
+O seu trono está sobre os querubins!
+Abala-se a terra! 
+Grande é o Senhor em Sião;
+ele é exaltado acima de todas as nações! 
+Seja louvado o teu grande e temível nome,
+que é santo. 
+Rei poderoso, amigo da justiça!
+Estabeleceste a equidade
+e fizeste em Jacó o que é direito e justo. 
+Exaltem o Senhor, o nosso Deus,
+prostrem-se diante do estrado dos seus pés.
+Ele é santo! 
+Moisés e Arão estavam
+entre os seus sacerdotes,
+Samuel, entre os que invocavam o seu nome;
+eles clamavam pelo Senhor,
+e ele lhes respondia. 
+Falava-lhes da coluna de nuvem,
+e eles obedeciam aos seus mandamentos
+e aos decretos que ele lhes dava. 
+Tu lhes respondeste, Senhor, nosso Deus;
+para eles, tu eras um Deus perdoador,
+embora os tenhas castigado
+por suas rebeliões. 
+Exaltem o Senhor,o nosso Deus;
+prostrem-se, voltados para o seu santo monte,
+porque o Senhor, o nosso Deus, é santo. 
+ Salmo 99
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 15
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_15/
 INFO:root:🔹 Description: Senhor, quem habitará no teu santuário?
@@ -122,87 +151,80 @@ Ele fez da rocha um açude,
 do rochedo uma fonte. 
  Salmo 114
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 47
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_47/
-INFO:root:🔹 Description: Batam palmas, vocês, todos os povos;
-aclamem a Deus com cantos de alegria. 
-Pois o Senhor Altíssimo é temível,
-é o grande Rei sobre toda a terra! 
-Ele subjugou as nações ao nosso poder;
-os povos, colocou debaixo de nossos pés 
-e escolheu para nós a nossa herança,
-o orgulho de Jacó, a quem amou. 
-Deus subiu em meio a gritos de alegria;
-o Senhor, em meio ao som de trombetas. 
-Ofereçam música a Deus, cantem louvores!
-Ofereçam música ao nosso Rei,
-cantem louvores! 
-Pois Deus é o rei de toda a terra;
-cantem louvores com harmonia e arte. 
-Deus reina sobre as nações;
-Deus está assentado em seu santo trono. 
-Os soberanos das nações se juntam
-ao povo do Deus de Abraão,
-pois os governantes da terra pertencem a Deus;
-ele é soberanamente exaltado. 
- Salmo 47
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 246213 characters
-INFO:root:HTML parsed, length: 235901 characters
-INFO:root:Found 3 titles: ['Você tem sede de Deus?', 'Persevere e viverás grandes coisas', 'Creia e confesse, confesse e creia']
+INFO:root:Response length: 246098 characters
+INFO:root:HTML parsed, length: 235783 characters
+INFO:root:Found 3 titles: ['Deus está presente na adversidade', 'Você tem sede de Deus?', 'Persevere e viverás grandes coisas']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Como a corça anseia por águas correntes,\na minha a', 'Alegrem-se na esperança, sejam pacientes na tribul', 'Se você confessar com a sua boca que Jesus é Senho']
-INFO:root:Found 1 dates: ['Sexta, 1 de agosto de 2025']
+INFO:root:Found 3 descriptions: ['Deus é o nosso refúgio e a nossa fortaleza, auxíli', 'Como a corça anseia por águas correntes,\na minha a', 'Alegrem-se na esperança, sejam pacientes na tribul']
+INFO:root:Found 1 dates: ['Sábado, 2 de agosto de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Você tem sede de Deus?', ID=68a09cdef5b427aae4a0eaeb4948fa70
+INFO:root:Processing entry 1: Title='Deus está presente na adversidade', ID=4ff592486f5be9abe7eebe20cee14a97
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Você tem sede de Deus? - Palavra de Hoje
+INFO:root:🔹 Title: Deus está presente na adversidade - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Como a corça anseia por águas correntes,
-a minha alma anseia por ti, ó Deus.
-- Salmo 42:1
+INFO:root:🔹 Description: Deus é o nosso refúgio e a nossa fortaleza, auxílio sempre presente na adversidade.
+- Salmos 46:1
 
-Todos nós temos sede. Não apenas de água, mas de algo mais profundo, algo que sacie a alma. Vivemos em um mundo barulhento, cheio de distrações, conquistas e promessas vazias. Corremos atrás de sucesso, prazer, reconhecimento e segurança. Mas, mesmo depois de alcançar muitas dessas coisas, por que ainda sentimos um vazio dentro de nós?
-Essa sede que você sente pode ser espiritual. É a alma clamando pelo seu Criador. É o coração dizendo: “Preciso de mais, preciso de Deus.” Assim como o corpo não sobrevive sem água, a alma não sobrevive sem a presença de Deus.
-Muitos tentam silenciar esse anseio com entretenimento, relacionamentos ou bens materiais. No entanto, a verdadeira saciedade só vem quando nos voltamos ao Senhor. Ele é a fonte de água viva. Jesus disse:
-
-mas quem beber da água que eu lhe der nunca mais terá sede. Ao contrário, a água que eu lhe der se tornará nele uma fonte de água a jorrar para a vida eterna".
-- João 4:14
-
-Deus não está distante. Ele vê sua sede, suas lutas, suas lágrimas. E mais do que isso: Ele quer te preencher. O amor d’Ele é real, é presente e é suficiente. Você não precisa entender tudo ou estar perfeito. Basta vir. Basta reconhecer essa sede e dar o primeiro passo em direção a Ele.
-E você, tem sede de Deus?
-Hoje é o momento ideal para buscar a fonte. Não ignore essa inquietação em seu coração. Volte-se ao Senhor. Fale com Ele, mesmo que em palavras simples. Leia a Palavra, procure conhecê-Lo mais.
-Deixe Deus saciar sua sede mais profunda. Ele está esperando por você!
-Veja também: Jesus é a fonte de água viva: versículos (com explicação)
+Este versículo de Salmos 46:1 não é apenas uma promessa reconfortante, mas uma declaração de fé inabalável.
+Refúgio fala de abrigo, um lugar seguro. Quando os ventos da vida sopram com força, quando os problemas parecem nos esmagar, Deus se apresenta como um lugar onde encontramos paz. Ele não é um refúgio distante, mas um Deus próximo, que nos acolhe com braços abertos.
+Fortaleza representa força, proteção e poder. Deus não apenas nos protege; Ele nos capacita. Ele é nossa rocha firme quando tudo ao redor parece ruir. É Nele que encontramos coragem para continuar, mesmo quando nossos próprios recursos se esgotam.
+A parte mais poderosa deste versículo é: “auxílio sempre presente na adversidade.” O Senhor não é um socorro tardio, nem uma promessa vaga. Ele é presente, aqui e agora. Sua presença constante é o maior presente para aqueles que enfrentam tribulações. Ele não nos abandona no dia da dor. Pelo contrário, caminha conosco, enxuga nossas lágrimas e sustenta nossos passos.
+Este salmo nos convida a confiarmos em Deus com todo o nosso coração, especialmente nos momentos mais difíceis da nossa vida. Ele nos chama a olhar além das circunstâncias e ver Aquele que está acima de tudo. Quando reconhecemos Deus como nosso refúgio e fortaleza, encontramos descanso mesmo em meio à guerra.
+Que a verdade deste Salmo habite profundamente em nossos corações: não importa o tamanho da adversidade, Deus é maior. Ele é nosso abrigo seguro, nossa força constante e nosso socorro fiel. Nele, estamos seguros. Nele, somos mais que vencedores.
+Veja também: 7 razões para confiar em Deus em meio às lutas
  
-Como a corça anseia por águas correntes,
-a minha alma anseia por ti, ó Deus.
-- Salmo 42:1
+Deus é o nosso refúgio e a nossa fortaleza, auxílio sempre presente na adversidade.
+- Salmos 46:1
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 255730 characters
-INFO:root:HTML parsed, length: 245197 characters
-INFO:root:Found 3 titles: ['Seja um canal de boas novas', '3 motivos para ficar feliz hoje', 'Deus vai além da bênção']
-INFO:root:Found 3 URLs: ['/orai_uns_pelos_outros_confissao_oracao_cura/', '/bom_dia_abencoado_frases_mensagem/', '/deus_tem_o_melhor/']
-INFO:root:Found 3 descriptions: ['Como são belos nos montes\nos pés daqueles que anun', 'Graças ao grande amor do Senhor\né que não somos co', 'Àquele que é capaz de fazer infinitamente mais do ']
-INFO:root:Found 3 dates: ['AGOSTO\n\n1\nSEXTA', 'JULHO\n\n31\nQUINTA', 'JULHO\n\n30\nQUARTA']
+INFO:root:Response length: 255656 characters
+INFO:root:HTML parsed, length: 245119 characters
+INFO:root:Found 3 titles: ['Devocional Diário: Iluminado e iluminando', 'Seja um canal de boas novas', '3 motivos para ficar feliz hoje']
+INFO:root:Found 3 URLs: ['/ser_a_luz_do_mundo_explicacao_biblica/', '/orai_uns_pelos_outros_confissao_oracao_cura/', '/bom_dia_abencoado_frases_mensagem/']
+INFO:root:Found 3 descriptions: ['A luz é algo poderoso. Ela dissipa a escuridão e r', 'Como são belos nos montes\nos pés daqueles que anun', 'Graças ao grande amor do Senhor\né que não somos co']
+INFO:root:Found 3 dates: ['AGOSTO\n\n2\nSÁBADO', 'AGOSTO\n\n1\nSEXTA', 'JULHO\n\n31\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Seja um canal de boas novas', ID=0f63f928eca6c78374c59bc37fd6e49a
-INFO:root:Processing entry 2: Title='3 motivos para ficar feliz hoje', ID=a9400c9acd600076cc019942f242da65
-INFO:root:Processing entry 3: Title='Deus vai além da bênção', ID=632c66d754bbffe4d0ff8c8445c3bc31
+INFO:root:Processing entry 1: Title='Devocional Diário: Iluminado e iluminando', ID=a270c1fe9091b29b9a6a0810a4958b5a
+INFO:root:Processing entry 2: Title='Seja um canal de boas novas', ID=0f63f928eca6c78374c59bc37fd6e49a
+INFO:root:Processing entry 3: Title='3 motivos para ficar feliz hoje', ID=a9400c9acd600076cc019942f242da65
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Devocional Diário: Iluminado e iluminando
+INFO:root:🔹 URL: https://www.bibliaon.com/ser_a_luz_do_mundo_explicacao_biblica/
+INFO:root:🔹 Description: A luz é algo poderoso. Ela dissipa a escuridão e revela o caminho à nossa frente. Assim como a luz física nos guia, a luz espiritual nos ilumina. Como cristãos, somos chamados a sermos iluminados pela verdade e a iluminar o mundo com o amor de Cristo.
+Em Mateus 5:14-16, Jesus nos diz:
+
+"Vocês são a luz do mundo. Não se pode esconder uma cidade construída sobre um monte.
+E, também, ninguém acende uma candeia e a coloca debaixo de uma vasilha. Ao contrário, coloca-a no lugar apropriado, e assim ilumina a todos os que estão na casa.
+Assim brilhe a luz de vocês diante dos homens, para que vejam as suas boas obras e glorifiquem ao Pai de vocês, que está nos céus.
+- Mateus 5:14-16
+
+Essas palavras nos lembram que não devemos esconder a luz que está em nós. Devemos permitir que brilhe para que outros possam ver o amor e a verdade de Deus através de nós. Quando vivemos segundo os ensinamentos de Jesus, somos como faróis que guiam os outros a Ele.
+No entanto, para iluminar o mundo, precisamos primeiro ser iluminados pela presença de Cristo em nossas vidas. Isso significa buscar diariamente a comunhão com Ele através da oração, do estudo da Bíblia e da prática dos seus ensinamentos.
+Que possamos ser como lâmpadas que não apenas recebem a luz, mas também a compartilham com aqueles ao nosso redor. Que as nossas vidas reflitam a glória de Deus e inspirem outros a seguirem o caminho da verdade e do amor.
+Iluminando! 
+
+Busque diariamente a comunhão com Cristo através da oração e do estudo da Bíblia para ser iluminado pela Sua verdade e amor.
+Viva conforme os ensinamentos de Jesus, demonstrando amor e bondade em suas ações, para iluminar o mundo ao seu redor.
+Não esconda a luz que está dentro de você, mas compartilhe-a mediante boas obras, sendo um exemplo vivo do amor e da verdade de Deus.
+
+Para Orar: 
+
+Senhor, guia-me pelo caminho da verdade e do amor. Que a Tua luz brilhe em meu coração, iluminando meu caminho e aqueles ao meu redor. Ajuda-me a viver conforme os Teus ensinamentos, para que eu possa ser um reflexo do Teu amor neste mundo. Amém.
+
+Veja Também: Explicação bíblica do que é ser a Luz do Mundo
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Seja um canal de boas novas
 INFO:root:🔹 URL: https://www.bibliaon.com/orai_uns_pelos_outros_confissao_oracao_cura/
 INFO:root:🔹 Description: Como são belos nos montes
@@ -274,32 +296,10 @@ Senhor, obrigado por mais um dia de vida. Renova em mim a Tua alegria, fortalece
 
 Veja também: Bom dia abençoado: mensagens para um dia de fé e alegria em Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Deus vai além da bênção
-INFO:root:🔹 URL: https://www.bibliaon.com/deus_tem_o_melhor/
-INFO:root:🔹 Description: Àquele que é capaz de fazer infinitamente mais do que tudo o que pedimos ou pensamos, de acordo com o seu poder que atua em nós,
-- Efésios 3:20
-
-Muitas vezes buscamos a Deus com orações clamando por respostas, soluções ou bênçãos. Pedimos cura, portas abertas, restauração, provisão. E Deus, em Sua infinita bondade, ouve as nossas palavras. Mas há algo ainda maior que precisamos lembrar: Deus não se limita à bênção que pedimos. Ele faz muito além.
-Deus vê o que não vemos, conhece o que ainda nem imaginamos. Quando pensamos que Ele agiu, percebemos depois que Seu plano era ainda melhor do que o nosso. Ele não apenas abre uma porta, Ele prepara o caminho inteiro. Ele não apenas cura o corpo, Ele renova a alma. Ele não só transforma circunstâncias, Ele transforma corações.
-A maior bênção de Deus não é aquilo que recebemos, mas quem nos tornamos ao confiarmos n’Ele. Às vezes, Ele não responde como queremos, mas sempre responde como precisamos. Seu tempo é perfeito, Seu amor é imensurável e Sua graça é suficiente.
-Não limite sua fé ao que você pode ver ou entender. Deus trabalha no invisível, no silêncio, no impossível. Se hoje você espera por uma resposta, lembre-se: Deus está fazendo mais do que você pediu. Ele está te preparando, moldando e conduzindo ao propósito maior.
-Confie. Espere. Persevere. Porque o que Deus tem preparado vai além da bênção. E quando Ele cumprir, você entenderá: valia a pena esperar pelo que só Ele poderia fazer.
-Deus age além do que podemos ver
-
-Apresente seus pedidos a Deus, mas confie que Ele pode responder de formas maiores e melhores do que você imagina.
-Enquanto aguarda a resposta, continue obedecendo, servindo e crescendo espiritualmente. Deus trabalha no processo, não apenas no resultado final.
-Procure perceber como Deus está moldando seu caráter e fortalecendo sua fé. A maior vitória pode não ser o que você recebe, mas quem você se torna.
-
-Para orar:
-
-Senhor, eu confio em Ti, mesmo quando não entendo. Sei que tens planos maiores que os meus e fazes além do que posso pedir ou pensar. Fortalece minha fé, ajuda-me a esperar com paciência e a enxergar Tua mão em cada detalhe. Que eu viva não apenas por bênçãos, mas por propósito. Amém.
-
-Veja também: Deus sempre tem o melhor para nossas vidas em 12 versículos
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224769 characters
-INFO:root:HTML parsed, length: 223322 characters
+INFO:root:Response length: 224468 characters
+INFO:root:HTML parsed, length: 223021 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 28 URLs: ['/wiki/Estado_de_s%C3%ADtio_no_Brasil_(1922%E2%80%931927)', '/wiki/Estado_de_s%C3%ADtio_no_Brasil_(1922%E2%80%931927)', '/wiki/Governo_Epit%C3%A1cio_Pessoa']
 INFO:root:Found 1 descriptions: ['Um estado de sítio vigorou no Brasil em grande par']
@@ -327,44 +327,44 @@ Artigos bons: 1919
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224769 characters
-INFO:root:HTML parsed, length: 223322 characters
-INFO:root:Found 1 titles: ['1 de agosto na história']
-INFO:root:Found 50 URLs: ['/wiki/Ficheiro:Claudius_crop.jpg', '/wiki/Dia_da_Pachamama', '/wiki/Dia_da_Independ%C3%AAncia']
-INFO:root:Found 1 descriptions: ['Cláudio\nDia da Pachamama; Dia da Independência do ']
+INFO:root:Response length: 224468 characters
+INFO:root:HTML parsed, length: 223021 characters
+INFO:root:Found 1 titles: ['2 de agosto na história']
+INFO:root:Found 48 URLs: ['/wiki/Ficheiro:Tankskuwait.jpg', '/wiki/Porajmos', '/wiki/1830']
+INFO:root:Found 1 descriptions: ['Invasão do Kuwait\nDia em Memória ao Holocausto Cig']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 de agosto na história', ID=b319b197f0fdf10323d010a7a508263a
+INFO:root:Processing entry 1: Title='2 de agosto na história', ID=98f744d19168a8ff4e3bd11208f1bf8b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 de agosto na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Claudius_crop.jpg
-INFO:root:🔹 Description: Cláudio
-Dia da Pachamama; Dia da Independência do Benim (1960)
+INFO:root:🔹 Title: 2 de agosto na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Tankskuwait.jpg
+INFO:root:🔹 Description: Invasão do Kuwait
+Dia em Memória ao Holocausto Cigano (1944)
 
-1834 – O Ato do Parlamento Slavery Abolition Act 1833, prevendo a abolição gradual da escravidão no Império Britânico, entra em vigor.
-1944 – Segunda Guerra Mundial: irrompe a Revolta de Varsóvia, em resposta à ocupação da Alemanha Nazista na Polônia.
-2017 – A China inaugura a Base de Apoio do Exército de Libertação Popular da China no Djibouti, sua primeira base militar em território estrangeiro.
+1830 – O Rei da França e Navarra Carlos X abdica do trono em favor de seu neto Henrique.
+1980 – Uma bomba‐relógio explode na estação ferroviária de Bolonha, Itália, matando 85 pessoas e ferindo mais de 200.
+1990 – O Iraque invade (imagem) o Kuwait, posteriormente levando à Guerra do Golfo.
 Nasceram neste dia…
-Cláudio (estátua) (10 a.C.–54)  •  António Maria Lisboa (1928–1953)  •  Yves Saint Laurent (1936–2008)  •  Antonio Negri (1933–2023)
+Francisca de Bragança (1824–1898)  •  Naná Vasconcelos (1944–2016)  •  Shimon Peres (1923–2016)  •  Peter O'Toole (1932–2013)
 Morreram neste dia…
-Hintze Ribeiro (1849–1907)  •  Sviatoslav Richter (1915–1997)  •  Corazón Aquino (1933–2009)  •  Orlando Orfei (1920–2015)
+Enrico Caruso (1873–1921)  •  Alexander Graham Bell (1847–1922)  •  Luiz Gonzaga (1912–1989)  •  Obdulio Varela (1917–1996)
 
 
-Ver mais • Outros dias: 30 • 31 • 1 • 2 • 3 • Ver todos
+Ver mais • Outros dias: 31 • 1 • 2 • 3 • 4 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 224769 characters
-INFO:root:HTML parsed, length: 223322 characters
+INFO:root:Response length: 224468 characters
+INFO:root:HTML parsed, length: 223021 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg']
-INFO:root:Found 1 descriptions: ['O Café-Concerto, pintura a óleo de Édouard Manet, ']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:La_Fuentona,_Muriel_de_la_Fuente,_Soria,_Espa%C3%B1a,_2021-08-28,_DD_42.jpg']
+INFO:root:Found 1 descriptions: ['La Fuentona, uma nascente natural que forma o rio ']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg/500px-Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/La_Fuentona%2C_Muriel_de_la_Fuente%2C_Soria%2C_Espa%C3%B1a%2C_2021-08-28%2C_DD_42.jpg/960px-La_Fuentona%2C_Muriel_de_la_Fuente%2C_Soria%2C_Espa%C3%B1a%2C_2021-08-28%2C_DD_42.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -373,15 +373,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg
-INFO:root:🔹 Description: O Café-Concerto, pintura a óleo de Édouard Manet, de 1878, conservada no Museu de Arte Walters, em Baltimore, Estados Unidos. O tema é uma brasserie parisiense lotada do final do século XIX.
-(resolução original: 5 013 × 5 013)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:La_Fuentona,_Muriel_de_la_Fuente,_Soria,_Espa%C3%B1a,_2021-08-28,_DD_42.jpg
+INFO:root:🔹 Description: La Fuentona, uma nascente natural que forma o rio Abión. Localiza-se na província de Sória, em Castela e Leão, Espanha, mais precisamente nos municípios de Cabrejas del Pinar e Muriel de la Fuente. É considerada um monumento natural e um local de grande beleza cênica, atraindo visitantes para caminhadas e apreciação da natureza.
+(resolução original: 8 324 × 5 655)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg/500px-Edouard_Manet_-_At_the_Caf%C3%A9_-_Google_Art_Project.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/La_Fuentona%2C_Muriel_de_la_Fuente%2C_Soria%2C_Espa%C3%B1a%2C_2021-08-28%2C_DD_42.jpg/960px-La_Fuentona%2C_Muriel_de_la_Fuente%2C_Soria%2C_Espa%C3%B1a%2C_2021-08-28%2C_DD_42.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -397,7 +397,6 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
@@ -406,21 +405,20 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  56 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 +++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  32 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  29 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 131 ++--------
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  55 ++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   4 +-
- feeds/wikidestaque/feed.json              |   2 +-
+ feeds/wikidestaque/atom.xml               |   2 +-
  feeds/wikidia/atom.xml                    |  16 +-
  feeds/wikidia/feed.json                   |   8 +-
  feeds/wikiimagem/atom.xml                 |   6 +-
  feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 422 +++++++++++-------------------
- 17 files changed, 287 insertions(+), 479 deletions(-)
+ output.log                                | 323 ++++++++++++++----------------
+ 16 files changed, 275 insertions(+), 294 deletions(-)
