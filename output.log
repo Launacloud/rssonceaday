@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119564 characters
-INFO:root:HTML parsed, length: 112678 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (06/08/2025)', 'Palavra de Ontem (05/08/2025)', 'Palavra de Anteontem (04/08/2025)']
-INFO:root:Found 3 URLs: ['/belisco/', '/muscular/', '/altruista/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Aperto que se faz com a mão ', 'Sinônimos:\n\nbeliscão, beliscadura, petisco', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (06/08/2025)', 'Palavra de Ontem (05/08/2025)', 'Palavra de Anteontem (04/08/2025)']
+INFO:root:Response length: 119281 characters
+INFO:root:HTML parsed, length: 112371 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (07/08/2025)', 'Palavra de Ontem (06/08/2025)', 'Palavra de Anteontem (05/08/2025)']
+INFO:root:Found 3 URLs: ['/produzido/', '/belisco/', '/muscular/']
+INFO:root:Found 13 descriptions: ['adjetivo Que se produziu; que se conseguiu fazer, ', 'Sinônimos:\n\ngerado, feito, elaborado, realizado, c', 'Classe gramatical:adjetivo']
+INFO:root:Found 3 dates: ['Palavra de Hoje (07/08/2025)', 'Palavra de Ontem (06/08/2025)', 'Palavra de Anteontem (05/08/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (06/08/2025)', ID=b5bee46381cba36b5029e8a5a2272242
-INFO:root:Processing entry 2: Title='Palavra de Ontem (05/08/2025)', ID=9ed453305303d2f6107a004e51a5a98f
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (04/08/2025)', ID=ebf78bf731ae37c9a2d5e25eb646a533
+INFO:root:Processing entry 1: Title='Palavra de Hoje (07/08/2025)', ID=ddb5cde14287c6a1f5d7c3c4fef01cd1
+INFO:root:Processing entry 2: Title='Palavra de Ontem (06/08/2025)', ID=ee11651339cec555ed957665e21f7dc0
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (05/08/2025)', ID=7a78fc33d6b5605d789cd150729a5d77
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (06/08/2025) - Significado completo de belisco:
-INFO:root:🔹 URL: https://www.dicio.com.br/belisco/
-INFO:root:🔹 Description: substantivo masculino Aperto que se faz com a mão na pele de outra pessoa,  especialmente com a ponta dos dedos e marcando com a unha, para causar dor; beliscadura, beliscão.[Popular] Porção pequena de comida, geralmente servida entre uma refeição e outra; petisco.[Culinária] Tipo de bolacha recheada com goiabada.[Culinária] Bolo de coco cortado em pedaços pequeninos.Etimologia (origem da palavra belisco). Forma regressiva de beliscar, do latim velliscāre.
+INFO:root:🔹 Title: Palavra de Hoje (07/08/2025) - Significado completo de produzido:
+INFO:root:🔹 URL: https://www.dicio.com.br/produzido/
+INFO:root:🔹 Description: adjetivo Que se produziu; que se conseguiu fazer, produzir, fabricar; feito, fabricado: produto produzido no Brasil.Que se apresenta de um modo diferente do habitual, por se vestir de acordo com a moda vigente e mais avançada; bem vestido, maquilhado.Resultado de uma ação; gerado, ocasionado: estrado produzido pelas chuvas.[Jurídico] Que se apresenta em juízo, para ser resolvido judicialmente.Etimologia (origem da palavra produzido). Particípio de produzir.
  
 Sinônimos:
 
-beliscão, beliscadura, petisco 
+gerado, feito, elaborado, realizado, cultivado, criado, engendrado, causado, provocado 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (05/08/2025) - Significado completo de muscular:
-INFO:root:🔹 URL: https://www.dicio.com.br/muscular/
+INFO:root:🔹 Title: Palavra de Ontem (06/08/2025) - Significado completo de belisco:
+INFO:root:🔹 URL: https://www.dicio.com.br/belisco/
 INFO:root:🔹 Description: Sinônimos:
 
-beliscão, beliscadura, petisco
- Classe gramatical:substantivo masculino
+gerado, feito, elaborado, realizado, cultivado, criado, engendrado, causado, provocado
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (04/08/2025) - Significado completo de altruísta:
-INFO:root:🔹 URL: https://www.dicio.com.br/altruista/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:be-lis-co
+INFO:root:🔹 Title: Palavra de Anteontem (05/08/2025) - Significado completo de muscular:
+INFO:root:🔹 URL: https://www.dicio.com.br/muscular/
+INFO:root:🔹 Description: Classe gramatical:adjetivo
+ Sílabas:pro-du-zi-do
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,95 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 254964 characters
-INFO:root:HTML parsed, length: 244264 characters
-INFO:root:Found 1 titles: ['Gálatas 6:9']
-INFO:root:Found 1 URLs: ['/versiculo/galatas_6_9/']
-INFO:root:Found 1 descriptions: ['E não nos cansemos de fazer o bem, pois no tempo p']
+INFO:root:Response length: 254893 characters
+INFO:root:HTML parsed, length: 244193 characters
+INFO:root:Found 1 titles: ['1 Coríntios 15:33']
+INFO:root:Found 1 URLs: ['/versiculo/1_corintios_15_33/']
+INFO:root:Found 1 descriptions: ['Não se deixem enganar: "As más companhias corrompe']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Gálatas 6:9', ID=645fd00eb54a27ca8d32c8f943553c5e
+INFO:root:Processing entry 1: Title='1 Coríntios 15:33', ID=0d4deb65b635bfde3c521f9ea642db36
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Gálatas 6:9
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/galatas_6_9/
-INFO:root:🔹 Description: E não nos cansemos de fazer o bem, pois no tempo próprio colheremos, se não desanimarmos. Gálatas 6:9
+INFO:root:🔹 Title: 1 Coríntios 15:33
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_corintios_15_33/
+INFO:root:🔹 Description: Não se deixem enganar: "As más companhias corrompem os bons costumes". 1 Coríntios 15:33
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 255336 characters
-INFO:root:HTML parsed, length: 245359 characters
-INFO:root:Found 3 titles: ['Salmo 73', 'Salmo 36', 'Salmo 133']
-INFO:root:Found 3 URLs: ['/salmos_73/', '/salmos_36/', '/salmos_133/']
-INFO:root:Found 3 descriptions: ['Certamente Deus é bom para Israel,\npara os puros d', 'Há no meu íntimo um oráculo\na respeito da maldade ', 'Como é bom e agradável\nquando os irmãos convivem e']
-INFO:root:Found 3 dates: ['6 de Agosto de 2025', '5 de Agosto de 2025', '4 de Agosto de 2025']
+INFO:root:Response length: 256937 characters
+INFO:root:HTML parsed, length: 246982 characters
+INFO:root:Found 3 titles: ['Salmo 34', 'Salmo 73', 'Salmo 36']
+INFO:root:Found 3 URLs: ['/salmos_34/', '/salmos_73/', '/salmos_36/']
+INFO:root:Found 3 descriptions: ['Bendirei o Senhor o tempo todo!\nOs meus lábios sem', 'Certamente Deus é bom para Israel,\npara os puros d', 'Há no meu íntimo um oráculo\na respeito da maldade ']
+INFO:root:Found 3 dates: ['7 de Agosto de 2025', '6 de Agosto de 2025', '5 de Agosto de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 73', ID=05c2b68762e3d28ede5707659652f87c
-INFO:root:Processing entry 2: Title=' Salmo 36', ID=1b58fb6706721ad7c428d285ca780e23
-INFO:root:Processing entry 3: Title=' Salmo 133', ID=30194cc21cfb956140fcf566cf151380
+INFO:root:Processing entry 1: Title=' Salmo 34', ID=5f5eca0bb8f7313a7526389f25305576
+INFO:root:Processing entry 2: Title=' Salmo 73', ID=05c2b68762e3d28ede5707659652f87c
+INFO:root:Processing entry 3: Title=' Salmo 36', ID=1b58fb6706721ad7c428d285ca780e23
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 34
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_34/
+INFO:root:🔹 Description: Bendirei o Senhor o tempo todo!
+Os meus lábios sempre o louvarão. 
+Minha alma se gloriará no Senhor;
+ouçam os oprimidos e se alegrem. 
+Proclamem a grandeza do Senhor comigo;
+juntos exaltemos o seu nome. 
+Busquei o Senhor, e ele me respondeu;
+livrou-me de todos os meus temores. 
+Os que olham para ele
+estão radiantes de alegria;
+seu rosto jamais mostrará decepção. 
+Este pobre homem clamou,
+e o Senhor o ouviu;
+e o libertou de todas as suas tribulações. 
+O anjo do Senhor é sentinela ao redor
+daqueles que o temem,
+e os livra. 
+Provem e vejam como o Senhor é bom.
+Como é feliz o homem que nele se refugia! 
+Temam o Senhor,
+vocês que são os seus santos,
+pois nada falta aos que o temem. 
+Os leões podem passar necessidade e fome,
+mas os que buscam o Senhor de nada têm falta. 
+Venham, meus filhos, ouçam-me;
+eu ensinarei a vocês o temor do Senhor. 
+Quem de vocês quer amar a vida
+e deseja ver dias felizes? 
+Guarde a sua língua do mal
+e os seus lábios da falsidade. 
+Afaste-se do mal e faça o bem;
+busque a paz com perseverança. 
+Os olhos do Senhor voltam-se para os justos
+e os seus ouvidos
+estão atentos ao seu grito de socorro; 
+o rosto do Senhor
+volta-se contra os que praticam o mal,
+para apagar da terra a memória deles. 
+Os justos clamam, o Senhor os ouve
+e os livra de todas as suas tribulações. 
+O Senhor está perto
+dos que têm o coração quebrantado
+e salva os de espírito abatido. 
+O justo passa por muitas adversidades,
+mas o Senhor o livra de todas; 
+protege todos os seus ossos;
+nenhum deles será quebrado. 
+A desgraça matará os ímpios;
+os que odeiam o justo serão condenados. 
+O Senhor redime a vida dos seus servos;
+ninguém que nele se refugia será condenado. 
+ Salmo 34
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 73
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_73/
 INFO:root:🔹 Description: Certamente Deus é bom para Israel,
@@ -180,72 +235,85 @@ Lá estão os malfeitores caídos,
 lançados ao chão, incapazes de levantar-se! 
  Salmo 36
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 133
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_133/
-INFO:root:🔹 Description: Como é bom e agradável
-quando os irmãos convivem em união! 
-É como óleo precioso
-derramado sobre a cabeça,
-que desce pela barba, a barba de Arão,
-até a gola das suas vestes. 
-É como o orvalho do Hermom
-quando desce sobre os montes de Sião.
-Ali o Senhor concede a bênção
-da vida para sempre. 
- Salmo 133
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 257359 characters
-INFO:root:HTML parsed, length: 247056 characters
-INFO:root:Found 3 titles: ['O que tenho te dou', 'De todos os mandamentos, qual é o mais importante?', 'Senhor, graças por teu perdão']
+INFO:root:Response length: 257601 characters
+INFO:root:HTML parsed, length: 247295 characters
+INFO:root:Found 3 titles: ['Resista firme na fé', 'O que tenho te dou', 'De todos os mandamentos, qual é o mais importante?']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Vendo que Pedro e João iam entrar no pátio do temp', 'Um dos mestres da lei aproximou-se e os ouviu disc', 'Se tu, Soberano Senhor,\nregistrasses os pecados, q']
-INFO:root:Found 1 dates: ['Quarta, 6 de agosto de 2025']
+INFO:root:Found 3 descriptions: ['Estejam alertas e vigiem. O Diabo, o inimigo de vo', 'Vendo que Pedro e João iam entrar no pátio do temp', 'Um dos mestres da lei aproximou-se e os ouviu disc']
+INFO:root:Found 1 dates: ['Quinta, 7 de agosto de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O que tenho te dou', ID=5b34cf90685f68dc20cda167f220e854
+INFO:root:Processing entry 1: Title='Resista firme na fé', ID=ca225ab0a9170860189d517c7c0ac355
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O que tenho te dou - Palavra de Hoje
+INFO:root:🔹 Title: Resista firme na fé - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Vendo que Pedro e João iam entrar no pátio do templo, pediu-lhes esmola.
-Pedro e João olharam bem para ele e, então, Pedro disse: "Olhe para nós!"
-O homem olhou para eles com atenção, esperando receber deles alguma coisa.
-Disse Pedro: "Não tenho prata nem ouro, mas o que tenho, isto lhe dou. Em nome de Jesus Cristo, o Nazareno, ande".
-- Atos 3:3-6
+INFO:root:🔹 Description: Estejam alertas e vigiem. O Diabo, o inimigo de vocês, anda ao redor como leão, rugindo e procurando a quem possa devorar. Resistam-lhe, permanecendo firmes na fé,
+- 1 Pedro 5:8-9a
 
-Há tantas necessidades neste mundo! Às vezes, podemos nos sentir impotentes, pensando que não podemos fazer muito para melhorá-lo. No entanto, nada poderia estar mais longe da verdade. Nós, como filhos de Deus, temos o grande tesouro de que este mundo precisa: Jesus, Seu amor e Seu poder.
-Lemos em Atos que um dia, Pedro e João subiram ao templo e encontraram um homem mendigando, coxo de nascença. O homem, ao vê-los, estendeu a mão, esperando que lhe dessem algo para aliviar sua condição. Ele não podia imaginar que o que receberia deles transformaria sua vida tanto que ela nunca mais seria a mesma.
-Pedro e João não tinham riquezas para dar ao mendigo. Mas lhe deram um tesouro muito maior: trouxeram o reino de Deus para sua vida. Levaram o mendigo a experimentar o poder curador de Deus, e sua vida mudou completamente. O homem foi curado imediatamente. Deus transformou sua vida concedendo-lhe saúde, e o coxo recebeu um tesouro muito maior do que esperava.
-Você e eu também temos este tesouro maravilhoso para oferecer a este mundo. Temos Jesus e, com nossas palavras, orações e ações, podemos levar a sua presença aonde quer que formos. Este mundo precisa de Jesus; vamos dar o que temos. Sejamos corajosos, oremos pelos outros, falemos do Senhor e aproximemos o seu reino daqueles que nos rodeiam.
-Veja também: Estudos Bíblicos: estudos evangélicos organizados por tema
+Amamos a Deus, ansiamos por fazer a Sua vontade, vivemos para Ele, mas as tentações nunca deixam de aparecer, pois fazem parte da vida. No entanto, Deus já nos disse como podemos resistir: permanecendo firmes na fé. Quanto mais fortes estivermos no Senhor, mais preparados estaremos para enfrentar a tentação e vencê-la.
+Obtemos a força para vencer permanecendo vigilantes e orando até recebermos a força que vem de Deus.
+
+Vigiem e orem para que não caiam em tentação.
+- Marcos 14:38a
+
+Estar vigilante é permanecer alerta sem baixar a guarda. Assim como uma sentinela permanece acordada à noite, atenta ao que acontece ao seu redor, devemos permanecer atentos aos movimentos sutis e enganosos do diabo. Enquanto estamos vigilantes, oramos pela presença de Deus. Oramos para que o Senhor Jesus nos ajude a permanecer fortes na fé e rejeitar o que não agrada a Deus. Permanecendo firmes n'Ele, venceremos.
+Nunca se esqueça de que você não está sozinho na luta. Jesus já derrotou o inimigo na cruz, e a vitória dele também é sua. Cada vez que você escolhe obedecer a Deus, mesmo quando a tentação parece intensa, você está dando um passo de fé que enfraquece o poder do inimigo sobre sua vida. A fé o levará a crer e confiar plenamente que Deus o sustentará, lhe dará uma saída e o fortalecerá para seguir em frente, sem recuar. Lembre-se de que a tentação é temporária, mas a fidelidade a Deus produz frutos eternos.
+Apegue-se às promessas de Deus, mesmo quando for difícil. Não desista! Use a Palavra como sua espada, permaneça firme na fé, sabendo que no fim da estrada há vitória, alegria e recompensa para aqueles que não desistem. Em Cristo, você é mais que vencedor. Portanto, levante os olhos, fortaleça o coração e prossiga: Deus está com você, e n'Ele você tem tudo o que precisa para perseverar e triunfar.
+Veja também: Versículos de como a fé move o coração de Deus
  
-Vendo que Pedro e João iam entrar no pátio do templo, pediu-lhes esmola.
-Pedro e João olharam bem para ele e, então, Pedro disse: "Olhe para nós!"
-O homem olhou para eles com atenção, esperando receber deles alguma coisa.
-Disse Pedro: "Não tenho prata nem ouro, mas o que tenho, isto lhe dou. Em nome de Jesus Cristo, o Nazareno, ande".
-- Atos 3:3-6
+Estejam alertas e vigiem. O Diabo, o inimigo de vocês, anda ao redor como leão, rugindo e procurando a quem possa devorar. Resistam-lhe, permanecendo firmes na fé,
+- 1 Pedro 5:8-9a
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 266386 characters
-INFO:root:HTML parsed, length: 255843 characters
-INFO:root:Found 3 titles: ['Que você ande em amor', 'Preparando-se para as tempestades', 'Ame além das palavras']
-INFO:root:Found 2 URLs: ['/os_dez_mandamentos/', '/versiculos_de_animo_nas_dificuldades/']
-INFO:root:Found 3 descriptions: ['E este é o amor: que andemos em obediência aos seu', '"Eu disse essas coisas para que em mim vocês tenha', 'Ainda que eu fale as línguas dos homens e dos anjo']
-INFO:root:Found 3 dates: ['AGOSTO\n\n6\nQUARTA', 'AGOSTO\n\n5\nTERÇA', 'AGOSTO\n\n4\nSEGUNDA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Que você ande em amor', ID=c2c50297aa6e29c253d6b377c675a91a
-INFO:root:Processing entry 2: Title='Preparando-se para as tempestades', ID=77371213c229d76882ee0ea2e07287b2
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 267523 characters
+INFO:root:HTML parsed, length: 256977 characters
+INFO:root:Found 3 titles: ['Um coração com Deus', 'Que você ande em amor', 'Preparando-se para as tempestades']
+INFO:root:Found 3 URLs: ['/versiculos_poder_da_fe/', '/os_dez_mandamentos/', '/versiculos_de_animo_nas_dificuldades/']
+INFO:root:Found 3 descriptions: ['Acima de tudo, guarde o seu coração,\npois dele dep', 'E este é o amor: que andemos em obediência aos seu', '"Eu disse essas coisas para que em mim vocês tenha']
+INFO:root:Found 3 dates: ['AGOSTO\n\n7\nQUINTA', 'AGOSTO\n\n6\nQUARTA', 'AGOSTO\n\n5\nTERÇA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Um coração com Deus', ID=25468878551b50a32c64b62bdf4d67c6
+INFO:root:Processing entry 2: Title='Que você ande em amor', ID=c2c50297aa6e29c253d6b377c675a91a
+INFO:root:Processing entry 3: Title='Preparando-se para as tempestades', ID=77371213c229d76882ee0ea2e07287b2
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Um coração com Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_poder_da_fe/
+INFO:root:🔹 Description: Acima de tudo, guarde o seu coração,
+pois dele depende toda a sua vida.
+- Provérbios 4:23
+
+Nos dias em que vivemos, é fácil deixar o coração se contaminar com preocupações, mágoas e desejos passageiros. Porém, a Palavra de Deus nos orienta a cuidar do nosso coração, pois é nele que nasce a verdadeira comunhão com o Senhor. Ter um coração com Deus não significa viver sem lutas, mas viver com fé mesmo em meio às batalhas.
+Um coração com Deus é um coração moldado pelo amor, guiado pela verdade e sustentado pela esperança. Ele não se apega às coisas do mundo, mas encontra paz nas promessas eternas. Esse coração aprende a perdoar como Cristo perdoou, a amar sem esperar retorno e a confiar mesmo quando tudo parece incerto.
+Deus não busca aparência, títulos ou riquezas. Ele olha o coração. Quando Davi foi escolhido por Deus, não foi por sua força ou aparência, mas por ser um homem segundo o coração de Deus. Assim também somos chamados a cultivar um coração sensível à voz do Espírito, disposto a obedecer e a caminhar em santidade.
+A oração constante, a leitura da Palavra e a prática do amor são caminhos para manter o coração alinhado com o Pai. Quando abrimos espaço para Deus em nosso interior, Ele transforma nossa maneira de ver, sentir e agir.
+Que nosso maior desejo seja ter um coração cheio da presença de Deus, pois é ali que Ele habita. E quando Deus habita no coração, a vida se enche de propósito, alegria e paz que excede todo entendimento.
+Guarde o seu coração, pois um coração com Deus é uma fonte de vida abundante.
+3 passos práticos para viver na presença de Deus
+
+
+Alimente sua mente com a Palavra, rejeite mágoas e pensamentos negativos. Um coração puro nasce de uma mente renovada e focada em Deus diariamente.
+
+Liberar perdão traz cura ao coração. Deus nos perdoa para que também perdoemos, mesmo quando dói. O perdão liberta e abre espaço para a paz divina.
+
+Separe tempo para orar e ler a Bíblia. Cultivar um relacionamento diário com Deus fortalece o coração e o enche com sabedoria, fé e amor verdadeiro.
+
+Para orar:
+
+Senhor, dá-me um coração segundo o Teu, cheio de amor, perdão e fé. Ajuda-me a guardar meus pensamentos e sentimentos em Ti. Que eu Te busque todos os dias, com sinceridade e humildade, e que Tua presença habite em mim. Transforma meu coração para que eu viva conforme a Tua vontade. Amém.
+
+Veja também: O Poder da Fé: 4 versículos de como a fé move o coração de Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Que você ande em amor
 INFO:root:🔹 URL: https://www.bibliaon.com/os_dez_mandamentos/
 INFO:root:🔹 Description: E este é o amor: que andemos em obediência aos seus mandamentos. Como vocês já têm ouvido desde o princípio, o mandamento é este: Que vocês andem em amor.
@@ -300,8 +368,8 @@ Veja também: Versículos para encontrar ânimo em tempos difíceis
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 227187 characters
-INFO:root:HTML parsed, length: 225735 characters
+INFO:root:Response length: 227174 characters
+INFO:root:HTML parsed, length: 225722 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 25 URLs: ['/wiki/If_You_Had_My_Love', '/wiki/If_You_Had_My_Love', '/wiki/Jennifer_Lopez']
 INFO:root:Found 1 descriptions: ['"If You Had My Love" é uma canção da artista music']
@@ -334,8 +402,8 @@ Artigos bons: 1919
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 227187 characters
-INFO:root:HTML parsed, length: 225735 characters
+INFO:root:Response length: 227174 characters
+INFO:root:HTML parsed, length: 225722 characters
 INFO:root:Found 1 titles: ['6 de agosto na história']
 INFO:root:Found 56 URLs: ['/wiki/Ficheiro:Atomic_cloud_over_Hiroshima_-_NARA_542192_-_Edit.jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Bol%C3%ADvia']
 INFO:root:Found 1 descriptions: ['Little Boy explode sobre Hiroshima\nDia da Independ']
@@ -365,8 +433,8 @@ Ver mais • Outros dias: 4 • 5 • 6 • 7 • 8 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 227187 characters
-INFO:root:HTML parsed, length: 225735 characters
+INFO:root:Response length: 227174 characters
+INFO:root:HTML parsed, length: 225722 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:D%C3%BClmen,_Kirchspiel,_ehem._Sondermunitionslager_Visbeck,_Bunker_26_--_2024_--_5546-50.jpg']
 INFO:root:Found 1 descriptions: ['Entrada do abrigo subterrâneo 26, localizado no de']
@@ -404,30 +472,24 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  24 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  29 +++-
  feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  31 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  29 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 162 +++++-------
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  67 ++++++--
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   8 +-
- feeds/wikidestaque/feed.json              |   2 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 419 +++++++++++++++---------------
- 17 files changed, 374 insertions(+), 381 deletions(-)
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 277 +++++++++++++++++-------------
+ 14 files changed, 297 insertions(+), 181 deletions(-)
