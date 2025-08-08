@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119281 characters
-INFO:root:HTML parsed, length: 112371 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (07/08/2025)', 'Palavra de Ontem (06/08/2025)', 'Palavra de Anteontem (05/08/2025)']
-INFO:root:Found 3 URLs: ['/produzido/', '/belisco/', '/muscular/']
-INFO:root:Found 13 descriptions: ['adjetivo Que se produziu; que se conseguiu fazer, ', 'Sinônimos:\n\ngerado, feito, elaborado, realizado, c', 'Classe gramatical:adjetivo']
-INFO:root:Found 3 dates: ['Palavra de Hoje (07/08/2025)', 'Palavra de Ontem (06/08/2025)', 'Palavra de Anteontem (05/08/2025)']
+INFO:root:Response length: 119046 characters
+INFO:root:HTML parsed, length: 112136 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (08/08/2025)', 'Palavra de Ontem (07/08/2025)', 'Palavra de Anteontem (06/08/2025)']
+INFO:root:Found 3 URLs: ['/fracionavel/', '/produzido/', '/belisco/']
+INFO:root:Found 12 descriptions: ['adjetivo Que se consegue fracionar, dividir em fra', 'Sinônimos:\n\nfragmentável', 'Sílabas:fra-ci-o-ná-vel']
+INFO:root:Found 3 dates: ['Palavra de Hoje (08/08/2025)', 'Palavra de Ontem (07/08/2025)', 'Palavra de Anteontem (06/08/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (07/08/2025)', ID=ddb5cde14287c6a1f5d7c3c4fef01cd1
-INFO:root:Processing entry 2: Title='Palavra de Ontem (06/08/2025)', ID=ee11651339cec555ed957665e21f7dc0
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (05/08/2025)', ID=7a78fc33d6b5605d789cd150729a5d77
+INFO:root:Processing entry 1: Title='Palavra de Hoje (08/08/2025)', ID=48a2fe259db36ab713d9ae60af5dae68
+INFO:root:Processing entry 2: Title='Palavra de Ontem (07/08/2025)', ID=9ddca231d693c0f0905de6192cd5366b
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/08/2025)', ID=e6d558c7aa757d36e0879ad0c5c5b618
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (07/08/2025) - Significado completo de produzido:
+INFO:root:🔹 Title: Palavra de Hoje (08/08/2025) - Significado completo de fracionável:
+INFO:root:🔹 URL: https://www.dicio.com.br/fracionavel/
+INFO:root:🔹 Description: adjetivo Que se consegue fracionar, dividir em frações, em partes menores: medicamento fracionável.Etimologia (origem da palavra fracionável). Fracionar + vel.
+ 
+Sinônimos:
+
+fragmentável 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (07/08/2025) - Significado completo de produzido:
 INFO:root:🔹 URL: https://www.dicio.com.br/produzido/
-INFO:root:🔹 Description: adjetivo Que se produziu; que se conseguiu fazer, produzir, fabricar; feito, fabricado: produto produzido no Brasil.Que se apresenta de um modo diferente do habitual, por se vestir de acordo com a moda vigente e mais avançada; bem vestido, maquilhado.Resultado de uma ação; gerado, ocasionado: estrado produzido pelas chuvas.[Jurídico] Que se apresenta em juízo, para ser resolvido judicialmente.Etimologia (origem da palavra produzido). Particípio de produzir.
+INFO:root:🔹 Description: Sinônimos:
+
+fragmentável
+ Sílabas:fra-ci-o-ná-vel
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (06/08/2025) - Significado completo de belisco:
+INFO:root:🔹 URL: https://www.dicio.com.br/belisco/
+INFO:root:🔹 Description: Sílabas:fra-ci-o-ná-vel
  
 Sinônimos:
 
 gerado, feito, elaborado, realizado, cultivado, criado, engendrado, causado, provocado 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (06/08/2025) - Significado completo de belisco:
-INFO:root:🔹 URL: https://www.dicio.com.br/belisco/
-INFO:root:🔹 Description: Sinônimos:
-
-gerado, feito, elaborado, realizado, cultivado, criado, engendrado, causado, provocado
- Classe gramatical:adjetivo
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (05/08/2025) - Significado completo de muscular:
-INFO:root:🔹 URL: https://www.dicio.com.br/muscular/
-INFO:root:🔹 Description: Classe gramatical:adjetivo
- Sílabas:pro-du-zi-do
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,84 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 254893 characters
-INFO:root:HTML parsed, length: 244193 characters
-INFO:root:Found 1 titles: ['1 Coríntios 15:33']
-INFO:root:Found 1 URLs: ['/versiculo/1_corintios_15_33/']
-INFO:root:Found 1 descriptions: ['Não se deixem enganar: "As más companhias corrompe']
+INFO:root:Response length: 254844 characters
+INFO:root:HTML parsed, length: 244144 characters
+INFO:root:Found 1 titles: ['1 Crônicas 16:28']
+INFO:root:Found 1 URLs: ['/versiculo/1_cronicas_16_28/']
+INFO:root:Found 1 descriptions: ['Deem ao Senhor,\nó famílias das nações,\ndeem ao Sen']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Coríntios 15:33', ID=0d4deb65b635bfde3c521f9ea642db36
+INFO:root:Processing entry 1: Title='1 Crônicas 16:28', ID=a257d741a1cfc824eab762227e8cb795
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Coríntios 15:33
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_corintios_15_33/
-INFO:root:🔹 Description: Não se deixem enganar: "As más companhias corrompem os bons costumes". 1 Coríntios 15:33
+INFO:root:🔹 Title: 1 Crônicas 16:28
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_cronicas_16_28/
+INFO:root:🔹 Description: Deem ao Senhor,
+ó famílias das nações,
+deem ao Senhor glória e força! 1 Crônicas 16:28
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 256937 characters
-INFO:root:HTML parsed, length: 246982 characters
-INFO:root:Found 3 titles: ['Salmo 34', 'Salmo 73', 'Salmo 36']
-INFO:root:Found 3 URLs: ['/salmos_34/', '/salmos_73/', '/salmos_36/']
-INFO:root:Found 3 descriptions: ['Bendirei o Senhor o tempo todo!\nOs meus lábios sem', 'Certamente Deus é bom para Israel,\npara os puros d', 'Há no meu íntimo um oráculo\na respeito da maldade ']
-INFO:root:Found 3 dates: ['7 de Agosto de 2025', '6 de Agosto de 2025', '5 de Agosto de 2025']
+INFO:root:Response length: 257039 characters
+INFO:root:HTML parsed, length: 247092 characters
+INFO:root:Found 3 titles: ['Salmo 84', 'Salmo 34', 'Salmo 73']
+INFO:root:Found 3 URLs: ['/salmos_84/', '/salmos_34/', '/salmos_73/']
+INFO:root:Found 3 descriptions: ['Como é agradável o lugar da tua habitação,\nSenhor ', 'Bendirei o Senhor o tempo todo!\nOs meus lábios sem', 'Certamente Deus é bom para Israel,\npara os puros d']
+INFO:root:Found 3 dates: ['8 de Agosto de 2025', '7 de Agosto de 2025', '6 de Agosto de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 34', ID=5f5eca0bb8f7313a7526389f25305576
-INFO:root:Processing entry 2: Title=' Salmo 73', ID=05c2b68762e3d28ede5707659652f87c
-INFO:root:Processing entry 3: Title=' Salmo 36', ID=1b58fb6706721ad7c428d285ca780e23
+INFO:root:Processing entry 1: Title=' Salmo 84', ID=6970902c885cf7c9d72a121098125b5c
+INFO:root:Processing entry 2: Title=' Salmo 34', ID=5f5eca0bb8f7313a7526389f25305576
+INFO:root:Processing entry 3: Title=' Salmo 73', ID=05c2b68762e3d28ede5707659652f87c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 84
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_84/
+INFO:root:🔹 Description: Como é agradável o lugar da tua habitação,
+Senhor dos Exércitos! 
+A minha alma anela, e até desfalece,
+pelos átrios do Senhor;
+o meu coração e o meu corpo
+cantam de alegria ao Deus vivo. 
+Até o pardal achou um lar
+e a andorinha um ninho para si,
+para abrigar os seus filhotes,
+um lugar perto do teu altar,
+ó Senhor dos Exércitos, meu Rei e meu Deus. 
+Como são felizes
+os que habitam em tua casa;
+louvam-te sem cessar! 
+Como são felizes os que em ti
+encontram força
+e os que são peregrinos de coração! 
+Ao passarem pelo vale de Baca,
+fazem dele um lugar de fontes;
+as chuvas de outono
+também o enchem de cisternas. 
+Prosseguem o caminho de força em força,
+até que cada um se apresente a Deus em Sião. 
+Ouve a minha oração,
+ó Senhor Deus dos Exércitos;
+escuta-me, ó Deus de Jacó. 
+Olha, ó Deus, que és nosso escudo;
+trata com bondade o teu ungido. 
+Melhor é um dia nos teus átrios
+do que mil noutro lugar;
+prefiro ficar à porta da casa do meu Deus
+a habitar nas tendas dos ímpios. 
+O Senhor Deus é sol e escudo;
+o Senhor concede favor e honra;
+não recusa nenhum bem
+aos que vivem com integridade. 
+Ó Senhor dos Exércitos,
+como é feliz aquele que em ti confia! 
+ Salmo 84
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 34
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_34/
 INFO:root:🔹 Description: Bendirei o Senhor o tempo todo!
@@ -201,92 +249,81 @@ fiz do Soberano Senhor o meu refúgio;
 proclamarei todos os teus feitos. 
  Salmo 73
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 36
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_36/
-INFO:root:🔹 Description: Há no meu íntimo um oráculo
-a respeito da maldade do ímpio:
-Aos seus olhos é inútil temer a Deus. 
-Ele se acha tão importante,
-que não percebe nem rejeita o seu pecado. 
-As palavras da sua boca
-são maldosas e traiçoeiras;
-abandonou o bom senso e não quer fazer o bem. 
-Até na sua cama planeja maldade;
-nada há de bom no caminho a que se entregou,
-e ele nunca rejeita o mal. 
-O teu amor, Senhor, chega até os céus;
-a tua fidelidade até as nuvens. 
-A tua justiça é firme como as altas montanhas;
-as tuas decisões, insondáveis como o grande mar.
-Tu, Senhor, preservas
-tanto os homens quanto os animais. 
-Como é precioso o teu amor, ó Deus!
-Os homens encontram
-refúgio à sombra das tuas asas. 
-Eles se banqueteiam na fartura da tua casa;
-tu lhes dás de beber do teu rio de delícias. 
-Pois em ti está a fonte da vida;
-graças à tua luz, vemos a luz. 
-Estende o teu amor aos que te conhecem;
-a tua justiça, aos que são retos de coração. 
-Não permitas que o arrogante me pisoteie
-nem que a mão do ímpio me faça recuar. 
-Lá estão os malfeitores caídos,
-lançados ao chão, incapazes de levantar-se! 
- Salmo 36
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 257601 characters
-INFO:root:HTML parsed, length: 247295 characters
-INFO:root:Found 3 titles: ['Resista firme na fé', 'O que tenho te dou', 'De todos os mandamentos, qual é o mais importante?']
+INFO:root:Response length: 257682 characters
+INFO:root:HTML parsed, length: 247374 characters
+INFO:root:Found 3 titles: ['Sejamos como crianças', 'Resista firme na fé', 'O que tenho te dou']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Estejam alertas e vigiem. O Diabo, o inimigo de vo', 'Vendo que Pedro e João iam entrar no pátio do temp', 'Um dos mestres da lei aproximou-se e os ouviu disc']
-INFO:root:Found 1 dates: ['Quinta, 7 de agosto de 2025']
+INFO:root:Found 3 descriptions: ['Então disse Jesus: "Deixem vir a mim as crianças e', 'Estejam alertas e vigiem. O Diabo, o inimigo de vo', 'Vendo que Pedro e João iam entrar no pátio do temp']
+INFO:root:Found 1 dates: ['Sexta, 8 de agosto de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Resista firme na fé', ID=ca225ab0a9170860189d517c7c0ac355
+INFO:root:Processing entry 1: Title='Sejamos como crianças', ID=b367dcd310e7eee8da1f206bbb604253
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Resista firme na fé - Palavra de Hoje
+INFO:root:🔹 Title: Sejamos como crianças - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Estejam alertas e vigiem. O Diabo, o inimigo de vocês, anda ao redor como leão, rugindo e procurando a quem possa devorar. Resistam-lhe, permanecendo firmes na fé,
-- 1 Pedro 5:8-9a
+INFO:root:🔹 Description: Então disse Jesus: "Deixem vir a mim as crianças e não as impeçam; pois o Reino dos céus pertence aos que são semelhantes a elas".
+- Mateus 19:14
 
-Amamos a Deus, ansiamos por fazer a Sua vontade, vivemos para Ele, mas as tentações nunca deixam de aparecer, pois fazem parte da vida. No entanto, Deus já nos disse como podemos resistir: permanecendo firmes na fé. Quanto mais fortes estivermos no Senhor, mais preparados estaremos para enfrentar a tentação e vencê-la.
-Obtemos a força para vencer permanecendo vigilantes e orando até recebermos a força que vem de Deus.
+As crianças são especiais para Deus. Mas, se observarmos atentamente, perceberemos que a sociedade moderna, em vez de valorizar as crianças, as incentiva a crescer o mais rápido possível. A visão de Deus sobre as crianças é diferente: Ele as ama e as aceita como são. Ele se alegra em ver sua inocência, sua curiosidade e desejo de aprender, sua humildade em reconhecer seus erros.
+Em diferentes ocasiões, Jesus usou as crianças como um exemplo que devemos seguir se quisermos viver com Ele por toda a eternidade. De fato, o reino dos céus pertence àqueles que são como crianças. Portanto, em vez de rejeitar crianças, devemos acolhê-las, passar tempo com elas e aprender com elas. Receber uma criança com amor e aceitação é como acolher Jesus.
 
-Vigiem e orem para que não caiam em tentação.
-- Marcos 14:38a
+Ao ver as multidões, teve compaixão delas, porque estavam aflitas e desamparadas, como ovelhas sem pastor. Então disse aos seus discípulos: "A colheita é grande, mas os trabalhadores são poucos.
+- Mateus 9:36-37
 
-Estar vigilante é permanecer alerta sem baixar a guarda. Assim como uma sentinela permanece acordada à noite, atenta ao que acontece ao seu redor, devemos permanecer atentos aos movimentos sutis e enganosos do diabo. Enquanto estamos vigilantes, oramos pela presença de Deus. Oramos para que o Senhor Jesus nos ajude a permanecer fortes na fé e rejeitar o que não agrada a Deus. Permanecendo firmes n'Ele, venceremos.
-Nunca se esqueça de que você não está sozinho na luta. Jesus já derrotou o inimigo na cruz, e a vitória dele também é sua. Cada vez que você escolhe obedecer a Deus, mesmo quando a tentação parece intensa, você está dando um passo de fé que enfraquece o poder do inimigo sobre sua vida. A fé o levará a crer e confiar plenamente que Deus o sustentará, lhe dará uma saída e o fortalecerá para seguir em frente, sem recuar. Lembre-se de que a tentação é temporária, mas a fidelidade a Deus produz frutos eternos.
-Apegue-se às promessas de Deus, mesmo quando for difícil. Não desista! Use a Palavra como sua espada, permaneça firme na fé, sabendo que no fim da estrada há vitória, alegria e recompensa para aqueles que não desistem. Em Cristo, você é mais que vencedor. Portanto, levante os olhos, fortaleça o coração e prossiga: Deus está com você, e n'Ele você tem tudo o que precisa para perseverar e triunfar.
-Veja também: Versículos de como a fé move o coração de Deus
+Mas, além de acolher as crianças com amor, Deus nos chama a nos aproximarmos dEle, assim como as crianças se aproximam de alguém em quem confiam. É fácil para as crianças sentarem no colo da mãe ou do pai e se aconchegarem, sem medo de serem rejeitadas. É assim que devemos nos aproximar do nosso Pai Deus: com confiança, tranquilidade e a certeza de que Ele nos receberá em seus braços para nos dar seu amor, força e paz. 
+Aproxime-se de Deus hoje de todo o seu coração, com total confiança e a certeza de que Ele o ama, cuida de você e tem coisas boas para sua vida. Aproxime-se de Deus como se fosse uma criança, descanse em Seu colo e confie plenamente em Seu cuidado. Você experimentará um nível maravilhoso do Seu amor.
+Veja também: Versículos sobre coração de criança
  
-Estejam alertas e vigiem. O Diabo, o inimigo de vocês, anda ao redor como leão, rugindo e procurando a quem possa devorar. Resistam-lhe, permanecendo firmes na fé,
-- 1 Pedro 5:8-9a
+Então disse Jesus: "Deixem vir a mim as crianças e não as impeçam; pois o Reino dos céus pertence aos que são semelhantes a elas".
+- Mateus 19:14
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 267523 characters
-INFO:root:HTML parsed, length: 256977 characters
-INFO:root:Found 3 titles: ['Um coração com Deus', 'Que você ande em amor', 'Preparando-se para as tempestades']
-INFO:root:Found 3 URLs: ['/versiculos_poder_da_fe/', '/os_dez_mandamentos/', '/versiculos_de_animo_nas_dificuldades/']
-INFO:root:Found 3 descriptions: ['Acima de tudo, guarde o seu coração,\npois dele dep', 'E este é o amor: que andemos em obediência aos seu', '"Eu disse essas coisas para que em mim vocês tenha']
-INFO:root:Found 3 dates: ['AGOSTO\n\n7\nQUINTA', 'AGOSTO\n\n6\nQUARTA', 'AGOSTO\n\n5\nTERÇA']
+INFO:root:Response length: 267145 characters
+INFO:root:HTML parsed, length: 256602 characters
+INFO:root:Found 3 titles: ['Vivendo em paz com todos', 'Um coração com Deus', 'Que você ande em amor']
+INFO:root:Found 3 URLs: ['/acao_do_espirito_santo_na_vida/', '/versiculos_poder_da_fe/', '/os_dez_mandamentos/']
+INFO:root:Found 3 descriptions: ['Esforcem-se para viver em paz com todos e para ser', 'Acima de tudo, guarde o seu coração,\npois dele dep', 'E este é o amor: que andemos em obediência aos seu']
+INFO:root:Found 3 dates: ['AGOSTO\n\n8\nSEXTA', 'AGOSTO\n\n7\nQUINTA', 'AGOSTO\n\n6\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Um coração com Deus', ID=25468878551b50a32c64b62bdf4d67c6
-INFO:root:Processing entry 2: Title='Que você ande em amor', ID=c2c50297aa6e29c253d6b377c675a91a
-INFO:root:Processing entry 3: Title='Preparando-se para as tempestades', ID=77371213c229d76882ee0ea2e07287b2
+INFO:root:Processing entry 1: Title='Vivendo em paz com todos', ID=c580c5539726ac1c92dc8deb5bb3b256
+INFO:root:Processing entry 2: Title='Um coração com Deus', ID=25468878551b50a32c64b62bdf4d67c6
+INFO:root:Processing entry 3: Title='Que você ande em amor', ID=c2c50297aa6e29c253d6b377c675a91a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Vivendo em paz com todos
+INFO:root:🔹 URL: https://www.bibliaon.com/acao_do_espirito_santo_na_vida/
+INFO:root:🔹 Description: Esforcem-se para viver em paz com todos e para serem santos; sem santidade ninguém verá o Senhor.
+- Hebreus 12:14 
+
+Viver em paz com todos exige esforço, renúncia e um coração moldado pelo amor de Cristo. Em um mundo cheio de conflitos, egoísmo e divisões, ser um pacificador é um desafio, porém essencial para quem deseja refletir a luz de Deus. 
+O versículo de Hebreus 12:14 nos lembra que viver em paz não é uma opção, mas um esforço contínuo. Isso implica buscar o bem do outro, mesmo quando somos injustiçados. Significa perdoar, mesmo quando a ferida ainda dói. E sobretudo, significa cultivar a santidade, pois sem ela não veremos o Senhor. Santidade e paz caminham juntas. Um coração santo não guarda rancor, não alimenta contendas, mas busca reconciliar, curar e restaurar.
+Jesus, o Príncipe da Paz, é nosso maior exemplo. Ele nos ensinou a amar até os inimigos e a orar por aqueles que nos perseguem. Seguir seus passos é o caminho para viver em paz com todos. Ainda que nem sempre recebamos a mesma atitude em troca, o que importa é a nossa obediência ao chamado de Deus.
+Viver em paz com todos começa com atitudes diárias: palavras gentis, ouvidos atentos, gestos de compaixão. É uma semente que plantamos com fé, confiando que, no tempo certo, produzirá frutos de amor e reconciliação. Que possamos ser instrumentos de paz no mundo, refletindo a santidade de Deus em nossas relações.
+Atitudes para viver em paz com todos 
+
+
+Pratique o perdão: Perdoar é libertar o coração do peso do rancor. Jesus nos ensinou a perdoar setenta vezes sete, mostrando que o perdão deve ser constante e sincero.
+
+Seja manso e humilde de coração: A mansidão desarma conflitos e aproxima corações. A humildade evita contendas e nos torna semelhantes a Cristo, que mesmo sendo Rei, agiu com amor e simplicidade em todas as situações.
+
+Busque a reconciliação com sabedoria: A Bíblia nos orienta a resolver os conflitos antes que se agravem. Dialogar com sabedoria e ouvir com empatia são passos essenciais para construir a paz e manter relacionamentos saudáveis. 
+
+Para orar: 
+
+Senhor, ensina-me a viver em paz com todos. Dá-me um coração manso, humilde e disposto a perdoar. Que eu seja instrumento do Teu amor, promovendo a reconciliação e a unidade. Ajuda-me a refletir Tua santidade em minhas atitudes diárias. Que a Tua paz governe meu coração em todo tempo. Amém. 
+
+Veja também: O poder do Espírito Santo em nossas vidas (Estudo Bíblico)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Um coração com Deus
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_poder_da_fe/
 INFO:root:🔹 Description: Acima de tudo, guarde o seu coração,
@@ -338,41 +375,13 @@ Senhor, ensina-me a andar em Teu amor com obediência. Que minha vida reflita Te
 
 Veja também: Os Dez Mandamentos da Lei de Deus (explicados segundo a Bíblia)
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Preparando-se para as tempestades
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_de_animo_nas_dificuldades/
-INFO:root:🔹 Description: "Eu disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo".
-- João 16:33
-
-As tempestades da vida são inevitáveis. Jesus não prometeu ausência de lutas, mas garantiu Sua presença em meio a elas. Quando entendemos isso, nosso foco muda: em vez de temer as tempestades, começamos a nos preparar para enfrentá-las com fé e confiança.
-Preparar-se espiritualmente é como construir uma casa sobre a rocha, como ensinou Jesus em Mateus 7:24-25:
-
-"Portanto, quem ouve estas minhas palavras e as pratica é como um homem prudente que construiu a sua casa sobre a rocha. Caiu a chuva, transbordaram os rios, sopraram os ventos e deram contra aquela casa, e ela não caiu, porque tinha seus alicerces na rocha.
-- Mateus 7:24-25
-
-Aquele que ouve e pratica a Palavra está firmando sua vida sobre uma base sólida, que resiste aos ventos e enchentes. Quando oramos, lemos a Bíblia e buscamos a Deus diariamente, estamos fortalecendo nosso espírito para suportar os dias maus.
-Outra parte essencial da preparação é confiar que Deus está no controle. Às vezes, Ele acalma a tempestade; outras vezes, acalma o nosso coração no meio dela. Em ambas as situações, Seu propósito é nos moldar, nos amadurecer e revelar Sua fidelidade. As provações não vêm para nos destruir, mas para nos fazer crescer.
-Também é importante lembrar que não estamos sozinhos. A comunhão com outros cristãos nos fortalece, nos encoraja e nos lembra das promessas de Deus. Em tempos difíceis, Deus muitas vezes usa pessoas para ser Suas mãos estendidas.
-Mantenha seus olhos em Jesus. Pedro andou sobre as águas enquanto olhava para o Senhor, mas começou a afundar quando olhou para a tempestade. Nossa segurança não está na ausência do caos, mas na presença do Salvador.
-Prepare-se hoje, com fé e obediência. Quando a tempestade chegar, você estará firme, sustentado por Aquele que venceu o mundo.
-Fortalecendo-se em Deus
-
-Dedique tempo à oração, leitura e meditação na Palavra. Assim, você constrói uma fé sólida que resiste às adversidades e te mantém firme quando as tempestades da vida surgirem.
-Lembre-se de que Deus está no controle, mesmo quando tudo parece incerto. Ele usa as tempestades para te fortalecer, amadurecer e revelar Sua fidelidade em meio às situações mais difíceis.
-Participe ativamente na igreja e compartilhe suas lutas. A comunhão fortalece, consola e renova a esperança, lembrando que você não está sozinho nas batalhas da vida.
-
-Para orar:
-
-Senhor, fortalece minha fé nas tempestades. Ensina-me a confiar em Ti mesmo quando tudo parecer incerto. Que Tua paz me sustente, Tua Palavra me guie e Tua presença me acompanhe todos os dias. Em nome de Jesus, amém.
-
-Veja também: Versículos para encontrar ânimo em tempos difíceis
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 227174 characters
-INFO:root:HTML parsed, length: 225722 characters
+INFO:root:Response length: 226532 characters
+INFO:root:HTML parsed, length: 225137 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 25 URLs: ['/wiki/If_You_Had_My_Love', '/wiki/If_You_Had_My_Love', '/wiki/Jennifer_Lopez']
-INFO:root:Found 1 descriptions: ['"If You Had My Love" é uma canção da artista music']
+INFO:root:Found 30 URLs: ['/wiki/Artur_Bernardes', '/wiki/Artur_Bernardes', '/wiki/Lista_de_governadores_de_Minas_Gerais']
+INFO:root:Found 1 descriptions: ['Artur da Silva Bernardes foi um advogado e polític']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -382,14 +391,15 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/If_You_Had_My_Love
-INFO:root:🔹 Description: "If You Had My Love" é uma canção da artista musical estadunidense Jennifer Lopez (imagem), contida em seu álbum de estreia On the 6 (1999). Foi composta e produzida por Rodney Jerkins, com escrita adicional por LaShawn Daniels e Cory Rooney. Inspirada a iniciar uma carreira musical após interpretar Selena em sua cinebiografia, Lopez gravou uma demo em espanhol e iniciou as gravações de seu primeiro disco após ser contratada pela Work Group, com o presidente Tommy Mottola incentivando-a a priorizar o inglês. Inicialmente, a canção estava inclusa em um CD de sons instrumentais que seria enviado ao cantor Michael Jackson, mas ele se recusou a gravá-la, dizendo que "If You Had My Love" ficaria melhor adequada na voz de uma cantora. Uma história diferente, no entanto, foi publicada pelo jornalista Damien Shields em 2015, que afirmou que Lopez já teria gravado o tema quando Jackson o ouviu. (Artigo completo...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Artur_Bernardes
+INFO:root:🔹 Description: Artur da Silva Bernardes foi um advogado e político brasileiro. Foi o 12.º presidente de Minas Gerais de 1918 a 1922 e o 12.º presidente do Brasil entre 15 de novembro de 1922 e 15 de novembro de 1926. Seu período na administração nacional foi de crise da Primeira República e vigência quase ininterrupta do estado de sítio. Na sua longa carreira política, de 1905 até sua morte, ele foi o principal líder do Partido Republicano Mineiro (PRM) de 1918–1922 até a extinção da agremiação, e fundador e líder do Partido Republicano (PR). Sua ideologia, o "bernardismo", era identificada pelo cravo vermelho.
+Como presidente (governador) de Minas Gerais, fundou a atual Universidade Federal de Viçosa e impediu o investidor americano Percival Farquhar de explorar as jazidas de minério de ferro de Itabira, cultivando uma imagem de nacionalista e municipalista. Candidato situacionista e "café com leite" na eleição presidencial de 1922, foi alvo de cartas falsas e uma tentativa de golpe para impedir sua posse, a Revolta dos 18 do Forte. (Artigo completo...)
 
 
 Destacados recentemente: 
+If You Had My Love
 Estado de sítio no Brasil (1922–1927)
 Lisa Su
-Dreamsnake
 
 
 
@@ -402,44 +412,42 @@ Artigos bons: 1919
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 227174 characters
-INFO:root:HTML parsed, length: 225722 characters
-INFO:root:Found 1 titles: ['6 de agosto na história']
-INFO:root:Found 56 URLs: ['/wiki/Ficheiro:Atomic_cloud_over_Hiroshima_-_NARA_542192_-_Edit.jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Bol%C3%ADvia']
-INFO:root:Found 1 descriptions: ['Little Boy explode sobre Hiroshima\nDia da Independ']
+INFO:root:Response length: 226532 characters
+INFO:root:HTML parsed, length: 225137 characters
+INFO:root:Found 1 titles: ['8 de agosto na história']
+INFO:root:Found 43 URLs: ['/wiki/Ficheiro:Maszt_radiowy_w_Konstantynowie.jpg', '/wiki/1876', '/wiki/Thomas_Edison']
+INFO:root:Found 1 descriptions: ['Torre de rádio de Varsóvia\n1876 – Thomas Edison re']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='6 de agosto na história', ID=7e82f619da6f06b68d7b8ce49b08628d
+INFO:root:Processing entry 1: Title='8 de agosto na história', ID=30d86f758d51b8e4232d8a733af01ee0
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 6 de agosto na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Atomic_cloud_over_Hiroshima_-_NARA_542192_-_Edit.jpg
-INFO:root:🔹 Description: Little Boy explode sobre Hiroshima
-Dia da Independência da Bolívia (1825) e da Jamaica (1962)
-
-1945 – Segunda Guerra Mundial: Hiroshima, no Império do Japão, é devastada quando a bomba atômica "Little Boy" é lançada (imagem da nuvem de cogumelo) pelo bombardeiro B-29 Enola Gay dos Estados Unidos.
-1996 – A NASA anuncia que o meteorito ALH 84001, que se acredita originar de Marte, contém evidências de formas de vida primitivas.
-1997 – O voo Korean Air 801 cai em Nimitz Hill, Guam, um território não incorporado dos Estados Unidos, matando 228 das 254 pessoas a bordo.
+INFO:root:🔹 Title: 8 de agosto na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Maszt_radiowy_w_Konstantynowie.jpg
+INFO:root:🔹 Description: Torre de rádio de Varsóvia
+1876 – Thomas Edison recebe a patente de seu mimeógrafo.
+1991 – Ocorre o colapso da Torre de rádio de Varsóvia (imagem), a maior estrutura até então construída.
+2023 – Incêndios florestais se iniciam na ilha de Maui, Havaí, Estados Unidos, matando mais de 100 pessoas e deixando prejuízos de quase 6 bilhões de dólares.
 Nasceram neste dia…
-Alexander Fleming (1881–1955)  •  Adoniran Barbosa (1910–1982)  •  Andy Warhol (1928–1987)  •  Ana Malhoa (n. 1979)
+Artur Bernardes (1875–1955)  •  Dino De Laurentiis (1919–2010)  •  Dustin Hoffman (n. 1937)  •  Roger Federer (n. 1981)
 Morreram neste dia…
-Domingos de Gusmão (1170–1221)  •  Diego Velázquez (1599–1660)  •  Jorge Amado (1912–2001)  •  Roberto Marinho (1904–2003)
+Alonso Sánchez Coello (1531–1588)  •  Carl Peter Thunberg (1743–1828)  •  Raul Solnado (1929–2009)  •  Olivia Newton-John (1940–2022)
 
 
-Ver mais • Outros dias: 4 • 5 • 6 • 7 • 8 • Ver todos
+Ver mais • Outros dias: 6 • 7 • 8 • 9 • 10 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 227174 characters
-INFO:root:HTML parsed, length: 225722 characters
+INFO:root:Response length: 226532 characters
+INFO:root:HTML parsed, length: 225137 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:D%C3%BClmen,_Kirchspiel,_ehem._Sondermunitionslager_Visbeck,_Bunker_26_--_2024_--_5546-50.jpg']
-INFO:root:Found 1 descriptions: ['Entrada do abrigo subterrâneo 26, localizado no de']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Kom%C3%A9ta_C-2020_F3_(NEOWISE).jpg']
+INFO:root:Found 1 descriptions: ['Cometa C/2020 F3 (NEOWISE) fotografado em 15 de ag']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/D%C3%BClmen%2C_Kirchspiel%2C_ehem._Sondermunitionslager_Visbeck%2C_Bunker_26_--_2024_--_5546-50.jpg/960px-D%C3%BClmen%2C_Kirchspiel%2C_ehem._Sondermunitionslager_Visbeck%2C_Bunker_26_--_2024_--_5546-50.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg/960px-Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -448,15 +456,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:D%C3%BClmen,_Kirchspiel,_ehem._Sondermunitionslager_Visbeck,_Bunker_26_--_2024_--_5546-50.jpg
-INFO:root:🔹 Description: Entrada do abrigo subterrâneo 26, localizado no depósito de munições especiais de Dülmen-Visbeck, situado em Kirchspiel Dülmen, Renânia do Norte-Vestfália, Alemanha. O depósito foi construído no âmbito do programa de compartilhamento nuclear da OTAN.
-(resolução original: 6 296 × 4 197)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Kom%C3%A9ta_C-2020_F3_(NEOWISE).jpg
+INFO:root:🔹 Description: Cometa C/2020 F3 (NEOWISE) fotografado em 15 de agosto de 2020 em Konská, distrito de Žilina, na Eslováquia. Foi o cometa mais brilhante visível no hemisfério norte desde a passagem do cometa Hale-Bopp em 1997, sendo seu brilho superado em 2024 pelo cometa C/2023 A3 (Tsuchinshan–ATLAS).
+(resolução original: 6 000 × 4 432)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/D%C3%BClmen%2C_Kirchspiel%2C_ehem._Sondermunitionslager_Visbeck%2C_Bunker_26_--_2024_--_5546-50.jpg/960px-D%C3%BClmen%2C_Kirchspiel%2C_ehem._Sondermunitionslager_Visbeck%2C_Bunker_26_--_2024_--_5546-50.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg/960px-Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -472,24 +480,30 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
+ M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  29 +++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  29 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 ++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  23 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  67 ++++++--
+ feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               |  74 ++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 277 +++++++++++++++++-------------
- 14 files changed, 297 insertions(+), 181 deletions(-)
+ feeds/wikidestaque/atom.xml               |   7 +-
+ feeds/wikidestaque/feed.json              |   4 +-
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 350 +++++++++++++++---------------
+ 17 files changed, 315 insertions(+), 311 deletions(-)
