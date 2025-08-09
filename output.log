@@ -1,44 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119046 characters
-INFO:root:HTML parsed, length: 112136 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (08/08/2025)', 'Palavra de Ontem (07/08/2025)', 'Palavra de Anteontem (06/08/2025)']
-INFO:root:Found 3 URLs: ['/fracionavel/', '/produzido/', '/belisco/']
-INFO:root:Found 12 descriptions: ['adjetivo Que se consegue fracionar, dividir em fra', 'Sinônimos:\n\nfragmentável', 'Sílabas:fra-ci-o-ná-vel']
-INFO:root:Found 3 dates: ['Palavra de Hoje (08/08/2025)', 'Palavra de Ontem (07/08/2025)', 'Palavra de Anteontem (06/08/2025)']
+INFO:root:Response length: 119366 characters
+INFO:root:HTML parsed, length: 112456 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (09/08/2025)', 'Palavra de Ontem (08/08/2025)', 'Palavra de Anteontem (07/08/2025)']
+INFO:root:Found 3 URLs: ['/pastor/', '/fracionavel/', '/produzido/']
+INFO:root:Found 12 descriptions: ['substantivo masculino Aquele cujo ofício consiste ', 'Sinônimos:\n\nadueiro, armentário, conhecedor, pegur', 'Classe gramatical:adjetivo e substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (09/08/2025)', 'Palavra de Ontem (08/08/2025)', 'Palavra de Anteontem (07/08/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (08/08/2025)', ID=48a2fe259db36ab713d9ae60af5dae68
-INFO:root:Processing entry 2: Title='Palavra de Ontem (07/08/2025)', ID=9ddca231d693c0f0905de6192cd5366b
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/08/2025)', ID=e6d558c7aa757d36e0879ad0c5c5b618
+INFO:root:Processing entry 1: Title='Palavra de Hoje (09/08/2025)', ID=e59a67e34f5bd855a0aa75c68b222508
+INFO:root:Processing entry 2: Title='Palavra de Ontem (08/08/2025)', ID=15f77a790b408503a1a42473e1d0b8d0
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/08/2025)', ID=61c62bca31d2955bb08dd19647522584
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (08/08/2025) - Significado completo de fracionável:
-INFO:root:🔹 URL: https://www.dicio.com.br/fracionavel/
-INFO:root:🔹 Description: adjetivo Que se consegue fracionar, dividir em frações, em partes menores: medicamento fracionável.Etimologia (origem da palavra fracionável). Fracionar + vel.
+INFO:root:🔹 Title: Palavra de Hoje (09/08/2025) - Significado completo de pastor:
+INFO:root:🔹 URL: https://www.dicio.com.br/pastor/
+INFO:root:🔹 Description: substantivo masculino Aquele cujo ofício consiste em guiar os animais no pasto.[Religião] Indivíduo que, no protestantismo, é nomeado por uma comunidade, para trabalhar como orientador espiritual.[Religião] Guia espiritual; sacerdote entre os protestantes.adjetivo Que por natureza guarda e protege os rebanhos, falando de uma raça canina.Que possui modos de vida de pastor: sociedades pastoras.expressão Pastor Alemão. Cão que, de origem Alemã, possui a pelagem cinza, preta ou amarelada, geralmente treinado como cão policial.Etimologia (origem da palavra pastor). A palavra pastor deriva do latim "pastor,oris", com o sentido de guia de rebanhos no pasto.
  
 Sinônimos:
 
-fragmentável 
+adueiro, armentário, conhecedor, pegureiro, rabadão 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (07/08/2025) - Significado completo de produzido:
-INFO:root:🔹 URL: https://www.dicio.com.br/produzido/
+INFO:root:🔹 Title: Palavra de Ontem (08/08/2025) - Significado completo de fracionável:
+INFO:root:🔹 URL: https://www.dicio.com.br/fracionavel/
 INFO:root:🔹 Description: Sinônimos:
 
-fragmentável
- Sílabas:fra-ci-o-ná-vel
+adueiro, armentário, conhecedor, pegureiro, rabadão
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (06/08/2025) - Significado completo de belisco:
-INFO:root:🔹 URL: https://www.dicio.com.br/belisco/
-INFO:root:🔹 Description: Sílabas:fra-ci-o-ná-vel
- 
-Sinônimos:
-
-gerado, feito, elaborado, realizado, cultivado, criado, engendrado, causado, provocado 
-
+INFO:root:🔹 Title: Palavra de Anteontem (07/08/2025) - Significado completo de produzido:
+INFO:root:🔹 URL: https://www.dicio.com.br/produzido/
+INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
+ Sílabas:pas-tor
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,42 +42,76 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 254844 characters
-INFO:root:HTML parsed, length: 244144 characters
-INFO:root:Found 1 titles: ['1 Crônicas 16:28']
-INFO:root:Found 1 URLs: ['/versiculo/1_cronicas_16_28/']
-INFO:root:Found 1 descriptions: ['Deem ao Senhor,\nó famílias das nações,\ndeem ao Sen']
+INFO:root:Response length: 255006 characters
+INFO:root:HTML parsed, length: 244306 characters
+INFO:root:Found 1 titles: ['2 Timóteo 3:16-17']
+INFO:root:Found 1 URLs: ['/versiculo/2_timoteo_3_16-17/']
+INFO:root:Found 1 descriptions: ['Toda a Escritura é inspirada por Deus e útil para ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Crônicas 16:28', ID=a257d741a1cfc824eab762227e8cb795
+INFO:root:Processing entry 1: Title='2 Timóteo 3:16-17', ID=bfb889482308484d40e914ea904566af
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Crônicas 16:28
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_cronicas_16_28/
-INFO:root:🔹 Description: Deem ao Senhor,
-ó famílias das nações,
-deem ao Senhor glória e força! 1 Crônicas 16:28
+INFO:root:🔹 Title: 2 Timóteo 3:16-17
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_timoteo_3_16-17/
+INFO:root:🔹 Description: Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção e para a instrução na justiça, para que o homem de Deus seja apto e plenamente preparado para toda boa obra. 2 Timóteo 3:16-17
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 257039 characters
-INFO:root:HTML parsed, length: 247092 characters
-INFO:root:Found 3 titles: ['Salmo 84', 'Salmo 34', 'Salmo 73']
-INFO:root:Found 3 URLs: ['/salmos_84/', '/salmos_34/', '/salmos_73/']
-INFO:root:Found 3 descriptions: ['Como é agradável o lugar da tua habitação,\nSenhor ', 'Bendirei o Senhor o tempo todo!\nOs meus lábios sem', 'Certamente Deus é bom para Israel,\npara os puros d']
-INFO:root:Found 3 dates: ['8 de Agosto de 2025', '7 de Agosto de 2025', '6 de Agosto de 2025']
+INFO:root:Response length: 255730 characters
+INFO:root:HTML parsed, length: 245766 characters
+INFO:root:Found 3 titles: ['Salmo 58', 'Salmo 84', 'Salmo 34']
+INFO:root:Found 3 URLs: ['/salmos_58/', '/salmos_84/', '/salmos_34/']
+INFO:root:Found 3 descriptions: ['Será que vocês, poderosos,\nfalam de fato com justi', 'Como é agradável o lugar da tua habitação,\nSenhor ', 'Bendirei o Senhor o tempo todo!\nOs meus lábios sem']
+INFO:root:Found 3 dates: ['9 de Agosto de 2025', '8 de Agosto de 2025', '7 de Agosto de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 84', ID=6970902c885cf7c9d72a121098125b5c
-INFO:root:Processing entry 2: Title=' Salmo 34', ID=5f5eca0bb8f7313a7526389f25305576
-INFO:root:Processing entry 3: Title=' Salmo 73', ID=05c2b68762e3d28ede5707659652f87c
+INFO:root:Processing entry 1: Title=' Salmo 58', ID=c3de58459c0a31c5cccf9bc9ee41f475
+INFO:root:Processing entry 2: Title=' Salmo 84', ID=6970902c885cf7c9d72a121098125b5c
+INFO:root:Processing entry 3: Title=' Salmo 34', ID=5f5eca0bb8f7313a7526389f25305576
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 58
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_58/
+INFO:root:🔹 Description: Será que vocês, poderosos,
+falam de fato com justiça?
+Será que vocês, homens, julgam retamente? 
+Não! No coração vocês tramam a injustiça,
+e na terra as suas mãos espalham a violência. 
+Os ímpios erram o caminho desde o ventre;
+desviam-se os mentirosos desde que nascem. 
+Seu veneno é como veneno de serpente;
+tapam os ouvidos,
+como a cobra que se faz de surda 
+para não ouvir a música dos encantadores,
+que fazem encantamentos com tanta habilidade. 
+Quebra os dentes deles, ó Deus;
+arranca, Senhor, as presas desses leões! 
+Desapareçam como a água que escorre!
+Quando empunharem o arco,
+caiam sem força as suas flechas! 
+Sejam como a lesma
+que se derrete pelo caminho;
+como feto abortado, não vejam eles o sol! 
+Os ímpios serão varridos
+antes que as suas panelas
+sintam o calor da lenha,
+esteja ela verde ou seca. 
+Os justos se alegrarão quando forem vingados,
+quando banharem seus pés
+no sangue dos ímpios. 
+Então os homens comentarão:
+"De fato os justos
+têm a sua recompensa;
+com certeza há um Deus
+que faz justiça na terra". 
+ Salmo 58
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 84
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_84/
 INFO:root:🔹 Description: Como é agradável o lugar da tua habitação,
@@ -179,127 +209,79 @@ O Senhor redime a vida dos seus servos;
 ninguém que nele se refugia será condenado. 
  Salmo 34
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 73
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_73/
-INFO:root:🔹 Description: Certamente Deus é bom para Israel,
-para os puros de coração. 
-Quanto a mim, os meus pés quase tropeçaram;
-por pouco não escorreguei. 
-Pois tive inveja dos arrogantes
-quando vi a prosperidade desses ímpios. 
-Eles não passam por sofrimento
-e têm o corpo saudável e forte. 
-Estão livres dos fardos de todos;
-não são atingidos por doenças
-como os outros homens. 
-Por isso o orgulho lhes serve de colar,
-e eles se vestem de violência. 
-Do seu íntimo brota a maldade;
-da sua mente transbordam maquinações. 
-Eles zombam e falam com más intenções;
-em sua arrogância ameaçam com opressão. 
-Com a boca arrogam a si os céus,
-e com a língua se apossam da terra. 
-Por isso o seu povo se volta para eles
-e bebe suas palavras até saciar-se. 
-Eles dizem: "Como saberá Deus?
-Terá conhecimento o Altíssimo?" 
-Assim são os ímpios;
-sempre despreocupados,
-aumentam suas riquezas. 
-Certamente me foi inútil
-manter puro o coração
-e lavar as mãos na inocência, 
-pois o dia inteiro sou afligido,
-e todas as manhãs sou castigado. 
-Se eu tivesse dito: "Falarei como eles",
-teria traído os teus filhos. 
-Quando tentei entender tudo isso,
-achei muito difícil para mim, 
-até que entrei no santuário de Deus,
-e então compreendi o destino dos ímpios. 
-Certamente os pões em terreno escorregadio
-e os fazes cair na ruína. 
-Como são destruídos de repente,
-completamente tomados de pavor! 
-São como um sonho
-que se vai quando acordamos;
-quando te levantares, Senhor,
-tu os farás desaparecer. 
-Quando o meu coração estava amargurado
-e no íntimo eu sentia inveja, 
-agi como insensato e ignorante;
-minha atitude para contigo
-era a de um animal irracional. 
-Contudo, sempre estou contigo;
-tomas a minha mão direita e me susténs. 
-Tu me diriges com o teu conselho,
-e depois me receberás com honras. 
-A quem tenho nos céus senão a ti?
-E, na terra, nada mais desejo
-além de estar junto a ti. 
-O meu corpo e o meu coração
-poderão fraquejar,
-mas Deus é a força do meu coração
-e a minha herança para sempre. 
-Os que te abandonam sem dúvida perecerão;
-tu destróis todos os infiéis. 
-Mas, para mim, bom é estar perto de Deus;
-fiz do Soberano Senhor o meu refúgio;
-proclamarei todos os teus feitos. 
- Salmo 73
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 257682 characters
-INFO:root:HTML parsed, length: 247374 characters
-INFO:root:Found 3 titles: ['Sejamos como crianças', 'Resista firme na fé', 'O que tenho te dou']
+INFO:root:Response length: 257500 characters
+INFO:root:HTML parsed, length: 247187 characters
+INFO:root:Found 3 titles: ['O amanhã pertence a Deus', 'Sejamos como crianças', 'Resista firme na fé']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Então disse Jesus: "Deixem vir a mim as crianças e', 'Estejam alertas e vigiem. O Diabo, o inimigo de vo', 'Vendo que Pedro e João iam entrar no pátio do temp']
-INFO:root:Found 1 dates: ['Sexta, 8 de agosto de 2025']
+INFO:root:Found 3 descriptions: ['Portanto, não se preocupem com o amanhã, pois o am', 'Então disse Jesus: "Deixem vir a mim as crianças e', 'Estejam alertas e vigiem. O Diabo, o inimigo de vo']
+INFO:root:Found 1 dates: ['Sábado, 9 de agosto de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Sejamos como crianças', ID=b367dcd310e7eee8da1f206bbb604253
+INFO:root:Processing entry 1: Title='O amanhã pertence a Deus', ID=8c7a97cf3f5751372887a4f7c38b8c52
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Sejamos como crianças - Palavra de Hoje
+INFO:root:🔹 Title: O amanhã pertence a Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Então disse Jesus: "Deixem vir a mim as crianças e não as impeçam; pois o Reino dos céus pertence aos que são semelhantes a elas".
-- Mateus 19:14
+INFO:root:🔹 Description: Portanto, não se preocupem com o amanhã, pois o amanhã trará as suas próprias preocupações. Basta a cada dia o seu próprio mal.
+- Mateus 6:34
 
-As crianças são especiais para Deus. Mas, se observarmos atentamente, perceberemos que a sociedade moderna, em vez de valorizar as crianças, as incentiva a crescer o mais rápido possível. A visão de Deus sobre as crianças é diferente: Ele as ama e as aceita como são. Ele se alegra em ver sua inocência, sua curiosidade e desejo de aprender, sua humildade em reconhecer seus erros.
-Em diferentes ocasiões, Jesus usou as crianças como um exemplo que devemos seguir se quisermos viver com Ele por toda a eternidade. De fato, o reino dos céus pertence àqueles que são como crianças. Portanto, em vez de rejeitar crianças, devemos acolhê-las, passar tempo com elas e aprender com elas. Receber uma criança com amor e aceitação é como acolher Jesus.
-
-Ao ver as multidões, teve compaixão delas, porque estavam aflitas e desamparadas, como ovelhas sem pastor. Então disse aos seus discípulos: "A colheita é grande, mas os trabalhadores são poucos.
-- Mateus 9:36-37
-
-Mas, além de acolher as crianças com amor, Deus nos chama a nos aproximarmos dEle, assim como as crianças se aproximam de alguém em quem confiam. É fácil para as crianças sentarem no colo da mãe ou do pai e se aconchegarem, sem medo de serem rejeitadas. É assim que devemos nos aproximar do nosso Pai Deus: com confiança, tranquilidade e a certeza de que Ele nos receberá em seus braços para nos dar seu amor, força e paz. 
-Aproxime-se de Deus hoje de todo o seu coração, com total confiança e a certeza de que Ele o ama, cuida de você e tem coisas boas para sua vida. Aproxime-se de Deus como se fosse uma criança, descanse em Seu colo e confie plenamente em Seu cuidado. Você experimentará um nível maravilhoso do Seu amor.
-Veja também: Versículos sobre coração de criança
+Vivemos em um tempo onde a ansiedade e o medo do futuro são companhias constantes para muitas pessoas. O desejo de controlar o que está por vir, de garantir segurança e estabilidade, nos leva, muitas vezes, a esquecer de uma verdade fundamental: o amanhã pertence a Deus.
+Jesus nos ensina que a preocupação excessiva com o dia de amanhã não nos acrescenta nada. Pelo contrário, ela rouba a paz do presente, nos impede de viver com gratidão e fé. Deus, que criou todas as coisas e sustenta o universo com Seu poder, também cuida de cada detalhe da nossa vida.
+Quando colocamos nossa confiança em Deus, entendemos que não precisamos ter todas as respostas, nem controlar cada situação. O Senhor já está no amanhã, preparando o caminho, guiando nossos passos e trabalhando em nosso favor, mesmo quando não conseguimos ver.
+A Bíblia está repleta de promessas que nos garantem que Deus é fiel, que Ele nunca nos abandona e que Seus planos são maiores e melhores que os nossos. Por isso, ao invés de sermos consumidos pela ansiedade, somos chamados a descansar n'Ele, a orar, a confiar e a viver cada dia com fé.
+Que entreguemos o amanhã nas mãos de Deus, certos de que Ele cuida de nós com amor. O amanhã não nos pertence, pertence Àquele que tudo pode, tudo vê e tudo governa.
+Confie. O amanhã está seguro nas mãos de Deus!
+Veja também: 7 razões para confiar em Deus
  
-Então disse Jesus: "Deixem vir a mim as crianças e não as impeçam; pois o Reino dos céus pertence aos que são semelhantes a elas".
-- Mateus 19:14
+Portanto, não se preocupem com o amanhã, pois o amanhã trará as suas próprias preocupações. Basta a cada dia o seu próprio mal.
+- Mateus 6:34
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 267145 characters
-INFO:root:HTML parsed, length: 256602 characters
-INFO:root:Found 3 titles: ['Vivendo em paz com todos', 'Um coração com Deus', 'Que você ande em amor']
-INFO:root:Found 3 URLs: ['/acao_do_espirito_santo_na_vida/', '/versiculos_poder_da_fe/', '/os_dez_mandamentos/']
-INFO:root:Found 3 descriptions: ['Esforcem-se para viver em paz com todos e para ser', 'Acima de tudo, guarde o seu coração,\npois dele dep', 'E este é o amor: que andemos em obediência aos seu']
-INFO:root:Found 3 dates: ['AGOSTO\n\n8\nSEXTA', 'AGOSTO\n\n7\nQUINTA', 'AGOSTO\n\n6\nQUARTA']
+INFO:root:Response length: 267160 characters
+INFO:root:HTML parsed, length: 256617 characters
+INFO:root:Found 3 titles: ['O Espírito Santo acalma o corpo e a mente', 'Vivendo em paz com todos', 'Um coração com Deus']
+INFO:root:Found 3 URLs: ['/acao_do_espirito_santo_na_vida/', '/acao_do_espirito_santo_na_vida/', '/versiculos_poder_da_fe/']
+INFO:root:Found 3 descriptions: ['Deixo a paz a vocês; a minha paz dou a vocês. Não ', 'Esforcem-se para viver em paz com todos e para ser', 'Acima de tudo, guarde o seu coração,\npois dele dep']
+INFO:root:Found 3 dates: ['AGOSTO\n\n9\nSÁBADO', 'AGOSTO\n\n8\nSEXTA', 'AGOSTO\n\n7\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Vivendo em paz com todos', ID=c580c5539726ac1c92dc8deb5bb3b256
-INFO:root:Processing entry 2: Title='Um coração com Deus', ID=25468878551b50a32c64b62bdf4d67c6
-INFO:root:Processing entry 3: Title='Que você ande em amor', ID=c2c50297aa6e29c253d6b377c675a91a
+INFO:root:Processing entry 1: Title='O Espírito Santo acalma o corpo e a mente', ID=eac077b70b7d22cd62fc53e44cbcf9b4
+INFO:root:Processing entry 2: Title='Vivendo em paz com todos', ID=c580c5539726ac1c92dc8deb5bb3b256
+INFO:root:Processing entry 3: Title='Um coração com Deus', ID=25468878551b50a32c64b62bdf4d67c6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O Espírito Santo acalma o corpo e a mente
+INFO:root:🔹 URL: https://www.bibliaon.com/acao_do_espirito_santo_na_vida/
+INFO:root:🔹 Description: Deixo a paz a vocês; a minha paz dou a vocês. Não a dou como o mundo a dá. Não se perturbe o seu coração, nem tenham medo.
+- João 14:27
+
+O Espírito Santo é a presença viva de Deus que habita em nós. Em momentos de tribulação, ansiedade ou confusão mental, Ele se manifesta como um bálsamo que acalma o coração e renova as forças. Enquanto o mundo oferece soluções superficiais para o sofrimento, o Espírito Santo age profundamente, trazendo verdadeira paz.
+Quando nos rendemos à presença do Espírito, experimentamos um descanso que não vem da ausência de problemas, mas da certeza de que não estamos sozinhos. Ele nos consola, orienta e fortalece. Muitas vezes, basta um momento de oração sincera, um louvor ou o silêncio da alma diante de Deus para que Ele inunde nosso ser. É como se um peso fosse tirado dos ombros, e uma nova perspectiva surgisse.
+Além de acalmar a mente, o Espírito Santo também atua sobre o corpo. O estresse, a tensão e os sintomas físicos gerados pela ansiedade podem ser aliviados quando deixamos o Espírito agir. Seu toque suave e amoroso nos lembra que somos amados, cuidados e protegidos. Ele nos convida a descansar em Deus, confiando que todas as coisas cooperam para o bem daqueles que O amam.
+Buscar intimidade com o Espírito Santo não é apenas um ato espiritual, mas também um caminho para o equilíbrio emocional e físico. Que possamos nos abrir diariamente para Sua presença, permitindo que Ele acalme nosso corpo e mente com a paz que só Deus pode dar.
+Buscando a paz do Espírito Santo
+
+
+Renda-se em oração: Entregar-se a Deus em oração sincera abre espaço para o Espírito Santo agir, trazendo alívio emocional e restaurando a paz em meio às tribulações.
+
+Cultive a presença de Deus: Momentos de louvor, leitura bíblica e silêncio diante de Deus fortalecem a conexão com o Espírito, acalmando a mente e renovando as forças do corpo e da alma.
+
+Confie no cuidado de Deus: A confiança plena na soberania divina permite descansar em meio às incertezas, sabendo que o Espírito Santo está presente, guiando, protegendo e trazendo equilíbrio para a vida.
+
+Para orar:
+
+Espírito Santo, vem sobre mim com tua paz. Acalma meu coração, silencia minha mente e renova minhas forças. Guia meus passos, consola minhas dores e fortalece minha fé. Que tua presença me envolva, me cure e me ensine a confiar plenamente em Deus. Permita-me descansar em teu amor e viver segundo tua vontade. Amém.
+
+Veja também: O poder do Espírito Santo em nossas vidas
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Vivendo em paz com todos
 INFO:root:🔹 URL: https://www.bibliaon.com/acao_do_espirito_santo_na_vida/
 INFO:root:🔹 Description: Esforcem-se para viver em paz com todos e para serem santos; sem santidade ninguém verá o Senhor.
@@ -351,34 +333,10 @@ Senhor, dá-me um coração segundo o Teu, cheio de amor, perdão e fé. Ajuda-m
 
 Veja também: O Poder da Fé: 4 versículos de como a fé move o coração de Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Que você ande em amor
-INFO:root:🔹 URL: https://www.bibliaon.com/os_dez_mandamentos/
-INFO:root:🔹 Description: E este é o amor: que andemos em obediência aos seus mandamentos. Como vocês já têm ouvido desde o princípio, o mandamento é este: Que vocês andem em amor.
-- 2 João 1:6
-
-O verdadeiro amor, vai muito além de sentimentos passageiros ou gestos de afeto. Ele se revela, acima de tudo, em atitudes concretas de obediência e fidelidade. Amar é caminhar conforme os mandamentos de Deus, pois esses mandamentos não são imposições, mas expressões do próprio caráter de Deus, que é amor em sua essência. Viver esse amor é um convite à prática, à ação diária, ao compromisso com uma vida que reflete o coração de Deus.
-Amar a Deus e ao próximo não pode ser separado da obediência. Essa obediência, no entanto, não nasce do medo, mas da confiança e da entrega. É uma resposta ao amor que Deus já demonstrou. Quando obedecemos, estamos reconhecendo que Ele sabe o que é melhor para nós e para a comunidade em que vivemos. É nesse caminhar que o amor se torna visível: quando perdoamos, quando somos pacientes, quando buscamos a justiça, quando abrimos mão do egoísmo em favor do bem comum.
-Amar, não é apenas sentir; é decidir andar em verdade, praticar o bem e manter o coração alinhado com a vontade de Deus. É um caminho de constância e entrega, e não de conveniência ou emoção momentânea.
-Quem ama de fato vive de forma íntegra, respeita os princípios de Deus e trata o outro com dignidade. E é nessa vivência que o mundo pode ver o reflexo do amor de Deus. Assim, o amor e a obediência se entrelaçam, formando a base sólida de uma vida cristã autêntica.
-O amor se revela na obediência
-
-
-Escolha obedecer mesmo quando for difícil: Nem sempre obedecer aos mandamentos é o caminho mais fácil, mas é o mais seguro. A obediência fortalece a fé e reflete nosso compromisso com Deus.
-
-Pratique o amor com atitudes concretas: Demonstre amor através de ações diárias; perdoe, ajude quem precisa, fale com gentileza. O amor verdadeiro não se limita a palavras, mas se manifesta no modo como tratamos os outros.
-
-Permaneça firme nos ensinamentos de Cristo: Volte sempre à Palavra para lembrar os mandamentos e renovar sua mente. Viver em amor exige constância e vigilância para não se desviar do que foi ensinado desde o princípio.
-
-Para orar:
-
-Senhor, ensina-me a andar em Teu amor com obediência. Que minha vida reflita Teus mandamentos e que, em cada atitude, eu escolha amar como Tu me amaste. Fortalece-me a viver conforme Tua vontade. Amém.
-
-Veja também: Os Dez Mandamentos da Lei de Deus (explicados segundo a Bíblia)
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226532 characters
-INFO:root:HTML parsed, length: 225137 characters
+INFO:root:Response length: 226531 characters
+INFO:root:HTML parsed, length: 225136 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 30 URLs: ['/wiki/Artur_Bernardes', '/wiki/Artur_Bernardes', '/wiki/Lista_de_governadores_de_Minas_Gerais']
 INFO:root:Found 1 descriptions: ['Artur da Silva Bernardes foi um advogado e polític']
@@ -412,8 +370,8 @@ Artigos bons: 1919
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226532 characters
-INFO:root:HTML parsed, length: 225137 characters
+INFO:root:Response length: 226531 characters
+INFO:root:HTML parsed, length: 225136 characters
 INFO:root:Found 1 titles: ['8 de agosto na história']
 INFO:root:Found 43 URLs: ['/wiki/Ficheiro:Maszt_radiowy_w_Konstantynowie.jpg', '/wiki/1876', '/wiki/Thomas_Edison']
 INFO:root:Found 1 descriptions: ['Torre de rádio de Varsóvia\n1876 – Thomas Edison re']
@@ -441,8 +399,8 @@ Ver mais • Outros dias: 6 • 7 • 8 • 9 • 10 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226532 characters
-INFO:root:HTML parsed, length: 225137 characters
+INFO:root:Response length: 226531 characters
+INFO:root:HTML parsed, length: 225136 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Kom%C3%A9ta_C-2020_F3_(NEOWISE).jpg']
 INFO:root:Found 1 descriptions: ['Cometa C/2020 F3 (NEOWISE) fotografado em 15 de ag']
@@ -480,30 +438,24 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  23 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  24 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  74 ++++---
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               | 104 ++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   7 +-
- feeds/wikidestaque/feed.json              |   4 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 350 +++++++++++++++---------------
- 17 files changed, 315 insertions(+), 311 deletions(-)
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 329 ++++++++++++------------------
+ 14 files changed, 243 insertions(+), 348 deletions(-)
