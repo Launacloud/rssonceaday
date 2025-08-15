@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119518 characters
-INFO:root:HTML parsed, length: 112631 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (14/08/2025)', 'Palavra de Ontem (13/08/2025)', 'Palavra de Anteontem (12/08/2025)']
-INFO:root:Found 3 URLs: ['/penduricalho/', '/craque/', '/parcimonia/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Coisa que fica pendurada ger', 'Sinônimos:\n\nbrinco, berloque, pingente, balangandã', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (14/08/2025)', 'Palavra de Ontem (13/08/2025)', 'Palavra de Anteontem (12/08/2025)']
+INFO:root:Response length: 118611 characters
+INFO:root:HTML parsed, length: 111907 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (15/08/2025)', 'Palavra de Ontem (14/08/2025)', 'Palavra de Anteontem (13/08/2025)']
+INFO:root:Found 3 URLs: ['/kg/', '/penduricalho/', '/craque/']
+INFO:root:Found 12 descriptions: ['abreviatura Unidade de massa ou de peso que, no si', 'Sinônimos:\n\nquilograma, quilo', 'Classe gramatical:símb.']
+INFO:root:Found 3 dates: ['Palavra de Hoje (15/08/2025)', 'Palavra de Ontem (14/08/2025)', 'Palavra de Anteontem (13/08/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (14/08/2025)', ID=f20657035da4c917eaef94ccd025e9db
-INFO:root:Processing entry 2: Title='Palavra de Ontem (13/08/2025)', ID=12bfef6396f6b35d50e4788407e7478f
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/08/2025)', ID=a62291609c25a7a0c3d9b2db8dde86a9
+INFO:root:Processing entry 1: Title='Palavra de Hoje (15/08/2025)', ID=ba30eb5d11573460ce04d131cd9d7f04
+INFO:root:Processing entry 2: Title='Palavra de Ontem (14/08/2025)', ID=4f5cf78793cb6875802406f34702f632
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (13/08/2025)', ID=e92e8f073c93c858a90ef8bfa662e9f8
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (14/08/2025) - Significado completo de penduricalho:
-INFO:root:🔹 URL: https://www.dicio.com.br/penduricalho/
-INFO:root:🔹 Description: substantivo masculino Coisa que fica pendurada geralmente usada como enfeite ou adorno; balangandã, pingente: carro cheio de penduricalhos.Bijuteria presa a uma pulseira ou a uma corrente de relógio; berloque.Maneira pitoresca de designar uma condecoração.Etimologia (origem da palavra penduricalho). Pendurar + ico + alho.
+INFO:root:🔹 Title: Palavra de Hoje (15/08/2025) - Significado completo de kg:
+INFO:root:🔹 URL: https://www.dicio.com.br/kg/
+INFO:root:🔹 Description: abreviatura Unidade de massa ou de peso que, no sistema internacional de unidades (SI), equivale a 1000 gramas; quilo, quilograma: pode-se considerar 1kg como a massa de um litro de água a 4°C.Etimologia (origem da palavra kg). A abreviatura deriva como símbolo de quilograma, do francês kilogramme; pelo grego "khílioi", com o sentido de "mil" + grámma, que significa "escrópulo", antiga unidade de medida.
  
 Sinônimos:
 
-brinco, berloque, pingente, balangandã 
+quilograma, quilo 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (13/08/2025) - Significado completo de craque:
-INFO:root:🔹 URL: https://www.dicio.com.br/craque/
+INFO:root:🔹 Title: Palavra de Ontem (14/08/2025) - Significado completo de penduricalho:
+INFO:root:🔹 URL: https://www.dicio.com.br/penduricalho/
 INFO:root:🔹 Description: Sinônimos:
 
-brinco, berloque, pingente, balangandã
- Classe gramatical:substantivo masculino
+quilograma, quilo
+ Classe gramatical:símb.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (12/08/2025) - Significado completo de parcimônia:
-INFO:root:🔹 URL: https://www.dicio.com.br/parcimonia/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:pen-du-ri-ca-lho
+INFO:root:🔹 Title: Palavra de Anteontem (13/08/2025) - Significado completo de craque:
+INFO:root:🔹 URL: https://www.dicio.com.br/craque/
+INFO:root:🔹 Description: Classe gramatical:símb.
+ Sílabas:kg
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,106 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 254895 characters
-INFO:root:HTML parsed, length: 244195 characters
-INFO:root:Found 1 titles: ['João 8:32']
-INFO:root:Found 1 URLs: ['/versiculo/joao_8_32/']
-INFO:root:Found 1 descriptions: ['E conhecerão a verdade, e a verdade os libertará".']
+INFO:root:Response length: 254814 characters
+INFO:root:HTML parsed, length: 244114 characters
+INFO:root:Found 1 titles: ['Salmos 25:8']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_25_8/']
+INFO:root:Found 1 descriptions: ['Bom e justo é o Senhor;\npor isso mostra o caminho ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='João 8:32', ID=9fb8dfa26d3b853381fa9a41e2d9d87f
+INFO:root:Processing entry 1: Title='Salmos 25:8', ID=ffa88cd67eb8e55905acc840b98ff9ee
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: João 8:32
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_8_32/
-INFO:root:🔹 Description: E conhecerão a verdade, e a verdade os libertará". João 8:32
+INFO:root:🔹 Title: Salmos 25:8
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_25_8/
+INFO:root:🔹 Description: Bom e justo é o Senhor;
+por isso mostra o caminho aos pecadores. Salmos 25:8
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 256465 characters
-INFO:root:HTML parsed, length: 246512 characters
-INFO:root:Found 3 titles: ['Salmo 27', 'Salmo 96', 'Salmo 103']
-INFO:root:Found 3 URLs: ['/salmos_27/', '/salmos_96/', '/salmos_103/']
-INFO:root:Found 3 descriptions: ['O Senhor é a minha luz e a minha salvação;\nde quem', 'Cantem ao Senhor um novo cântico;\ncantem ao Senhor', 'Bendiga o Senhor a minha alma!\nBendiga o Senhor to']
-INFO:root:Found 3 dates: ['14 de Agosto de 2025', '13 de Agosto de 2025', '12 de Agosto de 2025']
+INFO:root:Response length: 256741 characters
+INFO:root:HTML parsed, length: 246797 characters
+INFO:root:Found 3 titles: ['Salmo 50', 'Salmo 27', 'Salmo 96']
+INFO:root:Found 3 URLs: ['/salmos_50/', '/salmos_27/', '/salmos_96/']
+INFO:root:Found 3 descriptions: ['Fala o Senhor, o Deus supremo;\nconvoca toda a terr', 'O Senhor é a minha luz e a minha salvação;\nde quem', 'Cantem ao Senhor um novo cântico;\ncantem ao Senhor']
+INFO:root:Found 3 dates: ['15 de Agosto de 2025', '14 de Agosto de 2025', '13 de Agosto de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 27', ID=8dcdf1c473e87d0c61510ae827caf9b0
-INFO:root:Processing entry 2: Title=' Salmo 96', ID=12ab31f4d9c079172e6830658a260dfd
-INFO:root:Processing entry 3: Title=' Salmo 103', ID=3f34ccb33feee5531a16bf49fcaecef6
+INFO:root:Processing entry 1: Title=' Salmo 50', ID=23aa53d6f0bc71b760f04eddded6ad1a
+INFO:root:Processing entry 2: Title=' Salmo 27', ID=8dcdf1c473e87d0c61510ae827caf9b0
+INFO:root:Processing entry 3: Title=' Salmo 96', ID=12ab31f4d9c079172e6830658a260dfd
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 50
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_50/
+INFO:root:🔹 Description: Fala o Senhor, o Deus supremo;
+convoca toda a terra, do nascente ao poente. 
+Desde Sião, perfeita em beleza,
+Deus resplandece. 
+Nosso Deus vem!
+Certamente não ficará calado!
+À sua frente vai um fogo devorador,
+e, ao seu redor, uma violenta tempestade. 
+Ele convoca os altos céus e a terra,
+para o julgamento do seu povo: 
+"Ajuntem os que me são fiéis,
+que, mediante sacrifício,
+fizeram aliança comigo". 
+E os céus proclamam a sua justiça,
+pois o próprio Deus é o juiz. 
+"Ouça, meu povo, pois eu falarei;
+vou testemunhar contra você, Israel,
+eu, que sou Deus, o seu Deus. 
+Não o acuso pelos seus sacrifícios,
+nem pelos holocaustos,
+que você sempre me oferece. 
+Não tenho necessidade
+de nenhum novilho dos seus estábulos
+nem dos bodes dos seus currais, 
+pois todos os animais da floresta são meus,
+como são as cabeças de gado
+aos milhares nas colinas. 
+Conheço todas as aves dos montes
+e cuido das criaturas do campo. 
+Se eu tivesse fome, precisaria dizer a você?
+Pois o mundo é meu, e tudo o que nele existe. 
+Acaso como carne de touros
+ou bebo sangue de bodes? 
+Ofereça a Deus em sacrifício a sua gratidão,
+cumpra os seus votos para com o Altíssimo, 
+e clame a mim no dia da angústia;
+eu o livrarei, e você me honrará." 
+Mas ao ímpio Deus diz:
+"Que direito você tem de recitar as minhas leis
+ou de ficar repetindo a minha aliança? 
+Pois você odeia a minha disciplina
+e dá as costas às minhas palavras! 
+Você vê um ladrão e já se torna seu cúmplice,
+e com adúlteros se mistura. 
+Sua boca está cheia de maldade
+e a sua língua formula a fraude. 
+Deliberadamente você fala contra o seu irmão
+e calunia o filho de sua própria mãe. 
+Ficaria eu calado
+diante de tudo o que você tem feito?
+Você pensa que eu sou como você?
+Mas agora eu o acusarei diretamente,
+sem omitir coisa alguma. 
+"Considerem isto,
+vocês que se esquecem de Deus;
+caso contrário os despedaçarei,
+sem que ninguém os livre. 
+Quem me oferece sua gratidão
+como sacrifício honra-me,
+e eu mostrarei a salvação de Deus
+ao que anda nos meus caminhos". 
+ Salmo 50
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 27
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_27/
 INFO:root:🔹 Description: O Senhor é a minha luz e a minha salvação;
@@ -169,109 +235,92 @@ julgará o mundo com justiça
 e os povos com a sua fidelidade! 
  Salmo 96
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 103
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_103/
-INFO:root:🔹 Description: Bendiga o Senhor a minha alma!
-Bendiga o Senhor todo o meu ser! 
-Bendiga o Senhor a minha alma!
-Não esqueça nenhuma de suas bênçãos! 
-É ele que perdoa todos os seus pecados
-e cura todas as suas doenças, 
-que resgata a sua vida da sepultura
-e o coroa de bondade e compaixão, 
-que enche de bens a sua existência,
-de modo que a sua juventude
-se renova como a águia. 
-O Senhor faz justiça
-e defende a causa dos oprimidos. 
-Ele manifestou os seus caminhos a Moisés;
-os seus feitos, aos israelitas. 
-O Senhor é compassivo e misericordioso,
-mui paciente e cheio de amor. 
-Não acusa sem cessar
-nem fica ressentido para sempre; 
-não nos trata conforme os nossos pecados
-nem nos retribui conforme as nossas iniquidades. 
-Pois como os céus se elevam acima da terra,
-assim é grande o seu amor
-para com os que o temem; 
-e como o Oriente está longe do Ocidente,
-assim ele afasta para longe de nós
-as nossas transgressões. 
-Como um pai tem compaixão de seus filhos,
-assim o Senhor
-tem compaixão dos que o temem; 
-pois ele sabe do que somos formados;
-lembra-se de que somos pó. 
-A vida do homem é semelhante à relva;
-ele floresce como a flor do campo, 
-que se vai quando sopra o vento;
-tampouco se sabe mais o lugar que ocupava. 
-Mas o amor leal do Senhor,
-o seu amor eterno, está com os que o temem
-e a sua justiça com os filhos dos seus filhos, 
-com os que guardam a sua aliança
-e se lembram de obedecer aos seus preceitos. 
-O Senhor estabeleceu o seu trono nos céus,
-e como rei domina sobre tudo o que existe. 
-Bendigam o Senhor,
-vocês, seus anjos poderosos,
-que obedecem à sua palavra. 
-Bendigam o Senhor todos os seus exércitos,
-vocês, seus servos, que cumprem a sua vontade. 
-Bendigam o Senhor todas as suas obras
-em todos os lugares do seu domínio.
-Bendiga o Senhor a minha alma! 
- Salmo 103
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 257563 characters
-INFO:root:HTML parsed, length: 247255 characters
-INFO:root:Found 3 titles: ['As incontáveis maravilhas de Deus', 'Inspire outros a viver para Jesus', 'Uma herança inigualável']
+INFO:root:Response length: 253090 characters
+INFO:root:HTML parsed, length: 242783 characters
+INFO:root:Found 3 titles: ['Sonhe grande: Deus está com você!', 'As incontáveis maravilhas de Deus', 'Inspire outros a viver para Jesus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Grande é o Senhor e digno de ser louvado; sua gran', 'Porque não estou procurando o meu próprio bem, mas', 'Senhor, tu és a minha porção e o meu cálice;\nés tu']
-INFO:root:Found 1 dates: ['Quinta, 14 de agosto de 2025']
+INFO:root:Found 3 descriptions: ['O Senhor firma os passos de um homem,\nquando a con', 'Grande é o Senhor e digno de ser louvado; sua gran', 'Porque não estou procurando o meu próprio bem, mas']
+INFO:root:Found 1 dates: ['Sexta, 15 de agosto de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='As incontáveis maravilhas de Deus', ID=ebb185c9e2fdf2b69871a5ae84cf415f
+INFO:root:Processing entry 1: Title='Sonhe grande: Deus está com você!', ID=6febc4c06eee6fb9c1ed7745c2ba6eaa
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: As incontáveis maravilhas de Deus - Palavra de Hoje
+INFO:root:🔹 Title: Sonhe grande: Deus está com você! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Grande é o Senhor e digno de ser louvado; sua grandeza não tem limites.
-- Salmos 145:3
+INFO:root:🔹 Description: O Senhor firma os passos de um homem,
+quando a conduta deste o agrada;
+ainda que tropece, não cairá,
+pois o Senhor o toma pela mão.
+- Salmo 37:23-24
 
-Desde os primórdios, a criação de Deus tem sido um testemunho vivo de Sua grandiosidade e poder infinito. Cada detalhe do universo revela as incontáveis maravilhas do Senhor, que, com sabedoria incomparável, formou o céu e a terra, as estrelas e o mar, a vida em suas mais variadas formas.
-A natureza, a harmonia dos ecossistemas, o ciclo da vida e o equilíbrio perfeito que mantém tudo funcionando são provas claras da mão divina atuando constantemente. A beleza das flores, o canto dos pássaros, a vastidão dos oceanos e a imensidão do céu estrelado nos lembram que Deus é o autor da perfeição e do amor.
-Além da criação, as maravilhas de Deus se manifestam em Sua misericórdia e graça. Ele é aquele que sustenta e renova a cada dia, oferecendo perdão, esperança e vida nova a quem O busca. Suas promessas são firmes, e Sua fidelidade é eterna, mesmo quando falhamos ou nos afastamos.
-Deus age também nas histórias pessoais de cada um, intervindo com milagres, conforto e proteção. Sua presença transforma corações, cura feridas invisíveis e dá força para enfrentar as adversidades. Ele é o refúgio em meio à tempestade e a luz que guia nossos passos.
-Reconhecer as maravilhas de Deus é despertar para uma vida de gratidão e louvor, é enxergar além do visível e confiar naquele que tudo criou e sustenta. Que possamos, diariamente, admirar e celebrar as incontáveis maravilhas do Senhor, fonte inesgotável de amor e poder, que jamais deixa de surpreender.
-Veja também: Gratidão a Deus por cada momento.
+Às vezes, deixamos nossos sonhos de lado por medo de fracassar. Pensamos em todas as coisas que podem dar errado e inventamos desculpas para adiar diante da incerteza. No entanto, quando os sonhos vêm de Deus, Ele vai à nossa frente, fortalecendo nossos passos e abrindo o caminho. Cada passo de fé que damos, confiando em Deus, nos aproxima da realização do sonho que Ele colocou em nossos corações.
+Isso não significa que não encontraremos obstáculos. A vida é cheia de desafios, mas Deus nos chama para perseverar e lembrar que, com Ele, alcançaremos a meta. Diante de cada obstáculo, podemos recorrer a Ele em busca de ajuda e orientação. Com Ele, a vitória é garantida.
+Um dia, olharemos para trás e nos alegraremos com o caminho que trilhamos com o Senhor, um caminho repleto de Sua ajuda, presença e bênçãos. O importante é dar passos constantes à frente, guiados por Ele, mesmo que sejam passos muito pequenos. Ele corrigirá o caminho; só precisamos perseverar e seguir em frente.
+
+Em seu coração
+o homem planeja o seu caminho,
+mas o Senhor determina
+os seus passos.
+- Provérbios 16:9
+
+Deus colocou um sonho em seu coração? Não deixe que ele se apague! Vá diante do Senhor. Peça coragem, perseverança e a Sua direção. Fique alerta; Ele lhe mostrará os passos a seguir e, segurando a Sua mão, você poderá seguir em frente até realizar o sonho do seu coração.
+E nunca se esqueça de que o Senhor o guia. Ele o sustenta, Ele é fiel e o acompanhará em toda a sua jornada. Você não encontrará melhor companheiro de aventuras no mundo inteiro.
+Veja também: Deus nunca nos abandona: 6 versículos para ver que Ele está contigo
  
-Grande é o Senhor e digno de ser louvado; sua grandeza não tem limites.
-- Salmos 145:3
+O Senhor firma os passos de um homem,
+quando a conduta deste o agrada;
+ainda que tropece, não cairá,
+pois o Senhor o toma pela mão.
+- Salmo 37:23-24
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 267870 characters
-INFO:root:HTML parsed, length: 257326 characters
-INFO:root:Found 3 titles: ['Avançando com propósito', 'Recarregando a bateria', 'Sem medo do futuro']
-INFO:root:Found 3 URLs: ['/so_vive_o_proposito_quem_suporta_o_processo_reflexao/', '/como_buscar_e_se_aproximar_de_deus/', '/versiculos_de_esperanca/']
-INFO:root:Found 3 descriptions: ['Não que eu já tenha obtido tudo isso ou tenha sido', 'mas aqueles que esperam no Senhor\nrenovam as suas ', 'Pois Deus não nos deu espírito de covardia, mas de']
-INFO:root:Found 3 dates: ['AGOSTO\n\n14\nQUINTA', 'AGOSTO\n\n13\nQUARTA', 'AGOSTO\n\n12\nTERÇA']
+INFO:root:Response length: 267704 characters
+INFO:root:HTML parsed, length: 257161 characters
+INFO:root:Found 3 titles: ['Jeová Rafá o Deus que cura!', 'Avançando com propósito', 'Recarregando a bateria']
+INFO:root:Found 3 URLs: ['/oracao_para_cura_saude/', '/so_vive_o_proposito_quem_suporta_o_processo_reflexao/', '/como_buscar_e_se_aproximar_de_deus/']
+INFO:root:Found 3 descriptions: ['pois eu sou o Senhor que os cura".\n- Êxodo 15:26b\n', 'Não que eu já tenha obtido tudo isso ou tenha sido', 'mas aqueles que esperam no Senhor\nrenovam as suas ']
+INFO:root:Found 3 dates: ['AGOSTO\n\n15\nSEXTA', 'AGOSTO\n\n14\nQUINTA', 'AGOSTO\n\n13\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Avançando com propósito', ID=6c9242e5521fdc254ac938e6864e32ce
-INFO:root:Processing entry 2: Title='Recarregando a bateria', ID=3ea214b8af557a5c32bf1deeecfd6853
-INFO:root:Processing entry 3: Title='Sem medo do futuro', ID=ea199ea56041ca2e09c7e2865e2b7acc
+INFO:root:Processing entry 1: Title='Jeová Rafá o Deus que cura!', ID=d03405779e6063ed9d01bd06c082725f
+INFO:root:Processing entry 2: Title='Avançando com propósito', ID=6c9242e5521fdc254ac938e6864e32ce
+INFO:root:Processing entry 3: Title='Recarregando a bateria', ID=3ea214b8af557a5c32bf1deeecfd6853
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Jeová Rafá o Deus que cura!
+INFO:root:🔹 URL: https://www.bibliaon.com/oracao_para_cura_saude/
+INFO:root:🔹 Description: pois eu sou o Senhor que os cura".
+- Êxodo 15:26b
+
+Há momentos em que a dor parece sufocar, o medo aperta o peito e a esperança ameaça se apagar. É nessas horas que precisamos lembrar de um nome poderoso de Deus revelado na Sua Palavra: Jeová Rafá, “O Senhor que te sara”. Ele não é apenas capaz de curar doenças físicas, mas também as feridas mais profundas da alma, aquelas que ninguém vê, mas que roubam o sono e a alegria.
+A cura de Deus vai além do que os olhos podem perceber. Ele toca na raiz da dor, remove a amargura, restaura a paz e renova a fé. Quando o corpo está fraco, Ele fortalece. Quando o coração está partido, Ele reconstrói. Quando a mente está cheia de ansiedade, Ele traz descanso. Sua presença é como bálsamo suave que acalma, conforta e dá vida.
+A Bíblia nos lembra que Jesus levou sobre Si nossas enfermidades e nossas dores (Isaías 53:4-5). Isso significa que a cruz já foi o preço da nossa libertação, e que a cura não é apenas possível, ela já foi conquistada. O nosso papel é confiar, permanecer firmes e declarar a Palavra mesmo quando as situações parecem contrárias.
+Talvez hoje você esteja enfrentando algo que parece impossível. Mas saiba: Jeová Rafá não mudou. Ele ainda ouve, ainda age e ainda transforma. A doença pode ter um nome, mas o nome de Jesus está acima de todo nome. A ferida pode ser profunda, mas o amor de Deus é mais profundo ainda.
+Entregue a sua dor, suas lágrimas e suas dúvidas a Deus. Espere com fé, porque o Deus que cura também é o Deus que sustenta. E quando Ele agir, sua vida será testemunho vivo de que Jeová Rafá continua sendo o Senhor que sara!
+Ele é o Senhor que sara!
+
+
+Jeová Rafá restaura corpo, mente e alma, removendo a dor e trazendo paz. Sua cura é profunda e transforma cada área da vida com amor eterno.
+
+A cruz já conquistou nossa libertação. Deus é fiel, age no tempo certo e cumpre Sua Palavra, trazendo esperança onde havia medo e vida onde havia morte.
+Sua presença é bálsamo que acalma, fortalece e renova. Nele encontramos descanso, força e propósito, mesmo nas tempestades, porque Seu amor é maior que qualquer ferida.
+
+
+Para orar:
+
+Jeová Rafá, Deus que cura, venho diante de Ti com humildade e fé. Toca meu corpo, minha mente e minha alma com Teu poder restaurador. Remove toda dor, enfermidade e ferida oculta. Renova minhas forças e enche meu coração de paz. Declaro que o nome de Jesus é maior que qualquer diagnóstico ou medo. Confio na Tua promessa e descanso no Teu amor. Amém.
+
+Veja também: Oração de Cura: 9 orações pela saúde
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Avançando com propósito
 INFO:root:🔹 URL: https://www.bibliaon.com/so_vive_o_proposito_quem_suporta_o_processo_reflexao/
 INFO:root:🔹 Description: Não que eu já tenha obtido tudo isso ou tenha sido aperfeiçoado, mas prossigo para alcançá-lo, pois para isso também fui alcançado por Cristo Jesus.
@@ -282,7 +331,7 @@ Muitas vezes, somos tentados a parar no meio da jornada. As lutas, decepções e
 Avançar com propósito significa ter clareza de quem somos em Cristo e do que Ele nos chamou para fazer. Não se trata de velocidade, mas de constância. Pequenos passos dados em obediência podem nos levar a grandes conquistas no tempo certo.
 Quando a caminhada parecer difícil, lembre-se de que não avançamos sozinhos. O próprio Deus caminha ao nosso lado, fortalecendo nossos passos e guiando nossa direção. E mesmo quando não entendemos o caminho, podemos confiar que Seus planos são maiores que os nossos.
 Hoje, olhe para frente com fé. Deixe para trás o peso que impede seu avanço e mantenha os olhos fixos em Jesus, o Autor e Consumador da nossa fé. Ele é a razão, a força e o foco da nossa jornada. Avance, pois o propósito de Deus para sua vida é maior do que você imagina!
-Avançando com propósito
+Continue e siga em frente com propósito
 
 
 Mantenha os olhos em Jesus: Foque em Cristo como referência diária. Isso fortalece sua fé, alinha suas decisões e evita distrações que afastam você do propósito que Deus estabeleceu.
@@ -329,33 +378,10 @@ Senhor, renova minhas forças hoje. Enche-me com Tua presença e mantém meu cor
 
 Veja também: Como se aproximar de Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Sem medo do futuro
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_de_esperanca/
-INFO:root:🔹 Description: Pois Deus não nos deu espírito de covardia, mas de poder, de amor e de equilíbrio.
-- 2 Timóteo 1:7
-
-O medo do futuro é um peso silencioso que, muitas vezes, carregamos no coração. Ele nos prende a preocupações que ainda nem aconteceram, enfraquecendo nossa fé e roubando nossa paz. Na Bíblia, Deus nos lembra para não temermos, porque Ele está no controle de todas as coisas, não apenas do presente, mas também do amanhã.
-Quando Paulo escreveu a Timóteo, ele o encorajou a não deixar que a covardia guiasse suas decisões. O “espírito” que recebemos de Deus é marcado por poder, amor e moderação, ou seja, força para enfrentar desafios e autocontrole para não nos deixarmos dominar pela ansiedade.
-Jesus, no Sermão do Monte, nos orienta: “Não vos inquieteis, pois, pelo dia de amanhã” (Mateus 6:34). Isso não significa ignorar as responsabilidades, mas confiar que o Deus que cuida dos lírios e das aves cuidará de nós também. O medo do futuro vai embora quando lembramos que o amanhã já está nas mãos d’Aquele que nunca falha.
-Para superar o medo do futuro, é preciso substituir pensamentos de insegurança por promessas da Palavra. Quando a mente sussurra: “E se der errado?”, a fé responde: “Tudo coopera para o bem daqueles que amam a Deus” (Romanos 8:28). Ao nos agarrarmos a essa verdade, aprendemos a descansar, mesmo diante da incerteza.
-Também é importante compreender que o futuro não é um território sem dono. Ele pertence a Deus. Nenhum plano humano, nenhuma circunstância imprevista e nenhum ataque espiritual pode frustrar aquilo que o Senhor já estabeleceu. Por isso, podemos caminhar com confiança, mesmo que não tenhamos todas as respostas.
-Se hoje você sente medo do que está por vir, entregue seus planos ao Senhor, ore com sinceridade e declare Sua fidelidade. Lembre-se: a fé não remove todos os desafios, mas nos dá coragem para enfrentá-los, certos de que nunca estaremos sozinhos.
-Nas mãos de Deus 
-
-Fale com Deus todas as manhãs, confiando-Lhe seus sonhos, desafios e decisões, sabendo que Ele guia cada passo para o propósito perfeito.
-Sempre que sentir medo, declare-o em voz alta, reafirmando que Deus é fiel para cuidar de cada detalhe do seu futuro.
-Tome decisões hoje confiando que Deus já está no amanhã. Viva com responsabilidade, mas sem ansiedade, descansando no cuidado constante do Senhor sobre sua vida.
-
-Para orar:
-
-Senhor amado, coloco meu futuro em Tuas mãos. Livra-me do medo e enche-me de fé para confiar nos Teus planos. Guia meus passos, fortalece meu coração e ensina-me a descansar em Ti. Que eu viva o presente com gratidão e esperança, certo de que nada foge ao Teu controle. Ampara-me nas incertezas e renova minha confiança diariamente. Em nome de Jesus, amém.
-
-Veja também: Versículos de esperança para sua vida
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 227865 characters
-INFO:root:HTML parsed, length: 226470 characters
+INFO:root:Response length: 228235 characters
+INFO:root:HTML parsed, length: 226840 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 36 URLs: ['/wiki/M%C3%BAsica_da_Bahia', '/wiki/M%C3%BAsica_da_Bahia', '/wiki/M%C3%BAsica']
 INFO:root:Found 1 descriptions: ['A música da Bahia diz respeito à produção musical ']
@@ -385,48 +411,48 @@ Compartilhe:
 
 
 Artigos destacados: 1509 •
-Artigos bons: 1921
+Artigos bons: 1922
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 227865 characters
-INFO:root:HTML parsed, length: 226470 characters
-INFO:root:Found 1 titles: ['13 de agosto na história']
-INFO:root:Found 52 URLs: ['/wiki/Ficheiro:Fidel_Castro_1950s.jpg', '/wiki/Dia_da_Independ%C3%AAncia', '/wiki/Rep%C3%BAblica_Centro-Africana']
-INFO:root:Found 1 descriptions: ['Fidel Castro\nDia da Independência da República Cen']
+INFO:root:Response length: 228235 characters
+INFO:root:HTML parsed, length: 226840 characters
+INFO:root:Found 1 titles: ['15 de agosto na história']
+INFO:root:Found 48 URLs: ['/wiki/Ficheiro:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg', '/wiki/Dia_da_Independ%C3%AAncia_(%C3%8Dndia)', '/wiki/%C3%8Dndia']
+INFO:root:Found 1 descriptions: ['Napoleão Bonaparte\nDia da Independência da Índia (']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='13 de agosto na história', ID=c5d3af9c3f5441155889353e8ea4b627
+INFO:root:Processing entry 1: Title='15 de agosto na história', ID=1e4039f683842c71881d338bbeca2c1e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 13 de agosto na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Fidel_Castro_1950s.jpg
-INFO:root:🔹 Description: Fidel Castro
-Dia da Independência da República Centro-Africana (1960)
+INFO:root:🔹 Title: 15 de agosto na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg
+INFO:root:🔹 Description: Napoleão Bonaparte
+Dia da Independência da Índia (1947) e da República do Congo (1960); Dia da Liberação da Coreia (1945)
 
-1759 – A Companhia Geral de Comércio de Pernambuco e Paraíba, empresa de carácter monopolista, é fundada pelo Marquês de Pombal. Posteriormente a rainha Maria I de Portugal extinguiria-lhe o monopólio, no início da década de 1780, no contexto da chamada "Viradeira".
-1961 – A Alemanha Oriental fecha a fronteira entre as zonas leste e oeste de Berlim e inicia a construção do Muro de Berlim.
-1999 – A Lei da Bandeira e Hino Nacional é adotada, estabelecendo formalmente o Hinomaru e o "Kimigayo" como bandeira e hino nacionais do Japão, respectivamente.
+718 – Guerras bizantino-árabes: as forças do Califado Omíada abandonam o cerco de Constantinopla, que durou um ano, fazendo o califado desistir de conquistar o Império Bizantino.
+1969 – É aberto em Bethel, Nova Iorque, Estados Unidos, o Festival de Woodstock.
+2023 – Um apagão atinge 26 das 27 unidades federativas do Brasil.
 Nasceram neste dia…
-George Gabriel Stokes (1819–1903)  •  Alfred Hitchcock (1899–1980)  •  Frederick Sanger (1918–2013)  •  Fidel Castro (imagem) (1926–2016)
+Afonso IX de Leão (1171–1230)  •  Napoleão Bonaparte (imagem) (1769–1821)  •  Bernardo Guimarães (1825–1884)  •  Jennifer Lawrence (n. 1990)
 Morreram neste dia…
-Eugène Delacroix (1798–1863)  •  Florence Nightingale (1820–1910)  •  Jacob do Bandolim (1918–1969)  •  Tigran Petrosian (1929–1984)
+Macbeth da Escócia (1005–1057)  •  Joseph Joachim (1831–1907)  •  Euclides da Cunha (1866–1909)  •  René Magritte (1898–1967)
 
 
-Ver mais • Outros dias: 11 • 12 • 13 • 14 • 15 • Ver todos
+Ver mais • Outros dias: 13 • 14 • 15 • 16 • 17 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 227865 characters
-INFO:root:HTML parsed, length: 226470 characters
+INFO:root:Response length: 228235 characters
+INFO:root:HTML parsed, length: 226840 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Webb_investigates_a_dusty_and_dynamic_disc_(potm2501a).jpg']
-INFO:root:Found 1 descriptions: ['Imagem aproximada produzida pelo Telescópio Espaci']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Ceiling_of_the_%22Assumption_of_Mary%22_in_Santa_Maria_Immacolata_a_via_Veneto_(Roma).jpg']
+INFO:root:Found 1 descriptions: ['Assunção realizada por Liborio Coccetti na abóbada']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Webb_investigates_a_dusty_and_dynamic_disc_%28potm2501a%29.jpg/500px-Webb_investigates_a_dusty_and_dynamic_disc_%28potm2501a%29.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Ceiling_of_the_%22Assumption_of_Mary%22_in_Santa_Maria_Immacolata_a_via_Veneto_%28Roma%29.jpg/500px-Ceiling_of_the_%22Assumption_of_Mary%22_in_Santa_Maria_Immacolata_a_via_Veneto_%28Roma%29.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -435,15 +461,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Webb_investigates_a_dusty_and_dynamic_disc_(potm2501a).jpg
-INFO:root:🔹 Description: Imagem aproximada produzida pelo Telescópio Espacial James Webb do disco protoplanetário HH 30 em torno de uma estrela recém-formada na nuvem molecular Taurus.
-(resolução original: 1 173 × 1 173)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:Ceiling_of_the_%22Assumption_of_Mary%22_in_Santa_Maria_Immacolata_a_via_Veneto_(Roma).jpg
+INFO:root:🔹 Description: Assunção realizada por Liborio Coccetti na abóbada da igreja de Santa Maria Imaculada, na Via Veneto, em Roma. Hoje, muitas igrejas da cristandade ocidental celebram a festa da Assunção, enquanto as orientais celebram a Dormição de Maria.
+(resolução original: 3 375 × 3 375)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Webb_investigates_a_dusty_and_dynamic_disc_%28potm2501a%29.jpg/500px-Webb_investigates_a_dusty_and_dynamic_disc_%28potm2501a%29.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Ceiling_of_the_%22Assumption_of_Mary%22_in_Santa_Maria_Immacolata_a_via_Veneto_%28Roma%29.jpg/500px-Ceiling_of_the_%22Assumption_of_Mary%22_in_Santa_Maria_Immacolata_a_via_Veneto_%28Roma%29.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -459,26 +485,30 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
+ M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
  M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  27 ++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  30 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 ++--
+ feeds/devocional_de_hoje/feed.json        |  14 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  33 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  72 ++++++--
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 118 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   2 +-
- feeds/wikidia/atom.xml                    |   4 +-
- feeds/wikidia/feed.json                   |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 282 +++++++++++++++++-------------
- 15 files changed, 290 insertions(+), 201 deletions(-)
+ feeds/wikidestaque/atom.xml               |   4 +-
+ feeds/wikidestaque/feed.json              |   2 +-
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 392 +++++++++++++++---------------
+ 17 files changed, 375 insertions(+), 337 deletions(-)
