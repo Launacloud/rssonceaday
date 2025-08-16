@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 118611 characters
-INFO:root:HTML parsed, length: 111907 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (15/08/2025)', 'Palavra de Ontem (14/08/2025)', 'Palavra de Anteontem (13/08/2025)']
-INFO:root:Found 3 URLs: ['/kg/', '/penduricalho/', '/craque/']
-INFO:root:Found 12 descriptions: ['abreviatura Unidade de massa ou de peso que, no si', 'Sinônimos:\n\nquilograma, quilo', 'Classe gramatical:símb.']
-INFO:root:Found 3 dates: ['Palavra de Hoje (15/08/2025)', 'Palavra de Ontem (14/08/2025)', 'Palavra de Anteontem (13/08/2025)']
+INFO:root:Response length: 118641 characters
+INFO:root:HTML parsed, length: 111755 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (16/08/2025)', 'Palavra de Ontem (15/08/2025)', 'Palavra de Anteontem (14/08/2025)']
+INFO:root:Found 3 URLs: ['/docente/', '/kg/', '/penduricalho/']
+INFO:root:Found 13 descriptions: ['substantivo masculino Pessoa que ministra aulas; o', 'Sinônimos:\n\nprofessor, mestre, educador', 'Antônimos:\n\ndiscente']
+INFO:root:Found 3 dates: ['Palavra de Hoje (16/08/2025)', 'Palavra de Ontem (15/08/2025)', 'Palavra de Anteontem (14/08/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (15/08/2025)', ID=ba30eb5d11573460ce04d131cd9d7f04
-INFO:root:Processing entry 2: Title='Palavra de Ontem (14/08/2025)', ID=4f5cf78793cb6875802406f34702f632
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (13/08/2025)', ID=e92e8f073c93c858a90ef8bfa662e9f8
+INFO:root:Processing entry 1: Title='Palavra de Hoje (16/08/2025)', ID=7fd90fb9542322314a9021df61ee5df0
+INFO:root:Processing entry 2: Title='Palavra de Ontem (15/08/2025)', ID=755fb888c0d3f7ac846032b729612b5c
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (14/08/2025)', ID=31672fc1a156f27357e8d036d8eb7373
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (15/08/2025) - Significado completo de kg:
-INFO:root:🔹 URL: https://www.dicio.com.br/kg/
-INFO:root:🔹 Description: abreviatura Unidade de massa ou de peso que, no sistema internacional de unidades (SI), equivale a 1000 gramas; quilo, quilograma: pode-se considerar 1kg como a massa de um litro de água a 4°C.Etimologia (origem da palavra kg). A abreviatura deriva como símbolo de quilograma, do francês kilogramme; pelo grego "khílioi", com o sentido de "mil" + grámma, que significa "escrópulo", antiga unidade de medida.
+INFO:root:🔹 Title: Palavra de Hoje (16/08/2025) - Significado completo de docente:
+INFO:root:🔹 URL: https://www.dicio.com.br/docente/
+INFO:root:🔹 Description: substantivo masculino Pessoa que ministra aulas; o responsável pelo ensino de; professor.adjetivo Relacionado com quem ensina e ministra aulas; que trabalha como professor.[Religião] Relativo à categoria cujas pessoas estão envolvidas no ensino de uma doutrina religiosa; que ensina os preceitos, normas ou regras religiosas.expressão Corpo docente. Reunião das pessoas que ministram aulas ou são responsáveis pelo processo de ensino; reunião de professores.Etimologia (origem da palavra docente). Do latim docens.entis.
  
 Sinônimos:
 
-quilograma, quilo 
+professor, mestre, educador 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (14/08/2025) - Significado completo de penduricalho:
-INFO:root:🔹 URL: https://www.dicio.com.br/penduricalho/
+INFO:root:🔹 Title: Palavra de Ontem (15/08/2025) - Significado completo de kg:
+INFO:root:🔹 URL: https://www.dicio.com.br/kg/
 INFO:root:🔹 Description: Sinônimos:
 
-quilograma, quilo
- Classe gramatical:símb.
+professor, mestre, educador
+ 
+Antônimos:
+
+discente 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (13/08/2025) - Significado completo de craque:
-INFO:root:🔹 URL: https://www.dicio.com.br/craque/
-INFO:root:🔹 Description: Classe gramatical:símb.
- Sílabas:kg
+INFO:root:🔹 Title: Palavra de Anteontem (14/08/2025) - Significado completo de penduricalho:
+INFO:root:🔹 URL: https://www.dicio.com.br/penduricalho/
+INFO:root:🔹 Description: Antônimos:
+
+discente
+ Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,41 +48,85 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 254814 characters
-INFO:root:HTML parsed, length: 244114 characters
-INFO:root:Found 1 titles: ['Salmos 25:8']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_25_8/']
-INFO:root:Found 1 descriptions: ['Bom e justo é o Senhor;\npor isso mostra o caminho ']
+INFO:root:Response length: 254778 characters
+INFO:root:HTML parsed, length: 244078 characters
+INFO:root:Found 1 titles: ['2 Samuel 22:50']
+INFO:root:Found 1 URLs: ['/versiculo/2_samuel_22_50/']
+INFO:root:Found 1 descriptions: ['Por isso te louvarei entre as nações,\nó Senhor;\nca']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 25:8', ID=ffa88cd67eb8e55905acc840b98ff9ee
+INFO:root:Processing entry 1: Title='2 Samuel 22:50', ID=fbb1814e806d44f5198651b1264bfd3d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 25:8
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_25_8/
-INFO:root:🔹 Description: Bom e justo é o Senhor;
-por isso mostra o caminho aos pecadores. Salmos 25:8
+INFO:root:🔹 Title: 2 Samuel 22:50
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_samuel_22_50/
+INFO:root:🔹 Description: Por isso te louvarei entre as nações,
+ó Senhor;
+cantarei louvores ao teu nome. 2 Samuel 22:50
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 256741 characters
-INFO:root:HTML parsed, length: 246797 characters
-INFO:root:Found 3 titles: ['Salmo 50', 'Salmo 27', 'Salmo 96']
-INFO:root:Found 3 URLs: ['/salmos_50/', '/salmos_27/', '/salmos_96/']
-INFO:root:Found 3 descriptions: ['Fala o Senhor, o Deus supremo;\nconvoca toda a terr', 'O Senhor é a minha luz e a minha salvação;\nde quem', 'Cantem ao Senhor um novo cântico;\ncantem ao Senhor']
-INFO:root:Found 3 dates: ['15 de Agosto de 2025', '14 de Agosto de 2025', '13 de Agosto de 2025']
+INFO:root:Response length: 256793 characters
+INFO:root:HTML parsed, length: 246856 characters
+INFO:root:Found 3 titles: ['Salmo 32', 'Salmo 50', 'Salmo 27']
+INFO:root:Found 3 URLs: ['/salmos_32/', '/salmos_50/', '/salmos_27/']
+INFO:root:Found 3 descriptions: ['Como é feliz aquele\nque tem suas transgressões per', 'Fala o Senhor, o Deus supremo;\nconvoca toda a terr', 'O Senhor é a minha luz e a minha salvação;\nde quem']
+INFO:root:Found 3 dates: ['16 de Agosto de 2025', '15 de Agosto de 2025', '14 de Agosto de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 50', ID=23aa53d6f0bc71b760f04eddded6ad1a
-INFO:root:Processing entry 2: Title=' Salmo 27', ID=8dcdf1c473e87d0c61510ae827caf9b0
-INFO:root:Processing entry 3: Title=' Salmo 96', ID=12ab31f4d9c079172e6830658a260dfd
+INFO:root:Processing entry 1: Title=' Salmo 32', ID=2f49b60df41a8d2f7f56dc8a102c476d
+INFO:root:Processing entry 2: Title=' Salmo 50', ID=23aa53d6f0bc71b760f04eddded6ad1a
+INFO:root:Processing entry 3: Title=' Salmo 27', ID=8dcdf1c473e87d0c61510ae827caf9b0
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 32
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_32/
+INFO:root:🔹 Description: Como é feliz aquele
+que tem suas transgressões perdoadas
+e seus pecados apagados! 
+Como é feliz aquele
+a quem o Senhor não atribui culpa
+e em quem não há hipocrisia! 
+Enquanto eu mantinha escondidos os meus pecados,
+o meu corpo definhava de tanto gemer. 
+Pois dia e noite
+a tua mão pesava sobre mim;
+minhas forças foram-se esgotando
+como em tempo de seca. 
+Então reconheci diante de ti o meu pecado
+e não encobri as minhas culpas.
+Eu disse: "Confessarei as minhas transgressões",
+ao Senhor,
+e tu perdoaste a culpa do meu pecado. 
+Portanto, que todos os que são fiéis orem a ti
+enquanto podes ser encontrado;
+quando as muitas águas se levantarem,
+elas não os atingirão. 
+Tu és o meu abrigo;
+tu me preservarás das angústias
+e me cercarás de canções de livramento. 
+Eu o instruirei e o ensinarei
+no caminho que você deve seguir;
+eu o aconselharei e cuidarei de você. 
+Não sejam como o cavalo ou o burro,
+que não têm entendimento
+mas precisam ser controlados
+com freios e rédeas;
+caso contrário não obedecem. 
+Muitas são as dores dos ímpios,
+mas a bondade do Senhor
+protege quem nele confia. 
+Alegrem-se no Senhor e exultem,
+vocês que são justos!
+Cantem de alegria,
+todos vocês que são retos de coração! 
+ Salmo 32
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 50
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_50/
 INFO:root:🔹 Description: Fala o Senhor, o Deus supremo;
@@ -197,105 +247,84 @@ Seja forte! Coragem!
 Espere no Senhor. 
  Salmo 27
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 96
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_96/
-INFO:root:🔹 Description: Cantem ao Senhor um novo cântico;
-cantem ao Senhor, todos os habitantes da terra! 
-Cantem ao Senhor, bendigam o seu nome;
-cada dia proclamem a sua salvação! 
-Anunciem a sua glória entre as nações,
-seus feitos maravilhosos entre todos os povos! 
-Porque o Senhor é grande
-e digno de todo louvor,
-mais temível do que todos os deuses! 
-Todos os deuses das nações
-não passam de ídolos,
-mas o Senhor fez os céus. 
-Majestade e esplendor estão diante dele;
-poder e dignidade, no seu santuário. 
-Deem ao Senhor, ó famílias das nações,
-deem ao Senhor glória e força. 
-Deem ao Senhor
-a glória devida ao seu nome
-e entrem nos seus átrios trazendo ofertas. 
-Adorem o Senhor
-no esplendor da sua santidade;
-tremam diante dele todos os habitantes da terra. 
-Digam entre as nações: "O Senhor reina!"
-Por isso firme está o mundo e não se abalará,
-e ele julgará os povos com justiça. 
-Regozijem-se os céus e exulte a terra!
-Ressoe o mar e tudo o que nele existe! 
-Regozijem-se os campos
-e tudo o que neles há!
-Cantem de alegria todas as árvores da floresta, 
-cantem diante do Senhor, porque ele vem,
-vem julgar a terra;
-julgará o mundo com justiça
-e os povos com a sua fidelidade! 
- Salmo 96
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 253090 characters
-INFO:root:HTML parsed, length: 242783 characters
-INFO:root:Found 3 titles: ['Sonhe grande: Deus está com você!', 'As incontáveis maravilhas de Deus', 'Inspire outros a viver para Jesus']
+INFO:root:Response length: 257398 characters
+INFO:root:HTML parsed, length: 247092 characters
+INFO:root:Found 3 titles: ['Justificados pela fé em Jesus', 'Sonhe grande: Deus está com você!', 'As incontáveis maravilhas de Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O Senhor firma os passos de um homem,\nquando a con', 'Grande é o Senhor e digno de ser louvado; sua gran', 'Porque não estou procurando o meu próprio bem, mas']
-INFO:root:Found 1 dates: ['Sexta, 15 de agosto de 2025']
+INFO:root:Found 3 descriptions: ['"Portanto, meus irmãos, quero que saibam que media', 'O Senhor firma os passos de um homem,\nquando a con', 'Grande é o Senhor e digno de ser louvado; sua gran']
+INFO:root:Found 1 dates: ['Sábado, 16 de agosto de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Sonhe grande: Deus está com você!', ID=6febc4c06eee6fb9c1ed7745c2ba6eaa
+INFO:root:Processing entry 1: Title='Justificados pela fé em Jesus', ID=1a6afcb0aed0b99c7e3a310e1a11dfb9
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Sonhe grande: Deus está com você! - Palavra de Hoje
+INFO:root:🔹 Title: Justificados pela fé em Jesus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O Senhor firma os passos de um homem,
-quando a conduta deste o agrada;
-ainda que tropece, não cairá,
-pois o Senhor o toma pela mão.
-- Salmo 37:23-24
+INFO:root:🔹 Description: "Portanto, meus irmãos, quero que saibam que mediante Jesus é proclamado o perdão dos pecados a vocês. Por meio dele, todo aquele que crê é justificado de todas as coisas das quais não podiam ser justificados pela Lei de Moisés.
+- Atos 13:38-39
 
-Às vezes, deixamos nossos sonhos de lado por medo de fracassar. Pensamos em todas as coisas que podem dar errado e inventamos desculpas para adiar diante da incerteza. No entanto, quando os sonhos vêm de Deus, Ele vai à nossa frente, fortalecendo nossos passos e abrindo o caminho. Cada passo de fé que damos, confiando em Deus, nos aproxima da realização do sonho que Ele colocou em nossos corações.
-Isso não significa que não encontraremos obstáculos. A vida é cheia de desafios, mas Deus nos chama para perseverar e lembrar que, com Ele, alcançaremos a meta. Diante de cada obstáculo, podemos recorrer a Ele em busca de ajuda e orientação. Com Ele, a vitória é garantida.
-Um dia, olharemos para trás e nos alegraremos com o caminho que trilhamos com o Senhor, um caminho repleto de Sua ajuda, presença e bênçãos. O importante é dar passos constantes à frente, guiados por Ele, mesmo que sejam passos muito pequenos. Ele corrigirá o caminho; só precisamos perseverar e seguir em frente.
+Sozinhos, é impossível cumprirmos todas as obrigações da Lei de Moisés. Não importa o quanto nos esforcemos para cumprir todos os mandamentos, sempre erramos, mesmo que levemente. Tentamos dizer a verdade, mas ocasionalmente, uma pequena mentira escapa. Nos esforçamos para nos alegrar com as conquistas dos outros, mas às vezes, se formos honestos, sentimos um pouco de inveja.
+De uma forma ou de outra, falhamos. Graças a Deus, nossa redenção não depende do nosso bom comportamento! Já fomos justificados por meio de Jesus, e precisamos apenas decidir depositar nossa fé nEle, aceitando-O como nosso Senhor e Salvador. Seu sacrifício é suficiente para nos purificar de toda injustiça!
+Quando dizemos que somos justificados por meio de Jesus, estamos falando de Deus nos tratando como justos, graças ao fato de Jesus ter pago por nossa culpa na cruz. Graças ao sacrifício de Jesus ao morrer por nós, quando damos o passo de fé e cremos n'Ele, recebemos o perdão dos nossos pecados. Esse é o maior presente que jamais receberemos, um presente que desfrutaremos por toda a eternidade.
 
-Em seu coração
-o homem planeja o seu caminho,
-mas o Senhor determina
-os seus passos.
-- Provérbios 16:9
+Tendo sido, pois, justificados pela fé, temos paz com Deus, por nosso Senhor Jesus Cristo, por meio de quem obtivemos acesso pela fé a esta graça na qual agora estamos firmes; e nos gloriamos na esperança da glória de Deus.
+- Romanos 5:1-2
 
-Deus colocou um sonho em seu coração? Não deixe que ele se apague! Vá diante do Senhor. Peça coragem, perseverança e a Sua direção. Fique alerta; Ele lhe mostrará os passos a seguir e, segurando a Sua mão, você poderá seguir em frente até realizar o sonho do seu coração.
-E nunca se esqueça de que o Senhor o guia. Ele o sustenta, Ele é fiel e o acompanhará em toda a sua jornada. Você não encontrará melhor companheiro de aventuras no mundo inteiro.
-Veja também: Deus nunca nos abandona: 6 versículos para ver que Ele está contigo
+Em Jesus você é justificado, perdoado e amado. Graças ao seu sacrifício amoroso, você tem paz com Deus por toda a eternidade. Agradeça ao Senhor por tudo o que Ele fez por você e escolha viver cada dia firmemente Nele e para a Sua glória.
+Leia também: Versículos sobre a graça de Deus
  
-O Senhor firma os passos de um homem,
-quando a conduta deste o agrada;
-ainda que tropece, não cairá,
-pois o Senhor o toma pela mão.
-- Salmo 37:23-24
+"Portanto, meus irmãos, quero que saibam que mediante Jesus é proclamado o perdão dos pecados a vocês. Por meio dele, todo aquele que crê é justificado de todas as coisas das quais não podiam ser justificados pela Lei de Moisés.
+- Atos 13:38-39
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 267704 characters
-INFO:root:HTML parsed, length: 257161 characters
-INFO:root:Found 3 titles: ['Jeová Rafá o Deus que cura!', 'Avançando com propósito', 'Recarregando a bateria']
-INFO:root:Found 3 URLs: ['/oracao_para_cura_saude/', '/so_vive_o_proposito_quem_suporta_o_processo_reflexao/', '/como_buscar_e_se_aproximar_de_deus/']
-INFO:root:Found 3 descriptions: ['pois eu sou o Senhor que os cura".\n- Êxodo 15:26b\n', 'Não que eu já tenha obtido tudo isso ou tenha sido', 'mas aqueles que esperam no Senhor\nrenovam as suas ']
-INFO:root:Found 3 dates: ['AGOSTO\n\n15\nSEXTA', 'AGOSTO\n\n14\nQUINTA', 'AGOSTO\n\n13\nQUARTA']
+INFO:root:Response length: 267899 characters
+INFO:root:HTML parsed, length: 257352 characters
+INFO:root:Found 3 titles: ['Que Deus seja o motivo do seu louvor', 'Jeová Rafá o Deus que cura!', 'Avançando com propósito']
+INFO:root:Found 3 URLs: ['/versiculos_para_louvar_a_deus/', '/oracao_para_cura_saude/', '/so_vive_o_proposito_quem_suporta_o_processo_reflexao/']
+INFO:root:Found 3 descriptions: ['Seja ele o motivo do seu louvor, pois ele é o seu ', 'pois eu sou o Senhor que os cura".\n- Êxodo 15:26b\n', 'Não que eu já tenha obtido tudo isso ou tenha sido']
+INFO:root:Found 3 dates: ['AGOSTO\n\n16\nSÁBADO', 'AGOSTO\n\n15\nSEXTA', 'AGOSTO\n\n14\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Jeová Rafá o Deus que cura!', ID=d03405779e6063ed9d01bd06c082725f
-INFO:root:Processing entry 2: Title='Avançando com propósito', ID=6c9242e5521fdc254ac938e6864e32ce
-INFO:root:Processing entry 3: Title='Recarregando a bateria', ID=3ea214b8af557a5c32bf1deeecfd6853
+INFO:root:Processing entry 1: Title='Que Deus seja o motivo do seu louvor', ID=7c3a0037067b6d8af03c6a22235b14ec
+INFO:root:Processing entry 2: Title='Jeová Rafá o Deus que cura!', ID=d03405779e6063ed9d01bd06c082725f
+INFO:root:Processing entry 3: Title='Avançando com propósito', ID=6c9242e5521fdc254ac938e6864e32ce
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Que Deus seja o motivo do seu louvor
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
+INFO:root:🔹 Description: Seja ele o motivo do seu louvor, pois ele é o seu Deus, que por vocês fez aquelas grandes e temíveis maravilhas que vocês viram com os próprios olhos.
+- Deuteronômio 10:21
+
+Nosso louvor tem um endereço certo: Deus. Não se trata apenas de cantar músicas bonitas ou dizer palavras bonitas, mas de reconhecer com o coração quem Ele é e o que Ele já fez.
+O povo de Israel, ao ouvir estas palavras, era lembrado das maravilhas que Deus havia realizado na libertação do Egito, a travessia do Mar Vermelho, o sustento no deserto. Eles tinham visto milagres com os próprios olhos, não eram histórias distantes, mas experiências reais.
+Deus continua sendo digno de todo o nosso louvor hoje. Talvez você não tenha atravessado um mar aberto, mas certamente já foi sustentado em momentos de escassez, consolado em dias de tristeza, protegido quando tudo parecia ameaçador.
+As “grandes e temíveis maravilhas” de Deus também se revelam em coisas que, muitas vezes, chamamos de “pequenas”: o fôlego de vida ao acordar, o alimento diário, o amor de Cristo que nos resgatou.
+Louvar a Deus é manter viva a memória das Suas obras. É não deixar que a correria ou as lutas do dia apaguem o reconhecimento pelo que Ele já fez e continua fazendo. É afirmar com a vida que nossa alegria e esperança não dependem das circunstâncias, mas do caráter imutável d’Ele.
+Hoje, pare por alguns instantes e lembre-se das maravilhas que Deus já realizou na sua história. Reconheça que cada vitória, cada livramento e até mesmo cada oportunidade de recomeçar vem d’Ele. E, acima de tudo, que o próprio Deus é o maior presente que podemos receber.
+Que Ele seja sempre o motivo do seu louvor, pois Ele é, e sempre será, o seu Deus.
+Mantendo o coração focado em quem Deus é
+
+
+Lembre-se das obras passadas de Deus: Reviva na memória as vitórias e livramentos que Ele já concedeu. Isso fortalece a fé e reacende o louvor mesmo nos dias difíceis.
+
+Louve em todas as circunstâncias: Escolha adorar mesmo quando não entende o caminho. O louvor nas dificuldades declara confiança no caráter de Deus acima das circunstâncias visíveis.
+
+Reconheça Deus como seu maior tesouro: Valorize mais a presença de Deus do que qualquer bênção recebida. Isso mantém o coração centrado n’Ele e impede que o louvor dependa apenas de resultados favoráveis.
+
+Para orar:
+
+Senhor, Tu és o motivo do meu louvor. Obrigado por Tuas maravilhas e por cada detalhe do Teu cuidado. Ensina-me a lembrar sempre do que já fizeste e a confiar no que farás. Que minha adoração não dependa das circunstâncias, mas do Teu caráter perfeito. Sê o centro da minha vida, meu maior tesouro e alegria. Hoje e sempre, declaro: Tu és o meu Deus e somente a Ti darei todo o louvor. Amém.
+
+Veja também: 5 formas de louvar ao Senhor de todo o nosso coração
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Jeová Rafá o Deus que cura!
 INFO:root:🔹 URL: https://www.bibliaon.com/oracao_para_cura_saude/
 INFO:root:🔹 Description: pois eu sou o Senhor que os cura".
@@ -346,42 +375,10 @@ Senhor amado, agradeço pelo Teu amor e propósito para minha vida. Ajuda-me a d
 
 Veja também: Só vive o propósito quem suporta o processo
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Recarregando a bateria
-INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
-INFO:root:🔹 Description: mas aqueles que esperam no Senhor
-renovam as suas forças.
-Voam alto como águias;
-correm e não ficam exaustos,
-andam e não se cansam.
-- Isaías 40:31
-
-Vivemos em um mundo onde quase tudo depende de um celular. Ele nos conecta, nos auxilia no trabalho e nos entretém. Mas, por mais moderno e potente que seja, um celular não funciona sem carga. Não importa quantos aplicativos ele tenha, se a bateria estiver fraca, ele se torna inútil. Por isso, todos os dias, precisamos conectá-lo à fonte de energia para continuar funcionando.
-Assim é a nossa vida espiritual. Podemos ter dons, talentos, boas intenções e até experiência na caminhada cristã, mas, sem estarmos ligados diariamente à presença de Deus, nossa “bateria” espiritual começa a esvaziar. E, quando isso acontece, o cansaço, a ansiedade, a falta de paciência e a frieza espiritual tomam espaço.
-A oração, a leitura da Palavra e a comunhão com o Senhor são como o carregador que mantém nossa vida acesa. Não podemos esperar o domingo para nos conectar. Da mesma forma que você não deixa seu celular descarregar completamente para só depois recarregar, não devemos esperar chegar ao limite para buscar forças no Senhor.
-Muitas vezes, nos enganamos pensando que podemos “funcionar no modo econômico”, vivendo apenas com pequenas doses de fé. Mas Deus não nos chamou para vivermos no mínimo, e sim para termos vida abundante:
-
-eu vim para que tenham vida e a tenham em abundância.
-- João 10:10b
-
-A presença de Deus não é apenas um momento de recarga, é também o lugar onde recebemos direção, paz e renovação de forças.
-Hoje, antes de começar suas tarefas, pergunte a si mesmo: minha bateria espiritual está cheia? Se não, conecte-se à fonte verdadeira. Afinal, sem energia, o celular para… e, sem Deus, a alma desanima.
-Mantenha-se ligado ao Senhor diariamente e você nunca ficará sem forças para seguir.
-Recarregue-se à fonte da vida ⚡
-
-Separe um momento específico do seu dia para oração e leitura da Bíblia. Essa conexão diária é essencial para manter sua “bateria” sempre carregada e ativa.
-Assim como o celular precisa de energia, sua alma precisa de alimento espiritual. Medite nas Escrituras, memorize versículos e aplique os princípios de Deus em todas as áreas.
-Fale com Deus ao longo do dia, agradeça pelas pequenas bênçãos e confie a Ele cada decisão, mantendo seu coração sempre ligado.
-
-Para orar:
-
-Senhor, renova minhas forças hoje. Enche-me com Tua presença e mantém meu coração conectado a Ti. Que eu não viva no “modo econômico”, mas transborde de fé, amor e esperança em Ti. Amém.
-
-Veja também: Como se aproximar de Deus
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 228235 characters
-INFO:root:HTML parsed, length: 226840 characters
+INFO:root:Response length: 228491 characters
+INFO:root:HTML parsed, length: 227096 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
 INFO:root:Found 36 URLs: ['/wiki/M%C3%BAsica_da_Bahia', '/wiki/M%C3%BAsica_da_Bahia', '/wiki/M%C3%BAsica']
 INFO:root:Found 1 descriptions: ['A música da Bahia diz respeito à produção musical ']
@@ -415,8 +412,8 @@ Artigos bons: 1922
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 228235 characters
-INFO:root:HTML parsed, length: 226840 characters
+INFO:root:Response length: 228491 characters
+INFO:root:HTML parsed, length: 227096 characters
 INFO:root:Found 1 titles: ['15 de agosto na história']
 INFO:root:Found 48 URLs: ['/wiki/Ficheiro:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg', '/wiki/Dia_da_Independ%C3%AAncia_(%C3%8Dndia)', '/wiki/%C3%8Dndia']
 INFO:root:Found 1 descriptions: ['Napoleão Bonaparte\nDia da Independência da Índia (']
@@ -446,8 +443,8 @@ Ver mais • Outros dias: 13 • 14 • 15 • 16 • 17 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 228235 characters
-INFO:root:HTML parsed, length: 226840 characters
+INFO:root:Response length: 228491 characters
+INFO:root:HTML parsed, length: 227096 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
 INFO:root:Found 1 URLs: ['/wiki/Ficheiro:Ceiling_of_the_%22Assumption_of_Mary%22_in_Santa_Maria_Immacolata_a_via_Veneto_(Roma).jpg']
 INFO:root:Found 1 descriptions: ['Assunção realizada por Liborio Coccetti na abóbada']
@@ -485,30 +482,24 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M "feeds/vers\303\255culo_do_dia/atom.xml"
  M "feeds/vers\303\255culo_do_dia/feed.json"
  M feeds/wikidestaque/atom.xml
- M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
- M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
- M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 ++--
- feeds/devocional_de_hoje/feed.json        |  14 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  33 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  57 +++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  32 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 118 +++++----
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  79 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   4 +-
- feeds/wikidestaque/feed.json              |   2 +-
- feeds/wikidia/atom.xml                    |  16 +-
- feeds/wikidia/feed.json                   |   8 +-
- feeds/wikiimagem/atom.xml                 |   6 +-
- feeds/wikiimagem/feed.json                |   6 +-
- output.log                                | 392 +++++++++++++++---------------
- 17 files changed, 375 insertions(+), 337 deletions(-)
+ feeds/wikidestaque/atom.xml               |   2 +-
+ feeds/wikidia/atom.xml                    |   2 +-
+ feeds/wikiimagem/atom.xml                 |   2 +-
+ output.log                                | 330 ++++++++++++++----------------
+ 14 files changed, 281 insertions(+), 308 deletions(-)
