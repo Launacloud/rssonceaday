@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119986 characters
-INFO:root:HTML parsed, length: 112866 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (22/08/2025)', 'Palavra de Ontem (21/08/2025)', 'Palavra de Anteontem (20/08/2025)']
-INFO:root:Found 3 URLs: ['/libelula/', '/melo-2/', '/continuar/']
-INFO:root:Found 13 descriptions: ['substantivo feminino [Entomologia] Inseto de quatr', 'Sinônimos:\n\nzigue-zague, helicóptero, fura-olho', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (22/08/2025)', 'Palavra de Ontem (21/08/2025)', 'Palavra de Anteontem (20/08/2025)']
+INFO:root:Response length: 119301 characters
+INFO:root:HTML parsed, length: 112362 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (23/08/2025)', 'Palavra de Ontem (22/08/2025)', 'Palavra de Anteontem (21/08/2025)']
+INFO:root:Found 3 URLs: ['/jornada/', '/libelula/', '/melo-2/']
+INFO:root:Found 12 descriptions: ['substantivo feminino Caminhada que se faz no perío', 'Sinônimos:\n\nestirão, passeio, marcha, caminhada, v', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (23/08/2025)', 'Palavra de Ontem (22/08/2025)', 'Palavra de Anteontem (21/08/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (22/08/2025)', ID=29fdd555758197b5c3350036f1358286
-INFO:root:Processing entry 2: Title='Palavra de Ontem (21/08/2025)', ID=1edb6f436d7254f18e0ce35e424c245a
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/08/2025)', ID=890083eb30bbe29ce3a4d70a55194e16
+INFO:root:Processing entry 1: Title='Palavra de Hoje (23/08/2025)', ID=e3e43683d7f76d92f27f35dcb809046b
+INFO:root:Processing entry 2: Title='Palavra de Ontem (22/08/2025)', ID=8d297df5dc42825d842708d7993a86a4
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/08/2025)', ID=266ef74a0585e36b2adfb41f1b6e026c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (22/08/2025) - Significado completo de libélula:
-INFO:root:🔹 URL: https://www.dicio.com.br/libelula/
-INFO:root:🔹 Description: substantivo feminino [Entomologia] Inseto de quatro asas membranosas, longas e transparentes, com adbome estreito e comprido, que voa rapidamente junto às águas em perseguição a outros minúsculos insetos e cuja larva é aquática.Etimologia (origem da palavra libélula). A palavra libélula tem sua origem no francês “libellule”; pelo latim científico “libellula”.
+INFO:root:🔹 Title: Palavra de Hoje (23/08/2025) - Significado completo de jornada:
+INFO:root:🔹 URL: https://www.dicio.com.br/jornada/
+INFO:root:🔹 Description: substantivo feminino Caminhada que se faz no período de um dia.Trabalho desempenhado no decurso de um dia: hoje minha jornada foi difícil.Dia marcado por uma situação fora do comum.Distância que se percorre numa viagem.[Figurado] Reunião dos acontecimentos que, de alguma forma, pode tornar compreensível uma ação e suas consequências.[Militar] Ação ou expedição militar; batalha, campanha.[Regionalismo: Nordeste] Cena cantada nos presepes e pastoris.expressão Jornada de trabalho. Período de tempo aplicado a uma atividade qualquer: sua jornada de trabalho é de 20 horas por semana.Etimologia (origem da palavra jornada). Do provençal jornada.
  
 Sinônimos:
 
-zigue-zague, helicóptero, fura-olho 
+estirão, passeio, marcha, caminhada, viagem, andada, andança 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (21/08/2025) - Significado completo de melô:
-INFO:root:🔹 URL: https://www.dicio.com.br/melo-2/
+INFO:root:🔹 Title: Palavra de Ontem (22/08/2025) - Significado completo de libélula:
+INFO:root:🔹 URL: https://www.dicio.com.br/libelula/
 INFO:root:🔹 Description: Sinônimos:
 
-zigue-zague, helicóptero, fura-olho
+estirão, passeio, marcha, caminhada, viagem, andada, andança
  Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (20/08/2025) - Significado completo de continuar:
-INFO:root:🔹 URL: https://www.dicio.com.br/continuar/
+INFO:root:🔹 Title: Palavra de Anteontem (21/08/2025) - Significado completo de melô:
+INFO:root:🔹 URL: https://www.dicio.com.br/melo-2/
 INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:li-bé-lu-la
+ Sílabas:jor-na-da
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,72 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 299739 characters
-INFO:root:HTML parsed, length: 289786 characters
-INFO:root:Found 1 titles: ['Hebreus 10:23']
-INFO:root:Found 1 URLs: ['/versiculo/hebreus_10_23/']
-INFO:root:Found 1 descriptions: ['Apeguemo-nos com firmeza à esperança que professam']
+INFO:root:Response length: 299720 characters
+INFO:root:HTML parsed, length: 289767 characters
+INFO:root:Found 1 titles: ['João 10:10']
+INFO:root:Found 1 URLs: ['/versiculo/joao_10_10/']
+INFO:root:Found 1 descriptions: ['O ladrão vem apenas para roubar, matar e destruir;']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Hebreus 10:23', ID=9ba7df999fa72728cb27f3adb0e0a120
+INFO:root:Processing entry 1: Title='João 10:10', ID=57582a65d435869abfb486acb5b1cbe6
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Hebreus 10:23
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_10_23/
-INFO:root:🔹 Description: Apeguemo-nos com firmeza à esperança que professamos, pois aquele que prometeu é fiel. Hebreus 10:23
+INFO:root:🔹 Title: João 10:10
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_10_10/
+INFO:root:🔹 Description: O ladrão vem apenas para roubar, matar e destruir; eu vim para que tenham vida e a tenham plenamente. João 10:10
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 300090 characters
-INFO:root:HTML parsed, length: 290864 characters
-INFO:root:Found 3 titles: ['Salmo 95', 'Salmo 45', 'Salmo 112']
-INFO:root:Found 3 URLs: ['/salmos_95/', '/salmos_45/', '/salmos_112/']
-INFO:root:Found 3 descriptions: ['Venham! Cantemos ao Senhor com alegria!\nAclamemos ', 'Com o coração vibrando de boas palavras\nrecito os ', 'Aleluia!\nComo é feliz o homem que teme o Senhor\ne ']
-INFO:root:Found 3 dates: ['22 de Agosto de 2025', '21 de Agosto de 2025', '20 de Agosto de 2025']
+INFO:root:Response length: 300101 characters
+INFO:root:HTML parsed, length: 290877 characters
+INFO:root:Found 3 titles: ['Salmo 146', 'Salmo 95', 'Salmo 45']
+INFO:root:Found 3 URLs: ['/salmos_146/', '/salmos_95/', '/salmos_45/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nLouve, ó minha alma, o Senhor. \nLouvarei ', 'Venham! Cantemos ao Senhor com alegria!\nAclamemos ', 'Com o coração vibrando de boas palavras\nrecito os ']
+INFO:root:Found 3 dates: ['23 de Agosto de 2025', '22 de Agosto de 2025', '21 de Agosto de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
-INFO:root:Processing entry 2: Title=' Salmo 45', ID=cf6ec74f737411dd9d097a129de9c8ec
-INFO:root:Processing entry 3: Title=' Salmo 112', ID=a423322d805db9de2799d33fa40b3d05
+INFO:root:Processing entry 1: Title=' Salmo 146', ID=1540c74e869b39cd024ba9fd09a2bad3
+INFO:root:Processing entry 2: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
+INFO:root:Processing entry 3: Title=' Salmo 45', ID=cf6ec74f737411dd9d097a129de9c8ec
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 146
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_146/
+INFO:root:🔹 Description: Aleluia!
+Louve, ó minha alma, o Senhor. 
+Louvarei o Senhor por toda a minha vida;
+cantarei louvores ao meu Deus
+enquanto eu viver. 
+Não confiem em príncipes,
+em meros mortais, incapazes de salvar. 
+Quando o espírito deles se vai, eles voltam ao pó;
+naquele mesmo dia acabam-se os seus planos. 
+Como é feliz aquele cujo auxílio
+é o Deus de Jacó,
+cuja esperança está no Senhor, no seu Deus, 
+que fez os céus e a terra,
+o mar e tudo o que neles há,
+e que mantém a sua fidelidade para sempre! 
+Ele defende a causa dos oprimidos
+e dá alimento aos famintos.
+O Senhor liberta os presos, 
+o Senhor dá vista aos cegos,
+o Senhor levanta os abatidos,
+o Senhor ama os justos. 
+O Senhor protege o estrangeiro
+e sustém o órfão e a viúva,
+mas frustra o propósito dos ímpios. 
+O Senhor reina para sempre!
+O teu Deus, ó Sião,
+reina de geração em geração.
+Aleluia! 
+ Salmo 146
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 95
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_95/
 INFO:root:🔹 Description: Venham! Cantemos ao Senhor com alegria!
@@ -163,98 +195,85 @@ por isso as nações te louvarão
 para todo o sempre. 
  Salmo 45
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 112
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_112/
-INFO:root:🔹 Description: Aleluia!
-Como é feliz o homem que teme o Senhor
-e tem grande prazer em seus mandamentos! 
-Seus descendentes serão poderosos na terra,
-serão uma geração abençoada,
-de homens íntegros. 
-Grande riqueza há em sua casa,
-e a sua justiça dura para sempre. 
-A luz raia nas trevas para o íntegro,
-para quem é misericordioso,
-compassivo e justo. 
-Feliz é o homem
-que empresta com generosidade
-e que com honestidade conduz os seus negócios. 
-O justo jamais será abalado;
-para sempre se lembrarão dele. 
-Não temerá más notícias;
-seu coração está firme, confiante no Senhor. 
-O seu coração está seguro e nada temerá.
-No final, verá a derrota dos seus adversários. 
-Reparte generosamente com os pobres;
-a sua justiça dura para sempre;
-seu poder será exaltado em honra. 
-O ímpio o vê e fica irado,
-range os dentes e definha.
-O desejo dos ímpios se frustrará. 
- Salmo 112
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 303018 characters
-INFO:root:HTML parsed, length: 293461 characters
-INFO:root:Found 3 titles: ['Louve a Deus e lembre-se de suas bênçãos sobre você', 'Nome sobre todo nome', 'Conselhos para uma vida melhor']
+INFO:root:Response length: 302209 characters
+INFO:root:HTML parsed, length: 292653 characters
+INFO:root:Found 3 titles: ['A alegria de ter um encontro com Deus', 'Louve a Deus e lembre-se de suas bênçãos sobre você', 'Nome sobre todo nome']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Bendiga o Senhor a minha alma!\nBendiga o Senhor to', 'para que ao nome de Jesus\nse dobre todo joelho,\nno', 'Alegrem-se sempre.\nOrem continuamente.\nDeem graças']
-INFO:root:Found 1 dates: ['Sexta, 22 de agosto de 2025']
+INFO:root:Found 3 descriptions: ['E lá procurarão o Senhor, o seu Deus, e o acharão,', 'Bendiga o Senhor a minha alma!\nBendiga o Senhor to', 'para que ao nome de Jesus\nse dobre todo joelho,\nno']
+INFO:root:Found 1 dates: ['Sábado, 23 de agosto de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Louve a Deus e lembre-se de suas bênçãos sobre você', ID=c03317c25c0ef38dad1ec848d102e348
+INFO:root:Processing entry 1: Title='A alegria de ter um encontro com Deus', ID=5beeca7275ae4789c0fa5ebe7e1b7889
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Louve a Deus e lembre-se de suas bênçãos sobre você - Palavra de Hoje
+INFO:root:🔹 Title: A alegria de ter um encontro com Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Bendiga o Senhor a minha alma!
-Bendiga o Senhor todo o meu ser!
-Bendiga o Senhor a minha alma!
-Não esqueça nenhuma de suas bênçãos!
-- Salmo 103:1-2 
+INFO:root:🔹 Description: E lá procurarão o Senhor, o seu Deus, e o acharão, se o procurarem de todo o seu coração e de toda a sua alma.
+- Deuteronômio 4:29 
 
 
-Louvem o Senhor, todas as nações;
-exaltem-no, todos os povos!
-Porque imenso é o seu amor leal por nós,
-e a fidelidade do Senhor dura para sempre.
-Aleluia!
-- Salmo 117:1-2 
+Então vocês clamarão a mim, virão orar a mim, e eu os ouvi­rei. Vocês me procurarão e me acharão quando me procurarem de todo o coração.
+- Jeremias 29:12-13 
 
-Deus nos abençoa muito todos os dias! Servimos ao Deus generoso que nos ama, cuida de nós e supre as nossas necessidades. Podemos não ter tudo o que desejamos, mas Deus sempre nos provê o que precisamos. Ele merece o nosso louvor e gratidão.
-Reserve alguns minutos hoje para lembrar o que Deus fez por você, as bênçãos que você recebeu dEle. Olhe para o céu e agradeça a Ele porque você pode ver a natureza ao seu redor. Ver, ouvir, sentir, cheirar, comer, caminhar, abraçar, conversar, há tantas coisas que fazemos todos os dias automaticamente, e ainda assim são bênçãos de Deus. Muitos não conseguem desfrutar de algumas dessas maravilhas devido a doenças ou outras situações.
-Louvemos a Deus por Sua bondade. Enchamos nossos corações de gratidão e nos maravilhamos com o amor constante e fiel de Deus. Quando o louvor enche sua boca, a tristeza perde o poder. Quando a gratidão domina seus pensamentos, a reclamação desaparece. Quando você se lembra da fidelidade de Deus no passado, sua fé se fortalece para o presente e para o que está por vir.
-O louvor é a chave que abre a porta para que seu coração se encha de paz, esperança e alegria. Mesmo que as circunstâncias mudem, Deus não muda: Seu amor e misericórdia são eternos. Ele nos sustenta na fraqueza, nos levanta quando caímos e nos renova a cada manhã.
-Decida-se a erguer sua voz em adoração ao Senhor. Lembre-se do que Deus fez, confie no que Ele está fazendo e aguarde com alegria o que Ele fará. Louve a Deus e nunca se esqueça de Suas bênçãos sobre você! 
-Leia também: As misericórdias do Senhor se renovam a cada manhã
+Nossos corações batem mais rápido e se enchem de grande alegria quando encontramos alguém querido! Isso já aconteceu com você? Você está no meio de suas tarefas diárias, um pouco sobrecarregado ou cansado, e de repente ouve a voz de um ente querido chegando em sua casa. Toda a ansiedade e angústia desaparecem! Simplesmente ouvir a voz de alguém que você ama, alguém que o compreende e cuida de você, acalma seu coração e lhe traz paz.
+O interessante é que existe alguém disponível 24 horas por dia, 7 dias por semana, alguém que nos ama mais do que ninguém e que pode suprir todas as nossas necessidades: Deus! Podemos sempre recorrer a Ele em meio aos nossos problemas, dia ou noite, e receber Sua paz. Basta parar, buscar Seu rosto e esperar em Sua presença. Cada encontro com o Senhor nos renova e nos enche de alegria.
+Reserve um tempo hoje para buscar a Deus de todo o seu coração e sem pressa. Aproxime-se dEle com expectativa, sabendo que Ele ouve sua voz, o ama e quer falar com você, ajudá-lo e lhe dar descanso. Deus está sempre perto. Somos nós que nos deixamos levar pelas tarefas da vida, dando a Ele apenas as migalhas do nosso tempo.
+Tenha um encontro de qualidade com o Senhor hoje. Prepare-se para receber Suas palavras cheias de amor e compreensão, Seu abraço e a certeza de que com Ele tudo é possível. Ele não o decepcionará. Aproveite seu encontro com o Senhor! 
+Veja também: Versículos sobre buscar o poder de Deus
  
-Bendiga o Senhor a minha alma!
-Bendiga o Senhor todo o meu ser!
-Bendiga o Senhor a minha alma!
-Não esqueça nenhuma de suas bênçãos!
-- Salmo 103:1-2 
+E lá procurarão o Senhor, o seu Deus, e o acharão, se o procurarem de todo o seu coração e de toda a sua alma.
+- Deuteronômio 4:29 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 313278 characters
-INFO:root:HTML parsed, length: 303482 characters
-INFO:root:Found 3 titles: ['Valorizando o que é importante', 'Aperfeiçoando-se a cada dia', 'Os perigos de uma mente vazia']
-INFO:root:Found 3 URLs: ['/buscai_reino_de_deus_explicacao/', '/estudo_biblico_sobre_santidade/', '/mente_vazia_e_oficina_do_diabo/']
-INFO:root:Found 3 descriptions: ['Busquem, pois, em primeiro lugar o Reino de Deus e', 'A vereda do justo\né como a luz da alvorada,\nque br', 'Não se amoldem ao padrão deste mundo, mas transfor']
-INFO:root:Found 3 dates: ['AGOSTO\n\n22\nSEXTA', 'AGOSTO\n\n21\nQUINTA', 'AGOSTO\n\n20\nQUARTA']
+INFO:root:Response length: 312686 characters
+INFO:root:HTML parsed, length: 302890 characters
+INFO:root:Found 3 titles: ['Deus está te preparando para o melhor', 'Valorizando o que é importante', 'Aperfeiçoando-se a cada dia']
+INFO:root:Found 3 URLs: ['/so_vive_o_proposito_quem_suporta_o_processo_reflexao/', '/buscai_reino_de_deus_explicacao/', '/estudo_biblico_sobre_santidade/']
+INFO:root:Found 3 descriptions: ['Porque sou eu que conheço os planos que tenho para', 'Busquem, pois, em primeiro lugar o Reino de Deus e', 'A vereda do justo\né como a luz da alvorada,\nque br']
+INFO:root:Found 3 dates: ['AGOSTO\n\n23\nSÁBADO', 'AGOSTO\n\n22\nSEXTA', 'AGOSTO\n\n21\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Valorizando o que é importante', ID=ead7d03d75fda7c7a811ca4f7e295f37
-INFO:root:Processing entry 2: Title='Aperfeiçoando-se a cada dia', ID=49f6209becda208421b8a84c2e3696bf
-INFO:root:Processing entry 3: Title='Os perigos de uma mente vazia', ID=ece64c87fd80a7ecf12730daeb997c76
+INFO:root:Processing entry 1: Title='Deus está te preparando para o melhor', ID=9d7bbb742ca7544a6ddba1c4fcc7f5ed
+INFO:root:Processing entry 2: Title='Valorizando o que é importante', ID=ead7d03d75fda7c7a811ca4f7e295f37
+INFO:root:Processing entry 3: Title='Aperfeiçoando-se a cada dia', ID=49f6209becda208421b8a84c2e3696bf
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Deus está te preparando para o melhor
+INFO:root:🔹 URL: https://www.bibliaon.com/so_vive_o_proposito_quem_suporta_o_processo_reflexao/
+INFO:root:🔹 Description: Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
+- Jeremias 29:11
+
+
+Sabemos que Deus age em todas as coisas para o bem daqueles que o amam, dos que foram chamados de acordo com o seu propósito.
+- Romanos 8:28
+
+Às vezes a vida parece um caminho cheio de desafios, de portas fechadas e de esperas que parecem não ter fim. É nesse momento que muitos se perguntam: “Será que Deus se esqueceu de mim?” Mas a verdade é que, quando nada parece acontecer, Deus está trabalhando, moldando sua vida e preparando seu coração para viver o melhor que Ele tem reservado.
+Assim como um artesão lapida a pedra bruta até que ela se torne preciosa, o Senhor usa processos e circunstâncias para nos transformar em pessoas mais fortes, maduras e cheias de fé. Cada lágrima, cada espera e cada oração feita em secreto estão sendo usadas por Deus como sementes que, no tempo certo, florescerão em vitória.
+Deus nunca desperdiça dor nem demora. Ele está te ensinando a confiar, a depender mais Dele e a valorizar o que virá. Muitas vezes, o que pedimos é menor do que aquilo que Ele deseja nos entregar. Sua promessa é sempre maior que as nossas expectativas, pois o Senhor é capaz de fazer infinitamente mais do que tudo que pedimos ou pensamos.
+Não desanime diante das provações. O processo é apenas a preparação. Continue firme, orando, crendo e caminhando em obediência. Em breve, você entenderá que cada etapa da sua jornada foi necessária para te conduzir até a promessa.
+Deus está te preparando para o melhor, e o melhor d’Ele é perfeito, eterno e transformador. Confie!
+Caminhando com fé até a promessa
+
+
+Entregue sua vida ao Senhor. Ele conhece o propósito de cada etapa e está moldando você para receber o melhor. Descansar em Deus é essencial para seguir firme.
+
+A oração fortalece o coração e mantém a fé viva. Falar com Deus diariamente é o combustível espiritual que renova as forças e prepara sua mente para enxergar além das circunstâncias atuais.
+Em vez de reclamar, veja as provações como oportunidades de amadurecer. Assim, você se torna mais preparado para viver as promessas divinas.
+
+Para orar:
+
+Senhor amado, fortalece minha fé em meio às provações. Ensina-me a confiar nos Teus planos e a esperar com paciência o tempo certo. Que minha vida seja moldada pelo Teu amor e direcionada para o melhor que preparaste. Amém.
+
+Veja também: Só vive o propósito quem suporta o processo.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Valorizando o que é importante
 INFO:root:🔹 URL: https://www.bibliaon.com/buscai_reino_de_deus_explicacao/
 INFO:root:🔹 Description: Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.
@@ -309,39 +328,13 @@ Senhor amado, agradeço por mais um dia em Tua presença. Molda meu coração se
 
 Veja também: Estudo bíblico sobre santidade.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Os perigos de uma mente vazia
-INFO:root:🔹 URL: https://www.bibliaon.com/mente_vazia_e_oficina_do_diabo/
-INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
-- Romanos 12:2
-
-Uma mente vazia nunca permanece realmente desocupada. Assim como uma casa abandonada rapidamente se enche de poeira, animais ou até pessoas indevidas, assim também acontece com nossos pensamentos quando não são preenchidos com a Palavra de Deus. O inimigo sabe disso e procura usar cada espaço não ocupado para plantar dúvidas, tentações e enganos.
-Quando não alimentamos a mente com oração, leitura bíblica e louvor, abrimos brechas para maus pensamentos e até influências negativas. Jesus ensinou que quando um espírito imundo deixa uma pessoa, mas encontra o coração vazio, retorna trazendo outros piores:
-
-"Quando um espírito imundo sai de um homem, passa por lugares áridos procurando descanso. Como não o encontra, diz: 'Voltarei para a casa de onde saí'. Chegando, encontra a casa desocupada, varrida e em ordem. Então vai e traz consigo outros sete espíritos piores do que ele, e, entrando, passam a viver ali. E o estado final daquele homem torna-se pior do que o primeiro. Assim acontecerá a esta geração perversa".
-- Mateus 12:43-45
-
-Uma mente vazia é terreno fértil para distrações e pecados. O ócio prolongado pode gerar murmuração, comparações e até inveja. Já uma mente renovada pela Palavra encontra direção, paz e firmeza diante das lutas da vida. Por isso, Paulo nos orienta a pensar em tudo o que é verdadeiro, justo, puro e digno de louvor.
-A solução não é apenas “não pensar em coisas ruins”, mas encher a mente das verdades eternas de Deus. A prática da oração constante, a meditação diária nas Escrituras e a busca por comunhão com o Senhor ocupam nossa mente com o que realmente edifica.
-Não permita que sua mente fique vazia. Preencha-a com a presença de Cristo e deixe que o Espírito Santo guie seus pensamentos. Assim, você estará protegido contra os ataques do inimigo e experimentará a verdadeira paz que só o Senhor pode dar.
-Uma mente cheia de Cristo é uma vida cheia de vitória
-
-Reserve tempo todos os dias para ler e meditar nas Escrituras. Quando a mente se enche da verdade de Deus, pensamentos de engano e medo perdem espaço, fortalecendo sua fé.
-A oração constante é o diálogo que protege a mente contra distrações e ataques espirituais. Ao orar, entregamos nossas preocupações a Deus e recebemos paz que ultrapassa qualquer entendimento humano.
-As companhias e os lugares que frequentamos influenciam nossa forma de pensar. Estar em ambientes de louvor, comunhão e edificação ajuda a manter a mente ocupada com o que glorifica a Cristo.
-
-Para orar:
-
-Senhor amado, enche a minha mente com a Tua presença e não permitas que o vazio dê lugar ao medo ou às tentações. Renova os meus pensamentos com a Tua Palavra e fortalece meu coração para viver em santidade. Que cada decisão seja guiada pelo Teu Espírito e que a minha vida reflita a luz de Cristo. Afasta de mim toda distração e mentira do inimigo, e concede-me paz, sabedoria e firmeza para permanecer fiel em todo tempo. Amém.
-
-Veja também: Onde está na Bíblia: Mente vazia oficina do diabo
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226751 characters
-INFO:root:HTML parsed, length: 225356 characters
+INFO:root:Response length: 227588 characters
+INFO:root:HTML parsed, length: 226183 characters
 INFO:root:Found 1 titles: ['Artigo em destaque']
-INFO:root:Found 17 URLs: ['/wiki/All_I_Want_for_Christmas_Is_You', '/wiki/All_I_Want_for_Christmas_Is_You', '/wiki/Mariah_Carey']
-INFO:root:Found 1 descriptions: ['"All I Want for Christmas Is You" é uma canção da ']
+INFO:root:Found 24 URLs: ['/wiki/Oops!..._I_Did_It_Again', '/wiki/Oops!..._I_Did_It_Again', '/wiki/%C3%81lbum_de_est%C3%BAdio']
+INFO:root:Found 1 descriptions: ['Oops!... I Did It Again é o segundo álbum de estúd']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Artigo em destaque', ID=5d6c6e7cbca4408ff9839e6bfac83452
@@ -351,14 +344,14 @@ INFO:root:Updated 'feeds/wikidestaque/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Artigo em destaque
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/All_I_Want_for_Christmas_Is_You
-INFO:root:🔹 Description: "All I Want for Christmas Is You" é uma canção da artista musical estadunidense Mariah Carey (imagem), contida em seu primeiro álbum natalino e quarto em estúdio Merry Christmas. Foi composta e produzida pela própria em conjunto com Walter Afanasieff. Após o grande sucesso comercial obtido com seu terceiro disco Music Box, Carey e os executivos de sua gravadora começaram a desenvolver ideias para o seu próximo trabalho, uma das quais incluiu a criação de um álbum natalino com Afansieff, parceiro de composição e produção de longa data. Inicialmente mal vista, a ideia desenvolveu-se em um disco com várias canções natalinas e três inéditas, uma das quais era "All I Want for Christmas Is You". Carey compôs a faixa com Afanasieff em 15 minutos e, no processo, teve como objetivo mesclar seus sentimentos como uma pessoa amorosa e uma pessoa festiva, tendo demonstrado grande afeto pelo Natal desde criança. (Artigo completo...)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Oops!..._I_Did_It_Again
+INFO:root:🔹 Description: Oops!... I Did It Again é o segundo álbum de estúdio da artista musical estadunidense Britney Spears (imagem), lançado em 3 de maio de 2000 pela Jive Records. Após o enorme sucesso comercial de seu primeiro álbum de estúdio ...Baby One More Time (1999) e a conclusão de sua turnê de mesmo título, Spears começou a gravar material para seu segundo álbum de estúdio, entre setembro de 1999 até abril de 2000, em estúdios nos Estados Unidos, Canadá e na Suécia. Pressionada a duplicar o sucesso de ...Baby One More Time, ela colaborou com uma ampla gama de produtores musicais, incluindo Max Martin, Rami Yacoub, Per Magnusson, David Kreuger, Kristian Lundin, Jake Schulze, Darkchild, e Robert John "Mutt" Lange para seu disco seguinte. (Artigo completo...)
 
 
 Destacados recentemente: 
+All I Want for Christmas Is You
 Música da Bahia
 Artur Bernardes
-If You Had My Love
 
 
 
@@ -371,44 +364,44 @@ Artigos bons: 1923
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226751 characters
-INFO:root:HTML parsed, length: 225356 characters
-INFO:root:Found 1 titles: ['21 de agosto na história']
-INFO:root:Found 49 URLs: ['/wiki/Ficheiro:%D0%9B%D0%B5%D0%B2_%D0%94%D0%B0%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2%D0%B8%D1%87_%D0%A2%D1%80%D0%BE%D1%86%D0%BA%D0%B8%D0%B9.jpg', '/wiki/Dia_Internacional_em_Mem%C3%B3ria_e_Tributo_%C3%A0s_V%C3%ADtimas_do_Terrorismo', '/wiki/1415']
-INFO:root:Found 1 descriptions: ['Leon Trótski\nDia Internacional em Memória e Tribut']
+INFO:root:Response length: 227588 characters
+INFO:root:HTML parsed, length: 226183 characters
+INFO:root:Found 1 titles: ['23 de agosto na história']
+INFO:root:Found 54 URLs: ['/wiki/Ficheiro:La_masacre_de_San_Bartolom%C3%A9,_por_Fran%C3%A7ois_Dubois.jpg', '/wiki/Dia_Internacional_para_Relembrar_o_Tr%C3%A1fico_de_Escravos_e_sua_Aboli%C3%A7%C3%A3o', '/wiki/Organiza%C3%A7%C3%A3o_das_Na%C3%A7%C3%B5es_Unidas_para_a_Educa%C3%A7%C3%A3o,_a_Ci%C3%AAncia_e_a_Cultura']
+INFO:root:Found 1 descriptions: ['Massacre da noite de São Bartolomeu\nDia Internacio']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='21 de agosto na história', ID=ca5fe72669451693f636c0872f860914
+INFO:root:Processing entry 1: Title='23 de agosto na história', ID=914f8232119b02546c90e892ed14ab59
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/wikidia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/wikidia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 21 de agosto na história
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:%D0%9B%D0%B5%D0%B2_%D0%94%D0%B0%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2%D0%B8%D1%87_%D0%A2%D1%80%D0%BE%D1%86%D0%BA%D0%B8%D0%B9.jpg
-INFO:root:🔹 Description: Leon Trótski
-Dia Internacional em Memória e Tributo às Vítimas do Terrorismo (2018)
+INFO:root:🔹 Title: 23 de agosto na história
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:La_masacre_de_San_Bartolom%C3%A9,_por_Fran%C3%A7ois_Dubois.jpg
+INFO:root:🔹 Description: Massacre da noite de São Bartolomeu
+Dia Internacional para Relembrar o Tráfico de Escravos e sua Abolição (UNESCO, 1997); Dia Nacional da Bandeira da Ucrânia (2004)
 
-1415 – Reconquista: Henrique, Duque de Viseu, leva as forças portuguesas à vitória sobre os merínidas na Conquista de Ceuta.
-1954 – É inaugurado o Parque Ibirapuera, uma área verde urbana na cidade de São Paulo, Brasil.
-2013 – Guerra Civil Síria: centenas de pessoas são mortas por um ataque químico na região de Ghouta, uma zona rural em torno de Damasco.
+1572 – A violência religiosa contra milhares de huguenotes em Paris resulta no massacre da noite de São Bartolomeu (pintura).
+1939 – A Alemanha Nazista e a União Soviética assinam um tratado de não-agressão, o Pacto Molotov-Ribbentrop, que prevê em uma adição secreta a partição dos Países Bálticos, Finlândia, Romênia e Polônia entre os dois países.
+2023 – O aterrissador indiano Chandrayaan-3 torna-se o primeiro a pousar no polo sul da Lua.
 Nasceram neste dia…
-Afonso VI de Portugal (1643–1683)  •  Count Basie (1904–1984)  •  Margarida, Condessa de Snowdon (1930–2002)  •  Usain Bolt (n. 1986)
+Luís XVI de França (1754–1793)  •  Nelson Rodrigues (1912–1980)  •  Gene Kelly (1912–1996)  •  Glória Pires (n. 1963)
 Morreram neste dia…
-Maria Quitéria (1792–1853)  •  Leon Trótski (imagem) (1879–1940)  •  Alexandre O'Neill (1924–1986)  •  Raul Seixas (1945–1989)
+Deodoro da Fonseca (1827–1892)  •  Rudolph Valentino (1895–1926)  •  Menotti Del Picchia (1892–1988)  •  Yevgeny Prigozhin (1961–2023)
 
 
-Ver mais • Outros dias: 19 • 20 • 21 • 22 • 23 • Ver todos
+Ver mais • Outros dias: 21 • 22 • 23 • 24 • 25 • Ver todos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 200
-INFO:root:Response length: 226751 characters
-INFO:root:HTML parsed, length: 225356 characters
+INFO:root:Response length: 227588 characters
+INFO:root:HTML parsed, length: 226183 characters
 INFO:root:Found 1 titles: ['Imagem do dia']
-INFO:root:Found 1 URLs: ['/wiki/Ficheiro:A_Koch_woman.jpg']
-INFO:root:Found 1 descriptions: ['Mulher da etnia Koch interage com uma ovelha na po']
+INFO:root:Found 1 URLs: ['/wiki/Ficheiro:The_Qianlong_Emperor_in_Ceremonial_Armour_on_Horseback.jpg']
+INFO:root:Found 1 descriptions: ['O imperador Qianlong com armadura cerimonial, um r']
 INFO:root:Found 0 dates: []
-INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/A_Koch_woman.jpg/960px-A_Koch_woman.jpg
+INFO:root:Found image URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/The_Qianlong_Emperor_in_Ceremonial_Armour_on_Horseback.jpg/500px-The_Qianlong_Emperor_in_Ceremonial_Armour_on_Horseback.jpg
 INFO:root:Min length for iteration: 1
 INFO:root:Processing entry 1: Title='Imagem do dia', ID=76891061c3d63e16ccebc31ded0923d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
@@ -417,15 +410,15 @@ INFO:root:Updated 'feeds/wikiimagem/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
 INFO:root:🔹 Title: Imagem do dia
-INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:A_Koch_woman.jpg
-INFO:root:🔹 Description: Mulher da etnia Koch interage com uma ovelha na porta de sua casa, na aldeia de Rangtia, distrito bangladês de Sherpur. O povo Koch é composto por nove clãs matrilineares rigorosamente exogâmicos, de religião animista, que habitam algumas aldeias na Índia e em Bangladesh.
-(resolução original: 3 629 × 2 419)
+INFO:root:🔹 URL: https://pt.wikipedia.org/wiki/Ficheiro:The_Qianlong_Emperor_in_Ceremonial_Armour_on_Horseback.jpg
+INFO:root:🔹 Description: O imperador Qianlong com armadura cerimonial, um retrato equestre realizado pelo pintor italiano Giuseppe Castiglione.
+(resolução original: 2 742 × 2 742)
 
 
 Compartilhe:  
 
 Índice geral • Commons
-INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/A_Koch_woman.jpg/960px-A_Koch_woman.jpg
+INFO:root:🔹 Image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/The_Qianlong_Emperor_in_Ceremonial_Armour_on_Horseback.jpg/500px-The_Qianlong_Emperor_in_Ceremonial_Armour_on_Horseback.jpg
 INFO:root:--------------------------------------------------
 INFO:root:Git identity configured.
 INFO:root:
@@ -443,24 +436,28 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M feeds/wikidestaque/atom.xml
  M feeds/wikidestaque/feed.json
  M feeds/wikidia/atom.xml
+ M feeds/wikidia/feed.json
  M feeds/wikiimagem/atom.xml
+ M feeds/wikiimagem/feed.json
  M output.log
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  52 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  41 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  33 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  14 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  62 +++---
+ feeds/salmo_do_dia/atom.xml               |  60 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- feeds/wikidestaque/atom.xml               |   4 +-
- feeds/wikidestaque/feed.json              |   2 +-
- feeds/wikidia/atom.xml                    |   2 +-
- feeds/wikiimagem/atom.xml                 |   2 +-
- output.log                                | 309 ++++++++++++++----------------
- 15 files changed, 271 insertions(+), 279 deletions(-)
+ feeds/wikidestaque/atom.xml               |   6 +-
+ feeds/wikidestaque/feed.json              |   4 +-
+ feeds/wikidia/atom.xml                    |  16 +-
+ feeds/wikidia/feed.json                   |   8 +-
+ feeds/wikiimagem/atom.xml                 |   6 +-
+ feeds/wikiimagem/feed.json                |   6 +-
+ output.log                                | 345 ++++++++++++++----------------
+ 17 files changed, 292 insertions(+), 320 deletions(-)
