@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121324 characters
-INFO:root:HTML parsed, length: 114207 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (26/08/2025)', 'Palavra de Ontem (25/08/2025)', 'Palavra de Anteontem (24/08/2025)']
-INFO:root:Found 3 URLs: ['/iminente/', '/essencia/', '/embora/']
-INFO:root:Found 14 descriptions: ['adjetivo Que pode acontecer num momento muito próx', 'Sinônimos:\n\nimediato, instante, pendente, prestes,', 'Classe gramatical:adjetivo de dois gêneros']
-INFO:root:Found 3 dates: ['Palavra de Hoje (26/08/2025)', 'Palavra de Ontem (25/08/2025)', 'Palavra de Anteontem (24/08/2025)']
+INFO:root:Response length: 120097 characters
+INFO:root:HTML parsed, length: 113187 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (27/08/2025)', 'Palavra de Ontem (26/08/2025)', 'Palavra de Anteontem (25/08/2025)']
+INFO:root:Found 3 URLs: ['/expandido/', '/iminente/', '/essencia/']
+INFO:root:Found 13 descriptions: ['adjetivo Que se expandiu, dilatou, estendeu; dilat', 'Sinônimos:\n\ndilatado, estendido, alargado', 'Classe gramatical:adjetivo']
+INFO:root:Found 3 dates: ['Palavra de Hoje (27/08/2025)', 'Palavra de Ontem (26/08/2025)', 'Palavra de Anteontem (25/08/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (26/08/2025)', ID=2b2aeadff6d7a077efe20d452ae1c0d3
-INFO:root:Processing entry 2: Title='Palavra de Ontem (25/08/2025)', ID=a3a5cf4cfdd7f269b56e87e5aaca53aa
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/08/2025)', ID=3ba30b52490ab9376b2f14781a37cd28
+INFO:root:Processing entry 1: Title='Palavra de Hoje (27/08/2025)', ID=6d007abb95a655f9287ebb4d800e1595
+INFO:root:Processing entry 2: Title='Palavra de Ontem (26/08/2025)', ID=0b31b47ff09862e8cc94a5ea561bcdc8
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/08/2025)', ID=8162aadb862b378940568169f22847d8
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (26/08/2025) - Significado completo de iminente:
-INFO:root:🔹 URL: https://www.dicio.com.br/iminente/
-INFO:root:🔹 Description: adjetivo Que pode acontecer num momento muito próximo.Que está prestes a ocorrer; que se pode realizar a qualquer momento: tragédia iminente.Etimologia (origem da palavra iminente). A palavra iminente deriva do latim "imminens,entis", com o sentido do que está próximo de, perto.
+INFO:root:🔹 Title: Palavra de Hoje (27/08/2025) - Significado completo de expandido:
+INFO:root:🔹 URL: https://www.dicio.com.br/expandido/
+INFO:root:🔹 Description: adjetivo Que se expandiu, dilatou, estendeu; dilatado, estendido.Cuja extensão, tamanho, número, superfície, volume sofreram algum tipo de aumento: terreno expandido; verba expandida; represa expandida.[Gráficas] Que foi ampliado na horizontal, mas permanece com o desenho da família a que faz parte; estendido.Etimologia (origem da palavra expandido). Particípio de expandir.
  
 Sinônimos:
 
-imediato, instante, pendente, prestes, urgente, perto, impendente, pronto, próximo 
+dilatado, estendido, alargado 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (25/08/2025) - Significado completo de essência:
-INFO:root:🔹 URL: https://www.dicio.com.br/essencia/
+INFO:root:🔹 Title: Palavra de Ontem (26/08/2025) - Significado completo de iminente:
+INFO:root:🔹 URL: https://www.dicio.com.br/iminente/
 INFO:root:🔹 Description: Sinônimos:
 
-imediato, instante, pendente, prestes, urgente, perto, impendente, pronto, próximo
- Classe gramatical:adjetivo de dois gêneros
+dilatado, estendido, alargado
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (24/08/2025) - Significado completo de embora:
-INFO:root:🔹 URL: https://www.dicio.com.br/embora/
-INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros
- Sílabas:i-mi-nen-te
+INFO:root:🔹 Title: Palavra de Anteontem (25/08/2025) - Significado completo de essência:
+INFO:root:🔹 URL: https://www.dicio.com.br/essencia/
+INFO:root:🔹 Description: Classe gramatical:adjetivo
+ Sílabas:ex-pan-di-do
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,91 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 299749 characters
-INFO:root:HTML parsed, length: 289796 characters
-INFO:root:Found 1 titles: ['Hebreus 3:1-2']
-INFO:root:Found 1 URLs: ['/versiculo/hebreus_3_1-2/']
-INFO:root:Found 1 descriptions: ['Portanto, santos irmãos, participantes do chamado ']
+INFO:root:Response length: 299744 characters
+INFO:root:HTML parsed, length: 289791 characters
+INFO:root:Found 1 titles: ['Colossenses 3:23']
+INFO:root:Found 1 URLs: ['/versiculo/colossenses_3_23/']
+INFO:root:Found 1 descriptions: ['Tudo o que fizerem, façam de todo o coração, como ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Hebreus 3:1-2', ID=2c21123816641843dda62ac475282d8e
+INFO:root:Processing entry 1: Title='Colossenses 3:23', ID=c77b2db925e5f5574d82abb7610982ac
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Hebreus 3:1-2
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_3_1-2/
-INFO:root:🔹 Description: Portanto, santos irmãos, participantes do chamado celestial, fixem os seus pensamentos em Jesus, apóstolo e sumo sacerdote que confessamos. Ele foi fiel àquele que o havia constituído, assim como Moisés foi fiel em toda a casa de Deus. Hebreus 3:1-2
+INFO:root:🔹 Title: Colossenses 3:23
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/colossenses_3_23/
+INFO:root:🔹 Description: Tudo o que fizerem, façam de todo o coração, como para o Senhor, e não para os homens, Colossenses 3:23
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 298246 characters
-INFO:root:HTML parsed, length: 288994 characters
-INFO:root:Found 3 titles: ['Salmo 1', 'Salmo 124', 'Salmo 142']
-INFO:root:Found 3 URLs: ['/salmos_1/', '/salmos_124/', '/salmos_142/']
-INFO:root:Found 3 descriptions: ['Como é feliz aquele\nque não segue o conselho dos í', 'Se o Senhor não estivesse do nosso lado;\nque Israe', 'Em alta voz clamo ao Senhor;\nelevo a minha voz ao ']
-INFO:root:Found 3 dates: ['26 de Agosto de 2025', '25 de Agosto de 2025', '24 de Agosto de 2025']
+INFO:root:Response length: 299232 characters
+INFO:root:HTML parsed, length: 289989 characters
+INFO:root:Found 3 titles: ['Salmo 77', 'Salmo 1', 'Salmo 124']
+INFO:root:Found 3 URLs: ['/salmos_77/', '/salmos_1/', '/salmos_124/']
+INFO:root:Found 3 descriptions: ['Clamo a Deus por socorro;\nclamo a Deus que me escu', 'Como é feliz aquele\nque não segue o conselho dos í', 'Se o Senhor não estivesse do nosso lado;\nque Israe']
+INFO:root:Found 3 dates: ['27 de Agosto de 2025', '26 de Agosto de 2025', '25 de Agosto de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 1', ID=2adcbf58d17c939dd9f440b96da37120
-INFO:root:Processing entry 2: Title=' Salmo 124', ID=cab31b8003002ff17af35f7ad1748f41
-INFO:root:Processing entry 3: Title=' Salmo 142', ID=fceda8509c4fb9c616d39ae7136b8698
+INFO:root:Processing entry 1: Title=' Salmo 77', ID=14fad9419be27a1af032aca0794e57dd
+INFO:root:Processing entry 2: Title=' Salmo 1', ID=2adcbf58d17c939dd9f440b96da37120
+INFO:root:Processing entry 3: Title=' Salmo 124', ID=cab31b8003002ff17af35f7ad1748f41
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 77
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_77/
+INFO:root:🔹 Description: Clamo a Deus por socorro;
+clamo a Deus que me escute. 
+Quando estou angustiado, busco o Senhor;
+de noite estendo as mãos sem cessar;
+a minha alma está inconsolável! 
+Lembro-me de ti, ó Deus, e suspiro;
+começo a meditar,
+e o meu espírito desfalece. 
+Não me permites fechar os olhos;
+tão inquieto estou que não consigo falar. 
+Fico a pensar nos dias que se foram,
+nos anos há muito passados; 
+de noite recordo minhas canções.
+O meu coração medita,
+e o meu espírito pergunta: 
+Irá o Senhor rejeitar-nos para sempre?
+Jamais tornará a mostrar-nos o seu favor? 
+Desapareceu para sempre o seu amor?
+Acabou-se a sua promessa? 
+Esqueceu-se Deus de ser misericordioso?
+Em sua ira refreou sua compaixão? 
+Então pensei: "A razão da minha dor
+é que a mão direita do Altíssimo não age mais". 
+Recordarei os feitos do Senhor;
+recordarei os teus antigos milagres. 
+Meditarei em todas as tuas obras
+e considerarei todos os teus feitos. 
+Teus caminhos, ó Deus, são santos.
+Que deus é tão grande como o nosso Deus? 
+Tu és o Deus que realiza milagres;
+mostras o teu poder entre os povos. 
+Com o teu braço forte resgataste o teu povo,
+os descendentes de Jacó e de José. 
+As águas te viram, ó Deus,
+as águas te viram e se contorceram;
+até os abismos estremeceram. 
+As nuvens despejaram chuvas,
+ressoou nos céus o trovão;
+as tuas flechas reluziam em todas as direções. 
+No redemoinho, estrondou o teu trovão,
+os teus relâmpagos iluminaram o mundo;
+a terra tremeu e sacudiu-se. 
+A tua vereda passou pelo mar,
+o teu caminho pelas águas poderosas,
+e ninguém viu as tuas pegadas. 
+Guiaste o teu povo como a um rebanho
+pela mão de Moisés e de Arão. 
+ Salmo 77
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 1
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_1/
 INFO:root:🔹 Description: Como é feliz aquele
@@ -121,85 +172,78 @@ O nosso socorro está no nome do Senhor,
 que fez os céus e a terra. 
  Salmo 124
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 142
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_142/
-INFO:root:🔹 Description: Em alta voz clamo ao Senhor;
-elevo a minha voz ao Senhor,
-suplicando misericórdia. 
-Derramo diante dele o meu lamento;
-a ele apresento a minha angústia. 
-Quando o meu espírito desanima,
-és tu quem conhece o caminho
-que devo seguir.
-Na vereda por onde ando
-esconderam uma armadilha contra mim. 
-Olha para a minha direita e vê;
-ninguém se preocupa comigo.
-Não tenho abrigo seguro;
-ninguém se importa com a minha vida. 
-Clamo a ti, Senhor, e digo:
-Tu és o meu refúgio;
-és tudo o que tenho na terra dos viventes. 
-Dá atenção ao meu clamor,
-pois estou muito abatido;
-livra-me dos que me perseguem,
-pois são mais fortes do que eu. 
-Liberta-me da prisão,
-e renderei graças ao teu nome.
-Então os justos se reunirão à minha volta
-por causa da tua bondade para comigo. 
- Salmo 142
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 302115 characters
-INFO:root:HTML parsed, length: 292552 characters
-INFO:root:Found 3 titles: ['Comece o dia com a atitude certa', 'Encontre segurança em Jesus!', 'Olhe para cima e lembre-se']
+INFO:root:Response length: 301463 characters
+INFO:root:HTML parsed, length: 291894 characters
+INFO:root:Found 3 titles: ['Deus responde o nosso clamor', 'Comece o dia com a atitude certa', 'Encontre segurança em Jesus!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Livrem-se de toda amargura, indignação e ira, grit', 'A Bíblia diz que Jesus é o mesmo ontem, hoje e par', 'Com nossas vidas agitadas, às vezes não reservamos']
-INFO:root:Found 1 dates: ['Terça, 26 de agosto de 2025']
+INFO:root:Found 3 descriptions: ['Cla\xadme a mim e eu responderei e direi a você coisa', 'Livrem-se de toda amargura, indignação e ira, grit', 'A Bíblia diz que Jesus é o mesmo ontem, hoje e par']
+INFO:root:Found 1 dates: ['Quarta, 27 de agosto de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Comece o dia com a atitude certa', ID=8f2585801e8130d76565b123dc5c2a34
+INFO:root:Processing entry 1: Title='Deus responde o nosso clamor', ID=cad47a90b27a3a26b2571b4124bef093
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Comece o dia com a atitude certa - Palavra de Hoje
+INFO:root:🔹 Title: Deus responde o nosso clamor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Livrem-se de toda amargura, indignação e ira, gritaria e calúnia, bem como de toda maldade. Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, assim como Deus os perdoou em Cristo.
-- Efésios 4:31-32
+INFO:root:🔹 Description: Cla­me a mim e eu responderei e direi a você coisas grandiosas e insondáveis que você não conhece".
+- Jeremias 33:3
 
-A maneira como escolhemos encarar o dia a cada manhã define como passaremos o restante dele. Se começarmos o dia com alegria e gratidão, lançando nossos fardos sobre Deus, enfrentaremos o dia com uma atitude positiva. Mas se a primeira coisa que fizermos for reclamar ou remoer as injustiças que outros nos fizeram, abrimos a porta para um dia cheio de raiva e ressentimento. O que preferimos? A escolha é nossa.
-A Bíblia nos convoca a entregar ao Senhor tudo o que nos causa amargura, raiva, tudo o que nos irrita ou nos faz pensar mal dos outros. Enfrentamos muitas lutas na vida e muitas pessoas testam nossos limites. Mas Deus é maior do que lutas ou pessoas, e contamos com Sua força e ajuda.
-Portanto, examine como você começou este dia e escolha enfrentá-lo com o coração cheio de confiança em Deus. Entregue ao Senhor aquelas pessoas que lhe causam problemas. Coloque sua doença, seus problemas financeiros ou sua insegurança no trabalho em Suas mãos. Escolha encarar este dia com alegria, sabendo que a misericórdia de Deus será revelada a você porque Ele o ama e cuida de você.
-Não permita que o inimigo estrague o seu dia enchendo seu coração de raiva, amargura ou ingratidão. Levante os olhos para o céu e agradeça a Deus por Seu poder, Seu amor e Seu cuidado por você. Viva este dia com uma atitude positiva que declare: o Deus a quem sirvo é muito maior do que os problemas da vida!
-
-Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.
-- 1 Pedro 5:7
-
-Veja também: Mensagem de bom dia com Deus.
+Este versículo é um convite amoroso de Deus ao nosso coração. Ele nos lembra que não estamos sozinhos, que existe um Pai atento às nossas orações e disposto em nos ajudar. Muitas vezes, carregamos pesos, dúvidas, e tentamos resolvê-los apenas com nossas próprias forças. Porém, o Senhor nos chama a clamar, isto é, a levantar a voz em oração sincera, reconhecendo nossa dependência d’Ele.
+Clamar não significa apenas pedir. É abrir o coração com humildade, confessar fragilidades, agradecer pelas bênçãos e colocar diante de Deus cada área da vida. O Senhor não promete simplesmente atender desejos imediatos, mas responder com aquilo que é grandioso e insondável.
+Quando Deus responde, muitas vezes não é da forma que imaginamos. Sua resposta pode ser uma direção inesperada, um consolo em meio à dor ou uma porta que se abre quando pensamos que tudo estava fechado. Deus enxerga o que não vemos e sabe o que realmente precisamos.
+Há momentos em que oramos e parece que o silêncio de Deus é a única resposta. Mas até no silêncio, Ele está trabalhando. O que hoje é incompreensível, amanhã pode se revelar como parte de um plano maior.
+Lembremos que orar é entrar em diálogo com um Deus vivo, que se importa conosco e deseja nos conduzir por caminhos de esperança. Que possamos clamar não apenas em momentos de necessidade, mas diariamente, confiando que Aquele que nos ouve é fiel para responder com amor e propósito eterno.
+Veja também: Versículos para suportar o processo de Deus.
  
-Livrem-se de toda amargura, indignação e ira, gritaria e calúnia, bem como de toda maldade. Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, assim como Deus os perdoou em Cristo.
-- Efésios 4:31-32
+Cla­me a mim e eu responderei e direi a você coisas grandiosas e insondáveis que você não conhece".
+- Jeremias 33:3
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 311411 characters
-INFO:root:HTML parsed, length: 301621 characters
-INFO:root:Found 3 titles: ['Fazendo boas escolhas', 'Deus fortalece aos cansados e fracos', 'Compartilhe sua bênção']
-INFO:root:Found 2 URLs: ['/sabedoria/', '/bencao/']
-INFO:root:Found 3 descriptions: ['Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'Ele fortalece ao cansado e dá grande vigor ao que ', 'Deem graças em todas as circunstâncias, pois esta ']
-INFO:root:Found 3 dates: ['AGOSTO\n\n26\nTERÇA', 'AGOSTO\n\n25\nSEGUNDA', 'AGOSTO\n\n24\nDOMINGO']
+INFO:root:Response length: 311588 characters
+INFO:root:HTML parsed, length: 301793 characters
+INFO:root:Found 3 titles: ['Eu sou a ressurreição e a vida', 'Fazendo boas escolhas', 'Deus fortalece aos cansados e fracos']
+INFO:root:Found 2 URLs: ['/historia_de_lazaro/', '/sabedoria/']
+INFO:root:Found 3 descriptions: ['Disse-lhe Jesus: "Eu sou a ressurreição e a vida. ', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'Ele fortalece ao cansado e dá grande vigor ao que ']
+INFO:root:Found 3 dates: ['AGOSTO\n\n27\nQUARTA', 'AGOSTO\n\n26\nTERÇA', 'AGOSTO\n\n25\nSEGUNDA']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Fazendo boas escolhas', ID=4381d983617e7d642267cb806808598d
-INFO:root:Processing entry 2: Title='Deus fortalece aos cansados e fracos', ID=c88d13cca6b887081a8b7da5aa1ebac8
+INFO:root:Processing entry 1: Title='Eu sou a ressurreição e a vida', ID=14c92b4abf81fd6ae68c6e1db552c131
+INFO:root:Processing entry 2: Title='Fazendo boas escolhas', ID=4381d983617e7d642267cb806808598d
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Eu sou a ressurreição e a vida
+INFO:root:🔹 URL: https://www.bibliaon.com/historia_de_lazaro/
+INFO:root:🔹 Description: Disse-lhe Jesus: "Eu sou a ressurreição e a vida. Aquele que crê em mim, ainda que morra, viverá;
+- João 11:25
+
+A história da ressurreição de Lázaro é um dos milagres mais marcantes de Jesus e carrega em si uma mensagem poderosa de fé, esperança e renovação. Marta e Maria, irmãs de Lázaro, estavam desesperadas diante da morte do irmão. Aos olhos humanos, tudo estava perdido: a vida havia se esvaído, a sepultura já havia sido selada. Mas quando Jesus chegou, Ele mostrou que nenhuma circunstância é grande demais para o poder de Deus.
+Esse milagre nos ensina que, mesmo quando tudo parece acabado, Deus ainda pode escrever uma nova história. Quantas vezes nos sentimos como Lázaro, presos em situações que parecem sem saída, seja uma crise financeira, um relacionamento quebrado, uma doença ou até uma batalha interna contra o desânimo. Mas o mesmo Jesus que disse: “Lázaro, vem para fora!” também chama cada um de nós para sairmos da escuridão e caminharmos em direção à vida.
+O atraso de Jesus em chegar à casa de Lázaro não foi descuido, mas propósito. Isso nos lembra que o tempo de Deus é perfeito. Ele pode permitir que enfrentemos o silêncio, para que quando o milagre acontecer, não haja dúvidas: foi o poder d’Ele que nos levantou.
+Não desanime diante das “pedras” que parecem bloquear seus sonhos ou da aparente demora das respostas. Creia que Jesus continua sendo a Ressurreição e a Vida. Ele é especialista em transformar finais em recomeços. Onde todos veem morte, Ele vê oportunidade de revelar Sua glória.
+Hoje, Ele também te chama pelo nome, convidando você a acreditar que o impossível é apenas o palco onde o milagre acontece. Tenha fé: o que parecia acabado pode florescer novamente em Suas mãos.
+Vivendo a esperança em Cristo
+
+
+Confie no tempo de Deus: Mesmo quando a resposta parece demorar, confie que Deus nunca se atrasa. Seu tempo é perfeito e transforma espera em testemunho, revelando Seu poder em nossas vidas.
+
+Permaneça firme na fé: Não permita que o desânimo dite seu futuro. Assim como Marta e Maria creram, mantenha firme a fé, pois a confiança abre espaço para o milagre acontecer.
+
+Responda ao chamado de Jesus: Jesus chamou Lázaro pelo nome, e Ele também nos chama. Atenda com coragem, deixando para trás medos e limitações, caminhando para uma vida renovada em Sua presença.
+
+Para orar:
+
+Senhor Jesus, fonte de vida e esperança, eu coloco diante de Ti todas as áreas que parecem mortas em minha jornada. Ressuscita meus sonhos, fortalece minha fé e ajuda-me a confiar no Teu tempo perfeito. Que eu ouça Tua voz chamando-me para fora da escuridão, e tenha coragem de viver plenamente na Tua presença. Amém.
+
+Veja também: A história de Lázaro.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Fazendo boas escolhas
 INFO:root:🔹 URL: https://www.bibliaon.com/sabedoria/
 INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
@@ -225,32 +269,6 @@ Para orar:
 Senhor amado, entrego em Tuas mãos minhas decisões e caminhos. Dá-me sabedoria, discernimento e paz para escolher conforme Tua vontade. Que minhas escolhas glorifiquem Teu nome e tragam bênçãos. Amém.
 
 Veja também: Versículos sobre Sabedoria.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Deus fortalece aos cansados e fracos
-INFO:root:🔹 URL: https://www.bibliaon.com/bencao/
-INFO:root:🔹 Description: Ele fortalece ao cansado e dá grande vigor ao que está sem forças.
-Isaías 40:29
-
-Você se sente muito cansado o tempo todo, mesmo depois de acordar? Talvez esteja chegando num limite de exaustão, conhecido também como esgotamento ou burnout. Mas, ainda que seu nível de cansaço não chegue a esse extremo, todos nós precisamos da força do Senhor para levar os fardos da vida.
-As dificuldades, decepções e perdas da vida, somados aos muitos afazeres (o conhecido corre-corre) tornam nossa vida sobrecarregada. Tudo o que nós mais precisamos é estarmos seguros nas mãos de Deus para vencer todo e qualquer cansaço.
-Um corinho conhecido diz num de seus versos:
-
-"Se a jornada é pesada e te cansas na caminhada, segura na mão de Deus e vai... 
-
-Segure firme em Deus. Ele lhe dá forças e renova o seu ânimo!
-
-Seu cansaço e fraqueza podem ser transformados pelo Senhor, confie de todo coração.
-
-Ore e entregue seu fardo pesado para Jesus! Ele anda contigo, ao seu lado e lhe sustenta.
-Cuidado com a enxurrada de informações que você recebe. Limite isso! Sem notar você sobrecarrega sua mente, coração e corpo.
-Se se sente cansado, Jesus lhe faz um convite: leia Mateus 11:28-30 e medite nisso.
-
-Aprenda a descansar! Deus estipulou 1 dia de descanso semanal, porque sabe que precisamos disso. Obedeça! Passe tempo com Deus, adore, descanse e se divirta.Deus revigora suas forças!
-
-
-Para Orar: 
-
-Senhor meu Deus, ajuda-me a encontrar forças no Senhor e na tua Palavra. Tantas lutas, dores e preocupações do dia a dia me deixam cansado e enfraquecido... Mas eu confio em Ti! Venho até ti Senhor Jesus, dá-me alívio e vigor! Quero segurar em tuas mãos nesse dia e caminhar pela fé, com a tua força! Amém!
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -281,15 +299,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 +++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  23 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  53 ++---
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  78 ++++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 349 +++++++++++-------------------
- 11 files changed, 218 insertions(+), 326 deletions(-)
+ output.log                                | 274 +++++++++++++++---------------
+ 11 files changed, 261 insertions(+), 237 deletions(-)
