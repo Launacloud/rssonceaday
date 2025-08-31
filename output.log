@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121275 characters
-INFO:root:HTML parsed, length: 113999 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (30/08/2025)', 'Palavra de Ontem (29/08/2025)', 'Palavra de Anteontem (28/08/2025)']
-INFO:root:Found 3 URLs: ['/detritivoro/', '/maturidade/', '/vicissitude/']
-INFO:root:Found 15 descriptions: ['adjetivo [Biologia] Que se alimenta de detritos an', 'Sinônimos:\n\nnecrófago', 'Classe gramatical:adjetivo e substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (30/08/2025)', 'Palavra de Ontem (29/08/2025)', 'Palavra de Anteontem (28/08/2025)']
+INFO:root:Response length: 119860 characters
+INFO:root:HTML parsed, length: 112767 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (31/08/2025)', 'Palavra de Ontem (30/08/2025)', 'Palavra de Anteontem (29/08/2025)']
+INFO:root:Found 3 URLs: ['/hostilizado/', '/detritivoro/', '/maturidade/']
+INFO:root:Found 13 descriptions: ['adjetivo Que foi alvo de hostilidade; que sofreu c', 'Sinônimos:\n\ninimizado, desprezado, detestado, exec', 'Sílabas:hos-ti-li-za-do']
+INFO:root:Found 3 dates: ['Palavra de Hoje (31/08/2025)', 'Palavra de Ontem (30/08/2025)', 'Palavra de Anteontem (29/08/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (30/08/2025)', ID=2a936557cb618b28cb93de6a46407c1e
-INFO:root:Processing entry 2: Title='Palavra de Ontem (29/08/2025)', ID=6279f7c98cbd17a2a98f48b5466d1ec7
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/08/2025)', ID=8d3c7d58c652dc3c3a3b9c846dd4e3cc
+INFO:root:Processing entry 1: Title='Palavra de Hoje (31/08/2025)', ID=9bd3e2a9c930cb7f0e7dcaeea786c309
+INFO:root:Processing entry 2: Title='Palavra de Ontem (30/08/2025)', ID=a6046ed4ea245d14020b2df1eec430ed
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/08/2025)', ID=a1a01c4d8c244cc470deba89c97aea1b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (30/08/2025) - Significado completo de detritívoro:
+INFO:root:🔹 Title: Palavra de Hoje (31/08/2025) - Significado completo de hostilizado:
+INFO:root:🔹 URL: https://www.dicio.com.br/hostilizado/
+INFO:root:🔹 Description: adjetivo Que foi alvo de hostilidade; que sofreu com a agressividade de alguém ou foi tratado de maneira hostil, agressiva; inimizado, desprezado: o aluno foi hostilizado diante dos colegas.Etimologia (origem da palavra hostilizado). A palavra hostilizado deriva como particípio passado do verbo hostilizar.
+ 
+Sinônimos:
+
+inimizado, desprezado, detestado, execrado 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (30/08/2025) - Significado completo de detritívoro:
 INFO:root:🔹 URL: https://www.dicio.com.br/detritivoro/
-INFO:root:🔹 Description: adjetivo [Biologia] Que se alimenta de detritos animais, tais como pelos, penas, escamas, secreções mucosas etc.[Biologia] Que se alimenta de partículas vegetais e, normalmente, contribui para a limpeza do ambiente onde vive.substantivo masculino Organismo que tem este tipo de comportamento alimentar; organismo detritívoro.Etimologia (origem da palavra detritívoro). Junção de dentrito, do latim detrītus, com o sentido de "gasto, usado" + -ivoro.
+INFO:root:🔹 Description: Sinônimos:
+
+inimizado, desprezado, detestado, execrado
+ Sílabas:hos-ti-li-za-do
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (29/08/2025) - Significado completo de maturidade:
+INFO:root:🔹 URL: https://www.dicio.com.br/maturidade/
+INFO:root:🔹 Description: Sílabas:hos-ti-li-za-do
  
 Sinônimos:
 
 necrófago 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (29/08/2025) - Significado completo de maturidade:
-INFO:root:🔹 URL: https://www.dicio.com.br/maturidade/
-INFO:root:🔹 Description: Sinônimos:
-
-necrófago
- Classe gramatical:adjetivo e substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (28/08/2025) - Significado completo de vicissitude:
-INFO:root:🔹 URL: https://www.dicio.com.br/vicissitude/
-INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
- Sílabas:de-tri-tí-vo-ro
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,94 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 307611 characters
-INFO:root:HTML parsed, length: 297245 characters
-INFO:root:Found 1 titles: ['Filipenses 1:6']
-INFO:root:Found 1 URLs: ['/versiculo/filipenses_1_6/']
-INFO:root:Found 1 descriptions: ['Estou convencido de que aquele que começou boa obr']
+INFO:root:Response length: 307826 characters
+INFO:root:HTML parsed, length: 297460 characters
+INFO:root:Found 1 titles: ['Jeremias 9:23-24']
+INFO:root:Found 1 URLs: ['/versiculo/jeremias_9_23-24/']
+INFO:root:Found 1 descriptions: ['Assim diz o Senhor:\n"Não se glorie o sábio em sua ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Filipenses 1:6', ID=565f6c9fe4154f5b1af3d7ce11314fc2
+INFO:root:Processing entry 1: Title='Jeremias 9:23-24', ID=f67a15e93f3f3148c1ffc5939ef15277
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Filipenses 1:6
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_1_6/
-INFO:root:🔹 Description: Estou convencido de que aquele que começou boa obra em vocês, vai completá-la até o dia de Cristo Jesus. Filipenses 1:6
+INFO:root:🔹 Title: Jeremias 9:23-24
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jeremias_9_23-24/
+INFO:root:🔹 Description: Assim diz o Senhor:
+"Não se glorie o sábio em sua sabedoria
+nem o forte em sua força
+nem o rico em sua riqueza, mas quem se gloriar, glorie-se nisto:
+em compreender-me e conhecer-me,
+pois eu sou o Senhor
+e ajo com lealdade,
+com justiça e com retidão sobre a terra,
+pois é dessas coisas que me agrado",
+declara o Senhor. Jeremias 9:23-24
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 310790 characters
-INFO:root:HTML parsed, length: 301196 characters
-INFO:root:Found 3 titles: ['Salmo 122', 'Salmo 18', 'Salmo 57']
-INFO:root:Found 3 URLs: ['/salmos_122/', '/salmos_18/', '/salmos_57/']
-INFO:root:Found 3 descriptions: ['Alegrei-me com os que me disseram:\n"Vamos à casa d', 'Eu te amo, ó Senhor, minha força. \nO Senhor é a mi', 'Misericórdia, ó Deus; misericórdia,\npois em ti a m']
-INFO:root:Found 3 dates: ['30 de Agosto de 2025', '29 de Agosto de 2025', '28 de Agosto de 2025']
+INFO:root:Response length: 311068 characters
+INFO:root:HTML parsed, length: 301473 characters
+INFO:root:Found 3 titles: ['Salmo 115', 'Salmo 122', 'Salmo 18']
+INFO:root:Found 3 URLs: ['/salmos_115/', '/salmos_122/', '/salmos_18/']
+INFO:root:Found 3 descriptions: ['Não a nós, Senhor, nenhuma glória para nós,\nmas si', 'Alegrei-me com os que me disseram:\n"Vamos à casa d', 'Eu te amo, ó Senhor, minha força. \nO Senhor é a mi']
+INFO:root:Found 3 dates: ['31 de Agosto de 2025', '30 de Agosto de 2025', '29 de Agosto de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 122', ID=74194e341fafc43f25db77ecbc7754be
-INFO:root:Processing entry 2: Title=' Salmo 18', ID=38fb8b6fb6bf686481f4c5e55583b557
-INFO:root:Processing entry 3: Title=' Salmo 57', ID=28e1653b0e01d76fbd4eeb45358d4c91
+INFO:root:Processing entry 1: Title=' Salmo 115', ID=c931268d36df846fb79d980de87b9a14
+INFO:root:Processing entry 2: Title=' Salmo 122', ID=74194e341fafc43f25db77ecbc7754be
+INFO:root:Processing entry 3: Title=' Salmo 18', ID=38fb8b6fb6bf686481f4c5e55583b557
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 115
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_115/
+INFO:root:🔹 Description: Não a nós, Senhor, nenhuma glória para nós,
+mas sim ao teu nome,
+por teu amor e por tua fidelidade! 
+Por que perguntam as nações:
+"Onde está o Deus deles?" 
+O nosso Deus está nos céus,
+e pode fazer tudo o que lhe agrada. 
+Os ídolos deles, de prata e ouro,
+são feitos por mãos humanas. 
+Têm boca, mas não podem falar;
+olhos, mas não podem ver; 
+têm ouvidos, mas não podem ouvir;
+nariz, mas não podem sentir cheiro; 
+têm mãos, mas nada podem apalpar;
+pés, mas não podem andar;
+e não emitem som algum com a garganta. 
+Tornem-se como eles aqueles que os fazem
+e todos os que neles confiam. 
+Confie no Senhor,ó Israel!
+Ele é o seu socorro e o seu escudo. 
+Confiem no Senhor, sacerdotes!
+Ele é o seu socorro e o seu escudo. 
+Vocês que temem o Senhor,
+confiem no Senhor!
+Ele é o seu socorro e o seu escudo. 
+O Senhor lembra-se de nós e nos abençoará;
+abençoará os israelitas,
+abençoará os sacerdotes, 
+abençoará os que temem o Senhor,
+do menor ao maior. 
+Que o Senhor os multiplique,
+vocês e os seus filhos. 
+Sejam vocês abençoados pelo Senhor,
+que fez os céus e a terra. 
+Os mais altos céus pertencem ao Senhor,
+mas a terra, ele a confiou ao homem. 
+Os mortos não louvam o Senhor,
+tampouco nenhum dos que descem ao silêncio. 
+Mas nós bendiremos o Senhor,
+desde agora e para sempre!
+Aleluia! 
+ Salmo 115
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 122
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_122/
 INFO:root:🔹 Description: Alegrei-me com os que me disseram:
@@ -231,157 +289,101 @@ Ele dá grandes vitórias ao seu rei;
 com Davi e os seus descendentes para sempre. 
  Salmo 18
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 57
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_57/
-INFO:root:🔹 Description: Misericórdia, ó Deus; misericórdia,
-pois em ti a minha alma se refugia.
-Eu me refugiarei à sombra das tuas asas,
-até que passe o perigo. 
-Clamo ao Deus Altíssimo,
-a Deus, que para comigo
-cumpre o seu propósito. 
-Dos céus ele me envia a salvação,
-põe em fuga
-os que me perseguem de perto;
-Pausa
-Deus envia o seu amor e a sua fidelidade. 
-Estou em meio a leões,
-ávidos para devorar;
-seus dentes são lanças e flechas,
-sua língua é espada afiada. 
-Sê exaltado, ó Deus, acima dos céus!
-Sobre toda a terra esteja a tua glória! 
-Preparam armadilhas para os meus pés;
-fiquei muito abatido.
-Abriram uma cova no meu caminho,
-mas foram eles que nela caíram. 
-Meu coração está firme, ó Deus,
-meu coração está firme;
-cantarei ao som de instrumentos! 
-Acorde, minha alma!
-Acordem, harpa e lira!
-Vou despertar a alvorada! 
-Eu te louvarei, ó Senhor, entre as nações;
-cantarei teus louvores entre os povos. 
-Pois o teu amor é tão grande
-que alcança os céus;
-a tua fidelidade vai até as nuvens. 
-Sê exaltado, ó Deus, acima dos céus!
-Sobre toda a terra esteja a tua glória! 
- Salmo 57
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 310312 characters
-INFO:root:HTML parsed, length: 300348 characters
-INFO:root:Found 3 titles: ['Coroamos a Ti ó Rei Jesus!', 'Levante os teus olhos, de lá vem a tua salvação', 'Contentamento: Em Deus tenho tudo o que preciso']
+INFO:root:Response length: 306168 characters
+INFO:root:HTML parsed, length: 296209 characters
+INFO:root:Found 3 titles: ['Viva em perfeita paz', 'Coroamos a Ti ó Rei Jesus!', 'Levante os teus olhos, de lá vem a tua salvação']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Ao ouvir o cântico que diz: “Ao Rei eterno, imorta', 'Levanto os meus olhos para os montes\ne pergunto:\nD', 'Contudo, sempre estou contigo;\ntomas a minha mão d']
-INFO:root:Found 1 dates: ['Sábado, 30 de agosto de 2025']
+INFO:root:Found 3 descriptions: ['Tu, Senhor, guardarás em perfeita paz\naquele cujo ', 'Ao ouvir o cântico que diz: “Ao Rei eterno, imorta', 'Levanto os meus olhos para os montes\ne pergunto:\nD']
+INFO:root:Found 1 dates: ['Domingo, 31 de agosto de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Coroamos a Ti ó Rei Jesus!', ID=c60159a1c2ac1bd83a13b4e4308f2dda
+INFO:root:Processing entry 1: Title='Viva em perfeita paz', ID=bab298998f68f8536fdcd7975d3a2ba8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Coroamos a Ti ó Rei Jesus! - Palavra de Hoje
+INFO:root:🔹 Title: Viva em perfeita paz - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Ao ouvir o cântico que diz: “Ao Rei eterno, imortal, invisível, mas real, a Ele ministramos o louvor, coroamos a Ti, ó Rei Jesus”, nosso coração se enche de reverência e adoração.
-Esse louvor não é apenas uma melodia, mas uma declaração profunda de fé baseada na Palavra de Deus. O apóstolo Paulo, em sua carta a Timóteo, escreveu:
+INFO:root:🔹 Description: Tu, Senhor, guardarás em perfeita paz
+aquele cujo propósito está firme,
+porque em ti confia.
+Confiem para sempre no Senhor,
+pois o Senhor, somente o Senhor,
+é a Rocha eterna.
+- Isaías 26:3-4
 
-Ao Rei eterno, o Deus único, imortal e invisível, sejam honra e glória para todo o sempre. Amém.
-- 1 Timóteo 1:17
+Todos nós ansiamos por desfrutar de paz nesta vida, mas enfrentamos muitas lutas e, às vezes, é difícil manter a paz interior. Estes versículos de Isaías nos dão a chave para permanecer em paz: confiar em Deus!
+Lembrar que servimos ao Deus Todo-Poderoso que nos ama, cuida de nós e nos ajuda em qualquer situação aumenta nossa confiança e enche nossos corações de paz. Não há problema maior do que o nosso Deus. Não há pessoa mais poderosa do que o nosso Deus. Não há nada neste mundo que se compare ao Deus a quem servimos.
 
-Deus é eterno, não tem princípio nem fim. Diferente de nós, que somos limitados pelo tempo e pelo espaço, Ele governa soberano sobre todas as eras. Ele é imortal, ou seja, não está sujeito à corrupção ou à morte. Sua essência é incorruptível, pura e perfeita. Embora seja invisível aos olhos humanos, Sua presença é real e pode ser experimentada por todos os que O buscam em espírito e em verdade.
-Quando Paulo escreve essas palavras, ele está transbordando de gratidão pela graça recebida, pois sabia que havia sido alcançado pela misericórdia de Cristo. Da mesma forma, quando cantamos e declaramos a soberania do nosso Deus, estamos reconhecendo que Ele é digno de toda honra e glória.
-Adorar o Rei eterno não é apenas entoar canções, mas viver uma vida de obediência e entrega. É coroar Jesus diariamente em nosso coração, reconhecendo Sua autoridade sobre nossas escolhas e caminhos. O mundo pode oferecer muitos ídolos visíveis, mas somente o Deus invisível e real pode satisfazer plenamente nossa alma.
-Que nossa adoração não se limite ao momento do cântico, mas seja uma constante oferta de amor e gratidão. Ao Rei eterno, único, imortal e invisível, rendamos honra e glória, hoje e para todo o sempre. Amém.
-Veja também: Formas de louvar ao Senhor de todo o nosso coração.
+Mas foi Deus quem fez a terra
+com o seu poder,
+firmou o mundo com a sua sabedoria
+e estendeu os céus
+com o seu entendimento.
+Ao som do seu trovão,
+as águas no céu rugem,
+e formam-se nuvens
+desde os confins da terra.
+Ele faz os relâmpagos para a chuva
+e dos seus depósitos faz sair o vento.
+- Jeremias 10:12-13
+
+Quando nos lembramos de que Deus está no controle de tudo, que nada O pega de surpresa ou escapa ao Seu poder, nossa paz se renova. Podemos apresentar nossos problemas a Ele, sabendo que Ele é o Único que pode verdadeiramente nos ajudar a superar. Mesmo que não entendamos o motivo de nossas lutas ou por que elas não desaparecem, podemos permanecer firmes e em paz, sabendo que, no final, Deus triunfa. Nele, alcançaremos a vitória!
+"Senhor, neste dia confio meus fardos a ti e afirmo minha confiança em ti. Obrigado por me amares, cuidares de mim, me ajudares em minhas lutas e encheres meu coração de paz. Eu te amo, recebo a tua presença e descanso em ti. Em teu precioso nome eu oro, amém."
+Veja também: Versículos que mostram que Deus está no controle de tudo.
  
-Ao Rei eterno, o Deus único, imortal e invisível, sejam honra e glória para todo o sempre. Amém.
-- 1 Timóteo 1:17
+Tu, Senhor, guardarás em perfeita paz
+aquele cujo propósito está firme,
+porque em ti confia.
+Confiem para sempre no Senhor,
+pois o Senhor, somente o Senhor,
+é a Rocha eterna.
+- Isaías 26:3-4
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 318209 characters
-INFO:root:HTML parsed, length: 308008 characters
-INFO:root:Found 3 titles: ['Devocional: Redima o seu tempo', 'Ele venceu o mundo!', 'Pare de se desculpar e mude de vida!']
-INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Portanto, vede prudentemente como andais, não como', 'Eu disse essas coisas para que em mim vocês tenham', 'Quando o viu deitado e soube que ele vivia naquele']
-INFO:root:Found 3 dates: ['AGOSTO\n\n30\nSÁBADO', 'AGOSTO\n\n29\nSEXTA', 'AGOSTO\n\n28\nQUINTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Devocional: Redima o seu tempo', ID=aef3d5e4cb488e59f1dd472ceeaaab8c
-INFO:root:Processing entry 2: Title='Ele venceu o mundo!', ID=3d231ab10c1c9f5b63db01d0a2c1dd67
-INFO:root:Processing entry 3: Title='Pare de se desculpar e mude de vida!', ID=3c494ace1c9bf763fcec211f152221bf
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 318898 characters
+INFO:root:HTML parsed, length: 308694 characters
+INFO:root:Found 3 titles: ['Refúgio seguro em Deus', 'Devocional: Redima o seu tempo', 'Ele venceu o mundo!']
+INFO:root:Found 1 URLs: ['/versiculos_que_mostram_que_deus_esta_no_controle_de_tudo/']
+INFO:root:Found 3 descriptions: ['Senhor, meu Deus, em ti me refugio;\nsalva-me e liv', 'Portanto, vede prudentemente como andais, não como', 'Eu disse essas coisas para que em mim vocês tenham']
+INFO:root:Found 3 dates: ['AGOSTO\n\n31\nDOMINGO', 'AGOSTO\n\n30\nSÁBADO', 'AGOSTO\n\n29\nSEXTA']
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='Refúgio seguro em Deus', ID=c89dfebf124ac8cf820818f0640eb4ff
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Devocional: Redima o seu tempo
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Portanto, vede prudentemente como andais, não como néscios, e sim como sábios,
-remindo o tempo, porque os dias são maus.
-- Efésios 5:15-16
+INFO:root:🔹 Title: Refúgio seguro em Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_que_mostram_que_deus_esta_no_controle_de_tudo/
+INFO:root:🔹 Description: Senhor, meu Deus, em ti me refugio;
+salva-me e livra-me de todos 
+os que me perseguem,
+- Salmo 7:1 
 
-Precisamos a cada dia nos lembrar: este pode ser o nosso último dia! É estranho pensar nisso, mas muitas pessoas que acordaram hoje pela manhã, vão partir... Por isso precisamos rever a vida, nos autoexaminarmos e avaliar os nossos passos diariamente. Para isso, temos que ter cuidado com a maneira com que vivemos.
-Como gastamos o tempo de vida que temos? Deus, o Senhor do tempo, nos mostrou por meio de Cristo, como redimir, isto é, salvar o nosso tempo. Jesus andou com prudência e sabedoria, organizando o seu tempo, de modo a priorizar a sua vida de oração, sua missão e seus relacionamentos, cumprindo sempre o propósito do Pai celestial.
-Esta é a chave: ser mais parecidos com Jesus! Vivendo intencionalmente, com senso de urgência, em proclamar, amar e servir, mas vivendo sem pressa, sem negligenciar Deus, nem as pessoas, nem o trabalho.
-Em Eclesiais 3, a Bíblia nos ensina que há um tempo determinado para todas as coisas. Mas, infelizmente, vivemos oscilando entre dois extremos: ora no hiperativismo, na correria do dia a dia, ora na ociosidade, envolvidos pela preguiça e procrastinação. É loucura viver num ou noutro lado do pêndulo, quando Deus nos orienta ao equilíbrio, entre o trabalho dedicado e descanso.
-Resgatando o seu tempo:
+O Salmo 7:1 nos lembra de uma verdade poderosa: em Deus encontramos refúgio. Quantas vezes enfrentamos situações que parecem maiores do que nossas forças? Problemas que nos cercam, pessoas que nos desanimam, medos que tentam nos aprisionar. Nessas horas, é fácil sentir-se perdido e sem saída. Mas a Palavra de Deus nos convida a olhar para o alto e confiarmos n’Ele.
+Refugiar-se em Deus não é apenas pedir ajuda, é descansar na certeza de que Ele está no controle de tudo. Ele não falha, não nos abandona e sempre tem um caminho preparado, mesmo quando não conseguimos enxergar. Assim como uma criança corre para os braços do pai quando está com medo, nós podemos correr para o Senhor, sabendo que ali encontramos paz, proteção e força.
+O inimigo pode tentar nos cercar com dúvidas e acusações, mas quem está em Cristo nunca está sozinho. O mesmo Deus que salvou Davi, o salmista, continua agindo hoje em nossas vidas. Ele é o nosso libertador, nossa fortaleza e nosso escudo.
+Em vez de alimentar a ansiedade, alimente a sua fé. Ore, confie, entregue a Ele seus medos e desafios. Cada lágrima é vista, cada oração é ouvida, e cada batalha é acompanhada pela mão poderosa de Deus.
+Hoje, escolha refugiar-se no Senhor. Nele há esperança, vitória e renovo. Levante a cabeça, continue caminhando, porque aquele que guarda a sua vida não dorme. O Deus que te ama é o mesmo que vai te livrar e te conduzir para a vitória.
+Não desista: em Deus, o seu refúgio é certo 
 
-Lembre-se que Deus é o Senhor do tempo. Ele está no controle do futuro e presente.
-Reflita sobre como você usa o seu tempo: contabilize onde e como gasta (ou desperdiça) seu tempo.
-Ore a Deus, peça perdão se tem investido mal o seu tempo, vivendo em desequilíbrio. Tome atitudes significativas: se discipline, limite o tempo nas telas, ore, leia e medite mais...
-Leia a Bíblia, anote e ore pedindo orientação para gerir melhor o seu tempo.
-Organize-se, priorizando o que é essencial como Deus e a sua vontade, os relacionamentos, o trabalho, o descanso, o lazer, hábitos saudáveis etc.
+Quando tudo parecer instável, lembre-se: Deus é fortaleza inabalável. Nele você encontra descanso, paz e coragem para continuar, mesmo quando os desafios parecem insuportáveis.
 
-Para Orar:
+Nenhum clamor passa despercebido diante do Senhor. Cada lágrima é registrada e cada pedido é ouvido. Confie: o tempo d’Ele é perfeito e sempre traz respostas.
+O inimigo pode tentar lançar medo, mas Deus jamais abandona seus filhos. Sua presença constante fortalece o coração e garante esperança em meio às batalhas diárias.
 
-Senhor meu Deus, obrigado por me dar vida, salvação e por me sustentar até aqui. A partir de hoje, me ajuda a aproveitar melhor o tempo que me resta.
-Que ao acordar, o meu coração esteja inclinado a te ouvir, e ao me deitar que haja satisfação e gratidão por tudo que fizer. Ajuda-me a empregar melhor o tempo de vida que o Senhor me dá.
-Quero aprender com Cristo, através das Sagradas Escrituras, como fazer melhores escolhas no meu dia a dia. Dá-me equilíbrio e sabedoria, Pai!
-Quero viver para glorificar o Teu nome, fazendo o melhor que posso todos os dias, aproveitando ao máximo cada oportunidade. Em nome de Jesus eu oro e te agradeço! Amém!
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Ele venceu o mundo!
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Eu disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo".
-João 16:33 
+Em Cristo, a vitória é prometida. Mesmo que o processo seja doloroso, confie: o fim será de glória. Persevere, pois Deus transforma lutas em testemunhos poderosos.
 
-Ninguém disse que a vida cristã seria fácil. O Reino de Deus é conquistado por esforço e a fé só é fortificada nas provações. Jesus nunca negou as dificuldades que teríamos de passar por causa do Seu nome. O próprio Filho de Deus foi perseguido e provado, mas no final venceu!
-Jesus venceu todas as provações e por isso devemos colocá-lo como nosso alvo. Nele somos mais do que vencedores! As provações virão, virão os dias maus, mas Deus prevalecerá. A perseverança em Cristo nos fortalece e a vitória sempre vêm para honrar o Seu nome.
-Não desanime, se estás cansado clame ao Senhor que Ele te escuta. Abra o teu coração, confesse as tuas angústias que Ele enxugará as tuas lágrimas. Em Cristo temos paz! 
-Ele venceu por você! 
+Para orar: 
 
-Nunca esqueça que tudo que Deus fez e o sacrifício que foi feito, foi por amor a você. Valorize esse amor! 
-A melhor forma de vencer os problemas é estar do lado daquele que já venceu. Busque intimidade com Deus, ore, santifique-se. 
-A Bíblia é o verdadeiro manual da vitória! Leia a Palavra de Deus, nela encontrará resposta e conforto em meio as provações. 
+Senhor, meu Deus, em Ti me refugio. Entrego minhas lutas, medos e dores em Tuas mãos. Dá-me força para perseverar, paz para descansar e fé para confiar no Teu cuidado. Amém.
 
-Para Orar:
-
-Senhor Jesus, louvado seja o Teu nome! Derrama a Tua paz no meu coração, fortalece-me para vencer os desafios na minha vida. Em Ti sou mais do que vencedor! Amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Pare de se desculpar e mude de vida!
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Quando o viu deitado e soube que ele vivia naquele estado durante tanto tempo, Jesus lhe perguntou: "Você quer ser curado? "
-Disse o paralítico: "Senhor, não tenho ninguém que me ajude a entrar no tanque quando a água é agitada. Enquanto estou tentando entrar, outro chega antes de mim".
-João 5:6-7
-
-38 anos era o tempo que esse homem vivia como paralítico. Não sabemos os detalhes dessa triste história, mas fato é que uma paralisia tinha condicionado sua vida a uma cama durante tanto tempo. Infelizmente, quando alguém enfrenta uma situação dolorosa ou limitante, tende a se fechar tornando-se amarga e rancorosa. A tendência é olhar sempre para o lado negativo da vida.
-O paralítico talvez já tivesse ouvido falar de Jesus, mas nem foi capaz de responder-lhe a pergunta: "quer ser curado?" O seu foco estava na sua condição deplorável - coitado sem ninguém que o ajudasse... Mas, quantas vezes nós também não fazemos o mesmo? Esquecemos que Deus está ao nosso lado e nos fechamos no nosso mundinho triste e vazio, cheio de problemas!
-Quando coisas difíceis acontecem e nos desafiam ou nos trazem mais do que queremos suportar, somos tentados a dar desculpas como essas:
-
-"Isso é difícil demais para mim."
-"Não tenho ninguém para me ajudar."
-"Não vou aguentar, são muitos problemas na minha vida."
-"Parece que tudo de ruim só acontece comigo."
-
-Pare por um momento... Deixe de murmurar e de se desculpar pelos problemas: olhe, ouça JESUS e dê um passo de fé! Ele é fiel e tem todo poder! Creia:TUDO é possível ao que crê...
-Para Orar:
-
-Senhor Deus, quero colocar meus olhos em Ti e não nos problemas desta vida. Às vezes é tão difícil, Jesus, mas não quero reclamar nem me desculpar... Tira toda amargura do meu coração e paralisia da minha vida. Aumenta a minha fé, dá-me forças e alegria para enfrentar tudo, confiante que o Senhor pode todas as coisas e que cuidas de mim. Obrigado, Pai, em nome de Jesus. Amém!
+Veja também: Versículos que mostram que Deus está no controle de tudo.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -412,15 +414,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 ++++-
- feeds/devocional_de_hoje/feed.json        |  14 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  33 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  62 ++----
+ feeds/devocional_de_hoje/feed.json        |  20 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  43 +++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  72 +++-----
+ feeds/salmo_do_dia/atom.xml               |  82 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |  11 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 288 ++++++++++++++----------------
- 11 files changed, 256 insertions(+), 262 deletions(-)
+ output.log                                | 342 +++++++++++++++---------------
+ 11 files changed, 308 insertions(+), 318 deletions(-)
