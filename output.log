@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120213 characters
-INFO:root:HTML parsed, length: 113303 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (02/09/2025)', 'Palavra de Ontem (01/09/2025)', 'Palavra de Anteontem (31/08/2025)']
-INFO:root:Found 3 URLs: ['/invectiva/', '/familia/', '/hostilizado/']
-INFO:root:Found 12 descriptions: ['substantivo feminino Expressão violenta e injurios', 'Sinônimos:\n\nprovocação, ofensa, insulto, injúria, ', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (02/09/2025)', 'Palavra de Ontem (01/09/2025)', 'Palavra de Anteontem (31/08/2025)']
+INFO:root:Response length: 120432 characters
+INFO:root:HTML parsed, length: 113522 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (03/09/2025)', 'Palavra de Ontem (02/09/2025)', 'Palavra de Anteontem (01/09/2025)']
+INFO:root:Found 3 URLs: ['/apodictico/', '/invectiva/', '/familia/']
+INFO:root:Found 13 descriptions: ['adjetivo [Lógica] Que expressa uma premissa lógica', 'Sinônimos:\n\nlógico, evidente, irrefutável, manifes', 'Classe gramatical:adjetivo']
+INFO:root:Found 3 dates: ['Palavra de Hoje (03/09/2025)', 'Palavra de Ontem (02/09/2025)', 'Palavra de Anteontem (01/09/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (02/09/2025)', ID=fd40dd2f4b51997bcdca3bba52d89a26
-INFO:root:Processing entry 2: Title='Palavra de Ontem (01/09/2025)', ID=31a507a54804ef53059a8716c5eef248
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (31/08/2025)', ID=0e3b67d03009fe761bb273f19b4abcf1
+INFO:root:Processing entry 1: Title='Palavra de Hoje (03/09/2025)', ID=7e12589c35c59e9639b50bdb90ae6b7c
+INFO:root:Processing entry 2: Title='Palavra de Ontem (02/09/2025)', ID=e7427f08d056503937b55db510eb7c72
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (01/09/2025)', ID=13db36e225e02942f75f63fa126af19c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (02/09/2025) - Significado completo de invectiva:
-INFO:root:🔹 URL: https://www.dicio.com.br/invectiva/
-INFO:root:🔹 Description: substantivo feminino Expressão violenta e injuriosa; insulto, ofensa, objurgatória: proferir invectivas contra alguém.Ação ou efeito de invectivar, de atacar alguém com injúrias, insultos.Etimologia (origem da palavra invectiva). Feminino de invectivo.
+INFO:root:🔹 Title: Palavra de Hoje (03/09/2025) - Significado completo de apodíctico:
+INFO:root:🔹 URL: https://www.dicio.com.br/apodictico/
+INFO:root:🔹 Description: adjetivo [Lógica] Que expressa uma premissa lógica e impossível de ser refutada, contestada, por ser evidente, falando especialmente de uma proposição.[Por Extensão] Que não se pode refutar; que não admite contestação, contradição; manifesto, indiscutível.Capaz de convencer através de provas, de evidências; evidente.Etimologia (origem da palavra apodíctico). Do grego apodeiktikos.
  
 Sinônimos:
 
-provocação, ofensa, insulto, injúria, doesto, desfeita, abuso, vitupério, agravo, ataque, afronta, ultraje 
+lógico, evidente, irrefutável, manifesto 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (01/09/2025) - Significado completo de família:
-INFO:root:🔹 URL: https://www.dicio.com.br/familia/
+INFO:root:🔹 Title: Palavra de Ontem (02/09/2025) - Significado completo de invectiva:
+INFO:root:🔹 URL: https://www.dicio.com.br/invectiva/
 INFO:root:🔹 Description: Sinônimos:
 
-provocação, ofensa, insulto, injúria, doesto, desfeita, abuso, vitupério, agravo, ataque, afronta, ultraje
- Classe gramatical:substantivo feminino
+lógico, evidente, irrefutável, manifesto
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (31/08/2025) - Significado completo de hostilizado:
-INFO:root:🔹 URL: https://www.dicio.com.br/hostilizado/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:in-vec-ti-va
+INFO:root:🔹 Title: Palavra de Anteontem (01/09/2025) - Significado completo de família:
+INFO:root:🔹 URL: https://www.dicio.com.br/familia/
+INFO:root:🔹 Description: Classe gramatical:adjetivo
+ Sílabas:a-po-díc-ti-co
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,115 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 307811 characters
-INFO:root:HTML parsed, length: 297445 characters
-INFO:root:Found 1 titles: ['1 João 4:8']
-INFO:root:Found 1 URLs: ['/versiculo/1_joao_4_8/']
-INFO:root:Found 1 descriptions: ['Quem não ama não conhece a Deus, porque Deus é amo']
+INFO:root:Response length: 307591 characters
+INFO:root:HTML parsed, length: 297225 characters
+INFO:root:Found 1 titles: ['Jeremias 1:5']
+INFO:root:Found 1 URLs: ['/versiculo/jeremias_1_5/']
+INFO:root:Found 1 descriptions: ['"Antes de formá-lo no ventre\neu o escolhi;\nantes d']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 João 4:8', ID=00bc827ac12c6e06466f13cfd6ed46be
+INFO:root:Processing entry 1: Title='Jeremias 1:5', ID=bfdcfd1eb7f9c4f3facd9160597498cd
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 João 4:8
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_joao_4_8/
-INFO:root:🔹 Description: Quem não ama não conhece a Deus, porque Deus é amor. 1 João 4:8
+INFO:root:🔹 Title: Jeremias 1:5
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jeremias_1_5/
+INFO:root:🔹 Description: "Antes de formá-lo no ventre
+eu o escolhi;
+antes de você nascer, eu o separei
+e o designei profeta às nações". Jeremias 1:5
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 306909 characters
-INFO:root:HTML parsed, length: 297252 characters
-INFO:root:Found 3 titles: ['Salmo 14', 'Salmo 54', 'Salmo 115']
-INFO:root:Found 3 URLs: ['/salmos_14/', '/salmos_54/', '/salmos_115/']
-INFO:root:Found 3 descriptions: ['Diz o tolo em seu coração: "Deus não existe".\nCorr', 'Salva-me, ó Deus, pelo teu nome;\ndefende-me pelo t', 'Não a nós, Senhor, nenhuma glória para nós,\nmas si']
-INFO:root:Found 3 dates: ['2 de Setembro de 2025', '1 de Setembro de 2025', '31 de Agosto de 2025']
+INFO:root:Response length: 307810 characters
+INFO:root:HTML parsed, length: 298175 characters
+INFO:root:Found 3 titles: ['Salmo 55', 'Salmo 14', 'Salmo 54']
+INFO:root:Found 3 URLs: ['/salmos_55/', '/salmos_14/', '/salmos_54/']
+INFO:root:Found 3 descriptions: ['Escuta a minha oração, ó Deus,\nnão ignores a minha', 'Diz o tolo em seu coração: "Deus não existe".\nCorr', 'Salva-me, ó Deus, pelo teu nome;\ndefende-me pelo t']
+INFO:root:Found 3 dates: ['3 de Setembro de 2025', '2 de Setembro de 2025', '1 de Setembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 14', ID=44f8a1cc34f2b4ef56ad4bc3dcedfb6c
-INFO:root:Processing entry 2: Title=' Salmo 54', ID=0ad47925f3eaec3675bd0850ab63416c
-INFO:root:Processing entry 3: Title=' Salmo 115', ID=c931268d36df846fb79d980de87b9a14
+INFO:root:Processing entry 1: Title=' Salmo 55', ID=eae097287cb7833968feca984d642711
+INFO:root:Processing entry 2: Title=' Salmo 14', ID=44f8a1cc34f2b4ef56ad4bc3dcedfb6c
+INFO:root:Processing entry 3: Title=' Salmo 54', ID=0ad47925f3eaec3675bd0850ab63416c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 55
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_55/
+INFO:root:🔹 Description: Escuta a minha oração, ó Deus,
+não ignores a minha súplica; 
+ouve-me e responde-me!
+Os meus pensamentos me perturbam,
+e estou atordoado 
+diante do barulho do inimigo,
+diante da gritaria dos ímpios;
+pois eles aumentam o meu sofrimento
+e, irados, mostram seu rancor. 
+O meu coração está acelerado;
+os pavores da morte me assaltam. 
+Temor e tremor me dominam;
+o medo tomou conta de mim. 
+Então eu disse:
+Quem dera eu tivesse asas como a pomba;
+voaria até encontrar repouso! 
+Sim, eu fugiria para bem longe,
+e no deserto eu teria o meu abrigo. 
+Eu me apressaria em achar refúgio
+longe do vendaval e da tempestade. 
+Destrói os ímpios, Senhor,
+confunde a língua deles,
+pois vejo violência e brigas na cidade. 
+Dia e noite eles rondam por seus muros;
+nela permeiam o crime e a maldade. 
+A destruição impera na cidade;
+a opressão e a fraude jamais deixam suas ruas. 
+Se um inimigo me insultasse,
+eu poderia suportar;
+se um adversário se levantasse contra mim,
+eu poderia defender-me; 
+mas logo você, meu colega,
+meu companheiro, meu amigo chegado, 
+você, com quem eu partilhava
+agradável comunhão
+enquanto íamos com a multidão festiva
+para a casa de Deus! 
+Que a morte
+apanhe os meus inimigos de surpresa!
+Desçam eles vivos para a sepultura,
+pois entre eles o mal acha guarida. 
+Eu, porém, clamo a Deus,
+e o Senhor me salvará. 
+À tarde, pela manhã e ao meio-dia
+choro angustiado,
+e ele ouve a minha voz. 
+Ele me guarda ileso na batalha,
+sendo muitos os que estão contra mim. 
+Deus, que reina desde a eternidade,
+me ouvirá e os castigará.
+Pausa
+Pois jamais mudam sua conduta
+e não têm temor de Deus. 
+Aquele homem se voltou
+contra os seus aliados,
+violando o seu acordo. 
+Macia como manteiga é a sua fala,
+mas a guerra está no seu coração;
+suas palavras são mais suaves que o óleo,
+mas são afiadas como punhais. 
+Entregue suas preocupações ao Senhor,
+e ele o susterá;
+jamais permitirá que o justo venha a cair. 
+Mas tu, ó Deus,
+farás descer à cova da destruição
+aqueles assassinos e traidores,
+os quais não viverão a metade dos seus dias.
+Quanto a mim, porém, confio em ti. 
+ Salmo 55
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 14
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_14/
 INFO:root:🔹 Description: Diz o tolo em seu coração: "Deus não existe".
@@ -124,100 +199,90 @@ e os meus olhos contemplaram
 a derrota dos meus inimigos. 
  Salmo 54
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 115
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_115/
-INFO:root:🔹 Description: Não a nós, Senhor, nenhuma glória para nós,
-mas sim ao teu nome,
-por teu amor e por tua fidelidade! 
-Por que perguntam as nações:
-"Onde está o Deus deles?" 
-O nosso Deus está nos céus,
-e pode fazer tudo o que lhe agrada. 
-Os ídolos deles, de prata e ouro,
-são feitos por mãos humanas. 
-Têm boca, mas não podem falar;
-olhos, mas não podem ver; 
-têm ouvidos, mas não podem ouvir;
-nariz, mas não podem sentir cheiro; 
-têm mãos, mas nada podem apalpar;
-pés, mas não podem andar;
-e não emitem som algum com a garganta. 
-Tornem-se como eles aqueles que os fazem
-e todos os que neles confiam. 
-Confie no Senhor,ó Israel!
-Ele é o seu socorro e o seu escudo. 
-Confiem no Senhor, sacerdotes!
-Ele é o seu socorro e o seu escudo. 
-Vocês que temem o Senhor,
-confiem no Senhor!
-Ele é o seu socorro e o seu escudo. 
-O Senhor lembra-se de nós e nos abençoará;
-abençoará os israelitas,
-abençoará os sacerdotes, 
-abençoará os que temem o Senhor,
-do menor ao maior. 
-Que o Senhor os multiplique,
-vocês e os seus filhos. 
-Sejam vocês abençoados pelo Senhor,
-que fez os céus e a terra. 
-Os mais altos céus pertencem ao Senhor,
-mas a terra, ele a confiou ao homem. 
-Os mortos não louvam o Senhor,
-tampouco nenhum dos que descem ao silêncio. 
-Mas nós bendiremos o Senhor,
-desde agora e para sempre!
-Aleluia! 
- Salmo 115
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 310303 characters
-INFO:root:HTML parsed, length: 300341 characters
-INFO:root:Found 3 titles: ['Vinde a mim como estais', 'Deus não é um antiquário', 'Viva em perfeita paz']
+INFO:root:Response length: 306171 characters
+INFO:root:HTML parsed, length: 296201 characters
+INFO:root:Found 3 titles: ['Deixe de lado as distrações e aproxime-se de Deus', 'Vinde a mim como estais', 'Deus não é um antiquário']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['"Venham a mim, todos os que estão cansados e sobre', 'Vejam, estou fazendo uma coisa nova!\nEla já está s', 'Tu, Senhor, guardarás em perfeita paz\naquele cujo ']
-INFO:root:Found 1 dates: ['Terça, 2 de setembro de 2025']
+INFO:root:Found 3 descriptions: ['Busquem, pois, em primeiro lugar o Reino de Deus e', '"Venham a mim, todos os que estão cansados e sobre', 'Vejam, estou fazendo uma coisa nova!\nEla já está s']
+INFO:root:Found 1 dates: ['Quarta, 3 de setembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Vinde a mim como estais', ID=4f8cbb15bc44b44077be4d8df81a8b23
+INFO:root:Processing entry 1: Title='Deixe de lado as distrações e aproxime-se de Deus', ID=29f2141462a6d77eca76a7a663948fa4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Vinde a mim como estais - Palavra de Hoje
+INFO:root:🔹 Title: Deixe de lado as distrações e aproxime-se de Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: "Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.
-- Mateus 11:28 
+INFO:root:🔹 Description: Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.
+- Mateus 6:33
 
-Essas palavras de Jesus é um convite eterno de amor e misericórdia. Ele não pede que você esteja perfeito, nem que tenha todas as respostas, nem que esconda suas feridas. Pelo contrário, o Senhor chama cada um exatamente como está: cansado, aflito, sobrecarregado, sem forças. É nesse estado que Ele se revela como o descanso verdadeiro.
-Muitas vezes carregamos fardos que não foram feitos para nós: culpas antigas, medos do futuro, preocupações do dia a dia. Tentamos ser fortes por conta própria, mas a alma clama por alívio. Jesus nos convida a deixar tudo aos pés d’Ele. Quando entregamos o peso, descobrimos que Sua graça é suficiente e Seu jugo é suave. Ele não nos condena, mas nos restaura.
-O mundo pode oferecer soluções passageiras, mas só em Cristo encontramos paz que ultrapassa todo entendimento. Ele nos aceita com nossas falhas e nos transforma com Seu amor. A verdadeira mudança não começa quando nos tornamos dignos, mas quando reconhecemos que precisamos d’Ele.
-Hoje, escute essa voz que chama: “Vinde a mim”. Não importa se você está ferido pela vida, perdido em dúvidas ou desanimado pela caminhada. O Senhor te recebe com braços abertos. Ele não rejeita corações quebrantados, mas os acolhe e os fortalece.
-Venha como está. Traga suas lágrimas, seus medos, sua história. Cristo é o descanso da alma e o abrigo seguro. Nele, você encontrará a esperança que não se apaga, a força que não falha e o amor que nunca abandona.
-Que hoje você aceite o convite e descanse no Senhor, pois só n’Ele há vida abundante. 
-Veja também: Estudo Bíblico de Mateus 11:28-30
+
+Uma coisa pedi ao Senhor
+e a procuro:
+que eu possa viver na casa do Senhor
+todos os dias da minha vida,
+para contemplar a bondade do Senhor
+e buscar sua orientação no seu templo.
+- Salmo 27:4
+
+A vida é cheia de distrações. Vamos à igreja quando não temos mais nada para fazer, porque Deus entende que estamos ocupados. Lemos a Bíblia quando temos tempo. Há tanta coisa para fazer! Oramos quando temos uma necessidade urgente. Se formos honestos, muitas vezes damos a Deus as migalhas do nosso tempo, da nossa força e do nosso amor.
+Mas não deveria ser assim. Deus nos criou, nos ama e cuida de nós. Ele está ao nosso lado em todos os momentos e anseia pela nossa amizade. Passar tempo com Ele deve ser a nossa prioridade, não o último recurso quando as coisas dão errado. Não permitamos que as tarefas e preocupações da vida nos distraiam tanto a ponto de Deus se tornar uma lembrança distante ou o nosso último recurso.
+Busquemos o Senhor primeiro! Aproximemo-nos dEle no início de cada dia para agradecer pela vida e pelas bênçãos que Ele nos dá. Reservemos um tempo para reconhecer que estamos aqui, graças a Deus. Busquemos a Sua presença para adorá-Lo e receber forças para enfrentar os desafios que o dia nos apresenta.
+Aproximar-se de Deus nos abençoa imensamente. Saber que temos o Seu amor, a Sua presença, o Seu cuidado e o Seu poder nos encoraja e nos leva a encarar tudo com maior otimismo. Buscar a face do Senhor nos traz paz, alegria e coragem para seguir em frente. Concentrar-se em Deus, e não em distrações, nos abençoa muito além dos nossos sonhos mais ousados. Busquemos a Deus, recebamos o Seu amor e vivamos vidas mais felizes.
+
+A teu respeito diz o meu coração:
+Busque a minha face!
+A tua face, Senhor, buscarei.
+- Salmo 27:8
+
+Veja também: Versículos sobre buscar a Deus
  
-"Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.
-- Mateus 11:28 
+Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.
+- Mateus 6:33
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 320038 characters
-INFO:root:HTML parsed, length: 309827 characters
-INFO:root:Found 3 titles: ['Aquele que começou, vai completar', 'Um amor sem tamanho', 'Refúgio seguro em Deus']
-INFO:root:Found 3 URLs: ['/versiculos_lindos_fidelidade_de_deus/', '/o_amor_incondicional_de_deus_estudo/', '/versiculos_que_mostram_que_deus_esta_no_controle_de_tudo/']
-INFO:root:Found 3 descriptions: ['Estou convencido de que aquele que começou boa obr', 'Porque Deus amou o mundo de tal maneira que deu o ', 'Senhor, meu Deus, em ti me refugio;\nsalva-me e liv']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n2\nTERÇA', 'SETEMBRO\n\n1\nSEGUNDA', 'AGOSTO\n\n31\nDOMINGO']
+INFO:root:Response length: 320139 characters
+INFO:root:HTML parsed, length: 309927 characters
+INFO:root:Found 3 titles: ['A confiança em Deus é a base da fé', 'Aquele que começou, vai completar', 'Um amor sem tamanho']
+INFO:root:Found 3 URLs: ['/exemplos_de_perseveranca_na_biblia/', '/versiculos_lindos_fidelidade_de_deus/', '/o_amor_incondicional_de_deus_estudo/']
+INFO:root:Found 3 descriptions: ['Confie no Senhor de todo o seu coração e não se ap', 'Estou convencido de que aquele que começou boa obr', 'Porque Deus amou o mundo de tal maneira que deu o ']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n3\nQUARTA', 'SETEMBRO\n\n2\nTERÇA', 'SETEMBRO\n\n1\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Aquele que começou, vai completar', ID=335601308e3fbd90f995e903497974f8
-INFO:root:Processing entry 2: Title='Um amor sem tamanho', ID=45709a85135f7bcce0996ce03d01904c
-INFO:root:Processing entry 3: Title='Refúgio seguro em Deus', ID=c89dfebf124ac8cf820818f0640eb4ff
+INFO:root:Processing entry 1: Title='A confiança em Deus é a base da fé', ID=fe3a53953f546275ac9cbdabce43fa80
+INFO:root:Processing entry 2: Title='Aquele que começou, vai completar', ID=335601308e3fbd90f995e903497974f8
+INFO:root:Processing entry 3: Title='Um amor sem tamanho', ID=45709a85135f7bcce0996ce03d01904c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A confiança em Deus é a base da fé
+INFO:root:🔹 URL: https://www.bibliaon.com/exemplos_de_perseveranca_na_biblia/
+INFO:root:🔹 Description: Confie no Senhor de todo o seu coração e não se apoie em seu próprio entendimento;
+- Provérbios 3:5
+
+A confiança em Deus é a base da fé. Sem a confiança em Deus, a vida se torna pesada e insegura. Confiar é descansar no cuidado do Pai, mesmo quando não entendemos os caminhos ou quando as circunstâncias parecem contrárias. É crer que Deus é fiel e que a Sua vontade é sempre boa, perfeita e agradável.
+Muitas vezes, queremos ter o controle da nossa vida, tomando decisões baseadas apenas na lógica ou no que os olhos enxergam. No entanto, a fé nos chama a ir além: a crer mesmo quando não vemos, a esperar mesmo quando parece tardar, a obedecer mesmo quando não compreendemos. Confiar em Deus é entregar a Ele nossas preocupações e ansiedades, sabendo que Ele cuida de nós em cada detalhe.
+Quando depositamos nossa confiança no Senhor, encontramos paz mesmo em tempo de batalha e forças para seguirmos em frente. A confiança gera descanso, porque sabemos que não caminhamos sozinhos. Assim como um filho se sente seguro ao segurar a mão do pai, também nós nos sentimos protegidos ao colocar nossa vida nas mãos de Deus.
+A Bíblia está repleta de exemplos de homens e mulheres que confiaram no Senhor e não foram confundidos. Abraão creu na promessa, Moisés confiou na direção de Deus, Davi enfrentou gigantes acreditando no poder do Senhor. Todos eles nos mostram que confiar em Deus abre caminhos e nos faz experimentar milagres.
+Que possamos, diariamente, renovar nossa confiança em Deus, lembrando que Ele é fiel e nunca falha. A confiança em Deus é a base da fé, e a fé é o que nos sustenta em cada passo da nossa jornada.
+Deposite a sua confiança em Deus!
+
+Confiamos mais em Deus quando entregamos a Ele nossas preocupações em oração, acreditando que Seu poder é maior que nossos limites, e descansando em Sua fidelidade que nunca falha.
+A confiança cresce quando meditamos diariamente na Palavra, lembrando das promessas e dos feitos do Senhor, fortalecendo a fé e renovando a esperança de que Ele sempre cumpre o que diz.
+Podemos confiar mais quando obedecemos mesmo sem compreender totalmente, escolhendo andar pela fé, reconhecendo que a vontade de Deus é perfeita.
+
+Para orar:
+
+Senhor amado, em Ti deposito toda a minha confiança. Mesmo quando não entendo os Teus caminhos, sei que Tu és fiel e nunca me deixas só. Fortalece a minha fé, ensina-me a descansar no Teu amor e ajuda-me a entregar cada preocupação em Tuas mãos. Que eu viva em obediência e esperança, crendo que os Teus planos são melhores que os meus. Guia-me em paz e sustenta-me em cada passo. Em nome de Jesus, amém.
+
+Veja também: Exemplos de pessoas que confiaram em Deus e venceram.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Aquele que começou, vai completar
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_lindos_fidelidade_de_deus/
 INFO:root:🔹 Description: Estou convencido de que aquele que começou boa obra em vocês, vai completá-la até o dia de Cristo Jesus.
@@ -266,33 +331,6 @@ Senhor amado, obrigado pelo Teu amor sem tamanho que me resgatou e me sustenta. 
 
 Veja também: Reflexão sobre o amor de Deus (Estudo Bíblico).
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Refúgio seguro em Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_que_mostram_que_deus_esta_no_controle_de_tudo/
-INFO:root:🔹 Description: Senhor, meu Deus, em ti me refugio;
-salva-me e livra-me de todos 
-os que me perseguem,
-- Salmo 7:1 
-
-O Salmo 7:1 nos lembra de uma verdade poderosa: em Deus encontramos refúgio. Quantas vezes enfrentamos situações que parecem maiores do que nossas forças? Problemas que nos cercam, pessoas que nos desanimam, medos que tentam nos aprisionar. Nessas horas, é fácil sentir-se perdido e sem saída. Mas a Palavra de Deus nos convida a olhar para o alto e confiarmos n’Ele.
-Refugiar-se em Deus não é apenas pedir ajuda, é descansar na certeza de que Ele está no controle de tudo. Ele não falha, não nos abandona e sempre tem um caminho preparado, mesmo quando não conseguimos enxergar. Assim como uma criança corre para os braços do pai quando está com medo, nós podemos correr para o Senhor, sabendo que ali encontramos paz, proteção e força.
-O inimigo pode tentar nos cercar com dúvidas e acusações, mas quem está em Cristo nunca está sozinho. O mesmo Deus que salvou Davi, o salmista, continua agindo hoje em nossas vidas. Ele é o nosso libertador, nossa fortaleza e nosso escudo.
-Em vez de alimentar a ansiedade, alimente a sua fé. Ore, confie, entregue a Ele seus medos e desafios. Cada lágrima é vista, cada oração é ouvida, e cada batalha é acompanhada pela mão poderosa de Deus.
-Hoje, escolha refugiar-se no Senhor. Nele há esperança, vitória e renovo. Levante a cabeça, continue caminhando, porque aquele que guarda a sua vida não dorme. O Deus que te ama é o mesmo que vai te livrar e te conduzir para a vitória.
-Não desista: em Deus, o seu refúgio é certo 
-
-Quando tudo parecer instável, lembre-se: Deus é fortaleza inabalável. Nele você encontra descanso, paz e coragem para continuar, mesmo quando os desafios parecem insuportáveis.
-
-Nenhum clamor passa despercebido diante do Senhor. Cada lágrima é registrada e cada pedido é ouvido. Confie: o tempo d’Ele é perfeito e sempre traz respostas.
-O inimigo pode tentar lançar medo, mas Deus jamais abandona seus filhos. Sua presença constante fortalece o coração e garante esperança em meio às batalhas diárias.
-
-Em Cristo, a vitória é prometida. Mesmo que o processo seja doloroso, confie: o fim será de glória. Persevere, pois Deus transforma lutas em testemunhos poderosos.
-
-Para orar: 
-
-Senhor, meu Deus, em Ti me refugio. Entrego minhas lutas, medos e dores em Tuas mãos. Dá-me força para perseverar, paz para descansar e fé para confiar no Teu cuidado. Amém.
-
-Veja também: Versículos que mostram que Deus está no controle de tudo.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 92 characters
@@ -322,15 +360,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  28 +++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  32 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  37 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  48 +++---
+ feeds/salmo_do_dia/atom.xml               | 115 +++++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 237 +++++++++++++++---------------
- 11 files changed, 221 insertions(+), 198 deletions(-)
+ output.log                                | 326 ++++++++++++++++--------------
+ 11 files changed, 334 insertions(+), 270 deletions(-)
