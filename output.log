@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120432 characters
-INFO:root:HTML parsed, length: 113522 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (03/09/2025)', 'Palavra de Ontem (02/09/2025)', 'Palavra de Anteontem (01/09/2025)']
-INFO:root:Found 3 URLs: ['/apodictico/', '/invectiva/', '/familia/']
-INFO:root:Found 13 descriptions: ['adjetivo [Lógica] Que expressa uma premissa lógica', 'Sinônimos:\n\nlógico, evidente, irrefutável, manifes', 'Classe gramatical:adjetivo']
-INFO:root:Found 3 dates: ['Palavra de Hoje (03/09/2025)', 'Palavra de Ontem (02/09/2025)', 'Palavra de Anteontem (01/09/2025)']
+INFO:root:Response length: 119298 characters
+INFO:root:HTML parsed, length: 112412 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (04/09/2025)', 'Palavra de Ontem (03/09/2025)', 'Palavra de Anteontem (02/09/2025)']
+INFO:root:Found 3 URLs: ['/deboche/', '/apodictico/', '/invectiva/']
+INFO:root:Found 13 descriptions: ['substantivo masculino Zombaria insistente; escárni', 'Sinônimos:\n\nescárnio, zombaria, caçoada, desdém, m', 'Antônimos:\n\nbrio, castidade, correção, decência, d']
+INFO:root:Found 3 dates: ['Palavra de Hoje (04/09/2025)', 'Palavra de Ontem (03/09/2025)', 'Palavra de Anteontem (02/09/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (03/09/2025)', ID=7e12589c35c59e9639b50bdb90ae6b7c
-INFO:root:Processing entry 2: Title='Palavra de Ontem (02/09/2025)', ID=e7427f08d056503937b55db510eb7c72
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (01/09/2025)', ID=13db36e225e02942f75f63fa126af19c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (04/09/2025)', ID=4299885614858ac9df7bd37384166beb
+INFO:root:Processing entry 2: Title='Palavra de Ontem (03/09/2025)', ID=ada998f26e0d320bc8ce246aa9f4ce79
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (02/09/2025)', ID=4099f5a2420c4f7944932c5fc7ed0fde
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (03/09/2025) - Significado completo de apodíctico:
-INFO:root:🔹 URL: https://www.dicio.com.br/apodictico/
-INFO:root:🔹 Description: adjetivo [Lógica] Que expressa uma premissa lógica e impossível de ser refutada, contestada, por ser evidente, falando especialmente de uma proposição.[Por Extensão] Que não se pode refutar; que não admite contestação, contradição; manifesto, indiscutível.Capaz de convencer através de provas, de evidências; evidente.Etimologia (origem da palavra apodíctico). Do grego apodeiktikos.
+INFO:root:🔹 Title: Palavra de Hoje (04/09/2025) - Significado completo de deboche:
+INFO:root:🔹 URL: https://www.dicio.com.br/deboche/
+INFO:root:🔹 Description: substantivo masculino Zombaria insistente; escárnio, zoação.Ação ou efeito de debochar, de zombar de algo ou de alguém.Desconsideração ou desprezo demonstrado através da ironia; escárnio, desdém.Ausência de regras; má conduta; devassidão, libertinagem.Modo de vida depravado cujas características se baseiam na devassidão, nos vícios, na libertinagem etc.: durante sua vida sempre foi dado ao deboche.Etimologia (origem da palavra deboche). A palavra deboche deriva do francês "débauche", que significa devassidão.
  
 Sinônimos:
 
-lógico, evidente, irrefutável, manifesto 
+escárnio, zombaria, caçoada, desdém, mofa, sarcasmo, debique, desprezo, devassidão, libertinagem, tripúdio 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (02/09/2025) - Significado completo de invectiva:
-INFO:root:🔹 URL: https://www.dicio.com.br/invectiva/
+INFO:root:🔹 Title: Palavra de Ontem (03/09/2025) - Significado completo de apodíctico:
+INFO:root:🔹 URL: https://www.dicio.com.br/apodictico/
 INFO:root:🔹 Description: Sinônimos:
 
-lógico, evidente, irrefutável, manifesto
- Classe gramatical:adjetivo
+escárnio, zombaria, caçoada, desdém, mofa, sarcasmo, debique, desprezo, devassidão, libertinagem, tripúdio
+ 
+Antônimos:
+
+brio, castidade, correção, decência, decoro 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (01/09/2025) - Significado completo de família:
-INFO:root:🔹 URL: https://www.dicio.com.br/familia/
-INFO:root:🔹 Description: Classe gramatical:adjetivo
- Sílabas:a-po-díc-ti-co
+INFO:root:🔹 Title: Palavra de Anteontem (02/09/2025) - Significado completo de invectiva:
+INFO:root:🔹 URL: https://www.dicio.com.br/invectiva/
+INFO:root:🔹 Description: Antônimos:
+
+brio, castidade, correção, decência, decoro
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,43 +48,112 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 307591 characters
-INFO:root:HTML parsed, length: 297225 characters
-INFO:root:Found 1 titles: ['Jeremias 1:5']
-INFO:root:Found 1 URLs: ['/versiculo/jeremias_1_5/']
-INFO:root:Found 1 descriptions: ['"Antes de formá-lo no ventre\neu o escolhi;\nantes d']
+INFO:root:Response length: 307466 characters
+INFO:root:HTML parsed, length: 297100 characters
+INFO:root:Found 1 titles: ['Daniel 2:20']
+INFO:root:Found 1 URLs: ['/versiculo/daniel_2_20/']
+INFO:root:Found 1 descriptions: ['E disse:\n"Louvado seja o nome de Deus\npara todo o ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jeremias 1:5', ID=bfdcfd1eb7f9c4f3facd9160597498cd
+INFO:root:Processing entry 1: Title='Daniel 2:20', ID=30c42988fe9d7cedc4646590d25899e4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jeremias 1:5
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jeremias_1_5/
-INFO:root:🔹 Description: "Antes de formá-lo no ventre
-eu o escolhi;
-antes de você nascer, eu o separei
-e o designei profeta às nações". Jeremias 1:5
+INFO:root:🔹 Title: Daniel 2:20
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/daniel_2_20/
+INFO:root:🔹 Description: E disse:
+"Louvado seja o nome de Deus
+para todo o sempre;
+a sabedoria e o poder a ele pertencem. Daniel 2:20
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 307810 characters
-INFO:root:HTML parsed, length: 298175 characters
-INFO:root:Found 3 titles: ['Salmo 55', 'Salmo 14', 'Salmo 54']
-INFO:root:Found 3 URLs: ['/salmos_55/', '/salmos_14/', '/salmos_54/']
-INFO:root:Found 3 descriptions: ['Escuta a minha oração, ó Deus,\nnão ignores a minha', 'Diz o tolo em seu coração: "Deus não existe".\nCorr', 'Salva-me, ó Deus, pelo teu nome;\ndefende-me pelo t']
-INFO:root:Found 3 dates: ['3 de Setembro de 2025', '2 de Setembro de 2025', '1 de Setembro de 2025']
+INFO:root:Response length: 309642 characters
+INFO:root:HTML parsed, length: 300039 characters
+INFO:root:Found 3 titles: ['Salmo 74', 'Salmo 55', 'Salmo 14']
+INFO:root:Found 3 URLs: ['/salmos_74/', '/salmos_55/', '/salmos_14/']
+INFO:root:Found 3 descriptions: ['Por que nos rejeitaste definitivamente, ó Deus?\nPo', 'Escuta a minha oração, ó Deus,\nnão ignores a minha', 'Diz o tolo em seu coração: "Deus não existe".\nCorr']
+INFO:root:Found 3 dates: ['4 de Setembro de 2025', '3 de Setembro de 2025', '2 de Setembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 55', ID=eae097287cb7833968feca984d642711
-INFO:root:Processing entry 2: Title=' Salmo 14', ID=44f8a1cc34f2b4ef56ad4bc3dcedfb6c
-INFO:root:Processing entry 3: Title=' Salmo 54', ID=0ad47925f3eaec3675bd0850ab63416c
+INFO:root:Processing entry 1: Title=' Salmo 74', ID=4d6b41387835ec778afe1a0518cbc6fe
+INFO:root:Processing entry 2: Title=' Salmo 55', ID=eae097287cb7833968feca984d642711
+INFO:root:Processing entry 3: Title=' Salmo 14', ID=44f8a1cc34f2b4ef56ad4bc3dcedfb6c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 74
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_74/
+INFO:root:🔹 Description: Por que nos rejeitaste definitivamente, ó Deus?
+Por que se acende a tua ira
+contra as ovelhas da tua pastagem? 
+Lembra-te do povo que adquiriste
+em tempos passados,
+da tribo da tua herança, que resgataste,
+do monte Sião, onde habitaste. 
+Volta os teus passos
+para aquelas ruínas irreparáveis,
+para toda a destruição
+que o inimigo causou em teu santuário. 
+Teus adversários gritaram triunfantes
+bem no local onde te encontravas conosco,
+e hastearam suas bandeiras em sinal de vitória. 
+Pareciam homens armados com machados
+invadindo um bosque cerrado. 
+Com seus machados e machadinhas
+esmigalharam todos os revestimentos
+de madeira esculpida. 
+Atearam fogo ao teu santuário;
+profanaram o lugar da habitação do teu nome. 
+Disseram no coração:
+"Vamos acabar com eles!"
+Queimaram todos os santuários do país. 
+Já não vemos sinais milagrosos;
+não há mais profetas,
+e nenhum de nós sabe
+até quando isso continuará. 
+Até quando o adversário irá zombar, ó Deus?
+Será que o inimigo blasfemará
+o teu nome para sempre? 
+Por que reténs a tua mão, a tua mão direita?
+Não fiques de braços cruzados! Destrói-os! 
+Mas tu, ó Deus,
+és o meu rei desde a antiguidade;
+trazes salvação sobre a terra. 
+Tu dividiste o mar pelo teu poder;
+quebraste as cabeças das serpentes das águas. 
+Esmagaste as cabeças do Leviatã
+e o deste por comida às criaturas do deserto. 
+Tu abriste fontes e regatos;
+secaste rios perenes. 
+O dia é teu, e tua também é a noite;
+estabeleceste o sol e a lua. 
+Determinaste todas as fronteiras da terra;
+fizeste o verão e o inverno. 
+Lembra-te de como o inimigo
+tem zombado de ti, ó Senhor,
+como os insensatos têm blasfemado o teu nome. 
+Não entregues a vida da tua pomba
+aos animais selvagens;
+não te esqueças para sempre da vida
+do teu povo indefeso. 
+Dá atenção à tua aliança,
+porque de antros de violência se enchem
+os lugares sombrios do país. 
+Não deixes que o oprimido
+se retire humilhado!
+Faze que o pobre e o necessitado
+louvem o teu nome. 
+Levanta-te, ó Deus, e defende a tua causa;
+lembra-te de como os insensatos
+zombam de ti sem cessar. 
+Não ignores a gritaria dos teus adversários,
+o crescente tumulto dos teus inimigos. 
+ Salmo 74
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 55
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_55/
 INFO:root:🔹 Description: Escuta a minha oração, ó Deus,
@@ -178,89 +253,80 @@ Quando o Senhor restaurar o seu povo,
 Jacó exultará! Israel se regozijará! 
  Salmo 14
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 54
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_54/
-INFO:root:🔹 Description: Salva-me, ó Deus, pelo teu nome;
-defende-me pelo teu poder. 
-Ouve a minha oração, ó Deus;
-escuta as minhas palavras. 
-Estrangeiros me atacam;
-homens cruéis querem matar-me,
-homens que não se importam com Deus. 
-Certamente Deus é o meu auxílio;
-é o Senhor que me sustém. 
-Recaia o mal sobre os meus inimigos!
-Extermina-os por tua fidelidade! 
-Eu te oferecerei um sacrifício voluntário;
-louvarei o teu nome, ó Senhor,
-porque tu és bom. 
-Pois ele me livrou de todas as minhas angústias,
-e os meus olhos contemplaram
-a derrota dos meus inimigos. 
- Salmo 54
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 306171 characters
-INFO:root:HTML parsed, length: 296201 characters
-INFO:root:Found 3 titles: ['Deixe de lado as distrações e aproxime-se de Deus', 'Vinde a mim como estais', 'Deus não é um antiquário']
+INFO:root:Response length: 310335 characters
+INFO:root:HTML parsed, length: 300362 characters
+INFO:root:Found 3 titles: ['Não fique ansioso, não se preocupe!', 'Deixe de lado as distrações e aproxime-se de Deus', 'Vinde a mim como estais']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Busquem, pois, em primeiro lugar o Reino de Deus e', '"Venham a mim, todos os que estão cansados e sobre', 'Vejam, estou fazendo uma coisa nova!\nEla já está s']
-INFO:root:Found 1 dates: ['Quarta, 3 de setembro de 2025']
+INFO:root:Found 3 descriptions: ['Não andem ansiosos por coisa alguma, mas em tudo, ', 'Busquem, pois, em primeiro lugar o Reino de Deus e', '"Venham a mim, todos os que estão cansados e sobre']
+INFO:root:Found 1 dates: ['Quinta, 4 de setembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deixe de lado as distrações e aproxime-se de Deus', ID=29f2141462a6d77eca76a7a663948fa4
+INFO:root:Processing entry 1: Title='Não fique ansioso, não se preocupe!', ID=807a9a9f762958e2ee7e79fb4347df33
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deixe de lado as distrações e aproxime-se de Deus - Palavra de Hoje
+INFO:root:🔹 Title: Não fique ansioso, não se preocupe! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.
-- Mateus 6:33
+INFO:root:🔹 Description: Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus.
+- Filipenses 4:6-7
 
-
-Uma coisa pedi ao Senhor
-e a procuro:
-que eu possa viver na casa do Senhor
-todos os dias da minha vida,
-para contemplar a bondade do Senhor
-e buscar sua orientação no seu templo.
-- Salmo 27:4
-
-A vida é cheia de distrações. Vamos à igreja quando não temos mais nada para fazer, porque Deus entende que estamos ocupados. Lemos a Bíblia quando temos tempo. Há tanta coisa para fazer! Oramos quando temos uma necessidade urgente. Se formos honestos, muitas vezes damos a Deus as migalhas do nosso tempo, da nossa força e do nosso amor.
-Mas não deveria ser assim. Deus nos criou, nos ama e cuida de nós. Ele está ao nosso lado em todos os momentos e anseia pela nossa amizade. Passar tempo com Ele deve ser a nossa prioridade, não o último recurso quando as coisas dão errado. Não permitamos que as tarefas e preocupações da vida nos distraiam tanto a ponto de Deus se tornar uma lembrança distante ou o nosso último recurso.
-Busquemos o Senhor primeiro! Aproximemo-nos dEle no início de cada dia para agradecer pela vida e pelas bênçãos que Ele nos dá. Reservemos um tempo para reconhecer que estamos aqui, graças a Deus. Busquemos a Sua presença para adorá-Lo e receber forças para enfrentar os desafios que o dia nos apresenta.
-Aproximar-se de Deus nos abençoa imensamente. Saber que temos o Seu amor, a Sua presença, o Seu cuidado e o Seu poder nos encoraja e nos leva a encarar tudo com maior otimismo. Buscar a face do Senhor nos traz paz, alegria e coragem para seguir em frente. Concentrar-se em Deus, e não em distrações, nos abençoa muito além dos nossos sonhos mais ousados. Busquemos a Deus, recebamos o Seu amor e vivamos vidas mais felizes.
-
-A teu respeito diz o meu coração:
-Busque a minha face!
-A tua face, Senhor, buscarei.
-- Salmo 27:8
-
-Veja também: Versículos sobre buscar a Deus
+É muito fácil dizer aos outros: “Não se preocupem, não se preocupem, fiquem calmos, tudo vai ficar bem”. Mas quando chega a nossa vez, é um pouco mais difícil colocar isso em prática.
+Quando vemos que o dinheiro não é suficiente para cobrir as despesas, que a dor que sentimos não vai embora ou que o problema com nosso familiar, em vez de melhorar, está piorando, nossos corações começam a bater mais rápido e nos preocupamos. Somos humanos.
+No entanto, a Bíblia nos dá a receita perfeita para lidar com as preocupações da vida: leve-as diante do Senhor em oração! Podemos contar a Deus tudo o que nos preocupa e entregar a Ele todos os nossos fardos. Na verdade, Ele quer que façamos isso! Ele está de braços e ouvidos abertos, pronto para fazer a troca: Ele recebe nossas preocupações e, em troca, recebemos a Sua paz. É uma boa troca, você não acha?
+Então, lembre-se hoje de que você pode levar suas preocupações e preocupações diante de Deus. Você pode entregar tudo a Ele, pois Ele conhece a melhor solução para cada problema. Ao irmos diante dEle, abrimos a porta para receber Sua paz e também sabedoria para dar os passos certos em cada situação.
+A paz do Senhor acalma nosso ser, permitindo-nos ser mais receptivos a ouvir Sua voz e receber a direção de Deus. Ao seguirmos as instruções de Deus, nos tornamos agentes de paz e bênçãos, mesmo em meio aos desafios que enfrentamos na vida.
+Escolha hoje ir diante de Deus para entregar-lhe suas preocupações e receber a sua paz. Você se sentirá muito melhor.
+Veja também: Explicação de Filipenses 4:6-7 (Não andem ansiosos por coisa alguma).
  
-Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.
-- Mateus 6:33
+Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus.
+- Filipenses 4:6-7
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 320139 characters
-INFO:root:HTML parsed, length: 309927 characters
-INFO:root:Found 3 titles: ['A confiança em Deus é a base da fé', 'Aquele que começou, vai completar', 'Um amor sem tamanho']
-INFO:root:Found 3 URLs: ['/exemplos_de_perseveranca_na_biblia/', '/versiculos_lindos_fidelidade_de_deus/', '/o_amor_incondicional_de_deus_estudo/']
-INFO:root:Found 3 descriptions: ['Confie no Senhor de todo o seu coração e não se ap', 'Estou convencido de que aquele que começou boa obr', 'Porque Deus amou o mundo de tal maneira que deu o ']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n3\nQUARTA', 'SETEMBRO\n\n2\nTERÇA', 'SETEMBRO\n\n1\nSEGUNDA']
+INFO:root:Response length: 320290 characters
+INFO:root:HTML parsed, length: 310078 characters
+INFO:root:Found 3 titles: ['Você é reflexo do amor de Deus', 'A confiança em Deus é a base da fé', 'Aquele que começou, vai completar']
+INFO:root:Found 3 URLs: ['/versiculos_do_amor_de_deus_por_voce/', '/exemplos_de_perseveranca_na_biblia/', '/versiculos_lindos_fidelidade_de_deus/']
+INFO:root:Found 3 descriptions: ['O meu mandamento é este: Amem-se uns aos outros co', 'Confie no Senhor de todo o seu coração e não se ap', 'Estou convencido de que aquele que começou boa obr']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n4\nQUINTA', 'SETEMBRO\n\n3\nQUARTA', 'SETEMBRO\n\n2\nTERÇA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A confiança em Deus é a base da fé', ID=fe3a53953f546275ac9cbdabce43fa80
-INFO:root:Processing entry 2: Title='Aquele que começou, vai completar', ID=335601308e3fbd90f995e903497974f8
-INFO:root:Processing entry 3: Title='Um amor sem tamanho', ID=45709a85135f7bcce0996ce03d01904c
+INFO:root:Processing entry 1: Title='Você é reflexo do amor de Deus', ID=c1c0bb8919057f6a04eba79b574d69a9
+INFO:root:Processing entry 2: Title='A confiança em Deus é a base da fé', ID=fe3a53953f546275ac9cbdabce43fa80
+INFO:root:Processing entry 3: Title='Aquele que começou, vai completar', ID=335601308e3fbd90f995e903497974f8
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Você é reflexo do amor de Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_do_amor_de_deus_por_voce/
+INFO:root:🔹 Description: O meu mandamento é este: Amem-se uns aos outros como eu os amei.
+- João 15:12
+
+Somos chamados a refletir o amor de Deus no mundo. Isso não é apenas uma sugestão, mas um mandamento. Como cristãos, temos a responsabilidade de mostrar ao mundo o amor incondicional e sacrificial de Deus. Mas como podemos fazer isso?
+Precisamos entender que o amor de Deus não é algo que podemos fabricar por conta própria. É um amor que vem de cima, um amor derramado em nossos corações pelo Espírito Santo. Quando nos rendemos a Deus e permitimos que Ele nos transforme, começamos a ver o mundo de uma maneira diferente. Começamos a ver as pessoas como Ele as vê, pessoas amadas, valiosas e dignas de amor.
+Quando refletimos o amor de Deus, não estamos somente fazendo algo para Deus, estamos sendo quem fomos criados para ser. Estamos sendo filhos de Deus, mostrando ao mundo a natureza do nosso Pai. Isso se manifesta de muitas maneiras, na forma como tratamos os outros, na forma como perdoamos, na forma como servimos e na forma como amamos.
+Você é um reflexo do amor de Deus.E isso não é algo que você faz, é quem você é em Cristo. Quando você se rende ao amor de Deus e permite que Ele flua através de você, você se torna uma fonte de amor e luz no mundo. Você se torna um canal do amor de Deus, mostrando ao mundo que Ele é um Deus de amor e misericórdia.
+Permita que o amor de Deus brilhe em você. Ame como Ele ama, perdoe como Ele perdoa e sirva como Ele serve. Você é reflexo do amor de Deus, e quando você vive dessa maneira, você traz glória a Ele e bênção ao mundo. Seja um reflexo do amor de Deus hoje e veja como Ele pode usar você para transformar vidas.
+Vivendo e espalhando o amor de Deus
+
+
+Ame incondicionalmente: Trate os outros com amor e respeito, independentemente de suas ações ou atitudes, refletindo o amor incondicional de Deus por você e pelos outros.
+
+Perdoe como Ele perdoa: Deixe as ofensas e os ressentimentos, escolhendo perdoar como Deus perdoa, e experimente a liberdade e a paz que vêm com isso.
+
+Sirva com humildade: Busque oportunidades de servir os outros com humildade e amor, refletindo o coração de Deus e trazendo bênção às pessoas ao seu redor diariamente.
+
+Para orar:
+
+Pai celestial, agradeço por Seu amor incondicional e misericórdia. Peço que me ajude a refletir Seu amor no mundo, amando os outros como Cristo me ama. Dê-me sabedoria e coragem para perdoar e servir com humildade. Use-me como um canal de amor e luz, trazendo glória a Você e bênção ao mundo. Amém.
+
+Veja também: Versículos lindos sobre o amor de Deus.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A confiança em Deus é a base da fé
 INFO:root:🔹 URL: https://www.bibliaon.com/exemplos_de_perseveranca_na_biblia/
 INFO:root:🔹 Description: Confie no Senhor de todo o seu coração e não se apoie em seu próprio entendimento;
@@ -309,28 +375,6 @@ Senhor amado, agradeço porque Tua obra em minha vida não depende da minha for�
 
 Veja também: Versículos lindos sobre a fidelidade de Deus.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Um amor sem tamanho
-INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
-INFO:root:🔹 Description: Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.
-- João 3:16
-
-Não há palavras que consigam descrever completamente o amor de Deus. A Bíblia nos mostra que Ele não apenas falou de amor, mas demonstrou de forma prática, entregando o que tinha de mais precioso: o Seu próprio Filho, Jesus Cristo. Esse gesto revela um amor que vai além da lógica humana, um amor que não coloca condições e que não depende de merecimento.
-Muitas vezes, medimos o amor pelas nossas falhas e limites. Amamos quando é fácil, quando recebemos algo em troca. Mas o amor de Deus é diferente. Ele nos amou quando ainda estávamos distantes d’Ele, quando sequer pensávamos em Sua existência. Ele nos buscou, nos resgatou e continua nos sustentando a cada novo dia.
-O sacrifício de Jesus na cruz é a prova viva desse amor sem tamanho. Cada gota de sangue derramado foi um lembrete de que você e eu temos valor para Deus. Não importa o passado, os erros cometidos ou as cicatrizes que carregamos, o amor d’Ele é maior do que tudo isso.
-Esse amor não se mede, não se explica totalmente, apenas se experimenta. É como um abraço que conforta, uma luz que guia, uma paz que preenche o coração. Quando deixamos esse amor nos alcançar, somos transformados de dentro para fora.
-Hoje, você pode descansar nessa certeza: Deus te ama profundamente. Ele não desistiu de você e nunca vai desistir. Esse é o amor que sustenta, que restaura e que dá vida. Um amor sem tamanho, eterno e fiel.
-O amor que nos transforma
-
-Deus nos alcançou mesmo quando estávamos distantes. Seu amor não depende do nosso merecimento; Ele nos resgata do pecado e nos oferece nova vida em Cristo.
-Mesmo em meio às lutas, o amor de Deus permanece firme. Ele nos fortalece diariamente, trazendo paz, esperança e segurança para enfrentar qualquer situação.
-O amor de Cristo não apenas consola, mas também muda nosso interior. Ele cura feridas, restaura identidades e nos capacita a viver com propósito, generosidade e fé verdadeira.
-
-Para orar:
-
-Senhor amado, obrigado pelo Teu amor sem tamanho que me resgatou e me sustenta. Ajuda-me a confiar em Ti em todos os momentos, mesmo quando não entendo os caminhos. Transforma meu coração, cura minhas feridas e enche-me com a Tua paz. Que minha vida seja reflexo do Teu amor, levando esperança a todos ao meu redor. Em nome de Jesus, amém.
-
-Veja também: Reflexão sobre o amor de Deus (Estudo Bíblico).
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 92 characters
@@ -360,15 +404,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 +++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
  feeds/palavra_biblica_do_dia/atom.xml     |  37 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 115 +++++++----
+ feeds/salmo_do_dia/atom.xml               |  88 +++++++--
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 326 ++++++++++++++++--------------
- 11 files changed, 334 insertions(+), 270 deletions(-)
+ output.log                                | 306 +++++++++++++++++-------------
+ 11 files changed, 320 insertions(+), 244 deletions(-)
