@@ -1,46 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119298 characters
-INFO:root:HTML parsed, length: 112412 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (04/09/2025)', 'Palavra de Ontem (03/09/2025)', 'Palavra de Anteontem (02/09/2025)']
-INFO:root:Found 3 URLs: ['/deboche/', '/apodictico/', '/invectiva/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Zombaria insistente; escárni', 'Sinônimos:\n\nescárnio, zombaria, caçoada, desdém, m', 'Antônimos:\n\nbrio, castidade, correção, decência, d']
-INFO:root:Found 3 dates: ['Palavra de Hoje (04/09/2025)', 'Palavra de Ontem (03/09/2025)', 'Palavra de Anteontem (02/09/2025)']
+INFO:root:Response length: 118803 characters
+INFO:root:HTML parsed, length: 112101 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (05/09/2025)', 'Palavra de Ontem (04/09/2025)', 'Palavra de Anteontem (03/09/2025)']
+INFO:root:Found 3 URLs: ['/pre-natal/', '/deboche/', '/apodictico/']
+INFO:root:Found 12 descriptions: ['adjetivo Que antecede o nascimento: exames de pré-', 'Classe gramatical:adjetivo de dois gêneros e subst', 'Sílabas:pré-na-tal']
+INFO:root:Found 3 dates: ['Palavra de Hoje (05/09/2025)', 'Palavra de Ontem (04/09/2025)', 'Palavra de Anteontem (03/09/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (04/09/2025)', ID=4299885614858ac9df7bd37384166beb
-INFO:root:Processing entry 2: Title='Palavra de Ontem (03/09/2025)', ID=ada998f26e0d320bc8ce246aa9f4ce79
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (02/09/2025)', ID=4099f5a2420c4f7944932c5fc7ed0fde
+INFO:root:Processing entry 1: Title='Palavra de Hoje (05/09/2025)', ID=d281b4cc6c74b5ee3d8588b04b3b88e0
+INFO:root:Processing entry 2: Title='Palavra de Ontem (04/09/2025)', ID=5c97acdd4208ba57de2687b83842de0c
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (03/09/2025)', ID=c4f02a4eeeffd5355e18610d28daef7f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (04/09/2025) - Significado completo de deboche:
+INFO:root:🔹 Title: Palavra de Hoje (05/09/2025) - Significado completo de pré-natal:
+INFO:root:🔹 URL: https://www.dicio.com.br/pre-natal/
+INFO:root:🔹 Description: adjetivo Que antecede o nascimento: exames de pré-natais.substantivo masculino Toda assistência médica oferecida à mulher gestante, durante sua gravidez, cuja necessidade consiste, principalmente, na prevenção e no tratamento de possíveis problemas decorrentes da sua condição neste período e/ou até o momento do parto.Etimologia (origem da palavra pré-natal). Pré + natal.
+ Classe gramatical:adjetivo de dois gêneros e substantivo masculino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (04/09/2025) - Significado completo de deboche:
 INFO:root:🔹 URL: https://www.dicio.com.br/deboche/
-INFO:root:🔹 Description: substantivo masculino Zombaria insistente; escárnio, zoação.Ação ou efeito de debochar, de zombar de algo ou de alguém.Desconsideração ou desprezo demonstrado através da ironia; escárnio, desdém.Ausência de regras; má conduta; devassidão, libertinagem.Modo de vida depravado cujas características se baseiam na devassidão, nos vícios, na libertinagem etc.: durante sua vida sempre foi dado ao deboche.Etimologia (origem da palavra deboche). A palavra deboche deriva do francês "débauche", que significa devassidão.
+INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros e substantivo masculino
+ Sílabas:pré-na-tal
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (03/09/2025) - Significado completo de apodíctico:
+INFO:root:🔹 URL: https://www.dicio.com.br/apodictico/
+INFO:root:🔹 Description: Sílabas:pré-na-tal
  
 Sinônimos:
 
 escárnio, zombaria, caçoada, desdém, mofa, sarcasmo, debique, desprezo, devassidão, libertinagem, tripúdio 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (03/09/2025) - Significado completo de apodíctico:
-INFO:root:🔹 URL: https://www.dicio.com.br/apodictico/
-INFO:root:🔹 Description: Sinônimos:
-
-escárnio, zombaria, caçoada, desdém, mofa, sarcasmo, debique, desprezo, devassidão, libertinagem, tripúdio
- 
-Antônimos:
-
-brio, castidade, correção, decência, decoro 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (02/09/2025) - Significado completo de invectiva:
-INFO:root:🔹 URL: https://www.dicio.com.br/invectiva/
-INFO:root:🔹 Description: Antônimos:
-
-brio, castidade, correção, decência, decoro
- Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,43 +40,71 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 307466 characters
-INFO:root:HTML parsed, length: 297100 characters
-INFO:root:Found 1 titles: ['Daniel 2:20']
-INFO:root:Found 1 URLs: ['/versiculo/daniel_2_20/']
-INFO:root:Found 1 descriptions: ['E disse:\n"Louvado seja o nome de Deus\npara todo o ']
+INFO:root:Response length: 307739 characters
+INFO:root:HTML parsed, length: 297373 characters
+INFO:root:Found 1 titles: ['1 Crônicas 28:20']
+INFO:root:Found 1 URLs: ['/versiculo/1_cronicas_28_20/']
+INFO:root:Found 1 descriptions: ['E acrescentou: "Seja forte e corajoso! Mãos ao tra']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Daniel 2:20', ID=30c42988fe9d7cedc4646590d25899e4
+INFO:root:Processing entry 1: Title='1 Crônicas 28:20', ID=192d212f72d8cb47d5def526d598d3f2
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Daniel 2:20
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/daniel_2_20/
-INFO:root:🔹 Description: E disse:
-"Louvado seja o nome de Deus
-para todo o sempre;
-a sabedoria e o poder a ele pertencem. Daniel 2:20
+INFO:root:🔹 Title: 1 Crônicas 28:20
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_cronicas_28_20/
+INFO:root:🔹 Description: E acrescentou: "Seja forte e corajoso! Mãos ao trabalho! Não tenha medo nem desanime, pois Deus, o Senhor, o meu Deus, está com você. Ele não o deixará nem o abandonará até que se termine toda a construção do templo do Senhor. 1 Crônicas 28:20
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 309642 characters
-INFO:root:HTML parsed, length: 300039 characters
-INFO:root:Found 3 titles: ['Salmo 74', 'Salmo 55', 'Salmo 14']
-INFO:root:Found 3 URLs: ['/salmos_74/', '/salmos_55/', '/salmos_14/']
-INFO:root:Found 3 descriptions: ['Por que nos rejeitaste definitivamente, ó Deus?\nPo', 'Escuta a minha oração, ó Deus,\nnão ignores a minha', 'Diz o tolo em seu coração: "Deus não existe".\nCorr']
-INFO:root:Found 3 dates: ['4 de Setembro de 2025', '3 de Setembro de 2025', '2 de Setembro de 2025']
+INFO:root:Response length: 309817 characters
+INFO:root:HTML parsed, length: 300214 characters
+INFO:root:Found 3 titles: ['Salmo 29', 'Salmo 74', 'Salmo 55']
+INFO:root:Found 3 URLs: ['/salmos_29/', '/salmos_74/', '/salmos_55/']
+INFO:root:Found 3 descriptions: ['Atribuam ao Senhor, ó seres celestiais,\natribuam a', 'Por que nos rejeitaste definitivamente, ó Deus?\nPo', 'Escuta a minha oração, ó Deus,\nnão ignores a minha']
+INFO:root:Found 3 dates: ['5 de Setembro de 2025', '4 de Setembro de 2025', '3 de Setembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 74', ID=4d6b41387835ec778afe1a0518cbc6fe
-INFO:root:Processing entry 2: Title=' Salmo 55', ID=eae097287cb7833968feca984d642711
-INFO:root:Processing entry 3: Title=' Salmo 14', ID=44f8a1cc34f2b4ef56ad4bc3dcedfb6c
+INFO:root:Processing entry 1: Title=' Salmo 29', ID=7b4bb74d619d79e25a2e774f5dd4e5d4
+INFO:root:Processing entry 2: Title=' Salmo 74', ID=4d6b41387835ec778afe1a0518cbc6fe
+INFO:root:Processing entry 3: Title=' Salmo 55', ID=eae097287cb7833968feca984d642711
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 29
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_29/
+INFO:root:🔹 Description: Atribuam ao Senhor, ó seres celestiais,
+atribuam ao Senhor glória e força. 
+Atribuam ao Senhor
+a glória que o seu nome merece;
+adorem o Senhor
+no esplendor do seu santuário. 
+A voz do Senhor ressoa sobre as águas;
+o Deus da glória troveja,
+o Senhor troveja sobre as muitas águas. 
+A voz do Senhor é poderosa;
+a voz do Senhor é majestosa. 
+A voz do Senhor quebra os cedros;
+o Senhor despedaça os cedros do Líbano. 
+Ele faz o Líbano saltar como bezerro,
+o Siriom como novilho selvagem. 
+A voz do Senhor corta os céus
+com raios flamejantes. 
+A voz do Senhor faz tremer o deserto;
+o Senhor faz tremer o deserto de Cades. 
+A voz do Senhor retorce os carvalhos
+e despe as florestas.
+E no seu templo todos clamam: "Glória!" 
+O Senhor assentou-se soberano
+sobre o Dilúvio;
+o Senhor reina soberano para sempre. 
+O Senhor dá força ao seu povo;
+o Senhor dá a seu povo a bênção da paz. 
+ Salmo 29
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 74
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_74/
 INFO:root:🔹 Description: Por que nos rejeitaste definitivamente, ó Deus?
@@ -226,82 +246,86 @@ os quais não viverão a metade dos seus dias.
 Quanto a mim, porém, confio em ti. 
  Salmo 55
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 14
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_14/
-INFO:root:🔹 Description: Diz o tolo em seu coração: "Deus não existe".
-Corromperam-se e cometeram atos detestáveis;
-não há ninguém que faça o bem. 
-O Senhor olha dos céus
-para os filhos dos homens,
-para ver se há alguém que tenha entendimento,
-alguém que busque a Deus. 
-Todos se desviaram,
-igualmente se corromperam;
-não há ninguém que faça o bem,
-não há nem um sequer. 
-Será que nenhum dos malfeitores aprende?
-Eles devoram o meu povo
-como quem come pão
-e não clamam pelo Senhor! 
-Olhem! Estão tomados de pavor!
-Pois Deus está presente no meio dos justos. 
-Vocês, malfeitores,
-frustram os planos dos pobres,
-mas o refúgio deles é o Senhor. 
-Ah, se de Sião viesse a salvação para Israel!
-Quando o Senhor restaurar o seu povo,
-Jacó exultará! Israel se regozijará! 
- Salmo 14
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 310335 characters
-INFO:root:HTML parsed, length: 300362 characters
-INFO:root:Found 3 titles: ['Não fique ansioso, não se preocupe!', 'Deixe de lado as distrações e aproxime-se de Deus', 'Vinde a mim como estais']
+INFO:root:Response length: 306222 characters
+INFO:root:HTML parsed, length: 296250 characters
+INFO:root:Found 3 titles: ['Não se contamine', 'Não fique ansioso, não se preocupe!', 'Deixe de lado as distrações e aproxime-se de Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Não andem ansiosos por coisa alguma, mas em tudo, ', 'Busquem, pois, em primeiro lugar o Reino de Deus e', '"Venham a mim, todos os que estão cansados e sobre']
-INFO:root:Found 1 dates: ['Quinta, 4 de setembro de 2025']
+INFO:root:Found 3 descriptions: ['Daniel, contudo, decidiu não se tornar impuro com ', 'Não andem ansiosos por coisa alguma, mas em tudo, ', 'Busquem, pois, em primeiro lugar o Reino de Deus e']
+INFO:root:Found 1 dates: ['Sexta, 5 de setembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Não fique ansioso, não se preocupe!', ID=807a9a9f762958e2ee7e79fb4347df33
+INFO:root:Processing entry 1: Title='Não se contamine', ID=13cc6d2b37d8f7b07b6ac6fa2b725ee4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Não fique ansioso, não se preocupe! - Palavra de Hoje
+INFO:root:🔹 Title: Não se contamine - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus.
-- Filipenses 4:6-7
+INFO:root:🔹 Description: Daniel, contudo, decidiu não se tornar impuro com a comida e com o vinho do rei, e pediu ao chefe dos oficiais permissão para se abster deles.
+- Daniel 1:8 
 
-É muito fácil dizer aos outros: “Não se preocupem, não se preocupem, fiquem calmos, tudo vai ficar bem”. Mas quando chega a nossa vez, é um pouco mais difícil colocar isso em prática.
-Quando vemos que o dinheiro não é suficiente para cobrir as despesas, que a dor que sentimos não vai embora ou que o problema com nosso familiar, em vez de melhorar, está piorando, nossos corações começam a bater mais rápido e nos preocupamos. Somos humanos.
-No entanto, a Bíblia nos dá a receita perfeita para lidar com as preocupações da vida: leve-as diante do Senhor em oração! Podemos contar a Deus tudo o que nos preocupa e entregar a Ele todos os nossos fardos. Na verdade, Ele quer que façamos isso! Ele está de braços e ouvidos abertos, pronto para fazer a troca: Ele recebe nossas preocupações e, em troca, recebemos a Sua paz. É uma boa troca, você não acha?
-Então, lembre-se hoje de que você pode levar suas preocupações e preocupações diante de Deus. Você pode entregar tudo a Ele, pois Ele conhece a melhor solução para cada problema. Ao irmos diante dEle, abrimos a porta para receber Sua paz e também sabedoria para dar os passos certos em cada situação.
-A paz do Senhor acalma nosso ser, permitindo-nos ser mais receptivos a ouvir Sua voz e receber a direção de Deus. Ao seguirmos as instruções de Deus, nos tornamos agentes de paz e bênçãos, mesmo em meio aos desafios que enfrentamos na vida.
-Escolha hoje ir diante de Deus para entregar-lhe suas preocupações e receber a sua paz. Você se sentirá muito melhor.
-Veja também: Explicação de Filipenses 4:6-7 (Não andem ansiosos por coisa alguma).
+
+Vocês, porém, são geração eleita, sacerdócio real, nação santa, povo exclusivo de Deus, para anunciar as grandezas daquele que os chamou das trevas para a sua maravilhosa luz.
+- 1 Pedro 2:9 
+
+Daniel era um jovem judeu levado cativo para a Babilônia. Como outros jovens judeus, ele foi levado para servir na corte do rei. Daniel se viu em um ambiente completamente diferente, em meio a uma cultura pagã que não amava nem reconhecia o Deus verdadeiro.
+Mas Daniel não vacilou. Permaneceu firme em sua fé e escolheu não se contaminar nem nos detalhes mais mundanos, como a alimentação. Ele amava a Deus e escolheu ser fiel a Ele em meio a uma sociedade pagã. Temos a mesma dedicação ao Senhor e firmeza em nossas convicções?
+Como filhos de Deus, somos chamados a viver vidas santas e puras que glorificam a Deus em todos os momentos. Embora a sociedade em que vivemos permita mentiras, enganos, o não cumprimento de nossas promessas e inúmeras outras coisas, nossos corações devem buscar agradar a Deus em todas as coisas.
+Deus nos escolheu para um propósito precioso e, para cumpri-lo, devemos viver em obediência a Deus, adorando-O com nossas palavras e nosso comportamento. Não nos deixemos contaminar pela permissividade que nos cerca, onde tudo é permitido. Mantenhamos os olhos fixos em Jesus e vivamos de uma forma que traga alegria ao Seu coração.
+Honremos a Deus com as nossas vidas, vivendo cada dia em santidade. 
+
+Mas, assim como é santo aquele que os chamou, sejam santos vocês também em tudo o que fizerem, pois está escrito: "Sejam santos, porque eu sou santo".
+- 1 Pedro 1:15-16
+
+Veja também: Estudo bíblico sobre santidade.
  
-Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus.
-- Filipenses 4:6-7
+Daniel, contudo, decidiu não se tornar impuro com a comida e com o vinho do rei, e pediu ao chefe dos oficiais permissão para se abster deles.
+- Daniel 1:8 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 320290 characters
-INFO:root:HTML parsed, length: 310078 characters
-INFO:root:Found 3 titles: ['Você é reflexo do amor de Deus', 'A confiança em Deus é a base da fé', 'Aquele que começou, vai completar']
-INFO:root:Found 3 URLs: ['/versiculos_do_amor_de_deus_por_voce/', '/exemplos_de_perseveranca_na_biblia/', '/versiculos_lindos_fidelidade_de_deus/']
-INFO:root:Found 3 descriptions: ['O meu mandamento é este: Amem-se uns aos outros co', 'Confie no Senhor de todo o seu coração e não se ap', 'Estou convencido de que aquele que começou boa obr']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n4\nQUINTA', 'SETEMBRO\n\n3\nQUARTA', 'SETEMBRO\n\n2\nTERÇA']
+INFO:root:Response length: 320188 characters
+INFO:root:HTML parsed, length: 309979 characters
+INFO:root:Found 3 titles: ['A resposta está na Bíblia!', 'Você é reflexo do amor de Deus', 'A confiança em Deus é a base da fé']
+INFO:root:Found 3 URLs: ['/planos_de_leitura_da_biblia/', '/versiculos_do_amor_de_deus_por_voce/', '/exemplos_de_perseveranca_na_biblia/']
+INFO:root:Found 3 descriptions: ['A tua palavra é lâmpada\nque ilumina os meus passos', 'O meu mandamento é este: Amem-se uns aos outros co', 'Confie no Senhor de todo o seu coração e não se ap']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n5\nSEXTA', 'SETEMBRO\n\n4\nQUINTA', 'SETEMBRO\n\n3\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Você é reflexo do amor de Deus', ID=c1c0bb8919057f6a04eba79b574d69a9
-INFO:root:Processing entry 2: Title='A confiança em Deus é a base da fé', ID=fe3a53953f546275ac9cbdabce43fa80
-INFO:root:Processing entry 3: Title='Aquele que começou, vai completar', ID=335601308e3fbd90f995e903497974f8
+INFO:root:Processing entry 1: Title='A resposta está na Bíblia!', ID=94699e8446347682994028693e5b1d26
+INFO:root:Processing entry 2: Title='Você é reflexo do amor de Deus', ID=c1c0bb8919057f6a04eba79b574d69a9
+INFO:root:Processing entry 3: Title='A confiança em Deus é a base da fé', ID=fe3a53953f546275ac9cbdabce43fa80
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A resposta está na Bíblia!
+INFO:root:🔹 URL: https://www.bibliaon.com/planos_de_leitura_da_biblia/
+INFO:root:🔹 Description: A tua palavra é lâmpada
+que ilumina os meus passos
+e luz que clareia o meu caminho.
+- Salmos 119:105
+
+Muitas vezes buscamos respostas em lugares que apenas aumentam o vazio interior. Procuramos conselhos em opiniões passageiras, nos perdemos em teorias humanas e, por vezes, sentimos que nada parece nos dar direção. Mas a verdade é que Deus já deixou Sua resposta: a Bíblia.
+A Palavra de Deus não é apenas um livro antigo. Ela é viva, eficaz e sempre atual. É como um mapa que guia o viajante cansado, uma bússola que aponta para o verdadeiro norte, que é Cristo. Dentro de suas páginas encontramos a paz para os dias turbulentos, o consolo para os corações aflitos e a sabedoria para as decisões mais difíceis.
+Quando enfrentamos medos, a Bíblia nos lembra: “Não temas, porque eu sou contigo” (Isaías 41:10). Quando a ansiedade aperta, a Palavra declara: “Lancem sobre Ele toda a sua ansiedade, porque Ele tem cuidado de vocês” (1 Pedro 5:7). Quando pensamos que não há saída, ela nos garante que Jesus é o Caminho, a Verdade e a Vida.
+A Bíblia não é apenas um livro para ser lido; é uma carta de amor escrita pelo Criador a cada um de nós. Ela revela quem somos, quem Deus é e qual é o Seu propósito para a nossa vida. Nela encontramos direção para o presente, esperança para o futuro e salvação para a eternidade.
+Se hoje o seu coração clama por respostas, não procure longe. Abra a Bíblia. Leia com fé, ore ao Espírito Santo e permita que cada versículo ilumine sua mente. Porque, em todas as circunstâncias, a resposta está na Bíblia. 
+Leia a Palavra de Deus regularmente
+
+Reserve um horário fixo do dia, mesmo que sejam apenas dez minutos. A constância importa mais do que a quantidade, e logo você perceberá transformação em sua vida espiritual.
+Escolha um plano de leitura simples, começando pelos evangelhos. Assim, você conhecerá melhor a vida de Jesus, sua mensagem de amor e encontrará direção para aplicar os ensinamentos diariamente.
+Ore antes e depois da leitura, pedindo ao Espírito Santo compreensão e aplicação prática. A leitura se tornará mais profunda e cada versículo tocará seu coração de forma especial.
+
+Para orar:
+
+Senhor amado, agradeço pela Tua Palavra que ilumina meu caminho. Dá-me sede de ler a Bíblia diariamente, compreensão para viver Seus ensinamentos e força para obedecer. Que minha vida reflita Teu amor e esperança. Amém.
+
+Se não sabe por onde começar a ler, conheça nossos planos de leitura da Bíblia.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Você é reflexo do amor de Deus
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_do_amor_de_deus_por_voce/
 INFO:root:🔹 Description: O meu mandamento é este: Amem-se uns aos outros como eu os amei.
@@ -349,32 +373,6 @@ Senhor amado, em Ti deposito toda a minha confiança. Mesmo quando não entendo 
 
 Veja também: Exemplos de pessoas que confiaram em Deus e venceram.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Aquele que começou, vai completar
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_lindos_fidelidade_de_deus/
-INFO:root:🔹 Description: Estou convencido de que aquele que começou boa obra em vocês, vai completá-la até o dia de Cristo Jesus.
-- Filipenses 1:6
-
-Este versículo é um lembrete poderoso da fidelidade de Deus. Muitas vezes, olhamos para nossas fraquezas, quedas e limitações, e nos sentimos incapazes de cumprir aquilo que o Senhor sonhou para nós. Mas a Palavra afirma que não é pela nossa força que a obra será completada, e sim pela fidelidade d’Ele.
-Quando Deus inicia algo em nossa vida, Ele não desiste no meio do caminho. Ele é o autor e também o consumador da nossa fé. O Senhor não apenas nos chama, mas também nos capacita a viver o chamado. Se você sente que ainda falta muito para chegar onde deveria estar, lembre-se: o processo faz parte da promessa.
-Há momentos em que pensamos que estamos parados ou até mesmo retrocedendo. Porém, no silêncio e até nas provações, Deus está moldando o caráter de Cristo em nós. Ele usa cada detalhe da jornada, vitórias, lágrimas, esperas, para lapidar o propósito que já foi plantado.
-O inimigo pode tentar sussurrar que você não é digno, que não vai conseguir ou que já é tarde demais. Mas a voz do Senhor é firme e cheia de esperança: “Eu comecei essa obra, e Eu mesmo vou completá-la.”
-Assim, caminhe em confiança. Mesmo que os resultados ainda não sejam visíveis, o Pai está agindo. Ele não abandona os Seus filhos pela metade. O que começou em sua vida será concluído com perfeição, para glória de Cristo Jesus.
-Segure-se nesta promessa: a obra é Dele, a fidelidade é Dele, e a vitória também será Dele em você. 
-Deus é fiel 
-
-
-Deus não desiste de você: Mesmo quando falhamos, Ele continua nos moldando. Sua obra não é interrompida pelas nossas fraquezas, pois Sua graça é maior do que nossos erros.
-
-O processo faz parte da promessa: Cada etapa, até as mais dolorosas, é usada por Deus para formar Cristo em nós. Nada é perdido quando está nas mãos do Senhor.
-
-A vitória é garantida em Cristo: A obra não termina em frustração, mas em glória. O que Deus começou será concluído com perfeição, revelando Seu poder e fidelidade em nossas vidas.
-
-Para orar:
-
-Senhor amado, agradeço porque Tua obra em minha vida não depende da minha força, mas da Tua fidelidade. Mesmo em minhas fraquezas, sei que Tu não desistes de mim. Fortalece minha fé para confiar no processo e descansar em Tuas promessas. Que cada desafio seja um instrumento para me moldar à imagem de Cristo. Conduze-me com Tua graça até o cumprimento perfeito da Tua vontade. Em nome de Jesus, amém.
-
-Veja também: Versículos lindos sobre a fidelidade de Deus.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 92 characters
@@ -404,15 +402,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 +++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  37 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  31 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  88 +++++++--
+ feeds/salmo_do_dia/atom.xml               |  56 ++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 306 +++++++++++++++++-------------
- 11 files changed, 320 insertions(+), 244 deletions(-)
+ output.log                                | 270 ++++++++++++++----------------
+ 11 files changed, 236 insertions(+), 252 deletions(-)
