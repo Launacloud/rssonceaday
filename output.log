@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 122830 characters
-INFO:root:HTML parsed, length: 115554 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (08/09/2025)', 'Palavra de Ontem (07/09/2025)', 'Palavra de Anteontem (06/09/2025)']
-INFO:root:Found 3 URLs: ['/ratificar/', '/liberdade/', '/abreviar/']
-INFO:root:Found 15 descriptions: ['verbo transitivo direto e bitransitivo Confirmar u', 'Sinônimos:\n\naprovar, autenticar, confirmar, legali', 'Antônimos:\n\ninvalidar']
-INFO:root:Found 3 dates: ['Palavra de Hoje (08/09/2025)', 'Palavra de Ontem (07/09/2025)', 'Palavra de Anteontem (06/09/2025)']
+INFO:root:Response length: 122296 characters
+INFO:root:HTML parsed, length: 115020 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (09/09/2025)', 'Palavra de Ontem (08/09/2025)', 'Palavra de Anteontem (07/09/2025)']
+INFO:root:Found 3 URLs: ['/nazista/', '/ratificar/', '/liberdade/']
+INFO:root:Found 15 descriptions: ['substantivo masculino e feminino Partidário do naz', 'Sinônimos:\n\nnazi', 'Classe gramatical:adjetivo de dois gêneros e subst']
+INFO:root:Found 3 dates: ['Palavra de Hoje (09/09/2025)', 'Palavra de Ontem (08/09/2025)', 'Palavra de Anteontem (07/09/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (08/09/2025)', ID=bb5e4ac238bb0c86332657a49c56c5ed
-INFO:root:Processing entry 2: Title='Palavra de Ontem (07/09/2025)', ID=bd27dcb093ceb88d935a055b1f73ac5d
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/09/2025)', ID=4e11639801fe381cebc039bf8830bd23
+INFO:root:Processing entry 1: Title='Palavra de Hoje (09/09/2025)', ID=9560a354f024b46461551050850ebc3a
+INFO:root:Processing entry 2: Title='Palavra de Ontem (08/09/2025)', ID=b7ee0ba0f98d257fc31ca77ad3f6682c
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/09/2025)', ID=36dfec13ee89e24756700d64aaa10f16
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (08/09/2025) - Significado completo de ratificar:
-INFO:root:🔹 URL: https://www.dicio.com.br/ratificar/
-INFO:root:🔹 Description: verbo transitivo direto e bitransitivo Confirmar um ato ou compromisso; validar: a testemunha será ouvida para ratificar as acusações; o juiz ratificou sua decisão à Corte.verbo transitivo direto [Jurídico] Certificar a validade de um compromisso assumido legalmente: ratificou o contrato de aluguel.Dizer novamente, de forma verdadeira, o que foi dito anteriormente: o prefeito ratificou que não assumirá o cargo.[Jurídico] Confirmar uma convenção internacional: ratificar um tratado.Estar de acordo com a verdade; registrar uma patente ou patentear algo: os dados ratificaram a teoria.Etimologia (origem da palavra ratificar). O verbo ratificar deriva do latim "ratificare", que significa calcular.
+INFO:root:🔹 Title: Palavra de Hoje (09/09/2025) - Significado completo de nazista:
+INFO:root:🔹 URL: https://www.dicio.com.br/nazista/
+INFO:root:🔹 Description: substantivo masculino e feminino Partidário do nazismo, da ideologia política de extrema-direita que, consolidada na Alemanha por Adolf Hitler (1889-1945), defendia, dentre outras coisas, a supremacia da raça branca e o antissemitismo (ódio aos judeus); membro desse partido.adjetivo Relativo ao nazismo ou próprio deste:  ideologia nazista.Etimologia (origem da palavra nazista). A palavra nazista deriva da junção de nazi, abreviação de Nationalsozialis, e do sufixo -ista.
  
 Sinônimos:
 
-aprovar, autenticar, confirmar, legalizar, sancionar, validar 
+nazi 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (07/09/2025) - Significado completo de liberdade:
-INFO:root:🔹 URL: https://www.dicio.com.br/liberdade/
+INFO:root:🔹 Title: Palavra de Ontem (08/09/2025) - Significado completo de ratificar:
+INFO:root:🔹 URL: https://www.dicio.com.br/ratificar/
 INFO:root:🔹 Description: Sinônimos:
 
-aprovar, autenticar, confirmar, legalizar, sancionar, validar
- 
-Antônimos:
-
-invalidar 
-
+nazi
+ Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (06/09/2025) - Significado completo de abreviar:
-INFO:root:🔹 URL: https://www.dicio.com.br/abreviar/
-INFO:root:🔹 Description: Antônimos:
-
-invalidar
- Classe gramatical:verbo bitransitivo e verbo pronominal
+INFO:root:🔹 Title: Palavra de Anteontem (07/09/2025) - Significado completo de liberdade:
+INFO:root:🔹 URL: https://www.dicio.com.br/liberdade/
+INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+ Sílabas:na-zis-ta
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,109 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 307736 characters
-INFO:root:HTML parsed, length: 297370 characters
-INFO:root:Found 1 titles: ['Apocalipse 19:11']
-INFO:root:Found 1 URLs: ['/versiculo/apocalipse_19_11/']
-INFO:root:Found 1 descriptions: ['Vi os céus abertos e diante de mim um cavalo branc']
+INFO:root:Response length: 309217 characters
+INFO:root:HTML parsed, length: 298851 characters
+INFO:root:Found 1 titles: ['1 Pedro 5:10']
+INFO:root:Found 1 URLs: ['/versiculo/1_pedro_5_10/']
+INFO:root:Found 1 descriptions: ['O Deus de toda a graça, que os chamou para a sua g']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Apocalipse 19:11', ID=ddfd1702fc2990649c478110b8201790
+INFO:root:Processing entry 1: Title='1 Pedro 5:10', ID=8c34b7da68e8ee344ee99e21f680605c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Apocalipse 19:11
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/apocalipse_19_11/
-INFO:root:🔹 Description: Vi os céus abertos e diante de mim um cavalo branco, cujo cavaleiro se chama Fiel e Verdadeiro. Ele julga e guerreia com justiça. Apocalipse 19:11
+INFO:root:🔹 Title: 1 Pedro 5:10
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_pedro_5_10/
+INFO:root:🔹 Description: O Deus de toda a graça, que os chamou para a sua glória eterna em Cristo Jesus, depois de terem sofrido por pouco tempo, os restaurará, os confirmará, os fortalecerá e os porá sobre firmes alicerces. 1 Pedro 5:10
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 307938 characters
-INFO:root:HTML parsed, length: 298294 characters
-INFO:root:Found 3 titles: ['Salmo 108', 'Salmo 113', 'Salmo 72']
-INFO:root:Found 3 URLs: ['/salmos_108/', '/salmos_113/', '/salmos_72/']
-INFO:root:Found 3 descriptions: ['Meu coração está firme, ó Deus!\nCantarei e louvare', 'Aleluia!\nLouvem, ó servos do Senhor,\nlouvem o nome', 'Reveste da tua justiça o rei, ó Deus,\ne da tua ret']
-INFO:root:Found 3 dates: ['8 de Setembro de 2025', '7 de Setembro de 2025', '6 de Setembro de 2025']
+INFO:root:Response length: 309810 characters
+INFO:root:HTML parsed, length: 300169 characters
+INFO:root:Found 3 titles: ['Salmo 118', 'Salmo 108', 'Salmo 113']
+INFO:root:Found 3 URLs: ['/salmos_118/', '/salmos_108/', '/salmos_113/']
+INFO:root:Found 3 descriptions: ['Deem graças ao Senhor porque ele é bom;\no seu amor', 'Meu coração está firme, ó Deus!\nCantarei e louvare', 'Aleluia!\nLouvem, ó servos do Senhor,\nlouvem o nome']
+INFO:root:Found 3 dates: ['9 de Setembro de 2025', '8 de Setembro de 2025', '7 de Setembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
-INFO:root:Processing entry 2: Title=' Salmo 113', ID=4b2a91b80dde53e46228f7024ef03f00
-INFO:root:Processing entry 3: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
+INFO:root:Processing entry 1: Title=' Salmo 118', ID=8fc6e7bb42ca393915a24ebaf7381156
+INFO:root:Processing entry 2: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
+INFO:root:Processing entry 3: Title=' Salmo 113', ID=4b2a91b80dde53e46228f7024ef03f00
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 118
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_118/
+INFO:root:🔹 Description: Deem graças ao Senhor porque ele é bom;
+o seu amor dura para sempre. 
+Que Israel diga:
+"O seu amor dura para sempre!" 
+Os sacerdotes digam:
+"O seu amor dura para sempre!" 
+Os que temem o Senhor digam:
+"O seu amor dura para sempre!" 
+Na minha angústia clamei ao Senhor;
+e o Senhor me respondeu,
+dando-me ampla liberdade. 
+O Senhor está comigo, não temerei.
+O que me podem fazer os homens? 
+O Senhor está comigo;
+ele é o meu ajudador.
+Verei a derrota dos meus inimigos. 
+É melhor buscar refúgio no Senhor
+do que confiar nos homens. 
+É melhor buscar refúgio no Senhor
+do que confiar em príncipes. 
+Todas as nações me cercaram,
+mas em nome do Senhor eu as derrotei. 
+Cercaram-me por todos os lados,
+mas em nome do Senhor eu as derrotei. 
+Cercaram-me como um enxame de abelhas,
+mas logo se extinguiram
+como espinheiros em chamas.
+Em nome do Senhor eu as derrotei! 
+Empurraram-me para forçar a minha queda,
+mas o Senhor me ajudou. 
+O Senhor é a minha força e o meu cântico;
+ele é a minha salvação. 
+Alegres brados de vitória
+ressoam nas tendas dos justos:
+"A mão direita do Senhor age com poder! 
+A mão direita do Senhor é exaltada!
+A mão direita do Senhor age com poder!" 
+Não morrerei; mas vivo ficarei
+para anunciar os feitos do Senhor. 
+O Senhor me castigou com severidade,
+mas não me entregou à morte. 
+Abram as portas da justiça para mim,
+pois quero entrar para dar graças ao Senhor. 
+Esta é a porta do Senhor,
+pela qual entram os justos. 
+Dou-te graças, porque me respondeste
+e foste a minha salvação. 
+A pedra que os construtores rejeitaram
+tornou-se a pedra angular. 
+Isso vem do Senhor,
+e é algo maravilhoso para nós. 
+Este é o dia em que o Senhor agiu;
+alegremo-nos e exultemos neste dia. 
+Salva-nos, Senhor! Nós imploramos.
+Faze-nos prosperar, Senhor! Nós suplicamos. 
+Bendito é o que vem em nome do Senhor.
+Da casa do Senhor nós os abençoamos. 
+O Senhor é Deus,
+e ele fez resplandecer sobre nós a sua luz.
+Juntem-se ao cortejo festivo,
+levando ramos até as pontas do altar. 
+Tu és o meu Deus; graças te darei!
+Ó meu Deus, eu te exaltarei! 
+Deem graças ao Senhor, porque ele é bom;
+o seu amor dura para sempre. 
+ Salmo 118
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 108
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_108/
 INFO:root:🔹 Description: Meu coração está firme, ó Deus!
@@ -141,115 +204,87 @@ e dela faz uma feliz mãe de filhos.
 Aleluia! 
  Salmo 113
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 72
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_72/
-INFO:root:🔹 Description: Reveste da tua justiça o rei, ó Deus,
-e da tua retidão o filho do rei, 
-para que ele julgue com retidão
-e com justiça os teus que sofrem opressão. 
-Que os montes tragam prosperidade ao povo
-e as colinas o fruto da justiça. 
-Defenda ele os oprimidos no meio do povo
-e liberte os filhos dos pobres;
-esmague ele o opressor! 
-Que ele perdure como o sol
-e como a lua por todas as gerações. 
-Seja ele como chuva
-sobre uma lavoura ceifada,
-como aguaceiros que regam a terra. 
-Floresçam os justos nos dias do rei,
-e haja grande prosperidade enquanto durar a lua. 
-Governe ele de mar a mar
-e desde o rio Eufrates até os confins da terra. 
-Inclinem-se diante dele as tribos do deserto,
-e os seus inimigos lambam o pó. 
-Que os reis de Társis e das regiões litorâneas
-lhe tragam tributo;
-os reis de Sabá e de Sebá
-lhe ofereçam presentes. 
-Inclinem-se diante dele todos os reis,
-e sirvam-no todas as nações. 
-Pois ele liberta os pobres que pedem socorro,
-os oprimidos que não têm quem os ajude. 
-Ele se compadece dos fracos e dos pobres
-e os salva da morte. 
-Ele os resgata da opressão e da violência,
-pois aos seus olhos a vida deles é preciosa. 
-Tenha o rei vida longa!
-Receba ele o ouro de Sabá.
-Que se ore por ele continuamente,
-e todo o dia se invoquem bênçãos sobre ele. 
-Haja fartura de trigo por toda a terra,
-ondulando no alto dos montes.
-Floresçam os seus frutos como os do Líbano
-e cresçam as cidades como as plantas no campo. 
-Permaneça para sempre o seu nome
-e dure a sua fama enquanto o sol brilhar.
-Sejam abençoadas todas as nações
-por meio dele,
-e que elas o chamem bendito. 
-Bendito seja o Senhor Deus,
-o Deus de Israel,
-o único que realiza feitos maravilhosos. 
-Bendito seja
-o seu glorioso nome para sempre;
-encha-se toda a terra da sua glória.
-Amém e amém. 
-Encerram-se aqui as orações de Davi, filho de Jessé. 
- Salmo 72
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 310576 characters
-INFO:root:HTML parsed, length: 300597 characters
-INFO:root:Found 3 titles: ['Obediência é uma forma de louvor', '300 e um propósito', 'Não deixe seu coração endurecer']
+INFO:root:Response length: 311789 characters
+INFO:root:HTML parsed, length: 301808 characters
+INFO:root:Found 3 titles: ['Encontrando o caminho em Cristo', 'Obediência é uma forma de louvor', '300 e um propósito']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Se vocês me amam, obedecerão aos meus mandamentos.', '"O Senhor está com você, poderoso guerreiro".\n- Ju', 'Acima de tudo, guarde o seu coração,\npois dele dep']
-INFO:root:Found 1 dates: ['Segunda, 8 de setembro de 2025']
+INFO:root:Found 3 descriptions: ['“Eu sou o caminho, a verdade e a vida. Ninguém vem', 'Se vocês me amam, obedecerão aos meus mandamentos.', '"O Senhor está com você, poderoso guerreiro".\n- Ju']
+INFO:root:Found 1 dates: ['Terça, 9 de setembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Obediência é uma forma de louvor', ID=a36e21486db5e71e02c2cf271833b10f
+INFO:root:Processing entry 1: Title='Encontrando o caminho em Cristo', ID=db90763bfd3db8bd5cad3ddf397b71d4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Obediência é uma forma de louvor - Palavra de Hoje
+INFO:root:🔹 Title: Encontrando o caminho em Cristo - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Se vocês me amam, obedecerão aos meus mandamentos.
-- João 14:15
+INFO:root:🔹 Description: “Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.”
+- João 14:6
 
-A obediência a Deus é mais do que uma simples atitude de submissão: é expressão de amor e verdadeira adoração. Quando seguimos os caminhos do Senhor, mostramos que confiamos em Sua sabedoria e reconhecemos que Ele sabe o que é melhor para nós. Diferente da obediência mecânica ou imposta, a obediência cristã nasce de um coração transformado, que deseja agradar ao Pai em cada decisão.
-Deus observa não apenas nossas palavras, mas também nossas ações. Ele conhece as intenções do coração e se agrada quando nossas escolhas refletem fidelidade à Sua Palavra. O Senhor não busca sacrifícios vazios ou gestos externos de religiosidade, mas corações sinceros que caminhem em integridade. Por isso, obedecer é um ato de fé, pois revela que cremos em Suas promessas e confiamos em Seu cuidado.
+Em diversos momentos da vida, podemos nos sentir perdidos. Seja diante de decisões difíceis, crises emocionais ou até mesmo em meio à nossa fé, a sensação de não saber para onde ir pode gerar insegurança e medo. Porém, a Palavra de Deus nos lembra que nunca estamos realmente sozinhos.
+Quando não encontramos direção, é justamente o momento de olhar para Aquele que guia nossos passos.
+Muitas vezes, Deus permite que nos sintamos sem rumo para podermos voltar os olhos a Ele. No meio da confusão, é importante parar, orar e buscar discernimento no Senhor. A Bíblia é luz para o nosso caminho e, ao meditar nela, o Espírito Santo nos conduz à clareza e à paz que não encontramos em nós mesmos.
+Outro passo essencial é entregar nossa ansiedade a Cristo. Ele nos chama para lançar sobre Ele todo o peso, pois cuida de nós com amor. Quando estamos perdidos, tendemos a nos apoiar em nossas próprias forças, mas é na rendição que encontramos o verdadeiro caminho. Reconhecer que não temos todas as respostas abrem espaço para que Deus revele Sua vontade.
+Também devemos nos cercar da comunhão. Deus usa irmãos e irmãs na fé para nos aconselhar, orar conosco e fortalecer nossa esperança. Não precisamos caminhar sozinhos.
+Quando nos sentimos perdidos, devemos transformar esse sentimento em oportunidade de voltar ao primeiro amor: confiar em Jesus. Ele continua sendo o caminho seguro, mesmo quando tudo ao redor parece incerto.
 
-A obediência é melhor do que o sacrifício, e a submissão é melhor do que a gordura de carneiros.
-- 1 Samuel 15:22
+Entrega o teu caminho ao Senhor; confia nele, e o mais Ele fará.
+- Salmos 37:5
 
-Este versículo nos lembra que a obediência é mais preciosa aos olhos de Deus. Cada passo de obediência é uma forma de louvor, porque demonstra reverência e honra ao Criador. Quando abrimos mão da nossa vontade para viver a vontade de Deus, mostramos que Ele é o centro da nossa vida. Esse tipo de adoração vai além de cânticos e orações: é a vida entregue em santidade e fidelidade.
-Muitas vezes, obedecer exige renúncia, paciência e até coragem diante das pressões do mundo. Porém, a obediência traz consigo paz e bênçãos, pois nos mantém firmes no caminho da justiça. Mesmo que nem sempre compreendamos os planos de Deus, confiar e obedecer é declarar que Ele é digno de toda a nossa devoção.
-Obediência não é peso, mas privilégio. É a maneira mais pura de louvar a Deus, pois reflete a essência do amor: escolher agradar ao Senhor acima de tudo. Quem obedece honra a Deus, e quem honra a Deus encontra Nele a verdadeira alegria.
-Veja também: Estudo bíblico sobre obediência.
+Veja também: Razões para confiar em Deus em meio às lutas.
  
-Se vocês me amam, obedecerão aos meus mandamentos.
-- João 14:15
+“Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.”
+- João 14:6
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 319786 characters
-INFO:root:HTML parsed, length: 309580 characters
-INFO:root:Found 3 titles: ['Orai sem cessar', 'Ele fará!', 'Eu não estou sozinho!']
-INFO:root:Found 3 URLs: ['/como_orar_e_falar_com_deus/', '/promessas_de_deus_para_voce/', '/como_vencer_o_medo_o_significado_do_salmo_121/']
-INFO:root:Found 3 descriptions: ['Orai sem cessar.\n- 1 Tessalonicenses 5:17\n\nDedique', 'O Senhor não é homem para mentir, nem filho do hom', 'Há momentos em que as situações difíceis na vida p']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n8\nSEGUNDA', 'SETEMBRO\n\n7\nDOMINGO', 'SETEMBRO\n\n6\nSÁBADO']
+INFO:root:Response length: 320977 characters
+INFO:root:HTML parsed, length: 310766 characters
+INFO:root:Found 3 titles: ['O Senhor é contigo', 'Orai sem cessar', 'Ele fará!']
+INFO:root:Found 3 URLs: ['/seja_forte_corajoso_josue/', '/como_orar_e_falar_com_deus/', '/promessas_de_deus_para_voce/']
+INFO:root:Found 3 descriptions: ['E acrescentou: "Seja forte e corajoso! Mãos ao tra', 'Orai sem cessar.\n- 1 Tessalonicenses 5:17\n\nDedique', 'O Senhor não é homem para mentir, nem filho do hom']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n9\nTERÇA', 'SETEMBRO\n\n8\nSEGUNDA', 'SETEMBRO\n\n7\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Orai sem cessar', ID=9db1409a0900f9ac8ab0e71c862688bd
-INFO:root:Processing entry 2: Title='Ele fará!', ID=6100cb9451ad5ab8de6d084f51a11388
-INFO:root:Processing entry 3: Title='Eu não estou sozinho!', ID=94986d2246011c4aab407625e8461a2c
+INFO:root:Processing entry 1: Title='O Senhor é contigo', ID=e590292b26709544fe2f1b125508cd84
+INFO:root:Processing entry 2: Title='Orai sem cessar', ID=9db1409a0900f9ac8ab0e71c862688bd
+INFO:root:Processing entry 3: Title='Ele fará!', ID=6100cb9451ad5ab8de6d084f51a11388
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O Senhor é contigo
+INFO:root:🔹 URL: https://www.bibliaon.com/seja_forte_corajoso_josue/
+INFO:root:🔹 Description: E acrescentou: "Seja forte e corajoso! Mãos ao trabalho! Não tenha medo nem desanime, pois Deus, o Senhor, o meu Deus, está com você. Ele não o deixará nem o abandonará até que se termine toda a construção do templo do Senhor.
+- 1 Crônicas 28:20
+
+Essas palavras de encorajamento dadas a Salomão por seu pai Davi serve como um chamado para todos nós. A vida cristã é uma caminhada de construção.
+Talvez não estejamos levantando paredes físicas como no templo de Jerusalém, mas diariamente somos chamados a edificar algo ainda mais precioso: o templo espiritual, que é a nossa vida em Cristo Jesus.
+Quantas vezes nos sentimos incapazes diante das lutas? O medo tenta paralisar, a ansiedade enfraquece, e o desânimo sussurra que não vamos conseguir. Mas o Senhor nos lembra que não estamos sozinhos. Ele garante Sua presença em cada passo, assegurando que a boa obra iniciada será concluída.
+O versículo nos ensina 3 verdades
+
+
+Coragem é necessária: não a ausência de medo, mas a decisão de avançar confiando em Deus.
+
+O trabalho é contínuo: mãos firmes e coração disposto são ferramentas indispensáveis para quem deseja servir.
+
+A presença de Deus é suficiente: mesmo que os recursos sejam escassos ou os obstáculos enormes, quando o Senhor está conosco, o impossível se torna realidade.
+
+O Senhor não abandona os Seus. Mantenha-se firme, mãos ao trabalho, e o nome d’Ele será glorificado por meio da sua vida. A construção não terminará em ruínas, porque o Deus que começou é fiel para completar. 
+
+"Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar".
+- Josué 1:9
+
+Para orar:
+
+Senhor amado, agradeço pela Tua presença constante em minha vida. Dá-me força e coragem para seguir, mesmo diante das dificuldades. Que eu nunca esqueça que Tu és fiel e não me abandonas. Guia meus passos, fortalece minha fé e renova meu coração. Que eu seja instrumento do Teu amor e testemunho da Tua graça. Em nome de Jesus, amém.
+
+Veja também: Seja forte e corajoso (Estudo Bíblico).
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Orai sem cessar
 INFO:root:🔹 URL: https://www.bibliaon.com/como_orar_e_falar_com_deus/
 INFO:root:🔹 Description: Orai sem cessar.
@@ -299,26 +334,6 @@ Senhor amado, coloco diante de Ti minha vida e minhas preocupações. Ajuda-me a
 
 Veja também: 10 promessas de Deus na Bíblia.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Eu não estou sozinho!
-INFO:root:🔹 URL: https://www.bibliaon.com/como_vencer_o_medo_o_significado_do_salmo_121/
-INFO:root:🔹 Description: Há momentos em que as situações difíceis na vida parecem insuportáveis e o coração se vê cercado por dificuldades. O inimigo tenta sussurrar que estamos sozinhos, que Deus não nos ouve e que a resposta não virá. Mas a Palavra nos lembra que Deus é o nosso socorro bem presente nos dias de angústia:
-
-Na minha angústia, clamei ao Senhor; clamei ao meu Deus. Do seu templo ele ouviu a minha voz; o meu grito de socorro chegou aos seus ouvidos.
-- 2 Samuel 22:7
-
-Esse versículo é um convite à confiança. Ele nos mostra que a oração sincera, feita no vale mais profundo, não se perde no silêncio. Cada clamor, cada lágrima, cada gemido do coração alcança os ouvidos do Senhor. Ele não apenas escuta, mas se inclina, se importa e age em nosso favor. O Deus que criou os céus e a terra não é indiferente à dor dos Seus filhos; pelo contrário, Ele se aproxima, sustenta e fortalece.
-Talvez hoje você esteja vivendo uma batalha interior, carregando preocupações ou sentindo que a esperança se apagou. Mas saiba: seu grito não é em vão. O mesmo Deus que ouviu Davi, que transformou sua angústia em vitória, também está atento a você. No tempo certo, Ele responde, trazendo paz, direção e livramento.
-Não desista de clamar. Ele é o refúgio em meio à tempestade e o socorro presente em todas as situações. Creia que o seu clamor já chegou aos ouvidos do Altíssimo e que, mesmo antes de enxergar a resposta, você já pode descansar na certeza de que Deus está agindo. Levante-se com fé, porque o Senhor não falha e, na sua fidelidade, transformará sua angústia em testemunho de vitória.
-Deus ouve o seu clamor
-Quando o coração clama em desespero, Deus não se cala. Sua voz atravessa o templo celestial e alcança os ouvidos do Pai, que nunca ignora seus filhos.
-A oração sincera abre caminhos onde parece não haver saída. O clamor da fé traz consolo imediato, fortalecendo o coração e preparando-o para experimentar o milagre divino.
-Deus transforma lágrimas em esperança. Ao ouvir o grito da alma, Ele age com amor e poder, mudando cenários, trazendo paz e conduzindo seus filhos à vitória prometida.
-Para orar:
-
-Senhor, em meio à minha angústia levanto a minha voz a Ti. O peso é grande, mas maior é o Teu poder. Ouve meu clamor, fortalece meu coração e estende Tua mão sobre mim. Sei que não estou só, pois Tua presença me envolve. Confio que a vitória virá, porque Tu és fiel e jamais abandonas os que Te buscam. Amém.
-
-Veja também: Explicação do Salmo 121: como vencer o medo.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 92 characters
@@ -348,15 +363,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 +++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 +++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
  feeds/palavra_biblica_do_dia/atom.xml     |  25 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  63 +++----
+ feeds/salmo_do_dia/atom.xml               | 124 ++++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 262 +++++++++++++++---------------
- 11 files changed, 241 insertions(+), 237 deletions(-)
+ output.log                                | 327 +++++++++++++++---------------
+ 11 files changed, 311 insertions(+), 293 deletions(-)
