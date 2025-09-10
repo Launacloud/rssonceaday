@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 122296 characters
-INFO:root:HTML parsed, length: 115020 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (09/09/2025)', 'Palavra de Ontem (08/09/2025)', 'Palavra de Anteontem (07/09/2025)']
-INFO:root:Found 3 URLs: ['/nazista/', '/ratificar/', '/liberdade/']
-INFO:root:Found 15 descriptions: ['substantivo masculino e feminino Partidário do naz', 'Sinônimos:\n\nnazi', 'Classe gramatical:adjetivo de dois gêneros e subst']
-INFO:root:Found 3 dates: ['Palavra de Hoje (09/09/2025)', 'Palavra de Ontem (08/09/2025)', 'Palavra de Anteontem (07/09/2025)']
+INFO:root:Response length: 119209 characters
+INFO:root:HTML parsed, length: 112323 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (10/09/2025)', 'Palavra de Ontem (09/09/2025)', 'Palavra de Anteontem (08/09/2025)']
+INFO:root:Found 3 URLs: ['/emblema/', '/nazista/', '/ratificar/']
+INFO:root:Found 13 descriptions: ['substantivo masculino Figura simbólica que represe', 'Sinônimos:\n\nmarca, distintivo, insígnia, símbolo', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (10/09/2025)', 'Palavra de Ontem (09/09/2025)', 'Palavra de Anteontem (08/09/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (09/09/2025)', ID=9560a354f024b46461551050850ebc3a
-INFO:root:Processing entry 2: Title='Palavra de Ontem (08/09/2025)', ID=b7ee0ba0f98d257fc31ca77ad3f6682c
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/09/2025)', ID=36dfec13ee89e24756700d64aaa10f16
+INFO:root:Processing entry 1: Title='Palavra de Hoje (10/09/2025)', ID=4958db373881c69b3d90d62b34042f8d
+INFO:root:Processing entry 2: Title='Palavra de Ontem (09/09/2025)', ID=4b7aa5c9e3593fe3d90a42401c67aaf9
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/09/2025)', ID=35419a5cc032373f88d168b581797ae1
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (09/09/2025) - Significado completo de nazista:
-INFO:root:🔹 URL: https://www.dicio.com.br/nazista/
-INFO:root:🔹 Description: substantivo masculino e feminino Partidário do nazismo, da ideologia política de extrema-direita que, consolidada na Alemanha por Adolf Hitler (1889-1945), defendia, dentre outras coisas, a supremacia da raça branca e o antissemitismo (ódio aos judeus); membro desse partido.adjetivo Relativo ao nazismo ou próprio deste:  ideologia nazista.Etimologia (origem da palavra nazista). A palavra nazista deriva da junção de nazi, abreviação de Nationalsozialis, e do sufixo -ista.
+INFO:root:🔹 Title: Palavra de Hoje (10/09/2025) - Significado completo de emblema:
+INFO:root:🔹 URL: https://www.dicio.com.br/emblema/
+INFO:root:🔹 Description: substantivo masculino Figura simbólica que representa uma coletividade, corporação, agremiação etc.; escudo, insígnia, símbolo: o emblema de muitos clubes esportivos tem a forma de um escudo.Objeto que representa essa figura: carregada o emblema do time.Aquilo que traz consigo uma sentença moral associada à uma imagem, ou explica os seus sentidos.Ser concreto que representa uma ideia abstrata.Etimologia (origem da palavra emblema). Do latim emblema.atis.
  
 Sinônimos:
 
-nazi 
+marca, distintivo, insígnia, símbolo 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (08/09/2025) - Significado completo de ratificar:
-INFO:root:🔹 URL: https://www.dicio.com.br/ratificar/
+INFO:root:🔹 Title: Palavra de Ontem (09/09/2025) - Significado completo de nazista:
+INFO:root:🔹 URL: https://www.dicio.com.br/nazista/
 INFO:root:🔹 Description: Sinônimos:
 
-nazi
- Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+marca, distintivo, insígnia, símbolo
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (07/09/2025) - Significado completo de liberdade:
-INFO:root:🔹 URL: https://www.dicio.com.br/liberdade/
-INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
- Sílabas:na-zis-ta
+INFO:root:🔹 Title: Palavra de Anteontem (08/09/2025) - Significado completo de ratificar:
+INFO:root:🔹 URL: https://www.dicio.com.br/ratificar/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:em-ble-ma
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,70 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 309217 characters
-INFO:root:HTML parsed, length: 298851 characters
-INFO:root:Found 1 titles: ['1 Pedro 5:10']
-INFO:root:Found 1 URLs: ['/versiculo/1_pedro_5_10/']
-INFO:root:Found 1 descriptions: ['O Deus de toda a graça, que os chamou para a sua g']
+INFO:root:Response length: 309209 characters
+INFO:root:HTML parsed, length: 298843 characters
+INFO:root:Found 1 titles: ['3 João 1:2']
+INFO:root:Found 1 URLs: ['/versiculo/3_joao_1_2/']
+INFO:root:Found 1 descriptions: ['Amado, oro para que você tenha boa saúde e tudo co']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Pedro 5:10', ID=8c34b7da68e8ee344ee99e21f680605c
+INFO:root:Processing entry 1: Title='3 João 1:2', ID=3a9fed5bbaede3d84bd151374ab61ec2
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Pedro 5:10
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_pedro_5_10/
-INFO:root:🔹 Description: O Deus de toda a graça, que os chamou para a sua glória eterna em Cristo Jesus, depois de terem sofrido por pouco tempo, os restaurará, os confirmará, os fortalecerá e os porá sobre firmes alicerces. 1 Pedro 5:10
+INFO:root:🔹 Title: 3 João 1:2
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/3_joao_1_2/
+INFO:root:🔹 Description: Amado, oro para que você tenha boa saúde e tudo corra bem, assim como vai bem a sua alma. 3 João 1:2
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 309810 characters
-INFO:root:HTML parsed, length: 300169 characters
-INFO:root:Found 3 titles: ['Salmo 118', 'Salmo 108', 'Salmo 113']
-INFO:root:Found 3 URLs: ['/salmos_118/', '/salmos_108/', '/salmos_113/']
-INFO:root:Found 3 descriptions: ['Deem graças ao Senhor porque ele é bom;\no seu amor', 'Meu coração está firme, ó Deus!\nCantarei e louvare', 'Aleluia!\nLouvem, ó servos do Senhor,\nlouvem o nome']
-INFO:root:Found 3 dates: ['9 de Setembro de 2025', '8 de Setembro de 2025', '7 de Setembro de 2025']
+INFO:root:Response length: 310097 characters
+INFO:root:HTML parsed, length: 300460 characters
+INFO:root:Found 3 titles: ['Salmo 111', 'Salmo 118', 'Salmo 108']
+INFO:root:Found 3 URLs: ['/salmos_111/', '/salmos_118/', '/salmos_108/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nDarei graças ao Senhor de todo o coração\n', 'Deem graças ao Senhor porque ele é bom;\no seu amor', 'Meu coração está firme, ó Deus!\nCantarei e louvare']
+INFO:root:Found 3 dates: ['10 de Setembro de 2025', '9 de Setembro de 2025', '8 de Setembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 118', ID=8fc6e7bb42ca393915a24ebaf7381156
-INFO:root:Processing entry 2: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
-INFO:root:Processing entry 3: Title=' Salmo 113', ID=4b2a91b80dde53e46228f7024ef03f00
+INFO:root:Processing entry 1: Title=' Salmo 111', ID=de8b1078fda5e518988df5721c405f8a
+INFO:root:Processing entry 2: Title=' Salmo 118', ID=8fc6e7bb42ca393915a24ebaf7381156
+INFO:root:Processing entry 3: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 111
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_111/
+INFO:root:🔹 Description: Aleluia!
+Darei graças ao Senhor de todo o coração
+na reunião da congregação dos justos. 
+Grandes são as obras do Senhor;
+nelas meditam todos os que as apreciam. 
+Os seus feitos manifestam
+majestade e esplendor,
+e a sua justiça dura para sempre. 
+Ele fez proclamar as suas maravilhas;
+o Senhor é misericordioso e compassivo. 
+Deu alimento aos que o temiam,
+pois sempre se lembra de sua aliança. 
+Mostrou ao seu povo os seus feitos poderosos,
+dando-lhe as terras das nações. 
+As obras das suas mãos são fiéis e justas;
+todos os seus preceitos merecem confiança. 
+Estão firmes para sempre,
+estabelecidos com fidelidade e retidão. 
+Ele trouxe redenção ao seu povo
+e firmou a sua aliança para sempre.
+Santo e temível é o seu nome! 
+O temor do Senhor
+é o princípio da sabedoria;
+todos os que cumprem os seus preceitos
+revelam bom senso.
+Ele será louvado para sempre! 
+ Salmo 111
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 118
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_118/
 INFO:root:🔹 Description: Deem graças ao Senhor porque ele é bom;
@@ -179,84 +209,89 @@ Com Deus conquistaremos a vitória,
 e ele pisará os nossos adversários. 
  Salmo 108
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 113
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_113/
-INFO:root:🔹 Description: Aleluia!
-Louvem, ó servos do Senhor,
-louvem o nome do Senhor! 
-Seja bendito o nome do Senhor,
-desde agora e para sempre! 
-Do nascente ao poente,
-seja louvado o nome do Senhor! 
-O Senhor está exaltado
-acima de todas as nações;
-e acima dos céus está a sua glória. 
-Quem é como o Senhor, o nosso Deus,
-que reina em seu trono nas alturas, 
-mas se inclina para contemplar
-o que acontece nos céus e na terra? 
-Ele levanta do pó o necessitado
-e ergue do lixo o pobre, 
-para fazê-los sentar-se com príncipes,
-com os príncipes do seu povo. 
-Dá um lar à estéril,
-e dela faz uma feliz mãe de filhos.
-Aleluia! 
- Salmo 113
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 311789 characters
-INFO:root:HTML parsed, length: 301808 characters
-INFO:root:Found 3 titles: ['Encontrando o caminho em Cristo', 'Obediência é uma forma de louvor', '300 e um propósito']
+INFO:root:Response length: 311746 characters
+INFO:root:HTML parsed, length: 301769 characters
+INFO:root:Found 3 titles: ['Descanse no Senhor!', 'Encontrando o caminho em Cristo', 'Obediência é uma forma de louvor']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['“Eu sou o caminho, a verdade e a vida. Ninguém vem', 'Se vocês me amam, obedecerão aos meus mandamentos.', '"O Senhor está com você, poderoso guerreiro".\n- Ju']
-INFO:root:Found 1 dates: ['Terça, 9 de setembro de 2025']
+INFO:root:Found 3 descriptions: ['A minha alma descansa somente em Deus;\ndele vem a ', '“Eu sou o caminho, a verdade e a vida. Ninguém vem', 'Se vocês me amam, obedecerão aos meus mandamentos.']
+INFO:root:Found 1 dates: ['Quarta, 10 de setembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Encontrando o caminho em Cristo', ID=db90763bfd3db8bd5cad3ddf397b71d4
+INFO:root:Processing entry 1: Title='Descanse no Senhor!', ID=578f86858908c29bdd267e54d3f0a587
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Encontrando o caminho em Cristo - Palavra de Hoje
+INFO:root:🔹 Title: Descanse no Senhor! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: “Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.”
-- João 14:6
+INFO:root:🔹 Description: A minha alma descansa somente em Deus;
+dele vem a minha salvação.
+- Salmo 62:1 
 
-Em diversos momentos da vida, podemos nos sentir perdidos. Seja diante de decisões difíceis, crises emocionais ou até mesmo em meio à nossa fé, a sensação de não saber para onde ir pode gerar insegurança e medo. Porém, a Palavra de Deus nos lembra que nunca estamos realmente sozinhos.
-Quando não encontramos direção, é justamente o momento de olhar para Aquele que guia nossos passos.
-Muitas vezes, Deus permite que nos sintamos sem rumo para podermos voltar os olhos a Ele. No meio da confusão, é importante parar, orar e buscar discernimento no Senhor. A Bíblia é luz para o nosso caminho e, ao meditar nela, o Espírito Santo nos conduz à clareza e à paz que não encontramos em nós mesmos.
-Outro passo essencial é entregar nossa ansiedade a Cristo. Ele nos chama para lançar sobre Ele todo o peso, pois cuida de nós com amor. Quando estamos perdidos, tendemos a nos apoiar em nossas próprias forças, mas é na rendição que encontramos o verdadeiro caminho. Reconhecer que não temos todas as respostas abrem espaço para que Deus revele Sua vontade.
-Também devemos nos cercar da comunhão. Deus usa irmãos e irmãs na fé para nos aconselhar, orar conosco e fortalecer nossa esperança. Não precisamos caminhar sozinhos.
-Quando nos sentimos perdidos, devemos transformar esse sentimento em oportunidade de voltar ao primeiro amor: confiar em Jesus. Ele continua sendo o caminho seguro, mesmo quando tudo ao redor parece incerto.
+Há momentos em que o cansaço parece ser nosso amigo fiel e constante. Sabemos que precisamos de descanso, mas entre as responsabilidades do trabalho, da casa, da família, dos amigos e assim por diante, passamos pela vida exaustos. Nesses momentos, o descanso parece um luxo difícil de encontrar.
+Mas não nos cansamos apenas fisicamente. Também carregamos exaustão emocional e espiritual. As exigências da vida podem ser avassaladoras e, muitas vezes, parecem um fardo ainda mais pesado do que o cansaço físico. Onde podemos encontrar descanso? Em Jesus! 
 
-Entrega o teu caminho ao Senhor; confia nele, e o mais Ele fará.
-- Salmos 37:5
+"Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.
+Tomem sobre vocês o meu jugo e aprendam de mim, pois sou manso e humilde de coração, e vocês encontrarão descanso para as suas almas.
+Pois o meu jugo é suave e o meu fardo é leve".
+- Mateus 11:28-30 
 
-Veja também: Razões para confiar em Deus em meio às lutas.
+Ir ao Senhor para contar a Ele como nos sentimos e o que está acontecendo conosco pode ser o primeiro passo para receber o descanso de que tanto precisamos. Podemos falar com Deus a qualquer momento, onde quer que estejamos e não importa como nos sintamos.
+Deus está ouvindo e está de braços abertos, esperando que nos voltemos para Ele em busca de Sua intervenção e ajuda. Podemos dizer a Deus: “Não aguento mais”, e ouvi-Lo responder: “A minha graça te basta, pois o poder se aperfeiçoa na fraqueza”. 
+Quando estamos fracos, Deus mostra o Seu poder. Lancemos nossos fardos sobre o Senhor, aprendamos a descansar nEle. Reservemos tempo para ir diante dEle e permanecer em Sua presença para receber força renovada de Suas mãos antes de continuar. Descansando nEle, nos tornaremos mais fortes. Aprendamos a descansar no Senhor.
+Leia também: Versículos sobre descanso.
  
-“Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.”
-- João 14:6
+A minha alma descansa somente em Deus;
+dele vem a minha salvação.
+- Salmo 62:1 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 320977 characters
-INFO:root:HTML parsed, length: 310766 characters
-INFO:root:Found 3 titles: ['O Senhor é contigo', 'Orai sem cessar', 'Ele fará!']
-INFO:root:Found 3 URLs: ['/seja_forte_corajoso_josue/', '/como_orar_e_falar_com_deus/', '/promessas_de_deus_para_voce/']
-INFO:root:Found 3 descriptions: ['E acrescentou: "Seja forte e corajoso! Mãos ao tra', 'Orai sem cessar.\n- 1 Tessalonicenses 5:17\n\nDedique', 'O Senhor não é homem para mentir, nem filho do hom']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n9\nTERÇA', 'SETEMBRO\n\n8\nSEGUNDA', 'SETEMBRO\n\n7\nDOMINGO']
+INFO:root:Response length: 321089 characters
+INFO:root:HTML parsed, length: 310877 characters
+INFO:root:Found 3 titles: ['Você nunca está só', 'O Senhor é contigo', 'Orai sem cessar']
+INFO:root:Found 3 URLs: ['/razoes_para_confiar_em_deus/', '/seja_forte_corajoso_josue/', '/como_orar_e_falar_com_deus/']
+INFO:root:Found 3 descriptions: ['"Não tenha medo, pois eu estou com você, do orient', 'E acrescentou: "Seja forte e corajoso! Mãos ao tra', 'Orai sem cessar.\n- 1 Tessalonicenses 5:17\n\nDedique']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n10\nQUARTA', 'SETEMBRO\n\n9\nTERÇA', 'SETEMBRO\n\n8\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O Senhor é contigo', ID=e590292b26709544fe2f1b125508cd84
-INFO:root:Processing entry 2: Title='Orai sem cessar', ID=9db1409a0900f9ac8ab0e71c862688bd
-INFO:root:Processing entry 3: Title='Ele fará!', ID=6100cb9451ad5ab8de6d084f51a11388
+INFO:root:Processing entry 1: Title='Você nunca está só', ID=baafd3394f3bb1bb2863fc590acbc3d8
+INFO:root:Processing entry 2: Title='O Senhor é contigo', ID=e590292b26709544fe2f1b125508cd84
+INFO:root:Processing entry 3: Title='Orai sem cessar', ID=9db1409a0900f9ac8ab0e71c862688bd
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Você nunca está só
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 Description: "Não tenha medo, pois eu estou com você, do oriente trarei seus filhos e do ocidente ajuntarei você."
+Isaías 43:5
+
+Deus conhece cada detalhe da nossa vida, inclusive os medos que tentamos esconder. Ele sabe quando o coração acelera diante de incertezas, quando as lágrimas caem em silêncio, quando a solidão parece nos sufocar, Deus diz: “Não tenha medo, pois eu estou com você.”
+Essa promessa não é apenas para o passado ou para um povo distante, mas é viva e atual para nós hoje. O Senhor nos lembra que não estamos abandonados em meio às lutas. Ainda que tudo ao nosso redor pareça fragmentado, Ele é o Deus que reúne, que restaura, que traz de volta aquilo que foi perdido.
+O mesmo Deus que chama os filhos do oriente e do ocidente é aquele que também chama nossa esperança de volta, que ajunta nossos pedaços espalhados pela dor e pelo fracasso. Ele é Pai amoroso que não desiste dos Seus.
+Quando o medo bater à porta, lembre-se: a presença de Deus é mais real que qualquer ameaça. Ele não promete ausência de problemas, mas garante companhia constante. E não há companhia mais poderosa do que a d’Aquele que governa os céus e a terra.
+Hoje, confie. Entregue seus temores nas mãos do Senhor e permita que a certeza da presença d’Ele aqueça seu coração. Você não caminha sozinho; o Deus que reúne, guarda e guia está ao seu lado, conduzindo seus passos em amor e fidelidade.
+Deus te conduzirá, basta confiar
+
+
+Confie na presença de Deus: Quando o medo surgir, lembre-se que Ele está com você. Ore, respire fundo e declare: “Não estou sozinho, o Senhor caminha comigo.”
+
+Entregue suas preocupações: Coloque diante de Deus seus medos, falhas e incertezas. Escreva-os em oração e libere-os, crendo que Ele é poderoso para cuidar de cada detalhe.
+
+Reforce sua esperança: Leia a Palavra, medite em promessas e declare a fidelidade do Senhor. Assim, sua fé cresce, e você encontra forças para seguir sem desanimar.
+
+Reconheça a restauração de Deus: Permita que Ele reúna suas áreas quebradas. Confie que o Pai traz de volta o que foi perdido e transforma suas feridas em testemunhos vivos.
+
+Para orar:
+
+Senhor amado, entrego diante de Ti meus medos e inseguranças. Sei que não estou sozinho, pois Tua presença me sustenta em cada passo. Ajuda-me a confiar na Tua promessa, a descansar no Teu cuidado e a lembrar que Tu és o Deus que restaura e reúne tudo o que parece perdido. Renova minha esperança, fortalece minha fé e guia-me no Teu caminho de paz e amor. Em nome de Jesus, amém.
+
+Veja também: 7 razões para confiar em Deus.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O Senhor é contigo
 INFO:root:🔹 URL: https://www.bibliaon.com/seja_forte_corajoso_josue/
 INFO:root:🔹 Description: E acrescentou: "Seja forte e corajoso! Mãos ao trabalho! Não tenha medo nem desanime, pois Deus, o Senhor, o meu Deus, está com você. Ele não o deixará nem o abandonará até que se termine toda a construção do templo do Senhor.
@@ -311,29 +346,6 @@ Senhor amado, hoje eu me coloco diante de Ti em oração. Entrego minhas preocup
 
 Aprenda a orar e entrar na presença de Deus todos os dias.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Ele fará!
-INFO:root:🔹 URL: https://www.bibliaon.com/promessas_de_deus_para_voce/
-INFO:root:🔹 Description: O Senhor não é homem para mentir, nem filho do homem para se arrepender. Suas palavras são verdadeiras e eternas, e nelas podemos descansar com plena confiança.
-
-Aquele que os chama é fiel e fará isso.
-- 1 Tessalonicenses 5:24
-
-A vida cristã é marcada por desafios, lutas e provações, mas também pela certeza inabalável de que Deus cumpre aquilo que promete. Quando tudo ao nosso redor parece incerto, é nas promessas de Deus que encontramos firmeza e segurança. Ele nos garante paz em meio às tempestades, provisão nos desertos e vitória nas batalhas. Não se trata de confiar em nossas forças ou naquilo que os olhos podem ver, mas de permanecer com o coração firme Naquele que é fiel.
-As promessas do Senhor não têm prazo de validade e não se perdem no tempo. Muitas vezes, esperamos ansiosos pela resposta e pensamos que o silêncio de Deus é ausência. No entanto, o que Ele promete, no tempo certo, se cumpre. É nesse período de espera que a fé é provada e fortalecida, moldando nosso caráter e aproximando-nos mais do Pai.
-Estar firme nas promessas do Senhor é viver em esperança, mesmo quando o cenário parece desfavorável. É declarar que Deus é suficiente, que Seu amor é maior que qualquer circunstância e que nada pode frustrar os planos do Altíssimo.
-Hoje, escolha confiar mais uma vez. Levante os olhos, fortaleça o coração e permaneça firme nas promessas do Senhor. Ele é fiel para cumprir tudo aquilo que disse, e no tempo perfeito, você verá a bondade de Deus se manifestar em sua vida.
-Firmes nas promessas do Senhor
-
-Leia a Bíblia com constância, medite nas Escrituras e declare as promessas do Senhor. A Palavra fortalece o coração e renova a confiança em meio às dificuldades.
-Ore em todas as circunstâncias, agradecendo até pelas pequenas vitórias. A oração mantém o coração conectado ao Pai e ajuda a esperar com paciência Suas respostas.
-A fidelidade às instruções do Senhor demonstra confiança verdadeira. Espere no tempo perfeito de Deus, lembrando que Ele nunca se atrasa e sempre cumpre o que promete.
-
-Para orar:
-
-Senhor amado, coloco diante de Ti minha vida e minhas preocupações. Ajuda-me a permanecer firme em Tuas promessas, mesmo quando não compreendo o caminho. Renova minha fé, fortalece meu coração e dá-me paciência para esperar o Teu tempo. Que eu viva em obediência, esperança e gratidão, confiando que tudo o que prometeste se cumprirá. Em nome de Jesus, entrego-me aos Teus cuidados, certo de que és fiel e nunca falharás. Amém.
-
-Veja também: 10 promessas de Deus na Bíblia.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 92 characters
@@ -363,15 +375,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 +++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  25 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  29 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 124 ++++++-----
+ feeds/salmo_do_dia/atom.xml               |  53 ++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 327 +++++++++++++++---------------
- 11 files changed, 311 insertions(+), 293 deletions(-)
+ output.log                                | 256 +++++++++++++++---------------
+ 11 files changed, 237 insertions(+), 225 deletions(-)
