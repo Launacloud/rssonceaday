@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119209 characters
-INFO:root:HTML parsed, length: 112323 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (10/09/2025)', 'Palavra de Ontem (09/09/2025)', 'Palavra de Anteontem (08/09/2025)']
-INFO:root:Found 3 URLs: ['/emblema/', '/nazista/', '/ratificar/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Figura simbólica que represe', 'Sinônimos:\n\nmarca, distintivo, insígnia, símbolo', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (10/09/2025)', 'Palavra de Ontem (09/09/2025)', 'Palavra de Anteontem (08/09/2025)']
+INFO:root:Response length: 118506 characters
+INFO:root:HTML parsed, length: 111803 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (11/09/2025)', 'Palavra de Ontem (10/09/2025)', 'Palavra de Anteontem (09/09/2025)']
+INFO:root:Found 3 URLs: ['/estapafurdia/', '/emblema/', '/nazista/']
+INFO:root:Found 11 descriptions: ['adjetivo Que não é comum; estranho, singular: idei', 'Sinônimos:\n\nestapafúrdio, esquisito, extravagante,', 'Sílabas:es-ta-pa-fúr-di-a']
+INFO:root:Found 3 dates: ['Palavra de Hoje (11/09/2025)', 'Palavra de Ontem (10/09/2025)', 'Palavra de Anteontem (09/09/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (10/09/2025)', ID=4958db373881c69b3d90d62b34042f8d
-INFO:root:Processing entry 2: Title='Palavra de Ontem (09/09/2025)', ID=4b7aa5c9e3593fe3d90a42401c67aaf9
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/09/2025)', ID=35419a5cc032373f88d168b581797ae1
+INFO:root:Processing entry 1: Title='Palavra de Hoje (11/09/2025)', ID=17c81a0eea6506565624a00c37d7da90
+INFO:root:Processing entry 2: Title='Palavra de Ontem (10/09/2025)', ID=779dce79fbcf3a8d452b9bc02d1299dc
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/09/2025)', ID=ccd4d09b7cdc1ae0e6e9f8946f4347e1
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (10/09/2025) - Significado completo de emblema:
+INFO:root:🔹 Title: Palavra de Hoje (11/09/2025) - Significado completo de estapafúrdia:
+INFO:root:🔹 URL: https://www.dicio.com.br/estapafurdia/
+INFO:root:🔹 Description: adjetivo Que não é comum; estranho, singular: ideia mais estapafúrdia essa!Que age sem prudência, de maneira extravagante; doidivanas: tinha uma forma estapafúrdia de criar os filhos.De teor disparatado, sem lógica nem coerência: veio com uma conversa estapafúrdia para convencer os eleitores.Etimologia (origem da palavra estapafúrdia). Feminino de estapafúrdio, de origem questionável.
+ 
+Sinônimos:
+
+estapafúrdio, esquisito, extravagante, doidivanas, excêntrico, estranho, singular, disparatado 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (10/09/2025) - Significado completo de emblema:
 INFO:root:🔹 URL: https://www.dicio.com.br/emblema/
-INFO:root:🔹 Description: substantivo masculino Figura simbólica que representa uma coletividade, corporação, agremiação etc.; escudo, insígnia, símbolo: o emblema de muitos clubes esportivos tem a forma de um escudo.Objeto que representa essa figura: carregada o emblema do time.Aquilo que traz consigo uma sentença moral associada à uma imagem, ou explica os seus sentidos.Ser concreto que representa uma ideia abstrata.Etimologia (origem da palavra emblema). Do latim emblema.atis.
+INFO:root:🔹 Description: Sinônimos:
+
+estapafúrdio, esquisito, extravagante, doidivanas, excêntrico, estranho, singular, disparatado
+ Sílabas:es-ta-pa-fúr-di-a
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (09/09/2025) - Significado completo de nazista:
+INFO:root:🔹 URL: https://www.dicio.com.br/nazista/
+INFO:root:🔹 Description: Sílabas:es-ta-pa-fúr-di-a
  
 Sinônimos:
 
 marca, distintivo, insígnia, símbolo 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (09/09/2025) - Significado completo de nazista:
-INFO:root:🔹 URL: https://www.dicio.com.br/nazista/
-INFO:root:🔹 Description: Sinônimos:
-
-marca, distintivo, insígnia, símbolo
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (08/09/2025) - Significado completo de ratificar:
-INFO:root:🔹 URL: https://www.dicio.com.br/ratificar/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:em-ble-ma
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,72 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 309209 characters
-INFO:root:HTML parsed, length: 298843 characters
-INFO:root:Found 1 titles: ['3 João 1:2']
-INFO:root:Found 1 URLs: ['/versiculo/3_joao_1_2/']
-INFO:root:Found 1 descriptions: ['Amado, oro para que você tenha boa saúde e tudo co']
+INFO:root:Response length: 310530 characters
+INFO:root:HTML parsed, length: 300158 characters
+INFO:root:Found 1 titles: ['Jó 38:41']
+INFO:root:Found 1 URLs: ['/versiculo/jo_38_41/']
+INFO:root:Found 1 descriptions: ['Quem dá alimento aos corvos\nquando os seus filhote']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='3 João 1:2', ID=3a9fed5bbaede3d84bd151374ab61ec2
+INFO:root:Processing entry 1: Title='Jó 38:41', ID=92930552796d2f6341586cbf0e604b38
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 3 João 1:2
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/3_joao_1_2/
-INFO:root:🔹 Description: Amado, oro para que você tenha boa saúde e tudo corra bem, assim como vai bem a sua alma. 3 João 1:2
+INFO:root:🔹 Title: Jó 38:41
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jo_38_41/
+INFO:root:🔹 Description: Quem dá alimento aos corvos
+quando os seus filhotes clamam a Deus
+e vagueiam por falta de comida? Jó 38:41
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 310097 characters
-INFO:root:HTML parsed, length: 300460 characters
-INFO:root:Found 3 titles: ['Salmo 111', 'Salmo 118', 'Salmo 108']
-INFO:root:Found 3 URLs: ['/salmos_111/', '/salmos_118/', '/salmos_108/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nDarei graças ao Senhor de todo o coração\n', 'Deem graças ao Senhor porque ele é bom;\no seu amor', 'Meu coração está firme, ó Deus!\nCantarei e louvare']
-INFO:root:Found 3 dates: ['10 de Setembro de 2025', '9 de Setembro de 2025', '8 de Setembro de 2025']
+INFO:root:Response length: 311250 characters
+INFO:root:HTML parsed, length: 301607 characters
+INFO:root:Found 3 titles: ['Salmo 98', 'Salmo 111', 'Salmo 118']
+INFO:root:Found 3 URLs: ['/salmos_98/', '/salmos_111/', '/salmos_118/']
+INFO:root:Found 3 descriptions: ['Cantem ao Senhor um novo cântico,\npois ele fez coi', 'Aleluia!\nDarei graças ao Senhor de todo o coração\n', 'Deem graças ao Senhor porque ele é bom;\no seu amor']
+INFO:root:Found 3 dates: ['11 de Setembro de 2025', '10 de Setembro de 2025', '9 de Setembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 111', ID=de8b1078fda5e518988df5721c405f8a
-INFO:root:Processing entry 2: Title=' Salmo 118', ID=8fc6e7bb42ca393915a24ebaf7381156
-INFO:root:Processing entry 3: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
+INFO:root:Processing entry 1: Title=' Salmo 98', ID=33adc7bdfe38c4864921fdfaca3d7034
+INFO:root:Processing entry 2: Title=' Salmo 111', ID=de8b1078fda5e518988df5721c405f8a
+INFO:root:Processing entry 3: Title=' Salmo 118', ID=8fc6e7bb42ca393915a24ebaf7381156
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 98
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_98/
+INFO:root:🔹 Description: Cantem ao Senhor um novo cântico,
+pois ele fez coisas maravilhosas;
+a sua mão direita e o seu braço santo
+lhe deram a vitória! 
+O Senhor anunciou a sua vitória
+e revelou a sua justiça às nações. 
+Ele se lembrou do seu amor leal
+e da sua fidelidade para com a casa de Israel;
+todos os confins da terra viram
+a vitória do nosso Deus. 
+Aclamem o Senhor
+todos os habitantes da terra!
+Louvem-no com cânticos de alegria
+e ao som de música! 
+Ofereçam música ao Senhor com a harpa,
+com a harpa e ao som de canções, 
+com cornetas e ao som da trombeta;
+exultem diante do Senhor, o Rei! 
+Ressoe o mar e tudo o que nele existe,
+o mundo e os seus habitantes! 
+Batam palmas os rios,
+e juntos cantem de alegria os montes; 
+cantem diante do Senhor, porque ele vem,
+vem julgar a terra;
+julgará o mundo com justiça
+e os povos com retidão. 
+ Salmo 98
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 111
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_111/
 INFO:root:🔹 Description: Aleluia!
@@ -175,98 +211,82 @@ Deem graças ao Senhor, porque ele é bom;
 o seu amor dura para sempre. 
  Salmo 118
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 108
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_108/
-INFO:root:🔹 Description: Meu coração está firme, ó Deus!
-Cantarei e louvarei, ó Glória minha! 
-Acordem, harpa e lira!
-Despertarei a alvorada. 
-Eu te darei graças, ó Senhor, entre os povos;
-cantarei louvores entre as nações, 
-porque o teu amor leal
-se eleva muito acima dos céus;
-a tua fidelidade alcança as nuvens! 
-Sê exaltado, ó Deus, acima dos céus;
-estenda-se a tua glória sobre toda a terra! 
-Salva-nos com a tua mão direita
-e responde-nos,
-para que sejam libertos aqueles a quem amas. 
-Do seu santuário Deus falou:
-"No meu triunfo dividirei Siquém
-e repartirei o vale de Sucote. 
-Gileade me pertence e Manassés também;
-Efraim é o meu capacete, Judá é o meu cetro. 
-Moabe é a pia em que me lavo,
-em Edom atiro a minha sandália,
-sobre a Filístia dou meu brado de vitória!" 
-Quem me levará à cidade fortificada?
-Quem me guiará a Edom? 
-Não foste tu, ó Deus, que nos rejeitaste
-e deixaste de sair com os nossos exércitos? 
-Dá-nos ajuda contra os adversários,
-pois inútil é o socorro do homem. 
-Com Deus conquistaremos a vitória,
-e ele pisará os nossos adversários. 
- Salmo 108
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 311746 characters
-INFO:root:HTML parsed, length: 301769 characters
-INFO:root:Found 3 titles: ['Descanse no Senhor!', 'Encontrando o caminho em Cristo', 'Obediência é uma forma de louvor']
+INFO:root:Response length: 313008 characters
+INFO:root:HTML parsed, length: 303025 characters
+INFO:root:Found 3 titles: ['Face a face', 'Descanse no Senhor!', 'Encontrando o caminho em Cristo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['A minha alma descansa somente em Deus;\ndele vem a ', '“Eu sou o caminho, a verdade e a vida. Ninguém vem', 'Se vocês me amam, obedecerão aos meus mandamentos.']
-INFO:root:Found 1 dates: ['Quarta, 10 de setembro de 2025']
+INFO:root:Found 3 descriptions: ['Agora, pois, vemos apenas um reflexo obscuro, como', 'A minha alma descansa somente em Deus;\ndele vem a ', '“Eu sou o caminho, a verdade e a vida. Ninguém vem']
+INFO:root:Found 1 dates: ['Quinta, 11 de setembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Descanse no Senhor!', ID=578f86858908c29bdd267e54d3f0a587
+INFO:root:Processing entry 1: Title='Face a face', ID=ae7112764925ea6db21d10f21dd51301
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Descanse no Senhor! - Palavra de Hoje
+INFO:root:🔹 Title: Face a face - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: A minha alma descansa somente em Deus;
-dele vem a minha salvação.
-- Salmo 62:1 
+INFO:root:🔹 Description: Agora, pois, vemos apenas um reflexo obscuro, como em espelho; mas, então, veremos face a face. Agora conheço em parte; então, conhecerei plenamente, da mesma forma com que sou plenamente conhecido.
+- 1 Coríntios 13:12
 
-Há momentos em que o cansaço parece ser nosso amigo fiel e constante. Sabemos que precisamos de descanso, mas entre as responsabilidades do trabalho, da casa, da família, dos amigos e assim por diante, passamos pela vida exaustos. Nesses momentos, o descanso parece um luxo difícil de encontrar.
-Mas não nos cansamos apenas fisicamente. Também carregamos exaustão emocional e espiritual. As exigências da vida podem ser avassaladoras e, muitas vezes, parecem um fardo ainda mais pesado do que o cansaço físico. Onde podemos encontrar descanso? Em Jesus! 
 
-"Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.
-Tomem sobre vocês o meu jugo e aprendam de mim, pois sou manso e humilde de coração, e vocês encontrarão descanso para as suas almas.
-Pois o meu jugo é suave e o meu fardo é leve".
-- Mateus 11:28-30 
+Então aparecerá no céu o sinal do Filho do homem, e todas as nações da terra se lamentarão e verão o Filho do homem vindo nas nuvens do céu com poder e grande glória.
+- Mateus 24:30
 
-Ir ao Senhor para contar a Ele como nos sentimos e o que está acontecendo conosco pode ser o primeiro passo para receber o descanso de que tanto precisamos. Podemos falar com Deus a qualquer momento, onde quer que estejamos e não importa como nos sintamos.
-Deus está ouvindo e está de braços abertos, esperando que nos voltemos para Ele em busca de Sua intervenção e ajuda. Podemos dizer a Deus: “Não aguento mais”, e ouvi-Lo responder: “A minha graça te basta, pois o poder se aperfeiçoa na fraqueza”. 
-Quando estamos fracos, Deus mostra o Seu poder. Lancemos nossos fardos sobre o Senhor, aprendamos a descansar nEle. Reservemos tempo para ir diante dEle e permanecer em Sua presença para receber força renovada de Suas mãos antes de continuar. Descansando nEle, nos tornaremos mais fortes. Aprendamos a descansar no Senhor.
-Leia também: Versículos sobre descanso.
+Há momentos que guardamos em nossos corações como tesouros incomparáveis. Por exemplo, chegar ao aeroporto, exaustos após uma longa viagem, e ver o rosto de alguém que amamos nos esperando. Que alívio, que alegria! Ali está aquela pessoa amada, posso descansar!
+Ou o momento em que vemos o rosto do nosso bebê após 9 meses de espera. Depois de tanta incerteza e preparação, finalmente vemos aquele rostinho que tanto amamos e pelo qual esperamos com tanta expectativa. Amor incomparável, alegria sem igual!
+Não importa quantos encontros maravilhosos tenhamos nesta vida, a Bíblia fala de um evento como nenhum outro, um momento em que experimentaremos algo que nunca sentimos antes. É o momento em que veremos Jesus face a face!
+Quando Jesus retornar para o Seu povo, todo olho O verá (Apocalipse 1:7). Alguns, aqueles que O receberam como Senhor e Salvador, se alegrarão e verão a realização de sua esperança. Outros, aqueles que O rejeitaram e Lhe deram as costas, lamentarão e reconhecerão seu grande erro. Mas todos verão a Sua face e reconhecerão o Seu eterno senhorio, a Sua glória incomparável.
+Louve a Deus hoje pela esperança eterna que você tem nEle. Não importa quão dura e difícil a vida seja, sempre podemos olhar para o futuro com alegria e otimismo, pois um dia, nosso Redentor Jesus retornará. Nós O veremos face a face e viveremos com Ele por toda a eternidade. Glória a Ele por essa maravilhosa esperança!
+Veja também: Sinais da volta de Jesus.
  
-A minha alma descansa somente em Deus;
-dele vem a minha salvação.
-- Salmo 62:1 
+Agora, pois, vemos apenas um reflexo obscuro, como em espelho; mas, então, veremos face a face. Agora conheço em parte; então, conhecerei plenamente, da mesma forma com que sou plenamente conhecido.
+- 1 Coríntios 13:12
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 321089 characters
-INFO:root:HTML parsed, length: 310877 characters
-INFO:root:Found 3 titles: ['Você nunca está só', 'O Senhor é contigo', 'Orai sem cessar']
-INFO:root:Found 3 URLs: ['/razoes_para_confiar_em_deus/', '/seja_forte_corajoso_josue/', '/como_orar_e_falar_com_deus/']
-INFO:root:Found 3 descriptions: ['"Não tenha medo, pois eu estou com você, do orient', 'E acrescentou: "Seja forte e corajoso! Mãos ao tra', 'Orai sem cessar.\n- 1 Tessalonicenses 5:17\n\nDedique']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n10\nQUARTA', 'SETEMBRO\n\n9\nTERÇA', 'SETEMBRO\n\n8\nSEGUNDA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Você nunca está só', ID=baafd3394f3bb1bb2863fc590acbc3d8
-INFO:root:Processing entry 2: Title='O Senhor é contigo', ID=e590292b26709544fe2f1b125508cd84
-INFO:root:Processing entry 3: Title='Orai sem cessar', ID=9db1409a0900f9ac8ab0e71c862688bd
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 323341 characters
+INFO:root:HTML parsed, length: 313008 characters
+INFO:root:Found 3 titles: ['Não guarde a ansiedade para si', 'Você nunca está só', 'O Senhor é contigo']
+INFO:root:Found 2 URLs: ['/razoes_para_confiar_em_deus/', '/seja_forte_corajoso_josue/']
+INFO:root:Found 3 descriptions: ['Lancem sobre ele toda a sua ansiedade, porque ele ', '"Não tenha medo, pois eu estou com você, do orient', 'E acrescentou: "Seja forte e corajoso! Mãos ao tra']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n11\nQUINTA', 'SETEMBRO\n\n10\nQUARTA', 'SETEMBRO\n\n9\nTERÇA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Não guarde a ansiedade para si', ID=554cc069721413d44286b4f8f6d12cdd
+INFO:root:Processing entry 2: Title='Você nunca está só', ID=baafd3394f3bb1bb2863fc590acbc3d8
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Você nunca está só
+INFO:root:🔹 Title: Não guarde a ansiedade para si
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 Description: Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.
+1 Pedro 5:7 
+
+A ansiedade está diretamente ligada a preocupação e ao nervosismo. Quando estamos sem confiança, a incerteza passa a nos incomodar. E somente a Palavra de Deus é eficaz para acalmar o nosso coração. 
+Na Bíblia encontramos palavras de conforto e de esperança. Mais do que aliviar o nosso anseio, Deus quer nos guiar num caminho de bênção. Para isso, devemos dar o primeiro passo: confiarmos em nele. A fé afasta-nos da incerteza e nos aproxima de Deus.
+Todo aquele que busca a Cristo, encontra descanso:
+
+Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês. 
+Mateus 11:28
+
+Alivie o seu coração, descanse nas promessas do Senhor.
+Lançando fora a ansiedade
+
+Fale com Deus. Coloque diante dele os seus pensamentos, fale o que está te incomodando. 
+Após orar, evite ficar pensando no que te aflige. Procure buscar a Deus louvando ou lendo a Palavra. 
+Tenha em mente que Deus cuida de você. Ele te ama e te quer bem!
+
+Para Orar:
+
+Senhor Deus, sei que cuidas de mim. Acalma o meu coração e tranquiliza a minha mente. Tu és soberano e sei que tudo coopera para o bem daqueles que te ama. E eu te amo!
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Você nunca está só
+INFO:root:🔹 URL: https://www.bibliaon.com/seja_forte_corajoso_josue/
 INFO:root:🔹 Description: "Não tenha medo, pois eu estou com você, do oriente trarei seus filhos e do ocidente ajuntarei você."
 Isaías 43:5
 
@@ -291,60 +311,6 @@ Para orar:
 Senhor amado, entrego diante de Ti meus medos e inseguranças. Sei que não estou sozinho, pois Tua presença me sustenta em cada passo. Ajuda-me a confiar na Tua promessa, a descansar no Teu cuidado e a lembrar que Tu és o Deus que restaura e reúne tudo o que parece perdido. Renova minha esperança, fortalece minha fé e guia-me no Teu caminho de paz e amor. Em nome de Jesus, amém.
 
 Veja também: 7 razões para confiar em Deus.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O Senhor é contigo
-INFO:root:🔹 URL: https://www.bibliaon.com/seja_forte_corajoso_josue/
-INFO:root:🔹 Description: E acrescentou: "Seja forte e corajoso! Mãos ao trabalho! Não tenha medo nem desanime, pois Deus, o Senhor, o meu Deus, está com você. Ele não o deixará nem o abandonará até que se termine toda a construção do templo do Senhor.
-- 1 Crônicas 28:20
-
-Essas palavras de encorajamento dadas a Salomão por seu pai Davi serve como um chamado para todos nós. A vida cristã é uma caminhada de construção.
-Talvez não estejamos levantando paredes físicas como no templo de Jerusalém, mas diariamente somos chamados a edificar algo ainda mais precioso: o templo espiritual, que é a nossa vida em Cristo Jesus.
-Quantas vezes nos sentimos incapazes diante das lutas? O medo tenta paralisar, a ansiedade enfraquece, e o desânimo sussurra que não vamos conseguir. Mas o Senhor nos lembra que não estamos sozinhos. Ele garante Sua presença em cada passo, assegurando que a boa obra iniciada será concluída.
-O versículo nos ensina 3 verdades
-
-
-Coragem é necessária: não a ausência de medo, mas a decisão de avançar confiando em Deus.
-
-O trabalho é contínuo: mãos firmes e coração disposto são ferramentas indispensáveis para quem deseja servir.
-
-A presença de Deus é suficiente: mesmo que os recursos sejam escassos ou os obstáculos enormes, quando o Senhor está conosco, o impossível se torna realidade.
-
-O Senhor não abandona os Seus. Mantenha-se firme, mãos ao trabalho, e o nome d’Ele será glorificado por meio da sua vida. A construção não terminará em ruínas, porque o Deus que começou é fiel para completar. 
-
-"Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar".
-- Josué 1:9
-
-Para orar:
-
-Senhor amado, agradeço pela Tua presença constante em minha vida. Dá-me força e coragem para seguir, mesmo diante das dificuldades. Que eu nunca esqueça que Tu és fiel e não me abandonas. Guia meus passos, fortalece minha fé e renova meu coração. Que eu seja instrumento do Teu amor e testemunho da Tua graça. Em nome de Jesus, amém.
-
-Veja também: Seja forte e corajoso (Estudo Bíblico).
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Orai sem cessar
-INFO:root:🔹 URL: https://www.bibliaon.com/como_orar_e_falar_com_deus/
-INFO:root:🔹 Description: Orai sem cessar.
-- 1 Tessalonicenses 5:17
-
-Dedique um momento do seu dia à oração. Nossa vida é cheia de compromissos, correria e preocupações. Muitas vezes ficamos cansados e sobrecarregados. Mas a oração é o lugar onde podemos descansar, renovar as forças e conversar com Deus. Não é apenas falar, é abrir o coração e reconhecer que Ele está cuidando de nós em cada detalhe.
-A oração é uma conversa de amor com o Pai. Quando paramos para falar com Ele, mostramos que confiamos mais em Deus do que em nós mesmos. É nesse momento que encontramos coragem para os problemas, sabedoria para as escolhas e consolo quando o coração está triste.
-Mesmo que o dia seja agitado, sempre dá para separar um instante. Pode ser pela manhã, agradecendo por acordar; no meio do trabalho, pedindo calma e direção; ou à noite, entregando a Deus as preocupações antes de dormir.
-Não precisamos de palavras bonitas nem de orações longas. Deus olha para a sinceridade do coração. Jesus ensinou que o Pai já sabe do que precisamos antes mesmo de pedirmos (Mateus 6:8). O mais importante é falar com Ele com simplicidade e fé.
-Quando a oração se torna parte da nossa rotina, nossa vida muda. Ficamos menos ansiosos, a fé cresce e a esperança se renova. A oração não transforma só as situações, mas também transforma o nosso coração.
-Não deixe para depois. Tire hoje alguns minutos para falar com Deus. Você vai perceber que estar na presença d’Ele faz toda a diferença.
-Falando com Deus
-
-
-Comece o dia agradecendo a Deus: Ao acordar, tire alguns minutos para agradecer pela vida, saúde e novas oportunidades. A gratidão abre o coração para viver em paz e confiança.
-
-Ore em meio à correria: Durante as tarefas, silencie a mente e fale com Deus. Peça direção e calma. Pequenos momentos de oração fortalecem sua fé mesmo nos dias mais agitados.
-
-Encerre o dia entregando suas preocupações: Antes de dormir, converse com Deus. Entregue ansiedades, agradeça pelas vitórias e descanse em Sua presença. Assim, o coração encontra paz e força para o amanhã.
-
-Para orar:
-
-Senhor amado, hoje eu me coloco diante de Ti em oração. Entrego minhas preocupações, minhas lutas e meus sonhos em Tuas mãos. Dá-me sabedoria para cada decisão, força para enfrentar os desafios e paz para descansar em Ti. Que o meu coração esteja sempre sensível à Tua voz e firme na Tua presença. Obrigado por me amar e por nunca me deixar só. Em nome de Jesus, amém.
-
-Aprenda a orar e entrar na presença de Deus todos os dias.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -375,15 +341,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 +++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  29 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  69 ++-----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  28 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  53 ++++---
+ feeds/salmo_do_dia/atom.xml               |  62 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 256 +++++++++++++++---------------
- 11 files changed, 237 insertions(+), 225 deletions(-)
+ output.log                                | 306 +++++++++++++-----------------
+ 11 files changed, 236 insertions(+), 317 deletions(-)
