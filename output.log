@@ -1,46 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120722 characters
-INFO:root:HTML parsed, length: 113446 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (24/09/2025)', 'Palavra de Ontem (23/09/2025)', 'Palavra de Anteontem (22/09/2025)']
-INFO:root:Found 3 URLs: ['/campestre/', '/saida/', '/galera/']
-INFO:root:Found 15 descriptions: ['adjetivo Que diz respeito ao campo, à vida rural, ', 'Sinônimos:\n\npastoril, escarificador, bucólico, cam', 'Antônimos:\n\ncitadino, urbano']
-INFO:root:Found 3 dates: ['Palavra de Hoje (24/09/2025)', 'Palavra de Ontem (23/09/2025)', 'Palavra de Anteontem (22/09/2025)']
+INFO:root:Response length: 120709 characters
+INFO:root:HTML parsed, length: 113478 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (25/09/2025)', 'Palavra de Ontem (24/09/2025)', 'Palavra de Anteontem (23/09/2025)']
+INFO:root:Found 3 URLs: ['/nectar/', '/campestre/', '/saida/']
+INFO:root:Found 15 descriptions: ['substantivo masculino [Botânica] Líquido açucarado', 'Classe gramatical:substantivo masculino', 'Sílabas:néc-tar']
+INFO:root:Found 3 dates: ['Palavra de Hoje (25/09/2025)', 'Palavra de Ontem (24/09/2025)', 'Palavra de Anteontem (23/09/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (24/09/2025)', ID=50d8a1df3f69bcb63459a247614286b2
-INFO:root:Processing entry 2: Title='Palavra de Ontem (23/09/2025)', ID=73eed9d444e903ff5809f4335c7fd5c3
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/09/2025)', ID=d0ad67671fffc723112d686c34bcacfb
+INFO:root:Processing entry 1: Title='Palavra de Hoje (25/09/2025)', ID=1e7dac08ca2a7c46c2dfc3f3e7fa7316
+INFO:root:Processing entry 2: Title='Palavra de Ontem (24/09/2025)', ID=4c799f4c0fbc3c9b9876eef070a536c3
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (23/09/2025)', ID=ab416db3ad78612669ec485901b43287
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (24/09/2025) - Significado completo de campestre:
+INFO:root:🔹 Title: Palavra de Hoje (25/09/2025) - Significado completo de néctar:
+INFO:root:🔹 URL: https://www.dicio.com.br/nectar/
+INFO:root:🔹 Description: substantivo masculino [Botânica] Líquido açucarado produzido pelas flores: as abelhas colhem o néctar e o transformam em mel.[Mitologia] Bebida que, segundo a mitologia grega, conferia imortalidade aos deuses que a ingerissem.[Por Extensão] Toda bebida cujo sabor é considerado delicioso, saboroso.[Figurado] Sensação de quem está em estado de deslumbre, encanto; encantamento.Aquilo que traz algum alívio, conforto; refrigério.Etimologia (origem da palavra néctar). A palavra néctar tem sua origem no latim “nectar,is”, com o sentido de bebida dos deuses.
+ Classe gramatical:substantivo masculino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (24/09/2025) - Significado completo de campestre:
 INFO:root:🔹 URL: https://www.dicio.com.br/campestre/
-INFO:root:🔹 Description: adjetivo Que diz respeito ao campo, à vida rural, por oposição ao que é urbano, citadino: propriedade campestre; passeio campestre.Relativo ao modo de vida ou aos costumes da vida no campo; bucólico, pastoril.Refere-se à vida simples das pessoas que vivem no campo; campesino.Localizado no campo ou num espaço aberto próprio para atividades ao ar livre.substantivo masculino Local com pouca ou nenhuma árvore em uma floresta; clareira.Campo repleto de areia.Etimologia (origem da palavra campestre). Do latim campestre, "do campo".
- 
-Sinônimos:
-
-pastoril, escarificador, bucólico, campesino, camponês 
-
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:néc-tar
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (23/09/2025) - Significado completo de saída:
+INFO:root:🔹 Title: Palavra de Anteontem (23/09/2025) - Significado completo de saída:
 INFO:root:🔹 URL: https://www.dicio.com.br/saida/
-INFO:root:🔹 Description: Sinônimos:
+INFO:root:🔹 Description: Sílabas:néc-tar
+ Citação: "A fruta aberta
+revela o mistério
+da raiz: néctar."
+                                - Roberto Evangelista
 
-pastoril, escarificador, bucólico, campesino, camponês
- 
-Antônimos:
-
-citadino, urbano 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (22/09/2025) - Significado completo de galera:
-INFO:root:🔹 URL: https://www.dicio.com.br/galera/
-INFO:root:🔹 Description: Antônimos:
-
-citadino, urbano
- Classe gramatical:adjetivo de dois gêneros e substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,43 +40,85 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 312329 characters
-INFO:root:HTML parsed, length: 302007 characters
-INFO:root:Found 1 titles: ['Provérbios 17:1']
-INFO:root:Found 1 URLs: ['/versiculo/proverbios_17_1/']
-INFO:root:Found 1 descriptions: ['Melhor é um pedaço de pão seco\ncom paz e tranquili']
+INFO:root:Response length: 312297 characters
+INFO:root:HTML parsed, length: 301975 characters
+INFO:root:Found 1 titles: ['Provérbios 18:22']
+INFO:root:Found 1 URLs: ['/versiculo/proverbios_18_22/']
+INFO:root:Found 1 descriptions: ['Quem encontra uma esposa\nencontra algo excelente;\n']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Provérbios 17:1', ID=c1421af07fa3bbb26765d6be51344ca0
+INFO:root:Processing entry 1: Title='Provérbios 18:22', ID=31ffebd038239ed0b48619f2574a7699
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Provérbios 17:1
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_17_1/
-INFO:root:🔹 Description: Melhor é um pedaço de pão seco
-com paz e tranquilidade
-do que uma casa onde há banquetes
-e muitas brigas. Provérbios 17:1
+INFO:root:🔹 Title: Provérbios 18:22
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_18_22/
+INFO:root:🔹 Description: Quem encontra uma esposa
+encontra algo excelente;
+recebeu uma bênção do Senhor. Provérbios 18:22
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 315778 characters
-INFO:root:HTML parsed, length: 306258 characters
-INFO:root:Found 3 titles: ['Salmo 135', 'Salmo 80', 'Salmo 37']
-INFO:root:Found 3 URLs: ['/salmos_135/', '/salmos_80/', '/salmos_37/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo', 'Escuta-nos, Pastor de Israel,\ntu, que conduzes Jos', 'Não se aborreça por causa dos homens maus\ne não te']
-INFO:root:Found 3 dates: ['24 de Setembro de 2025', '23 de Setembro de 2025', '22 de Setembro de 2025']
+INFO:root:Response length: 313283 characters
+INFO:root:HTML parsed, length: 303727 characters
+INFO:root:Found 3 titles: ['Salmo 62', 'Salmo 135', 'Salmo 80']
+INFO:root:Found 3 URLs: ['/salmos_62/', '/salmos_135/', '/salmos_80/']
+INFO:root:Found 3 descriptions: ['A minha alma descansa somente em Deus;\ndele vem a ', 'Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo', 'Escuta-nos, Pastor de Israel,\ntu, que conduzes Jos']
+INFO:root:Found 3 dates: ['25 de Setembro de 2025', '24 de Setembro de 2025', '23 de Setembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
-INFO:root:Processing entry 2: Title=' Salmo 80', ID=393ad09d28e6ce8c20c5ea20009ca2e6
-INFO:root:Processing entry 3: Title=' Salmo 37', ID=89d0f6523954eb5d7c6f293845fa038a
+INFO:root:Processing entry 1: Title=' Salmo 62', ID=431dedfd9d0be64d1669d23c4e7c973c
+INFO:root:Processing entry 2: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
+INFO:root:Processing entry 3: Title=' Salmo 80', ID=393ad09d28e6ce8c20c5ea20009ca2e6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 62
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_62/
+INFO:root:🔹 Description: A minha alma descansa somente em Deus;
+dele vem a minha salvação. 
+Somente ele é a rocha que me salva;
+ele é a minha torre segura! Jamais serei abalado! 
+Até quando todos vocês atacarão um homem
+que está como um muro inclinado,
+como uma cerca prestes a cair? 
+Todo o propósito deles é derrubá-lo
+de sua posição elevada;
+eles se deliciam com mentiras.
+Com a boca abençoam,
+mas no íntimo amaldiçoam. 
+Descanse somente em Deus,
+ó minha alma;
+dele vem a minha esperança. 
+Somente ele é a rocha que me salva;
+ele é a minha torre alta! Não serei abalado! 
+A minha salvação e a minha honra
+de Deus dependem;
+ele é a minha rocha firme, o meu refúgio. 
+Confie nele em todos os momentos, ó povo;
+derrame diante dele o coração,
+pois ele é o nosso refúgio. 
+Os homens de origem humilde
+não passam de um sopro,
+os de origem importante
+não passam de mentira;
+pesados na balança,
+juntos não chegam ao peso de um sopro. 
+Não confiem na extorsão
+nem ponham a esperança em bens roubados;
+se as suas riquezas aumentam,
+não ponham nelas o coração. 
+Uma vez Deus falou,
+duas vezes eu ouvi,
+que o poder pertence a Deus. 
+Contigo também, Senhor, está a fidelidade.
+É certo que retribuirás a cada um
+conforme o seu procedimento. 
+ Salmo 62
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 135
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_135/
 INFO:root:🔹 Description: Aleluia!
@@ -195,158 +229,83 @@ faze resplandecer sobre nós o teu rosto,
 para que sejamos salvos. 
  Salmo 80
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 37
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_37/
-INFO:root:🔹 Description: Não se aborreça por causa dos homens maus
-e não tenha inveja dos perversos; 
-pois como o capim logo secarão,
-como a relva verde logo murcharão. 
-Confie no Senhor e faça o bem;
-assim você habitará na terra
-e desfrutará segurança. 
-Deleite-se no Senhor,
-e ele atenderá aos desejos do seu coração. 
-Entregue o seu caminho ao Senhor;
-confie nele, e ele agirá: 
-ele deixará claro como a alvorada
-que você é justo,
-e como o sol do meio-dia que você é inocente. 
-Descanse no Senhor
-e aguarde por ele com paciência;
-não se aborreça com o sucesso dos outros
-nem com aqueles que maquinam o mal. 
-Evite a ira e rejeite a fúria;
-não se irrite: isso só leva ao mal. 
-Pois os maus serão eliminados,
-mas os que esperam no Senhor
-receberão a terra por herança. 
-Um pouco de tempo,
-e os ímpios não mais existirão;
-por mais que você os procure, não serão encontrados. 
-Mas os humildes receberão a terra por herança
-e desfrutarão pleno bem-estar. 
-Os ímpios tramam contra os justos
-e rosnam contra eles; 
-o Senhor, porém, ri dos ímpios,
-pois sabe que o dia deles está chegando. 
-Os ímpios desembainham a espada
-e preparam o arco
-para abater o necessitado e o pobre,
-para matar os que andam na retidão. 
-Mas as suas espadas
-irão atravessar-lhes o coração,
-e os seus arcos serão quebrados. 
-Melhor é o pouco do justo
-do que a riqueza de muitos ímpios; 
-pois o braço forte dos ímpios será quebrado,
-mas o Senhor sustém os justos. 
-O Senhor cuida da vida dos íntegros,
-e a herança deles permanecerá para sempre. 
-Em tempos de adversidade
-não ficarão decepcionados;
-em dias de fome desfrutarão fartura. 
-Mas os ímpios perecerão;
-os inimigos do Senhor
-murcharão como a beleza dos campos;
-desvanecerão como fumaça. 
-Os ímpios tomam emprestado e não devolvem,
-mas os justos dão com generosidade; 
-aqueles que o Senhor abençoa
-receberão a terra por herança,
-mas os que ele amaldiçoa serão eliminados. 
-O Senhor firma os passos de um homem,
-quando a conduta deste o agrada; 
-ainda que tropece, não cairá,
-pois o Senhor o toma pela mão. 
-Já fui jovem e agora sou velho,
-mas nunca vi o justo desamparado
-nem seus filhos mendigando o pão. 
-Ele é sempre generoso
-e empresta com boa vontade;
-seus filhos serão abençoados. 
-Desvie-se do mal e faça o bem;
-e você terá sempre onde morar. 
-Pois o Senhor ama quem pratica a justiça,
-e não abandonará os seus fiéis.
-Para sempre serão protegidos,
-mas a descendência dos ímpios será eliminada; 
-os justos herdarão a terra
-e nela habitarão para sempre. 
-A boca do justo profere sabedoria,
-e a sua língua fala conforme a justiça. 
-Ele traz no coração a lei do seu Deus;
-nunca pisará em falso. 
-O ímpio fica à espreita do justo,
-querendo matá-lo; 
-mas o Senhor não o deixará cair
-em suas mãos
-nem permitirá que o condenem quando julgado. 
-Espere no Senhor
-e siga a sua vontade.
-Ele o exaltará, dando-lhe a terra por herança;
-quando os ímpios forem eliminados,
-você o verá. 
-Vi um homem ímpio e cruel
-florescendo como frondosa árvore nativa, 
-mas logo desapareceu e não mais existia;
-embora eu o procurasse,
-não pôde ser encontrado. 
-Considere o íntegro, observe o justo;
-há futuro para o homem de paz. 
-Mas todos os rebeldes serão destruídos;
-futuro para os ímpios nunca haverá. 
-Do Senhor vem a salvação dos justos;
-ele é a sua fortaleza na hora da adversidade. 
-O Senhor os ajuda e os livra;
-ele os livra dos ímpios e os salva,
-porque nele se refugiam. 
- Salmo 37
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 314697 characters
-INFO:root:HTML parsed, length: 304782 characters
-INFO:root:Found 3 titles: ['O melhor lugar que podemos estar', 'As Parábolas', 'Recorde e celebre a bondade de Deus']
+INFO:root:Response length: 314664 characters
+INFO:root:HTML parsed, length: 304743 characters
+INFO:root:Found 3 titles: ['Deus de aliança, Deus de promessa', 'O melhor lugar que podemos estar', 'As Parábolas']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Caminhando Jesus e os seus discípulos, chegaram a ', 'O que é uma parábola? É uma história que nos ajuda', 'Como é grande a tua bondade,\nque reservaste para a']
-INFO:root:Found 1 dates: ['Quarta, 24 de setembro de 2025']
+INFO:root:Found 3 descriptions: ['Saibam, portanto, que o Senhor, o seu Deus, é Deus', 'Caminhando Jesus e os seus discípulos, chegaram a ', 'O que é uma parábola? É uma história que nos ajuda']
+INFO:root:Found 1 dates: ['Quinta, 25 de setembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O melhor lugar que podemos estar', ID=6cf880e83f8360f4917c97a700eafe46
+INFO:root:Processing entry 1: Title='Deus de aliança, Deus de promessa', ID=9cc75f8ad5c71ba8bb8ae5a9652ef4a1
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O melhor lugar que podemos estar - Palavra de Hoje
+INFO:root:🔹 Title: Deus de aliança, Deus de promessa - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Caminhando Jesus e os seus discípulos, chegaram a um povoado onde certa mulher chamada Marta o recebeu em sua casa. Maria, sua irmã, ficou sentada aos pés do Senhor, ouvindo a sua palavra. Marta, porém, estava ocupada com muito serviço. E, aproximando-se dele, perguntou: "Senhor, não te importas que minha irmã tenha me deixado sozinha com o serviço? Dize-lhe que me ajude!" Respondeu o Senhor: "Marta! Marta! Você está preocupada e inquieta com muitas coisas; todavia apenas uma é necessária. Maria escolheu a boa parte, e esta não lhe será tirada".
-- Lucas 10:38-42
+INFO:root:🔹 Description: Saibam, portanto, que o Senhor, o seu Deus, é Deus; ele é o Deus fiel, que mantém a aliança e a bondade por mil gerações daqueles que o amam e obedecem aos seus mandamentos.
+- Deuteronômio 7:9
 
-Que emoção! Jesus estava prestes a entrar na casa deles! Marta e Maria ficaram felizes em recebê-lo. Ambas conheciam o Mestre e ansiavam por estar com Ele. Mas quando Jesus chegou, suas reações foram muito diferentes.
-Marta correu para preparar a casa, cozinhar, limpar e garantir que tudo estivesse perfeito para o convidado. Seu desejo de servir era genuíno, mas seu coração estava cheio de ansiedade. Em vez disso, Maria fez algo que chamou profundamente a atenção de Jesus: sentou-se aos seus pés e ouviu cada palavra que saía de sua boca. Ela escolheu parar e dar-lhe toda a sua atenção, e Jesus disse que essa era a melhor parte.
-Muitas vezes, queremos fazer muito pelo Senhor: trabalhar em Sua obra, ajudar os outros, espalhar Sua Palavra. E isso é bom, até mesmo necessário. Mas o que mais nos transforma, o que mais fortalece nossa fé e nos enche de paz, é simplesmente estar com Ele. Passar tempo com Jesus, ouvir Sua voz e receber Seu amor é o que verdadeiramente nos renova.
-De todos os lugares do mundo, o melhor lugar em que podemos estar é aos pés de Jesus. Lá encontramos descanso, direção e força para todo o resto. Sejamos mais como Maria; façamos uma pausa em meio à nossa correria e sentemo-nos para ouvir a voz amorosa e incomparável do nosso Salvador.
-Veja também: Marta e Maria: estudo bíblico sobre a prioridade da vida cristã.
+O nosso Deus é um Deus que não falha. Ele não é homem para mentir, nem filho do homem para se arrepender. Quando Ele fala, cumpre; quando promete, realiza. Essa verdade deve encher o coração do cristão de esperança e confiança, porque o Senhor é fiel à Sua aliança e ao Seu povo.
+Desde os dias de Abraão, vemos o Senhor firmando pactos com Seus filhos. Ele prometeu uma descendência, uma terra e bênção que alcançaria todas as nações. E, no tempo certo, cumpriu cada palavra. Em Cristo, a aliança foi renovada e ampliada, para que todos aqueles que creem possam participar das promessas do Pai.
+A fidelidade de Deus não está condicionada às circunstâncias, nem depende das mudanças do mundo. Mesmo quando somos infiéis, Ele permanece fiel, pois não pode negar a Si mesmo. Esse é o fundamento da nossa esperança: um Deus que cumpre o que diz e que vela por Sua Palavra para a realizar.
+As promessas do Senhor são luz em meio à escuridão, âncora em tempos de tempestade e direção em momentos de incerteza. Quando tudo ao redor parece ruir, podemos descansar na certeza de que Aquele que prometeu é poderoso para cumprir.
+Ser parte da aliança de Deus é também um chamado à obediência e à confiança. Ele nos convida a viver em santidade, a permanecer firmes e a não duvidar. Nossa resposta deve ser de fé, gratidão e perseverança.
+Que hoje possamos lembrar: servimos ao Deus da aliança, ao Deus da promessa, que é imutável, eterno e totalmente confiável. Nele não há sombra de variação, mas há graça suficiente e fidelidade sem fim.
+Deus cumpre o que promete. E Suas promessas são vida para nós.
+Veja também: 10 promessas de Deus
  
-Caminhando Jesus e os seus discípulos, chegaram a um povoado onde certa mulher chamada Marta o recebeu em sua casa. Maria, sua irmã, ficou sentada aos pés do Senhor, ouvindo a sua palavra. Marta, porém, estava ocupada com muito serviço. E, aproximando-se dele, perguntou: "Senhor, não te importas que minha irmã tenha me deixado sozinha com o serviço? Dize-lhe que me ajude!" Respondeu o Senhor: "Marta! Marta! Você está preocupada e inquieta com muitas coisas; todavia apenas uma é necessária. Maria escolheu a boa parte, e esta não lhe será tirada".
-- Lucas 10:38-42
+Saibam, portanto, que o Senhor, o seu Deus, é Deus; ele é o Deus fiel, que mantém a aliança e a bondade por mil gerações daqueles que o amam e obedecem aos seus mandamentos.
+- Deuteronômio 7:9
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 324800 characters
-INFO:root:HTML parsed, length: 314521 characters
-INFO:root:Found 3 titles: ['O amor expulsa o medo!', 'Nosso Deus é misericordioso', 'Viver em família...']
-INFO:root:Found 1 URLs: ['/a_gratidao_de_paulo/']
-INFO:root:Found 3 descriptions: ['No amor não há medo; ao contrário o perfeito amor ', 'Bendito seja o Deus e Pai de nosso Senhor Jesus Cr', 'Pai para os órfãos e defensor das viúvas (...)\nDeu']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n24\nQUARTA', 'SETEMBRO\n\n23\nTERÇA', 'SETEMBRO\n\n22\nSEGUNDA']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O amor expulsa o medo!', ID=15bfc4d0a19007cacd2f50351e05e203
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 325131 characters
+INFO:root:HTML parsed, length: 314852 characters
+INFO:root:Found 3 titles: ['Não faça votos que não possa cumprir', 'O amor expulsa o medo!', 'Nosso Deus é misericordioso']
+INFO:root:Found 2 URLs: ['/como_fazer_um_proposito_com_deus_jeito_certo/', '/a_gratidao_de_paulo/']
+INFO:root:Found 3 descriptions: ['E Jefté fez este voto ao Senhor: "Se entregares os', 'No amor não há medo; ao contrário o perfeito amor ', 'Bendito seja o Deus e Pai de nosso Senhor Jesus Cr']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n25\nQUINTA', 'SETEMBRO\n\n24\nQUARTA', 'SETEMBRO\n\n23\nTERÇA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Não faça votos que não possa cumprir', ID=71a7ec90b1129a2c26e55ae0440f39f3
+INFO:root:Processing entry 2: Title='O amor expulsa o medo!', ID=15bfc4d0a19007cacd2f50351e05e203
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Não faça votos que não possa cumprir
+INFO:root:🔹 URL: https://www.bibliaon.com/como_fazer_um_proposito_com_deus_jeito_certo/
+INFO:root:🔹 Description: E Jefté fez este voto ao Senhor: "Se entregares os amonitas nas minhas mãos, aquele que estiver saindo da porta da minha casa ao meu encontro, quando eu retornar da vitória sobre os amonitas, será do Senhor, e eu o oferecerei em holocausto".
+- Juízes 11:30-31
+
+
+Quando Jefté chegou à sua casa em Mispá, sua filha saiu ao seu encontro, dançando ao som de tamborins. E ela era filha única. Ele não tinha outro filho ou filha. Quando a viu, rasgou suas vestes e gritou: "Ah, minha filha! Estou angustiado e desesperado por sua causa, pois fiz ao Senhor um voto que não posso quebrar".
+- Juízes 11:34-35
+
+O episódio de Jefté nos alerta de maneira séria sobre o perigo de fazermos votos impensados diante de Deus. Movido pelo desejo de conquistar a vitória contra os amonitas, ele prometeu algo sem medir as consequências. Seu voto trouxe dor não apenas a ele, mas também à sua filha, a quem amava profundamente. Isso mostra que palavras ditas de forma precipitada podem gerar marcas irreversíveis.
+A Bíblia nos ensina que o Senhor não exige de nós votos para agir em nosso favor; Ele espera fé, obediência e confiança. Quando fazemos promessas apenas movidos pela emoção ou pela busca de resultados rápidos, corremos o risco de assumir compromissos que não conseguiremos cumprir ou que gerarão sofrimento.
+Jesus mesmo nos orienta a que nosso “sim” seja “sim” e nosso “não”, “não” (Mateus 5:37), lembrando que a integridade deve ser suficiente em nossa relação com Deus e com o próximo.
+Aprendemos com Jefté que devemos ser cuidadosos com o que declaramos diante do Senhor. O mais importante não são votos grandiosos, mas um coração sincero, que vive em obediência diária. Deus valoriza a fidelidade constante muito mais do que palavras ditas sem sabedoria.
+Cuidado com as promessas diante de Deus
+
+
+Antes de falar, ore e reflita. Palavras precipitadas podem gerar dor. Deus valoriza mais a obediência contínua que votos emocionais que não conseguimos cumprir.
+
+Viva com integridade simples: que seu “sim” seja verdadeiro e seu “não” firme. A sinceridade diária tem mais peso diante de Deus que grandes promessas não realizadas.
+
+Confie na graça de Deus sem barganhas. Deus não exige votos para agir, mas fé constante. Entregue a Ele sua vida, obedecendo em cada detalhe, sem negociar bênçãos.
+
+Para orar:
+
+Senhor amado, ensina-me a usar minhas palavras com sabedoria e reverência diante de Ti. Que eu não faça promessas tolas, mas viva em obediência sincera, honrando-Te com meu coração e ações. Amém.
+
+Veja também: Como fazer um propósito com Deus do jeito certo (com 4 exemplos bíblicos).
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O amor expulsa o medo!
 INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
 INFO:root:🔹 Description: No amor não há medo; ao contrário o perfeito amor expulsa o medo, porque o medo supõe castigo. Aquele que tem medo não está aperfeiçoado no amor. 
@@ -394,15 +353,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 +---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  28 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  28 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  21 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 147 +++++-------
+ feeds/palavra_do_dia/atom.xml             |  24 +--
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               | 148 ++++---------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 359 ++++++++++++------------------
- 11 files changed, 255 insertions(+), 410 deletions(-)
+ output.log                                | 343 +++++++++++++-----------------
+ 11 files changed, 267 insertions(+), 360 deletions(-)
