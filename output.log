@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119379 characters
-INFO:root:HTML parsed, length: 112537 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (29/09/2025)', 'Palavra de Ontem (28/09/2025)', 'Palavra de Anteontem (27/09/2025)']
-INFO:root:Found 3 URLs: ['/voga/', '/aprimorar/', '/concatenacao/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Mania passageira; animação mo', 'Sinônimos:\n\nmania, uso, moda, tendência, fama, ren', 'Classe gramatical:substantivo de dois gêneros']
-INFO:root:Found 3 dates: ['Palavra de Hoje (29/09/2025)', 'Palavra de Ontem (28/09/2025)', 'Palavra de Anteontem (27/09/2025)']
+INFO:root:Response length: 119864 characters
+INFO:root:HTML parsed, length: 112815 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (30/09/2025)', 'Palavra de Ontem (29/09/2025)', 'Palavra de Anteontem (28/09/2025)']
+INFO:root:Found 3 URLs: ['/vertigem/', '/voga/', '/aprimorar/']
+INFO:root:Found 14 descriptions: ['substantivo feminino Sensação de oscilação, de ins', 'Sinônimos:\n\natordoamento, aturdimento, tontura, de', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (30/09/2025)', 'Palavra de Ontem (29/09/2025)', 'Palavra de Anteontem (28/09/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (29/09/2025)', ID=d4e7f6fea2033db304687fa3b84f1441
-INFO:root:Processing entry 2: Title='Palavra de Ontem (28/09/2025)', ID=f34ed1da36c0cd910f38d0877593d057
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (27/09/2025)', ID=42e15e96479e7869abd2c3da8dbb88d1
+INFO:root:Processing entry 1: Title='Palavra de Hoje (30/09/2025)', ID=aaede4da0bb7992dbd64b388d72f26a6
+INFO:root:Processing entry 2: Title='Palavra de Ontem (29/09/2025)', ID=a9c2d8299b7bc20fd3663c08f9d621c2
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/09/2025)', ID=7bcbf0e8e8f2621aae81e546a02818c1
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (29/09/2025) - Significado completo de voga:
-INFO:root:🔹 URL: https://www.dicio.com.br/voga/
-INFO:root:🔹 Description: substantivo feminino Mania passageira; animação momentânea que está em destaque no momento presente; mania: a música eletrônica está em voga agora.[Por Extensão] Ritmo demonstrado ou contido em quaisquer ações.[Marinha] Movimento ritmado das remadas.Ação ou efeito de vogar, de divulgar, de estar na moda.substantivo masculino [Marinha] Indivíduo que, sentado na parte traseira das embarcações, marca o ritmo da remada daqueles que o acompanham.Etimologia (origem da palavra voga). Forma regressiva de vogar.
+INFO:root:🔹 Title: Palavra de Hoje (30/09/2025) - Significado completo de vertigem:
+INFO:root:🔹 URL: https://www.dicio.com.br/vertigem/
+INFO:root:🔹 Description: substantivo feminino Sensação de oscilação, de instabilidade corporal, caracterizada pela perda de equilíbrio; tonteira.Sensação que dá a ideia de que o corpo está girando ao redor de si próprio ou em relação ao que o rodeia.[Por Extensão] Sensação de fraqueza ou perda momentânea das forças físicas; desmaio.[Figurado] Descontrole emocional; ausência de razão; desvario.Etimologia (origem da palavra vertigem). A palavra vertigem deriva do latim "vertigo,inis", com o sentido de movimento de rotação, em torno de si próprio.
  
 Sinônimos:
 
-mania, uso, moda, tendência, fama, renome, reputação, popularidade 
+atordoamento, aturdimento, tontura, desmaio, tonteira 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (28/09/2025) - Significado completo de aprimorar:
-INFO:root:🔹 URL: https://www.dicio.com.br/aprimorar/
+INFO:root:🔹 Title: Palavra de Ontem (29/09/2025) - Significado completo de voga:
+INFO:root:🔹 URL: https://www.dicio.com.br/voga/
 INFO:root:🔹 Description: Sinônimos:
 
-mania, uso, moda, tendência, fama, renome, reputação, popularidade
- Classe gramatical:substantivo de dois gêneros
+atordoamento, aturdimento, tontura, desmaio, tonteira
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (27/09/2025) - Significado completo de concatenação:
-INFO:root:🔹 URL: https://www.dicio.com.br/concatenacao/
-INFO:root:🔹 Description: Classe gramatical:substantivo de dois gêneros
- Sílabas:vo-ga
+INFO:root:🔹 Title: Palavra de Anteontem (28/09/2025) - Significado completo de aprimorar:
+INFO:root:🔹 URL: https://www.dicio.com.br/aprimorar/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:ver-ti-gem
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,41 +42,74 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 312217 characters
-INFO:root:HTML parsed, length: 301895 characters
-INFO:root:Found 1 titles: ['Salmos 37:4']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_37_4/']
-INFO:root:Found 1 descriptions: ['Deleite-se no Senhor,\ne ele atenderá aos desejos d']
+INFO:root:Response length: 319213 characters
+INFO:root:HTML parsed, length: 308801 characters
+INFO:root:Found 1 titles: ['Mateus 5:14']
+INFO:root:Found 1 URLs: ['/versiculo/mateus_5_14/']
+INFO:root:Found 1 descriptions: ['"Vocês são a luz do mundo. Não se pode esconder um']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 37:4', ID=4693536afa6a5e25dce6631632079d83
+INFO:root:Processing entry 1: Title='Mateus 5:14', ID=d8a93b86821b149dba7ba5aa17bd3533
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 37:4
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_37_4/
-INFO:root:🔹 Description: Deleite-se no Senhor,
-e ele atenderá aos desejos do seu coração. Salmos 37:4
+INFO:root:🔹 Title: Mateus 5:14
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_5_14/
+INFO:root:🔹 Description: "Vocês são a luz do mundo. Não se pode esconder uma cidade construída sobre um monte. Mateus 5:14
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 313544 characters
-INFO:root:HTML parsed, length: 303996 characters
-INFO:root:Found 3 titles: ['Salmo 143', 'Salmo 139', 'Salmo 90']
-INFO:root:Found 3 URLs: ['/salmos_143/', '/salmos_139/', '/salmos_90/']
-INFO:root:Found 3 descriptions: ['Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Senhor, tu me sondas e me conheces. \nSabes quando ', 'Senhor, tu és o nosso refúgio, sempre,\nde geração ']
-INFO:root:Found 3 dates: ['29 de Setembro de 2025', '28 de Setembro de 2025', '27 de Setembro de 2025']
+INFO:root:Response length: 319481 characters
+INFO:root:HTML parsed, length: 309906 characters
+INFO:root:Found 3 titles: ['Salmo 28', 'Salmo 143', 'Salmo 139']
+INFO:root:Found 3 URLs: ['/salmos_28/', '/salmos_143/', '/salmos_139/']
+INFO:root:Found 3 descriptions: ['A ti eu clamo, Senhor, minha Rocha;\nnão fiques ind', 'Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Senhor, tu me sondas e me conheces. \nSabes quando ']
+INFO:root:Found 3 dates: ['30 de Setembro de 2025', '29 de Setembro de 2025', '28 de Setembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
-INFO:root:Processing entry 2: Title=' Salmo 139', ID=a7e635d36a8b14a8c51005103bd4b395
-INFO:root:Processing entry 3: Title=' Salmo 90', ID=d178cec5e87ab7f471246c4a0929f7d6
+INFO:root:Processing entry 1: Title=' Salmo 28', ID=78b7dee7d237c8a96fe45379c63d7e92
+INFO:root:Processing entry 2: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
+INFO:root:Processing entry 3: Title=' Salmo 139', ID=a7e635d36a8b14a8c51005103bd4b395
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 28
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_28/
+INFO:root:🔹 Description: A ti eu clamo, Senhor, minha Rocha;
+não fiques indiferente para comigo.
+Se permaneceres calado,
+serei como os que descem à cova. 
+Ouve as minhas súplicas
+quando clamo a ti por socorro,
+quando ergo as mãos
+para o teu Lugar Santíssimo. 
+Não me dês o castigo reservado para os ímpios
+e para os malfeitores,
+que falam como amigos com o próximo,
+mas abrigam maldade no coração. 
+Retribui-lhes conforme os seus atos,
+conforme as suas más obras;
+retribui-lhes o que as suas mãos têm feito
+e dá-lhes o que merecem. 
+Visto que não consideram os feitos do Senhor
+nem as obras de suas mãos,
+ele os arrasará e jamais os deixará reerguer-se. 
+Bendito seja o Senhor,
+pois ouviu as minhas súplicas. 
+O Senhor é a minha força e o meu escudo;
+nele o meu coração confia, e dele recebo ajuda.
+Meu coração exulta de alegria,
+e com o meu cântico lhe darei graças. 
+O Senhor é a força do seu povo,
+a fortaleza que salva o seu ungido. 
+Salva o teu povo e abençoa a tua herança!
+Cuida deles como o seu pastor
+e conduze-os para sempre. 
+ Salmo 28
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 143
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_143/
 INFO:root:🔹 Description: Ouve, Senhor, a minha oração,
@@ -186,126 +219,90 @@ Vê se em minha conduta algo te ofende
 e dirige-me pelo caminho eterno. 
  Salmo 139
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 90
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_90/
-INFO:root:🔹 Description: Senhor, tu és o nosso refúgio, sempre,
-de geração em geração. 
-Antes de nascerem os montes
-e de criares a terra e o mundo,
-de eternidade a eternidade tu és Deus. 
-Fazes os homens voltarem ao pó,
-dizendo: "Retornem ao pó, seres humanos!" 
-De fato, mil anos para ti
-são como o dia de ontem que passou,
-como as horas da noite. 
-Como uma correnteza, tu arrastas os homens;
-são breves como o sono;
-são como a relva que brota ao amanhecer; 
-germina e brota pela manhã,
-mas, à tarde, murcha e seca. 
-Somos consumidos pela tua ira
-e aterrorizados pelo teu furor. 
-Conheces as nossas iniquidades;
-não escapam os nossos pecados secretos
-à luz da tua presença. 
-Todos os nossos dias passam
-debaixo do teu furor;
-vão-se como um murmúrio. 
-Os anos de nossa vida chegam a setenta,
-ou a oitenta para os que têm mais vigor;
-entretanto, são anos difíceis
-e cheios de sofrimento,
-pois a vida passa depressa,
-e nós voamos! 
-Quem conhece o poder da tua ira?
-Pois o teu furor é tão grande
-como o temor que te é devido. 
-Ensina-nos a contar os nossos dias
-para que o nosso coração alcance sabedoria. 
-Volta-te, Senhor! Até quando será assim?
-Tem compaixão dos teus servos! 
-Satisfaze-nos pela manhã
-com o teu amor leal,
-e todos os nossos dias cantaremos felizes. 
-Dá-nos alegria pelo tempo que nos afligiste,
-pelos anos em que tanto sofremos. 
-Sejam manifestos os teus feitos
-aos teus servos,
-e aos filhos deles o teu esplendor! 
-Esteja sobre nós a bondade
-do nosso Deus Soberano.
-Consolida, para nós,
-a obra de nossas mãos;
-consolida a obra de nossas mãos! 
- Salmo 90
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 314819 characters
-INFO:root:HTML parsed, length: 304914 characters
-INFO:root:Found 3 titles: ['Deus é nosso refúgio e fortaleza', 'Somos parte do corpo de Cristo e cada um tem sua função', 'Permaneça no Senhor e você dará bons frutos']
+INFO:root:Response length: 321230 characters
+INFO:root:HTML parsed, length: 311315 characters
+INFO:root:Found 3 titles: ['Creia: você verá a bondade de Deus!', 'Deus é nosso refúgio e fortaleza', 'Somos parte do corpo de Cristo e cada um tem sua função']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Deus é o nosso refúgio e a nossa fortaleza,\nauxíli', 'Assim como cada um de nós tem um corpo com muitos ', 'Permaneçam em mim, e eu permanecerei em vocês. Nen']
-INFO:root:Found 1 dates: ['Segunda, 29 de setembro de 2025']
+INFO:root:Found 3 descriptions: ['Apesar disso, esta certeza eu tenho:\nviverei até v', 'Deus é o nosso refúgio e a nossa fortaleza,\nauxíli', 'Assim como cada um de nós tem um corpo com muitos ']
+INFO:root:Found 1 dates: ['Terça, 30 de setembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus é nosso refúgio e fortaleza', ID=b0384c923f6eefbfb23c45a14c2eb793
+INFO:root:Processing entry 1: Title='Creia: você verá a bondade de Deus!', ID=34618678525f681fbb6861f9c4fd2c24
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus é nosso refúgio e fortaleza - Palavra de Hoje
+INFO:root:🔹 Title: Creia: você verá a bondade de Deus! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Deus é o nosso refúgio e a nossa fortaleza,
-auxílio sempre presente na adversidade.
-Por isso não temeremos,
-ainda que a terra trema
-e os montes afundem no coração do mar,
-ainda que estrondem as suas águas turbulentas
-e os montes sejam sacudidos
-pela sua fúria.
-- Salmo 46:1-3 
+INFO:root:🔹 Description: Apesar disso, esta certeza eu tenho:
+viverei até ver a bondade do Senhor na terra.
+Espere no Senhor.
+Seja forte! Coragem!
+Espere no Senhor.
+- Salmo 27:13-14
 
-O Salmo 46 acalma nossos corações quando nos encontramos em meio às tempestades da vida. Saber que podemos recorrer a Deus em busca de proteção e ajuda nos encoraja e fortalece. Em vez de permitir que o medo ou a ansiedade nos dominem quando as tempestades chegam, devemos nos lembrar da grandeza e do poder do nosso Deus. Essa confiança em Seu poder nos manterá firmes e fortes.
-O salmo nos lembra que, em meio ao caos que às vezes enfrentamos, Deus é nossa segurança e nossa paz. Podemos ficar calmos e tranquilos, sabendo que o mesmo Deus de milagres e maravilhas sobre o qual lemos na Palavra é aquele que nos acompanha e nos ajuda nos problemas e dificuldades da vida. 
+Em meio aos problemas e dificuldades da vida, pode ser difícil enxergar o bem ou o belo, as bênçãos que Deus continua a derramar sobre nós. Mas devemos ter certeza de que Deus ainda é bom e continua a trabalhar em nosso favor. Essa certeza cheia de fé pode ser o que nos sustenta em meio às provações.
+Deus é bom, Deus é fiel, Ele nos ama e não nos abandona quando as coisas ficam difíceis. Quando nossa fé vacila, podemos olhar para trás e lembrar como o Senhor nos sustentou no passado. Cada milagre do passado é um testemunho vivo de que Sua bondade nunca muda. Ele pode fazer coisas maravilhosas novamente! Mesmo quando as circunstâncias não acontecem como esperamos, podemos descansar sabendo que Seus planos são sempre melhores que os nossos.
+A bondade de Deus é tão grande que Ele nos concede o que realmente precisamos, mesmo que seja diferente do que pedimos. Em Sua sabedoria e amor perfeito, Ele vê além e nos concede exatamente o que nos ajudará e nos abençoará. Portanto, podemos esperar nele com paz em nossos corações, sabendo que suas promessas são certas.
 
-"Parem de lutar! Saibam que eu sou Deus!
-Serei exaltado entre as nações,
-serei exaltado na terra."
-O Senhor dos Exércitos está conosco;
-o Deus de Jacó é a nossa torre segura.
-- Salmo 46:10-11 
+Provem e vejam como o Senhor é bom.
+Como é feliz o homem que nele se refugia!
+- Salmo 34:8
 
-Quando descansamos em Deus, descobrimos que Sua presença acalma nossos medos e renova nossa esperança. Quando confiamos nEle e entregamos nossas lutas a Ele, Deus dirige nossos passos, enchendo-nos de confiança e força. Ao nos refugiarmos em Seu amor, encontramos a paz que o mundo não pode dar, uma paz que nos sustenta mesmo quando tudo ao nosso redor parece estar desmoronando.
-Seja qual for a tempestade que você esteja enfrentando hoje, lembre-se de que você não está sozinho. O Deus que sustenta o universo é o mesmo Deus que sustenta sua vida. Lance seus fardos sobre Ele; deixe que Ele seja seu escudo e sua paz. Apegue-se à Sua Palavra e confie em Sua fidelidade, pois em Suas mãos você sempre estará seguro e em Sua presença encontrará descanso para sua alma. 
-Leia o Salmo 46 completo.
+Anime-se hoje e eleve o olhar para o céu com confiança. A bondade de Deus nunca se esgota, nunca atrasa e nunca falha. Mesmo que você não veja o caminho com clareza agora, continue acreditando: você verá a bondade do Senhor em sua vida. E enquanto espera, aproxime-se dEle e desfrute da sua paz, sabendo que Deus é bom, fiel e digno de toda a nossa confiança.
+Veja também: Versículos sobre a bondade de Deus.
  
-Deus é o nosso refúgio e a nossa fortaleza,
-auxílio sempre presente na adversidade.
-Por isso não temeremos,
-ainda que a terra trema
-e os montes afundem no coração do mar,
-ainda que estrondem as suas águas turbulentas
-e os montes sejam sacudidos
-pela sua fúria.
-- Salmo 46:1-3 
+Apesar disso, esta certeza eu tenho:
+viverei até ver a bondade do Senhor na terra.
+Espere no Senhor.
+Seja forte! Coragem!
+Espere no Senhor.
+- Salmo 27:13-14
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 324642 characters
-INFO:root:HTML parsed, length: 314362 characters
-INFO:root:Found 3 titles: ['Fazer o bem faz bem!', 'Seja um evangelista de proximidade', 'A Vida Pela Fé no Filho de Deus']
-INFO:root:Found 1 URLs: ['/proposito_de_deus_como_descobrir_e_entender_reflexao_biblica/']
-INFO:root:Found 3 descriptions: ['E não nos cansemos de fazer o bem, pois no tempo p', '"Vão pelo mundo todo e preguem o evangelho a todas', 'Fui crucificado com Cristo. Assim, já não sou eu q']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n29\nSEGUNDA', 'SETEMBRO\n\n28\nDOMINGO', 'SETEMBRO\n\n27\nSÁBADO']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Fazer o bem faz bem!', ID=9f8d659391b6160470a27739b394d9e7
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 331678 characters
+INFO:root:HTML parsed, length: 321275 characters
+INFO:root:Found 3 titles: ['Quebrando barreiras através de amor', 'Fazer o bem faz bem!', 'Seja um evangelista de proximidade']
+INFO:root:Found 2 URLs: ['/o_amor_incondicional_de_deus_estudo/', '/proposito_de_deus_como_descobrir_e_entender_reflexao_biblica/']
+INFO:root:Found 3 descriptions: ['O meu mandamento é este: Amem-se uns aos outros co', 'E não nos cansemos de fazer o bem, pois no tempo p', '"Vão pelo mundo todo e preguem o evangelho a todas']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n30\nTERÇA', 'SETEMBRO\n\n29\nSEGUNDA', 'SETEMBRO\n\n28\nDOMINGO']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Quebrando barreiras através de amor', ID=df7473028b413f2855d93347422164a5
+INFO:root:Processing entry 2: Title='Fazer o bem faz bem!', ID=9f8d659391b6160470a27739b394d9e7
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Quebrando barreiras através de amor
+INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
+INFO:root:🔹 Description: O meu mandamento é este: Amem-se uns aos outros como eu os amei.
+- João 15:12
+
+O amor é a força mais poderosa que existe. Ele é capaz de transformar corações endurecidos, restaurar relacionamentos e construir pontes onde antes havia muros. Quando Jesus nos chama para amar uns aos outros como Ele nos amou, Ele nos convida a viver um amor que ultrapassa fronteiras, preconceitos e diferenças. Esse amor não é limitado por raça, classe social, religião ou passado. é um amor que cura e une.
+As barreiras que nos separam não são físicas, mas emocionais e espirituais. São mágoas, julgamentos e medos que nos impedem de enxergar o outro como um irmão. No entanto, quando deixamos Cristo agir em nós, Ele nos ensina a perdoar, a compreender e a estender a mão. O amor de Deus não busca recompensas; ele se doa, mesmo quando não é correspondido.
+Quebrar barreiras através do amor é escolher o caminho da cruz, o caminho da entrega, da humildade e da graça. É responder ao ódio com mansidão, à rejeição com compaixão e à indiferença com cuidado. Esse tipo de amor não é natural; ele é fruto do Espírito Santo agindo em um coração disposto.
+O mundo precisa desesperadamente desse amor. Em meio a tanta divisão, Deus nos chama para ser instrumentos de reconciliação. Cada gesto de bondade, cada palavra de encorajamento, cada perdão concedido é um tijolo retirado dos muros que nos separam.
+Que possamos viver o mandamento de Jesus com sinceridade, permitindo que Seu amor flua através de nós. Assim, veremos barreiras caindo, corações sendo curados e vidas sendo transformadas pelo poder do amor que vem de Deus.
+O amor que quebra barreiras
+
+
+Liberar perdão é libertar o coração. Quando perdoamos, deixamos Deus agir, curando feridas e restaurando relacionamentos quebrados pelo orgulho e pela dor.
+
+Sirva com humildade. O amor verdadeiro se manifesta em atitudes simples. Servir ao próximo com alegria e empatia revela o caráter de Cristo em nós e transforma ambientes.
+
+Ore por quem te fere. A oração muda corações, inclusive o nosso. Ao interceder por quem nos magoa, aprendemos a amar com o mesmo amor que recebemos de Deus.
+
+Para orar:
+
+Senhor, ensina-me a amar como Tu amas. Que eu perdoe com sinceridade, sirva com humildade e ore por todos, mesmo os que me ferem. Que o Teu amor derrube barreiras, una corações e traga paz onde há divisão. Transforma-me em instrumento da Tua graça e faz de mim reflexo do Teu amor no mundo. Amém.
+
+Veja também: Reflexão sobre o amor de Deus.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Fazer o bem faz bem!
 INFO:root:🔹 URL: https://www.bibliaon.com/proposito_de_deus_como_descobrir_e_entender_reflexao_biblica/
 INFO:root:🔹 Description: E não nos cansemos de fazer o bem, pois no tempo próprio colheremos, se não desanimarmos.
@@ -352,15 +349,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  27 ++-
- feeds/devocional_de_hoje/feed.json        |   6 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  40 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  25 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  49 +++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  78 +++++----
+ feeds/salmo_do_dia/atom.xml               |  85 ++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |  10 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 273 +++++++++++++++---------------
- 11 files changed, 251 insertions(+), 245 deletions(-)
+ output.log                                | 289 ++++++++++++++----------------
+ 11 files changed, 251 insertions(+), 268 deletions(-)
