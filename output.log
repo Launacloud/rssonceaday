@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121465 characters
-INFO:root:HTML parsed, length: 114235 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (03/10/2025)', 'Palavra de Ontem (02/10/2025)', 'Palavra de Anteontem (01/10/2025)']
-INFO:root:Found 3 URLs: ['/palanque/', '/abstrato/', '/avo-3/']
-INFO:root:Found 15 descriptions: ['substantivo masculino Estrado de madeira com degra', 'Sinônimos:\n\ntribuna, varanda, palanca', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (03/10/2025)', 'Palavra de Ontem (02/10/2025)', 'Palavra de Anteontem (01/10/2025)']
+INFO:root:Response length: 122149 characters
+INFO:root:HTML parsed, length: 114806 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (04/10/2025)', 'Palavra de Ontem (03/10/2025)', 'Palavra de Anteontem (02/10/2025)']
+INFO:root:Found 3 URLs: ['/celeste/', '/palanque/', '/abstrato/']
+INFO:root:Found 16 descriptions: ['adjetivo Relativo ou próprio do céu; que está ou a', 'Sinônimos:\n\ncelestial, etéreo, celestino, sideral,', 'Antônimos:\n\ninfernal, avernoso, avernal, mundano, ']
+INFO:root:Found 3 dates: ['Palavra de Hoje (04/10/2025)', 'Palavra de Ontem (03/10/2025)', 'Palavra de Anteontem (02/10/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (03/10/2025)', ID=68f87bd93f522cc554df1fef46360d9e
-INFO:root:Processing entry 2: Title='Palavra de Ontem (02/10/2025)', ID=9b5cb87bccd1e6334f769619c6ac6247
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (01/10/2025)', ID=2b72f6b0f7f82663748da59c6d32a311
+INFO:root:Processing entry 1: Title='Palavra de Hoje (04/10/2025)', ID=80b2ff8a11d589f8d4b2647ca8af73a5
+INFO:root:Processing entry 2: Title='Palavra de Ontem (03/10/2025)', ID=97e8b19f7b6db9c8420e7b2b222ef4d7
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (02/10/2025)', ID=b56fde81aae20aededc418919978c874
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (03/10/2025) - Significado completo de palanque:
-INFO:root:🔹 URL: https://www.dicio.com.br/palanque/
-INFO:root:🔹 Description: substantivo masculino Estrado de madeira com degraus, construído para os espectadores de uma festa ao ar livre.Tronco ao qual se prende o cavalo para o domar ou tratar.Muralha de defesa feita de estacas enterradas verticalmente e coberta de terra; palanca.Etimologia (origem da palavra palanque). De origem questionável.
+INFO:root:🔹 Title: Palavra de Hoje (04/10/2025) - Significado completo de celeste:
+INFO:root:🔹 URL: https://www.dicio.com.br/celeste/
+INFO:root:🔹 Description: adjetivo Relativo ou próprio do céu; que está ou aparece no céu: astros celestes; cor celeste.Habitante do céu ou dele derivado, característico; célio.Cuja cor se assemelha ao céu sem nuvens, especialmente falando da cor azul; azul do céu, azul celeste.De teor sobrenatural, supremo: criaturas celestes.[Religião] Concernente à divindade; divino.[Astronomia] Proveniente do céu ou caído da atmosfera.[Figurado] Que denota perfeição, superioridade; superior, perfeito.[Antigo] Referente ao antigo império chinês.Etimologia (origem da palavra celeste). A palavra celeste deriva do latim caelestis,e ou coelestis,e, com o sentido de "referente ao céu".
  
 Sinônimos:
 
-tribuna, varanda, palanca 
+celestial, etéreo, celestino, sideral, sidéreo, divino, supremo, sobrenatural, superior, perfeito 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (02/10/2025) - Significado completo de abstrato:
-INFO:root:🔹 URL: https://www.dicio.com.br/abstrato/
+INFO:root:🔹 Title: Palavra de Ontem (03/10/2025) - Significado completo de palanque:
+INFO:root:🔹 URL: https://www.dicio.com.br/palanque/
 INFO:root:🔹 Description: Sinônimos:
 
-tribuna, varanda, palanca
- Classe gramatical:substantivo masculino
+celestial, etéreo, celestino, sideral, sidéreo, divino, supremo, sobrenatural, superior, perfeito
+ 
+Antônimos:
+
+infernal, avernoso, avernal, mundano, terreno 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (01/10/2025) - Significado completo de avô:
-INFO:root:🔹 URL: https://www.dicio.com.br/avo-3/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:pa-lan-que
+INFO:root:🔹 Title: Palavra de Anteontem (02/10/2025) - Significado completo de abstrato:
+INFO:root:🔹 URL: https://www.dicio.com.br/abstrato/
+INFO:root:🔹 Description: Antônimos:
+
+infernal, avernoso, avernal, mundano, terreno
+ Classe gramatical:adjetivo de dois gêneros e substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +48,79 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 319587 characters
-INFO:root:HTML parsed, length: 309175 characters
-INFO:root:Found 1 titles: ['1 Pedro 2:24']
-INFO:root:Found 1 URLs: ['/versiculo/1_pedro_2_24/']
-INFO:root:Found 1 descriptions: ['Ele mesmo levou em seu corpo os nossos pecados sob']
+INFO:root:Response length: 320659 characters
+INFO:root:HTML parsed, length: 310240 characters
+INFO:root:Found 1 titles: ['1 Coríntios 15:58']
+INFO:root:Found 1 URLs: ['/versiculo/1_corintios_15_58/']
+INFO:root:Found 1 descriptions: ['Portanto, meus amados irmãos, mantenham-se firmes,']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Pedro 2:24', ID=b24d15f1c6ea522861593c8c67584ced
+INFO:root:Processing entry 1: Title='1 Coríntios 15:58', ID=c767e89e8c5b4dccf4a238f005fa2464
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Pedro 2:24
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_pedro_2_24/
-INFO:root:🔹 Description: Ele mesmo levou em seu corpo os nossos pecados sobre o madeiro, a fim de que morrêssemos para os pecados e vivêssemos para a justiça; por suas feridas vocês foram curados. 1 Pedro 2:24
+INFO:root:🔹 Title: 1 Coríntios 15:58
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_corintios_15_58/
+INFO:root:🔹 Description: Portanto, meus amados irmãos, mantenham-se firmes, e que nada os abale. Sejam sempre dedicados à obra do Senhor, pois vocês sabem que, no Senhor, o trabalho de vocês não será inútil. 1 Coríntios 15:58
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 319013 characters
-INFO:root:HTML parsed, length: 309419 characters
-INFO:root:Found 3 titles: ['Salmo 148', 'Salmo 12', 'Salmo 86']
-INFO:root:Found 3 URLs: ['/salmos_148/', '/salmos_12/', '/salmos_86/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ', 'Salva-nos, Senhor!\nJá não há quem seja fiel;\njá nã', 'Inclina os teus ouvidos, ó Senhor,\ne responde-me,\n']
-INFO:root:Found 3 dates: ['3 de Outubro de 2025', '2 de Outubro de 2025', '1 de Outubro de 2025']
+INFO:root:Response length: 319786 characters
+INFO:root:HTML parsed, length: 310161 characters
+INFO:root:Found 3 titles: ['Salmo 92', 'Salmo 148', 'Salmo 12']
+INFO:root:Found 3 URLs: ['/salmos_92/', '/salmos_148/', '/salmos_12/']
+INFO:root:Found 3 descriptions: ['Como é bom render graças ao Senhor\ne cantar louvor', 'Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ', 'Salva-nos, Senhor!\nJá não há quem seja fiel;\njá nã']
+INFO:root:Found 3 dates: ['4 de Outubro de 2025', '3 de Outubro de 2025', '2 de Outubro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
-INFO:root:Processing entry 2: Title=' Salmo 12', ID=49502e558b5ea125843624a2e8b68158
-INFO:root:Processing entry 3: Title=' Salmo 86', ID=38b7fc7dbc979f5c81a0d9c139ea551c
+INFO:root:Processing entry 1: Title=' Salmo 92', ID=ae899820dc3cd693b22e3b6649bf23d7
+INFO:root:Processing entry 2: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
+INFO:root:Processing entry 3: Title=' Salmo 12', ID=49502e558b5ea125843624a2e8b68158
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 92
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_92/
+INFO:root:🔹 Description: Como é bom render graças ao Senhor
+e cantar louvores ao teu nome, ó Altíssimo; 
+anunciar de manhã o teu amor leal
+e de noite a tua fidelidade, 
+ao som da lira de dez cordas e da cítara,
+e da melodia da harpa. 
+Tu me alegras, Senhor, com os teus feitos;
+as obras das tuas mãos
+levam-me a cantar de alegria. 
+Como são grandes as tuas obras, Senhor,
+como são profundos os teus propósitos! 
+O insensato não entende, o tolo não vê 
+que, embora os ímpios brotem como a erva
+e floresçam todos os malfeitores,
+eles serão destruídos para sempre. 
+Pois tu, Senhor, és exaltado para sempre. 
+Mas os teus inimigos, Senhor,
+os teus inimigos perecerão;
+serão dispersos todos os malfeitores! 
+Tu aumentaste a minha força
+como a do boi selvagem;
+derramaste sobre mim óleo novo. 
+Os meus olhos contemplaram a derrota
+dos meus inimigos;
+os meus ouvidos escutaram a debandada
+dos meus maldosos agressores. 
+Os justos florescerão como a palmeira,
+crescerão como o cedro do Líbano; 
+plantados na casa do Senhor,
+florescerão nos átrios do nosso Deus. 
+Mesmo na velhice darão fruto,
+permanecerão viçosos e verdejantes, 
+para proclamar que o Senhor é justo.
+Ele é a minha Rocha;
+nele não há injustiça. 
+ Salmo 92
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 148
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_148/
 INFO:root:🔹 Description: Aleluia!
@@ -142,106 +187,83 @@ Os ímpios andam altivos por toda parte,
 quando a corrupção é exaltada entre os ho­mens. 
  Salmo 12
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 86
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_86/
-INFO:root:🔹 Description: Inclina os teus ouvidos, ó Senhor,
-e responde-me,
-pois sou pobre e necessitado. 
-Guarda a minha vida, pois sou fiel a ti.
-Tu és o meu Deus;
-salva o teu servo que em ti confia! 
-Misericórdia, Senhor,
-pois clamo a ti sem cessar. 
-Alegra o coração do teu servo,
-pois a ti, Senhor, elevo a minha alma. 
-Tu és bondoso e perdoador, Senhor,
-rico em graça
-para com todos os que te invocam. 
-Escuta a minha oração, Senhor;
-atenta para a minha súplica! 
-No dia da minha angústia clamarei a ti,
-pois tu me responderás. 
-Nenhum dos deuses é comparável a ti, Senhor,
-nenhum deles pode fazer o que tu fazes. 
-Todas as nações que tu formaste
-virão e te adorarão, Senhor,
-e glorificarão o teu nome. 
-Pois tu és grande
-e realizas feitos maravilhosos;
-só tu és Deus! 
-Ensina-me o teu caminho, Senhor,
-para que eu ande na tua verdade;
-dá-me um coração inteiramente fiel,
-para que eu tema o teu nome. 
-De todo o meu coração te louvarei,
-Senhor, meu Deus;
-glorificarei o teu nome para sempre. 
-Pois grande é o teu amor para comigo;
-tu me livraste das profundezas do Sheol. 
-Os arrogantes estão me atacando, ó Deus;
-um bando de homens cruéis,
-gente que não faz caso de ti
-procura tirar-me a vida. 
-Mas tu, Senhor,
-és Deus compassivo e misericordioso,
-muito paciente, rico em amor e em fidelidade. 
-Volta-te para mim! Tem misericórdia de mim!
-Concede a tua força a teu servo
-e salva o filho da tua serva. 
-Dá-me um sinal da tua bondade,
-para que os meus inimigos vejam
-e sejam humilhados,
-pois tu, Senhor, me ajudaste e me consolaste. 
- Salmo 86
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 321631 characters
-INFO:root:HTML parsed, length: 311700 characters
-INFO:root:Found 3 titles: ['Somos ovelhas do Bom Pastor', 'Uma boa troca', 'Seja forte e espere no Senhor']
+INFO:root:Response length: 322677 characters
+INFO:root:HTML parsed, length: 312726 characters
+INFO:root:Found 3 titles: ['O Deus que servimos', 'Somos ovelhas do Bom Pastor', 'Uma boa troca']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['"Eu sou o bom pastor; conheço as minhas ovelhas, e', 'Livrem-se de toda amargura, indignação e ira, grit', 'Sejam fortes e corajosos,\ntodos vocês que esperam ']
-INFO:root:Found 1 dates: ['Sexta, 3 de outubro de 2025']
+INFO:root:Found 3 descriptions: ['Saibam, portanto, que o Senhor, o seu Deus, é Deus', '"Eu sou o bom pastor; conheço as minhas ovelhas, e', 'Livrem-se de toda amargura, indignação e ira, grit']
+INFO:root:Found 1 dates: ['Sábado, 4 de outubro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Somos ovelhas do Bom Pastor', ID=06c846733fa320b76e6d0bc01520b217
+INFO:root:Processing entry 1: Title='O Deus que servimos', ID=b1e827f2ec57f9bfdff933d587faf3f6
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Somos ovelhas do Bom Pastor - Palavra de Hoje
+INFO:root:🔹 Title: O Deus que servimos - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: "Eu sou o bom pastor; conheço as minhas ovelhas, e elas me conhecem, assim como o Pai me conhece e eu conheço o Pai; e dou a minha vida pelas ovelhas.
-- João 10:14-15
+INFO:root:🔹 Description: Saibam, portanto, que o Senhor, o seu Deus, é Deus; ele é o Deus fiel, que mantém a aliança e a bondade por mil gerações daqueles que o amam e obedecem aos seus mandamentos.
+- Deuteronômio 7:9 
 
-Nós somos as ovelhas do bom Pastor. Este versículo nos convida a refletir sobre a intimidade e o cuidado que Jesus tem por cada um de nós. Ele nos conhece, sabe de nossas necessidades, dores e alegrias. Assim como o Pastor que cuida de suas ovelhas, Jesus se importa com cada detalhe da nossa vida e está disposto a sacrificar por nós.
-Como ovelhas, nossa segurança e orientação dependem de estarmos próximos do Bom Pastor. Isso significa buscar Sua presença diariamente, seja na oração, na meditação da Palavra ou na prática do amor e da justiça. Aproximar-se de Jesus requer confiança: confiar que Ele nos guiará, mesmo quando não enxergamos o caminho, e que Suas decisões para nossa vida são sempre guiadas por amor.
-O relacionamento entre o Pastor e suas ovelhas é de reciprocidade. Assim como Ele nos conhece, somos chamados a conhecê-Lo, a discernir Sua voz em meio às distrações do mundo. Ouvir Jesus é mais do que ouvir palavras; é viver segundo Seus ensinamentos, permitindo que Ele conduza nossas escolhas, decisões e ações.
-Quando nos aproximamos do bom Pastor, encontramos segurança e propósito. Ele nos protege dos perigos, nos conduz a pastos verdes e nos dá forças quando estamos fracos. A entrega de Jesus por nós nos lembra que o verdadeiro amor envolve sacrifício e cuidado. A resposta adequada a esse amor é nossa fé, obediência e entrega diária.
-Ser ovelha do bom Pastor é mais do que seguir; é viver em comunhão, reconhecer nossa dependência d’Ele e permitir que Sua voz nos guie. Aproximar-se de Jesus é escolher a vida plena, confiando que Ele, que nos conhece intimamente, nos conduz pelo caminho da paz e da esperança.
-Veja também: Parábola do bom pastor (com explicação).
+O mundo em que vivemos tem muitas visões distorcidas sobre quem Deus é e como Ele é. Nós nos víamos como um ser distante, que se deleita em ver como sofremos. Outros nos imaginam como uma espécie de Papai Noel ou o gênio da lâmpada, que existe apenas para atender aos caprichos.
+Mas a Bíblia nos apresenta um Deus real e próximo. Ele é amor, e desejamos salvar a todos nós do poder do pecado. Seu desejo é que lubrifiquemos seu amor e vivamos com ele por toda a eternidade. Em Deuteronômio, lemos que Deus é fiel em cumprir suas promessas para aqueles que o amam, por mil gerações. Isso significa que seu vínculo não se esgota, seu pacto não se quebra e seu amor permanece firme ao longo do tempo.
+Ao longo das Escrituras, vemos um Deus que nunca abandona os seus. Embora Israel tenha sido infiel em muitas ocasiões, o Senhor sempre demonstrou misericórdia e estendeu sua mão para restaurá-los. Ele faz o mesmo conosco hoje. Em meio às nossas fraquezas, dúvidas ou medos, sua fidelidade é nosso porto seguro. Quando tudo ao nosso redor parece incerto, podemos descansar na certeza de que nosso amor não muda. 
+
+Mas tu, Senhor,
+és Deus compassivo e misericordioso,
+muito paciente, rico em amor e em fidelidade.
+- Salmo 86:15 
+
+Portanto, quando você enfrentar dificuldades, lembre-se de quem é o Deus a quem você serve. Ele não é indiferente nem caprichoso, mas um Pai amoroso, cheio de graça, compaixão e verdade. Ele cumpre suas promessas e sustenta aqueles que confiam nele. Apegue-se à sua fidelidade e permita que seu coração descanse na certeza de que o Deus que foi fiel ontem será fiel hoje e para sempre. 
+Veja também: Quem é Deus (Estudo Bíblico).
  
-"Eu sou o bom pastor; conheço as minhas ovelhas, e elas me conhecem, assim como o Pai me conhece e eu conheço o Pai; e dou a minha vida pelas ovelhas.
-- João 10:14-15
+Saibam, portanto, que o Senhor, o seu Deus, é Deus; ele é o Deus fiel, que mantém a aliança e a bondade por mil gerações daqueles que o amam e obedecem aos seus mandamentos.
+- Deuteronômio 7:9 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 332950 characters
-INFO:root:HTML parsed, length: 322539 characters
-INFO:root:Found 3 titles: ['Acima das dificuldades, Ele é Deus!', 'Higienizando o coração', 'Seja um ajudador']
-INFO:root:Found 3 URLs: ['/razoes_para_confiar_em_deus/', '/calma/', '/versiculos_de_amar_o_proximo/']
-INFO:root:Found 3 descriptions: ['Pois nada é impossível para Deus".\n- Lucas 1:37\n\nQ', 'Cria em mim um coração puro, ó Deus, e renova dent', 'Levem os fardos pesados uns dos outros e, assim, c']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n3\nSEXTA', 'OUTUBRO\n\n2\nQUINTA', 'OUTUBRO\n\n1\nQUARTA']
+INFO:root:Response length: 335492 characters
+INFO:root:HTML parsed, length: 325081 characters
+INFO:root:Found 3 titles: ['Devocional Diário: O amor de Deus é tudo!', 'Acima das dificuldades, Ele é Deus!', 'Higienizando o coração']
+INFO:root:Found 3 URLs: ['/versiculos_do_amor_de_deus_por_voce/', '/razoes_para_confiar_em_deus/', '/calma/']
+INFO:root:Found 3 descriptions: ['"Porque Deus tanto amou o mundo que deu o seu Filh', 'Pois nada é impossível para Deus".\n- Lucas 1:37\n\nQ', 'Cria em mim um coração puro, ó Deus, e renova dent']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n4\nSÁBADO', 'OUTUBRO\n\n3\nSEXTA', 'OUTUBRO\n\n2\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Acima das dificuldades, Ele é Deus!', ID=5e5b83d60bd5dd6ebabcd32c5f43f7ec
-INFO:root:Processing entry 2: Title='Higienizando o coração', ID=78fb9f1a62b6e5c3ac4abab9f0315d0d
-INFO:root:Processing entry 3: Title='Seja um ajudador', ID=9e13165498eed5245ce5ed73c357184c
+INFO:root:Processing entry 1: Title='Devocional Diário: O amor de Deus é tudo!', ID=1548652c0c2435adf512b3330cce0425
+INFO:root:Processing entry 2: Title='Acima das dificuldades, Ele é Deus!', ID=5e5b83d60bd5dd6ebabcd32c5f43f7ec
+INFO:root:Processing entry 3: Title='Higienizando o coração', ID=78fb9f1a62b6e5c3ac4abab9f0315d0d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Devocional Diário: O amor de Deus é tudo!
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_do_amor_de_deus_por_voce/
+INFO:root:🔹 Description: "Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.
+- João 3:16
+
+O amor de Deus é a essência da nossa existência. Ele é incondicional, infinito e poderoso. Não há nada neste mundo que se compare à profundidade do amor de Deus. O Senhor, em Sua infinita bondade, nos criou para podermos experimentar esse amor em sua plenitude.
+Ao longo da Bíblia, vemos inúmeras provas do cuidado e do carinho de Deus por nós. Ele não apenas nos criou, mas também nos sustenta a cada dia. Mesmo quando falhamos, quando nos afastamos, Seu amor permanece constante. A maior prova desse amor foi a entrega de Seu Filho Jesus Cristo, que veio ao mundo, sofreu e morreu por nossos pecados, para que pudéssemos ter vida eterna. Essa é a demonstração mais sublime de amor que já existiu.
+Quando entendemos a grandiosidade desse amor, tudo em nossas vidas começa a fazer sentido. Ele nos dá propósito, nos cura, nos fortalece. Não importa o que enfrentemos, o amor de Deus é suficiente para nos sustentar e nos guiar em meio às tempestades da vida. Ele é a âncora que mantém nossa alma firme.
+Viver com a certeza do amor de Deus transforma completamente nossa jornada. Ele nos enche de paz, esperança e alegria, lembrando-nos sempre que, em Deus, temos tudo o que precisamos.
+Vivendo o amor de Deus diariamente
+
+
+Busque a Deus em oração: Conecte-se com Ele diariamente, buscando Sua direção e sabedoria em todas as coisas.
+
+Pratique o perdão: Assim como Deus nos perdoa, libere mágoas e rancores para viver em paz.
+
+Ame ao próximo: Demonstre o amor de Deus em suas atitudes, ajudando, apoiando e encorajando quem está ao redor.
+
+Para Orar:
+
+Senhor Deus, agradeço pelo Teu amor incondicional que me sustenta e guia diariamente. Ajuda-me a refletir esse amor em minhas atitudes, a perdoar e a amar o próximo. Que eu busque sempre Tua presença, confiando em Ti em todos os momentos. Em nome de Jesus, amém.
+
+Veja também: 7 versículos lindos sobre o amor de Deus por você (que vão tocar seu coração)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Acima das dificuldades, Ele é Deus!
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
 INFO:root:🔹 Description: Pois nada é impossível para Deus".
@@ -289,28 +311,6 @@ Senhor, limpa meu coração de toda mágoa, orgulho e medo. Lava-me com Teu amor
 
 Veja também: Versículos para acalmar o coração.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Seja um ajudador
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_de_amar_o_proximo/
-INFO:root:🔹 Description: Levem os fardos pesados uns dos outros e, assim, cumpram a lei de Cristo.
-- Gálatas 6:2 
-
-Deus nos chama para viver em comunidade, amando e servindo uns aos outros. Ser um ajudador é mais do que realizar boas ações; é refletir o próprio coração de Cristo. Ele, sendo o Filho de Deus, não veio para ser servido, mas para servir. Cada vez que estendemos a mão ao necessitado, consolamos o aflito ou oramos por alguém, estamos sendo instrumentos do amor divino.
-O ajudador não busca reconhecimento. Seu prazer está em ver o bem florescer, em saber que foi usado por Deus para aliviar o sofrimento de alguém. Em um mundo marcado pelo egoísmo e pela indiferença, o ajudador é uma luz que aponta para a esperança. Ele entende que suas forças vêm do Senhor e que todo gesto de amor é uma semente plantada na eternidade.
-Ser um ajudador é um chamado diário. É ouvir a voz do Espírito Santo e estar disposto a agir, mesmo quando não é conveniente, mesmo quando ninguém mais quer se envolver. É enxergar em cada pessoa o valor que Deus vê. Às vezes, uma palavra de encorajamento, um sorriso sincero ou uma oração silenciosa podem transformar o dia (ou até a vida) de alguém.
-Jesus nos ensinou que o verdadeiro amor é aquele que se doa. Quando ajudamos, estamos vivendo o Evangelho na prática. Que possamos ser mãos estendidas, corações abertos e vozes que proclamam a bondade de Deus. Que onde houver dor, sejamos consolo; onde houver solidão, sejamos companhia; e onde houver desespero, sejamos portadores de fé.
-Seja um ajudador e através de você, muitos conhecerão o amor de Cristo. 
-Viva o amor de Cristo através do amor ao próximo 
-
-Peça a Deus olhos atentos às necessidades ao seu redor, para agir no tempo certo e ser resposta à oração de alguém.
-Um sorriso, uma visita ou uma mensagem sincera podem transformar corações e revelar o cuidado de Deus nas situações mais simples.
-Faça o bem sem esperar recompensas. Lembre-se: cada atitude amorosa é uma oferta de adoração ao Senhor que tudo vê.
-
-Para orar: 
-
-Senhor, ensina-me a ser um ajudador como Cristo, oferecendo amor e apoio a quem precisa. Que minhas mãos, palavras e ações reflitam Tua bondade, trazendo consolo, esperança e fé. Fortalece meu coração para servir com humildade e alegria, sem buscar reconhecimento, e faz-me instrumento de Teu amor eterno em cada vida que eu tocar. Amém.
-
-Veja também: Amar o próximo: 7 atitudes de amor ao próximo na Bíblia.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 92 characters
@@ -340,15 +340,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  25 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  70 ++++----
+ feeds/salmo_do_dia/atom.xml               |  89 ++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 274 ++++++++++++++----------------
- 11 files changed, 233 insertions(+), 265 deletions(-)
+ output.log                                | 290 ++++++++++++++----------------
+ 11 files changed, 259 insertions(+), 271 deletions(-)
