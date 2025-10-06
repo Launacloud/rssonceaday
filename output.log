@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120003 characters
-INFO:root:HTML parsed, length: 112843 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (05/10/2025)', 'Palavra de Ontem (04/10/2025)', 'Palavra de Anteontem (03/10/2025)']
-INFO:root:Found 3 URLs: ['/preletor/', '/celeste/', '/palanque/']
-INFO:root:Found 15 descriptions: ['substantivo masculino Aquele que leciona, ensina; ', 'Sinônimos:\n\nprofessor, conferente, explicador, pal', 'Classe gramatical:adjetivo e substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (05/10/2025)', 'Palavra de Ontem (04/10/2025)', 'Palavra de Anteontem (03/10/2025)']
+INFO:root:Response length: 119955 characters
+INFO:root:HTML parsed, length: 112795 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (06/10/2025)', 'Palavra de Ontem (05/10/2025)', 'Palavra de Anteontem (04/10/2025)']
+INFO:root:Found 3 URLs: ['/antemao/', '/preletor/', '/celeste/']
+INFO:root:Found 15 descriptions: ['advérbio De um modo antecipado; de uma maneira pré', 'Sinônimos:\n\npreviamente, antecipadamente', 'Classe gramatical:advérbio']
+INFO:root:Found 3 dates: ['Palavra de Hoje (06/10/2025)', 'Palavra de Ontem (05/10/2025)', 'Palavra de Anteontem (04/10/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (05/10/2025)', ID=d5a12af3ec0d6bd3fce6dc37571c19a4
-INFO:root:Processing entry 2: Title='Palavra de Ontem (04/10/2025)', ID=b59cfcc5455ec9895886594090632482
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (03/10/2025)', ID=ba6b486ce7c414a1d87e9f2a4b8b09b5
+INFO:root:Processing entry 1: Title='Palavra de Hoje (06/10/2025)', ID=6c760757d37967fe8a7951a29e20008d
+INFO:root:Processing entry 2: Title='Palavra de Ontem (05/10/2025)', ID=88efcc19f127c5885c335ea06215da52
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (04/10/2025)', ID=2784dc08d0bbe75276adf95cddc7ab42
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (05/10/2025) - Significado completo de preletor:
-INFO:root:🔹 URL: https://www.dicio.com.br/preletor/
-INFO:root:🔹 Description: substantivo masculino Aquele que leciona, ensina; quem preleciona; professor.Quem discursa em público; pessoa que fala publicamente; conferente, palestrante.adjetivo Que leciona, preleciona ou discursa em público.Etimologia (origem da palavra preletor). Do latim praelector.oris.
+INFO:root:🔹 Title: Palavra de Hoje (06/10/2025) - Significado completo de antemão:
+INFO:root:🔹 URL: https://www.dicio.com.br/antemao/
+INFO:root:🔹 Description: advérbio De um modo antecipado; de uma maneira prévia; antecipadamente.[Gramática] Mais utilizado como locução: "de antemão".expressão De antemão. Previamente. De antemão avisaram que o show havia sido cancelado.Etimologia (origem da palavra antemão). A palavra antemão deriva da junção do prefixo ante-, com sentido de antecedência, e da palavra "mão".
  
 Sinônimos:
 
-professor, conferente, explicador, palestrante 
+previamente, antecipadamente 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (04/10/2025) - Significado completo de celeste:
-INFO:root:🔹 URL: https://www.dicio.com.br/celeste/
+INFO:root:🔹 Title: Palavra de Ontem (05/10/2025) - Significado completo de preletor:
+INFO:root:🔹 URL: https://www.dicio.com.br/preletor/
 INFO:root:🔹 Description: Sinônimos:
 
-professor, conferente, explicador, palestrante
- Classe gramatical:adjetivo e substantivo masculino
+previamente, antecipadamente
+ Classe gramatical:advérbio
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (03/10/2025) - Significado completo de palanque:
-INFO:root:🔹 URL: https://www.dicio.com.br/palanque/
-INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
- Sílabas:pre-le-tor
+INFO:root:🔹 Title: Palavra de Anteontem (04/10/2025) - Significado completo de celeste:
+INFO:root:🔹 URL: https://www.dicio.com.br/celeste/
+INFO:root:🔹 Description: Classe gramatical:advérbio
+ Sílabas:an-te-mão
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,44 +42,70 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320793 characters
-INFO:root:HTML parsed, length: 310374 characters
-INFO:root:Found 1 titles: ['Salmos 25:16-18']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_25_16-18/']
-INFO:root:Found 1 descriptions: ['Volta-te para mim e tem misericórdia de mim,\npois ']
+INFO:root:Response length: 320670 characters
+INFO:root:HTML parsed, length: 310251 characters
+INFO:root:Found 1 titles: ['1 Pedro 1:16']
+INFO:root:Found 1 URLs: ['/versiculo/1_pedro_1_16/']
+INFO:root:Found 1 descriptions: ['Pois está escrito: "Sejam santos, porque eu sou sa']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 25:16-18', ID=26071d8e8236b7c6f70f0eb50d9ae335
+INFO:root:Processing entry 1: Title='1 Pedro 1:16', ID=dc0729cdc4a86765bf12f5896abc0399
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 25:16-18
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_25_16-18/
-INFO:root:🔹 Description: Volta-te para mim e tem misericórdia de mim,
-pois estou só e aflito. As angústias do meu coração se multiplicaram;
-liberta-me da minha aflição. Olha para a minha tribulação
-e o meu sofrimento,
-e perdoa todos os meus pecados. Salmos 25:16-18
+INFO:root:🔹 Title: 1 Pedro 1:16
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_pedro_1_16/
+INFO:root:🔹 Description: Pois está escrito: "Sejam santos, porque eu sou santo". 1 Pedro 1:16
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320578 characters
-INFO:root:HTML parsed, length: 310967 characters
-INFO:root:Found 3 titles: ['Salmo 19', 'Salmo 92', 'Salmo 148']
-INFO:root:Found 3 URLs: ['/salmos_19/', '/salmos_92/', '/salmos_148/']
-INFO:root:Found 3 descriptions: ['Os céus declaram a glória de Deus;\no firmamento pr', 'Como é bom render graças ao Senhor\ne cantar louvor', 'Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ']
-INFO:root:Found 3 dates: ['5 de Outubro de 2025', '4 de Outubro de 2025', '3 de Outubro de 2025']
+INFO:root:Response length: 320146 characters
+INFO:root:HTML parsed, length: 310535 characters
+INFO:root:Found 3 titles: ['Salmo 53', 'Salmo 19', 'Salmo 92']
+INFO:root:Found 3 URLs: ['/salmos_53/', '/salmos_19/', '/salmos_92/']
+INFO:root:Found 3 descriptions: ['Diz o tolo em seu coração:\n"Deus não existe!"\nCorr', 'Os céus declaram a glória de Deus;\no firmamento pr', 'Como é bom render graças ao Senhor\ne cantar louvor']
+INFO:root:Found 3 dates: ['6 de Outubro de 2025', '5 de Outubro de 2025', '4 de Outubro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 19', ID=db6236442bff7c5899bca41c0cc17596
-INFO:root:Processing entry 2: Title=' Salmo 92', ID=ae899820dc3cd693b22e3b6649bf23d7
-INFO:root:Processing entry 3: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
+INFO:root:Processing entry 1: Title=' Salmo 53', ID=9590c6fe5558b87515c558c9d865ffdc
+INFO:root:Processing entry 2: Title=' Salmo 19', ID=db6236442bff7c5899bca41c0cc17596
+INFO:root:Processing entry 3: Title=' Salmo 92', ID=ae899820dc3cd693b22e3b6649bf23d7
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 53
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_53/
+INFO:root:🔹 Description: Diz o tolo em seu coração:
+"Deus não existe!"
+Corromperam-se
+e cometeram injustiças detestáveis;
+não há ninguém que faça o bem. 
+Deus olha lá dos céus
+para os filhos dos homens,
+para ver se há alguém
+que tenha entendimento,
+alguém que busque a Deus. 
+Todos se desviaram,
+igualmente se corromperam;
+não há ninguém que faça o bem;
+nem um sequer. 
+Será que os malfeitores não aprendem?
+Eles devoram o meu povo
+como quem come pão
+e não clamam a Deus! 
+Olhem! Estão tomados de pavor,
+quando não existe motivo algum para temer!
+Pois foi Deus quem espalhou os ossos
+dos que atacaram você;
+você os humilhou porque Deus os rejeitou. 
+Ah, se de Sião viesse a salvação para Israel!
+Quando Deus restaurar o seu povo,
+Jacó exultará! Israel se regozijará! 
+ Salmo 53
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 19
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_19/
 INFO:root:🔹 Description: Os céus declaram a glória de Deus;
@@ -167,71 +193,36 @@ Ele é a minha Rocha;
 nele não há injustiça. 
  Salmo 92
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 148
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_148/
-INFO:root:🔹 Description: Aleluia!
-Louvem o Senhor desde os céus,
-louvem-no nas alturas! 
-Louvem-no todos os seus anjos,
-louvem-no todos os seus exércitos celestiais. 
-Louvem-no sol e lua,
-louvem-no todas as estrelas cintilantes. 
-Louvem-no os mais altos céus
-e as águas acima do firmamento. 
-Louvem todos eles o nome do Senhor,
-pois ordenou, e eles foram criados. 
-Ele os estabeleceu em seus lugares
-para todo o sempre;
-deu-lhes um decreto que jamais mudará. 
-Louvem o Senhor, vocês que estão na terra,
-serpentes marinhas e todas as profundezas, 
-relâmpagos e granizo, neve e neblina,
-vendavais que cumprem o que ele determina, 
-todas as montanhas e colinas,
-árvores frutíferas e todos os cedros, 
-todos os animais selvagens
-e os rebanhos domésticos,
-todos os demais seres vivos e as aves, 
-reis da terra e todas as nações,
-todos os governantes e juízes da terra, 
-moços e moças, velhos e crianças. 
-Louvem todos o nome do Senhor,
-pois somente o seu nome é exaltado;
-a sua majestade está acima
-da terra e dos céus. 
-Ele concedeu poder ao seu povo
-e recebeu louvor de todos os seus fiéis,
-dos israelitas, povo a quem ele tanto ama.
-Aleluia! 
- Salmo 148
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 322827 characters
-INFO:root:HTML parsed, length: 312875 characters
-INFO:root:Found 3 titles: ['Viva a vida abundante que Jesus lhe dá', 'O Deus que servimos', 'Somos ovelhas do Bom Pastor']
+INFO:root:Response length: 322692 characters
+INFO:root:HTML parsed, length: 312737 characters
+INFO:root:Found 3 titles: ['Sua vida vai melhorar com estas 2 maravilhas de Deus', 'Viva a vida abundante que Jesus lhe dá', 'O Deus que servimos']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O ladrão não vem senão para roubar, matar e destru', 'Saibam, portanto, que o Senhor, o seu Deus, é Deus', '"Eu sou o bom pastor; conheço as minhas ovelhas, e']
-INFO:root:Found 1 dates: ['Domingo, 5 de outubro de 2025']
+INFO:root:Found 3 descriptions: ['A Palavra de Deus é uma fonte inesgotável de inspi', 'O ladrão não vem senão para roubar, matar e destru', 'Saibam, portanto, que o Senhor, o seu Deus, é Deus']
+INFO:root:Found 1 dates: ['Segunda, 6 de outubro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Viva a vida abundante que Jesus lhe dá', ID=a2a5fd79f650c40294897febc0cd0244
+INFO:root:Processing entry 1: Title='Sua vida vai melhorar com estas 2 maravilhas de Deus', ID=0009bb572d84ac5d5982766474bf26fd
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Viva a vida abundante que Jesus lhe dá - Palavra de Hoje
+INFO:root:🔹 Title: Sua vida vai melhorar com estas 2 maravilhas de Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O ladrão não vem senão para roubar, matar e destruir; eu vim para que tenham vida e a tenham em abundância.
-- João 10:10
+INFO:root:🔹 Description: A Palavra de Deus é uma fonte inesgotável de inspiração e sabedoria. Ela nos revela a essência do amor de Deus e nos guia para uma vida plena e abundante. Acredite, Deus é bom o tempo todo, e seu desejo sincero é que você experimente uma existência repleta de bênçãos e coisas boas.
+Deus não apenas é bom, mas também é o provedor de todas as coisas boas que nos cercam. Ele é aquele que derrama suas bênçãos sobre nós, como a chuva que irriga a terra árida, fazendo brotar em nossos corações sentimentos preciosos, como o amor e a alegria.
+O amor de Deus é um amor incondicional, que transcende qualquer limite ou falha humana. Quando nos abrimos para receber esse amor, somos transformados e capacitados a amar e cuidar uns dos outros. Esse amor nos impulsiona a estender as mãos aos necessitados, a perdoar aqueles que nos magoaram e a construir relacionamentos baseados na compaixão e na empatia.
+Além disso, a alegria que Deus planta em nossos corações é uma fonte de força e encorajamento. Ela nos capacita a enfrentar os desafios da vida com coragem e determinação. Mesmo em meio às dificuldades, podemos encontrar uma paz profunda e uma esperança inabalável, porque sabemos que Deus está conosco, guiando-nos e sustentando-nos em todos os momentos.
+Portanto, permita que a Palavra de Deus permeie sua vida. Deixe que ela seja a bússola que orienta seus passos e a luz que ilumina seu caminho. Abrace a verdade de que Deus é bom, e Ele quer que você desfrute de uma vida abundante e significativa. Confie em Suas promessas, e você experimentará a plenitude do amor, da alegria e das bênçãos que Ele tem reservado para você.
+O que o seu coração está precisando hoje?
 
-A vida que Jesus dá a cada um daqueles que decidem segui-Lo é abundante, cheia de salvação, paz, propósito e segurança nEle. O mundo ao nosso redor está cheio de incertezas. É um mundo cheio de enganos, lutas, inveja e problemas. Mas com Cristo, podemos enfrentar todos esses desafios, sabendo que Ele não apenas nos ajuda, mas nos concede bênçãos abundantes em meio a eles.
-Quando olhamos para Jesus e confiamos em Suas promessas de todo o coração, nossa perspectiva muda. Sim, temos problemas como todos os seres humanos. Mas com Jesus, cada problema traz crescimento e a oportunidade de ver Seu poder e amor em ação.
-Em meio às provações, quando o inimigo tenta semear medo ou roubar nossa esperança, devemos lembrar que Jesus é nosso bom pastor. Ele deu a Sua vida por nós e prometeu nunca nos deixar ou nos abandonar. Sua presença nos sustenta, Sua Palavra nos guia e Seu Espírito nos fortalece, ajudando-nos a prosseguir, mesmo nos vales mais escuros.
-A vida abundante que Jesus nos oferece não depende das circunstâncias. Ela está ancorada em sua fidelidade e na certeza de que em Cristo temos tudo o que precisamos. Em meio às lutas, ele está conosco. Ele nos ajuda, nos sustenta, nos dá sabedoria para tomar boas decisões e nos lembra de que todas as coisas cooperam para o bem daqueles que o amam.
-Confie em Jesus! Viva cada dia com a certeza de que o seu futuro está nas mãos Dele e que nada o separará do Seu amor. Essa confiança lhe dará paz e esperança que durarão para sempre, porque a abundância de vida que Ele lhe dá não termina aqui. A vida abundante em Cristo se estende pela eternidade, quando desfrutaremos da Sua presença.
-Ande em fé, abrace as promessas do Senhor e experimente a plenitude que somente Cristo pode lhe dar.
-Veja também: 10 promessas de Deus na Bíblia
+Amor
+Alegria
+ 
+Amor
+Alegria
+
  
 O ladrão não vem senão para roubar, matar e destruir; eu vim para que tenham vida e a tenham em abundância.
 - João 10:10
@@ -239,23 +230,39 @@ O ladrão não vem senão para roubar, matar e destruir; eu vim para que tenham 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 335594 characters
-INFO:root:HTML parsed, length: 325181 characters
-INFO:root:Found 3 titles: ['Um amor sem igual', 'Devocional Diário: O amor de Deus é tudo!', 'Acima das dificuldades, Ele é Deus!']
-INFO:root:Found 3 URLs: ['/o_amor_incondicional_de_deus_estudo/', '/versiculos_do_amor_de_deus_por_voce/', '/razoes_para_confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['Nisto conhecemos o que é o amor: Jesus Cristo deu ', '"Porque Deus tanto amou o mundo que deu o seu Filh', 'Pois nada é impossível para Deus".\n- Lucas 1:37\n\nQ']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n5\nDOMINGO', 'OUTUBRO\n\n4\nSÁBADO', 'OUTUBRO\n\n3\nSEXTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Um amor sem igual', ID=e54cda0fe57c200a2a5c2c3e89f20254
-INFO:root:Processing entry 2: Title='Devocional Diário: O amor de Deus é tudo!', ID=1548652c0c2435adf512b3330cce0425
-INFO:root:Processing entry 3: Title='Acima das dificuldades, Ele é Deus!', ID=5e5b83d60bd5dd6ebabcd32c5f43f7ec
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 334868 characters
+INFO:root:HTML parsed, length: 324457 characters
+INFO:root:Found 3 titles: ['Lance sobre Ele as suas preocupações', 'Um amor sem igual', 'Devocional Diário: O amor de Deus é tudo!']
+INFO:root:Found 2 URLs: ['/o_amor_incondicional_de_deus_estudo/', '/versiculos_do_amor_de_deus_por_voce/']
+INFO:root:Found 3 descriptions: ['Lancem sobre ele toda a sua ansiedade, porque ele ', 'Nisto conhecemos o que é o amor: Jesus Cristo deu ', '"Porque Deus tanto amou o mundo que deu o seu Filh']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n6\nSEGUNDA', 'OUTUBRO\n\n5\nDOMINGO', 'OUTUBRO\n\n4\nSÁBADO']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Lance sobre Ele as suas preocupações', ID=b8a75e8ecc6035ac0f60a10a192f5bdb
+INFO:root:Processing entry 2: Title='Um amor sem igual', ID=e54cda0fe57c200a2a5c2c3e89f20254
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Um amor sem igual
+INFO:root:🔹 Title: Lance sobre Ele as suas preocupações
 INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
+INFO:root:🔹 Description: Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.
+- 1 Pedro 5:7
+
+Lançar em Deus aquilo que nos preocupa é uma saída simples e eficaz para solucionar o problema da ansiedade. Contudo, essa atitude exige certo grau de confiança e entrega total. Quando entregamos a Deus o que nos tem causado ansiedade, passamos a desfrutar de um sentimento de paz e tranquilidade surpreendente, porque sabemos que tudo está depositado nas melhores mãos. Tudo está sob o controle do Senhor de todo o universo, que tem cuidado de nós.
+O que é que te preocupa neste dia? Problemas familiares, dívidas, estudos, trabalho, doenças, futuro? Seja qual for a causa da sua ansiedade, problemas grandes ou pequenos, a Bíblia nos orienta a lançar toda inquietação em Deus. Entrega tudo ao Senhor em oração. Fazendo isso poderá descansar nele, confiando que Deus cuida de você e que também agirá de acordo com a Sua boa vontade, em todas as situações. 
+Como lançar as suas ansiedades em Deus hoje mesmo:
+
+Ore, falando para Ele todos os assuntos que te tem preocupado, peça que Ele o direcione e oriente. 
+Entrega tudo sem reservas e deixe realmente aos Seus cuidados, porque Ele tem cuidado de você.
+Confie que o Senhor vai continuar cuidando de todas as circunstâncias da sua vida.
+
+Para orar:
+
+Senhor Deus, quero lançar em Ti todas as minhas ansiedades... Coloco em Tuas mãos as minhas preocupações e tudo que tem me inquietado. Peço que me ajudes a descansar no Senhor, confiando nos Teus cuidados e no Teu grande amor por mim. Desde já te agradeço, crendo que a Tua Paz poderá tranquilizar o meu coração. Amém!
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Um amor sem igual
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_do_amor_de_deus_por_voce/
 INFO:root:🔹 Description: Nisto conhecemos o que é o amor: Jesus Cristo deu a sua vida por nós, e devemos dar a nossa vida por nossos irmãos.
 - 1 João 3:16
 
@@ -279,53 +286,6 @@ Para orar:
 Senhor Jesus, ensina-me a amar como Tu amas. Que minhas palavras e ações revelem Tua graça. Perdoa-me, fortalece minha fé e usa-me para espalhar Teu amor ao mundo. Amém.
 
 Veja também: Reflexão sobre o amor de Deus (Estudo Bíblico).
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Devocional Diário: O amor de Deus é tudo!
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_do_amor_de_deus_por_voce/
-INFO:root:🔹 Description: "Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.
-- João 3:16
-
-O amor de Deus é a essência da nossa existência. Ele é incondicional, infinito e poderoso. Não há nada neste mundo que se compare à profundidade do amor de Deus. O Senhor, em Sua infinita bondade, nos criou para podermos experimentar esse amor em sua plenitude.
-Ao longo da Bíblia, vemos inúmeras provas do cuidado e do carinho de Deus por nós. Ele não apenas nos criou, mas também nos sustenta a cada dia. Mesmo quando falhamos, quando nos afastamos, Seu amor permanece constante. A maior prova desse amor foi a entrega de Seu Filho Jesus Cristo, que veio ao mundo, sofreu e morreu por nossos pecados, para que pudéssemos ter vida eterna. Essa é a demonstração mais sublime de amor que já existiu.
-Quando entendemos a grandiosidade desse amor, tudo em nossas vidas começa a fazer sentido. Ele nos dá propósito, nos cura, nos fortalece. Não importa o que enfrentemos, o amor de Deus é suficiente para nos sustentar e nos guiar em meio às tempestades da vida. Ele é a âncora que mantém nossa alma firme.
-Viver com a certeza do amor de Deus transforma completamente nossa jornada. Ele nos enche de paz, esperança e alegria, lembrando-nos sempre que, em Deus, temos tudo o que precisamos.
-Vivendo o amor de Deus diariamente
-
-
-Busque a Deus em oração: Conecte-se com Ele diariamente, buscando Sua direção e sabedoria em todas as coisas.
-
-Pratique o perdão: Assim como Deus nos perdoa, libere mágoas e rancores para viver em paz.
-
-Ame ao próximo: Demonstre o amor de Deus em suas atitudes, ajudando, apoiando e encorajando quem está ao redor.
-
-Para Orar:
-
-Senhor Deus, agradeço pelo Teu amor incondicional que me sustenta e guia diariamente. Ajuda-me a refletir esse amor em minhas atitudes, a perdoar e a amar o próximo. Que eu busque sempre Tua presença, confiando em Ti em todos os momentos. Em nome de Jesus, amém.
-
-Veja também: 7 versículos lindos sobre o amor de Deus por você (que vão tocar seu coração)
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Acima das dificuldades, Ele é Deus!
-INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
-INFO:root:🔹 Description: Pois nada é impossível para Deus".
-- Lucas 1:37
-
-Quando tudo parece desabar e as forças parecem se esgotar, há uma verdade eterna que deve permanecer firme em nosso coração: acima das dificuldades, Ele é Deus! Nenhuma lágrima, nenhuma dor e nenhum obstáculo são grandes demais para Aquele que criou o céu e a terra.
-Quantas vezes olhamos para os problemas e esquecemos de olhar para o Deus que tudo pode? As circunstâncias podem tentar nos convencer de que é o fim, mas o Senhor é especialista em transformar finais em novos começos. Ele age no silêncio, trabalha quando não vemos e prepara o impossível quando a esperança parece ter se perdido.
-A fé não nos livra das lutas, mas nos sustenta nelas. É no deserto que aprendemos a depender totalmente do Senhor; é na adversidade que descobrimos o poder da Sua presença. Quando confiamos, mesmo sem entender, Ele nos conduz passo a passo, abrindo portas onde antes só havia muros.
-Lembre-se: o mesmo Deus que acalmou o mar diante de Moisés, que sustentou Elias no deserto e que ressuscitou Lázaro, é o mesmo que cuida de você hoje. Ele não mudou, e Sua fidelidade continua a mesma.
-Então, ainda que as lágrimas rolem, erga a cabeça e adore. Diga à sua alma que Deus continua no trono. Acima das dificuldades, Ele reina, governa e age em favor daqueles que Nele esperam.
-Confie, espere e creia: o tempo da vitória vem. E quando chegar, você olhará para trás e entenderá que cada prova foi um degrau para o cumprimento das promessas de Deus.
-Confiando no Deus do impossível
-
-A oração move o coração de Deus. Quando falamos com Ele, o impossível começa a ser moldado pelas Suas mãos poderosas.
-A demora não é negação. Deus trabalha nos bastidores, preparando o cenário ideal para que Sua vontade se manifeste de forma completa e gloriosa.
-A fé se fortalece quando nos alimentamos das promessas divinas. A Palavra nos lembra que Deus nunca falha e sempre cumpre.
-
-Para orar:
-
-Senhor, em meio às lutas e incertezas, escolho confiar em Ti, o Deus do impossível. Fortalece minha fé, renova minha esperança e guia meus passos. Que eu veja Teu agir mesmo quando não compreendo. Acalma meu coração e faz-me descansar em Tuas promessas. Em nome de Jesus, amém.
-
-Veja também: Razões para confiar em Deus em meio às lutas.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -356,15 +316,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 ++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  26 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  56 ++----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  21 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  74 +++++---
+ feeds/salmo_do_dia/atom.xml               |  66 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 284 +++++++++++++++---------------
- 11 files changed, 269 insertions(+), 249 deletions(-)
+ output.log                                | 288 ++++++++++++------------------
+ 11 files changed, 212 insertions(+), 305 deletions(-)
