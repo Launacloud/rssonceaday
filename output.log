@@ -1,40 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 118746 characters
-INFO:root:HTML parsed, length: 111906 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (07/10/2025)', 'Palavra de Ontem (06/10/2025)', 'Palavra de Anteontem (05/10/2025)']
-INFO:root:Found 3 URLs: ['/sitiar/', '/antemao/', '/preletor/']
-INFO:root:Found 13 descriptions: ['verbo transitivo direto Fazer o cerco de; rodear u', 'Sinônimos:\n\nrodear, enchiqueirar, cercar, assediar', 'Classe gramatical:verbo transitivo direto']
-INFO:root:Found 3 dates: ['Palavra de Hoje (07/10/2025)', 'Palavra de Ontem (06/10/2025)', 'Palavra de Anteontem (05/10/2025)']
+INFO:root:Response length: 118343 characters
+INFO:root:HTML parsed, length: 111687 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (08/10/2025)', 'Palavra de Ontem (07/10/2025)', 'Palavra de Anteontem (06/10/2025)']
+INFO:root:Found 3 URLs: ['/garrao/', '/sitiar/', '/antemao/']
+INFO:root:Found 12 descriptions: ['substantivo masculino Parte da perna situada atrás', 'Classe gramatical:substantivo masculino', 'Sílabas:gar-rão']
+INFO:root:Found 3 dates: ['Palavra de Hoje (08/10/2025)', 'Palavra de Ontem (07/10/2025)', 'Palavra de Anteontem (06/10/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (07/10/2025)', ID=670832f8f9ba9db0d4959877b95e64d3
-INFO:root:Processing entry 2: Title='Palavra de Ontem (06/10/2025)', ID=51b5dc7274406c5d297e73036274c833
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (05/10/2025)', ID=82b4d6894271c368dbebd8df5334709c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (08/10/2025)', ID=23ac44ad3ec1cd898356d87564598213
+INFO:root:Processing entry 2: Title='Palavra de Ontem (07/10/2025)', ID=cbc73966ab120002070f959f68f9aa69
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/10/2025)', ID=0e8566f5fd789b23b8e25828e28af616
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (07/10/2025) - Significado completo de sitiar:
+INFO:root:🔹 Title: Palavra de Hoje (08/10/2025) - Significado completo de garrão:
+INFO:root:🔹 URL: https://www.dicio.com.br/garrao/
+INFO:root:🔹 Description: substantivo masculino Parte da perna situada atrás da articulação do joelho dos equídeos ou de qualquer animal.[Anatomia] Parte oposta ao joelho, situada na parte posterior da perna.expressão Afrouxar o garrão. Dobrar as pernas e cair; acovardar-se.Etimologia (origem da palavra garrão). Do espanhol garrón.
+ Classe gramatical:substantivo masculino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (07/10/2025) - Significado completo de sitiar:
 INFO:root:🔹 URL: https://www.dicio.com.br/sitiar/
-INFO:root:🔹 Description: verbo transitivo direto Fazer o cerco de; rodear uma tropa antes de a atacar; rodear, cercar: primeiro será preciso situar o inimigo.[Figurado] Assediar alguém para obter dessa pessoa alguma coisa: sitiava os clientes com a intenção de os pressionar.[Figurado] Usar da força para obrigar alguém a fazer alguma coisa: o polícia sitiou o lugar para que os bandidos saíssem.Etimologia (origem da palavra sitiar). A palavra sitiar tem sua origem desconhecida, ou seja, não é possível determinar com certeza a proveniência dessa palavra.
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:gar-rão
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (06/10/2025) - Significado completo de antemão:
+INFO:root:🔹 URL: https://www.dicio.com.br/antemao/
+INFO:root:🔹 Description: Sílabas:gar-rão
  
 Sinônimos:
 
 rodear, enchiqueirar, cercar, assediar, bloquear, obrigar 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (06/10/2025) - Significado completo de antemão:
-INFO:root:🔹 URL: https://www.dicio.com.br/antemao/
-INFO:root:🔹 Description: Sinônimos:
-
-rodear, enchiqueirar, cercar, assediar, bloquear, obrigar
- Classe gramatical:verbo transitivo direto
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (05/10/2025) - Significado completo de preletor:
-INFO:root:🔹 URL: https://www.dicio.com.br/preletor/
-INFO:root:🔹 Description: Classe gramatical:verbo transitivo direto
- Sílabas:si-ti-ar
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,41 +40,120 @@ INFO:root:Response length: 1256 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320799 characters
-INFO:root:HTML parsed, length: 310380 characters
-INFO:root:Found 1 titles: ['Neemias 9:6']
-INFO:root:Found 1 URLs: ['/versiculo/neemias_9_6/']
-INFO:root:Found 1 descriptions: ['"Bendito seja o teu nome glorioso! A tua grandeza ']
+INFO:root:Response length: 321088 characters
+INFO:root:HTML parsed, length: 310669 characters
+INFO:root:Found 1 titles: ['Miquéias 7:7']
+INFO:root:Found 1 URLs: ['/versiculo/miqueias_7_7/']
+INFO:root:Found 1 descriptions: ['Mas, quanto a mim,\nficarei atento ao Senhor,\nesper']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Neemias 9:6', ID=fc51a2cecdd67255426a16125d2ae364
+INFO:root:Processing entry 1: Title='Miquéias 7:7', ID=c875fe040b899901964afd94453a7e4c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Neemias 9:6
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/neemias_9_6/
-INFO:root:🔹 Description: "Bendito seja o teu nome glorioso! A tua grandeza está acima de toda expressão de louvor.
-Só tu és o Senhor. Fizeste os céus, e os mais altos céus, e tudo o que neles há, a terra e tudo o que nela existe, os mares e tudo o que neles existe. Tu deste vida a todos os seres, e os exércitos dos céus te adoram. Neemias 9:6
+INFO:root:🔹 Title: Miquéias 7:7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/miqueias_7_7/
+INFO:root:🔹 Description: Mas, quanto a mim,
+ficarei atento ao Senhor,
+esperando em Deus, o meu Salvador,
+pois o meu Deus me ouvirá. Miquéias 7:7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320241 characters
-INFO:root:HTML parsed, length: 310633 characters
-INFO:root:Found 3 titles: ['Salmo 91', 'Salmo 53', 'Salmo 19']
-INFO:root:Found 3 URLs: ['/salmos_91/', '/salmos_53/', '/salmos_19/']
-INFO:root:Found 3 descriptions: ['Aquele que habita no abrigo do Altíssimo\ne descans', 'Diz o tolo em seu coração:\n"Deus não existe!"\nCorr', 'Os céus declaram a glória de Deus;\no firmamento pr']
-INFO:root:Found 3 dates: ['7 de Outubro de 2025', '6 de Outubro de 2025', '5 de Outubro de 2025']
+INFO:root:Response length: 321758 characters
+INFO:root:HTML parsed, length: 312165 characters
+INFO:root:Found 3 titles: ['Salmo 102', 'Salmo 91', 'Salmo 53']
+INFO:root:Found 3 URLs: ['/salmos_102/', '/salmos_91/', '/salmos_53/']
+INFO:root:Found 3 descriptions: ['Ouve a minha oração, Senhor!\nChegue a ti o meu gri', 'Aquele que habita no abrigo do Altíssimo\ne descans', 'Diz o tolo em seu coração:\n"Deus não existe!"\nCorr']
+INFO:root:Found 3 dates: ['8 de Outubro de 2025', '7 de Outubro de 2025', '6 de Outubro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 91', ID=ae2230ac157c45f9089a80ccb29436a2
-INFO:root:Processing entry 2: Title=' Salmo 53', ID=9590c6fe5558b87515c558c9d865ffdc
-INFO:root:Processing entry 3: Title=' Salmo 19', ID=db6236442bff7c5899bca41c0cc17596
+INFO:root:Processing entry 1: Title=' Salmo 102', ID=f3f93203bf47edc3fa3727bdb061891a
+INFO:root:Processing entry 2: Title=' Salmo 91', ID=ae2230ac157c45f9089a80ccb29436a2
+INFO:root:Processing entry 3: Title=' Salmo 53', ID=9590c6fe5558b87515c558c9d865ffdc
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 102
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_102/
+INFO:root:🔹 Description: Ouve a minha oração, Senhor!
+Chegue a ti o meu grito de socorro! 
+Não escondas de mim o teu rosto
+quando estou atribulado.
+Inclina para mim os teus ouvidos;
+quando eu clamar, responde-me depressa! 
+Esvaem-se os meus dias como fumaça;
+meus ossos queimam como brasas vivas. 
+Como a relva ressequida está o meu coração;
+esqueço até de comer! 
+De tanto gemer estou reduzido a pele e osso. 
+Sou como a coruja do deserto,
+como uma coruja entre as ruínas. 
+Não consigo dormir;
+pareço um pássaro solitário no telhado. 
+Os meus inimigos zombam de mim
+o tempo todo;
+os que me insultam usam o meu nome
+para lançar maldições. 
+Cinzas são a minha comida,
+e com lágrimas misturo o que bebo, 
+por causa da tua indignação e da tua ira,
+pois me rejeitaste e me expulsaste
+para longe de ti. 
+Meus dias são como sombras crescentes;
+sou como a relva que vai murchando. 
+Tu, porém, Senhor,
+no trono reinarás para sempre;
+o teu nome será lembrado
+de geração em geração. 
+Tu te levantarás e terás misericórdia de Sião,
+pois é hora de lhe mostrares compaixão;
+o tempo certo é chegado. 
+Pois as suas pedras são amadas
+pelos teus servos,
+as suas ruínas os enchem de compaixão. 
+Então as nações temerão o nome do Senhor
+e todos os reis da terra a sua glória. 
+Porque o Senhor reconstruirá Sião
+e se manifestará na glória que ele tem. 
+Responderá à oração dos desamparados;
+as suas súplicas não desprezará. 
+Escreva-se isto para as futuras gerações,
+e um povo que ainda será criado
+louvará o Senhor, proclamando: 
+"Do seu santuário nas alturas o Senhor olhou;
+dos céus observou a terra, 
+para ouvir os gemidos dos prisioneiros
+e libertar os condenados à morte". 
+Assim o nome do Senhor
+será anunciado em Sião
+e o seu louvor em Jerusalém, 
+quando os povos e os reinos
+se reunirem para adorar o Senhor. 
+No meio da minha vida
+ele me abateu com sua força;
+abreviou os meus dias. 
+Então pedi:
+"Ó meu Deus, não me leves
+no meio dos meus dias.
+Os teus dias duram por todas as gerações!" 
+No princípio firmaste os fundamentos da terra,
+e os céus são obras das tuas mãos. 
+Eles perecerão, mas tu permanecerás;
+envelhecerão como vestimentas.
+Como roupas tu os trocarás
+e serão jogados fora. 
+Mas tu permaneces o mesmo,
+e os teus dias jamais terão fim. 
+Os filhos dos teus servos
+terão uma habitação;
+os seus descendentes serão estabelecidos
+na tua presença. 
+ Salmo 102
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 91
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_91/
 INFO:root:🔹 Description: Aquele que habita no abrigo do Altíssimo
@@ -150,129 +227,102 @@ Quando Deus restaurar o seu povo,
 Jacó exultará! Israel se regozijará! 
  Salmo 53
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 19
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_19/
-INFO:root:🔹 Description: Os céus declaram a glória de Deus;
-o firmamento proclama a obra das suas mãos. 
-Um dia fala disso a outro dia;
-uma noite o revela a outra noite. 
-Sem discurso nem palavras,
-não se ouve a sua voz. 
-Mas a sua voz ressoa por toda a terra
-e as suas palavras até os confins do mundo.
-Nos céus ele armou uma tenda para o sol, 
-que é como um noivo que sai de seu aposento
-e se lança em sua carreira
-com a alegria de um herói. 
-Sai de uma extremidade dos céus
-e faz o seu trajeto até a outra;
-nada escapa ao seu calor. 
-A lei do Senhor é perfeita e revigora a alma.
-Os testemunhos do Senhor
-são dignos de confiança
-e tornam sábios os inexperientes. 
-Os preceitos do Senhor são justos
-e dão alegria ao coração.
-Os mandamentos do Senhor são límpidos
-e trazem luz aos olhos. 
-O temor do Senhor é puro
-e dura para sempre.
-As ordenanças do Senhor são verdadeiras,
-são todas elas justas. 
-São mais desejáveis do que o ouro,
-do que muito ouro puro;
-são mais doces do que o mel,
-do que as gotas do favo. 
-Por elas o teu servo é advertido;
-há grande recompensa em obedecer-lhes. 
-Quem pode discernir os próprios erros?
-Absolve-me dos que desconheço! 
-Também guarda o teu servo
-dos pecados intencionais;
-que eles não me dominem!
-Então serei íntegro,
-inocente de grande transgressão. 
-Que as palavras da minha boca
-e a meditação do meu coração
-sejam agradáveis a ti,
-Senhor, minha Rocha e meu Resgatador! 
- Salmo 19
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 318333 characters
-INFO:root:HTML parsed, length: 308389 characters
-INFO:root:Found 3 titles: ['Deus pode sim!', 'Sua vida vai melhorar com estas 2 maravilhas de Deus', 'Viva a vida abundante que Jesus lhe dá']
+INFO:root:Response length: 322990 characters
+INFO:root:HTML parsed, length: 313059 characters
+INFO:root:Found 3 titles: ['Não desanime: continue com fé!', 'Deus pode sim!', 'Sua vida vai melhorar com estas 2 maravilhas de Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Teus, ó Senhor,\nsão a grandeza, o poder,\na glória,', 'A Palavra de Deus é uma fonte inesgotável de inspi', 'O ladrão não vem senão para roubar, matar e destru']
-INFO:root:Found 1 dates: ['Terça, 7 de outubro de 2025']
+INFO:root:Found 3 descriptions: ['Pois tu, ó Deus, nos submeteste à prova\ne nos refi', 'Teus, ó Senhor,\nsão a grandeza, o poder,\na glória,', 'A Palavra de Deus é uma fonte inesgotável de inspi']
+INFO:root:Found 1 dates: ['Quarta, 8 de outubro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus pode sim!', ID=bf6f1e2a672a4412d88d797a59f16768
+INFO:root:Processing entry 1: Title='Não desanime: continue com fé!', ID=c7588a27063ab94f40904c36a8e64521
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus pode sim! - Palavra de Hoje
+INFO:root:🔹 Title: Não desanime: continue com fé! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Teus, ó Senhor,
-são a grandeza, o poder,
-a glória, a majestade e o esplendor,
-pois tudo o que há
-nos céus e na terra é teu.
-Teu, ó Senhor, é o reino;
-tu estás acima de tudo.
-- 1 Crônicas 29:11
+INFO:root:🔹 Description: Pois tu, ó Deus, nos submeteste à prova
+e nos refinaste como a prata.
+Fizeste-nos cair numa armadilha
+e sobre nossas costas puseste fardos.
+Deixaste que os inimigos cavalgassem
+sobre a nossa cabeça;
+passamos pelo fogo e pela água,
+mas a um lugar de fartura nos trouxeste.
+- Salmo 66:10-12
 
-Muitas das situações que enfrentamos podem parecer impossíveis. Problemas financeiros ou de saúde, conflitos familiares, feridas do passado ou incertezas sobre o futuro... A lista pode ser muito longa, e nossos corações podem se sentir pesados e cansados. Mas devemos lembrar que servimos ao Deus Todo-Poderoso, o Senhor de tudo o que existe. Ele nos ama, ouve nossas orações e trabalha em nosso favor. Precisamos apenas perseverar na oração e manter nossa fé e confiança nEle.
-Quando os caminhos parecem fechados e não há saída visível, Deus permanece fiel. Ele abre portas e traz novas oportunidades. Nosso Deus acalma a tempestade com uma única palavra e transforma o que parecia derrota em bênção. Nosso dever não é entender todos os processos, mas manter nossos olhos fixos em Jesus, sabendo que Ele nunca nos abandona e sempre cumpre Suas promessas.
+Lembrar o que Deus fez por nós, sua ajuda, resgate e força em meio às provações, renova nossa fé. Perceber tudo o que Ele fez por nós até hoje nos ajuda a permanecer firmes em meio às tempestades da vida.
+Todos nós já enfrentamos grandes dificuldades: doenças, problemas financeiros, desafios no trabalho, conflitos familiares e inúmeras provações. Tudo isso faz parte da jornada. Mas quando nos lembramos da fidelidade de Deus e vemos até onde Ele nos trouxe, nossa confiança se renova. Não chegamos até aqui sozinhos. Foi pela graça e misericórdia do Senhor, que esteve presente mesmo quando não percebíamos.
+Deus nunca nos abandona. Mesmo que às vezes não sintamos, Ele caminha conosco através do fogo e das águas turbulentas. Nos momentos mais sombrios, Sua presença se torna nosso refúgio e Sua voz, nossa paz. Ele prometeu nunca nos deixar ou nos abandonar, e Ele cumpre Sua promessa. Apegar-se a essa promessa nos dá segurança e esperança.
 
-Alguns confiam em carros e outros em cavalos,
-mas nós confiamos
-no nome do Senhor, o nosso Deus.
-Eles vacilam e caem,
-mas nós nos erguemos e estamos firmes.
-- Salmo 20:7-8
+Por isso não tema, pois estou com você;
+não tenha medo, pois sou o seu Deus.
+Eu o fortalecerei e o ajudarei;
+eu o segurarei
+com a minha mão direita vitoriosa.
+- Isaías 41:10 .
 
-Quando algo parece impossível, lembre-se de que com Deus tudo é possível. Levante-se com confiança, pois o Seu poder é ilimitado, o Seu amor nunca falha e o Seu propósito para você nunca cessa. Confie, espere e siga em frente, caminhando com fé. Deus está agindo, mesmo quando você não O vê. O Deus do impossível cuida de você, e o Seu poder será revelado.
-
-Confiem para sempre no Senhor,
-pois o Senhor, somente o Senhor,
-é a Rocha eterna.
-- Isaías 26:4
-
-Veja também: Versículos sobre o poder de Deus
+Portanto, mesmo que a provação seja difícil e o caminho incerto, levante os olhos para o céu e louve ao Senhor. Ele é digno de toda a glória. Ele o sustentou até agora; foi seu refúgio na dor e sua força na luta. Agradeça a Ele, não apenas pelos momentos de abundância, mas também por sua presença e auxílio em meio às provações. Adore o Senhor e receba a força que Ele lhe dá para prosseguir com fé.
+Veja também: Versículos de Ânimo
  
 Amor
 Alegria
 
  
-Teus, ó Senhor,
-são a grandeza, o poder,
-a glória, a majestade e o esplendor,
-pois tudo o que há
-nos céus e na terra é teu.
-Teu, ó Senhor, é o reino;
-tu estás acima de tudo.
-- 1 Crônicas 29:11
+Pois tu, ó Deus, nos submeteste à prova
+e nos refinaste como a prata.
+Fizeste-nos cair numa armadilha
+e sobre nossas costas puseste fardos.
+Deixaste que os inimigos cavalgassem
+sobre a nossa cabeça;
+passamos pelo fogo e pela água,
+mas a um lugar de fartura nos trouxeste.
+- Salmo 66:10-12
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 335407 characters
-INFO:root:HTML parsed, length: 324994 characters
-INFO:root:Found 3 titles: ['Andamos pelo que cremos', 'Lance sobre Ele as suas preocupações', 'Um amor sem igual']
-INFO:root:Found 2 URLs: ['/razoes_para_confiar_em_deus/', '/o_amor_incondicional_de_deus_estudo/']
-INFO:root:Found 3 descriptions: ['Porque vivemos por fé, e não pelo que vemos.\n- 2 C', 'Lancem sobre ele toda a sua ansiedade, porque ele ', 'Nisto conhecemos o que é o amor: Jesus Cristo deu ']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n7\nTERÇA', 'OUTUBRO\n\n6\nSEGUNDA', 'OUTUBRO\n\n5\nDOMINGO']
+INFO:root:Response length: 336036 characters
+INFO:root:HTML parsed, length: 325625 characters
+INFO:root:Found 3 titles: ['Ele enxugará dos seus olhos toda lágrima', 'Andamos pelo que cremos', 'Lance sobre Ele as suas preocupações']
+INFO:root:Found 2 URLs: ['/deus_registra_suas_lagrimas/', '/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['Ele enxugará dos seus olhos toda lágrima. Não have', 'Porque vivemos por fé, e não pelo que vemos.\n- 2 C', 'Lancem sobre ele toda a sua ansiedade, porque ele ']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n8\nQUARTA', 'OUTUBRO\n\n7\nTERÇA', 'OUTUBRO\n\n6\nSEGUNDA']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Andamos pelo que cremos', ID=2ec67ef581813cc53495212d4d6e9218
-INFO:root:Processing entry 2: Title='Lance sobre Ele as suas preocupações', ID=b8a75e8ecc6035ac0f60a10a192f5bdb
+INFO:root:Processing entry 1: Title='Ele enxugará dos seus olhos toda lágrima', ID=0b466823a4da2bed99c28bb394dc0b30
+INFO:root:Processing entry 2: Title='Andamos pelo que cremos', ID=2ec67ef581813cc53495212d4d6e9218
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Ele enxugará dos seus olhos toda lágrima
+INFO:root:🔹 URL: https://www.bibliaon.com/deus_registra_suas_lagrimas/
+INFO:root:🔹 Description: Ele enxugará dos seus olhos toda lágrima. Não haverá mais morte, nem tristeza, nem choro, nem dor, pois a antiga ordem já passou".
+- Apocalipse 21:4
+
+Este versículo é uma promessa viva para todos nós que enfrentamos dificuldades, perdas e momentos de dor. Quantas vezes nos sentimos sobrecarregados pelas adversidades da vida, pelas feridas do passado ou pelas incertezas do futuro? Deus nos lembra que essas lágrimas não passam despercebidas. Ele vê cada sofrimento, cada momento de desânimo, e tem um plano de consolo e restauração.
+Mesmo quando o mundo ao nosso redor parece desmoronar, podemos encontrar esperança na certeza de que Ele está conosco. Cada desafio enfrentado hoje é uma oportunidade para fortalecer a fé e confiar que, no tempo certo, toda dor será transformada em alegria. A promessa de Apocalipse 21:4 não é apenas para um futuro distante; ela começa a operar na nossa vida quando entregamos nossos medos, frustrações e tristezas a Cristo.
+Deus nos convida a erguer a cabeça, renovar nossa fé e viver com coragem, sabendo que a antiga ordem de sofrimento e desesperança já passou. Cada lágrima que cai é testemunho de que estamos vivos, mas cada sorriso que surge é fruto da presença do Senhor em nossa jornada.
+Não desanime diante das lutas. Mantenha seus olhos fixos em Jesus, que nos garante consolo eterno e vitória sobre todas as dores. A vida em Cristo nos oferece um futuro repleto de paz, amor e alegria sem fim. Acredite na promessa: dias melhores estão chegando, e Ele estará ao seu lado, enxugando cada lágrima e transformando sua história em testemunho de vitória.
+Superando a dor e abraçando a esperança
+
+
+Entregue suas preocupações a Deus: Reserve momentos diários para orar e confiar a Ele suas lágrimas, medos e desafios. A entrega sincera permite que o Espírito Santo transforme sua dor em paz interior constante.
+
+Cultive a gratidão mesmo nas dificuldades: Reconheça pequenas bênçãos diariamente, mesmo em tempos de provação. A gratidão muda o foco da tristeza para a esperança, fortalecendo sua fé e trazendo consolo nas circunstâncias adversas.
+
+Aja com fé e amor no próximo: Pratique gestos de bondade, perdão e apoio aos que sofrem. Servir e amar fortalece sua esperança, reflete o amor de Cristo e transforma lágrimas em testemunhos de vitória.
+
+Para orar:
+
+Senhor, enxuga minhas lágrimas e fortalece minha fé. Que eu sinta Tua paz em meio às lutas, confie em Teu amor e transforme minha dor em esperança e alegria. Amém.
+
+Veja também: Cada lágrima derramada (Estudo Bíblico).
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Andamos pelo que cremos
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
 INFO:root:🔹 Description: Porque vivemos por fé, e não pelo que vemos.
@@ -299,23 +349,6 @@ Para orar:
 Senhor meu Deus, fortalece minha fé e enche meu coração de coragem para seguir Teus caminhos. Mesmo nas incertezas, quero confiar no Teu propósito e descansar na Tua vontade. Guia meus passos, renova minha esperança e faz de mim um instrumento do Teu amor. Em nome de Jesus, amém.
 
 Veja também: Razões para confiar em Deus em meio às lutas.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Lance sobre Ele as suas preocupações
-INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
-INFO:root:🔹 Description: Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.
-- 1 Pedro 5:7
-
-Lançar em Deus aquilo que nos preocupa é uma saída simples e eficaz para solucionar o problema da ansiedade. Contudo, essa atitude exige certo grau de confiança e entrega total. Quando entregamos a Deus o que nos tem causado ansiedade, passamos a desfrutar de um sentimento de paz e tranquilidade surpreendente, porque sabemos que tudo está depositado nas melhores mãos. Tudo está sob o controle do Senhor de todo o universo, que tem cuidado de nós.
-O que é que te preocupa neste dia? Problemas familiares, dívidas, estudos, trabalho, doenças, futuro? Seja qual for a causa da sua ansiedade, problemas grandes ou pequenos, a Bíblia nos orienta a lançar toda inquietação em Deus. Entrega tudo ao Senhor em oração. Fazendo isso poderá descansar nele, confiando que Deus cuida de você e que também agirá de acordo com a Sua boa vontade, em todas as situações. 
-Como lançar as suas ansiedades em Deus hoje mesmo:
-
-Ore, falando para Ele todos os assuntos que te tem preocupado, peça que Ele o direcione e oriente. 
-Entrega tudo sem reservas e deixe realmente aos Seus cuidados, porque Ele tem cuidado de você.
-Confie que o Senhor vai continuar cuidando de todas as circunstâncias da sua vida.
-
-Para orar:
-
-Senhor Deus, quero lançar em Ti todas as minhas ansiedades... Coloco em Tuas mãos as minhas preocupações e tudo que tem me inquietado. Peço que me ajudes a descansar no Senhor, confiando nos Teus cuidados e no Teu grande amor por mim. Desde já te agradeço, crendo que a Tua Paz poderá tranquilizar o meu coração. Amém!
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -346,15 +379,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  37 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  44 ++++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  61 +++---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  80 ++++----
+ feeds/palavra_do_dia/atom.xml             |  10 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 123 +++++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 300 ++++++++++++++++--------------
- 11 files changed, 298 insertions(+), 250 deletions(-)
+ output.log                                | 353 ++++++++++++++++--------------
+ 11 files changed, 353 insertions(+), 299 deletions(-)
