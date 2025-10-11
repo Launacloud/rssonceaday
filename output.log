@@ -1,46 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120411 characters
-INFO:root:HTML parsed, length: 113365 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (10/10/2025)', 'Palavra de Ontem (09/10/2025)', 'Palavra de Anteontem (08/10/2025)']
-INFO:root:Found 3 URLs: ['/disponivel/', '/bombeiro/', '/garrao/']
-INFO:root:Found 14 descriptions: ['adjetivo À disposição; pronto para ser usado: não ', 'Sinônimos:\n\nlivre, desocupado, desimpedido, desemb', 'Antônimos:\n\nindisponível, ocupado, cheio, assoberb']
-INFO:root:Found 3 dates: ['Palavra de Hoje (10/10/2025)', 'Palavra de Ontem (09/10/2025)', 'Palavra de Anteontem (08/10/2025)']
+INFO:root:Response length: 120331 characters
+INFO:root:HTML parsed, length: 113285 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (11/10/2025)', 'Palavra de Ontem (10/10/2025)', 'Palavra de Anteontem (09/10/2025)']
+INFO:root:Found 3 URLs: ['/isegoria/', '/disponivel/', '/bombeiro/']
+INFO:root:Found 14 descriptions: ['substantivo feminino [Política] Princípio que esta', 'Classe gramatical:substantivo feminino', 'Sílabas:i-se-go-ri-a']
+INFO:root:Found 3 dates: ['Palavra de Hoje (11/10/2025)', 'Palavra de Ontem (10/10/2025)', 'Palavra de Anteontem (09/10/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (10/10/2025)', ID=4c572d440fd95055c5649ab9a5d05ba3
-INFO:root:Processing entry 2: Title='Palavra de Ontem (09/10/2025)', ID=3e9204008c6b4f8626b3d23b73018668
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/10/2025)', ID=6fd8738f0a114b17ca4aa6b65059d30f
+INFO:root:Processing entry 1: Title='Palavra de Hoje (11/10/2025)', ID=9e59198bd77b5c52a48faf57cce3dd51
+INFO:root:Processing entry 2: Title='Palavra de Ontem (10/10/2025)', ID=3dd88247da144c9f040aa911eee5cf01
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/10/2025)', ID=d3383c569cca10d915cfcc7d29697a41
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (10/10/2025) - Significado completo de disponível:
+INFO:root:🔹 Title: Palavra de Hoje (11/10/2025) - Significado completo de isegoria:
+INFO:root:🔹 URL: https://www.dicio.com.br/isegoria/
+INFO:root:🔹 Description: substantivo feminino [Política] Princípio que estabelece igualdade de participação em uma assembleia ou reunião pública em relação ao tempo de uso e ao próprio uso da palavra e ao direito de voto.Etimologia (origem da palavra isegoria). Do grego "isegoría".
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (10/10/2025) - Significado completo de disponível:
 INFO:root:🔹 URL: https://www.dicio.com.br/disponivel/
-INFO:root:🔹 Description: adjetivo À disposição; pronto para ser usado: não tenho dinheiro disponível.Não impedido; livre, desocupado, desimpedido: local disponível.[Jurídico] Colocadas à disposição, por doação ou por testamento (falando especialmente de propriedades e bens).[Economia] Entregue imediatamente ao comprador: ações disponíveis.Etimologia (origem da palavra disponível). A palavra disponível deriva do latim "disponibilis", com o sentido do que se consegue dispor, colocar à disposição; talvez do francês "disponible".
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:i-se-go-ri-a
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (09/10/2025) - Significado completo de bombeiro:
+INFO:root:🔹 URL: https://www.dicio.com.br/bombeiro/
+INFO:root:🔹 Description: Sílabas:i-se-go-ri-a
  
 Sinônimos:
 
 livre, desocupado, desimpedido, desembaraçado, vago, inocupado, vazio, acessível 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (09/10/2025) - Significado completo de bombeiro:
-INFO:root:🔹 URL: https://www.dicio.com.br/bombeiro/
-INFO:root:🔹 Description: Sinônimos:
-
-livre, desocupado, desimpedido, desembaraçado, vago, inocupado, vazio, acessível
- 
-Antônimos:
-
-indisponível, ocupado, cheio, assoberbado, atarefado, azafamado, bloqueado, cerrado, completo, incapacitado, impossibilitado, interdito, lotado, preenchido, repleto, sobrecarregado, tomado, vedado 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (08/10/2025) - Significado completo de garrão:
-INFO:root:🔹 URL: https://www.dicio.com.br/garrao/
-INFO:root:🔹 Description: Antônimos:
-
-indisponível, ocupado, cheio, assoberbado, atarefado, azafamado, bloqueado, cerrado, completo, incapacitado, impossibilitado, interdito, lotado, preenchido, repleto, sobrecarregado, tomado, vedado
- Classe gramatical:adjetivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +40,100 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 323105 characters
-INFO:root:HTML parsed, length: 312524 characters
-INFO:root:Found 1 titles: ['Mateus 26:52-53']
-INFO:root:Found 1 URLs: ['/versiculo/mateus_26_52-53/']
-INFO:root:Found 1 descriptions: ['Disse-lhe Jesus: "Guarde a espada! Pois todos os q']
+INFO:root:Response length: 326458 characters
+INFO:root:HTML parsed, length: 315908 characters
+INFO:root:Found 1 titles: [':9']
+INFO:root:Found 1 URLs: ['/versiculo/__9/']
+INFO:root:Found 1 descriptions: [':9']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Mateus 26:52-53', ID=6f9fa62889051821598fb7e77c9d8953
+INFO:root:Processing entry 1: Title=' :9', ID=d05dfef9138331456bd29a8ce95ddb91
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Mateus 26:52-53
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_26_52-53/
-INFO:root:🔹 Description: Disse-lhe Jesus: "Guarde a espada! Pois todos os que empunham a espada, pela espada morrerão. Você acha que eu não posso pedir a meu Pai, e ele não colocaria imediatamente à minha disposição mais de doze legiões de anjos? Mateus 26:52-53
+INFO:root:🔹 Title:  :9
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/__9/
+INFO:root:🔹 Description: :9
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 322780 characters
-INFO:root:HTML parsed, length: 313010 characters
-INFO:root:Found 3 titles: ['Salmo 100', 'Salmo 52', 'Salmo 102']
-INFO:root:Found 3 URLs: ['/salmos_100/', '/salmos_52/', '/salmos_102/']
-INFO:root:Found 3 descriptions: ['Aclamem o Senhor\ntodos os habitantes da terra! \nPr', 'Por que você se vangloria do mal\ne de ultrajar a D', 'Ouve a minha oração, Senhor!\nChegue a ti o meu gri']
-INFO:root:Found 3 dates: ['10 de Outubro de 2025', '9 de Outubro de 2025', '8 de Outubro de 2025']
+INFO:root:Response length: 325673 characters
+INFO:root:HTML parsed, length: 315935 characters
+INFO:root:Found 3 titles: ['Salmo 94', 'Salmo 100', 'Salmo 52']
+INFO:root:Found 3 URLs: ['/salmos_94/', '/salmos_100/', '/salmos_52/']
+INFO:root:Found 3 descriptions: ['Ó Senhor, Deus vingador;\nDeus vingador! Intervém! ', 'Aclamem o Senhor\ntodos os habitantes da terra! \nPr', 'Por que você se vangloria do mal\ne de ultrajar a D']
+INFO:root:Found 3 dates: ['11 de Outubro de 2025', '10 de Outubro de 2025', '9 de Outubro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 100', ID=378c5baed3e92e1b45c87d58e85ebb5b
-INFO:root:Processing entry 2: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
-INFO:root:Processing entry 3: Title=' Salmo 102', ID=f3f93203bf47edc3fa3727bdb061891a
+INFO:root:Processing entry 1: Title=' Salmo 94', ID=1d8e97580a5987dd308a0faca1ecf59b
+INFO:root:Processing entry 2: Title=' Salmo 100', ID=378c5baed3e92e1b45c87d58e85ebb5b
+INFO:root:Processing entry 3: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 94
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_94/
+INFO:root:🔹 Description: Ó Senhor, Deus vingador;
+Deus vingador! Intervém! 
+Levanta-te, Juiz da terra;
+retribui aos orgulhosos o que merecem. 
+Até quando os ímpios, Senhor,
+até quando os ímpios exultarão? 
+Eles despejam palavras arrogantes;
+todos esses malfeitores enchem-se de vanglória. 
+Massacram o teu povo, Senhor,
+e oprimem a tua herança; 
+matam as viúvas e os estrangeiros,
+assassinam os órfãos 
+e ainda dizem: "O Senhor não nos vê;
+o Deus de Jacó nada percebe". 
+Insensatos, procurem entender!
+E vocês, tolos, quando se tornarão sábios? 
+Será que quem fez o ouvido não ouve?
+Será que quem formou o olho não vê? 
+Aquele que disciplina as nações
+os deixará sem castigo?
+Não tem sabedoria aquele
+que dá ao homem o conhecimento? 
+O Senhor conhece
+os pensamentos do homem,
+e sabe como são fúteis. 
+Como é feliz o homem a quem disciplinas,
+Senhor,
+aquele a quem ensinas a tua lei; 
+tranquilo, enfrentará os dias maus,
+enquanto, para os ímpios,
+uma cova se abrirá. 
+O Senhor não desamparará o seu povo;
+jamais abandonará a sua herança. 
+Voltará a haver justiça nos julgamentos,
+e todos os retos de coração a seguirão. 
+Quem se levantará a meu favor
+contra os ímpios?
+Quem ficará a meu lado contra os malfeitores? 
+Não fosse a ajuda do Senhor,
+eu já estaria habitando no silêncio. 
+Quando eu disse:
+Os meus pés escorregaram,
+o teu amor leal, Senhor, me amparou! 
+Quando a ansiedade
+já me dominava no íntimo,
+o teu consolo trouxe alívio à minha alma. 
+Poderá um trono corrupto
+estar em aliança contigo?,
+um trono que faz injustiças em nome da lei? 
+Eles planejam contra a vida dos justos
+e condenam os inocentes à morte. 
+Mas o Senhor é a minha torre segura;
+o meu Deus é a rocha em que encontro refúgio. 
+Deus fará cair sobre eles os seus crimes,
+e os destruirá por causa dos seus pecados;
+o Senhor, o nosso Deus, os destruirá! 
+ Salmo 94
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 100
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_100/
 INFO:root:🔹 Description: Aclamem o Senhor
@@ -132,137 +184,83 @@ proclamarei o teu nome,
 porque tu és bom. 
  Salmo 52
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 102
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_102/
-INFO:root:🔹 Description: Ouve a minha oração, Senhor!
-Chegue a ti o meu grito de socorro! 
-Não escondas de mim o teu rosto
-quando estou atribulado.
-Inclina para mim os teus ouvidos;
-quando eu clamar, responde-me depressa! 
-Esvaem-se os meus dias como fumaça;
-meus ossos queimam como brasas vivas. 
-Como a relva ressequida está o meu coração;
-esqueço até de comer! 
-De tanto gemer estou reduzido a pele e osso. 
-Sou como a coruja do deserto,
-como uma coruja entre as ruínas. 
-Não consigo dormir;
-pareço um pássaro solitário no telhado. 
-Os meus inimigos zombam de mim
-o tempo todo;
-os que me insultam usam o meu nome
-para lançar maldições. 
-Cinzas são a minha comida,
-e com lágrimas misturo o que bebo, 
-por causa da tua indignação e da tua ira,
-pois me rejeitaste e me expulsaste
-para longe de ti. 
-Meus dias são como sombras crescentes;
-sou como a relva que vai murchando. 
-Tu, porém, Senhor,
-no trono reinarás para sempre;
-o teu nome será lembrado
-de geração em geração. 
-Tu te levantarás e terás misericórdia de Sião,
-pois é hora de lhe mostrares compaixão;
-o tempo certo é chegado. 
-Pois as suas pedras são amadas
-pelos teus servos,
-as suas ruínas os enchem de compaixão. 
-Então as nações temerão o nome do Senhor
-e todos os reis da terra a sua glória. 
-Porque o Senhor reconstruirá Sião
-e se manifestará na glória que ele tem. 
-Responderá à oração dos desamparados;
-as suas súplicas não desprezará. 
-Escreva-se isto para as futuras gerações,
-e um povo que ainda será criado
-louvará o Senhor, proclamando: 
-"Do seu santuário nas alturas o Senhor olhou;
-dos céus observou a terra, 
-para ouvir os gemidos dos prisioneiros
-e libertar os condenados à morte". 
-Assim o nome do Senhor
-será anunciado em Sião
-e o seu louvor em Jerusalém, 
-quando os povos e os reinos
-se reunirem para adorar o Senhor. 
-No meio da minha vida
-ele me abateu com sua força;
-abreviou os meus dias. 
-Então pedi:
-"Ó meu Deus, não me leves
-no meio dos meus dias.
-Os teus dias duram por todas as gerações!" 
-No princípio firmaste os fundamentos da terra,
-e os céus são obras das tuas mãos. 
-Eles perecerão, mas tu permanecerás;
-envelhecerão como vestimentas.
-Como roupas tu os trocarás
-e serão jogados fora. 
-Mas tu permaneces o mesmo,
-e os teus dias jamais terão fim. 
-Os filhos dos teus servos
-terão uma habitação;
-os seus descendentes serão estabelecidos
-na tua presença. 
- Salmo 102
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 324864 characters
-INFO:root:HTML parsed, length: 314763 characters
-INFO:root:Found 3 titles: ['O Senhor é Rei!', 'Nosso amparo no meio das tormentas', 'Não desanime: continue com fé!']
+INFO:root:Response length: 328327 characters
+INFO:root:HTML parsed, length: 318258 characters
+INFO:root:Found 3 titles: ['Eu sei que meu Redentor vive!', 'O Senhor é Rei!', 'Nosso amparo no meio das tormentas']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Louvado seja o nome do Senhor, Rei eterno, soberan', 'Misericórdia, ó Deus; misericórdia,\npois em ti a m', 'Pois tu, ó Deus, nos submeteste à prova\ne nos refi']
-INFO:root:Found 1 dates: ['Sexta, 10 de outubro de 2025']
+INFO:root:Found 3 descriptions: ['Eu sei que o meu Redentor vive e que no fim se lev', 'Louvado seja o nome do Senhor, Rei eterno, soberan', 'Misericórdia, ó Deus; misericórdia,\npois em ti a m']
+INFO:root:Found 1 dates: ['Sábado, 11 de outubro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O Senhor é Rei!', ID=4d59d77b3d43e6f82baf7852a5a393e5
+INFO:root:Processing entry 1: Title='Eu sei que meu Redentor vive!', ID=6da60ea394e3a0c3a8e7be9272396221
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O Senhor é Rei! - Palavra de Hoje
+INFO:root:🔹 Title: Eu sei que meu Redentor vive! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Louvado seja o nome do Senhor, Rei eterno, soberano sobre toda a criação! Hoje erguemos nossas vozes em adoração Àquele que sustenta o universo com o poder da Sua palavra.
+INFO:root:🔹 Description: Eu sei que o meu Redentor vive e que no fim se levantará sobre a terra.
+- Jó 19:25
 
-O Senhor reina; está vestido de majestade. O Senhor se revestiu, cingiu-se de fortaleza; o mundo também está estabelecido, de modo que não pode ser abalado.
-- Salmos 93:1
+Jó, o personagem bíblico, sofreu provação após provação, mas permaneceu firme em sua fé em Deus. Em um único dia, Jó perdeu seus filhos e a maioria de seus bens. Então, como se não bastasse, perdeu a saúde. Mas, em vez de se rebelar ou virar as costas para Deus, Jó permaneceu firme, esperando com fé pela intervenção divina.
+Como Jó, podemos passar por momentos difíceis na vida quando perdemos algumas das pessoas ou coisas mais importantes para nós. Mas podemos ter certeza de uma coisa: Deus ainda é Deus. Ele vive e, nEle, podemos viver firmes em nossa esperança.
+Quando tudo parece escuro, lembrar que nosso Redentor vive nos dá forças para seguir em frente. Ele não perdeu o controle, mesmo que não entendamos o propósito por trás da dor. Sua presença nos conforta e Sua fidelidade é nossa âncora em meio à tempestade. Em Cristo, temos a certeza de que nada do que sofremos é em vão. Ele transformará nossas lágrimas em alegria e nossa fraqueza em força.
 
-Nada está fora do Seu domínio, e nenhum trono terreno pode se comparar à glória do Seu trono celestial. O Senhor é Rei! Ele governa com justiça, misericórdia e amor que não tem fim.
-Mesmo quando o mundo parece envolto em trevas, o trono de Deus permanece firme. O Senhor não perde o controle, tudo está sob o Seu olhar, e cada acontecimento serve aos propósitos eternos de Sua vontade.
-Sua palavra é o cetro que guia, consola e fortalece o coração cansado. Quando o medo tenta reinar, lembramos: o Senhor reina! Quando a injustiça se levanta, proclamamos: o Senhor é justo! Quando a dor nos visita, confessamos: o Senhor é bom!
-Ele reina sobre o tempo, sobre as nações e sobre cada coração que se rende à Sua graça. Um dia, todo joelho se dobrará e toda língua confessará que Jesus Cristo é o Senhor, o Rei dos reis e Senhor dos senhores.
-Celebremos com alegria! Que cada dia seja um cântico de louvor ao nosso Rei. Que nossas vidas reflitam a Sua majestade e proclamem ao mundo que o Senhor é Rei , ontem, hoje e para sempre! Aleluia!
+Feliz é o homem que persevera na provação, porque depois de aprovado receberá a coroa da vida, que Deus prometeu aos que o amam.
+- Tiago 1:12
 
-O teu trono, ó Deus, subsiste para todo o sempre; cetro de justiça é o cetro do teu reino.
-- Salmos 45:6
-
-Veja também: Louvar a Deus: 5 formas de louvar ao Senhor de todo o nosso coração.
+Se permanecermos atentos, veremos a mão de Deus agindo em nós, mesmo em meio às provações. Por meio das dificuldades, o Senhor molda nosso caráter, purifica nossa fé e nos ensina a depender totalmente dEle. Perseverança não significa não sentir dor, mas sim continuar a confiar em meio a ela. E quando perseveramos, Deus promete recompensar nossa fidelidade com vida, esperança e vitória eterna.
+Sejam quais forem as provações que você possa enfrentar hoje, mantenha sua confiança em Deus. Ele cuida de você, seus dias estão em Suas mãos e em Seus braços amorosos você está seguro por toda a eternidade.
+Veja também: A história de Jó
  
-O Senhor reina; está vestido de majestade. O Senhor se revestiu, cingiu-se de fortaleza; o mundo também está estabelecido, de modo que não pode ser abalado.
-- Salmos 93:1
+Eu sei que o meu Redentor vive e que no fim se levantará sobre a terra.
+- Jó 19:25
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 339205 characters
-INFO:root:HTML parsed, length: 328634 characters
-INFO:root:Found 3 titles: ['Um farol em meio a escuridão', 'Somente creia!', 'Ele enxugará dos seus olhos toda lágrima']
-INFO:root:Found 3 URLs: ['/salmos_de_protecao/', '/versiculos_poder_da_fe/', '/deus_registra_suas_lagrimas/']
-INFO:root:Found 3 descriptions: ['A tua palavra é lâmpada\nque ilumina os meus passos', 'Ouvindo isso, Jesus disse a Jairo: "Não tenha medo', 'Ele enxugará dos seus olhos toda lágrima. Não have']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n10\nSEXTA', 'OUTUBRO\n\n9\nQUINTA', 'OUTUBRO\n\n8\nQUARTA']
+INFO:root:Response length: 342783 characters
+INFO:root:HTML parsed, length: 332255 characters
+INFO:root:Found 3 titles: ['Jesus ó Filho de Davi atende o meu clamor', 'Um farol em meio a escuridão', 'Somente creia!']
+INFO:root:Found 3 URLs: ['/a_cura_do_cego_bartimeu/', '/salmos_de_protecao/', '/versiculos_poder_da_fe/']
+INFO:root:Found 3 descriptions: ['Quando ouviu que era Jesus de Nazaré, começou a gr', 'A tua palavra é lâmpada\nque ilumina os meus passos', 'Ouvindo isso, Jesus disse a Jairo: "Não tenha medo']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n11\nSÁBADO', 'OUTUBRO\n\n10\nSEXTA', 'OUTUBRO\n\n9\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Um farol em meio a escuridão', ID=57ff9cbd7e6a08f42ddb5a3235d4d556
-INFO:root:Processing entry 2: Title='Somente creia!', ID=b5e4c3992b053c4a8e65cb6f9528082d
-INFO:root:Processing entry 3: Title='Ele enxugará dos seus olhos toda lágrima', ID=0b466823a4da2bed99c28bb394dc0b30
+INFO:root:Processing entry 1: Title='Jesus ó Filho de Davi atende o meu clamor', ID=ee597773c16fdf29b9e7982683fa3704
+INFO:root:Processing entry 2: Title='Um farol em meio a escuridão', ID=57ff9cbd7e6a08f42ddb5a3235d4d556
+INFO:root:Processing entry 3: Title='Somente creia!', ID=b5e4c3992b053c4a8e65cb6f9528082d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Jesus ó Filho de Davi atende o meu clamor
+INFO:root:🔹 URL: https://www.bibliaon.com/a_cura_do_cego_bartimeu/
+INFO:root:🔹 Description: Quando ouviu que era Jesus de Nazaré, começou a gritar: "Jesus, Filho de Davi, tem misericórdia de mim!"
+- Marcos 10:47 
+
+Jesus, o Filho de Davi, é Aquele que ouve o clamor sincero de um coração quebrantado. Assim como Bartimeu, o cego à beira do caminho, muitos de nós já nos sentimos esquecidos, limitados e sem esperança. Contudo, quando levantamos nossa voz em fé, mesmo em meio ao barulho das circunstâncias, Jesus para, olha para nós e responde com amor.
+Talvez você esteja passando por um vale escuro, onde parece não haver saída. Pode ser que as vozes ao seu redor tentem calar sua fé, dizendo que não adianta orar, que o milagre não virá. Mas lembre-se: o clamor que sai de um coração dependente de Deus nunca é ignorado pelo Senhor. Ele é o mesmo ontem, hoje e eternamente. O mesmo Jesus que restaurou a visão de Bartimeu é capaz de restaurar sua vida, sua família e seus sonhos.
+O Filho de Davi é o Messias prometido, o Rei que governa com justiça e misericórdia. Ele não rejeita os que O buscam, antes Se inclina para ouvir o grito de quem reconhece sua necessidade. Seu clamor pode ser por cura, provisão, libertação ou simplesmente por paz interior. Não importa qual seja, Jesus é poderoso para responder.
+Não permita que a incredulidade roube sua esperança. Levante sua voz em oração e diga com ousadia: “Jesus, Filho de Davi, atende o meu clamor!”. Ele conhece suas lágrimas, entende suas dores e tem poder para transformar sua história.
+Creia que o Senhor está atento a você. Sua fé é a chave que abre portas e move o coração de Deus. Confie: o milagre está a caminho.
+Jesus ouve o seu clamor e age em seu favor!
+
+
+Clame com fé: Não importa a situação, erga sua voz confiando que Jesus está ouvindo. A fé genuína toca o coração de Deus e abre caminhos onde parecia impossível.
+
+Persevere na oração: Mesmo quando o silêncio parece longo, continue clamando. Deus nunca se atrasa; Ele age no tempo certo, fortalecendo sua fé e preparando milagres maiores do que você imagina.
+
+Abrace a esperança: Após clamar, descanse no Senhor. A esperança em Cristo renova suas forças e traz paz ao coração, lembrando que Ele sempre transforma dores em testemunhos de vitória.
+
+Para orar: 
+
+Senhor Jesus, Filho de Davi, eu clamo a Ti com todo o meu coração. Olha para minhas dores e minhas necessidades. Fortalece minha fé, renova minha esperança e derrama Tua paz sobre mim. Eu creio que nada é impossível para Ti e que o Teu amor nunca falha. Atende meu clamor, Senhor, e transforma minha vida para a glória do Teu nome. Amém.
+
+Veja também: Estudo sobre o cego Bartimeu: 4 lições de vida.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Um farol em meio a escuridão
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_de_protecao/
 INFO:root:🔹 Description: A tua palavra é lâmpada
@@ -315,30 +313,6 @@ Senhor Jesus, eu creio em Ti! Entrego minha vida, minhas lutas e meus sonhos em 
 
 Veja também: 4 versículos de como a fé move o coração de Deus.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Ele enxugará dos seus olhos toda lágrima
-INFO:root:🔹 URL: https://www.bibliaon.com/deus_registra_suas_lagrimas/
-INFO:root:🔹 Description: Ele enxugará dos seus olhos toda lágrima. Não haverá mais morte, nem tristeza, nem choro, nem dor, pois a antiga ordem já passou".
-- Apocalipse 21:4
-
-Este versículo é uma promessa viva para todos nós que enfrentamos dificuldades, perdas e momentos de dor. Quantas vezes nos sentimos sobrecarregados pelas adversidades da vida, pelas feridas do passado ou pelas incertezas do futuro? Deus nos lembra que essas lágrimas não passam despercebidas. Ele vê cada sofrimento, cada momento de desânimo, e tem um plano de consolo e restauração.
-Mesmo quando o mundo ao nosso redor parece desmoronar, podemos encontrar esperança na certeza de que Ele está conosco. Cada desafio enfrentado hoje é uma oportunidade para fortalecer a fé e confiar que, no tempo certo, toda dor será transformada em alegria. A promessa de Apocalipse 21:4 não é apenas para um futuro distante; ela começa a operar na nossa vida quando entregamos nossos medos, frustrações e tristezas a Cristo.
-Deus nos convida a erguer a cabeça, renovar nossa fé e viver com coragem, sabendo que a antiga ordem de sofrimento e desesperança já passou. Cada lágrima que cai é testemunho de que estamos vivos, mas cada sorriso que surge é fruto da presença do Senhor em nossa jornada.
-Não desanime diante das lutas. Mantenha seus olhos fixos em Jesus, que nos garante consolo eterno e vitória sobre todas as dores. A vida em Cristo nos oferece um futuro repleto de paz, amor e alegria sem fim. Acredite na promessa: dias melhores estão chegando, e Ele estará ao seu lado, enxugando cada lágrima e transformando sua história em testemunho de vitória.
-Superando a dor e abraçando a esperança
-
-
-Entregue suas preocupações a Deus: Reserve momentos diários para orar e confiar a Ele suas lágrimas, medos e desafios. A entrega sincera permite que o Espírito Santo transforme sua dor em paz interior constante.
-
-Cultive a gratidão mesmo nas dificuldades: Reconheça pequenas bênçãos diariamente, mesmo em tempos de provação. A gratidão muda o foco da tristeza para a esperança, fortalecendo sua fé e trazendo consolo nas circunstâncias adversas.
-
-Aja com fé e amor no próximo: Pratique gestos de bondade, perdão e apoio aos que sofrem. Servir e amar fortalece sua esperança, reflete o amor de Cristo e transforma lágrimas em testemunhos de vitória.
-
-Para orar:
-
-Senhor, enxuga minhas lágrimas e fortalece minha fé. Que eu sinta Tua paz em meio às lutas, confie em Teu amor e transforme minha dor em esperança e alegria. Amém.
-
-Veja também: Cada lágrima derramada (Estudo Bíblico).
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 92 characters
@@ -368,15 +342,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  52 +++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  33 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  26 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  61 ++-----
+ feeds/salmo_do_dia/atom.xml               | 135 ++++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 286 +++++++++++++-----------------
- 11 files changed, 229 insertions(+), 285 deletions(-)
+ output.log                                | 342 +++++++++++++-----------------
+ 11 files changed, 283 insertions(+), 347 deletions(-)
