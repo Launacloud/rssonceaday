@@ -1,38 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120331 characters
-INFO:root:HTML parsed, length: 113285 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (11/10/2025)', 'Palavra de Ontem (10/10/2025)', 'Palavra de Anteontem (09/10/2025)']
-INFO:root:Found 3 URLs: ['/isegoria/', '/disponivel/', '/bombeiro/']
-INFO:root:Found 14 descriptions: ['substantivo feminino [Política] Princípio que esta', 'Classe gramatical:substantivo feminino', 'Sílabas:i-se-go-ri-a']
-INFO:root:Found 3 dates: ['Palavra de Hoje (11/10/2025)', 'Palavra de Ontem (10/10/2025)', 'Palavra de Anteontem (09/10/2025)']
+INFO:root:Response length: 120734 characters
+INFO:root:HTML parsed, length: 113435 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (12/10/2025)', 'Palavra de Ontem (11/10/2025)', 'Palavra de Anteontem (10/10/2025)']
+INFO:root:Found 3 URLs: ['/inocencia/', '/isegoria/', '/disponivel/']
+INFO:root:Found 15 descriptions: ['substantivo feminino Característica, estado do que', 'Sinônimos:\n\ndonzelice, pureza, candura, virgindade', 'Antônimos:\n\nculpabilidade']
+INFO:root:Found 3 dates: ['Palavra de Hoje (12/10/2025)', 'Palavra de Ontem (11/10/2025)', 'Palavra de Anteontem (10/10/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (11/10/2025)', ID=9e59198bd77b5c52a48faf57cce3dd51
-INFO:root:Processing entry 2: Title='Palavra de Ontem (10/10/2025)', ID=3dd88247da144c9f040aa911eee5cf01
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/10/2025)', ID=d3383c569cca10d915cfcc7d29697a41
+INFO:root:Processing entry 1: Title='Palavra de Hoje (12/10/2025)', ID=1b635c03c3416153dbc95c5a13903eb4
+INFO:root:Processing entry 2: Title='Palavra de Ontem (11/10/2025)', ID=c96edb8b5dc74a8141c1127e18574bcf
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (10/10/2025)', ID=30804fe11e60ad45c388a0c38bfd2ad3
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (11/10/2025) - Significado completo de isegoria:
-INFO:root:🔹 URL: https://www.dicio.com.br/isegoria/
-INFO:root:🔹 Description: substantivo feminino [Política] Princípio que estabelece igualdade de participação em uma assembleia ou reunião pública em relação ao tempo de uso e ao próprio uso da palavra e ao direito de voto.Etimologia (origem da palavra isegoria). Do grego "isegoría".
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (10/10/2025) - Significado completo de disponível:
-INFO:root:🔹 URL: https://www.dicio.com.br/disponivel/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:i-se-go-ri-a
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (09/10/2025) - Significado completo de bombeiro:
-INFO:root:🔹 URL: https://www.dicio.com.br/bombeiro/
-INFO:root:🔹 Description: Sílabas:i-se-go-ri-a
+INFO:root:🔹 Title: Palavra de Hoje (12/10/2025) - Significado completo de inocência:
+INFO:root:🔹 URL: https://www.dicio.com.br/inocencia/
+INFO:root:🔹 Description: substantivo feminino Característica, estado do que é inocente; falta de culpa.Atributo da pessoa que não consegue cometer ato ilícito; condição de quem não é culpado (crime).Desprovido de malícia; excesso de ingenuidade; pureza: seu chefe vivia abusando de sua inocência.Grande candura proveniente da ignorância: havia inocência no comportamento de sua filha.Que ainda não conhece o amor; que nunca teve relações sexuais; virgindade ou donzelice.Etimologia (origem da palavra inocência). Do latim innocentia.ae.
  
 Sinônimos:
 
-livre, desocupado, desimpedido, desembaraçado, vago, inocupado, vazio, acessível 
+donzelice, pureza, candura, virgindade 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (11/10/2025) - Significado completo de isegoria:
+INFO:root:🔹 URL: https://www.dicio.com.br/isegoria/
+INFO:root:🔹 Description: Sinônimos:
+
+donzelice, pureza, candura, virgindade
+ 
+Antônimos:
+
+culpabilidade 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (10/10/2025) - Significado completo de disponível:
+INFO:root:🔹 URL: https://www.dicio.com.br/disponivel/
+INFO:root:🔹 Description: Antônimos:
+
+culpabilidade
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +48,70 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 326458 characters
-INFO:root:HTML parsed, length: 315908 characters
-INFO:root:Found 1 titles: [':9']
-INFO:root:Found 1 URLs: ['/versiculo/__9/']
-INFO:root:Found 1 descriptions: [':9']
+INFO:root:Response length: 326309 characters
+INFO:root:HTML parsed, length: 315759 characters
+INFO:root:Found 1 titles: ['1 Coríntios 11:1']
+INFO:root:Found 1 URLs: ['/versiculo/1_corintios_11_1/']
+INFO:root:Found 1 descriptions: ['Tornem-se meus imitadores, como eu o sou de Cristo']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title=' :9', ID=d05dfef9138331456bd29a8ce95ddb91
+INFO:root:Processing entry 1: Title='1 Coríntios 11:1', ID=7185bc7a0ec78447384d9bd37b1067e7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title:  :9
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/__9/
-INFO:root:🔹 Description: :9
+INFO:root:🔹 Title: 1 Coríntios 11:1
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_corintios_11_1/
+INFO:root:🔹 Description: Tornem-se meus imitadores, como eu o sou de Cristo. 1 Coríntios 11:1
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325673 characters
-INFO:root:HTML parsed, length: 315935 characters
-INFO:root:Found 3 titles: ['Salmo 94', 'Salmo 100', 'Salmo 52']
-INFO:root:Found 3 URLs: ['/salmos_94/', '/salmos_100/', '/salmos_52/']
-INFO:root:Found 3 descriptions: ['Ó Senhor, Deus vingador;\nDeus vingador! Intervém! ', 'Aclamem o Senhor\ntodos os habitantes da terra! \nPr', 'Por que você se vangloria do mal\ne de ultrajar a D']
-INFO:root:Found 3 dates: ['11 de Outubro de 2025', '10 de Outubro de 2025', '9 de Outubro de 2025']
+INFO:root:Response length: 325667 characters
+INFO:root:HTML parsed, length: 315930 characters
+INFO:root:Found 3 titles: ['Salmo 4', 'Salmo 94', 'Salmo 100']
+INFO:root:Found 3 URLs: ['/salmos_4/', '/salmos_94/', '/salmos_100/']
+INFO:root:Found 3 descriptions: ['Responde-me quando clamo,\nó Deus que me fazes just', 'Ó Senhor, Deus vingador;\nDeus vingador! Intervém! ', 'Aclamem o Senhor\ntodos os habitantes da terra! \nPr']
+INFO:root:Found 3 dates: ['12 de Outubro de 2025', '11 de Outubro de 2025', '10 de Outubro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 94', ID=1d8e97580a5987dd308a0faca1ecf59b
-INFO:root:Processing entry 2: Title=' Salmo 100', ID=378c5baed3e92e1b45c87d58e85ebb5b
-INFO:root:Processing entry 3: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
+INFO:root:Processing entry 1: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
+INFO:root:Processing entry 2: Title=' Salmo 94', ID=1d8e97580a5987dd308a0faca1ecf59b
+INFO:root:Processing entry 3: Title=' Salmo 100', ID=378c5baed3e92e1b45c87d58e85ebb5b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 4
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_4/
+INFO:root:🔹 Description: Responde-me quando clamo,
+ó Deus que me fazes justiça!
+Dá-me alívio da minha angústia;
+tem misericórdia de mim
+e ouve a minha oração. 
+Até quando vocês, ó poderosos,
+ultrajarão a minha honra?
+Até quando estarão amando ilusões
+e buscando mentiras? 
+Saibam que o Senhor escolheu o piedoso;
+o Senhor ouvirá quando eu o invocar. 
+Quando vocês ficarem irados, não pequem;
+ao deitar-se, reflitam nisso
+e aquietem-se. 
+Ofereçam sacrifícios como Deus exige
+e confiem no Senhor. 
+Muitos perguntam:
+"Quem nos fará desfrutar o bem?"
+Faze, ó Senhor, resplandecer sobre nós
+a luz do teu rosto! 
+Encheste o meu coração de alegria,
+alegria maior do que a daqueles
+que têm fartura de trigo e de vinho. 
+Em paz me deito e logo adormeço,
+pois só tu, Senhor,
+me fazes viver em segurança. 
+ Salmo 4
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 94
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_94/
 INFO:root:🔹 Description: Ó Senhor, Deus vingador;
@@ -154,90 +192,95 @@ a sua fidelidade permanece
 por todas as gerações. 
  Salmo 100
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 52
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_52/
-INFO:root:🔹 Description: Por que você se vangloria do mal
-e de ultrajar a Deus continuamente?,
-ó homem poderoso! 
-Sua língua trama destruição;
-é como navalha afiada, cheia de engano. 
-Você prefere o mal ao bem;
-a falsidade, à verdade. 
-Você ama toda palavra maldosa,
-ó língua mentirosa! 
-Saiba que Deus o arruinará para sempre:
-ele o agarrará e o arrancará da sua tenda;
-ele o desarraigará da terra dos vivos. 
-Os justos verão isso e temerão;
-rirão dele, dizendo: 
-"Veja só o homem
-que rejeitou a Deus como refúgio;
-confiou em sua grande riqueza
-e buscou refúgio em sua maldade!" 
-Mas eu sou como uma oliveira
-que floresce na casa de Deus;
-confio no amor de Deus
-para todo o sempre. 
-Para sempre te louvarei pelo que fizeste;
-na presença dos teus fiéis
-proclamarei o teu nome,
-porque tu és bom. 
- Salmo 52
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 328327 characters
-INFO:root:HTML parsed, length: 318258 characters
-INFO:root:Found 3 titles: ['Eu sei que meu Redentor vive!', 'O Senhor é Rei!', 'Nosso amparo no meio das tormentas']
+INFO:root:Response length: 328552 characters
+INFO:root:HTML parsed, length: 318467 characters
+INFO:root:Found 3 titles: ['Fale com Deus', 'Eu sei que meu Redentor vive!', 'O Senhor é Rei!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Eu sei que o meu Redentor vive e que no fim se lev', 'Louvado seja o nome do Senhor, Rei eterno, soberan', 'Misericórdia, ó Deus; misericórdia,\npois em ti a m']
-INFO:root:Found 1 dates: ['Sábado, 11 de outubro de 2025']
+INFO:root:Found 3 descriptions: ['Os olhos do Senhor repousam sobre os justos, e os ', 'Eu sei que o meu Redentor vive e que no fim se lev', 'Louvado seja o nome do Senhor, Rei eterno, soberan']
+INFO:root:Found 1 dates: ['Domingo, 12 de outubro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Eu sei que meu Redentor vive!', ID=6da60ea394e3a0c3a8e7be9272396221
+INFO:root:Processing entry 1: Title='Fale com Deus', ID=c742af1076c89a9e3caa669ef23115be
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Eu sei que meu Redentor vive! - Palavra de Hoje
+INFO:root:🔹 Title: Fale com Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Eu sei que o meu Redentor vive e que no fim se levantará sobre a terra.
-- Jó 19:25
+INFO:root:🔹 Description: Os olhos do Senhor repousam sobre os justos, e os seus ouvidos estão abertos ao seu clamor.
+- Salmos 34:15
 
-Jó, o personagem bíblico, sofreu provação após provação, mas permaneceu firme em sua fé em Deus. Em um único dia, Jó perdeu seus filhos e a maioria de seus bens. Então, como se não bastasse, perdeu a saúde. Mas, em vez de se rebelar ou virar as costas para Deus, Jó permaneceu firme, esperando com fé pela intervenção divina.
-Como Jó, podemos passar por momentos difíceis na vida quando perdemos algumas das pessoas ou coisas mais importantes para nós. Mas podemos ter certeza de uma coisa: Deus ainda é Deus. Ele vive e, nEle, podemos viver firmes em nossa esperança.
-Quando tudo parece escuro, lembrar que nosso Redentor vive nos dá forças para seguir em frente. Ele não perdeu o controle, mesmo que não entendamos o propósito por trás da dor. Sua presença nos conforta e Sua fidelidade é nossa âncora em meio à tempestade. Em Cristo, temos a certeza de que nada do que sofremos é em vão. Ele transformará nossas lágrimas em alegria e nossa fraqueza em força.
+Deus anseia que falemos com Ele, estejamos felizes ou tristes, com coragem ou sem forças para continuar. Talvez você se sinta triste ou desanimado hoje e não saiba como superar aquela tristeza que sente no coração. Quem sabe, um problema totalmente inesperado tenha surgido em sua vida e seu ânimo desabou. A Bíblia te orienta a levar seus fardos a Deus:
 
-Feliz é o homem que persevera na provação, porque depois de aprovado receberá a coroa da vida, que Deus prometeu aos que o amam.
-- Tiago 1:12
+ Lance os seus cuidados sobre o Senhor e Ele o susterá; jamais permitirá que o justo seja abalado.
+- Salmos 55:22
 
-Se permanecermos atentos, veremos a mão de Deus agindo em nós, mesmo em meio às provações. Por meio das dificuldades, o Senhor molda nosso caráter, purifica nossa fé e nos ensina a depender totalmente dEle. Perseverança não significa não sentir dor, mas sim continuar a confiar em meio a ela. E quando perseveramos, Deus promete recompensar nossa fidelidade com vida, esperança e vitória eterna.
-Sejam quais forem as provações que você possa enfrentar hoje, mantenha sua confiança em Deus. Ele cuida de você, seus dias estão em Suas mãos e em Seus braços amorosos você está seguro por toda a eternidade.
-Veja também: A história de Jó
+Ou você pode estar alegre e feliz com as circunstâncias da sua vida. Talvez, agora você se acha a pessoa mais abençoada do mundo e sente uma vontade constante de cantar e dançar. Eleve orações de louvor e gratidão!
+
+Deem graças ao Senhor, porque Ele é bom, porque a sua misericórdia dura para sempre.
+- 1 Crônicas 16:34
+
+Seja qual for o seu humor neste momento, não se esqueça Daquele que te ama mais do que ninguém: Deus. Converse com Ele, compartilhe suas alegrias e também suas tristezas. Peça orientação sobre as decisões que você deve tomar. Agradeça pelas coisas boas da sua vida.
+Ao orar ou conversar com Deus você poderá expressar seus sentimentos, ouvir sua voz e sentir Sua presença em meio ao que acontece com você. Não deixe esse dia terminar sem reservar um tempinho para conversar com Deus.
+
+Confie nele em todo tempo, ó povo; derrame diante dele o seu coração. Deus é o nosso refúgio.
+- Salmos 62:8
+
+
+Orações para acalmar o coração (e encontrar paz)
+Como Orar (aprenda como pedir algo a Deus)
+Oração de Madrugada: 3 orações para buscar a Deus sem cessar
+Oração da noite: 13 orações para fazer antes de dormir
+3 orações de confissão e arrependimento (para pedir perdão a Deus)
  
-Eu sei que o meu Redentor vive e que no fim se levantará sobre a terra.
-- Jó 19:25
+Orações para acalmar o coração (e encontrar paz)
+Como Orar (aprenda como pedir algo a Deus)
+Oração de Madrugada: 3 orações para buscar a Deus sem cessar
+Oração da noite: 13 orações para fazer antes de dormir
+3 orações de confissão e arrependimento (para pedir perdão a Deus)
+
+ 
+Os olhos do Senhor repousam sobre os justos, e os seus ouvidos estão abertos ao seu clamor.
+- Salmos 34:15
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 342783 characters
-INFO:root:HTML parsed, length: 332255 characters
-INFO:root:Found 3 titles: ['Jesus ó Filho de Davi atende o meu clamor', 'Um farol em meio a escuridão', 'Somente creia!']
-INFO:root:Found 3 URLs: ['/a_cura_do_cego_bartimeu/', '/salmos_de_protecao/', '/versiculos_poder_da_fe/']
-INFO:root:Found 3 descriptions: ['Quando ouviu que era Jesus de Nazaré, começou a gr', 'A tua palavra é lâmpada\nque ilumina os meus passos', 'Ouvindo isso, Jesus disse a Jairo: "Não tenha medo']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n11\nSÁBADO', 'OUTUBRO\n\n10\nSEXTA', 'OUTUBRO\n\n9\nQUINTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Jesus ó Filho de Davi atende o meu clamor', ID=ee597773c16fdf29b9e7982683fa3704
-INFO:root:Processing entry 2: Title='Um farol em meio a escuridão', ID=57ff9cbd7e6a08f42ddb5a3235d4d556
-INFO:root:Processing entry 3: Title='Somente creia!', ID=b5e4c3992b053c4a8e65cb6f9528082d
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 340989 characters
+INFO:root:HTML parsed, length: 330464 characters
+INFO:root:Found 3 titles: ['Confiança que não falha', 'Jesus ó Filho de Davi atende o meu clamor', 'Um farol em meio a escuridão']
+INFO:root:Found 2 URLs: ['/a_cura_do_cego_bartimeu/', '/salmos_de_protecao/']
+INFO:root:Found 3 descriptions: ['Alguns confiam em carros e outros em cavalos, mas ', 'Quando ouviu que era Jesus de Nazaré, começou a gr', 'A tua palavra é lâmpada\nque ilumina os meus passos']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n12\nDOMINGO', 'OUTUBRO\n\n11\nSÁBADO', 'OUTUBRO\n\n10\nSEXTA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Confiança que não falha', ID=77b1444acb9c4e1a3a867e2bb1ab7c5d
+INFO:root:Processing entry 2: Title='Jesus ó Filho de Davi atende o meu clamor', ID=ee597773c16fdf29b9e7982683fa3704
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jesus ó Filho de Davi atende o meu clamor
+INFO:root:🔹 Title: Confiança que não falha
 INFO:root:🔹 URL: https://www.bibliaon.com/a_cura_do_cego_bartimeu/
+INFO:root:🔹 Description: Alguns confiam em carros e outros em cavalos, mas nós confiamos no nome do Senhor, o nosso Deus. Eles vacilam e caem, mas nós nos erguemos e estamos firmes.
+- Salmo 20:7-8
+
+Quais são as coisas em que você confia? No dinheiro? No emprego? Na família? Na saúde? Todas essas coisas falham! Mas existe uma coisa que nunca falha: o amor de Deus por você.
+O fundamento para uma vida sólida é a confiança em Jesus. Ele tem todo poder e nunca muda. Outras pessoas confiam em coisas terrenas a acabam por cair, mas, se você confia em Deus, você não vai ser destruído. As dificuldades virão, mas o fundamento de sua vida estará seguro.
+Firme sua vida em Jesus:
+
+Entregue sua vida a Jesus, crendo que Ele é seu Salvador
+Ore a Deus por ajuda nas dificuldades
+Obedeça aos mandamentos de Deus que estão na Bíblia
+
+Para orar:
+
+Senhor Jesus, quero pôr toda minha confiança em você. Eu creio que você é o único fundamento sólido para minha vida. Me ajude a viver para Ti, em obediência a Deus, sem colocar minha fé em coisas que falham. Sê minha segurança nas dificuldades. Amém.
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Jesus ó Filho de Davi atende o meu clamor
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_de_protecao/
 INFO:root:🔹 Description: Quando ouviu que era Jesus de Nazaré, começou a gritar: "Jesus, Filho de Davi, tem misericórdia de mim!"
 - Marcos 10:47 
 
@@ -260,58 +303,6 @@ Para orar:
 Senhor Jesus, Filho de Davi, eu clamo a Ti com todo o meu coração. Olha para minhas dores e minhas necessidades. Fortalece minha fé, renova minha esperança e derrama Tua paz sobre mim. Eu creio que nada é impossível para Ti e que o Teu amor nunca falha. Atende meu clamor, Senhor, e transforma minha vida para a glória do Teu nome. Amém.
 
 Veja também: Estudo sobre o cego Bartimeu: 4 lições de vida.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Um farol em meio a escuridão
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_de_protecao/
-INFO:root:🔹 Description: A tua palavra é lâmpada
-que ilumina os meus passos
-e luz que clareia o meu caminho.
-- Salmos 119:105 
-
-Em um mundo tão escuro e inseguro, Deus é como um farol que jamais se apaga. A escuridão pode assumir muitas formas: dúvidas que pesam no coração, dores que parecem insuportáveis ou incertezas diante do futuro. Nesses momentos, a sensação de estar perdido pode ser esmagadora. Mas é justamente aí que a presença do Senhor se torna visível como uma luz firme, apontando a direção e trazendo esperança.
-O farol não elimina a tempestade, mas guia o navegante em meio às ondas. Da mesma forma, Cristo não nos promete ausência de lutas, mas garante que nunca estaremos sozinhos. Sua palavra ilumina, consola e fortalece, conduzindo-nos para longe dos perigos e de escolhas que podem nos afastar do Seu amor.
-O segredo está em manter os olhos fixos nessa luz. Quando desviamos a atenção, somos tomados pelas trevas. Quando nos firmamos em Cristo, encontramos segurança. Ele é a rocha que sustenta, o abrigo em meio ao vendaval, e a luz que jamais falha.
-Ser guiado por esse farol também nos chama a refletir essa luz para os outros. Assim como um farol não existe para si mesmo, mas para orientar os que navegam, nós somos chamados a ser instrumentos de esperança no mundo. Nossas palavras, atitudes e orações podem acender pequenas luzes no coração de quem está perdido, mostrando o caminho para o Salvador.
-Diante da escuridão, lembre-se: não estamos sozinhos. Há uma luz constante que nos guia. O farol é Cristo, aquele que nos conduz com segurança até o porto da vida eterna. 
-Cristo é o farol! 
-
-
-Confie na luz da Palavra: Volte-se às Escrituras. Elas iluminam o caminho, revelam a vontade de Deus e fortalecem sua fé, mostrando direção mesmo quando tudo parece incerto.
-
-Permaneça firme em Cristo: As tempestades vêm, mas a presença de Jesus traz segurança. Olhar para Ele impede o medo de dominar. Sua fidelidade é o fundamento que sustenta em qualquer adversidade.
-
-Seja reflexo da luz de Cristo: Compartilhe esperança através de palavras e atitudes. Assim como um farol orienta viajantes, sua vida pode apontar para Cristo, conduzindo outros ao amor e salvação eterna.
-
-Para orar: 
-
-Senhor amado, obrigado porque Tu és o farol que ilumina minha vida em meio à escuridão. Guia meus passos, fortalece minha fé e sustenta-me nas tempestades. Que eu nunca desvie meus olhos de Ti e que minha vida reflita Tua luz para os que ainda caminham perdidos. Conduze-me sempre ao Teu porto seguro, onde encontro paz, esperança e a certeza do Teu amor eterno. Amém.
-
-Veja também: Salmos de Proteção: encontre abrigo e livramento contra o mal.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Somente creia!
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_poder_da_fe/
-INFO:root:🔹 Description: Ouvindo isso, Jesus disse a Jairo: "Não tenha medo; tão somente creia, e ela será curada".
-- Lucas 8:50
-
-A fé é o alicerce da vida cristã. Jesus nos ensina que, quando cremos, milagres se tornam realidade e portas que pareciam fechadas se abrem diante de nós. Não é necessário compreendermos todos os detalhes, nem termos todas as respostas, mas confiarmos que Aquele que prometeu é fiel para cumprir.
-Na Palavra de Deus, vemos exemplos de pessoas comuns que experimentaram o sobrenatural porque decidiram crer. A mulher do fluxo de sangue, que apenas tocou na orla das vestes de Jesus, recebeu cura. O cego de Jericó clamou com fé e teve sua visão restaurada. O centurião creu que bastava uma palavra de Cristo, e o seu servo foi curado. Em todos esses casos, não foi a força, nem o conhecimento, mas a fé que moveu o coração de Deus.
-Crer em Jesus é permanecer firmes mesmo quando as situações dizem o contrário. É olhar para além da dor e da incerteza, sabendo que Ele continua no controle. A fé não ignora as lutas, mas declara que elas não têm a palavra final. Quando o medo tentar nos paralisar, devemos lembrar da voz de Cristo: “Não temas; crê somente.”
-Maravilhas acontecem quando entregamos nossas preocupações nas mãos do Senhor. A fé nos faz descansar, mesmo no meio da tempestade, porque sabemos que o Mestre está no barco. E, ainda que o vento sopre forte, Ele pode acalmar o mar com uma só palavra.
-Escolha crer! Mantenha seus olhos em Jesus, o autor e consumador da nossa fé. A esperança em Cristo nunca será em vão. Ele continua realizando milagres, abrindo caminhos impossíveis e transformando vidas. Somente creia, e veja a glória de Deus se manifestar em sua história!
-A fé que transforma
-
-
-A fé abre portas onde não há saída, conduzindo-nos a experimentar milagres. Quando confiamos plenamente em Jesus, Ele nos guia por caminhos de vitória e esperança inabalável.
-
-Permanecer firmes na fé, mesmo diante dos problemas, fortalece nosso coração. Jesus nos assegura que, com confiança nele, somos capazes de enfrentar desafios e testemunhar Seu poder transformador.
-
-Crer é descansar em Cristo, entregando-lhe nossas ansiedades. Ao confiar em Suas promessas, descobrimos paz verdadeira, força renovada e a certeza de que Ele continua operando maravilhas em nossas vidas.
-
-Para orar:
-
-Senhor Jesus, eu creio em Ti! Entrego minha vida, minhas lutas e meus sonhos em Tuas mãos. Fortalece minha fé para que eu permaneça firme, mesmo nas tempestades. Acalma meu coração, renova minhas forças e ajuda-me a confiar plenamente no Teu poder. Que eu veja Tuas maravilhas se manifestarem e que minha vida seja testemunho da Tua glória. Obrigado, Senhor, porque sei que és fiel. Amém.
-
-Veja também: 4 versículos de como a fé move o coração de Deus.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -342,15 +333,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  26 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  61 ++----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  43 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 135 ++++++------
+ feeds/salmo_do_dia/atom.xml               |  58 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 342 +++++++++++++-----------------
- 11 files changed, 283 insertions(+), 347 deletions(-)
+ output.log                                | 315 ++++++++++++++----------------
+ 11 files changed, 267 insertions(+), 298 deletions(-)
