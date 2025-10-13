@@ -1,46 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120734 characters
-INFO:root:HTML parsed, length: 113435 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (12/10/2025)', 'Palavra de Ontem (11/10/2025)', 'Palavra de Anteontem (10/10/2025)']
-INFO:root:Found 3 URLs: ['/inocencia/', '/isegoria/', '/disponivel/']
-INFO:root:Found 15 descriptions: ['substantivo feminino Característica, estado do que', 'Sinônimos:\n\ndonzelice, pureza, candura, virgindade', 'Antônimos:\n\nculpabilidade']
-INFO:root:Found 3 dates: ['Palavra de Hoje (12/10/2025)', 'Palavra de Ontem (11/10/2025)', 'Palavra de Anteontem (10/10/2025)']
+INFO:root:Response length: 119506 characters
+INFO:root:HTML parsed, length: 112414 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (13/10/2025)', 'Palavra de Ontem (12/10/2025)', 'Palavra de Anteontem (11/10/2025)']
+INFO:root:Found 3 URLs: ['/sinuoso/', '/inocencia/', '/isegoria/']
+INFO:root:Found 14 descriptions: ['adjetivo Que faz curvas; tortuoso, recurvado, curv', 'Sinônimos:\n\nflexuoso, torto, tortuoso, recurvado, ', 'Antônimos:\n\ndireito, linear, reto']
+INFO:root:Found 3 dates: ['Palavra de Hoje (13/10/2025)', 'Palavra de Ontem (12/10/2025)', 'Palavra de Anteontem (11/10/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (12/10/2025)', ID=1b635c03c3416153dbc95c5a13903eb4
-INFO:root:Processing entry 2: Title='Palavra de Ontem (11/10/2025)', ID=c96edb8b5dc74a8141c1127e18574bcf
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (10/10/2025)', ID=30804fe11e60ad45c388a0c38bfd2ad3
+INFO:root:Processing entry 1: Title='Palavra de Hoje (13/10/2025)', ID=d260e864adc4abce43c693907c74b85f
+INFO:root:Processing entry 2: Title='Palavra de Ontem (12/10/2025)', ID=d0acb68c6a9bc972242445ca4b4456ed
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/10/2025)', ID=2048bafdb0159f2b4e85d8dc6f030b77
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (12/10/2025) - Significado completo de inocência:
-INFO:root:🔹 URL: https://www.dicio.com.br/inocencia/
-INFO:root:🔹 Description: substantivo feminino Característica, estado do que é inocente; falta de culpa.Atributo da pessoa que não consegue cometer ato ilícito; condição de quem não é culpado (crime).Desprovido de malícia; excesso de ingenuidade; pureza: seu chefe vivia abusando de sua inocência.Grande candura proveniente da ignorância: havia inocência no comportamento de sua filha.Que ainda não conhece o amor; que nunca teve relações sexuais; virgindade ou donzelice.Etimologia (origem da palavra inocência). Do latim innocentia.ae.
+INFO:root:🔹 Title: Palavra de Hoje (13/10/2025) - Significado completo de sinuoso:
+INFO:root:🔹 URL: https://www.dicio.com.br/sinuoso/
+INFO:root:🔹 Description: adjetivo Que faz curvas; tortuoso, recurvado, curvo: o curso sinuoso do rio.[Figurado] Que não é claro na fala; que usa de subterfúgios.[Figurado] Em quem não se pode confiar; duvidoso.[Figurado] Que se comporta de maneira dissimulada; dissimulado.Cujas curvas aparecem de modo seguido; sinuado.Com aspecto, forma, formato em curva; curvilíneo.Etimologia (origem da palavra sinuoso). Do latim sinuosus.
  
 Sinônimos:
 
-donzelice, pureza, candura, virgindade 
+flexuoso, torto, tortuoso, recurvado, curvo, esguio, duvidoso, sinuado, curvilíneo, dissimulado 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (11/10/2025) - Significado completo de isegoria:
-INFO:root:🔹 URL: https://www.dicio.com.br/isegoria/
+INFO:root:🔹 Title: Palavra de Ontem (12/10/2025) - Significado completo de inocência:
+INFO:root:🔹 URL: https://www.dicio.com.br/inocencia/
 INFO:root:🔹 Description: Sinônimos:
 
-donzelice, pureza, candura, virgindade
+flexuoso, torto, tortuoso, recurvado, curvo, esguio, duvidoso, sinuado, curvilíneo, dissimulado
  
 Antônimos:
 
-culpabilidade 
+direito, linear, reto 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (10/10/2025) - Significado completo de disponível:
-INFO:root:🔹 URL: https://www.dicio.com.br/disponivel/
+INFO:root:🔹 Title: Palavra de Anteontem (11/10/2025) - Significado completo de isegoria:
+INFO:root:🔹 URL: https://www.dicio.com.br/isegoria/
 INFO:root:🔹 Description: Antônimos:
 
-culpabilidade
- Classe gramatical:substantivo feminino
+direito, linear, reto
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +48,224 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 326309 characters
-INFO:root:HTML parsed, length: 315759 characters
-INFO:root:Found 1 titles: ['1 Coríntios 11:1']
-INFO:root:Found 1 URLs: ['/versiculo/1_corintios_11_1/']
-INFO:root:Found 1 descriptions: ['Tornem-se meus imitadores, como eu o sou de Cristo']
+INFO:root:Response length: 326216 characters
+INFO:root:HTML parsed, length: 315666 characters
+INFO:root:Found 1 titles: ['Eclesiastes 9:10']
+INFO:root:Found 1 URLs: ['/versiculo/eclesiastes_9_10/']
+INFO:root:Found 1 descriptions: ['O que as suas mãos tiverem que fazer, que o façam ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Coríntios 11:1', ID=7185bc7a0ec78447384d9bd37b1067e7
+INFO:root:Processing entry 1: Title='Eclesiastes 9:10', ID=9ad39e400c75327aef3d713bdc29644e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Coríntios 11:1
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_corintios_11_1/
-INFO:root:🔹 Description: Tornem-se meus imitadores, como eu o sou de Cristo. 1 Coríntios 11:1
+INFO:root:🔹 Title: Eclesiastes 9:10
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/eclesiastes_9_10/
+INFO:root:🔹 Description: O que as suas mãos tiverem que fazer, que o façam com toda a sua força, pois na sepultura, para onde você vai, não há atividade nem planejamento, não há conhecimento nem sabedoria. Eclesiastes 9:10
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325667 characters
-INFO:root:HTML parsed, length: 315930 characters
-INFO:root:Found 3 titles: ['Salmo 4', 'Salmo 94', 'Salmo 100']
-INFO:root:Found 3 URLs: ['/salmos_4/', '/salmos_94/', '/salmos_100/']
-INFO:root:Found 3 descriptions: ['Responde-me quando clamo,\nó Deus que me fazes just', 'Ó Senhor, Deus vingador;\nDeus vingador! Intervém! ', 'Aclamem o Senhor\ntodos os habitantes da terra! \nPr']
-INFO:root:Found 3 dates: ['12 de Outubro de 2025', '11 de Outubro de 2025', '10 de Outubro de 2025']
+INFO:root:Response length: 332175 characters
+INFO:root:HTML parsed, length: 322535 characters
+INFO:root:Found 3 titles: ['Salmo 78', 'Salmo 4', 'Salmo 94']
+INFO:root:Found 3 URLs: ['/salmos_78/', '/salmos_4/', '/salmos_94/']
+INFO:root:Found 3 descriptions: ['Povo meu, escute o meu ensino;\nincline os ouvidos\n', 'Responde-me quando clamo,\nó Deus que me fazes just', 'Ó Senhor, Deus vingador;\nDeus vingador! Intervém! ']
+INFO:root:Found 3 dates: ['13 de Outubro de 2025', '12 de Outubro de 2025', '11 de Outubro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
-INFO:root:Processing entry 2: Title=' Salmo 94', ID=1d8e97580a5987dd308a0faca1ecf59b
-INFO:root:Processing entry 3: Title=' Salmo 100', ID=378c5baed3e92e1b45c87d58e85ebb5b
+INFO:root:Processing entry 1: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
+INFO:root:Processing entry 2: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
+INFO:root:Processing entry 3: Title=' Salmo 94', ID=1d8e97580a5987dd308a0faca1ecf59b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 78
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_78/
+INFO:root:🔹 Description: Povo meu, escute o meu ensino;
+incline os ouvidos
+para o que eu tenho a dizer. 
+Em parábolas abrirei a minha boca,
+proferirei enigmas do passado; 
+o que ouvimos e aprendemos,
+o que nossos pais nos contaram. 
+Não os esconderemos dos nossos filhos;
+contaremos à próxima geração
+os louváveis feitos do Senhor,
+o seu poder e as maravilhas que fez. 
+Ele decretou estatutos para Jacó,
+e em Israel estabeleceu a lei,
+e ordenou aos nossos antepassados
+que a ensinassem aos seus filhos, 
+de modo que a geração seguinte a conhecesse,
+e também os filhos que ainda nasceriam,
+e eles, por sua vez,
+contassem aos seus próprios filhos. 
+Então eles porão a confiança em Deus;
+não esquecerão os seus feitos
+e obedecerão aos seus mandamentos. 
+Eles não serão como os seus antepassados,
+obstinados e rebeldes,
+povo de coração desleal para com Deus,
+gente de espírito infiel. 
+Os homens de Efraim, flecheiros armados,
+viraram as costas no dia da batalha; 
+não guardaram a aliança de Deus
+e se recusaram a viver de acordo com a sua lei. 
+Esqueceram o que ele tinha feito,
+as maravilhas que lhes havia mostrado. 
+Ele fez milagres diante dos seus antepassados,
+na terra do Egito, na região de Zoã. 
+Dividiu o mar para que pudessem passar;
+fez a água erguer-se como um muro. 
+Ele os guiou com a nuvem de dia
+e com a luz do fogo de noite. 
+Fendeu as rochas no deserto
+e deu-lhes tanta água
+como a que flui das profundezas; 
+da pedra fez sair regatos
+e fluir água como um rio. 
+Mas contra ele continuaram a pecar,
+revoltando-se no deserto contra o Altíssimo. 
+Deliberadamente puseram Deus à prova,
+exigindo o que desejavam comer. 
+Duvidaram de Deus, dizendo:
+"Poderá Deus preparar uma mesa no deserto? 
+Sabemos que, quando ele feriu a rocha,
+a água brotou e jorrou em torrentes.
+Mas conseguirá também dar-nos de comer?
+Poderá suprir de carne o seu povo?" 
+O Senhor os ouviu e enfureceu-se;
+com fogo atacou Jacó,
+e sua ira levantou-se contra Israel, 
+pois eles não creram em Deus
+nem confiaram no seu poder salvador. 
+Contudo, ele deu ordens às nuvens
+e abriu as portas dos céus; 
+fez chover maná para que o povo comesse,
+deu-lhe o pão dos céus. 
+Os homens comeram o pão dos anjos;
+enviou-lhes comida à vontade. 
+Enviou dos céus o vento oriental
+e pelo seu poder fez avançar o vento sul. 
+Fez chover carne sobre eles como pó,
+bandos de aves como a areia da praia. 
+Levou-as a cair dentro do acampamento,
+ao redor das suas tendas. 
+Comeram à vontade,
+e assim ele satisfez o desejo deles. 
+Mas, antes de saciarem o apetite,
+quando ainda tinham a comida na boca, 
+acendeu-se contra eles a ira de Deus;
+e ele feriu de morte os mais fortes dentre eles,
+matando os jovens de Israel. 
+A despeito disso tudo, continuaram pecando;
+não creram nos seus prodígios. 
+Por isso ele encerrou
+os dias deles como um sopro
+e os anos deles em repentino pavor. 
+Sempre que Deus os castigava com a morte,
+eles o buscavam;
+com fervor se voltavam de novo para ele. 
+Lembravam-se de que Deus era a sua Rocha,
+de que o Deus Altíssimo era o seu Redentor. 
+Com a boca o adulavam,
+com a língua o enganavam; 
+o coração deles não era sincero;
+não foram fiéis à sua aliança. 
+Contudo, ele foi misericordioso;
+perdoou-lhes as maldades
+e não os destruiu.
+Vez após vez conteve a sua ira,
+sem despertá-la totalmente. 
+Lembrou-se de que eram meros mortais,
+brisa passageira que não retorna. 
+Quantas vezes mostraram-se rebeldes
+contra ele no deserto
+e o entristeceram na terra solitária! 
+Repetidas vezes puseram Deus à prova;
+irritaram o Santo de Israel. 
+Não se lembravam da sua mão poderosa,
+do dia em que os redimiu do opressor, 
+do dia em que mostrou
+os seus prodígios no Egito,
+as suas maravilhas na região de Zoã, 
+quando transformou os rios
+e os riachos dos egípcios em sangue,
+e eles não mais conseguiam beber das suas águas, 
+e enviou enxames de moscas
+que os devoraram,
+e rãs que os devastaram; 
+quando entregou as suas plantações às larvas,
+a produção da terra aos gafanhotos, 
+e destruiu as suas vinhas com a saraiva
+e as suas figueiras bravas com a geada; 
+quando entregou o gado deles ao granizo,
+os seus rebanhos aos raios; 
+quando os atingiu com a sua ira ardente,
+com furor, indignação e hostilidade,
+com muitos anjos destruidores. 
+Abriu caminho para a sua ira;
+não os poupou da morte,
+mas os entregou à peste. 
+Matou todos os primogênitos do Egito,
+as primícias do vigor varonil
+das tendas de Cam. 
+Mas tirou o seu povo como ovelhas
+e o conduziu como a um rebanho pelo deserto. 
+Ele os guiou em segurança,
+e não tiveram medo;
+e os seus inimigos afundaram-se no mar. 
+Assim os trouxe à fronteira
+da sua terra santa,
+aos montes que a sua mão direita conquistou. 
+Expulsou nações que lá estavam,
+distribuiu-lhes as terras por herança
+e deu suas tendas às tribos de Israel
+para que nelas habitassem. 
+Mas eles puseram Deus à prova
+e foram rebeldes contra o Altíssimo;
+não obedeceram aos seus testemunhos. 
+Foram desleais e infiéis,
+como os seus antepassados,
+confiáveis como um arco defeituoso. 
+Eles o irritaram com os altares idólatras;
+com os seus ídolos lhe provocaram ciúmes. 
+Sabendo-o Deus, enfureceu-se
+e rejeitou totalmente Israel; 
+abandonou o tabernáculo de Siló,
+a tenda onde habitava entre os homens. 
+Entregou o símbolo do seu poder ao cativeiro
+e o seu esplendor nas mãos do adversário. 
+Deixou que o seu povo fosse morto à espada,
+pois enfureceu-se com a sua herança. 
+O fogo consumiu os seus jovens,
+e as suas moças não tiveram
+canções de núpcias; 
+os sacerdotes foram mortos à espada!
+As viúvas já nem podiam chorar! 
+Então o Senhor despertou
+como que de um sono,
+como um guerreiro despertado do domínio do vinho. 
+Fez retroceder a golpes os seus adversários
+e os entregou a permanente humilhação. 
+Também rejeitou as tendas de José
+e não escolheu a tribo de Efraim; 
+ao contrário, escolheu a tribo de Judá
+e o monte Sião, o qual amou. 
+Construiu o seu santuário como as alturas;
+como a terra o firmou para sempre. 
+Escolheu o seu servo Davi
+e o tirou do aprisco das ovelhas, 
+do pastoreio de ovelhas,
+para ser o pastor de Jacó, seu povo,
+de Israel, sua herança. 
+E de coração íntegro Davi os pastoreou;
+com mãos experientes os conduziu. 
+ Salmo 78
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 4
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_4/
 INFO:root:🔹 Description: Responde-me quando clamo,
@@ -172,137 +356,89 @@ e os destruirá por causa dos seus pecados;
 o Senhor, o nosso Deus, os destruirá! 
  Salmo 94
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 100
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_100/
-INFO:root:🔹 Description: Aclamem o Senhor
-todos os habitantes da terra! 
-Prestem culto ao Senhor com alegria;
-entrem na sua presença
-com cânticos alegres. 
-Reconheçam que o Senhor é o nosso Deus.
-Ele nos fez e somos dele:
-somos o seu povo,
-e rebanho do seu pastoreio. 
-Entrem por suas portas com ações de graças
-e em seus átrios com louvor;
-deem-lhe graças e bendigam o seu nome. 
-Pois o Senhor é bom
-e o seu amor leal é eterno;
-a sua fidelidade permanece
-por todas as gerações. 
- Salmo 100
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 328552 characters
-INFO:root:HTML parsed, length: 318467 characters
-INFO:root:Found 3 titles: ['Fale com Deus', 'Eu sei que meu Redentor vive!', 'O Senhor é Rei!']
+INFO:root:Response length: 328754 characters
+INFO:root:HTML parsed, length: 318663 characters
+INFO:root:Found 3 titles: ['Vença a solidão com a ajuda de Deus!', 'Fale com Deus', 'Eu sei que meu Redentor vive!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Os olhos do Senhor repousam sobre os justos, e os ', 'Eu sei que o meu Redentor vive e que no fim se lev', 'Louvado seja o nome do Senhor, Rei eterno, soberan']
-INFO:root:Found 1 dates: ['Domingo, 12 de outubro de 2025']
+INFO:root:Found 3 descriptions: ['Solidão. Se sentir isolado, sem ninguém que lhe en', 'Os olhos do Senhor repousam sobre os justos, e os ', 'Eu sei que o meu Redentor vive e que no fim se lev']
+INFO:root:Found 1 dates: ['Segunda, 13 de outubro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Fale com Deus', ID=c742af1076c89a9e3caa669ef23115be
+INFO:root:Processing entry 1: Title='Vença a solidão com a ajuda de Deus!', ID=d6615ce7fd13e90257483ca5a2152c9e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Fale com Deus - Palavra de Hoje
+INFO:root:🔹 Title: Vença a solidão com a ajuda de Deus! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Os olhos do Senhor repousam sobre os justos, e os seus ouvidos estão abertos ao seu clamor.
-- Salmos 34:15
+INFO:root:🔹 Description: Solidão. Se sentir isolado, sem ninguém que lhe entenda, mesmo em meio a uma multidão. Mas Jesus lhe entende. Jesus viveu como homem e entende todas as suas dificuldades. Ele lhe conhece melhor que ninguém! E mais, Jesus superou a solidão. Ele está do seu lado e tem poder para lhe ajudar a vencer a solidão.
+Quando você recebeu o Senhor em seu coração, ele veio para ficar. Deus nunca te abandona e seu amor infinito te envolve.
 
-Deus anseia que falemos com Ele, estejamos felizes ou tristes, com coragem ou sem forças para continuar. Talvez você se sinta triste ou desanimado hoje e não saiba como superar aquela tristeza que sente no coração. Quem sabe, um problema totalmente inesperado tenha surgido em sua vida e seu ânimo desabou. A Bíblia te orienta a levar seus fardos a Deus:
+E assim, pela fé, que Cristo habite no coração de vocês, estando vocês enraizados e alicerçados em amor.
+Isto para que, com todos os santos, vocês possam compreender qual é a largura, o comprimento, a altura e a profundidade.
+- Efésios 3:17-18
 
- Lance os seus cuidados sobre o Senhor e Ele o susterá; jamais permitirá que o justo seja abalado.
-- Salmos 55:22
+Lembre-se dessa verdade quando se sentir sozinho. O amor de Deus por você é enorme e te envolve. Deus não te abandona, Ele está a apenas uma oração de distância. Erga sua voz a Ele e diga como você se sente. Abra seu coração, sem reservas, para que você possa sentir Seu amor e paz.
+Deus também colocou pessoas ao seu redor para acompanhá-lo. Não feche seu coração para os outros. Sim, eles são imperfeitos e cometem erros. Mas relacionamentos são um presente de Deus para você. Fale com Deus para lhe mostrar aquelas pessoas que Ele colocou por perto para encorajá-lo e ajudá-lo.
+Você também tem muito a dar. Procure oportunidades de abençoar outras pessoas. Compartilhe com eles o que você recebe do Senhor e torne-se um canal de bênçãos. Quanto mais você abençoa os outros, menos sozinho você se sentirá. Comece a abençoar agora mesmo.
+Coisas que podem ajudar a superar a solidão:
 
-Ou você pode estar alegre e feliz com as circunstâncias da sua vida. Talvez, agora você se acha a pessoa mais abençoada do mundo e sente uma vontade constante de cantar e dançar. Eleve orações de louvor e gratidão!
+Amizades
+Comunhão
+Oração
 
-Deem graças ao Senhor, porque Ele é bom, porque a sua misericórdia dura para sempre.
-- 1 Crônicas 16:34
-
-Seja qual for o seu humor neste momento, não se esqueça Daquele que te ama mais do que ninguém: Deus. Converse com Ele, compartilhe suas alegrias e também suas tristezas. Peça orientação sobre as decisões que você deve tomar. Agradeça pelas coisas boas da sua vida.
-Ao orar ou conversar com Deus você poderá expressar seus sentimentos, ouvir sua voz e sentir Sua presença em meio ao que acontece com você. Não deixe esse dia terminar sem reservar um tempinho para conversar com Deus.
-
-Confie nele em todo tempo, ó povo; derrame diante dele o seu coração. Deus é o nosso refúgio.
-- Salmos 62:8
-
-
-Orações para acalmar o coração (e encontrar paz)
-Como Orar (aprenda como pedir algo a Deus)
-Oração de Madrugada: 3 orações para buscar a Deus sem cessar
-Oração da noite: 13 orações para fazer antes de dormir
-3 orações de confissão e arrependimento (para pedir perdão a Deus)
+Veja mais:
+Conselhos para vencer a solidão
  
-Orações para acalmar o coração (e encontrar paz)
-Como Orar (aprenda como pedir algo a Deus)
-Oração de Madrugada: 3 orações para buscar a Deus sem cessar
-Oração da noite: 13 orações para fazer antes de dormir
-3 orações de confissão e arrependimento (para pedir perdão a Deus)
+Amizades
+Comunhão
+Oração
 
  
-Os olhos do Senhor repousam sobre os justos, e os seus ouvidos estão abertos ao seu clamor.
-- Salmos 34:15
+E assim, pela fé, que Cristo habite no coração de vocês, estando vocês enraizados e alicerçados em amor.
+Isto para que, com todos os santos, vocês possam compreender qual é a largura, o comprimento, a altura e a profundidade.
+- Efésios 3:17-18
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 340989 characters
-INFO:root:HTML parsed, length: 330464 characters
-INFO:root:Found 3 titles: ['Confiança que não falha', 'Jesus ó Filho de Davi atende o meu clamor', 'Um farol em meio a escuridão']
-INFO:root:Found 2 URLs: ['/a_cura_do_cego_bartimeu/', '/salmos_de_protecao/']
-INFO:root:Found 3 descriptions: ['Alguns confiam em carros e outros em cavalos, mas ', 'Quando ouviu que era Jesus de Nazaré, começou a gr', 'A tua palavra é lâmpada\nque ilumina os meus passos']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n12\nDOMINGO', 'OUTUBRO\n\n11\nSÁBADO', 'OUTUBRO\n\n10\nSEXTA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Confiança que não falha', ID=77b1444acb9c4e1a3a867e2bb1ab7c5d
-INFO:root:Processing entry 2: Title='Jesus ó Filho de Davi atende o meu clamor', ID=ee597773c16fdf29b9e7982683fa3704
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 340068 characters
+INFO:root:HTML parsed, length: 329544 characters
+INFO:root:Found 3 titles: ['Serenidade na espera', 'Confiança que não falha', 'Jesus ó Filho de Davi atende o meu clamor']
+INFO:root:Found 1 URLs: ['/a_cura_do_cego_bartimeu/']
+INFO:root:Found 3 descriptions: ['O Senhor é bom para com aqueles\xa0cuja esperança est', 'Alguns confiam em carros e outros em cavalos, mas ', 'Quando ouviu que era Jesus de Nazaré, começou a gr']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n13\nSEGUNDA', 'OUTUBRO\n\n12\nDOMINGO', 'OUTUBRO\n\n11\nSÁBADO']
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='Serenidade na espera', ID=2951d199ab32bd9ccedad38b1ae93fa1
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Confiança que não falha
+INFO:root:🔹 Title: Serenidade na espera
 INFO:root:🔹 URL: https://www.bibliaon.com/a_cura_do_cego_bartimeu/
-INFO:root:🔹 Description: Alguns confiam em carros e outros em cavalos, mas nós confiamos no nome do Senhor, o nosso Deus. Eles vacilam e caem, mas nós nos erguemos e estamos firmes.
-- Salmo 20:7-8
+INFO:root:🔹 Description: O Senhor é bom para com aqueles cuja esperança está nele,
+para com aqueles que o buscam; é bom esperar tranquilo
+pela salvação do Senhor.
+Lamentações 3:25-26
 
-Quais são as coisas em que você confia? No dinheiro? No emprego? Na família? Na saúde? Todas essas coisas falham! Mas existe uma coisa que nunca falha: o amor de Deus por você.
-O fundamento para uma vida sólida é a confiança em Jesus. Ele tem todo poder e nunca muda. Outras pessoas confiam em coisas terrenas a acabam por cair, mas, se você confia em Deus, você não vai ser destruído. As dificuldades virão, mas o fundamento de sua vida estará seguro.
-Firme sua vida em Jesus:
+Vivemos num mundo em que a velocidade é cada vez mais priorizada. Somos a geração do "Fast food", queremos os meios de transportes, a internet e até relacionamentos mais rápidos. Gostamos de ter as informações em tempo real, os serviços de urgência, entregas rápidas, enfim, vivemos numa era mais acelerada, que parece ter se esquecido do valor da espera.
+Parece ultrapassado, mas lembre-se que também há preciosidades em saber esperar. Não somente porque assim podemos saborear pratos mais elaborados e saborosos ou por solidificar relacionamentos mais confiáveis e duradouros, mas principalmente por tornar o nosso coração mais sereno e perseverante. 
+Quando buscamos a Deus, precisamos aprender a desacelerar as nossas expectativas, sabendo que Ele é Senhor do tempo e que sempre faz o melhor por nós. Espere com tranquilidade em Deus, Ele é bom e cuida de você!
+Espere com paciência em Deus:
 
-Entregue sua vida a Jesus, crendo que Ele é seu Salvador
-Ore a Deus por ajuda nas dificuldades
-Obedeça aos mandamentos de Deus que estão na Bíblia
+Ore e entregue a Deus as suas vontades e planos.
+Confie em Jesus de todo coração.
+Espere com serenidade, paciência e resiliência.
+Busque diariamente renovar as suas forças através da Palavra de Deus.
+Descanse nos cuidados do Senhor Jesus, Ele sabe o que é melhor para você.
+Traga à sua memória tudo que Deus já fez por você. Acredite e tenha esperança, pois Ele continua sendo bom!
 
-Para orar:
+Para Orar:
 
-Senhor Jesus, quero pôr toda minha confiança em você. Eu creio que você é o único fundamento sólido para minha vida. Me ajude a viver para Ti, em obediência a Deus, sem colocar minha fé em coisas que falham. Sê minha segurança nas dificuldades. Amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Jesus ó Filho de Davi atende o meu clamor
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_de_protecao/
-INFO:root:🔹 Description: Quando ouviu que era Jesus de Nazaré, começou a gritar: "Jesus, Filho de Davi, tem misericórdia de mim!"
-- Marcos 10:47 
-
-Jesus, o Filho de Davi, é Aquele que ouve o clamor sincero de um coração quebrantado. Assim como Bartimeu, o cego à beira do caminho, muitos de nós já nos sentimos esquecidos, limitados e sem esperança. Contudo, quando levantamos nossa voz em fé, mesmo em meio ao barulho das circunstâncias, Jesus para, olha para nós e responde com amor.
-Talvez você esteja passando por um vale escuro, onde parece não haver saída. Pode ser que as vozes ao seu redor tentem calar sua fé, dizendo que não adianta orar, que o milagre não virá. Mas lembre-se: o clamor que sai de um coração dependente de Deus nunca é ignorado pelo Senhor. Ele é o mesmo ontem, hoje e eternamente. O mesmo Jesus que restaurou a visão de Bartimeu é capaz de restaurar sua vida, sua família e seus sonhos.
-O Filho de Davi é o Messias prometido, o Rei que governa com justiça e misericórdia. Ele não rejeita os que O buscam, antes Se inclina para ouvir o grito de quem reconhece sua necessidade. Seu clamor pode ser por cura, provisão, libertação ou simplesmente por paz interior. Não importa qual seja, Jesus é poderoso para responder.
-Não permita que a incredulidade roube sua esperança. Levante sua voz em oração e diga com ousadia: “Jesus, Filho de Davi, atende o meu clamor!”. Ele conhece suas lágrimas, entende suas dores e tem poder para transformar sua história.
-Creia que o Senhor está atento a você. Sua fé é a chave que abre portas e move o coração de Deus. Confie: o milagre está a caminho.
-Jesus ouve o seu clamor e age em seu favor!
-
-
-Clame com fé: Não importa a situação, erga sua voz confiando que Jesus está ouvindo. A fé genuína toca o coração de Deus e abre caminhos onde parecia impossível.
-
-Persevere na oração: Mesmo quando o silêncio parece longo, continue clamando. Deus nunca se atrasa; Ele age no tempo certo, fortalecendo sua fé e preparando milagres maiores do que você imagina.
-
-Abrace a esperança: Após clamar, descanse no Senhor. A esperança em Cristo renova suas forças e traz paz ao coração, lembrando que Ele sempre transforma dores em testemunhos de vitória.
-
-Para orar: 
-
-Senhor Jesus, Filho de Davi, eu clamo a Ti com todo o meu coração. Olha para minhas dores e minhas necessidades. Fortalece minha fé, renova minha esperança e derrama Tua paz sobre mim. Eu creio que nada é impossível para Ti e que o Teu amor nunca falha. Atende meu clamor, Senhor, e transforma minha vida para a glória do Teu nome. Amém.
-
-Veja também: Estudo sobre o cego Bartimeu: 4 lições de vida.
+Senhor meu Deus, ajuda-me a esperar com tranquilidade em Ti. Ensina-me a esperar com paciência no Teu grande amor e cuidado. Tudo à minha volta parece tão acelerado, mas eu preciso descansar o coração na tua Palavra. Ajuda-me a confiar e buscar sempre pela Tua vontade. Senhor, Tu és bom em todo tempo! Em nome de Jesus, eu te agradeço, amém!
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -333,15 +469,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  61 ++----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  43 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 ++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  48 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  58 +++---
+ feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 202 ++++++++++++--
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 315 ++++++++++++++----------------
- 11 files changed, 267 insertions(+), 298 deletions(-)
+ output.log                                | 432 +++++++++++++++++++-----------
+ 11 files changed, 538 insertions(+), 279 deletions(-)
