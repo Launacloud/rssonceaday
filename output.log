@@ -1,46 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119506 characters
-INFO:root:HTML parsed, length: 112414 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (13/10/2025)', 'Palavra de Ontem (12/10/2025)', 'Palavra de Anteontem (11/10/2025)']
-INFO:root:Found 3 URLs: ['/sinuoso/', '/inocencia/', '/isegoria/']
-INFO:root:Found 14 descriptions: ['adjetivo Que faz curvas; tortuoso, recurvado, curv', 'Sinônimos:\n\nflexuoso, torto, tortuoso, recurvado, ', 'Antônimos:\n\ndireito, linear, reto']
-INFO:root:Found 3 dates: ['Palavra de Hoje (13/10/2025)', 'Palavra de Ontem (12/10/2025)', 'Palavra de Anteontem (11/10/2025)']
+INFO:root:Response length: 119873 characters
+INFO:root:HTML parsed, length: 112780 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (14/10/2025)', 'Palavra de Ontem (13/10/2025)', 'Palavra de Anteontem (12/10/2025)']
+INFO:root:Found 3 URLs: ['/troia-2/', '/sinuoso/', '/inocencia/']
+INFO:root:Found 14 descriptions: ['substantivo feminino Jogo antigo que simulava um c', 'Classe gramatical:substantivo feminino', 'Sílabas:troi-a']
+INFO:root:Found 3 dates: ['Palavra de Hoje (14/10/2025)', 'Palavra de Ontem (13/10/2025)', 'Palavra de Anteontem (12/10/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (13/10/2025)', ID=d260e864adc4abce43c693907c74b85f
-INFO:root:Processing entry 2: Title='Palavra de Ontem (12/10/2025)', ID=d0acb68c6a9bc972242445ca4b4456ed
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/10/2025)', ID=2048bafdb0159f2b4e85d8dc6f030b77
+INFO:root:Processing entry 1: Title='Palavra de Hoje (14/10/2025)', ID=4b8a5f68fd4228bc1951104c3b357f6e
+INFO:root:Processing entry 2: Title='Palavra de Ontem (13/10/2025)', ID=41966121a735ba9752a8e4ac07436fc9
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/10/2025)', ID=144961261f227ffef992439e238b2369
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (13/10/2025) - Significado completo de sinuoso:
+INFO:root:🔹 Title: Palavra de Hoje (14/10/2025) - Significado completo de troia:
+INFO:root:🔹 URL: https://www.dicio.com.br/troia-2/
+INFO:root:🔹 Description: substantivo feminino Jogo antigo que simulava um combate, uma luta.[Literatura] Cidade que se tornou famosa por figurar o poema épico, Ilíada, escrito pelo grego Homero, que descreve uma grande guerra entre gregos e troianos, sendo descrita como uma cidade-Estado poderosa, situada na Frígia, Ásia menor.Etimologia (origem da palavra troia). Nome próprio da cidade antiga situada na Ásia menor.substantivo feminino [Regionalismo: São Paulo] Grande rede usada para pescar.Etimologia (origem da palavra troia). De origem questionável.
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (13/10/2025) - Significado completo de sinuoso:
 INFO:root:🔹 URL: https://www.dicio.com.br/sinuoso/
-INFO:root:🔹 Description: adjetivo Que faz curvas; tortuoso, recurvado, curvo: o curso sinuoso do rio.[Figurado] Que não é claro na fala; que usa de subterfúgios.[Figurado] Em quem não se pode confiar; duvidoso.[Figurado] Que se comporta de maneira dissimulada; dissimulado.Cujas curvas aparecem de modo seguido; sinuado.Com aspecto, forma, formato em curva; curvilíneo.Etimologia (origem da palavra sinuoso). Do latim sinuosus.
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:troi-a
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (12/10/2025) - Significado completo de inocência:
+INFO:root:🔹 URL: https://www.dicio.com.br/inocencia/
+INFO:root:🔹 Description: Sílabas:troi-a
  
 Sinônimos:
 
 flexuoso, torto, tortuoso, recurvado, curvo, esguio, duvidoso, sinuado, curvilíneo, dissimulado 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (12/10/2025) - Significado completo de inocência:
-INFO:root:🔹 URL: https://www.dicio.com.br/inocencia/
-INFO:root:🔹 Description: Sinônimos:
-
-flexuoso, torto, tortuoso, recurvado, curvo, esguio, duvidoso, sinuado, curvilíneo, dissimulado
- 
-Antônimos:
-
-direito, linear, reto 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (11/10/2025) - Significado completo de isegoria:
-INFO:root:🔹 URL: https://www.dicio.com.br/isegoria/
-INFO:root:🔹 Description: Antônimos:
-
-direito, linear, reto
- Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +40,66 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 326216 characters
-INFO:root:HTML parsed, length: 315666 characters
-INFO:root:Found 1 titles: ['Eclesiastes 9:10']
-INFO:root:Found 1 URLs: ['/versiculo/eclesiastes_9_10/']
-INFO:root:Found 1 descriptions: ['O que as suas mãos tiverem que fazer, que o façam ']
+INFO:root:Response length: 326434 characters
+INFO:root:HTML parsed, length: 315897 characters
+INFO:root:Found 1 titles: ['João 15:1-2']
+INFO:root:Found 1 URLs: ['/versiculo/joao_15_1-2/']
+INFO:root:Found 1 descriptions: ['"Eu sou a videira verdadeira, e meu Pai é o agricu']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Eclesiastes 9:10', ID=9ad39e400c75327aef3d713bdc29644e
+INFO:root:Processing entry 1: Title='João 15:1-2', ID=e6d923d4b9bf9d1f37c9b8c3fa1f4d69
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Eclesiastes 9:10
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/eclesiastes_9_10/
-INFO:root:🔹 Description: O que as suas mãos tiverem que fazer, que o façam com toda a sua força, pois na sepultura, para onde você vai, não há atividade nem planejamento, não há conhecimento nem sabedoria. Eclesiastes 9:10
+INFO:root:🔹 Title: João 15:1-2
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_15_1-2/
+INFO:root:🔹 Description: "Eu sou a videira verdadeira, e meu Pai é o agricultor. Todo ramo que, estando em mim, não dá fruto, ele corta; e todo que dá fruto ele poda, para que dê mais fruto ainda. João 15:1-2
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 332175 characters
-INFO:root:HTML parsed, length: 322535 characters
-INFO:root:Found 3 titles: ['Salmo 78', 'Salmo 4', 'Salmo 94']
-INFO:root:Found 3 URLs: ['/salmos_78/', '/salmos_4/', '/salmos_94/']
-INFO:root:Found 3 descriptions: ['Povo meu, escute o meu ensino;\nincline os ouvidos\n', 'Responde-me quando clamo,\nó Deus que me fazes just', 'Ó Senhor, Deus vingador;\nDeus vingador! Intervém! ']
-INFO:root:Found 3 dates: ['13 de Outubro de 2025', '12 de Outubro de 2025', '11 de Outubro de 2025']
+INFO:root:Response length: 330876 characters
+INFO:root:HTML parsed, length: 321216 characters
+INFO:root:Found 3 titles: ['Salmo 149', 'Salmo 78', 'Salmo 4']
+INFO:root:Found 3 URLs: ['/salmos_149/', '/salmos_78/', '/salmos_4/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nCantem ao Senhor uma nova canção,\nlouvem-', 'Povo meu, escute o meu ensino;\nincline os ouvidos\n', 'Responde-me quando clamo,\nó Deus que me fazes just']
+INFO:root:Found 3 dates: ['14 de Outubro de 2025', '13 de Outubro de 2025', '12 de Outubro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
-INFO:root:Processing entry 2: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
-INFO:root:Processing entry 3: Title=' Salmo 94', ID=1d8e97580a5987dd308a0faca1ecf59b
+INFO:root:Processing entry 1: Title=' Salmo 149', ID=db5d6d8e1b7c9392315f60fb855f672e
+INFO:root:Processing entry 2: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
+INFO:root:Processing entry 3: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 149
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_149/
+INFO:root:🔹 Description: Aleluia!
+Cantem ao Senhor uma nova canção,
+louvem-no na assembleia dos fiéis. 
+Alegre-se Israel no seu Criador,
+exulte o povo de Sião no seu Rei! 
+Louvem eles o seu nome com danças;
+ofereçam-lhe música
+com tamborim e harpa. 
+O Senhor agrada-se do seu povo;
+ele coroa de vitória os oprimidos. 
+Regozijem-se os seus fiéis nessa glória
+e em seu leito cantem alegremente! 
+Altos louvores estejam em seus lábios
+e uma espada de dois gumes em suas mãos, 
+para impor vingança às nações
+e trazer castigo aos povos; 
+para prender os seus reis com grilhões
+e seus nobres com algemas de ferro; 
+para executar a sentença escrita
+contra eles.
+Esta é a glória de todos os seus fiéis.
+Aleluia! 
+ Salmo 149
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 78
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_78/
 INFO:root:🔹 Description: Povo meu, escute o meu ensino;
@@ -296,149 +314,84 @@ pois só tu, Senhor,
 me fazes viver em segurança. 
  Salmo 4
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 94
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_94/
-INFO:root:🔹 Description: Ó Senhor, Deus vingador;
-Deus vingador! Intervém! 
-Levanta-te, Juiz da terra;
-retribui aos orgulhosos o que merecem. 
-Até quando os ímpios, Senhor,
-até quando os ímpios exultarão? 
-Eles despejam palavras arrogantes;
-todos esses malfeitores enchem-se de vanglória. 
-Massacram o teu povo, Senhor,
-e oprimem a tua herança; 
-matam as viúvas e os estrangeiros,
-assassinam os órfãos 
-e ainda dizem: "O Senhor não nos vê;
-o Deus de Jacó nada percebe". 
-Insensatos, procurem entender!
-E vocês, tolos, quando se tornarão sábios? 
-Será que quem fez o ouvido não ouve?
-Será que quem formou o olho não vê? 
-Aquele que disciplina as nações
-os deixará sem castigo?
-Não tem sabedoria aquele
-que dá ao homem o conhecimento? 
-O Senhor conhece
-os pensamentos do homem,
-e sabe como são fúteis. 
-Como é feliz o homem a quem disciplinas,
-Senhor,
-aquele a quem ensinas a tua lei; 
-tranquilo, enfrentará os dias maus,
-enquanto, para os ímpios,
-uma cova se abrirá. 
-O Senhor não desamparará o seu povo;
-jamais abandonará a sua herança. 
-Voltará a haver justiça nos julgamentos,
-e todos os retos de coração a seguirão. 
-Quem se levantará a meu favor
-contra os ímpios?
-Quem ficará a meu lado contra os malfeitores? 
-Não fosse a ajuda do Senhor,
-eu já estaria habitando no silêncio. 
-Quando eu disse:
-Os meus pés escorregaram,
-o teu amor leal, Senhor, me amparou! 
-Quando a ansiedade
-já me dominava no íntimo,
-o teu consolo trouxe alívio à minha alma. 
-Poderá um trono corrupto
-estar em aliança contigo?,
-um trono que faz injustiças em nome da lei? 
-Eles planejam contra a vida dos justos
-e condenam os inocentes à morte. 
-Mas o Senhor é a minha torre segura;
-o meu Deus é a rocha em que encontro refúgio. 
-Deus fará cair sobre eles os seus crimes,
-e os destruirá por causa dos seus pecados;
-o Senhor, o nosso Deus, os destruirá! 
- Salmo 94
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 328754 characters
-INFO:root:HTML parsed, length: 318663 characters
-INFO:root:Found 3 titles: ['Vença a solidão com a ajuda de Deus!', 'Fale com Deus', 'Eu sei que meu Redentor vive!']
+INFO:root:Response length: 328850 characters
+INFO:root:HTML parsed, length: 318760 characters
+INFO:root:Found 3 titles: ['A cruz, símbolo de poder e vitória', 'Vença a solidão com a ajuda de Deus!', 'Fale com Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Solidão. Se sentir isolado, sem ninguém que lhe en', 'Os olhos do Senhor repousam sobre os justos, e os ', 'Eu sei que o meu Redentor vive e que no fim se lev']
-INFO:root:Found 1 dates: ['Segunda, 13 de outubro de 2025']
+INFO:root:Found 3 descriptions: ['Pois a mensagem da cruz é loucura para os que estã', 'Solidão. Se sentir isolado, sem ninguém que lhe en', 'Os olhos do Senhor repousam sobre os justos, e os ']
+INFO:root:Found 1 dates: ['Terça, 14 de outubro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Vença a solidão com a ajuda de Deus!', ID=d6615ce7fd13e90257483ca5a2152c9e
+INFO:root:Processing entry 1: Title='A cruz, símbolo de poder e vitória', ID=29e7bf71be0e736922c1fe657ad598ec
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Vença a solidão com a ajuda de Deus! - Palavra de Hoje
+INFO:root:🔹 Title: A cruz, símbolo de poder e vitória - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Solidão. Se sentir isolado, sem ninguém que lhe entenda, mesmo em meio a uma multidão. Mas Jesus lhe entende. Jesus viveu como homem e entende todas as suas dificuldades. Ele lhe conhece melhor que ninguém! E mais, Jesus superou a solidão. Ele está do seu lado e tem poder para lhe ajudar a vencer a solidão.
-Quando você recebeu o Senhor em seu coração, ele veio para ficar. Deus nunca te abandona e seu amor infinito te envolve.
+INFO:root:🔹 Description: Pois a mensagem da cruz é loucura para os que estão perecendo, mas para nós, que estamos sendo salvos, é o poder de Deus.
+- 1 Coríntios 1:18
 
-E assim, pela fé, que Cristo habite no coração de vocês, estando vocês enraizados e alicerçados em amor.
-Isto para que, com todos os santos, vocês possam compreender qual é a largura, o comprimento, a altura e a profundidade.
-- Efésios 3:17-18
+Parece loucura que o ato de morrer na cruz pelos pecados da humanidade seja, na verdade, um grito de vitória. Geralmente vemos a morte como algo definitivo, o fim da vida física. E morrer de forma tão vergonhosa, crucificado como um criminoso, odiado e rejeitado pelas mesmas pessoas que Ele veio salvar, parece uma derrota.
+Mas a realidade é que Jesus estava disposto a morrer na cruz por amor a todos nós. Ele morreu para que todos os que creem nele possam ter a vida eterna. Lá, na cruz, ele suportou o castigo que merecíamos pelos nossos pecados. Mas ele não permaneceu morto. Jesus ressuscitou! E todos os que depositam sua fé nele viverão eternamente.
+Esse é o poder da cruz, essa é a sua vitória! Naquela cruz, Cristo derrotou o diabo, quebrou as correntes do pecado e derrotou a morte para sempre. O que o inimigo pensava que traria destruição, Deus transformou no maior triunfo da história. Por meio do sacrifício de Jesus, fomos reconciliados com o Pai e nos tornamos participantes da sua glória. Hoje podemos viver livres, perdoados e cheios de esperança, porque o poder da cruz continua a operar em nós.
+Sempre que pensar na cruz, lembre-se de que ela não é um símbolo de derrota, mas de vida, poder e amor eterno. Jesus vive, reina e retornará em glória. Sua vitória é a nossa vitória. Apegue-se a essa verdade e ande em fé, sabendo que o mesmo poder que ressuscitou Cristo dentre os mortos habita em você. Na cruz, encontramos não apenas o fim do pecado, mas o início de uma vida nova e eterna em Cristo Jesus.
 
-Lembre-se dessa verdade quando se sentir sozinho. O amor de Deus por você é enorme e te envolve. Deus não te abandona, Ele está a apenas uma oração de distância. Erga sua voz a Ele e diga como você se sente. Abra seu coração, sem reservas, para que você possa sentir Seu amor e paz.
-Deus também colocou pessoas ao seu redor para acompanhá-lo. Não feche seu coração para os outros. Sim, eles são imperfeitos e cometem erros. Mas relacionamentos são um presente de Deus para você. Fale com Deus para lhe mostrar aquelas pessoas que Ele colocou por perto para encorajá-lo e ajudá-lo.
-Você também tem muito a dar. Procure oportunidades de abençoar outras pessoas. Compartilhe com eles o que você recebe do Senhor e torne-se um canal de bênçãos. Quanto mais você abençoa os outros, menos sozinho você se sentirá. Comece a abençoar agora mesmo.
-Coisas que podem ajudar a superar a solidão:
+Ele mesmo levou em seu corpo os nossos pecados sobre o madeiro, a fim de que morrêssemos para os pecados e vivêssemos para a justiça; por suas feridas vocês foram curados.
+- 1 Pedro 2:24
 
-Amizades
-Comunhão
-Oração
-
-Veja mais:
-Conselhos para vencer a solidão
+Veja também: Ressurreição de Jesus: a história explicada (Estudo Bíblico)
  
 Amizades
 Comunhão
 Oração
 
  
-E assim, pela fé, que Cristo habite no coração de vocês, estando vocês enraizados e alicerçados em amor.
-Isto para que, com todos os santos, vocês possam compreender qual é a largura, o comprimento, a altura e a profundidade.
-- Efésios 3:17-18
+Pois a mensagem da cruz é loucura para os que estão perecendo, mas para nós, que estamos sendo salvos, é o poder de Deus.
+- 1 Coríntios 1:18
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 340068 characters
-INFO:root:HTML parsed, length: 329544 characters
-INFO:root:Found 3 titles: ['Serenidade na espera', 'Confiança que não falha', 'Jesus ó Filho de Davi atende o meu clamor']
-INFO:root:Found 1 URLs: ['/a_cura_do_cego_bartimeu/']
-INFO:root:Found 3 descriptions: ['O Senhor é bom para com aqueles\xa0cuja esperança est', 'Alguns confiam em carros e outros em cavalos, mas ', 'Quando ouviu que era Jesus de Nazaré, começou a gr']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n13\nSEGUNDA', 'OUTUBRO\n\n12\nDOMINGO', 'OUTUBRO\n\n11\nSÁBADO']
+INFO:root:Response length: 336254 characters
+INFO:root:HTML parsed, length: 325730 characters
+INFO:root:Found 3 titles: ['Plantando a semente em um bom terreno', 'Serenidade na espera', 'Confiança que não falha']
+INFO:root:Found 1 URLs: ['/a_parabola_do_semeador_explicacao_significado/']
+INFO:root:Found 3 descriptions: ['"Ouçam! O semeador saiu a semear. Enquanto lançava', 'O Senhor é bom para com aqueles\xa0cuja esperança est', 'Alguns confiam em carros e outros em cavalos, mas ']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n14\nTERÇA', 'OUTUBRO\n\n13\nSEGUNDA', 'OUTUBRO\n\n12\nDOMINGO']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Serenidade na espera', ID=2951d199ab32bd9ccedad38b1ae93fa1
+INFO:root:Processing entry 1: Title='Plantando a semente em um bom terreno', ID=8f11b1830b79f49062395589b90a0f81
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Serenidade na espera
-INFO:root:🔹 URL: https://www.bibliaon.com/a_cura_do_cego_bartimeu/
-INFO:root:🔹 Description: O Senhor é bom para com aqueles cuja esperança está nele,
-para com aqueles que o buscam; é bom esperar tranquilo
-pela salvação do Senhor.
-Lamentações 3:25-26
+INFO:root:🔹 Title: Plantando a semente em um bom terreno
+INFO:root:🔹 URL: https://www.bibliaon.com/a_parabola_do_semeador_explicacao_significado/
+INFO:root:🔹 Description: "Ouçam! O semeador saiu a semear. Enquanto lançava a semente, parte dela caiu à beira do caminho, e as aves vieram e a comeram. Parte dela caiu em terreno pedregoso, onde não havia muita terra; e logo brotou, porque a terra não era profunda. Mas, quando saiu o sol, as plantas se queimaram e secaram, porque não tinham raiz. Outra parte caiu entre espinhos, que cresceram e sufocaram as plantas, de forma que ela não deu fruto. Outra ainda caiu em boa terra, germinou, cresceu e deu boa colheita, a trinta, sessenta e até cem por um". E acrescentou: "Aquele que tem ouvidos para ouvir, ouça!"
+- Marcos 4:3-9
 
-Vivemos num mundo em que a velocidade é cada vez mais priorizada. Somos a geração do "Fast food", queremos os meios de transportes, a internet e até relacionamentos mais rápidos. Gostamos de ter as informações em tempo real, os serviços de urgência, entregas rápidas, enfim, vivemos numa era mais acelerada, que parece ter se esquecido do valor da espera.
-Parece ultrapassado, mas lembre-se que também há preciosidades em saber esperar. Não somente porque assim podemos saborear pratos mais elaborados e saborosos ou por solidificar relacionamentos mais confiáveis e duradouros, mas principalmente por tornar o nosso coração mais sereno e perseverante. 
-Quando buscamos a Deus, precisamos aprender a desacelerar as nossas expectativas, sabendo que Ele é Senhor do tempo e que sempre faz o melhor por nós. Espere com tranquilidade em Deus, Ele é bom e cuida de você!
-Espere com paciência em Deus:
+A parábola do semeador nos ensina que a condição do terreno faz toda a diferença no crescimento da semente. O mesmo grão pode ser lançado em diferentes solos, mas somente aquele que está preparado, fértil e livre de espinhos pode acolhê-lo e transformá-lo em fruto abundante. Assim também é o coração humano diante da Palavra de Deus.
+Cada dia recebemos sementes: ensinamentos, oportunidades, correções, palavras de vida. Contudo, a forma como acolhemos essas sementes define o resultado. Se o coração está endurecido, distraído ou cheio de preocupações, dificilmente haverá espaço para que a verdade floresça. Mas quando há humildade, fé e disposição em obedecer, o terreno se torna fértil, e a semente encontra lugar para criar raízes profundas.
+Plantar em boa terra exige preparo. Da mesma forma, precisamos cultivar a oração, a meditação na Palavra e a vigilância sobre nossos pensamentos e atitudes. Isso remove pedras, tira os espinhos e fortalece a fé. O processo pode ser lento, mas é constante: cada ato de entrega e cada escolha alinhada ao propósito divino enriquecem o solo do coração.
+O fruto não surge de imediato, mas a promessa é certa: aquele que planta no terreno certo colherá em abundância. O segredo não está apenas em receber a semente, mas em guardá-la, regá-la e permitir que Deus dê o crescimento.
+Que hoje possamos refletir: qual é o estado do meu terreno? Estou permitindo que a semente da Palavra frutifique, ou tenho deixado que pedras e espinhos impeçam o crescimento? O Senhor deseja abundância em nossa vida, mas cabe a nós preparar o coração para ser um bom terreno.
+Preparando o coração para ser um bom terreno
 
-Ore e entregue a Deus as suas vontades e planos.
-Confie em Jesus de todo coração.
-Espere com serenidade, paciência e resiliência.
-Busque diariamente renovar as suas forças através da Palavra de Deus.
-Descanse nos cuidados do Senhor Jesus, Ele sabe o que é melhor para você.
-Traga à sua memória tudo que Deus já fez por você. Acredite e tenha esperança, pois Ele continua sendo bom!
 
-Para Orar:
+A oração aproxima o coração de Deus, remove distrações e fortalece a fé. Quanto mais falamos com o Pai, mais sensíveis ficamos à sua voz e direção.
 
-Senhor meu Deus, ajuda-me a esperar com tranquilidade em Ti. Ensina-me a esperar com paciência no Teu grande amor e cuidado. Tudo à minha volta parece tão acelerado, mas eu preciso descansar o coração na tua Palavra. Ajuda-me a confiar e buscar sempre pela Tua vontade. Senhor, Tu és bom em todo tempo! Em nome de Jesus, eu te agradeço, amém!
+Ler e meditar na Escritura diariamente enriquece o terreno. A Palavra renova a mente, ilumina decisões e cria raízes firmes que sustentam a vida espiritual nas dificuldades.
+
+A obediência transforma conhecimento em frutos. Cada atitude alinhada ao Evangelho abre espaço para a graça atuar, produzindo crescimento, maturidade e colheita abundante que glorifica ao Senhor.
+
+Para orar:
+
+Senhor, prepara meu coração para ser um bom terreno. Remove pedras e espinhos que impedem o crescimento da Tua Palavra. Que eu viva em oração, obediência e fé, frutificando para Tua glória. Amém.
+
+Veja também: Parábola do semeador (com explicação).
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -469,15 +422,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  55 ++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  48 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 ++---
+ feeds/devocional_de_hoje/feed.json        |   8 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  29 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 202 ++++++++++++--
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  84 +++------
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 432 +++++++++++++++++++-----------
- 11 files changed, 538 insertions(+), 279 deletions(-)
+ output.log                                | 279 ++++++++++++------------------
+ 11 files changed, 202 insertions(+), 308 deletions(-)
