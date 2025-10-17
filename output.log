@@ -1,46 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 122257 characters
-INFO:root:HTML parsed, length: 114957 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (16/10/2025)', 'Palavra de Ontem (15/10/2025)', 'Palavra de Anteontem (14/10/2025)']
-INFO:root:Found 3 URLs: ['/sabedoria/', '/conflito/', '/troia-2/']
-INFO:root:Found 15 descriptions: ['substantivo feminino Característica de sábio, de q', 'Sinônimos:\n\nerudição, saber, sapiência, conhecimen', 'Antônimos:\n\nignorância, desconhecimento, obscurant']
-INFO:root:Found 3 dates: ['Palavra de Hoje (16/10/2025)', 'Palavra de Ontem (15/10/2025)', 'Palavra de Anteontem (14/10/2025)']
+INFO:root:Response length: 122123 characters
+INFO:root:HTML parsed, length: 114824 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (17/10/2025)', 'Palavra de Ontem (16/10/2025)', 'Palavra de Anteontem (15/10/2025)']
+INFO:root:Found 3 URLs: ['/informatica/', '/sabedoria/', '/conflito/']
+INFO:root:Found 15 descriptions: ['substantivo feminino Ciência que trata a informaçã', 'Classe gramatical:substantivo feminino', 'Sílabas:in-for-má-ti-ca']
+INFO:root:Found 3 dates: ['Palavra de Hoje (17/10/2025)', 'Palavra de Ontem (16/10/2025)', 'Palavra de Anteontem (15/10/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (16/10/2025)', ID=159e4fbbc466b3f8a0ac5acc262ba464
-INFO:root:Processing entry 2: Title='Palavra de Ontem (15/10/2025)', ID=5a69be5de87f54aac8ff46cb10ddabc0
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (14/10/2025)', ID=5824718c85043c005649cabf8f0973ce
+INFO:root:Processing entry 1: Title='Palavra de Hoje (17/10/2025)', ID=5fca22c767341bf1ef2002150d6cc66e
+INFO:root:Processing entry 2: Title='Palavra de Ontem (16/10/2025)', ID=764204200c4006c2c6b518076abf726f
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (15/10/2025)', ID=8d662cf7315fa2622074a74010c29a8b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (16/10/2025) - Significado completo de sabedoria:
+INFO:root:🔹 Title: Palavra de Hoje (17/10/2025) - Significado completo de informática:
+INFO:root:🔹 URL: https://www.dicio.com.br/informatica/
+INFO:root:🔹 Description: substantivo feminino Ciência que trata a informação por meio de computadores e de outros dispositivos de processamento de dados.Ciência do tratamento automático e racional da informação como suporte de conhecimentos e comunicações.Conjunto de aplicações dessa ciência, através da utilização de máquinas (computadores) e programas (softwares).Etimologia (origem da palavra informática). A palavra informática deriva do francês "informatique", com o mesmo sentido.
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (16/10/2025) - Significado completo de sabedoria:
 INFO:root:🔹 URL: https://www.dicio.com.br/sabedoria/
-INFO:root:🔹 Description: substantivo feminino Característica de sábio, de quem tem muitos conhecimentos, de quem sabe muito: ensinava os mais jovens com sua sabedoria.Excesso de conhecimento; erudição: o físico foi premiado por sua sabedoria.Conhecimento adquirido pela experiência: não frequentou a escola, mas tinha a sabedoria do trabalho.Característica do que ou de quem demonstra sensatez, reflexão: o líder era a expressão da sabedoria.Excesso de conhecimento que se acumula; ciência.[Popular] Habilidade excessiva; artimanha, esperteza.[Religião] Capacidade de compreender as revelações divinas: a sabedoria do bispo.expressão Sabedoria Popular. Moral extraída de provérbios.Etimologia (origem da palavra sabedoria). A palavra sabedoria deriva da junção da palavra sabedor, e do sufixo -ia.
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:in-for-má-ti-ca
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (15/10/2025) - Significado completo de conflito:
+INFO:root:🔹 URL: https://www.dicio.com.br/conflito/
+INFO:root:🔹 Description: Sílabas:in-for-má-ti-ca
  
 Sinônimos:
 
 erudição, saber, sapiência, conhecimento, artimanha, esperteza, astúcia, sensatez 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (15/10/2025) - Significado completo de conflito:
-INFO:root:🔹 URL: https://www.dicio.com.br/conflito/
-INFO:root:🔹 Description: Sinônimos:
-
-erudição, saber, sapiência, conhecimento, artimanha, esperteza, astúcia, sensatez
- 
-Antônimos:
-
-ignorância, desconhecimento, obscurantismo, imprudência 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (14/10/2025) - Significado completo de troia:
-INFO:root:🔹 URL: https://www.dicio.com.br/troia-2/
-INFO:root:🔹 Description: Antônimos:
-
-ignorância, desconhecimento, obscurantismo, imprudência
- Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +40,69 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 326423 characters
-INFO:root:HTML parsed, length: 315886 characters
-INFO:root:Found 1 titles: ['Colossenses 3:17']
-INFO:root:Found 1 URLs: ['/versiculo/colossenses_3_17/']
-INFO:root:Found 1 descriptions: ['Tudo o que fizerem, seja em palavra seja em ação, ']
+INFO:root:Response length: 326358 characters
+INFO:root:HTML parsed, length: 315821 characters
+INFO:root:Found 1 titles: ['Mateus 28:19']
+INFO:root:Found 1 URLs: ['/versiculo/mateus_28_19/']
+INFO:root:Found 1 descriptions: ['Portanto, vão e façam discípulos de todas as naçõe']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Colossenses 3:17', ID=2e7293fd2cb72de4f4a2f2f4c6f5f997
+INFO:root:Processing entry 1: Title='Mateus 28:19', ID=135e2bdd8f1c7f6314423466d9a782cf
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Colossenses 3:17
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/colossenses_3_17/
-INFO:root:🔹 Description: Tudo o que fizerem, seja em palavra seja em ação, façam-no em nome do Senhor Jesus, dando por meio dele graças a Deus Pai. Colossenses 3:17
+INFO:root:🔹 Title: Mateus 28:19
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_28_19/
+INFO:root:🔹 Description: Portanto, vão e façam discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, Mateus 28:19
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 324055 characters
-INFO:root:HTML parsed, length: 314288 characters
-INFO:root:Found 3 titles: ['Salmo 24', 'Salmo 117', 'Salmo 149']
-INFO:root:Found 3 URLs: ['/salmos_24/', '/salmos_117/', '/salmos_149/']
-INFO:root:Found 3 descriptions: ['Do Senhor é a terra e tudo o que nela existe,\no mu', 'Louvem o Senhor, todas as nações;\nexaltem-no, todo', 'Aleluia!\nCantem ao Senhor uma nova canção,\nlouvem-']
-INFO:root:Found 3 dates: ['16 de Outubro de 2025', '15 de Outubro de 2025', '14 de Outubro de 2025']
+INFO:root:Response length: 328457 characters
+INFO:root:HTML parsed, length: 318692 characters
+INFO:root:Found 3 titles: ['Salmo 6', 'Salmo 24', 'Salmo 117']
+INFO:root:Found 3 URLs: ['/salmos_6/', '/salmos_24/', '/salmos_117/']
+INFO:root:Found 3 descriptions: ['Senhor, não me castigues na tua ira\nnem me discipl', 'Do Senhor é a terra e tudo o que nela existe,\no mu', 'Louvem o Senhor, todas as nações;\nexaltem-no, todo']
+INFO:root:Found 3 dates: ['17 de Outubro de 2025', '16 de Outubro de 2025', '15 de Outubro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 24', ID=c31a58314d2016c8168b8f285dbb4196
-INFO:root:Processing entry 2: Title=' Salmo 117', ID=2038c5aa1c9616755f6ff70b5ed3373f
-INFO:root:Processing entry 3: Title=' Salmo 149', ID=db5d6d8e1b7c9392315f60fb855f672e
+INFO:root:Processing entry 1: Title=' Salmo 6', ID=9a5dfa84a1c1ed176bdcd855730eb2a6
+INFO:root:Processing entry 2: Title=' Salmo 24', ID=c31a58314d2016c8168b8f285dbb4196
+INFO:root:Processing entry 3: Title=' Salmo 117', ID=2038c5aa1c9616755f6ff70b5ed3373f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 6
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_6/
+INFO:root:🔹 Description: Senhor, não me castigues na tua ira
+nem me disciplines no teu furor. 
+Misericórdia, Senhor, pois vou desfalecendo!
+Cura-me, Senhor, pois os meus ossos tremem: 
+todo o meu ser estremece.
+Até quando, Senhor, até quando? 
+Volta-te, Senhor, e livra-me;
+salva-me por causa do teu amor leal. 
+Quem morreu não se lembra de ti.
+Entre os mortos, quem te louvará? 
+Estou exausto de tanto gemer.
+De tanto chorar inundo de noite
+a minha cama;
+de lágrimas encharco o meu leito. 
+Os meus olhos se consomem de tristeza;
+fraquejam por causa de todos
+os meus adversários. 
+Afastem-se de mim
+todos vocês que praticam o mal,
+porque o Senhor ouviu o meu choro. 
+O Senhor ouviu a minha súplica;
+o Senhor aceitou a minha oração. 
+Serão humilhados e aterrorizados
+todos os meus inimigos;
+frustrados, recuarão de repente. 
+ Salmo 6
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 24
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_24/
 INFO:root:🔹 Description: Do Senhor é a terra e tudo o que nela existe,
@@ -121,134 +142,75 @@ e a fidelidade do Senhor dura para sempre.
 Aleluia! 
  Salmo 117
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 149
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_149/
-INFO:root:🔹 Description: Aleluia!
-Cantem ao Senhor uma nova canção,
-louvem-no na assembleia dos fiéis. 
-Alegre-se Israel no seu Criador,
-exulte o povo de Sião no seu Rei! 
-Louvem eles o seu nome com danças;
-ofereçam-lhe música
-com tamborim e harpa. 
-O Senhor agrada-se do seu povo;
-ele coroa de vitória os oprimidos. 
-Regozijem-se os seus fiéis nessa glória
-e em seu leito cantem alegremente! 
-Altos louvores estejam em seus lábios
-e uma espada de dois gumes em suas mãos, 
-para impor vingança às nações
-e trazer castigo aos povos; 
-para prender os seus reis com grilhões
-e seus nobres com algemas de ferro; 
-para executar a sentença escrita
-contra eles.
-Esta é a glória de todos os seus fiéis.
-Aleluia! 
- Salmo 149
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 329086 characters
-INFO:root:HTML parsed, length: 319017 characters
-INFO:root:Found 3 titles: ['Tomando decisões que glorificam a Deus', 'Antes de Cristo e depois de Cristo', 'A cruz, símbolo de poder e vitória']
+INFO:root:Response length: 328946 characters
+INFO:root:HTML parsed, length: 318877 characters
+INFO:root:Found 3 titles: ['O Senhor nos molda com amor', 'Tomando decisões que glorificam a Deus', 'Antes de Cristo e depois de Cristo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Confie no Senhor de todo o seu coração e não se ap', 'Hoje, a maioria dos países utiliza o calendário gr', 'Pois a mensagem da cruz é loucura para os que estã']
-INFO:root:Found 1 dates: ['Quinta, 16 de outubro de 2025']
+INFO:root:Found 3 descriptions: ['"Ó comunidade de Israel, será que eu não posso agi', 'Confie no Senhor de todo o seu coração e não se ap', 'Hoje, a maioria dos países utiliza o calendário gr']
+INFO:root:Found 1 dates: ['Sexta, 17 de outubro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Tomando decisões que glorificam a Deus', ID=d6cdff535e0f107bf4c52337fe9e1dae
+INFO:root:Processing entry 1: Title='O Senhor nos molda com amor', ID=6813bcec468208db0abb0c4ed71ab555
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Tomando decisões que glorificam a Deus - Palavra de Hoje
+INFO:root:🔹 Title: O Senhor nos molda com amor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Confie no Senhor de todo o seu coração e não se apoie em seu próprio entendimento; reconheça o Senhor em todos os seus caminhos, e ele endireitará as suas veredas.
-- Provérbios 3:5-6 
+INFO:root:🔹 Description: "Ó comunidade de Israel, será que eu não posso agir com vocês como fez o oleiro?", pergunta o Senhor. "Como barro nas mãos do oleiro, assim são vocês nas minhas mãos, ó comunidade de Israel.
+- Jeremias 18:6
 
-Passamos grande parte do dia tomando decisões. Levantar-se já é uma decisão em si... poderíamos descansar mais alguns minutos. Mas nos levantamos porque sabemos que temos responsabilidades a cumprir. Assim, cada decisão que tomamos exige uma análise consciente ou inconsciente dos prós e contras.
-No entanto, a melhor decisão que podemos tomar a cada dia é permitir que Deus dirija o nosso caminho. Quando entregamos a nossa vontade à Dele e buscamos a Sua orientação em oração e na leitura da Sua Palavra, deixamos de confiar apenas na nossa lógica ou emoções e aprendemos a discernir o que é verdadeiramente bom e certo. Deus, que vê além do que podemos ver, conhece o melhor caminho para as nossas vidas e deseja guiar-nos para o que trará verdadeira paz e propósito.
-Decisões guiadas por Deus nos asseguram que caminharemos em terreno firme. A sabedoria de Deus nos liberta de erros dos quais podemos nos arrepender e nos capacita a viver de uma forma que honra a Deus e abençoa aqueles ao nosso redor. Quando O deixamos assumir o controle, nossas decisões refletem o Seu amor, a Sua justiça e a Sua perfeita vontade.
-Sempre que você se deparar com uma decisão, grande ou pequena, pare e busque a sabedoria que vem do alto. Ore, confie e espere no Senhor. Ele promete dar abundantemente àqueles que Lhe pedirem com fé. Lembre-se: não há lugar melhor para estar do que no centro da vontade de Deus, porque lá você encontrará direção, propósito e a verdadeira felicidade de viver em comunhão com Ele. 
-
-Se algum de vocês tem falta de sabedoria, peça-a a Deus, que a todos dá livremente, de boa vontade; e lhe será concedida. Peça-a, porém, com fé, sem duvidar, pois aquele que duvida é semelhante à onda do mar, levada e agitada pelo vento.
-- Tiago 1:5-6
-
-Veja também: Versículos para tomar decisões segundo a vontade de Deus
+Cada objeto de barro é um trabalho especial para o oleiro. Com paciência, ele molda e dá forma a esse pedaço de barro. Em sua mente, ele já tem uma ideia clara de como será o produto final. Mas quem entra em sua oficina durante o processo só vê o oleiro com suas mãos enlameadas, trabalhando pacientemente em sua roda, amassando e moldando o barro.
+Da mesma forma, Deus nos molda com amor, porque somos uma criação valiosa e preciosa aos seus olhos. Ele nos conhece completamente, mas em seu amor, ele nos molda com paciência. Às vezes, o processo de moldagem pode parecer longo e doloroso. Há momentos em que sentimos que as provações nos pressionam, que as circunstâncias nos quebram ou que não entendemos o que Deus está fazendo.
+No entanto, cada volta da roda divina tem um propósito. O Pai usa cada lágrima e cada situação para nos aperfeiçoar, remover as impurezas do coração e formar em nós o caráter de Cristo. Mesmo que nem sempre percebamos, o Seu amor está por trás de cada processo, sustentando-nos e lembrando-nos de que não estamos sozinhos.
+Permaneça firme no Senhor. Confie que as Suas mãos não falharão. Mesmo quando você não entender o "porquê", descanse no "para quê": para que possamos nos tornar mais semelhantes a Jesus. Deus não nos deixa no meio do processo, nem abandona a obra que começou em nós. A cada dia, com ternura e poder, o Senhor continua a nos moldar. E chegará o momento em que você verá o propósito cumprido e poderá dizer: "O processo valeu a pena, porque o grande oleiro me fez uma nova criatura para a Sua glória."
+Veja também: Somos vasos de barro na mão do oleiro (significado bíblico)
  
-Confie no Senhor de todo o seu coração e não se apoie em seu próprio entendimento; reconheça o Senhor em todos os seus caminhos, e ele endireitará as suas veredas.
-- Provérbios 3:5-6 
+"Ó comunidade de Israel, será que eu não posso agir com vocês como fez o oleiro?", pergunta o Senhor. "Como barro nas mãos do oleiro, assim são vocês nas minhas mãos, ó comunidade de Israel.
+- Jeremias 18:6
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 342621 characters
-INFO:root:HTML parsed, length: 332089 characters
-INFO:root:Found 3 titles: ['Vigiar e Orar: Lições do Getsêmani', 'Andando sob a luz de Cristo', 'Plantando a semente em um bom terreno']
-INFO:root:Found 2 URLs: ['/jesus_te_ama/', '/a_parabola_do_semeador_explicacao_significado/']
-INFO:root:Found 3 descriptions: ['Vigiem e orem para que não caiam em tentação. O es', 'Falando novamente ao povo, Jesus disse: "Eu sou a ', '"Ouçam! O semeador saiu a semear. Enquanto lançava']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n16\nQUINTA', 'OUTUBRO\n\n15\nQUARTA', 'OUTUBRO\n\n14\nTERÇA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Vigiar e Orar: Lições do Getsêmani', ID=ea2f869295114cf6b898b8bc7d09f16f
-INFO:root:Processing entry 2: Title='Andando sob a luz de Cristo', ID=5d24413cd61f6a00a3d1a48437c01c89
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 341761 characters
+INFO:root:HTML parsed, length: 331227 characters
+INFO:root:Found 3 titles: ['O choro pode durar uma noite...', 'Vigiar e Orar: Lições do Getsêmani', 'Andando sob a luz de Cristo']
+INFO:root:Found 1 URLs: ['/jesus_te_ama/']
+INFO:root:Found 3 descriptions: ['Bem-aventurados os que choram, pois serão consolad', 'Vigiem e orem para que não caiam em tentação. O es', 'Falando novamente ao povo, Jesus disse: "Eu sou a ']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n17\nSEXTA', 'OUTUBRO\n\n16\nQUINTA', 'OUTUBRO\n\n15\nQUARTA']
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='O choro pode durar uma noite...', ID=bda2b03cf547585a748c47966c718b2d
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Vigiar e Orar: Lições do Getsêmani
+INFO:root:🔹 Title: O choro pode durar uma noite...
 INFO:root:🔹 URL: https://www.bibliaon.com/jesus_te_ama/
-INFO:root:🔹 Description: Vigiem e orem para que não caiam em tentação. O espírito está pronto, mas a carne é fraca.
-- Mateus 26:41
-
-Jesus sabia o que estava prestes a enfrentar no Getsêmani. Enquanto Seus discípulos dormiam, Ele travava uma das batalhas mais intensas em oração. Pedro havia prometido que jamais O abandonaria, mas, pouco tempo depois, o galo cantaria, confirmando sua fraqueza. No final, todos os discípulos abandonaram Jesus.
-O contraste entre a autoconfiança dos discípulos e a vigilância de Jesus nos ensina muito sobre a vida espiritual.
-Mesmo sabendo que seria abandonado, Jesus foi paciente com Seus discípulos. Ele não os condenou, mas os exortou com amor: “Vigiem e orem”. Essa advertência continua ecoando até hoje. Vigiar é estar atento às armadilhas do coração e do inimigo. Orar é permanecer ligado à fonte de força que vem do Pai e não confiar em si mesmo.
-A carne é fraca, e todos nós já experimentamos o peso dessa verdade. Somos tentados a confiar em nós mesmos, a relaxar na fé, a negligenciar a oração. No entanto, o exemplo de Jesus mostra que é na oração constante que encontramos poder para resistir. Ele venceu não porque não sentia dor ou sofrimento, mas porque permaneceu em comunhão com o Pai.
-Quando falhamos, como Pedro falhou, Jesus não nos rejeita. Ele nos chama novamente à vigilância, à comunhão e à restauração. Depois da negação, Pedro foi alcançado pela graça e se tornou um homem transformado. Assim também, Deus quer transformar nossas quedas em novos começos.
-Como permanecer vigilante:
+INFO:root:🔹 Description: Bem-aventurados os que choram, pois serão consolados.
+- Mateus 5:4
 
 
-Ore diariamente. Busque comunhão com Deus antes de qualquer desafio.
+Pois a sua ira só dura um instante, mas o seu favor dura a vida toda; o choro pode persistir uma noite, mas de manhã irrompe a alegria.
+- Salmos 30:5
 
-Esteja atento ao seu coração. Reconheça suas fraquezas e dependa apenas da graça.
+Quando olhamos as fotos de amigos e familiares em um álbum ou nas redes sociais, por vezes nos esquecemos que entre aqueles momentos de alegria e outros, certamente existiram muitas fases difíceis em suas vidas. Sim, e é assim também conosco... De tempos em tempos, enfrentamos noites escuras e frias, que surgem de repente e nos fazem chorar. Nesses tristes momentos da vida, encontramos sempre o melhor consolo no Senhor, o nosso Deus.
+Os versículos de hoje falam-nos desse tempo de choro, de lamentação e quebrantamento pelos quais passamos durante algum tempo na vida. São situações de angústia, solidão, dor, desespero, perdas... Diversas aflições que nos acometem, nos fazendo enxergar o quão vulneráveis somos e o quanto dependemos de Deus. Mas tenha esperança: a consolação virá!
+Talvez você esteja passando por uma dessas "noites de choro" em sua vida... Lembre-se que o Senhor é Deus presente! Há luz e consolação nele! O Espírito Santo intercede pela sua causa e traz o conforto que o seu coração necessita. Chore aos pés do Senhor, e Ele te consolará!
+Passando pela noite...
 
-Evite autoconfiança espiritual. Confie mais em Deus do que em sua própria força.
+Ore a Deus, desabafe e entregue a Ele as situações difíceis que você tem enfrentado.
+Mesmo sem palavras, derrame as suas lágrimas e o seu coração perante o Deus que pode lhe ajudar.
+Busque refúgio diariamente e alimente-se da Palavra de Deus.
+Peça oração! Convoque irmãos intercessores para se unirem a você durante essa fase difícil.
+Converse e compartilhe com alguém mais maduro na fé o seu problema. Deus também usa pessoas para nos consolar e para serem suportes.
+Tenha esperança e gratidão, pois Jesus prometeu que todos os que choram serão consolados!
 
-Persevere mesmo cansado. Jesus orou três vezes; um exemplo de persistência para nós.
+Para Orar:
 
-Aceite a paciência de Cristo. Se falhar, levante-se e recomece com humildade.
-
-Para orar:
-Senhor Jesus, ensina-me a vigiar e orar todos os dias. Reconheço que sou fraco e dependo totalmente de Ti. Dá-me sensibilidade espiritual para não cair em tentação e paciência para perseverar. Obrigado por Tua graça que me levanta quando eu falho. Amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Andando sob a luz de Cristo
-INFO:root:🔹 URL: https://www.bibliaon.com/a_parabola_do_semeador_explicacao_significado/
-INFO:root:🔹 Description: Falando novamente ao povo, Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida".
-- João 8:12
-
-Andar sob a luz de Cristo é escolher um caminho de fé, esperança e amor. É permitir que a presença de Jesus ilumine cada passo, revelando não apenas o caminho à frente, mas também o propósito de cada jornada. Quando caminhamos com Ele, mesmo as estradas mais sombrias se tornam oportunidades de aprendizado e transformação.
-A luz de Cristo não é apenas um brilho que afasta a escuridão, mas uma chama que aquece o coração e guia as decisões. Ela nos chama à verdade, à justiça e à compaixão, convidando-nos a sermos também reflexos dessa luz no mundo. Em tempos de incerteza, quando tudo parece perdido, é a luz de Cristo que nos mostra que ainda há direção, ainda há esperança, ainda há vida.
-Andar sob essa luz é viver com propósito. É perdoar quando é difícil, amar quando não há retorno, servir quando ninguém vê. É deixar que a graça de Deus transforme nossos pensamentos e ações, tornando-nos instrumentos de paz e bondade.
-Cristo não nos prometeu uma jornada sem desafios, mas garantiu que Sua luz jamais se apagaria. Por isso, mesmo nas noites mais escuras da alma, podemos confiar que o brilho do Seu amor nos conduzirá.
-Que cada passo que dermos seja guiado por essa luz. Que ela nos inspire a ser faróis para os que ainda caminham nas trevas, mostrando com nossas atitudes que há um caminho seguro e eterno em Cristo Jesus, a verdadeira luz do mundo.
-Ande iluminado por Ele
-
-
-Busque intimidade com Deus: Reserve tempo diário para oração e leitura da Palavra. A comunhão constante fortalece a fé e mantém o coração sensível à direção do Espírito Santo.
-
-Pratique o amor ao próximo: Demonstre compaixão em gestos simples. Um sorriso, uma ajuda, uma palavra de encorajamento podem refletir a luz de Cristo na vida de quem mais precisa.
-
-Permaneça firme na verdade: Mesmo diante das pressões do mundo, escolha agir com integridade. A verdade de Cristo liberta e conduz ao caminho da retidão e da paz interior.
-
-Seja luz em todo lugar: No trabalho, na família ou entre amigos, viva de modo que suas atitudes glorifiquem a Deus. Sua vida pode ser o evangelho que muitos ainda não leram.
-
-Para orar:
-
-Senhor Jesus, luz do mundo, guia meus passos em Teu caminho de verdade e amor. Ilumina minha mente, fortalece minha fé e purifica meu coração. Que eu reflita Tua luz em cada gesto e palavra, sendo instrumento da Tua paz. Permanece comigo, Senhor, hoje e sempre. Amém.
-
-Veja também: Versículos que mostram que Jesus te ama.
+Senhor, não encontro palavras nem forças para me expressar. Ajuda-me a orar! É grande a minha aflição, mas Tu sabes dos problemas que tenho enfrentado. Tudo parece sem saída, Pai... Dá-me forças para prosseguir! Derramo aos Teus pés as minhas lágrimas e esta humilde oração. Ajuda-me, pois só confio em Ti, Senhor! Fica comigo, agora e sempre. Em nome de Jesus Cristo, amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -279,15 +241,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  56 ++----
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  30 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 212 +++------------
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  53 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 415 +++++++++---------------------
- 11 files changed, 225 insertions(+), 559 deletions(-)
+ output.log                                | 276 ++++++++++++------------------
+ 11 files changed, 199 insertions(+), 288 deletions(-)
