@@ -1,38 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 122123 characters
-INFO:root:HTML parsed, length: 114824 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (17/10/2025)', 'Palavra de Ontem (16/10/2025)', 'Palavra de Anteontem (15/10/2025)']
-INFO:root:Found 3 URLs: ['/informatica/', '/sabedoria/', '/conflito/']
-INFO:root:Found 15 descriptions: ['substantivo feminino Ciência que trata a informaçã', 'Classe gramatical:substantivo feminino', 'Sílabas:in-for-má-ti-ca']
-INFO:root:Found 3 dates: ['Palavra de Hoje (17/10/2025)', 'Palavra de Ontem (16/10/2025)', 'Palavra de Anteontem (15/10/2025)']
+INFO:root:Response length: 119868 characters
+INFO:root:HTML parsed, length: 112959 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (18/10/2025)', 'Palavra de Ontem (17/10/2025)', 'Palavra de Anteontem (16/10/2025)']
+INFO:root:Found 3 URLs: ['/estoria/', '/informatica/', '/sabedoria/']
+INFO:root:Found 13 descriptions: ['substantivo feminino Narrativa de natureza popular', 'Sinônimos:\n\nhistória, trama, enredo, narrativa, na', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (18/10/2025)', 'Palavra de Ontem (17/10/2025)', 'Palavra de Anteontem (16/10/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (17/10/2025)', ID=5fca22c767341bf1ef2002150d6cc66e
-INFO:root:Processing entry 2: Title='Palavra de Ontem (16/10/2025)', ID=764204200c4006c2c6b518076abf726f
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (15/10/2025)', ID=8d662cf7315fa2622074a74010c29a8b
+INFO:root:Processing entry 1: Title='Palavra de Hoje (18/10/2025)', ID=9b02efcdf1aff02d3bb070104d2d95ac
+INFO:root:Processing entry 2: Title='Palavra de Ontem (17/10/2025)', ID=47f64f4612e080fd24920b1aac21c541
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/10/2025)', ID=52d0f04fb600939587a9cc054fe1676e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (17/10/2025) - Significado completo de informática:
-INFO:root:🔹 URL: https://www.dicio.com.br/informatica/
-INFO:root:🔹 Description: substantivo feminino Ciência que trata a informação por meio de computadores e de outros dispositivos de processamento de dados.Ciência do tratamento automático e racional da informação como suporte de conhecimentos e comunicações.Conjunto de aplicações dessa ciência, através da utilização de máquinas (computadores) e programas (softwares).Etimologia (origem da palavra informática). A palavra informática deriva do francês "informatique", com o mesmo sentido.
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (16/10/2025) - Significado completo de sabedoria:
-INFO:root:🔹 URL: https://www.dicio.com.br/sabedoria/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:in-for-má-ti-ca
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (15/10/2025) - Significado completo de conflito:
-INFO:root:🔹 URL: https://www.dicio.com.br/conflito/
-INFO:root:🔹 Description: Sílabas:in-for-má-ti-ca
+INFO:root:🔹 Title: Palavra de Hoje (18/10/2025) - Significado completo de estória:
+INFO:root:🔹 URL: https://www.dicio.com.br/estoria/
+INFO:root:🔹 Description: substantivo feminino Narrativa de natureza popular transmitida pela tradição oral; história.[Gramática] Palavra geralmente usada para designar uma narrativa de ficção: a estória da vovó.Etimologia (origem da palavra estória). A palavra estória deriva do inglês "story", com o sentido de narrativa ficcional.
  
 Sinônimos:
 
-erudição, saber, sapiência, conhecimento, artimanha, esperteza, astúcia, sensatez 
+história, trama, enredo, narrativa, narração, relato, descrição, reconto, explicação, explanação, apresentação, informação 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (17/10/2025) - Significado completo de informática:
+INFO:root:🔹 URL: https://www.dicio.com.br/informatica/
+INFO:root:🔹 Description: Sinônimos:
+
+história, trama, enredo, narrativa, narração, relato, descrição, reconto, explicação, explanação, apresentação, informação
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (16/10/2025) - Significado completo de sabedoria:
+INFO:root:🔹 URL: https://www.dicio.com.br/sabedoria/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:es-tó-ri-a
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +42,61 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 326358 characters
-INFO:root:HTML parsed, length: 315821 characters
-INFO:root:Found 1 titles: ['Mateus 28:19']
-INFO:root:Found 1 URLs: ['/versiculo/mateus_28_19/']
-INFO:root:Found 1 descriptions: ['Portanto, vão e façam discípulos de todas as naçõe']
+INFO:root:Response length: 326458 characters
+INFO:root:HTML parsed, length: 315921 characters
+INFO:root:Found 1 titles: ['Levítico 20:7-8']
+INFO:root:Found 1 URLs: ['/versiculo/levitico_20_7-8/']
+INFO:root:Found 1 descriptions: ['"Consagrem-se, porém, e sejam santos, porque eu so']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Mateus 28:19', ID=135e2bdd8f1c7f6314423466d9a782cf
+INFO:root:Processing entry 1: Title='Levítico 20:7-8', ID=8399cca041b643bbde019f7286e98c87
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Mateus 28:19
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_28_19/
-INFO:root:🔹 Description: Portanto, vão e façam discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, Mateus 28:19
+INFO:root:🔹 Title: Levítico 20:7-8
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/levitico_20_7-8/
+INFO:root:🔹 Description: "Consagrem-se, porém, e sejam santos, porque eu sou o Senhor, o Deus de vocês. Obedeçam aos meus decretos e pratiquem-nos. Eu sou o Senhor que os santifica. Levítico 20:7-8
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 328457 characters
-INFO:root:HTML parsed, length: 318692 characters
-INFO:root:Found 3 titles: ['Salmo 6', 'Salmo 24', 'Salmo 117']
-INFO:root:Found 3 URLs: ['/salmos_6/', '/salmos_24/', '/salmos_117/']
-INFO:root:Found 3 descriptions: ['Senhor, não me castigues na tua ira\nnem me discipl', 'Do Senhor é a terra e tudo o que nela existe,\no mu', 'Louvem o Senhor, todas as nações;\nexaltem-no, todo']
-INFO:root:Found 3 dates: ['17 de Outubro de 2025', '16 de Outubro de 2025', '15 de Outubro de 2025']
+INFO:root:Response length: 324632 characters
+INFO:root:HTML parsed, length: 314874 characters
+INFO:root:Found 3 titles: ['Salmo 87', 'Salmo 6', 'Salmo 24']
+INFO:root:Found 3 URLs: ['/salmos_87/', '/salmos_6/', '/salmos_24/']
+INFO:root:Found 3 descriptions: ['O Senhor edificou sua cidade sobre o monte santo; ', 'Senhor, não me castigues na tua ira\nnem me discipl', 'Do Senhor é a terra e tudo o que nela existe,\no mu']
+INFO:root:Found 3 dates: ['18 de Outubro de 2025', '17 de Outubro de 2025', '16 de Outubro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 6', ID=9a5dfa84a1c1ed176bdcd855730eb2a6
-INFO:root:Processing entry 2: Title=' Salmo 24', ID=c31a58314d2016c8168b8f285dbb4196
-INFO:root:Processing entry 3: Title=' Salmo 117', ID=2038c5aa1c9616755f6ff70b5ed3373f
+INFO:root:Processing entry 1: Title=' Salmo 87', ID=bed2fe69ca2fb77136c0a1a6108f450f
+INFO:root:Processing entry 2: Title=' Salmo 6', ID=9a5dfa84a1c1ed176bdcd855730eb2a6
+INFO:root:Processing entry 3: Title=' Salmo 24', ID=c31a58314d2016c8168b8f285dbb4196
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 87
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_87/
+INFO:root:🔹 Description: O Senhor edificou sua cidade sobre o monte santo; 
+ele ama as portas de Sião
+mais do que qualquer outro lugar de Jacó. 
+Coisas gloriosas são ditas de ti,
+ó cidade de Deus! 
+"Entre os que me reconhecem
+incluirei Raabe e Babilônia,
+além da Filístia, de Tiro,
+e também da Etiópia,
+como se tivessem nascido em Sião." 
+De fato, acerca de Sião se dirá:
+"Todos estes nasceram em Sião,
+e o próprio Altíssimo a estabelecerá". 
+O Senhor escreverá no registro dos povos:
+"Este nasceu ali". 
+Com danças e cânticos, dirão:
+"Em Sião estão as nossas origens!" 
+ Salmo 87
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 6
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_6/
 INFO:root:🔹 Description: Senhor, não me castigues na tua ira
@@ -133,84 +156,83 @@ O Senhor dos Exércitos;
 ele é o Rei da glória! 
  Salmo 24
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 117
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_117/
-INFO:root:🔹 Description: Louvem o Senhor, todas as nações;
-exaltem-no, todos os povos! 
-Porque imenso é o seu amor leal por nós,
-e a fidelidade do Senhor dura para sempre.
-Aleluia! 
- Salmo 117
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 328946 characters
-INFO:root:HTML parsed, length: 318877 characters
-INFO:root:Found 3 titles: ['O Senhor nos molda com amor', 'Tomando decisões que glorificam a Deus', 'Antes de Cristo e depois de Cristo']
+INFO:root:Response length: 328926 characters
+INFO:root:HTML parsed, length: 318857 characters
+INFO:root:Found 3 titles: ['Graças, meu bom Pastor', 'O Senhor nos molda com amor', 'Tomando decisões que glorificam a Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['"Ó comunidade de Israel, será que eu não posso agi', 'Confie no Senhor de todo o seu coração e não se ap', 'Hoje, a maioria dos países utiliza o calendário gr']
-INFO:root:Found 1 dates: ['Sexta, 17 de outubro de 2025']
+INFO:root:Found 3 descriptions: ['"Eu sou o bom pastor; conheço as minhas ovelhas, e', '"Ó comunidade de Israel, será que eu não posso agi', 'Confie no Senhor de todo o seu coração e não se ap']
+INFO:root:Found 1 dates: ['Sábado, 18 de outubro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O Senhor nos molda com amor', ID=6813bcec468208db0abb0c4ed71ab555
+INFO:root:Processing entry 1: Title='Graças, meu bom Pastor', ID=2073ffd0708a51ad52297ba0d937c285
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O Senhor nos molda com amor - Palavra de Hoje
+INFO:root:🔹 Title: Graças, meu bom Pastor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: "Ó comunidade de Israel, será que eu não posso agir com vocês como fez o oleiro?", pergunta o Senhor. "Como barro nas mãos do oleiro, assim são vocês nas minhas mãos, ó comunidade de Israel.
-- Jeremias 18:6
+INFO:root:🔹 Description: "Eu sou o bom pastor; conheço as minhas ovelhas, e elas me conhecem, assim como o Pai me conhece e eu conheço o Pai; e dou a minha vida pelas ovelhas.
+- João 10:14-15 
 
-Cada objeto de barro é um trabalho especial para o oleiro. Com paciência, ele molda e dá forma a esse pedaço de barro. Em sua mente, ele já tem uma ideia clara de como será o produto final. Mas quem entra em sua oficina durante o processo só vê o oleiro com suas mãos enlameadas, trabalhando pacientemente em sua roda, amassando e moldando o barro.
-Da mesma forma, Deus nos molda com amor, porque somos uma criação valiosa e preciosa aos seus olhos. Ele nos conhece completamente, mas em seu amor, ele nos molda com paciência. Às vezes, o processo de moldagem pode parecer longo e doloroso. Há momentos em que sentimos que as provações nos pressionam, que as circunstâncias nos quebram ou que não entendemos o que Deus está fazendo.
-No entanto, cada volta da roda divina tem um propósito. O Pai usa cada lágrima e cada situação para nos aperfeiçoar, remover as impurezas do coração e formar em nós o caráter de Cristo. Mesmo que nem sempre percebamos, o Seu amor está por trás de cada processo, sustentando-nos e lembrando-nos de que não estamos sozinhos.
-Permaneça firme no Senhor. Confie que as Suas mãos não falharão. Mesmo quando você não entender o "porquê", descanse no "para quê": para que possamos nos tornar mais semelhantes a Jesus. Deus não nos deixa no meio do processo, nem abandona a obra que começou em nós. A cada dia, com ternura e poder, o Senhor continua a nos moldar. E chegará o momento em que você verá o propósito cumprido e poderá dizer: "O processo valeu a pena, porque o grande oleiro me fez uma nova criatura para a Sua glória."
-Veja também: Somos vasos de barro na mão do oleiro (significado bíblico)
+
+As minhas ovelhas ouvem a minha voz; eu as conheço, e elas me seguem. Eu lhes dou a vida eterna, e elas jamais perecerão; ninguém as poderá arrancar da minha mão.
+- João 10:27-28 
+
+A parábola do Bom Pastor, em João 10, explica como Jesus, o Bom Pastor, cuida de suas ovelhas com amor. Seu cuidado é pessoal. Ele conhece cada uma de suas ovelhas, e suas ovelhas confiam nele. Elas reconhecem sua voz e o seguem com confiança, porque sabem que ele as ama e que tudo o que faz é para o bem delas, para protegê-las.
+Em meio às lutas da vida, devemos permanecer firmes em nossa fé, confiando em Jesus, nosso Bom Pastor, pois Ele cuida de nós com amor. Mesmo que às vezes não entendamos os caminhos que ele nos conduz, podemos descansar em sua fidelidade. Ele nunca abandona suas ovelhas, mesmo quando elas passam por vales escuros ou tempos de incerteza. Sua presença conforta, sua voz guia, e sua vara e cajado inspiram encorajamento para que possamos seguir em frente com esperança.
+Lembrar que temos um Bom Pastor nos enche de paz. Não caminhamos sozinhos nem enfrentamos provações sem direção. Jesus conhece cada necessidade, cada lágrima e cada anseio de nossos corações. Ele nos conduz a lugares de descanso, renova nossas forças e nos ensina a confiar plenamente em sua orientação. Em seu amor, encontramos segurança, propósito e a promessa de vida eterna com Ele. 
+
+Obrigado, Jesus, meu bom pastor, pelo teu imenso amor e cuidado constante pela minha vida. Obrigado porque me guias com ternura e me sustentas quando as minhas forças falham. Ensina-me a ouvir a tua voz e a seguir-te com obediência, mesmo quando não entendo o caminho. Confio na tua fidelidade, na tua proteção e na tua perfeita vontade. Que o meu coração permaneça sempre perto de ti e que a minha vida seja um reflexo do teu amor. Amém. 
+
+Veja também: Parábola do bom pastor (com explicação).
  
-"Ó comunidade de Israel, será que eu não posso agir com vocês como fez o oleiro?", pergunta o Senhor. "Como barro nas mãos do oleiro, assim são vocês nas minhas mãos, ó comunidade de Israel.
-- Jeremias 18:6
+"Eu sou o bom pastor; conheço as minhas ovelhas, e elas me conhecem, assim como o Pai me conhece e eu conheço o Pai; e dou a minha vida pelas ovelhas.
+- João 10:14-15 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 341761 characters
-INFO:root:HTML parsed, length: 331227 characters
-INFO:root:Found 3 titles: ['O choro pode durar uma noite...', 'Vigiar e Orar: Lições do Getsêmani', 'Andando sob a luz de Cristo']
-INFO:root:Found 1 URLs: ['/jesus_te_ama/']
-INFO:root:Found 3 descriptions: ['Bem-aventurados os que choram, pois serão consolad', 'Vigiem e orem para que não caiam em tentação. O es', 'Falando novamente ao povo, Jesus disse: "Eu sou a ']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n17\nSEXTA', 'OUTUBRO\n\n16\nQUINTA', 'OUTUBRO\n\n15\nQUARTA']
+INFO:root:Response length: 341601 characters
+INFO:root:HTML parsed, length: 331072 characters
+INFO:root:Found 3 titles: ['Andando em lugares altos', 'O choro pode durar uma noite...', 'Vigiar e Orar: Lições do Getsêmani']
+INFO:root:Found 1 URLs: ['/crescimento_espiritual/']
+INFO:root:Found 3 descriptions: ['“O Senhor, o Soberano, é a minha força;\nele faz os', 'Bem-aventurados os que choram, pois serão consolad', 'Vigiem e orem para que não caiam em tentação. O es']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n18\nSÁBADO', 'OUTUBRO\n\n17\nSEXTA', 'OUTUBRO\n\n16\nQUINTA']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O choro pode durar uma noite...', ID=bda2b03cf547585a748c47966c718b2d
+INFO:root:Processing entry 1: Title='Andando em lugares altos', ID=c7b7be42b3dc8b7f3dce26d04663e63e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O choro pode durar uma noite...
-INFO:root:🔹 URL: https://www.bibliaon.com/jesus_te_ama/
-INFO:root:🔹 Description: Bem-aventurados os que choram, pois serão consolados.
-- Mateus 5:4
+INFO:root:🔹 Title: Andando em lugares altos
+INFO:root:🔹 URL: https://www.bibliaon.com/crescimento_espiritual/
+INFO:root:🔹 Description: “O Senhor, o Soberano, é a minha força;
+ele faz os meus pés como os do cervo;
+faz-me andar em lugares altos.
+Para o mestre de música. Para os meus instrumentos de cordas.”
+- Habacuque 3:19
+
+Há momentos em nossa caminhada em que o terreno parece íngreme demais. As pedras machucam os pés, o vento é forte, e a vista do topo parece distante. Mas é nesses momentos que a Palavra de Deus nos lembra: o Senhor é a nossa força. Ele não promete um caminho fácil, mas assegura que nos dará pés firmes, como os do cervo, para que possamos avançar com segurança mesmo em meio às alturas e aos desafios.
+Quando confiamos em Deus, aprendemos que cada passo, mesmo o mais incerto, é sustentado pela Sua fidelidade. Ele nos conduz a lugares que jamais alcançaríamos com nossas próprias forças. As alturas de Deus não são apenas lugares físicos, mas espirituais, níveis mais profundos de fé, maturidade e intimidade com o Criador.
+O cervo não teme o penhasco porque sabe onde firmar seus pés. Da mesma forma, quem anda com Deus aprende a confiar no terreno que Ele prepara. Mesmo em meio às tempestades, há paz; mesmo diante das perdas, há esperança. O Senhor transforma cada dificuldade em degrau para algo maior.
+Hoje, escolha depender da força do Soberano. Permita que Ele te conduza, sustente e erga. O mesmo Deus que fortaleceu Habacuque é o que te chama a andar em lugares altos, não por mérito, mas por graça. Quando Deus é a tua força, nenhum vale é profundo demais, e nenhum monte é alto demais.
+Quando a força vem do Senhor, até os caminhos mais difíceis se tornam oportunidades
 
 
-Pois a sua ira só dura um instante, mas o seu favor dura a vida toda; o choro pode persistir uma noite, mas de manhã irrompe a alegria.
-- Salmos 30:5
+Confie na força de Deus, não na sua própria: Quando suas energias se esgotarem, lembre-se: Deus é sua fonte inesgotável. Nele, você encontra poder, direção e segurança para prosseguir.
 
-Quando olhamos as fotos de amigos e familiares em um álbum ou nas redes sociais, por vezes nos esquecemos que entre aqueles momentos de alegria e outros, certamente existiram muitas fases difíceis em suas vidas. Sim, e é assim também conosco... De tempos em tempos, enfrentamos noites escuras e frias, que surgem de repente e nos fazem chorar. Nesses tristes momentos da vida, encontramos sempre o melhor consolo no Senhor, o nosso Deus.
-Os versículos de hoje falam-nos desse tempo de choro, de lamentação e quebrantamento pelos quais passamos durante algum tempo na vida. São situações de angústia, solidão, dor, desespero, perdas... Diversas aflições que nos acometem, nos fazendo enxergar o quão vulneráveis somos e o quanto dependemos de Deus. Mas tenha esperança: a consolação virá!
-Talvez você esteja passando por uma dessas "noites de choro" em sua vida... Lembre-se que o Senhor é Deus presente! Há luz e consolação nele! O Espírito Santo intercede pela sua causa e traz o conforto que o seu coração necessita. Chore aos pés do Senhor, e Ele te consolará!
-Passando pela noite...
+Permaneça firme: As provações não são o fim, mas o preparo para algo maior. Deus usa cada desafio para fortalecer sua fé e expandir sua visão.
 
-Ore a Deus, desabafe e entregue a Ele as situações difíceis que você tem enfrentado.
-Mesmo sem palavras, derrame as suas lágrimas e o seu coração perante o Deus que pode lhe ajudar.
-Busque refúgio diariamente e alimente-se da Palavra de Deus.
-Peça oração! Convoque irmãos intercessores para se unirem a você durante essa fase difícil.
-Converse e compartilhe com alguém mais maduro na fé o seu problema. Deus também usa pessoas para nos consolar e para serem suportes.
-Tenha esperança e gratidão, pois Jesus prometeu que todos os que choram serão consolados!
+Suba com fé, olhando para o alto: Não tema as alturas espirituais que Deus te chama a alcançar. Ele mesmo garante seus passos e sustenta sua jornada diariamente.
 
-Para Orar:
+Para orar:
 
-Senhor, não encontro palavras nem forças para me expressar. Ajuda-me a orar! É grande a minha aflição, mas Tu sabes dos problemas que tenho enfrentado. Tudo parece sem saída, Pai... Dá-me forças para prosseguir! Derramo aos Teus pés as minhas lágrimas e esta humilde oração. Ajuda-me, pois só confio em Ti, Senhor! Fica comigo, agora e sempre. Em nome de Jesus Cristo, amém.
+Senhor, minha força e rocha eterna, faz meus pés firmes como os da corça, para que eu ande seguro sobre os montes da vida. Mesmo nas alturas e nos vales, sustenta-me com Teu poder. Que minha confiança esteja sempre em Ti, meu Deus fiel, que me conduz e me faz vencer todos os desafios. Amém.
+
+Veja também: Versículos sobre Crescimento Espiritual.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -241,15 +263,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  56 ++----
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  34 ++---
+ feeds/devocional_de_hoje/feed.json        |   8 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  26 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  53 +++---
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  24 ++--
+ feeds/salmo_do_dia/atom.xml               |  28 ++--
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 276 ++++++++++++------------------
- 11 files changed, 199 insertions(+), 288 deletions(-)
+ output.log                                | 216 ++++++++++++++++--------------
+ 11 files changed, 204 insertions(+), 172 deletions(-)
