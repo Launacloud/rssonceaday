@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119868 characters
-INFO:root:HTML parsed, length: 112959 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (18/10/2025)', 'Palavra de Ontem (17/10/2025)', 'Palavra de Anteontem (16/10/2025)']
-INFO:root:Found 3 URLs: ['/estoria/', '/informatica/', '/sabedoria/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Narrativa de natureza popular', 'Sinônimos:\n\nhistória, trama, enredo, narrativa, na', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (18/10/2025)', 'Palavra de Ontem (17/10/2025)', 'Palavra de Anteontem (16/10/2025)']
+INFO:root:Response length: 119165 characters
+INFO:root:HTML parsed, length: 112463 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (19/10/2025)', 'Palavra de Ontem (18/10/2025)', 'Palavra de Anteontem (17/10/2025)']
+INFO:root:Found 3 URLs: ['/extrovertido/', '/estoria/', '/informatica/']
+INFO:root:Found 12 descriptions: ['adjetivo Que se comunica com facilidade por ser mu', 'Sinônimos:\n\ndivertido, caloroso, sociável, expansi', 'Antônimos:\n\nintrovertido, fechado, calado, tímido']
+INFO:root:Found 3 dates: ['Palavra de Hoje (19/10/2025)', 'Palavra de Ontem (18/10/2025)', 'Palavra de Anteontem (17/10/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (18/10/2025)', ID=9b02efcdf1aff02d3bb070104d2d95ac
-INFO:root:Processing entry 2: Title='Palavra de Ontem (17/10/2025)', ID=47f64f4612e080fd24920b1aac21c541
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/10/2025)', ID=52d0f04fb600939587a9cc054fe1676e
+INFO:root:Processing entry 1: Title='Palavra de Hoje (19/10/2025)', ID=16def62e030882fdc81220719479fad8
+INFO:root:Processing entry 2: Title='Palavra de Ontem (18/10/2025)', ID=cd40dd0913b209a40b880df15f68b18b
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (17/10/2025)', ID=5b6a30f87758ed0e83a773255e4db076
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (18/10/2025) - Significado completo de estória:
-INFO:root:🔹 URL: https://www.dicio.com.br/estoria/
-INFO:root:🔹 Description: substantivo feminino Narrativa de natureza popular transmitida pela tradição oral; história.[Gramática] Palavra geralmente usada para designar uma narrativa de ficção: a estória da vovó.Etimologia (origem da palavra estória). A palavra estória deriva do inglês "story", com o sentido de narrativa ficcional.
+INFO:root:🔹 Title: Palavra de Hoje (19/10/2025) - Significado completo de extrovertido:
+INFO:root:🔹 URL: https://www.dicio.com.br/extrovertido/
+INFO:root:🔹 Description: adjetivo Que se comunica com facilidade por ser muito expansivo;  divertido, caloroso, sociável: pessoa extrovertida.Que não tem problemas com o contato social nem com situações exteriores a si; comunicativo.Que expressa extroversão, confiança, sociabilidade; que se adapta ao seu ambiente; expansivo.Que busca o lado de fora, o exterior.[Psicologia] De acordo com a teoria de C.G. Jung, comportamento da pessoa que projeta sua energia psíquica para fora, para seu exterior, demonstrando confiança e se adaptando ao que a rodeia.substantivo masculino Indivíduo expansivo e comunicativo.Etimologia (origem da palavra extrovertido). A palavra extrovertido deriva como particípio de extroverter, pelo francês "introvertido".
  
 Sinônimos:
 
-história, trama, enredo, narrativa, narração, relato, descrição, reconto, explicação, explanação, apresentação, informação 
+divertido, caloroso, sociável, expansivo, comunicativo, aberto 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (17/10/2025) - Significado completo de informática:
-INFO:root:🔹 URL: https://www.dicio.com.br/informatica/
+INFO:root:🔹 Title: Palavra de Ontem (18/10/2025) - Significado completo de estória:
+INFO:root:🔹 URL: https://www.dicio.com.br/estoria/
 INFO:root:🔹 Description: Sinônimos:
 
-história, trama, enredo, narrativa, narração, relato, descrição, reconto, explicação, explanação, apresentação, informação
- Classe gramatical:substantivo feminino
+divertido, caloroso, sociável, expansivo, comunicativo, aberto
+ 
+Antônimos:
+
+introvertido, fechado, calado, tímido 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (16/10/2025) - Significado completo de sabedoria:
-INFO:root:🔹 URL: https://www.dicio.com.br/sabedoria/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:es-tó-ri-a
+INFO:root:🔹 Title: Palavra de Anteontem (17/10/2025) - Significado completo de informática:
+INFO:root:🔹 URL: https://www.dicio.com.br/informatica/
+INFO:root:🔹 Description: Antônimos:
+
+introvertido, fechado, calado, tímido
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +48,64 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 326458 characters
-INFO:root:HTML parsed, length: 315921 characters
-INFO:root:Found 1 titles: ['Levítico 20:7-8']
-INFO:root:Found 1 URLs: ['/versiculo/levitico_20_7-8/']
-INFO:root:Found 1 descriptions: ['"Consagrem-se, porém, e sejam santos, porque eu so']
+INFO:root:Response length: 326342 characters
+INFO:root:HTML parsed, length: 315805 characters
+INFO:root:Found 1 titles: ['Levítico 19:11']
+INFO:root:Found 1 URLs: ['/versiculo/levitico_19_11/']
+INFO:root:Found 1 descriptions: ['"Não furtem.\n"Não mintam.\n"Não enganem uns aos out']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Levítico 20:7-8', ID=8399cca041b643bbde019f7286e98c87
+INFO:root:Processing entry 1: Title='Levítico 19:11', ID=5faa0f8f10655a987b9db37f9816238b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Levítico 20:7-8
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/levitico_20_7-8/
-INFO:root:🔹 Description: "Consagrem-se, porém, e sejam santos, porque eu sou o Senhor, o Deus de vocês. Obedeçam aos meus decretos e pratiquem-nos. Eu sou o Senhor que os santifica. Levítico 20:7-8
+INFO:root:🔹 Title: Levítico 19:11
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/levitico_19_11/
+INFO:root:🔹 Description: "Não furtem.
+"Não mintam.
+"Não enganem uns aos outros. Levítico 19:11
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 324632 characters
-INFO:root:HTML parsed, length: 314874 characters
-INFO:root:Found 3 titles: ['Salmo 87', 'Salmo 6', 'Salmo 24']
-INFO:root:Found 3 URLs: ['/salmos_87/', '/salmos_6/', '/salmos_24/']
-INFO:root:Found 3 descriptions: ['O Senhor edificou sua cidade sobre o monte santo; ', 'Senhor, não me castigues na tua ira\nnem me discipl', 'Do Senhor é a terra e tudo o que nela existe,\no mu']
-INFO:root:Found 3 dates: ['18 de Outubro de 2025', '17 de Outubro de 2025', '16 de Outubro de 2025']
+INFO:root:Response length: 328576 characters
+INFO:root:HTML parsed, length: 318815 characters
+INFO:root:Found 3 titles: ['Salmo 125', 'Salmo 87', 'Salmo 6']
+INFO:root:Found 3 URLs: ['/salmos_125/', '/salmos_87/', '/salmos_6/']
+INFO:root:Found 3 descriptions: ['Os que confiam no Senhor\nsão como o monte Sião,\nqu', 'O Senhor edificou sua cidade sobre o monte santo; ', 'Senhor, não me castigues na tua ira\nnem me discipl']
+INFO:root:Found 3 dates: ['19 de Outubro de 2025', '18 de Outubro de 2025', '17 de Outubro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 87', ID=bed2fe69ca2fb77136c0a1a6108f450f
-INFO:root:Processing entry 2: Title=' Salmo 6', ID=9a5dfa84a1c1ed176bdcd855730eb2a6
-INFO:root:Processing entry 3: Title=' Salmo 24', ID=c31a58314d2016c8168b8f285dbb4196
+INFO:root:Processing entry 1: Title=' Salmo 125', ID=4453eb37e34143ba230b77d444355962
+INFO:root:Processing entry 2: Title=' Salmo 87', ID=bed2fe69ca2fb77136c0a1a6108f450f
+INFO:root:Processing entry 3: Title=' Salmo 6', ID=9a5dfa84a1c1ed176bdcd855730eb2a6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 125
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_125/
+INFO:root:🔹 Description: Os que confiam no Senhor
+são como o monte Sião,
+que não se pode abalar,
+mas permanece para sempre. 
+Como os montes cercam Jerusalém,
+assim o Senhor protege o seu povo,
+desde agora e para sempre. 
+O cetro dos ímpios não prevalecerá
+sobre a terra dada aos justos;
+se assim fosse,
+até os justos praticariam a injustiça. 
+Senhor, trata com bondade
+os que fazem o bem,
+os que têm coração íntegro. 
+Mas, aos que se desviam
+por caminhos tortuosos,
+o Senhor infligirá o castigo dado aos malfeitores.
+Haja paz em Israel! 
+ Salmo 125
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 87
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_87/
 INFO:root:🔹 Description: O Senhor edificou sua cidade sobre o monte santo; 
@@ -126,87 +156,96 @@ todos os meus inimigos;
 frustrados, recuarão de repente. 
  Salmo 6
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 24
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_24/
-INFO:root:🔹 Description: Do Senhor é a terra e tudo o que nela existe,
-o mundo e os que nele vivem; 
-pois foi ele quem a estabeleceu sobre os mares
-e a firmou sobre as águas. 
-Quem poderá subir o monte do Senhor?
-Quem poderá entrar no seu Santo Lugar? 
-Aquele que tem as mãos limpas
-e o coração puro,
-que não recorre aos ídolos
-nem jura por deuses falsos. 
-Ele receberá bênçãos do Senhor,
-e Deus, o seu Salvador, lhe fará justiça. 
-São assim aqueles que o buscam,
-que buscam a tua face, ó Deus de Jacó. 
-Abram-se, ó portais;
-abram-se, ó portas antigas,
-para que o Rei da glória entre. 
-Quem é o Rei da glória?
-O Senhor forte e valente,
-o Senhor valente nas guerras. 
-Abram-se, ó portais;
-abram-se, ó portas antigas,
-para que o Rei da glória entre. 
-Quem é esse Rei da glória?
-O Senhor dos Exércitos;
-ele é o Rei da glória! 
- Salmo 24
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 328926 characters
-INFO:root:HTML parsed, length: 318857 characters
-INFO:root:Found 3 titles: ['Graças, meu bom Pastor', 'O Senhor nos molda com amor', 'Tomando decisões que glorificam a Deus']
+INFO:root:Response length: 328473 characters
+INFO:root:HTML parsed, length: 318408 characters
+INFO:root:Found 3 titles: ['Volte seus olhos para Deus', 'Graças, meu bom Pastor', 'O Senhor nos molda com amor']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['"Eu sou o bom pastor; conheço as minhas ovelhas, e', '"Ó comunidade de Israel, será que eu não posso agi', 'Confie no Senhor de todo o seu coração e não se ap']
-INFO:root:Found 1 dates: ['Sábado, 18 de outubro de 2025']
+INFO:root:Found 3 descriptions: ['Levanto os meus olhos para os montes\ne pergunto:\nD', '"Eu sou o bom pastor; conheço as minhas ovelhas, e', '"Ó comunidade de Israel, será que eu não posso agi']
+INFO:root:Found 1 dates: ['Domingo, 19 de outubro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Graças, meu bom Pastor', ID=2073ffd0708a51ad52297ba0d937c285
+INFO:root:Processing entry 1: Title='Volte seus olhos para Deus', ID=cbe3f1a78840ec935fe2d8502ec9dc60
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Graças, meu bom Pastor - Palavra de Hoje
+INFO:root:🔹 Title: Volte seus olhos para Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: "Eu sou o bom pastor; conheço as minhas ovelhas, e elas me conhecem, assim como o Pai me conhece e eu conheço o Pai; e dou a minha vida pelas ovelhas.
-- João 10:14-15 
+INFO:root:🔹 Description: Levanto os meus olhos para os montes
+e pergunto:
+De onde me vem o socorro?
+O meu socorro vem do Senhor,
+que fez os céus e a terra.
+- Salmos 121:1-2
 
+Às vezes, o coração se cansa. Os dias parecem pesados e mais complicados do que imaginamos. Nesses instantes somos convidados a levantar o olhar, não para as dificuldades que nos cercam, mas para o alto, onde habita Aquele que tudo sustenta. O mesmo Deus que criou os montes e os mares continua cuidando de cada detalhe da sua vida.
+Muitas vezes tentamos resolver tudo sozinhos, acreditando que o controle está em nossas mãos. Buscamos respostas em pessoas, em planos e em soluções rápidas, mas o verdadeiro descanso não nasce do esforço humano. Ele brota da confiança em Deus. Quando voltamos os olhos para o Senhor, encontramos uma paz que o mundo não entende, uma serenidade que permanece mesmo quando tudo parece desabar.
+Voltar os olhos para Deus é um gesto de fé confiança n'Ele. É reconhecer que não temos todas as respostas, mas que Ele é suficiente. É deixar que o amor d’Ele cure as feridas, renove as forças e dê sentido ao que parecia perdido.
+Tire um momento para se aquietar diante Dele. Fale com sinceridade, sem pressa e sem máscaras. Deus te ouve, te entende e te acolhe com amor eterno.
+Que o seu olhar permaneça firme no Senhor. Porque quando os olhos se voltam para Deus, o coração descansa, a esperança floresce e a alma encontra direção. 
 
-As minhas ovelhas ouvem a minha voz; eu as conheço, e elas me seguem. Eu lhes dou a vida eterna, e elas jamais perecerão; ninguém as poderá arrancar da minha mão.
-- João 10:27-28 
+Como é feliz o homem
+que põe no Senhor a sua confiança,
+- Salmo 40:4a
 
-A parábola do Bom Pastor, em João 10, explica como Jesus, o Bom Pastor, cuida de suas ovelhas com amor. Seu cuidado é pessoal. Ele conhece cada uma de suas ovelhas, e suas ovelhas confiam nele. Elas reconhecem sua voz e o seguem com confiança, porque sabem que ele as ama e que tudo o que faz é para o bem delas, para protegê-las.
-Em meio às lutas da vida, devemos permanecer firmes em nossa fé, confiando em Jesus, nosso Bom Pastor, pois Ele cuida de nós com amor. Mesmo que às vezes não entendamos os caminhos que ele nos conduz, podemos descansar em sua fidelidade. Ele nunca abandona suas ovelhas, mesmo quando elas passam por vales escuros ou tempos de incerteza. Sua presença conforta, sua voz guia, e sua vara e cajado inspiram encorajamento para que possamos seguir em frente com esperança.
-Lembrar que temos um Bom Pastor nos enche de paz. Não caminhamos sozinhos nem enfrentamos provações sem direção. Jesus conhece cada necessidade, cada lágrima e cada anseio de nossos corações. Ele nos conduz a lugares de descanso, renova nossas forças e nos ensina a confiar plenamente em sua orientação. Em seu amor, encontramos segurança, propósito e a promessa de vida eterna com Ele. 
-
-Obrigado, Jesus, meu bom pastor, pelo teu imenso amor e cuidado constante pela minha vida. Obrigado porque me guias com ternura e me sustentas quando as minhas forças falham. Ensina-me a ouvir a tua voz e a seguir-te com obediência, mesmo quando não entendo o caminho. Confio na tua fidelidade, na tua proteção e na tua perfeita vontade. Que o meu coração permaneça sempre perto de ti e que a minha vida seja um reflexo do teu amor. Amém. 
-
-Veja também: Parábola do bom pastor (com explicação).
+Veja também: Versículos de como Deus se preocupa com você
  
-"Eu sou o bom pastor; conheço as minhas ovelhas, e elas me conhecem, assim como o Pai me conhece e eu conheço o Pai; e dou a minha vida pelas ovelhas.
-- João 10:14-15 
+Levanto os meus olhos para os montes
+e pergunto:
+De onde me vem o socorro?
+O meu socorro vem do Senhor,
+que fez os céus e a terra.
+- Salmos 121:1-2
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 341601 characters
-INFO:root:HTML parsed, length: 331072 characters
-INFO:root:Found 3 titles: ['Andando em lugares altos', 'O choro pode durar uma noite...', 'Vigiar e Orar: Lições do Getsêmani']
-INFO:root:Found 1 URLs: ['/crescimento_espiritual/']
-INFO:root:Found 3 descriptions: ['“O Senhor, o Soberano, é a minha força;\nele faz os', 'Bem-aventurados os que choram, pois serão consolad', 'Vigiem e orem para que não caiam em tentação. O es']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n18\nSÁBADO', 'OUTUBRO\n\n17\nSEXTA', 'OUTUBRO\n\n16\nQUINTA']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Andando em lugares altos', ID=c7b7be42b3dc8b7f3dce26d04663e63e
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 341371 characters
+INFO:root:HTML parsed, length: 330848 characters
+INFO:root:Found 3 titles: ['Deus já nos preparou o melhor', 'Andando em lugares altos', 'O choro pode durar uma noite...']
+INFO:root:Found 2 URLs: ['/planos/', '/crescimento_espiritual/']
+INFO:root:Found 3 descriptions: ['Porque sou eu que conheço os planos que tenho para', '“O Senhor, o Soberano, é a minha força;\nele faz os', 'Bem-aventurados os que choram, pois serão consolad']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n19\nDOMINGO', 'OUTUBRO\n\n18\nSÁBADO', 'OUTUBRO\n\n17\nSEXTA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Deus já nos preparou o melhor', ID=f7f164491cf8ef1185b811a900b75321
+INFO:root:Processing entry 2: Title='Andando em lugares altos', ID=c7b7be42b3dc8b7f3dce26d04663e63e
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Deus já nos preparou o melhor
+INFO:root:🔹 URL: https://www.bibliaon.com/planos/
+INFO:root:🔹 Description: Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
+- Jeremias 29:11
+
+Às vezes, enfrentamos desafios que nos fazem duvidar das promessas de Deus para as nossas vidas. Mas é importante lembrar que, por mais difícil que seja o momento, Deus já preparou o melhor para cada um de nós. Ele tem um plano perfeito, com um futuro de esperança, prosperidade e alegria. Não importa o que estamos vivendo hoje, o Senhor já traçou o caminho para nos levar a lugares altos.
+Quando nos entregamos totalmente a Deus, confiamos em Sua sabedoria e nos alinhamos com Seus propósitos. Mesmo quando a jornada parece longa ou os obstáculos parecem grandes, podemos descansar no fato de que Ele está no controle. O melhor de Deus nunca vem sem esforço, mas sempre vem com a certeza de que Ele está conosco em cada passo.
+Lembre-se de que, por mais que o hoje seja desafiador, o futuro com Cristo é repleto de vitórias. Confie, espere e creia, porque Deus já preparou o melhor para sua vida.
+
+Pois o Senhor é bom
+e o seu amor leal é eterno;
+a sua fidelidade permanece
+por todas as gerações.
+- Salmo 100:5
+
+3 Passos para viver o melhor de Deus
+
+
+Confie nas promessas de Deus: Lembre-se de que Deus já preparou o melhor para sua vida, independente das circunstâncias atuais.
+
+Entregue-se ao Senhor: Confie em Seus planos, mesmo sem entender tudo. A entrega a Deus abre portas para o Seu propósito.
+
+Tenha paciência: A caminhada com Deus exige fé e paciência, sabendo que Ele está moldando o seu futuro para o bem.
+
+Para orar:
+
+Senhor, obrigado por Teus planos perfeitos para minha vida. Ajuda-me a confiar em Tuas promessas, a me entregar totalmente a Ti e a perseverar com fé, sabendo que o melhor está por vir. Que Teu amor me guie e me fortaleça a cada dia. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre os planos de Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Andando em lugares altos
 INFO:root:🔹 URL: https://www.bibliaon.com/crescimento_espiritual/
 INFO:root:🔹 Description: “O Senhor, o Soberano, é a minha força;
@@ -263,15 +302,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  34 ++---
- feeds/devocional_de_hoje/feed.json        |   8 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  26 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  30 +++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  34 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 ++--
- feeds/salmo_do_dia/atom.xml               |  28 ++--
+ feeds/palavra_do_dia/atom.xml             |  18 ++-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  50 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 216 ++++++++++++++++--------------
- 11 files changed, 204 insertions(+), 172 deletions(-)
+ output.log                                | 251 +++++++++++++++++-------------
+ 11 files changed, 255 insertions(+), 188 deletions(-)
