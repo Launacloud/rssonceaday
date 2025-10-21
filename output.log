@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120090 characters
-INFO:root:HTML parsed, length: 112993 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (20/10/2025)', 'Palavra de Ontem (19/10/2025)', 'Palavra de Anteontem (18/10/2025)']
-INFO:root:Found 3 URLs: ['/baldio/', '/extrovertido/', '/estoria/']
-INFO:root:Found 14 descriptions: ['adjetivo Característica do terreno não cultivado: ', 'Sinônimos:\n\noculto, inútil, fracassado, frustrâneo', 'Classe gramatical:adjetivo e substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (20/10/2025)', 'Palavra de Ontem (19/10/2025)', 'Palavra de Anteontem (18/10/2025)']
+INFO:root:Response length: 120733 characters
+INFO:root:HTML parsed, length: 113453 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (21/10/2025)', 'Palavra de Ontem (20/10/2025)', 'Palavra de Anteontem (19/10/2025)']
+INFO:root:Found 3 URLs: ['/conspicuo/', '/baldio/', '/extrovertido/']
+INFO:root:Found 15 descriptions: ['adjetivo Visto com facilidade; facilmente percebid', 'Sinônimos:\n\naustero, distinto, grave, ilustre, not', 'Antônimos:\n\napagado, discreto, inconspícuo']
+INFO:root:Found 3 dates: ['Palavra de Hoje (21/10/2025)', 'Palavra de Ontem (20/10/2025)', 'Palavra de Anteontem (19/10/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (20/10/2025)', ID=7b16691bc33b6adae4b273ce4778f5d3
-INFO:root:Processing entry 2: Title='Palavra de Ontem (19/10/2025)', ID=5031afdb795396f6b9a6f4b41a5500f2
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (18/10/2025)', ID=2b800c75d7f93b809a81603b54367da5
+INFO:root:Processing entry 1: Title='Palavra de Hoje (21/10/2025)', ID=de61e608fb5811281030be7c5b4c4045
+INFO:root:Processing entry 2: Title='Palavra de Ontem (20/10/2025)', ID=2c65048347cf76381d3f3e48b4b7778a
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (19/10/2025)', ID=482857af69626f1b90994b9d8af03602
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (20/10/2025) - Significado completo de baldio:
-INFO:root:🔹 URL: https://www.dicio.com.br/baldio/
-INFO:root:🔹 Description: adjetivo Característica do terreno não cultivado: o bairro passou a jogar lixo em um terreno baldio.Qualidade do terreno sem construções ou do qual não se conhece o proprietário: construiu sua casa em um terreno baldio.Característica do que não tem valor nem utilidade; inútil, vão.substantivo masculino Terreno abandonado.Etimologia (origem da palavra baldio). A palavra baldio deriva do árabe "bátil", que significa "inútil, vão".
+INFO:root:🔹 Title: Palavra de Hoje (21/10/2025) - Significado completo de conspícuo:
+INFO:root:🔹 URL: https://www.dicio.com.br/conspicuo/
+INFO:root:🔹 Description: adjetivo Visto com facilidade; facilmente percebido; visível.[Por Extensão] Que chama atenção por não ser comum; notável, ilustre.[Por Extensão] De aspecto sério, circunspecto; grave.[Por Extensão] Usado para definir uma espécie, região, grupo; típico, próprio.[Figurado] Que se destaca pelo excesso de conhecimento, de boas qualidades.[Por Extensão] Que analisa cuidadosa e prudentemente tudo o que lhe é apresentado.Etimologia (origem da palavra conspícuo). Do latim conspicuus.a.um, "visível".
  
 Sinônimos:
 
-oculto, inútil, fracassado, frustrâneo, vão 
+austero, distinto, grave, ilustre, notável, sério, visível, circunspecto, típico, característico 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (19/10/2025) - Significado completo de extrovertido:
-INFO:root:🔹 URL: https://www.dicio.com.br/extrovertido/
+INFO:root:🔹 Title: Palavra de Ontem (20/10/2025) - Significado completo de baldio:
+INFO:root:🔹 URL: https://www.dicio.com.br/baldio/
 INFO:root:🔹 Description: Sinônimos:
 
-oculto, inútil, fracassado, frustrâneo, vão
- Classe gramatical:adjetivo e substantivo masculino
+austero, distinto, grave, ilustre, notável, sério, visível, circunspecto, típico, característico
+ 
+Antônimos:
+
+apagado, discreto, inconspícuo 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (18/10/2025) - Significado completo de estória:
-INFO:root:🔹 URL: https://www.dicio.com.br/estoria/
-INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
- Sílabas:bal-di-o
+INFO:root:🔹 Title: Palavra de Anteontem (19/10/2025) - Significado completo de extrovertido:
+INFO:root:🔹 URL: https://www.dicio.com.br/extrovertido/
+INFO:root:🔹 Description: Antônimos:
+
+apagado, discreto, inconspícuo
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +48,124 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 326356 characters
-INFO:root:HTML parsed, length: 315819 characters
-INFO:root:Found 1 titles: ['Filipenses 4:19']
-INFO:root:Found 1 URLs: ['/versiculo/filipenses_4_19/']
-INFO:root:Found 1 descriptions: ['O meu Deus suprirá todas as necessidades de vocês,']
+INFO:root:Response length: 326271 characters
+INFO:root:HTML parsed, length: 315734 characters
+INFO:root:Found 1 titles: ['Salmos 23:1']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_23_1/']
+INFO:root:Found 1 descriptions: ['O Senhor é o meu pastor; de nada terei falta. Salm']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Filipenses 4:19', ID=d624591bb868e583027c02b9e5ace4d0
+INFO:root:Processing entry 1: Title='Salmos 23:1', ID=4a76a64d2d196599a0f7dba343ea5731
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Filipenses 4:19
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_4_19/
-INFO:root:🔹 Description: O meu Deus suprirá todas as necessidades de vocês, de acordo com as suas gloriosas riquezas em Cristo Jesus. Filipenses 4:19
+INFO:root:🔹 Title: Salmos 23:1
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_23_1/
+INFO:root:🔹 Description: O Senhor é o meu pastor; de nada terei falta. Salmos 23:1
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325345 characters
-INFO:root:HTML parsed, length: 315607 characters
-INFO:root:Found 3 titles: ['Salmo 59', 'Salmo 125', 'Salmo 87']
-INFO:root:Found 3 URLs: ['/salmos_59/', '/salmos_125/', '/salmos_87/']
-INFO:root:Found 3 descriptions: ['Livra-me dos meus inimigos, ó Deus;\npõe-me fora do', 'Os que confiam no Senhor\nsão como o monte Sião,\nqu', 'O Senhor edificou sua cidade sobre o monte santo; ']
-INFO:root:Found 3 dates: ['20 de Outubro de 2025', '19 de Outubro de 2025', '18 de Outubro de 2025']
+INFO:root:Response length: 327678 characters
+INFO:root:HTML parsed, length: 317979 characters
+INFO:root:Found 3 titles: ['Salmo 109', 'Salmo 59', 'Salmo 125']
+INFO:root:Found 3 URLs: ['/salmos_109/', '/salmos_59/', '/salmos_125/']
+INFO:root:Found 3 descriptions: ['Ó Deus, a quem louvo, não fiques indiferente, \npoi', 'Livra-me dos meus inimigos, ó Deus;\npõe-me fora do', 'Os que confiam no Senhor\nsão como o monte Sião,\nqu']
+INFO:root:Found 3 dates: ['21 de Outubro de 2025', '20 de Outubro de 2025', '19 de Outubro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 59', ID=aac784327ec5034951e7ef111d110a62
-INFO:root:Processing entry 2: Title=' Salmo 125', ID=4453eb37e34143ba230b77d444355962
-INFO:root:Processing entry 3: Title=' Salmo 87', ID=bed2fe69ca2fb77136c0a1a6108f450f
+INFO:root:Processing entry 1: Title=' Salmo 109', ID=2616b0fb60e3746a13e993db90dcc2a5
+INFO:root:Processing entry 2: Title=' Salmo 59', ID=aac784327ec5034951e7ef111d110a62
+INFO:root:Processing entry 3: Title=' Salmo 125', ID=4453eb37e34143ba230b77d444355962
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 109
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_109/
+INFO:root:🔹 Description: Ó Deus, a quem louvo, não fiques indiferente, 
+pois homens ímpios e falsos
+dizem calúnias contra mim,
+e falam mentiras a meu respeito. 
+Eles me cercaram com palavras
+carregadas de ódio;
+atacaram-me sem motivo. 
+Em troca da minha amizade eles me acusam,
+mas eu permaneço em oração. 
+Retribuem-me o bem com o mal,
+e a minha amizade com ódio. 
+Designe-se um ímpio para ser seu oponente;
+à sua direita esteja um acusador. 
+Seja declarado culpado no julgamento,
+e que até a sua oração seja considerada pecado. 
+Seja a sua vida curta,
+e outro ocupe o seu lugar. 
+Fiquem órfãos os seus filhos
+e viúva a sua esposa. 
+Vivam os seus filhos vagando como mendigos,
+e saiam rebuscando o pão
+longe de suas casas em ruínas. 
+Que um credor se aposse
+de todos os seus bens,
+e estranhos saqueiem o fruto do seu trabalho. 
+Que ninguém o trate com bondade
+nem tenha misericórdia dos seus filhos órfãos. 
+Sejam exterminados os seus descendentes
+e desapareçam os seus nomes
+na geração seguinte. 
+Que o Senhor se lembre
+da iniquidade dos seus antepassados,
+e não se apague o pecado de sua mãe. 
+Estejam os seus pecados sempre
+perante o Senhor,
+e na terra ninguém jamais se lembre
+da sua família. 
+Pois ele jamais pensou em praticar
+um ato de bondade,
+mas perseguiu até à morte o pobre,
+o necessitado e o de coração partido. 
+Ele gostava de amaldiçoar:
+venha sobre ele a maldição!
+Não tinha prazer em abençoar:
+afaste-se dele a bênção! 
+Ele vestia a maldição como uma roupa:
+entre ela em seu corpo como água
+e em seus ossos como óleo. 
+Envolva-o como um manto
+e aperte-o sempre como um cinto. 
+Assim retribua o Senhor
+aos meus acusadores,
+aos que me caluniam. 
+Mas tu, Soberano Senhor,
+intervém em meu favor, por causa do teu nome.
+Livra-me, pois é sublime o teu amor leal! 
+Sou pobre e necessitado
+e, no íntimo, o meu coração está abatido. 
+Vou definhando como a sombra vespertina;
+para longe sou lançado, como um gafanhoto. 
+De tanto jejuar os meus joelhos fraquejam
+e o meu corpo definha de magreza. 
+Sou objeto de zombaria
+para os meus acusadores;
+logo que me veem, meneiam a cabeça. 
+Socorro, Senhor, meu Deus!
+Salva-me pelo teu amor leal! 
+Que eles reconheçam que foi a tua mão,
+que foste tu, Senhor, que o fizeste. 
+Eles podem amaldiçoar,
+tu, porém, me abençoas.
+Quando atacarem, serão humilhados,
+mas o teu servo se alegrará. 
+Sejam os meus acusadores
+vestidos de desonra;
+que a vergonha os cubra como um manto. 
+Em alta voz, darei muitas graças ao Senhor;
+no meio da assembleia eu o louvarei, 
+pois ele se põe ao lado do pobre
+para salvá-lo daqueles que o condenam. 
+ Salmo 109
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 59
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_59/
 INFO:root:🔹 Description: Livra-me dos meus inimigos, ó Deus;
@@ -157,140 +247,77 @@ o Senhor infligirá o castigo dado aos malfeitores.
 Haja paz em Israel! 
  Salmo 125
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 87
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_87/
-INFO:root:🔹 Description: O Senhor edificou sua cidade sobre o monte santo; 
-ele ama as portas de Sião
-mais do que qualquer outro lugar de Jacó. 
-Coisas gloriosas são ditas de ti,
-ó cidade de Deus! 
-"Entre os que me reconhecem
-incluirei Raabe e Babilônia,
-além da Filístia, de Tiro,
-e também da Etiópia,
-como se tivessem nascido em Sião." 
-De fato, acerca de Sião se dirá:
-"Todos estes nasceram em Sião,
-e o próprio Altíssimo a estabelecerá". 
-O Senhor escreverá no registro dos povos:
-"Este nasceu ali". 
-Com danças e cânticos, dirão:
-"Em Sião estão as nossas origens!" 
- Salmo 87
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 328217 characters
-INFO:root:HTML parsed, length: 318150 characters
-INFO:root:Found 3 titles: ['Pronto para a maior aventura de todas?', 'Volte seus olhos para Deus', 'Graças, meu bom Pastor']
+INFO:root:Response length: 328102 characters
+INFO:root:HTML parsed, length: 318038 characters
+INFO:root:Found 3 titles: ['Encha-se do Senhor e seja corajoso', 'Pronto para a maior aventura de todas?', 'Volte seus olhos para Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Em nosso caminho com Jesus, teremos muitas aventur', 'Levanto os meus olhos para os montes\ne pergunto:\nD', '"Eu sou o bom pastor; conheço as minhas ovelhas, e']
-INFO:root:Found 1 dates: ['Segunda, 20 de outubro de 2025']
+INFO:root:Found 3 descriptions: ['Pois Deus não nos deu espírito de covardia, mas de', 'Em nosso caminho com Jesus, teremos muitas aventur', 'Levanto os meus olhos para os montes\ne pergunto:\nD']
+INFO:root:Found 1 dates: ['Terça, 21 de outubro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Pronto para a maior aventura de todas?', ID=64e1da2388dacf437d0d34890a324f5a
+INFO:root:Processing entry 1: Title='Encha-se do Senhor e seja corajoso', ID=1c5fb23d662d2c3f1c5baedc52e54ee5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Pronto para a maior aventura de todas? - Palavra de Hoje
+INFO:root:🔹 Title: Encha-se do Senhor e seja corajoso - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Em nosso caminho com Jesus, teremos muitas aventuras, mas teremos algo mais grandioso do que todos os outros: A vida eterna! As maravilhas que Deus preparou para nós no céu são impossíveis de imaginar.
+INFO:root:🔹 Description: Pois Deus não nos deu espírito de covardia, mas de poder, de amor e de equilíbrio.
+- 2 Timóteo 1:7
 
-Todavia, como está escrito:
-"Olho nenhum viu,
-ouvido nenhum ouviu,
-mente nenhuma imaginou
-o que Deus preparou
-para aqueles que o amam";
-- 1 Coríntios 2:9
+Às vezes, sentimos que vamos desmaiar. Os desafios que a vida nos apresenta parecem grandes demais e permitimos que nos intimidem. É nesses momentos que devemos lembrar que servimos ao Deus do impossível. Ele nos deu Seu Espírito Santo para nos fortalecer, encorajar e nos ajudar a perseverar. Com Ele, podemos ser corajosos!
+Deus é todo-poderoso e em Sua grandeza encontramos a força que nos falta. Nada escapa ao Seu controle: nem o medo, nem a incerteza, nem os problemas mais difíceis podem ofuscar Seu poder. Quando fixamos nossos olhos nele, o medo se dissipa, porque Seu amor perfeito lança fora todo o medo.
+O Senhor luta todas as batalhas por nós, e Sua vitória se torna nossa também. Não estamos sozinhos nem desamparados! O mesmo Deus que abriu o mar e parou o sol há milhares de anos é quem sustenta nossas vidas com fidelidade inabalável.
+Confiemos sempre no poder e nas promessas do Senhor. Ele não muda, não se retrata e nunca nos abandona. Dia após dia, com o seu Espírito Santo, Ele nos renova por dentro. Essa plenitude nos permite enfrentar as adversidades com serenidade, seguir em frente com fé, mesmo quando o caminho parece incerto. Em Cristo, podemos permanecer firmes quando os outros desistem.
 
-A Bíblia diz que o que conhecemos agora é apenas uma sombra do que está por vir (1 Coríntios 13:12). A eternidade com Jesus será uma aventura maravilhosa!
+Por isso não tema, pois estou com você;
+não tenha medo, pois sou o seu Deus.
+Eu o fortalecerei e o ajudarei;
+eu o segurarei
+com a minha mão direita vitoriosa.
+- Isaías 41:10
 
-Esta é a vida eterna: que te conheçam, o único Deus verdadeiro, e a Jesus Cristo, a quem enviaste.
-- João 17:13
-
-
-E este é o testemunho: Deus nos deu a vida eterna, e essa vida está em seu Filho.
-- 1 João 5:11
-
-É graças a Jesus, e através dele, que recebemos a vida eterna. Você abriu seu coração para receber Seu amor e perdão dos seus pecados? Se ainda não o fez, não espere mais para começar essa preciosa aventura de mãos dadas com Jesus.
-Se você já recebeu Jesus como seu Senhor e Salvador, reserve um minuto para agradecer-Lhe por todas as bênçãos que Ele lhe concedeu e pela vida eterna que você desfrutará com Ele. Apegue-se firmemente ao Senhor e confie em Seu amor por você e em Seu propósito para sua vida. Viva cada dia firme no Senhor! Com Cristo, cada dia é uma nova aventura.
-Você já está preparado para esta aventura com Jesus?
-Descubra aqui como você pode ter a vida eterna.
+Levante-se com coragem! Não deixe que o medo determine seus passos, mas sim a fé naquele que o chamou. Encha-se do Senhor todas as manhãs, busque a Sua face e confie em Seu poder. Ele o equipa para vencer, o cobre com Seu amor e o guia com Sua mão firme. Seja corajoso, porque o Deus que habita em você é maior do que qualquer obstáculo que você enfrente.
+Veja também: Versículos sobre ser corajoso
  
-Todavia, como está escrito:
-"Olho nenhum viu,
-ouvido nenhum ouviu,
-mente nenhuma imaginou
-o que Deus preparou
-para aqueles que o amam";
-- 1 Coríntios 2:9
+Pois Deus não nos deu espírito de covardia, mas de poder, de amor e de equilíbrio.
+- 2 Timóteo 1:7
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 340716 characters
-INFO:root:HTML parsed, length: 330200 characters
-INFO:root:Found 3 titles: ['Dê honra e seja honrado por Deus', 'Deus já nos preparou o melhor', 'Andando em lugares altos']
-INFO:root:Found 2 URLs: ['/planos/', '/crescimento_espiritual/']
-INFO:root:Found 3 descriptions: ['Dediquem-se uns aos outros com amor fraternal. Pre', 'Porque sou eu que conheço os planos que tenho para', '“O Senhor, o Soberano, é a minha força;\nele faz os']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n20\nSEGUNDA', 'OUTUBRO\n\n19\nDOMINGO', 'OUTUBRO\n\n18\nSÁBADO']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Dê honra e seja honrado por Deus', ID=dd976659a19e7b1729151c4d4a5f4b92
-INFO:root:Processing entry 2: Title='Deus já nos preparou o melhor', ID=f7f164491cf8ef1185b811a900b75321
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 339379 characters
+INFO:root:HTML parsed, length: 328861 characters
+INFO:root:Found 3 titles: ['Cuide disto e Deus cuidará do resto', 'Dê honra e seja honrado por Deus', 'Deus já nos preparou o melhor']
+INFO:root:Found 1 URLs: ['/planos/']
+INFO:root:Found 3 descriptions: ['Busquem, pois, em primeiro lugar o Reino de Deus e', 'Dediquem-se uns aos outros com amor fraternal. Pre', 'Porque sou eu que conheço os planos que tenho para']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n21\nTERÇA', 'OUTUBRO\n\n20\nSEGUNDA', 'OUTUBRO\n\n19\nDOMINGO']
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='Cuide disto e Deus cuidará do resto', ID=5087222dd669eba91a6e71f92db5a406
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Dê honra e seja honrado por Deus
+INFO:root:🔹 Title: Cuide disto e Deus cuidará do resto
 INFO:root:🔹 URL: https://www.bibliaon.com/planos/
-INFO:root:🔹 Description: Dediquem-se uns aos outros com amor fraternal. Prefiram dar honra aos outros mais do que a vocês.
-Romanos 12:10 
+INFO:root:🔹 Description: Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.
+- Mateus 6:33
 
-Este princípio bíblico é poderoso: amar o próximo. Mais do que palavras, amar o próximo exige atitude. Servir os outros requer humildade e entendimento da Palavra. Jesus - que é Rei - veio ao mundo e serviu a todos. Quem somos nós para reivindicarmos honra? 
-Quando nos preocupamos em receber apenas honra, contaminamos o nosso servir. Ajude o próximo de bom grado, não aguarde por retribuição e seja surpreendido por Deus. Quando servimos aos nossos irmãos, obedecemos aos nossos pais, ou até mesmo executamos uma tarefa no trabalho, faça-os como se estivesse fazendo para Deus. Só Deus pode retribuir honra com justiça e graça. 
-Quando tomamos esta posição, abrimos as portas para o agir de Deus na nossa vida. Amamos e recebemos amor do alto. Esse amor verdadeiro, nos motiva a amar e servir mais e mais. Mesmo quando não reconhecidos - ou até humilhados - Deus nos exaltará no momento devido. Creia, toda glória e honra vêm dele e é para Ele! 
-Exercitando a honra 
+Existem muitas coisas que podem nos deixar ansiosos: a falta de emprego, a preocupação com comida e roupa, o medo do futuro Como podemos garantir nossa segurança? Mas Jesus disse que não precisamos ter medo. Deus sabe do que precisamos e ele cuida de nós.
+Nossa grande prioridade deve ser o Reino de Deus. Nada é mais importante que ver o evangelho crescer e viver para dar glória a Deus. Quando nos dedicamos ao Reino de Deus, podemos viver livres da preocupação com o futuro, porque Deus garante nossa segurança por toda a eternidade.
+Para buscar o Reino de Deus:
 
-Não seja movido apenas por interesses pessoais. Sem querer, poderemos afastar as pessoas que amamos devido aos nossos objetivos. 
-Coloque Deus e o Seu Reino como objetivo primordial. Desta forma, todos estarão incluídos nos seus planos. 
-Veja o exemplo de Jesus. Veja nos Evangelhos a forma como Ele serviu e como amou a todos. 
-
-Para Orar: 
-
-Senhor, obrigado pelo o Seu cuidado sobre a minha vida. Quero honrar o Seu nome e servir ao próximo com alegria e verdade. Cria em mim um coração disposto a ajudar, em nome de Jesus, amém!
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Deus já nos preparou o melhor
-INFO:root:🔹 URL: https://www.bibliaon.com/crescimento_espiritual/
-INFO:root:🔹 Description: Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
-- Jeremias 29:11
-
-Às vezes, enfrentamos desafios que nos fazem duvidar das promessas de Deus para as nossas vidas. Mas é importante lembrar que, por mais difícil que seja o momento, Deus já preparou o melhor para cada um de nós. Ele tem um plano perfeito, com um futuro de esperança, prosperidade e alegria. Não importa o que estamos vivendo hoje, o Senhor já traçou o caminho para nos levar a lugares altos.
-Quando nos entregamos totalmente a Deus, confiamos em Sua sabedoria e nos alinhamos com Seus propósitos. Mesmo quando a jornada parece longa ou os obstáculos parecem grandes, podemos descansar no fato de que Ele está no controle. O melhor de Deus nunca vem sem esforço, mas sempre vem com a certeza de que Ele está conosco em cada passo.
-Lembre-se de que, por mais que o hoje seja desafiador, o futuro com Cristo é repleto de vitórias. Confie, espere e creia, porque Deus já preparou o melhor para sua vida.
-
-Pois o Senhor é bom
-e o seu amor leal é eterno;
-a sua fidelidade permanece
-por todas as gerações.
-- Salmo 100:5
-
-3 Passos para viver o melhor de Deus
-
-
-Confie nas promessas de Deus: Lembre-se de que Deus já preparou o melhor para sua vida, independente das circunstâncias atuais.
-
-Entregue-se ao Senhor: Confie em Seus planos, mesmo sem entender tudo. A entrega a Deus abre portas para o Seu propósito.
-
-Tenha paciência: A caminhada com Deus exige fé e paciência, sabendo que Ele está moldando o seu futuro para o bem.
+Quando você sente medo do futuro, ore a Deus por ajuda
+Lembre-se que Deus está no controle de todas as coisas
+Leia a Bíblia e aprenda a viver de maneira agradável a Deus
+Envolva-se em uma igreja, participando ativamente
 
 Para orar:
 
-Senhor, obrigado por Teus planos perfeitos para minha vida. Ajuda-me a confiar em Tuas promessas, a me entregar totalmente a Ti e a perseverar com fé, sabendo que o melhor está por vir. Que Teu amor me guie e me fortaleça a cada dia. Em nome de Jesus, amém.
-
-Veja também: Versículos sobre os planos de Deus
+Senhor, sei que você está no controle de minha vida. Por favor ajude-me a confiar em você e a vencer o medo do futuro. Mostre-me como posso viver para você. Quero buscar teu Reino e tua justiça e dar glória a você em tudo que faço. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -321,15 +348,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 +----
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  48 +++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  43 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  86 ++++++---
+ feeds/salmo_do_dia/atom.xml               | 103 +++++++--
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 309 +++++++++++++++---------------
- 11 files changed, 297 insertions(+), 271 deletions(-)
+ output.log                                | 333 ++++++++++++++++--------------
+ 11 files changed, 324 insertions(+), 283 deletions(-)
