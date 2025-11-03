@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124654 characters
-INFO:root:HTML parsed, length: 117125 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (02/11/2025)', 'Palavra de Ontem (01/11/2025)', 'Palavra de Anteontem (31/10/2025)']
-INFO:root:Found 3 URLs: ['/saudade/', '/nivel/', '/misterio/']
-INFO:root:Found 16 descriptions: ['substantivo feminino Sentimento de nostalgia causa', 'Sinônimos:\n\nsolidão, desamparo, retiro, tijuca, as', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (02/11/2025)', 'Palavra de Ontem (01/11/2025)', 'Palavra de Anteontem (31/10/2025)']
+INFO:root:Response length: 123661 characters
+INFO:root:HTML parsed, length: 116337 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (03/11/2025)', 'Palavra de Ontem (02/11/2025)', 'Palavra de Anteontem (01/11/2025)']
+INFO:root:Found 3 URLs: ['/escolha/', '/saudade/', '/nivel/']
+INFO:root:Found 15 descriptions: ['substantivo feminino Ato ou efeito de escolher, de', 'Sinônimos:\n\nalternativa, opção, seleção, preferênc', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (03/11/2025)', 'Palavra de Ontem (02/11/2025)', 'Palavra de Anteontem (01/11/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (02/11/2025)', ID=688cfb540f88377597d5e83724d55296
-INFO:root:Processing entry 2: Title='Palavra de Ontem (01/11/2025)', ID=de7133d73af401a1e9347e9391d9df13
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (31/10/2025)', ID=8116935d44c3f0d23cbffa37f23850ee
+INFO:root:Processing entry 1: Title='Palavra de Hoje (03/11/2025)', ID=ce25e5b305c9e8fa6133e5539a6be796
+INFO:root:Processing entry 2: Title='Palavra de Ontem (02/11/2025)', ID=451b9606fd1f27ac42492de79cccfecd
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (01/11/2025)', ID=7f3b095fe2133c72207b0da03630fd7c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (02/11/2025) - Significado completo de saudade:
-INFO:root:🔹 URL: https://www.dicio.com.br/saudade/
-INFO:root:🔹 Description: substantivo feminino Sentimento de nostalgia causado pela ausência de algo, de alguém, de um lugar ou pela vontade de reviver experiências, situações ou momentos já passados.[Música] Tipo de canção executada por marinheiros.[Botânica] Aspecto comum de muitas plantas, geralmente, pertencentes à família das compostas; suspiro, suspiros.[Botânica] Tipo de erva ornamental que pode chegar aos 60 centímetros; flor-de-viúva, viúvas.[Regionalismo: Rio de Janeiro] Tipo de ave cujo macho é negro, enquanto a fêmea é verde e tem o abdômen amarelado; tijuca, assobiador.substantivo feminino plural Saudades. Expressão utilizada para designar que se sente a falta de alguém: diga que mandei saudades.Etimologia (origem da palavra saudade). A palavra saudade deriva do latim "solitas,atis", que pode significar solidão, desamparo, recolhimento.
+INFO:root:🔹 Title: Palavra de Hoje (03/11/2025) - Significado completo de escolha:
+INFO:root:🔹 URL: https://www.dicio.com.br/escolha/
+INFO:root:🔹 Description: substantivo feminino Ato ou efeito de escolher, de selecionar entre uma coisa e outra; seleção, preferência, opção: a vida é feita de escolhas.Predileção que se demonstra em relação a algo ou alguém; preferência.Opção entre duas ou mais coisas, situações, circunstâncias, caminhos.Ação de eleger alguém para um cargo; eleição.[Agricultura] Café de qualidade inferior, refugo de produtos agrícolas.[Agricultura] Parte inaproveitável de produtos agrícolas; resto, sobra.Etimologia (origem da palavra escolha). Forma regressiva de escolher.
  
 Sinônimos:
 
-solidão, desamparo, retiro, tijuca, assobiador, suspiro 
+alternativa, opção, seleção, preferência, resto, sobra, predileção 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (01/11/2025) - Significado completo de nível:
-INFO:root:🔹 URL: https://www.dicio.com.br/nivel/
+INFO:root:🔹 Title: Palavra de Ontem (02/11/2025) - Significado completo de saudade:
+INFO:root:🔹 URL: https://www.dicio.com.br/saudade/
 INFO:root:🔹 Description: Sinônimos:
 
-solidão, desamparo, retiro, tijuca, assobiador, suspiro
+alternativa, opção, seleção, preferência, resto, sobra, predileção
  Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (31/10/2025) - Significado completo de mistério:
-INFO:root:🔹 URL: https://www.dicio.com.br/misterio/
+INFO:root:🔹 Title: Palavra de Anteontem (01/11/2025) - Significado completo de nível:
+INFO:root:🔹 URL: https://www.dicio.com.br/nivel/
 INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:sau-da-de
+ Sílabas:es-co-lha
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,97 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 323570 characters
-INFO:root:HTML parsed, length: 313144 characters
-INFO:root:Found 1 titles: ['2 Tessalonicenses 3:16']
-INFO:root:Found 1 URLs: ['/versiculo/2_tessalonicenses_3_16/']
-INFO:root:Found 1 descriptions: ['O próprio Senhor da paz dê a vocês a paz em todo o']
+INFO:root:Response length: 323665 characters
+INFO:root:HTML parsed, length: 313239 characters
+INFO:root:Found 1 titles: ['Mateus 17:20']
+INFO:root:Found 1 URLs: ['/versiculo/mateus_17_20/']
+INFO:root:Found 1 descriptions: ['Ele respondeu: "Porque a fé que vocês têm é pequen']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Tessalonicenses 3:16', ID=28d4239471e4ab0f775472226c99d6b0
+INFO:root:Processing entry 1: Title='Mateus 17:20', ID=fef82a60b7f502f54b2b585ddce9de32
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Tessalonicenses 3:16
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_tessalonicenses_3_16/
-INFO:root:🔹 Description: O próprio Senhor da paz dê a vocês a paz em todo o tempo e de todas as formas. O Senhor seja com todos vocês. 2 Tessalonicenses 3:16
+INFO:root:🔹 Title: Mateus 17:20
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_17_20/
+INFO:root:🔹 Description: Ele respondeu: "Porque a fé que vocês têm é pequena. Eu asseguro que, se vocês tiverem fé do tamanho de um grão de mostarda, poderão dizer a este monte: 'Vá daqui para lá', e ele irá. Nada será impossível para vocês. Mateus 17:20
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 322665 characters
-INFO:root:HTML parsed, length: 313037 characters
-INFO:root:Found 3 titles: ['Salmo 70', 'Salmo 50', 'Salmo 121']
-INFO:root:Found 3 URLs: ['/salmos_70/', '/salmos_50/', '/salmos_121/']
-INFO:root:Found 3 descriptions: ['Livra-me, ó Deus!\nApressa-te, Senhor, a ajudar-me!', 'Fala o Senhor, o Deus supremo;\nconvoca toda a terr', 'Levanto os meus olhos para os montes\ne pergunto:\nD']
-INFO:root:Found 3 dates: ['2 de Novembro de 2025', '1 de Novembro de 2025', '31 de Outubro de 2025']
+INFO:root:Response length: 324121 characters
+INFO:root:HTML parsed, length: 314515 characters
+INFO:root:Found 3 titles: ['Salmo 72', 'Salmo 70', 'Salmo 50']
+INFO:root:Found 3 URLs: ['/salmos_72/', '/salmos_70/', '/salmos_50/']
+INFO:root:Found 3 descriptions: ['Reveste da tua justiça o rei, ó Deus,\ne da tua ret', 'Livra-me, ó Deus!\nApressa-te, Senhor, a ajudar-me!', 'Fala o Senhor, o Deus supremo;\nconvoca toda a terr']
+INFO:root:Found 3 dates: ['3 de Novembro de 2025', '2 de Novembro de 2025', '1 de Novembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 70', ID=0243729b41be61da1625e2b52b3c2b05
-INFO:root:Processing entry 2: Title=' Salmo 50', ID=23aa53d6f0bc71b760f04eddded6ad1a
-INFO:root:Processing entry 3: Title=' Salmo 121', ID=98f635e6d01f1c89090e151efae7c021
+INFO:root:Processing entry 1: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
+INFO:root:Processing entry 2: Title=' Salmo 70', ID=0243729b41be61da1625e2b52b3c2b05
+INFO:root:Processing entry 3: Title=' Salmo 50', ID=23aa53d6f0bc71b760f04eddded6ad1a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 72
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_72/
+INFO:root:🔹 Description: Reveste da tua justiça o rei, ó Deus,
+e da tua retidão o filho do rei, 
+para que ele julgue com retidão
+e com justiça os teus que sofrem opressão. 
+Que os montes tragam prosperidade ao povo
+e as colinas o fruto da justiça. 
+Defenda ele os oprimidos no meio do povo
+e liberte os filhos dos pobres;
+esmague ele o opressor! 
+Que ele perdure como o sol
+e como a lua por todas as gerações. 
+Seja ele como chuva
+sobre uma lavoura ceifada,
+como aguaceiros que regam a terra. 
+Floresçam os justos nos dias do rei,
+e haja grande prosperidade enquanto durar a lua. 
+Governe ele de mar a mar
+e desde o rio Eufrates até os confins da terra. 
+Inclinem-se diante dele as tribos do deserto,
+e os seus inimigos lambam o pó. 
+Que os reis de Társis e das regiões litorâneas
+lhe tragam tributo;
+os reis de Sabá e de Sebá
+lhe ofereçam presentes. 
+Inclinem-se diante dele todos os reis,
+e sirvam-no todas as nações. 
+Pois ele liberta os pobres que pedem socorro,
+os oprimidos que não têm quem os ajude. 
+Ele se compadece dos fracos e dos pobres
+e os salva da morte. 
+Ele os resgata da opressão e da violência,
+pois aos seus olhos a vida deles é preciosa. 
+Tenha o rei vida longa!
+Receba ele o ouro de Sabá.
+Que se ore por ele continuamente,
+e todo o dia se invoquem bênçãos sobre ele. 
+Haja fartura de trigo por toda a terra,
+ondulando no alto dos montes.
+Floresçam os seus frutos como os do Líbano
+e cresçam as cidades como as plantas no campo. 
+Permaneça para sempre o seu nome
+e dure a sua fama enquanto o sol brilhar.
+Sejam abençoadas todas as nações
+por meio dele,
+e que elas o chamem bendito. 
+Bendito seja o Senhor Deus,
+o Deus de Israel,
+o único que realiza feitos maravilhosos. 
+Bendito seja
+o seu glorioso nome para sempre;
+encha-se toda a terra da sua glória.
+Amém e amém. 
+Encerram-se aqui as orações de Davi, filho de Jessé. 
+ Salmo 72
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 70
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_70/
 INFO:root:🔹 Description: Livra-me, ó Deus!
@@ -161,78 +218,83 @@ e eu mostrarei a salvação de Deus
 ao que anda nos meus caminhos". 
  Salmo 50
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 121
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_121/
-INFO:root:🔹 Description: Levanto os meus olhos para os montes
-e pergunto:
-De onde me vem o socorro? 
-O meu socorro vem do Senhor,
-que fez os céus e a terra. 
-Ele não permitirá que você tropece;
-o seu protetor se manterá alerta, 
-sim, o protetor de Israel não dormirá;
-ele está sempre alerta! 
-O Senhor é o seu protetor;
-como sombra que o protege,
-ele está à sua direita. 
-De dia o sol não o ferirá;
-nem a lua, de noite. 
-O Senhor o protegerá de todo o mal,
-protegerá a sua vida. 
-O Senhor protegerá a sua saída
-e a sua chegada,
-desde agora e para sempre. 
- Salmo 121
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 325884 characters
-INFO:root:HTML parsed, length: 315924 characters
-INFO:root:Found 3 titles: ['Os que confiam no Senhor renovam suas forças', 'Viva como Jesus ensinou: coloque em prática os valores do Reino', 'Nenhuma arma forjada contra você prevalecerá']
+INFO:root:Response length: 325663 characters
+INFO:root:HTML parsed, length: 315707 characters
+INFO:root:Found 3 titles: ['Superando a tristeza com Deus', 'Os que confiam no Senhor renovam suas forças', 'Viva como Jesus ensinou: coloque em prática os valores do Reino']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Até os jovens perdem as forças e se cansam, e os r', 'Para isso vocês foram chamados, pois também Cristo', 'nenhuma arma forjada contra você prevalecerá, e vo']
-INFO:root:Found 1 dates: ['Domingo, 2 de novembro de 2025']
+INFO:root:Found 3 descriptions: ['Pois a sua ira só dura um instante,\nmas o seu favo', 'Até os jovens perdem as forças e se cansam, e os r', 'Para isso vocês foram chamados, pois também Cristo']
+INFO:root:Found 1 dates: ['Segunda, 3 de novembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Os que confiam no Senhor renovam suas forças', ID=9ac4f8d1c108242b44bd697f8857e1a9
+INFO:root:Processing entry 1: Title='Superando a tristeza com Deus', ID=47733d9b410a5b19e798e49b06960bec
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Os que confiam no Senhor renovam suas forças - Palavra de Hoje
+INFO:root:🔹 Title: Superando a tristeza com Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Até os jovens perdem as forças e se cansam, e os rapazes tropeçam de tão exaustos.
-Mas os que confiam no Senhor renovam suas forças; voam alto, como águias. Correm e não se cansam, caminham e não desfalecem.
-- Isaías 40:30-31
+INFO:root:🔹 Description: Pois a sua ira só dura um instante,
+mas o seu favor dura a vida toda;
+o choro pode persistir uma noite,
+mas de manhã irrompe a alegria.
+- Salmos 30:5
 
-Mesmo quando o ontem foi difícil, o hoje chega como um presente, envolto na esperança de que tudo pode ser diferente. Às vezes, acordamos cansados, com o coração pesado e a mente cheia de preocupações. Mas é justamente nesses momentos que Deus nos convida a descansar n’Ele e permitir que Sua paz renove nossas forças. Cada novo dia é uma oportunidade para recomeçar.
-Antes de começar sua correria, respire fundo. Feche os olhos por um instante e agradeça por estar vivo. A gratidão é o primeiro passo para enxergar as bênçãos que, muitas vezes, passam despercebidas. Mesmo nas pequenas coisas, o canto dos pássaros, o sorriso de alguém, o simples fato de poder respirar, há motivos para agradecer.
-Deus sabe o que você enfrenta. Ele conhece cada detalhe, cada lágrima e cada suspiro. E ainda assim, Ele te diz: “Não temas, eu estou contigo.” Quando o medo ou o desânimo quiserem te parar, lembre-se de que há uma força maior cuidando de você, guiando seus passos e renovando sua esperança a cada amanhecer.
-Hoje, escolha caminhar com fé. Deixe que Deus ilumine seus pensamentos e direcione suas atitudes. Não importa o tamanho dos desafios, com Deus ao seu lado, você tem tudo o que precisa para vencer o dia.
-Comece o dia acreditando que algo bom vai acontecer. Abra o coração, confie e siga com coragem. O amanhã pertence a quem crê que o amor de Deus é novo a cada manhã, e com Ele, suas forças também se renovam.
-Veja também: Palavras de motivação na Bíblia.
+A tristeza é uma realidade que todos enfrentamos. Ela pode surgir de perdas, frustrações, decepções ou simplesmente dos momentos em que a vida parece pesar demais. Mas, para quem crê em Deus, a tristeza nunca é o ponto final. A Palavra do Senhor é uma fonte inesgotável de consolo e esperança, capaz de transformar o coração abatido em um coração fortalecido.
+Quando tudo parece escuro, é preciso lembrar que Deus continua sendo luz. Ele não muda, mesmo quando nossas emoções mudam. Em meio à dor, o salmista Davi aprendeu a buscar refúgio na presença de Deus, e é isso que também devemos fazer. A Bíblia não ignora a tristeza, mas nos ensina a enfrentá-la com fé. “Lançando sobre Ele toda a vossa ansiedade, porque Ele tem cuidado de vós” (1 Pedro 5:7). Esse cuidado é real, constante e pessoal.
+Superar a tristeza com a Palavra de Deus significa escolher ouvir a voz d’Ele acima das vozes da dor. É meditar em Suas promessas até que elas se tornem mais fortes que os sentimentos negativos. Significa abrir o coração em oração, mesmo quando as lágrimas parecem não cessar. É nesse lugar de entrega que o Espírito Santo age, trazendo paz onde havia desespero.
+A alegria que Deus promete não é apenas um sentimento passageiro; é uma força que brota da certeza de que Ele está conosco, mesmo nas noites mais escuras. Se hoje você está triste, não desanime. Há um novo amanhecer preparado por Deus. Segure-se em Sua Palavra, pois ela é viva e poderosa e, no tempo certo, a alegria voltará a brilhar em seu coração.
+Veja também: Estudo completo do Salmo 30:5
  
-Até os jovens perdem as forças e se cansam, e os rapazes tropeçam de tão exaustos.
-Mas os que confiam no Senhor renovam suas forças; voam alto, como águias. Correm e não se cansam, caminham e não desfalecem.
-- Isaías 40:30-31
+Pois a sua ira só dura um instante,
+mas o seu favor dura a vida toda;
+o choro pode persistir uma noite,
+mas de manhã irrompe a alegria.
+- Salmos 30:5
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 338234 characters
-INFO:root:HTML parsed, length: 327814 characters
-INFO:root:Found 3 titles: ['Estarei atento ao Senhor', 'Receba a paz de todas as formas!', 'Seja um embaixador do Rei']
-INFO:root:Found 2 URLs: ['/esperar_em_deus/', '/missoes_ser_missionario/']
-INFO:root:Found 3 descriptions: ['Mas, quanto a mim, ficarei atento ao Senhor, esper', 'O próprio Senhor da paz dê a vocês a paz em todo o', 'Portanto, somos embaixadores de Cristo, como se De']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n2\nDOMINGO', 'NOVEMBRO\n\n1\nSÁBADO', 'OUTUBRO\n\n31\nSEXTA']
+INFO:root:Response length: 338238 characters
+INFO:root:HTML parsed, length: 327817 characters
+INFO:root:Found 3 titles: ['Nenhuma condenação há para quem está em ti Jesus', 'Estarei atento ao Senhor', 'Receba a paz de todas as formas!']
+INFO:root:Found 2 URLs: ['/versiculos_para_louvar_a_deus/', '/esperar_em_deus/']
+INFO:root:Found 3 descriptions: ['Portanto, agora nenhuma condenação há para os que ', 'Mas, quanto a mim, ficarei atento ao Senhor, esper', 'O próprio Senhor da paz dê a vocês a paz em todo o']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n3\nSEGUNDA', 'NOVEMBRO\n\n2\nDOMINGO', 'NOVEMBRO\n\n1\nSÁBADO']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Estarei atento ao Senhor', ID=1714d91477590ad2d0a889757f9d04e0
-INFO:root:Processing entry 2: Title='Receba a paz de todas as formas!', ID=a0e7445255f906c63158fe83a1fa85ed
+INFO:root:Processing entry 1: Title='Nenhuma condenação há para quem está em ti Jesus', ID=0c2b89b3f631575eb94fc46a35b3d1a8
+INFO:root:Processing entry 2: Title='Estarei atento ao Senhor', ID=1714d91477590ad2d0a889757f9d04e0
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Nenhuma condenação há para quem está em ti Jesus
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
+INFO:root:🔹 Description: Portanto, agora nenhuma condenação há para os que estão em Cristo Jesus.
+- Romanos 8:1
+
+Existe um louvor antigo que muitos de nós cantamos com fé e emoção: “Nenhuma condenação há para quem está em Ti, Jesus”. Esse refrão simples, mas profundo, ecoa uma verdade: a obra de Cristo nos libertou do peso do pecado e da culpa. Quando cantamos essas palavras, lembramos que não precisamos viver sobrecarregados pela vergonha ou pelo erro do passado, pois Jesus já pagou o preço por nós na cruz.
+A vida cristã, muitas vezes, nos coloca diante de nossas próprias falhas e da acusação constante do inimigo. Sentimos medo, dúvida e culpa, mas o versículo de Romanos 8 nos lembra que, em Cristo, estamos livres de qualquer condenação. Não é por nossas forças ou méritos, mas pelo amor imenso de Deus que nos envolve.
+Quando confiamos plenamente em Jesus, nossas falhas não definem nosso valor; Ele nos vê como filhos e filhas amados, lavados e redimidos.
+Cantar este louvor é declarar nossa liberdade em Cristo. O versículo de Romanos 8:1 nos lembra que o julgamento de Deus não está sobre nós, mas sobre a obra completa de Cristo. Não importa o que enfrentamos ou as vezes que caímos, podemos nos levantar sabendo que Jesus nos cobre com Sua graça.
+Que este antigo cântico continue a ser um lembrete diário: não há condenação para aqueles que estão em Jesus. Ele nos chama para viver em liberdade, esperança e confiança. Ao colocar nossa fé n’Ele, nossos corações se enchem de paz, e nossa vida se torna um testemunho vivo da vitória de Cristo sobre o pecado e a morte.
+Louve a Cristo por sua liberdade
+
+
+Confesse e entregue seus pecados: Reconheça suas falhas diante de Jesus diariamente. A liberdade vem quando colocamos tudo nas mãos d’Ele, confiantes em Sua graça.
+
+Viva sem medo da condenação: Lembre-se sempre que, em Cristo, você é aceito e amado. Isso transforma suas atitudes, suas palavras e sua forma de lidar com erros.
+
+Compartilhe sua liberdade com outros: Testemunhe a obra de Cristo em sua vida. Inspirar outros a conhecerem Jesus fortalece sua fé e multiplica a alegria.
+
+Para orar:
+
+Senhor Jesus, obrigado por Tua graça que nos liberta da condenação. Ajuda-nos a viver em Tua paz, confiando em Teu amor, confessando nossos erros e refletindo Tua luz. Que nossas palavras e ações mostrem a liberdade que temos em Ti, e que possamos sempre louvar-Te por nos salvar. Amém.
+
+Veja também: 5 formas de louvar ao Senhor de todo o nosso coração
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Estarei atento ao Senhor
 INFO:root:🔹 URL: https://www.bibliaon.com/esperar_em_deus/
 INFO:root:🔹 Description: Mas, quanto a mim, ficarei atento ao Senhor, esperando em Deus, o meu Salvador, pois o meu Deus me ouvirá.
@@ -254,30 +316,6 @@ Para orar:
 Senhor meu Deus, em Ti coloco minha esperança. Mesmo quando não entendo Teus caminhos, escolho confiar. Ensina-me a esperar com fé, a manter meus olhos fixos em Ti e a crer que o Senhor me ouve. Fortalece meu coração e renova minha esperança diariamente. Que minha vida reflita Tua fidelidade e Teu amor. Em nome de Jesus, amém.
 
 Veja também: Versículos que mostram que esperar em Deus exige paciência
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Receba a paz de todas as formas!
-INFO:root:🔹 URL: https://www.bibliaon.com/missoes_ser_missionario/
-INFO:root:🔹 Description: O próprio Senhor da paz dê a vocês a paz em todo o tempo e de todas as formas. O Senhor seja com todos vocês. 
-2 Tessalonicenses 3:16
-
-No dia a dia temos uma rotina desgastante de trabalho árduo e correria. Tudo que queremos depois desses dias é um momento de paz e refrigério. Por vezes, quando voltamos para casa parece que nos cansamos ainda mais. É nesta hora que devemos pedir auxílio àquele que acalmou o mar bravio, Jesus.
-Nosso Deus é a fonte de toda a paz, na sua Palavra encontramos refrigério e direção para acalmar os nossos corações. Pacificar a nossa casa, nosso ambiente de trabalho começa por nós mesmos. Por isso a importância da Palavra de Deus, ela nos alimenta e o Espirito Santo nos molda, nos dando a oportunidade de agir diferente.
-Ao recorrer ao Rei da Paz, que você possa descansar nele. Que o Senhor possa derramar a paz na sua casa, no seu ambiente de trabalho e no seu relacionamento com as pessoas. Que Deus esteja contigo e que a sua paz seja duradoura e cubra todas as áreas da sua vida!
-Experimentando a paz de todas as formas: 
-
-
-Peça ao Espírito Santo para que molde seu comportamento, transformando-o em um instrumento de paz e não de guerra, de conciliação e não de divisão.
-
-
-Destine uma hora do seu dia para meditar e orar. A oração e a meditação na palavra de Deus nos alimenta e conforta.
-
-
-Reflita de que maneira você pode promover um ambiente pacifico e conciliador com suas atitudes. A paz contagia e quem procura a paz não entra em guerra. 
-
-
-Para Orar:
-
-Senhor Jesus, peço que a tua paz e teu espírito venham sobre mim. Que a tua unção de amor e a tua paz possam contagiar a minha vida, o ambiente do meu lar e por onde eu passar. Te agradeço, em nome de Jesus. Amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -308,15 +346,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  26 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  27 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  73 +++-----
+ feeds/salmo_do_dia/atom.xml               |  78 ++++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 267 ++++++++++++------------------
- 11 files changed, 197 insertions(+), 287 deletions(-)
+ output.log                                | 272 ++++++++++++++++--------------
+ 11 files changed, 281 insertions(+), 217 deletions(-)
