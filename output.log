@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123661 characters
-INFO:root:HTML parsed, length: 116337 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (03/11/2025)', 'Palavra de Ontem (02/11/2025)', 'Palavra de Anteontem (01/11/2025)']
-INFO:root:Found 3 URLs: ['/escolha/', '/saudade/', '/nivel/']
-INFO:root:Found 15 descriptions: ['substantivo feminino Ato ou efeito de escolher, de', 'Sinônimos:\n\nalternativa, opção, seleção, preferênc', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (03/11/2025)', 'Palavra de Ontem (02/11/2025)', 'Palavra de Anteontem (01/11/2025)']
+INFO:root:Response length: 120998 characters
+INFO:root:HTML parsed, length: 113881 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (04/11/2025)', 'Palavra de Ontem (03/11/2025)', 'Palavra de Anteontem (02/11/2025)']
+INFO:root:Found 3 URLs: ['/zagaia/', '/escolha/', '/saudade/']
+INFO:root:Found 14 descriptions: ['substantivo feminino Lança curta de arremesso feit', 'Sinônimos:\n\nazagaia', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (04/11/2025)', 'Palavra de Ontem (03/11/2025)', 'Palavra de Anteontem (02/11/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (03/11/2025)', ID=ce25e5b305c9e8fa6133e5539a6be796
-INFO:root:Processing entry 2: Title='Palavra de Ontem (02/11/2025)', ID=451b9606fd1f27ac42492de79cccfecd
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (01/11/2025)', ID=7f3b095fe2133c72207b0da03630fd7c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (04/11/2025)', ID=0fa8aa327f6280e8810365fa71d130b9
+INFO:root:Processing entry 2: Title='Palavra de Ontem (03/11/2025)', ID=3e54d8ca28ec26a381df7b0857a35fe3
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (02/11/2025)', ID=f135df4729c4b46982ec64fedf075ebd
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (03/11/2025) - Significado completo de escolha:
-INFO:root:🔹 URL: https://www.dicio.com.br/escolha/
-INFO:root:🔹 Description: substantivo feminino Ato ou efeito de escolher, de selecionar entre uma coisa e outra; seleção, preferência, opção: a vida é feita de escolhas.Predileção que se demonstra em relação a algo ou alguém; preferência.Opção entre duas ou mais coisas, situações, circunstâncias, caminhos.Ação de eleger alguém para um cargo; eleição.[Agricultura] Café de qualidade inferior, refugo de produtos agrícolas.[Agricultura] Parte inaproveitável de produtos agrícolas; resto, sobra.Etimologia (origem da palavra escolha). Forma regressiva de escolher.
+INFO:root:🔹 Title: Palavra de Hoje (04/11/2025) - Significado completo de zagaia:
+INFO:root:🔹 URL: https://www.dicio.com.br/zagaia/
+INFO:root:🔹 Description: substantivo feminino Lança curta de arremesso feita com madeira de azagaia, árvore nativa do Sul da África, usada pelos povos caçadores dessa região.|Por extensão de sentido| Qualquer tipo de lança que pode ser arremessada.[Botânica] Árvore nativa do Sul da África cuja madeira é usada na confecção de lanças; azagaia.Etimologia (origem da palavra zagaia). A palavra zagaia deriva do berbere Zagaya; pelo árabe “az-azgaya”, como no espanhol “azagaya”.
  
 Sinônimos:
 
-alternativa, opção, seleção, preferência, resto, sobra, predileção 
+azagaia 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (02/11/2025) - Significado completo de saudade:
-INFO:root:🔹 URL: https://www.dicio.com.br/saudade/
+INFO:root:🔹 Title: Palavra de Ontem (03/11/2025) - Significado completo de escolha:
+INFO:root:🔹 URL: https://www.dicio.com.br/escolha/
 INFO:root:🔹 Description: Sinônimos:
 
-alternativa, opção, seleção, preferência, resto, sobra, predileção
+azagaia
  Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (01/11/2025) - Significado completo de nível:
-INFO:root:🔹 URL: https://www.dicio.com.br/nivel/
+INFO:root:🔹 Title: Palavra de Anteontem (02/11/2025) - Significado completo de saudade:
+INFO:root:🔹 URL: https://www.dicio.com.br/saudade/
 INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:es-co-lha
+ Sílabas:za-gai-a
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,70 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 323665 characters
-INFO:root:HTML parsed, length: 313239 characters
-INFO:root:Found 1 titles: ['Mateus 17:20']
-INFO:root:Found 1 URLs: ['/versiculo/mateus_17_20/']
-INFO:root:Found 1 descriptions: ['Ele respondeu: "Porque a fé que vocês têm é pequen']
+INFO:root:Response length: 323498 characters
+INFO:root:HTML parsed, length: 313072 characters
+INFO:root:Found 1 titles: ['Lucas 19:10']
+INFO:root:Found 1 URLs: ['/versiculo/lucas_19_10/']
+INFO:root:Found 1 descriptions: ['Pois o Filho do homem veio buscar e salvar o que e']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Mateus 17:20', ID=fef82a60b7f502f54b2b585ddce9de32
+INFO:root:Processing entry 1: Title='Lucas 19:10', ID=28eea1ecfff494a0f1858be3e6ee756d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Mateus 17:20
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_17_20/
-INFO:root:🔹 Description: Ele respondeu: "Porque a fé que vocês têm é pequena. Eu asseguro que, se vocês tiverem fé do tamanho de um grão de mostarda, poderão dizer a este monte: 'Vá daqui para lá', e ele irá. Nada será impossível para vocês. Mateus 17:20
+INFO:root:🔹 Title: Lucas 19:10
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/lucas_19_10/
+INFO:root:🔹 Description: Pois o Filho do homem veio buscar e salvar o que estava perdido". Lucas 19:10
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 324121 characters
-INFO:root:HTML parsed, length: 314515 characters
-INFO:root:Found 3 titles: ['Salmo 72', 'Salmo 70', 'Salmo 50']
-INFO:root:Found 3 URLs: ['/salmos_72/', '/salmos_70/', '/salmos_50/']
-INFO:root:Found 3 descriptions: ['Reveste da tua justiça o rei, ó Deus,\ne da tua ret', 'Livra-me, ó Deus!\nApressa-te, Senhor, a ajudar-me!', 'Fala o Senhor, o Deus supremo;\nconvoca toda a terr']
-INFO:root:Found 3 dates: ['3 de Novembro de 2025', '2 de Novembro de 2025', '1 de Novembro de 2025']
+INFO:root:Response length: 322702 characters
+INFO:root:HTML parsed, length: 313075 characters
+INFO:root:Found 3 titles: ['Salmo 52', 'Salmo 72', 'Salmo 70']
+INFO:root:Found 3 URLs: ['/salmos_52/', '/salmos_72/', '/salmos_70/']
+INFO:root:Found 3 descriptions: ['Por que você se vangloria do mal\ne de ultrajar a D', 'Reveste da tua justiça o rei, ó Deus,\ne da tua ret', 'Livra-me, ó Deus!\nApressa-te, Senhor, a ajudar-me!']
+INFO:root:Found 3 dates: ['4 de Novembro de 2025', '3 de Novembro de 2025', '2 de Novembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
-INFO:root:Processing entry 2: Title=' Salmo 70', ID=0243729b41be61da1625e2b52b3c2b05
-INFO:root:Processing entry 3: Title=' Salmo 50', ID=23aa53d6f0bc71b760f04eddded6ad1a
+INFO:root:Processing entry 1: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
+INFO:root:Processing entry 2: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
+INFO:root:Processing entry 3: Title=' Salmo 70', ID=0243729b41be61da1625e2b52b3c2b05
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 52
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_52/
+INFO:root:🔹 Description: Por que você se vangloria do mal
+e de ultrajar a Deus continuamente?,
+ó homem poderoso! 
+Sua língua trama destruição;
+é como navalha afiada, cheia de engano. 
+Você prefere o mal ao bem;
+a falsidade, à verdade. 
+Você ama toda palavra maldosa,
+ó língua mentirosa! 
+Saiba que Deus o arruinará para sempre:
+ele o agarrará e o arrancará da sua tenda;
+ele o desarraigará da terra dos vivos. 
+Os justos verão isso e temerão;
+rirão dele, dizendo: 
+"Veja só o homem
+que rejeitou a Deus como refúgio;
+confiou em sua grande riqueza
+e buscou refúgio em sua maldade!" 
+Mas eu sou como uma oliveira
+que floresce na casa de Deus;
+confio no amor de Deus
+para todo o sempre. 
+Para sempre te louvarei pelo que fizeste;
+na presença dos teus fiéis
+proclamarei o teu nome,
+porque tu és bom. 
+ Salmo 52
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 72
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_72/
 INFO:root:🔹 Description: Reveste da tua justiça o rei, ó Deus,
@@ -153,123 +183,80 @@ Tu és o meu socorro e o meu libertador;
 Senhor, não te demores! 
  Salmo 70
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 50
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_50/
-INFO:root:🔹 Description: Fala o Senhor, o Deus supremo;
-convoca toda a terra, do nascente ao poente. 
-Desde Sião, perfeita em beleza,
-Deus resplandece. 
-Nosso Deus vem!
-Certamente não ficará calado!
-À sua frente vai um fogo devorador,
-e, ao seu redor, uma violenta tempestade. 
-Ele convoca os altos céus e a terra,
-para o julgamento do seu povo: 
-"Ajuntem os que me são fiéis,
-que, mediante sacrifício,
-fizeram aliança comigo". 
-E os céus proclamam a sua justiça,
-pois o próprio Deus é o juiz. 
-"Ouça, meu povo, pois eu falarei;
-vou testemunhar contra você, Israel,
-eu, que sou Deus, o seu Deus. 
-Não o acuso pelos seus sacrifícios,
-nem pelos holocaustos,
-que você sempre me oferece. 
-Não tenho necessidade
-de nenhum novilho dos seus estábulos
-nem dos bodes dos seus currais, 
-pois todos os animais da floresta são meus,
-como são as cabeças de gado
-aos milhares nas colinas. 
-Conheço todas as aves dos montes
-e cuido das criaturas do campo. 
-Se eu tivesse fome, precisaria dizer a você?
-Pois o mundo é meu, e tudo o que nele existe. 
-Acaso como carne de touros
-ou bebo sangue de bodes? 
-Ofereça a Deus em sacrifício a sua gratidão,
-cumpra os seus votos para com o Altíssimo, 
-e clame a mim no dia da angústia;
-eu o livrarei, e você me honrará." 
-Mas ao ímpio Deus diz:
-"Que direito você tem de recitar as minhas leis
-ou de ficar repetindo a minha aliança? 
-Pois você odeia a minha disciplina
-e dá as costas às minhas palavras! 
-Você vê um ladrão e já se torna seu cúmplice,
-e com adúlteros se mistura. 
-Sua boca está cheia de maldade
-e a sua língua formula a fraude. 
-Deliberadamente você fala contra o seu irmão
-e calunia o filho de sua própria mãe. 
-Ficaria eu calado
-diante de tudo o que você tem feito?
-Você pensa que eu sou como você?
-Mas agora eu o acusarei diretamente,
-sem omitir coisa alguma. 
-"Considerem isto,
-vocês que se esquecem de Deus;
-caso contrário os despedaçarei,
-sem que ninguém os livre. 
-Quem me oferece sua gratidão
-como sacrifício honra-me,
-e eu mostrarei a salvação de Deus
-ao que anda nos meus caminhos". 
- Salmo 50
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 325663 characters
-INFO:root:HTML parsed, length: 315707 characters
-INFO:root:Found 3 titles: ['Superando a tristeza com Deus', 'Os que confiam no Senhor renovam suas forças', 'Viva como Jesus ensinou: coloque em prática os valores do Reino']
+INFO:root:Response length: 325277 characters
+INFO:root:HTML parsed, length: 315321 characters
+INFO:root:Found 3 titles: ['Amar os inimigos: o grande desafio cristão', 'Superando a tristeza com Deus', 'Os que confiam no Senhor renovam suas forças']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Pois a sua ira só dura um instante,\nmas o seu favo', 'Até os jovens perdem as forças e se cansam, e os r', 'Para isso vocês foram chamados, pois também Cristo']
-INFO:root:Found 1 dates: ['Segunda, 3 de novembro de 2025']
+INFO:root:Found 3 descriptions: ['Mas eu digo: Amem os seus inimigos e orem por aque', 'Pois a sua ira só dura um instante,\nmas o seu favo', 'Até os jovens perdem as forças e se cansam, e os r']
+INFO:root:Found 1 dates: ['Terça, 4 de novembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Superando a tristeza com Deus', ID=47733d9b410a5b19e798e49b06960bec
+INFO:root:Processing entry 1: Title='Amar os inimigos: o grande desafio cristão', ID=1775fcf9d4753a6be3f1ade02c2a63c1
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Superando a tristeza com Deus - Palavra de Hoje
+INFO:root:🔹 Title: Amar os inimigos: o grande desafio cristão - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Pois a sua ira só dura um instante,
-mas o seu favor dura a vida toda;
-o choro pode persistir uma noite,
-mas de manhã irrompe a alegria.
-- Salmos 30:5
+INFO:root:🔹 Description: Mas eu digo: Amem os seus inimigos e orem por aqueles que os perseguem,
+- Mateus 5:44
 
-A tristeza é uma realidade que todos enfrentamos. Ela pode surgir de perdas, frustrações, decepções ou simplesmente dos momentos em que a vida parece pesar demais. Mas, para quem crê em Deus, a tristeza nunca é o ponto final. A Palavra do Senhor é uma fonte inesgotável de consolo e esperança, capaz de transformar o coração abatido em um coração fortalecido.
-Quando tudo parece escuro, é preciso lembrar que Deus continua sendo luz. Ele não muda, mesmo quando nossas emoções mudam. Em meio à dor, o salmista Davi aprendeu a buscar refúgio na presença de Deus, e é isso que também devemos fazer. A Bíblia não ignora a tristeza, mas nos ensina a enfrentá-la com fé. “Lançando sobre Ele toda a vossa ansiedade, porque Ele tem cuidado de vós” (1 Pedro 5:7). Esse cuidado é real, constante e pessoal.
-Superar a tristeza com a Palavra de Deus significa escolher ouvir a voz d’Ele acima das vozes da dor. É meditar em Suas promessas até que elas se tornem mais fortes que os sentimentos negativos. Significa abrir o coração em oração, mesmo quando as lágrimas parecem não cessar. É nesse lugar de entrega que o Espírito Santo age, trazendo paz onde havia desespero.
-A alegria que Deus promete não é apenas um sentimento passageiro; é uma força que brota da certeza de que Ele está conosco, mesmo nas noites mais escuras. Se hoje você está triste, não desanime. Há um novo amanhecer preparado por Deus. Segure-se em Sua Palavra, pois ela é viva e poderosa e, no tempo certo, a alegria voltará a brilhar em seu coração.
-Veja também: Estudo completo do Salmo 30:5
+Amar os inimigos é, sem dúvida, um dos mandamentos mais desafiadores que Jesus nos deixou. Em um mundo onde se valoriza orgulho, a retribuição e a justiça segundo nossos próprios olhos, o amor aos inimigos soa quase impossível. No entanto, é justamente nesse ponto que se revela a essência do verdadeiro cristianismo: amar como Cristo amou.
+Jesus não apenas pregou esse amor; Ele o viveu. Na cruz, ferido, humilhado e injustiçado, ainda intercedeu pelos que o crucificavam, dizendo: “Pai, perdoa-lhes, porque não sabem o que fazem.” (Lucas 23:34). Esse ato sublime mostra que o amor cristão não depende do comportamento do outro, mas nasce de um coração transformado pelo Espírito Santo.
+Amar os inimigos não significa aprovar suas atitudes ou negar a dor causada. Significa escolher responder com graça, mesmo quando somos feridos. É um exercício de fé e obediência, que nos liberta do peso do ódio e nos aproxima do caráter de Cristo. Quando oramos por quem nos fere, o Espírito trabalha primeiro em nós, curando nossas feridas e moldando-nos à imagem do Salvador.
+Vivemos tempos em que o rancor e a intolerância dominam corações. Ser cristão é nadar contra essa corrente, é refletir a luz de Cristo mesmo nas relações mais difíceis. O amor ao inimigo é o testemunho mais poderoso que podemos oferecer, pois revela ao mundo que existe um caminho superior, o caminho da graça.
+Que possamos, a cada dia, pedir a Deus um coração capaz de perdoar e amar, lembrando que fomos nós também amados quando ainda éramos inimigos de Deus. Esse é o verdadeiro Evangelho: amor que vence o ódio, graça que supera a justiça humana e perdão que gera vida.
+Veja também: Amar os inimigos: versículo (com explicação).
  
-Pois a sua ira só dura um instante,
-mas o seu favor dura a vida toda;
-o choro pode persistir uma noite,
-mas de manhã irrompe a alegria.
-- Salmos 30:5
+Mas eu digo: Amem os seus inimigos e orem por aqueles que os perseguem,
+- Mateus 5:44
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 338238 characters
-INFO:root:HTML parsed, length: 327817 characters
-INFO:root:Found 3 titles: ['Nenhuma condenação há para quem está em ti Jesus', 'Estarei atento ao Senhor', 'Receba a paz de todas as formas!']
-INFO:root:Found 2 URLs: ['/versiculos_para_louvar_a_deus/', '/esperar_em_deus/']
-INFO:root:Found 3 descriptions: ['Portanto, agora nenhuma condenação há para os que ', 'Mas, quanto a mim, ficarei atento ao Senhor, esper', 'O próprio Senhor da paz dê a vocês a paz em todo o']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n3\nSEGUNDA', 'NOVEMBRO\n\n2\nDOMINGO', 'NOVEMBRO\n\n1\nSÁBADO']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Nenhuma condenação há para quem está em ti Jesus', ID=0c2b89b3f631575eb94fc46a35b3d1a8
-INFO:root:Processing entry 2: Title='Estarei atento ao Senhor', ID=1714d91477590ad2d0a889757f9d04e0
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 338801 characters
+INFO:root:HTML parsed, length: 328381 characters
+INFO:root:Found 3 titles: ['Dê um salto na sua fé', 'Nenhuma condenação há para quem está em ti Jesus', 'Estarei atento ao Senhor']
+INFO:root:Found 3 URLs: ['/crer_em_jesus/', '/versiculos_para_louvar_a_deus/', '/esperar_em_deus/']
+INFO:root:Found 3 descriptions: ['Ora, a fé é a certeza daquilo que esperamos e a pr', 'Portanto, agora nenhuma condenação há para os que ', 'Mas, quanto a mim, ficarei atento ao Senhor, esper']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n4\nTERÇA', 'NOVEMBRO\n\n3\nSEGUNDA', 'NOVEMBRO\n\n2\nDOMINGO']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Dê um salto na sua fé', ID=5413bfe936cbc54359f51ccf9c8db58a
+INFO:root:Processing entry 2: Title='Nenhuma condenação há para quem está em ti Jesus', ID=0c2b89b3f631575eb94fc46a35b3d1a8
+INFO:root:Processing entry 3: Title='Estarei atento ao Senhor', ID=1714d91477590ad2d0a889757f9d04e0
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Dê um salto na sua fé
+INFO:root:🔹 URL: https://www.bibliaon.com/crer_em_jesus/
+INFO:root:🔹 Description: Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos.
+- Hebreus 11:1
+
+Muitas vezes, Deus nos chama para dar um passo que parece impossível, um salto no desconhecido. Ele não nos mostra sempre o caminho completo, mas nos convida a confiar n’Ele, um dia de cada vez. É nesse momento que a fé se torna mais do que palavras, ela se transforma em ação.
+Dar um salto na fé é sair da zona de conforto, deixar para trás o medo, a dúvida e o controle. É acreditar que, mesmo sem entender todas as respostas, Deus já preparou o caminho. Assim como Pedro que, ao ouvir o chamado de Jesus, caminhou sobre as águas, nós também somos convidados a andar sobre as promessas, mesmo quando o vento sopra forte.
+Deus é fiel e são nesses momentos que devemos dar um passo de fé com essa certeza. Ele não falha, não se atrasa e não nos abandona. Cada salto de fé que damos abre espaço para o sobrenatural agir de Deus em nossa vida.
+Talvez hoje o Senhor esteja pedindo que você confie mais, perdoe alguém, inicie algo novo ou simplesmente espere com paciência. Qualquer que seja o desafio, saiba que Ele está ao seu lado.
+Não espere ter todas as respostas para crer. Creia primeiro, e as respostas virão no tempo certo. Deus honra a fé daqueles que O buscam de todo o coração.
+Respire fundo, olhe para o alto e dê um salto na sua fé. Porque do outro lado da obediência está o milagre que você tanto espera e um novo nível de intimidade com o Senhor.
+Dê o salto e veja Deus agir!
+
+
+Ore antes de agir: Busque direção em oração antes de qualquer decisão. Deus fala aos que o escutam com o coração aberto.
+
+Confie na Palavra: Alimente sua fé diariamente com as Escrituras. A fé cresce ouvindo a voz de Deus.
+
+Obedeça e permaneça: A obediência precede o milagre. Dê o passo, e Deus sustentará o caminho.
+
+Para orar:
+
+Senhor meu Deus, fortalece minha fé para que eu confie em Ti mesmo quando não vejo o caminho. Tira de mim o medo e a dúvida, e enche meu coração de coragem para dar o salto que o Senhor me pede. Guia meus passos, sustenta-me nas águas turbulentas e mostra-me que Tu és fiel em todas as coisas. Em nome de Jesus, eu entrego tudo em Tuas mãos. Amém.
+
+Veja também: Versículos sobre Crer em Deus.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Nenhuma condenação há para quem está em ti Jesus
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
 INFO:root:🔹 Description: Portanto, agora nenhuma condenação há para os que estão em Cristo Jesus.
@@ -346,15 +333,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 ++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  27 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  28 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  25 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  78 ++++++---
+ feeds/salmo_do_dia/atom.xml               |  93 ++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 272 ++++++++++++++++--------------
- 11 files changed, 281 insertions(+), 217 deletions(-)
+ output.log                                | 271 ++++++++++++++----------------
+ 11 files changed, 225 insertions(+), 262 deletions(-)
