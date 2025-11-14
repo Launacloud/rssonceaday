@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120686 characters
-INFO:root:HTML parsed, length: 113593 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (13/11/2025)', 'Palavra de Ontem (12/11/2025)', 'Palavra de Anteontem (11/11/2025)']
-INFO:root:Found 3 URLs: ['/autoavaliacao/', '/uniao/', '/culminancia/']
-INFO:root:Found 14 descriptions: ['substantivo feminino Avaliação que alguém faz sobr', 'Sinônimos:\n\nautoanálise', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (13/11/2025)', 'Palavra de Ontem (12/11/2025)', 'Palavra de Anteontem (11/11/2025)']
+INFO:root:Response length: 121208 characters
+INFO:root:HTML parsed, length: 113932 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (14/11/2025)', 'Palavra de Ontem (13/11/2025)', 'Palavra de Anteontem (12/11/2025)']
+INFO:root:Found 3 URLs: ['/representativo/', '/autoavaliacao/', '/uniao/']
+INFO:root:Found 15 descriptions: ['adjetivo Que representa, mostra claramente, reprod', 'Sinônimos:\n\nfigurativo, simbólico', 'Antônimos:\n\nirrepresentativo']
+INFO:root:Found 3 dates: ['Palavra de Hoje (14/11/2025)', 'Palavra de Ontem (13/11/2025)', 'Palavra de Anteontem (12/11/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (13/11/2025)', ID=153a5c5dfcb1d97185b8ed6d6f7a9d38
-INFO:root:Processing entry 2: Title='Palavra de Ontem (12/11/2025)', ID=1983b18380567dd4e409ece7986f7618
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/11/2025)', ID=32175f109718dc0144e6e4f371e3c8bc
+INFO:root:Processing entry 1: Title='Palavra de Hoje (14/11/2025)', ID=1a507ca294614afb20da41b56e31617a
+INFO:root:Processing entry 2: Title='Palavra de Ontem (13/11/2025)', ID=cd15f37485c5a6d0b3c9338636269f5e
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/11/2025)', ID=c4484180d086b15e388ca3d2c894db8a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (13/11/2025) - Significado completo de autoavaliação:
-INFO:root:🔹 URL: https://www.dicio.com.br/autoavaliacao/
-INFO:root:🔹 Description: substantivo feminino Avaliação que alguém faz sobre si mesmo; avaliação realizada pelo indivíduo que está sendo avaliado sobre si mesmo.Etimologia (origem da palavra autoavaliação). A palavra autoavaliação deriva da junção do prefixo auto-, do grego autós, com o sentido de "eu mesmo" + avaliação.
+INFO:root:🔹 Title: Palavra de Hoje (14/11/2025) - Significado completo de representativo:
+INFO:root:🔹 URL: https://www.dicio.com.br/representativo/
+INFO:root:🔹 Description: adjetivo Que representa, mostra claramente, reproduz uma imagem: sinal representativo.Que concerne à representação, ao ato de desemprenhar um papel no teatro, no cinema: atividade representativa do espírito.[Jurídico] Que se reconhece o direito de representar uma comunidade, uma nação, falando de um organismo.Pessoa, figura representativa, a que se distingue em sua classe.expressão Governo representativo. Forma de governo pela qual a nação delega a um parlamento o exercício do poder legislativo.Etimologia (origem da palavra representativo). A palavra representativo tem sua origem pela junção do verbo representar, e do sufixo -tivo.
  
 Sinônimos:
 
-autoanálise 
+figurativo, simbólico 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (12/11/2025) - Significado completo de união:
-INFO:root:🔹 URL: https://www.dicio.com.br/uniao/
+INFO:root:🔹 Title: Palavra de Ontem (13/11/2025) - Significado completo de autoavaliação:
+INFO:root:🔹 URL: https://www.dicio.com.br/autoavaliacao/
 INFO:root:🔹 Description: Sinônimos:
 
-autoanálise
- Classe gramatical:substantivo feminino
+figurativo, simbólico
+ 
+Antônimos:
+
+irrepresentativo 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (11/11/2025) - Significado completo de culminância:
-INFO:root:🔹 URL: https://www.dicio.com.br/culminancia/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:au-to-a-va-li-a-ção
+INFO:root:🔹 Title: Palavra de Anteontem (12/11/2025) - Significado completo de união:
+INFO:root:🔹 URL: https://www.dicio.com.br/uniao/
+INFO:root:🔹 Description: Antônimos:
+
+irrepresentativo
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +48,63 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 323966 characters
-INFO:root:HTML parsed, length: 313541 characters
-INFO:root:Found 1 titles: ['João 10:7']
-INFO:root:Found 1 URLs: ['/versiculo/joao_10_7/']
-INFO:root:Found 1 descriptions: ['Então Jesus afirmou de novo: "Digo a verdade: Eu s']
+INFO:root:Response length: 324122 characters
+INFO:root:HTML parsed, length: 313697 characters
+INFO:root:Found 1 titles: ['Hebreus 12:1-2']
+INFO:root:Found 1 URLs: ['/versiculo/hebreus_12_1-2/']
+INFO:root:Found 1 descriptions: ['Portanto, também nós, uma vez que estamos rodeados']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='João 10:7', ID=0ef4f6b1da28fb1643ec24b43147a8ae
+INFO:root:Processing entry 1: Title='Hebreus 12:1-2', ID=30d18fc665b2c965e860b1d4854b7eb9
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: João 10:7
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_10_7/
-INFO:root:🔹 Description: Então Jesus afirmou de novo: "Digo a verdade: Eu sou a porta das ovelhas. João 10:7
+INFO:root:🔹 Title: Hebreus 12:1-2
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_12_1-2/
+INFO:root:🔹 Description: Portanto, também nós, uma vez que estamos rodeados por tão grande nuvem de testemunhas, livremo-nos de tudo o que nos atrapalha e do pecado que nos envolve e corramos com perseverança a corrida que nos é proposta, tendo os olhos fitos em Jesus, autor e consumador da nossa fé. Ele, pela alegria que lhe fora proposta, suportou a cruz, desprezando a vergonha, e assentou-se à direita do trono de Deus. Hebreus 12:1-2
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 323625 characters
-INFO:root:HTML parsed, length: 313995 characters
-INFO:root:Found 3 titles: ['Salmo 65', 'Salmo 46', 'Salmo 32']
-INFO:root:Found 3 URLs: ['/salmos_65/', '/salmos_46/', '/salmos_32/']
-INFO:root:Found 3 descriptions: ['O louvor te aguarda em Sião, ó Deus;\nos votos que ', 'Deus é o nosso refúgio e a nossa fortaleza,\nauxíli', 'Como é feliz aquele\nque tem suas transgressões per']
-INFO:root:Found 3 dates: ['13 de Novembro de 2025', '12 de Novembro de 2025', '11 de Novembro de 2025']
+INFO:root:Response length: 322881 characters
+INFO:root:HTML parsed, length: 313234 characters
+INFO:root:Found 3 titles: ['Salmo 114', 'Salmo 65', 'Salmo 46']
+INFO:root:Found 3 URLs: ['/salmos_114/', '/salmos_65/', '/salmos_46/']
+INFO:root:Found 3 descriptions: ['Quando Israel saiu do Egito\ne a casa de Jacó saiu ', 'O louvor te aguarda em Sião, ó Deus;\nos votos que ', 'Deus é o nosso refúgio e a nossa fortaleza,\nauxíli']
+INFO:root:Found 3 dates: ['14 de Novembro de 2025', '13 de Novembro de 2025', '12 de Novembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 65', ID=b6781d58846158def0489f653b3a2637
-INFO:root:Processing entry 2: Title=' Salmo 46', ID=9766995a91a0db2cf56ba6ef2a22f28d
-INFO:root:Processing entry 3: Title=' Salmo 32', ID=2f49b60df41a8d2f7f56dc8a102c476d
+INFO:root:Processing entry 1: Title=' Salmo 114', ID=d6e74d49122c592b0d1572e2dff6e74f
+INFO:root:Processing entry 2: Title=' Salmo 65', ID=b6781d58846158def0489f653b3a2637
+INFO:root:Processing entry 3: Title=' Salmo 46', ID=9766995a91a0db2cf56ba6ef2a22f28d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 114
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_114/
+INFO:root:🔹 Description: Quando Israel saiu do Egito
+e a casa de Jacó saiu do meio
+de um povo de língua estrangeira, 
+Judá tornou-se o santuário de Deus;
+Israel, o seu domínio. 
+O mar olhou e fugiu,
+o Jordão retrocedeu; 
+os montes saltaram como carneiros;
+as colinas, como cordeiros. 
+Por que fugir, ó mar?
+E você, Jordão, por que retroceder? 
+Por que vocês saltaram como carneiros,
+ó montes?
+E vocês, colinas, porque saltaram
+como cordeiros? 
+Estremeça na presença do Soberano, ó terra,
+na presença do Deus de Jacó! 
+Ele fez da rocha um açude,
+do rochedo uma fonte. 
+ Salmo 114
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 65
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_65/
 INFO:root:🔹 Description: O louvor te aguarda em Sião, ó Deus;
@@ -153,120 +182,80 @@ O Senhor dos Exércitos está conosco;
 o Deus de Jacó é a nossa torre segura. 
  Salmo 46
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 32
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_32/
-INFO:root:🔹 Description: Como é feliz aquele
-que tem suas transgressões perdoadas
-e seus pecados apagados! 
-Como é feliz aquele
-a quem o Senhor não atribui culpa
-e em quem não há hipocrisia! 
-Enquanto eu mantinha escondidos os meus pecados,
-o meu corpo definhava de tanto gemer. 
-Pois dia e noite
-a tua mão pesava sobre mim;
-minhas forças foram-se esgotando
-como em tempo de seca. 
-Então reconheci diante de ti o meu pecado
-e não encobri as minhas culpas.
-Eu disse: "Confessarei as minhas transgressões",
-ao Senhor,
-e tu perdoaste a culpa do meu pecado. 
-Portanto, que todos os que são fiéis orem a ti
-enquanto podes ser encontrado;
-quando as muitas águas se levantarem,
-elas não os atingirão. 
-Tu és o meu abrigo;
-tu me preservarás das angústias
-e me cercarás de canções de livramento. 
-Eu o instruirei e o ensinarei
-no caminho que você deve seguir;
-eu o aconselharei e cuidarei de você. 
-Não sejam como o cavalo ou o burro,
-que não têm entendimento
-mas precisam ser controlados
-com freios e rédeas;
-caso contrário não obedecem. 
-Muitas são as dores dos ímpios,
-mas a bondade do Senhor
-protege quem nele confia. 
-Alegrem-se no Senhor e exultem,
-vocês que são justos!
-Cantem de alegria,
-todos vocês que são retos de coração! 
- Salmo 32
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 326568 characters
-INFO:root:HTML parsed, length: 316610 characters
-INFO:root:Found 3 titles: ['Lembra-te do Senhor', 'Escolha a bênção, não a maldição', 'Jesus, admirável']
+INFO:root:Response length: 326486 characters
+INFO:root:HTML parsed, length: 316522 characters
+INFO:root:Found 3 titles: ['Jesus é o nosso advogado', 'Lembra-te do Senhor', 'Escolha a bênção, não a maldição']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Por que você está assim tão triste,\nó minha alma?\n', '"Prestem atenção! Hoje estou pondo diante de vocês', 'Porque um menino nos nasceu,\num filho nos foi dado']
-INFO:root:Found 1 dates: ['Quinta, 13 de novembro de 2025']
+INFO:root:Found 3 descriptions: ['Jesus é o seu advogado. Esta é uma verdade poderos', 'Por que você está assim tão triste,\nó minha alma?\n', '"Prestem atenção! Hoje estou pondo diante de vocês']
+INFO:root:Found 1 dates: ['Sexta, 14 de novembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Lembra-te do Senhor', ID=0ea1ba28bf7f11b36730a68898d9620f
+INFO:root:Processing entry 1: Title='Jesus é o nosso advogado', ID=8d066ef31d4aa35d5e3e8ccdce20e4cd
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Lembra-te do Senhor - Palavra de Hoje
+INFO:root:🔹 Title: Jesus é o nosso advogado - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Por que você está assim tão triste,
-ó minha alma?
-Por que está assim tão perturbada
-dentro de mim?
-Ponha a sua esperança em Deus!
-Pois ainda o louvarei;
-ele é o meu Salvador e
-o meu Deus.
-A minha alma está profundamente triste;
-por isso de ti...
-- Salmo 42:5-6a
+INFO:root:🔹 Description: Jesus é o seu advogado. Esta é uma verdade poderosa que transforma a forma como olhamos para nossas falhas, nossas lutas e até mesmo nosso passado.
 
-O sofrimento, a dor e os problemas da vida podem parecer um turbilhão que nos engole. Em meio a tudo isso, podemos nos sentir vulneráveis e impotentes. Mas é importante lembrar que, em meio a tudo o que nos acontece, podemos sempre nos voltar para Deus, entregar nossas preocupações a Ele e receber Sua paz e ajuda.
-Quando as circunstâncias parecem nos sobrecarregar, o Senhor permanece ao nosso lado. Ele nunca nos abandona nem se afasta. Pelo contrário, Ele se aproxima com ternura para nos sustentar naquele exato momento. Quando tudo parece sombrio e incerto, Sua luz nos envolve e Sua voz nos lembra que não estamos sozinhos, que Seu amor é mais forte do que qualquer dor.
-Deus vê nossas lágrimas e ouve cada suspiro que surge de nossos corações. Podemos falar com Ele sem medo, porque Sua compaixão é infinita. Quando clamamos, Deus responde. Quando enfraquecemos, Ele nos fortalece. Sua presença nos renova e nos capacita a continuar, mesmo quando o caminho parece pesado. Nada pode nos separar de Sua fidelidade.
+Meus filhinhos, estas coisas vos escrevo, para que não pequeis; mas, se alguém pecar, temos um Advogado para com o Pai, Jesus Cristo, o justo.
+- 1 João 2:1
 
-Entregue suas preocupações ao Senhor,
-e ele o susterá;
-jamais permitirá que o justo venha a cair.
-- Salmo 55:22
-
-Lembre-se hoje que, embora as dificuldades sejam reais, o Deus que o acompanha é muito mais real. Entregue a Ele suas ansiedades, abra seu coração para Ele e permita que a Sua paz o envolva. Em Seus braços você encontrará descanso, força e a esperança de que precisa para enfrentar cada desafio com a certeza de que o Senhor jamais o deixará nem o abandonará.
-Veja também: Versículos de força em momentos difíceis
+Quando a Bíblia declara que Cristo é o nosso Advogado, ela nos lembra que não caminhamos sozinhos diante de Deus. Não estamos desamparados, nem condenados ao peso dos nossos erros. Existe Alguém que intercede por nós, que conhece nossa história, nossas intenções e nossas dores, e esse Alguém é o próprio Filho de Deus.
+Como Advogado perfeito, Jesus não apenas nos defende; Ele nos compreende profundamente. A Palavra diz que Ele foi tentado em tudo, mas sem pecado. Isso significa que Cristo não fala ao Pai apenas com autoridade divina, mas também com compaixão humana. Ele sabe o que é chorar, sentir fome, ser rejeitado e enfrentar batalhas invisíveis. Por isso, quando Ele apresenta nossa causa diante de Deus, Ele o faz com amor, graça e verdade.
+É comum sentirmos culpa ou indignidade quando falhamos. Muitas vezes, permitimos que o inimigo sussurre acusações ao nosso coração. Mas o sacrifício de Jesus na cruz já respondeu a toda acusação. O sangue derramado por Ele nos limpa de todo pecado. Não porque merecemos, mas porque Ele decidiu nos amar até o fim.
+Quando nos arrependemos e nos voltamos para Cristo, encontramos perdão, restauração e uma nova oportunidade. Ele não apenas nos livra da condenação; Ele nos ensina a viver de maneira diferente, a caminhar na luz, a crescer em santidade.
+Lembre-se sempre: quando a culpa tentar te aprisionar, quando o medo do passado tentar te alcançar ou quando você achar que errou demais, olhe para Jesus. Ele continua sendo o seu Advogado fiel, Aquele que nunca perde uma causa quando entregamos a Ele o nosso coração.
+Veja também: Versículos que mostram que Jesus é a salvação
  
-Por que você está assim tão triste,
-ó minha alma?
-Por que está assim tão perturbada
-dentro de mim?
-Ponha a sua esperança em Deus!
-Pois ainda o louvarei;
-ele é o meu Salvador e
-o meu Deus.
-A minha alma está profundamente triste;
-por isso de ti...
-- Salmo 42:5-6a
+Meus filhinhos, estas coisas vos escrevo, para que não pequeis; mas, se alguém pecar, temos um Advogado para com o Pai, Jesus Cristo, o justo.
+- 1 João 2:1
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 339264 characters
-INFO:root:HTML parsed, length: 328849 characters
-INFO:root:Found 3 titles: ['Aonde fores irei', 'O poder do perdão', 'Você é um bem-aventurado!']
-INFO:root:Found 3 URLs: ['/historia_de_rute_na_biblia/', '/o_poder_do_perdao/', '/bem_aventurancas/']
-INFO:root:Found 3 descriptions: ['Rute, porém, respondeu:\n"Não insistas comigo que t', 'Tomem cuidado. "Se o seu irmão pecar, repreenda-o ', 'Mas ele disse: Antes, bem-aventurados os que ouvem']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n13\nQUINTA', 'NOVEMBRO\n\n12\nQUARTA', 'NOVEMBRO\n\n11\nTERÇA']
+INFO:root:Response length: 339190 characters
+INFO:root:HTML parsed, length: 328777 characters
+INFO:root:Found 3 titles: ['Vencer não é o que parece', 'Aonde fores irei', 'O poder do perdão']
+INFO:root:Found 3 URLs: ['/crucificacao_e_morte_de_jesus/', '/historia_de_rute_na_biblia/', '/o_poder_do_perdao/']
+INFO:root:Found 3 descriptions: ['Mas Deus escolheu o que para o mundo é loucura par', 'Rute, porém, respondeu:\n"Não insistas comigo que t', 'Tomem cuidado. "Se o seu irmão pecar, repreenda-o ']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n14\nSEXTA', 'NOVEMBRO\n\n13\nQUINTA', 'NOVEMBRO\n\n12\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Aonde fores irei', ID=eab46a0ae142b68e22f9a0462897744d
-INFO:root:Processing entry 2: Title='O poder do perdão', ID=89b6b0aa6f620464d99feb8503dbbe99
-INFO:root:Processing entry 3: Title='Você é um bem-aventurado!', ID=a299cadedfeaa6dbc637afd390d549e2
+INFO:root:Processing entry 1: Title='Vencer não é o que parece', ID=a99c63511a739a98e8508855a8ae6c39
+INFO:root:Processing entry 2: Title='Aonde fores irei', ID=eab46a0ae142b68e22f9a0462897744d
+INFO:root:Processing entry 3: Title='O poder do perdão', ID=89b6b0aa6f620464d99feb8503dbbe99
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Vencer não é o que parece
+INFO:root:🔹 URL: https://www.bibliaon.com/crucificacao_e_morte_de_jesus/
+INFO:root:🔹 Description: Mas Deus escolheu o que para o mundo é loucura para envergonhar os sábios e escolheu o que para o mundo é fraqueza para envergonhar o que é forte.
+- 1 Coríntios 1:27
+
+Vencer não é o que parece. Quando olhamos para a cruz, tudo nela parece derrota. Um homem pregado, sangrando, humilhado diante da multidão. Os discípulos dispersos, o inimigo aparentemente vitorioso. Aos olhos humanos, o Calvário foi o fim, mas aos olhos de Deus, foi o maior triunfo da história.
+A vitória de Jesus não veio pela força, mas pela entrega. Ele não venceu lutando contra homens, mas rendendo-se à vontade do Pai. O mundo via fraqueza; o céu via redenção. A cruz, instrumento de morte, tornou-se símbolo de vida. A coroa de espinhos se transformou em coroa de glória. E o grito “Está consumado” ecoa até hoje como a declaração mais poderosa de vitória que já existiu.
+Assim também é com aqueles que creem. Em Cristo, vencer não é impor, dominar ou conquistar pela força, é permanecer fiel, mesmo quando o caminho passa pela dor. É perdoar quando seria mais fácil revidar. É confiar quando tudo parece perdido. É morrer para o próprio eu para que a vida de Cristo floresça em nós.
+A cruz nos ensina que a verdadeira vitória é espiritual, não visível. É o triunfo do amor sobre o ódio, da fé sobre o medo, da esperança sobre o desespero.
+Quando a vida parecer um fracasso, lembre-se do Gólgota. Jesus venceu justamente quando parecia derrotado. E em Cristo, nós também podemos vencer, não à maneira do mundo, mas segundo o coração de Deus. Pois “em todas estas coisas somos mais que vencedores, por aquele que nos amou” (Romanos 8:37).
+Vencendo em Cristo
+
+
+A vitória começa na submissão. Quando deixamos o controle e confiamos no plano divino, encontramos força na dependência e na obediência.
+Mesmo diante da dor e da incerteza, creia que Deus transforma derrotas em propósitos. A perseverança é o solo onde floresce a vitória espiritual.
+
+O verdadeiro vencedor é quem ama sem esperar retorno. O amor vence o ódio, cura feridas e revela o poder transformador do Evangelho.
+
+Para orar:
+
+Senhor Jesus, obrigado pela Tua vitória na cruz, que transformou derrota em redenção. Ensina-me a vencer como Tu venceste: com fé, amor e rendição. Que eu confie na Tua vontade, permaneça firme nas provações e reflita Tua graça em cada atitude. Em Ti, sou mais que vencedor. Amém.
+
+Veja também: Crucificação e morte de Jesus (explicados)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Aonde fores irei
 INFO:root:🔹 URL: https://www.bibliaon.com/historia_de_rute_na_biblia/
 INFO:root:🔹 Description: Rute, porém, respondeu:
@@ -321,30 +310,6 @@ Senhor Jesus, ensina-me a perdoar como Tu perdoaste. Cura as feridas do meu cora
 
 Veja também: Versículos bíblicos sobre o poder do perdão
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Você é um bem-aventurado!
-INFO:root:🔹 URL: https://www.bibliaon.com/bem_aventurancas/
-INFO:root:🔹 Description: Mas ele disse: Antes, bem-aventurados os que ouvem a palavra de Deus e a guardam.
-- Lucas 11:28
-
-Você é um bem-aventurado! Talvez nem sempre se sinta assim, mas aos olhos de Deus, aquele que ouve e prática Sua palavra é verdadeiramente abençoado.
-A bem-aventurança não depende das circunstâncias, do sucesso humano ou das riquezas terrenas. Ela nasce de um coração que confia plenamente no Senhor e encontra n'Ele sua fonte de paz, alegria e esperança.
-Jesus, no Sermão do Monte, nos mostrou que os bem-aventurados são os humildes, os que choram, os mansos, os que têm fome e sede de justiça, os misericordiosos, os limpos de coração e os pacificadores. Cada uma dessas atitudes reflete o caráter de Cristo e revela uma vida guiada pelo Espírito Santo. Ser bem-aventurado é viver de maneira contracultural, buscando agradar a Deus mesmo quando o mundo não compreende.
-Quando você escolhe perdoar, mesmo ferido; quando permanece fiel, mesmo diante da provação; quando serve com amor, mesmo sem reconhecimento, o céu o chama de bem-aventurado. Porque nessas atitudes o próprio Cristo é manifesto em você.
-As lutas, as lágrimas e as dores não anulam a bênção de Deus sobre sua vida. Pelo contrário, são oportunidades para provar que sua alegria está firmada em algo que o mundo não pode tirar: a presença do Senhor.
-Portanto, não desanime! Continue caminhando pela fé, guardando a Palavra no coração e confiando nas promessas do Pai. Há uma coroa preparada para aqueles que perseveram até o fim.
-Lembre-se: você é um bem-aventurado, não porque tudo vai bem, mas porque o Deus Todo-Poderoso habita em você e conduz seus passos rumo à eternidade.
-Vivendo como um bem-aventurado todos os dias 
-
-Leia as Escrituras diariamente, ore por entendimento e pratique o que aprendeu. A obediência constante fortalece sua fé e o aproxima do coração de Deus.
-Em tempos difíceis, lembre-se de que cada luta é uma oportunidade para crescer espiritualmente. Confie nas promessas de Deus e mantenha-se firme na esperança eterna.
-Sirva com humildade, ofereça perdão e compartilhe o Evangelho com alegria. Suas atitudes refletem Jesus e revelam ao mundo a verdadeira bem-aventurança. 
-
-Para orar: 
-
-Senhor amado, obrigado por me lembrar que sou bem-aventurado quando ouço e obedeço à Tua Palavra. Fortalece minha fé, dá-me um coração manso e perseverante, e ensina-me a refletir Teu amor em cada atitude. Que minha vida seja um testemunho vivo da Tua graça e fidelidade. Amém.
-
-Veja também: As bem-aventuranças: e seus significados (Estudo Bíblico)
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 92 characters
@@ -374,15 +339,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  64 +++----
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  42 +++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  43 ++---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  57 ++++--
+ feeds/salmo_do_dia/atom.xml               |  64 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 295 ++++++++++++++++--------------
- 11 files changed, 305 insertions(+), 235 deletions(-)
+ output.log                                | 285 +++++++++++++-----------------
+ 11 files changed, 219 insertions(+), 301 deletions(-)
