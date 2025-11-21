@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121385 characters
-INFO:root:HTML parsed, length: 114109 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (20/11/2025)', 'Palavra de Ontem (19/11/2025)', 'Palavra de Anteontem (18/11/2025)']
-INFO:root:Found 3 URLs: ['/igualdade/', '/monitorar/', '/conspurcar/']
-INFO:root:Found 15 descriptions: ['substantivo feminino Falta de diferenças; de mesmo', 'Sinônimos:\n\nequidade, equivalência, paridade, regu', 'Antônimos:\n\ndesigualdade']
-INFO:root:Found 3 dates: ['Palavra de Hoje (20/11/2025)', 'Palavra de Ontem (19/11/2025)', 'Palavra de Anteontem (18/11/2025)']
+INFO:root:Response length: 120454 characters
+INFO:root:HTML parsed, length: 113361 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (21/11/2025)', 'Palavra de Ontem (20/11/2025)', 'Palavra de Anteontem (19/11/2025)']
+INFO:root:Found 3 URLs: ['/quadrado/', '/igualdade/', '/monitorar/']
+INFO:root:Found 14 descriptions: ['substantivo masculino [Geometria] Figura plana que', 'Sinônimos:\n\nquadro, quadrilátero, quadrângulo', 'Classe gramatical:adjetivo e substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (21/11/2025)', 'Palavra de Ontem (20/11/2025)', 'Palavra de Anteontem (19/11/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (20/11/2025)', ID=74da06edce69b792e5889d2a24dea086
-INFO:root:Processing entry 2: Title='Palavra de Ontem (19/11/2025)', ID=b6719178b072e1705e1b82fe9f1b6c1e
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (18/11/2025)', ID=26f4a789ce210841467add9a25ff3744
+INFO:root:Processing entry 1: Title='Palavra de Hoje (21/11/2025)', ID=7d0e02c67f8d7f1704eb42a112f578eb
+INFO:root:Processing entry 2: Title='Palavra de Ontem (20/11/2025)', ID=98b41a068f2c8eef5fa824b01c599754
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (19/11/2025)', ID=6a0a78cf92de027530b0282d500bb2e8
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (20/11/2025) - Significado completo de igualdade:
-INFO:root:🔹 URL: https://www.dicio.com.br/igualdade/
-INFO:root:🔹 Description: substantivo feminino Falta de diferenças; de mesmo valor ou de acordo com mesmo ponto de vista, quando comparados com outra coisa ou pessoa: igualdade racial; igualdade salarial; igualdade de vagas.Princípio de acordo com o qual todos os indivíduos estão sujeitos à lei e possuem direitos e deveres; justiça.[Matemática] Relação entre grandezas de mesmo valor; a fórmula que demonstra essa relação.Uniformidade, continuidade: igualdade de ânimo.Etimologia (origem da palavra igualdade). Do latim aequalitas.atis.
+INFO:root:🔹 Title: Palavra de Hoje (21/11/2025) - Significado completo de quadrado:
+INFO:root:🔹 URL: https://www.dicio.com.br/quadrado/
+INFO:root:🔹 Description: substantivo masculino [Geometria] Figura plana que possui quatro lados iguais e quatro ângulos retos (90°).Matemática Produto de um número por ele mesmo: 16 é o quadrado de 4, visto que 4 x 4 = 16.[Popular] Indivíduo retrógrado, reacionário, de mentalidade pouco evoluída; careta.adjetivo Que é retrógrado, de mentalidade pequena, pouco evoluída; retrógrado, atrasado.Etimologia (origem da palavra quadrado). A palavra quadrado deriva do latim "quadrātus, a, um", com o sentido de algo composto por quatro cantos.
  
 Sinônimos:
 
-equidade, equivalência, paridade, regularidade, justiça, identidade, uniformidade 
+quadro, quadrilátero, quadrângulo 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (19/11/2025) - Significado completo de monitorar:
-INFO:root:🔹 URL: https://www.dicio.com.br/monitorar/
+INFO:root:🔹 Title: Palavra de Ontem (20/11/2025) - Significado completo de igualdade:
+INFO:root:🔹 URL: https://www.dicio.com.br/igualdade/
 INFO:root:🔹 Description: Sinônimos:
 
-equidade, equivalência, paridade, regularidade, justiça, identidade, uniformidade
- 
-Antônimos:
-
-desigualdade 
-
+quadro, quadrilátero, quadrângulo
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (18/11/2025) - Significado completo de conspurcar:
-INFO:root:🔹 URL: https://www.dicio.com.br/conspurcar/
-INFO:root:🔹 Description: Antônimos:
-
-desigualdade
- Classe gramatical:substantivo feminino
+INFO:root:🔹 Title: Palavra de Anteontem (19/11/2025) - Significado completo de monitorar:
+INFO:root:🔹 URL: https://www.dicio.com.br/monitorar/
+INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
+ Sílabas:qua-dra-do
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,72 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 323844 characters
-INFO:root:HTML parsed, length: 313419 characters
-INFO:root:Found 1 titles: ['Gálatas 5:13']
-INFO:root:Found 1 URLs: ['/versiculo/galatas_5_13/']
-INFO:root:Found 1 descriptions: ['Irmãos, vocês foram chamados para a liberdade. Mas']
+INFO:root:Response length: 323974 characters
+INFO:root:HTML parsed, length: 313549 characters
+INFO:root:Found 1 titles: ['Atos dos Apóstolos 2:38']
+INFO:root:Found 1 URLs: ['/versiculo/atos_dos_apostolos_2_38/']
+INFO:root:Found 1 descriptions: ['Pedro respondeu: "Arrependam-se, e cada um de você']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Gálatas 5:13', ID=1465f8046cc3f9edf52a6c36059871c4
+INFO:root:Processing entry 1: Title='Atos dos Apóstolos 2:38', ID=ec9e09c2b8ae21940ac7b49a7e7097b6
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Gálatas 5:13
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/galatas_5_13/
-INFO:root:🔹 Description: Irmãos, vocês foram chamados para a liberdade. Mas não usem a liberdade para dar ocasião à vontade da carne; ao contrário, sirvam uns aos outros mediante o amor. Gálatas 5:13
+INFO:root:🔹 Title: Atos dos Apóstolos 2:38
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/atos_dos_apostolos_2_38/
+INFO:root:🔹 Description: Pedro respondeu: "Arrependam-se, e cada um de vocês seja batizado em nome de Jesus Cristo para perdão dos seus pecados, e receberão o dom do Espírito Santo. Atos dos Apóstolos 2:38
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325656 characters
-INFO:root:HTML parsed, length: 316061 characters
-INFO:root:Found 3 titles: ['Salmo 10', 'Salmo 40', 'Salmo 17']
-INFO:root:Found 3 URLs: ['/salmos_10/', '/salmos_40/', '/salmos_17/']
-INFO:root:Found 3 descriptions: ['Senhor, por que estás tão longe?\nPor que te escond', 'Depositei toda a minha esperança no Senhor;\nele se', 'Ouve, Senhor, a minha justa queixa;\natenta para o ']
-INFO:root:Found 3 dates: ['20 de Novembro de 2025', '19 de Novembro de 2025', '18 de Novembro de 2025']
+INFO:root:Response length: 325009 characters
+INFO:root:HTML parsed, length: 315400 characters
+INFO:root:Found 3 titles: ['Salmo 95', 'Salmo 10', 'Salmo 40']
+INFO:root:Found 3 URLs: ['/salmos_95/', '/salmos_10/', '/salmos_40/']
+INFO:root:Found 3 descriptions: ['Venham! Cantemos ao Senhor com alegria!\nAclamemos ', 'Senhor, por que estás tão longe?\nPor que te escond', 'Depositei toda a minha esperança no Senhor;\nele se']
+INFO:root:Found 3 dates: ['21 de Novembro de 2025', '20 de Novembro de 2025', '19 de Novembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
-INFO:root:Processing entry 2: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
-INFO:root:Processing entry 3: Title=' Salmo 17', ID=84a47d8f90d5f870664ac09c8c4178a4
+INFO:root:Processing entry 1: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
+INFO:root:Processing entry 2: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
+INFO:root:Processing entry 3: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 95
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_95/
+INFO:root:🔹 Description: Venham! Cantemos ao Senhor com alegria!
+Aclamemos a Rocha da nossa salvação. 
+Vamos à presença dele com ações de graças;
+vamos aclamá-lo com cânticos de louvor. 
+Pois o Senhor é o grande Deus,
+o grande Rei acima de todos os deuses. 
+Nas suas mãos estão as profundezas da terra,
+os cumes dos montes lhe pertencem. 
+Dele também é o mar, pois ele o fez;
+as suas mãos formaram a terra seca. 
+Venham! Adoremos prostrados
+e ajoelhemos diante do Senhor,
+o nosso Criador; 
+pois ele é o nosso Deus,
+e nós somos o povo do seu pastoreio,
+o rebanho que ele conduz.
+Hoje, se vocês ouvirem a sua voz, 
+não endureçam o coração, como em Meribá,
+como aquele dia em Massá, no deserto, 
+onde os seus antepassados me tentaram,
+pondo-me à prova,
+apesar de terem visto o que eu fiz. 
+Durante quarenta anos
+fiquei irado contra aquela geração e disse:
+"Eles são um povo de coração ingrato;
+não reconheceram os meus caminhos". 
+Por isso jurei na minha ira:
+"Jamais entrarão no meu descanso". 
+ Salmo 95
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 10
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_10/
 INFO:root:🔹 Description: Senhor, por que estás tão longe?
@@ -202,104 +228,88 @@ Tu és o meu socorro e o meu libertador;
 meu Deus, não te demores! 
  Salmo 40
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 17
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_17/
-INFO:root:🔹 Description: Ouve, Senhor, a minha justa queixa;
-atenta para o meu clamor.
-Dá ouvidos à minha oração,
-que não vem de lábios falsos. 
-Venha de ti a sentença em meu favor;
-vejam os teus olhos onde está a justiça! 
-Provas o meu coração e de noite me examinas;
-tu me sondas e nada encontras;
-decidi que a minha boca não pecará 
-como fazem os homens.
-Pela palavra dos teus lábios
-eu evitei os caminhos do violento. 
-Meus passos seguem firmes nas tuas veredas;
-os meus pés não escorregaram. 
-Eu clamo a ti, ó Deus, pois tu me respondes;
-inclina para mim os teus ouvidos
-e ouve a minha oração. 
-Mostra a maravilha do teu amor,
-tu, que com a tua mão direita salvas
-os que em ti buscam proteção
-contra aqueles que os ameaçam. 
-Protege-me como à menina dos teus olhos;
-esconde-me à sombra das tuas asas, 
-dos ímpios que me atacam com violência,
-dos inimigos mortais que me cercam. 
-Eles fecham o coração insensível
-e com a boca falam com arrogância. 
-Eles me seguem os passos e já me cercam;
-seus olhos estão atentos,
-prontos para derrubar-me. 
-São como um leão ávido pela presa,
-como um leão forte agachado na emboscada. 
-Levanta-te, Senhor!
-Confronta-os! Derruba-os!
-Com a tua espada livra-me dos ímpios. 
-Com a tua mão, Senhor,
-livra-me de homens assim,
-de homens deste mundo,
-cuja recompensa está nesta vida.
-Enche-lhes o ventre de tudo
-o que lhes reservaste;
-sejam os seus filhos saciados,
-e o que sobrar fique para os seus pequeninos. 
-Quanto a mim, feita a justiça, verei a tua face;
-quando despertar, ficarei satisfeito
-ao ver a tua semelhança. 
- Salmo 17
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 326010 characters
-INFO:root:HTML parsed, length: 316042 characters
-INFO:root:Found 3 titles: ['Senhor, estou aqui. Pode me usar', 'Deus é bom: lembre-se disso', 'Palavras que trazem vida, cura e bênção']
+INFO:root:Response length: 322159 characters
+INFO:root:HTML parsed, length: 312194 characters
+INFO:root:Found 3 titles: ['Senhor, guarda-me como a menina dos teus olhos', 'Senhor, estou aqui. Pode me usar', 'Deus é bom: lembre-se disso']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Mas o Conselheiro, o Espírito Santo, que o Pai env', 'Falarei da bondade do Senhor,\ndos seus gloriosos f', 'Há palavras que ferem como espada,\nmas a língua do']
-INFO:root:Found 1 dates: ['Quinta, 20 de novembro de 2025']
+INFO:root:Found 3 descriptions: ['Protege-me como à menina dos teus olhos;\nesconde-m', 'Mas o Conselheiro, o Espírito Santo, que o Pai env', 'Falarei da bondade do Senhor,\ndos seus gloriosos f']
+INFO:root:Found 1 dates: ['Sexta, 21 de novembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Senhor, estou aqui. Pode me usar', ID=f1aa174dbe3d4b69072f2ee0e32ed44e
+INFO:root:Processing entry 1: Title='Senhor, guarda-me como a menina dos teus olhos', ID=53880ae3ec3e464768fd3125fccbf33d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Senhor, estou aqui. Pode me usar - Palavra de Hoje
+INFO:root:🔹 Title: Senhor, guarda-me como a menina dos teus olhos - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Mas o Conselheiro, o Espírito Santo, que o Pai enviará em meu nome, ensinará a vocês todas as coisas e fará vocês lembrarem tudo o que eu disse.
-- João 14:26
+INFO:root:🔹 Description: Protege-me como à menina dos teus olhos;
+esconde-me à sombra das tuas asas,
+dos ímpios que me atacam com violência,
+dos inimigos mortais que me cercam.
+- Salmo 17:8-9
 
-Ser um facilitador do mover de Deus é estar disponível para que o Espírito Santo possa agir através da nossa vida. Deus continua trabalhando no mundo, e Ele escolhe pessoas para mostrar Seu amor e Sua vontade ao mundo. O mover de Deus não acontece pela nossa força, mas quando nos entregamos a Ele e deixamos que nos guie.
-Facilitar o mover de Deus é tirar do caminho tudo aquilo que atrapalha a ação do Espírito Santo em nós. Às vezes, isso significa orar, interceder, parar para ouvir alguém ou apenas estar presente. Em outras situações, Deus nos pede para encorajar, ajudar, servir ou falar uma palavra simples, mas cheia de verdade. Não é sobre ser importante; é sobre estar disponível.
-Quando entendemos que o Espírito Santo se move de forma viva e contínua, começamos a cultivar atitudes que permitem Sua atuação. Isso inclui humildade, pureza de coração, sensibilidade e coragem. Precisamos estar atentos à voz de Deus e obedecer mesmo quando não compreendemos tudo. Quando obedecemos, abrimos espaço para que Ele faça ainda mais.
-Ser um facilitador do mover de Deus também significa espalhar paz, esperança e reconciliação. Onde houver tristeza, podemos levar consolo. Onde houver conflito, podemos levar calma. Onde houver escuridão, podemos levar luz. Não por nossas habilidades, mas porque permitimos que Deus trabalhe através de nós.
-Que nossa vida seja um canal livre para a presença de Deus. Que, todos os dias, possamos dizer: “Senhor, estou aqui. Pode me usar.” Quando vivemos assim, não somente vemos Deus agir, mas participamos daquilo que Ele está movendo.
-Veja também: Versículos para aprender como evangelizar
+Nossos olhos são muito importantes. Graças a eles, podemos ver a natureza, nossos entes queridos e tudo ao nosso redor. Nossos olhos regulam a quantidade de luz que entra neles, permitindo-nos ver e nos orientar, mesmo em condições de pouca luz. Uma característica importante dos nossos olhos é a sua natureza delicada. Qualquer corpo estranho que entre neles causa grande desconforto e dor, mesmo que seja muito pequeno. É por isso que devemos protegê-los e cuidar deles.
+O salmista Davi, no Salmo 17, sentiu-se ameaçado pelos inimigos que o cercavam. O perigo que o perseguia o fazia sentir-se vulnerável e exposto a ataques, assim como nossos olhos estão expostos à poeira, partículas e poluição. Em meio às ameaças que buscavam destruí-lo, Davi se voltou para o Senhor para pedir Sua proteção e cuidado.
+Ele sabia que era pequeno e fraco diante de seus inimigos. Mas também sabia que servia ao Deus Todo-Poderoso, que o amava e em quem podia confiar. Portanto, sua oração não era simplesmente um grito de medo, mas uma profunda expressão de fé. Davi reconheceu que sua segurança não dependia de sua própria força ou recursos, mas do cuidado atento de Deus, que o protegia com ternura, como quem protege algo tão delicado e precioso quanto a menina dos olhos.
+Podemos confiar no amor protetor do Senhor. Mesmo quando o perigo, a tristeza ou a incerteza parecem nos cercar, Deus nunca nos perde de vista. Ele vela por nós com ternura, amor e cuidado, assim como quem protege os próprios olhos.
+Em meio às ameaças da vida, podemos encontrar refúgio sob a sombra das asas do Senhor. Ali encontramos abrigo, descanso e consolo. Confiemos que, mesmo quando não compreendemos tudo o que acontece, o olhar do Pai está sempre sobre nós, vigilante e cheio de amor. Nada escapa aos Seus cuidados, e em Sua presença encontramos paz para as nossas almas e força para seguir em frente.
+
+Quanto a mim, feita a justiça, verei a tua face;
+quando despertar, ficarei satisfeito
+ao ver a tua semelhança.
+- Salmo 17:15
+
+Veja também: Menina dos olhos de Deus (Estudo Bíblico)
  
-Mas o Conselheiro, o Espírito Santo, que o Pai enviará em meu nome, ensinará a vocês todas as coisas e fará vocês lembrarem tudo o que eu disse.
-- João 14:26
+Protege-me como à menina dos teus olhos;
+esconde-me à sombra das tuas asas,
+dos ímpios que me atacam com violência,
+dos inimigos mortais que me cercam.
+- Salmo 17:8-9
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 339914 characters
-INFO:root:HTML parsed, length: 329494 characters
-INFO:root:Found 3 titles: ['O amor que salva', 'Vivendo o extraordinário', 'A cultura do adorador']
-INFO:root:Found 3 URLs: ['/o_amor_incondicional_de_deus_estudo/', '/mensagens_de_agradecimento_a_deus_por_mais_um_dia/', '/esportivo/']
-INFO:root:Found 3 descriptions: ['Pois o Filho do homem veio buscar e salvar o que e', 'Àquele que é capaz de fazer infinitamente mais do ', 'No entanto, está chegando a hora, e de fato já che']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n20\nQUINTA', 'NOVEMBRO\n\n19\nQUARTA', 'NOVEMBRO\n\n18\nTERÇA']
+INFO:root:Response length: 340103 characters
+INFO:root:HTML parsed, length: 329683 characters
+INFO:root:Found 3 titles: ['Grandes coisas tem feito o Senhor por nós', 'O amor que salva', 'Vivendo o extraordinário']
+INFO:root:Found 3 URLs: ['/a_gratidao_de_paulo/', '/o_amor_incondicional_de_deus_estudo/', '/mensagens_de_agradecimento_a_deus_por_mais_um_dia/']
+INFO:root:Found 3 descriptions: ['Sim, grandes coisas fez o Senhor por nós, e por is', 'Pois o Filho do homem veio buscar e salvar o que e', 'Àquele que é capaz de fazer infinitamente mais do ']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n21\nSEXTA', 'NOVEMBRO\n\n20\nQUINTA', 'NOVEMBRO\n\n19\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O amor que salva', ID=bbf59446484dd4d5ab9483a4cb5e82bd
-INFO:root:Processing entry 2: Title='Vivendo o extraordinário', ID=49e24183105b0e5027f50dd2213da95a
-INFO:root:Processing entry 3: Title='A cultura do adorador', ID=e33de918f9cf352f00af606f273e47eb
+INFO:root:Processing entry 1: Title='Grandes coisas tem feito o Senhor por nós', ID=2332bca535df9ee38957464a5f955f38
+INFO:root:Processing entry 2: Title='O amor que salva', ID=bbf59446484dd4d5ab9483a4cb5e82bd
+INFO:root:Processing entry 3: Title='Vivendo o extraordinário', ID=49e24183105b0e5027f50dd2213da95a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Grandes coisas tem feito o Senhor por nós
+INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
+INFO:root:🔹 Description: Sim, grandes coisas fez o Senhor por nós, e por isso estamos alegres.
+- Salmos 126:3
+
+Grandes coisas tem feito o Senhor por nós. Às vezes, esquecemos de olhar para trás e perceber quantas vezes Deus já nos sustentou, abriu portas que pareciam fechadas e nos guardou em momentos em que nem percebemos o perigo. O salmista reconhece essa ação amorosa de Deus e responde com alegria, e essa também deve ser a nossa resposta.
+Quando lembramos das bênçãos que já recebemos, nossos olhos se abrem para enxergar que não caminhamos sozinhos. Deus tem cuidado de cada detalhe: na saúde, na família, no trabalho, nas oportunidades que surgem e até nos processos difíceis que nos fazem crescer. Mesmo quando enfrentamos lutas, Ele permanece ao nosso lado, guiando nossos passos e fortalecendo nosso coração.
+Muitas vezes pedimos a Deus que faça algo grande, mas nos esquecemos de que o simples fato de acordar todos os dias já é uma grande obra. O fôlego de vida, a esperança renovada, a chance de recomeçar, tudo isso é graça. E quando colocamos nossa confiança n'Ele, percebemos que a fidelidade do Senhor não depende das circunstâncias; ela permanece firme.
+Que hoje o seu coração se encha de gratidão. Lembre-se do que Deus já fez, do que Ele está fazendo agora, mesmo que você ainda não consiga ver, e do que Ele fará. Ele continua sendo o mesmo Deus que transforma lágrimas em alegria, deserto em jardim e pequenas sementes em frutos abundantes.
+Grandes coisas tem feito o Senhor por nós. Que essa verdade renove sua fé e fortaleça sua caminhada. Confie: o Deus que começou a boa obra é fiel para completá-la. Amém.
+Reconhecendo o cuidado de Deus
+
+Reserve alguns minutos do dia para lembrar das bênçãos recebidas, anotando vitórias, respostas e pequenos sinais do cuidado de Deus, fortalecendo sua fé e gratidão continuamente.
+Ore diariamente entregando suas preocupações ao Senhor, confiando que Ele guia seus passos, renova sua força e realiza o impossível no tempo certo, fortalecendo esperança.
+Compartilhe testemunhos do cuidado de Deus, encorajando pessoas, fortalecendo relacionamentos e mostrando que a fé transforma desafios em oportunidades para experimentar milagres que renovam esperança.
+
+Para orar:
+
+Senhor Deus, agradeço pelas grandes coisas que tens feito por mim. Renova minha fé, fortalece meu coração e guia meus passos. Que eu reconheça teu cuidado diário e confie sempre na tua fidelidade. Guarda minha vida, minha família e meus sonhos. Que tua paz me acompanhe hoje e sempre. Amém.
+
+Veja também: Exemplos de gratidão na Bíblia: 8 histórias para inspirar
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O amor que salva
 INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
 INFO:root:🔹 Description: Pois o Filho do homem veio buscar e salvar o que estava perdido".
@@ -349,32 +359,6 @@ Senhor, conduz meu coração a viver o extraordinário da Tua presença. Fortale
 
 Seja grato a Deus, veja também: 37 mensagens de gratidão a Deus por mais um dia
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A cultura do adorador
-INFO:root:🔹 URL: https://www.bibliaon.com/esportivo/
-INFO:root:🔹 Description: No entanto, está chegando a hora, e de fato já chegou, em que os verdadeiros adoradores adorarão o Pai em espírito e em verdade. São estes os adoradores que o Pai procura.
-- João 4:23
-
-A cultura do adorador vai muito além das canções entoadas em um culto ou das expressões visíveis de fé. Ela nasce no coração daquele que entende quem Deus é e quem ele é em Deus.
-Adorar é um estilo de vida, um posicionamento constante diante do Criador, independentemente das circunstâncias. O verdadeiro adorador não depende de um ambiente, de uma música ou de um momento específico, ele carrega em si a presença de Deus e transforma qualquer lugar em altar.
-A cultura do adorador é marcada pela entrega. É reconhecer que tudo o que temos e somos pertence ao Senhor. É viver em obediência, santidade e amor, mesmo quando o mundo oferece caminhos mais fáceis.
-O adorador genuíno não busca aplausos, reconhecimento ou emoção; busca agradar ao Pai com a sinceridade do seu coração. Ele entende que a adoração não é apenas o que se canta, mas o que se vive, nas palavras, nas atitudes e nas escolhas diárias.
-Viver essa cultura é permitir que Cristo molde o caráter, renove a mente e direcione os passos. É permitir que cada respiração seja um ato de louvor, cada gesto uma expressão de gratidão, e cada desafio uma oportunidade de exaltar o nome de Deus. O adorador vive para refletir a glória do Senhor, mesmo em meio às dores e lutas.
-
-Por meio de Jesus, portanto, ofereçamos continuamente a Deus um sacrifício de louvor, que é fruto de lábios que confessam o seu nome.
-- Hebreus 13:15
-
-Vivendo a adoração a Deus
-
-Cultive intimidade com Deus diariamente, buscando-O em oração e na Palavra, permitindo que Sua presença transforme sua rotina comum em comunhão constante.
-Pratique obediência mesmo quando for difícil, lembrando que adoração verdadeira nasce da entrega total da vontade humana à perfeita vontade divina.
-Expresse gratidão em todas as circunstâncias, reconhecendo que cada vitória ou desafio é uma oportunidade para honrar e engrandecer o nome do Senhor.
-
-Para orar:
-
-Senhor, ensina-me a viver como verdadeiro adorador. Que minha vida reflita Teu amor, minha voz proclame Tua verdade e meu coração permaneça rendido à Tua vontade. Transforma cada passo em louvor e cada dia em serviço fiel, para que o Teu nome seja exaltado em tudo. Amém.
-
-Veja também: Adorar a Deus de todo coração (Estudo Bíblico)
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 92 characters
@@ -404,15 +388,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  49 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 +++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  32 +---
+ feeds/palavra_biblica_do_dia/atom.xml     |  32 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  90 +++++----
+ feeds/salmo_do_dia/atom.xml               |  80 ++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 303 +++++++++++++++---------------
- 11 files changed, 283 insertions(+), 273 deletions(-)
+ output.log                                | 290 ++++++++++++++----------------
+ 11 files changed, 243 insertions(+), 287 deletions(-)
