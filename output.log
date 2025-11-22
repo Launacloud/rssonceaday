@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120454 characters
-INFO:root:HTML parsed, length: 113361 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (21/11/2025)', 'Palavra de Ontem (20/11/2025)', 'Palavra de Anteontem (19/11/2025)']
-INFO:root:Found 3 URLs: ['/quadrado/', '/igualdade/', '/monitorar/']
-INFO:root:Found 14 descriptions: ['substantivo masculino [Geometria] Figura plana que', 'Sinônimos:\n\nquadro, quadrilátero, quadrângulo', 'Classe gramatical:adjetivo e substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (21/11/2025)', 'Palavra de Ontem (20/11/2025)', 'Palavra de Anteontem (19/11/2025)']
+INFO:root:Response length: 119648 characters
+INFO:root:HTML parsed, length: 112555 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (22/11/2025)', 'Palavra de Ontem (21/11/2025)', 'Palavra de Anteontem (20/11/2025)']
+INFO:root:Found 3 URLs: ['/wc/', '/quadrado/', '/igualdade/']
+INFO:root:Found 13 descriptions: ['substantivo masculino Local com instalações sanitá', 'Sinônimos:\n\nbanheiro', 'Sílabas:wc']
+INFO:root:Found 3 dates: ['Palavra de Hoje (22/11/2025)', 'Palavra de Ontem (21/11/2025)', 'Palavra de Anteontem (20/11/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (21/11/2025)', ID=7d0e02c67f8d7f1704eb42a112f578eb
-INFO:root:Processing entry 2: Title='Palavra de Ontem (20/11/2025)', ID=98b41a068f2c8eef5fa824b01c599754
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (19/11/2025)', ID=6a0a78cf92de027530b0282d500bb2e8
+INFO:root:Processing entry 1: Title='Palavra de Hoje (22/11/2025)', ID=47c06953fbcf8714819af6b9c1cdc2e9
+INFO:root:Processing entry 2: Title='Palavra de Ontem (21/11/2025)', ID=e775038216ea249440d4bb0417289af5
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/11/2025)', ID=2056735bbf8837b6b8e2244fe2daee1b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (21/11/2025) - Significado completo de quadrado:
+INFO:root:🔹 Title: Palavra de Hoje (22/11/2025) - Significado completo de wc:
+INFO:root:🔹 URL: https://www.dicio.com.br/wc/
+INFO:root:🔹 Description: substantivo masculino Local com instalações sanitárias para higiene pessoal; banheiro.[Gramática] Forma Abreviada do inglês: water-closet.Etimologia (origem da palavra wc). Do inglês water-closet.
+ 
+Sinônimos:
+
+banheiro 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (21/11/2025) - Significado completo de quadrado:
 INFO:root:🔹 URL: https://www.dicio.com.br/quadrado/
-INFO:root:🔹 Description: substantivo masculino [Geometria] Figura plana que possui quatro lados iguais e quatro ângulos retos (90°).Matemática Produto de um número por ele mesmo: 16 é o quadrado de 4, visto que 4 x 4 = 16.[Popular] Indivíduo retrógrado, reacionário, de mentalidade pouco evoluída; careta.adjetivo Que é retrógrado, de mentalidade pequena, pouco evoluída; retrógrado, atrasado.Etimologia (origem da palavra quadrado). A palavra quadrado deriva do latim "quadrātus, a, um", com o sentido de algo composto por quatro cantos.
+INFO:root:🔹 Description: Sinônimos:
+
+banheiro
+ Sílabas:wc
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (20/11/2025) - Significado completo de igualdade:
+INFO:root:🔹 URL: https://www.dicio.com.br/igualdade/
+INFO:root:🔹 Description: Sílabas:wc
  
 Sinônimos:
 
 quadro, quadrilátero, quadrângulo 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (20/11/2025) - Significado completo de igualdade:
-INFO:root:🔹 URL: https://www.dicio.com.br/igualdade/
-INFO:root:🔹 Description: Sinônimos:
-
-quadro, quadrilátero, quadrângulo
- Classe gramatical:adjetivo e substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (19/11/2025) - Significado completo de monitorar:
-INFO:root:🔹 URL: https://www.dicio.com.br/monitorar/
-INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
- Sílabas:qua-dra-do
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,82 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 323974 characters
-INFO:root:HTML parsed, length: 313549 characters
-INFO:root:Found 1 titles: ['Atos dos Apóstolos 2:38']
-INFO:root:Found 1 URLs: ['/versiculo/atos_dos_apostolos_2_38/']
-INFO:root:Found 1 descriptions: ['Pedro respondeu: "Arrependam-se, e cada um de você']
+INFO:root:Response length: 323857 characters
+INFO:root:HTML parsed, length: 313432 characters
+INFO:root:Found 1 titles: ['Gênesis 1:1']
+INFO:root:Found 1 URLs: ['/versiculo/genesis_1_1/']
+INFO:root:Found 1 descriptions: ['No princípio Deus criou os céus e a terra. Gênesis']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Atos dos Apóstolos 2:38', ID=ec9e09c2b8ae21940ac7b49a7e7097b6
+INFO:root:Processing entry 1: Title='Gênesis 1:1', ID=18752b7676872e829491c3ac35beffb5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Atos dos Apóstolos 2:38
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/atos_dos_apostolos_2_38/
-INFO:root:🔹 Description: Pedro respondeu: "Arrependam-se, e cada um de vocês seja batizado em nome de Jesus Cristo para perdão dos seus pecados, e receberão o dom do Espírito Santo. Atos dos Apóstolos 2:38
+INFO:root:🔹 Title: Gênesis 1:1
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/genesis_1_1/
+INFO:root:🔹 Description: No princípio Deus criou os céus e a terra. Gênesis 1:1
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325009 characters
-INFO:root:HTML parsed, length: 315400 characters
-INFO:root:Found 3 titles: ['Salmo 95', 'Salmo 10', 'Salmo 40']
-INFO:root:Found 3 URLs: ['/salmos_95/', '/salmos_10/', '/salmos_40/']
-INFO:root:Found 3 descriptions: ['Venham! Cantemos ao Senhor com alegria!\nAclamemos ', 'Senhor, por que estás tão longe?\nPor que te escond', 'Depositei toda a minha esperança no Senhor;\nele se']
-INFO:root:Found 3 dates: ['21 de Novembro de 2025', '20 de Novembro de 2025', '19 de Novembro de 2025']
+INFO:root:Response length: 324081 characters
+INFO:root:HTML parsed, length: 314453 characters
+INFO:root:Found 3 titles: ['Salmo 143', 'Salmo 95', 'Salmo 10']
+INFO:root:Found 3 URLs: ['/salmos_143/', '/salmos_95/', '/salmos_10/']
+INFO:root:Found 3 descriptions: ['Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Venham! Cantemos ao Senhor com alegria!\nAclamemos ', 'Senhor, por que estás tão longe?\nPor que te escond']
+INFO:root:Found 3 dates: ['22 de Novembro de 2025', '21 de Novembro de 2025', '20 de Novembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
-INFO:root:Processing entry 2: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
-INFO:root:Processing entry 3: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
+INFO:root:Processing entry 1: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
+INFO:root:Processing entry 2: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
+INFO:root:Processing entry 3: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 143
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_143/
+INFO:root:🔹 Description: Ouve, Senhor, a minha oração,
+dá ouvidos à minha súplica;
+responde-me
+por tua fidelidade e por tua justiça. 
+Mas não leves o teu servo a julgamento,
+pois ninguém é justo diante de ti. 
+O inimigo persegue-me
+e esmaga-me ao chão;
+ele me faz morar nas trevas,
+como os que há muito morreram. 
+O meu espírito desanima;
+o meu coração está em pânico. 
+Eu me recordo dos tempos antigos;
+medito em todas as tuas obras
+e considero o que as tuas mãos têm feito. 
+Estendo as minhas mãos para ti;
+como a terra árida, tenho sede de ti. 
+Apressa-te em responder-me, Senhor!
+O meu espírito se abate.
+Não escondas de mim o teu rosto,
+ou serei como os que descem à cova. 
+Faze-me ouvir do teu amor leal pela manhã,
+pois em ti confio.
+Mostra-me o caminho que devo seguir,
+pois a ti elevo a minha alma. 
+Livra-me dos meus inimigos, Senhor,
+pois em ti eu me abrigo. 
+Ensina-me a fazer a tua vontade,
+pois tu és o meu Deus;
+que o teu bondoso Espírito
+me conduza por terreno plano. 
+Preserva-me a vida, Senhor,
+por causa do teu nome;
+por tua justiça, tira-me desta angústia. 
+E no teu amor leal,
+aniquila os meus inimigos;
+destrói todos os meus adversários,
+pois sou teu servo. 
+ Salmo 143
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 95
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_95/
 INFO:root:🔹 Description: Venham! Cantemos ao Senhor com alegria!
@@ -162,134 +208,90 @@ a fim de que o homem, que é pó,
 já não cause terror. 
  Salmo 10
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 40
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_40/
-INFO:root:🔹 Description: Depositei toda a minha esperança no Senhor;
-ele se inclinou para mim
-e ouviu o meu grito de socorro. 
-Ele me tirou de um poço de destruição,
-de um atoleiro de lama;
-pôs os meus pés sobre uma rocha
-e firmou-me num local seguro. 
-Pôs um novo cântico na minha boca,
-um hino de louvor ao nosso Deus.
-Muitos verão isso e temerão,
-e confiarão no Senhor. 
-Como é feliz o homem
-que põe no Senhor a sua confiança,
-e não vai atrás dos orgulhosos,
-dos que se afastam para seguir deuses falsos! 
-Senhor meu Deus!
-Quantas maravilhas tens feito!
-Não se pode relatar
-os planos que preparaste para nós!
-Eu queria proclamá-los e anunciá-los,
-mas são por demais numerosos! 
-Sacrifício e oferta não pediste,
-mas abriste os meus ouvidos;
-holocaustos e ofertas pelo pecado
-não exigiste. 
-Então eu disse: "Aqui estou!"
-No livro está escrito a meu respeito. 
-Tenho grande alegria em fazer a tua vontade,
-ó meu Deus;
-a tua lei está no fundo do meu coração. 
-Eu proclamo as novas de justiça
-na grande assembleia;
-como sabes, Senhor, não fecho os meus lábios. 
-Não oculto no coração a tua justiça;
-falo da tua fidelidade e da tua salvação.
-Não escondo da grande assembleia
-a tua fidelidade e a tua verdade. 
-Não me negues a tua misericórdia, Senhor;
-que o teu amor e a tua verdade
-sempre me protejam. 
-Pois incontáveis problemas me cercam,
-as minhas culpas me alcançaram
-e já não consigo ver.
-Mais numerosos são
-que os cabelos da minha cabeça,
-e o meu coração perdeu o ânimo. 
-Agrada-te, Senhor, em libertar-me;
-apressa-te, Senhor, a ajudar-me. 
-Sejam humilhados e frustrados
-todos os que procuram tirar-me a vida;
-retrocedam desprezados
-os que desejam a minha ruína. 
-Fiquem chocados com a sua própria desgraça
-os que zombam de mim. 
-Mas regozijem-se e alegrem-se em ti
-todos os que te buscam;
-digam sempre aqueles que amam a tua salvação:
-"Grande é o Senhor!" 
-Quanto a mim, sou pobre e necessitado,
-mas o Senhor preocupa-se comigo.
-Tu és o meu socorro e o meu libertador;
-meu Deus, não te demores! 
- Salmo 40
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 322159 characters
-INFO:root:HTML parsed, length: 312194 characters
-INFO:root:Found 3 titles: ['Senhor, guarda-me como a menina dos teus olhos', 'Senhor, estou aqui. Pode me usar', 'Deus é bom: lembre-se disso']
+INFO:root:Response length: 326394 characters
+INFO:root:HTML parsed, length: 316422 characters
+INFO:root:Found 3 titles: ['Presente maravilhoso, paz incomparável', 'Senhor, guarda-me como a menina dos teus olhos', 'Senhor, estou aqui. Pode me usar']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Protege-me como à menina dos teus olhos;\nesconde-m', 'Mas o Conselheiro, o Espírito Santo, que o Pai env', 'Falarei da bondade do Senhor,\ndos seus gloriosos f']
-INFO:root:Found 1 dates: ['Sexta, 21 de novembro de 2025']
+INFO:root:Found 3 descriptions: ['Quem crê no Filho tem a vida eterna;\n- João 3:36\n\n', 'Protege-me como à menina dos teus olhos;\nesconde-m', 'Mas o Conselheiro, o Espírito Santo, que o Pai env']
+INFO:root:Found 1 dates: ['Sábado, 22 de novembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Senhor, guarda-me como a menina dos teus olhos', ID=53880ae3ec3e464768fd3125fccbf33d
+INFO:root:Processing entry 1: Title='Presente maravilhoso, paz incomparável', ID=e82029680c3eb8c46b0f0f65d953883d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Senhor, guarda-me como a menina dos teus olhos - Palavra de Hoje
+INFO:root:🔹 Title: Presente maravilhoso, paz incomparável - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Protege-me como à menina dos teus olhos;
-esconde-me à sombra das tuas asas,
-dos ímpios que me atacam com violência,
-dos inimigos mortais que me cercam.
-- Salmo 17:8-9
+INFO:root:🔹 Description: Quem crê no Filho tem a vida eterna;
+- João 3:36
 
-Nossos olhos são muito importantes. Graças a eles, podemos ver a natureza, nossos entes queridos e tudo ao nosso redor. Nossos olhos regulam a quantidade de luz que entra neles, permitindo-nos ver e nos orientar, mesmo em condições de pouca luz. Uma característica importante dos nossos olhos é a sua natureza delicada. Qualquer corpo estranho que entre neles causa grande desconforto e dor, mesmo que seja muito pequeno. É por isso que devemos protegê-los e cuidar deles.
-O salmista Davi, no Salmo 17, sentiu-se ameaçado pelos inimigos que o cercavam. O perigo que o perseguia o fazia sentir-se vulnerável e exposto a ataques, assim como nossos olhos estão expostos à poeira, partículas e poluição. Em meio às ameaças que buscavam destruí-lo, Davi se voltou para o Senhor para pedir Sua proteção e cuidado.
-Ele sabia que era pequeno e fraco diante de seus inimigos. Mas também sabia que servia ao Deus Todo-Poderoso, que o amava e em quem podia confiar. Portanto, sua oração não era simplesmente um grito de medo, mas uma profunda expressão de fé. Davi reconheceu que sua segurança não dependia de sua própria força ou recursos, mas do cuidado atento de Deus, que o protegia com ternura, como quem protege algo tão delicado e precioso quanto a menina dos olhos.
-Podemos confiar no amor protetor do Senhor. Mesmo quando o perigo, a tristeza ou a incerteza parecem nos cercar, Deus nunca nos perde de vista. Ele vela por nós com ternura, amor e cuidado, assim como quem protege os próprios olhos.
-Em meio às ameaças da vida, podemos encontrar refúgio sob a sombra das asas do Senhor. Ali encontramos abrigo, descanso e consolo. Confiemos que, mesmo quando não compreendemos tudo o que acontece, o olhar do Pai está sempre sobre nós, vigilante e cheio de amor. Nada escapa aos Seus cuidados, e em Sua presença encontramos paz para as nossas almas e força para seguir em frente.
 
-Quanto a mim, feita a justiça, verei a tua face;
-quando despertar, ficarei satisfeito
-ao ver a tua semelhança.
-- Salmo 17:15
+As minhas ovelhas ouvem a minha voz; eu as conheço, e elas me seguem. Eu lhes dou a vida eterna, e elas jamais perecerão; ninguém as poderá arrancar da minha mão.
+- João 10:27-28
 
-Veja também: Menina dos olhos de Deus (Estudo Bíblico)
+Em Cristo, Deus nos deu o maior presente que poderíamos receber: a certeza da vida eterna. É verdade que muitas coisas boas nos acontecem na vida. Mas nada se compara à profunda paz de viver guiado por Deus, perdoado por Ele e com a certeza de que estaremos com Ele por toda a eternidade.
+Em Seu imenso amor por você e por mim, Deus enviou Jesus ao mundo. Ele fez isso para que todos os que creem n'Ele recebam a certeza da vida eterna. Sim, habitamos corpos frágeis que se desgastam e um dia morrerão. Mas a vida que Deus nos promete é espiritual, uma vida que nunca terá fim. Onde tudo o que é terreno termina, começa a plenitude que Cristo oferece.
+Mesmo quando enfrentamos dificuldades, medos ou incertezas, esse presente permanece intacto. Saber que Jesus nos sustenta, que Ele nos conhece pelo nome e que nada pode nos separar do Seu amor traz paz aos nossos corações.
+A salvação não é um fardo ou um peso: é um presente maravilhoso que Deus oferece com amor. No entanto, cada pessoa deve decidir se a aceita ou a rejeita. Deus não deseja condenar ninguém: Seu desejo é que todos encontrem a vida em Seu Filho.
+Esse convite também é para você. Jesus te chama com ternura. Ele quer perdoar o seu passado, te dar paz para o presente e garantir o seu futuro eterno. O Seu dom está ao seu alcance com um simples ato de fé: crer n'Ele.
+Aproxime-se de Cristo hoje com confiança, abra o seu coração e receba a paz incomparável de saber que a sua vida e a sua eternidade estão nas mãos do Bom Pastor.
+Veja também: Versículos de esperança para sua vida
  
-Protege-me como à menina dos teus olhos;
-esconde-me à sombra das tuas asas,
-dos ímpios que me atacam com violência,
-dos inimigos mortais que me cercam.
-- Salmo 17:8-9
+Quem crê no Filho tem a vida eterna;
+- João 3:36
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 340103 characters
-INFO:root:HTML parsed, length: 329683 characters
-INFO:root:Found 3 titles: ['Grandes coisas tem feito o Senhor por nós', 'O amor que salva', 'Vivendo o extraordinário']
-INFO:root:Found 3 URLs: ['/a_gratidao_de_paulo/', '/o_amor_incondicional_de_deus_estudo/', '/mensagens_de_agradecimento_a_deus_por_mais_um_dia/']
-INFO:root:Found 3 descriptions: ['Sim, grandes coisas fez o Senhor por nós, e por is', 'Pois o Filho do homem veio buscar e salvar o que e', 'Àquele que é capaz de fazer infinitamente mais do ']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n21\nSEXTA', 'NOVEMBRO\n\n20\nQUINTA', 'NOVEMBRO\n\n19\nQUARTA']
+INFO:root:Response length: 339516 characters
+INFO:root:HTML parsed, length: 329098 characters
+INFO:root:Found 3 titles: ['A tristeza nunca é a saída', 'Grandes coisas tem feito o Senhor por nós', 'O amor que salva']
+INFO:root:Found 4 URLs: ['/alegria_do_senhor/', '/razoes_para_confiar_em_deus/', '/a_gratidao_de_paulo/']
+INFO:root:Found 3 descriptions: ['Embora ele traga tristeza, mostrará compaixão, tão', 'Sim, grandes coisas fez o Senhor por nós, e por is', 'Pois o Filho do homem veio buscar e salvar o que e']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n22\nSÁBADO', 'NOVEMBRO\n\n21\nSEXTA', 'NOVEMBRO\n\n20\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Grandes coisas tem feito o Senhor por nós', ID=2332bca535df9ee38957464a5f955f38
-INFO:root:Processing entry 2: Title='O amor que salva', ID=bbf59446484dd4d5ab9483a4cb5e82bd
-INFO:root:Processing entry 3: Title='Vivendo o extraordinário', ID=49e24183105b0e5027f50dd2213da95a
+INFO:root:Processing entry 1: Title='A tristeza nunca é a saída', ID=d5c4d8e755e6aca8c1a3af1fafdd6c9e
+INFO:root:Processing entry 2: Title='Grandes coisas tem feito o Senhor por nós', ID=2332bca535df9ee38957464a5f955f38
+INFO:root:Processing entry 3: Title='O amor que salva', ID=bbf59446484dd4d5ab9483a4cb5e82bd
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A tristeza nunca é a saída
+INFO:root:🔹 URL: https://www.bibliaon.com/alegria_do_senhor/
+INFO:root:🔹 Description: Embora ele traga tristeza, mostrará compaixão, tão grande é o seu amor infalível.
+Porque não é do seu agrado trazer aflição e tristeza aos filhos dos homens.
+Lamentações 3:32-33
+
+A tristeza nunca é a saída, mas pode fazer parte do percurso... Parece estranho pensar dessa forma, não é? Mas todos passamos por aflições e sofrimentos e não somos isentos disso. O próprio Filho de Deus sofreu e chorou.
+A tristeza pode ter um lado benéfico quando esta nos ajuda a mudar de atitude, a estar quebrantados e arrependidos diante de Deus, cumprindo Sua vontade. É natural ficar triste quando passamos tempos difíceis. Mas com a ajuda sobrenatural de Jesus, podemos enfrentar as lutas com paz no coração.
+A grande diferença para os cristãos é que a tristeza nunca será o ponto final. Ela até pode fazer parte da trajetória, nas noites frias e escuras da vida, mas o crente sabe que a alegria vem pela manhã! Deus não se agrada da sua tristeza, Ele te ama e quer te ajudar. Confie e derrame o seu coração perante o Senhor... Tenha esperança! Em Jesus Cristo temos a garantia da alegria eterna!
+Com Cristo, sua tristeza é passageira!
+
+Você pode estar triste, mas pela fé, isso será passageiro! Creia que Deus pode trazer alegria ao seu coração.
+A tristeza pode ser um meio pelo qual o crente se aproxima mais de Jesus. Busque ao Senhor!
+
+
+Ore, chore e clame a Deus! A oração e comunhão com o Pai não nos deixa amargurados nem angustiados.
+
+Louve! Por mais que seja difícil, adore ao Senhor! Ele traz alívio e vida!
+Tenha esperança! Deus lhe dá forças e consola seu coração.
+
+Leia a Bíblia, busque renovar a fé e a confiança em Jesus Cristo. Ele continua sendo Deus!
+
+Para Orar:
+
+Senhor Deus, Tu conheces meu coração, sabes que mesmo triste e cansado eu confio no Senhor! Na tua Palavra eu encontro consolo e o conforto que meu coração precisa. Me ajuda a vencer as dificuldades da vida, pois sozinho não consigo... Cumpra em mim o teu querer, acima de tudo. Enche-me da Tua alegria e faz dela a minha força neste dia, em nome de Jesus, eu te peço, amém!   
+
+Leia também: A alegria do Senhor é a sua força!
+7 Razões para confiar em Deus nas dificuldades
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Grandes coisas tem feito o Senhor por nós
-INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
 INFO:root:🔹 Description: Sim, grandes coisas fez o Senhor por nós, e por isso estamos alegres.
 - Salmos 126:3
 
@@ -311,7 +313,7 @@ Senhor Deus, agradeço pelas grandes coisas que tens feito por mim. Renova minha
 Veja também: Exemplos de gratidão na Bíblia: 8 histórias para inspirar
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O amor que salva
-INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
+INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
 INFO:root:🔹 Description: Pois o Filho do homem veio buscar e salvar o que estava perdido".
 - Lucas 19:10
 
@@ -335,29 +337,6 @@ Para orar:
 Senhor Jesus, Tu que vieste buscar e salvar o que estava perdido, encontra-me mais uma vez. Restaura meu coração cansado, limpa minhas feridas e guia-me ao Teu caminho. Que eu viva sob Tua graça, aprendendo a amar como Tu amas e a perdoar como foste perdoado. Que Tua presença seja minha direção, meu consolo e minha força. Amém.
 
 Veja também: Reflexão sobre o amor de Deus (Estudo Bíblico)
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Vivendo o extraordinário
-INFO:root:🔹 URL: https://www.bibliaon.com/mensagens_de_agradecimento_a_deus_por_mais_um_dia/
-INFO:root:🔹 Description: Àquele que é capaz de fazer infinitamente mais do que tudo o que pedimos ou pensamos, de acordo com o seu poder que atua em nós,
-- Efésios 3:20
-
-Viver o extraordinário não significa experimentar apenas grandes milagres, eventos espetaculares ou momentos que fogem ao comum. O extraordinário é, antes de tudo, resultado da presença constante de Deus na vida diária. É perceber que o Deus que criou os céus e a terra também habita dentro de nós, conduzindo cada passo, fortalecendo cada decisão e iluminando cada caminho.
-Quando entendemos essa verdade, passamos a enxergar além das circunstâncias. O extraordinário se revela na fé que se mantém firme mesmo quando não vemos a solução, na esperança que floresce em meio às adversidades e no amor que nos impulsiona a continuar, mesmo quando o caminho parece difícil.
-Deus não se limita às nossas expectativas; Ele age muito além delas. Seu propósito é maior do que conseguimos compreender, e Seu poder se manifesta justamente quando nos rendemos totalmente a Ele.
-Para viver o extraordinário, é necessário confiar. Confiar quando tudo vai bem, mas também quando tudo parece incerto. Confiar nos planos de Deus, mesmo quando eles não se alinham aos nossos. Essa confiança nos leva a passos de obediência, e a obediência abre portas que jamais conseguiríamos abrir sozinhos. Deus honra aqueles que O buscam de todo o coração e revela Seus caminhos àqueles que decidem caminhar pela fé.
-O extraordinário também se manifesta nas pequenas coisas: no cuidado diário, na provisão inesperada, na paz que guarda o coração, no consolo que só o Espírito Santo pode dar. Quando reconhecemos essas manifestações, nossa vida se torna um testemunho vivo do poder de Deus.
-Viver o extraordinário é viver rendido ao Pai, aberto ao agir do Espírito e comprometido com Jesus. É permitir que Deus transforme o ordinário em algo cheio de propósito e glória.
-Com Deus, vivendo o extraordinário
-
-Separe diariamente momentos para conversar com Deus, apresentando seus desafios, sonhos e agradecimentos. A oração alinha o coração ao Pai e abre espaço para experiências extraordinárias em Sua presença.
-Dê passos de fé baseados na Palavra, mesmo quando as circunstâncias pareçam contrárias. A obediência revela confiança genuína e permite que Deus manifeste Seu poder além da lógica humana e das limitações pessoais.
-Perceba e reconheça o cuidado de Deus: uma resposta inesperada, uma paz renovada, uma porta aberta. Gratidão constante amplia a visão espiritual e fortalece a expectativa pelo extraordinário de Deus.
-
-Para orar:
-
-Senhor, conduz meu coração a viver o extraordinário da Tua presença. Fortalece minha fé, sustenta-me nos desafios e enche minha mente de paz. Que cada passo seja guiado pela Tua sabedoria, e que eu reconheça Teu cuidado em cada detalhe. Molda meu caráter, renova minha esperança e faz brilhar Tua luz através da minha vida. Amém.
-
-Seja grato a Deus, veja também: 37 mensagens de gratidão a Deus por mais um dia
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -388,15 +367,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 +++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  32 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 +++--
+ feeds/devocional_de_hoje/feed.json        |  16 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  33 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  80 ++++-----
+ feeds/salmo_do_dia/atom.xml               | 106 ++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 290 ++++++++++++++----------------
- 11 files changed, 243 insertions(+), 287 deletions(-)
+ output.log                                | 323 ++++++++++++++----------------
+ 11 files changed, 271 insertions(+), 325 deletions(-)
