@@ -1,44 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119648 characters
-INFO:root:HTML parsed, length: 112555 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (22/11/2025)', 'Palavra de Ontem (21/11/2025)', 'Palavra de Anteontem (20/11/2025)']
-INFO:root:Found 3 URLs: ['/wc/', '/quadrado/', '/igualdade/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Local com instalações sanitá', 'Sinônimos:\n\nbanheiro', 'Sílabas:wc']
-INFO:root:Found 3 dates: ['Palavra de Hoje (22/11/2025)', 'Palavra de Ontem (21/11/2025)', 'Palavra de Anteontem (20/11/2025)']
+INFO:root:Response length: 119053 characters
+INFO:root:HTML parsed, length: 112167 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (23/11/2025)', 'Palavra de Ontem (22/11/2025)', 'Palavra de Anteontem (21/11/2025)']
+INFO:root:Found 3 URLs: ['/arraigado/', '/wc/', '/quadrado/']
+INFO:root:Found 12 descriptions: ['adjetivo Que se conseguiu estabelecer ou fixar; ra', 'Sinônimos:\n\npermanente, enraizado, obstinado, radi', 'Antônimos:\n\npassageiro, provisório, efêmero']
+INFO:root:Found 3 dates: ['Palavra de Hoje (23/11/2025)', 'Palavra de Ontem (22/11/2025)', 'Palavra de Anteontem (21/11/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (22/11/2025)', ID=47c06953fbcf8714819af6b9c1cdc2e9
-INFO:root:Processing entry 2: Title='Palavra de Ontem (21/11/2025)', ID=e775038216ea249440d4bb0417289af5
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/11/2025)', ID=2056735bbf8837b6b8e2244fe2daee1b
+INFO:root:Processing entry 1: Title='Palavra de Hoje (23/11/2025)', ID=7b80fb2c293b644627c2e4e5c6ceb82b
+INFO:root:Processing entry 2: Title='Palavra de Ontem (22/11/2025)', ID=91850dd5f9a85c85a7a518f87f1a6bfc
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/11/2025)', ID=685d924cc39becbc9962f6be4cd1ca3e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (22/11/2025) - Significado completo de wc:
-INFO:root:🔹 URL: https://www.dicio.com.br/wc/
-INFO:root:🔹 Description: substantivo masculino Local com instalações sanitárias para higiene pessoal; banheiro.[Gramática] Forma Abreviada do inglês: water-closet.Etimologia (origem da palavra wc). Do inglês water-closet.
+INFO:root:🔹 Title: Palavra de Hoje (23/11/2025) - Significado completo de arraigado:
+INFO:root:🔹 URL: https://www.dicio.com.br/arraigado/
+INFO:root:🔹 Description: adjetivo Que se conseguiu estabelecer ou fixar; radicado.[Figurado] Estabelecido na memória, nos costumes ou na cultura de uma sociedade, de um povo ou de um indivíduo.[Figurado] Que mantém uma mesma ideia, opinião ou hábito; obstinado.Que criou ou lançou raízes; que conseguiu arraigar; enraizado.Etimologia (origem da palavra arraigado). A palavra arraigado deriva como particípio passado do verbo arraigar.
  
 Sinônimos:
 
-banheiro 
+permanente, enraizado, obstinado, radicado, arreigado 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (21/11/2025) - Significado completo de quadrado:
-INFO:root:🔹 URL: https://www.dicio.com.br/quadrado/
+INFO:root:🔹 Title: Palavra de Ontem (22/11/2025) - Significado completo de wc:
+INFO:root:🔹 URL: https://www.dicio.com.br/wc/
 INFO:root:🔹 Description: Sinônimos:
 
-banheiro
- Sílabas:wc
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (20/11/2025) - Significado completo de igualdade:
-INFO:root:🔹 URL: https://www.dicio.com.br/igualdade/
-INFO:root:🔹 Description: Sílabas:wc
+permanente, enraizado, obstinado, radicado, arreigado
  
-Sinônimos:
+Antônimos:
 
-quadro, quadrilátero, quadrângulo 
+passageiro, provisório, efêmero 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (21/11/2025) - Significado completo de quadrado:
+INFO:root:🔹 URL: https://www.dicio.com.br/quadrado/
+INFO:root:🔹 Description: Antônimos:
+
+passageiro, provisório, efêmero
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,40 +48,86 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 323857 characters
-INFO:root:HTML parsed, length: 313432 characters
-INFO:root:Found 1 titles: ['Gênesis 1:1']
-INFO:root:Found 1 URLs: ['/versiculo/genesis_1_1/']
-INFO:root:Found 1 descriptions: ['No princípio Deus criou os céus e a terra. Gênesis']
+INFO:root:Response length: 323834 characters
+INFO:root:HTML parsed, length: 313409 characters
+INFO:root:Found 1 titles: ['Joel 2:11']
+INFO:root:Found 1 URLs: ['/versiculo/joel_2_11/']
+INFO:root:Found 1 descriptions: ['O Senhor levanta a sua voz\nà frente do seu exércit']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Gênesis 1:1', ID=18752b7676872e829491c3ac35beffb5
+INFO:root:Processing entry 1: Title='Joel 2:11', ID=ced48c871f843854cba910189ee5174d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Gênesis 1:1
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/genesis_1_1/
-INFO:root:🔹 Description: No princípio Deus criou os céus e a terra. Gênesis 1:1
+INFO:root:🔹 Title: Joel 2:11
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joel_2_11/
+INFO:root:🔹 Description: O Senhor levanta a sua voz
+à frente do seu exército.
+Como é grande o seu exército!
+Como são poderosos
+os que obedecem à sua ordem!
+Como é grande o dia do Senhor!
+Como será terrível!
+Quem poderá suportá-lo? Joel 2:11
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 324081 characters
-INFO:root:HTML parsed, length: 314453 characters
-INFO:root:Found 3 titles: ['Salmo 143', 'Salmo 95', 'Salmo 10']
-INFO:root:Found 3 URLs: ['/salmos_143/', '/salmos_95/', '/salmos_10/']
-INFO:root:Found 3 descriptions: ['Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Venham! Cantemos ao Senhor com alegria!\nAclamemos ', 'Senhor, por que estás tão longe?\nPor que te escond']
-INFO:root:Found 3 dates: ['22 de Novembro de 2025', '21 de Novembro de 2025', '20 de Novembro de 2025']
+INFO:root:Response length: 323285 characters
+INFO:root:HTML parsed, length: 313650 characters
+INFO:root:Found 3 titles: ['Salmo 141', 'Salmo 143', 'Salmo 95']
+INFO:root:Found 3 URLs: ['/salmos_141/', '/salmos_143/', '/salmos_95/']
+INFO:root:Found 3 descriptions: ['Clamo a ti, Senhor; vem depressa!\nEscuta a minha v', 'Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Venham! Cantemos ao Senhor com alegria!\nAclamemos ']
+INFO:root:Found 3 dates: ['23 de Novembro de 2025', '22 de Novembro de 2025', '21 de Novembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
-INFO:root:Processing entry 2: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
-INFO:root:Processing entry 3: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
+INFO:root:Processing entry 1: Title=' Salmo 141', ID=e2beea10b2b051294b0a6e62337fc7ac
+INFO:root:Processing entry 2: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
+INFO:root:Processing entry 3: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 141
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_141/
+INFO:root:🔹 Description: Clamo a ti, Senhor; vem depressa!
+Escuta a minha voz quando clamo a ti. 
+Seja a minha oração
+como incenso diante de ti
+e o levantar das minhas mãos
+como a oferta da tarde. 
+Coloca, Senhor,
+uma guarda à minha boca;
+vigia a porta de meus lábios. 
+Não permitas que o meu coração
+se volte para o mal
+nem que eu me envolva em práticas perversas
+com os malfeitores.
+Que eu nunca participe dos seus banquetes! 
+Fira-me o justo com amor leal
+e me repreenda,
+mas não perfume a minha cabeça
+o óleo do ímpio,
+pois a minha oração
+é contra as práticas dos malfeitores. 
+Quando eles caírem nas mãos da Rocha,
+o juiz deles,
+ouvirão as minhas palavras com apreço. 
+Como a terra é arada e fendida,
+assim foram espalhados os seus ossos
+à entrada da sepultura. 
+Mas os meus olhos estão fixos em ti,
+ó Soberano Senhor;
+em ti me refugio;
+não me entregues à morte. 
+Guarda-me das armadilhas
+que prepararam contra mim,
+das ciladas dos que praticam o mal. 
+Caiam os ímpios em sua própria rede,
+enquanto eu escapo ileso. 
+ Salmo 141
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 143
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_143/
 INFO:root:🔹 Description: Ouve, Senhor, a minha oração,
@@ -154,115 +202,77 @@ Por isso jurei na minha ira:
 "Jamais entrarão no meu descanso". 
  Salmo 95
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 10
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_10/
-INFO:root:🔹 Description: Senhor, por que estás tão longe?
-Por que te escondes em tempos de angústia? 
-Em sua arrogância o ímpio persegue o pobre,
-que é apanhado em suas tramas. 
-Ele se gaba de sua própria cobiça
-e, em sua ganância,
-amaldiçoa e insulta o Senhor. 
-Em sua presunção o ímpio não o busca;
-não há lugar para Deus
-em nenhum dos seus planos. 
-Os seus caminhos prosperam sempre;
-tão acima da sua compreensão estão as tuas leis
-que ele faz pouco caso
-de todos os seus adversários, 
-pensando consigo mesmo: "Nada me abalará!
-Desgraça alguma me atingirá,
-nem a mim nem aos meus descendentes". 
-Sua boca está cheia de maldições,
-mentiras e ameaças;
-violência e maldade estão em sua língua. 
-Fica à espreita perto dos povoados;
-em emboscadas mata os inocentes,
-procurando às escondidas as suas vítimas. 
-Fica à espreita como o leão escondido;
-fica à espreita para apanhar o necessitado;
-apanha o necessitado e o arrasta para a sua rede. 
-Agachado, fica de tocaia;
-as suas vítimas caem em seu poder. 
-Pensa consigo mesmo: "Deus se esqueceu;
-escondeu o rosto e nunca verá isto". 
-Levanta-te, Senhor!
-Ergue a tua mão, ó Deus!
-Não te esqueças dos necessitados. 
-Por que o ímpio insulta a Deus,
-dizendo no seu íntimo:
-"De nada me pedirás contas!"? 
-Mas tu enxergas o sofrimento e a dor;
-observa-os para tomá-los em tuas mãos.
-A vítima deles entrega-se a ti;
-tu és o protetor do órfão. 
-Quebra o braço do ímpio e do perverso,
-pede contas de sua impiedade
-até que dela nada mais se ache. 
-O Senhor é rei para todo o sempre;
-da sua terra desapareceram os outros povos. 
-Tu, Senhor, ouves a súplica dos necessitados;
-tu os reanimas e atendes ao seu clamor. 
-Defendes o órfão e o oprimido,
-a fim de que o homem, que é pó,
-já não cause terror. 
- Salmo 10
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 326394 characters
-INFO:root:HTML parsed, length: 316422 characters
-INFO:root:Found 3 titles: ['Presente maravilhoso, paz incomparável', 'Senhor, guarda-me como a menina dos teus olhos', 'Senhor, estou aqui. Pode me usar']
+INFO:root:Response length: 326616 characters
+INFO:root:HTML parsed, length: 316645 characters
+INFO:root:Found 3 titles: ['Criando uma cultura de louvor', 'Presente maravilhoso, paz incomparável', 'Senhor, guarda-me como a menina dos teus olhos']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Quem crê no Filho tem a vida eterna;\n- João 3:36\n\n', 'Protege-me como à menina dos teus olhos;\nesconde-m', 'Mas o Conselheiro, o Espírito Santo, que o Pai env']
-INFO:root:Found 1 dates: ['Sábado, 22 de novembro de 2025']
+INFO:root:Found 3 descriptions: ['Entrem por suas portas com ações de graças\ne em se', 'Quem crê no Filho tem a vida eterna;\n- João 3:36\n\n', 'Protege-me como à menina dos teus olhos;\nesconde-m']
+INFO:root:Found 1 dates: ['Domingo, 23 de novembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Presente maravilhoso, paz incomparável', ID=e82029680c3eb8c46b0f0f65d953883d
+INFO:root:Processing entry 1: Title='Criando uma cultura de louvor', ID=d2377c72b05aa7336968f3c37470b17a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Presente maravilhoso, paz incomparável - Palavra de Hoje
+INFO:root:🔹 Title: Criando uma cultura de louvor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Quem crê no Filho tem a vida eterna;
-- João 3:36
+INFO:root:🔹 Description: Entrem por suas portas com ações de graças
+e em seus átrios com louvor;
+deem-lhe graças e bendigam o seu nome.
+- Salmos 100:4 
 
-
-As minhas ovelhas ouvem a minha voz; eu as conheço, e elas me seguem. Eu lhes dou a vida eterna, e elas jamais perecerão; ninguém as poderá arrancar da minha mão.
-- João 10:27-28
-
-Em Cristo, Deus nos deu o maior presente que poderíamos receber: a certeza da vida eterna. É verdade que muitas coisas boas nos acontecem na vida. Mas nada se compara à profunda paz de viver guiado por Deus, perdoado por Ele e com a certeza de que estaremos com Ele por toda a eternidade.
-Em Seu imenso amor por você e por mim, Deus enviou Jesus ao mundo. Ele fez isso para que todos os que creem n'Ele recebam a certeza da vida eterna. Sim, habitamos corpos frágeis que se desgastam e um dia morrerão. Mas a vida que Deus nos promete é espiritual, uma vida que nunca terá fim. Onde tudo o que é terreno termina, começa a plenitude que Cristo oferece.
-Mesmo quando enfrentamos dificuldades, medos ou incertezas, esse presente permanece intacto. Saber que Jesus nos sustenta, que Ele nos conhece pelo nome e que nada pode nos separar do Seu amor traz paz aos nossos corações.
-A salvação não é um fardo ou um peso: é um presente maravilhoso que Deus oferece com amor. No entanto, cada pessoa deve decidir se a aceita ou a rejeita. Deus não deseja condenar ninguém: Seu desejo é que todos encontrem a vida em Seu Filho.
-Esse convite também é para você. Jesus te chama com ternura. Ele quer perdoar o seu passado, te dar paz para o presente e garantir o seu futuro eterno. O Seu dom está ao seu alcance com um simples ato de fé: crer n'Ele.
-Aproxime-se de Cristo hoje com confiança, abra o seu coração e receba a paz incomparável de saber que a sua vida e a sua eternidade estão nas mãos do Bom Pastor.
-Veja também: Versículos de esperança para sua vida
+Criar uma cultura de louvor é mais do que cantar canções; é cultivar um coração constantemente voltado para Deus. Em meio às tarefas diárias, desafios e incertezas, o louvor se torna um lembrete de que não caminhamos sozinhos. Ele nos convida a enxergar a fidelidade de Deus mesmo quando nossos olhos naturais veem apenas obstáculos.
+Quando escolhemos louvar, estamos decidindo confiar. A cultura de louvor nasce quando cada momento, grande ou pequeno, é uma oportunidade para reconhecer a presença de Deus. Louvar é afirmar que Ele continua sendo bom, mesmo quando a vida tenta nos convencer do contrário. É declarar que Sua graça é suficiente e que Seu amor jamais falha.
+Uma comunidade que cultiva o louvor se torna forte, resiliente e cheia de esperança. As pessoas passam a enxergar o agir de Deus umas nas outras, encorajando-se mutuamente a permanecer firmes. O louvor nos une, nos edifica e fortalece nossa fé.
+Comece onde você está. Separe um momento do seu dia para agradecer. Reconheça as pequenas vitórias, os livramentos silenciosos e a paz que Deus proporciona. Transforme a gratidão em hábito e verá o louvor fluir naturalmente.
+Ao criar uma cultura de louvor, abrimos espaço para que Deus transforme ambientes, cure corações e renove forças. O louvor muda nossa perspectiva, eleva nossa alma e nos aproxima ainda mais do Pai. Que cada passo seu seja marcado pela certeza de que Deus é digno de toda honra, glória e adoração. E que, ao louvar, você experimente a alegria plena de caminhar na presença dEle todos os dias.
+Que esta prática diária se torne uma chama constante em seu coração, iluminando decisões, fortalecendo relacionamentos e trazendo clareza ao propósito que Deus reservou para você. Que sua vida seja um testemunho vivo de que o louvor abre portas e transforma histórias.
+Veja também: Reflexão bíblica sobre a verdadeira adoração a Deus.
  
-Quem crê no Filho tem a vida eterna;
-- João 3:36
+Entrem por suas portas com ações de graças
+e em seus átrios com louvor;
+deem-lhe graças e bendigam o seu nome.
+- Salmos 100:4 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 339516 characters
-INFO:root:HTML parsed, length: 329098 characters
-INFO:root:Found 3 titles: ['A tristeza nunca é a saída', 'Grandes coisas tem feito o Senhor por nós', 'O amor que salva']
-INFO:root:Found 4 URLs: ['/alegria_do_senhor/', '/razoes_para_confiar_em_deus/', '/a_gratidao_de_paulo/']
-INFO:root:Found 3 descriptions: ['Embora ele traga tristeza, mostrará compaixão, tão', 'Sim, grandes coisas fez o Senhor por nós, e por is', 'Pois o Filho do homem veio buscar e salvar o que e']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n22\nSÁBADO', 'NOVEMBRO\n\n21\nSEXTA', 'NOVEMBRO\n\n20\nQUINTA']
+INFO:root:Response length: 338352 characters
+INFO:root:HTML parsed, length: 327939 characters
+INFO:root:Found 3 titles: ['O primeiro passo para a paz', 'A tristeza nunca é a saída', 'Grandes coisas tem feito o Senhor por nós']
+INFO:root:Found 3 URLs: ['/alegria_do_senhor/', '/razoes_para_confiar_em_deus/', '/a_gratidao_de_paulo/']
+INFO:root:Found 3 descriptions: ['Deixo a paz a vocês; a minha paz dou a vocês. Não ', 'Embora ele traga tristeza, mostrará compaixão, tão', 'Sim, grandes coisas fez o Senhor por nós, e por is']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n23\nDOMINGO', 'NOVEMBRO\n\n22\nSÁBADO', 'NOVEMBRO\n\n21\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A tristeza nunca é a saída', ID=d5c4d8e755e6aca8c1a3af1fafdd6c9e
-INFO:root:Processing entry 2: Title='Grandes coisas tem feito o Senhor por nós', ID=2332bca535df9ee38957464a5f955f38
-INFO:root:Processing entry 3: Title='O amor que salva', ID=bbf59446484dd4d5ab9483a4cb5e82bd
+INFO:root:Processing entry 1: Title='O primeiro passo para a paz', ID=358f5e28e28225cd064d5305989fe02b
+INFO:root:Processing entry 2: Title='A tristeza nunca é a saída', ID=d5c4d8e755e6aca8c1a3af1fafdd6c9e
+INFO:root:Processing entry 3: Title='Grandes coisas tem feito o Senhor por nós', ID=2332bca535df9ee38957464a5f955f38
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A tristeza nunca é a saída
+INFO:root:🔹 Title: O primeiro passo para a paz
 INFO:root:🔹 URL: https://www.bibliaon.com/alegria_do_senhor/
+INFO:root:🔹 Description: Deixo a paz a vocês; a minha paz dou a vocês. Não a dou como o mundo a dá. Não se perturbe o seu coração, nem tenham medo.
+João 14.27
+
+Às vezes a mente parece uma casa cheia de portas abertas. Pensamentos entrando e saindo, emoções sem silêncio, decisões por fazer. Começar uma jornada de calma não pede força de vontade, pede um primeiro passo simples: respirar com Deus presente.
+A paz de Jesus não é ausência de problemas. É presença. Ele não promete um dia sem pressões, mas um coração que não precisa desabar diante delas. A calma começa quando lembramos quem está conosco, não quando tudo ao redor melhora. A clareza nasce quando a alma deixa de correr e descansa em Deus.
+Estamos começando 7 dias buscando crescer em paz. Hoje, deixe que essa paz se torne uma escolha, mesmo que pequena. Um momento de pausa já pode mudar seu dia inteiro.
+Prática para hoje
+Encontre dois minutos para ficar em silêncio. Só dois. Inspire devagar, expire e diga: "Senhor, eu recebo Tua paz". Nada mais. Apenas isso. Jesus é sua paz.
+Amanhã
+Vamos falar sobre como lidar com pensamentos que parecem não cooperar. Volte para continuar esta série!
+Para orar:
+
+Senhor, acalma meu interior e faz nascer em mim a paz que vem de Ti. Dá descanso aos meus pensamentos e leveza ao meu coração. Guia meus passos hoje e ajuda-me a perceber Tua presença em cada momento. Amém.
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: A tristeza nunca é a saída
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
 INFO:root:🔹 Description: Embora ele traga tristeza, mostrará compaixão, tão grande é o seu amor infalível.
 Porque não é do seu agrado trazer aflição e tristeza aos filhos dos homens.
 Lamentações 3:32-33
@@ -291,7 +301,7 @@ Leia também: A alegria do Senhor é a sua força!
 7 Razões para confiar em Deus nas dificuldades
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Grandes coisas tem feito o Senhor por nós
-INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
 INFO:root:🔹 Description: Sim, grandes coisas fez o Senhor por nós, e por isso estamos alegres.
 - Salmos 126:3
 
@@ -311,32 +321,6 @@ Para orar:
 Senhor Deus, agradeço pelas grandes coisas que tens feito por mim. Renova minha fé, fortalece meu coração e guia meus passos. Que eu reconheça teu cuidado diário e confie sempre na tua fidelidade. Guarda minha vida, minha família e meus sonhos. Que tua paz me acompanhe hoje e sempre. Amém.
 
 Veja também: Exemplos de gratidão na Bíblia: 8 histórias para inspirar
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O amor que salva
-INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
-INFO:root:🔹 Description: Pois o Filho do homem veio buscar e salvar o que estava perdido".
-- Lucas 19:10
-
-Há um amor que não se cansa. Um amor que caminha pelas estradas poeirentas da alma humana, que atravessa muros de culpa e vales de esquecimento. É o amor do Filho do Homem, aquele que veio buscar e salvar o que estava perdido.
-Perdido não é apenas quem se afastou de Deus; é também quem perdeu o rumo dentro de si. Quem deixou a esperança adormecer, quem carrega fardos invisíveis, quem se acostumou à escuridão e já não acredita na luz. É por esses que Cristo veio, não para julgar, mas para resgatar.
-Em meio ao barulho do mundo, Ele chama pelo nome. Não com gritos, mas com uma voz mansa que atravessa o coração. Quando todos desistem, Ele insiste. Quando o olhar se apaga, Ele acende de novo a chama. O Filho do Homem não procura multidões, procura pessoas. Ele vê o valor escondido em cada ser humano, mesmo quando ninguém mais enxerga.
-Buscar e salvar, dois verbos que revelam ação e compaixão. Buscar exige movimento; salvar, entrega. Jesus não espera o perdido voltar por conta própria: Ele sai ao encontro. E ao encontrá-lo, não o repreende; o envolve com graça, restaura sua dignidade e o chama de filho.
-Essa é a essência do Evangelho: o Deus que desce para levantar. O Salvador que troca o trono pela cruz, a glória pelo resgate. O amor que não se conforma em perder ninguém.
-Porque em cada coração perdido há um lugar que só Cristo pode preencher. E quando Ele o faz, o que antes estava em ruínas se torna morada viva da esperança.
-Vivenciando o amor salvador
-
-
-Permita-se ser encontrado: reconheça sua necessidade, abandone o orgulho e abra o coração para o toque transformador de Cristo que restaura e direciona.
-
-Caminhe em compaixão: estenda aos outros o mesmo amor que recebeu, oferecendo escuta, perdão e presença aos que também se sentem perdidos.
-
-Viva com propósito: busque diariamente alinhar suas decisões ao Evangelho, sendo instrumento da graça que reconstrói vidas e semeia esperança duradoura.
-
-Para orar:
-
-Senhor Jesus, Tu que vieste buscar e salvar o que estava perdido, encontra-me mais uma vez. Restaura meu coração cansado, limpa minhas feridas e guia-me ao Teu caminho. Que eu viva sob Tua graça, aprendendo a amar como Tu amas e a perdoar como foste perdoado. Que Tua presença seja minha direção, meu consolo e minha força. Amém.
-
-Veja também: Reflexão sobre o amor de Deus (Estudo Bíblico)
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -367,15 +351,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 +++--
- feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  33 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  40 ++--
+ feeds/devocional_de_hoje/feed.json        |  14 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  30 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  20 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 106 ++++------
+ feeds/salmo_do_dia/atom.xml               |  91 ++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   9 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 323 ++++++++++++++----------------
- 11 files changed, 271 insertions(+), 325 deletions(-)
+ output.log                                | 304 ++++++++++++++----------------
+ 11 files changed, 257 insertions(+), 301 deletions(-)
