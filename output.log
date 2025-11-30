@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119041 characters
-INFO:root:HTML parsed, length: 112386 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (29/11/2025)', 'Palavra de Ontem (28/11/2025)', 'Palavra de Anteontem (27/11/2025)']
-INFO:root:Found 3 URLs: ['/maestria/', '/barao/', '/imunoestimulante/']
-INFO:root:Found 11 descriptions: ['substantivo feminino Perícia, perfeição e excesso ', 'Sinônimos:\n\nperícia, perfeição, habilidade, mestri', 'Antônimos:\n\ndefeito, imperfeição']
-INFO:root:Found 3 dates: ['Palavra de Hoje (29/11/2025)', 'Palavra de Ontem (28/11/2025)', 'Palavra de Anteontem (27/11/2025)']
+INFO:root:Response length: 119392 characters
+INFO:root:HTML parsed, length: 112553 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (30/11/2025)', 'Palavra de Ontem (29/11/2025)', 'Palavra de Anteontem (28/11/2025)']
+INFO:root:Found 3 URLs: ['/entomofago/', '/maestria/', '/barao/']
+INFO:root:Found 13 descriptions: ['adjetivo Que se alimenta de insetos, falando tanto', 'Sinônimos:\n\ninsetívoro', 'Classe gramatical:adjetivo e substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (30/11/2025)', 'Palavra de Ontem (29/11/2025)', 'Palavra de Anteontem (28/11/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (29/11/2025)', ID=e1faba11f74786e54bc8de4f01f5eaee
-INFO:root:Processing entry 2: Title='Palavra de Ontem (28/11/2025)', ID=9eab8c213d0a2837e1c95594b905018b
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (27/11/2025)', ID=ceb4d71eaebf755e5c876807f570fed5
+INFO:root:Processing entry 1: Title='Palavra de Hoje (30/11/2025)', ID=3f1fc37975259977ac7bb7faa602490d
+INFO:root:Processing entry 2: Title='Palavra de Ontem (29/11/2025)', ID=933279a1dbc6a5a7279fe05bcd9c58cb
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/11/2025)', ID=5215e39924fc81bfebbd1de22586b026
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (29/11/2025) - Significado completo de maestria:
-INFO:root:🔹 URL: https://www.dicio.com.br/maestria/
-INFO:root:🔹 Description: substantivo feminino Perícia, perfeição e excesso de cuidado na realização de alguma coisa; mestria: desenvolvia seu trabalho com maestria.Grande conhecimento acerca de alguma coisa, de um pensamento, de uma matéria, de uma arte etc: obra que resulta da sua maestria.Etimologia (origem da palavra maestria). A palavra maestria tem sua origem incerta; talvez derivada de mestre, "maestre", e do sufixo -ia.
+INFO:root:🔹 Title: Palavra de Hoje (30/11/2025) - Significado completo de entomófago:
+INFO:root:🔹 URL: https://www.dicio.com.br/entomofago/
+INFO:root:🔹 Description: adjetivo Que se alimenta de insetos, falando tanto de plantas como de animais; insetívoro: planta entomófaga.substantivo masculino Animal ou planta que se alimenta de insetos.Etimologia (origem da palavra entomófago). Do grego éntomos + fago.
  
 Sinônimos:
 
-perícia, perfeição, habilidade, mestria, virtuosidade, excelência 
+insetívoro 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (28/11/2025) - Significado completo de barão:
-INFO:root:🔹 URL: https://www.dicio.com.br/barao/
+INFO:root:🔹 Title: Palavra de Ontem (29/11/2025) - Significado completo de maestria:
+INFO:root:🔹 URL: https://www.dicio.com.br/maestria/
 INFO:root:🔹 Description: Sinônimos:
 
-perícia, perfeição, habilidade, mestria, virtuosidade, excelência
- 
-Antônimos:
-
-defeito, imperfeição 
-
+insetívoro
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (27/11/2025) - Significado completo de imunoestimulante:
-INFO:root:🔹 URL: https://www.dicio.com.br/imunoestimulante/
-INFO:root:🔹 Description: Antônimos:
-
-defeito, imperfeição
- Classe gramatical:substantivo feminino
+INFO:root:🔹 Title: Palavra de Anteontem (28/11/2025) - Significado completo de barão:
+INFO:root:🔹 URL: https://www.dicio.com.br/barao/
+INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
+ Sílabas:en-to-mó-fa-go
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,62 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 338912 characters
-INFO:root:HTML parsed, length: 328217 characters
-INFO:root:Found 1 titles: ['1 Timóteo 4:12']
-INFO:root:Found 1 URLs: ['/versiculo/1_timoteo_4_12/']
-INFO:root:Found 1 descriptions: ['Ninguém o despreze pelo fato de você ser jovem, ma']
+INFO:root:Response length: 339049 characters
+INFO:root:HTML parsed, length: 328354 characters
+INFO:root:Found 1 titles: ['Atos dos Apóstolos 1:8']
+INFO:root:Found 1 URLs: ['/versiculo/atos_dos_apostolos_1_8/']
+INFO:root:Found 1 descriptions: ['Mas receberão poder quando o Espírito Santo descer']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Timóteo 4:12', ID=843b411ddc931c3ddbdd82da7f129f54
+INFO:root:Processing entry 1: Title='Atos dos Apóstolos 1:8', ID=a7dd97ca6e13c828041966ce855c895a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Timóteo 4:12
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_timoteo_4_12/
-INFO:root:🔹 Description: Ninguém o despreze pelo fato de você ser jovem, mas seja um exemplo para os fiéis na palavra, no procedimento, no amor, na fé e na pureza. 1 Timóteo 4:12
+INFO:root:🔹 Title: Atos dos Apóstolos 1:8
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/atos_dos_apostolos_1_8/
+INFO:root:🔹 Description: Mas receberão poder quando o Espírito Santo descer sobre vocês, e serão minhas testemunhas em Jerusalém, em toda a Judeia e Samaria, e até os confins da terra". Atos dos Apóstolos 1:8
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 338546 characters
-INFO:root:HTML parsed, length: 328646 characters
-INFO:root:Found 3 titles: ['Salmo 2', 'Salmo 137', 'Salmo 79']
-INFO:root:Found 3 URLs: ['/salmos_2/', '/salmos_137/', '/salmos_79/']
-INFO:root:Found 3 descriptions: ['Por que se amotinam as nações\ne os povos tramam em', 'Junto aos rios da Babilônia\nnós nos sentamos e cho', 'Ó Deus, as nações invadiram a tua herança,\nprofana']
-INFO:root:Found 3 dates: ['29 de Novembro de 2025', '28 de Novembro de 2025', '27 de Novembro de 2025']
+INFO:root:Response length: 337608 characters
+INFO:root:HTML parsed, length: 327687 characters
+INFO:root:Found 3 titles: ['Salmo 23', 'Salmo 2', 'Salmo 137']
+INFO:root:Found 3 URLs: ['/salmos_23/', '/salmos_2/', '/salmos_137/']
+INFO:root:Found 3 descriptions: ['O Senhor é o meu pastor; de nada terei falta. \nEm ', 'Por que se amotinam as nações\ne os povos tramam em', 'Junto aos rios da Babilônia\nnós nos sentamos e cho']
+INFO:root:Found 3 dates: ['30 de Novembro de 2025', '29 de Novembro de 2025', '28 de Novembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
-INFO:root:Processing entry 2: Title=' Salmo 137', ID=491c4125bdbea6fbf3c781fcbabba473
-INFO:root:Processing entry 3: Title=' Salmo 79', ID=c848f0aa496275f7078cb360fbcd7adf
+INFO:root:Processing entry 1: Title=' Salmo 23', ID=55cf3da6e8cae97ccf3b295406df8fc3
+INFO:root:Processing entry 2: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
+INFO:root:Processing entry 3: Title=' Salmo 137', ID=491c4125bdbea6fbf3c781fcbabba473
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 23
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_23/
+INFO:root:🔹 Description: O Senhor é o meu pastor; de nada terei falta. 
+Em verdes pastagens me faz repousar
+e me conduz a águas tranquilas; 
+restaura-me o vigor.
+Guia-me nas veredas da justiça
+por amor do seu nome. 
+Mesmo quando eu andar
+por um vale de trevas e morte,
+não temerei perigo algum, pois tu estás comigo;
+a tua vara e o teu cajado me protegem. 
+Preparas um banquete para mim
+à vista dos meus inimigos.
+Tu me honras,
+ungindo a minha cabeça com óleo
+e fazendo transbordar o meu cálice. 
+Sei que a bondade e a fidelidade
+me acompanharão todos os dias da minha vida,
+e voltarei à casa do Senhor enquanto eu viver. 
+ Salmo 23
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 2
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_2/
 INFO:root:🔹 Description: Por que se amotinam as nações
@@ -147,104 +163,83 @@ Feliz aquele que pegar os seus filhos
 e os despedaçar contra a rocha! 
  Salmo 137
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 79
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_79/
-INFO:root:🔹 Description: Ó Deus, as nações invadiram a tua herança,
-profanaram o teu santo templo,
-reduziram Jerusalém a ruínas. 
-Deram os cadáveres dos teus servos
-às aves do céu por alimento;
-a carne dos teus fiéis, aos animais selvagens. 
-Derramaram o sangue deles como água
-ao redor de Jerusalém,
-e não há ninguém para sepultá-los. 
-Somos objeto de zombaria
-para os nossos vizinhos,
-de riso e menosprezo
-para os que vivem ao nosso redor. 
-Até quando, Senhor?
-Ficarás irado para sempre?
-Arderá o teu ciúme como o fogo? 
-Derrama a tua ira sobre as nações
-que não te reconhecem,
-sobre os reinos
-que não invocam o teu nome, 
-pois devoraram Jacó,
-deixando em ruínas a sua terra. 
-Não cobres de nós
-as maldades dos nossos antepassados;
-venha depressa ao nosso encontro
-a tua misericórdia,
-pois estamos totalmente desanimados! 
-Ajuda-nos, ó Deus, nosso Salvador,
-para a glória do teu nome;
-livra-nos e perdoa os nossos pecados,
-por amor do teu nome. 
-Por que as nações haverão de dizer:
-"Onde está o Deus deles?"
-Diante dos nossos olhos, mostra às nações
-a tua vingança pelo sangue dos teus servos. 
-Cheguem à tua presença
-os gemidos dos prisioneiros.
-Pela força do teu braço
-preserva os condenados à morte. 
-Retribui sete vezes mais aos nossos vizinhos
-as afrontas com que te insultaram, Senhor! 
-Então nós, o teu povo,
-as ovelhas das tuas pastagens,
-para sempre te louvaremos;
-de geração em geração
-cantaremos os teus louvores. 
- Salmo 79
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 340997 characters
-INFO:root:HTML parsed, length: 330753 characters
-INFO:root:Found 3 titles: ['Não olhe para trás', 'Levantando um clamor', 'Não pague o mal com mal']
+INFO:root:Response length: 340998 characters
+INFO:root:HTML parsed, length: 330760 characters
+INFO:root:Found 3 titles: ['Busque o Senhor logo pela manhã, comece o seu dia com Ele', 'Não olhe para trás', 'Levantando um clamor']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Lembrem-se da mulher de Ló!\n- Lucas 17:32\n\nA histó', 'Cla\xadme a mim e eu responderei e direi a você coisa', 'Não te deixes vencer do mal, mas vence o mal com o']
-INFO:root:Found 1 dates: ['Sábado, 29 de novembro de 2025']
+INFO:root:Found 3 descriptions: ['A minha alma suspira por ti\ndurante a noite;\ne log', 'Lembrem-se da mulher de Ló!\n- Lucas 17:32\n\nA histó', 'Cla\xadme a mim e eu responderei e direi a você coisa']
+INFO:root:Found 1 dates: ['Domingo, 30 de novembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Não olhe para trás', ID=79e371bb46dfb5a29f656ba14a9d18ab
+INFO:root:Processing entry 1: Title='Busque o Senhor logo pela manhã, comece o seu dia com Ele', ID=cb8c48311bd5cab841db13287094cb39
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Não olhe para trás - Palavra de Hoje
+INFO:root:🔹 Title: Busque o Senhor logo pela manhã, comece o seu dia com Ele - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Lembrem-se da mulher de Ló!
-- Lucas 17:32
+INFO:root:🔹 Description: A minha alma suspira por ti
+durante a noite;
+e logo cedo o meu espírito por ti anseia,
+- Isaías 26:9a
 
-A história da mulher de Ló é breve, mas carrega um peso profundo. Enquanto Deus conduzia Ló e sua família para fora de Sodoma, Ele lhes deu uma ordem clara: não olhem para trás. Porém, movida pela saudade, pelo apego ao que deixava ou pela dúvida, a mulher de Ló desobedeceu. E sua desobediência a transformou em uma estátua de sal, um marco silencioso do perigo de olhar para trás quando Deus nos chama a seguir adiante.
-Na caminhada cristã, também enfrentamos momentos em que o passado parece exercer uma força quase irresistível. Velhos hábitos, relacionamentos que já não edificam, culpas que insistem em nos assombrar ou até mesmo lembranças de tempos que julgamos melhores. Mas Deus continua a nos dizer: “Não olhe para trás.” Não porque Ele queira nos privar, mas porque conhece o futuro que preparou para nós, um futuro de esperança, cura e transformação.
-O olhar para trás faz o coração vacilar. Quem vive preso ao ontem não consegue caminhar com firmeza para o amanhã. É impossível avançar enquanto estamos voltados para aquilo que precisa ser deixado. Assim como Deus tirou Ló de uma cidade destinada à destruição, Ele também nos chama a abandonar tudo o que ameaça nossa vida espiritual.
-Há momentos em que obedecer a Deus exigirá coragem para deixar coisas conhecidas, zonas de conforto e até ilusões de segurança. Mas cada passo na direção de Cristo é um passo rumo à verdadeira liberdade. Ele nos guia, nos protege e nos sustenta.
-Por isso, siga adiante com fé. O que ficou para trás já não define quem você é. Olhe para frente, onde a graça de Deus te aguarda. Não olhe para trás, o melhor de Deus está adiante.
-Veja também: A história da mulher de Ló.
+Às vezes, acordamos muito cedo e ficamos frustrados. Pensamos em como seria bom dormir pelo menos mais meia hora e ter uma noite de sono melhor. Mas há algo melhor que podemos fazer quando acordamos muito cedo. Em vez de ficarmos tristes e reclamarmos, podemos falar com Deus.
+Começar o dia com Deus define o tom para um dia repleto de Sua presença e guiado por Sua sabedoria. Jesus entendia isso. A Bíblia nos conta em diversas ocasiões que Ele se levantava cedo para falar com o Pai e passar um tempo com Ele. Se Jesus reconhecia sua necessidade de depender de Deus, nós precisamos ainda mais dEle.
+Quando nos aproximamos de Deus nessas horas de silêncio, nossos corações se tornam mais sensíveis à Sua voz. Não há distrações, nem pressa. Apenas nós diante do nosso Pai, recebendo Sua paz e Sua orientação. Na quietude do início da manhã, Deus nos lembra que não caminhamos sozinhos, que Sua misericórdia se renova e que Sua graça é suficiente para tudo o que enfrentaremos no dia que está começando.
+Acordar cedo para buscar a Deus não é um fardo. É um privilégio. É escolher colocar o eterno em primeiro lugar, dedicando ao Senhor o melhor do nosso tempo e dos nossos pensamentos. Quando fazemos isso, Ele preenche nossas almas com nova força, clareza e propósito. Que cada manhã se torne uma oportunidade para nos reconectarmos com Ele, para ouvirmos a Sua voz e confiarmos que, se começarmos com Deus, podemos seguir em frente ao longo do dia com esperança.
+
+De manhã ouves, Senhor, o meu clamor;
+de manhã te apresento a minha oração
+e aguardo com esperança.
+- Salmo 5:3
+
+Veja também: Oração de Madrugada: 5 orações para buscar a Deus sem cessar
  
-Lembrem-se da mulher de Ló!
-- Lucas 17:32
+A minha alma suspira por ti
+durante a noite;
+e logo cedo o meu espírito por ti anseia,
+- Isaías 26:9a
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 350891 characters
-INFO:root:HTML parsed, length: 340215 characters
-INFO:root:Found 3 titles: ['A paz que realmente permanece', 'Recuperando foco e serenidade em Deus', 'Respirando de novo por dentro, descansando em Jesus']
+INFO:root:Response length: 351853 characters
+INFO:root:HTML parsed, length: 341174 characters
+INFO:root:Found 3 titles: ['Esperança que prepara o coração para o Natal', 'A paz que realmente permanece', 'Recuperando foco e serenidade em Deus']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['E a paz de Deus, que excede todo o entendimento, g', 'Meu filho, escute o que digo a você; preste atençã', 'Venham a mim, todos os que estão cansados e sobrec']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n29\nSÁBADO', 'NOVEMBRO\n\n28\nSEXTA', 'NOVEMBRO\n\n27\nQUINTA']
+INFO:root:Found 3 descriptions: ['O Deus da esperança os encha de toda alegria e paz', 'E a paz de Deus, que excede todo o entendimento, g', 'Meu filho, escute o que digo a você; preste atençã']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n30\nDOMINGO', 'NOVEMBRO\n\n29\nSÁBADO', 'NOVEMBRO\n\n28\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A paz que realmente permanece', ID=ce5a8e5b44bbde6efdfc6302028f25fc
-INFO:root:Processing entry 2: Title='Recuperando foco e serenidade em Deus', ID=d2510c7b3ce5645aec17619d85a0b151
-INFO:root:Processing entry 3: Title='Respirando de novo por dentro, descansando em Jesus', ID=c78e070316de5a8899ebadeb6a67e962
+INFO:root:Processing entry 1: Title='Esperança que prepara o coração para o Natal', ID=e334e006c376cbec4cb78d95e265d825
+INFO:root:Processing entry 2: Title='A paz que realmente permanece', ID=ce5a8e5b44bbde6efdfc6302028f25fc
+INFO:root:Processing entry 3: Title='Recuperando foco e serenidade em Deus', ID=d2510c7b3ce5645aec17619d85a0b151
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Esperança que prepara o coração para o Natal
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: O Deus da esperança os encha de toda alegria e paz, por sua confiança nele.
+- Romanos 15:13
+
+O Advento é o tempo em que a igreja se prepara para o Natal. Não é apenas uma contagem regressiva para festas e presentes e também não precisa ser um ritual religioso. É um excelente momento para lembrar que Deus entrou na nossa história em Jesus e que Ele prometeu voltar.
+No meio de notícias difíceis, incertezas e medos, a esperança cristã não é um otimismo vazio. É confiança em um Deus que já mostrou seu amor na primeira vinda de Cristo, lá em Belém, e que um dia completará sua obra quando Jesus voltar.
+Aproveite este momento para levantar os olhos. O mesmo Deus que cumpriu a promessa do nascimento do Salvador continua fiel hoje. A verdadeira Vida não está em presentes ou rituais, mas em Jesus. Cada luz, cada canto de Natal pode se tornar um lembrete: Deus não se esquece do que promete, e nossa história está nas mãos d’Ele.
+Quando a esperança parece fraca, lembremo-nos do essencial. Belém nos lembra que Deus age na simplicidade, na fraqueza, naquilo que o mundo não valoriza. Assim como Jesus veio no tempo certo, ele continua vindo ao nosso encontro no tempo perfeito.
+Nos próximos 3 domingos vamos continuar olhando para a vinda de Jesus ao mundo e preparando nossos corações para ter um Natal cheio de gratidão. Por que não fazer esse compromisso agora? 
+Como cultivar a esperança:
+
+Separe um momento hoje para agradecer a Deus por Jesus, o presente maior do Natal, antes de pensar em qualquer outro presente.
+Identifique uma área da sua vida em que você tem sentido desânimo e entregue isso a Deus em oração, pedindo que ele renove sua esperança.
+Compartilhe uma palavra de esperança com alguém que esteja desanimado, lembrando que Deus continua agindo mesmo quando não vemos.
+
+Para orar:
+
+Senhor, obrigado porque, em Jesus, o Natal é prova da tua fidelidade. Este ano, ao me preparar para o Natal, renova minha esperança. Que eu olhe para o futuro confiando em ti e viva cada dia lembrando que tu já vieste e um dia voltarás. Enche meu coração de confiança e descanso na tua Palavra. Amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A paz que realmente permanece
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus.
@@ -277,22 +272,6 @@ Para orar:
 
 Senhor, ajuda-me a dar atenção ao que realmente importa. Dá foco ao meu coração e serenidade à minha mente. Amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Respirando de novo por dentro, descansando em Jesus
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.
-- Mateus 11:28
-
-O cansaço emocional não chega de repente. Ele vai se acumulando, camada por camada, até que o interior fica sem espaço para respirar. Hoje é dia de restaurar um pouco do fôlego espiritual. E a solução para isso não vem por técnicas, nem por mágica, mas através de alguém: Jesus.
-Jesus aqui não está chamando quem está forte. Ele chama quem está cansado. Ele não pede que você melhore para então buscar descanso. Ele oferece descanso para que você possa melhorar. Quando o coração está esgotado, a primeira resposta não é fazer mais, mas chegar mais perto d’Ele!
-A clareza volta quando a alma encontra repouso.
-Prática para hoje
-Faça algo simples que te traga descanso verdadeiro. Pode ser beber água devagar, andar cinco minutos, ouvir um louvor calmo ou simplesmente fechar os olhos por um instante.
-Amanhã
-Amanhã será bem prático. Vamos descobrir como lidar com distrações que roubam sua paz.
-Para orar:
-
-Jesus, recebo agora o descanso que Tu ofereces. Acalma meu coração cansado e renova minhas forças. Dá-me a leveza e paz que só Tu podes dar. Amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -322,15 +301,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  30 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  34 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  21 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  29 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  22 ++-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  69 ++++----
+ feeds/salmo_do_dia/atom.xml               |  70 +++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 257 ++++++++++++++----------------
- 11 files changed, 226 insertions(+), 240 deletions(-)
+ output.log                                | 263 +++++++++++++-----------------
+ 11 files changed, 212 insertions(+), 266 deletions(-)
