@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 122126 characters
-INFO:root:HTML parsed, length: 114873 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (04/12/2025)', 'Palavra de Ontem (03/12/2025)', 'Palavra de Anteontem (02/12/2025)']
-INFO:root:Found 3 URLs: ['/aluno/', '/desgraca/', '/artilharia/']
-INFO:root:Found 15 descriptions: ['substantivo masculino Pessoa que recebe lições de ', 'Sinônimos:\n\nestudante, aprendiz, discípulo, educan', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (04/12/2025)', 'Palavra de Ontem (03/12/2025)', 'Palavra de Anteontem (02/12/2025)']
+INFO:root:Response length: 122103 characters
+INFO:root:HTML parsed, length: 114803 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (05/12/2025)', 'Palavra de Ontem (04/12/2025)', 'Palavra de Anteontem (03/12/2025)']
+INFO:root:Found 3 URLs: ['/zangao-2/', '/aluno/', '/desgraca/']
+INFO:root:Found 15 descriptions: ['substantivo masculino [Zoologia] Macho da abelha, ', 'Sinônimos:\n\nzângão, pracista, chato, maçante, inop', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (05/12/2025)', 'Palavra de Ontem (04/12/2025)', 'Palavra de Anteontem (03/12/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (04/12/2025)', ID=4f27b3a1cfacdedefa266b39e1d164a5
-INFO:root:Processing entry 2: Title='Palavra de Ontem (03/12/2025)', ID=b2f270aaf9d448fe77dcf7cf9c5e9421
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (02/12/2025)', ID=6e0a80d952b9abde765188e19dad1e9c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (05/12/2025)', ID=afed628795a1ad5352b2cd2563a29dcd
+INFO:root:Processing entry 2: Title='Palavra de Ontem (04/12/2025)', ID=f5320e1f3a22f2cd47b0bdf3dce36e52
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (03/12/2025)', ID=d9bf5cce761b67cd2e2be32409fe7aa1
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (04/12/2025) - Significado completo de aluno:
-INFO:root:🔹 URL: https://www.dicio.com.br/aluno/
-INFO:root:🔹 Description: substantivo masculino Pessoa que recebe lições de um mestre; discípulo, escolar.Indivíduo que recebe uma educação formal numa instituição educacional.Quem busca aperfeiçoar seus conhecimentos numa área ou matéria específica; aprendiz.Pessoa que faz parte de uma comunidade, de uma organização ou corporação.[Antigo] Aquele que nasceu num lugar determinado; natural.Etimologia (origem da palavra aluno). A palavra aluno deriva do latim "alumnus.i", que significa “criança de peito, que ainda mama, lactente, menino”.
+INFO:root:🔹 Title: Palavra de Hoje (05/12/2025) - Significado completo de zangão:
+INFO:root:🔹 URL: https://www.dicio.com.br/zangao-2/
+INFO:root:🔹 Description: substantivo masculino [Zoologia] Macho da abelha, definido pela ausência de ferrão e por possuir somente o papel reprodutor; abelha-macha.[Figurado] Quem vive às custas de outrem, ou explora benefícios ou favores que lhes são oferecidos (uso considerado pejorativo).[Figurado] Pessoa muito chata, que enerva; chato, maçante, inoportuno.Aquele que trabalha vendendo algo para uma empresa, ou tem um posto de venda numa praça; pracista.Quem exerce o ofício de operador da bolsa de valores, mas não é credenciado.[Regionalismo: Bahia] Intermediador em pensões e hotéis; agenciador.Etimologia (origem da palavra zangão). De origem onomatopaica, por influência do som.
  
 Sinônimos:
 
-estudante, aprendiz, discípulo, educando, acadêmico, lecionando 
+zângão, pracista, chato, maçante, inoportuno 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (03/12/2025) - Significado completo de desgraça:
-INFO:root:🔹 URL: https://www.dicio.com.br/desgraca/
+INFO:root:🔹 Title: Palavra de Ontem (04/12/2025) - Significado completo de aluno:
+INFO:root:🔹 URL: https://www.dicio.com.br/aluno/
 INFO:root:🔹 Description: Sinônimos:
 
-estudante, aprendiz, discípulo, educando, acadêmico, lecionando
+zângão, pracista, chato, maçante, inoportuno
  Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (02/12/2025) - Significado completo de artilharia:
-INFO:root:🔹 URL: https://www.dicio.com.br/artilharia/
+INFO:root:🔹 Title: Palavra de Anteontem (03/12/2025) - Significado completo de desgraça:
+INFO:root:🔹 URL: https://www.dicio.com.br/desgraca/
 INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:a-lu-no
+ Sílabas:zan-gão
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,46 +42,153 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 338984 characters
-INFO:root:HTML parsed, length: 328289 characters
-INFO:root:Found 1 titles: ['Miquéias 7:18']
-INFO:root:Found 1 URLs: ['/versiculo/miqueias_7_18/']
-INFO:root:Found 1 descriptions: ['Quem é comparável a ti, ó Deus,\nque perdoas o peca']
+INFO:root:Response length: 338957 characters
+INFO:root:HTML parsed, length: 328262 characters
+INFO:root:Found 1 titles: ['Tito 2:11']
+INFO:root:Found 1 URLs: ['/versiculo/tito_2_11/']
+INFO:root:Found 1 descriptions: ['Porque a graça de Deus se manifestou salvadora a t']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Miquéias 7:18', ID=18f31bdf0149ea4f3559b75e02d997a1
+INFO:root:Processing entry 1: Title='Tito 2:11', ID=6d15c139aab1e3571fa8ad9eee5daf8d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Miquéias 7:18
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/miqueias_7_18/
-INFO:root:🔹 Description: Quem é comparável a ti, ó Deus,
-que perdoas o pecado
-e esqueces a transgressão
-do remanescente da sua herança?
-Tu, que não permaneces irado
-para sempre,
-mas tens prazer em mostrar amor. Miquéias 7:18
+INFO:root:🔹 Title: Tito 2:11
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tito_2_11/
+INFO:root:🔹 Description: Porque a graça de Deus se manifestou salvadora a todos os homens. Tito 2:11
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 341328 characters
-INFO:root:HTML parsed, length: 331468 characters
-INFO:root:Found 3 titles: ['Salmo 148', 'Salmo 22', 'Salmo 136']
-INFO:root:Found 3 URLs: ['/salmos_148/', '/salmos_22/', '/salmos_136/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ', 'Meu Deus! Meu Deus!\nPor que me abandonaste?\nPor qu', 'Deem graças ao Senhor, porque ele é bom.\nO seu amo']
-INFO:root:Found 3 dates: ['4 de Dezembro de 2025', '3 de Dezembro de 2025', '2 de Dezembro de 2025']
+INFO:root:Response length: 343299 characters
+INFO:root:HTML parsed, length: 333483 characters
+INFO:root:Found 3 titles: ['Salmo 68', 'Salmo 148', 'Salmo 22']
+INFO:root:Found 3 URLs: ['/salmos_68/', '/salmos_148/', '/salmos_22/']
+INFO:root:Found 3 descriptions: ['Que Deus se levante!\nSejam espalhados os seus inim', 'Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ', 'Meu Deus! Meu Deus!\nPor que me abandonaste?\nPor qu']
+INFO:root:Found 3 dates: ['5 de Dezembro de 2025', '4 de Dezembro de 2025', '3 de Dezembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
-INFO:root:Processing entry 2: Title=' Salmo 22', ID=4a9a8239c5e2598aac1d618498f0cfa2
-INFO:root:Processing entry 3: Title=' Salmo 136', ID=0466a24f0d7612131a62aaffef81edc4
+INFO:root:Processing entry 1: Title=' Salmo 68', ID=906e07fabc5c47e7e79f302862fabb28
+INFO:root:Processing entry 2: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
+INFO:root:Processing entry 3: Title=' Salmo 22', ID=4a9a8239c5e2598aac1d618498f0cfa2
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 68
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_68/
+INFO:root:🔹 Description: Que Deus se levante!
+Sejam espalhados os seus inimigos,
+fujam dele os seus adversários. 
+Que tu os dissipes
+assim como o vento leva a fumaça;
+como a cera se derrete na presença do fogo,
+assim pereçam os ímpios na presença de Deus. 
+Alegrem-se, porém, os justos!
+Exultem diante de Deus!
+Regozijem-se com grande alegria! 
+Cantem a Deus, louvem o seu nome,
+exaltem aquele que cavalga sobre as nuvens;
+seu nome é Senhor!
+Exultem diante dele! 
+Pai para os órfãos e defensor das viúvas
+é Deus em sua santa habitação. 
+Deus dá um lar aos solitários,
+liberta os presos para a prosperidade,
+mas os rebeldes vivem em terra árida. 
+Quando saíste à frente do teu povo, ó Deus,
+quando marchaste pelo ermo, 
+a terra tremeu,
+o céu derramou chuva
+diante de Deus, o Deus do Sinai;
+diante de Deus, o Deus de Israel. 
+Deste chuvas generosas, ó Deus;
+refrescaste a tua herança exausta. 
+O teu povo nela se instalou,
+e da tua bondade, ó Deus, supriste os pobres. 
+O Senhor anunciou a palavra,
+e muitos mensageiros a proclamavam: 
+"Reis e exércitos fogem em debandada;
+a dona de casa reparte os despojos. 
+Mesmo quando vocês dormem
+entre as fogueiras do acampamento,
+as asas da minha pomba
+estão recobertas de prata;
+as suas penas, de ouro reluzente". 
+Quando o Todo-poderoso espalhou os reis,
+foi como neve no monte Zalmom. 
+Os montes de Basã são majestosos;
+escarpados são os montes de Basã. 
+Por que, ó montes escarpados,
+estão com inveja do monte que Deus
+escolheu para sua habitação,
+onde o próprio Senhor habitará para sempre? 
+Os carros de Deus são incontáveis,
+são milhares de milhares;
+neles o Senhor veio do Sinai
+para o seu Lugar Santo. 
+Quando subiste em triunfo às alturas,
+ó Senhor Deus,
+levaste cativos muitos prisioneiros;
+recebeste homens como dádivas,
+até mesmo rebeldes,
+para estabeleceres morada. 
+Bendito seja o Senhor,
+Deus, nosso Salvador,
+que cada dia suporta as nossas cargas. 
+O nosso Deus é um Deus que salva;
+ele é o Soberano, ele é o Senhor
+que nos livra da morte. 
+Certamente Deus
+esmagará a cabeça dos seus inimigos,
+o crânio cabeludo
+dos que persistem em seus pecados. 
+"Eu os trarei de Basã", diz o Senhor,
+"eu os trarei das profundezas do mar, 
+para que você encharque os pés
+no sangue dos inimigos,
+sangue do qual a língua dos cães
+terá a sua porção." 
+Já se vê a tua marcha triunfal, ó Deus,
+a marcha do meu Deus e Rei
+adentrando o santuário. 
+À frente estão os cantores, depois os músicos;
+com eles vão as jovens tocando tamborins. 
+Bendigam a Deus na grande congregação!
+Bendigam o Senhor,
+descendentes de Israel! 
+Ali está a pequena tribo de Benjamim,
+a conduzi-los,
+os príncipes de Judá
+acompanhados de suas tropas,
+e os príncipes de Zebulom e Naftali. 
+A favor de vocês,
+manifeste Deus o seu poder!
+Mostra, ó Deus, o poder que já tens operado
+para conosco. 
+Por causa do teu templo em Jerusalém,
+reis te trarão presentes. 
+Repreende a fera entre os juncos,
+a manada de touros
+entre os bezerros das nações.
+Humilhados, tragam barras de prata.
+Espalha as nações que têm prazer na guerra. 
+Ricos tecidos venham do Egito;
+a Etiópia corra para Deus de mãos cheias. 
+Cantem a Deus, reinos da terra,
+louvem o Senhor, 
+aquele que cavalga os céus, os antigos céus.
+Escutem! Ele troveja com voz poderosa. 
+Proclamem o poder de Deus!
+Sua majestade está sobre Israel,
+seu poder está nas altas nuvens. 
+Tu és temível no teu santuário, ó Deus;
+é o Deus de Israel
+que dá poder e força ao seu povo.
+Bendito seja Deus! 
+ Salmo 68
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 148
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_148/
 INFO:root:🔹 Description: Aleluia!
@@ -214,118 +321,78 @@ proclamarão seus feitos de justiça,
 pois ele agiu poderosamente. 
  Salmo 22
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 136
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_136/
-INFO:root:🔹 Description: Deem graças ao Senhor, porque ele é bom.
-O seu amor dura para sempre! 
-Deem graças ao Deus dos deuses.
-O seu amor dura para sempre! 
-Deem graças ao Senhor dos senhores.
-O seu amor dura para sempre! 
-Ao único que faz grandes maravilhas,
-O seu amor dura para sempre! 
-Que com habilidade fez os céus,
-O seu amor dura para sempre! 
-Que estendeu a terra sobre as águas;
-O seu amor dura para sempre! 
-Àquele que fez os grandes luminares:
-O seu amor dura para sempre! 
-O sol para governar o dia,
-O seu amor dura para sempre! 
-A lua e as estrelas para governarem a noite.
-O seu amor dura para sempre! 
-Àquele que matou
-os primogênitos do Egito
-O seu amor dura para sempre! 
-E tirou Israel do meio deles
-O seu amor dura para sempre! 
-Com mão poderosa e braço forte.
-O seu amor dura para sempre! 
-Àquele que dividiu o mar Vermelho
-O seu amor dura para sempre! 
-E fez Israel atravessá-lo,
-O seu amor dura para sempre! 
-Mas lançou o faraó e o seu exército
-no mar Vermelho.
-O seu amor dura para sempre! 
-Àquele que conduziu seu povo pelo deserto,
-O seu amor dura para sempre! 
-Feriu grandes reis
-O seu amor dura para sempre! 
-E matou reis poderosos:
-O seu amor dura para sempre! 
-Seom, rei dos amorreus,
-O seu amor dura para sempre! 
-E Ogue, rei de Basã,
-O seu amor dura para sempre! 
-E deu a terra deles como herança,
-O seu amor dura para sempre! 
-Como herança ao seu servo Israel.
-O seu amor dura para sempre! 
-Àquele que se lembrou de nós
-quando fomos humilhados
-O seu amor dura para sempre! 
-E nos livrou dos nossos adversários;
-O seu amor dura para sempre! 
-Àquele que dá alimento
-a todos os seres vivos.
-O seu amor dura para sempre! 
-Deem graças ao Deus dos céus.
-O seu amor dura para sempre! 
- Salmo 136
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 341918 characters
-INFO:root:HTML parsed, length: 331675 characters
-INFO:root:Found 3 titles: ['Revistam-se do amor', 'O que Cristo significa para mim', 'Coloque Deus no meio do problema']
+INFO:root:Response length: 341692 characters
+INFO:root:HTML parsed, length: 331450 characters
+INFO:root:Found 3 titles: ['Maior é o que está em nós!', 'Revistam-se do amor', 'O que Cristo significa para mim']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Acima de tudo, porém, revistam-se do amor, que é o', 'Pois há um só Deus\ne um só mediador\nentre Deus e o', 'Deus é o nosso refúgio e a nossa fortaleza, auxíli']
-INFO:root:Found 1 dates: ['Quinta, 4 de dezembro de 2025']
+INFO:root:Found 3 descriptions: ['Quando a situação se torna difícil, o Espírito San', 'Acima de tudo, porém, revistam-se do amor, que é o', 'Pois há um só Deus\ne um só mediador\nentre Deus e o']
+INFO:root:Found 1 dates: ['Sexta, 5 de dezembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Revistam-se do amor', ID=b5c238cee03df2a454cf453f2439aabb
+INFO:root:Processing entry 1: Title='Maior é o que está em nós!', ID=582c49e442d1d3ca6b7af87339850464
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Revistam-se do amor - Palavra de Hoje
+INFO:root:🔹 Title: Maior é o que está em nós! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Acima de tudo, porém, revistam-se do amor, que é o elo perfeito.
-- Colossenses 3:14
+INFO:root:🔹 Description: Quando a situação se torna difícil, o Espírito Santo nos lembra que em Cristo já vencemos o mundo:
 
-O amor é mais do que um sentimento passageiro; é a essência que transforma vidas. Quando Deus nos chama a nos revestirmos de amor, Ele nos convida a viver de maneira que reflita Seu caráter e Sua graça. É através do amor que nossas ações ganham significado, que nossas palavras edificam e que nossos gestos tocam corações.
-Em um mundo marcado por pressa, conflitos e desafios, o amor verdadeiro se destaca como força restauradora. Revestir-se de amor não significa ignorar problemas ou negar sentimentos difíceis, mas sim escolher agir com paciência, compaixão e bondade, mesmo diante das adversidades. É o amor que nos faz perdoar, acolher e oferecer esperança.
-Jesus é o exemplo perfeito desse amor. Ele nos ensinou que amar ao próximo não é opcional, mas essencial. Cada ato de amor é um reflexo da presença de Deus em nossa vida. Ao nos vestirmos diariamente com o amor de Cristo, tornamo-nos instrumentos de paz e transformação, capazes de tocar vidas de maneira profunda e duradoura.
-Revestir-se de amor também nos protege. Assim como uma armadura nos defende, o amor nos guarda contra a amargura, o ódio e a indiferença. Ele fortalece nossos relacionamentos, nos aproxima de Deus e nos ajuda a caminhar com fé, esperança e alegria.
-Escolha hoje se revestir do amor que vem do Senhor. Que cada palavra, cada gesto e cada decisão sejam guiados por esse elo perfeito. Quando o amor governa nossa vida, nada é pequeno demais para ser cuidado, nada é difícil demais para ser enfrentado e nada é impossível para Deus. Viva revestido de amor, e veja como Ele transforma não apenas a sua história, mas também a daqueles ao seu redor.
+Filhinhos, sois de Deus e já os tendes vencido, porque maior é o que está em vós do que o que está no mundo.
+- 1 João 4:4
 
-Amados, amemos uns aos outros, pois o amor procede de Deus. Aquele que ama é nascido de Deus e conhece a Deus.
-- 1 João 4:7
-
-Veja também:7 atitudes de amor ao próximo na Bíblia
+O apóstolo João nos assegura que, apesar das pressões externas, existe dentro de nós uma presença poderosa: o Espírito Santo, que habita em todo aquele que crê em Jesus Cristo. Essa realidade espiritual não é apenas um consolo, mas uma fonte constante de vitória, esperança e direção.
+Muitas vezes, enfrentamos batalhas interiores que tentam nos convencer de que somos fracos, incapazes ou sozinhos. Contudo, a Palavra de Deus afirma que não caminhamos pela vida apoiados apenas na nossa própria capacidade. Temos dentro de nós o Deus que criou todas as coisas, Aquele que sustenta o universo com a força de Sua mão e que conhece cada detalhe da nossa história. Ele não apenas nos acompanha, mas nos capacita, nos fortalece e nos guia em cada desafio.
+Quando entendemos que maior é o que está em nós, nossa perspectiva muda. Em vez de temer, confiamos. Em vez de retroceder, avançamos. Em vez de nos desesperarmos, descansamos na fidelidade de Deus. A fé se torna mais do que palavras; torna-se uma postura diária que transforma nosso modo de viver, reagir e enfrentar o desconhecido.
+Levante-se hoje com a certeza de que não está sozinho. O Senhor habita em você e lhe concede graça para cada passo. Que essa verdade fortaleça o seu coração, renove sua esperança e desperte sua confiança no Deus que nunca falha. Caminhe sabendo que, em Cristo, você é mais do que vencedor, porque o Todo-Poderoso vive e reina em seu interior.
+Que sua vida reflita essa convicção divina, permitindo que a luz de Cristo brilhe através de suas atitudes, palavras e escolhas, testemunhando Seu amor transformador.
+Veja também: Versículos que dizem que somos vencedores.
  
-Acima de tudo, porém, revistam-se do amor, que é o elo perfeito.
-- Colossenses 3:14
+Filhinhos, sois de Deus e já os tendes vencido, porque maior é o que está em vós do que o que está no mundo.
+- 1 João 4:4
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 354761 characters
-INFO:root:HTML parsed, length: 344072 characters
-INFO:root:Found 3 titles: ['Lembre-se do que Deus já fez', 'Superando as tribulações através da fé', 'O amor supera tudo']
-INFO:root:Found 3 URLs: ['/a_gratidao_de_paulo/', '/razoes_para_confiar_em_deus/', '/caracteristicas_do_amor/']
-INFO:root:Found 3 descriptions: ['Bendiga o Senhor a minha alma!\nNão esqueça nenhuma', '"Eu disse essas coisas para que em mim vocês tenha', 'O amor é paciente, o amor é bondoso. Não inveja, n']
-INFO:root:Found 3 dates: ['DEZEMBRO\n\n4\nQUINTA', 'DEZEMBRO\n\n3\nQUARTA', 'DEZEMBRO\n\n2\nTERÇA']
+INFO:root:Response length: 354929 characters
+INFO:root:HTML parsed, length: 344240 characters
+INFO:root:Found 3 titles: ['Tocando nas Suas vestes', 'Lembre-se do que Deus já fez', 'Superando as tribulações através da fé']
+INFO:root:Found 3 URLs: ['/biblia_diz_os_milagres_de_jesus/', '/a_gratidao_de_paulo/', '/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['porque pensava: "Se eu tão somente tocar em seu ma', 'Bendiga o Senhor a minha alma!\nNão esqueça nenhuma', '"Eu disse essas coisas para que em mim vocês tenha']
+INFO:root:Found 3 dates: ['DEZEMBRO\n\n5\nSEXTA', 'DEZEMBRO\n\n4\nQUINTA', 'DEZEMBRO\n\n3\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Lembre-se do que Deus já fez', ID=ae7d336b87949cb28d1efa60ae484570
-INFO:root:Processing entry 2: Title='Superando as tribulações através da fé', ID=7d7b831a3718f6a6f59930809631cdbf
-INFO:root:Processing entry 3: Title='O amor supera tudo', ID=a6e2da42d41e403fe55a3f6ffcfad512
+INFO:root:Processing entry 1: Title='Tocando nas Suas vestes', ID=b4df71c2ba27166a5f494e134b42a96d
+INFO:root:Processing entry 2: Title='Lembre-se do que Deus já fez', ID=ae7d336b87949cb28d1efa60ae484570
+INFO:root:Processing entry 3: Title='Superando as tribulações através da fé', ID=7d7b831a3718f6a6f59930809631cdbf
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Tocando nas Suas vestes
+INFO:root:🔹 URL: https://www.bibliaon.com/biblia_diz_os_milagres_de_jesus/
+INFO:root:🔹 Description: porque pensava: "Se eu tão somente tocar em seu manto, ficarei curada".
+- Marcos 5:28 
+
+Aquela mulher, há doze anos sofrendo de uma enfermidade incurável, encontrou em Jesus a última esperança.
+Ela não tinha forças, não tinha prestígio, não tinha sequer liberdade para se aproximar das pessoas por causa de sua condição. Mas ela tinha algo que muitos, mesmo com saúde e recursos, não possuem: fé. Uma fé simples, porém profunda, que acreditava que um único toque seria suficiente para mudar toda a sua história.
+Quando pensamos em “tocar nas vestes de Jesus”, lembramos que não se trata apenas de um gesto físico, mas de uma atitude. É reconhecer que todo poder, cura e restauração fluem d’Ele. É admitir que nós, por nós mesmos, não podemos resolver aquilo que nos fere, esgota e nos faz sangrar por dentro. Há dores que ninguém vê, feridas que escondemos atrás de sorrisos, cansaços que carregamos em silêncio. E é nessas horas que o convite da fé ecoa: aproxime-se de Jesus, ainda que de joelhos, ainda que com lágrimas, ainda que sem forças.
+A mulher não tocou em Jesus por acaso; ela tocou com propósito. Há toques que mudam histórias. Quando nos lançamos aos pés de Cristo, quando clamamos por Sua presença, quando buscamos Sua direção, algo no céu se move. Jesus percebeu o toque daquela mulher no meio da multidão. Da mesma forma, Ele percebe o seu toque quando você ora, quando entrega suas preocupações, quando confia mesmo sem ver.
+Hoje, talvez você só consiga tocar “na orla” das vestes de Jesus, com uma oração fraca, um pedido tímido, um sussurro de esperança. Mas basta isso. Um toque sincero pode curar, restaurar e transformar. Aproxime-se. Ele continua passando. E seu toque nunca passa despercebido.
+Um toque que transforma 
+
+Busque diariamente a presença de Jesus através da oração, permitindo que Sua paz renove seu coração e fortaleça sua fé em as circunstâncias.
+Aproxime-se de Cristo mesmo sentindo-se fraco, confiando que Ele responde com graça, cura e direção quando você entrega sinceramente suas dores e inquietações.
+Alimente sua fé lembrando promessas bíblicas e testemunhos, permitindo que a verdade de Deus fortaleça sua esperança e renove sua confiança diariamente sempre.
+
+Para orar:
+
+Senhor Jesus, eu coloco minha vida diante de Ti. Toca meu coração, cura minhas feridas e renova minhas forças. Aumenta minha fé para que eu confie mesmo quando não vejo saída. Sustenta-me com Tua graça, guia meus passos e guarda meus pensamentos. Que Tua presença me envolva e Tua paz me conduza. Entrego meus medos, minhas dores e meus sonhos em Tuas mãos. Amém.
+
+Veja também: Milagres de Jesus: os 40 milagres realizados por Ele
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Lembre-se do que Deus já fez
 INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
 INFO:root:🔹 Description: Bendiga o Senhor a minha alma!
@@ -373,28 +440,6 @@ Senhor, fortalece minha fé em meio às tribulações. Guarda meu coração da a
 
 Veja também: 7 razões para confiar em Deus em meio às lutas.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O amor supera tudo
-INFO:root:🔹 URL: https://www.bibliaon.com/caracteristicas_do_amor/
-INFO:root:🔹 Description: O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha.
-- 1 Coríntios 13:4
-
-Todo cristão reconhece que o maior exemplo de amor não veio de palavras humanas, mas do sacrifício perfeito de Cristo na cruz. O amor de Deus não depende do humor do dia, das dificuldades que enfrentamos ou das imperfeições que carregamos. É um amor constante, firme e restaurador.
-Quando olhamos para Jesus, vemos um amor que abraça o pecador, que acolhe o quebrantado e que transforma aquilo que parecia perdido. Ele nos ensina que o amor não é apenas um sentimento, mas uma escolha diária. Escolher amar é decidir agir com misericórdia quando a ofensa grita, com paciência quando a ansiedade aperta, e com fé quando tudo ao redor parece desmoronar.
-O amor que supera tudo é aquele que sustenta o lar nas tempestades, que reconcilia amizades feridas e que cura feridas profundas do coração. É o amor que nos ensina a perdoar, não porque o outro merece, mas porque nós também fomos perdoados pelo Pai. Deus nos chama a sermos instrumentos desse amor no mundo, um amor que ilumina, aquece e renova.
-Em cada desafio, o cristão encontra no amor uma força que não se esgota. O amor de Deus nos levanta quando falhamos, nos guia quando estamos perdidos e nos fortalece quando somos fracos. Quando permitimos que esse amor molde nosso caráter, passamos a enxergar as pessoas e as situações pela perspectiva de Cristo.
-Que possamos viver diariamente essa verdade: o amor supera tudo, porque vem Daquele que venceu o mundo, curou nossas dores e nos chamou para amar como Ele amou. Que nossas vidas sejam reflexo desse amor que transforma e eterniza.
-Vivendo um amor que supera tudo
-
-Pratique gestos de amor que expressem paciência, bondade e humildade, refletindo o caráter de Cristo em todas as situações e fortalecendo relacionamentos.
-Perdoe com sinceridade, reconhecendo que você também recebeu graça divina, permitindo que o amor de Deus restaure seu coração e promova reconciliação verdadeira.
-Cultive comunhão com Deus por meio da oração e da Palavra, fortalecendo sua fé e aprendendo a amar como Cristo em cada circunstância.
-
-Para orar:
-
-Senhor amado, derrama teu amor sobre meu coração e guia meus passos em tua paz. Fortalece minha fé, cura minhas feridas e renova minha esperança. Que eu viva segundo tua vontade, amando como Cristo amou, perdoando com graça e caminhando com confiança. Conduz minha vida para tua glória. Amém.
-
-Veja também: As 5 características do amor segundo a Bíblia.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -424,15 +469,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  32 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  24 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  88 ++++-----
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 171 +++++++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 305 ++++++++++++++----------------
- 11 files changed, 255 insertions(+), 305 deletions(-)
+ output.log                                | 365 ++++++++++++++++--------------
+ 11 files changed, 381 insertions(+), 303 deletions(-)
