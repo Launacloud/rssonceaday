@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 122103 characters
-INFO:root:HTML parsed, length: 114803 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (05/12/2025)', 'Palavra de Ontem (04/12/2025)', 'Palavra de Anteontem (03/12/2025)']
-INFO:root:Found 3 URLs: ['/zangao-2/', '/aluno/', '/desgraca/']
-INFO:root:Found 15 descriptions: ['substantivo masculino [Zoologia] Macho da abelha, ', 'Sinônimos:\n\nzângão, pracista, chato, maçante, inop', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (05/12/2025)', 'Palavra de Ontem (04/12/2025)', 'Palavra de Anteontem (03/12/2025)']
+INFO:root:Response length: 119611 characters
+INFO:root:HTML parsed, length: 112701 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (06/12/2025)', 'Palavra de Ontem (05/12/2025)', 'Palavra de Anteontem (04/12/2025)']
+INFO:root:Found 3 URLs: ['/gafe/', '/zangao-2/', '/aluno/']
+INFO:root:Found 13 descriptions: ['substantivo feminino Ação ou dito que denota indis', 'Sinônimos:\n\nrata, atrapalhação, mancada', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (06/12/2025)', 'Palavra de Ontem (05/12/2025)', 'Palavra de Anteontem (04/12/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (05/12/2025)', ID=afed628795a1ad5352b2cd2563a29dcd
-INFO:root:Processing entry 2: Title='Palavra de Ontem (04/12/2025)', ID=f5320e1f3a22f2cd47b0bdf3dce36e52
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (03/12/2025)', ID=d9bf5cce761b67cd2e2be32409fe7aa1
+INFO:root:Processing entry 1: Title='Palavra de Hoje (06/12/2025)', ID=6b4ceb49fe9e0418eb2d3e7f8c4e176e
+INFO:root:Processing entry 2: Title='Palavra de Ontem (05/12/2025)', ID=f4ee4a2ece4497176c3164cc74776829
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (04/12/2025)', ID=4751ce33da8ffb002afb02f7307b0b11
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (05/12/2025) - Significado completo de zangão:
-INFO:root:🔹 URL: https://www.dicio.com.br/zangao-2/
-INFO:root:🔹 Description: substantivo masculino [Zoologia] Macho da abelha, definido pela ausência de ferrão e por possuir somente o papel reprodutor; abelha-macha.[Figurado] Quem vive às custas de outrem, ou explora benefícios ou favores que lhes são oferecidos (uso considerado pejorativo).[Figurado] Pessoa muito chata, que enerva; chato, maçante, inoportuno.Aquele que trabalha vendendo algo para uma empresa, ou tem um posto de venda numa praça; pracista.Quem exerce o ofício de operador da bolsa de valores, mas não é credenciado.[Regionalismo: Bahia] Intermediador em pensões e hotéis; agenciador.Etimologia (origem da palavra zangão). De origem onomatopaica, por influência do som.
+INFO:root:🔹 Title: Palavra de Hoje (06/12/2025) - Significado completo de gafe:
+INFO:root:🔹 URL: https://www.dicio.com.br/gafe/
+INFO:root:🔹 Description: substantivo feminino Ação ou dito que denota indiscrição, falta de noção; mancada.Comportamento impensado cujo resultado pode ser desastroso.Etimologia (origem da palavra gafe). Do francês gaffe.
  
 Sinônimos:
 
-zângão, pracista, chato, maçante, inoportuno 
+rata, atrapalhação, mancada 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (04/12/2025) - Significado completo de aluno:
-INFO:root:🔹 URL: https://www.dicio.com.br/aluno/
+INFO:root:🔹 Title: Palavra de Ontem (05/12/2025) - Significado completo de zangão:
+INFO:root:🔹 URL: https://www.dicio.com.br/zangao-2/
 INFO:root:🔹 Description: Sinônimos:
 
-zângão, pracista, chato, maçante, inoportuno
- Classe gramatical:substantivo masculino
+rata, atrapalhação, mancada
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (03/12/2025) - Significado completo de desgraça:
-INFO:root:🔹 URL: https://www.dicio.com.br/desgraca/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:zan-gão
+INFO:root:🔹 Title: Palavra de Anteontem (04/12/2025) - Significado completo de aluno:
+INFO:root:🔹 URL: https://www.dicio.com.br/aluno/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:ga-fe
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,94 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 338957 characters
-INFO:root:HTML parsed, length: 328262 characters
-INFO:root:Found 1 titles: ['Tito 2:11']
-INFO:root:Found 1 URLs: ['/versiculo/tito_2_11/']
-INFO:root:Found 1 descriptions: ['Porque a graça de Deus se manifestou salvadora a t']
+INFO:root:Response length: 329333 characters
+INFO:root:HTML parsed, length: 318913 characters
+INFO:root:Found 1 titles: ['Romanos 12:1']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_12_1/']
+INFO:root:Found 1 descriptions: ['Portanto, irmãos, rogo pelas misericórdias de Deus']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Tito 2:11', ID=6d15c139aab1e3571fa8ad9eee5daf8d
+INFO:root:Processing entry 1: Title='Romanos 12:1', ID=70c92f8bfe75e1777dceaa76d92edb13
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Tito 2:11
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tito_2_11/
-INFO:root:🔹 Description: Porque a graça de Deus se manifestou salvadora a todos os homens. Tito 2:11
+INFO:root:🔹 Title: Romanos 12:1
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_12_1/
+INFO:root:🔹 Description: Portanto, irmãos, rogo pelas misericórdias de Deus que se ofereçam em sacrifício vivo, santo e agradável a Deus; este é o culto racional de vocês. Romanos 12:1
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 343299 characters
-INFO:root:HTML parsed, length: 333483 characters
-INFO:root:Found 3 titles: ['Salmo 68', 'Salmo 148', 'Salmo 22']
-INFO:root:Found 3 URLs: ['/salmos_68/', '/salmos_148/', '/salmos_22/']
-INFO:root:Found 3 descriptions: ['Que Deus se levante!\nSejam espalhados os seus inim', 'Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ', 'Meu Deus! Meu Deus!\nPor que me abandonaste?\nPor qu']
-INFO:root:Found 3 dates: ['5 de Dezembro de 2025', '4 de Dezembro de 2025', '3 de Dezembro de 2025']
+INFO:root:Response length: 332349 characters
+INFO:root:HTML parsed, length: 322780 characters
+INFO:root:Found 3 titles: ['Salmo 51', 'Salmo 68', 'Salmo 148']
+INFO:root:Found 3 URLs: ['/salmos_51/', '/salmos_68/', '/salmos_148/']
+INFO:root:Found 3 descriptions: ['Tem misericórdia de mim, ó Deus,\npor teu amor;\npor', 'Que Deus se levante!\nSejam espalhados os seus inim', 'Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ']
+INFO:root:Found 3 dates: ['6 de Dezembro de 2025', '5 de Dezembro de 2025', '4 de Dezembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 68', ID=906e07fabc5c47e7e79f302862fabb28
-INFO:root:Processing entry 2: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
-INFO:root:Processing entry 3: Title=' Salmo 22', ID=4a9a8239c5e2598aac1d618498f0cfa2
+INFO:root:Processing entry 1: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
+INFO:root:Processing entry 2: Title=' Salmo 68', ID=906e07fabc5c47e7e79f302862fabb28
+INFO:root:Processing entry 3: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 51
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_51/
+INFO:root:🔹 Description: Tem misericórdia de mim, ó Deus,
+por teu amor;
+por tua grande compaixão
+apaga as minhas transgressões. 
+Lava-me de toda a minha culpa
+e purifica-me do meu pecado. 
+Pois eu mesmo
+reconheço as minhas transgressões,
+e o meu pecado sempre me persegue. 
+Contra ti, só contra ti, pequei
+e fiz o que tu reprovas,
+de modo que justa é a tua sentença
+e tens razão em condenar-me. 
+Sei que sou pecador desde que nasci;
+sim, desde que me concebeu minha mãe. 
+Sei que desejas a verdade no íntimo;
+e no coração me ensinas a sabedoria. 
+Purifica-me com hissopo, e ficarei puro;
+lava-me, e mais branco do que a neve serei. 
+Faze-me ouvir de novo júbilo e alegria,
+e os ossos que esmagaste exultarão. 
+Esconde o rosto dos meus pecados
+e apaga todas as minhas iniquidades. 
+Cria em mim um coração puro, ó Deus,
+e renova dentro de mim um espírito estável. 
+Não me expulses da tua presença
+nem tires de mim o teu Santo Espírito. 
+Devolve-me a alegria da tua salvação
+e sustenta-me
+com um espírito pronto a obedecer. 
+Então ensinarei os teus caminhos
+aos transgressores,
+para que os pecadores se voltem para ti. 
+Livra-me da culpa dos crimes de sangue,
+ó Deus, Deus da minha salvação!
+E a minha língua aclamará a tua justiça. 
+Ó Senhor, dá palavras aos meus lábios,
+e a minha boca anunciará o teu louvor. 
+Não te deleitas em sacrifícios
+nem te agradas em holocaustos,
+senão eu os traria. 
+Os sacrifícios que agradam a Deus
+são um espírito quebrantado;
+um coração quebrantado e contrito,
+ó Deus, não desprezarás. 
+Por tua boa vontade faze Sião prosperar;
+ergue os muros de Jerusalém. 
+Então te agradarás dos sacrifícios sinceros,
+das ofertas queimadas e dos holocaustos;
+e novilhos serão oferecidos sobre o teu altar. 
+ Salmo 51
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 68
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_68/
 INFO:root:🔹 Description: Que Deus se levante!
@@ -227,150 +281,79 @@ dos israelitas, povo a quem ele tanto ama.
 Aleluia! 
  Salmo 148
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 22
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_22/
-INFO:root:🔹 Description: Meu Deus! Meu Deus!
-Por que me abandonaste?
-Por que estás tão longe de salvar-me,
-tão longe dos meus gritos de angústia? 
-Meu Deus!
-Eu clamo de dia, mas não respondes;
-de noite, e não recebo alívio! 
-Tu, porém, és o Santo,
-és rei, és o louvor de Israel. 
-Em ti os nossos antepassados
-puseram a sua confiança;
-confiaram, e os livraste. 
-Clamaram a ti, e foram libertos;
-em ti confiaram, e não se decepcionaram. 
-Mas eu sou verme, e não homem,
-motivo de zombaria
-e objeto de desprezo do povo. 
-Caçoam de mim todos os que me veem;
-balançando a cabeça,
-lançam insultos contra mim, dizendo: 
-"Recorra ao Senhor!
-Que o Senhor o liberte!
-Que ele o livre, já que lhe quer bem!" 
-Contudo, tu mesmo me tiraste do ventre;
-deste-me segurança
-junto ao seio de minha mãe. 
-Desde que nasci fui entregue a ti;
-desde o ventre materno és o meu Deus. 
-Não fiques distante de mim,
-pois a angústia está perto
-e não há ninguém que me socorra. 
-Muitos touros me cercam,
-sim, rodeiam-me os poderosos de Basã. 
-Como leão voraz rugindo,
-escancaram a boca contra mim. 
-Como água me derramei,
-e todos os meus ossos estão desconjuntados.
-Meu coração se tornou como cera;
-derreteu-se no meu íntimo. 
-Meu vigor secou-se como um caco de barro,
-e a minha língua gruda no céu da boca;
-deixaste-me no pó, à beira da morte. 
-Cães me rodearam!
-Um bando de homens maus me cercou!
-Perfuraram minhas mãos e meus pés. 
-Posso contar todos os meus ossos,
-mas eles me encaram com desprezo. 
-Dividiram as minhas roupas entre si,
-e lançaram sortes pelas minhas vestes. 
-Tu, porém, Senhor, não fiques distante!
-Ó minha força, vem logo em meu socorro! 
-Livra-me da espada,
-livra a minha vida do ataque dos cães. 
-Salva-me da boca dos leões,
-e dos chifres dos bois selvagens.
-E tu me respondeste. 
-Proclamarei o teu nome a meus irmãos;
-na assembleia te louvarei. 
-Louvem-no, vocês que temem o Senhor!
-Glorifiquem-no, todos vocês,
-descendentes de Jacó!
-Tremam diante dele, todos vocês,
-descendentes de Israel! 
-Pois não menosprezou
-nem repudiou o sofrimento do aflito;
-não escondeu dele o rosto,
-mas ouviu o seu grito de socorro. 
-De ti vem o tema do meu louvor
-na grande assembleia;
-na presença dos que te temem
-cumprirei os meus votos. 
-Os pobres comerão até ficarem satisfeitos;
-aqueles que buscam o Senhor o louvarão!
-Que vocês tenham vida longa! 
-Todos os confins da terra
-se lembrarão e se voltarão para o Senhor,
-e todas as famílias das nações
-se prostrarão diante dele, 
-pois do Senhor é o reino;
-ele governa as nações. 
-Todos os ricos da terra
-se banquetearão e o adorarão;
-haverão de ajoelhar-se diante dele
-todos os que descem ao pó,
-cuja vida se esvai. 
-A posteridade o servirá;
-gerações futuras ouvirão falar do Senhor, 
-e a um povo que ainda não nasceu
-proclamarão seus feitos de justiça,
-pois ele agiu poderosamente. 
- Salmo 22
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 341692 characters
-INFO:root:HTML parsed, length: 331450 characters
-INFO:root:Found 3 titles: ['Maior é o que está em nós!', 'Revistam-se do amor', 'O que Cristo significa para mim']
+INFO:root:Response length: 331431 characters
+INFO:root:HTML parsed, length: 321466 characters
+INFO:root:Found 3 titles: ['Quando o chamado é maior que o medo', 'Maior é o que está em nós!', 'Revistam-se do amor']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Quando a situação se torna difícil, o Espírito San', 'Acima de tudo, porém, revistam-se do amor, que é o', 'Pois há um só Deus\ne um só mediador\nentre Deus e o']
-INFO:root:Found 1 dates: ['Sexta, 5 de dezembro de 2025']
+INFO:root:Found 3 descriptions: ['Venham, vamos recons\xadtruir os muros de Jerusalém, ', 'Quando a situação se torna difícil, o Espírito San', 'Acima de tudo, porém, revistam-se do amor, que é o']
+INFO:root:Found 1 dates: ['Sábado, 6 de dezembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Maior é o que está em nós!', ID=582c49e442d1d3ca6b7af87339850464
+INFO:root:Processing entry 1: Title='Quando o chamado é maior que o medo', ID=fc5f9708952a4d23b7bdf4d0e96126a3
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Maior é o que está em nós! - Palavra de Hoje
+INFO:root:🔹 Title: Quando o chamado é maior que o medo - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Quando a situação se torna difícil, o Espírito Santo nos lembra que em Cristo já vencemos o mundo:
+INFO:root:🔹 Description: Venham, vamos recons­truir os muros de Jerusalém, para que não fiquemos mais nesta situação humilhante.
+- Neemias 2:17b
 
-Filhinhos, sois de Deus e já os tendes vencido, porque maior é o que está em vós do que o que está no mundo.
-- 1 João 4:4
+Jerusalém estava em ruínas. Os muros caídos não eram apenas pedras quebradas, eram símbolos de um povo desanimado, de uma identidade ferida e de um futuro incerto.
+Deus despertou o coração de um homem comum, um copeiro, alguém sem títulos grandiosos, para realizar uma obra extraordinária. Assim começa a jornada de Neemias, marcada por coragem, visão e fé inabalável.
+Ao ouvir sobre a condição de sua terra, Neemias não ignorou a dor. Ele chorou, jejuou, orou. Sua primeira ação não foi correr para solucionar o problema, mas buscar direção de Deus. E é assim que grandes reconstruções começam: não com força, mas com dependência. Neemias entendeu que antes de levantar muros ao redor, precisava preparar o terreno dentro de si.
+Ele se apresentou ao rei, pediu recursos, convocou pessoas, enfrentou críticas e resistiu às ameaças. Enquanto muitos diziam que a obra era grande demais, perigosa demais, Neemias afirmava: “Estou fazendo uma grande obra e não posso descer.” Ele sabia que abandonar o propósito seria mais destrutivo do que qualquer ataque inimigo.
 
-O apóstolo João nos assegura que, apesar das pressões externas, existe dentro de nós uma presença poderosa: o Espírito Santo, que habita em todo aquele que crê em Jesus Cristo. Essa realidade espiritual não é apenas um consolo, mas uma fonte constante de vitória, esperança e direção.
-Muitas vezes, enfrentamos batalhas interiores que tentam nos convencer de que somos fracos, incapazes ou sozinhos. Contudo, a Palavra de Deus afirma que não caminhamos pela vida apoiados apenas na nossa própria capacidade. Temos dentro de nós o Deus que criou todas as coisas, Aquele que sustenta o universo com a força de Sua mão e que conhece cada detalhe da nossa história. Ele não apenas nos acompanha, mas nos capacita, nos fortalece e nos guia em cada desafio.
-Quando entendemos que maior é o que está em nós, nossa perspectiva muda. Em vez de temer, confiamos. Em vez de retroceder, avançamos. Em vez de nos desesperarmos, descansamos na fidelidade de Deus. A fé se torna mais do que palavras; torna-se uma postura diária que transforma nosso modo de viver, reagir e enfrentar o desconhecido.
-Levante-se hoje com a certeza de que não está sozinho. O Senhor habita em você e lhe concede graça para cada passo. Que essa verdade fortaleça o seu coração, renove sua esperança e desperte sua confiança no Deus que nunca falha. Caminhe sabendo que, em Cristo, você é mais do que vencedor, porque o Todo-Poderoso vive e reina em seu interior.
-Que sua vida reflita essa convicção divina, permitindo que a luz de Cristo brilhe através de suas atitudes, palavras e escolhas, testemunhando Seu amor transformador.
-Veja também: Versículos que dizem que somos vencedores.
+A reconstrução levou apenas 52 dias, mas o impacto atravessa séculos. Neemias nos lembra que o impossível acontece quando fé e ação caminham juntas. Que não importa quão destruído algo pareça, Deus continua levantando pessoas dispostas a restaurar o que o medo tentou arruinar.
+
+A história de Neemias nos inspira a enxergar além dos escombros e acreditar que Deus nos capacita para reconstruir o que fomos chamados a erguer. Não importa o tamanho da luta: quando Ele nos envia, nenhum muro permanece caído.
+Veja também: A história de Neemias
  
-Filhinhos, sois de Deus e já os tendes vencido, porque maior é o que está em vós do que o que está no mundo.
-- 1 João 4:4
+Venham, vamos recons­truir os muros de Jerusalém, para que não fiquemos mais nesta situação humilhante.
+- Neemias 2:17b
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 354929 characters
-INFO:root:HTML parsed, length: 344240 characters
-INFO:root:Found 3 titles: ['Tocando nas Suas vestes', 'Lembre-se do que Deus já fez', 'Superando as tribulações através da fé']
-INFO:root:Found 3 URLs: ['/biblia_diz_os_milagres_de_jesus/', '/a_gratidao_de_paulo/', '/razoes_para_confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['porque pensava: "Se eu tão somente tocar em seu ma', 'Bendiga o Senhor a minha alma!\nNão esqueça nenhuma', '"Eu disse essas coisas para que em mim vocês tenha']
-INFO:root:Found 3 dates: ['DEZEMBRO\n\n5\nSEXTA', 'DEZEMBRO\n\n4\nQUINTA', 'DEZEMBRO\n\n3\nQUARTA']
+INFO:root:Response length: 345230 characters
+INFO:root:HTML parsed, length: 334817 characters
+INFO:root:Found 3 titles: ['Se o Filho vos libertar', 'Tocando nas Suas vestes', 'Lembre-se do que Deus já fez']
+INFO:root:Found 3 URLs: ['/liberdade/', '/biblia_diz_os_milagres_de_jesus/', '/a_gratidao_de_paulo/']
+INFO:root:Found 3 descriptions: ['Se, pois, o Filho vos libertar, verdadeiramente se', 'porque pensava: "Se eu tão somente tocar em seu ma', 'Bendiga o Senhor a minha alma!\nNão esqueça nenhuma']
+INFO:root:Found 3 dates: ['DEZEMBRO\n\n6\nSÁBADO', 'DEZEMBRO\n\n5\nSEXTA', 'DEZEMBRO\n\n4\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Tocando nas Suas vestes', ID=b4df71c2ba27166a5f494e134b42a96d
-INFO:root:Processing entry 2: Title='Lembre-se do que Deus já fez', ID=ae7d336b87949cb28d1efa60ae484570
-INFO:root:Processing entry 3: Title='Superando as tribulações através da fé', ID=7d7b831a3718f6a6f59930809631cdbf
+INFO:root:Processing entry 1: Title='Se o Filho vos libertar', ID=b5ae19ae6f0fdc63cb84a5c03222825d
+INFO:root:Processing entry 2: Title='Tocando nas Suas vestes', ID=b4df71c2ba27166a5f494e134b42a96d
+INFO:root:Processing entry 3: Title='Lembre-se do que Deus já fez', ID=ae7d336b87949cb28d1efa60ae484570
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Se o Filho vos libertar
+INFO:root:🔹 URL: https://www.bibliaon.com/liberdade/
+INFO:root:🔹 Description: Se, pois, o Filho vos libertar, verdadeiramente sereis livres.
+- João 8:36
+
+Procuramos libertação de culpas, medos, angústias e das correntes invisíveis que tentam aprisionar a nossa alma. Entretanto, nenhuma força terrena, filosofia humana ou conquista pessoal é capaz de tocar as profundezas do nosso ser como Cristo o faz. Apenas o Filho de Deus tem o poder de romper as cadeias que nos mantêm distantes da vida plena.
+Quando Jesus declara que Ele mesmo é quem liberta, não fala de uma liberdade superficial, mas de uma transformação que começa no interior. Ele não apenas remove o peso do pecado; Ele restaura, renova e conduz o coração a um novo propósito. A liberdade que Cristo oferece não depende das circunstâncias externas, pois nasce de uma obra feita na cruz e selada por Seu amor eterno.
+Se o Filho te libertar, você é livre do passado, das acusações e das mentiras que tentam definir quem você é. Livre da necessidade de carregar sozinho suas dores. Livre para recomeçar, para caminhar com esperança, para escolher o bem, para viver em paz mesmo em meio às tempestades. Livre para entender que sua identidade não está em fracassos ou limitações, mas na graça que te alcançou.
+Essa liberdade, porém, é também um convite: caminhar em Cristo diariamente, entregar a Ele áreas que ainda resistimos a soltar, confiar quando não entendemos e segui-Lo mesmo quando o caminho parece estreito. Mas é justamente nessa jornada que experimentamos o poder de Sua promessa.
+Se o Filho te libertar, você é livre, verdadeiramente livre. Que essa verdade toque em seu coração hoje, trazendo força, fé e renovo para continuar avançando na luz daquele que te chamou para viver plenamente.
+Vivendo a liberdade
+
+Busque diariamente a presença de Jesus por meio da oração e da Palavra, permitindo que Ele renove seus pensamentos e direcione suas escolhas com sabedoria.
+Abandone pesos desnecessários, confessando a Cristo suas lutas e confiando que Sua graça restaura, fortalece e conduz cada área fragilizada do coração humano.
+Caminhe em obediência, praticando atos de amor, perdão e serviço, demonstrando ao mundo a verdadeira liberdade que se manifesta através de uma vida transformada.
+
+Para orar:
+
+Senhor Jesus, agradeço pela liberdade que só o Teu amor concede. Liberta meu coração de medos, culpas e preocupações. Guia meus passos, fortalece minha fé e renova minha esperança. Que eu viva cada dia firmado na Tua graça, caminhando em paz e confiança. Que Tua luz conduza minhas escolhas e Teu Espírito me transforme. Amém.
+
+Veja também: Versículos sobre liberdade
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Tocando nas Suas vestes
 INFO:root:🔹 URL: https://www.bibliaon.com/biblia_diz_os_milagres_de_jesus/
 INFO:root:🔹 Description: porque pensava: "Se eu tão somente tocar em seu manto, ficarei curada".
@@ -417,29 +400,6 @@ Senhor Deus, agradeço por tua fidelidade que me sustenta todos os dias. Obrigad
 
 Veja também: Exemplos de gratidão na Bíblia: 8 histórias para inspirar
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Superando as tribulações através da fé
-INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
-INFO:root:🔹 Description: "Eu disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo".
-- João 16:33
-
-As atribulações fazem parte da nossa jornada de fé. Ninguém está imune às lutas, perdas, dúvidas ou momentos de profunda angústia. Contudo, a Palavra nos lembra que não caminhamos sozinhos. Em cada batalha, Deus permanece ao nosso lado com Sua força e nos ensinando a enxergar além da dor.
-Vencer as atribulações com fé não é negar a dificuldade, mas enfrentá-la com a certeza de que o Senhor está no controle.
-A fé é o escudo que nos protege dos ataques da desesperança. Quando as circunstâncias parecem maiores que nós, é justamente aí que precisamos recordar quem Deus é: o nosso refúgio seguro, socorro bem presente na tribulação. Ele transforma lágrimas em força, dúvidas em aprendizado e quedas em novos passos de vitória. Crer, mesmo quando nada faz sentido, é declarar que a última palavra pertence ao Pai.
-Para vencer os dias difíceis, é essencial cultivar uma vida de oração. É na presença de Deus que a alma encontra descanso e renovo. A oração realinha nossos pensamentos com os pensamentos do Senhor e fortalece o coração cansado. Além disso, meditar nas promessas da Escritura traz esperança e clareza. A Palavra é luz para o caminho e âncora para a alma.
-Também é importante caminhar em comunhão. Deus nos criou para vivermos conectados, apoiando-nos uns aos outros. Uma palavra de encorajamento, um abraço, uma oração compartilhada podem reacender a fé abatida.
-As tribulações não têm poder de nos destruir quando estamos firmados em Cristo. Ele venceu o mundo, e n’Ele também somos mais que vencedores. Confie, permaneça, adore e verá que, mesmo na tribulação, Deus faz nascer um novo amanhecer.
-Mantendo-se firme!
-
-A fé fortalece o coração ao lembrá-lo das promessas de Deus, permitindo enfrentar desafios com confiança, esperança renovada e certeza do constante cuidado de Deus.
-A oração aproxima nossa alma do Senhor, trazendo paz profunda, direção clara e força espiritual, mantendo-nos firmes diante das circunstâncias adversas.
-A comunhão fortalece nossa caminhada, oferecendo apoio mútuo, encorajamento e renovação, ajudando-nos a perseverar mesmo quando enfrentamos tribulações difíceis e desafios profundos.
-
-Para orar:
-
-Senhor, fortalece minha fé em meio às tribulações. Guarda meu coração da ansiedade e renova minha esperança. Sustenta-me com Tua paz, guia meus passos e faz tua luz brilhar sobre mim. Amém.
-
-Veja também: 7 razões para confiar em Deus em meio às lutas.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -469,15 +429,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  23 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 171 +++++++++-----
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               | 146 +++++--------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 365 ++++++++++++++++--------------
- 11 files changed, 381 insertions(+), 303 deletions(-)
+ output.log                                | 338 +++++++++++++-----------------
+ 11 files changed, 267 insertions(+), 359 deletions(-)
