@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120144 characters
-INFO:root:HTML parsed, length: 113234 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (08/12/2025)', 'Palavra de Ontem (07/12/2025)', 'Palavra de Anteontem (06/12/2025)']
-INFO:root:Found 3 URLs: ['/paradoxo/', '/aventar/', '/gafe/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Contradição ou oposição apar', 'Sinônimos:\n\ncontradição, oposição, antagonismo, in', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (08/12/2025)', 'Palavra de Ontem (07/12/2025)', 'Palavra de Anteontem (06/12/2025)']
+INFO:root:Response length: 120061 characters
+INFO:root:HTML parsed, length: 113151 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (09/12/2025)', 'Palavra de Ontem (08/12/2025)', 'Palavra de Anteontem (07/12/2025)']
+INFO:root:Found 3 URLs: ['/estarrado/', '/paradoxo/', '/aventar/']
+INFO:root:Found 12 descriptions: ['adjetivo [Popular] Que está muito debilitado, doen', 'Sinônimos:\n\ndoente, enfermo, fraco, adoentado', 'Sílabas:es-tar-ra-do']
+INFO:root:Found 3 dates: ['Palavra de Hoje (09/12/2025)', 'Palavra de Ontem (08/12/2025)', 'Palavra de Anteontem (07/12/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (08/12/2025)', ID=5ae76cf22361554ba37b5d07dc86f616
-INFO:root:Processing entry 2: Title='Palavra de Ontem (07/12/2025)', ID=d2e87d79b92bd8f49c19058e31cc6b36
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/12/2025)', ID=c2d7bc4c7c041d9dec8f683280e58529
+INFO:root:Processing entry 1: Title='Palavra de Hoje (09/12/2025)', ID=0a86db4cf98a098f964ca9f71d789035
+INFO:root:Processing entry 2: Title='Palavra de Ontem (08/12/2025)', ID=c38c9b237542e9584a18beb96b1452fb
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/12/2025)', ID=7e91359578acfec4603d60c6509b4672
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (08/12/2025) - Significado completo de paradoxo:
+INFO:root:🔹 Title: Palavra de Hoje (09/12/2025) - Significado completo de estarrado:
+INFO:root:🔹 URL: https://www.dicio.com.br/estarrado/
+INFO:root:🔹 Description: adjetivo [Popular] Que está muito debilitado, doente, enfermo.Etimologia (origem da palavra estarrado). Estarro + ado.
+ 
+Sinônimos:
+
+doente, enfermo, fraco, adoentado 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (08/12/2025) - Significado completo de paradoxo:
 INFO:root:🔹 URL: https://www.dicio.com.br/paradoxo/
-INFO:root:🔹 Description: substantivo masculino Contradição ou oposição aparente: falo melhor quando emudeço.[Gramática] Junção de palavras com sentidos opostos que, usadas na mesma frase, têm o intuito de expressar ou causar uma contradição: "alegria triste" é um exemplo de paradoxo.Opinião contrária ao senso comum: sua vitória como presidente foi um paradoxo político.Ausência de nexo; falta de lógica: a vida é uma morte.Ideia bem fundamentada ou apresentada de forma coerente, mas que possui subentendidos contraditórios à sua própria estrutura.[Filosofia] Contradição que chega, em certos casos, a se opor às razões do pensamento humano ou nega o que a maioria tende a acreditar.Etimologia (origem da palavra paradoxo). A palavra paradoxo deriva do grego “parádoksos,os,on”, que significa estranho; pelo latim “paradoxon,i”.
+INFO:root:🔹 Description: Sinônimos:
+
+doente, enfermo, fraco, adoentado
+ Sílabas:es-tar-ra-do
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (07/12/2025) - Significado completo de aventar:
+INFO:root:🔹 URL: https://www.dicio.com.br/aventar/
+INFO:root:🔹 Description: Sílabas:es-tar-ra-do
  
 Sinônimos:
 
 contradição, oposição, antagonismo, incoerência, incompatibilidade, incongruência 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (07/12/2025) - Significado completo de aventar:
-INFO:root:🔹 URL: https://www.dicio.com.br/aventar/
-INFO:root:🔹 Description: Sinônimos:
-
-contradição, oposição, antagonismo, incoerência, incompatibilidade, incongruência
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (06/12/2025) - Significado completo de gafe:
-INFO:root:🔹 URL: https://www.dicio.com.br/gafe/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:pa-ra-do-xo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,100 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 329253 characters
-INFO:root:HTML parsed, length: 318833 characters
-INFO:root:Found 1 titles: ['João 8:12']
-INFO:root:Found 1 URLs: ['/versiculo/joao_8_12/']
-INFO:root:Found 1 descriptions: ['Falando novamente ao povo, Jesus disse: "Eu sou a ']
+INFO:root:Response length: 329321 characters
+INFO:root:HTML parsed, length: 318901 characters
+INFO:root:Found 1 titles: ['2 Pedro 3:10']
+INFO:root:Found 1 URLs: ['/versiculo/2_pedro_3_10/']
+INFO:root:Found 1 descriptions: ['O dia do Senhor, porém, virá como ladrão. Os céus ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='João 8:12', ID=4c8310b1a8a0cbfa7fcc8d6829f4a725
+INFO:root:Processing entry 1: Title='2 Pedro 3:10', ID=c1254ccccae4b08911b61b695a45ded1
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: João 8:12
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_8_12/
-INFO:root:🔹 Description: Falando novamente ao povo, Jesus disse: "Eu sou a luz do mundo. Quem me segue, nunca andará em trevas, mas terá a luz da vida". João 8:12
+INFO:root:🔹 Title: 2 Pedro 3:10
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_pedro_3_10/
+INFO:root:🔹 Description: O dia do Senhor, porém, virá como ladrão. Os céus desaparecerão com um grande estrondo, os elementos serão desfeitos pelo calor, e a terra, e tudo o que nela há, será desnudada. 2 Pedro 3:10
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 331145 characters
-INFO:root:HTML parsed, length: 321546 characters
-INFO:root:Found 3 titles: ['Salmo 15', 'Salmo 104', 'Salmo 51']
-INFO:root:Found 3 URLs: ['/salmos_15/', '/salmos_104/', '/salmos_51/']
-INFO:root:Found 3 descriptions: ['Senhor, quem habitará no teu santuário?\nQuem poder', 'Bendiga o Senhor a minha alma!\nÓ Senhor, meu Deus,', 'Tem misericórdia de mim, ó Deus,\npor teu amor;\npor']
-INFO:root:Found 3 dates: ['8 de Dezembro de 2025', '7 de Dezembro de 2025', '6 de Dezembro de 2025']
+INFO:root:Response length: 331288 characters
+INFO:root:HTML parsed, length: 321691 characters
+INFO:root:Found 3 titles: ['Salmo 94', 'Salmo 15', 'Salmo 104']
+INFO:root:Found 3 URLs: ['/salmos_94/', '/salmos_15/', '/salmos_104/']
+INFO:root:Found 3 descriptions: ['Ó Senhor, Deus vingador;\nDeus vingador! Intervém! ', 'Senhor, quem habitará no teu santuário?\nQuem poder', 'Bendiga o Senhor a minha alma!\nÓ Senhor, meu Deus,']
+INFO:root:Found 3 dates: ['9 de Dezembro de 2025', '8 de Dezembro de 2025', '7 de Dezembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
-INFO:root:Processing entry 2: Title=' Salmo 104', ID=5012c2e8344afd05cf23b4a5bd746068
-INFO:root:Processing entry 3: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
+INFO:root:Processing entry 1: Title=' Salmo 94', ID=1d8e97580a5987dd308a0faca1ecf59b
+INFO:root:Processing entry 2: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
+INFO:root:Processing entry 3: Title=' Salmo 104', ID=5012c2e8344afd05cf23b4a5bd746068
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 94
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_94/
+INFO:root:🔹 Description: Ó Senhor, Deus vingador;
+Deus vingador! Intervém! 
+Levanta-te, Juiz da terra;
+retribui aos orgulhosos o que merecem. 
+Até quando os ímpios, Senhor,
+até quando os ímpios exultarão? 
+Eles despejam palavras arrogantes;
+todos esses malfeitores enchem-se de vanglória. 
+Massacram o teu povo, Senhor,
+e oprimem a tua herança; 
+matam as viúvas e os estrangeiros,
+assassinam os órfãos 
+e ainda dizem: "O Senhor não nos vê;
+o Deus de Jacó nada percebe". 
+Insensatos, procurem entender!
+E vocês, tolos, quando se tornarão sábios? 
+Será que quem fez o ouvido não ouve?
+Será que quem formou o olho não vê? 
+Aquele que disciplina as nações
+os deixará sem castigo?
+Não tem sabedoria aquele
+que dá ao homem o conhecimento? 
+O Senhor conhece
+os pensamentos do homem,
+e sabe como são fúteis. 
+Como é feliz o homem a quem disciplinas,
+Senhor,
+aquele a quem ensinas a tua lei; 
+tranquilo, enfrentará os dias maus,
+enquanto, para os ímpios,
+uma cova se abrirá. 
+O Senhor não desamparará o seu povo;
+jamais abandonará a sua herança. 
+Voltará a haver justiça nos julgamentos,
+e todos os retos de coração a seguirão. 
+Quem se levantará a meu favor
+contra os ímpios?
+Quem ficará a meu lado contra os malfeitores? 
+Não fosse a ajuda do Senhor,
+eu já estaria habitando no silêncio. 
+Quando eu disse:
+Os meus pés escorregaram,
+o teu amor leal, Senhor, me amparou! 
+Quando a ansiedade
+já me dominava no íntimo,
+o teu consolo trouxe alívio à minha alma. 
+Poderá um trono corrupto
+estar em aliança contigo?,
+um trono que faz injustiças em nome da lei? 
+Eles planejam contra a vida dos justos
+e condenam os inocentes à morte. 
+Mas o Senhor é a minha torre segura;
+o meu Deus é a rocha em que encontro refúgio. 
+Deus fará cair sobre eles os seus crimes,
+e os destruirá por causa dos seus pecados;
+o Senhor, o nosso Deus, os destruirá! 
+ Salmo 94
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 15
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_15/
 INFO:root:🔹 Description: Senhor, quem habitará no teu santuário?
@@ -188,122 +252,85 @@ Bendiga o Senhor a minha alma!
 Aleluia! 
  Salmo 104
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 51
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_51/
-INFO:root:🔹 Description: Tem misericórdia de mim, ó Deus,
-por teu amor;
-por tua grande compaixão
-apaga as minhas transgressões. 
-Lava-me de toda a minha culpa
-e purifica-me do meu pecado. 
-Pois eu mesmo
-reconheço as minhas transgressões,
-e o meu pecado sempre me persegue. 
-Contra ti, só contra ti, pequei
-e fiz o que tu reprovas,
-de modo que justa é a tua sentença
-e tens razão em condenar-me. 
-Sei que sou pecador desde que nasci;
-sim, desde que me concebeu minha mãe. 
-Sei que desejas a verdade no íntimo;
-e no coração me ensinas a sabedoria. 
-Purifica-me com hissopo, e ficarei puro;
-lava-me, e mais branco do que a neve serei. 
-Faze-me ouvir de novo júbilo e alegria,
-e os ossos que esmagaste exultarão. 
-Esconde o rosto dos meus pecados
-e apaga todas as minhas iniquidades. 
-Cria em mim um coração puro, ó Deus,
-e renova dentro de mim um espírito estável. 
-Não me expulses da tua presença
-nem tires de mim o teu Santo Espírito. 
-Devolve-me a alegria da tua salvação
-e sustenta-me
-com um espírito pronto a obedecer. 
-Então ensinarei os teus caminhos
-aos transgressores,
-para que os pecadores se voltem para ti. 
-Livra-me da culpa dos crimes de sangue,
-ó Deus, Deus da minha salvação!
-E a minha língua aclamará a tua justiça. 
-Ó Senhor, dá palavras aos meus lábios,
-e a minha boca anunciará o teu louvor. 
-Não te deleitas em sacrifícios
-nem te agradas em holocaustos,
-senão eu os traria. 
-Os sacrifícios que agradam a Deus
-são um espírito quebrantado;
-um coração quebrantado e contrito,
-ó Deus, não desprezarás. 
-Por tua boa vontade faze Sião prosperar;
-ergue os muros de Jerusalém. 
-Então te agradarás dos sacrifícios sinceros,
-das ofertas queimadas e dos holocaustos;
-e novilhos serão oferecidos sobre o teu altar. 
- Salmo 51
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 331752 characters
-INFO:root:HTML parsed, length: 321800 characters
-INFO:root:Found 3 titles: ['Não se desanime, minha alma: tenha esperança em Deus!', 'Sol para a alma', 'Quando o chamado é maior que o medo']
+INFO:root:Response length: 331830 characters
+INFO:root:HTML parsed, length: 321876 characters
+INFO:root:Found 3 titles: ['Perdão total', 'Não se desanime, minha alma: tenha esperança em Deus!', 'Sol para a alma']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Por que você está assim tão triste,\nó minha alma?\n', '"Levante-se, refulja!\nPorque chegou a sua luz,\ne a', 'Venham, vamos recons\xadtruir os muros de Jerusalém, ']
-INFO:root:Found 1 dates: ['Segunda, 8 de dezembro de 2025']
+INFO:root:Found 3 descriptions: ['Eu os purificarei de todo o pecado que comete\xadram ', 'Por que você está assim tão triste,\nó minha alma?\n', '"Levante-se, refulja!\nPorque chegou a sua luz,\ne a']
+INFO:root:Found 1 dates: ['Terça, 9 de dezembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Não se desanime, minha alma: tenha esperança em Deus!', ID=efad138b3755519adec62f0048135c08
+INFO:root:Processing entry 1: Title='Perdão total', ID=1b5604abc93d565bdc75a2a57864a900
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Não se desanime, minha alma: tenha esperança em Deus! - Palavra de Hoje
+INFO:root:🔹 Title: Perdão total - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Por que você está assim tão triste,
-ó minha alma?
-Por que está assim tão perturbada
-dentro de mim?
-Ponha a sua esperança em Deus!
-Pois ainda o louvarei;
-ele é o meu Salvador e o meu Deus.
-- Salmo 42:11
+INFO:root:🔹 Description: Eu os purificarei de todo o pecado que comete­ram contra mim e perdoarei todos os seus peca­dos de rebelião contra mim.
+- Jeremias 33:8
 
-Pode ser fácil desanimar se nos concentrarmos nas dificuldades e nos problemas da vida. É verdade que muitos dias trazem situações que parecem insuperáveis. Mas existe uma outra realidade, muito mais maravilhosa, da qual devemos nos lembrar: Deus está conosco, Ele está no controle e Ele nos ajudará. Essa é a nossa esperança!
-Todos que aceitaram Jesus como Senhor e Salvador têm a presença do Espírito Santo. Nenhum problema ou tristeza é maior do que a alegria de ter a presença constante do Consolador, que nos fala a verdade sobre o amor de Deus e o Seu poder diante de qualquer ameaça.
-Quando nossa alma está abatida, precisamos nos lembrar de quem é o nosso Deus. Ele é o Pai amoroso que caminha conosco mesmo pelos vales mais escuros. Nada do que enfrentamos O surpreende. Nada está além do alcance da Sua poderosa mão. Quando nos aproximamos Dele com nossos medos, nossas dúvidas e nossos fardos, Ele nos recebe com ternura e nos fortalece com a Sua paz. Em Sua presença, encontramos descanso para nossos corações cansados.
-Portanto, mesmo quando não entendemos tudo o que acontece ao nosso redor, podemos escolher confiar. Pela fé, sabemos que Deus está conosco. Nosso Pai nos sustenta, nos guia e nos lembra que Seu amor é mais forte do que qualquer montanha que possamos encontrar. Então diga à sua alma: “Espere em Deus”. Ele foi fiel ontem, Ele é fiel hoje e Ele será fiel para sempre. E em Sua fidelidade, encontraremos forças renovadas para seguir em frente, porque Sua promessa é certa e Sua presença jamais falha.
+Às vezes, consciente ou inconscientemente, lembramos com dor e culpa pecados e transgressões pelos quais Deus já nos perdoou. Como seres humanos, é difícil para nós compreendermos a plenitude do perdão de Deus. Contudo, quando nos apresentamos diante de Deus em arrependimento e humildade, Ele nos perdoa. E o Seu perdão é completo!
+Deus escolheu lançar os nossos pecados nas profundezas do mar, como diz Miquéias 7:19. Isso significa que, quando Ele nos perdoa, não guarda uma lista de situações para nos condenar quando falhamos. Deus escolhe não se deter nos nossos piores momentos, concentrando-se, em vez disso, nas grandes coisas que podemos fazer para a Sua glória, visto que somos Seus filhos amados e perdoados.
+O perdão de Deus traz esperança para esta vida e para a vida futura. Quando entendemos que a Sua graça nos cobre completamente, a nossa perspectiva muda. Levantamo-nos a cada manhã livres do peso do passado, sabendo que Deus nos purificou e renovou. Graças à Sua misericórdia, caminhamos livremente, erguemos a cabeça e seguimos em frente, sabendo que somos amados e perdoados. Não estamos acorrentados pela culpa; somos abraçados pela graça.
+Lembremo-nos de quem somos graças ao perdão de Deus. Somos filhos redimidos, restaurados e chamados a um propósito eterno. A cada passo que damos, confiamos que o mesmo Deus que nos perdoou nos sustentará até o fim, guiando-nos para um futuro repleto de esperança e alegria em Sua presença.
 
-porque todos os que são guiados pelo Espírito de Deus são filhos de Deus. Pois vocês não receberam um espírito que os escravize para novamente temerem, mas receberam o Espírito que os torna filhos por adoção, por meio do qual clamamos: "Aba, Pai".
-- Romanos 8:14-15
+Pois ele nos resgatou do domínio das trevas e nos transportou para o Reino do seu Filho amado, em quem temos a redenção, a saber, o perdão dos pecados.
+- Colossenses 1:13-14
 
-Veja também: Versículos para vencer o desânimo.
+Veja também: A importância do perdão segundo a Bíblia.
  
-Por que você está assim tão triste,
-ó minha alma?
-Por que está assim tão perturbada
-dentro de mim?
-Ponha a sua esperança em Deus!
-Pois ainda o louvarei;
-ele é o meu Salvador e o meu Deus.
-- Salmo 42:11
+Eu os purificarei de todo o pecado que comete­ram contra mim e perdoarei todos os seus peca­dos de rebelião contra mim.
+- Jeremias 33:8
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 344417 characters
-INFO:root:HTML parsed, length: 334006 characters
-INFO:root:Found 3 titles: ['Água e óleo não se misturam', 'Paz que nasce na manjedoura', 'Se o Filho vos libertar']
-INFO:root:Found 2 URLs: ['/estudo_biblico_sobre_santidade/', '/liberdade/']
-INFO:root:Found 3 descriptions: ['Vivemos em um mundo onde muitas vezes se tenta con', 'Eu disse essas coisas para que em mim vocês tenham', 'Se, pois, o Filho vos libertar, verdadeiramente se']
-INFO:root:Found 3 dates: ['DEZEMBRO\n\n8\nSEGUNDA', 'DEZEMBRO\n\n7\nDOMINGO', 'DEZEMBRO\n\n6\nSÁBADO']
+INFO:root:Response length: 344773 characters
+INFO:root:HTML parsed, length: 334364 characters
+INFO:root:Found 3 titles: ['Seja prudente', 'Água e óleo não se misturam', 'Paz que nasce na manjedoura']
+INFO:root:Found 2 URLs: ['/os_frutos_do_espirito/', '/estudo_biblico_sobre_santidade/']
+INFO:root:Found 3 descriptions: ['O prudente percebe o perigo\ne busca refúgio;\no ine', 'Vivemos em um mundo onde muitas vezes se tenta con', 'Eu disse essas coisas para que em mim vocês tenham']
+INFO:root:Found 3 dates: ['DEZEMBRO\n\n9\nTERÇA', 'DEZEMBRO\n\n8\nSEGUNDA', 'DEZEMBRO\n\n7\nDOMINGO']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Água e óleo não se misturam', ID=eaa498cdcfaea4200f55858d6b438d8a
-INFO:root:Processing entry 2: Title='Paz que nasce na manjedoura', ID=6f9ed8c499a392546c62712ff9cfd35b
+INFO:root:Processing entry 1: Title='Seja prudente', ID=03ccbcff40e96f95e788211d89a2374a
+INFO:root:Processing entry 2: Title='Água e óleo não se misturam', ID=eaa498cdcfaea4200f55858d6b438d8a
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Seja prudente
+INFO:root:🔹 URL: https://www.bibliaon.com/os_frutos_do_espirito/
+INFO:root:🔹 Description: O prudente percebe o perigo
+e busca refúgio;
+o inexperiente segue adiante
+e sofre as consequências.
+- Provérbios 27:12
+
+A prudência não é medo, nem covardia; é sabedoria aplicada, discernimento em ação. Em um mundo repleto de caminhos que parecem promissores, mas conduzem ao engano, Deus nos convida a caminhar com olhos espirituais abertos, atentos ao que edifica e ao que destrói.
+Jesus ensinou que o homem prudente constrói sua casa sobre a rocha. Essa rocha é a obediência à Palavra, a prática diária dos ensinamentos que o Senhor nos confiou. Não basta apenas ouvir; é necessário transformar o que ouvimos em atitudes. Quando permitimos que o Espírito Santo guie nossas decisões, evitamos muitos sofrimentos que surgem da precipitação e da falta de vigilância.
+A prudência também está ligada ao domínio próprio. Quantas vezes palavras impensadas, atitudes impulsivas ou decisões precipitadas geraram feridas difíceis de curar? Ser prudente é pausar antes de agir, refletir antes de falar, orar antes de decidir. É reconhecer que nem tudo o que desejamos é o que Deus deseja para nós, e que a Sua vontade, embora às vezes contrária aos nossos impulsos, é sempre boa, perfeita e agradável.
+Além disso, a prudência nos protege das armadilhas espirituais. O inimigo trabalha com sutilezas, oferecendo atalhos, justificativas e aparentes vantagens. Mas o cristão prudente discerne, examina, compara com a Escritura e somente avança quando há paz no coração e confirmação divina.
+Ser prudente é também cuidar do que Deus colocou em nossas mãos: relacionamentos, finanças, tempo, talentos e a própria fé. É viver de maneira responsável, consciente e submissa a Cristo.
+Que o Senhor nos dê um coração atento, sábio e sensível, para que cada passo reflita a prudência que glorifica o Seu nome. Que possamos escolher sempre o caminho seguro da obediência, firmados na rocha eterna. Amém.
+Caminhando com sabedoria
+
+
+Ore pedindo discernimento ao Espírito Santo, para que suas decisões sejam guiadas pela sabedoria de Deus e não pelos impulsos do coração.
+
+Analise cada oportunidade com calma, alinhando suas decisões à Palavra de Deus, buscando confirmação em oração antes de avançar para caminhos que pareçam vantajosos.
+
+Pratique domínio próprio diariamente, selecionando palavras cuidadosas e atitudes equilibradas, evitando impulsos prejudiciais que comprometam relacionamentos e enfraqueçam a força do seu testemunho cristão.
+
+Para orar:
+
+Senhor Deus, concede-me sabedoria e prudência em cada decisão. Que teu Espírito Santo guie meus passos, fortaleça minha fé e proteja meu coração de todo engano. Inspira-me a ouvir tua voz com clareza, agir com amor sincero e permanecer firme na tua vontade. Que minha vida reflita tua luz e glorifique teu nome. Renova meu coração diariamente e concede paz profunda. Amém.
+
+Veja também: Frutos do Espírito que vão transformar sua vida.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Água e óleo não se misturam
 INFO:root:🔹 URL: https://www.bibliaon.com/estudo_biblico_sobre_santidade/
 INFO:root:🔹 Description: Vivemos em um mundo onde muitas vezes se tenta conciliar o pecado com a vida cristã, como se fosse possível manter uma vida piedosa enquanto se alimenta práticas que desagradam a Deus. Mas a verdade é clara e inegociável: água e óleo não se misturam. Assim também é a luz com as trevas, a santidade com o pecado.
@@ -329,25 +356,6 @@ Para orar:
 Senhor, reconheço minhas falhas e me arrependo dos meus pecados. Purifica meu coração, fortalece-me para rejeitar o mal e viver em Tua verdade. Enche-me com Teu Espírito e guia meus passos na Tua graça. Que minha vida reflita Teu amor. Em nome de Jesus, amém.
 
 Veja também: Estudo bíblico sobre santidade
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Paz que nasce na manjedoura
-INFO:root:🔹 URL: https://www.bibliaon.com/liberdade/
-INFO:root:🔹 Description: Eu disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo.
-- João 16:33
-
-À medida que o Natal se aproxima, muitas vezes o coração fica mais agitado que tranquilo. Compromissos, gastos, pressões e lembranças dolorosas podem roubar a paz. Mas o Natal nos aponta para uma paz diferente, que não depende das circunstâncias.
-Aquele menino deitado numa manjedoura é o Príncipe da Paz. Ele veio para reconciliar o que estava quebrado: nossa relação com Deus, conosco mesmos e com o próximo. Essa paz não é apenas silêncio ou ausência de briga. É a certeza de que, em Cristo, estamos nas mãos do Pai e nada foge ao seu controle.
-Neste segundo domingo em que preparamos nossos corações para o Natal, somos chamados a deixar que essa paz alcance as áreas tensas da nossa vida. Onde há culpa, Jesus traz perdão. Onde há medo, ele traz segurança. Onde há conflito, ele nos convida a dar o primeiro passo em direção à reconciliação.
-O Natal não é apenas lembrança de um acontecimento antigo. É convite para deixar Cristo reinar hoje nos nossos pensamentos, emoções e relacionamentos. Quando o governo dele ocupa o centro, a paz começa a florescer por dentro e transbordar para fora.
-Vivendo a paz de Cristo no Natal
-
-Identifique um relacionamento ou situação em que você sente falta de paz. Ore pedindo direção para agir como instrumento de reconciliação.
-Separe um tempo de silêncio diante de Deus, entregando seus medos e preocupações e declarando que confia no cuidado do Pai.
-Se for possível, dê um passo concreto de paz: uma mensagem, um pedido de perdão, um telefonema, um gesto de gentileza.
-
-Para orar:
-
-Jesus, Príncipe da Paz, eu quero receber a paz que vem de ti. Acalma meu coração agitado e reina sobre minhas emoções, minha casa e meus relacionamentos. Que o Natal não seja só correria, mas tempo de descanso na tua presença. Faz de mim um instrumento de paz onde eu estiver. Amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -380,13 +388,13 @@ INFO:root:
 🔍 Summary:
 INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  40 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  34 +---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 131 ++----------
+ feeds/salmo_do_dia/atom.xml               | 112 ++++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 342 +++++++++++-------------------
- 11 files changed, 227 insertions(+), 407 deletions(-)
+ output.log                                | 320 +++++++++++++++---------------
+ 11 files changed, 297 insertions(+), 293 deletions(-)
