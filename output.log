@@ -1,43 +1,37 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119597 characters
-INFO:root:HTML parsed, length: 112895 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (12/12/2025)', 'Palavra de Ontem (11/12/2025)', 'Palavra de Anteontem (10/12/2025)']
-INFO:root:Found 3 URLs: ['/indedutivel/', '/arlequim/', '/auditoria/']
-INFO:root:Found 11 descriptions: ['adjetivo Que não se pode deduzir, subtrair, ser al', 'Antônimos:\n\ndedutível', 'Sílabas:in-de-du-tí-vel']
-INFO:root:Found 3 dates: ['Palavra de Hoje (12/12/2025)', 'Palavra de Ontem (11/12/2025)', 'Palavra de Anteontem (10/12/2025)']
+INFO:root:Response length: 119443 characters
+INFO:root:HTML parsed, length: 112925 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (13/12/2025)', 'Palavra de Ontem (12/12/2025)', 'Palavra de Anteontem (11/12/2025)']
+INFO:root:Found 3 URLs: ['/hidroxido/', '/indedutivel/', '/arlequim/']
+INFO:root:Found 10 descriptions: ['substantivo masculino [Química] Designação comum d', 'Classe gramatical:substantivo masculino', 'Sílabas:hi-dró-xi-do']
+INFO:root:Found 3 dates: ['Palavra de Hoje (13/12/2025)', 'Palavra de Ontem (12/12/2025)', 'Palavra de Anteontem (11/12/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (12/12/2025)', ID=cc8a26f4b612f2e70a1498f72cdeb4b3
-INFO:root:Processing entry 2: Title='Palavra de Ontem (11/12/2025)', ID=668d71e22e7554b2b9aeb44d239a7e5c
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (10/12/2025)', ID=7c2f98337994a21cdb07a099ab6693a3
+INFO:root:Processing entry 1: Title='Palavra de Hoje (13/12/2025)', ID=e67f0f8ef6cb226f71df5ad6a419b61a
+INFO:root:Processing entry 2: Title='Palavra de Ontem (12/12/2025)', ID=390a52c29c501880f0467e1f279a0fb8
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/12/2025)', ID=bc38a1aa72aae5558197392f2084e7e4
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (12/12/2025) - Significado completo de indedutível:
+INFO:root:🔹 Title: Palavra de Hoje (13/12/2025) - Significado completo de hidróxido:
+INFO:root:🔹 URL: https://www.dicio.com.br/hidroxido/
+INFO:root:🔹 Description: substantivo masculino [Química] Designação comum dos compostos, especialmente bases, que possuem hidroxila ou oxidrila (OH-).expressão Hidróxido de amônia. Substância obtida a partir da diluição do amoníaco em água (NH4 OH).Hidróxido de potássio. Reagente usado na fabricação de sabão; potassa.Hidróxido de sódio. Designação de soda cáustica (NaOH), usada com os mais variados propósitos.Etimologia (origem da palavra hidróxido). Hidro- + óxido.
+ Classe gramatical:substantivo masculino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (12/12/2025) - Significado completo de indedutível:
 INFO:root:🔹 URL: https://www.dicio.com.br/indedutivel/
-INFO:root:🔹 Description: adjetivo Que não se pode deduzir, subtrair, ser alvo de dedução, de subtração: valor indedutível do imposto de renda.Etimologia (origem da palavra indedutível). In + dedutível.
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:hi-dró-xi-do
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (11/12/2025) - Significado completo de arlequim:
+INFO:root:🔹 URL: https://www.dicio.com.br/arlequim/
+INFO:root:🔹 Description: Sílabas:hi-dró-xi-do
  
 Antônimos:
 
 dedutível 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (11/12/2025) - Significado completo de arlequim:
-INFO:root:🔹 URL: https://www.dicio.com.br/arlequim/
-INFO:root:🔹 Description: Antônimos:
-
-dedutível
- Sílabas:in-de-du-tí-vel
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (10/12/2025) - Significado completo de auditoria:
-INFO:root:🔹 URL: https://www.dicio.com.br/auditoria/
-INFO:root:🔹 Description: Sílabas:in-de-du-tí-vel
- 
-Sinônimos:
-
-farsante, palhaço, irresponsável, truão, brigão, valentão, bufão 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
@@ -46,40 +40,85 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 329271 characters
-INFO:root:HTML parsed, length: 318851 characters
-INFO:root:Found 1 titles: ['João 3:3']
-INFO:root:Found 1 URLs: ['/versiculo/joao_3_3/']
-INFO:root:Found 1 descriptions: ['Em resposta, Jesus declarou: "Digo a verdade: Ning']
+INFO:root:Response length: 330131 characters
+INFO:root:HTML parsed, length: 319711 characters
+INFO:root:Found 1 titles: ['Salmos 100:1-2']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_100_1-2/']
+INFO:root:Found 1 descriptions: ['Aclamem o Senhor\ntodos os habitantes da terra! Pre']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='João 3:3', ID=7e353eb1f200c836a6a6a342b1eb8c54
+INFO:root:Processing entry 1: Title='Salmos 100:1-2', ID=161072e0cc68caa8020903b8a4f59499
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: João 3:3
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_3_3/
-INFO:root:🔹 Description: Em resposta, Jesus declarou: "Digo a verdade: Ninguém pode ver o Reino de Deus, se não nascer de novo". João 3:3
+INFO:root:🔹 Title: Salmos 100:1-2
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_100_1-2/
+INFO:root:🔹 Description: Aclamem o Senhor
+todos os habitantes da terra! Prestem culto ao Senhor com alegria;
+entrem na sua presença
+com cânticos alegres. Salmos 100:1-2
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 329080 characters
-INFO:root:HTML parsed, length: 319452 characters
-INFO:root:Found 3 titles: ['Salmo 98', 'Salmo 90', 'Salmo 108']
-INFO:root:Found 3 URLs: ['/salmos_98/', '/salmos_90/', '/salmos_108/']
-INFO:root:Found 3 descriptions: ['Cantem ao Senhor um novo cântico,\npois ele fez coi', 'Senhor, tu és o nosso refúgio, sempre,\nde geração ', 'Meu coração está firme, ó Deus!\nCantarei e louvare']
-INFO:root:Found 3 dates: ['12 de Dezembro de 2025', '11 de Dezembro de 2025', '10 de Dezembro de 2025']
+INFO:root:Response length: 329982 characters
+INFO:root:HTML parsed, length: 320363 characters
+INFO:root:Found 3 titles: ['Salmo 84', 'Salmo 98', 'Salmo 90']
+INFO:root:Found 3 URLs: ['/salmos_84/', '/salmos_98/', '/salmos_90/']
+INFO:root:Found 3 descriptions: ['Como é agradável o lugar da tua habitação,\nSenhor ', 'Cantem ao Senhor um novo cântico,\npois ele fez coi', 'Senhor, tu és o nosso refúgio, sempre,\nde geração ']
+INFO:root:Found 3 dates: ['13 de Dezembro de 2025', '12 de Dezembro de 2025', '11 de Dezembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 98', ID=33adc7bdfe38c4864921fdfaca3d7034
-INFO:root:Processing entry 2: Title=' Salmo 90', ID=d178cec5e87ab7f471246c4a0929f7d6
-INFO:root:Processing entry 3: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
+INFO:root:Processing entry 1: Title=' Salmo 84', ID=6970902c885cf7c9d72a121098125b5c
+INFO:root:Processing entry 2: Title=' Salmo 98', ID=33adc7bdfe38c4864921fdfaca3d7034
+INFO:root:Processing entry 3: Title=' Salmo 90', ID=d178cec5e87ab7f471246c4a0929f7d6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 84
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_84/
+INFO:root:🔹 Description: Como é agradável o lugar da tua habitação,
+Senhor dos Exércitos! 
+A minha alma anela, e até desfalece,
+pelos átrios do Senhor;
+o meu coração e o meu corpo
+cantam de alegria ao Deus vivo. 
+Até o pardal achou um lar
+e a andorinha um ninho para si,
+para abrigar os seus filhotes,
+um lugar perto do teu altar,
+ó Senhor dos Exércitos, meu Rei e meu Deus. 
+Como são felizes
+os que habitam em tua casa;
+louvam-te sem cessar! 
+Como são felizes os que em ti
+encontram força
+e os que são peregrinos de coração! 
+Ao passarem pelo vale de Baca,
+fazem dele um lugar de fontes;
+as chuvas de outono
+também o enchem de cisternas. 
+Prosseguem o caminho de força em força,
+até que cada um se apresente a Deus em Sião. 
+Ouve a minha oração,
+ó Senhor Deus dos Exércitos;
+escuta-me, ó Deus de Jacó. 
+Olha, ó Deus, que és nosso escudo;
+trata com bondade o teu ungido. 
+Melhor é um dia nos teus átrios
+do que mil noutro lugar;
+prefiro ficar à porta da casa do meu Deus
+a habitar nas tendas dos ímpios. 
+O Senhor Deus é sol e escudo;
+o Senhor concede favor e honra;
+não recusa nenhum bem
+aos que vivem com integridade. 
+Ó Senhor dos Exércitos,
+como é feliz aquele que em ti confia! 
+ Salmo 84
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 98
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_98/
 INFO:root:🔹 Description: Cantem ao Senhor um novo cântico,
@@ -163,91 +202,82 @@ a obra de nossas mãos;
 consolida a obra de nossas mãos! 
  Salmo 90
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 108
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_108/
-INFO:root:🔹 Description: Meu coração está firme, ó Deus!
-Cantarei e louvarei, ó Glória minha! 
-Acordem, harpa e lira!
-Despertarei a alvorada. 
-Eu te darei graças, ó Senhor, entre os povos;
-cantarei louvores entre as nações, 
-porque o teu amor leal
-se eleva muito acima dos céus;
-a tua fidelidade alcança as nuvens! 
-Sê exaltado, ó Deus, acima dos céus;
-estenda-se a tua glória sobre toda a terra! 
-Salva-nos com a tua mão direita
-e responde-nos,
-para que sejam libertos aqueles a quem amas. 
-Do seu santuário Deus falou:
-"No meu triunfo dividirei Siquém
-e repartirei o vale de Sucote. 
-Gileade me pertence e Manassés também;
-Efraim é o meu capacete, Judá é o meu cetro. 
-Moabe é a pia em que me lavo,
-em Edom atiro a minha sandália,
-sobre a Filístia dou meu brado de vitória!" 
-Quem me levará à cidade fortificada?
-Quem me guiará a Edom? 
-Não foste tu, ó Deus, que nos rejeitaste
-e deixaste de sair com os nossos exércitos? 
-Dá-nos ajuda contra os adversários,
-pois inútil é o socorro do homem. 
-Com Deus conquistaremos a vitória,
-e ele pisará os nossos adversários. 
- Salmo 108
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 331895 characters
-INFO:root:HTML parsed, length: 321927 characters
-INFO:root:Found 3 titles: ['Seguindo os passos do Mestre', 'Confiando no que Deus diz sobre mim', 'No Espírito há verdadeira liberdade']
+INFO:root:Response length: 332370 characters
+INFO:root:HTML parsed, length: 322403 characters
+INFO:root:Found 3 titles: ['Grandioso és Tu', 'Seguindo os passos do Mestre', 'Confiando no que Deus diz sobre mim']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Para isso vocês foram chamados, pois também Cristo', 'Porque somos criação de Deus realizada em Cristo J', 'Ora, o Senhor é o Espírito e onde está o Espírito ']
-INFO:root:Found 1 dates: ['Sexta, 12 de dezembro de 2025']
+INFO:root:Found 3 descriptions: ['Grande é o Senhor e digno de ser louvado;\nsua gran', 'Para isso vocês foram chamados, pois também Cristo', 'Porque somos criação de Deus realizada em Cristo J']
+INFO:root:Found 1 dates: ['Sábado, 13 de dezembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Seguindo os passos do Mestre', ID=3c804acfd233695e36a865f935a442cd
+INFO:root:Processing entry 1: Title='Grandioso és Tu', ID=422a1938cfcb1728986ac379dcf74940
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Seguindo os passos do Mestre - Palavra de Hoje
+INFO:root:🔹 Title: Grandioso és Tu - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Para isso vocês foram chamados, pois também Cristo sofreu no lugar de vocês, deixando exemplo, para que sigam os seus passos.
-- 1 Pedro 2:21
+INFO:root:🔹 Description: Grande é o Senhor e digno de ser louvado;
+sua grandeza não tem limites.
+- Salmos 145:3
 
-Seguir os passos do Mestre é o maior chamado da vida cristã. Jesus não apenas nos mostrou o caminho para Deus, Ele mesmo é o Caminho, a Verdade e a Vida. Andar como Ele andou significa viver em amor, em obediência ao Pai e em entrega pelos outros. O Mestre não deixou apenas palavras, mas deu o exemplo perfeito de humildade, compaixão e fidelidade.
-Ao observarmos sua vida, vemos que Ele se aproximava dos marginalizados, acolhia os rejeitados e tocava os corações com ternura e verdade. Seus passos estavam sempre direcionados a cumprir a vontade do Pai. Isso nos inspira a buscar uma fé prática, que se manifesta em atitudes de misericórdia, perdão e serviço. Seguir Jesus exige renúncia de si mesmo, carregar a cruz diariamente e confiar em Deus em todas as circunstâncias.
-Muitas vezes, os passos do Mestre nos conduzem por caminhos estreitos e desafiadores. Ele mesmo afirmou que no mundo teríamos aflições, mas também nos assegurou sua paz. O segredo está em manter os olhos fixos em Cristo, lembrando que Ele venceu o mundo. Quando fraquejamos, podemos lembrar que o Espírito Santo nos fortalece e nos ajuda a permanecer firmes.
-Seguir os passos de Jesus não é caminhar sozinhos, mas em comunhão com Ele e com o Corpo de Cristo. Cada gesto de amor, cada palavra de esperança e cada ato de fé são marcas deixadas por aqueles que decidem andar como o Mestre. Assim, nossa vida se torna um reflexo da luz de Cristo no mundo.
-
-Fui crucificado com Cristo. Assim, já não sou eu quem vive, mas Cristo vive em mim. A vida que agora vivo no corpo, vivo-a pela fé no filho de Deus, que me amou e se entregou por mim.
-- Gálatas 2:20
-
-Conheça mais sobre a história de Jesus.
+Às vezes, quando a vida parece pequena demais para tantos sentimentos, olho para cima e lembro que existe um Deus que não cabe em nenhuma medida. Um Deus que não se limita ao que vejo, que não se esgota no que entendo. E ainda assim, escolhe estar perto. Escolhe ser Emmanuel: Deus conosco.
+Grandioso és Tu, Senhor, não apenas porque criaste o universo com a Tua voz, mas porque sussurras paz ao meu coração quando ele está barulhento demais. És grande porque Te assentas sobre as estrelas, mas também caminhas comigo pelas estradas simples do cotidiano. A Tua grandeza não me afasta; me acolhe.
+Quando me sinto fraco, lembro que a Tua força se aperfeiçoa na minha fraqueza. Quando o medo tenta me convencer de que estou sozinho, sinto a Tua presença silenciosa, suave, transformando incertezas em descanso. És o Deus que pode tudo, mas prefere conquistar meu coração com amor, e não com imposição.
+Grandioso és Tu porque conheces o fim desde o começo, mas ainda assim te importas com cada detalhe do meu agora. No sussurro da Tua voz encontro direção. No toque invisível da Tua graça encontro cura. E no brilho da Tua luz, descubro quem sou: alguém amado, alguém visto, alguém sustentado pelas Tuas mãos eternas.
+Que cada dia aprenda a reconhecer a Tua grandeza não apenas nos milagres extraordinários, mas também na simplicidade de um novo amanhecer, no perdão renovado, na esperança que insiste em florescer.
+Senhor, que a minha vida seja um eco constante dessa verdade: Tu és grandioso. E mesmo assim, permaneces perto. Amém.
+Veja também: 57 mensagens para louvar a Deus pela vida
  
-Para isso vocês foram chamados, pois também Cristo sofreu no lugar de vocês, deixando exemplo, para que sigam os seus passos.
-- 1 Pedro 2:21
+Grande é o Senhor e digno de ser louvado;
+sua grandeza não tem limites.
+- Salmos 145:3
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 345393 characters
-INFO:root:HTML parsed, length: 334981 characters
-INFO:root:Found 3 titles: ['A Palavra que acolhe', 'Só volta quem reconhece a graça', 'Fique atento aos sinais de Deus']
-INFO:root:Found 3 URLs: ['/plano_de_leitura_biblica_2026/', '/mensagens_de_agradecimento_a_deus_pela_vida/', '/formas_que_deus_fala/']
-INFO:root:Found 3 descriptions: ['A tua palavra é lâmpada\nque ilumina os meus passos', 'Jesus perguntou: "Não foram purificados todos os d', 'Vigiai pois, porque não sabeis nem o dia nem a hor']
-INFO:root:Found 3 dates: ['DEZEMBRO\n\n12\nSEXTA', 'DEZEMBRO\n\n11\nQUINTA', 'DEZEMBRO\n\n10\nQUARTA']
+INFO:root:Response length: 345944 characters
+INFO:root:HTML parsed, length: 335533 characters
+INFO:root:Found 3 titles: ['Passando pela tempestade', 'A Palavra que acolhe', 'Só volta quem reconhece a graça']
+INFO:root:Found 3 URLs: ['/so_vive_o_proposito_quem_suporta_o_processo_reflexao/', '/plano_de_leitura_biblica_2026/', '/mensagens_de_agradecimento_a_deus_pela_vida/']
+INFO:root:Found 3 descriptions: ['"Eu disse essas coisas para que em mim vocês tenha', 'A tua palavra é lâmpada\nque ilumina os meus passos', 'Jesus perguntou: "Não foram purificados todos os d']
+INFO:root:Found 3 dates: ['DEZEMBRO\n\n13\nSÁBADO', 'DEZEMBRO\n\n12\nSEXTA', 'DEZEMBRO\n\n11\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A Palavra que acolhe', ID=3784935e1175e07d7d47494b87e5d204
-INFO:root:Processing entry 2: Title='Só volta quem reconhece a graça', ID=128d5304bff313dcbabbe7817778b080
-INFO:root:Processing entry 3: Title='Fique atento aos sinais de Deus', ID=ab45306cdcb804dab751fe8abc0384f6
+INFO:root:Processing entry 1: Title='Passando pela tempestade', ID=8b6904492278bd75a643b16273a6f75d
+INFO:root:Processing entry 2: Title='A Palavra que acolhe', ID=3784935e1175e07d7d47494b87e5d204
+INFO:root:Processing entry 3: Title='Só volta quem reconhece a graça', ID=128d5304bff313dcbabbe7817778b080
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Passando pela tempestade
+INFO:root:🔹 URL: https://www.bibliaon.com/so_vive_o_proposito_quem_suporta_o_processo_reflexao/
+INFO:root:🔹 Description: "Eu disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo".
+- João 16:33
+
+Todos nós, em algum momento da vida, enfrentamos tempestades. Elas chegam sem aviso, trazendo medo e incertezas. Às vezes são problemas na família, dificuldades financeiras, doenças ou crises emocionais. Mas a Palavra de Deus nos lembra que não estamos sozinhos no meio da tempestade.
+Jesus nunca prometeu uma caminhada sem lutas, mas garantiu Sua presença constante. Quando tudo parece fora de controle, Ele continua no controle. Assim como os discípulos no barco, podemos sentir medo, mas Jesus está conosco, mesmo quando achamos que Ele está em silêncio. O silêncio de Deus não é ausência; é cuidado.
+A tempestade não vem para nos destruir, mas para nos ensinar a confiar mais. É nela que aprendemos a orar com sinceridade, a depender menos da nossa força e mais da graça de Deus. Cada onda que enfrentamos nos fortalece espiritualmente e nos prepara para dias melhores.
+Talvez hoje você esteja cansado, pensando em desistir. Lembre-se: nenhuma tempestade dura para sempre. Deus usa o processo para nos moldar e nos aproximar Dele. Depois da tempestade, o céu se abre, o sol volta a brilhar e a fé se torna mais firme.
+Confie no Senhor. Segure na mão de Deus e continue caminhando, mesmo com medo. Ele é fiel para acalmar o mar no tempo certo. Enquanto isso, descanse no Seu amor, pois quem passa pela tempestade com Deus nunca sai da mesma forma: sai mais forte, mais confiante e mais perto do Pai.
+Permanecendo firme
+
+
+Ore mesmo sem vontade, confiando que Deus escuta fortalece sua fé acalma o coração durante tempestades difíceis da vida.
+
+Leia a Bíblia com constância, lembrando que Deus age no tempo certo apesar das dificuldades atuais e passageiras.
+
+Permaneça obedecendo a Deus servindo pessoas confiando que Ele transforma dores em testemunhos vitoriosos para sua glória eterna sempre.
+
+Para orar:
+
+Senhor Deus, entrego a Ti minha vida e minhas lutas. Nos dias difíceis, fortalece meu coração e renova minha fé. Quando o medo tentar me parar, lembra-me que Tu estás comigo. Dá-me paz em meio à tempestade, sabedoria para agir e confiança no Teu cuidado. Que eu descanse em Tuas promessas, sabendo que tudo coopera para o bem. Em nome de Jesus, amém.
+
+Veja também: Só vive o propósito quem suporta o processo (Versículo e Reflexão Inspiradora)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A Palavra que acolhe
 INFO:root:🔹 URL: https://www.bibliaon.com/plano_de_leitura_biblica_2026/
 INFO:root:🔹 Description: A tua palavra é lâmpada
@@ -296,29 +326,6 @@ Senhor Jesus, agradeço por tua graça que me alcança diariamente. Ensina-me a 
 
 Veja também: Gratidão a Deus por cada momento: mensagens para louvar a Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Fique atento aos sinais de Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/formas_que_deus_fala/
-INFO:root:🔹 Description: Vigiai pois, porque não sabeis nem o dia nem a hora.
-- Mateus 25:13
-
-Deus fala conosco de muitas maneiras. Ele usa a Sua Palavra, as pessoas, as situações do dia a dia e até o silêncio para nos ensinar. Por isso, precisamos ficar atentos aos sinais que Ele coloca em nosso caminho. Nem sempre os sinais são grandes ou chamativos. Muitas vezes, eles são simples, mas cheios de significado.
-Os sinais de Deus podem aparecer como um conselho sincero de alguém próximo, um versículo que toca o coração no momento certo ou até uma dificuldade que nos faz parar e refletir. Quando algo acontece repetidamente, pode ser um alerta para olharmos com mais atenção para nossa vida espiritual. Deus deseja nos guiar, proteger e aproximar de Sua vontade.
-Jesus nos ensinou a vigiar. Isso significa viver com o coração despertado, buscando a Deus todos os dias. Quando estamos distraídos demais com problemas, trabalho ou preocupações, podemos deixar passar aquilo que Deus quer nos mostrar. A falta de atenção pode nos afastar dos caminhos certos.
-Ficar atento aos sinais também é confiar. Mesmo quando não entendemos tudo, podemos ter certeza de que Deus está no controle. Ele nunca age sem propósito. Às vezes, um “não” é um livramento. Uma porta fechada pode ser direção para algo melhor.
-Para reconhecer os sinais, precisamos orar, ler a Palavra e manter um coração humilde. Deus fala com quem deseja ouvir. Quando buscamos a presença dEle, nossa fé cresce e nossa visão espiritual fica mais clara.
-Que possamos viver com atenção, fé e obediência. Que nossos olhos espirituais estejam abertos para reconhecer a voz de Deus em cada detalhe. Assim, caminharemos com segurança, confiando que Ele sempre nos conduz pelo melhor caminho.
-Atento aos sinais no dia a dia
-
-Reserve tempo diário para oração e leitura bíblica, pois assim o coração aprende reconhecer a voz de Deus com clareza.
-Observe situações repetidas e conselhos sinceros, avaliando tudo com sabedoria, buscando discernimento espiritual antes de tomar decisões importantes com calma.
-Confie em Deus quando portas se fecharem, lembrando que cada resposta d'Ele sempre aponta cuidado, propósito e direção segura futura.
-
-Para orar:
-
-Senhor Deus, ajuda-me a ter um coração atento à Tua voz. Ensina-me a reconhecer Teus sinais nas pequenas coisas do dia. Dá-me sabedoria para escolher o caminho certo, fé para confiar quando não entendo e paz para esperar o Teu tempo. Que eu viva guiado pela Tua Palavra, obediente à Tua vontade e seguro no Teu amor. Fortalece minha fé, renova minha esperança e conduz meus passos todos os dias, segundo Teu propósito eterno. Amém.
-
-Veja também: Como ouvir a voz de Deus: 7 maneiras que Ele fala conosco atualmente.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -348,15 +355,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  51 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  26 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  14 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  88 +++------
+ feeds/salmo_do_dia/atom.xml               |  74 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   9 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 304 +++++++++++++-----------------
- 11 files changed, 231 insertions(+), 323 deletions(-)
+ output.log                                | 281 +++++++++++++++---------------
+ 11 files changed, 255 insertions(+), 253 deletions(-)
