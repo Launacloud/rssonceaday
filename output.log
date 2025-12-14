@@ -1,38 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119443 characters
-INFO:root:HTML parsed, length: 112925 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (13/12/2025)', 'Palavra de Ontem (12/12/2025)', 'Palavra de Anteontem (11/12/2025)']
-INFO:root:Found 3 URLs: ['/hidroxido/', '/indedutivel/', '/arlequim/']
-INFO:root:Found 10 descriptions: ['substantivo masculino [Química] Designação comum d', 'Classe gramatical:substantivo masculino', 'Sílabas:hi-dró-xi-do']
-INFO:root:Found 3 dates: ['Palavra de Hoje (13/12/2025)', 'Palavra de Ontem (12/12/2025)', 'Palavra de Anteontem (11/12/2025)']
+INFO:root:Response length: 119012 characters
+INFO:root:HTML parsed, length: 112311 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (14/12/2025)', 'Palavra de Ontem (13/12/2025)', 'Palavra de Anteontem (12/12/2025)']
+INFO:root:Found 3 URLs: ['/simplicio/', '/hidroxido/', '/indedutivel/']
+INFO:root:Found 10 descriptions: ['substantivo masculino [Antigo] Pessoa moralmente r', 'Sinônimos:\n\nsimples, tolo, parvo, tonto, simplório', 'Antônimos:\n\nperspicaz, esperto']
+INFO:root:Found 3 dates: ['Palavra de Hoje (14/12/2025)', 'Palavra de Ontem (13/12/2025)', 'Palavra de Anteontem (12/12/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (13/12/2025)', ID=e67f0f8ef6cb226f71df5ad6a419b61a
-INFO:root:Processing entry 2: Title='Palavra de Ontem (12/12/2025)', ID=390a52c29c501880f0467e1f279a0fb8
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/12/2025)', ID=bc38a1aa72aae5558197392f2084e7e4
+INFO:root:Processing entry 1: Title='Palavra de Hoje (14/12/2025)', ID=d71fd83abe3898142c5bb3a32e794a1e
+INFO:root:Processing entry 2: Title='Palavra de Ontem (13/12/2025)', ID=b8433db2e4df41190967eb962fe3a2f6
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/12/2025)', ID=8a1e89d33d968d2e95bf4299f1a4152a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (13/12/2025) - Significado completo de hidróxido:
+INFO:root:🔹 Title: Palavra de Hoje (14/12/2025) - Significado completo de simplício:
+INFO:root:🔹 URL: https://www.dicio.com.br/simplicio/
+INFO:root:🔹 Description: substantivo masculino [Antigo] Pessoa moralmente reta, sem malícia; tolo.[Gramática] A palavra simplício, como nome próprio, deixou de ser usada com frequência em razão da sua origem e conotação negativa.Etimologia (origem da palavra simplício). A palavra simplício da junção de "simplicius", pelo latim "simplex", que significa simples, sem malícia, e do sufixo -ção.
+ 
+Sinônimos:
+
+simples, tolo, parvo, tonto, simplório 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (13/12/2025) - Significado completo de hidróxido:
 INFO:root:🔹 URL: https://www.dicio.com.br/hidroxido/
-INFO:root:🔹 Description: substantivo masculino [Química] Designação comum dos compostos, especialmente bases, que possuem hidroxila ou oxidrila (OH-).expressão Hidróxido de amônia. Substância obtida a partir da diluição do amoníaco em água (NH4 OH).Hidróxido de potássio. Reagente usado na fabricação de sabão; potassa.Hidróxido de sódio. Designação de soda cáustica (NaOH), usada com os mais variados propósitos.Etimologia (origem da palavra hidróxido). Hidro- + óxido.
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (12/12/2025) - Significado completo de indedutível:
-INFO:root:🔹 URL: https://www.dicio.com.br/indedutivel/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:hi-dró-xi-do
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (11/12/2025) - Significado completo de arlequim:
-INFO:root:🔹 URL: https://www.dicio.com.br/arlequim/
-INFO:root:🔹 Description: Sílabas:hi-dró-xi-do
+INFO:root:🔹 Description: Sinônimos:
+
+simples, tolo, parvo, tonto, simplório
  
 Antônimos:
 
-dedutível 
+perspicaz, esperto 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (12/12/2025) - Significado completo de indedutível:
+INFO:root:🔹 URL: https://www.dicio.com.br/indedutivel/
+INFO:root:🔹 Description: Antônimos:
+
+perspicaz, esperto
+ Sílabas:sim-plí-cio
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,43 +48,97 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 330131 characters
-INFO:root:HTML parsed, length: 319711 characters
-INFO:root:Found 1 titles: ['Salmos 100:1-2']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_100_1-2/']
-INFO:root:Found 1 descriptions: ['Aclamem o Senhor\ntodos os habitantes da terra! Pre']
+INFO:root:Response length: 330017 characters
+INFO:root:HTML parsed, length: 319597 characters
+INFO:root:Found 1 titles: ['Marcos 13:32']
+INFO:root:Found 1 URLs: ['/versiculo/marcos_13_32/']
+INFO:root:Found 1 descriptions: ['"Quanto ao dia e à hora ninguém sabe, nem os anjos']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 100:1-2', ID=161072e0cc68caa8020903b8a4f59499
+INFO:root:Processing entry 1: Title='Marcos 13:32', ID=7986667cf02ba613ec43933f1809a710
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 100:1-2
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_100_1-2/
-INFO:root:🔹 Description: Aclamem o Senhor
-todos os habitantes da terra! Prestem culto ao Senhor com alegria;
-entrem na sua presença
-com cânticos alegres. Salmos 100:1-2
+INFO:root:🔹 Title: Marcos 13:32
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/marcos_13_32/
+INFO:root:🔹 Description: "Quanto ao dia e à hora ninguém sabe, nem os anjos no céu, nem o Filho, senão somente o Pai. Marcos 13:32
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 329982 characters
-INFO:root:HTML parsed, length: 320363 characters
-INFO:root:Found 3 titles: ['Salmo 84', 'Salmo 98', 'Salmo 90']
-INFO:root:Found 3 URLs: ['/salmos_84/', '/salmos_98/', '/salmos_90/']
-INFO:root:Found 3 descriptions: ['Como é agradável o lugar da tua habitação,\nSenhor ', 'Cantem ao Senhor um novo cântico,\npois ele fez coi', 'Senhor, tu és o nosso refúgio, sempre,\nde geração ']
-INFO:root:Found 3 dates: ['13 de Dezembro de 2025', '12 de Dezembro de 2025', '11 de Dezembro de 2025']
+INFO:root:Response length: 330107 characters
+INFO:root:HTML parsed, length: 320488 characters
+INFO:root:Found 3 titles: ['Salmo 135', 'Salmo 84', 'Salmo 98']
+INFO:root:Found 3 URLs: ['/salmos_135/', '/salmos_84/', '/salmos_98/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo', 'Como é agradável o lugar da tua habitação,\nSenhor ', 'Cantem ao Senhor um novo cântico,\npois ele fez coi']
+INFO:root:Found 3 dates: ['14 de Dezembro de 2025', '13 de Dezembro de 2025', '12 de Dezembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 84', ID=6970902c885cf7c9d72a121098125b5c
-INFO:root:Processing entry 2: Title=' Salmo 98', ID=33adc7bdfe38c4864921fdfaca3d7034
-INFO:root:Processing entry 3: Title=' Salmo 90', ID=d178cec5e87ab7f471246c4a0929f7d6
+INFO:root:Processing entry 1: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
+INFO:root:Processing entry 2: Title=' Salmo 84', ID=6970902c885cf7c9d72a121098125b5c
+INFO:root:Processing entry 3: Title=' Salmo 98', ID=33adc7bdfe38c4864921fdfaca3d7034
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 135
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_135/
+INFO:root:🔹 Description: Aleluia!
+Louvem o nome do Senhor;
+louvem-no, servos do Senhor, 
+vocês, que servem na casa do Senhor,
+nos pátios da casa de nosso Deus. 
+Louvem o Senhor, pois o Senhor é bom;
+cantem louvores ao seu nome,
+pois é nome amável. 
+Porque o Senhor escolheu Jacó;
+a Israel, como seu tesouro pessoal. 
+Na verdade, sei que o Senhor é grande,
+que o nosso Soberano é maior
+do que todos os deuses. 
+O Senhor faz tudo o que lhe agrada,
+nos céus e na terra,
+nos mares e em todas as suas profundezas. 
+Ele traz as nuvens desde os confins da terra;
+envia os relâmpagos que acompanham a chuva
+e faz que o vento saia dos seus depósitos. 
+Foi ele que matou os primogênitos do Egito,
+tanto dos homens como dos animais. 
+Ele realizou em pleno Egito
+sinais e maravilhas,
+contra o faraó e todos os seus conselheiros. 
+Foi ele que feriu muitas nações
+e matou reis poderosos: 
+Seom, rei dos amorreus,
+Ogue, rei de Basã,
+e todos os reinos de Canaã; 
+e deu a terra deles como herança,
+como herança a Israel, o seu povo. 
+O teu nome, Senhor,
+permanece para sempre,
+a tua fama, Senhor, por todas as gerações! 
+O Senhor defenderá o seu povo
+e terá compaixão dos seus servos. 
+Os ídolos das nações
+não passam de prata e ouro,
+feitos por mãos humanas. 
+Têm boca, mas não podem falar;
+olhos, mas não podem ver; 
+têm ouvidos, mas não podem escutar
+nem há respiração em sua boca. 
+Tornem-se como eles aqueles que os fazem
+e todos os que neles confiam. 
+Bendigam o Senhor, ó israelitas!
+Bendigam o Senhor, ó sacerdotes! 
+Bendigam o Senhor, ó levitas!
+Bendigam o Senhor
+os que temem o Senhor! 
+Bendito seja o Senhor desde Sião,
+aquele que habita em Jerusalém.
+Aleluia! 
+ Salmo 135
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 84
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_84/
 INFO:root:🔹 Description: Como é agradável o lugar da tua habitação,
@@ -149,112 +211,75 @@ julgará o mundo com justiça
 e os povos com retidão. 
  Salmo 98
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 90
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_90/
-INFO:root:🔹 Description: Senhor, tu és o nosso refúgio, sempre,
-de geração em geração. 
-Antes de nascerem os montes
-e de criares a terra e o mundo,
-de eternidade a eternidade tu és Deus. 
-Fazes os homens voltarem ao pó,
-dizendo: "Retornem ao pó, seres humanos!" 
-De fato, mil anos para ti
-são como o dia de ontem que passou,
-como as horas da noite. 
-Como uma correnteza, tu arrastas os homens;
-são breves como o sono;
-são como a relva que brota ao amanhecer; 
-germina e brota pela manhã,
-mas, à tarde, murcha e seca. 
-Somos consumidos pela tua ira
-e aterrorizados pelo teu furor. 
-Conheces as nossas iniquidades;
-não escapam os nossos pecados secretos
-à luz da tua presença. 
-Todos os nossos dias passam
-debaixo do teu furor;
-vão-se como um murmúrio. 
-Os anos de nossa vida chegam a setenta,
-ou a oitenta para os que têm mais vigor;
-entretanto, são anos difíceis
-e cheios de sofrimento,
-pois a vida passa depressa,
-e nós voamos! 
-Quem conhece o poder da tua ira?
-Pois o teu furor é tão grande
-como o temor que te é devido. 
-Ensina-nos a contar os nossos dias
-para que o nosso coração alcance sabedoria. 
-Volta-te, Senhor! Até quando será assim?
-Tem compaixão dos teus servos! 
-Satisfaze-nos pela manhã
-com o teu amor leal,
-e todos os nossos dias cantaremos felizes. 
-Dá-nos alegria pelo tempo que nos afligiste,
-pelos anos em que tanto sofremos. 
-Sejam manifestos os teus feitos
-aos teus servos,
-e aos filhos deles o teu esplendor! 
-Esteja sobre nós a bondade
-do nosso Deus Soberano.
-Consolida, para nós,
-a obra de nossas mãos;
-consolida a obra de nossas mãos! 
- Salmo 90
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 332370 characters
-INFO:root:HTML parsed, length: 322403 characters
-INFO:root:Found 3 titles: ['Grandioso és Tu', 'Seguindo os passos do Mestre', 'Confiando no que Deus diz sobre mim']
+INFO:root:Response length: 332246 characters
+INFO:root:HTML parsed, length: 322279 characters
+INFO:root:Found 3 titles: ['O que Cristo fez por mim', 'Grandioso és Tu', 'Seguindo os passos do Mestre']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Grande é o Senhor e digno de ser louvado;\nsua gran', 'Para isso vocês foram chamados, pois também Cristo', 'Porque somos criação de Deus realizada em Cristo J']
-INFO:root:Found 1 dates: ['Sábado, 13 de dezembro de 2025']
+INFO:root:Found 3 descriptions: ['Fui crucificado com Cristo. Assim, já não sou eu q', 'Grande é o Senhor e digno de ser louvado;\nsua gran', 'Para isso vocês foram chamados, pois também Cristo']
+INFO:root:Found 1 dates: ['Domingo, 14 de dezembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Grandioso és Tu', ID=422a1938cfcb1728986ac379dcf74940
+INFO:root:Processing entry 1: Title='O que Cristo fez por mim', ID=f8e0041197d1384af4fcc8436023442b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Grandioso és Tu - Palavra de Hoje
+INFO:root:🔹 Title: O que Cristo fez por mim - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Grande é o Senhor e digno de ser louvado;
-sua grandeza não tem limites.
-- Salmos 145:3
+INFO:root:🔹 Description: Fui crucificado com Cristo. Assim, já não sou eu quem vive, mas Cristo vive em mim. A vida que agora vivo no corpo, vivo-a pela fé no filho de Deus, que me amou e se entregou por mim.
+- Gálatas 2:20
 
-Às vezes, quando a vida parece pequena demais para tantos sentimentos, olho para cima e lembro que existe um Deus que não cabe em nenhuma medida. Um Deus que não se limita ao que vejo, que não se esgota no que entendo. E ainda assim, escolhe estar perto. Escolhe ser Emmanuel: Deus conosco.
-Grandioso és Tu, Senhor, não apenas porque criaste o universo com a Tua voz, mas porque sussurras paz ao meu coração quando ele está barulhento demais. És grande porque Te assentas sobre as estrelas, mas também caminhas comigo pelas estradas simples do cotidiano. A Tua grandeza não me afasta; me acolhe.
-Quando me sinto fraco, lembro que a Tua força se aperfeiçoa na minha fraqueza. Quando o medo tenta me convencer de que estou sozinho, sinto a Tua presença silenciosa, suave, transformando incertezas em descanso. És o Deus que pode tudo, mas prefere conquistar meu coração com amor, e não com imposição.
-Grandioso és Tu porque conheces o fim desde o começo, mas ainda assim te importas com cada detalhe do meu agora. No sussurro da Tua voz encontro direção. No toque invisível da Tua graça encontro cura. E no brilho da Tua luz, descubro quem sou: alguém amado, alguém visto, alguém sustentado pelas Tuas mãos eternas.
-Que cada dia aprenda a reconhecer a Tua grandeza não apenas nos milagres extraordinários, mas também na simplicidade de um novo amanhecer, no perdão renovado, na esperança que insiste em florescer.
-Senhor, que a minha vida seja um eco constante dessa verdade: Tu és grandioso. E mesmo assim, permaneces perto. Amém.
-Veja também: 57 mensagens para louvar a Deus pela vida
+Muitas vezes, com o passar do tempo e em meio às nossas tarefas diárias, podemos cair na rotina espiritual e esquecer nosso primeiro amor. Tudo aquilo que nos encorajava e nos enchia de alegria no início pode ficar em segundo plano, ou mesmo que continuemos a praticá-lo, pode perder parte do seu brilho. Isso não deveria acontecer.
+Cada vez que lemos a Bíblia, conversamos com Deus, cantamos e louvamos o Senhor, deve ser um momento especial em que nosso espírito se renova e nosso relacionamento com Deus se fortalece. Mas precisamos ser intencionais. Como qualquer relacionamento, o nosso relacionamento com Deus precisa ser nutrido.
+Uma maneira eficaz de manter viva a chama do nosso amor por Deus é lembrar o que Cristo fez por nós. Jesus, por amor, se dispôs a ir para a cruz. Ele deu a sua vida para que pudéssemos viver livres do poder do pecado e da morte. Lembrar dessa verdade ajuda a manter vivo o nosso amor por Ele.
+Quando nos lembramos de que Jesus tomou o nosso lugar, carregou a nossa culpa, derramou o seu sangue e abriu um novo caminho para nos aproximarmos do Pai com confiança, o nosso amor se reacende. A cruz nos lembra quem éramos sem Ele e quem somos agora, graças ao Seu sacrifício de amor. Contemplar Cristo crucificado nos faz lembrar do maior amor que existe.
+Portanto, aproveite a oportunidade que este novo dia oferece. Aproxime-se de Deus com sinceridade e renove sua comunhão com Ele. Não permita que a correria do dia a dia ou o cansaço apaguem o que Deus acendeu em você. Faça da presença dEle o seu refúgio diário, o seu porto seguro, a sua fonte constante de vida. Dê prioridade a Deus, mantenha o seu coração aberto à Sua presença e você verá como o seu espírito se encherá de paz.
+Lembre-se hoje do que Cristo fez por você e desfrute do belo relacionamento que Ele restaurou na cruz.
+Veja também: Versículos sobre primeiro amor.
  
-Grande é o Senhor e digno de ser louvado;
-sua grandeza não tem limites.
-- Salmos 145:3
+Fui crucificado com Cristo. Assim, já não sou eu quem vive, mas Cristo vive em mim. A vida que agora vivo no corpo, vivo-a pela fé no filho de Deus, que me amou e se entregou por mim.
+- Gálatas 2:20
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 345944 characters
-INFO:root:HTML parsed, length: 335533 characters
-INFO:root:Found 3 titles: ['Passando pela tempestade', 'A Palavra que acolhe', 'Só volta quem reconhece a graça']
-INFO:root:Found 3 URLs: ['/so_vive_o_proposito_quem_suporta_o_processo_reflexao/', '/plano_de_leitura_biblica_2026/', '/mensagens_de_agradecimento_a_deus_pela_vida/']
-INFO:root:Found 3 descriptions: ['"Eu disse essas coisas para que em mim vocês tenha', 'A tua palavra é lâmpada\nque ilumina os meus passos', 'Jesus perguntou: "Não foram purificados todos os d']
-INFO:root:Found 3 dates: ['DEZEMBRO\n\n13\nSÁBADO', 'DEZEMBRO\n\n12\nSEXTA', 'DEZEMBRO\n\n11\nQUINTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Passando pela tempestade', ID=8b6904492278bd75a643b16273a6f75d
-INFO:root:Processing entry 2: Title='A Palavra que acolhe', ID=3784935e1175e07d7d47494b87e5d204
-INFO:root:Processing entry 3: Title='Só volta quem reconhece a graça', ID=128d5304bff313dcbabbe7817778b080
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 345069 characters
+INFO:root:HTML parsed, length: 334660 characters
+INFO:root:Found 3 titles: ['Alegria que anuncia o Salvador', 'Passando pela tempestade', 'A Palavra que acolhe']
+INFO:root:Found 2 URLs: ['/so_vive_o_proposito_quem_suporta_o_processo_reflexao/', '/plano_de_leitura_biblica_2026/']
+INFO:root:Found 3 descriptions: ['Mas o anjo lhes disse: "Não tenham medo. Estou tra', '"Eu disse essas coisas para que em mim vocês tenha', 'A tua palavra é lâmpada\nque ilumina os meus passos']
+INFO:root:Found 3 dates: ['DEZEMBRO\n\n14\nDOMINGO', 'DEZEMBRO\n\n13\nSÁBADO', 'DEZEMBRO\n\n12\nSEXTA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Alegria que anuncia o Salvador', ID=98f10bbf8719f60b19022e869f12581e
+INFO:root:Processing entry 2: Title='Passando pela tempestade', ID=8b6904492278bd75a643b16273a6f75d
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Passando pela tempestade
+INFO:root:🔹 Title: Alegria que anuncia o Salvador
 INFO:root:🔹 URL: https://www.bibliaon.com/so_vive_o_proposito_quem_suporta_o_processo_reflexao/
+INFO:root:🔹 Description: Mas o anjo lhes disse: "Não tenham medo. Estou trazendo boas-novas de grande alegria para vocês, que são para todo o povo"
+- Lucas 2:10
+
+O Natal se aproxima e hoje vamos destacar a alegria. A cena dos pastores no campo, ouvindo o anúncio dos anjos, nos lembra que o nascimento de Jesus é motivo de grande alegria para todos.
+Essa alegria não ignora a dor, mas nasce no meio dela. Os pastores viviam num contexto difícil, o povo estava debaixo de opressão, o silêncio de Deus parecia longo. E é ali, no meio da noite comum, que o céu se abre e a mensagem ecoa: nasceu o Salvador!
+Hoje, muitas pessoas chegam ao tempo de Natal feridas, cansadas, com perdas recentes. A alegria do Natal não é forçar um sorriso. É reconhecer que, mesmo nas lágrimas, Deus continua conosco. Jesus veio para estar perto, para salvar, para consolar.
+Quando retomamos o sentido do Natal, a alegria deixa de ser só clima de festa e passa a ser resposta de gratidão. Somos lembrados de que Deus nos viu, nos amou e entrou na nossa história. Isso muda tudo, mesmo quando as circunstâncias ainda não mudaram.
+Como experimentar esta alegria:
+
+Agradeça a Deus hoje por Jesus, não apenas pelo que ele faz, mas por quem Ele é na sua vida.
+Escolha conscientemente repartir alegria: uma palavra de encorajamento, um elogio sincero, uma atitude de serviço a alguém que precisa.
+Se a tristeza estiver forte, fale com Deus com sinceridade e, mesmo assim, declare: “Tu és meu Deus e eu confio em ti”.
+
+Para orar:
+
+Deus, obrigado pela alegria que o Natal traz. Mesmo quando os dias são difíceis, tu não deixas de ser bom. Renova em mim a alegria da tua salvação. Que eu possa transmitir essa alegria a outras pessoas e lembrar sempre que Jesus é a melhor notícia que eu poderia receber. Amém.
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Passando pela tempestade
+INFO:root:🔹 URL: https://www.bibliaon.com/plano_de_leitura_biblica_2026/
 INFO:root:🔹 Description: "Eu disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo".
 - João 16:33
 
@@ -277,54 +302,6 @@ Para orar:
 Senhor Deus, entrego a Ti minha vida e minhas lutas. Nos dias difíceis, fortalece meu coração e renova minha fé. Quando o medo tentar me parar, lembra-me que Tu estás comigo. Dá-me paz em meio à tempestade, sabedoria para agir e confiança no Teu cuidado. Que eu descanse em Tuas promessas, sabendo que tudo coopera para o bem. Em nome de Jesus, amém.
 
 Veja também: Só vive o propósito quem suporta o processo (Versículo e Reflexão Inspiradora)
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A Palavra que acolhe
-INFO:root:🔹 URL: https://www.bibliaon.com/plano_de_leitura_biblica_2026/
-INFO:root:🔹 Description: A tua palavra é lâmpada
-que ilumina os meus passos
-e luz que clareia o meu caminho.
-- Salmos 119:105
-
-A Palavra de Deus é viva, atual e capaz de tocar nosso coração exatamente onde mais precisamos. Quando abrimos a Bíblia, não encontramos apenas histórias; encontramos consolo, direção e a certeza de que não estamos sozinhos.
-Todos nós enfrentamos momentos de dúvida, medo e cansaço. Às vezes, parece que ninguém ao nosso redor entende o que estamos passando. Mas a Palavra do Senhor nos acolhe como um abraço seguro. Ela nos lembra que Deus conhece cada detalhe da nossa vida e se importa com cada uma de nossas lágrimas. É por meio dela que sentimos o amor do Pai chegando de forma simples, mas poderosa, trazendo paz em meio ao caos.
-Acolhimento é sentir-se recebido, aceito, compreendido. E é exatamente assim que Deus nos trata quando nos aproximamos d’Ele com o coração aberto. Sua Palavra não nos condena; ela nos orienta. Não nos afasta; ela nos chama para perto. Mesmo quando erramos, Deus nos convida a recomeçar, mostrando que há graça e esperança para cada novo dia.
-Ao permitir que a Palavra habite em nós, começamos a enxergar a vida com mais confiança. Passamos a compreender que Deus não está distante, mas presente em cada passo que damos. E, assim como somos acolhidos por Ele, aprendemos também a acolher o próximo com mais amor, paciência e compaixão.
-Que hoje você encontre na Palavra o descanso que seu coração procura. Que ela ilumine seu caminho, fortaleça sua fé e lembre você de que existe um Deus que ama, cura e transforma. É a Palavra que acolhe e é nela que encontramos vida e direção.
-Vivendo a Palavra
-
-Mesmo que seja apenas alguns minutos, permita que a Palavra fale com você. Escolha um versículo, medite nele e peça ao Espírito Santo que traga entendimento e paz ao seu coração.
-Ter um caderno ou bloco de anotações ajuda a registrar promessas, conselhos e encorajamentos. Com o tempo, você perceberá como Deus tem guiado sua caminhada de forma pessoal e amorosa.
-Assim como a Palavra acolhe você, busque estender esse cuidado ao próximo. Um gesto simples como ouvir alguém, enviar uma mensagem de apoio, oferecer ajuda, pode ser uma maneira de levar a luz de Deus onde há dor ou desânimo.
-
-Para orar:
-
-Senhor, acolhe meu coração e guia meus passos pela Tua Palavra. Dá-me paz nas lutas, força nas fraquezas e luz em cada decisão. Que eu sinta Teu amor diariamente e o compartilhe com quem precisa. Renova minha fé e firma meus pés no Teu caminho. Amém.
-
-Comece o ano com a Palavra de Deus, conheça o nosso plano de leitura bíblica 2026.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Só volta quem reconhece a graça
-INFO:root:🔹 URL: https://www.bibliaon.com/mensagens_de_agradecimento_a_deus_pela_vida/
-INFO:root:🔹 Description: Jesus perguntou: "Não foram purificados todos os dez? Onde estão os outros nove?
-Não se achou nenhum que voltasse e desse louvor a Deus, a não ser este estrangeiro?"
-- Lucas 17:17-18
-
-A gratidão revela o quanto compreendemos a graça de Deus. No episódio dos dez leprosos, todos receberam o milagre, mas apenas um retornou para agradecer. Essa diferença simples, de voltar, demonstra o coração que verdadeiramente reconhece a mão de Deus em cada detalhe da vida. O que voltou não tinha mais do que os outros; ele apenas enxergou além da cura, percebendo o Autor da cura.
-Muitas vezes nos vemos entre aqueles que recebem de Deus diariamente, mas seguem adiante sem perceber o quanto foram alcançados pela misericórdia do Senhor. A rotina, as pressões e até mesmo novos pedidos acabam abafando nossa memória espiritual. Contudo, Deus valoriza o coração que para, recorda e volta para agradecer.
-A gratidão não é apenas um ato de gentileza; é um ato de fé. Ela abre nossos olhos para o que Deus já fez, aumentando nossa confiança naquilo que Ele ainda fará.
-O leproso que retornou encontrou mais do que a cura física, encontrou a salvação, relacionamento e intimidade com Cristo. A gratidão nos aproxima de Deus, molda nosso caráter e nos lembra que tudo o que temos vem dEle. Quando escolhemos reconhecer Suas obras, cultivamos um espírito humilde, sensível e dependente do Pai.
-Que aprendamos a ser como aquele único que voltou. Que cada bênção recebida se torne motivo de retorno à presença de Deus.
-Gratidão transforma o coração, fortalece a fé e nos faz viver com a consciência de que estamos constantemente sustentados pela graça. Voltar para agradecer é reconhecer quem Deus é, e isso muda tudo.
-A gratidão transforma o coração
-
-Reserve momentos diários para reconhecer as bênçãos recebidas, lembrando-se de que a gratidão fortalece a fé e mantém seu coração alinhado com Deus.
-Pratique agradecer antes de pedir, declarando confiança no cuidado de Deus; isso transforma sua perspectiva e abre espaço para experimentar a paz que Cristo.
-Compartilhe testemunhos de gratidão com outras pessoas, incentivando corações a perceberem Deus nos detalhes e fortalecendo uma cultura que valoriza reconhecimento diário.
-
-Para orar:
-
-Senhor Jesus, agradeço por tua graça que me alcança diariamente. Ensina-me a ter um coração grato em todo tempo, reconhecendo tuas bênçãos e tua presença fiel. Renova minha fé, fortalece minha alma e ajuda-me a viver para tua glória. Amém.
-
-Veja também: Gratidão a Deus por cada momento: mensagens para louvar a Deus
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -355,15 +332,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  26 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  59 ++---
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  24 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  14 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  74 ++++----
+ feeds/salmo_do_dia/atom.xml               | 108 +++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 281 +++++++++++++++---------------
- 11 files changed, 255 insertions(+), 253 deletions(-)
+ output.log                                | 345 ++++++++++++++----------------
+ 11 files changed, 284 insertions(+), 343 deletions(-)
