@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121265 characters
-INFO:root:HTML parsed, length: 113989 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (25/12/2025)', 'Palavra de Ontem (24/12/2025)', 'Palavra de Anteontem (23/12/2025)']
-INFO:root:Found 3 URLs: ['/nascimento/', '/apto/', '/condicionante/']
-INFO:root:Found 15 descriptions: ['substantivo feminino Nascença; ação ou resultado d', 'Sinônimos:\n\nprincípio, causa, início, berço, orige', 'Antônimos:\n\nmorte, óbito']
-INFO:root:Found 3 dates: ['Palavra de Hoje (25/12/2025)', 'Palavra de Ontem (24/12/2025)', 'Palavra de Anteontem (23/12/2025)']
+INFO:root:Response length: 122061 characters
+INFO:root:HTML parsed, length: 114578 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (26/12/2025)', 'Palavra de Ontem (25/12/2025)', 'Palavra de Anteontem (24/12/2025)']
+INFO:root:Found 3 URLs: ['/brasileiro/', '/nascimento/', '/apto/']
+INFO:root:Found 16 descriptions: ['substantivo masculino Natural ou habitante do Bras', 'Sinônimos:\n\nbrasílio, brasiliano, brasílico', 'Classe gramatical:adjetivo e substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (26/12/2025)', 'Palavra de Ontem (25/12/2025)', 'Palavra de Anteontem (24/12/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (25/12/2025)', ID=8b6f8512eb957b5e2eb8a4abf94a3e47
-INFO:root:Processing entry 2: Title='Palavra de Ontem (24/12/2025)', ID=0fb6da143573b27b8b9bc0d6750dbf49
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (23/12/2025)', ID=420ff23fc36966694606cf9b9ddc8cfb
+INFO:root:Processing entry 1: Title='Palavra de Hoje (26/12/2025)', ID=74dd1eb6579fd6bd63c5d8bf6d56cd30
+INFO:root:Processing entry 2: Title='Palavra de Ontem (25/12/2025)', ID=3c8ccd213dcf9d5e0cdb154fe02f957d
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/12/2025)', ID=8c904687e7aeb980e2d5c423ddecc315
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (25/12/2025) - Significado completo de nascimento:
-INFO:root:🔹 URL: https://www.dicio.com.br/nascimento/
-INFO:root:🔹 Description: substantivo feminino Nascença; ação ou resultado de nascer, de vir ao mundo.[Medicina] Expulsão natural ou retirada cirúrgica de um nascituro (aquele que nasceu) do corpo de sua mãe, possuindo este sinais de vida como batimento cardíaco, pulsação do cordão umbilical ou contração muscular voluntária.[Zoologia] Expulsão natural ou cirúrgica do(s) filhote(s) de uma fêmea.[Figurado] Origem; o que indica começo, princípio: o nascimento do jazz.Etimologia (origem da palavra nascimento). Nascer + i + mento.
+INFO:root:🔹 Title: Palavra de Hoje (26/12/2025) - Significado completo de brasileiro:
+INFO:root:🔹 URL: https://www.dicio.com.br/brasileiro/
+INFO:root:🔹 Description: substantivo masculino Natural ou habitante do Brasil, República Federativa do Brasil, maior país da América do Sul e o quinto maior do mundo em extensão territorial.Pessoa que obteve a nacionalidade ou a cidadania brasileira.[Portugal] Variante da Língua Portuguesa falada e escrita no Brasil (em alguns contextos usado no sentido pejorativo).[Antigo] Português que, após viver no Brasil e enriquecer, volta pra Portugal.adjetivo Referente ou próprio do Brasil: cultura brasileira.Desenvolvido ou criado no Brasil: samba brasileiro.Etimologia (origem da palavra brasileiro). A palavra brasileiro deriva do nome próprio Brasil, e do sufixo -eiro, que atribui a ideia de relação ou de quem trabalha com.
  
 Sinônimos:
 
-princípio, causa, início, berço, origem, nascença 
+brasílio, brasiliano, brasílico 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (24/12/2025) - Significado completo de apto:
-INFO:root:🔹 URL: https://www.dicio.com.br/apto/
+INFO:root:🔹 Title: Palavra de Ontem (25/12/2025) - Significado completo de nascimento:
+INFO:root:🔹 URL: https://www.dicio.com.br/nascimento/
 INFO:root:🔹 Description: Sinônimos:
 
-princípio, causa, início, berço, origem, nascença
- 
-Antônimos:
-
-morte, óbito 
-
+brasílio, brasiliano, brasílico
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (23/12/2025) - Significado completo de condicionante:
-INFO:root:🔹 URL: https://www.dicio.com.br/condicionante/
-INFO:root:🔹 Description: Antônimos:
-
-morte, óbito
- Classe gramatical:substantivo masculino
+INFO:root:🔹 Title: Palavra de Anteontem (24/12/2025) - Significado completo de apto:
+INFO:root:🔹 URL: https://www.dicio.com.br/apto/
+INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
+ Sílabas:bra-si-lei-ro
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,44 +42,65 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 331915 characters
-INFO:root:HTML parsed, length: 321495 characters
-INFO:root:Found 1 titles: ['Jó 1:21']
-INFO:root:Found 1 URLs: ['/versiculo/jo_1_21/']
-INFO:root:Found 1 descriptions: ['E disse:\n"Saí nu do ventre da minha mãe,\ne nu part']
+INFO:root:Response length: 331831 characters
+INFO:root:HTML parsed, length: 321411 characters
+INFO:root:Found 1 titles: ['Salmos 150:6']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_150_6/']
+INFO:root:Found 1 descriptions: ['Tudo o que tem vida louve o Senhor!\nAleluia! Salmo']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jó 1:21', ID=ced3e89eb0f67ecff7b32d1ed1cd7ea6
+INFO:root:Processing entry 1: Title='Salmos 150:6', ID=e52e9137062f0f82214cbde24d888398
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jó 1:21
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jo_1_21/
-INFO:root:🔹 Description: E disse:
-"Saí nu do ventre da minha mãe,
-e nu partirei.
-O Senhor o deu, o Senhor o levou;
-louvado seja o nome do Senhor ". Jó 1:21
+INFO:root:🔹 Title: Salmos 150:6
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_150_6/
+INFO:root:🔹 Description: Tudo o que tem vida louve o Senhor!
+Aleluia! Salmos 150:6
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 330649 characters
-INFO:root:HTML parsed, length: 321003 characters
-INFO:root:Found 3 titles: ['Salmo 63', 'Salmo 133', 'Salmo 91']
-INFO:root:Found 3 URLs: ['/salmos_63/', '/salmos_133/', '/salmos_91/']
-INFO:root:Found 3 descriptions: ['Ó Deus, tu és o meu Deus,\neu te busco intensamente', 'Como é bom e agradável\nquando os irmãos convivem e', 'Aquele que habita no abrigo do Altíssimo\ne descans']
-INFO:root:Found 3 dates: ['25 de Dezembro de 2025', '24 de Dezembro de 2025', '23 de Dezembro de 2025']
+INFO:root:Response length: 334230 characters
+INFO:root:HTML parsed, length: 324573 characters
+INFO:root:Found 3 titles: ['Salmo 61', 'Salmo 63', 'Salmo 133']
+INFO:root:Found 3 URLs: ['/salmos_61/', '/salmos_63/', '/salmos_133/']
+INFO:root:Found 3 descriptions: ['Ouve o meu clamor, ó Deus;\natenta para a minha ora', 'Ó Deus, tu és o meu Deus,\neu te busco intensamente', 'Como é bom e agradável\nquando os irmãos convivem e']
+INFO:root:Found 3 dates: ['26 de Dezembro de 2025', '25 de Dezembro de 2025', '24 de Dezembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 63', ID=f0010b8e8f70e3e74affd7797680d0c6
-INFO:root:Processing entry 2: Title=' Salmo 133', ID=30194cc21cfb956140fcf566cf151380
-INFO:root:Processing entry 3: Title=' Salmo 91', ID=ae2230ac157c45f9089a80ccb29436a2
+INFO:root:Processing entry 1: Title=' Salmo 61', ID=8907dc595674fe740145a6a1962b1467
+INFO:root:Processing entry 2: Title=' Salmo 63', ID=f0010b8e8f70e3e74affd7797680d0c6
+INFO:root:Processing entry 3: Title=' Salmo 133', ID=30194cc21cfb956140fcf566cf151380
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 61
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_61/
+INFO:root:🔹 Description: Ouve o meu clamor, ó Deus;
+atenta para a minha oração. 
+Desde os confins da terra eu clamo a ti
+com o coração abatido;
+põe-me a salvo na rocha mais alta do que eu. 
+Pois tu tens sido o meu refúgio,
+uma torre forte contra o inimigo. 
+Para sempre anseio habitar na tua tenda
+e refugiar-me no abrigo das tuas asas. 
+Pois ouviste os meus votos, ó Deus;
+deste-me a herança que concedes
+aos que temem o teu nome. 
+Prolonga os dias do rei,
+por muitas gerações os seus anos de vida. 
+Para sempre esteja ele em seu trono,
+diante de Deus;
+envia o teu amor e a tua fidelidade
+para protegê-lo. 
+Então sempre cantarei louvores ao teu nome,
+cumprindo os meus votos cada dia. 
+ Salmo 61
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 63
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_63/
 INFO:root:🔹 Description: Ó Deus, tu és o meu Deus,
@@ -133,137 +148,88 @@ Ali o Senhor concede a bênção
 da vida para sempre. 
  Salmo 133
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 91
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_91/
-INFO:root:🔹 Description: Aquele que habita no abrigo do Altíssimo
-e descansa à sombra do Todo-poderoso 
-pode dizer ao Senhor:
-"Tu és o meu refúgio e a minha fortaleza,
-o meu Deus, em quem confio". 
-Ele o livrará do laço do caçador
-e do veneno mortal. 
-Ele o cobrirá com as suas penas,
-e sob as suas asas você encontrará refúgio;
-a fidelidade dele será o seu escudo protetor. 
-Você não temerá o pavor da noite
-nem a flecha que voa de dia, 
-nem a peste que se move sorrateira
-nas trevas,
-nem a praga que devasta ao meio-dia. 
-Mil poderão cair ao seu lado;
-dez mil, à sua direita,
-mas nada o atingirá. 
-Você simplesmente olhará,
-e verá o castigo dos ímpios. 
-Se você fizer do Altíssimo o seu abrigo,
-do Senhor o seu refúgio, 
-nenhum mal o atingirá,
-desgraça alguma chegará à sua tenda. 
-Porque a seus anjos ele dará ordens
-a seu respeito,
-para que o protejam em todos
-os seus caminhos; 
-com as mãos eles o segurarão,
-para que você não tropece em alguma pedra. 
-Você pisará o leão e a cobra;
-pisoteará o leão forte e a serpente. 
-"Porque ele me ama, eu o resgatarei;
-eu o protegerei, pois conhece o meu nome. 
-Ele clamará a mim, e eu lhe darei resposta,
-e na adversidade estarei com ele;
-vou livrá-lo e cobri-lo de honra. 
-Vida longa eu lhe darei,
-e lhe mostrarei a minha salvação." 
- Salmo 91
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 331308 characters
-INFO:root:HTML parsed, length: 321329 characters
-INFO:root:Found 3 titles: ['PD Deus acima de tudo', 'Crer para ver', 'Você tem valor']
+INFO:root:Response length: 335979 characters
+INFO:root:HTML parsed, length: 325999 characters
+INFO:root:Found 3 titles: ['O que você guarda no seu coração', 'PD Deus acima de tudo', 'Crer para ver']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Amar a Deus acima de tudo é ter a mentalidade corr', 'Disse-lhe Jesus: "Não falei que, se você cresse, v', 'Visto que você é precioso\ne honrado à minha vista,']
-INFO:root:Found 1 dates: ['Quinta, 25 de dezembro de 2025']
+INFO:root:Found 3 descriptions: ['O homem bom tira coisas boas do bom tesouro que es', 'Amar a Deus acima de tudo é ter a mentalidade corr', 'Disse-lhe Jesus: "Não falei que, se você cresse, v']
+INFO:root:Found 1 dates: ['Sexta, 26 de dezembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='PD Deus acima de tudo', ID=cbe3f3cfb129251a2cd6cc3b6e0d4976
+INFO:root:Processing entry 1: Title='O que você guarda no seu coração', ID=0cb261d98ff76673931b178e58545132
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: PD Deus acima de tudo - Palavra de Hoje
+INFO:root:🔹 Title: O que você guarda no seu coração - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Amar a Deus acima de tudo é ter a mentalidade correta e o agir correto, juntos, segundo a Bíblia. Por ser um tema tão importante, a Bíblia também nos ensina de que maneira podemos amá-lo.
-Jesus, o Filho de Deus, uma vez foi perguntado sobre o maior mandamento na Bíblia. Essa pergunta foi feita para por Jesus a prova, porque esperavam que ele fosse responder algo errado.
-O que eles não esperavam é que o próprio Deus estava diante deles e lhes deu a melhor resposta possível.
+INFO:root:🔹 Description: O homem bom tira coisas boas do bom tesouro que está em seu coração, e o homem mau tira coisas más do mal que está em seu coração, porque a sua boca fala do que está cheio o coração.
+- Lucas 6:45
 
-"Mestre, qual é o maior mandamento da Lei?"
-Respondeu Jesus: " 'Ame o Senhor, o seu Deus de todo o seu coração, de toda a sua alma e de todo o seu entendimento'.
-- Mateus 22:36-37
+Costumamos ir ao médico periodicamente para exames de rotina, a fim de garantir que tudo esteja bem. Mas e o nosso espírito? Ele também precisa que examinemos o que influencia o nosso coração. Um bom coração é um coração cheio de amor, alegria, paz, paciência e bondade. É um coração entregue ao controle do Espírito Santo, que produz frutos, abençoa os outros e glorifica a Deus.
+Contudo, um coração que abriga ressentimento, ódio, inveja, ciúme, raiva, contenda e ira é dominado pelas obras da carne. As palavras que brotam de dentro revelam que ele precisa ser curado e renovado pela unção do Espírito Santo. Somente sendo cheios do Senhor podemos vencer os desejos da carne.
 
-A razão que Jesus dá para colocar este como o maior mandamento, e amar o próximo como a si mesmo como o segundo, é que toda a Lei e os Profetas de Israel se baseavam nesse princípio.
-A grande surpresa para nós é que o maior mandamento não é um mandamento negativo (como "não faça isso"), mas ao contrário, o maior mandamento nos diz justamente o que devemos fazer. Jesus está citando Deuteronômio 6:5.
-O problema é que amar a Deus de todo coração, alma e entendimento pode parecer muito subjetivo para muitas pessoas.
-Direcione seus pensamentos para Deus
-Para entendermos bem o amor de Deus, e o maior motivo que temos para amá-lo, devemos nos atentar a sua obra.
+Por isso digo: Vivam pelo Espírito, e de modo nenhum satisfarão os desejos da carne.
+Pois a carne deseja o que é contrário ao Espírito; o Espírito, o que é contrário à carne. Eles estão em conflito um com o outro, de modo que vocês não fazem o que desejam.
+- Gálatas 5:16-17
 
-Nisto consiste o amor: não em que nós tenhamos amado a Deus, mas em que ele nos amou e enviou seu Filho como propiciação pelos nossos pecados.
-- 1 João 4:10
-
-O maior motivador que temos para amar a Deus está no fato de que ele nos amou primeiro, e desse amor veio Jesus Cristo e seu sacrifício na Cruz em nosso lugar. Jesus Cristo é o próprio Deus, a segunda pessoa da Trindade, que se despiu de sua forma divina e incorporou a forma humana.
-Jesus encarnou como homem, igual todos nós. Passou e venceu as tentações carnais e foi morto injustamente. Deus fez de Jesus propiciação pelo pecado da humanidade, e agora somos aceitos diante de Deus e entramos para a vida eterna!
-Uma vez que entendemos a dimensão desse sacrifício, podemos confiar de que podemos amar livremente esse Deus. A partir disso, devemos encher nossos pensamentos das coisas do alto (como diz Paulo em Colossenses 3:1) e nutrirmos amor por Deus em nossos sentimentos.
-Aja segundo a vontade de Deus
-A mentalidade correta precede o amor sincero por Deus. Mas o agir correto vem depois de amarmos a Deus, isso porque Jesus disse que:
-
-"Se vocês me amam, obedecerão aos meus mandamentos.
-- João 14:15
-
-Dessa forma podemos entender que para agirmos corretamente no Reino de Deus, devemos amá-lo acima de todas as coisas.
-Uma vez que amamos a Deus, poderemos cumprir seus mandamentos de maneira mais leve e pura, e menos de uma maneira religiosa e robótica.
-É por isso que Jesus colocou o amor a Deus como maior mandamento, porque ele é a base para cumprirmos todos os outros.
-Veja também:
-
-Amar a Deus sobre todas as coisas e de todo coração (Estudo Bíblico)
-As 5 características do amor segundo a Bíblia
+Portanto, é necessário parar e nos perguntar honestamente: o que estamos guardando em nossos corações? O Espírito Santo deseja examinar cada recanto do nosso ser e nos transformar. Quando lhe damos permissão para purificar o que está contaminado e fortalecer o que está fraco, Ele opera uma mudança real e profunda em nós.
+Ser cheio do Espírito Santo é uma decisão diária. É escolher entregar nossos pensamentos, palavras e ações à Sua orientação. É permitir que Sua presença governe nossas reações e motive nossas decisões. Um coração cheio do Espírito falará palavras de vida, agirá com justiça e refletirá a paz de Cristo, mesmo em meio a tempos difíceis e provações.
+Peçamos ao Senhor hoje que renove nossos corações, que arranque toda raiz que O desagrada e que nos encha com o Seu Espírito. Que frutos de amor, justiça e paz brotem de dentro de nós, para que nossas vidas sejam um testemunho vivo da Sua graça e uma bênção para todos ao nosso redor.
+Veja também: Os Frutos da Carne e os Frutos do Espírito (Estudo Bíblico)
  
 Amar a Deus sobre todas as coisas e de todo coração (Estudo Bíblico)
 As 5 características do amor segundo a Bíblia
 
  
-"Mestre, qual é o maior mandamento da Lei?"
-Respondeu Jesus: " 'Ame o Senhor, o seu Deus de todo o seu coração, de toda a sua alma e de todo o seu entendimento'.
-- Mateus 22:36-37
+O homem bom tira coisas boas do bom tesouro que está em seu coração, e o homem mau tira coisas más do mal que está em seu coração, porque a sua boca fala do que está cheio o coração.
+- Lucas 6:45
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 345111 characters
-INFO:root:HTML parsed, length: 334710 characters
-INFO:root:Found 3 titles: ['O Rei que nasce entre nós', 'O Deus que se aproxima', 'O Rei da paz']
-INFO:root:Found 1 URLs: ['/melquisedeque/']
-INFO:root:Found 3 descriptions: ['O povo que caminhava em trevas viu uma grande luz;', 'E o Verbo se fez carne, e habitou entre nós, cheio', 'O Senhor jurou e não se arrependerá:\n"Tu és sacerd']
-INFO:root:Found 3 dates: ['DEZEMBRO\n\n25\nQUINTA', 'DEZEMBRO\n\n24\nQUARTA', 'DEZEMBRO\n\n23\nTERÇA']
+INFO:root:Response length: 345008 characters
+INFO:root:HTML parsed, length: 334611 characters
+INFO:root:Found 3 titles: ['Quando passar pelas águas estarei contigo', 'O Rei que nasce entre nós', 'O Deus que se aproxima']
+INFO:root:Found 1 URLs: ['/versiculos_para_fortalecer_a_fe/']
+INFO:root:Found 3 descriptions: ['Quando você atravessar as águas,\neu estarei com vo', 'O povo que caminhava em trevas viu uma grande luz;', 'E o Verbo se fez carne, e habitou entre nós, cheio']
+INFO:root:Found 3 dates: ['DEZEMBRO\n\n26\nSEXTA', 'DEZEMBRO\n\n25\nQUINTA', 'DEZEMBRO\n\n24\nQUARTA']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O Rei que nasce entre nós', ID=8428ed9c8fb9c362f97362fc1a5e6f9a
+INFO:root:Processing entry 1: Title='Quando passar pelas águas estarei contigo', ID=28448c2b7fac70ba854b3511a8abeb79
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O Rei que nasce entre nós
-INFO:root:🔹 URL: https://www.bibliaon.com/melquisedeque/
-INFO:root:🔹 Description: O povo que caminhava em trevas viu uma grande luz; sobre os que viviam na terra da sombra da morte raiou uma luz.
-- Isaías 9:2
+INFO:root:🔹 Title: Quando passar pelas águas estarei contigo
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_fortalecer_a_fe/
+INFO:root:🔹 Description: Quando você atravessar as águas,
+eu estarei com você;
+quando você atravessar os rios,
+eles não o encobrirão.
+Quando você andar através do fogo,
+não se queimará;
+as chamas não o deixarão em brasas.
+- Isaías 43:2
 
-O Natal é mais do que a lembrança de um nascimento antigo. É o anúncio de que o verdadeiro Rei entrou no mundo de maneira inesperada. Em vez de um trono, uma manjedoura. Em vez de coroa, panos simples.
-Jesus nasce como cumprimento das promessas de Deus ao seu povo. Em Jesus a história encontra seu ponto de virada. O Reino que os profetas anunciaram começa pequeno, quase imperceptível, mas cheio de vida. A boa nova do Natal é que Deus está restaurando o que foi perdido e inaugurando um novo futuro para toda a criação.
-Hoje celebramos não apenas o nascimento de um menino, mas o começo de uma nova realidade para o mundo inteiro! Tenha um feliz Natal!
-Para colocar em prática hoje:
-Pare por um minuto, feche os olhos e diga simplesmente: “Jesus, obrigado por ter vindo por mim”. Deixe essa gratidão acalmar o seu coração.
+As “águas” mencionadas na Bíblia representam momentos de medo, dor, incerteza e provações que parecem nos envolver por todos os lados. Todos nós, em algum momento, passamos por essas águas: problemas familiares, enfermidades, perdas, crises emocionais ou espirituais. Nessas horas, o coração se pergunta se conseguirá continuar.
+Deus, porém, não diz que evitará as águas, mas que estará conosco nelas. Essa promessa muda tudo. Não caminhamos sozinhos. O Senhor vai à frente, sustenta nossos passos e nos fortalece quando as forças parecem acabar. Assim como Ele abriu o mar para o povo de Israel e esteve com Daniel na cova dos leões, Ele permanece presente hoje, cuidando de cada detalhe da nossa vida.
+Passar pelas águas também nos ensina a confiar. Muitas vezes queremos controle, respostas imediatas e soluções rápidas, mas Deus nos convida a descansar em Sua fidelidade. Ele conhece o tempo certo e sabe até onde podemos ir sem sermos submersos. Mesmo quando não entendemos o porquê da dor, podemos confiar em Quem está conosco.
+Jesus é a maior prova dessa promessa. Ele entrou nas dores humanas, sofreu, chorou e venceu, para que jamais estivéssemos abandonados. Nele encontramos esperança, consolo e força renovada. As águas não têm a palavra final; Deus tem.
+Se hoje você está atravessando águas profundas, lembre-se: o Senhor está ao seu lado. Segure firme em Sua mão, continue caminhando e confie. As águas passam, mas o amor e a presença de Deus permanecem para sempre.
+Vivendo a promessa de Deus em meio às dificuldades
+
+Fale com Deus, Ele caminha contigo mesmo nas dificuldades fortalecendo sua fé esperança e perseverança constantes em cada etapa.
+Leia a Bíblia buscando promessas que renovem sua confiança lembrando que as águas não anulam o cuidado fiel divino eterno.
+Compartilhe suas lutas com irmãos na fé permitindo apoio oração e encorajamento enquanto atravessa processos difíceis com Deus em confiança.
+
 Para orar:
 
-Jesus, obrigado porque vieste reinar com amor e verdade. Neste Natal, que meu coração se abra para o teu governo e que minha vida reflita Tua luz. Amém.
+Senhor Deus, entrego-Te minha vida e minhas lutas. Quando as águas forem profundas, sustenta-me com Tua mão fiel. Renova minha fé, acalma meu coração e ensina-me a confiar mesmo sem entender. Que Tua presença seja minha força diária, Tua Palavra meu consolo seguro e Teu amor minha esperança constante hoje e sempre. Amém.
+
+Veja também: 8 versículos para fortalecer a sua fé (não desanime)
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -294,15 +260,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 +----
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  52 ++++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  32 +++-
+ feeds/devocional_de_hoje/feed.json        |   8 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  46 ++---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  59 +++---
+ feeds/salmo_do_dia/atom.xml               |  65 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 289 +++++++++++++++---------------
- 11 files changed, 264 insertions(+), 263 deletions(-)
+ output.log                                | 276 +++++++++++++-----------------
+ 11 files changed, 211 insertions(+), 291 deletions(-)
