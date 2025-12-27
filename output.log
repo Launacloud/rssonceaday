@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 122061 characters
-INFO:root:HTML parsed, length: 114578 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (26/12/2025)', 'Palavra de Ontem (25/12/2025)', 'Palavra de Anteontem (24/12/2025)']
-INFO:root:Found 3 URLs: ['/brasileiro/', '/nascimento/', '/apto/']
-INFO:root:Found 16 descriptions: ['substantivo masculino Natural ou habitante do Bras', 'Sinônimos:\n\nbrasílio, brasiliano, brasílico', 'Classe gramatical:adjetivo e substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (26/12/2025)', 'Palavra de Ontem (25/12/2025)', 'Palavra de Anteontem (24/12/2025)']
+INFO:root:Response length: 121581 characters
+INFO:root:HTML parsed, length: 113960 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (27/12/2025)', 'Palavra de Ontem (26/12/2025)', 'Palavra de Anteontem (25/12/2025)']
+INFO:root:Found 3 URLs: ['/cheiroso/', '/brasileiro/', '/nascimento/']
+INFO:root:Found 17 descriptions: ['adjetivo Que exala um aroma muito bom: xampu cheir', 'Sinônimos:\n\noloroso, odorífero, odorante, fragrant', 'Antônimos:\n\nfétido, fedorento']
+INFO:root:Found 3 dates: ['Palavra de Hoje (27/12/2025)', 'Palavra de Ontem (26/12/2025)', 'Palavra de Anteontem (25/12/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (26/12/2025)', ID=74dd1eb6579fd6bd63c5d8bf6d56cd30
-INFO:root:Processing entry 2: Title='Palavra de Ontem (25/12/2025)', ID=3c8ccd213dcf9d5e0cdb154fe02f957d
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/12/2025)', ID=8c904687e7aeb980e2d5c423ddecc315
+INFO:root:Processing entry 1: Title='Palavra de Hoje (27/12/2025)', ID=db91e6f714fb16758cff1e8779ca90d0
+INFO:root:Processing entry 2: Title='Palavra de Ontem (26/12/2025)', ID=486a6cd68f111909e59e503bf58831de
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/12/2025)', ID=19b7b969b13600e33f6cf3843dd15588
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (26/12/2025) - Significado completo de brasileiro:
-INFO:root:🔹 URL: https://www.dicio.com.br/brasileiro/
-INFO:root:🔹 Description: substantivo masculino Natural ou habitante do Brasil, República Federativa do Brasil, maior país da América do Sul e o quinto maior do mundo em extensão territorial.Pessoa que obteve a nacionalidade ou a cidadania brasileira.[Portugal] Variante da Língua Portuguesa falada e escrita no Brasil (em alguns contextos usado no sentido pejorativo).[Antigo] Português que, após viver no Brasil e enriquecer, volta pra Portugal.adjetivo Referente ou próprio do Brasil: cultura brasileira.Desenvolvido ou criado no Brasil: samba brasileiro.Etimologia (origem da palavra brasileiro). A palavra brasileiro deriva do nome próprio Brasil, e do sufixo -eiro, que atribui a ideia de relação ou de quem trabalha com.
+INFO:root:🔹 Title: Palavra de Hoje (27/12/2025) - Significado completo de cheiroso:
+INFO:root:🔹 URL: https://www.dicio.com.br/cheiroso/
+INFO:root:🔹 Description: adjetivo Que exala um aroma muito bom: xampu cheiroso.De cheiro aprazível; perfumado.Etimologia (origem da palavra cheiroso). Cheiro + oso.
  
 Sinônimos:
 
-brasílio, brasiliano, brasílico 
+oloroso, odorífero, odorante, fragrante, balsâmico, aromático, perfumado, redolente 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (25/12/2025) - Significado completo de nascimento:
-INFO:root:🔹 URL: https://www.dicio.com.br/nascimento/
+INFO:root:🔹 Title: Palavra de Ontem (26/12/2025) - Significado completo de brasileiro:
+INFO:root:🔹 URL: https://www.dicio.com.br/brasileiro/
 INFO:root:🔹 Description: Sinônimos:
 
-brasílio, brasiliano, brasílico
- Classe gramatical:adjetivo e substantivo masculino
+oloroso, odorífero, odorante, fragrante, balsâmico, aromático, perfumado, redolente
+ 
+Antônimos:
+
+fétido, fedorento 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (24/12/2025) - Significado completo de apto:
-INFO:root:🔹 URL: https://www.dicio.com.br/apto/
-INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
- Sílabas:bra-si-lei-ro
+INFO:root:🔹 Title: Palavra de Anteontem (25/12/2025) - Significado completo de nascimento:
+INFO:root:🔹 URL: https://www.dicio.com.br/nascimento/
+INFO:root:🔹 Description: Antônimos:
+
+fétido, fedorento
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,41 +48,86 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 331831 characters
-INFO:root:HTML parsed, length: 321411 characters
-INFO:root:Found 1 titles: ['Salmos 150:6']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_150_6/']
-INFO:root:Found 1 descriptions: ['Tudo o que tem vida louve o Senhor!\nAleluia! Salmo']
+INFO:root:Response length: 331962 characters
+INFO:root:HTML parsed, length: 321542 characters
+INFO:root:Found 1 titles: ['2 Timóteo 2:11-13']
+INFO:root:Found 1 URLs: ['/versiculo/2_timoteo_2_11-13/']
+INFO:root:Found 1 descriptions: ['Esta palavra é digna de confiança:\nSe morremos com']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 150:6', ID=e52e9137062f0f82214cbde24d888398
+INFO:root:Processing entry 1: Title='2 Timóteo 2:11-13', ID=3b53ab981a3ae29fb0bebd6c330c9309
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 150:6
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_150_6/
-INFO:root:🔹 Description: Tudo o que tem vida louve o Senhor!
-Aleluia! Salmos 150:6
+INFO:root:🔹 Title: 2 Timóteo 2:11-13
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_timoteo_2_11-13/
+INFO:root:🔹 Description: Esta palavra é digna de confiança:
+Se morremos com ele,
+com ele também viveremos; se perseveramos,
+com ele também reinaremos.
+Se o negamos,
+ele também nos negará; se somos infiéis,
+ele permanece fiel,
+pois não pode negar-se
+a si mesmo. 2 Timóteo 2:11-13
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 334230 characters
-INFO:root:HTML parsed, length: 324573 characters
-INFO:root:Found 3 titles: ['Salmo 61', 'Salmo 63', 'Salmo 133']
-INFO:root:Found 3 URLs: ['/salmos_61/', '/salmos_63/', '/salmos_133/']
-INFO:root:Found 3 descriptions: ['Ouve o meu clamor, ó Deus;\natenta para a minha ora', 'Ó Deus, tu és o meu Deus,\neu te busco intensamente', 'Como é bom e agradável\nquando os irmãos convivem e']
-INFO:root:Found 3 dates: ['26 de Dezembro de 2025', '25 de Dezembro de 2025', '24 de Dezembro de 2025']
+INFO:root:Response length: 330888 characters
+INFO:root:HTML parsed, length: 321245 characters
+INFO:root:Found 3 titles: ['Salmo 21', 'Salmo 61', 'Salmo 63']
+INFO:root:Found 3 URLs: ['/salmos_21/', '/salmos_61/', '/salmos_63/']
+INFO:root:Found 3 descriptions: ['O rei se alegra na tua força, ó Senhor!\nComo é gra', 'Ouve o meu clamor, ó Deus;\natenta para a minha ora', 'Ó Deus, tu és o meu Deus,\neu te busco intensamente']
+INFO:root:Found 3 dates: ['27 de Dezembro de 2025', '26 de Dezembro de 2025', '25 de Dezembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 61', ID=8907dc595674fe740145a6a1962b1467
-INFO:root:Processing entry 2: Title=' Salmo 63', ID=f0010b8e8f70e3e74affd7797680d0c6
-INFO:root:Processing entry 3: Title=' Salmo 133', ID=30194cc21cfb956140fcf566cf151380
+INFO:root:Processing entry 1: Title=' Salmo 21', ID=f5499d96daf550cf503937d224980eef
+INFO:root:Processing entry 2: Title=' Salmo 61', ID=8907dc595674fe740145a6a1962b1467
+INFO:root:Processing entry 3: Title=' Salmo 63', ID=f0010b8e8f70e3e74affd7797680d0c6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 21
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_21/
+INFO:root:🔹 Description: O rei se alegra na tua força, ó Senhor!
+Como é grande a sua exultação
+pelas vitórias que lhe dás! 
+Tu lhe concedeste o desejo do seu coração
+e não lhe rejeitaste o pedido
+dos seus lábios. 
+Tu o recebeste dando-lhe ricas bênçãos,
+e em sua cabeça
+puseste uma coroa de ouro puro. 
+Ele te pediu vida, e tu lhe deste!
+Vida longa e duradoura. 
+Pelas vitórias que lhe deste,
+grande é a sua glória;
+de esplendor e majestade o cobriste. 
+Fizeste dele uma grande bênção para sempre
+e lhe deste a alegria da tua presença. 
+O rei confia no Senhor:
+por causa da fidelidade do Altíssimo
+ele não será abalado. 
+Tua mão alcançará todos os teus inimigos;
+tua mão direita atingirá todos os que te odeiam. 
+No dia em que te manifestares
+farás deles uma fornalha ardente.
+Na sua ira o Senhor os devorará,
+um fogo os consumirá. 
+Acabarás com a geração deles na terra,
+com a sua descendência entre os homens. 
+Embora tramem o mal contra ti
+e façam planos perversos,
+nada conseguirão; 
+pois tu os porás em fuga
+quando apontares para eles o teu arco. 
+Sê exaltado, Senhor, na tua força!
+Cantaremos e louvaremos o teu poder. 
+ Salmo 21
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 61
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_61/
 INFO:root:🔹 Description: Ouve o meu clamor, ó Deus;
@@ -134,75 +185,90 @@ o louvarão,
 mas a boca dos mentirosos será tapada. 
  Salmo 63
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 133
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_133/
-INFO:root:🔹 Description: Como é bom e agradável
-quando os irmãos convivem em união! 
-É como óleo precioso
-derramado sobre a cabeça,
-que desce pela barba, a barba de Arão,
-até a gola das suas vestes. 
-É como o orvalho do Hermom
-quando desce sobre os montes de Sião.
-Ali o Senhor concede a bênção
-da vida para sempre. 
- Salmo 133
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 335979 characters
-INFO:root:HTML parsed, length: 325999 characters
-INFO:root:Found 3 titles: ['O que você guarda no seu coração', 'PD Deus acima de tudo', 'Crer para ver']
+INFO:root:Response length: 336221 characters
+INFO:root:HTML parsed, length: 326246 characters
+INFO:root:Found 3 titles: ['Alegrem-se: vocês têm a ajuda do Senhor', 'O que você guarda no seu coração', 'PD Deus acima de tudo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O homem bom tira coisas boas do bom tesouro que es', 'Amar a Deus acima de tudo é ter a mentalidade corr', 'Disse-lhe Jesus: "Não falei que, se você cresse, v']
-INFO:root:Found 1 dates: ['Sexta, 26 de dezembro de 2025']
+INFO:root:Found 3 descriptions: ['O Senhor é a minha força e o meu escudo;\nnele o me', 'O homem bom tira coisas boas do bom tesouro que es', 'Amar a Deus acima de tudo é ter a mentalidade corr']
+INFO:root:Found 1 dates: ['Sábado, 27 de dezembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O que você guarda no seu coração', ID=0cb261d98ff76673931b178e58545132
+INFO:root:Processing entry 1: Title='Alegrem-se: vocês têm a ajuda do Senhor', ID=3e6e37d56d30a8c01c7e6199f877af43
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O que você guarda no seu coração - Palavra de Hoje
+INFO:root:🔹 Title: Alegrem-se: vocês têm a ajuda do Senhor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O homem bom tira coisas boas do bom tesouro que está em seu coração, e o homem mau tira coisas más do mal que está em seu coração, porque a sua boca fala do que está cheio o coração.
-- Lucas 6:45
+INFO:root:🔹 Description: O Senhor é a minha força e o meu escudo;
+nele o meu coração confia, e dele recebo ajuda.
+Meu coração exulta de alegria,
+e com o meu cântico lhe darei graças.
+- Salmo 28:7
 
-Costumamos ir ao médico periodicamente para exames de rotina, a fim de garantir que tudo esteja bem. Mas e o nosso espírito? Ele também precisa que examinemos o que influencia o nosso coração. Um bom coração é um coração cheio de amor, alegria, paz, paciência e bondade. É um coração entregue ao controle do Espírito Santo, que produz frutos, abençoa os outros e glorifica a Deus.
-Contudo, um coração que abriga ressentimento, ódio, inveja, ciúme, raiva, contenda e ira é dominado pelas obras da carne. As palavras que brotam de dentro revelam que ele precisa ser curado e renovado pela unção do Espírito Santo. Somente sendo cheios do Senhor podemos vencer os desejos da carne.
+É possível que, ao acordar todas as manhãs, você pense em tudo o que o aguarda: os desafios, os imprevistos, as decisões e as lutas que o dia poderá trazer. É verdade que antecipar essas coisas ajuda a se preparar, mas também é possível que isso cause desânimo ou preocupação. Talvez uma maneira mais sábia — e mais cheia de fé — de começar o dia seja declarando a verdade que lemos neste Salmo. O Senhor, o Deus Todo-Poderoso, é a sua força, o seu escudo e o seu auxílio constante. Você pode confiar plenamente nele. Encare o dia com alegria: o Senhor está com você!
+Louve a Deus e permaneça atento à Sua ajuda e bênção em todos os momentos. Ele nunca o deixa sozinho. Em cada situação que surge, você tem o Espírito Santo que habita em você. Ele o instrui, o fortalece e o guia para que você ande na Verdade e faça o que é certo a cada passo. Sob a Sua orientação, você não só pode enfrentar os desafios, mas também superá-los para a glória de Deus.
 
-Por isso digo: Vivam pelo Espírito, e de modo nenhum satisfarão os desejos da carne.
-Pois a carne deseja o que é contrário ao Espírito; o Espírito, o que é contrário à carne. Eles estão em conflito um com o outro, de modo que vocês não fazem o que desejam.
-- Gálatas 5:16-17
+Mas, quando o Espírito da verdade vier, ele os guiará a toda a verdade. Não falará de si mesmo; falará apenas o que ouvir, e anunciará a vocês o que está por vir.
+- João 16:13
 
-Portanto, é necessário parar e nos perguntar honestamente: o que estamos guardando em nossos corações? O Espírito Santo deseja examinar cada recanto do nosso ser e nos transformar. Quando lhe damos permissão para purificar o que está contaminado e fortalecer o que está fraco, Ele opera uma mudança real e profunda em nós.
-Ser cheio do Espírito Santo é uma decisão diária. É escolher entregar nossos pensamentos, palavras e ações à Sua orientação. É permitir que Sua presença governe nossas reações e motive nossas decisões. Um coração cheio do Espírito falará palavras de vida, agirá com justiça e refletirá a paz de Cristo, mesmo em meio a tempos difíceis e provações.
-Peçamos ao Senhor hoje que renove nossos corações, que arranque toda raiz que O desagrada e que nos encha com o Seu Espírito. Que frutos de amor, justiça e paz brotem de dentro de nós, para que nossas vidas sejam um testemunho vivo da Sua graça e uma bênção para todos ao nosso redor.
-Veja também: Os Frutos da Carne e os Frutos do Espírito (Estudo Bíblico)
+Quando os desafios da vida parecerem insuperáveis, lembre-se de que você não caminha com suas próprias forças. O Espírito Santo vai à sua frente, preparando-o, dando-lhe discernimento e lembrando-o das promessas de Deus. Ele é o seu consolador e o seu fiel auxílio. Nos momentos de fraqueza, Ele o renovará e o lembrará de que o poder de Deus se aperfeiçoa justamente na sua fragilidade.
+Portanto, não tema o que o dia possa trazer, nem se preocupe com o que ainda não aconteceu. O mesmo Espírito que ressuscitou Jesus dentre os mortos habita em você. Essa é a sua garantia, a sua força e a sua paz. Confie na Sua orientação, descanse na Sua presença e siga em frente com coragem. Deus está agindo em seu favor, e o Seu Espírito estará com você a cada passo do caminho.
+Veja também: Estudo bíblico sobre o Espírito Santo
  
 Amar a Deus sobre todas as coisas e de todo coração (Estudo Bíblico)
 As 5 características do amor segundo a Bíblia
 
  
-O homem bom tira coisas boas do bom tesouro que está em seu coração, e o homem mau tira coisas más do mal que está em seu coração, porque a sua boca fala do que está cheio o coração.
-- Lucas 6:45
+O Senhor é a minha força e o meu escudo;
+nele o meu coração confia, e dele recebo ajuda.
+Meu coração exulta de alegria,
+e com o meu cântico lhe darei graças.
+- Salmo 28:7
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 345008 characters
-INFO:root:HTML parsed, length: 334611 characters
-INFO:root:Found 3 titles: ['Quando passar pelas águas estarei contigo', 'O Rei que nasce entre nós', 'O Deus que se aproxima']
-INFO:root:Found 1 URLs: ['/versiculos_para_fortalecer_a_fe/']
-INFO:root:Found 3 descriptions: ['Quando você atravessar as águas,\neu estarei com vo', 'O povo que caminhava em trevas viu uma grande luz;', 'E o Verbo se fez carne, e habitou entre nós, cheio']
-INFO:root:Found 3 dates: ['DEZEMBRO\n\n26\nSEXTA', 'DEZEMBRO\n\n25\nQUINTA', 'DEZEMBRO\n\n24\nQUARTA']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Quando passar pelas águas estarei contigo', ID=28448c2b7fac70ba854b3511a8abeb79
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 342052 characters
+INFO:root:HTML parsed, length: 331649 characters
+INFO:root:Found 3 titles: ['Um coração grato transforma tudo!', 'Quando passar pelas águas estarei contigo', 'O Rei que nasce entre nós']
+INFO:root:Found 2 URLs: ['/a_gratidao_de_paulo/', '/versiculos_para_fortalecer_a_fe/']
+INFO:root:Found 3 descriptions: ['Deem graças em todas as circunstâncias, pois esta ', 'Quando você atravessar as águas,\neu estarei com vo', 'O povo que caminhava em trevas viu uma grande luz;']
+INFO:root:Found 3 dates: ['DEZEMBRO\n\n27\nSÁBADO', 'DEZEMBRO\n\n26\nSEXTA', 'DEZEMBRO\n\n25\nQUINTA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Um coração grato transforma tudo!', ID=48f98b15d1ed15d73c0326e51301078f
+INFO:root:Processing entry 2: Title='Quando passar pelas águas estarei contigo', ID=28448c2b7fac70ba854b3511a8abeb79
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Um coração grato transforma tudo!
+INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
+INFO:root:🔹 Description: Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.
+- 1 Tessalonicenses 5:18
+
+Um coração grato transforma tudo! A gratidão tem o poder de mudar a forma como enxergamos a vida, as pessoas e até as dificuldades.
+Quando escolhemos agradecer, mesmo em meio aos desafios, estamos declarando nossa confiança em Deus e reconhecendo que Ele continua no controle.
+Ser grato não significa ignorar a dor ou fingir que está tudo bem. A gratidão nos ajuda a perceber que, mesmo nos dias difíceis, Deus permanece presente, cuidando de nós. Um coração grato aprende a valorizar as pequenas bênçãos: o fôlego de vida, uma palavra de encorajamento, uma porta que se abre, ou até mesmo uma lição aprendida na adversidade.
+A Bíblia nos ensina que a gratidão nos aproxima de Deus. Quando agradecemos, nosso coração se torna mais sensível à Sua voz e mais confiante em Suas promessas. A murmuração nos prende ao problema, mas a gratidão nos conduz à esperança. Ela muda o ambiente, fortalece a fé e renova a alegria interior.
+Jesus é o maior exemplo de gratidão. Mesmo antes de multiplicar os pães, Ele agradeceu ao Pai. Antes de ressuscitar Lázaro, Ele deu graças. Isso nos mostra que a gratidão vem antes do milagre. Quando agradecemos, preparamos nosso coração para ver o agir de Deus.
+Um coração grato também transforma nossos relacionamentos. Passamos a ser mais pacientes, humildes e amorosos. A gratidão nos ensina a reconhecer o valor do outro e a agir com mais compaixão.
+Quando cultivamos um coração grato, tudo ao nosso redor começa a mudar, porque Deus transforma primeiro o nosso interior. E um coração transformado é capaz de enxergar a vida com fé, esperança e amor.
+Sempre com um coração grato
+
+Agradeça a Deus diariamente pelas bênçãos, reconhecendo Sua fidelidade constante mesmo quando as circunstâncias parecem difíceis. Em tudo daí graças.
+Cultive gratidão nos desafios, confiando que Deus usa cada dificuldade para fortalecer sua fé e amadurecer seu coração.
+Expresse gratidão através das atitudes, palavras gentis e serviço ao próximo, refletindo o amor de Cristo em todas as áreas.
+
+Para orar:
+
+Senhor Deus, obrigado por tudo o que tens feito. Dá-nos um coração grato em toda circunstância. Ensina-nos a confiar quando não entendemos, a louvar mesmo nas lutas e a reconhecer Tuas bênçãos diárias. Que nossa gratidão transforme nosso olhar, fortaleça nossa fé e glorifique Teu nome. Amém.
+
+Veja também: Exemplos de gratidão na Bíblia: 8 histórias para inspirar
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Quando passar pelas águas estarei contigo
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_fortalecer_a_fe/
 INFO:root:🔹 Description: Quando você atravessar as águas,
@@ -260,15 +326,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  32 +++-
- feeds/devocional_de_hoje/feed.json        |   8 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  46 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  24 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  30 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  18 ++-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  65 +++----
+ feeds/salmo_do_dia/atom.xml               |  50 ++++--
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |  11 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 276 +++++++++++++-----------------
- 11 files changed, 211 insertions(+), 291 deletions(-)
+ output.log                                | 248 ++++++++++++++++++------------
+ 11 files changed, 279 insertions(+), 158 deletions(-)
