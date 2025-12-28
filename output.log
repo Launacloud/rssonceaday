@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121581 characters
-INFO:root:HTML parsed, length: 113960 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (27/12/2025)', 'Palavra de Ontem (26/12/2025)', 'Palavra de Anteontem (25/12/2025)']
-INFO:root:Found 3 URLs: ['/cheiroso/', '/brasileiro/', '/nascimento/']
-INFO:root:Found 17 descriptions: ['adjetivo Que exala um aroma muito bom: xampu cheir', 'Sinônimos:\n\noloroso, odorífero, odorante, fragrant', 'Antônimos:\n\nfétido, fedorento']
-INFO:root:Found 3 dates: ['Palavra de Hoje (27/12/2025)', 'Palavra de Ontem (26/12/2025)', 'Palavra de Anteontem (25/12/2025)']
+INFO:root:Response length: 121530 characters
+INFO:root:HTML parsed, length: 114092 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (28/12/2025)', 'Palavra de Ontem (27/12/2025)', 'Palavra de Anteontem (26/12/2025)']
+INFO:root:Found 3 URLs: ['/magia/', '/cheiroso/', '/brasileiro/']
+INFO:root:Found 16 descriptions: ['substantivo feminino Arte tida como capaz de produ', 'Sinônimos:\n\nencanto, feitiço, bruxaria, feitiçaria', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (28/12/2025)', 'Palavra de Ontem (27/12/2025)', 'Palavra de Anteontem (26/12/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (27/12/2025)', ID=db91e6f714fb16758cff1e8779ca90d0
-INFO:root:Processing entry 2: Title='Palavra de Ontem (26/12/2025)', ID=486a6cd68f111909e59e503bf58831de
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/12/2025)', ID=19b7b969b13600e33f6cf3843dd15588
+INFO:root:Processing entry 1: Title='Palavra de Hoje (28/12/2025)', ID=f45d8eebaba342cdb8ec1992a1ed3225
+INFO:root:Processing entry 2: Title='Palavra de Ontem (27/12/2025)', ID=c78a02958219fe79c47a493d947066ed
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (26/12/2025)', ID=53dfa09a0d79fef6aa4568f5209d1c36
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (27/12/2025) - Significado completo de cheiroso:
-INFO:root:🔹 URL: https://www.dicio.com.br/cheiroso/
-INFO:root:🔹 Description: adjetivo Que exala um aroma muito bom: xampu cheiroso.De cheiro aprazível; perfumado.Etimologia (origem da palavra cheiroso). Cheiro + oso.
+INFO:root:🔹 Title: Palavra de Hoje (28/12/2025) - Significado completo de magia:
+INFO:root:🔹 URL: https://www.dicio.com.br/magia/
+INFO:root:🔹 Description: substantivo feminino Arte tida como capaz de produzir, por meio de certas práticas ocultas, efeitos ou fenômenos extraordinários que contrariam as leis naturais, geralmente através de rituais, fórmulas; feitiçaria, bruxaria.[Figurado] Efeito surpreendente: a magia das palavras.[Figurado] Explicação do que não tem sentido aparente: conseguiu esse trabalho por magia![Figurado] O que atrai o interesse; fascínio: tinha pelo cinema uma relação de magia.expressão Magia negra. Aquela que tem por objeto a evocação dos demônios.Etimologia (origem da palavra magia). A palavra magia deriva do grego "mageía.as", que significa doutrina dos magos; pelo latim “magia.ae”, com sentido de ato de invocar poderes mágicos.
  
 Sinônimos:
 
-oloroso, odorífero, odorante, fragrante, balsâmico, aromático, perfumado, redolente 
+encanto, feitiço, bruxaria, feitiçaria, mágica 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (26/12/2025) - Significado completo de brasileiro:
-INFO:root:🔹 URL: https://www.dicio.com.br/brasileiro/
+INFO:root:🔹 Title: Palavra de Ontem (27/12/2025) - Significado completo de cheiroso:
+INFO:root:🔹 URL: https://www.dicio.com.br/cheiroso/
 INFO:root:🔹 Description: Sinônimos:
 
-oloroso, odorífero, odorante, fragrante, balsâmico, aromático, perfumado, redolente
- 
-Antônimos:
-
-fétido, fedorento 
-
+encanto, feitiço, bruxaria, feitiçaria, mágica
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (25/12/2025) - Significado completo de nascimento:
-INFO:root:🔹 URL: https://www.dicio.com.br/nascimento/
-INFO:root:🔹 Description: Antônimos:
-
-fétido, fedorento
- Classe gramatical:adjetivo
+INFO:root:🔹 Title: Palavra de Anteontem (26/12/2025) - Significado completo de brasileiro:
+INFO:root:🔹 URL: https://www.dicio.com.br/brasileiro/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:ma-gi-a
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,48 +42,66 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 331962 characters
-INFO:root:HTML parsed, length: 321542 characters
-INFO:root:Found 1 titles: ['2 Timóteo 2:11-13']
-INFO:root:Found 1 URLs: ['/versiculo/2_timoteo_2_11-13/']
-INFO:root:Found 1 descriptions: ['Esta palavra é digna de confiança:\nSe morremos com']
+INFO:root:Response length: 331934 characters
+INFO:root:HTML parsed, length: 321514 characters
+INFO:root:Found 1 titles: ['Hebreus 12:6']
+INFO:root:Found 1 URLs: ['/versiculo/hebreus_12_6/']
+INFO:root:Found 1 descriptions: ['Pois o Senhor disciplina\na quem ama,\ne castiga tod']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Timóteo 2:11-13', ID=3b53ab981a3ae29fb0bebd6c330c9309
+INFO:root:Processing entry 1: Title='Hebreus 12:6', ID=7b7b89f4b01be007856657a347154436
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Timóteo 2:11-13
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_timoteo_2_11-13/
-INFO:root:🔹 Description: Esta palavra é digna de confiança:
-Se morremos com ele,
-com ele também viveremos; se perseveramos,
-com ele também reinaremos.
-Se o negamos,
-ele também nos negará; se somos infiéis,
-ele permanece fiel,
-pois não pode negar-se
-a si mesmo. 2 Timóteo 2:11-13
+INFO:root:🔹 Title: Hebreus 12:6
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_12_6/
+INFO:root:🔹 Description: Pois o Senhor disciplina
+a quem ama,
+e castiga todo aquele
+a quem aceita como filho". Hebreus 12:6
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 330888 characters
-INFO:root:HTML parsed, length: 321245 characters
-INFO:root:Found 3 titles: ['Salmo 21', 'Salmo 61', 'Salmo 63']
-INFO:root:Found 3 URLs: ['/salmos_21/', '/salmos_61/', '/salmos_63/']
-INFO:root:Found 3 descriptions: ['O rei se alegra na tua força, ó Senhor!\nComo é gra', 'Ouve o meu clamor, ó Deus;\natenta para a minha ora', 'Ó Deus, tu és o meu Deus,\neu te busco intensamente']
-INFO:root:Found 3 dates: ['27 de Dezembro de 2025', '26 de Dezembro de 2025', '25 de Dezembro de 2025']
+INFO:root:Response length: 330479 characters
+INFO:root:HTML parsed, length: 320831 characters
+INFO:root:Found 3 titles: ['Salmo 1', 'Salmo 21', 'Salmo 61']
+INFO:root:Found 3 URLs: ['/salmos_1/', '/salmos_21/', '/salmos_61/']
+INFO:root:Found 3 descriptions: ['Como é feliz aquele\nque não segue o conselho dos í', 'O rei se alegra na tua força, ó Senhor!\nComo é gra', 'Ouve o meu clamor, ó Deus;\natenta para a minha ora']
+INFO:root:Found 3 dates: ['28 de Dezembro de 2025', '27 de Dezembro de 2025', '26 de Dezembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 21', ID=f5499d96daf550cf503937d224980eef
-INFO:root:Processing entry 2: Title=' Salmo 61', ID=8907dc595674fe740145a6a1962b1467
-INFO:root:Processing entry 3: Title=' Salmo 63', ID=f0010b8e8f70e3e74affd7797680d0c6
+INFO:root:Processing entry 1: Title=' Salmo 1', ID=2adcbf58d17c939dd9f440b96da37120
+INFO:root:Processing entry 2: Title=' Salmo 21', ID=f5499d96daf550cf503937d224980eef
+INFO:root:Processing entry 3: Title=' Salmo 61', ID=8907dc595674fe740145a6a1962b1467
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 1
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_1/
+INFO:root:🔹 Description: Como é feliz aquele
+que não segue o conselho dos ímpios,
+não imita a conduta dos pecadores,
+nem se assenta na roda dos zombadores! 
+Ao contrário, sua satisfação
+está na lei do Senhor,
+e nessa lei medita dia e noite. 
+É como árvore plantada
+à beira de águas correntes:
+Dá fruto no tempo certo
+e suas folhas não murcham.
+Tudo o que ele faz prospera! 
+Não é o caso dos ímpios!
+São como palha que o vento leva. 
+Por isso os ímpios
+não resistirão no julgamento
+nem os pecadores na comunidade dos justos. 
+Pois o Senhor aprova o caminho dos justos,
+mas o caminho dos ímpios leva à destruição! 
+ Salmo 1
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 21
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_21/
 INFO:root:🔹 Description: O rei se alegra na tua força, ó Senhor!
@@ -152,99 +164,77 @@ Então sempre cantarei louvores ao teu nome,
 cumprindo os meus votos cada dia. 
  Salmo 61
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 63
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_63/
-INFO:root:🔹 Description: Ó Deus, tu és o meu Deus,
-eu te busco intensamente;
-a minha alma tem sede de ti!
-Todo o meu ser anseia por ti,
-numa terra seca, exausta e sem água. 
-Quero contemplar-te no santuário
-e avistar o teu poder e a tua glória. 
-O teu amor é melhor do que a vida!
-Por isso os meus lábios te exaltarão. 
-Enquanto eu viver te bendirei,
-e em teu nome levantarei as minhas mãos. 
-A minha alma ficará satisfeita
-como quando tem rico banquete;
-com lábios jubilosos a minha boca te louvará. 
-Quando me deito, lembro-me de ti;
-penso em ti durante as vigílias da noite. 
-Porque és a minha ajuda,
-canto de alegria à sombra das tuas asas. 
-A minha alma apega-se a ti;
-a tua mão direita me sustém. 
-Aqueles, porém, que querem matar-me
-serão destruídos;
-descerão às profundezas da terra. 
-Serão entregues à espada
-e devorados por chacais. 
-Mas o rei se alegrará em Deus;
-todos os que juram pelo nome de Deus
-o louvarão,
-mas a boca dos mentirosos será tapada. 
- Salmo 63
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 336221 characters
-INFO:root:HTML parsed, length: 326246 characters
-INFO:root:Found 3 titles: ['Alegrem-se: vocês têm a ajuda do Senhor', 'O que você guarda no seu coração', 'PD Deus acima de tudo']
+INFO:root:Response length: 335061 characters
+INFO:root:HTML parsed, length: 325098 characters
+INFO:root:Found 3 titles: ['Para Deus, somos muito mais do que nossos erros ou medos', 'Alegrem-se: vocês têm a ajuda do Senhor', 'O que você guarda no seu coração']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O Senhor é a minha força e o meu escudo;\nnele o me', 'O homem bom tira coisas boas do bom tesouro que es', 'Amar a Deus acima de tudo é ter a mentalidade corr']
-INFO:root:Found 1 dates: ['Sábado, 27 de dezembro de 2025']
+INFO:root:Found 3 descriptions: ['"No dia em que eu agir", diz o Se\xadnhor dos Exércit', 'O Senhor é a minha força e o meu escudo;\nnele o me', 'O homem bom tira coisas boas do bom tesouro que es']
+INFO:root:Found 1 dates: ['Domingo, 28 de dezembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Alegrem-se: vocês têm a ajuda do Senhor', ID=3e6e37d56d30a8c01c7e6199f877af43
+INFO:root:Processing entry 1: Title='Para Deus, somos muito mais do que nossos erros ou medos', ID=09ec73487fe86413c0b8cbed0873d79b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Alegrem-se: vocês têm a ajuda do Senhor - Palavra de Hoje
+INFO:root:🔹 Title: Para Deus, somos muito mais do que nossos erros ou medos - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O Senhor é a minha força e o meu escudo;
-nele o meu coração confia, e dele recebo ajuda.
-Meu coração exulta de alegria,
-e com o meu cântico lhe darei graças.
-- Salmo 28:7
+INFO:root:🔹 Description: "No dia em que eu agir", diz o Se­nhor dos Exércitos, "eles serão o meu tesouro pessoal. Eu terei compaixão deles como um pai tem compaixão do filho que lhe obedece.
+- Malaquias 3:17
 
-É possível que, ao acordar todas as manhãs, você pense em tudo o que o aguarda: os desafios, os imprevistos, as decisões e as lutas que o dia poderá trazer. É verdade que antecipar essas coisas ajuda a se preparar, mas também é possível que isso cause desânimo ou preocupação. Talvez uma maneira mais sábia — e mais cheia de fé — de começar o dia seja declarando a verdade que lemos neste Salmo. O Senhor, o Deus Todo-Poderoso, é a sua força, o seu escudo e o seu auxílio constante. Você pode confiar plenamente nele. Encare o dia com alegria: o Senhor está com você!
-Louve a Deus e permaneça atento à Sua ajuda e bênção em todos os momentos. Ele nunca o deixa sozinho. Em cada situação que surge, você tem o Espírito Santo que habita em você. Ele o instrui, o fortalece e o guia para que você ande na Verdade e faça o que é certo a cada passo. Sob a Sua orientação, você não só pode enfrentar os desafios, mas também superá-los para a glória de Deus.
-
-Mas, quando o Espírito da verdade vier, ele os guiará a toda a verdade. Não falará de si mesmo; falará apenas o que ouvir, e anunciará a vocês o que está por vir.
-- João 16:13
-
-Quando os desafios da vida parecerem insuperáveis, lembre-se de que você não caminha com suas próprias forças. O Espírito Santo vai à sua frente, preparando-o, dando-lhe discernimento e lembrando-o das promessas de Deus. Ele é o seu consolador e o seu fiel auxílio. Nos momentos de fraqueza, Ele o renovará e o lembrará de que o poder de Deus se aperfeiçoa justamente na sua fragilidade.
-Portanto, não tema o que o dia possa trazer, nem se preocupe com o que ainda não aconteceu. O mesmo Espírito que ressuscitou Jesus dentre os mortos habita em você. Essa é a sua garantia, a sua força e a sua paz. Confie na Sua orientação, descanse na Sua presença e siga em frente com coragem. Deus está agindo em seu favor, e o Seu Espírito estará com você a cada passo do caminho.
-Veja também: Estudo bíblico sobre o Espírito Santo
+Uma triste realidade é que os seres humanos têm a tendência de julgar a si mesmos e aos outros com base em seus erros passados. Uma pessoa pode ser maravilhosa, mas se nos decepciona em um momento crucial, não apenas nos desiludimos, como também nos distanciamos dela.
+O mesmo pode acontecer conosco. Em vez de nos lembrarmos de todo o bem que fazemos diariamente, focamos no que fazemos de errado ou no que não gostamos em nós mesmos. Essa autoanálise excessiva e acusatória pode levar à depressão, fazendo-nos acreditar que não temos nada de bom a oferecer.
+Deus não é assim! Ele nos olha com ternura, amor e esperança. Ele conhece nosso potencial, conhece todo o bem que há em nós e está sempre disposto a perdoar nossos erros e nos ajudar a dar o nosso melhor. Permitiremos que Ele faça isso?
+O livro de Malaquias fala claramente sobre a infidelidade do povo de Deus diante da fidelidade e do amor de Deus. Como um Pai amoroso, Ele os via (e vê cada um de nós) como um tesouro precioso em Seus braços, pessoas que, ao receberem Seu perdão e Sua presença, podem continuar a servi-Lo, brilhando com Sua luz, vivendo de acordo com a Sua vontade.
+Deus não se detém em nossos erros nem se deixa vencer por nossos medos. Ele quer nos dar um novo começo a cada dia, nos guiar pelo caminho da vitória e nos lembrar de que somos preciosos para Ele. Precisamos simplesmente nos apresentar diante Dele com humildade, reconhecendo o que fizemos de errado, mas de braços abertos para receber Seu perdão e renovação.
+Entreguemos a Deus tudo o que nos prende e nos impede de seguir em frente. Lembremo-nos do Seu amor. Somos Seus filhos preciosos! Vivamos hoje e todos os dias guiados e fortalecidos por Ele. Com Cristo como nosso líder, podemos deixar uma marca positiva neste mundo. Façamos isso!
+Leia também: O que a Bíblia diz que eu sou e o que eu sou para Deus.
  
-Amar a Deus sobre todas as coisas e de todo coração (Estudo Bíblico)
-As 5 características do amor segundo a Bíblia
-
- 
-O Senhor é a minha força e o meu escudo;
-nele o meu coração confia, e dele recebo ajuda.
-Meu coração exulta de alegria,
-e com o meu cântico lhe darei graças.
-- Salmo 28:7
+"No dia em que eu agir", diz o Se­nhor dos Exércitos, "eles serão o meu tesouro pessoal. Eu terei compaixão deles como um pai tem compaixão do filho que lhe obedece.
+- Malaquias 3:17
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 342052 characters
-INFO:root:HTML parsed, length: 331649 characters
-INFO:root:Found 3 titles: ['Um coração grato transforma tudo!', 'Quando passar pelas águas estarei contigo', 'O Rei que nasce entre nós']
-INFO:root:Found 2 URLs: ['/a_gratidao_de_paulo/', '/versiculos_para_fortalecer_a_fe/']
-INFO:root:Found 3 descriptions: ['Deem graças em todas as circunstâncias, pois esta ', 'Quando você atravessar as águas,\neu estarei com vo', 'O povo que caminhava em trevas viu uma grande luz;']
-INFO:root:Found 3 dates: ['DEZEMBRO\n\n27\nSÁBADO', 'DEZEMBRO\n\n26\nSEXTA', 'DEZEMBRO\n\n25\nQUINTA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Um coração grato transforma tudo!', ID=48f98b15d1ed15d73c0326e51301078f
-INFO:root:Processing entry 2: Title='Quando passar pelas águas estarei contigo', ID=28448c2b7fac70ba854b3511a8abeb79
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 347620 characters
+INFO:root:HTML parsed, length: 337211 characters
+INFO:root:Found 3 titles: ['Aonde você deposita a sua fé?', 'Um coração grato transforma tudo!', 'Quando passar pelas águas estarei contigo']
+INFO:root:Found 3 URLs: ['/razoes_para_confiar_em_deus/', '/a_gratidao_de_paulo/', '/versiculos_para_fortalecer_a_fe/']
+INFO:root:Found 3 descriptions: ['Confie no Senhor de todo o seu coração e não se ap', 'Deem graças em todas as circunstâncias, pois esta ', 'Quando você atravessar as águas,\neu estarei com vo']
+INFO:root:Found 3 dates: ['DEZEMBRO\n\n28\nDOMINGO', 'DEZEMBRO\n\n27\nSÁBADO', 'DEZEMBRO\n\n26\nSEXTA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Aonde você deposita a sua fé?', ID=509e59cacd43e37263c8661f3faf1799
+INFO:root:Processing entry 2: Title='Um coração grato transforma tudo!', ID=48f98b15d1ed15d73c0326e51301078f
+INFO:root:Processing entry 3: Title='Quando passar pelas águas estarei contigo', ID=28448c2b7fac70ba854b3511a8abeb79
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Aonde você deposita a sua fé?
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 Description: Confie no Senhor de todo o seu coração e não se apoie em seu próprio entendimento;
+- Provérbios 3:5
+
+Aonde você deposita a sua fé? Em um mundo instável, é comum colocarmos nossa confiança em pessoas, bens, planos ou na própria força. No entanto, tudo aquilo que é humano é limitado e passageiro. Somente Deus permanece fiel em todo tempo.
+Depositar a fé no Senhor significa reconhecer que Ele está no controle de todas as coisas. É escolher confiar quando as portas parecem fechadas, quando o medo tenta dominar e quando as respostas não chegam no tempo que esperamos. A fé verdadeira não ignora a dor, mas decide descansar em Deus apesar dela.
+Muitas vezes, somos tentados a basear nossa fé nas bênçãos recebidas, e não no Deus que abençoa. Quando tudo vai bem, confiamos; quando surgem as dificuldades, vacilamos. Porém, a fé cristã é chamada a ser firme tanto nos dias de sol quanto nos dias de tempestade. Jesus nos ensinou que aquele que constrói sua casa sobre a rocha permanece inabalável, mesmo diante dos ventos fortes.
+Depositar a fé em Deus também implica obediência. Confiar é ouvir Sua Palavra e praticá-la, mesmo quando isso exige renúncia. É crer que Seus caminhos são mais altos que os nossos e que Seus planos são perfeitos, ainda que invisíveis no momento.
+Examine seu coração. Onde está a sua confiança? Que hoje você escolha colocar sua fé totalmente no Senhor, pois Ele nunca falha, nunca abandona e sempre cumpre Suas promessas. Quando Deus é o fundamento, a fé encontra descanso, esperança e vida eterna.
+Deposite a sua fé em Deus
+
+Entregue as suas preocupações a Deus, confiando mais em Sua fidelidade do que em sentimentos.
+Leia a Bíblia com constância, permitindo que a Palavra molde decisões, fortaleça a fé, corrija caminhos e renove esperança diariamente.
+Pratique a confiança obedecendo a Deus nas pequenas escolhas, mesmo sem entender tudo, crendo que Ele guia fielmente sempre bem.
+
+Para orar:
+
+Senhor Deus, entrego a Ti minha vida, meus medos e minhas decisões. Ensina-me a confiar mesmo quando não entendo, a descansar quando tudo parece difícil e a obedecer com um coração sincero. Renova minha fé diariamente, fortalece meu espírito e guia meus passos segundo a Tua vontade. Que eu dependa somente de Ti. Amém.
+
+Veja também: 7 razões para confiar em Deus em meio às lutas
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Um coração grato transforma tudo!
 INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
 INFO:root:🔹 Description: Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.
@@ -328,13 +318,13 @@ INFO:root:
 🔍 Summary:
 INFO:root: feeds/devocional_de_hoje/atom.xml         |  24 ++-
  feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  30 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  36 ++---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 ++-
+ feeds/palavra_do_dia/atom.xml             |  18 +--
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  50 ++++--
+ feeds/salmo_do_dia/atom.xml               |  54 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |  11 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |  13 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 248 ++++++++++++++++++------------
- 11 files changed, 279 insertions(+), 158 deletions(-)
+ output.log                                | 258 ++++++++++++++----------------
+ 11 files changed, 214 insertions(+), 245 deletions(-)
