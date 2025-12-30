@@ -1,38 +1,34 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 119777 characters
-INFO:root:HTML parsed, length: 112730 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (29/12/2025)', 'Palavra de Ontem (28/12/2025)', 'Palavra de Anteontem (27/12/2025)']
-INFO:root:Found 3 URLs: ['/porta-copos/', '/magia/', '/cheiroso/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Estrutura própria para pousa', 'Sílabas:por-ta-co-pos', 'substantivo feminino Arte tida como capaz de produ']
-INFO:root:Found 3 dates: ['Palavra de Hoje (29/12/2025)', 'Palavra de Ontem (28/12/2025)', 'Palavra de Anteontem (27/12/2025)']
+INFO:root:Response length: 118669 characters
+INFO:root:HTML parsed, length: 112127 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (30/12/2025)', 'Palavra de Ontem (29/12/2025)', 'Palavra de Anteontem (28/12/2025)']
+INFO:root:Found 3 URLs: ['/plenilunio/', '/porta-copos/', '/magia/']
+INFO:root:Found 10 descriptions: ['substantivo masculino Lua cheia; fase da lua que s', 'Classe gramatical:substantivo masculino', 'Sílabas:ple-ni-lú-ni-o']
+INFO:root:Found 3 dates: ['Palavra de Hoje (30/12/2025)', 'Palavra de Ontem (29/12/2025)', 'Palavra de Anteontem (28/12/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (29/12/2025)', ID=9f6fcd971426b4dc274de3d1e1979713
-INFO:root:Processing entry 2: Title='Palavra de Ontem (28/12/2025)', ID=51889ffd6042b8ee21be77e0173af0fb
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (27/12/2025)', ID=d8182e1736d5c96a814fbd65ba9c8567
+INFO:root:Processing entry 1: Title='Palavra de Hoje (30/12/2025)', ID=f278bac0a6c619ae18d3a5e2d9477726
+INFO:root:Processing entry 2: Title='Palavra de Ontem (29/12/2025)', ID=4f36eea9c501299032b929053c1f6dc9
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/12/2025)', ID=dc554d77700e85157825101327dd151f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (29/12/2025) - Significado completo de porta-copos:
+INFO:root:🔹 Title: Palavra de Hoje (30/12/2025) - Significado completo de plenilúnio:
+INFO:root:🔹 URL: https://www.dicio.com.br/plenilunio/
+INFO:root:🔹 Description: substantivo masculino Lua cheia; fase da lua que se define pela sua completa iluminação, sendo possível perceber todo o seu contorno circular.Etimologia (origem da palavra plenilúnio). Do latim plenilunium; pleni + lúnio.
+ Classe gramatical:substantivo masculino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (29/12/2025) - Significado completo de porta-copos:
 INFO:root:🔹 URL: https://www.dicio.com.br/porta-copos/
-INFO:root:🔹 Description: substantivo masculino Estrutura própria para pousar copos, geralmente para evitar que móveis ou superfícies sejam danificados pelo líquido que pode transbordar.Etimologia (origem da palavra porta-copos). Porta, forma regressiva de portar, + copos.
- Sílabas:por-ta-co-pos
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:ple-ni-lú-ni-o
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (28/12/2025) - Significado completo de magia:
+INFO:root:🔹 Title: Palavra de Anteontem (28/12/2025) - Significado completo de magia:
 INFO:root:🔹 URL: https://www.dicio.com.br/magia/
-INFO:root:🔹 Description: Sílabas:por-ta-co-pos
- 
-Sinônimos:
-
-encanto, feitiço, bruxaria, feitiçaria, mágica 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (27/12/2025) - Significado completo de cheiroso:
-INFO:root:🔹 URL: https://www.dicio.com.br/cheiroso/
-INFO:root:🔹 Description: substantivo feminino Arte tida como capaz de produzir, por meio de certas práticas ocultas, efeitos ou fenômenos extraordinários que contrariam as leis naturais, geralmente através de rituais, fórmulas; feitiçaria, bruxaria.[Figurado] Efeito surpreendente: a magia das palavras.[Figurado] Explicação do que não tem sentido aparente: conseguiu esse trabalho por magia![Figurado] O que atrai o interesse; fascínio: tinha pelo cinema uma relação de magia.expressão Magia negra. Aquela que tem por objeto a evocação dos demônios.Etimologia (origem da palavra magia). A palavra magia deriva do grego "mageía.as", que significa doutrina dos magos; pelo latim “magia.ae”, com sentido de ato de invocar poderes mágicos.
- Classe gramatical:substantivo feminino
+INFO:root:🔹 Description: Sílabas:ple-ni-lú-ni-o
+ Sílabas:por-ta-co-pos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,44 +36,150 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 331998 characters
-INFO:root:HTML parsed, length: 321578 characters
-INFO:root:Found 1 titles: ['Jonas 2:2']
-INFO:root:Found 1 URLs: ['/versiculo/jonas_2_2/']
-INFO:root:Found 1 descriptions: ['E disse:\n"Em meu desespero clamei ao Senhor,\ne ele']
+INFO:root:Response length: 331822 characters
+INFO:root:HTML parsed, length: 321402 characters
+INFO:root:Found 1 titles: ['Joel 3:10']
+INFO:root:Found 1 URLs: ['/versiculo/joel_3_10/']
+INFO:root:Found 1 descriptions: ['Forjem os seus arados,\nfazendo deles espadas;\ne de']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jonas 2:2', ID=4d383b9f91e457a8d8d178db422248db
+INFO:root:Processing entry 1: Title='Joel 3:10', ID=b6153fb8637adc48e8c53a4a82a4f0e2
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jonas 2:2
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jonas_2_2/
-INFO:root:🔹 Description: E disse:
-"Em meu desespero clamei ao Senhor,
-e ele me respondeu.
-Do ventre da morte gritei por socorro,
-e ouviste o meu clamor. Jonas 2:2
+INFO:root:🔹 Title: Joel 3:10
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joel_3_10/
+INFO:root:🔹 Description: Forjem os seus arados,
+fazendo deles espadas;
+e de suas foices façam lanças.
+Diga o fraco: "Sou um guerreiro!" Joel 3:10
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 330673 characters
-INFO:root:HTML parsed, length: 321030 characters
-INFO:root:Found 3 titles: ['Salmo 8', 'Salmo 1', 'Salmo 21']
-INFO:root:Found 3 URLs: ['/salmos_8/', '/salmos_1/', '/salmos_21/']
-INFO:root:Found 3 descriptions: ['Senhor, Senhor nosso,\ncomo é majestoso o teu nome ', 'Como é feliz aquele\nque não segue o conselho dos í', 'O rei se alegra na tua força, ó Senhor!\nComo é gra']
-INFO:root:Found 3 dates: ['29 de Dezembro de 2025', '28 de Dezembro de 2025', '27 de Dezembro de 2025']
+INFO:root:Response length: 333290 characters
+INFO:root:HTML parsed, length: 323689 characters
+INFO:root:Found 3 titles: ['Salmo 37', 'Salmo 8', 'Salmo 1']
+INFO:root:Found 3 URLs: ['/salmos_37/', '/salmos_8/', '/salmos_1/']
+INFO:root:Found 3 descriptions: ['Não se aborreça por causa dos homens maus\ne não te', 'Senhor, Senhor nosso,\ncomo é majestoso o teu nome ', 'Como é feliz aquele\nque não segue o conselho dos í']
+INFO:root:Found 3 dates: ['30 de Dezembro de 2025', '29 de Dezembro de 2025', '28 de Dezembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
-INFO:root:Processing entry 2: Title=' Salmo 1', ID=2adcbf58d17c939dd9f440b96da37120
-INFO:root:Processing entry 3: Title=' Salmo 21', ID=f5499d96daf550cf503937d224980eef
+INFO:root:Processing entry 1: Title=' Salmo 37', ID=89d0f6523954eb5d7c6f293845fa038a
+INFO:root:Processing entry 2: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
+INFO:root:Processing entry 3: Title=' Salmo 1', ID=2adcbf58d17c939dd9f440b96da37120
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 37
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_37/
+INFO:root:🔹 Description: Não se aborreça por causa dos homens maus
+e não tenha inveja dos perversos; 
+pois como o capim logo secarão,
+como a relva verde logo murcharão. 
+Confie no Senhor e faça o bem;
+assim você habitará na terra
+e desfrutará segurança. 
+Deleite-se no Senhor,
+e ele atenderá aos desejos do seu coração. 
+Entregue o seu caminho ao Senhor;
+confie nele, e ele agirá: 
+ele deixará claro como a alvorada
+que você é justo,
+e como o sol do meio-dia que você é inocente. 
+Descanse no Senhor
+e aguarde por ele com paciência;
+não se aborreça com o sucesso dos outros
+nem com aqueles que maquinam o mal. 
+Evite a ira e rejeite a fúria;
+não se irrite: isso só leva ao mal. 
+Pois os maus serão eliminados,
+mas os que esperam no Senhor
+receberão a terra por herança. 
+Um pouco de tempo,
+e os ímpios não mais existirão;
+por mais que você os procure, não serão encontrados. 
+Mas os humildes receberão a terra por herança
+e desfrutarão pleno bem-estar. 
+Os ímpios tramam contra os justos
+e rosnam contra eles; 
+o Senhor, porém, ri dos ímpios,
+pois sabe que o dia deles está chegando. 
+Os ímpios desembainham a espada
+e preparam o arco
+para abater o necessitado e o pobre,
+para matar os que andam na retidão. 
+Mas as suas espadas
+irão atravessar-lhes o coração,
+e os seus arcos serão quebrados. 
+Melhor é o pouco do justo
+do que a riqueza de muitos ímpios; 
+pois o braço forte dos ímpios será quebrado,
+mas o Senhor sustém os justos. 
+O Senhor cuida da vida dos íntegros,
+e a herança deles permanecerá para sempre. 
+Em tempos de adversidade
+não ficarão decepcionados;
+em dias de fome desfrutarão fartura. 
+Mas os ímpios perecerão;
+os inimigos do Senhor
+murcharão como a beleza dos campos;
+desvanecerão como fumaça. 
+Os ímpios tomam emprestado e não devolvem,
+mas os justos dão com generosidade; 
+aqueles que o Senhor abençoa
+receberão a terra por herança,
+mas os que ele amaldiçoa serão eliminados. 
+O Senhor firma os passos de um homem,
+quando a conduta deste o agrada; 
+ainda que tropece, não cairá,
+pois o Senhor o toma pela mão. 
+Já fui jovem e agora sou velho,
+mas nunca vi o justo desamparado
+nem seus filhos mendigando o pão. 
+Ele é sempre generoso
+e empresta com boa vontade;
+seus filhos serão abençoados. 
+Desvie-se do mal e faça o bem;
+e você terá sempre onde morar. 
+Pois o Senhor ama quem pratica a justiça,
+e não abandonará os seus fiéis.
+Para sempre serão protegidos,
+mas a descendência dos ímpios será eliminada; 
+os justos herdarão a terra
+e nela habitarão para sempre. 
+A boca do justo profere sabedoria,
+e a sua língua fala conforme a justiça. 
+Ele traz no coração a lei do seu Deus;
+nunca pisará em falso. 
+O ímpio fica à espreita do justo,
+querendo matá-lo; 
+mas o Senhor não o deixará cair
+em suas mãos
+nem permitirá que o condenem quando julgado. 
+Espere no Senhor
+e siga a sua vontade.
+Ele o exaltará, dando-lhe a terra por herança;
+quando os ímpios forem eliminados,
+você o verá. 
+Vi um homem ímpio e cruel
+florescendo como frondosa árvore nativa, 
+mas logo desapareceu e não mais existia;
+embora eu o procurasse,
+não pôde ser encontrado. 
+Considere o íntegro, observe o justo;
+há futuro para o homem de paz. 
+Mas todos os rebeldes serão destruídos;
+futuro para os ímpios nunca haverá. 
+Do Senhor vem a salvação dos justos;
+ele é a sua fortaleza na hora da adversidade. 
+O Senhor os ajuda e os livra;
+ele os livra dos ímpios e os salva,
+porque nele se refugiam. 
+ Salmo 37
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 8
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_8/
 INFO:root:🔹 Description: Senhor, Senhor nosso,
@@ -131,111 +233,86 @@ Pois o Senhor aprova o caminho dos justos,
 mas o caminho dos ímpios leva à destruição! 
  Salmo 1
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 21
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_21/
-INFO:root:🔹 Description: O rei se alegra na tua força, ó Senhor!
-Como é grande a sua exultação
-pelas vitórias que lhe dás! 
-Tu lhe concedeste o desejo do seu coração
-e não lhe rejeitaste o pedido
-dos seus lábios. 
-Tu o recebeste dando-lhe ricas bênçãos,
-e em sua cabeça
-puseste uma coroa de ouro puro. 
-Ele te pediu vida, e tu lhe deste!
-Vida longa e duradoura. 
-Pelas vitórias que lhe deste,
-grande é a sua glória;
-de esplendor e majestade o cobriste. 
-Fizeste dele uma grande bênção para sempre
-e lhe deste a alegria da tua presença. 
-O rei confia no Senhor:
-por causa da fidelidade do Altíssimo
-ele não será abalado. 
-Tua mão alcançará todos os teus inimigos;
-tua mão direita atingirá todos os que te odeiam. 
-No dia em que te manifestares
-farás deles uma fornalha ardente.
-Na sua ira o Senhor os devorará,
-um fogo os consumirá. 
-Acabarás com a geração deles na terra,
-com a sua descendência entre os homens. 
-Embora tramem o mal contra ti
-e façam planos perversos,
-nada conseguirão; 
-pois tu os porás em fuga
-quando apontares para eles o teu arco. 
-Sê exaltado, Senhor, na tua força!
-Cantaremos e louvaremos o teu poder. 
- Salmo 21
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 330697 characters
-INFO:root:HTML parsed, length: 320741 characters
-INFO:root:Found 3 titles: ['Confie no Senhor, Ele ouve suas orações', 'Para Deus, somos muito mais do que nossos erros ou medos', 'Alegrem-se: vocês têm a ajuda do Senhor']
+INFO:root:Response length: 334809 characters
+INFO:root:HTML parsed, length: 324849 characters
+INFO:root:Found 3 titles: ['Chamado, amado e cuidado', 'Confie no Senhor, Ele ouve suas orações', 'Para Deus, somos muito mais do que nossos erros ou medos']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Bendito seja o Senhor,\npois mostrou o seu maravilh', '"No dia em que eu agir", diz o Se\xadnhor dos Exércit', 'O Senhor é a minha força e o meu escudo;\nnele o me']
-INFO:root:Found 1 dates: ['Segunda, 29 de dezembro de 2025']
+INFO:root:Found 3 descriptions: ['(...) aos que foram chamados, amados por Deus Pai ', 'Bendito seja o Senhor,\npois mostrou o seu maravilh', '"No dia em que eu agir", diz o Se\xadnhor dos Exércit']
+INFO:root:Found 1 dates: ['Terça, 30 de dezembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Confie no Senhor, Ele ouve suas orações', ID=1deeace448021eb4aba0aa4110afb274
+INFO:root:Processing entry 1: Title='Chamado, amado e cuidado', ID=58a64a420efbe95d2766f86a230ff162
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Confie no Senhor, Ele ouve suas orações - Palavra de Hoje
+INFO:root:🔹 Title: Chamado, amado e cuidado - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Bendito seja o Senhor,
-pois mostrou o seu maravilhoso amor
-para comigo
-quando eu estava numa cidade cercada.
-Alarmado, eu disse:
-Fui excluído da tua presença!
-Contudo, ouviste as minhas súplicas
-quando clamei a ti por socorro.
-- Salmo 31:21-22
+INFO:root:🔹 Description: (...) aos que foram chamados, amados por Deus Pai e guardados por Jesus Cristo: Misericórdia, paz e amor sejam multiplicados a vocês.
+- Judas 1:1-2
 
-Temos três opções quando a vida nos apresenta grandes desafios e dificuldades. Por um lado, podemos ignorá-los e seguir em frente como se nada estivesse errado. Em segundo lugar, podemos ficar com raiva e nos sentirmos vítimas. A terceira opção é confiar em Deus e sermos preenchidos com a Sua força para enfrentar o problema com otimismo, sabendo que Ele está no controle e que veremos algo bom no final.
-Você certamente consegue pensar agora mesmo em um desafio que está enfrentando. Pode ser um problema com um familiar ou conhecido, dificuldades financeiras, exaustão física ou um anseio do coração que parece demorar a ser satisfeito. As lutas vêm de muitas formas. Mas quando escolhemos confiar em Deus em meio a elas, algo muda dentro de nós. Nosso olhar se eleva, nossa esperança se acende e nosso coração se fortalece. A fé nos lembra que temos um Pai amoroso que cuida de nós e age mesmo quando não O vemos.
-Deus ouve nossas orações e começa a agir assim que clamamos a Ele. Escolha apresentar a Deus, com confiança, todos os fardos que pesam em seu coração hoje e prepare-se para ver como Ele age em sua situação.
-Não deixe que o inimigo plante sementes de dúvida ou medo em sua mente. Lembre-se de tudo o que Deus já fez por você. Deixe que essas lembranças reacendam sua fé e renovem sua confiança em Seu amor e poder.
+Algo maravilhoso que precisamos entender é que o próprio Deus nos escolheu, nos chamou e nos amou. Nosso Deus derrama Seu amor, Sua paz e Sua presença sobre nós todos os dias. Podemos ver apenas nossas falhas e constantes fraquezas, mas para Deus, somos preciosos. Seu Espírito Santo nos chamou, Deus Pai derramou Seu amor sobre nós e Jesus Cristo nos guarda para que o propósito divino se cumpra em nossas vidas.
+Lembrar disso deve nos encher de profunda alegria. Nossa identidade não é definida por nossos erros passados ou nossas limitações presentes, mas pelo chamado eterno de Deus. Ele nos ama e cuida de nós. Podemos descansar mesmo em meio às provações, sabendo que Deus está agindo e que tudo faz sentido em Suas mãos.
+O amor de Deus nos transforma, nos eleva e nos capacita a viver de forma diferente. Deus nos convida a caminhar com Ele, a nos render a Ele e a permitir que Sua vontade seja feita em nós. Ao reconhecermos que Ele nos chamou, vemos nossa história de uma perspectiva eterna, entendendo que fomos criados com um propósito e para uma missão muito maior do que nós mesmos.
 
-Amem o Senhor, todos vocês, os seus santos!
-O Senhor preserva os fiéis,
-- Salmo 31:23a
+que nos salvou e nos chamou com uma santa vocação, não em virtude das nossas obras, mas por causa da sua própria determinação e graça. Essa graça nos foi dada em Cristo Jesus desde os tempos eternos,
+- 2 Timóteo 1:9
 
-Quando você escolhe confiar em Deus, mesmo em meio às lágrimas ou à incerteza, você está declarando que Ele é maior do que qualquer problema. Hoje, descanse nessa verdade. Seu clamor não cai em ouvidos surdos. O Senhor vê você, ouve você e sustenta você. Apegue-se à sua esperança, pois Deus é fiel e cumprirá o que prometeu.
-Veja também: 7 razões para confiar em Deus em meio às lutas
+Não somos chamados pelo que fazemos, mas pelo que Deus decidiu fazer em nós antes do princípio dos tempos. Sua graça nos cobre e nos sustenta. Em Cristo, nossas vidas têm um propósito eterno, e, ao nos rendermos à Sua vontade, Ele opera em nós e através de nós, para que Sua luz brilhe neste mundo.
+Vivamos este dia e todos os dias como aqueles que foram chamados, amados e protegidos em Cristo. Confiemos que Aquele que começou a boa obra em nós será fiel para completá-la.
+Veja também: Versículos que mostram que Deus nos chamou
  
-Bendito seja o Senhor,
-pois mostrou o seu maravilhoso amor
-para comigo
-quando eu estava numa cidade cercada.
-Alarmado, eu disse:
-Fui excluído da tua presença!
-Contudo, ouviste as minhas súplicas
-quando clamei a ti por socorro.
-- Salmo 31:21-22
+(...) aos que foram chamados, amados por Deus Pai e guardados por Jesus Cristo: Misericórdia, paz e amor sejam multiplicados a vocês.
+- Judas 1:1-2
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 347744 characters
-INFO:root:HTML parsed, length: 337329 characters
-INFO:root:Found 3 titles: ['Bloqueando o que nos faz mal', 'Aonde você deposita a sua fé?', 'Um coração grato transforma tudo!']
-INFO:root:Found 3 URLs: ['/situacoes_para_fugir_da_tentacao/', '/razoes_para_confiar_em_deus/', '/a_gratidao_de_paulo/']
-INFO:root:Found 3 descriptions: ['Acima de tudo, guarde o seu coração, pois dele dep', 'Confie no Senhor de todo o seu coração e não se ap', 'Deem graças em todas as circunstâncias, pois esta ']
-INFO:root:Found 3 dates: ['DEZEMBRO\n\n29\nSEGUNDA', 'DEZEMBRO\n\n28\nDOMINGO', 'DEZEMBRO\n\n27\nSÁBADO']
+INFO:root:Response length: 347967 characters
+INFO:root:HTML parsed, length: 337553 characters
+INFO:root:Found 3 titles: ['Cuidar da saúde é cuidar da alma', 'Bloqueando o que nos faz mal', 'Aonde você deposita a sua fé?']
+INFO:root:Found 3 URLs: ['/corpo_humano/', '/situacoes_para_fugir_da_tentacao/', '/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['Cuidar da saúde é cuidar da alma, pois Deus nos cr', 'Acima de tudo, guarde o seu coração, pois dele dep', 'Confie no Senhor de todo o seu coração e não se ap']
+INFO:root:Found 3 dates: ['DEZEMBRO\n\n30\nTERÇA', 'DEZEMBRO\n\n29\nSEGUNDA', 'DEZEMBRO\n\n28\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Bloqueando o que nos faz mal', ID=ba64bb07dd3986387ef435200b651be0
-INFO:root:Processing entry 2: Title='Aonde você deposita a sua fé?', ID=509e59cacd43e37263c8661f3faf1799
-INFO:root:Processing entry 3: Title='Um coração grato transforma tudo!', ID=48f98b15d1ed15d73c0326e51301078f
+INFO:root:Processing entry 1: Title='Cuidar da saúde é cuidar da alma', ID=2b5c44becfb3ab58dd88ac60bdf962b3
+INFO:root:Processing entry 2: Title='Bloqueando o que nos faz mal', ID=ba64bb07dd3986387ef435200b651be0
+INFO:root:Processing entry 3: Title='Aonde você deposita a sua fé?', ID=509e59cacd43e37263c8661f3faf1799
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Cuidar da saúde é cuidar da alma
+INFO:root:🔹 URL: https://www.bibliaon.com/corpo_humano/
+INFO:root:🔹 Description: Cuidar da saúde é cuidar da alma, pois Deus nos criou como seres integrais, corpo, mente e espírito, unidos em perfeita harmonia. Quando negligenciamos o corpo, também enfraquecemos nossa disposição espiritual, nossa clareza mental e até nossa sensibilidade à voz de Deus.
+
+Acaso não sabem que o corpo de vocês é santuário do Espírito Santo que habita em vocês, que lhes foi dado por Deus, e que vocês não são de vocês mesmos?
+- 1 Coríntios 6:19
+
+O Senhor, em Sua infinita sabedoria, nos confiou a vida como um dom precioso, esperando que sejamos bons mordomos de tudo aquilo que recebemos, inclusive da nossa saúde.
+O cuidado com o corpo não é vaidade, mas gratidão. Alimentar-se bem, descansar adequadamente, buscar equilíbrio emocional e cuidar da saúde física são formas práticas de honrar a Deus. Jesus, durante Seu ministério, demonstrou profunda compaixão pelo sofrimento humano, curando enfermos e restaurando vidas, mostrando que a saúde também faz parte do Reino de Deus.
+A alma cansada muitas vezes reflete um corpo exausto. Da mesma forma, um corpo fortalecido contribui para uma fé mais firme e um coração mais disposto a servir. Quando escolhemos hábitos saudáveis, abrimos espaço para viver com mais alegria, paciência e amor, frutos do Espírito Santo. A disciplina no cuidado diário também nos ensina perseverança, autocontrole e dependência de Deus.
+Cuidar da saúde é, portanto, um ato espiritual. É reconhecer que nossa vida pertence ao Senhor e que cada escolha pode glorificá-Lo. Em oração, podemos pedir sabedoria para respeitar nossos limites e força para mudar o que precisa ser transformado. Que cada passo em direção a uma vida saudável seja também um passo mais perto de Deus, refletindo Sua luz em tudo o que fazemos.
+Cuidando da saúde integralmente
+
+
+Alimente-se com equilíbrio, agradecendo a Deus pelos alimentos, escolhendo o que nutre o corpo e fortalece disposição diária física espiritual.
+
+Reserve tempo para descanso e sono, confiando em Deus, permitindo que o corpo se renove e a mente aquiete plenamente.
+
+Pratique exercícios regularmente como ato de gratidão, cuidando do corpo para servir melhor a Deus diariamente com alegria, fé constante.
+
+Cuide da saúde emocional com oração, silêncio e comunhão, entregando preocupações a Deus e cultivando paz interior diariamente, com confiança.
+
+Para orar:
+
+Senhor Deus, agradeço pelo dom da vida e pelo corpo que me confiaste. Ensina-me a cuidar da minha saúde com sabedoria, equilíbrio e gratidão. Renova minhas forças, acalma minha mente e fortalece minha fé. Que cada escolha glorifique Teu nome e que minha vida seja instrumento do Teu amor. Amém.
+
+Veja também: Versículos sobre cuidar do corpo
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Bloqueando o que nos faz mal
 INFO:root:🔹 URL: https://www.bibliaon.com/situacoes_para_fugir_da_tentacao/
 INFO:root:🔹 Description: Acima de tudo, guarde o seu coração, pois dele depende toda a sua vida.
@@ -280,30 +357,6 @@ Senhor Deus, entrego a Ti minha vida, meus medos e minhas decisões. Ensina-me a
 
 Veja também: 7 razões para confiar em Deus em meio às lutas
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Um coração grato transforma tudo!
-INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
-INFO:root:🔹 Description: Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.
-- 1 Tessalonicenses 5:18
-
-Um coração grato transforma tudo! A gratidão tem o poder de mudar a forma como enxergamos a vida, as pessoas e até as dificuldades.
-Quando escolhemos agradecer, mesmo em meio aos desafios, estamos declarando nossa confiança em Deus e reconhecendo que Ele continua no controle.
-Ser grato não significa ignorar a dor ou fingir que está tudo bem. A gratidão nos ajuda a perceber que, mesmo nos dias difíceis, Deus permanece presente, cuidando de nós. Um coração grato aprende a valorizar as pequenas bênçãos: o fôlego de vida, uma palavra de encorajamento, uma porta que se abre, ou até mesmo uma lição aprendida na adversidade.
-A Bíblia nos ensina que a gratidão nos aproxima de Deus. Quando agradecemos, nosso coração se torna mais sensível à Sua voz e mais confiante em Suas promessas. A murmuração nos prende ao problema, mas a gratidão nos conduz à esperança. Ela muda o ambiente, fortalece a fé e renova a alegria interior.
-Jesus é o maior exemplo de gratidão. Mesmo antes de multiplicar os pães, Ele agradeceu ao Pai. Antes de ressuscitar Lázaro, Ele deu graças. Isso nos mostra que a gratidão vem antes do milagre. Quando agradecemos, preparamos nosso coração para ver o agir de Deus.
-Um coração grato também transforma nossos relacionamentos. Passamos a ser mais pacientes, humildes e amorosos. A gratidão nos ensina a reconhecer o valor do outro e a agir com mais compaixão.
-Quando cultivamos um coração grato, tudo ao nosso redor começa a mudar, porque Deus transforma primeiro o nosso interior. E um coração transformado é capaz de enxergar a vida com fé, esperança e amor.
-Sempre com um coração grato
-
-Agradeça a Deus diariamente pelas bênçãos, reconhecendo Sua fidelidade constante mesmo quando as circunstâncias parecem difíceis. Em tudo daí graças.
-Cultive gratidão nos desafios, confiando que Deus usa cada dificuldade para fortalecer sua fé e amadurecer seu coração.
-Expresse gratidão através das atitudes, palavras gentis e serviço ao próximo, refletindo o amor de Cristo em todas as áreas.
-
-Para orar:
-
-Senhor Deus, obrigado por tudo o que tens feito. Dá-nos um coração grato em toda circunstância. Ensina-nos a confiar quando não entendemos, a louvar mesmo nas lutas e a reconhecer Tuas bênçãos diárias. Que nossa gratidão transforme nosso olhar, fortaleça nossa fé e glorifique Teu nome. Amém.
-
-Veja também: Exemplos de gratidão na Bíblia: 8 histórias para inspirar
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -333,15 +386,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 +++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  40 +++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  39 +---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  10 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  52 +++---
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 143 +++++++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   9 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 269 +++++++++++++++---------------
- 11 files changed, 256 insertions(+), 234 deletions(-)
+ output.log                                | 367 +++++++++++++++++-------------
+ 11 files changed, 388 insertions(+), 294 deletions(-)
