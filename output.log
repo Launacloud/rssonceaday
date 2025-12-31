@@ -1,34 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 118669 characters
-INFO:root:HTML parsed, length: 112127 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (30/12/2025)', 'Palavra de Ontem (29/12/2025)', 'Palavra de Anteontem (28/12/2025)']
-INFO:root:Found 3 URLs: ['/plenilunio/', '/porta-copos/', '/magia/']
-INFO:root:Found 10 descriptions: ['substantivo masculino Lua cheia; fase da lua que s', 'Classe gramatical:substantivo masculino', 'Sílabas:ple-ni-lú-ni-o']
-INFO:root:Found 3 dates: ['Palavra de Hoje (30/12/2025)', 'Palavra de Ontem (29/12/2025)', 'Palavra de Anteontem (28/12/2025)']
+INFO:root:Response length: 118434 characters
+INFO:root:HTML parsed, length: 111892 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (31/12/2025)', 'Palavra de Ontem (30/12/2025)', 'Palavra de Anteontem (29/12/2025)']
+INFO:root:Found 3 URLs: ['/voce/', '/plenilunio/', '/porta-copos/']
+INFO:root:Found 10 descriptions: ['pronome Pessoa com quem se fala; pessoa para quem ', 'Sinônimos:\n\nvossemecê, vosmecê', 'Classe gramatical:pronome de tratamento e pronome ']
+INFO:root:Found 3 dates: ['Palavra de Hoje (31/12/2025)', 'Palavra de Ontem (30/12/2025)', 'Palavra de Anteontem (29/12/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (30/12/2025)', ID=f278bac0a6c619ae18d3a5e2d9477726
-INFO:root:Processing entry 2: Title='Palavra de Ontem (29/12/2025)', ID=4f36eea9c501299032b929053c1f6dc9
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/12/2025)', ID=dc554d77700e85157825101327dd151f
+INFO:root:Processing entry 1: Title='Palavra de Hoje (31/12/2025)', ID=d1ea0fa88c17506d80ec728c6b375276
+INFO:root:Processing entry 2: Title='Palavra de Ontem (30/12/2025)', ID=ab59993d7ff4ac6687d702d7b8567998
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/12/2025)', ID=1aac9dae4c5d0a00b82afaed4e78a321
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (30/12/2025) - Significado completo de plenilúnio:
+INFO:root:🔹 Title: Palavra de Hoje (31/12/2025) - Significado completo de você:
+INFO:root:🔹 URL: https://www.dicio.com.br/voce/
+INFO:root:🔹 Description: pronome Pessoa com quem se fala; pessoa para quem se dirige o discurso: este produto é para você ou para outra pessoa?[Gramática] Pronome de segunda pessoa do singular, usado com o verbo na terceira pessoa: você vai à festa amanhã?[Gramática] Pronome de segunda pessoa do singular, usado com o verbo na terceira pessoa: você vai à festa amanhã?[Gramática] Forma de tratamento não cerimoniosa entre duas pessoas.substantivo masculino Esse pronome: na região sudeste do Brasil o você é o pronome mais usado.Etimologia (origem da palavra você). A palavra você deriva como forma contraída de vosmecê, derivada de "vossemecê", esta da forma de tratamento "vossa mercê".
+ 
+Sinônimos:
+
+vossemecê, vosmecê 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (30/12/2025) - Significado completo de plenilúnio:
 INFO:root:🔹 URL: https://www.dicio.com.br/plenilunio/
-INFO:root:🔹 Description: substantivo masculino Lua cheia; fase da lua que se define pela sua completa iluminação, sendo possível perceber todo o seu contorno circular.Etimologia (origem da palavra plenilúnio). Do latim plenilunium; pleni + lúnio.
- Classe gramatical:substantivo masculino
+INFO:root:🔹 Description: Sinônimos:
+
+vossemecê, vosmecê
+ Classe gramatical:pronome de tratamento e pronome indefinido
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (29/12/2025) - Significado completo de porta-copos:
+INFO:root:🔹 Title: Palavra de Anteontem (29/12/2025) - Significado completo de porta-copos:
 INFO:root:🔹 URL: https://www.dicio.com.br/porta-copos/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:ple-ni-lú-ni-o
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (28/12/2025) - Significado completo de magia:
-INFO:root:🔹 URL: https://www.dicio.com.br/magia/
-INFO:root:🔹 Description: Sílabas:ple-ni-lú-ni-o
- Sílabas:por-ta-co-pos
+INFO:root:🔹 Description: Classe gramatical:pronome de tratamento e pronome indefinido
+ Sílabas:vo-cê
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -36,43 +42,63 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 331822 characters
-INFO:root:HTML parsed, length: 321402 characters
-INFO:root:Found 1 titles: ['Joel 3:10']
-INFO:root:Found 1 URLs: ['/versiculo/joel_3_10/']
-INFO:root:Found 1 descriptions: ['Forjem os seus arados,\nfazendo deles espadas;\ne de']
+INFO:root:Response length: 332020 characters
+INFO:root:HTML parsed, length: 321600 characters
+INFO:root:Found 1 titles: ['Tiago 5:14-15']
+INFO:root:Found 1 URLs: ['/versiculo/tiago_5_14-15/']
+INFO:root:Found 1 descriptions: ['Entre vocês há alguém que está doente? Que ele man']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Joel 3:10', ID=b6153fb8637adc48e8c53a4a82a4f0e2
+INFO:root:Processing entry 1: Title='Tiago 5:14-15', ID=c1f454c00b71ba68aaccfb51e5ee32fc
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Joel 3:10
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joel_3_10/
-INFO:root:🔹 Description: Forjem os seus arados,
-fazendo deles espadas;
-e de suas foices façam lanças.
-Diga o fraco: "Sou um guerreiro!" Joel 3:10
+INFO:root:🔹 Title: Tiago 5:14-15
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_5_14-15/
+INFO:root:🔹 Description: Entre vocês há alguém que está doente? Que ele mande chamar os presbíteros da igreja, para que estes orem sobre ele e o unjam com óleo, em nome do Senhor. A oração feita com fé curará o doente; o Senhor o levantará. E, se houver cometido pecados, ele será perdoado. Tiago 5:14-15
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 333290 characters
-INFO:root:HTML parsed, length: 323689 characters
-INFO:root:Found 3 titles: ['Salmo 37', 'Salmo 8', 'Salmo 1']
-INFO:root:Found 3 URLs: ['/salmos_37/', '/salmos_8/', '/salmos_1/']
-INFO:root:Found 3 descriptions: ['Não se aborreça por causa dos homens maus\ne não te', 'Senhor, Senhor nosso,\ncomo é majestoso o teu nome ', 'Como é feliz aquele\nque não segue o conselho dos í']
-INFO:root:Found 3 dates: ['30 de Dezembro de 2025', '29 de Dezembro de 2025', '28 de Dezembro de 2025']
+INFO:root:Response length: 333286 characters
+INFO:root:HTML parsed, length: 323683 characters
+INFO:root:Found 3 titles: ['Salmo 129', 'Salmo 37', 'Salmo 8']
+INFO:root:Found 3 URLs: ['/salmos_129/', '/salmos_37/', '/salmos_8/']
+INFO:root:Found 3 descriptions: ['Muitas vezes me oprimiram\ndesde a minha juventude;', 'Não se aborreça por causa dos homens maus\ne não te', 'Senhor, Senhor nosso,\ncomo é majestoso o teu nome ']
+INFO:root:Found 3 dates: ['31 de Dezembro de 2025', '30 de Dezembro de 2025', '29 de Dezembro de 2025']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 37', ID=89d0f6523954eb5d7c6f293845fa038a
-INFO:root:Processing entry 2: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
-INFO:root:Processing entry 3: Title=' Salmo 1', ID=2adcbf58d17c939dd9f440b96da37120
+INFO:root:Processing entry 1: Title=' Salmo 129', ID=c2cca1cfcfee79eb1d01b9eff119586f
+INFO:root:Processing entry 2: Title=' Salmo 37', ID=89d0f6523954eb5d7c6f293845fa038a
+INFO:root:Processing entry 3: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 129
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_129/
+INFO:root:🔹 Description: Muitas vezes me oprimiram
+desde a minha juventude;
+que Israel o repita: 
+Muitas vezes me oprimiram
+desde a minha juventude,
+mas jamais conseguiram vencer-me. 
+Passaram o arado em minhas costas
+e fizeram longos sulcos. 
+O Senhor é justo!
+Ele libertou-me das algemas dos ímpios. 
+Retrocedam envergonhados
+todos os que odeiam Sião. 
+Sejam como o capim do terraço,
+que seca antes de crescer, 
+que não enche as mãos do ceifeiro
+nem os braços daquele que faz os fardos. 
+E que ninguém que passa diga:
+"Seja sobre vocês a bênção do Senhor;
+nós os abençoamos em nome do Senhor!" 
+ Salmo 129
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 37
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_37/
 INFO:root:🔹 Description: Não se aborreça por causa dos homens maus
@@ -210,83 +236,79 @@ Senhor, Senhor nosso,
 como é majestoso o teu nome em toda a terra! 
  Salmo 8
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 1
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_1/
-INFO:root:🔹 Description: Como é feliz aquele
-que não segue o conselho dos ímpios,
-não imita a conduta dos pecadores,
-nem se assenta na roda dos zombadores! 
-Ao contrário, sua satisfação
-está na lei do Senhor,
-e nessa lei medita dia e noite. 
-É como árvore plantada
-à beira de águas correntes:
-Dá fruto no tempo certo
-e suas folhas não murcham.
-Tudo o que ele faz prospera! 
-Não é o caso dos ímpios!
-São como palha que o vento leva. 
-Por isso os ímpios
-não resistirão no julgamento
-nem os pecadores na comunidade dos justos. 
-Pois o Senhor aprova o caminho dos justos,
-mas o caminho dos ímpios leva à destruição! 
- Salmo 1
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 334809 characters
-INFO:root:HTML parsed, length: 324849 characters
-INFO:root:Found 3 titles: ['Chamado, amado e cuidado', 'Confie no Senhor, Ele ouve suas orações', 'Para Deus, somos muito mais do que nossos erros ou medos']
+INFO:root:Response length: 334453 characters
+INFO:root:HTML parsed, length: 324497 characters
+INFO:root:Found 3 titles: ['O reconhecimento vem de Deus', 'Chamado, amado e cuidado', 'Confie no Senhor, Ele ouve suas orações']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['(...) aos que foram chamados, amados por Deus Pai ', 'Bendito seja o Senhor,\npois mostrou o seu maravilh', '"No dia em que eu agir", diz o Se\xadnhor dos Exércit']
-INFO:root:Found 1 dates: ['Terça, 30 de dezembro de 2025']
+INFO:root:Found 3 descriptions: ['Não é do oriente nem do ocidente\nnem do deserto qu', '(...) aos que foram chamados, amados por Deus Pai ', 'Bendito seja o Senhor,\npois mostrou o seu maravilh']
+INFO:root:Found 1 dates: ['Quarta, 31 de dezembro de 2025']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Chamado, amado e cuidado', ID=58a64a420efbe95d2766f86a230ff162
+INFO:root:Processing entry 1: Title='O reconhecimento vem de Deus', ID=3bbd638d478da279b18520ffff15f136
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Chamado, amado e cuidado - Palavra de Hoje
+INFO:root:🔹 Title: O reconhecimento vem de Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: (...) aos que foram chamados, amados por Deus Pai e guardados por Jesus Cristo: Misericórdia, paz e amor sejam multiplicados a vocês.
-- Judas 1:1-2
+INFO:root:🔹 Description: Não é do oriente nem do ocidente
+nem do deserto que vem a exaltação.
+É Deus quem julga:
+Humilha a um, a outro exalta.
+- Salmos 75:6-7
 
-Algo maravilhoso que precisamos entender é que o próprio Deus nos escolheu, nos chamou e nos amou. Nosso Deus derrama Seu amor, Sua paz e Sua presença sobre nós todos os dias. Podemos ver apenas nossas falhas e constantes fraquezas, mas para Deus, somos preciosos. Seu Espírito Santo nos chamou, Deus Pai derramou Seu amor sobre nós e Jesus Cristo nos guarda para que o propósito divino se cumpra em nossas vidas.
-Lembrar disso deve nos encher de profunda alegria. Nossa identidade não é definida por nossos erros passados ou nossas limitações presentes, mas pelo chamado eterno de Deus. Ele nos ama e cuida de nós. Podemos descansar mesmo em meio às provações, sabendo que Deus está agindo e que tudo faz sentido em Suas mãos.
-O amor de Deus nos transforma, nos eleva e nos capacita a viver de forma diferente. Deus nos convida a caminhar com Ele, a nos render a Ele e a permitir que Sua vontade seja feita em nós. Ao reconhecermos que Ele nos chamou, vemos nossa história de uma perspectiva eterna, entendendo que fomos criados com um propósito e para uma missão muito maior do que nós mesmos.
-
-que nos salvou e nos chamou com uma santa vocação, não em virtude das nossas obras, mas por causa da sua própria determinação e graça. Essa graça nos foi dada em Cristo Jesus desde os tempos eternos,
-- 2 Timóteo 1:9
-
-Não somos chamados pelo que fazemos, mas pelo que Deus decidiu fazer em nós antes do princípio dos tempos. Sua graça nos cobre e nos sustenta. Em Cristo, nossas vidas têm um propósito eterno, e, ao nos rendermos à Sua vontade, Ele opera em nós e através de nós, para que Sua luz brilhe neste mundo.
-Vivamos este dia e todos os dias como aqueles que foram chamados, amados e protegidos em Cristo. Confiemos que Aquele que começou a boa obra em nós será fiel para completá-la.
-Veja também: Versículos que mostram que Deus nos chamou
+Vivemos em um tempo em que muitas pessoas buscam reconhecimento a qualquer custo. Likes, elogios, aplausos e aprovação parecem definir o valor de alguém. No entanto, a Palavra de Deus nos ensina que o verdadeiro reconhecimento não vem dos homens, mas do Senhor. É Ele quem conhece o coração, vê as intenções e honra aqueles que permanecem fiéis, mesmo quando ninguém está olhando.
+Muitas vezes fazemos o bem e não recebemos agradecimento. Trabalhamos com dedicação, servimos na igreja, ajudamos pessoas e, ainda assim, somos ignorados ou até criticados. Nessas horas, o coração pode se entristecer. Porém, Deus nos convida a confiar n’Ele. Nada passa despercebido aos Seus olhos. Cada esforço, cada lágrima e cada ato de amor são vistos por Ele.
+Jesus é o maior exemplo disso. Durante Seu ministério, foi rejeitado, incompreendido e desprezado. Mesmo sendo o Filho de Deus, Ele não buscou a glória humana, mas fez a vontade do Pai. No tempo certo, Deus o exaltou acima de tudo. Isso nos ensina que a exaltação verdadeira vem quando escolhemos a obediência e a humildade.
+Quando entendemos que o reconhecimento vem de Deus, nosso coração descansa. Não precisamos competir, provar nosso valor ou viver comparando nossas conquistas com as dos outros. Sabemos quem somos em Cristo. Somos amados, escolhidos e cuidados por um Pai fiel.
+Continue fazendo o bem, mesmo em silêncio. Sirva com alegria, ame com sinceridade e confie no tempo de Deus. Ele sabe quando e como honrar Seus filhos. E quando o reconhecimento vem d’Ele, é completo, justo e cheio de paz.
+Veja também: 7 razões para servir a Deus com alegria
  
-(...) aos que foram chamados, amados por Deus Pai e guardados por Jesus Cristo: Misericórdia, paz e amor sejam multiplicados a vocês.
-- Judas 1:1-2
+Não é do oriente nem do ocidente
+nem do deserto que vem a exaltação.
+É Deus quem julga:
+Humilha a um, a outro exalta.
+- Salmos 75:6-7
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 347967 characters
-INFO:root:HTML parsed, length: 337553 characters
-INFO:root:Found 3 titles: ['Cuidar da saúde é cuidar da alma', 'Bloqueando o que nos faz mal', 'Aonde você deposita a sua fé?']
-INFO:root:Found 3 URLs: ['/corpo_humano/', '/situacoes_para_fugir_da_tentacao/', '/razoes_para_confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['Cuidar da saúde é cuidar da alma, pois Deus nos cr', 'Acima de tudo, guarde o seu coração, pois dele dep', 'Confie no Senhor de todo o seu coração e não se ap']
-INFO:root:Found 3 dates: ['DEZEMBRO\n\n30\nTERÇA', 'DEZEMBRO\n\n29\nSEGUNDA', 'DEZEMBRO\n\n28\nDOMINGO']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Cuidar da saúde é cuidar da alma', ID=2b5c44becfb3ab58dd88ac60bdf962b3
-INFO:root:Processing entry 2: Title='Bloqueando o que nos faz mal', ID=ba64bb07dd3986387ef435200b651be0
-INFO:root:Processing entry 3: Title='Aonde você deposita a sua fé?', ID=509e59cacd43e37263c8661f3faf1799
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 346787 characters
+INFO:root:HTML parsed, length: 336376 characters
+INFO:root:Found 3 titles: ['Até aqui o Deus que conduz nossa história nos ajudou', 'Cuidar da saúde é cuidar da alma', 'Bloqueando o que nos faz mal']
+INFO:root:Found 2 URLs: ['/corpo_humano/', '/situacoes_para_fugir_da_tentacao/']
+INFO:root:Found 3 descriptions: ['Até aqui o Senhor nos ajudou.\n- 1 Samuel 7:12b\n\nAo', 'Cuidar da saúde é cuidar da alma, pois Deus nos cr', 'Acima de tudo, guarde o seu coração, pois dele dep']
+INFO:root:Found 3 dates: ['DEZEMBRO\n\n31\nQUARTA', 'DEZEMBRO\n\n30\nTERÇA', 'DEZEMBRO\n\n29\nSEGUNDA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Até aqui o Deus que conduz nossa história nos ajudou', ID=c65fc90ccc0f5043458a959ba9cc3582
+INFO:root:Processing entry 2: Title='Cuidar da saúde é cuidar da alma', ID=2b5c44becfb3ab58dd88ac60bdf962b3
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Cuidar da saúde é cuidar da alma
+INFO:root:🔹 Title: Até aqui o Deus que conduz nossa história nos ajudou
 INFO:root:🔹 URL: https://www.bibliaon.com/corpo_humano/
+INFO:root:🔹 Description: Até aqui o Senhor nos ajudou.
+- 1 Samuel 7:12b
+
+Ao encerrar mais um ano, olhamos para trás e percebemos como nossa história foi marcada por alegrias, desafios, perdas e aprendizados. A mensagem das Escrituras nos lembra que Deus está conduzindo um enredo muito maior que o nosso.
+Assim como Ele guiou o seu povo no passado e cumpriu suas promessas em Jesus, Ele continua guiando nossa vida hoje. A véspera de ano-novo se torna, então, um convite para enxergarmos nosso tempo dentro do tempo de Deus. Cada etapa, cada estação, cada mudança faz parte de algo maior que Ele está escrevendo. E você faz parte disso. Aleluia!
+Ao entregar o ano que passou e colocar o próximo diante dele, encontramos sabedoria e paz.
+Para colocar em prática:
+
+Agradeça a Deus por três coisas específicas que Ele fez por você neste ano.
+Entregue a Ele algo que você não quer carregar para o próximo ano.
+Peça que Deus alinhe seus planos com o propósito dele para você.
+
+Para orar
+
+Pai, obrigado por estar comigo em cada passo deste ano. Quero encerrar este ciclo na tua presença e começar o próximo confiando em ti. Guia meus dias e dá-me sabedoria para viver segundo tua vontade. Amém.
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Cuidar da saúde é cuidar da alma
+INFO:root:🔹 URL: https://www.bibliaon.com/situacoes_para_fugir_da_tentacao/
 INFO:root:🔹 Description: Cuidar da saúde é cuidar da alma, pois Deus nos criou como seres integrais, corpo, mente e espírito, unidos em perfeita harmonia. Quando negligenciamos o corpo, também enfraquecemos nossa disposição espiritual, nossa clareza mental e até nossa sensibilidade à voz de Deus.
 
 Acaso não sabem que o corpo de vocês é santuário do Espírito Santo que habita em vocês, que lhes foi dado por Deus, e que vocês não são de vocês mesmos?
@@ -312,50 +334,6 @@ Para orar:
 Senhor Deus, agradeço pelo dom da vida e pelo corpo que me confiaste. Ensina-me a cuidar da minha saúde com sabedoria, equilíbrio e gratidão. Renova minhas forças, acalma minha mente e fortalece minha fé. Que cada escolha glorifique Teu nome e que minha vida seja instrumento do Teu amor. Amém.
 
 Veja também: Versículos sobre cuidar do corpo
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Bloqueando o que nos faz mal
-INFO:root:🔹 URL: https://www.bibliaon.com/situacoes_para_fugir_da_tentacao/
-INFO:root:🔹 Description: Acima de tudo, guarde o seu coração, pois dele depende toda a sua vida.
-- Provérbios 4:23
-
-Vivemos conectados o tempo todo. Mensagens chegam, opiniões nos alcançam, comparações nos cansam. Nem tudo o que entra em nossa mente e coração vem para somar. Por isso, a Palavra de Deus nos convida a vigiar, a cuidar do que permitimos permanecer em nós. Guardar o coração também é aprender a bloquear aquilo que nos faz mal.
-Bloquear não é fugir da realidade, mas escolher com sabedoria. É reconhecer que certas conversas nos afastam da paz, que algumas vozes nos enchem de medo, culpa ou ansiedade. É perceber que determinados hábitos, pensamentos ou relacionamentos drenam nossa fé e enfraquecem nossa caminhada com Deus. Jesus nos chama para a vida em abundância, e isso inclui aprender a dizer “não” ao que rouba essa vida.
-Quando bloqueamos o que nos faz mal, abrimos espaço para o que edifica. Abrimos espaço para a oração sincera, para o silêncio que cura, para a Palavra que orienta. O Espírito Santo nos ajuda a discernir o que deve ficar e o que precisa ser deixado para trás. Às vezes, o bloqueio mais difícil é interno: pensamentos negativos, lembranças dolorosas, mentiras que acreditamos sobre nós mesmos. Mas Deus é especialista em restaurar mentes e corações.
-Bloquear também é um ato de amor-próprio guiado pela fé. Não somos obrigados a carregar pesos que Deus nunca nos entregou. Ele nos chama a lançar sobre Ele toda a nossa ansiedade, porque Ele cuida de nós. Ao bloquear o que nos faz mal, escolhemos confiar mais em Deus do que no barulho ao nosso redor.
-Que hoje você peça ao Senhor sensibilidade para identificar o que precisa ser bloqueado e coragem para agir. Que a paz de Cristo seja o filtro da sua vida. E que, guardando o coração, você experimente uma fé mais leve, uma esperança renovada e um relacionamento mais profundo com Deus.
-Proteja o seu coração
-
-Medite diariamente nas Escrituras, permitindo que a Palavra substitua pensamentos nocivos e revele caminhos seguros para viver com fé.
-Ore com sinceridade, pedindo discernimento ao Espírito Santo para reconhecer pessoas, hábitos e conteúdos que afastam seu coração de Deus.
-Busque uma comunhão saudável, caminhando com irmãos que exortam em amor, fortalecem a fé e incentivam escolhas alinhadas à Bíblia.
-
-Para orar:
-
-Senhor Deus, entrego a Ti meu coração. Ajuda-me a bloquear tudo o que me afasta da Tua paz e da Tua verdade. Dá-me discernimento para escolher bem, força para dizer não ao que me faz mal e fé para confiar nos Teus caminhos. Que o Teu Espírito me guie, cure minhas feridas e encha minha vida de luz e esperança. Amém.
-
-Veja também: Fuja do Pecado: 9 versículos sobre fugir das armadilhas do pecado
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Aonde você deposita a sua fé?
-INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
-INFO:root:🔹 Description: Confie no Senhor de todo o seu coração e não se apoie em seu próprio entendimento;
-- Provérbios 3:5
-
-Aonde você deposita a sua fé? Em um mundo instável, é comum colocarmos nossa confiança em pessoas, bens, planos ou na própria força. No entanto, tudo aquilo que é humano é limitado e passageiro. Somente Deus permanece fiel em todo tempo.
-Depositar a fé no Senhor significa reconhecer que Ele está no controle de todas as coisas. É escolher confiar quando as portas parecem fechadas, quando o medo tenta dominar e quando as respostas não chegam no tempo que esperamos. A fé verdadeira não ignora a dor, mas decide descansar em Deus apesar dela.
-Muitas vezes, somos tentados a basear nossa fé nas bênçãos recebidas, e não no Deus que abençoa. Quando tudo vai bem, confiamos; quando surgem as dificuldades, vacilamos. Porém, a fé cristã é chamada a ser firme tanto nos dias de sol quanto nos dias de tempestade. Jesus nos ensinou que aquele que constrói sua casa sobre a rocha permanece inabalável, mesmo diante dos ventos fortes.
-Depositar a fé em Deus também implica obediência. Confiar é ouvir Sua Palavra e praticá-la, mesmo quando isso exige renúncia. É crer que Seus caminhos são mais altos que os nossos e que Seus planos são perfeitos, ainda que invisíveis no momento.
-Examine seu coração. Onde está a sua confiança? Que hoje você escolha colocar sua fé totalmente no Senhor, pois Ele nunca falha, nunca abandona e sempre cumpre Suas promessas. Quando Deus é o fundamento, a fé encontra descanso, esperança e vida eterna.
-Deposite a sua fé em Deus
-
-Entregue as suas preocupações a Deus, confiando mais em Sua fidelidade do que em sentimentos.
-Leia a Bíblia com constância, permitindo que a Palavra molde decisões, fortaleça a fé, corrija caminhos e renove esperança diariamente.
-Pratique a confiança obedecendo a Deus nas pequenas escolhas, mesmo sem entender tudo, crendo que Ele guia fielmente sempre bem.
-
-Para orar:
-
-Senhor Deus, entrego a Ti minha vida, meus medos e minhas decisões. Ensina-me a confiar mesmo quando não entendo, a descansar quando tudo parece difícil e a obedecer com um coração sincero. Renova minha fé diariamente, fortalece meu espírito e guia meus passos segundo a Tua vontade. Que eu dependa somente de Ti. Amém.
-
-Veja também: 7 razões para confiar em Deus em meio às lutas
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -386,15 +364,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 ++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  39 +---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  54 ++----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  30 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 143 +++++++++---
+ feeds/palavra_do_dia/atom.xml             |  14 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  44 ++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   9 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 367 +++++++++++++++++-------------
- 11 files changed, 388 insertions(+), 294 deletions(-)
+ output.log                                | 276 +++++++++++++-----------------
+ 11 files changed, 217 insertions(+), 274 deletions(-)
