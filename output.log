@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 118945 characters
-INFO:root:HTML parsed, length: 112219 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (01/01/2026)', 'Palavra de Ontem (31/12/2025)', 'Palavra de Anteontem (30/12/2025)']
-INFO:root:Found 3 URLs: ['/geleia/', '/voce/', '/plenilunio/']
-INFO:root:Found 12 descriptions: ['substantivo feminino [Culinária] Preparado de frut', 'Sinônimos:\n\ngelatina', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (01/01/2026)', 'Palavra de Ontem (31/12/2025)', 'Palavra de Anteontem (30/12/2025)']
+INFO:root:Response length: 120297 characters
+INFO:root:HTML parsed, length: 113387 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (02/01/2026)', 'Palavra de Ontem (01/01/2026)', 'Palavra de Anteontem (31/12/2025)']
+INFO:root:Found 3 URLs: ['/manipulacao/', '/geleia/', '/voce/']
+INFO:root:Found 13 descriptions: ['substantivo masculino Ação de manipular, de mexer ', 'Sinônimos:\n\nmanejo, falsificação, manuseio, conduç', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (02/01/2026)', 'Palavra de Ontem (01/01/2026)', 'Palavra de Anteontem (31/12/2025)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (01/01/2026)', ID=06c8486e2ed5acd04b9901adc25f6da5
-INFO:root:Processing entry 2: Title='Palavra de Ontem (31/12/2025)', ID=fae74c27a53fad8314ac3d0bdddfbe94
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/12/2025)', ID=20d6efd713a066f243172036071b0561
+INFO:root:Processing entry 1: Title='Palavra de Hoje (02/01/2026)', ID=d08690462e9db58f974196732721994c
+INFO:root:Processing entry 2: Title='Palavra de Ontem (01/01/2026)', ID=7cfb1e8d9ee86e496cfa8412cf5bedc6
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (31/12/2025)', ID=b953bdb5e4edd30446f8542725fbc498
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (01/01/2026) - Significado completo de geleia:
-INFO:root:🔹 URL: https://www.dicio.com.br/geleia/
-INFO:root:🔹 Description: substantivo feminino [Culinária] Preparado de frutas que se deixa congelar, tomando consistência mole e trêmula.Preparado culinário pastoso, feito com substâncias gelatinosas, industrializadas ou não, usado na feitura de variados pratos doces ou salgados.Etimologia (origem da palavra geleia). A palavra gelatina tem sua origem no francês "gelée", com o mesmo sentido.
+INFO:root:🔹 Title: Palavra de Hoje (02/01/2026) - Significado completo de manipulação:
+INFO:root:🔹 URL: https://www.dicio.com.br/manipulacao/
+INFO:root:🔹 Description: substantivo masculino Ação de manipular, de mexer em algo com as mãos; manusear.[Pejorativo] Qualquer manobra que oculta e altera a realidade; falsificação: manipulação de dados eleitorais.[Pejorativo] Falsificação da realidade que leva alguém a pensar de determinada forma; artimanha: manipulação de informações.[Farmácia] Prática manual de preparação de medicamentos, fórmulas farmacêuticas, produtos e substâncias químicas etc.: manipulação de medicamentos.Ação de manejar, de utilizar; manejo: manipulação de balanças.Etimologia (origem da palavra manipulação). A palavra manipulação tem sua origem pela junção de manipular, e do sufixo -ção.
  
 Sinônimos:
 
-gelatina 
+manejo, falsificação, manuseio, condução, execução, movimentação, regência, ajuste, processamento, artimanha, persuasão, manobra, influência, orquestração 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (31/12/2025) - Significado completo de você:
-INFO:root:🔹 URL: https://www.dicio.com.br/voce/
+INFO:root:🔹 Title: Palavra de Ontem (01/01/2026) - Significado completo de geleia:
+INFO:root:🔹 URL: https://www.dicio.com.br/geleia/
 INFO:root:🔹 Description: Sinônimos:
 
-gelatina
+manejo, falsificação, manuseio, condução, execução, movimentação, regência, ajuste, processamento, artimanha, persuasão, manobra, influência, orquestração
  Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (30/12/2025) - Significado completo de plenilúnio:
-INFO:root:🔹 URL: https://www.dicio.com.br/plenilunio/
+INFO:root:🔹 Title: Palavra de Anteontem (31/12/2025) - Significado completo de você:
+INFO:root:🔹 URL: https://www.dicio.com.br/voce/
 INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:ge-lei-a
+ Sílabas:ma-ni-pu-la-ção
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,22 +42,28 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 332103 characters
-INFO:root:HTML parsed, length: 321683 characters
-INFO:root:Found 1 titles: ['Atos dos Apóstolos 4:12']
-INFO:root:Found 1 URLs: ['/versiculo/atos_dos_apostolos_4_12/']
-INFO:root:Found 1 descriptions: ['Não há salvação em nenhum outro, pois, debaixo do ']
+INFO:root:Response length: 332205 characters
+INFO:root:HTML parsed, length: 321785 characters
+INFO:root:Found 1 titles: ['Cânticos 8:7']
+INFO:root:Found 1 URLs: ['/versiculo/cantico_dos_canticos_8_7/']
+INFO:root:Found 1 descriptions: ['Nem muitas águas conseguem\napagar o amor;\nos rios ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Atos dos Apóstolos 4:12', ID=01ac74659f1c8c226c313ce90886f591
+INFO:root:Processing entry 1: Title='Cânticos 8:7', ID=b1fc8b762f91eeb20007a8e8ae86f161
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Atos dos Apóstolos 4:12
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/atos_dos_apostolos_4_12/
-INFO:root:🔹 Description: Não há salvação em nenhum outro, pois, debaixo do céu não há nenhum outro nome dado aos homens pelo qual devamos ser salvos". Atos dos Apóstolos 4:12
+INFO:root:🔹 Title: Cânticos 8:7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/cantico_dos_canticos_8_7/
+INFO:root:🔹 Description: Nem muitas águas conseguem
+apagar o amor;
+os rios não conseguem levá-lo
+na correnteza.
+Se alguém oferecesse todas as riquezas
+da sua casa para adquirir o amor,
+seria totalmente desprezado. Cânticos 8:7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 504
@@ -65,68 +71,78 @@ INFO:root:Response length: 160 characters
 WARNING:root:Failed to fetch content from https://www.bibliaon.com/salmo_do_dia/ - Status: 504
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 334586 characters
-INFO:root:HTML parsed, length: 324631 characters
-INFO:root:Found 3 titles: ['Louvado seja Deus e lembre-se de quem Ele é para você', 'O reconhecimento vem de Deus', 'Chamado, amado e cuidado']
+INFO:root:Response length: 334170 characters
+INFO:root:HTML parsed, length: 324213 characters
+INFO:root:Found 3 titles: ['Obrigado Deus por cuidar de mim', 'Louvado seja Deus e lembre-se de quem Ele é para você', 'O reconhecimento vem de Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O Senhor é a minha força\ne a minha canção;\nele é a', 'Não é do oriente nem do ocidente\nnem do deserto qu', '(...) aos que foram chamados, amados por Deus Pai ']
-INFO:root:Found 1 dates: ['Quinta, 1 de janeiro de 2026']
+INFO:root:Found 3 descriptions: ['O Senhor é o meu pastor; nada me faltará.\n- Salmos', 'O Senhor é a minha força\ne a minha canção;\nele é a', 'Não é do oriente nem do ocidente\nnem do deserto qu']
+INFO:root:Found 1 dates: ['Sexta, 2 de janeiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Louvado seja Deus e lembre-se de quem Ele é para você', ID=68ff648f6ba574b072055406ccc741ac
+INFO:root:Processing entry 1: Title='Obrigado Deus por cuidar de mim', ID=ede26e052fcf0e1c5724eae21166c701
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Louvado seja Deus e lembre-se de quem Ele é para você - Palavra de Hoje
+INFO:root:🔹 Title: Obrigado Deus por cuidar de mim - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O Senhor é a minha força
-e a minha canção;
-ele é a minha salvação!
-Ele é o meu Deus, e eu o louvarei;
-é o Deus de meu pai, e eu o exaltarei!
-- Êxodo 15:2
+INFO:root:🔹 Description: O Senhor é o meu pastor; nada me faltará.
+- Salmos 23:1
 
-
-"Quem entre os deuses
-é semelhante a ti, Senhor?
-Quem é semelhante a ti?
-Majestoso em santidade,
-terrível em feitos gloriosos,
-autor de maravilhas?
-- Êxodo 15:11
-
-Deus tem feito tanto por nós! É pela Sua graça e amor que estamos aqui hoje. Mas, muitas vezes, com a correria do dia a dia e os problemas que nos afligem, deixamos de reconhecer as constantes demonstrações de amor que Ele nos dá e nos concentramos, em vez disso, em tudo o que está errado ou no que precisamos.
-Deus se alegra quando nos aproximamos Dele com confiança, pedindo Sua ajuda em meio às nossas dificuldades. Mas devemos lembrar que, mesmo quando há problemas, Deus continua sendo bom, Ele está conosco e é digno do nosso louvor. Aliás, deixar de lado nossas queixas e nos concentrar em adorar a Deus fortalece nossos corações, renova nossos espíritos e nos dá a coragem para enfrentar os desafios da vida.
-Reserve alguns minutos hoje para louvar a Deus de coração e agradecê-Lo por tudo o que Ele tem feito por você. Lembre-se dos momentos em que Ele o sustentou, das portas que Ele abriu, da paz que Ele lhe deu em meio à tempestade e das lições que você aprendeu em tempos difíceis.
-Louve-O, porque, em meio a tudo isso, Ele tem sido um Deus fiel, poderoso e sempre presente. Eleve seus olhos ao céu e olhe para o Senhor. Concentre-se Nele e você deixará de ver seus problemas como gigantes intransponíveis. Você se lembrará de que serve ao Deus Todo-Poderoso que o ama e cuida de você. Sua presença o acompanha todos os dias, mesmo nos momentos mais difíceis ou incertos, e com Ele você pode seguir em frente.
-Decida fazer do louvor um hábito, não apenas uma reação. Reconheça quem Deus é para você: seu refúgio, sua força, seu salvador e sua esperança. Permita que seu coração transborde de gratidão e que suas palavras glorifiquem o Seu nome. Ao fazer isso, você experimentará como a paz Dele guarda sua mente e a alegria Dele renova suas forças para seguir em frente com confiança e fé.
-Veja também: Versículos sobre Louvor
+Obrigado, Deus, por cuidar de mim em todos os detalhes da minha vida, mesmo naqueles que eu não percebo.
+Hoje eu paro, respiro e reconheço que nada do que sou ou tenho vem apenas de mim, mas das Tuas mãos bondosas e fiéis. Tu me sustentas quando estou fraco, me levantas quando caio e me guias quando não sei qual caminho seguir.
+Sou grato porque, mesmo nos dias difíceis, Tu nunca me abandonaste. Quando o medo tentou me dominar, Tua presença trouxe paz ao meu coração. Quando as lágrimas caíram, Tu estavas perto, recolhendo cada uma delas. Obrigado por cuidar de mim quando eu não tinha forças nem palavras para orar.
+Obrigado, Deus, pelo alimento, pelo abrigo, pela saúde e pelas pessoas que colocas no meu caminho. Cada detalhe da minha rotina carrega a Tua provisão. Mesmo aquilo que considero simples é prova do Teu amor constante. Ensina-me a nunca reclamar do que tenho, mas a agradecer por tudo o que recebo.
+Sou grato também pelos livramentos que não vi, pelas portas que se fecharam para me proteger e pelos “nãos” que hoje entendo como cuidado. Tu sabes exatamente o que é melhor para mim, mesmo quando meu coração não compreende.
+Que a gratidão seja minha resposta diária ao Teu amor. Que meus olhos aprendam a enxergar Tuas bênçãos todos os dias, e que minha fé cresça ao lembrar de tudo o que já fizeste por mim. Obrigado, Deus, por cuidar de mim ontem, hoje e sempre. Em Ti confio, descanso e agradeço, com um coração cheio de louvor.
+Amém.
+Veja também: 8 formas de mostrar sua gratidão a Deus
  
-O Senhor é a minha força
-e a minha canção;
-ele é a minha salvação!
-Ele é o meu Deus, e eu o louvarei;
-é o Deus de meu pai, e eu o exaltarei!
-- Êxodo 15:2
+O Senhor é o meu pastor; nada me faltará.
+- Salmos 23:1
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 345564 characters
-INFO:root:HTML parsed, length: 335155 characters
-INFO:root:Found 3 titles: ['O começo de uma nova história', 'Até aqui o Deus que conduz nossa história nos ajudou', 'Cuidar da saúde é cuidar da alma']
-INFO:root:Found 2 URLs: ['/plano_de_leitura_biblica_2026/', '/corpo_humano/']
-INFO:root:Found 3 descriptions: ['Aquele que estava assentado no trono disse: "Estou', 'Até aqui o Senhor nos ajudou.\n- 1 Samuel 7:12b\n\nAo', 'Cuidar da saúde é cuidar da alma, pois Deus nos cr']
-INFO:root:Found 3 dates: ['JANEIRO\n\n1\nQUINTA', 'DEZEMBRO\n\n31\nQUARTA', 'DEZEMBRO\n\n30\nTERÇA']
+INFO:root:Response length: 345460 characters
+INFO:root:HTML parsed, length: 335050 characters
+INFO:root:Found 3 titles: ['Liberta-ação', 'O começo de uma nova história', 'Até aqui o Deus que conduz nossa história nos ajudou']
+INFO:root:Found 2 URLs: ['/estudo_sobre_libertacao/', '/plano_de_leitura_biblica_2026/']
+INFO:root:Found 3 descriptions: ['A verdadeira libertação começa quando entendemos q', 'Aquele que estava assentado no trono disse: "Estou', 'Até aqui o Senhor nos ajudou.\n- 1 Samuel 7:12b\n\nAo']
+INFO:root:Found 3 dates: ['JANEIRO\n\n2\nSEXTA', 'JANEIRO\n\n1\nQUINTA', 'DEZEMBRO\n\n31\nQUARTA']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='O começo de uma nova história', ID=67d25a2a7d6b878cd2748fe9a675da82
-INFO:root:Processing entry 2: Title='Até aqui o Deus que conduz nossa história nos ajudou', ID=c65fc90ccc0f5043458a959ba9cc3582
+INFO:root:Processing entry 1: Title='Liberta-ação', ID=d12aa5250bec1fd41a8c5c60509cbcc1
+INFO:root:Processing entry 2: Title='O começo de uma nova história', ID=67d25a2a7d6b878cd2748fe9a675da82
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Liberta-ação
+INFO:root:🔹 URL: https://www.bibliaon.com/estudo_sobre_libertacao/
+INFO:root:🔹 Description: A verdadeira libertação começa quando entendemos que ela não é apenas um estado, mas uma ação contínua de Deus em nós.
+
+Portanto, se o Filho os libertar, vocês de fato serão livres.
+- João 8:36
+
+Em Cristo, não somos apenas libertos do pecado, do medo e da culpa; somos convidados a viver um processo diário de transformação. A libertação não termina no momento da conversão, ela se manifesta em cada escolha feita à luz da Palavra, em cada passo de obediência e fé.
+Muitos desejam ser livres, mas poucos compreendem que a liberdade cristã exige entrega. Deus nos chama para uma liberta-ação: abandonar as correntes do passado e agir segundo a nova identidade que recebemos em Jesus. Isso significa perdoar quando a dor insiste em permanecer, confiar quando as circunstâncias parecem contrárias e permanecer firmes quando o mundo tenta nos aprisionar novamente.
+Jesus não apenas quebrou cadeias espirituais; Ele nos ensinou a caminhar em novidade de vida. A libertação alcança a mente, o coração e as atitudes. Quando permitimos que o Espírito Santo nos guie, passamos a agir com amor onde antes havia ódio, com esperança onde reinava o desespero e com fé onde existia medo.
+A liberta-ação também nos impulsiona a ser instrumentos de libertação na vida de outros. Um cristão verdadeiramente livre não guarda para si a graça recebida, mas a compartilha através de palavras, atitudes e testemunho. Ao viver o evangelho de forma prática, anunciamos que ainda há esperança para os cativos e restauração para os feridos.
+Viver em Cristo é aceitar o chamado para uma liberdade viva e transformadora. Não se trata apenas de ser liberto, mas de viver como alguém que foi alcançado pela verdade.
+Que cada dia seja uma oportunidade de permitir que Deus continue Sua obra em nós, conduzindo-nos a uma liberdade que glorifica Seu nome e manifesta Seu amor ao mundo.
+A ação que leva à liberdade
+
+Ore diariamente pedindo direção do Espírito Santo para romper hábitos antigos e tomar decisões alinhadas à Palavra de Deus sempre.
+Pratique o perdão, liberando ofensas passadas, para experimentar cura interior e relacionamentos restaurados pelo amor de Cristo verdadeiro diariamente.
+Viva sua fé com ações concretas, servindo pessoas, testemunhando esperança e refletindo a liberdade transformadora de Jesus.
+
+Para orar:
+
+Senhor Deus, entrego minha vida em Tuas mãos e peço que Tua verdade me liberte por completo. Quebranta meu coração, renova minha mente e guia meus passos pelo Teu Espírito. Dá-me força para abandonar o que me prende, coragem para obedecer e amor para viver segundo Tua vontade. Que minha vida glorifique Teu nome. Amém.
+
+Veja também: Estudo bíblico sobre libertação
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O começo de uma nova história
 INFO:root:🔹 URL: https://www.bibliaon.com/plano_de_leitura_biblica_2026/
 INFO:root:🔹 Description: Aquele que estava assentado no trono disse: "Estou fazendo novas todas as coisas!"
@@ -141,28 +157,10 @@ Comece o ano pedindo que Deus renove sua mente, seus hábitos e seus relacioname
 Estabeleça um compromisso espiritual simples e possível: orar diariamente, ler um trecho da Bíblia, praticar bondade de maneira intencional.
 Decida buscar primeiro o Reino de Deus em cada área da sua vida neste novo ano.
 
-Por que não fazer o compromisso de ler a Bíblia toda durante este anos? Para te ajudar, preparamos este Plano de Leitura Bíblica para 2026.
+Por que não fazer o compromisso de ler a Bíblia toda durante este ano? Para te ajudar, preparamos este Plano de Leitura Bíblica para 2026.
 Para orar:
 
 Senhor, inicia em mim uma obra nova neste primeiro dia do ano. Que teu Espírito renove minha esperança, minha fé e minhas escolhas. Que eu caminhe contigo em cada passo deste novo ciclo. Abençoa este novo ano, guia os meus passos e traz-me para bem perto de Ti. Em nome de Jesus. Amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Até aqui o Deus que conduz nossa história nos ajudou
-INFO:root:🔹 URL: https://www.bibliaon.com/corpo_humano/
-INFO:root:🔹 Description: Até aqui o Senhor nos ajudou.
-- 1 Samuel 7:12b
-
-Ao encerrar mais um ano, olhamos para trás e percebemos como nossa história foi marcada por alegrias, desafios, perdas e aprendizados. A mensagem das Escrituras nos lembra que Deus está conduzindo um enredo muito maior que o nosso.
-Assim como Ele guiou o seu povo no passado e cumpriu suas promessas em Jesus, Ele continua guiando nossa vida hoje. A véspera de ano-novo se torna, então, um convite para enxergarmos nosso tempo dentro do tempo de Deus. Cada etapa, cada estação, cada mudança faz parte de algo maior que Ele está escrevendo. E você faz parte disso. Aleluia!
-Ao entregar o ano que passou e colocar o próximo diante dele, encontramos sabedoria e paz.
-Para colocar em prática:
-
-Agradeça a Deus por três coisas específicas que Ele fez por você neste ano.
-Entregue a Ele algo que você não quer carregar para o próximo ano.
-Peça que Deus alinhe seus planos com o propósito dele para você.
-
-Para orar
-
-Pai, obrigado por estar comigo em cada passo deste ano. Quero encerrar este ciclo na tua presença e começar o próximo confiando em ti. Guia meus dias e dá-me sabedoria para viver segundo tua vontade. Amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -191,13 +189,13 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  43 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 ++++---
+ feeds/devocional_de_hoje/feed.json        |  14 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  39 ++-----
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ feeds/palavra_do_dia/feed.json            |  24 ++--
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 375 ++++++++----------------------
- 9 files changed, 171 insertions(+), 354 deletions(-)
+ output.log                                | 186 ++++++++++++++----------------
+ 9 files changed, 162 insertions(+), 176 deletions(-)
