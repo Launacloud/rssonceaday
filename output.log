@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120320 characters
-INFO:root:HTML parsed, length: 113434 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (03/01/2026)', 'Palavra de Ontem (02/01/2026)', 'Palavra de Anteontem (01/01/2026)']
-INFO:root:Found 3 URLs: ['/inelegivel/', '/manipulacao/', '/geleia/']
-INFO:root:Found 13 descriptions: ['adjetivo Não elegível; que não pode ser eleito; ve', 'Sinônimos:\n\ninapto, inadequado, incapaz, inabilita', 'Antônimos:\n\nelegível']
-INFO:root:Found 3 dates: ['Palavra de Hoje (03/01/2026)', 'Palavra de Ontem (02/01/2026)', 'Palavra de Anteontem (01/01/2026)']
+INFO:root:Response length: 120527 characters
+INFO:root:HTML parsed, length: 113641 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (04/01/2026)', 'Palavra de Ontem (03/01/2026)', 'Palavra de Anteontem (02/01/2026)']
+INFO:root:Found 3 URLs: ['/caserna/', '/inelegivel/', '/manipulacao/']
+INFO:root:Found 13 descriptions: ['substantivo feminino [Militar] Alojamento de solda', 'Sinônimos:\n\naquartelamento, quartel', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (04/01/2026)', 'Palavra de Ontem (03/01/2026)', 'Palavra de Anteontem (02/01/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (03/01/2026)', ID=862110ddfcb801caa202011c360c68a5
-INFO:root:Processing entry 2: Title='Palavra de Ontem (02/01/2026)', ID=89dc8ad7bfd276916d87ce358d559336
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (01/01/2026)', ID=4dd9d6e1f972b6fed4124b3edebd16e8
+INFO:root:Processing entry 1: Title='Palavra de Hoje (04/01/2026)', ID=bdc43335e4342167ce48201f855629d7
+INFO:root:Processing entry 2: Title='Palavra de Ontem (03/01/2026)', ID=b0c3ef54f60cd8b6daddb2f6ed68e761
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (02/01/2026)', ID=9716206686c9bcac3e00c19ed98b1375
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (03/01/2026) - Significado completo de inelegível:
-INFO:root:🔹 URL: https://www.dicio.com.br/inelegivel/
-INFO:root:🔹 Description: adjetivo Não elegível; que não pode ser eleito; vetado, impedido.Sem as condições necessárias para se candidatar ou para participar de um processo eleitoral, especialmente para um cargo público.Que não possui os requisitos necessários para ser eleito ou que teve seus direitos cassados: candidato, após denúncia, ficou inelegível pelos próximos 8 anos.Característica de quem não se pode eleger ou ser eleito.Etimologia (origem da palavra inelegível). A palavra inelegível deriva da junção do prefixo in-, do latim "in", com sentido de negação, oposição; e da palavra "elegível", que caracteriza alguém que pode ser eleito.
+INFO:root:🔹 Title: Palavra de Hoje (04/01/2026) - Significado completo de caserna:
+INFO:root:🔹 URL: https://www.dicio.com.br/caserna/
+INFO:root:🔹 Description: substantivo feminino [Militar] Alojamento de soldados dentro do quartel, de uma estrutura militar; quartel.[Por Extensão] Parte do quartel que se destina ao abrigo de soldados.expressão Vida de caserna. Vida submetida a obrigações imperativas (usado com sentido figurado).Etimologia (origem da palavra caserna). A palavra caserna tem sua origem do provençal "cazerna"; pelo francês “caserne”, que significa abrigo para soldados, alojamento de soldados.
  
 Sinônimos:
 
-inapto, inadequado, incapaz, inabilitado, impossibilitado, desqualificado, proscrito, excluído, vetado, proibido, impedido, obstado, rejeitado, interdito, inepto 
+aquartelamento, quartel 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (02/01/2026) - Significado completo de manipulação:
-INFO:root:🔹 URL: https://www.dicio.com.br/manipulacao/
+INFO:root:🔹 Title: Palavra de Ontem (03/01/2026) - Significado completo de inelegível:
+INFO:root:🔹 URL: https://www.dicio.com.br/inelegivel/
 INFO:root:🔹 Description: Sinônimos:
 
-inapto, inadequado, incapaz, inabilitado, impossibilitado, desqualificado, proscrito, excluído, vetado, proibido, impedido, obstado, rejeitado, interdito, inepto
- 
-Antônimos:
-
-elegível 
-
+aquartelamento, quartel
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (01/01/2026) - Significado completo de geleia:
-INFO:root:🔹 URL: https://www.dicio.com.br/geleia/
-INFO:root:🔹 Description: Antônimos:
-
-elegível
- Classe gramatical:adjetivo de dois gêneros
+INFO:root:🔹 Title: Palavra de Anteontem (02/01/2026) - Significado completo de manipulação:
+INFO:root:🔹 URL: https://www.dicio.com.br/manipulacao/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:ca-ser-na
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,77 +42,110 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 331988 characters
-INFO:root:HTML parsed, length: 321568 characters
-INFO:root:Found 1 titles: ['João 14:6']
-INFO:root:Found 1 URLs: ['/versiculo/joao_14_6/']
-INFO:root:Found 1 descriptions: ['Respondeu Jesus: "Eu sou o caminho, a verdade e a ']
+INFO:root:Response length: 331948 characters
+INFO:root:HTML parsed, length: 321528 characters
+INFO:root:Found 1 titles: ['Salmos 119:105']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_119_105/']
+INFO:root:Found 1 descriptions: ['A tua palavra é lâmpada\nque ilumina os meus passos']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='João 14:6', ID=cf3d8de0d71500c5b793323b4280a189
+INFO:root:Processing entry 1: Title='Salmos 119:105', ID=8b5c24876bb65090fedeaa40685d9d53
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: João 14:6
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_14_6/
-INFO:root:🔹 Description: Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim. João 14:6
+INFO:root:🔹 Title: Salmos 119:105
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_119_105/
+INFO:root:🔹 Description: A tua palavra é lâmpada
+que ilumina os meus passos
+e luz que clareia o meu caminho. Salmos 119:105
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
-INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 504
-INFO:root:Response length: 160 characters
-WARNING:root:Failed to fetch content from https://www.bibliaon.com/salmo_do_dia/ - Status: 504
+INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 503
+INFO:root:Response length: 284 characters
+WARNING:root:Failed to fetch content from https://www.bibliaon.com/salmo_do_dia/ - Status: 503
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 334258 characters
-INFO:root:HTML parsed, length: 324296 characters
-INFO:root:Found 3 titles: ['Cla\xadme a mim e eu responderei', 'Obrigado Deus por cuidar de mim', 'Louvado seja Deus e lembre-se de quem Ele é para você']
+INFO:root:Response length: 334216 characters
+INFO:root:HTML parsed, length: 324244 characters
+INFO:root:Found 3 titles: ['Viva para agradar a Deus, não aos homens', 'Cla\xadme a mim e eu responderei', 'Obrigado Deus por cuidar de mim']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Cla\xadme a mim e eu responderei e direi a você coisa', 'O Senhor é o meu pastor; nada me faltará.\n- Salmos', 'O Senhor é a minha força\ne a minha canção;\nele é a']
-INFO:root:Found 1 dates: ['Sábado, 3 de janeiro de 2026']
+INFO:root:Found 3 descriptions: ['Acaso busco eu agora a aprovação dos homens ou a d', 'Cla\xadme a mim e eu responderei e direi a você coisa', 'O Senhor é o meu pastor; nada me faltará.\n- Salmos']
+INFO:root:Found 1 dates: ['Domingo, 4 de janeiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Cla­me a mim e eu responderei', ID=caac0d0c2d9423f76275dd32b14f89a7
+INFO:root:Processing entry 1: Title='Viva para agradar a Deus, não aos homens', ID=144d5b43d13c20be3910b1bfcf38e150
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Cla­me a mim e eu responderei - Palavra de Hoje
+INFO:root:🔹 Title: Viva para agradar a Deus, não aos homens - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Cla­me a mim e eu responderei e direi a você coisas grandiosas e insondáveis que você não conhece".
-- Jeremias 33:3 
+INFO:root:🔹 Description: Acaso busco eu agora a aprovação dos homens ou a de Deus? Ou estou tentando agradar a homens? Se eu ainda estivesse procurando agradar a homens, não seria servo de Cristo.
+- Gálatas 1:10 
 
-“Clame a mim, e eu responderei” é mais do que uma frase bonita na Bíblia; é um convite direto de Deus ao nosso coração. Ele não fala de longe, Ele se aproxima, chama pelo nome e nos lembra que não estamos sozinhos, mesmo quando tudo parece silencioso.
-Clamar é mais do que repetir palavras. É abrir o coração, é falar com sinceridade, sem máscaras, sem discursos prontos. Deus não espera orações perfeitas, mas corações verdadeiros.
-Há dias em que o clamor vem em forma de palavras; em outros, vem em lágrimas, em suspiros ou até no silêncio pesado de quem já não sabe o que dizer. E ainda assim, Ele escuta.
-Muitas vezes, esperamos respostas do jeito que imaginamos. Porém, Deus responde no tempo certo e da forma certa. Às vezes, a resposta vem como paz em meio à tempestade. Outras vezes, vem como direção, correção ou força para continuar. Há respostas que não mudam as situações, mas transformam o nosso coração e isso já é um grande milagre.
-Jeremias recebeu essa palavra em um momento difícil. Mesmo assim, Deus prometeu revelar “coisas grandes e ocultas”. Isso nos ensina que, quando clamamos, Deus não apenas responde, mas nos mostra caminhos que não conseguiríamos enxergar sozinhos.
-Clamar a Deus é um ato de confiança. É dizer: “Pai, eu não dou conta sozinho”. E essa confissão não nos enfraquece; pelo contrário, nos aproxima d’Aquele que é forte em nós. Deus se agrada quando Seus filhos O procuram, não apenas nas vitórias, mas também nas dificuldades.
-Hoje, faça desse versículo uma oração viva. Fale com Deus como quem conversa com um amigo fiel. Ele prometeu responder e Deus é fiel para cumprir tudo o que diz. 
-Veja também: Como Orar (aprenda como pedir algo a Deus).
+Um dos fardos mais pesados que podemos carregar é o esforço constante para agradar aos que nos rodeiam. O coração humano é inconstante: o que é aplaudido hoje pode ser criticado amanhã. O que parece essencial hoje pode rapidamente perder o seu valor.
+Quando vivemos buscando a aprovação dos outros, acabamos exaustos, confusos e, muitas vezes, distantes do propósito de Deus. Nessa tentativa de agradar a todos, corremos o risco de negligenciar a única coisa que realmente importa: viver para agradar a Deus e permanecer em Sua vontade.
+Deus anseia que tenhamos uma amizade verdadeira e profunda com Ele. Através dessa proximidade, aprendemos a conhecer Seu caráter, Seu coração e Sua vontade para as nossas vidas. Quando caminhamos com Deus diariamente, Sua voz se torna familiar. Podemos discernir com mais clareza quais decisões tomar em cada situação, mesmo quando são impopulares ou difíceis.
+Conhecer a Deus nos ajuda a confiar que Seus planos são sempre bons. Ele não busca nos limitar ou controlar, mas sim nos guiar pelo melhor caminho. Nosso Pai Celestial deseja o nosso bem; Ele quer nos proteger, nos guiar e nos conduzir a uma vida plena. Quando escolhemos agradá-Lo acima de tudo, temos a certeza de que nossos passos são guiados por Aquele que conhece o princípio e o fim.
+Viver de uma maneira que agrada a Deus abre as portas para a Sua orientação e bênçãos. Mas precisamos de um coração disposto a obedecer e a ouvir. Quando alinhamos nossas decisões com a Sua vontade, experimentamos paz, propósito e uma vida plena. Agradar a Deus transforma a maneira como vivemos e nos liberta da pressão de buscar a aprovação humana. 
+
+Quanto ao mais, irmãos, já os instruímos acerca de como viver a fim de agradar a Deus e, de fato, assim vocês estão procedendo. Agora pedimos e exortamos a vocês no Senhor Jesus que cresçam nisso cada vez mais.
+- 1 Tessalonicenses 4:1 
+
+Viva hoje e todos os dias agradando a Deus! 
+Veja também: Versículos sobre viver para agradar a Deus
  
-Cla­me a mim e eu responderei e direi a você coisas grandiosas e insondáveis que você não conhece".
-- Jeremias 33:3 
+Acaso busco eu agora a aprovação dos homens ou a de Deus? Ou estou tentando agradar a homens? Se eu ainda estivesse procurando agradar a homens, não seria servo de Cristo.
+- Gálatas 1:10 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 346993 characters
-INFO:root:HTML parsed, length: 336579 characters
-INFO:root:Found 3 titles: ['Vivendo a provisão divina', 'Liberta-ação', 'O começo de uma nova história']
-INFO:root:Found 3 URLs: ['/a_gratidao_de_paulo/', '/estudo_sobre_libertacao/', '/plano_de_leitura_biblica_2026/']
-INFO:root:Found 3 descriptions: ['O meu Deus suprirá todas as necessidades de vocês,', 'A verdadeira libertação começa quando entendemos q', 'Aquele que estava assentado no trono disse: "Estou']
-INFO:root:Found 3 dates: ['JANEIRO\n\n3\nSÁBADO', 'JANEIRO\n\n2\nSEXTA', 'JANEIRO\n\n1\nQUINTA']
+INFO:root:Response length: 348123 characters
+INFO:root:HTML parsed, length: 337708 characters
+INFO:root:Found 3 titles: ['Buscai-o enquanto se pode achar', 'Vivendo a provisão divina', 'Liberta-ação']
+INFO:root:Found 3 URLs: ['/jeremias_29_13_explicacao/', '/a_gratidao_de_paulo/', '/estudo_sobre_libertacao/']
+INFO:root:Found 3 descriptions: ['Busquem o Senhor\nenquanto é possível achá-lo;\nclam', 'O meu Deus suprirá todas as necessidades de vocês,', 'A verdadeira libertação começa quando entendemos q']
+INFO:root:Found 3 dates: ['JANEIRO\n\n4\nDOMINGO', 'JANEIRO\n\n3\nSÁBADO', 'JANEIRO\n\n2\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Vivendo a provisão divina', ID=f95c2bb21a9f396c5de8ca07f87a8922
-INFO:root:Processing entry 2: Title='Liberta-ação', ID=d12aa5250bec1fd41a8c5c60509cbcc1
-INFO:root:Processing entry 3: Title='O começo de uma nova história', ID=67d25a2a7d6b878cd2748fe9a675da82
+INFO:root:Processing entry 1: Title='Buscai-o enquanto se pode achar', ID=895a8370e056938ad2774e82bbb99aff
+INFO:root:Processing entry 2: Title='Vivendo a provisão divina', ID=f95c2bb21a9f396c5de8ca07f87a8922
+INFO:root:Processing entry 3: Title='Liberta-ação', ID=d12aa5250bec1fd41a8c5c60509cbcc1
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Buscai-o enquanto se pode achar
+INFO:root:🔹 URL: https://www.bibliaon.com/jeremias_29_13_explicacao/
+INFO:root:🔹 Description: Busquem o Senhor
+enquanto é possível achá-lo;
+clamem por ele enquanto está perto.
+- Isaías 55:6
+
+Este convite de Deus permanece atual através dos tempos, carregado de urgência e amor. Ele não é uma ameaça, mas um chamado gracioso. O Senhor se deixa encontrar, mas há um tempo favorável para isso: o hoje.
+Muitas vezes adiamos decisões, acreditando que sempre haverá outra oportunidade. No entanto, a Palavra nos lembra que a vida é breve e que o coração pode se tornar endurecido quando ignoramos repetidamente a voz de Deus.
+Buscar ao Senhor é mais do que um ato religioso; é uma decisão diária de voltar o coração para Ele. É reconhecer que, longe de Deus, a alma permanece vazia, mesmo cercada de conquistas. Quando O buscamos em oração sincera, na leitura da Palavra e em uma vida de obediência, descobrimos que Ele sempre esteve perto, esperando apenas um passo nosso.
+Deus se deixa achar porque Ele deseja relacionamento, não distância. Em Cristo, Ele abriu o caminho para que todo aquele que crê tenha acesso ao perdão, à restauração e à vida abundante. Não importa o passado, os erros ou as quedas: a graça de Deus é maior. O tempo aceitável é agora, pois o amanhã não nos pertence.
+Buscar o Senhor também implica abandonar caminhos que nos afastam dEle. É um convite ao arrependimento e à transformação. Quando escolhemos Deus, Ele renova nossa mente, cura nossas feridas e nos ensina a viver com propósito.
+Hoje, o Senhor está perto. Sua voz ainda chama, Seu amor ainda alcança, Sua misericórdia ainda se renova. Não adie. Abra o coração, clame por Ele e permita que Deus seja encontrado em sua vida. Quem O busca de verdade jamais sai de mãos vazias.
+Hoje é o tempo de buscar a Deus
+
+
+Reserve tempo diário para oração, lendo a Bíblia com atenção, pedindo direção a Deus antes de decisões importantes..
+
+Afaste-se de hábitos que enfraquecem a fé, buscando comunhão com pessoas com a mesma visão, participando ativamente da igreja local com amor sempre.
+
+Pratique o arrependimento diariamente, confiando na graça de Cristo, obedecendo Sua Palavra e vivendo com esperança constante em Deus fiel.
+
+Para orar:
+
+Senhor Deus, venho a Ti com o coração aberto, reconhecendo minha necessidade da Tua graça. Ensina-me a buscar-Te hoje, sem adiar, ouvindo Tua voz e obedecendo à Tua Palavra. Perdoa meus pecados, renova minha fé e guia meus passos no caminho da vida. Que o Teu Espírito me fortaleça, me transforme e me conduza a viver para a Tua glória. Em nome de Jesus, amém.
+
+Veja também: Buscar-me-eis e me achareis (Estudo Bíblico)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Vivendo a provisão divina
 INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
 INFO:root:🔹 Description: O meu Deus suprirá todas as necessidades de vocês, de acordo com as suas gloriosas riquezas em Cristo Jesus.
@@ -167,25 +194,6 @@ Senhor Deus, entrego minha vida em Tuas mãos e peço que Tua verdade me liberte
 
 Veja também: Estudo bíblico sobre libertação
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O começo de uma nova história
-INFO:root:🔹 URL: https://www.bibliaon.com/plano_de_leitura_biblica_2026/
-INFO:root:🔹 Description: Aquele que estava assentado no trono disse: "Estou fazendo novas todas as coisas!"
-- Apocalipse 21:5a
-
-O primeiro dia do ano é carregado de simbolismo. Há uma sensação de recomeço, de página limpa, de novos caminhos. A Bíblia nos ensina que Deus é especialista em renovação. Ele transforma histórias, corações, relacionamentos e futuros.
-Ao iniciar um novo ano, lembramos que a grande renovação prometida por Deus já começou em Jesus. O Reino que Ele inaugurou continua crescendo, e somos convidados a fazer parte dessa obra de renovação.
-Hoje é oportunidade de alinhar a vida ao que Deus está fazendo. Ele não apenas renova circunstâncias: Ele renova quem somos. Você crê que Ele quer? Você crê que Ele pode? Então receba! Feliz Ano-Novo!
-Comece o ano com tudo
-
-Comece o ano pedindo que Deus renove sua mente, seus hábitos e seus relacionamentos.
-Estabeleça um compromisso espiritual simples e possível: orar diariamente, ler um trecho da Bíblia, praticar bondade de maneira intencional.
-Decida buscar primeiro o Reino de Deus em cada área da sua vida neste novo ano.
-
-Por que não fazer o compromisso de ler a Bíblia toda durante este ano? Para te ajudar, preparamos este Plano de Leitura Bíblica para 2026.
-Para orar:
-
-Senhor, inicia em mim uma obra nova neste primeiro dia do ano. Que teu Espírito renove minha esperança, minha fé e minhas escolhas. Que eu caminhe contigo em cada passo deste novo ciclo. Abençoa este novo ano, guia os meus passos e traz-me para bem perto de Ti. Em nome de Jesus. Amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -213,13 +221,13 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  25 ++++-
- feeds/devocional_de_hoje/feed.json        |   6 ++
- feeds/palavra_biblica_do_dia/atom.xml     |  24 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 ++++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  27 +++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 ++--
- feeds/palavra_do_dia/feed.json            |  24 ++---
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +--
+ feeds/palavra_do_dia/feed.json            |  24 ++--
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 170 ++++++++++++++++--------------
- 9 files changed, 164 insertions(+), 125 deletions(-)
+ output.log                                | 192 +++++++++++++++---------------
+ 9 files changed, 171 insertions(+), 165 deletions(-)
