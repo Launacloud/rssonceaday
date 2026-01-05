@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120527 characters
-INFO:root:HTML parsed, length: 113641 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (04/01/2026)', 'Palavra de Ontem (03/01/2026)', 'Palavra de Anteontem (02/01/2026)']
-INFO:root:Found 3 URLs: ['/caserna/', '/inelegivel/', '/manipulacao/']
-INFO:root:Found 13 descriptions: ['substantivo feminino [Militar] Alojamento de solda', 'Sinônimos:\n\naquartelamento, quartel', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (04/01/2026)', 'Palavra de Ontem (03/01/2026)', 'Palavra de Anteontem (02/01/2026)']
+INFO:root:Response length: 120115 characters
+INFO:root:HTML parsed, length: 113229 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (05/01/2026)', 'Palavra de Ontem (04/01/2026)', 'Palavra de Anteontem (03/01/2026)']
+INFO:root:Found 3 URLs: ['/paredao/', '/caserna/', '/inelegivel/']
+INFO:root:Found 13 descriptions: ['substantivo masculino Parede grande; Muro alto e f', 'Sinônimos:\n\nmuramento, muro, muralha, ribanceira', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (05/01/2026)', 'Palavra de Ontem (04/01/2026)', 'Palavra de Anteontem (03/01/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (04/01/2026)', ID=bdc43335e4342167ce48201f855629d7
-INFO:root:Processing entry 2: Title='Palavra de Ontem (03/01/2026)', ID=b0c3ef54f60cd8b6daddb2f6ed68e761
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (02/01/2026)', ID=9716206686c9bcac3e00c19ed98b1375
+INFO:root:Processing entry 1: Title='Palavra de Hoje (05/01/2026)', ID=e7f9bccec904eb63da6e0057fe76ee83
+INFO:root:Processing entry 2: Title='Palavra de Ontem (04/01/2026)', ID=e9f58bbf6942b696bbf942a434275eb1
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (03/01/2026)', ID=fdee9af4d39d3ba58f76f3c5825b139e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (04/01/2026) - Significado completo de caserna:
-INFO:root:🔹 URL: https://www.dicio.com.br/caserna/
-INFO:root:🔹 Description: substantivo feminino [Militar] Alojamento de soldados dentro do quartel, de uma estrutura militar; quartel.[Por Extensão] Parte do quartel que se destina ao abrigo de soldados.expressão Vida de caserna. Vida submetida a obrigações imperativas (usado com sentido figurado).Etimologia (origem da palavra caserna). A palavra caserna tem sua origem do provençal "cazerna"; pelo francês “caserne”, que significa abrigo para soldados, alojamento de soldados.
+INFO:root:🔹 Title: Palavra de Hoje (05/01/2026) - Significado completo de paredão:
+INFO:root:🔹 URL: https://www.dicio.com.br/paredao/
+INFO:root:🔹 Description: substantivo masculino Parede grande; Muro alto e firme; muralha.Local para onde são levadas pessoas para serem fuziladas (mortas a tiro).[Esporte] Jogador que, numa partida de vôlei, defende muito no bloqueio.[Popular] No futebol, o goleiro que se torna intransponível.[Regionalismo: Rio Grande do Sul] Encosta abrupta de serra.[Regionalismo: Mato Grosso] Margem de rio elevada e talhada a pique; ribanceira.[Regionalismo: Pernambuco] Cordão de recifes submersos.Etimologia (origem da palavra paredão). A palavra paredão tem sua origem da junção da palavra parede, e do sufixo -ão.
  
 Sinônimos:
 
-aquartelamento, quartel 
+muramento, muro, muralha, ribanceira 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (03/01/2026) - Significado completo de inelegível:
-INFO:root:🔹 URL: https://www.dicio.com.br/inelegivel/
+INFO:root:🔹 Title: Palavra de Ontem (04/01/2026) - Significado completo de caserna:
+INFO:root:🔹 URL: https://www.dicio.com.br/caserna/
 INFO:root:🔹 Description: Sinônimos:
 
-aquartelamento, quartel
- Classe gramatical:substantivo feminino
+muramento, muro, muralha, ribanceira
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (02/01/2026) - Significado completo de manipulação:
-INFO:root:🔹 URL: https://www.dicio.com.br/manipulacao/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:ca-ser-na
+INFO:root:🔹 Title: Palavra de Anteontem (03/01/2026) - Significado completo de inelegível:
+INFO:root:🔹 URL: https://www.dicio.com.br/inelegivel/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:pa-re-dão
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,24 +42,22 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 331948 characters
-INFO:root:HTML parsed, length: 321528 characters
-INFO:root:Found 1 titles: ['Salmos 119:105']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_119_105/']
-INFO:root:Found 1 descriptions: ['A tua palavra é lâmpada\nque ilumina os meus passos']
+INFO:root:Response length: 331873 characters
+INFO:root:HTML parsed, length: 321453 characters
+INFO:root:Found 1 titles: ['2 Coríntios 9:7']
+INFO:root:Found 1 URLs: ['/versiculo/2_corintios_9_7/']
+INFO:root:Found 1 descriptions: ['Cada um dê conforme determinou em seu coração, não']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 119:105', ID=8b5c24876bb65090fedeaa40685d9d53
+INFO:root:Processing entry 1: Title='2 Coríntios 9:7', ID=52879845fbcfc71828b750b32f2dab0a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 119:105
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_119_105/
-INFO:root:🔹 Description: A tua palavra é lâmpada
-que ilumina os meus passos
-e luz que clareia o meu caminho. Salmos 119:105
+INFO:root:🔹 Title: 2 Coríntios 9:7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_corintios_9_7/
+INFO:root:🔹 Description: Cada um dê conforme determinou em seu coração, não com pesar ou por obrigação, pois Deus ama quem dá com alegria. 2 Coríntios 9:7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 503
@@ -67,57 +65,80 @@ INFO:root:Response length: 284 characters
 WARNING:root:Failed to fetch content from https://www.bibliaon.com/salmo_do_dia/ - Status: 503
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 334216 characters
-INFO:root:HTML parsed, length: 324244 characters
-INFO:root:Found 3 titles: ['Viva para agradar a Deus, não aos homens', 'Cla\xadme a mim e eu responderei', 'Obrigado Deus por cuidar de mim']
+INFO:root:Response length: 334554 characters
+INFO:root:HTML parsed, length: 324585 characters
+INFO:root:Found 3 titles: ['O pão que dá vida verdadeira', 'Viva para agradar a Deus, não aos homens', 'Cla\xadme a mim e eu responderei']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Acaso busco eu agora a aprovação dos homens ou a d', 'Cla\xadme a mim e eu responderei e direi a você coisa', 'O Senhor é o meu pastor; nada me faltará.\n- Salmos']
-INFO:root:Found 1 dates: ['Domingo, 4 de janeiro de 2026']
+INFO:root:Found 3 descriptions: ['Eu sou o pão da vida.\nOs seus antepassados comeram', 'Acaso busco eu agora a aprovação dos homens ou a d', 'Cla\xadme a mim e eu responderei e direi a você coisa']
+INFO:root:Found 1 dates: ['Segunda, 5 de janeiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Viva para agradar a Deus, não aos homens', ID=144d5b43d13c20be3910b1bfcf38e150
+INFO:root:Processing entry 1: Title='O pão que dá vida verdadeira', ID=113e060bbe568298476170c2ad124615
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Viva para agradar a Deus, não aos homens - Palavra de Hoje
+INFO:root:🔹 Title: O pão que dá vida verdadeira - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Acaso busco eu agora a aprovação dos homens ou a de Deus? Ou estou tentando agradar a homens? Se eu ainda estivesse procurando agradar a homens, não seria servo de Cristo.
-- Gálatas 1:10 
+INFO:root:🔹 Description: Eu sou o pão da vida.
+Os seus antepassados comeram o maná no deserto, mas morreram.
+Todavia, aqui está o pão que desce do céu, para que não morra quem dele comer.
+- João 6:48-50
 
-Um dos fardos mais pesados que podemos carregar é o esforço constante para agradar aos que nos rodeiam. O coração humano é inconstante: o que é aplaudido hoje pode ser criticado amanhã. O que parece essencial hoje pode rapidamente perder o seu valor.
-Quando vivemos buscando a aprovação dos outros, acabamos exaustos, confusos e, muitas vezes, distantes do propósito de Deus. Nessa tentativa de agradar a todos, corremos o risco de negligenciar a única coisa que realmente importa: viver para agradar a Deus e permanecer em Sua vontade.
-Deus anseia que tenhamos uma amizade verdadeira e profunda com Ele. Através dessa proximidade, aprendemos a conhecer Seu caráter, Seu coração e Sua vontade para as nossas vidas. Quando caminhamos com Deus diariamente, Sua voz se torna familiar. Podemos discernir com mais clareza quais decisões tomar em cada situação, mesmo quando são impopulares ou difíceis.
-Conhecer a Deus nos ajuda a confiar que Seus planos são sempre bons. Ele não busca nos limitar ou controlar, mas sim nos guiar pelo melhor caminho. Nosso Pai Celestial deseja o nosso bem; Ele quer nos proteger, nos guiar e nos conduzir a uma vida plena. Quando escolhemos agradá-Lo acima de tudo, temos a certeza de que nossos passos são guiados por Aquele que conhece o princípio e o fim.
-Viver de uma maneira que agrada a Deus abre as portas para a Sua orientação e bênçãos. Mas precisamos de um coração disposto a obedecer e a ouvir. Quando alinhamos nossas decisões com a Sua vontade, experimentamos paz, propósito e uma vida plena. Agradar a Deus transforma a maneira como vivemos e nos liberta da pressão de buscar a aprovação humana. 
-
-Quanto ao mais, irmãos, já os instruímos acerca de como viver a fim de agradar a Deus e, de fato, assim vocês estão procedendo. Agora pedimos e exortamos a vocês no Senhor Jesus que cresçam nisso cada vez mais.
-- 1 Tessalonicenses 4:1 
-
-Viva hoje e todos os dias agradando a Deus! 
-Veja também: Versículos sobre viver para agradar a Deus
+Hoje, a alimentação saudável é altamente valorizada. Somos incentivados a prestar atenção ao que comemos, não apenas para viver mais, mas para viver com qualidade.
+No entanto, existe uma verdade ainda mais profunda: os seres humanos não são apenas corpos. Eles têm alma e espírito. Portanto, para viver plenamente, não basta nutrir o físico. Precisamos também cuidar e nutrir nosso ser interior, nosso espírito, o lugar onde o significado, a esperança e a verdadeira vida se definem.
+É em Jesus, o pão que desceu do céu, que encontramos provisão superior a qualquer alimento passageiro. Assim como o maná sustentou o povo de Israel por um tempo, Cristo sustenta a humanidade por toda a eternidade. Tudo o que o mundo oferece pode nos satisfazer por um momento, mas, mais cedo ou mais tarde, o vazio retornará. Somente Jesus pode satisfazer a fome mais profunda do coração e nos dar uma vida abundante que não se desvanece com o tempo.
+Aproximar-se de Jesus significa ir a Ele com fé, permitindo que nossas vidas recebam e assimilem a Sua Palavra. Assim como precisamos comer pão para termos força e energia, precisamos receber Cristo com confiança, amor e obediência. Receber Cristo transforma a maneira como pensamos, vivemos e amamos. Em comunhão com Ele, encontramos direção, descanso e renovação diária para nossas almas.
+Hoje, o convite permanece aberto: venha a Jesus, alimente-se do pão da vida. Faça do seu relacionamento com Ele uma prioridade diária. Permita que a Sua Palavra alimente sua mente e seu coração, e você descobrirá que somente em Cristo há vida verdadeira, vida abundante e vida eterna.
+Quem vem a Jesus e crê nEle jamais terá fome ou sede novamente.
+Veja também: Jesus é o Pão da vida (Explicação)
  
-Acaso busco eu agora a aprovação dos homens ou a de Deus? Ou estou tentando agradar a homens? Se eu ainda estivesse procurando agradar a homens, não seria servo de Cristo.
-- Gálatas 1:10 
+Eu sou o pão da vida.
+Os seus antepassados comeram o maná no deserto, mas morreram.
+Todavia, aqui está o pão que desce do céu, para que não morra quem dele comer.
+- João 6:48-50
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 348123 characters
-INFO:root:HTML parsed, length: 337708 characters
-INFO:root:Found 3 titles: ['Buscai-o enquanto se pode achar', 'Vivendo a provisão divina', 'Liberta-ação']
-INFO:root:Found 3 URLs: ['/jeremias_29_13_explicacao/', '/a_gratidao_de_paulo/', '/estudo_sobre_libertacao/']
-INFO:root:Found 3 descriptions: ['Busquem o Senhor\nenquanto é possível achá-lo;\nclam', 'O meu Deus suprirá todas as necessidades de vocês,', 'A verdadeira libertação começa quando entendemos q']
-INFO:root:Found 3 dates: ['JANEIRO\n\n4\nDOMINGO', 'JANEIRO\n\n3\nSÁBADO', 'JANEIRO\n\n2\nSEXTA']
+INFO:root:Response length: 348113 characters
+INFO:root:HTML parsed, length: 337699 characters
+INFO:root:Found 3 titles: ['É tempo de renovação', 'Buscai-o enquanto se pode achar', 'Vivendo a provisão divina']
+INFO:root:Found 3 URLs: ['/estudo_sobre_o_espirito_santo/', '/jeremias_29_13_explicacao/', '/a_gratidao_de_paulo/']
+INFO:root:Found 3 descriptions: ['Não se amoldem ao padrão deste mundo, mas transfor', 'Busquem o Senhor\nenquanto é possível achá-lo;\nclam', 'O meu Deus suprirá todas as necessidades de vocês,']
+INFO:root:Found 3 dates: ['JANEIRO\n\n5\nSEGUNDA', 'JANEIRO\n\n4\nDOMINGO', 'JANEIRO\n\n3\nSÁBADO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Buscai-o enquanto se pode achar', ID=895a8370e056938ad2774e82bbb99aff
-INFO:root:Processing entry 2: Title='Vivendo a provisão divina', ID=f95c2bb21a9f396c5de8ca07f87a8922
-INFO:root:Processing entry 3: Title='Liberta-ação', ID=d12aa5250bec1fd41a8c5c60509cbcc1
+INFO:root:Processing entry 1: Title='É tempo de renovação', ID=9d8a2054390f1df2ce7a56617e1f84bb
+INFO:root:Processing entry 2: Title='Buscai-o enquanto se pode achar', ID=895a8370e056938ad2774e82bbb99aff
+INFO:root:Processing entry 3: Title='Vivendo a provisão divina', ID=f95c2bb21a9f396c5de8ca07f87a8922
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: É tempo de renovação
+INFO:root:🔹 URL: https://www.bibliaon.com/estudo_sobre_o_espirito_santo/
+INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
+- Romanos 12:2 
+
+É tempo de renovação, pois Deus permanece atuando na nossa história e transformando o coração de cada um de nós.
+A renovação começa quando reconhecemos que, sozinhos, somos limitados, mas em Cristo somos feitos novos. Muitas vezes, carregamos pesos do passado, culpas, medos e frustrações que nos impedem de avançar. Mas, o Senhor nos convida a deixar tudo isso aos pés da cruz e a permitir que Sua graça nos transforme totalmente.
+Renovar-se não é apenas mudar comportamentos, mas permitir que o Espírito Santo opere uma mudança profunda. É aprender a pensar como Cristo, amar como Ele amou e obedecer à Sua Palavra mesmo quando isso exige renúncia. A renovação acontece quando escolhemos diariamente confiar em Deus, mesmo em meio às lutas e incertezas da vida.
+A Palavra do Senhor nos ensina que Sua misericórdia se renova a cada manhã. Isso significa que sempre há uma nova oportunidade para recomeçar. Não importa quão distante alguém possa se sentir, Deus continua chamando Seus filhos para um relacionamento restaurado. Ele cura feridas, restaura sonhos e devolve a esperança que parecia perdida.
+É tempo de renovação na família, na fé e no compromisso com o Reino de Deus. Quando nos colocamos diante do Senhor com um coração humilde e ensinável, Ele nos fortalece e nos capacita a viver uma vida que glorifica o Seu nome. Que este seja um tempo de arrependimento sincero, de fé renovada e de confiança plena nas promessas do Pai.
+Que o Senhor renove nossas forças, como a águia, e nos conduza em um novo tempo de crescimento espiritual, para que possamos viver a plenitude da vida que Ele preparou para nós. 
+Tenha um vida renovada 
+
+Separe tempo para oração, leitura bíblica e busca do Espírito Santo, permitindo transformação verdadeira e contínua.
+Pratique o perdão, liberando ofensas passadas, curando relacionamentos feridos, refletindo o amor restaurador de Cristo diariamente em todas situações.
+Assuma compromissos espirituais consistentes, servindo na igreja local, testemunhando com atitudes, vivendo fé prática no cotidiano com alegria.
+
+Para orar: 
+
+Senhor Deus, entregamos nossas vidas em Tuas mãos e pedimos que renoves nosso coração e nossa fé. Purifica nossos pensamentos, fortalece nosso espírito e guia nossos passos segundo a Tua vontade. Que o Teu Espírito Santo nos conduza a viver em amor, obediência e esperança, confiando plenamente nas Tuas promessas. Amém.
+
+Veja também: Estudo bíblico sobre o Espírito Santo
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Buscai-o enquanto se pode achar
 INFO:root:🔹 URL: https://www.bibliaon.com/jeremias_29_13_explicacao/
 INFO:root:🔹 Description: Busquem o Senhor
@@ -169,31 +190,6 @@ Senhor Deus, agradecemos pela Tua provisão diária, mesmo quando não percebemo
 
 Veja também: Exemplos de gratidão na Bíblia: 8 histórias para inspirar
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Liberta-ação
-INFO:root:🔹 URL: https://www.bibliaon.com/estudo_sobre_libertacao/
-INFO:root:🔹 Description: A verdadeira libertação começa quando entendemos que ela não é apenas um estado, mas uma ação contínua de Deus em nós.
-
-Portanto, se o Filho os libertar, vocês de fato serão livres.
-- João 8:36
-
-Em Cristo, não somos apenas libertos do pecado, do medo e da culpa; somos convidados a viver um processo diário de transformação. A libertação não termina no momento da conversão, ela se manifesta em cada escolha feita à luz da Palavra, em cada passo de obediência e fé.
-Muitos desejam ser livres, mas poucos compreendem que a liberdade cristã exige entrega. Deus nos chama para uma liberta-ação: abandonar as correntes do passado e agir segundo a nova identidade que recebemos em Jesus. Isso significa perdoar quando a dor insiste em permanecer, confiar quando as circunstâncias parecem contrárias e permanecer firmes quando o mundo tenta nos aprisionar novamente.
-Jesus não apenas quebrou cadeias espirituais; Ele nos ensinou a caminhar em novidade de vida. A libertação alcança a mente, o coração e as atitudes. Quando permitimos que o Espírito Santo nos guie, passamos a agir com amor onde antes havia ódio, com esperança onde reinava o desespero e com fé onde existia medo.
-A liberta-ação também nos impulsiona a ser instrumentos de libertação na vida de outros. Um cristão verdadeiramente livre não guarda para si a graça recebida, mas a compartilha através de palavras, atitudes e testemunho. Ao viver o evangelho de forma prática, anunciamos que ainda há esperança para os cativos e restauração para os feridos.
-Viver em Cristo é aceitar o chamado para uma liberdade viva e transformadora. Não se trata apenas de ser liberto, mas de viver como alguém que foi alcançado pela verdade.
-Que cada dia seja uma oportunidade de permitir que Deus continue Sua obra em nós, conduzindo-nos a uma liberdade que glorifica Seu nome e manifesta Seu amor ao mundo.
-A ação que leva à liberdade
-
-Ore diariamente pedindo direção do Espírito Santo para romper hábitos antigos e tomar decisões alinhadas à Palavra de Deus sempre.
-Pratique o perdão, liberando ofensas passadas, para experimentar cura interior e relacionamentos restaurados pelo amor de Cristo verdadeiro diariamente.
-Viva sua fé com ações concretas, servindo pessoas, testemunhando esperança e refletindo a liberdade transformadora de Jesus.
-
-Para orar:
-
-Senhor Deus, entrego minha vida em Tuas mãos e peço que Tua verdade me liberte por completo. Quebranta meu coração, renova minha mente e guia meus passos pelo Teu Espírito. Dá-me força para abandonar o que me prende, coragem para obedecer e amor para viver segundo Tua vontade. Que minha vida glorifique Teu nome. Amém.
-
-Veja também: Estudo bíblico sobre libertação
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -221,13 +217,13 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 ++++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++++----
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  27 +++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  30 ++---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +--
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 ++--
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 192 +++++++++++++++---------------
- 9 files changed, 171 insertions(+), 165 deletions(-)
+ output.log                                | 184 ++++++++++++++----------------
+ 9 files changed, 154 insertions(+), 172 deletions(-)
