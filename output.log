@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 120115 characters
-INFO:root:HTML parsed, length: 113229 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (05/01/2026)', 'Palavra de Ontem (04/01/2026)', 'Palavra de Anteontem (03/01/2026)']
-INFO:root:Found 3 URLs: ['/paredao/', '/caserna/', '/inelegivel/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Parede grande; Muro alto e f', 'Sinônimos:\n\nmuramento, muro, muralha, ribanceira', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (05/01/2026)', 'Palavra de Ontem (04/01/2026)', 'Palavra de Anteontem (03/01/2026)']
+INFO:root:Response length: 120112 characters
+INFO:root:HTML parsed, length: 113089 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (06/01/2026)', 'Palavra de Ontem (05/01/2026)', 'Palavra de Anteontem (04/01/2026)']
+INFO:root:Found 3 URLs: ['/amago/', '/paredao/', '/caserna/']
+INFO:root:Found 14 descriptions: ['substantivo masculino O que se encontra situado no', 'Sinônimos:\n\ncerne, essência, centro, íntimo, alma,', 'Antônimos:\n\nsuperfície, exterioridade']
+INFO:root:Found 3 dates: ['Palavra de Hoje (06/01/2026)', 'Palavra de Ontem (05/01/2026)', 'Palavra de Anteontem (04/01/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (05/01/2026)', ID=e7f9bccec904eb63da6e0057fe76ee83
-INFO:root:Processing entry 2: Title='Palavra de Ontem (04/01/2026)', ID=e9f58bbf6942b696bbf942a434275eb1
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (03/01/2026)', ID=fdee9af4d39d3ba58f76f3c5825b139e
+INFO:root:Processing entry 1: Title='Palavra de Hoje (06/01/2026)', ID=fc4573803932a52c682993331b9005e6
+INFO:root:Processing entry 2: Title='Palavra de Ontem (05/01/2026)', ID=74b306b29f2eb58e2817d4f8acbdb9c1
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (04/01/2026)', ID=d10296af212132f93b78f252d35d1558
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (05/01/2026) - Significado completo de paredão:
-INFO:root:🔹 URL: https://www.dicio.com.br/paredao/
-INFO:root:🔹 Description: substantivo masculino Parede grande; Muro alto e firme; muralha.Local para onde são levadas pessoas para serem fuziladas (mortas a tiro).[Esporte] Jogador que, numa partida de vôlei, defende muito no bloqueio.[Popular] No futebol, o goleiro que se torna intransponível.[Regionalismo: Rio Grande do Sul] Encosta abrupta de serra.[Regionalismo: Mato Grosso] Margem de rio elevada e talhada a pique; ribanceira.[Regionalismo: Pernambuco] Cordão de recifes submersos.Etimologia (origem da palavra paredão). A palavra paredão tem sua origem da junção da palavra parede, e do sufixo -ão.
+INFO:root:🔹 Title: Palavra de Hoje (06/01/2026) - Significado completo de âmago:
+INFO:root:🔹 URL: https://www.dicio.com.br/amago/
+INFO:root:🔹 Description: substantivo masculino O que se encontra situado no centro de; eixo, centro.Parte mais importante ou principal de; cerne: fomos ao âmago da questão.Parte mais particular, íntima de um indivíduo; íntimo, essência, alma.[Botânica] Situado no interior do tronco das árvores.Etimologia (origem da palavra âmago). A palavra âmago tem sua origem questionável; não é possível confirmar a origem desta palavra.
  
 Sinônimos:
 
-muramento, muro, muralha, ribanceira 
+cerne, essência, centro, íntimo, alma, coração, entranhas, medula, eixo, núcleo, fundamento, base 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (04/01/2026) - Significado completo de caserna:
-INFO:root:🔹 URL: https://www.dicio.com.br/caserna/
+INFO:root:🔹 Title: Palavra de Ontem (05/01/2026) - Significado completo de paredão:
+INFO:root:🔹 URL: https://www.dicio.com.br/paredao/
 INFO:root:🔹 Description: Sinônimos:
 
-muramento, muro, muralha, ribanceira
- Classe gramatical:substantivo masculino
+cerne, essência, centro, íntimo, alma, coração, entranhas, medula, eixo, núcleo, fundamento, base
+ 
+Antônimos:
+
+superfície, exterioridade 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (03/01/2026) - Significado completo de inelegível:
-INFO:root:🔹 URL: https://www.dicio.com.br/inelegivel/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:pa-re-dão
+INFO:root:🔹 Title: Palavra de Anteontem (04/01/2026) - Significado completo de caserna:
+INFO:root:🔹 URL: https://www.dicio.com.br/caserna/
+INFO:root:🔹 Description: Antônimos:
+
+superfície, exterioridade
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,22 +48,22 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 331873 characters
-INFO:root:HTML parsed, length: 321453 characters
-INFO:root:Found 1 titles: ['2 Coríntios 9:7']
-INFO:root:Found 1 URLs: ['/versiculo/2_corintios_9_7/']
-INFO:root:Found 1 descriptions: ['Cada um dê conforme determinou em seu coração, não']
+INFO:root:Response length: 331918 characters
+INFO:root:HTML parsed, length: 321498 characters
+INFO:root:Found 1 titles: ['2 Pedro 3:9']
+INFO:root:Found 1 URLs: ['/versiculo/2_pedro_3_9/']
+INFO:root:Found 1 descriptions: ['O Senhor não demora em cumprir a sua promessa, com']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Coríntios 9:7', ID=52879845fbcfc71828b750b32f2dab0a
+INFO:root:Processing entry 1: Title='2 Pedro 3:9', ID=cfe4c909cc091b5eb7175304ab818230
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Coríntios 9:7
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_corintios_9_7/
-INFO:root:🔹 Description: Cada um dê conforme determinou em seu coração, não com pesar ou por obrigação, pois Deus ama quem dá com alegria. 2 Coríntios 9:7
+INFO:root:🔹 Title: 2 Pedro 3:9
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_pedro_3_9/
+INFO:root:🔹 Description: O Senhor não demora em cumprir a sua promessa, como julgam alguns. Ao contrário, ele é paciente com vocês, não querendo que ninguém pereça, mas que todos cheguem ao arrependimento. 2 Pedro 3:9
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 503
@@ -65,57 +71,76 @@ INFO:root:Response length: 284 characters
 WARNING:root:Failed to fetch content from https://www.bibliaon.com/salmo_do_dia/ - Status: 503
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 334554 characters
-INFO:root:HTML parsed, length: 324585 characters
-INFO:root:Found 3 titles: ['O pão que dá vida verdadeira', 'Viva para agradar a Deus, não aos homens', 'Cla\xadme a mim e eu responderei']
+INFO:root:Response length: 334647 characters
+INFO:root:HTML parsed, length: 324679 characters
+INFO:root:Found 3 titles: ['A provação na cova dos leões', 'O pão que dá vida verdadeira', 'Viva para agradar a Deus, não aos homens']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Eu sou o pão da vida.\nOs seus antepassados comeram', 'Acaso busco eu agora a aprovação dos homens ou a d', 'Cla\xadme a mim e eu responderei e direi a você coisa']
-INFO:root:Found 1 dates: ['Segunda, 5 de janeiro de 2026']
+INFO:root:Found 3 descriptions: ['O meu Deus enviou o seu anjo, que fechou a boca do', 'Eu sou o pão da vida.\nOs seus antepassados comeram', 'Acaso busco eu agora a aprovação dos homens ou a d']
+INFO:root:Found 1 dates: ['Terça, 6 de janeiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O pão que dá vida verdadeira', ID=113e060bbe568298476170c2ad124615
+INFO:root:Processing entry 1: Title='A provação na cova dos leões', ID=0d1d2cbca5aa1e20d0c688c4b86569f7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O pão que dá vida verdadeira - Palavra de Hoje
+INFO:root:🔹 Title: A provação na cova dos leões - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Eu sou o pão da vida.
-Os seus antepassados comeram o maná no deserto, mas morreram.
-Todavia, aqui está o pão que desce do céu, para que não morra quem dele comer.
-- João 6:48-50
+INFO:root:🔹 Description: O meu Deus enviou o seu anjo, que fechou a boca dos leões. Eles não me fizeram mal algum, pois fui considerado inocente à vista de Deus. Também contra ti não cometi mal algum, ó rei".
+- Daniel 6:22
 
-Hoje, a alimentação saudável é altamente valorizada. Somos incentivados a prestar atenção ao que comemos, não apenas para viver mais, mas para viver com qualidade.
-No entanto, existe uma verdade ainda mais profunda: os seres humanos não são apenas corpos. Eles têm alma e espírito. Portanto, para viver plenamente, não basta nutrir o físico. Precisamos também cuidar e nutrir nosso ser interior, nosso espírito, o lugar onde o significado, a esperança e a verdadeira vida se definem.
-É em Jesus, o pão que desceu do céu, que encontramos provisão superior a qualquer alimento passageiro. Assim como o maná sustentou o povo de Israel por um tempo, Cristo sustenta a humanidade por toda a eternidade. Tudo o que o mundo oferece pode nos satisfazer por um momento, mas, mais cedo ou mais tarde, o vazio retornará. Somente Jesus pode satisfazer a fome mais profunda do coração e nos dar uma vida abundante que não se desvanece com o tempo.
-Aproximar-se de Jesus significa ir a Ele com fé, permitindo que nossas vidas recebam e assimilem a Sua Palavra. Assim como precisamos comer pão para termos força e energia, precisamos receber Cristo com confiança, amor e obediência. Receber Cristo transforma a maneira como pensamos, vivemos e amamos. Em comunhão com Ele, encontramos direção, descanso e renovação diária para nossas almas.
-Hoje, o convite permanece aberto: venha a Jesus, alimente-se do pão da vida. Faça do seu relacionamento com Ele uma prioridade diária. Permita que a Sua Palavra alimente sua mente e seu coração, e você descobrirá que somente em Cristo há vida verdadeira, vida abundante e vida eterna.
-Quem vem a Jesus e crê nEle jamais terá fome ou sede novamente.
-Veja também: Jesus é o Pão da vida (Explicação)
+A história de Daniel na cova dos leões nos lembra que a fé verdadeira é provada nos momentos mais difíceis. Daniel não caiu naquela cova por ter feito algo errado, mas justamente por permanecer fiel a Deus. Ele escolheu orar, mesmo sabendo que isso poderia custar sua própria vida. Essa atitude nos ensina que obedecer a Deus nem sempre é o caminho mais fácil, mas sempre é o mais seguro.
+Todos nós enfrentamos “covas” ao longo da vida. Elas podem surgir na forma de medo, injustiça, doença, crises financeiras ou solidão. Em muitos momentos, parece que estamos cercados por leões prontos para nos destruir. Nessas horas, a tentação é desistir, reclamar ou perder a esperança. Porém, a experiência de Daniel nos convida a confiar que Deus continua no controle, mesmo quando tudo parece perdido.
+Deus não impediu Daniel de entrar na cova, mas esteve com ele dentro dela. Isso é fundamental para nossa caminhada cristã. Nem sempre Deus nos livra da provação, mas sempre nos sustenta durante ela. A presença de Deus traz paz onde há desespero e força onde há fraqueza. Quando confiamos nEle, até os leões mais ferozes perdem o poder.
+A provação também revela quem somos e em quem confiamos. Daniel saiu da cova ainda mais fortalecido, e o testemunho de sua fé glorificou o nome de Deus diante de todos. Da mesma forma, quando permanecemos firmes, nossa vida se torna um testemunho vivo.
+Se hoje você se sente dentro de uma cova, lembre-se: Deus não se esqueceu de você.
+Continue orando, confiando e fazendo o bem. O mesmo Deus que fechou a boca dos leões continua agindo. A provação não é o fim da história; ela pode ser o começo de um grande milagre. Confie, persevere e espere no Senhor.
+Veja também: Daniel na cova dos leões: a história explicada
  
-Eu sou o pão da vida.
-Os seus antepassados comeram o maná no deserto, mas morreram.
-Todavia, aqui está o pão que desce do céu, para que não morra quem dele comer.
-- João 6:48-50
+O meu Deus enviou o seu anjo, que fechou a boca dos leões. Eles não me fizeram mal algum, pois fui considerado inocente à vista de Deus. Também contra ti não cometi mal algum, ó rei".
+- Daniel 6:22
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 348113 characters
-INFO:root:HTML parsed, length: 337699 characters
-INFO:root:Found 3 titles: ['É tempo de renovação', 'Buscai-o enquanto se pode achar', 'Vivendo a provisão divina']
-INFO:root:Found 3 URLs: ['/estudo_sobre_o_espirito_santo/', '/jeremias_29_13_explicacao/', '/a_gratidao_de_paulo/']
-INFO:root:Found 3 descriptions: ['Não se amoldem ao padrão deste mundo, mas transfor', 'Busquem o Senhor\nenquanto é possível achá-lo;\nclam', 'O meu Deus suprirá todas as necessidades de vocês,']
-INFO:root:Found 3 dates: ['JANEIRO\n\n5\nSEGUNDA', 'JANEIRO\n\n4\nDOMINGO', 'JANEIRO\n\n3\nSÁBADO']
+INFO:root:Response length: 347931 characters
+INFO:root:HTML parsed, length: 337517 characters
+INFO:root:Found 3 titles: ['Ressuscitando o que estava morto', 'É tempo de renovação', 'Buscai-o enquanto se pode achar']
+INFO:root:Found 3 URLs: ['/jesus_ressuscita_lazaro/', '/estudo_sobre_o_espirito_santo/', '/jeremias_29_13_explicacao/']
+INFO:root:Found 3 descriptions: ['Disse-lhe Jesus: "Eu sou a ressurreição e a vida. ', 'Não se amoldem ao padrão deste mundo, mas transfor', 'Busquem o Senhor\nenquanto é possível achá-lo;\nclam']
+INFO:root:Found 3 dates: ['JANEIRO\n\n6\nTERÇA', 'JANEIRO\n\n5\nSEGUNDA', 'JANEIRO\n\n4\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='É tempo de renovação', ID=9d8a2054390f1df2ce7a56617e1f84bb
-INFO:root:Processing entry 2: Title='Buscai-o enquanto se pode achar', ID=895a8370e056938ad2774e82bbb99aff
-INFO:root:Processing entry 3: Title='Vivendo a provisão divina', ID=f95c2bb21a9f396c5de8ca07f87a8922
+INFO:root:Processing entry 1: Title='Ressuscitando o que estava morto', ID=b5ea1b2d662aad84410360b52fef2c3b
+INFO:root:Processing entry 2: Title='É tempo de renovação', ID=9d8a2054390f1df2ce7a56617e1f84bb
+INFO:root:Processing entry 3: Title='Buscai-o enquanto se pode achar', ID=895a8370e056938ad2774e82bbb99aff
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Ressuscitando o que estava morto
+INFO:root:🔹 URL: https://www.bibliaon.com/jesus_ressuscita_lazaro/
+INFO:root:🔹 Description: Disse-lhe Jesus: "Eu sou a ressurreição e a vida. Aquele que crê em mim, ainda que morra, viverá;
+- João 11:25
+
+Muitas vezes, ao longo da caminhada, nos encontramos diante de áreas da nossa vida que parecem mortas. Sonhos esquecidos, fé enfraquecida, relacionamentos quebrados, dons paralisados pelo medo ou pela dor.
+Assim como Lázaro esteve quatro dias no túmulo, há situações em nós que parecem ter passado do ponto de restauração. Aos olhos humanos, tudo indica que não há mais solução. Porém, a história de Lázaro nos lembra que Jesus pode agir quando a esperança já se perdeu.
+Jesus não chegou antes da morte de Lázaro, mas chegou no tempo certo. Enquanto Marta e Maria choravam, Jesus estava prestes a revelar Sua glória. Da mesma forma, mesmo quando não percebemos, Deus está trabalhando em nosso interior, preparando o cenário para algo maior. O túmulo não é o fim da história quando Jesus está presente.
+Para que Lázaro ressuscitasse, foi necessário remover a pedra. Em nossa vida, também existem pedras que precisam ser tiradas: incredulidade, mágoa, pecado, medo e falta de perdão. Jesus tem poder para ressuscitar, mas Ele nos chama a participar do processo, obedecendo à Sua voz e confiando em Sua palavra. Quando damos esse passo de fé, abrimos espaço para o milagre acontecer.
+Ao chamar Lázaro para fora, Jesus mostrou que Sua voz é mais forte que a morte. Hoje, Ele continua chamando pelo nosso nome, convidando-nos a sair das sepulturas emocionais e espirituais.
+Em Cristo, nada está definitivamente perdido. O que estava morto pode reviver, a esperança pode florescer novamente e a vida pode ser restaurada. Basta ouvir a voz de Jesus e responder com fé.
+Vem para fora!
+
+Confie em Jesus mesmo quando tudo parece acabado, pois Ele age além do tempo humano e transforma impossibilidades em testemunhos vivos.
+Retire as “pedras” da incredulidade, do medo e do pecado, permitindo que a voz de Cristo traga restauração interior.
+Obedeça à voz de Jesus e saia do túmulo espiritual, retomando sonhos, dons e propósitos que Deus ainda deseja cumprir.
+
+Para orar:
+
+Senhor Jesus, eu creio que Tu és a ressurreição e a vida. Visita hoje as áreas do meu coração que parecem mortas. Remove toda pedra de medo, dor e incredulidade. Ressuscita meus sonhos, renova minha fé e fortalece minha esperança. Que eu ouça Tua voz e obedeça com confiança. Entrego minha vida em Tuas mãos, confiando no Teu tempo e no Teu propósito. Amém.
+
+Veja também: Ressurreição de Lázaro (Estudo Bíblico)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: É tempo de renovação
 INFO:root:🔹 URL: https://www.bibliaon.com/estudo_sobre_o_espirito_santo/
 INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
@@ -167,29 +192,6 @@ Senhor Deus, venho a Ti com o coração aberto, reconhecendo minha necessidade d
 
 Veja também: Buscar-me-eis e me achareis (Estudo Bíblico)
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Vivendo a provisão divina
-INFO:root:🔹 URL: https://www.bibliaon.com/a_gratidao_de_paulo/
-INFO:root:🔹 Description: O meu Deus suprirá todas as necessidades de vocês, de acordo com as suas gloriosas riquezas em Cristo Jesus.
-- Filipenses 4:19 
-
-Viver a provisão divina é aprender a confiar que Deus cuida de cada detalhe da nossa vida. Muitas vezes, associamos provisão apenas ao dinheiro ou aos bens materiais, mas ela vai muito além disso. A provisão de Deus inclui paz em meio às dificuldades, força para continuar, sabedoria para decidir e esperança para não desistir. 
-No dia a dia, enfrentamos preocupações que tentam roubar nossa fé: contas a pagar, problemas familiares, incertezas sobre o futuro. Nessas horas, Deus nos convida a descansar n’Ele. Confiar na provisão divina não significa ausência de desafios, mas a certeza de que não estamos sozinhos ao enfrentá-los. Deus age no tempo certo e da maneira perfeita, mesmo quando não entendemos.
-Jesus nos ensinou que devemos buscar primeiro o Reino de Deus, e todas as outras coisas nos seriam acrescentadas. Isso nos mostra que a prioridade correta gera equilíbrio. Quando colocamos Deus no centro, aprendemos a reconhecer Sua mão em pequenas e grandes bênçãos: um alimento na mesa, uma palavra de conforto, uma porta que se abre inesperadamente.
-Viver a provisão divina também nos chama à gratidão. Um coração grato enxerga milagres onde antes via apenas rotina. Ao agradecer, fortalecemos nossa fé e percebemos que Deus sempre esteve cuidando de nós, mesmo nos momentos mais difíceis.
-Além disso, a provisão divina nos ensina a compartilhar. Quando entendemos que tudo vem de Deus, somos mais generosos com o próximo. Através de nós, Deus também supre outras vidas, levando amor, cuidado e esperança.
-Que possamos viver confiantes, sabendo que o Deus que provê ontem, continua provendo hoje e continuará fiel amanhã. Confiar n’Ele é o maior descanso para a alma.
-Confinado em Deus 
-
-Ore diariamente reconhecendo Deus como fonte de tudo, entregando preocupações, fortalecendo confiança, e aguardando com fé Sua provisão constante fiel.
-Pratique a gratidão, anotando bênçãos recebidas, grandes ou pequenas, para desenvolver sensibilidade espiritual e reconhecer a provisão divina em tudo.
-Compartilhe generosamente tempo, recursos e amor, lembrando que Deus usa nossas mãos para suprir necessidades e revelar Seu cuidado diário.
-
-Para orar: 
-
-Senhor Deus, agradecemos pela Tua provisão diária, mesmo quando não percebemos. Ensina-nos a confiar em Ti em todas as circunstâncias, a descansar no Teu cuidado e a esperar com fé. Supre nossas necessidades, fortalece nosso coração e faz de nós instrumentos da Tua graça. Que nunca nos falte gratidão, esperança e amor. Amém.
-
-Veja também: Exemplos de gratidão na Bíblia: 8 histórias para inspirar
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -217,13 +219,13 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++++----
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++++----
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  30 ++---
+ feeds/palavra_biblica_do_dia/atom.xml     |  26 ++---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  18 ++-
  feeds/palavra_do_dia/feed.json            |  24 ++--
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 184 ++++++++++++++----------------
- 9 files changed, 154 insertions(+), 172 deletions(-)
+ output.log                                | 182 ++++++++++++++----------------
+ 9 files changed, 158 insertions(+), 164 deletions(-)
