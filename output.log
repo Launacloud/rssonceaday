@@ -1,38 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 121727 characters
-INFO:root:HTML parsed, length: 114681 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (08/01/2026)', 'Palavra de Ontem (07/01/2026)', 'Palavra de Anteontem (06/01/2026)']
-INFO:root:Found 3 URLs: ['/pre-requisito/', '/olho/', '/amago/']
-INFO:root:Found 14 descriptions: ['substantivo masculino Exigência prévia e indispens', 'Classe gramatical:substantivo masculino', 'Sílabas:pré-re-qui-si-to']
-INFO:root:Found 3 dates: ['Palavra de Hoje (08/01/2026)', 'Palavra de Ontem (07/01/2026)', 'Palavra de Anteontem (06/01/2026)']
+INFO:root:Response length: 121068 characters
+INFO:root:HTML parsed, length: 114342 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (09/01/2026)', 'Palavra de Ontem (08/01/2026)', 'Palavra de Anteontem (07/01/2026)']
+INFO:root:Found 3 URLs: ['/publicizacao/', '/pre-requisito/', '/olho/']
+INFO:root:Found 11 descriptions: ['substantivo feminino Ação de fazer com algo se tor', 'Sinônimos:\n\npublicidade, divulgação, propaganda, a', 'Sílabas:pu-bli-ci-za-ção']
+INFO:root:Found 3 dates: ['Palavra de Hoje (09/01/2026)', 'Palavra de Ontem (08/01/2026)', 'Palavra de Anteontem (07/01/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (08/01/2026)', ID=e29fbb651af51fb5402c6c2876b50c52
-INFO:root:Processing entry 2: Title='Palavra de Ontem (07/01/2026)', ID=51ddaaa0ca553795838ab9ae8ca69599
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/01/2026)', ID=b6ea8e2223e8aad2e6d9ca21234795f8
+INFO:root:Processing entry 1: Title='Palavra de Hoje (09/01/2026)', ID=e2c042a4906257c3928f2d0b2d088f8c
+INFO:root:Processing entry 2: Title='Palavra de Ontem (08/01/2026)', ID=258e0b2020af17cd83311fa207654f8a
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/01/2026)', ID=d7768637490f74cd512e13dc4f094a1c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (08/01/2026) - Significado completo de pré-requisito:
-INFO:root:🔹 URL: https://www.dicio.com.br/pre-requisito/
-INFO:root:🔹 Description: substantivo masculino Exigência prévia e indispensável para a realização de algo, para ingresso num trabalho, para exercer uma obrigação ou função etc.Disciplina que, obrigatoriamente, deve ser estudada antes de outra.Etimologia (origem da palavra pré-requisito). A palavra pré-requisito tem sua origem pela junção do prefixo pré-, do latim "prae" com sentido de anterioridade, e da palavra requisito.
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (07/01/2026) - Significado completo de olho:
-INFO:root:🔹 URL: https://www.dicio.com.br/olho/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:pré-re-qui-si-to
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (06/01/2026) - Significado completo de âmago:
-INFO:root:🔹 URL: https://www.dicio.com.br/amago/
-INFO:root:🔹 Description: Sílabas:pré-re-qui-si-to
+INFO:root:🔹 Title: Palavra de Hoje (09/01/2026) - Significado completo de publicização:
+INFO:root:🔹 URL: https://www.dicio.com.br/publicizacao/
+INFO:root:🔹 Description: substantivo feminino Ação de fazer com algo se torne público; realizar publicidade; divulgação.Mudança da administração de serviços públicos que passam para o domínio particular, sendo seu financiamento responsabilidade do poder executivo.[Jurídico] Intervenção legislativa em setores que fazem parte do âmbito privado.Etimologia (origem da palavra publicização). A palavra publicização tem sua origem pela junção de publicizar, e do sufixo -ção.
  
 Sinônimos:
 
-atenção, cuidado, furo, gomo, olhar, perspicácia, renovo, vista 
+publicidade, divulgação, propaganda, anúncio, propagação, disseminação, revelação, comunicação, publicação, democratização, exposição 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (08/01/2026) - Significado completo de pré-requisito:
+INFO:root:🔹 URL: https://www.dicio.com.br/pre-requisito/
+INFO:root:🔹 Description: Sinônimos:
+
+publicidade, divulgação, propaganda, anúncio, propagação, disseminação, revelação, comunicação, publicação, democratização, exposição
+ Sílabas:pu-bli-ci-za-ção
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (07/01/2026) - Significado completo de olho:
+INFO:root:🔹 URL: https://www.dicio.com.br/olho/
+INFO:root:🔹 Description: Sílabas:pu-bli-ci-za-ção
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +42,83 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 331887 characters
-INFO:root:HTML parsed, length: 321467 characters
-INFO:root:Found 1 titles: ['Jó 42:10']
-INFO:root:Found 1 URLs: ['/versiculo/jo_42_10/']
-INFO:root:Found 1 descriptions: ['Depois que Jó orou por seus amigos, o Senhor o tor']
+INFO:root:Response length: 330314 characters
+INFO:root:HTML parsed, length: 320136 characters
+INFO:root:Found 1 titles: ['João 3:30']
+INFO:root:Found 1 URLs: ['/versiculo/joao_3_30/']
+INFO:root:Found 1 descriptions: ['É necessário que ele cresça e que eu diminua. João']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jó 42:10', ID=324955a6079ff30e85027f39e1647091
+INFO:root:Processing entry 1: Title='João 3:30', ID=efe3b748cbb9e7110f4f876524bdd162
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jó 42:10
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jo_42_10/
-INFO:root:🔹 Description: Depois que Jó orou por seus amigos, o Senhor o tornou novamente próspero e lhe deu em dobro tudo o que tinha antes. Jó 42:10
+INFO:root:🔹 Title: João 3:30
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_3_30/
+INFO:root:🔹 Description: É necessário que ele cresça e que eu diminua. João 3:30
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 335603 characters
-INFO:root:HTML parsed, length: 326037 characters
-INFO:root:Found 3 titles: ['Salmo 107', 'Salmo 31', 'Salmo 21']
-INFO:root:Found 3 URLs: ['/salmos_107/', '/salmos_31/', '/salmos_21/']
-INFO:root:Found 3 descriptions: ['Deem graças ao Senhor porque ele é bom;\no seu amor', 'Em ti, Senhor, me refugio;\nnunca permitas que eu s', 'O rei se alegra na tua força, ó Senhor!\nComo é gra']
-INFO:root:Found 3 dates: ['8 de Janeiro de 2026', '7 de Janeiro de 2026', '6 de Janeiro de 2026']
+INFO:root:Response length: 334301 characters
+INFO:root:HTML parsed, length: 324984 characters
+INFO:root:Found 3 titles: ['Salmo 32', 'Salmo 107', 'Salmo 31']
+INFO:root:Found 3 URLs: ['/salmos_32/', '/salmos_107/', '/salmos_31/']
+INFO:root:Found 3 descriptions: ['Como é feliz aquele\nque tem suas transgressões per', 'Deem graças ao Senhor porque ele é bom;\no seu amor', 'Em ti, Senhor, me refugio;\nnunca permitas que eu s']
+INFO:root:Found 3 dates: ['9 de Janeiro de 2026', '8 de Janeiro de 2026', '7 de Janeiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 107', ID=bcdc76c80130807af62dd161a5882fc3
-INFO:root:Processing entry 2: Title=' Salmo 31', ID=c35edf8fc04fcd7848dc48e60fe7e4ea
-INFO:root:Processing entry 3: Title=' Salmo 21', ID=f5499d96daf550cf503937d224980eef
+INFO:root:Processing entry 1: Title=' Salmo 32', ID=2f49b60df41a8d2f7f56dc8a102c476d
+INFO:root:Processing entry 2: Title=' Salmo 107', ID=bcdc76c80130807af62dd161a5882fc3
+INFO:root:Processing entry 3: Title=' Salmo 31', ID=c35edf8fc04fcd7848dc48e60fe7e4ea
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 32
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_32/
+INFO:root:🔹 Description: Como é feliz aquele
+que tem suas transgressões perdoadas
+e seus pecados apagados! 
+Como é feliz aquele
+a quem o Senhor não atribui culpa
+e em quem não há hipocrisia! 
+Enquanto eu mantinha escondidos os meus pecados,
+o meu corpo definhava de tanto gemer. 
+Pois dia e noite
+a tua mão pesava sobre mim;
+minhas forças foram-se esgotando
+como em tempo de seca. 
+Então reconheci diante de ti o meu pecado
+e não encobri as minhas culpas.
+Eu disse: "Confessarei as minhas transgressões",
+ao Senhor,
+e tu perdoaste a culpa do meu pecado. 
+Portanto, que todos os que são fiéis orem a ti
+enquanto podes ser encontrado;
+quando as muitas águas se levantarem,
+elas não os atingirão. 
+Tu és o meu abrigo;
+tu me preservarás das angústias
+e me cercarás de canções de livramento. 
+Eu o instruirei e o ensinarei
+no caminho que você deve seguir;
+eu o aconselharei e cuidarei de você. 
+Não sejam como o cavalo ou o burro,
+que não têm entendimento
+mas precisam ser controlados
+com freios e rédeas;
+caso contrário não obedecem. 
+Muitas são as dores dos ímpios,
+mas a bondade do Senhor
+protege quem nele confia. 
+Alegrem-se no Senhor e exultem,
+vocês que são justos!
+Cantem de alegria,
+todos vocês que são retos de coração! 
+ Salmo 32
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 107
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_107/
 INFO:root:🔹 Description: Deem graças ao Senhor porque ele é bom;
@@ -256,93 +301,95 @@ Sejam fortes e corajosos,
 todos vocês que esperam no Senhor! 
  Salmo 31
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 21
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_21/
-INFO:root:🔹 Description: O rei se alegra na tua força, ó Senhor!
-Como é grande a sua exultação
-pelas vitórias que lhe dás! 
-Tu lhe concedeste o desejo do seu coração
-e não lhe rejeitaste o pedido
-dos seus lábios. 
-Tu o recebeste dando-lhe ricas bênçãos,
-e em sua cabeça
-puseste uma coroa de ouro puro. 
-Ele te pediu vida, e tu lhe deste!
-Vida longa e duradoura. 
-Pelas vitórias que lhe deste,
-grande é a sua glória;
-de esplendor e majestade o cobriste. 
-Fizeste dele uma grande bênção para sempre
-e lhe deste a alegria da tua presença. 
-O rei confia no Senhor:
-por causa da fidelidade do Altíssimo
-ele não será abalado. 
-Tua mão alcançará todos os teus inimigos;
-tua mão direita atingirá todos os que te odeiam. 
-No dia em que te manifestares
-farás deles uma fornalha ardente.
-Na sua ira o Senhor os devorará,
-um fogo os consumirá. 
-Acabarás com a geração deles na terra,
-com a sua descendência entre os homens. 
-Embora tramem o mal contra ti
-e façam planos perversos,
-nada conseguirão; 
-pois tu os porás em fuga
-quando apontares para eles o teu arco. 
-Sê exaltado, Senhor, na tua força!
-Cantaremos e louvaremos o teu poder. 
- Salmo 21
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 334073 characters
-INFO:root:HTML parsed, length: 324104 characters
-INFO:root:Found 3 titles: ['Ser mais que ter', 'Estabelecendo uma cultura de louvor', 'A provação na cova dos leões']
+INFO:root:Response length: 328581 characters
+INFO:root:HTML parsed, length: 318863 characters
+INFO:root:Found 3 titles: ['Entregue seus medos ao Senhor', 'Ser mais que ter', 'Estabelecendo uma cultura de louvor']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Então lhes disse: "Cuidado! Fiquem de sobreaviso c', 'Como é bom louvar a Deus! O louvor é uma expressão', 'O meu Deus enviou o seu anjo, que fechou a boca do']
-INFO:root:Found 1 dates: ['Quinta, 8 de janeiro de 2026']
+INFO:root:Found 3 descriptions: ['Mas eu, quando estiver com medo,\nconfiarei em ti.\n', 'Então lhes disse: "Cuidado! Fiquem de sobreaviso c', 'Como é bom louvar a Deus! O louvor é uma expressão']
+INFO:root:Found 1 dates: ['Sexta, 9 de janeiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Ser mais que ter', ID=3fdd97d29ff4cff7a83a7db6b17adbee
+INFO:root:Processing entry 1: Title='Entregue seus medos ao Senhor', ID=86808606e014d25ed0c5b22d51069e03
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Ser mais que ter - Palavra de Hoje
+INFO:root:🔹 Title: Entregue seus medos ao Senhor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Então lhes disse: "Cuidado! Fiquem de sobreaviso contra todo tipo de ganância; a vida de um homem não consiste na quantidade dos seus bens".
-- Lucas 12:15
+INFO:root:🔹 Description: Mas eu, quando estiver com medo,
+confiarei em ti.
+Em Deus, cuja palavra eu louvo,
+em Deus eu confio e não temerei.
+Que poderá fazer-me o simples mortal?
+- Salmo 56:3-4
 
-Vivemos em um tempo em que somos incentivados a medir o nosso valor pelo que temos: bens, conquistas, status e aparência. Desde cedo, aprendemos que possuir mais parece significar ser mais. No entanto, Jesus nos convida a olhar para a vida por uma perspectiva diferente, mais profunda e libertadora. Ele nos chama a priorizar o ser antes do ter.
-Ser mais do que ter é reconhecer que nossa identidade não está no que acumulamos, mas em quem somos diante de Deus.
-Somos filhos amados, criados à Sua imagem, chamados a viver em comunhão, simplicidade e propósito. Quando colocamos o coração nas coisas materiais, corremos o risco de nos tornarmos escravos delas, vivendo em constante comparação e insatisfação.
-Jesus viveu de forma simples, mas Sua vida foi plena de amor, serviço e significado. Ele ensinou que o verdadeiro tesouro está no céu, onde nada pode ser roubado ou destruído. Isso não significa desprezar o trabalho ou os bens, mas compreender que eles são meios, não o fim. Tudo o que temos deve servir ao bem, à partilha e à glória de Deus.
-Ser mais do que ter também envolve cultivar virtudes que não se compram: fé, humildade, gratidão, perdão e amor ao próximo. Essas riquezas transformam o coração e fortalecem os relacionamentos. Quando escolhemos viver assim, descobrimos uma alegria que não depende das circunstâncias.
-Que possamos, a cada dia, perguntar a nós mesmos: estou vivendo para acumular ou para amar? Ao buscar primeiro o Reino de Deus, aprendemos que a verdadeira plenitude não está em possuir mais coisas, mas em nos tornarmos mais semelhantes a Cristo, vivendo uma fé simples, sincera e cheia de esperança.
-Veja também: 9 frutos do Espírito que vão transformar sua vida
+
+Por isso não tema, pois estou com você;
+não tenha medo, pois sou o seu Deus.
+Eu o fortalecerei e o ajudarei;
+eu o segurarei
+com a minha mão direita vitoriosa.
+- Isaías 41:10
+
+Sentir medo faz parte da vida. Em certos momentos, o medo é um mecanismo que se ativa e nos ajuda a reagir ao perigo. Por exemplo, quando um touro ou um cão raivoso nos persegue, é bastante prudente fugir. Essa é uma reação desencadeada pelo medo que nos ajuda a evitar sermos atacados ou mordidos por esses animais.
+No entanto, o medo nunca deve nos dominar. Desistir de procurar emprego por medo da rejeição, ou desistir de pintar, cantar ou fazer algo que gostamos por medo de sermos ridicularizados, não é saudável. Deus deve ser o único que reina em nossas vidas, não o medo. E Deus pode (e quer) nos ajudar a superar qualquer medo paralisante que nos impeça de seguir em frente, para que possamos usar todo o potencial que Ele nos deu.
+Quando depositamos nossos medos aos pés de Cristo, algo poderoso acontece: deixamos de carregar sozinhos o que nos aprisiona. Deus não minimiza o que sentimos, nem nos repreende por termos medo. Ele nos convida a nos aproximarmos com um coração sincero, confiando em Seu amor perfeito. Ao entregarmos nossos medos a Ele, permitimos que Sua paz preencha os espaços onde antes reinava a angústia. Sua presença nos lembra que não caminhamos sozinhos. Mesmo quando o caminho é incerto, devemos lembrar que Deus já vai à nossa frente, nos amparando com firmeza e ternura.
+Entregue seus medos a Deus e permita que eles se tornem testemunhos do Seu poder operando em você. Confie no Senhor e dê passos de fé: você descobrirá que é capaz de muito mais do que jamais imaginou.
+Liberte-se dos seus medos e comece a viver plenamente o propósito que Deus tem para você, realizando grandes coisas que glorificam o Seu nome.
+Veja também: Como vencer o medo segundo a Bíblia em 5 passos
  
-Então lhes disse: "Cuidado! Fiquem de sobreaviso contra todo tipo de ganância; a vida de um homem não consiste na quantidade dos seus bens".
-- Lucas 12:15
+Mas eu, quando estiver com medo,
+confiarei em ti.
+Em Deus, cuja palavra eu louvo,
+em Deus eu confio e não temerei.
+Que poderá fazer-me o simples mortal?
+- Salmo 56:3-4
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 347624 characters
-INFO:root:HTML parsed, length: 337212 characters
-INFO:root:Found 3 titles: ['Espere no Senhor', 'Apresente os seus planos a Deus', 'Ressuscitando o que estava morto']
-INFO:root:Found 3 URLs: ['/isaias_40_31_mas_os_que_esperam_no_senhor/', '/os_planos_de_deus_sao_maiores_que_os_seus/', '/jesus_ressuscita_lazaro/']
-INFO:root:Found 3 descriptions: ['Espere no Senhor.\nSeja forte! Coragem!\nEspere no S', 'Consagre ao Senhor\ntudo o que você faz,\ne os seus ', 'Disse-lhe Jesus: "Eu sou a ressurreição e a vida. ']
-INFO:root:Found 3 dates: ['JANEIRO\n\n8\nQUINTA', 'JANEIRO\n\n7\nQUARTA', 'JANEIRO\n\n6\nTERÇA']
+INFO:root:Response length: 346071 characters
+INFO:root:HTML parsed, length: 335904 characters
+INFO:root:Found 3 titles: ['Devocional Diário: Coberto pelo o amor de Deus', 'Espere no Senhor', 'Apresente os seus planos a Deus']
+INFO:root:Found 3 URLs: ['/o_amor_incondicional_de_deus_estudo/', '/isaias_40_31_mas_os_que_esperam_no_senhor/', '/os_planos_de_deus_sao_maiores_que_os_seus/']
+INFO:root:Found 3 descriptions: ['Quando nos perdemos nas encruzilhadas da vida, é c', 'Espere no Senhor.\nSeja forte! Coragem!\nEspere no S', 'Consagre ao Senhor\ntudo o que você faz,\ne os seus ']
+INFO:root:Found 3 dates: ['JANEIRO\n\n9\nSEXTA', 'JANEIRO\n\n8\nQUINTA', 'JANEIRO\n\n7\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Espere no Senhor', ID=1e0e27c92ebe749b8a7ff0682cc24a89
-INFO:root:Processing entry 2: Title='Apresente os seus planos a Deus', ID=73cc4034d58131e6f3265a38c1342549
-INFO:root:Processing entry 3: Title='Ressuscitando o que estava morto', ID=b5ea1b2d662aad84410360b52fef2c3b
+INFO:root:Processing entry 1: Title='Devocional Diário: Coberto pelo o amor de Deus', ID=a970b3b7c17ddd046facd1d8d658309f
+INFO:root:Processing entry 2: Title='Espere no Senhor', ID=1e0e27c92ebe749b8a7ff0682cc24a89
+INFO:root:Processing entry 3: Title='Apresente os seus planos a Deus', ID=73cc4034d58131e6f3265a38c1342549
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Devocional Diário: Coberto pelo o amor de Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
+INFO:root:🔹 Description: Quando nos perdemos nas encruzilhadas da vida, é confortante saber que somos cobertos pelo amor incondicional de Deus. Seu amor é como um abraço acolhedor que nos envolve em todos os momentos, sejam eles alegres ou desafiadores.
+Ao longo da Bíblia, somos lembrados desse amor que nos cobre como um manto protetor. Em Salmos 91:4, encontramos a promessa de que Deus nos cobrirá com as suas penas, e debaixo de suas asas, encontraremos refúgio. Essa imagem carinhosa ilustra a proteção divina que nos envolve, proporcionando segurança e consolo.
+
+Ele o cobrirá com as suas penas,
+e sob as suas asas você encontrará refúgio;
+a fidelidade dele será o seu escudo protetor.
+- Salmo 91:4
+
+O amor de Deus não está condicionado às nossas ações ou méritos. Ele nos ama com uma profundidade que ultrapassa nossa compreensão, perdoando nossas falhas e nos dando a chance de recomeçar a cada dia. Esse amor é um presente que não podemos merecer, mas que recebemos de braços abertos. Graça de Deus!
+Quando nos sentimos desamparados, é reconfortante lembrar que estamos cobertos pelo amor eterno de Deus. Ele conhece nossas lutas e nos oferece força para enfrentar os desafios. Nada pode nos separar desse amor, e nele encontramos esperança e paz.
+Que possamos viver cada dia conscientes deste amor que nos cobre, buscando compartilhar esse amor com os outros. Ao nos apoiarmos no amor de Deus, encontramos a verdadeira fonte de alegria e segurança para seguirmos a nossa vida com confiança. 
+Sendo amado todos os dias 
+
+Fale com Deus como faria com um amigo, compartilhando seus pensamentos, agradecimentos e pedidos. A intimidade na oração fortalece o relacionamento, permitindo que você experimente o amor de Deus de maneira mais profunda. 
+Busque viver de acordo com os princípios e valores ensinados na Bíblia. A obediência aos mandamentos de Deus demonstra amor e respeito por Ele.
+Ao aplicar os princípios bíblicos na sua vida, você demonstra um desejo sincero de conhecer e seguir a vontade de Deus, atraindo assim o Seu amor.
+
+Para Orar:
+
+Querido Deus, envolva-me com Teu amor, guie meus passos nos caminhos da retidão. Que minha vida seja reflexo da Tua graça e compaixão. Perdoa-me, fortalece minha fé e concede-me sabedoria para compreender Teus desígnios.
+
+Veja Também: Reflexão sobre o amor de Deus (Estudo Bíblico)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Espere no Senhor
 INFO:root:🔹 URL: https://www.bibliaon.com/isaias_40_31_mas_os_que_esperam_no_senhor/
 INFO:root:🔹 Description: Espere no Senhor.
@@ -396,29 +443,6 @@ Senhor Deus, entrego a Ti meus planos, sonhos e vontades. Reconheço que preciso
 
 Veja também: Reflexão sobre os planos de Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Ressuscitando o que estava morto
-INFO:root:🔹 URL: https://www.bibliaon.com/jesus_ressuscita_lazaro/
-INFO:root:🔹 Description: Disse-lhe Jesus: "Eu sou a ressurreição e a vida. Aquele que crê em mim, ainda que morra, viverá;
-- João 11:25
-
-Muitas vezes, ao longo da caminhada, nos encontramos diante de áreas da nossa vida que parecem mortas. Sonhos esquecidos, fé enfraquecida, relacionamentos quebrados, dons paralisados pelo medo ou pela dor.
-Assim como Lázaro esteve quatro dias no túmulo, há situações em nós que parecem ter passado do ponto de restauração. Aos olhos humanos, tudo indica que não há mais solução. Porém, a história de Lázaro nos lembra que Jesus pode agir quando a esperança já se perdeu.
-Jesus não chegou antes da morte de Lázaro, mas chegou no tempo certo. Enquanto Marta e Maria choravam, Jesus estava prestes a revelar Sua glória. Da mesma forma, mesmo quando não percebemos, Deus está trabalhando em nosso interior, preparando o cenário para algo maior. O túmulo não é o fim da história quando Jesus está presente.
-Para que Lázaro ressuscitasse, foi necessário remover a pedra. Em nossa vida, também existem pedras que precisam ser tiradas: incredulidade, mágoa, pecado, medo e falta de perdão. Jesus tem poder para ressuscitar, mas Ele nos chama a participar do processo, obedecendo à Sua voz e confiando em Sua palavra. Quando damos esse passo de fé, abrimos espaço para o milagre acontecer.
-Ao chamar Lázaro para fora, Jesus mostrou que Sua voz é mais forte que a morte. Hoje, Ele continua chamando pelo nosso nome, convidando-nos a sair das sepulturas emocionais e espirituais.
-Em Cristo, nada está definitivamente perdido. O que estava morto pode reviver, a esperança pode florescer novamente e a vida pode ser restaurada. Basta ouvir a voz de Jesus e responder com fé.
-Vem para fora!
-
-Confie em Jesus mesmo quando tudo parece acabado, pois Ele age além do tempo humano e transforma impossibilidades em testemunhos vivos.
-Retire as “pedras” da incredulidade, do medo e do pecado, permitindo que a voz de Cristo traga restauração interior.
-Obedeça à voz de Jesus e saia do túmulo espiritual, retomando sonhos, dons e propósitos que Deus ainda deseja cumprir.
-
-Para orar:
-
-Senhor Jesus, eu creio que Tu és a ressurreição e a vida. Visita hoje as áreas do meu coração que parecem mortas. Remove toda pedra de medo, dor e incredulidade. Ressuscita meus sonhos, renova minha fé e fortalece minha esperança. Que eu ouça Tua voz e obedeça com confiança. Entrego minha vida em Tuas mãos, confiando no Teu tempo e no Teu propósito. Amém.
-
-Veja também: Ressurreição de Lázaro (Estudo Bíblico)
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -448,15 +472,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  30 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  37 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  10 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 535 +++++-----------------
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  79 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 738 ++++++++----------------------
- 11 files changed, 370 insertions(+), 1054 deletions(-)
+ output.log                                | 294 ++++++++++++++++--------------
+ 11 files changed, 284 insertions(+), 248 deletions(-)
