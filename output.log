@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123300 characters
-INFO:root:HTML parsed, length: 116000 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (19/01/2026)', 'Palavra de Ontem (18/01/2026)', 'Palavra de Anteontem (17/01/2026)']
-INFO:root:Found 3 URLs: ['/proselitismo/', '/aspecto/', '/escuro/']
-INFO:root:Found 15 descriptions: ['substantivo masculino Ação ou empenho de se fazer ', 'Sinônimos:\n\npartidarismo, facciosismo, sectarismo,', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (19/01/2026)', 'Palavra de Ontem (18/01/2026)', 'Palavra de Anteontem (17/01/2026)']
+INFO:root:Response length: 121432 characters
+INFO:root:HTML parsed, length: 114132 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (20/01/2026)', 'Palavra de Ontem (19/01/2026)', 'Palavra de Anteontem (18/01/2026)']
+INFO:root:Found 3 URLs: ['/infancia/', '/proselitismo/', '/aspecto/']
+INFO:root:Found 15 descriptions: ['substantivo feminino Período inicial da vida human', 'Sinônimos:\n\npuerícia, meninice, meninada, garotice', 'Antônimos:\n\nvelhice']
+INFO:root:Found 3 dates: ['Palavra de Hoje (20/01/2026)', 'Palavra de Ontem (19/01/2026)', 'Palavra de Anteontem (18/01/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (19/01/2026)', ID=acb5e1f3a576ee89370b1c11e520c604
-INFO:root:Processing entry 2: Title='Palavra de Ontem (18/01/2026)', ID=b9e8b01386b4563cb237b0a556004a6d
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (17/01/2026)', ID=c579aa6cf5c19a7b0b7feba891f38104
+INFO:root:Processing entry 1: Title='Palavra de Hoje (20/01/2026)', ID=10eb1862b8a3881d5f5d97eb31fdf21c
+INFO:root:Processing entry 2: Title='Palavra de Ontem (19/01/2026)', ID=3b725a267ee4905e4c56568682766197
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (18/01/2026)', ID=c3098f63432bf0567b0a6dec52cced54
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (19/01/2026) - Significado completo de proselitismo:
-INFO:root:🔹 URL: https://www.dicio.com.br/proselitismo/
-INFO:root:🔹 Description: substantivo masculino Ação ou empenho de se fazer prosélitos; conjunto de convertidos, adeptos, sectários; doutrinação, catequese, apostolado.Processo de converter alguém a pertencer a determinada religião, seita, doutrina; catequese: proselitismo religioso.[Por Extensão] Empenho para atrair alguém para um partido, sistema, ideia etc.; empenho para tornar alguém adepto ou seguidor de algo; doutrinação: proselitismo ideológico.Etimologia (origem da palavra proselitismo). A palavra proselitismo tem sua origem pela junção de prosélito, e do sufixo -ismo; pelo no francês "prosélytisme", com o mesmo sentido.
+INFO:root:🔹 Title: Palavra de Hoje (20/01/2026) - Significado completo de infância:
+INFO:root:🔹 URL: https://www.dicio.com.br/infancia/
+INFO:root:🔹 Description: substantivo feminino Período inicial da vida humana que vai do nascimento até ao início da adolescência, geralmente a partir dos 12 anos.As crianças; o número total de crianças em: a infância mineira.[Figurado] Começo de alguma coisa; origem: a infância do mundo.Etimologia (origem da palavra infância). A palavra infância deriva do latim “infantia,ae”, com o mesmo sentido.
  
 Sinônimos:
 
-partidarismo, facciosismo, sectarismo, apostolado, catequese, doutrinação, pregação, propaganda, convencimento, evangelização, conversão, persuasão, influência 
+puerícia, meninice, meninada, garotice 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (18/01/2026) - Significado completo de aspecto:
-INFO:root:🔹 URL: https://www.dicio.com.br/aspecto/
+INFO:root:🔹 Title: Palavra de Ontem (19/01/2026) - Significado completo de proselitismo:
+INFO:root:🔹 URL: https://www.dicio.com.br/proselitismo/
 INFO:root:🔹 Description: Sinônimos:
 
-partidarismo, facciosismo, sectarismo, apostolado, catequese, doutrinação, pregação, propaganda, convencimento, evangelização, conversão, persuasão, influência
- Classe gramatical:substantivo masculino
+puerícia, meninice, meninada, garotice
+ 
+Antônimos:
+
+velhice 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (17/01/2026) - Significado completo de escuro:
-INFO:root:🔹 URL: https://www.dicio.com.br/escuro/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:pro-se-li-tis-mo
+INFO:root:🔹 Title: Palavra de Anteontem (18/01/2026) - Significado completo de aspecto:
+INFO:root:🔹 URL: https://www.dicio.com.br/aspecto/
+INFO:root:🔹 Description: Antônimos:
+
+velhice
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +48,90 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 332577 characters
-INFO:root:HTML parsed, length: 322372 characters
-INFO:root:Found 1 titles: ['Êxodo 3:14']
-INFO:root:Found 1 URLs: ['/versiculo/exodo_3_14/']
-INFO:root:Found 1 descriptions: ['Disse Deus a Moisés: "Eu Sou o que Sou. É isto que']
+INFO:root:Response length: 332320 characters
+INFO:root:HTML parsed, length: 322115 characters
+INFO:root:Found 1 titles: ['Tiago 1:19']
+INFO:root:Found 1 URLs: ['/versiculo/tiago_1_19/']
+INFO:root:Found 1 descriptions: ['Meus amados irmãos, tenham isto em mente: Sejam to']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Êxodo 3:14', ID=a501f8e1845f6298a9ac7a61380f8440
+INFO:root:Processing entry 1: Title='Tiago 1:19', ID=6ccf440b803f1d76ae6833033d1f30ea
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Êxodo 3:14
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/exodo_3_14/
-INFO:root:🔹 Description: Disse Deus a Moisés: "Eu Sou o que Sou. É isto que você dirá aos israelitas: Eu Sou me enviou a vocês". Êxodo 3:14
+INFO:root:🔹 Title: Tiago 1:19
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_1_19/
+INFO:root:🔹 Description: Meus amados irmãos, tenham isto em mente: Sejam todos prontos para ouvir, tardios para falar e tardios para irar-se, Tiago 1:19
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 332880 characters
-INFO:root:HTML parsed, length: 323479 characters
-INFO:root:Found 3 titles: ['Salmo 44', 'Salmo 110', 'Salmo 111']
-INFO:root:Found 3 URLs: ['/salmos_44/', '/salmos_110/', '/salmos_111/']
-INFO:root:Found 3 descriptions: ['Com os nossos próprios ouvidos ouvimos,\nó Deus;\nos', 'O Senhor disse ao meu Senhor:\n"Senta-te à minha di', 'Aleluia!\nDarei graças ao Senhor de todo o coração\n']
-INFO:root:Found 3 dates: ['19 de Janeiro de 2026', '18 de Janeiro de 2026', '17 de Janeiro de 2026']
+INFO:root:Response length: 333642 characters
+INFO:root:HTML parsed, length: 324253 characters
+INFO:root:Found 3 titles: ['Salmo 88', 'Salmo 44', 'Salmo 110']
+INFO:root:Found 3 URLs: ['/salmos_88/', '/salmos_44/', '/salmos_110/']
+INFO:root:Found 3 descriptions: ['Ó Senhor, Deus que me salva,\na ti clamo dia e noit', 'Com os nossos próprios ouvidos ouvimos,\nó Deus;\nos', 'O Senhor disse ao meu Senhor:\n"Senta-te à minha di']
+INFO:root:Found 3 dates: ['20 de Janeiro de 2026', '19 de Janeiro de 2026', '18 de Janeiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 44', ID=d29eff8a34fc31ca10413a0cec24b4d0
-INFO:root:Processing entry 2: Title=' Salmo 110', ID=4a28a37e04a23862302f45e5b61a9821
-INFO:root:Processing entry 3: Title=' Salmo 111', ID=de8b1078fda5e518988df5721c405f8a
+INFO:root:Processing entry 1: Title=' Salmo 88', ID=6a77f7e175812bd7016c471cb9b00e8b
+INFO:root:Processing entry 2: Title=' Salmo 44', ID=d29eff8a34fc31ca10413a0cec24b4d0
+INFO:root:Processing entry 3: Title=' Salmo 110', ID=4a28a37e04a23862302f45e5b61a9821
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 88
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_88/
+INFO:root:🔹 Description: Ó Senhor, Deus que me salva,
+a ti clamo dia e noite. 
+Que a minha oração chegue diante de ti;
+inclina os teus ouvidos ao meu clamor. 
+Tenho sofrido tanto que a minha vida
+está à beira da sepultura! 
+Sou contado entre os que descem à cova;
+sou como um homem que já não tem forças. 
+Fui colocado junto aos mortos,
+sou como os cadáveres que jazem no túmulo,
+dos quais já não te lembras,
+pois foram tirados de tua mão. 
+Puseste-me na cova mais profunda,
+na escuridão das profundezas. 
+Tua ira pesa sobre mim;
+com todas as tuas ondas me afligiste. 
+Afastaste de mim os meus melhores amigos
+e me tornaste repugnante para eles.
+Estou como um preso que não pode fugir; 
+minhas vistas já estão fracas de tristeza.
+A ti, Senhor, clamo cada dia;
+a ti ergo as minhas mãos. 
+Acaso mostras as tuas maravilhas aos mortos?
+Acaso os mortos se levantam
+e te louvam? 
+Será que o teu amor é anunciado no túmulo
+e a tua fidelidade no Abismo da Morte? 
+Acaso são conhecidas as tuas maravilhas
+na região das trevas
+e os teus feitos de justiça
+na terra do esquecimento? 
+Mas eu, Senhor, a ti clamo por socorro;
+já de manhã a minha oração
+chega à tua presença. 
+Por que, Senhor, me rejeitas
+e escondes de mim o teu rosto? 
+Desde moço tenho sofrido
+e ando perto da morte;
+os teus terrores levaram-me ao desespero. 
+Sobre mim se abateu a tua ira;
+os pavores que me causas me destruíram. 
+Cercam-me o dia todo como uma inundação;
+envolvem-me por completo. 
+Tiraste de mim os meus amigos
+e os meus companheiros;
+as trevas são a minha única companhia. 
+ Salmo 88
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 44
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_44/
 INFO:root:🔹 Description: Com os nossos próprios ouvidos ouvimos,
@@ -179,100 +235,173 @@ No caminho beberá de um ribeiro,
 e então erguerá a cabeça. 
  Salmo 110
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 111
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_111/
-INFO:root:🔹 Description: Aleluia!
-Darei graças ao Senhor de todo o coração
-na reunião da congregação dos justos. 
-Grandes são as obras do Senhor;
-nelas meditam todos os que as apreciam. 
-Os seus feitos manifestam
-majestade e esplendor,
-e a sua justiça dura para sempre. 
-Ele fez proclamar as suas maravilhas;
-o Senhor é misericordioso e compassivo. 
-Deu alimento aos que o temiam,
-pois sempre se lembra de sua aliança. 
-Mostrou ao seu povo os seus feitos poderosos,
-dando-lhe as terras das nações. 
-As obras das suas mãos são fiéis e justas;
-todos os seus preceitos merecem confiança. 
-Estão firmes para sempre,
-estabelecidos com fidelidade e retidão. 
-Ele trouxe redenção ao seu povo
-e firmou a sua aliança para sempre.
-Santo e temível é o seu nome! 
-O temor do Senhor
-é o princípio da sabedoria;
-todos os que cumprem os seus preceitos
-revelam bom senso.
-Ele será louvado para sempre! 
- Salmo 111
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 330563 characters
-INFO:root:HTML parsed, length: 320827 characters
-INFO:root:Found 3 titles: ['Deus te dá o poder para vencer a batalha', 'Quando Deus pensa maior que nós', 'Deus te ouve e te responde']
+INFO:root:Response length: 335072 characters
+INFO:root:HTML parsed, length: 325328 characters
+INFO:root:Found 3 titles: ['Lembre-se e proteja a tua alma', 'Deus te dá o poder para vencer a batalha', 'Quando Deus pensa maior que nós']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Tu, Senhor, manténs acesa a minha lâmpada;\no meu D', '"Pois os meus pensamentos não são os pensamentos d', 'e clame a mim no dia da angústia;\neu o livrarei, e']
-INFO:root:Found 1 dates: ['Segunda, 19 de janeiro de 2026']
+INFO:root:Found 3 descriptions: ['Apenas tenham cuidado! Tenham muito cuidado para q', 'Tu, Senhor, manténs acesa a minha lâmpada;\no meu D', '"Pois os meus pensamentos não são os pensamentos d']
+INFO:root:Found 1 dates: ['Terça, 20 de janeiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus te dá o poder para vencer a batalha', ID=2760fec4f14db294a4fd7822cf2fab30
+INFO:root:Processing entry 1: Title='Lembre-se e proteja a tua alma', ID=570b093833459c827f096c3a106d0b64
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus te dá o poder para vencer a batalha - Palavra de Hoje
+INFO:root:🔹 Title: Lembre-se e proteja a tua alma - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Tu, Senhor, manténs acesa a minha lâmpada;
-o meu Deus transforma em luz as minhas trevas.
-Com o teu auxílio posso atacar uma tropa;
-com o meu Deus posso transpor muralhas.
-- Salmo 18:28-29
+INFO:root:🔹 Description: Apenas tenham cuidado! Tenham muito cuidado para que vocês nunca se esqueçam das coisas que os seus olhos viram; conservem-nas por toda a sua vida na memória. Contem-nas a seus filhos e a seus netos.
+- Deuteronômio 4:9
 
+Neste versículo, encontramos um bom conselho. Para proteger nossas almas das constantes influências que buscam afastá-las do Senhor, devemos nos lembrar do que Deus fez. Refletir sobre a salvação que Deus nos deu, o amor que Ele nos demonstrou e as bênçãos que recebemos dEle desperta nossa gratidão e devoção a Ele.
+Nossos corações são facilmente distraídos pelas preocupações diárias, pelas provações e pelas vozes do mundo que prometem satisfação longe de Deus. Portanto, devemos nos lembrar do que o Senhor fez por nós em Jesus Cristo. Ele deu a Sua vida na cruz, perdoou os nossos pecados e, nEle, temos a esperança da vida eterna. Lembrar disso fortalece a nossa fé e nos ajuda a perseverar quando surgem dúvidas ou desânimo.
 
-Ele é o Deus que me reveste de força
-e torna perfeito o meu caminho.
-Torna os meus pés ágeis como os da corça,
-sustenta-me firme nas alturas.
-Ele treina as minhas mãos para a batalha
-e os meus braços
-para vergar um arco de bronze.
-- Salmo 18:32-34
+Acima de tudo, guarde o seu coração, pois dele depende toda a sua vida.
+- Provérbios 4:23
 
-Enfrentamos muitos desafios e batalhas na vida. Em meio a cada um deles, devemos lembrar que, como filhos de Deus, estamos seguros em Seus braços. Ele nos acompanha em nossas batalhas, guia nossos passos e nos preenche com Seu poder. Não há batalha maior do que a de Deus; podemos viver com essa segurança e confiança.
-Nas batalhas mais difíceis, quando nossa força diminui e as respostas parecem inatingíveis, Deus permanece presente. Mesmo que não entendamos o que está acontecendo, podemos descansar sabendo que Deus está no controle. Ele permanece fiel! Em cada luta, Deus caminha ao nosso lado, nos sustentando quando vacilamos e nos lembrando de que não lutamos sozinhos.
-Deus nos acompanha e nos fortalece. Ele renova nossas forças quando estamos cansados e nos dá sabedoria para dar cada passo. Às vezes, a vitória não vem como esperamos, mas sempre vem de acordo com a Sua perfeita vontade. Em Seus braços, encontramos refúgio, direção e paz, mesmo em meio à tempestade. Confiar em Deus não significa que não haverá lutas, mas sim que sabemos em quem depositamos nossa confiança.
-Quando entregamos nossas vidas nas mãos de Deus, podemos ter certeza de que Ele cumprirá o Seu propósito em nós. Nenhuma batalha é em vão quando caminhamos de mãos dadas com Ele. Ele nos guia com amor, nos molda durante o processo e nos conduz à vitória que glorifica o Seu nome.
-Entregue suas batalhas ao Senhor hoje. Escolha confiar, descansar e seguir em frente com coragem. Nunca se esqueça de que o Deus que lhe dá poder não o abandonará e sempre trabalhará para o seu bem.
-Veja também: Estudo sobre Davi e Golias: lições de como Davi derrotou o gigante
+Encha seu coração de paz e segurança hoje. Lembre-se de como Deus o sustentou no passado, como Ele respondeu às suas orações e como o guiou com cuidado e ternura. Lembre-se do amor que Ele lhe demonstrou por meio de Jesus. Medite na vida de Cristo, em Seus ensinamentos e em Sua graça. Sua alma estará firmada na verdade e não será desviada por ensinamentos enganosos ou valores contrários ao Evangelho.
+Ao fortalecer sua fé no Senhor, você poderá permanecer firme em meio a este mundo em constante mudança. Ao guardar sua alma e lembrar-se constantemente do que Deus lhe deu, você desenvolverá um relacionamento mais profundo com Ele. Sua vida, suas palavras e seu testemunho fiel impactarão as futuras gerações, mostrando que vale a pena permanecer em Cristo e confiar plenamente em Sua salvação.
+Veja também: Explicação de Provérbios 4:23: guarda o teu coração
  
-Tu, Senhor, manténs acesa a minha lâmpada;
-o meu Deus transforma em luz as minhas trevas.
-Com o teu auxílio posso atacar uma tropa;
-com o meu Deus posso transpor muralhas.
-- Salmo 18:28-29
+Apenas tenham cuidado! Tenham muito cuidado para que vocês nunca se esqueçam das coisas que os seus olhos viram; conservem-nas por toda a sua vida na memória. Contem-nas a seus filhos e a seus netos.
+- Deuteronômio 4:9
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 347580 characters
-INFO:root:HTML parsed, length: 337377 characters
-INFO:root:Found 3 titles: ['Devocional: Hoje é o dia, alegre-se!', 'Devocional Diário: Caminhando na verdade e esperança de Deus', 'Maranata, vem Senhor Jesus!']
-INFO:root:Found 5 URLs: ['/salmos_de_gratidao_ao_criador/', '/frases_de_gratidao_a_deus/', '/mensagens_de_agradecimento_a_deus_por_mais_um_dia/']
-INFO:root:Found 3 descriptions: ['Este é o dia que o Senhor fez; nele nos alegraremo', 'Mostra-me, Senhor, os teus caminhos,\nensina-me as ', 'Aquele que dá testemunho destas coisas diz: "Sim, ']
-INFO:root:Found 3 dates: ['JANEIRO\n\n19\nSEGUNDA', 'JANEIRO\n\n18\nDOMINGO', 'JANEIRO\n\n17\nSÁBADO']
+INFO:root:Response length: 345416 characters
+INFO:root:HTML parsed, length: 335118 characters
+INFO:root:Found 3 titles: ['100 motivos para agradecer!', 'Devocional: Hoje é o dia, alegre-se!', 'Devocional Diário: Caminhando na verdade e esperança de Deus']
+INFO:root:Found 5 URLs: ['/significado_gratidao_na_biblia/', '/salmos_de_gratidao_ao_criador/', '/frases_de_gratidao_a_deus/']
+INFO:root:Found 3 descriptions: ['Deem graças em todas as circunstâncias, pois esta ', 'Este é o dia que o Senhor fez; nele nos alegraremo', 'Mostra-me, Senhor, os teus caminhos,\nensina-me as ']
+INFO:root:Found 3 dates: ['JANEIRO\n\n20\nTERÇA', 'JANEIRO\n\n19\nSEGUNDA', 'JANEIRO\n\n18\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Devocional: Hoje é o dia, alegre-se!', ID=6d3221c342d01db2db38ab7e22351d91
-INFO:root:Processing entry 2: Title='Devocional Diário: Caminhando na verdade e esperança de Deus', ID=4221514b8c5369947b2c9e313c1996a5
-INFO:root:Processing entry 3: Title='Maranata, vem Senhor Jesus!', ID=bcece68bf1ae755fa511689daeafeff3
+INFO:root:Processing entry 1: Title='100 motivos para agradecer!', ID=1da71ebfb4dbbbd77b38f1c16868f871
+INFO:root:Processing entry 2: Title='Devocional: Hoje é o dia, alegre-se!', ID=6d3221c342d01db2db38ab7e22351d91
+INFO:root:Processing entry 3: Title='Devocional Diário: Caminhando na verdade e esperança de Deus', ID=4221514b8c5369947b2c9e313c1996a5
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: 100 motivos para agradecer!
+INFO:root:🔹 URL: https://www.bibliaon.com/significado_gratidao_na_biblia/
+INFO:root:🔹 Description: Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.
+- 1 Tessalonicenses 5:18
+
+A gratidão é uma expressão viva da nossa fé. Quando agradecemos a Deus, reconhecemos que tudo o que somos e temos vem d’Ele. Mesmo em meio às lutas, o coração grato enxerga a mão de Deus sustentando, ensinando e cuidando. Este texto é um convite para pausar, refletir e louvar ao Senhor por Seus inúmeros benefícios.
+Que esta lista possa te ajudar em momentos de oração, devoção pessoal ou culto, lembrando que sempre há motivos para agradecer a Deus.
+Veja 100 motivos para agradecer a Deus hoje:
+
+Pela vida
+Pelo dom da salvação
+Pelo amor incondicional
+Pela graça que nos alcança
+Pela misericórdia renovada a cada manhã
+Pelo perdão dos pecados
+Pelo sacrifício de Jesus na cruz
+Pela ressurreição de Jesus
+Pelo Espírito Santo
+Pela Palavra de Deus
+Pela fé
+Pela esperança
+Pela paz que excede todo entendimento
+Pela família
+Pelos amigos
+Pela igreja
+Pela comunhão dos irmãos
+Pela oração
+Pelas respostas às orações
+Pelos livramentos
+Pela proteção diária
+Pela provisão
+Pelo pão de cada dia
+Pela saúde
+Pela força nos dias difíceis
+Pelo consolo nas aflições
+Pela alegria da salvação
+Pelo cuidado constante
+Pela fidelidade de Deus
+Pelas promessas cumpridas
+Pelas promessas que ainda se cumprirão
+Pela criação
+Pelo sol
+Pela chuva
+Pelo ar que respiramos
+Pelo trabalho
+Pelos dons e talentos
+Pelas oportunidades
+Pelos aprendizados da vida
+Pelas portas abertas
+Pelas portas fechadas que nos protegeram
+Pela direção de Deus
+Pela sabedoria do alto
+Pela disciplina que nos ensina
+Pela paciência de Deus conosco
+Pelo amor demonstrado diariamente
+Pela liberdade em Cristo
+Pela verdade que liberta
+Pela luz em meio às trevas
+Pela presença constante de Deus
+Pela esperança em tempos difíceis
+Pela cura física e emocional
+Pela restauração
+Pela nova chance a cada dia
+Pelo propósito de vida
+Pela alegria verdadeira
+Pela segurança em Deus
+Pelo descanso da alma
+Pela justiça divina
+Pela bondade do Senhor
+Pela compaixão de Deus
+Pela paz no coração
+Pela fé que cresce
+Pela confiança no futuro
+Pela vitória sobre o medo
+Pela vitória sobre o pecado
+Pela transformação de vidas
+Pela chance de recomeçar
+Pela esperança eterna
+Pela promessa da vida eterna
+Pela presença de Deus nos detalhes
+Pelo cuidado nos momentos de dor
+Pela alegria nas pequenas coisas
+Pelo amor derramado em nossos corações
+Pela certeza de que Deus nos ouve
+Pela direção do Espírito Santo
+Pela proteção espiritual
+Pela armadura de Deus
+Pela fé em meio às provações
+Pela maturidade espiritual
+Pela humildade aprendida
+Pela perseverança
+Pela vitória em Cristo
+Pela comunhão com Deus
+Pela paz com Deus
+Pela reconciliação com o Pai
+Pela obediência que gera frutos
+Pela confiança no Senhor
+Pela esperança que não decepciona
+Pela alegria no Senhor
+Pela força para continuar
+Pela luz da Palavra
+Pela certeza do amor de Deus
+Pela presença de Deus em todo tempo
+Pela promessa de nunca nos abandonar
+Pela vida abundante em Cristo
+Pela transformação diária
+Pela fé renovada
+Pela certeza da vitória final
+Porque Deus é bom em todo tempo
+
+Para orar:
+
+Senhor Deus, nós Te agradecemos por Tua presença constante em nossas vidas. Obrigado pelo amor que nos sustenta, pela graça que nos renova e pela misericórdia que nos alcança a cada dia. Entregamos diante de Ti nossos medos, sonhos e necessidades, confiando que Tu cuidas de tudo com perfeição. Fortalece nossa fé, guia nossos passos e ensina-nos a viver segundo a Tua vontade. Que nossa vida glorifique o Teu nome hoje e sempre. Em nome de Jesus, amém
+
+Veja também: Estudo bíblico sobre gratidão (com exemplos)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Devocional: Hoje é o dia, alegre-se!
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_de_gratidao_ao_criador/
 INFO:root:🔹 Description: Este é o dia que o Senhor fez; nele nos alegraremos e exultaremos.
@@ -331,32 +460,6 @@ Senhor, guia-me nos Teus caminhos e ensina-me a viver Tua verdade. Que minha esp
 
 Veja também: Versículos de como Deus escreve minha história
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Maranata, vem Senhor Jesus!
-INFO:root:🔹 URL: https://www.bibliaon.com/mensagens_de_agradecimento_a_deus_por_mais_um_dia/
-INFO:root:🔹 Description: Aquele que dá testemunho destas coisas diz: "Sim, venho em breve!"
-Amém. Vem, Senhor Jesus!
-- Apocalipse 22:20
-
-Como está a sua esperança em Jesus? Vivemos dias em que a fé é provada, em que muitos têm colocado a esperança em coisas passageiras, mas a Palavra de Deus nos chama a olhar para o alto, para Aquele que é fiel e verdadeiro.
-A esperança cristã não está baseada em situações favoráveis, mas na própria pessoa de Jesus Cristo. Ele venceu a morte, ressuscitou e prometeu voltar. Essa promessa não é vaga nem distante; é viva, real e transformadora. Quando declaramos “Maranata”, afirmamos que aguardamos o Senhor não com medo, mas com expectativa, fé e amor.
-Esperar por Jesus é viver de maneira vigilante, com o coração alinhado à vontade de Deus. É permanecer fiel, é amar quando o mundo ensina a odiar, é perseverar quando tudo parece difícil. A volta de Cristo nos lembra que esta terra não é o nosso destino final e que há uma glória eterna reservada para aqueles que permanecem firmes na fé.
-Jesus virá para restaurar todas as coisas, enxugar toda lágrima e estabelecer plenamente o Seu Reino. Essa verdade fortalece nossa caminhada diária e renova nossa esperança. Não caminhamos sozinhos; caminhamos sustentados pela promessa daquele que não falha.
-Que a nossa esperança esteja firmada em Cristo, e não nas coisas deste mundo. Que possamos viver cada dia preparados, com lâmpadas acesas e corações cheios de fé. Até que Ele venha, proclamemos com convicção e alegria: Maranata, vem Senhor Jesus!
-Vivendo hoje com os olhos na eternidade
-
-
-Firmar a fé nas promessas bíblicas, lembrando diariamente que Jesus é fiel, soberano, presente e cumprirá tudo o que disse.
-
-Viver em santidade e vigilância, sabendo que nossa esperança cresce quando obedecemos a Palavra e aguardamos Cristo com perseverança constante.
-
-Manter comunhão, oração e amor ao próximo fortalece o coração, renova a esperança e nos prepara para a volta Jesus.
-
-Para orar:
-
-Senhor Deus, nós Te louvamos porque nossa esperança está em Ti. Renova nossa fé, fortalece nossos corações e ajuda-nos a viver vigilantes, firmes na Tua Palavra. Que o Espírito Santo nos conduza em santidade, amor e perseverança, enquanto aguardamos com alegria a gloriosa volta de Jesus. Sustenta-nos nas lutas diárias e faz-nos luz neste mundo. Em nome de Jesus, amém
-
-Veja também: Sinais da volta de Jesus (e 25 versículos que mostram estes sinais)
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -386,15 +489,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  59 ++---
- feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  38 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         | 140 +++++++++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  35 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 118 ++++++----
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               |  78 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 343 +++++++++++++++++-------------
- 11 files changed, 362 insertions(+), 276 deletions(-)
+ output.log                                | 391 ++++++++++++++++++------------
+ 11 files changed, 460 insertions(+), 266 deletions(-)
