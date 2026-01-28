@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 122123 characters
-INFO:root:HTML parsed, length: 114845 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (27/01/2026)', 'Palavra de Ontem (26/01/2026)', 'Palavra de Anteontem (25/01/2026)']
-INFO:root:Found 3 URLs: ['/congruente/', '/iris/', '/penalizar/']
-INFO:root:Found 15 descriptions: ['adjetivo Que apresenta congruência, correspondênci', 'Sinônimos:\n\ncoerente, harmônico, compatível, condi', 'Antônimos:\n\nincongruente']
-INFO:root:Found 3 dates: ['Palavra de Hoje (27/01/2026)', 'Palavra de Ontem (26/01/2026)', 'Palavra de Anteontem (25/01/2026)']
+INFO:root:Response length: 127098 characters
+INFO:root:HTML parsed, length: 119796 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (28/01/2026)', 'Palavra de Ontem (27/01/2026)', 'Palavra de Anteontem (26/01/2026)']
+INFO:root:Found 3 URLs: ['/anjo/', '/congruente/', '/iris/']
+INFO:root:Found 15 descriptions: ['substantivo masculino Ser puramente espiritual que', 'Sinônimos:\n\ncriancinha, querubim', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (28/01/2026)', 'Palavra de Ontem (27/01/2026)', 'Palavra de Anteontem (26/01/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (27/01/2026)', ID=fce59a52a6d93d55762b4a24b83d018f
-INFO:root:Processing entry 2: Title='Palavra de Ontem (26/01/2026)', ID=a76487f8282c5d5ea88866215616218a
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/01/2026)', ID=101cae49bfdfc6c90188d3a67a804887
+INFO:root:Processing entry 1: Title='Palavra de Hoje (28/01/2026)', ID=9138af72bef0f1a5524d3fa00114f13f
+INFO:root:Processing entry 2: Title='Palavra de Ontem (27/01/2026)', ID=4d52bbf27264268f893c21c879457a42
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (26/01/2026)', ID=611f3ce1f8ded630aa86ed26f9b762db
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (27/01/2026) - Significado completo de congruente:
-INFO:root:🔹 URL: https://www.dicio.com.br/congruente/
-INFO:root:🔹 Description: adjetivo Que apresenta congruência, correspondência, semelhança entre características ou propriedades; coerente, apropriado, pertinente.[Matemática] Diz-se de figuras que derivam uma da outra, por transformação circular.[Matemática] Diz-se de números que dão o mesmo resto, quando divididos por um mesmo número, módulo; côngruo.Etimologia (origem da palavra congruente). A palavra congruente tem sua origem no latim "congruens,entis", que significa conveniente.
+INFO:root:🔹 Title: Palavra de Hoje (28/01/2026) - Significado completo de anjo:
+INFO:root:🔹 URL: https://www.dicio.com.br/anjo/
+INFO:root:🔹 Description: substantivo masculino Ser puramente espiritual que, segundo algumas religiões, transmite mensagens espirituais às pessoas na Terra, especialmente aquelas enviadas por Deus.[Artes] Modo de representação desse ser através da arte.[Figurado] Criança muito tranquila, calma, serena.[Figurado] Pessoa dotada de uma qualidade eminente, que se destaca em relação aos demais por suas boas características.Etimologia (origem da palavra anjo). A palavra anjo deriva do grego "ággelos"; pelo latim tardio "angelus, i", com o sentido de "mensageiro de Deus".
  
 Sinônimos:
 
-coerente, harmônico, compatível, condizente, correspondente, adequado, consonante, ajustado, apropriado, proporcional, equivalente, relacionado, pertinente, ligado, associado, correlato, coincidente, côngruo, análogo, consentâneo 
+criancinha, querubim 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (26/01/2026) - Significado completo de íris:
-INFO:root:🔹 URL: https://www.dicio.com.br/iris/
+INFO:root:🔹 Title: Palavra de Ontem (27/01/2026) - Significado completo de congruente:
+INFO:root:🔹 URL: https://www.dicio.com.br/congruente/
 INFO:root:🔹 Description: Sinônimos:
 
-coerente, harmônico, compatível, condizente, correspondente, adequado, consonante, ajustado, apropriado, proporcional, equivalente, relacionado, pertinente, ligado, associado, correlato, coincidente, côngruo, análogo, consentâneo
- 
-Antônimos:
-
-incongruente 
-
+criancinha, querubim
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (25/01/2026) - Significado completo de penalizar:
-INFO:root:🔹 URL: https://www.dicio.com.br/penalizar/
-INFO:root:🔹 Description: Antônimos:
-
-incongruente
- Classe gramatical:adjetivo de dois gêneros
+INFO:root:🔹 Title: Palavra de Anteontem (26/01/2026) - Significado completo de íris:
+INFO:root:🔹 URL: https://www.dicio.com.br/iris/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:an-jo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,96 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 332412 characters
-INFO:root:HTML parsed, length: 322207 characters
-INFO:root:Found 1 titles: ['João 6:35']
-INFO:root:Found 1 URLs: ['/versiculo/joao_6_35/']
-INFO:root:Found 1 descriptions: ['Então Jesus declarou: "Eu sou o pão da vida. Aquel']
+INFO:root:Response length: 325552 characters
+INFO:root:HTML parsed, length: 315347 characters
+INFO:root:Found 1 titles: ['1 Tessalonicenses 5:22']
+INFO:root:Found 1 URLs: ['/versiculo/1_tessalonicenses_5_22/']
+INFO:root:Found 1 descriptions: ['Afastem-se de toda forma de mal. 1 Tessalonicenses']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='João 6:35', ID=3ec2d87482d870c053ac3a5456557614
+INFO:root:Processing entry 1: Title='1 Tessalonicenses 5:22', ID=1335cadd042f684df4a306fe1ce586a4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: João 6:35
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_6_35/
-INFO:root:🔹 Description: Então Jesus declarou: "Eu sou o pão da vida. Aquele que vem a mim nunca terá fome; aquele que crê em mim nunca terá sede. João 6:35
+INFO:root:🔹 Title: 1 Tessalonicenses 5:22
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_tessalonicenses_5_22/
+INFO:root:🔹 Description: Afastem-se de toda forma de mal. 1 Tessalonicenses 5:22
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 334050 characters
-INFO:root:HTML parsed, length: 324672 characters
-INFO:root:Found 3 titles: ['Salmo 4', 'Salmo 73', 'Salmo 55']
-INFO:root:Found 3 URLs: ['/salmos_4/', '/salmos_73/', '/salmos_55/']
-INFO:root:Found 3 descriptions: ['Responde-me quando clamo,\nó Deus que me fazes just', 'Certamente Deus é bom para Israel,\npara os puros d', 'Escuta a minha oração, ó Deus,\nnão ignores a minha']
-INFO:root:Found 3 dates: ['27 de Janeiro de 2026', '26 de Janeiro de 2026', '25 de Janeiro de 2026']
+INFO:root:Response length: 326861 characters
+INFO:root:HTML parsed, length: 317470 characters
+INFO:root:Found 3 titles: ['Salmo 66', 'Salmo 4', 'Salmo 73']
+INFO:root:Found 3 URLs: ['/salmos_66/', '/salmos_4/', '/salmos_73/']
+INFO:root:Found 3 descriptions: ['Aclamem a Deus, povos de toda terra! \nCantem louvo', 'Responde-me quando clamo,\nó Deus que me fazes just', 'Certamente Deus é bom para Israel,\npara os puros d']
+INFO:root:Found 3 dates: ['28 de Janeiro de 2026', '27 de Janeiro de 2026', '26 de Janeiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
-INFO:root:Processing entry 2: Title=' Salmo 73', ID=05c2b68762e3d28ede5707659652f87c
-INFO:root:Processing entry 3: Title=' Salmo 55', ID=eae097287cb7833968feca984d642711
+INFO:root:Processing entry 1: Title=' Salmo 66', ID=15a03b6e313ede2b2a4b5a3c41b598ff
+INFO:root:Processing entry 2: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
+INFO:root:Processing entry 3: Title=' Salmo 73', ID=05c2b68762e3d28ede5707659652f87c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 66
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_66/
+INFO:root:🔹 Description: Aclamem a Deus, povos de toda terra! 
+Cantem louvores ao seu glorioso nome;
+louvem-no gloriosamente! 
+Digam a Deus:
+"Quão temíveis são os teus feitos!
+Tão grande é o teu poder que os teus inimigos
+rastejam diante de ti! 
+Toda a terra te adora
+e canta louvores a ti,
+canta louvores ao teu nome". 
+Venham e vejam o que Deus tem feito;
+como são impressionantes
+as suas obras em favor dos homens! 
+Ele transformou o mar em terra seca,
+e o povo atravessou as águas a pé;
+e ali nos alegramos nele. 
+Ele governa para sempre com o seu poder,
+seus olhos vigiam as nações;
+que os rebeldes
+não se levantem contra ele! 
+Bendigam o nosso Deus, ó povos,
+façam ressoar o som do seu louvor; 
+foi ele quem preservou a nossa vida
+impedindo que os nossos pés escorregassem. 
+Pois tu, ó Deus, nos submeteste à prova
+e nos refinaste como a prata. 
+Fizeste-nos cair numa armadilha
+e sobre nossas costas puseste fardos. 
+Deixaste que os inimigos cavalgassem
+sobre a nossa cabeça;
+passamos pelo fogo e pela água,
+mas a um lugar de fartura nos trouxeste. 
+Para o teu templo virei com holocaustos
+e cumprirei os meus votos para contigo, 
+votos que os meus lábios fizeram
+e a minha boca falou
+quando eu estava em dificuldade. 
+Oferecerei a ti animais gordos em holocausto;
+sacrificarei carneiros, cuja fumaça subirá a ti,
+e também novilhos e cabritos. 
+Venham e ouçam,
+todos vocês que temem a Deus;
+vou contar-lhes o que ele fez por mim. 
+A ele clamei com os lábios;
+com a língua o exaltei. 
+Se eu acalentasse o pecado no coração,
+o Senhor não me ouviria; 
+mas Deus me ouviu,
+deu atenção à oração que lhe dirigi. 
+Louvado seja Deus,
+que não rejeitou a minha oração
+nem afastou de mim o seu amor! 
+ Salmo 66
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 4
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_4/
 INFO:root:🔹 Description: Responde-me quando clamo,
@@ -182,131 +232,79 @@ fiz do Soberano Senhor o meu refúgio;
 proclamarei todos os teus feitos. 
  Salmo 73
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 55
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_55/
-INFO:root:🔹 Description: Escuta a minha oração, ó Deus,
-não ignores a minha súplica; 
-ouve-me e responde-me!
-Os meus pensamentos me perturbam,
-e estou atordoado 
-diante do barulho do inimigo,
-diante da gritaria dos ímpios;
-pois eles aumentam o meu sofrimento
-e, irados, mostram seu rancor. 
-O meu coração está acelerado;
-os pavores da morte me assaltam. 
-Temor e tremor me dominam;
-o medo tomou conta de mim. 
-Então eu disse:
-Quem dera eu tivesse asas como a pomba;
-voaria até encontrar repouso! 
-Sim, eu fugiria para bem longe,
-e no deserto eu teria o meu abrigo. 
-Eu me apressaria em achar refúgio
-longe do vendaval e da tempestade. 
-Destrói os ímpios, Senhor,
-confunde a língua deles,
-pois vejo violência e brigas na cidade. 
-Dia e noite eles rondam por seus muros;
-nela permeiam o crime e a maldade. 
-A destruição impera na cidade;
-a opressão e a fraude jamais deixam suas ruas. 
-Se um inimigo me insultasse,
-eu poderia suportar;
-se um adversário se levantasse contra mim,
-eu poderia defender-me; 
-mas logo você, meu colega,
-meu companheiro, meu amigo chegado, 
-você, com quem eu partilhava
-agradável comunhão
-enquanto íamos com a multidão festiva
-para a casa de Deus! 
-Que a morte
-apanhe os meus inimigos de surpresa!
-Desçam eles vivos para a sepultura,
-pois entre eles o mal acha guarida. 
-Eu, porém, clamo a Deus,
-e o Senhor me salvará. 
-À tarde, pela manhã e ao meio-dia
-choro angustiado,
-e ele ouve a minha voz. 
-Ele me guarda ileso na batalha,
-sendo muitos os que estão contra mim. 
-Deus, que reina desde a eternidade,
-me ouvirá e os castigará.
-Pausa
-Pois jamais mudam sua conduta
-e não têm temor de Deus. 
-Aquele homem se voltou
-contra os seus aliados,
-violando o seu acordo. 
-Macia como manteiga é a sua fala,
-mas a guerra está no seu coração;
-suas palavras são mais suaves que o óleo,
-mas são afiadas como punhais. 
-Entregue suas preocupações ao Senhor,
-e ele o susterá;
-jamais permitirá que o justo venha a cair. 
-Mas tu, ó Deus,
-farás descer à cova da destruição
-aqueles assassinos e traidores,
-os quais não viverão a metade dos seus dias.
-Quanto a mim, porém, confio em ti. 
- Salmo 55
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 335140 characters
-INFO:root:HTML parsed, length: 325394 characters
-INFO:root:Found 3 titles: ['Aproxima-te de Deus: Ele espera por ti de braços abertos', 'Impacte uma vida hoje com o amor de Deus', 'Deus cuida de ti']
+INFO:root:Response length: 328232 characters
+INFO:root:HTML parsed, length: 318485 characters
+INFO:root:Found 3 titles: ['Deus de aliança', 'Aproxima-te de Deus: Ele espera por ti de braços abertos', 'Impacte uma vida hoje com o amor de Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O Senhor está perto\nde todos os que o invocam,\nde ', 'Toda a Lei se resume num só mandamento: "Ame o seu', 'Lancem sobre ele toda a sua ansiedade, porque ele ']
-INFO:root:Found 1 dates: ['Terça, 27 de janeiro de 2026']
+INFO:root:Found 3 descriptions: ['Saibam, portanto, que o Senhor, o seu Deus, é Deus', 'O Senhor está perto\nde todos os que o invocam,\nde ', 'Toda a Lei se resume num só mandamento: "Ame o seu']
+INFO:root:Found 1 dates: ['Quarta, 28 de janeiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Aproxima-te de Deus: Ele espera por ti de braços abertos', ID=a93604f81dd781b9fd982e638758b879
+INFO:root:Processing entry 1: Title='Deus de aliança', ID=84be0f2fcf5e0a9295f8ba4d657223ed
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Aproxima-te de Deus: Ele espera por ti de braços abertos - Palavra de Hoje
+INFO:root:🔹 Title: Deus de aliança - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O Senhor está perto
-de todos os que o invocam,
-de todos os que o invocam com sinceridade.
-- Salmo 145:18
+INFO:root:🔹 Description: Saibam, portanto, que o Senhor, o seu Deus, é Deus; ele é o Deus fiel, que mantém a aliança e a bondade por mil gerações daqueles que o amam e obedecem aos seus mandamentos.
+- Deuteronômio 7:9
 
-Às vezes, podemos pensar que Deus está ocupado demais para atender às nossas orações. Ou talvez acreditemos que somos indignos demais para que Ele nos ouça e nos responda. Nada poderia estar mais longe da verdade! Deus nos ama tanto que está sempre perto e atento quando nos aproximamos Dele e invocamos Sua presença e ajuda.
-Deus conhece nossa condição humana e nossas imperfeições. Ele nos criou! No entanto, o que Ele mais deseja é que abramos a porta do nosso coração e O aceitemos como amigo e Senhor. Ele quer nos ajudar a carregar nossos fardos, nos guiar para o melhor que Ele preparou para nós. Mas Ele espera que nos aproximemos Dele e Lhe demos permissão para agir e nos mostrar o caminho.
-Não precisamos ser perfeitos para nos aproximarmos de Deus, mas sim sinceros. Não precisamos ter vidas perfeitas para buscá-Lo. Ele não se assusta com nossos erros, nem se afasta por causa de nossas fraquezas. Pelo contrário, quando nos aproximamos Dele como somos, encontramos um Pai que ouve, compreende e restaura. Deus honra o coração que verdadeiramente O busca, mesmo quando está quebrantado.
-Devemos buscar a Deus sabendo que Ele deseja participar ativamente de todas as áreas de nossas vidas. Ele quer ser nosso companheiro constante em nossa caminhada diária. Em meio às lutas, decisões difíceis e momentos de medo, Sua presença nos dá paz, direção e esperança. Quando O convidamos para caminhar conosco, descobrimos que Sua força nos ajuda em nossa fraqueza.
-Hoje é um bom dia para se aproximar de Deus. Ele te espera de braços abertos, pronto para ouvir, perdoar e guiar. Não importa o quão distante você se sinta Dele, um único passo em sua direção é suficiente para experimentar Seu amor e graça.
-Com Deus ao seu lado, a vida não só será mais suportável, como também ganhará um novo significado e te preencherá de paz e esperança.
-Veja também: Vinde a mim todos os que estais cansados (Estudo)
+Servimos a um Deus vivo, poderoso e fiel, que se revela como Deus de aliança com o Seu povo. A Palavra nos mostra que o Senhor não é um Deus distante, mas atuante e comprometido com aquilo que promete. Ele é imutável e verdadeiro em todos os Seus caminhos.
+Desde o Antigo Testamento, vemos Deus estabelecendo alianças que envolvem promessa, direção e manifestação do Seu poder. Ele fez aliança com Noé, preservando a humanidade; com Abraão, liberando promessas de bênção; com Israel, revelando Sua glória no deserto com sinais, maravilhas e fogo. Mesmo quando o povo falhava, Deus permanecia fiel, chamando-os ao arrependimento e renovando Sua misericórdia.
+A fidelidade de Deus não é apenas algo para ser lembrado, mas experimentado. A nova aliança em Cristo Jesus é viva e eficaz, selada pelo sangue do Cordeiro e confirmada pelo poder do Espírito Santo. Em Atos, vemos que Deus derramou Seu Espírito sobre toda carne, cumprindo a promessa e demonstrando que Sua aliança continua ativa na Igreja hoje.
+O Espírito Santo é a garantia dessa aliança. Ele consola, corrige, capacita e manifesta dons espirituais para edificação do Corpo de Cristo. O mesmo Deus que curava, libertava e batizava com fogo continua operando com poder no meio do Seu povo.
+Confiar no Deus de aliança é crer que Ele ainda age com milagres, restauração e avivamento. Mesmo em meio às lutas, sabemos que Ele não falha, não abandona e não mente. Sua fidelidade se renova a cada manhã.
+Somos chamados a viver essa aliança com fé viva, oração constante e dependência do Espírito. Servimos a um Deus fiel, que cumpre Suas promessas e permanece conosco até o fim.
+Veja também: 7 promessas de Deus para abençoar o seu dia
  
-O Senhor está perto
-de todos os que o invocam,
-de todos os que o invocam com sinceridade.
-- Salmo 145:18
+Saibam, portanto, que o Senhor, o seu Deus, é Deus; ele é o Deus fiel, que mantém a aliança e a bondade por mil gerações daqueles que o amam e obedecem aos seus mandamentos.
+- Deuteronômio 7:9
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 341372 characters
-INFO:root:HTML parsed, length: 331189 characters
-INFO:root:Found 3 titles: ['Sendo melhor que antes!', 'Sede de Deus', 'Deus que acode na aflição']
-INFO:root:Found 3 URLs: ['/buscar_a_deus/', '/buscai_ao_senhor_enquanto_ha_tempo/', '/buscai_ao_senhor/']
-INFO:root:Found 3 descriptions: ['O seu começo parecerá modesto,\nmas o seu futuro se', 'Tenho sede de Deus, do Deus vivo; quando poderei e', 'Na sua aflição, clamaram ao Senhor, e eles os salv']
-INFO:root:Found 3 dates: ['JANEIRO\n\n27\nTERÇA', 'JANEIRO\n\n26\nSEGUNDA', 'JANEIRO\n\n25\nDOMINGO']
+INFO:root:Response length: 339965 characters
+INFO:root:HTML parsed, length: 329780 characters
+INFO:root:Found 3 titles: ['Coloque seus planos e objetivos nas mãos de Deus', 'Sendo melhor que antes!', 'Sede de Deus']
+INFO:root:Found 4 URLs: ['/confiar_em_deus/', '/buscar_a_deus/', '/buscai_ao_senhor_enquanto_ha_tempo/']
+INFO:root:Found 3 descriptions: ['Consagre ao Senhor\ntudo o que você faz,\ne os seus ', 'O seu começo parecerá modesto,\nmas o seu futuro se', 'Tenho sede de Deus, do Deus vivo; quando poderei e']
+INFO:root:Found 3 dates: ['JANEIRO\n\n28\nQUARTA', 'JANEIRO\n\n27\nTERÇA', 'JANEIRO\n\n26\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Sendo melhor que antes!', ID=ba6c9205c92812b9deb7c28dabf659b4
-INFO:root:Processing entry 2: Title='Sede de Deus', ID=b69e26505417fd884ec54417c6911c9d
-INFO:root:Processing entry 3: Title='Deus que acode na aflição', ID=a6413df91c1313f325258ead8111e6f2
+INFO:root:Processing entry 1: Title='Coloque seus planos e objetivos nas mãos de Deus', ID=f6ad85ec4fed5e810e93e2e7176b47e2
+INFO:root:Processing entry 2: Title='Sendo melhor que antes!', ID=ba6c9205c92812b9deb7c28dabf659b4
+INFO:root:Processing entry 3: Title='Sede de Deus', ID=b69e26505417fd884ec54417c6911c9d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Coloque seus planos e objetivos nas mãos de Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/confiar_em_deus/
+INFO:root:🔹 Description: Consagre ao Senhor
+tudo o que você faz,
+e os seus planos serão bem-sucedidos.
+- Provérbios 16:3
+
+Todos nós fazemos planos. Planejamos o amanhã, o trabalho, a família, os sonhos que carregamos no coração. Isso é natural e faz parte da vida. No entanto, a Palavra de Deus nos ensina que existe um caminho mais seguro e cheio de paz: colocar cada plano, cada objetivo e cada decisão nas mãos do Senhor.
+Consagrar ao Senhor tudo o que fazemos não significa deixar de sonhar ou de agir, mas reconhecer que Deus é soberano e sabe o que é melhor para nós. Quando entregamos nossos projetos a Ele, mostramos confiança, humildade e dependência. É um ato de fé que transforma ansiedade em descanso e medo em esperança.
+Muitas vezes queremos controlar tudo sozinhos e acabamos frustrados quando as coisas não saem como imaginamos. Deus, porém, enxerga além do que vemos. Ele conhece o futuro, entende nossas limitações e sabe exatamente o tempo certo para cada coisa. Quando permitimos que Ele conduza nossos passos, mesmo os desafios se tornam oportunidades de crescimento.
+Colocar os planos nas mãos de Deus também nos ajuda a alinhar nossos desejos com a vontade d’Ele. Nem sempre o sucesso é apenas alcançar aquilo que pedimos, mas viver de acordo com o propósito que Deus tem para nossa vida. Esse sucesso traz paz, alegria e sentido, mesmo em meio às lutas.
+Hoje, faça uma pausa e apresente seus sonhos ao Senhor. Ore, confie e caminhe com fé. Deus honra aqueles que dependem d’Ele. Quando colocamos nossos planos e objetivos em Suas mãos, podemos seguir com a certeza de que Ele está no controle e cuidará de cada detalhe do nosso caminho.
+Colocando os planos nas mãos de Deus
+
+Ore diariamente entregando seus planos a Deus, pedindo direção, sabedoria e paz, confiando que Ele guia decisões, corrige caminhos e sustenta passos fiéis.
+Planeje com responsabilidade, mas mantenha o coração aberto para mudanças, entendendo que Deus pode redirecionar sonhos para propósitos maiores e eternos divinos perfeitos.
+Confie mesmo quando resultados demorarem, lembrando que obediência diária agrada a Deus, fortalece a fé, amadurece o caráter e produz paz verdadeira constante.
+
+Para orar:
+
+Senhor Deus, entregamos a Ti nossos planos, sonhos e decisões. Reconhecemos que dependemos da Tua sabedoria e direção. Ensina-nos a confiar mesmo quando não entendemos o caminho, a obedecer mesmo quando é difícil e a descansar na Tua vontade. Que nossos passos sejam guiados pela fé, e que tudo o que fizermos glorifique o Teu nome. Cuidar de nós e conduzir-nos segundo o Teu propósito. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre crer e confiar somente em Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Sendo melhor que antes!
 INFO:root:🔹 URL: https://www.bibliaon.com/buscar_a_deus/
 INFO:root:🔹 Description: O seu começo parecerá modesto,
@@ -366,24 +364,6 @@ Versículos sobre Buscar a Deus
 Buscai ao Senhor enquanto se pode achar
 Isaías 55:6 - Buscai ao Senhor
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Deus que acode na aflição
-INFO:root:🔹 URL: https://www.bibliaon.com/buscai_ao_senhor/
-INFO:root:🔹 Description: Na sua aflição, clamaram ao Senhor, e eles os salvou da tribulação em que se encontravam.
-Salmos 107:13
-
-Inúmeras vezes na vida passamos por aflições e tempos difíceis. Pessoalmente, já tivemos experiências ou ouvimos testemunhos de pessoas que clamaram a Deus nas suas dificuldades e foram salvos das suas angústias. Náufragos que foram salvos, aeronaves em turbulência foram livres da queda fatal, colisões de automóveis, acidentes, mas vidas preservadas... Pessoas salvas em assaltos, perseguições e sequestros...
-Enfim, poderíamos continuar a lembrar de várias situações em que o Senhor guardou e socorreu o seu povo. 
-No passado, no presente ou no futuro, o nosso Deus é o Deus de livramento! O Salmo 107 fala da lealdade, misericórdia e amor do Senhor que livra os aflitos quando buscam a Sua ajuda. O Senhor faz maravilhas em favor dos homens. Clame por Sua misericórdia e proteção, Ele é bom e fiel!
-Na sua aflição, clame ao Senhor!
-
-Não perca tempo: busque ao Senhor em todo tempo! Nas horas de angústia, tristeza e tribulação faça Dele a sua bóia de salvação! Ele é o Deus todo-poderoso, pode lhe socorrer.
-Ore com fé! Peça auxílio e proteção diariamente. Deus é generoso em misericórdia e graça. Ele ajuda e sustenta as vidas dos seus filhos.
-Na escuridão e nos momentos de desespero, creia na presença de Deus contigo. Ele não lhe abandona, Ele te escolheu, te ama e te ajuda.
-
-Para Orar:
-
-Meu Deus e Pai, protege-me neste dia! Ajuda-me nos momentos de aflição e perigo, Senhor! Quando os meus olhos não conseguirem ver uma saída, que o meu coração possa confiar no poder do Teu amor. Obrigado porque estás sempre comigo, nas horas felizes e tristes. Fica comigo e com todos os teus filhos, hoje e sempre! Amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -413,15 +393,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++--
- feeds/devocional_de_hoje/feed.json        |  14 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  32 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  40 ++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  26 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 133 +++---------
+ feeds/salmo_do_dia/atom.xml               | 126 +++++-------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 345 +++++++++++-------------------
- 11 files changed, 236 insertions(+), 402 deletions(-)
+ output.log                                | 324 ++++++++++++++----------------
+ 11 files changed, 273 insertions(+), 325 deletions(-)
