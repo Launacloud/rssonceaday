@@ -1,38 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 125415 characters
-INFO:root:HTML parsed, length: 118506 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (05/02/2026)', 'Palavra de Ontem (04/02/2026)', 'Palavra de Anteontem (03/02/2026)']
-INFO:root:Found 3 URLs: ['/criopreservacao/', '/morte/', '/bandidagem/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Conservação de algo a tempera', 'Classe gramatical:substantivo feminino', 'Sílabas:crio-pre-ser-va-ção']
-INFO:root:Found 3 dates: ['Palavra de Hoje (05/02/2026)', 'Palavra de Ontem (04/02/2026)', 'Palavra de Anteontem (03/02/2026)']
+INFO:root:Response length: 125480 characters
+INFO:root:HTML parsed, length: 118571 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (06/02/2026)', 'Palavra de Ontem (05/02/2026)', 'Palavra de Anteontem (04/02/2026)']
+INFO:root:Found 3 URLs: ['/agrofloresta/', '/criopreservacao/', '/morte/']
+INFO:root:Found 13 descriptions: ['adjetivo Sistema que, estruturado como os ecossist', 'Sinônimos:\n\nreflorestamento, regeneração, cultivo,', 'Classe gramatical:adjetivo de dois gêneros']
+INFO:root:Found 3 dates: ['Palavra de Hoje (06/02/2026)', 'Palavra de Ontem (05/02/2026)', 'Palavra de Anteontem (04/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (05/02/2026)', ID=83d07cf37c5f3db45601fa3b6d26c04d
-INFO:root:Processing entry 2: Title='Palavra de Ontem (04/02/2026)', ID=cf1f83adc536efaabbbf767377ca7052
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (03/02/2026)', ID=f0ae751b950bd0138f03093191d63477
+INFO:root:Processing entry 1: Title='Palavra de Hoje (06/02/2026)', ID=21b164341f8a38c06eedf0974f620832
+INFO:root:Processing entry 2: Title='Palavra de Ontem (05/02/2026)', ID=1c2acd7e6cab27617f91c78436bea20a
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (04/02/2026)', ID=083b487133768053739c6206a7054145
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (05/02/2026) - Significado completo de criopreservação:
-INFO:root:🔹 URL: https://www.dicio.com.br/criopreservacao/
-INFO:root:🔹 Description: substantivo feminino Conservação de algo a temperaturas muito baixas, através da submersão em nitrogénio líquido, geralmente estruturas orgânicas, células, órgãos, pessoas etc.: óvulos e espermatozoides podem ser conservados por criopreservação.Etimologia (origem da palavra criopreservação). A palavra criopreservação tem sua origem pela junção do sufixo crio-, do grego “kryos” que significa gelo, e da palavra preservação.
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (04/02/2026) - Significado completo de morte:
-INFO:root:🔹 URL: https://www.dicio.com.br/morte/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:crio-pre-ser-va-ção
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (03/02/2026) - Significado completo de bandidagem:
-INFO:root:🔹 URL: https://www.dicio.com.br/bandidagem/
-INFO:root:🔹 Description: Sílabas:crio-pre-ser-va-ção
+INFO:root:🔹 Title: Palavra de Hoje (06/02/2026) - Significado completo de agrofloresta:
+INFO:root:🔹 URL: https://www.dicio.com.br/agrofloresta/
+INFO:root:🔹 Description: adjetivo Sistema que, estruturado como os ecossistemas naturais, se baseia no uso sustentável de terra, buscando agregar o cultivo e a preservação de espécies nativas e florestais com atividades agrícolas e pecuárias; sistema agroflorestal.Etimologia (origem da palavra agrofloresta). A palavra agrofloresta tem sua origem na junção de agro-, e floresta.
  
 Sinônimos:
 
-falecimento, óbito, estiolamento, passamento, perecimento, decesso, definhamento, desencarne, extinção, fim, cessação, aniquilamento, destruição 
+reflorestamento, regeneração, cultivo, policultura, agroflorestal 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (05/02/2026) - Significado completo de criopreservação:
+INFO:root:🔹 URL: https://www.dicio.com.br/criopreservacao/
+INFO:root:🔹 Description: Sinônimos:
+
+reflorestamento, regeneração, cultivo, policultura, agroflorestal
+ Classe gramatical:adjetivo de dois gêneros
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (04/02/2026) - Significado completo de morte:
+INFO:root:🔹 URL: https://www.dicio.com.br/morte/
+INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros
+ Sílabas:agro-flo-res-ta
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +42,80 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 310997 characters
-INFO:root:HTML parsed, length: 300793 characters
-INFO:root:Found 1 titles: ['Êxodo 20:14']
-INFO:root:Found 1 URLs: ['/versiculo/exodo_20_14/']
-INFO:root:Found 1 descriptions: ['"Não adulterarás. Êxodo 20:14']
+INFO:root:Response length: 310965 characters
+INFO:root:HTML parsed, length: 300761 characters
+INFO:root:Found 1 titles: ['Romanos 11:36']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_11_36/']
+INFO:root:Found 1 descriptions: ['Pois dele, por ele e para ele são todas as coisas.']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Êxodo 20:14', ID=9ab305d189306b6c448ab1e1145e62db
+INFO:root:Processing entry 1: Title='Romanos 11:36', ID=c11157e6dc3f5bbd2da77ef6dab4b38b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Êxodo 20:14
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/exodo_20_14/
-INFO:root:🔹 Description: "Não adulterarás. Êxodo 20:14
+INFO:root:🔹 Title: Romanos 11:36
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_11_36/
+INFO:root:🔹 Description: Pois dele, por ele e para ele são todas as coisas.
+A ele seja a glória
+para sempre! Amém. Romanos 11:36
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316103 characters
-INFO:root:HTML parsed, length: 306771 characters
-INFO:root:Found 3 titles: ['Salmo 147', 'Salmo 139', 'Salmo 18']
-INFO:root:Found 3 URLs: ['/salmos_147/', '/salmos_139/', '/salmos_18/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nComo é bom cantar louvores ao nosso Deus!', 'Senhor, tu me sondas e me conheces. \nSabes quando ', 'Eu te amo, ó Senhor, minha força. \nO Senhor é a mi']
-INFO:root:Found 3 dates: ['5 de Fevereiro de 2026', '4 de Fevereiro de 2026', '3 de Fevereiro de 2026']
+INFO:root:Response length: 312543 characters
+INFO:root:HTML parsed, length: 303155 characters
+INFO:root:Found 3 titles: ['Salmo 5', 'Salmo 147', 'Salmo 139']
+INFO:root:Found 3 URLs: ['/salmos_5/', '/salmos_147/', '/salmos_139/']
+INFO:root:Found 3 descriptions: ['Escuta, Senhor, as minhas palavras,\nconsidera o me', 'Aleluia!\nComo é bom cantar louvores ao nosso Deus!', 'Senhor, tu me sondas e me conheces. \nSabes quando ']
+INFO:root:Found 3 dates: ['6 de Fevereiro de 2026', '5 de Fevereiro de 2026', '4 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 147', ID=dfcb6cf1e08521a2bda738555423051a
-INFO:root:Processing entry 2: Title=' Salmo 139', ID=a7e635d36a8b14a8c51005103bd4b395
-INFO:root:Processing entry 3: Title=' Salmo 18', ID=38fb8b6fb6bf686481f4c5e55583b557
+INFO:root:Processing entry 1: Title=' Salmo 5', ID=b7b7d93b5eb60b7b9597e8f4b5f5ff34
+INFO:root:Processing entry 2: Title=' Salmo 147', ID=dfcb6cf1e08521a2bda738555423051a
+INFO:root:Processing entry 3: Title=' Salmo 139', ID=a7e635d36a8b14a8c51005103bd4b395
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 5
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_5/
+INFO:root:🔹 Description: Escuta, Senhor, as minhas palavras,
+considera o meu gemer. 
+Atenta para o meu grito de socorro,
+meu Rei e meu Deus,
+pois é a ti que imploro. 
+De manhã ouves, Senhor, o meu clamor;
+de manhã te apresento a minha oração
+e aguardo com esperança. 
+Tu não és um Deus
+que tenha prazer na injustiça;
+contigo o mal não pode habitar. 
+Os arrogantes não são aceitos
+na tua presença;
+odeias todos os que praticam o mal. 
+Destróis os mentirosos;
+os assassinos e os traiçoeiros
+o Senhor detesta. 
+Eu, porém, pelo teu grande amor, entrarei em tua casa; com temor me inclinarei para o teu santo templo. 
+Conduze-me, Senhor, na tua justiça, por causa dos meus inimigos; aplaina o teu caminho diante de mim. 
+Em seus lábios não há palavra confiável;
+a mente deles só trama destruição.
+A garganta é um túmulo aberto;
+com a língua enganam sutilmente. 
+Condena-os, ó Deus!
+Caiam eles por suas próprias maquinações.
+Expulsa-os por causa dos seus muitos crimes,
+pois se rebelaram contra ti. 
+Alegrem-se, porém,
+todos os que se refugiam em ti;
+cantem sempre de alegria!
+Estende sobre eles a tua proteção.
+Em ti exultem os que amam o teu nome. 
+Pois tu, Senhor, abençoas o justo;
+o teu favor o protege como um escudo. 
+ Salmo 5
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 147
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_147/
 INFO:root:🔹 Description: Aleluia!
@@ -194,188 +236,91 @@ Vê se em minha conduta algo te ofende
 e dirige-me pelo caminho eterno. 
  Salmo 139
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 18
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_18/
-INFO:root:🔹 Description: Eu te amo, ó Senhor, minha força. 
-O Senhor é a minha rocha, a minha fortaleza
-e o meu libertador;
-o meu Deus é o meu rochedo,
-em quem me refugio.
-Ele é o meu escudo e o poder que me salva,
-a minha torre alta. 
-Clamo ao Senhor, que é digno de louvor,
-e estou salvo dos meus inimigos. 
-As cordas da morte me enredaram;
-as torrentes da destruição me surpreenderam. 
-As cordas do Sheol me envolveram;
-os laços da morte me alcançaram. 
-Na minha aflição clamei ao Senhor;
-gritei por socorro ao meu Deus.
-Do seu templo ele ouviu a minha voz;
-meu grito chegou à sua presença,
-aos seus ouvidos. 
-A terra tremeu e agitou-se,
-e os fundamentos dos montes se abalaram;
-estremeceram porque ele se irou. 
-Das suas narinas subiu fumaça;
-da sua boca saíram brasas vivas
-e fogo consumidor. 
-Ele abriu os céus e desceu;
-nuvens escuras estavam sob os seus pés. 
-Montou um querubim e voou,
-deslizando sobre as asas do vento. 
-Fez das trevas o seu esconderijo;
-das escuras nuvens, cheias de água,
-o abrigo que o envolvia. 
-Com o fulgor da sua presença
-as nuvens se desfizeram em granizo e raios, 
-quando dos céus trovejou o Senhor,
-e ressoou a voz do Altíssimo. 
-Atirou suas flechas e dispersou meus inimigos,
-com seus raios os derrotou. 
-O fundo do mar apareceu,
-e os fundamentos da terra foram expostos
-pela tua repreensão, ó Senhor,
-com o forte sopro das tuas narinas. 
-Das alturas estendeu a mão e me segurou;
-tirou-me das águas profundas. 
-Livrou-me do meu inimigo poderoso,
-dos meus adversários, fortes demais para mim. 
-Eles me atacaram no dia da minha desgraça,
-mas o Senhor foi o meu amparo. 
-Ele me deu total libertação;
-livrou-me porque me quer bem. 
-O Senhor me tratou
-conforme a minha justiça;
-conforme a pureza das minhas mãos
-recompensou-me. 
-Pois segui os caminhos do Senhor;
-não agi como ímpio,
-afastando-me do meu Deus. 
-Todas as suas ordenanças estão diante de mim;
-não me desviei dos seus decretos. 
-Tenho sido irrepreensível para com ele
-e guardei-me de praticar o mal. 
-O Senhor me recompensou
-conforme a minha justiça,
-conforme a pureza das minhas mãos
-diante dos seus olhos. 
-Ao fiel te revelas fiel,
-ao irrepreensível te revelas irrepreensível, 
-ao puro te revelas puro,
-mas com o perverso reages à altura. 
-Salvas os que são humildes,
-mas humilhas os de olhos altivos. 
-Tu, Senhor, manténs acesa a minha lâmpada;
-o meu Deus transforma em luz as minhas trevas. 
-Com o teu auxílio posso atacar uma tropa;
-com o meu Deus posso transpor muralhas. 
-Este é o Deus cujo caminho é perfeito;
-a palavra do Senhor
-é comprovadamente genuína.
-Ele é um escudo para todos
-os que nele se refugiam. 
-Pois quem é Deus além do Senhor?
-E quem é rocha senão o nosso Deus? 
-Ele é o Deus que me reveste de força
-e torna perfeito o meu caminho. 
-Torna os meus pés ágeis como os da corça,
-sustenta-me firme nas alturas. 
-Ele treina as minhas mãos para a batalha
-e os meus braços
-para vergar um arco de bronze. 
-Tu me dás o teu escudo de vitória;
-tua mão direita me sustém;
-desces ao meu encontro para exaltar-me. 
-Deixaste livre o meu caminho,
-para que não se torçam os meus tornozelos. 
-Persegui os meus inimigos e os alcancei;
-e não voltei enquanto não foram destruídos. 
-Massacrei-os, e não puderam levantar-se;
-jazem debaixo dos meus pés. 
-Deste-me força para o combate;
-subjugaste os que se rebelaram contra mim. 
-Puseste os meus inimigos em fuga
-e exterminei os que me odiavam. 
-Gritaram por socorro,
-mas não houve quem os salvasse;
-clamaram ao Senhor, mas ele não respondeu. 
-Eu os reduzi a pó, pó que o vento leva.
-Pisei-os como à lama das ruas. 
-Tu me livraste de um povo em revolta;
-fizeste-me o cabeça de nações;
-um povo que não conheci sujeita-se a mim. 
-Assim que me ouvem, me obedecem;
-são estrangeiros que se submetem a mim. 
-Todos eles perderam a coragem;
-tremendo, saem das suas fortalezas. 
-O Senhor vive! Bendita seja a minha Rocha!
-Exaltado seja Deus, o meu Salvador! 
-Este é o Deus que em meu favor
-executa vingança,
-que a mim sujeita nações. 
-Tu me livraste dos meus inimigos;
-sim, fizeste-me triunfar
-sobre os meus agressores,
-e de homens violentos me libertaste. 
-Por isso eu te louvarei entre as nações,
-ó Senhor;
-cantarei louvores ao teu nome. 
-Ele dá grandes vitórias ao seu rei;
-é bondoso com o seu ungido,
-com Davi e os seus descendentes para sempre. 
- Salmo 18
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 313661 characters
-INFO:root:HTML parsed, length: 303912 characters
-INFO:root:Found 3 titles: ['Lutando contra o ego', 'Deus quer fazer algo bom em você hoje', 'Liberando perdão, aliviando o coração']
+INFO:root:Response length: 313857 characters
+INFO:root:HTML parsed, length: 304116 characters
+INFO:root:Found 3 titles: ['Leve sua dor ao Senhor', 'Lutando contra o ego', 'Deus quer fazer algo bom em você hoje']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Pois quem quiser salvar a sua vida, a perderá, mas', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'Sejam bondosos e compassivos uns para com os outro']
-INFO:root:Found 1 dates: ['Quinta, 5 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Minhas lágrimas têm sido o meu alimento\nde dia e d', 'Pois quem quiser salvar a sua vida, a perderá, mas', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ']
+INFO:root:Found 1 dates: ['Sexta, 6 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Lutando contra o ego', ID=bb3ea38ffca40c963d8ffbe24a093a5e
+INFO:root:Processing entry 1: Title='Leve sua dor ao Senhor', ID=4d00a6b4fc4b0d520ec46e455d0774e7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Lutando contra o ego - Palavra de Hoje
+INFO:root:🔹 Title: Leve sua dor ao Senhor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Pois quem quiser salvar a sua vida, a perderá, mas quem perder a sua vida por minha causa, a encontrará.
-- Mateus 16:25
+INFO:root:🔹 Description: Minhas lágrimas têm sido o meu alimento
+de dia e de noite,
+pois me perguntam o tempo todo:
+"Onde está o seu Deus?"
+- Salmo 42:3
 
-Vivemos em um tempo em que o “eu” tem sido colocado no centro de tudo. As pessoas são ensinadas a pensar apenas em si mesmas, em seus desejos, suas vontades e seus próprios interesses.
-A sociedade valoriza a individualização extrema, onde cada um busca sua própria felicidade sem se preocupar com o outro. Esse modo de viver, pouco a pouco, nos afasta de Deus e dos princípios ensinados por Jesus.
-Quando o ego domina o coração, deixamos de ouvir a voz de Deus. Passamos a confiar apenas em nossas forças e esquecemos que dependemos do Senhor em todas as coisas. A Bíblia nos ensina que fomos criados para viver em comunhão, para compartilhar, servir e amar. No entanto, as tendências atuais nos incentivam a competir, a nos comparar e a buscar reconhecimento pessoal acima de tudo.
-Jesus nos mostrou um caminho diferente. Ele viveu com humildade, serviu aos outros e amou até aqueles que o rejeitaram. Seguir a Cristo é aprender a negar o próprio ego todos os dias. É entender que não somos o centro, mas que Deus deve ocupar o primeiro lugar em nossa vida.
-A humildade nos aproxima de Deus e das pessoas. Quando somos humildes, reconhecemos nossas falhas e aprendemos a perdoar. Quando compartilhamos, demonstramos amor na prática. Amar o próximo não é apenas um sentimento, mas uma atitude diária de cuidado, respeito e serviço.
-Lutar contra o ego não é fácil, mas é necessário. É um exercício diário de oração, entrega e obediência. Quanto mais deixamos Deus agir em nós, mais aprendemos a viver conforme a Sua vontade.
-Que possamos escolher o caminho do amor, da humildade e da comunhão, refletindo o caráter de Cristo em um mundo cada vez mais distante desses valores.
-Veja também: Os Frutos da Carne e os Frutos do Espírito (Estudo Bíblico)
+
+Por que você está assim tão triste,
+ó minha alma?
+Por que está assim tão perturbada
+dentro de mim?
+Ponha a sua esperança em Deus!
+- Salmo 42:5a
+
+Quer queiramos ou não, a dor e o sofrimento fazem parte da vida. Vivemos num mundo imperfeito e, mais cedo ou mais tarde, lamentaremos a perda de alguém que amamos, enfrentaremos problemas de saúde graves ou vivenciaremos algo que nos abalará profundamente. Nesses momentos em que lutamos para conter as lágrimas, Deus continua sendo Deus. Ele ainda tem poder e podemos continuar confiando Nele.
+Em meio ao nosso sofrimento, Deus nos convida a nos aproximarmos Dele como estamos. Ele nos recebe de braços abertos quando nos apresentamos diante Dele com um coração sincero e nos entregamos aos Seus pés. Entregar nossa dor ao Senhor não é sinal de fraqueza, mas de confiança. Ao fazê-lo, reconhecemos que não podemos carregar o fardo sozinhos. É nos voltarmos para Aquele que nos conhece profundamente e compreende cada uma de nossas lágrimas.
+Quando colocamos nosso fardo nas mãos de Deus, lembramos que Ele é um Pai próximo, atencioso e compassivo. Mesmo que as circunstâncias não mudem, Sua presença nos envolve e nos sustenta. Ele caminha conosco pelo vale, nos dá paz em meio à tempestade e renova nossa esperança quando tudo parece sombrio. Deus não é indiferente à nossa dor. Pelo contrário, Ele a faz Sua e nos fortalece com Seu amor fiel.
+Portanto, mesmo em dias de tristeza e incerteza, podemos erguer os olhos e esperar no Senhor. Ele é sempre fiel, e Suas promessas são verdadeiras e eternas. Ao levarmos nossa dor a Ele, aprendemos a confiar, a adorá-Lo em meio às lágrimas e a crer que, no tempo perfeito dEle, Ele trará consolo, cura e vida nova.
+Deus jamais nos abandonará. Da mesma forma, Ele permanecerá ao nosso lado, velando por nós e nos ensinando que sempre há esperança, paz e vida eterna em Ele.
+Veja também: Versículos para superar a dor
  
-Pois quem quiser salvar a sua vida, a perderá, mas quem perder a sua vida por minha causa, a encontrará.
-- Mateus 16:25
+Minhas lágrimas têm sido o meu alimento
+de dia e de noite,
+pois me perguntam o tempo todo:
+"Onde está o seu Deus?"
+- Salmo 42:3
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 323707 characters
-INFO:root:HTML parsed, length: 313512 characters
-INFO:root:Found 3 titles: ['Força e ânimo', 'Você tem motivos para agradecer!', 'Vivendo em comunidade e comunhão']
-INFO:root:Found 3 URLs: ['/esforca_te_e_tem_bom_animo/', '/gratidao_a_deus/', '/comunhao/']
-INFO:root:Found 3 descriptions: ['Não fui eu que ordenei a você? Seja forte e corajo', 'Deem graças em todas as circunstâncias, pois esta ', 'Eles se dedicavam ao ensino dos apóstolos e à comu']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n5\nQUINTA', 'FEVEREIRO\n\n4\nQUARTA', 'FEVEREIRO\n\n3\nTERÇA']
+INFO:root:Response length: 323796 characters
+INFO:root:HTML parsed, length: 313601 characters
+INFO:root:Found 3 titles: ['Infinitamente mais', 'Força e ânimo', 'Você tem motivos para agradecer!']
+INFO:root:Found 3 URLs: ['/bencaos/', '/esforca_te_e_tem_bom_animo/', '/gratidao_a_deus/']
+INFO:root:Found 3 descriptions: ['Àquele que é capaz de fazer infinitamente mais do ', 'Não fui eu que ordenei a você? Seja forte e corajo', 'Deem graças em todas as circunstâncias, pois esta ']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n6\nSEXTA', 'FEVEREIRO\n\n5\nQUINTA', 'FEVEREIRO\n\n4\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Força e ânimo', ID=d76b179fb2ebdbf634b434c58849f916
-INFO:root:Processing entry 2: Title='Você tem motivos para agradecer!', ID=43bd228f38f8e6951e481c3cd1e13179
-INFO:root:Processing entry 3: Title='Vivendo em comunidade e comunhão', ID=bdb0e74c7a7cfe2e5678371270f28f93
+INFO:root:Processing entry 1: Title='Infinitamente mais', ID=8ac087a8e2093fff2c2be7e122e0b076
+INFO:root:Processing entry 2: Title='Força e ânimo', ID=d76b179fb2ebdbf634b434c58849f916
+INFO:root:Processing entry 3: Title='Você tem motivos para agradecer!', ID=43bd228f38f8e6951e481c3cd1e13179
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Infinitamente mais
+INFO:root:🔹 URL: https://www.bibliaon.com/bencaos/
+INFO:root:🔹 Description: Àquele que é capaz de fazer infinitamente mais do que tudo o que pedimos ou pensamos, de acordo com o seu poder que atua em nós,
+- Efésios 3:20
+
+Este versículo nos convida a levantar os olhos além das limitações visíveis e confiar no Deus que age de maneira surpreendente.
+Muitas vezes oramos com expectativas pequenas, moldadas pelo medo, pela experiência passada ou pelas circunstâncias difíceis. Paulo nos lembra que Deus não está preso ao que conseguimos imaginar. Seu poder vai além dos nossos cálculos e atua dentro de nós, transformando corações, renovando a esperança e abrindo caminhos onde parecia não haver saída.
+Crer nisso muda nossa postura diante da vida. Em vez de apenas pedir para sobreviver, aprendemos a pedir para viver plenamente. Em vez de aceitar o desânimo como destino, escolhemos confiar que Deus ainda está trabalhando, mesmo quando não vemos resultados imediatos. O agir de Deus nem sempre é barulhento; muitas vezes Ele opera no silêncio, fortalecendo nossa fé, ajustando nossos desejos e preparando respostas maiores do que pedimos.
+Efésios 3:20 também nos ensina responsabilidade espiritual. O poder de Deus opera em nós, mas exige um coração disponível. Quando buscamos intimidade com Ele, por meio da oração, da Palavra e da obediência diária, nos tornamos instrumentos desse poder no mundo. Passamos a ser canais de amor, graça e reconciliação.
+Que este versículo nos encoraje a sonhar com Deus, confiar sem reservas e caminhar com fé. Mesmo diante das incertezas, podemos descansar sabendo que o Senhor continua escrevendo histórias maiores, mais profundas e mais belas do que tudo aquilo que conseguimos pedir ou imaginar.
+Que essa verdade sustente nossa fé diariamente, renove nossas forças. Que Deus amplie nossa visão espiritual e nos lembre que, em Cristo, sempre há esperança, propósito, direção e um futuro guiado pelo amor.
+Vivendo o Deus que faz infinitamente mais
+
+Ore com fé diariamente, lembrando que Deus age além do visível, confiando menos nas circunstâncias e mais no poder que opera em você.
+Alimente sua esperança lendo a Palavra, mesmo nos dias difíceis, permitindo que Deus renove sua mente e expanda seus sonhos com fé constante.
+Pratique a obediência nas pequenas atitudes diárias, sabendo que Deus usa passos simples para realizar algo muito maior em sua vida com propósito.
+
+Para orar:
+
+Senhor Deus, agradecemos porque Tu és poderoso para fazer além do que pedimos ou pensamos. Entregamos nossos medos, planos e caminhos em Tuas mãos. Fortalece nossa fé, guia nossas decisões e renova nossa esperança todos os dias. Ensina-nos a amar, servir e perseverar mesmo nas lutas. Que vivamos para Tua glória, confiando no Teu agir constante, em nome de Jesus, amém.
+
+Veja também: Versículos com promessas de bênçãos do Senhor
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Força e ânimo
 INFO:root:🔹 URL: https://www.bibliaon.com/esforca_te_e_tem_bom_animo/
 INFO:root:🔹 Description: Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar".
@@ -432,29 +377,6 @@ Senhor Deus, eu Te agradeço por Tua graça que me sustenta todos os dias. Mesmo
 
 Veja também: Versículos de gratidão a Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Vivendo em comunidade e comunhão
-INFO:root:🔹 URL: https://www.bibliaon.com/comunhao/
-INFO:root:🔹 Description: Eles se dedicavam ao ensino dos apóstolos e à comunhão, ao partir do pão e às orações.
-- Atos 2:42
-
-Viver em comunidade e comunhão é um chamado essencial da fé cristã. Desde os primeiros dias da Igreja, vemos que Deus nos convida a caminhar juntos, compartilhando a vida, a fé e o amor.
-A comunhão não é apenas estar perto fisicamente, mas unir corações em Cristo, reconhecendo que somos um só corpo, com muitos membros, cada um com sua função e valor.
-A comunidade cristã é o espaço onde aprendemos a amar de forma prática. É nela que exercitamos o perdão, a paciência, a humildade e o serviço. Quando caminhamos juntos, carregamos os fardos uns dos outros, choramos com os que choram e nos alegramos com os que se alegram. Assim, o amor de Deus se torna visível por meio de nossas atitudes diárias.
-Viver em comunhão também significa abrir mão do individualismo e reconhecer que precisamos uns dos outros. Deus não nos criou para a solidão espiritual, mas para relacionamentos que edificam, exortam e fortalecem a fé. Na comunhão, somos encorajados a permanecer firmes, mesmo em meio às dificuldades, pois sabemos que não estamos sozinhos.
-Além disso, a comunidade é um lugar de crescimento espiritual. Por meio do ensino da Palavra, da oração em conjunto e do partir do pão, somos moldados à imagem de Cristo. Cada encontro se torna uma oportunidade de aprender, servir e testemunhar o agir de Deus em nossas vidas.
-Que possamos viver em comunidade com corações sinceros, guiados pelo amor de Cristo. Ao cultivarmos a comunhão, refletimos o Reino de Deus neste mundo, mostrando que é possível viver em unidade, mesmo em meio às diferenças, para a glória de Deus.
-Fortalecendo a comunhão
-
-Praticar o amor exige ouvir, perdoar, servir com humildade, compartilhando fardos, alegrias, tempo, dons e cuidados sinceros entre irmãos cristãos.
-Buscar comunhão verdadeira significa abandonar individualismo, participar ativamente da igreja, perseverar na oração conjunta, no ensino bíblico e no partir do pão juntos.
-Crescer espiritualmente em comunidade acontece quando cada membro serve com seus dons, edifica outros, aceita correção e caminha unido em Cristo com amor.
-
-Para orar:
-
-Senhor Deus, nós Te agradecemos pela dádiva da comunhão e da vida em comunidade. Ensina-nos a amar como Cristo amou, a servir com humildade e a perdoar com graça. Que nossos corações sejam unidos pelo Teu Espírito, fortalecidos na fé e guiados pela Tua Palavra. Ajuda-nos a carregar os fardos uns dos outros, viver em unidade e refletir o Teu amor em cada atitude. Que tudo o que façamos seja para a Tua glória. Em nome de Jesus, amém.
-
-Veja também: Palavras sobre comunhão na Bíblia
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -484,15 +406,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  35 +++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  30 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  36 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  83 +++++----
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 168 +++----------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 285 ++++++++++++++++--------------
- 11 files changed, 289 insertions(+), 218 deletions(-)
+ output.log                                | 382 ++++++++++++------------------
+ 11 files changed, 270 insertions(+), 438 deletions(-)
