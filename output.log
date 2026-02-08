@@ -1,44 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123471 characters
-INFO:root:HTML parsed, length: 116952 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (07/02/2026)', 'Palavra de Ontem (06/02/2026)', 'Palavra de Anteontem (05/02/2026)']
-INFO:root:Found 3 URLs: ['/cache-teste/', '/agrofloresta/', '/criopreservacao/']
-INFO:root:Found 10 descriptions: ['substantivo masculino Valor pago a artistas, atore', 'Sinônimos:\n\npagamento, remuneração, soldo, comissã', 'Sílabas:ca-chê-tes-te']
-INFO:root:Found 3 dates: ['Palavra de Hoje (07/02/2026)', 'Palavra de Ontem (06/02/2026)', 'Palavra de Anteontem (05/02/2026)']
+INFO:root:Response length: 123771 characters
+INFO:root:HTML parsed, length: 117068 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (08/02/2026)', 'Palavra de Ontem (07/02/2026)', 'Palavra de Anteontem (06/02/2026)']
+INFO:root:Found 3 URLs: ['/aboboda/', '/cache-teste/', '/agrofloresta/']
+INFO:root:Found 11 descriptions: ['substantivo feminino [Popular] Construção curvada ', 'Sinônimos:\n\nabóbada', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (08/02/2026)', 'Palavra de Ontem (07/02/2026)', 'Palavra de Anteontem (06/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (07/02/2026)', ID=b2a1986fc73d0131b41e66c0e74a2000
-INFO:root:Processing entry 2: Title='Palavra de Ontem (06/02/2026)', ID=a03c040bf668eaa122e401dab021c278
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (05/02/2026)', ID=5765b87c63414f1e4f5c1416d719899c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (08/02/2026)', ID=9b85ef31857cae23ca5e889a6eb83563
+INFO:root:Processing entry 2: Title='Palavra de Ontem (07/02/2026)', ID=6f8e3df1ffd26eef1006037c52003320
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/02/2026)', ID=a135979d54407e425f48f91e7281f211
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (07/02/2026) - Significado completo de cachê-teste:
-INFO:root:🔹 URL: https://www.dicio.com.br/cache-teste/
-INFO:root:🔹 Description: substantivo masculino Valor pago a artistas, atores, modelos etc., pelos testes que fazem, especialmente testes de elenco, audições ou outros processos semelhantes.Etimologia (origem da palavra cachê-teste). A palavra cachê-teste tem sua origem pela junção da palavra cachê, pelo francês “cachet” que significa retribuição por apresentação pública, e da palavra teste.
+INFO:root:🔹 Title: Palavra de Hoje (08/02/2026) - Significado completo de abóboda:
+INFO:root:🔹 URL: https://www.dicio.com.br/aboboda/
+INFO:root:🔹 Description: substantivo feminino [Popular] Construção curvada em arco que, feita com concreto, pedras e tijolos bem firmes e apoiados, assume a forma de uma cobertura: abóboda de uma catedral.[Gramática] Grafia não preferencial de abóbada.expressão Abóboda Celeste. O espaço celeste visível; firmamento, céu.Etimologia (origem da palavra abóboda). A palavra abóboda tem sua origem por influência de abóbada.
  
 Sinônimos:
 
-pagamento, remuneração, soldo, comissão, ordenado 
+abóbada 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (06/02/2026) - Significado completo de agrofloresta:
-INFO:root:🔹 URL: https://www.dicio.com.br/agrofloresta/
+INFO:root:🔹 Title: Palavra de Ontem (07/02/2026) - Significado completo de cachê-teste:
+INFO:root:🔹 URL: https://www.dicio.com.br/cache-teste/
 INFO:root:🔹 Description: Sinônimos:
 
-pagamento, remuneração, soldo, comissão, ordenado
- Sílabas:ca-chê-tes-te
+abóbada
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (05/02/2026) - Significado completo de criopreservação:
-INFO:root:🔹 URL: https://www.dicio.com.br/criopreservacao/
-INFO:root:🔹 Description: Sílabas:ca-chê-tes-te
- 
-Sinônimos:
-
-reflorestamento, regeneração, cultivo, policultura, agroflorestal 
-
+INFO:root:🔹 Title: Palavra de Anteontem (06/02/2026) - Significado completo de agrofloresta:
+INFO:root:🔹 URL: https://www.dicio.com.br/agrofloresta/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:a-bó-bo-da
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,40 +42,72 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 311112 characters
-INFO:root:HTML parsed, length: 300908 characters
-INFO:root:Found 1 titles: ['Gênesis 1:24']
-INFO:root:Found 1 URLs: ['/versiculo/genesis_1_24/']
-INFO:root:Found 1 descriptions: ['E disse Deus: "Produza a terra seres vivos de acor']
+INFO:root:Response length: 311294 characters
+INFO:root:HTML parsed, length: 301090 characters
+INFO:root:Found 1 titles: ['Judas 1:20-21']
+INFO:root:Found 1 URLs: ['/versiculo/judas_1_20-21/']
+INFO:root:Found 1 descriptions: ['Edifiquem-se, porém, amados, na santíssima fé que ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Gênesis 1:24', ID=9637131232d8cb021df5f0399c051ed5
+INFO:root:Processing entry 1: Title='Judas 1:20-21', ID=6c5133c7070703cb7cd8b5f2f0824b47
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Gênesis 1:24
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/genesis_1_24/
-INFO:root:🔹 Description: E disse Deus: "Produza a terra seres vivos de acordo com as suas espécies: rebanhos domésticos, ani­mais selvagens e os demais seres vivos da terra, cada um de acor­do com a sua espécie". E assim foi. Gênesis 1:24
+INFO:root:🔹 Title: Judas 1:20-21
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/judas_1_20-21/
+INFO:root:🔹 Description: Edifiquem-se, porém, amados, na santíssima fé que vocês têm, orando no Espírito Santo. Mantenham-se no amor de Deus, enquanto esperam que a misericórdia de nosso Senhor Jesus Cristo os leve para a vida eterna. Judas 1:20-21
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 317212 characters
-INFO:root:HTML parsed, length: 307893 characters
-INFO:root:Found 3 titles: ['Salmo 78', 'Salmo 5', 'Salmo 147']
-INFO:root:Found 3 URLs: ['/salmos_78/', '/salmos_5/', '/salmos_147/']
-INFO:root:Found 3 descriptions: ['Povo meu, escute o meu ensino;\nincline os ouvidos\n', 'Escuta, Senhor, as minhas palavras,\nconsidera o me', 'Aleluia!\nComo é bom cantar louvores ao nosso Deus!']
-INFO:root:Found 3 dates: ['7 de Fevereiro de 2026', '6 de Fevereiro de 2026', '5 de Fevereiro de 2026']
+INFO:root:Response length: 316564 characters
+INFO:root:HTML parsed, length: 307232 characters
+INFO:root:Found 3 titles: ['Salmo 60', 'Salmo 78', 'Salmo 5']
+INFO:root:Found 3 URLs: ['/salmos_60/', '/salmos_78/', '/salmos_5/']
+INFO:root:Found 3 descriptions: ['Tu nos rejeitaste e dispersaste, ó Deus; tu derram', 'Povo meu, escute o meu ensino;\nincline os ouvidos\n', 'Escuta, Senhor, as minhas palavras,\nconsidera o me']
+INFO:root:Found 3 dates: ['8 de Fevereiro de 2026', '7 de Fevereiro de 2026', '6 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
-INFO:root:Processing entry 2: Title=' Salmo 5', ID=b7b7d93b5eb60b7b9597e8f4b5f5ff34
-INFO:root:Processing entry 3: Title=' Salmo 147', ID=dfcb6cf1e08521a2bda738555423051a
+INFO:root:Processing entry 1: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
+INFO:root:Processing entry 2: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
+INFO:root:Processing entry 3: Title=' Salmo 5', ID=b7b7d93b5eb60b7b9597e8f4b5f5ff34
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 60
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_60/
+INFO:root:🔹 Description: Tu nos rejeitaste e dispersaste, ó Deus; tu derramaste a tua ira; restaura-nos agora! 
+Sacudiste a terra e abriste-lhe fendas;
+repara suas brechas,
+pois ameaça desmoronar-se. 
+Fizeste passar o teu povo por tempos difíceis;
+deste-nos um vinho estonteante. 
+Mas aos que te temem deste um sinal
+para que fugissem das flechas. 
+Salva-nos com a tua mão direita
+e responde-nos,
+para que sejam libertos aqueles a quem amas. 
+Do seu santuário Deus falou:
+"No meu triunfo dividirei Siquém
+e repartirei o vale de Sucote. 
+Gileade é minha, Manassés também;
+Efraim é o meu capacete,
+Judá é o meu cetro. 
+Moabe é a pia em que me lavo,
+em Edom atiro a minha sandália;
+sobre a Filístia dou meu brado de vitória!" 
+Quem me levará à cidade fortificada?
+Quem me guiará a Edom? 
+Não foste tu, ó Deus, que nos rejeitaste
+e deixaste de sair com os nossos exércitos? 
+Dá-nos ajuda contra os adversários,
+pois inútil é o socorro do homem. 
+Com Deus conquistaremos a vitória,
+e ele pisoteará os nossos adversários. 
+ Salmo 60
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 78
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_78/
 INFO:root:🔹 Description: Povo meu, escute o meu ensino;
@@ -302,110 +330,76 @@ Pois tu, Senhor, abençoas o justo;
 o teu favor o protege como um escudo. 
  Salmo 5
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 147
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_147/
-INFO:root:🔹 Description: Aleluia!
-Como é bom cantar louvores ao nosso Deus!
-Como é agradável e próprio louvá-lo! 
-O Senhor edifica Jerusalém;
-ele reúne os exilados de Israel. 
-Só ele cura os de coração quebrantado
-e cuida das suas feridas. 
-Ele determina o número de estrelas
-e chama cada uma pelo nome. 
-Grande é o nosso Soberano
-e tremendo é o seu poder;
-é impossível medir o seu entendimento. 
-O Senhor sustém o oprimido,
-mas lança por terra o ímpio. 
-Cantem ao Senhor com ações de graças;
-ao som da harpa façam música
-para o nosso Deus. 
-Ele cobre o céu de nuvens,
-concede chuvas à terra
-e faz crescer a relva nas colinas. 
-Ele dá alimento aos animais,
-e aos filhotes dos corvos
-quando gritam de fome. 
-Não é a força do cavalo
-que lhe dá satisfação,
-nem é a agilidade do homem que lhe agrada; 
-o Senhor se agrada dos que o temem,
-dos que depositam sua esperança no seu amor leal. 
-Exalte o Senhor, ó Jerusalém!
-Louve o seu Deus, ó Sião, 
-pois ele reforçou as trancas de suas portas
-e abençoou o seu povo, que lá habita. 
-É ele que mantém as suas fronteiras
-em segurança
-e que a supre do melhor do trigo. 
-Ele envia sua ordem à terra,
-e sua palavra corre veloz. 
-Faz cair a neve como lã,
-e espalha a geada como cinza. 
-Faz cair o gelo como se fosse pedra.
-Quem pode suportar o seu frio? 
-Ele envia a sua palavra, e o gelo derrete;
-envia o seu sopro, e as águas tornam a correr. 
-Ele revela a sua palavra a Jacó,
-os seus decretos e ordenanças a Israel. 
-Ele não fez isso a nenhuma outra nação;
-todas as outras desconhecem
-as suas ordenanças.
-Aleluia! 
- Salmo 147
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 313704 characters
-INFO:root:HTML parsed, length: 303957 characters
-INFO:root:Found 3 titles: ['Eu sou o que sou', 'Leve sua dor ao Senhor', 'Lutando contra o ego']
+INFO:root:Response length: 313591 characters
+INFO:root:HTML parsed, length: 303844 characters
+INFO:root:Found 3 titles: ['Sim, se for da vontade de Deus!', 'Eu sou o que sou', 'Leve sua dor ao Senhor']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Moisés perguntou: "Quando eu chegar diante dos isr', 'Minhas lágrimas têm sido o meu alimento\nde dia e d', 'Pois quem quiser salvar a sua vida, a perderá, mas']
-INFO:root:Found 1 dates: ['Sábado, 7 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Em vez disso, deveriam dizer: "Se o Senhor quiser,', 'Moisés perguntou: "Quando eu chegar diante dos isr', 'Minhas lágrimas têm sido o meu alimento\nde dia e d']
+INFO:root:Found 1 dates: ['Domingo, 8 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Eu sou o que sou', ID=7e7549cee15517cad687342b4f5cff10
+INFO:root:Processing entry 1: Title='Sim, se for da vontade de Deus!', ID=37df9e3b59f618a428fdf590e459629e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Eu sou o que sou - Palavra de Hoje
+INFO:root:🔹 Title: Sim, se for da vontade de Deus! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Moisés perguntou: "Quando eu chegar diante dos israelitas e lhes disser: O Deus dos seus antepassados me enviou a vocês, e eles me perguntarem: 'Qual é o nome dele?' Que lhes direi?" Disse Deus a Moisés: "Eu Sou o que Sou. É isto que você dirá aos israelitas: Eu Sou me enviou a vocês".
-- Êxodo 3:13-14
+INFO:root:🔹 Description: Em vez disso, deveriam dizer: "Se o Senhor quiser, viveremos e faremos isto ou aquilo".
+- Tiago 4:15
 
-Desde os tempos bíblicos, vemos que a humanidade tenta compreender, com sua mente finita, quem é Deus e como Ele é. Moisés acabara de vivenciar algo incrível: a presença de Deus se manifestou a ele em meio a uma sarça ardente! O Rei dos reis, Criador do universo, estava falando com ele!
-Deus tinha uma missão para Moisés: libertar o povo da escravidão no Egito e guiá-lo à terra prometida. Mas Moisés, em vez de responder com coragem e fé, duvidou e se acovardou. Começou a expressar as dúvidas que, segundo ele, o povo poderia ter e perguntou a Deus Seu nome. Deus respondeu com uma frase que não esclareceu muito. Disse: EU SOU O QUE SOU.
-Assim somos nós, seres humanos. Diariamente, vemos evidências do amor e do poder de Deus, mas, mesmo assim, duvidamos Dele. Queremos compreender tudo com nossas mentes limitadas, mas, na realidade, jamais seremos capazes de compreender ou definir Deus plenamente. Ele é maior do que nossa razão.
-Quando Deus se revela como “EU SOU O QUE SOU”, Ele nos lembra que é eterno, soberano e autossuficiente. Ele não depende de ninguém e não está sujeito às nossas expectativas. Nossa compreensão é finita, mas a de Deus é infinita.
-Embora, enquanto estivermos na Terra, jamais possamos compreender plenamente quem Deus é, podemos confiar em Seu coração. E esse coração está repleto de amor, graça e misericórdia para com cada um de nós. O Deus incompreensível escolheu se aproximar de nós, nos guiar e nos chamar a viver para Ele.
-O desejo d'Ele é que escolhamos a vida eterna com Ele, na Nova Jerusalém que Ele prometeu (Apocalipse 21 e 22). Hoje, em vez de tentarmos entender tudo, adoremos o grande “EU SOU”, confiemos Nele e vivamos com os olhos fixos na eternidade.
-Veja também: Versículos sobre o Deus Eu Sou
+Dizer “Sim, se for da vontade de Deus!” não é sinal de dúvida, mas de fé madura. É reconhecer que Deus está no controle e que os Seus planos são maiores, melhores e mais perfeitos do que os nossos.
+Muitas vezes queremos respostas rápidas, caminhos fáceis e resultados imediatos, mas o Senhor trabalha no tempo certo, do jeito certo.
+Quando colocamos nossos sonhos, projetos e decisões diante de Deus, aprendemos a descansar. Isso não significa cruzar os braços, mas caminhar confiando. Oramos, planejamos, fazemos a nossa parte, porém entregamos o resultado nas mãos d’Aquele que tudo pode. A vontade de Deus nunca chega atrasada e jamais falha.
+Quantas vezes insistimos em portas fechadas, sem perceber que Deus está nos protegendo? Outras vezes, Ele nos surpreende abrindo caminhos onde não havia esperança. Dizer “Sim, se for da vontade de Deus!” é aceitar que nem sempre entenderemos tudo, mas sempre podemos confiar.
+Jesus nos deu o maior exemplo de submissão ao Pai quando orou: “Não seja feita a minha vontade, mas a Tua.” Isso nos ensina que obedecer a Deus pode exigir renúncia, mas sempre produzirá vida, paz e propósito. A vontade de Deus pode não ser a mais fácil, mas é a mais segura.
+Que o nosso coração esteja sensível à voz do Espírito Santo. Que nossas palavras, decisões e atitudes reflitam essa entrega diária. Quando aprendemos a viver segundo a vontade de Deus, experimentamos uma fé firme, uma esperança viva e um amor que nos sustenta em qualquer circunstância.
+Diga hoje, com confiança e humildade: Sim, Senhor, se for da Tua vontade!
+Veja também: 6 versículos para tomar decisões segundo a vontade de Deus
  
-Moisés perguntou: "Quando eu chegar diante dos israelitas e lhes disser: O Deus dos seus antepassados me enviou a vocês, e eles me perguntarem: 'Qual é o nome dele?' Que lhes direi?" Disse Deus a Moisés: "Eu Sou o que Sou. É isto que você dirá aos israelitas: Eu Sou me enviou a vocês".
-- Êxodo 3:13-14
+Em vez disso, deveriam dizer: "Se o Senhor quiser, viveremos e faremos isto ou aquilo".
+- Tiago 4:15
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 323929 characters
-INFO:root:HTML parsed, length: 313733 characters
-INFO:root:Found 3 titles: ['A Ele seja a glória para sempre!', 'Infinitamente mais', 'Força e ânimo']
-INFO:root:Found 3 URLs: ['/esportivo/', '/bencaos/', '/esforca_te_e_tem_bom_animo/']
-INFO:root:Found 3 descriptions: ['Pois dele, por ele e para ele são todas as coisas.', 'Àquele que é capaz de fazer infinitamente mais do ', 'Não fui eu que ordenei a você? Seja forte e corajo']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n7\nSÁBADO', 'FEVEREIRO\n\n6\nSEXTA', 'FEVEREIRO\n\n5\nQUINTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A Ele seja a glória para sempre!', ID=975d301e0395c8050ac96de726519852
-INFO:root:Processing entry 2: Title='Infinitamente mais', ID=8ac087a8e2093fff2c2be7e122e0b076
-INFO:root:Processing entry 3: Title='Força e ânimo', ID=d76b179fb2ebdbf634b434c58849f916
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 323311 characters
+INFO:root:HTML parsed, length: 313114 characters
+INFO:root:Found 3 titles: ['A justiça do Reino', 'A Ele seja a glória para sempre!', 'Infinitamente mais']
+INFO:root:Found 2 URLs: ['/esportivo/', '/bencaos/']
+INFO:root:Found 3 descriptions: ['Dê a quem pede, e não volte as costas àquele que d', 'Pois dele, por ele e para ele são todas as coisas.', 'Àquele que é capaz de fazer infinitamente mais do ']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n8\nDOMINGO', 'FEVEREIRO\n\n7\nSÁBADO', 'FEVEREIRO\n\n6\nSEXTA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='A justiça do Reino', ID=7127c1ff058cb6a1709cfb97d448cd15
+INFO:root:Processing entry 2: Title='A Ele seja a glória para sempre!', ID=975d301e0395c8050ac96de726519852
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A Ele seja a glória para sempre!
+INFO:root:🔹 Title: A justiça do Reino
 INFO:root:🔹 URL: https://www.bibliaon.com/esportivo/
+INFO:root:🔹 Description: Dê a quem pede, e não volte as costas àquele que deseja pedir algo emprestado.
+Mateus 5:42
+
+O padrão de conduta que Jesus estabelece é extremamente desafiador. Diversas vezes, Cristo exige que seus seguidores tomem decisões muito difíceis, como dar a outra face, orar pelos inimigos, negar a si mesmo, e assim diante. Em tempos de crise financeira, porém, um dos mandamentos que mais pesa é o de ajudar àqueles que pedem dinheiro. Naturalmente encontramos desculpas mentais, 'ele vai comprar droga', 'ele devia buscar emprego', 'se eu tivesse um trocado até daria', e evitamos vezes e vezes de ajudar os necessitados.
+O que Jesus pede é que nosso amor pelo próximo supere nosso apego às coisas materiais. Se alguém lhe pede um trocado ou comida, nossa vontade de ajudar deve ser muito maior do que nossa gana por economizar. Diversas vezes retemos todo dinheiro que não é gasto em nós mesmos, mas se for para comprar um agrado ou exagerar em um restaurante, não pensamos duas vezes.
+Não deve ser assim! Devemos seguir o que Jesus disse e prezar pelo bem dos que necessitam, ter amor e compaixão por aqueles que tem menos do que nós.
+Avalie a si mesmo
+
+Reflita, quando alguém te pede algo, você tem generosidade ou ganância?
+De que maneira você pode melhorar a ajuda ao próximo?
+Esteja preparado a tempo e a fora de tempo para ajudar!
+Ore a Deus, pedindo um coração cheio de compaixão.
+
+Para orar:
+
+Senhor, Deus meu e Pai meu, peço perdão por todas as vezes que neguei a ajuda ao próximo, que abaixei a cabeça em apatia e negação do bem. Que Teu Santo Espírito me capacite a fazer o bem a tempo e a fora de tempo, e que Ele encha meu coração de generosidade para com todos. Agradeço ao Senhor Jesus Cristo, que morreu por mim para me dar o que mais necessitava, a salvação.
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: A Ele seja a glória para sempre!
+INFO:root:🔹 URL: https://www.bibliaon.com/bencaos/
 INFO:root:🔹 Description: Pois dele, por ele e para ele são todas as coisas. A ele seja a glória para sempre! Amém.
 - Romanos 11:36
 
@@ -427,62 +421,6 @@ Para orar:
 Senhor Deus, agradecemos por Tua graça que nos sustenta todos os dias. Reconhecemos que tudo vem de Ti e confiamos nos Teus planos. Fortalece nossa fé, guia nossos passos e renova nossa esperança, mesmo nas dificuldades. Que nossa vida glorifique o Teu nome hoje e sempre, em nome de Jesus, amém.
 
 Veja também: Adorando a Deus de todo coração (Estudo Bíblico)
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Infinitamente mais
-INFO:root:🔹 URL: https://www.bibliaon.com/bencaos/
-INFO:root:🔹 Description: Àquele que é capaz de fazer infinitamente mais do que tudo o que pedimos ou pensamos, de acordo com o seu poder que atua em nós,
-- Efésios 3:20
-
-Este versículo nos convida a levantar os olhos além das limitações visíveis e confiar no Deus que age de maneira surpreendente.
-Muitas vezes oramos com expectativas pequenas, moldadas pelo medo, pela experiência passada ou pelas circunstâncias difíceis. Paulo nos lembra que Deus não está preso ao que conseguimos imaginar. Seu poder vai além dos nossos cálculos e atua dentro de nós, transformando corações, renovando a esperança e abrindo caminhos onde parecia não haver saída.
-Crer nisso muda nossa postura diante da vida. Em vez de apenas pedir para sobreviver, aprendemos a pedir para viver plenamente. Em vez de aceitar o desânimo como destino, escolhemos confiar que Deus ainda está trabalhando, mesmo quando não vemos resultados imediatos. O agir de Deus nem sempre é barulhento; muitas vezes Ele opera no silêncio, fortalecendo nossa fé, ajustando nossos desejos e preparando respostas maiores do que pedimos.
-Efésios 3:20 também nos ensina responsabilidade espiritual. O poder de Deus opera em nós, mas exige um coração disponível. Quando buscamos intimidade com Ele, por meio da oração, da Palavra e da obediência diária, nos tornamos instrumentos desse poder no mundo. Passamos a ser canais de amor, graça e reconciliação.
-Que este versículo nos encoraje a sonhar com Deus, confiar sem reservas e caminhar com fé. Mesmo diante das incertezas, podemos descansar sabendo que o Senhor continua escrevendo histórias maiores, mais profundas e mais belas do que tudo aquilo que conseguimos pedir ou imaginar.
-Que essa verdade sustente nossa fé diariamente, renove nossas forças. Que Deus amplie nossa visão espiritual e nos lembre que, em Cristo, sempre há esperança, propósito, direção e um futuro guiado pelo amor.
-Vivendo o Deus que faz infinitamente mais
-
-Ore com fé diariamente, lembrando que Deus age além do visível, confiando menos nas circunstâncias e mais no poder que opera em você.
-Alimente sua esperança lendo a Palavra, mesmo nos dias difíceis, permitindo que Deus renove sua mente e expanda seus sonhos com fé constante.
-Pratique a obediência nas pequenas atitudes diárias, sabendo que Deus usa passos simples para realizar algo muito maior em sua vida com propósito.
-
-Para orar:
-
-Senhor Deus, agradecemos porque Tu és poderoso para fazer além do que pedimos ou pensamos. Entregamos nossos medos, planos e caminhos em Tuas mãos. Fortalece nossa fé, guia nossas decisões e renova nossa esperança todos os dias. Ensina-nos a amar, servir e perseverar mesmo nas lutas. Que vivamos para Tua glória, confiando no Teu agir constante, em nome de Jesus, amém.
-
-Veja também: Versículos com promessas de bênçãos do Senhor
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Força e ânimo
-INFO:root:🔹 URL: https://www.bibliaon.com/esforca_te_e_tem_bom_animo/
-INFO:root:🔹 Description: Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar".
-- Josué 1:9
-
-Em muitos momentos da nossa caminhada, somos confrontados por desafios que parecem maiores do que nossas forças. Há dias em que o coração se sente cansado, a mente confusa e a fé é colocada à prova.
-No entanto, a Palavra de Deus nos lembra que a nossa força não vem de nós mesmos, mas do Senhor que nos sustenta em todo tempo. Quando nos sentimos fracos, é exatamente nesse lugar que o poder d’Ele se aperfeiçoa.
-O ânimo nasce quando escolhemos confiar, mesmo sem entender. Quando decidimos permanecer firmes, mesmo quando tudo ao redor parece incerto. A fé nos impulsiona a levantar a cabeça, renovar a esperança e seguir adiante, sabendo que Deus está no controle de todas as coisas.
-Aquele que prometeu estar conosco é fiel para cumprir. Ele abre portas, restaura sonhos e renova forças como a águia. Em Cristo, encontramos descanso para a alma e coragem para enfrentar cada novo dia. Por isso, não desista. Continue orando, confiando e esperando, pois o Senhor age no tempo certo.
-Que o Espírito Santo renove hoje sua fé, fortaleça seu coração e lhe conceda ânimo para prosseguir, lembrando sempre que Deus transforma fraqueza em vitória.
-
-mas aqueles que esperam no Senhor
-renovam as suas forças.
-Voam alto como águias;
-correm e não ficam exaustos,
-andam e não se cansam.
-- Isaías 40:31
-
-Caminhos para renovar o coração
-
-
-Medite na Palavra, pois ela renova a mente, fortalece a fé, traz direção segura e lembra das promessas fiéis de Deus eternas.
-
-Ore com sinceridade, entregando medos e lutas ao Senhor, confiando que Ele ouve, responde no tempo certo e fortalece o coração cansado sempre.
-
-Permaneça em comunhão com irmãos na fé, compartilhando testemunhos, recebendo apoio espiritual e lembrando que juntos somos fortalecidos em Cristo Jesus Senhor vivo.
-
-Para orar:
-
-Senhor Deus, entrego a Ti meu coração cansado e minhas lutas diárias. Renova minhas forças, fortalece minha fé e enche minha alma de paz. Dá-me ânimo para seguir, confiança nas Tuas promessas e coragem para permanecer firme, sabendo que Tu estás comigo em todo tempo. Em nome de Jesus, amém.
-
-Veja também: Esforça-te e tem bom ânimo: Deus está contigo (Josué 1:9)
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -513,15 +451,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 +--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  35 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  67 ++-----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  23 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 249 +++++++++++-----
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  83 +++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 461 ++++++++++++++++++------------
- 11 files changed, 537 insertions(+), 335 deletions(-)
+ output.log                                | 318 ++++++++++++------------------
+ 11 files changed, 220 insertions(+), 357 deletions(-)
