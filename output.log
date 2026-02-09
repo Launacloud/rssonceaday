@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123771 characters
-INFO:root:HTML parsed, length: 117068 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (08/02/2026)', 'Palavra de Ontem (07/02/2026)', 'Palavra de Anteontem (06/02/2026)']
-INFO:root:Found 3 URLs: ['/aboboda/', '/cache-teste/', '/agrofloresta/']
-INFO:root:Found 11 descriptions: ['substantivo feminino [Popular] Construção curvada ', 'Sinônimos:\n\nabóbada', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (08/02/2026)', 'Palavra de Ontem (07/02/2026)', 'Palavra de Anteontem (06/02/2026)']
+INFO:root:Response length: 123750 characters
+INFO:root:HTML parsed, length: 117047 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (09/02/2026)', 'Palavra de Ontem (08/02/2026)', 'Palavra de Anteontem (07/02/2026)']
+INFO:root:Found 3 URLs: ['/bazofiar/', '/aboboda/', '/cache-teste/']
+INFO:root:Found 11 descriptions: ['verbo transitivo direto, transitivo indireto e int', 'Sinônimos:\n\nalardear, vangloriar, bravatear, jacta', 'Classe gramatical:verbo intransitivo, verbo transi']
+INFO:root:Found 3 dates: ['Palavra de Hoje (09/02/2026)', 'Palavra de Ontem (08/02/2026)', 'Palavra de Anteontem (07/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (08/02/2026)', ID=9b85ef31857cae23ca5e889a6eb83563
-INFO:root:Processing entry 2: Title='Palavra de Ontem (07/02/2026)', ID=6f8e3df1ffd26eef1006037c52003320
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/02/2026)', ID=a135979d54407e425f48f91e7281f211
+INFO:root:Processing entry 1: Title='Palavra de Hoje (09/02/2026)', ID=5140c734665e0a470e04775849b47eaf
+INFO:root:Processing entry 2: Title='Palavra de Ontem (08/02/2026)', ID=6b9201e0e1bc3bcf636f006e91390a4d
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/02/2026)', ID=7041a27db87af1c5559c4c42ce79341e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (08/02/2026) - Significado completo de abóboda:
-INFO:root:🔹 URL: https://www.dicio.com.br/aboboda/
-INFO:root:🔹 Description: substantivo feminino [Popular] Construção curvada em arco que, feita com concreto, pedras e tijolos bem firmes e apoiados, assume a forma de uma cobertura: abóboda de uma catedral.[Gramática] Grafia não preferencial de abóbada.expressão Abóboda Celeste. O espaço celeste visível; firmamento, céu.Etimologia (origem da palavra abóboda). A palavra abóboda tem sua origem por influência de abóbada.
+INFO:root:🔹 Title: Palavra de Hoje (09/02/2026) - Significado completo de bazofiar:
+INFO:root:🔹 URL: https://www.dicio.com.br/bazofiar/
+INFO:root:🔹 Description: verbo transitivo direto, transitivo indireto e intransitivo Vangloriar-se de suas próprias qualidades e feitos; expressar vaidade, presunção, vanglória; falar bazófias: o escritor bazofiava seus prêmios; bazofiou de suas propriedades; passava a vida a bazofiar.Etimologia (origem da palavra bazofiar). O verbo bazofiar tem sua origem pela junção da palavra bazófia, e do sufixo verbal -ar.
  
 Sinônimos:
 
-abóbada 
+alardear, vangloriar, bravatear, jactar 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (07/02/2026) - Significado completo de cachê-teste:
-INFO:root:🔹 URL: https://www.dicio.com.br/cache-teste/
+INFO:root:🔹 Title: Palavra de Ontem (08/02/2026) - Significado completo de abóboda:
+INFO:root:🔹 URL: https://www.dicio.com.br/aboboda/
 INFO:root:🔹 Description: Sinônimos:
 
-abóbada
- Classe gramatical:substantivo feminino
+alardear, vangloriar, bravatear, jactar
+ Classe gramatical:verbo intransitivo, verbo transitivo direto e verbo transitivo indireto
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (06/02/2026) - Significado completo de agrofloresta:
-INFO:root:🔹 URL: https://www.dicio.com.br/agrofloresta/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:a-bó-bo-da
+INFO:root:🔹 Title: Palavra de Anteontem (07/02/2026) - Significado completo de cachê-teste:
+INFO:root:🔹 URL: https://www.dicio.com.br/cache-teste/
+INFO:root:🔹 Description: Classe gramatical:verbo intransitivo, verbo transitivo direto e verbo transitivo indireto
+ Sílabas:ba-zo-fi-ar
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,74 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 311294 characters
-INFO:root:HTML parsed, length: 301090 characters
-INFO:root:Found 1 titles: ['Judas 1:20-21']
-INFO:root:Found 1 URLs: ['/versiculo/judas_1_20-21/']
-INFO:root:Found 1 descriptions: ['Edifiquem-se, porém, amados, na santíssima fé que ']
+INFO:root:Response length: 311580 characters
+INFO:root:HTML parsed, length: 301376 characters
+INFO:root:Found 1 titles: ['1 Tessalonicenses 4:16-17']
+INFO:root:Found 1 URLs: ['/versiculo/1_tessalonicenses_4_16-17/']
+INFO:root:Found 1 descriptions: ['Pois, dada a ordem, com a voz do arcanjo e o resso']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Judas 1:20-21', ID=6c5133c7070703cb7cd8b5f2f0824b47
+INFO:root:Processing entry 1: Title='1 Tessalonicenses 4:16-17', ID=761a1d8a35211bac5a1e9cca2e7c2a0c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Judas 1:20-21
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/judas_1_20-21/
-INFO:root:🔹 Description: Edifiquem-se, porém, amados, na santíssima fé que vocês têm, orando no Espírito Santo. Mantenham-se no amor de Deus, enquanto esperam que a misericórdia de nosso Senhor Jesus Cristo os leve para a vida eterna. Judas 1:20-21
+INFO:root:🔹 Title: 1 Tessalonicenses 4:16-17
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_tessalonicenses_4_16-17/
+INFO:root:🔹 Description: Pois, dada a ordem, com a voz do arcanjo e o ressoar da trombeta de Deus, o próprio Senhor descerá dos céus, e os mortos em Cristo ressuscitarão primeiro. Depois nós, os que estivermos vivos, seremos arrebatados com eles nas nuvens, para o encontro com o Senhor nos ares. E assim estaremos com o Senhor para sempre. 1 Tessalonicenses 4:16-17
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316564 characters
-INFO:root:HTML parsed, length: 307232 characters
-INFO:root:Found 3 titles: ['Salmo 60', 'Salmo 78', 'Salmo 5']
-INFO:root:Found 3 URLs: ['/salmos_60/', '/salmos_78/', '/salmos_5/']
-INFO:root:Found 3 descriptions: ['Tu nos rejeitaste e dispersaste, ó Deus; tu derram', 'Povo meu, escute o meu ensino;\nincline os ouvidos\n', 'Escuta, Senhor, as minhas palavras,\nconsidera o me']
-INFO:root:Found 3 dates: ['8 de Fevereiro de 2026', '7 de Fevereiro de 2026', '6 de Fevereiro de 2026']
+INFO:root:Response length: 315111 characters
+INFO:root:HTML parsed, length: 305775 characters
+INFO:root:Found 3 titles: ['Salmo 36', 'Salmo 60', 'Salmo 78']
+INFO:root:Found 3 URLs: ['/salmos_36/', '/salmos_60/', '/salmos_78/']
+INFO:root:Found 3 descriptions: ['Há no meu íntimo um oráculo\na respeito da maldade ', 'Tu nos rejeitaste e dispersaste, ó Deus; tu derram', 'Povo meu, escute o meu ensino;\nincline os ouvidos\n']
+INFO:root:Found 3 dates: ['9 de Fevereiro de 2026', '8 de Fevereiro de 2026', '7 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
-INFO:root:Processing entry 2: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
-INFO:root:Processing entry 3: Title=' Salmo 5', ID=b7b7d93b5eb60b7b9597e8f4b5f5ff34
+INFO:root:Processing entry 1: Title=' Salmo 36', ID=1b58fb6706721ad7c428d285ca780e23
+INFO:root:Processing entry 2: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
+INFO:root:Processing entry 3: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 36
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_36/
+INFO:root:🔹 Description: Há no meu íntimo um oráculo
+a respeito da maldade do ímpio:
+Aos seus olhos é inútil temer a Deus. 
+Ele se acha tão importante,
+que não percebe nem rejeita o seu pecado. 
+As palavras da sua boca
+são maldosas e traiçoeiras;
+abandonou o bom senso e não quer fazer o bem. 
+Até na sua cama planeja maldade;
+nada há de bom no caminho a que se entregou,
+e ele nunca rejeita o mal. 
+O teu amor, Senhor, chega até os céus;
+a tua fidelidade até as nuvens. 
+A tua justiça é firme como as altas montanhas;
+as tuas decisões, insondáveis como o grande mar.
+Tu, Senhor, preservas
+tanto os homens quanto os animais. 
+Como é precioso o teu amor, ó Deus!
+Os homens encontram
+refúgio à sombra das tuas asas. 
+Eles se banqueteiam na fartura da tua casa;
+tu lhes dás de beber do teu rio de delícias. 
+Pois em ti está a fonte da vida;
+graças à tua luz, vemos a luz. 
+Estende o teu amor aos que te conhecem;
+a tua justiça, aos que são retos de coração. 
+Não permitas que o arrogante me pisoteie
+nem que a mão do ímpio me faça recuar. 
+Lá estão os malfeitores caídos,
+lançados ao chão, incapazes de levantar-se! 
+ Salmo 36
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 60
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_60/
 INFO:root:🔹 Description: Tu nos rejeitaste e dispersaste, ó Deus; tu derramaste a tua ira; restaura-nos agora! 
@@ -292,135 +326,69 @@ E de coração íntegro Davi os pastoreou;
 com mãos experientes os conduziu. 
  Salmo 78
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 5
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_5/
-INFO:root:🔹 Description: Escuta, Senhor, as minhas palavras,
-considera o meu gemer. 
-Atenta para o meu grito de socorro,
-meu Rei e meu Deus,
-pois é a ti que imploro. 
-De manhã ouves, Senhor, o meu clamor;
-de manhã te apresento a minha oração
-e aguardo com esperança. 
-Tu não és um Deus
-que tenha prazer na injustiça;
-contigo o mal não pode habitar. 
-Os arrogantes não são aceitos
-na tua presença;
-odeias todos os que praticam o mal. 
-Destróis os mentirosos;
-os assassinos e os traiçoeiros
-o Senhor detesta. 
-Eu, porém, pelo teu grande amor, entrarei em tua casa; com temor me inclinarei para o teu santo templo. 
-Conduze-me, Senhor, na tua justiça, por causa dos meus inimigos; aplaina o teu caminho diante de mim. 
-Em seus lábios não há palavra confiável;
-a mente deles só trama destruição.
-A garganta é um túmulo aberto;
-com a língua enganam sutilmente. 
-Condena-os, ó Deus!
-Caiam eles por suas próprias maquinações.
-Expulsa-os por causa dos seus muitos crimes,
-pois se rebelaram contra ti. 
-Alegrem-se, porém,
-todos os que se refugiam em ti;
-cantem sempre de alegria!
-Estende sobre eles a tua proteção.
-Em ti exultem os que amam o teu nome. 
-Pois tu, Senhor, abençoas o justo;
-o teu favor o protege como um escudo. 
- Salmo 5
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 313591 characters
-INFO:root:HTML parsed, length: 303844 characters
-INFO:root:Found 3 titles: ['Sim, se for da vontade de Deus!', 'Eu sou o que sou', 'Leve sua dor ao Senhor']
+INFO:root:Response length: 313479 characters
+INFO:root:HTML parsed, length: 303725 characters
+INFO:root:Found 3 titles: ['Tolerar não é aceitar', 'Sim, se for da vontade de Deus!', 'Eu sou o que sou']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Em vez disso, deveriam dizer: "Se o Senhor quiser,', 'Moisés perguntou: "Quando eu chegar diante dos isr', 'Minhas lágrimas têm sido o meu alimento\nde dia e d']
-INFO:root:Found 1 dates: ['Domingo, 8 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Não se amoldem ao padrão deste mundo, mas transfor', 'Em vez disso, deveriam dizer: "Se o Senhor quiser,', 'Moisés perguntou: "Quando eu chegar diante dos isr']
+INFO:root:Found 1 dates: ['Segunda, 9 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Sim, se for da vontade de Deus!', ID=37df9e3b59f618a428fdf590e459629e
+INFO:root:Processing entry 1: Title='Tolerar não é aceitar', ID=62e8ffd13359a53565f65cbc45f7497d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Sim, se for da vontade de Deus! - Palavra de Hoje
+INFO:root:🔹 Title: Tolerar não é aceitar - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Em vez disso, deveriam dizer: "Se o Senhor quiser, viveremos e faremos isto ou aquilo".
-- Tiago 4:15
+INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
+- Romanos 12:2
 
-Dizer “Sim, se for da vontade de Deus!” não é sinal de dúvida, mas de fé madura. É reconhecer que Deus está no controle e que os Seus planos são maiores, melhores e mais perfeitos do que os nossos.
-Muitas vezes queremos respostas rápidas, caminhos fáceis e resultados imediatos, mas o Senhor trabalha no tempo certo, do jeito certo.
-Quando colocamos nossos sonhos, projetos e decisões diante de Deus, aprendemos a descansar. Isso não significa cruzar os braços, mas caminhar confiando. Oramos, planejamos, fazemos a nossa parte, porém entregamos o resultado nas mãos d’Aquele que tudo pode. A vontade de Deus nunca chega atrasada e jamais falha.
-Quantas vezes insistimos em portas fechadas, sem perceber que Deus está nos protegendo? Outras vezes, Ele nos surpreende abrindo caminhos onde não havia esperança. Dizer “Sim, se for da vontade de Deus!” é aceitar que nem sempre entenderemos tudo, mas sempre podemos confiar.
-Jesus nos deu o maior exemplo de submissão ao Pai quando orou: “Não seja feita a minha vontade, mas a Tua.” Isso nos ensina que obedecer a Deus pode exigir renúncia, mas sempre produzirá vida, paz e propósito. A vontade de Deus pode não ser a mais fácil, mas é a mais segura.
-Que o nosso coração esteja sensível à voz do Espírito Santo. Que nossas palavras, decisões e atitudes reflitam essa entrega diária. Quando aprendemos a viver segundo a vontade de Deus, experimentamos uma fé firme, uma esperança viva e um amor que nos sustenta em qualquer circunstância.
-Diga hoje, com confiança e humildade: Sim, Senhor, se for da Tua vontade!
-Veja também: 6 versículos para tomar decisões segundo a vontade de Deus
+Vivemos em um tempo em que a palavra tolerância é constantemente usada como sinônimo de aceitação. Porém, à luz da Palavra de Deus, é essencial compreender que tolerar não significa concordar, aprovar ou adotar os valores deste mundo. O cristão é chamado a amar as pessoas, mas a permanecer fiel à verdade do Evangelho, mesmo quando essa verdade confronte a cultura ao nosso redor.
+Tolerar é respeitar o próximo, reconhecer sua dignidade como criatura feita à imagem de Deus e conviver em paz, sem ódio, violência ou arrogância. Aceitar, por outro lado, é validar práticas, ideologias e comportamentos que contradizem os princípios bíblicos. Quando essa distinção se perde, o perigo é que a igreja comece a se moldar ao mundo, em vez de ser sal da terra.
+A Palavra nos alerta que o sistema deste mundo é passageiro e se opõe aos valores do Reino de Deus. Quando o cristão aceita tudo sem discernimento, corre o risco de relativizar o pecado, silenciar a verdade e enfraquecer sua fé. Isso não apenas compromete o testemunho cristão, mas também afasta pessoas da verdadeira transformação que só Cristo pode oferecer.
+Posicionar-se, portanto, não é ser intolerante, mas obediente. Jesus foi o maior exemplo de amor e, ao mesmo tempo, de firmeza. Ele acolhia os pecadores, mas nunca aprovou o pecado. Assim também deve ser o cristão: firme em suas convicções, claro em sua fé e cheio de graça e amor em suas atitudes.
+Resistir às imposições do mundo exige coragem, discernimento e uma vida fundamentada na Palavra. O cristão não vive para agradar a sociedade, mas para glorificar a Deus. E ao fazer isso com amor, respeito e verdade, ele cumpre seu chamado sem abrir mão da fé.
+Veja também: Exemplos de persistência na Bíblia (pessoas que confiaram em Deus e venceram)
  
-Em vez disso, deveriam dizer: "Se o Senhor quiser, viveremos e faremos isto ou aquilo".
-- Tiago 4:15
+Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
+- Romanos 12:2
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 323311 characters
-INFO:root:HTML parsed, length: 313114 characters
-INFO:root:Found 3 titles: ['A justiça do Reino', 'A Ele seja a glória para sempre!', 'Infinitamente mais']
-INFO:root:Found 2 URLs: ['/esportivo/', '/bencaos/']
-INFO:root:Found 3 descriptions: ['Dê a quem pede, e não volte as costas àquele que d', 'Pois dele, por ele e para ele são todas as coisas.', 'Àquele que é capaz de fazer infinitamente mais do ']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n8\nDOMINGO', 'FEVEREIRO\n\n7\nSÁBADO', 'FEVEREIRO\n\n6\nSEXTA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='A justiça do Reino', ID=7127c1ff058cb6a1709cfb97d448cd15
-INFO:root:Processing entry 2: Title='A Ele seja a glória para sempre!', ID=975d301e0395c8050ac96de726519852
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 322113 characters
+INFO:root:HTML parsed, length: 311919 characters
+INFO:root:Found 3 titles: ['Nenhum mal te sucederá!', 'A justiça do Reino', 'A Ele seja a glória para sempre!']
+INFO:root:Found 1 URLs: ['/esportivo/']
+INFO:root:Found 3 descriptions: ['Se você fizer do Altíssimo o seu abrigo, do Senhor', 'Dê a quem pede, e não volte as costas àquele que d', 'Pois dele, por ele e para ele são todas as coisas.']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n9\nSEGUNDA', 'FEVEREIRO\n\n8\nDOMINGO', 'FEVEREIRO\n\n7\nSÁBADO']
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='Nenhum mal te sucederá!', ID=e2f6a79af004777588ab8be99bbc3b8a
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A justiça do Reino
+INFO:root:🔹 Title: Nenhum mal te sucederá!
 INFO:root:🔹 URL: https://www.bibliaon.com/esportivo/
-INFO:root:🔹 Description: Dê a quem pede, e não volte as costas àquele que deseja pedir algo emprestado.
-Mateus 5:42
+INFO:root:🔹 Description: Se você fizer do Altíssimo o seu abrigo, do Senhor o seu refúgio, nenhum mal o atingirá, desgraça alguma chegará à sua tenda.
+Salmo 91:9-10 
 
-O padrão de conduta que Jesus estabelece é extremamente desafiador. Diversas vezes, Cristo exige que seus seguidores tomem decisões muito difíceis, como dar a outra face, orar pelos inimigos, negar a si mesmo, e assim diante. Em tempos de crise financeira, porém, um dos mandamentos que mais pesa é o de ajudar àqueles que pedem dinheiro. Naturalmente encontramos desculpas mentais, 'ele vai comprar droga', 'ele devia buscar emprego', 'se eu tivesse um trocado até daria', e evitamos vezes e vezes de ajudar os necessitados.
-O que Jesus pede é que nosso amor pelo próximo supere nosso apego às coisas materiais. Se alguém lhe pede um trocado ou comida, nossa vontade de ajudar deve ser muito maior do que nossa gana por economizar. Diversas vezes retemos todo dinheiro que não é gasto em nós mesmos, mas se for para comprar um agrado ou exagerar em um restaurante, não pensamos duas vezes.
-Não deve ser assim! Devemos seguir o que Jesus disse e prezar pelo bem dos que necessitam, ter amor e compaixão por aqueles que tem menos do que nós.
-Avalie a si mesmo
+O Senhor Deus é o nosso melhor refúgio. Nele, nos sentimos protegidos e amparados. É muito bom sentir a proteção de Deus sobre nós, isso nos acalma e nos dá confiança. 
+Agora, para recebermos a proteção do Senhor, devemos confiar nele de todo coração. Colocar Deus em primeiro lugar na nossa vida, faz parte dessa confiança. Quanto mais colocamos Deus em primazia, mais confiamos nele.
+O resultado dessa confiança, é um bom relacionamento com Deus. Dessa forma, não temos medo de confessarmos tudo a Ele. Uma oração verdadeira atrai o mover de Deus. Ele nos ouve e recebemos a sua cobertura, essa proteção divina se estende a nossa família. Uma casa fundada na rocha - que é Cristo - permanecerá sempre firme e protegida! 
+O Senhor é o meu abrigo! 
 
-Reflita, quando alguém te pede algo, você tem generosidade ou ganância?
-De que maneira você pode melhorar a ajuda ao próximo?
-Esteja preparado a tempo e a fora de tempo para ajudar!
-Ore a Deus, pedindo um coração cheio de compaixão.
+A melhor forma de refugiar-se no Senhor é através da oração. Entregue-se, diga as suas aflições e medos. Deus ouve e responde a nossa oração. 
+A melhor forma de confiar em Deus é através da leitura da Palavra. Nela, tomamos conhecimento das Suas promessas e fortalecemos a nossa fé. 
+Independente das tempestades, saber que Deus está no nosso barco faz toda a diferença. Por isso, não tema as dificuldades, continue com Deus.
 
-Para orar:
+Para Orar: 
 
-Senhor, Deus meu e Pai meu, peço perdão por todas as vezes que neguei a ajuda ao próximo, que abaixei a cabeça em apatia e negação do bem. Que Teu Santo Espírito me capacite a fazer o bem a tempo e a fora de tempo, e que Ele encha meu coração de generosidade para com todos. Agradeço ao Senhor Jesus Cristo, que morreu por mim para me dar o que mais necessitava, a salvação.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A Ele seja a glória para sempre!
-INFO:root:🔹 URL: https://www.bibliaon.com/bencaos/
-INFO:root:🔹 Description: Pois dele, por ele e para ele são todas as coisas. A ele seja a glória para sempre! Amém.
-- Romanos 11:36
-
-Tudo começa em Deus e tudo encontra n’Ele o seu verdadeiro sentido. Quando reconhecemos essa verdade, nosso coração se enche de gratidão.
-A vida, com seus desafios e conquistas, não é fruto do acaso, mas resultado do cuidado constante de um Pai amoroso que sustenta cada detalhe da nossa história.
-Ser grato a Deus não significa apenas agradecer pelos dias bons, mas também confiar n’Ele nos dias difíceis. É entender que, mesmo quando não compreendemos os caminhos, Ele continua no controle. A gratidão nos ajuda a descansar, sabendo que Deus transforma lutas em aprendizado e dor em crescimento espiritual.
-Ao olharmos para trás, percebemos quantas portas Ele abriu, quantos livramentos recebemos e quantas vezes fomos fortalecidos quando pensávamos não aguentar mais. Cada pequena vitória, cada novo amanhecer e cada recomeço são sinais claros da graça divina agindo em nós.
-Viver com um coração agradecido muda a forma como enxergamos o mundo. Passamos a valorizar o que temos, a amar mais as pessoas e a confiar no futuro. A gratidão nos aproxima de Deus, porque reconhece que dependemos d’Ele para tudo e que sem Ele nada somos.
-Que nossa vida seja uma resposta de louvor. Que nossas atitudes, palavras e escolhas reflitam a certeza de que tudo vem do Senhor e é para o Senhor. Quando vivemos assim, damos glória a Deus não apenas com palavras, mas com a própria vida.
-Hoje, escolha agradecer. Mesmo em meio às dificuldades, levante um louvor. Afinal, dele, por ele e para ele são todas as coisas. A Ele seja a glória para sempre. Amém.
-Glorificando a Deus no dia a dia
-
-Comece o dia agradecendo a Deus em oração, reconhecendo Sua fidelidade, entregando planos, preocupações e decisões, confiando que Ele conduz tudo com amor.
-Pratique a gratidão, celebrando conquistas simples, aprendendo nas dificuldades e mantendo o coração firme na esperança cristã verdadeira, constante.
-Compartilhe sua fé com atitudes, servindo pessoas, perdoando com sinceridade, ajudando quando possível e demonstrando o amor de Cristo em ações diárias práticas.
-
-Para orar:
-
-Senhor Deus, agradecemos por Tua graça que nos sustenta todos os dias. Reconhecemos que tudo vem de Ti e confiamos nos Teus planos. Fortalece nossa fé, guia nossos passos e renova nossa esperança, mesmo nas dificuldades. Que nossa vida glorifique o Teu nome hoje e sempre, em nome de Jesus, amém.
-
-Veja também: Adorando a Deus de todo coração (Estudo Bíblico)
+Senhor, confio em Ti! Guarda-me segundo a Tua palavra e proteja-me do mal. Não há nada que resista ao Teu poder, tudo fez e tudo podes fazer. Na Tua presença me sinto seguro e amado, por isso te louvo. Tu és o meu abrigo! Amém!
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -451,15 +419,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  67 ++-----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  23 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  83 +++-----
+ feeds/salmo_do_dia/atom.xml               |  70 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 318 ++++++++++++------------------
- 11 files changed, 220 insertions(+), 357 deletions(-)
+ output.log                                | 270 +++++++++++++-----------------
+ 11 files changed, 202 insertions(+), 279 deletions(-)
