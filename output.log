@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123750 characters
-INFO:root:HTML parsed, length: 117047 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (09/02/2026)', 'Palavra de Ontem (08/02/2026)', 'Palavra de Anteontem (07/02/2026)']
-INFO:root:Found 3 URLs: ['/bazofiar/', '/aboboda/', '/cache-teste/']
-INFO:root:Found 11 descriptions: ['verbo transitivo direto, transitivo indireto e int', 'Sinônimos:\n\nalardear, vangloriar, bravatear, jacta', 'Classe gramatical:verbo intransitivo, verbo transi']
-INFO:root:Found 3 dates: ['Palavra de Hoje (09/02/2026)', 'Palavra de Ontem (08/02/2026)', 'Palavra de Anteontem (07/02/2026)']
+INFO:root:Response length: 123954 characters
+INFO:root:HTML parsed, length: 117251 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (10/02/2026)', 'Palavra de Ontem (09/02/2026)', 'Palavra de Anteontem (08/02/2026)']
+INFO:root:Found 3 URLs: ['/autodescricao/', '/bazofiar/', '/aboboda/']
+INFO:root:Found 11 descriptions: ['substantivo feminino Descrição que alguém faz de s', 'Sinônimos:\n\nautobiografia, autoanálise, autoavalia', 'Sílabas:aut-des-cri-ção']
+INFO:root:Found 3 dates: ['Palavra de Hoje (10/02/2026)', 'Palavra de Ontem (09/02/2026)', 'Palavra de Anteontem (08/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (09/02/2026)', ID=5140c734665e0a470e04775849b47eaf
-INFO:root:Processing entry 2: Title='Palavra de Ontem (08/02/2026)', ID=6b9201e0e1bc3bcf636f006e91390a4d
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/02/2026)', ID=7041a27db87af1c5559c4c42ce79341e
+INFO:root:Processing entry 1: Title='Palavra de Hoje (10/02/2026)', ID=93ccf227cb8c751905f8330cb2d821f9
+INFO:root:Processing entry 2: Title='Palavra de Ontem (09/02/2026)', ID=84f765c751c0634b396bafe1d33f5317
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/02/2026)', ID=34c8c05c4d18fc626a3f9be35222eb1c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (09/02/2026) - Significado completo de bazofiar:
+INFO:root:🔹 Title: Palavra de Hoje (10/02/2026) - Significado completo de autodescrição:
+INFO:root:🔹 URL: https://www.dicio.com.br/autodescricao/
+INFO:root:🔹 Description: substantivo feminino Descrição que alguém faz de si próprio, geralmente falando de sua própria aparência, de suas características físicas e emocionais; de suas particularidades, traços distintos etc.: a sua autodescrição pode ser uma apresentação para quem não pode ver.Etimologia (origem da palavra autodescrição). A palavra autodescrição tem sua origem pela junção do elemento de composição de palavras "auto-", com sentido de próprio, e da palavra descrição.
+ 
+Sinônimos:
+
+autobiografia, autoanálise, autoavaliação, autorretrato, autoidentificação, apresentação 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (09/02/2026) - Significado completo de bazofiar:
 INFO:root:🔹 URL: https://www.dicio.com.br/bazofiar/
-INFO:root:🔹 Description: verbo transitivo direto, transitivo indireto e intransitivo Vangloriar-se de suas próprias qualidades e feitos; expressar vaidade, presunção, vanglória; falar bazófias: o escritor bazofiava seus prêmios; bazofiou de suas propriedades; passava a vida a bazofiar.Etimologia (origem da palavra bazofiar). O verbo bazofiar tem sua origem pela junção da palavra bazófia, e do sufixo verbal -ar.
+INFO:root:🔹 Description: Sinônimos:
+
+autobiografia, autoanálise, autoavaliação, autorretrato, autoidentificação, apresentação
+ Sílabas:aut-des-cri-ção
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (08/02/2026) - Significado completo de abóboda:
+INFO:root:🔹 URL: https://www.dicio.com.br/aboboda/
+INFO:root:🔹 Description: Sílabas:aut-des-cri-ção
  
 Sinônimos:
 
 alardear, vangloriar, bravatear, jactar 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (08/02/2026) - Significado completo de abóboda:
-INFO:root:🔹 URL: https://www.dicio.com.br/aboboda/
-INFO:root:🔹 Description: Sinônimos:
-
-alardear, vangloriar, bravatear, jactar
- Classe gramatical:verbo intransitivo, verbo transitivo direto e verbo transitivo indireto
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (07/02/2026) - Significado completo de cachê-teste:
-INFO:root:🔹 URL: https://www.dicio.com.br/cache-teste/
-INFO:root:🔹 Description: Classe gramatical:verbo intransitivo, verbo transitivo direto e verbo transitivo indireto
- Sílabas:ba-zo-fi-ar
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,95 @@ INFO:root:Response length: 513 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 311580 characters
-INFO:root:HTML parsed, length: 301376 characters
-INFO:root:Found 1 titles: ['1 Tessalonicenses 4:16-17']
-INFO:root:Found 1 URLs: ['/versiculo/1_tessalonicenses_4_16-17/']
-INFO:root:Found 1 descriptions: ['Pois, dada a ordem, com a voz do arcanjo e o resso']
+INFO:root:Response length: 313751 characters
+INFO:root:HTML parsed, length: 303563 characters
+INFO:root:Found 1 titles: ['Jonas 2:7']
+INFO:root:Found 1 URLs: ['/versiculo/jonas_2_7/']
+INFO:root:Found 1 descriptions: ['"Quando a minha vida já se apagava,\neu me lembrei ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Tessalonicenses 4:16-17', ID=761a1d8a35211bac5a1e9cca2e7c2a0c
+INFO:root:Processing entry 1: Title='Jonas 2:7', ID=de73428669b73ae881ad909c5ec76827
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Tessalonicenses 4:16-17
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_tessalonicenses_4_16-17/
-INFO:root:🔹 Description: Pois, dada a ordem, com a voz do arcanjo e o ressoar da trombeta de Deus, o próprio Senhor descerá dos céus, e os mortos em Cristo ressuscitarão primeiro. Depois nós, os que estivermos vivos, seremos arrebatados com eles nas nuvens, para o encontro com o Senhor nos ares. E assim estaremos com o Senhor para sempre. 1 Tessalonicenses 4:16-17
+INFO:root:🔹 Title: Jonas 2:7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jonas_2_7/
+INFO:root:🔹 Description: "Quando a minha vida já se apagava,
+eu me lembrei de ti, Senhor,
+e a minha oração subiu a ti,
+ao teu santo templo. Jonas 2:7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 315111 characters
-INFO:root:HTML parsed, length: 305775 characters
-INFO:root:Found 3 titles: ['Salmo 36', 'Salmo 60', 'Salmo 78']
-INFO:root:Found 3 URLs: ['/salmos_36/', '/salmos_60/', '/salmos_78/']
-INFO:root:Found 3 descriptions: ['Há no meu íntimo um oráculo\na respeito da maldade ', 'Tu nos rejeitaste e dispersaste, ó Deus; tu derram', 'Povo meu, escute o meu ensino;\nincline os ouvidos\n']
-INFO:root:Found 3 dates: ['9 de Fevereiro de 2026', '8 de Fevereiro de 2026', '7 de Fevereiro de 2026']
+INFO:root:Response length: 313512 characters
+INFO:root:HTML parsed, length: 304117 characters
+INFO:root:Found 3 titles: ['Salmo 144', 'Salmo 36', 'Salmo 60']
+INFO:root:Found 3 URLs: ['/salmos_144/', '/salmos_36/', '/salmos_60/']
+INFO:root:Found 3 descriptions: ['Bendito seja o Senhor, a minha Rocha,\nque treina a', 'Há no meu íntimo um oráculo\na respeito da maldade ', 'Tu nos rejeitaste e dispersaste, ó Deus; tu derram']
+INFO:root:Found 3 dates: ['10 de Fevereiro de 2026', '9 de Fevereiro de 2026', '8 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 36', ID=1b58fb6706721ad7c428d285ca780e23
-INFO:root:Processing entry 2: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
-INFO:root:Processing entry 3: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
+INFO:root:Processing entry 1: Title=' Salmo 144', ID=49ac889de8bc5a68b31e914f265de5df
+INFO:root:Processing entry 2: Title=' Salmo 36', ID=1b58fb6706721ad7c428d285ca780e23
+INFO:root:Processing entry 3: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 144
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_144/
+INFO:root:🔹 Description: Bendito seja o Senhor, a minha Rocha,
+que treina as minhas mãos para a guerra
+e os meus dedos para a batalha. 
+Ele é o meu aliado fiel, a minha fortaleza,
+a minha torre de proteção
+e o meu libertador;
+é o meu escudo, aquele em quem me refugio.
+Ele subjuga a mim os povos. 
+Senhor, que é o homem
+para que te importes com ele,
+ou o filho do homem
+para que por ele te interesses? 
+O homem é como um sopro;
+seus dias são como sombra passageira. 
+Estende, Senhor, os teus céus e desce;
+toca os montes para que fumeguem. 
+Envia relâmpagos e dispersa os inimigos;
+atira as tuas flechas e faze-os debandar. 
+Das alturas, estende a tua mão e liberta-me;
+salva-me da imensidão das águas,
+das mãos desses estrangeiros, 
+que têm lábios mentirosos
+e que, com a mão direita erguida,
+juram falsamente. 
+Cantarei uma nova canção a ti, ó Deus;
+tocarei para ti a lira de dez cordas, 
+para aquele que dá vitória aos reis,
+que livra o seu servo Davi
+da espada mortal. 
+Dá-me libertação;
+salva-me das mãos dos estrangeiros,
+que têm lábios mentirosos
+e que, com a mão direita erguida,
+juram falsamente. 
+Então, na juventude,
+os nossos filhos serão como plantas viçosas;
+as nossas filhas, como colunas
+esculpidas para ornar um palácio. 
+Os nossos celeiros estarão cheios
+das mais variadas provisões.
+Os nossos rebanhos se multiplicarão
+aos milhares,
+às dezenas de milhares em nossos campos; 
+o nosso gado dará suas crias;
+não haverá praga alguma nem aborto.
+Não haverá gritos de aflição em nossas ruas. 
+Como é feliz o povo assim abençoado!
+Como é feliz o povo cujo Deus é o Senhor! 
+ Salmo 144
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 36
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_36/
 INFO:root:🔹 Description: Há no meu íntimo um oráculo
@@ -142,253 +201,84 @@ Com Deus conquistaremos a vitória,
 e ele pisoteará os nossos adversários. 
  Salmo 60
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 78
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_78/
-INFO:root:🔹 Description: Povo meu, escute o meu ensino;
-incline os ouvidos
-para o que eu tenho a dizer. 
-Em parábolas abrirei a minha boca,
-proferirei enigmas do passado; 
-o que ouvimos e aprendemos,
-o que nossos pais nos contaram. 
-Não os esconderemos dos nossos filhos;
-contaremos à próxima geração
-os louváveis feitos do Senhor,
-o seu poder e as maravilhas que fez. 
-Ele decretou estatutos para Jacó,
-e em Israel estabeleceu a lei,
-e ordenou aos nossos antepassados
-que a ensinassem aos seus filhos, 
-de modo que a geração seguinte a conhecesse,
-e também os filhos que ainda nasceriam,
-e eles, por sua vez,
-contassem aos seus próprios filhos. 
-Então eles porão a confiança em Deus;
-não esquecerão os seus feitos
-e obedecerão aos seus mandamentos. 
-Eles não serão como os seus antepassados,
-obstinados e rebeldes,
-povo de coração desleal para com Deus,
-gente de espírito infiel. 
-Os homens de Efraim, flecheiros armados,
-viraram as costas no dia da batalha; 
-não guardaram a aliança de Deus
-e se recusaram a viver de acordo com a sua lei. 
-Esqueceram o que ele tinha feito,
-as maravilhas que lhes havia mostrado. 
-Ele fez milagres diante dos seus antepassados,
-na terra do Egito, na região de Zoã. 
-Dividiu o mar para que pudessem passar;
-fez a água erguer-se como um muro. 
-Ele os guiou com a nuvem de dia
-e com a luz do fogo de noite. 
-Fendeu as rochas no deserto
-e deu-lhes tanta água
-como a que flui das profundezas; 
-da pedra fez sair regatos
-e fluir água como um rio. 
-Mas contra ele continuaram a pecar,
-revoltando-se no deserto contra o Altíssimo. 
-Deliberadamente puseram Deus à prova,
-exigindo o que desejavam comer. 
-Duvidaram de Deus, dizendo:
-"Poderá Deus preparar uma mesa no deserto? 
-Sabemos que, quando ele feriu a rocha,
-a água brotou e jorrou em torrentes.
-Mas conseguirá também dar-nos de comer?
-Poderá suprir de carne o seu povo?" 
-O Senhor os ouviu e enfureceu-se;
-com fogo atacou Jacó,
-e sua ira levantou-se contra Israel, 
-pois eles não creram em Deus
-nem confiaram no seu poder salvador. 
-Contudo, ele deu ordens às nuvens
-e abriu as portas dos céus; 
-fez chover maná para que o povo comesse,
-deu-lhe o pão dos céus. 
-Os homens comeram o pão dos anjos;
-enviou-lhes comida à vontade. 
-Enviou dos céus o vento oriental
-e pelo seu poder fez avançar o vento sul. 
-Fez chover carne sobre eles como pó,
-bandos de aves como a areia da praia. 
-Levou-as a cair dentro do acampamento,
-ao redor das suas tendas. 
-Comeram à vontade,
-e assim ele satisfez o desejo deles. 
-Mas, antes de saciarem o apetite,
-quando ainda tinham a comida na boca, 
-acendeu-se contra eles a ira de Deus;
-e ele feriu de morte os mais fortes dentre eles,
-matando os jovens de Israel. 
-A despeito disso tudo, continuaram pecando;
-não creram nos seus prodígios. 
-Por isso ele encerrou
-os dias deles como um sopro
-e os anos deles em repentino pavor. 
-Sempre que Deus os castigava com a morte,
-eles o buscavam;
-com fervor se voltavam de novo para ele. 
-Lembravam-se de que Deus era a sua Rocha,
-de que o Deus Altíssimo era o seu Redentor. 
-Com a boca o adulavam,
-com a língua o enganavam; 
-o coração deles não era sincero;
-não foram fiéis à sua aliança. 
-Contudo, ele foi misericordioso;
-perdoou-lhes as maldades
-e não os destruiu.
-Vez após vez conteve a sua ira,
-sem despertá-la totalmente. 
-Lembrou-se de que eram meros mortais,
-brisa passageira que não retorna. 
-Quantas vezes mostraram-se rebeldes
-contra ele no deserto
-e o entristeceram na terra solitária! 
-Repetidas vezes puseram Deus à prova;
-irritaram o Santo de Israel. 
-Não se lembravam da sua mão poderosa,
-do dia em que os redimiu do opressor, 
-do dia em que mostrou
-os seus prodígios no Egito,
-as suas maravilhas na região de Zoã, 
-quando transformou os rios
-e os riachos dos egípcios em sangue,
-e eles não mais conseguiam beber das suas águas, 
-e enviou enxames de moscas
-que os devoraram,
-e rãs que os devastaram; 
-quando entregou as suas plantações às larvas,
-a produção da terra aos gafanhotos, 
-e destruiu as suas vinhas com a saraiva
-e as suas figueiras bravas com a geada; 
-quando entregou o gado deles ao granizo,
-os seus rebanhos aos raios; 
-quando os atingiu com a sua ira ardente,
-com furor, indignação e hostilidade,
-com muitos anjos destruidores. 
-Abriu caminho para a sua ira;
-não os poupou da morte,
-mas os entregou à peste. 
-Matou todos os primogênitos do Egito,
-as primícias do vigor varonil
-das tendas de Cam. 
-Mas tirou o seu povo como ovelhas
-e o conduziu como a um rebanho pelo deserto. 
-Ele os guiou em segurança,
-e não tiveram medo;
-e os seus inimigos afundaram-se no mar. 
-Assim os trouxe à fronteira
-da sua terra santa,
-aos montes que a sua mão direita conquistou. 
-Expulsou nações que lá estavam,
-distribuiu-lhes as terras por herança
-e deu suas tendas às tribos de Israel
-para que nelas habitassem. 
-Mas eles puseram Deus à prova
-e foram rebeldes contra o Altíssimo;
-não obedeceram aos seus testemunhos. 
-Foram desleais e infiéis,
-como os seus antepassados,
-confiáveis como um arco defeituoso. 
-Eles o irritaram com os altares idólatras;
-com os seus ídolos lhe provocaram ciúmes. 
-Sabendo-o Deus, enfureceu-se
-e rejeitou totalmente Israel; 
-abandonou o tabernáculo de Siló,
-a tenda onde habitava entre os homens. 
-Entregou o símbolo do seu poder ao cativeiro
-e o seu esplendor nas mãos do adversário. 
-Deixou que o seu povo fosse morto à espada,
-pois enfureceu-se com a sua herança. 
-O fogo consumiu os seus jovens,
-e as suas moças não tiveram
-canções de núpcias; 
-os sacerdotes foram mortos à espada!
-As viúvas já nem podiam chorar! 
-Então o Senhor despertou
-como que de um sono,
-como um guerreiro despertado do domínio do vinho. 
-Fez retroceder a golpes os seus adversários
-e os entregou a permanente humilhação. 
-Também rejeitou as tendas de José
-e não escolheu a tribo de Efraim; 
-ao contrário, escolheu a tribo de Judá
-e o monte Sião, o qual amou. 
-Construiu o seu santuário como as alturas;
-como a terra o firmou para sempre. 
-Escolheu o seu servo Davi
-e o tirou do aprisco das ovelhas, 
-do pastoreio de ovelhas,
-para ser o pastor de Jacó, seu povo,
-de Israel, sua herança. 
-E de coração íntegro Davi os pastoreou;
-com mãos experientes os conduziu. 
- Salmo 78
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 313479 characters
-INFO:root:HTML parsed, length: 303725 characters
-INFO:root:Found 3 titles: ['Tolerar não é aceitar', 'Sim, se for da vontade de Deus!', 'Eu sou o que sou']
+INFO:root:Response length: 315572 characters
+INFO:root:HTML parsed, length: 305837 characters
+INFO:root:Found 3 titles: ['Na presença do Rei', 'Tolerar não é aceitar', 'Sim, se for da vontade de Deus!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Não se amoldem ao padrão deste mundo, mas transfor', 'Em vez disso, deveriam dizer: "Se o Senhor quiser,', 'Moisés perguntou: "Quando eu chegar diante dos isr']
-INFO:root:Found 1 dates: ['Segunda, 9 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Tu me farás conhecer a vereda da vida,\na alegria p', 'Não se amoldem ao padrão deste mundo, mas transfor', 'Em vez disso, deveriam dizer: "Se o Senhor quiser,']
+INFO:root:Found 1 dates: ['Terça, 10 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Tolerar não é aceitar', ID=62e8ffd13359a53565f65cbc45f7497d
+INFO:root:Processing entry 1: Title='Na presença do Rei', ID=ccec820accd6156194bc8e174bcfa5a8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Tolerar não é aceitar - Palavra de Hoje
+INFO:root:🔹 Title: Na presença do Rei - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
-- Romanos 12:2
+INFO:root:🔹 Description: Tu me farás conhecer a vereda da vida,
+a alegria plena da tua presença,
+eterno prazer à tua direita.
+- Salmos 16:11
 
-Vivemos em um tempo em que a palavra tolerância é constantemente usada como sinônimo de aceitação. Porém, à luz da Palavra de Deus, é essencial compreender que tolerar não significa concordar, aprovar ou adotar os valores deste mundo. O cristão é chamado a amar as pessoas, mas a permanecer fiel à verdade do Evangelho, mesmo quando essa verdade confronte a cultura ao nosso redor.
-Tolerar é respeitar o próximo, reconhecer sua dignidade como criatura feita à imagem de Deus e conviver em paz, sem ódio, violência ou arrogância. Aceitar, por outro lado, é validar práticas, ideologias e comportamentos que contradizem os princípios bíblicos. Quando essa distinção se perde, o perigo é que a igreja comece a se moldar ao mundo, em vez de ser sal da terra.
-A Palavra nos alerta que o sistema deste mundo é passageiro e se opõe aos valores do Reino de Deus. Quando o cristão aceita tudo sem discernimento, corre o risco de relativizar o pecado, silenciar a verdade e enfraquecer sua fé. Isso não apenas compromete o testemunho cristão, mas também afasta pessoas da verdadeira transformação que só Cristo pode oferecer.
-Posicionar-se, portanto, não é ser intolerante, mas obediente. Jesus foi o maior exemplo de amor e, ao mesmo tempo, de firmeza. Ele acolhia os pecadores, mas nunca aprovou o pecado. Assim também deve ser o cristão: firme em suas convicções, claro em sua fé e cheio de graça e amor em suas atitudes.
-Resistir às imposições do mundo exige coragem, discernimento e uma vida fundamentada na Palavra. O cristão não vive para agradar a sociedade, mas para glorificar a Deus. E ao fazer isso com amor, respeito e verdade, ele cumpre seu chamado sem abrir mão da fé.
-Veja também: Exemplos de persistência na Bíblia (pessoas que confiaram em Deus e venceram)
+Quando reconhecemos que Deus reina soberano sobre todas as coisas, nosso coração encontra descanso. O mundo nos convida à pressa, ao controle e à autossuficiência, mas a presença do Rei nos chama à confiança e à dependência. Diante d’Ele, nossas máscaras caem, e somos vistos exatamente como somos, ainda assim, profundamente amados.
+Na presença do Rei, aprendemos que não somos definidos pelas nossas falhas, mas pela graça que nos alcança. Isaías, ao contemplar a glória de Deus, reconheceu sua própria pequenez; porém, não foi destruído, foi transformado. Assim também acontece conosco: quanto mais perto estamos do Rei, mais conscientes ficamos de quem Ele é e de quem nós somos n’Ele. A santidade de Deus não nos afasta; ela nos purifica e nos envia.
+Estar na presença do Rei também nos realinha com o propósito. As preocupações que antes pareciam gigantes perdem força quando colocadas diante do trono. O medo cede lugar à fé, a ansiedade é substituída pela paz que excede todo entendimento. Não porque os problemas desaparecem, mas porque aprendemos a enxergá-los a partir da perspectiva do céu.
+O Rei não governa com tirania, mas com amor. Ele nos convida a entrar, a permanecer e a ouvir Sua voz. Na Sua presença, somos curados, restaurados e capacitados a viver de maneira diferente neste mundo. Saímos do secreto fortalecidos para o público, cheios de compaixão e verdade.
+Que possamos buscar diariamente a presença do Rei, não apenas pelo que Ele pode nos dar, mas por quem Ele é. Pois é diante d’Ele que encontramos vida, direção e sentido. E quando aprendemos a viver na presença do Rei, cada passo nosso se torna um ato de adoração.
+Veja também: Versículos sobre buscar o poder de Deus
  
-Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
-- Romanos 12:2
+Tu me farás conhecer a vereda da vida,
+a alegria plena da tua presença,
+eterno prazer à tua direita.
+- Salmos 16:11
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 322113 characters
-INFO:root:HTML parsed, length: 311919 characters
-INFO:root:Found 3 titles: ['Nenhum mal te sucederá!', 'A justiça do Reino', 'A Ele seja a glória para sempre!']
-INFO:root:Found 1 URLs: ['/esportivo/']
-INFO:root:Found 3 descriptions: ['Se você fizer do Altíssimo o seu abrigo, do Senhor', 'Dê a quem pede, e não volte as costas àquele que d', 'Pois dele, por ele e para ele são todas as coisas.']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n9\nSEGUNDA', 'FEVEREIRO\n\n8\nDOMINGO', 'FEVEREIRO\n\n7\nSÁBADO']
+INFO:root:Response length: 324870 characters
+INFO:root:HTML parsed, length: 314694 characters
+INFO:root:Found 3 titles: ['Compartilhando o pão', 'Nenhum mal te sucederá!', 'A justiça do Reino']
+INFO:root:Found 1 URLs: ['/amar_o_proximo_como_a_ti_mesmo_explicacao_do_mandamento/']
+INFO:root:Found 3 descriptions: ['Então Jesus tomou os pães, deu graças e os reparti', 'Se você fizer do Altíssimo o seu abrigo, do Senhor', 'Dê a quem pede, e não volte as costas àquele que d']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n10\nTERÇA', 'FEVEREIRO\n\n9\nSEGUNDA', 'FEVEREIRO\n\n8\nDOMINGO']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Nenhum mal te sucederá!', ID=e2f6a79af004777588ab8be99bbc3b8a
+INFO:root:Processing entry 1: Title='Compartilhando o pão', ID=69a5d30df0d2ef43b288757d994d48ef
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Nenhum mal te sucederá!
-INFO:root:🔹 URL: https://www.bibliaon.com/esportivo/
-INFO:root:🔹 Description: Se você fizer do Altíssimo o seu abrigo, do Senhor o seu refúgio, nenhum mal o atingirá, desgraça alguma chegará à sua tenda.
-Salmo 91:9-10 
+INFO:root:🔹 Title: Compartilhando o pão
+INFO:root:🔹 URL: https://www.bibliaon.com/amar_o_proximo_como_a_ti_mesmo_explicacao_do_mandamento/
+INFO:root:🔹 Description: Então Jesus tomou os pães, deu graças e os repartiu entre os que estavam assentados, tanto quanto queriam; e fez o mesmo com os peixes.
+- João 6:11
 
-O Senhor Deus é o nosso melhor refúgio. Nele, nos sentimos protegidos e amparados. É muito bom sentir a proteção de Deus sobre nós, isso nos acalma e nos dá confiança. 
-Agora, para recebermos a proteção do Senhor, devemos confiar nele de todo coração. Colocar Deus em primeiro lugar na nossa vida, faz parte dessa confiança. Quanto mais colocamos Deus em primazia, mais confiamos nele.
-O resultado dessa confiança, é um bom relacionamento com Deus. Dessa forma, não temos medo de confessarmos tudo a Ele. Uma oração verdadeira atrai o mover de Deus. Ele nos ouve e recebemos a sua cobertura, essa proteção divina se estende a nossa família. Uma casa fundada na rocha - que é Cristo - permanecerá sempre firme e protegida! 
-O Senhor é o meu abrigo! 
+Compartilhar o pão é mais do que um gesto de generosidade; é uma expressão viva do amor de Deus em ação. O pão simboliza sustento, cuidado e comunhão. Quando partilhamos o que temos, mesmo que pareça pouco, demonstramos confiança naquele que multiplica e supre todas as necessidades.
+Jesus nos ensinou, com palavras e atitudes, que ninguém deve passar fome, seja ela física ou espiritual. Ao sentar-se com os simples, ao alimentar multidões e ao repartir o pão com seus discípulos, Ele revelou que o Reino de Deus se manifesta nos pequenos gestos feitos com fé e compaixão. Compartilhar o pão é reconhecer o outro como irmão, digno de atenção, respeito e amor.
+No nosso dia a dia, o pão pode assumir muitas formas. Pode ser o alimento colocado à mesa, o tempo dedicado a ouvir alguém, uma palavra de encorajamento ou uma ajuda oferecida no momento certo. Cada ato de partilha rompe barreiras do egoísmo e aproxima os corações, criando laços de solidariedade e esperança.
+Quando repartimos, também somos transformados. Aprendemos a depender menos do acúmulo e mais da providência divina. Descobrimos que a verdadeira abundância não está em ter muito, mas em viver com o coração aberto. Deus age poderosamente quando decidimos ser instrumentos de Sua graça.
+Que possamos olhar ao nosso redor e perceber as oportunidades diárias de compartilhar o pão. Que nossas mãos estejam dispostas a servir e nosso coração sensível às necessidades do próximo. Assim, refletiremos o amor de Cristo e testemunharemos que, quando o pão é repartido com fé, nunca falta.
 
-A melhor forma de refugiar-se no Senhor é através da oração. Entregue-se, diga as suas aflições e medos. Deus ouve e responde a nossa oração. 
-A melhor forma de confiar em Deus é através da leitura da Palavra. Nela, tomamos conhecimento das Suas promessas e fortalecemos a nossa fé. 
-Independente das tempestades, saber que Deus está no nosso barco faz toda a diferença. Por isso, não tema as dificuldades, continue com Deus.
+Pois eu tive fome, e vocês me deram de comer; tive sede, e vocês me deram de beber; fui estrangeiro, e vocês me acolheram;
+- Mateus 25:35
 
-Para Orar: 
+Praticando o amor no compartilhar
 
-Senhor, confio em Ti! Guarda-me segundo a Tua palavra e proteja-me do mal. Não há nada que resista ao Teu poder, tudo fez e tudo podes fazer. Na Tua presença me sinto seguro e amado, por isso te louvo. Tu és o meu abrigo! Amém!
+
+Alimente os necessitados: Ofereça comida ou recursos a quem passa fome, lembrando que pequenos gestos de generosidade podem suprir necessidades físicas e espirituais diárias.
+
+Compartilhe seu tempo e atenção: Ouça e acompanhe pessoas em dificuldade, mostrando empatia e cuidado. O tempo dedicado é um pão que fortalece corações e relacionamentos.
+
+Doe palavras e gestos de encorajamento: Incentive, conforte, tornando cada ato de bondade uma expressão do amor de Cristo, multiplicando fé, esperança e alegria.
+
+Para orar:
+
+Senhor Deus, agradecemos pelo pão diário e pelo amor que nos sustenta. Ensina-nos a partilhar com generosidade, aliviar o sofrimento do próximo e refletir Teu cuidado. Que nossas mãos sejam instrumentos de bondade, nosso coração fonte de compaixão e nossa vida testemunho de fé. Multiplica nosso pouco para abençoar muitos, fortalecendo a comunhão e espalhando Tua luz em cada gesto. Em nome de Jesus, amém.
+
+Veja também: Amar o próximo como a ti mesmo: explicação do mandamento
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -419,15 +309,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  33 ++-
+ feeds/devocional_de_hoje/feed.json        |   8 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  24 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  70 ++++----
+ feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 234 ++++-------------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 270 +++++++++++++-----------------
- 11 files changed, 202 insertions(+), 279 deletions(-)
+ output.log                                | 422 +++++++++++-------------------
+ 11 files changed, 280 insertions(+), 512 deletions(-)
