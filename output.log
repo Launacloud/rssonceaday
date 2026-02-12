@@ -1,79 +1,108 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124149 characters
-INFO:root:HTML parsed, length: 117630 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (11/02/2026)', 'Palavra de Ontem (10/02/2026)', 'Palavra de Anteontem (09/02/2026)']
-INFO:root:Found 3 URLs: ['/caucasiano/', '/autodescricao/', '/bazofiar/']
-INFO:root:Found 10 descriptions: ['adjetivo Relativo ao Cáucaso, conjunto de montanha', 'Classe gramatical:adjetivo e substantivo masculino', 'Sílabas:cau-ca-si-a-no']
-INFO:root:Found 3 dates: ['Palavra de Hoje (11/02/2026)', 'Palavra de Ontem (10/02/2026)', 'Palavra de Anteontem (09/02/2026)']
+INFO:root:Response length: 123652 characters
+INFO:root:HTML parsed, length: 117317 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (12/02/2026)', 'Palavra de Ontem (11/02/2026)', 'Palavra de Anteontem (10/02/2026)']
+INFO:root:Found 3 URLs: ['/xaxado/', '/caucasiano/', '/autodescricao/']
+INFO:root:Found 9 descriptions: ['substantivo masculino Tipo de forró nordestino ori', 'Classe gramatical:substantivo masculino', 'Sílabas:xa-xa-do']
+INFO:root:Found 3 dates: ['Palavra de Hoje (12/02/2026)', 'Palavra de Ontem (11/02/2026)', 'Palavra de Anteontem (10/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (11/02/2026)', ID=09e5f235beeb28078c5f041bff10eda9
-INFO:root:Processing entry 2: Title='Palavra de Ontem (10/02/2026)', ID=06e3cfe88573c8597b3c7255095f1c76
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/02/2026)', ID=e6dbd0c28a7e1bb3794c9c54aa672f5c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (12/02/2026)', ID=ec60ebc3aa8c735f60db8291998e21d2
+INFO:root:Processing entry 2: Title='Palavra de Ontem (11/02/2026)', ID=dad7a5b297e0baef4d186dabaf8bf964
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (10/02/2026)', ID=09eb433df3d4b2c82d56fe5d6166a102
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (11/02/2026) - Significado completo de caucasiano:
+INFO:root:🔹 Title: Palavra de Hoje (12/02/2026) - Significado completo de xaxado:
+INFO:root:🔹 URL: https://www.dicio.com.br/xaxado/
+INFO:root:🔹 Description: substantivo masculino Tipo de forró nordestino originalmente performado apenas por homens em Pernambuco; executado em círculo, sendo seu ritmo marcado pela ação de bater rifles no chão, em alusão ou por influência dos cangaceiros.Etimologia (origem da palavra xaxado). A palavra xaxado tem sua origem onomatopaica, por influência do som "xa-xa-xá", agregado ao sufixo -ado.
+ Classe gramatical:substantivo masculino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (11/02/2026) - Significado completo de caucasiano:
 INFO:root:🔹 URL: https://www.dicio.com.br/caucasiano/
-INFO:root:🔹 Description: adjetivo Relativo ao Cáucaso, conjunto de montanhas situadas na Europa Oriental.Que nasceu ou habita essa região; caucásio.Referente ou próprio do grupo de pessoas nativas da Europa, do Norte da África e de uma região próxima ao Oriente (essa classificação atualmente é considerada desacreditada, sem fundamento); caucasoide.[Popular] Classificação obsoleta para se referir a pessoas brancas por alusão às características físicas de algumas populações europeias.[Linguística] Que tem características de línguas indo-europeias faladas no Cáucaso (Sul da Rússia, Azerbaijão e Geórgia), falando de línguas.substantivo masculino O indivíduo nascido no Cáucaso; caucásico.Etimologia (origem da palavra caucasiano). A palavra caucasiano tem sua origem pela junção do nome próprio Cáucaso, -i-, e pelo sufixo -ano.
- Classe gramatical:adjetivo e substantivo masculino
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:xa-xa-do
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (10/02/2026) - Significado completo de autodescrição:
+INFO:root:🔹 Title: Palavra de Anteontem (10/02/2026) - Significado completo de autodescrição:
 INFO:root:🔹 URL: https://www.dicio.com.br/autodescricao/
-INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
- Sílabas:cau-ca-si-a-no
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (09/02/2026) - Significado completo de bazofiar:
-INFO:root:🔹 URL: https://www.dicio.com.br/bazofiar/
-INFO:root:🔹 Description: Sílabas:cau-ca-si-a-no
- 
-Sinônimos:
-
-autobiografia, autoanálise, autoavaliação, autorretrato, autoidentificação, apresentação 
-
+INFO:root:🔹 Description: Sílabas:xa-xa-do
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
-INFO:root:Response length: 513 characters
+INFO:root:Response length: 528 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316442 characters
-INFO:root:HTML parsed, length: 306254 characters
-INFO:root:Found 1 titles: ['Êxodo 20:15']
-INFO:root:Found 1 URLs: ['/versiculo/exodo_20_15/']
-INFO:root:Found 1 descriptions: ['"Não furtarás. Êxodo 20:15']
+INFO:root:Response length: 316242 characters
+INFO:root:HTML parsed, length: 306054 characters
+INFO:root:Found 1 titles: ['Números 23:23']
+INFO:root:Found 1 URLs: ['/versiculo/numeros_23_23/']
+INFO:root:Found 1 descriptions: ['Não há magia que possa contra Jacó,\nnem encantamen']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Êxodo 20:15', ID=8cea769926c793446f11faa23a8c57e0
+INFO:root:Processing entry 1: Title='Números 23:23', ID=e8aa9d05ebb61fbe6f7f335168cc284f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Êxodo 20:15
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/exodo_20_15/
-INFO:root:🔹 Description: "Não furtarás. Êxodo 20:15
+INFO:root:🔹 Title: Números 23:23
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/numeros_23_23/
+INFO:root:🔹 Description: Não há magia que possa contra Jacó,
+nem encantamento contra Israel.
+Agora se dirá de Jacó e de Israel:
+'Vejam o que Deus tem feito!' Números 23:23
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 317321 characters
-INFO:root:HTML parsed, length: 307943 characters
-INFO:root:Found 3 titles: ['Salmo 72', 'Salmo 144', 'Salmo 36']
-INFO:root:Found 3 URLs: ['/salmos_72/', '/salmos_144/', '/salmos_36/']
-INFO:root:Found 3 descriptions: ['Reveste da tua justiça o rei, ó Deus,\ne da tua ret', 'Bendito seja o Senhor, a minha Rocha,\nque treina a', 'Há no meu íntimo um oráculo\na respeito da maldade ']
-INFO:root:Found 3 dates: ['11 de Fevereiro de 2026', '10 de Fevereiro de 2026', '9 de Fevereiro de 2026']
+INFO:root:Response length: 316979 characters
+INFO:root:HTML parsed, length: 307600 characters
+INFO:root:Found 3 titles: ['Salmo 52', 'Salmo 72', 'Salmo 144']
+INFO:root:Found 3 URLs: ['/salmos_52/', '/salmos_72/', '/salmos_144/']
+INFO:root:Found 3 descriptions: ['Por que você se vangloria do mal\ne de ultrajar a D', 'Reveste da tua justiça o rei, ó Deus,\ne da tua ret', 'Bendito seja o Senhor, a minha Rocha,\nque treina a']
+INFO:root:Found 3 dates: ['12 de Fevereiro de 2026', '11 de Fevereiro de 2026', '10 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
-INFO:root:Processing entry 2: Title=' Salmo 144', ID=49ac889de8bc5a68b31e914f265de5df
-INFO:root:Processing entry 3: Title=' Salmo 36', ID=1b58fb6706721ad7c428d285ca780e23
+INFO:root:Processing entry 1: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
+INFO:root:Processing entry 2: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
+INFO:root:Processing entry 3: Title=' Salmo 144', ID=49ac889de8bc5a68b31e914f265de5df
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 52
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_52/
+INFO:root:🔹 Description: Por que você se vangloria do mal
+e de ultrajar a Deus continuamente?,
+ó homem poderoso! 
+Sua língua trama destruição;
+é como navalha afiada, cheia de engano. 
+Você prefere o mal ao bem;
+a falsidade, à verdade. 
+Você ama toda palavra maldosa,
+ó língua mentirosa! 
+Saiba que Deus o arruinará para sempre:
+ele o agarrará e o arrancará da sua tenda;
+ele o desarraigará da terra dos vivos. 
+Os justos verão isso e temerão;
+rirão dele, dizendo: 
+"Veja só o homem
+que rejeitou a Deus como refúgio;
+confiou em sua grande riqueza
+e buscou refúgio em sua maldade!" 
+Mas eu sou como uma oliveira
+que floresce na casa de Deus;
+confio no amor de Deus
+para todo o sempre. 
+Para sempre te louvarei pelo que fizeste;
+na presença dos teus fiéis
+proclamarei o teu nome,
+porque tu és bom. 
+ Salmo 52
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 72
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_72/
 INFO:root:🔹 Description: Reveste da tua justiça o rei, ó Deus,
@@ -183,89 +212,87 @@ Como é feliz o povo assim abençoado!
 Como é feliz o povo cujo Deus é o Senhor! 
  Salmo 144
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 36
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_36/
-INFO:root:🔹 Description: Há no meu íntimo um oráculo
-a respeito da maldade do ímpio:
-Aos seus olhos é inútil temer a Deus. 
-Ele se acha tão importante,
-que não percebe nem rejeita o seu pecado. 
-As palavras da sua boca
-são maldosas e traiçoeiras;
-abandonou o bom senso e não quer fazer o bem. 
-Até na sua cama planeja maldade;
-nada há de bom no caminho a que se entregou,
-e ele nunca rejeita o mal. 
-O teu amor, Senhor, chega até os céus;
-a tua fidelidade até as nuvens. 
-A tua justiça é firme como as altas montanhas;
-as tuas decisões, insondáveis como o grande mar.
-Tu, Senhor, preservas
-tanto os homens quanto os animais. 
-Como é precioso o teu amor, ó Deus!
-Os homens encontram
-refúgio à sombra das tuas asas. 
-Eles se banqueteiam na fartura da tua casa;
-tu lhes dás de beber do teu rio de delícias. 
-Pois em ti está a fonte da vida;
-graças à tua luz, vemos a luz. 
-Estende o teu amor aos que te conhecem;
-a tua justiça, aos que são retos de coração. 
-Não permitas que o arrogante me pisoteie
-nem que a mão do ímpio me faça recuar. 
-Lá estão os malfeitores caídos,
-lançados ao chão, incapazes de levantar-se! 
- Salmo 36
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 318810 characters
-INFO:root:HTML parsed, length: 309075 characters
-INFO:root:Found 3 titles: ['O mundo julga, Cristo liberta', 'Na presença do Rei', 'Tolerar não é aceitar']
+INFO:root:Response length: 318953 characters
+INFO:root:HTML parsed, length: 309220 characters
+INFO:root:Found 3 titles: ['Você clama a Deus e Ele te liberta: dê a Ele toda a glória!', 'O mundo julga, Cristo liberta', 'Na presença do Rei']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Portanto, se o Filho os libertar, vocês de fato se', 'Tu me farás conhecer a vereda da vida,\na alegria p', 'Não se amoldem ao padrão deste mundo, mas transfor']
-INFO:root:Found 1 dates: ['Quarta, 11 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['e clame a mim no dia da angústia;\neu o livrarei, e', 'Portanto, se o Filho os libertar, vocês de fato se', 'Tu me farás conhecer a vereda da vida,\na alegria p']
+INFO:root:Found 1 dates: ['Quinta, 12 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O mundo julga, Cristo liberta', ID=fd68cbf6fc9f1b7c56ff2400ebe34d76
+INFO:root:Processing entry 1: Title='Você clama a Deus e Ele te liberta: dê a Ele toda a glória!', ID=071a5eb08fe93ec1639a8d2103c90ea4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O mundo julga, Cristo liberta - Palavra de Hoje
+INFO:root:🔹 Title: Você clama a Deus e Ele te liberta: dê a Ele toda a glória! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Portanto, se o Filho os libertar, vocês de fato serão livres.
-- João 8:36
+INFO:root:🔹 Description: e clame a mim no dia da angústia;
+eu o livrarei, e você me honrará."
+- Salmo 50:15
 
-O mundo gosta de colocar rótulos, medir pessoas por falhas, aparência, passado ou sucesso. Somos avaliados o tempo todo, nas redes, no trabalho, até dentro de casa. Esse julgamento pesa, machuca, cria medo e distância. Muitos passam a viver tentando agradar, provar valor, esconder feridas. Mas Cristo não age assim. Ele não olha primeiro para o erro, e sim para o coração.
-Jesus se aproxima com graça e verdade. Ele conhece nossas quedas, nossas lutas silenciosas e nossas dúvidas. Ainda assim, oferece perdão, restauração e um novo começo. A liberdade que vem de Cristo é presença constante de esperança. É saber que não somos definidos pelo que fizemos, e sim pelo amor que nos alcançou.
-Quando aceitamos essa verdade, deixamos o peso da culpa e do julgamento. Aprendemos a caminhar com humildade e confiança. Também somos chamados a olhar o outro com misericórdia, não com condenação. Quem foi liberto por Cristo aprende a libertar com palavras, atitudes e cuidado.
-Que estejamos dispostos a viver essa liberdade todos os dias, lembrando que ela começa no coração rendido a Deus. Mesmo quando o mundo aponta, Jesus acolhe; quando caímos, Ele levanta; quando erramos, Ele ensina.
-Seguir Cristo é aprender a confiar, perdoar, recomeçar e amar melhor. Nessa caminhada, somos curados aos poucos, fortalecidos pela Palavra, sustentados pela oração e guiados pelo Espírito. Assim, nossa vida se torna testemunho vivo, trazendo luz onde há sombras, paz onde existe dor, e esperança onde faltava sentido.
-Que possamos escolher essa graça todos os dias, vivendo com liberdade e responsabilidade, com humildade e fé. Que sirvamos com alegria, falemos a verdade e mostremos o amor de Cristo nas pequenas coisas do dia a dia: nas atitudes, nas palavras, no trabalho, na família, na igreja e onde quer que estejamos.
-Que tudo o que fizermos seja para a glória de Deus, confiando na fé e na graça de Cristo, nosso Senhor, que nos liberta, nos salva, nos restaura, nos guia e nos sustenta para sempre.
-Veja também: Versículos de cura e libertação
+O Salmo 50 fala da importância que Deus dá à obediência e a um coração grato. Deus não se impressiona com nossos atos de religiosidade. Ele nos chama a permitir que Ele nos transforme por dentro, vivendo para Ele e glorificando-O em tudo o que fazemos. Quando nossos corações se alinham com a Sua vontade, os portões do céu se abrem: Ele ouve o nosso clamor e nos livra do mal.
+Deus sempre ouve todos que se aproximam Dele com um coração humilde, reconhecendo o Seu amor, grandeza e poder. Ele nos chama a entregar nossas vidas a Ele, a confiar plenamente em Seu caráter e a depender da Sua graça. Quando clamamos sinceramente e colocamos nossos fardos em Suas mãos, Ele responde segundo a Sua perfeita vontade. Podemos ter certeza de que Deus traz consolo, orientação e libertação em meio às nossas provações.
+E quando Deus age, nossa resposta deve ser dar-Lhe toda a glória. Não é a nossa força, a nossa sabedoria ou os nossos méritos que produzem a vitória; é o Seu poder operando em nós. Somente Ele é digno de honra, adoração e louvor. Viver para Deus significa reconhecer a Sua mão em cada ação, testemunhar a Sua fidelidade e exaltar o Seu nome em todos os momentos.
+
+Os justos clamam, o Senhor os ouve
+e os livra de todas as suas tribulações.
+- Salmo 34:17
+
+Lembre-se hoje de que Deus não é indiferente aos clamores de Seus filhos. Ele ouve as orações que brotam de um coração que busca justiça, anseia agradá-Lo e confia em Seu cuidado. Mesmo em momentos de aflição, você pode ter certeza de que Ele está atento e pronto para ajudá-lo.
+Portanto, clame ao Senhor, confie nele e dê-lhe graças. Apresente suas necessidades, seus medos e seus desejos a Deus hoje, mas também entregue a ele sua obediência, sua adoração e toda a sua vida. Que cada resposta que você receber seja uma oportunidade para exaltar o seu nome e viver para a sua glória.
+Veja também: Versículos sobre a resposta de Deus (Ele nos ouve)
  
-Portanto, se o Filho os libertar, vocês de fato serão livres.
-- João 8:36
+e clame a mim no dia da angústia;
+eu o livrarei, e você me honrará."
+- Salmo 50:15
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 328851 characters
-INFO:root:HTML parsed, length: 318672 characters
-INFO:root:Found 3 titles: ['Quem você quer agradar?', 'Compartilhando o pão', 'Nenhum mal te sucederá!']
-INFO:root:Found 2 URLs: ['/versiculos_para_louvar_a_deus/', '/amar_o_proximo_como_a_ti_mesmo_explicacao_do_mandamento/']
-INFO:root:Found 3 descriptions: ['Acaso busco eu agora a aprovação dos homens ou a d', 'Então Jesus tomou os pães, deu graças e os reparti', 'Se você fizer do Altíssimo o seu abrigo, do Senhor']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n11\nQUARTA', 'FEVEREIRO\n\n10\nTERÇA', 'FEVEREIRO\n\n9\nSEGUNDA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Quem você quer agradar?', ID=990bae19136891e619606a9394cfee64
-INFO:root:Processing entry 2: Title='Compartilhando o pão', ID=69a5d30df0d2ef43b288757d994d48ef
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 329809 characters
+INFO:root:HTML parsed, length: 319630 characters
+INFO:root:Found 3 titles: ['O mundo rejeita, Deus acolhe', 'Quem você quer agradar?', 'Compartilhando o pão']
+INFO:root:Found 3 URLs: ['/provas_do_amor_de_deus/', '/versiculos_para_louvar_a_deus/', '/amar_o_proximo_como_a_ti_mesmo_explicacao_do_mandamento/']
+INFO:root:Found 3 descriptions: ['O Senhor está perto\ndos que têm o coração quebrant', 'Acaso busco eu agora a aprovação dos homens ou a d', 'Então Jesus tomou os pães, deu graças e os reparti']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n12\nQUINTA', 'FEVEREIRO\n\n11\nQUARTA', 'FEVEREIRO\n\n10\nTERÇA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='O mundo rejeita, Deus acolhe', ID=adacaa0fa70a597d00d7e77c90e98ce0
+INFO:root:Processing entry 2: Title='Quem você quer agradar?', ID=990bae19136891e619606a9394cfee64
+INFO:root:Processing entry 3: Title='Compartilhando o pão', ID=69a5d30df0d2ef43b288757d994d48ef
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O mundo rejeita, Deus acolhe
+INFO:root:🔹 URL: https://www.bibliaon.com/provas_do_amor_de_deus/
+INFO:root:🔹 Description: O Senhor está perto
+dos que têm o coração quebrantado
+e salva os de espírito abatido.
+- Salmos 34:18
+
+“O mundo rejeita, Deus acolhe.” Essa frase resume uma verdade que muitas pessoas vivem todos os dias. O mundo costuma valorizar quem tem sucesso, beleza, dinheiro ou poder. Quem não se encaixa nesses padrões muitas vezes é ignorado, criticado ou deixado de lado.
+Nos dias de hoje, pessoas são julgadas pela aparência, pela condição social ou até pelas suas fraquezas. Isso machuca, gera tristeza e faz muitos se sentirem sozinhos.
+Mas Deus é diferente do mundo. Ele não olha primeiro para a aparência, mas para o coração. Quando todos se afastam, Deus se aproxima. Quando alguém é rejeitado por falhar, Deus oferece perdão. Quando a pessoa pensa que não tem valor, Deus mostra que ela é preciosa.
+A Bíblia está cheia de exemplos assim: Jesus acolheu os doentes, os pobres, os pecadores e aqueles que eram desprezados pela sociedade. Ele conversou com quem ninguém queria conversar e amou quem ninguém queria amar.
+Deus não nos recebe porque somos perfeitos, mas porque Ele é amor. Seu acolhimento não depende de mérito, mas de graça. Isso significa que qualquer pessoa pode se aproximar d’Ele, não importa sua história. Onde o mundo aponta o dedo, Deus estende a mão. Onde o mundo fecha portas, Deus abre caminhos.
+Saber que Deus acolhe traz esperança. Podemos levar a Ele nossas dores, medos e erros sem medo de sermos rejeitados.
+No amor de Deus encontramos consolo, recomeço e força para continuar. Mesmo que o mundo rejeite, em Deus sempre haverá um lugar seguro.
+Um amor que não exclui, mas restaura e dá novo começo
+
+Quando o mundo nos julga por erros passados, Deus nos oferece perdão, mostrando que nossa história não define o nosso verdadeiro valor.
+A rejeição humana pode ferir, mas o acolhimento de Deus cura o coração e devolve esperança aos que se sentem esquecidos.
+Ao compreender que Deus nos aceita como somos, aprendemos também a acolher outros com amor, graça e menos julgamento diário.
+
+Para orar:
+
+Senhor Deus, entrego a Ti meu coração, minhas dores e minhas fraquezas. Quando o mundo me rejeitar, lembra-me que sou amado por Ti. Dá-me força para continuar, fé para confiar e paz para descansar em Teus braços. Ensina-me a acolher como Tu acolhes, com graça e misericórdia. Guia meus passos e renova minha esperança a cada dia, em nome de Jesus, amém.
+
+Veja também: 7 características do amor de Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Quem você quer agradar?
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
 INFO:root:🔹 Description: Acaso busco eu agora a aprovação dos homens ou a de Deus? Ou estou tentando agradar a homens? Se eu ainda estivesse procurando agradar a homens, não seria servo de Cristo.
@@ -346,15 +373,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  22 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  28 +++-
  feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  26 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  29 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  14 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  87 ++++++----
+ feeds/salmo_do_dia/atom.xml               |  62 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 271 ++++++++++++++++--------------
- 11 files changed, 272 insertions(+), 209 deletions(-)
+ output.log                                | 255 ++++++++++++++++--------------
+ 11 files changed, 245 insertions(+), 202 deletions(-)
