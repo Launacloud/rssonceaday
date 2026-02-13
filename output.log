@@ -1,34 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123652 characters
-INFO:root:HTML parsed, length: 117317 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (12/02/2026)', 'Palavra de Ontem (11/02/2026)', 'Palavra de Anteontem (10/02/2026)']
-INFO:root:Found 3 URLs: ['/xaxado/', '/caucasiano/', '/autodescricao/']
-INFO:root:Found 9 descriptions: ['substantivo masculino Tipo de forró nordestino ori', 'Classe gramatical:substantivo masculino', 'Sílabas:xa-xa-do']
-INFO:root:Found 3 dates: ['Palavra de Hoje (12/02/2026)', 'Palavra de Ontem (11/02/2026)', 'Palavra de Anteontem (10/02/2026)']
+INFO:root:Response length: 123275 characters
+INFO:root:HTML parsed, length: 116940 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (13/02/2026)', 'Palavra de Ontem (12/02/2026)', 'Palavra de Anteontem (11/02/2026)']
+INFO:root:Found 3 URLs: ['/velhofobia/', '/xaxado/', '/caucasiano/']
+INFO:root:Found 9 descriptions: ['substantivo feminino Comportamento preconceituoso ', 'Sinônimos:\n\netarismo, idadismo', 'Sílabas:ve-lho-fo-bi-a']
+INFO:root:Found 3 dates: ['Palavra de Hoje (13/02/2026)', 'Palavra de Ontem (12/02/2026)', 'Palavra de Anteontem (11/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (12/02/2026)', ID=ec60ebc3aa8c735f60db8291998e21d2
-INFO:root:Processing entry 2: Title='Palavra de Ontem (11/02/2026)', ID=dad7a5b297e0baef4d186dabaf8bf964
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (10/02/2026)', ID=09eb433df3d4b2c82d56fe5d6166a102
+INFO:root:Processing entry 1: Title='Palavra de Hoje (13/02/2026)', ID=8992292df2eaa95129ea592ee754564f
+INFO:root:Processing entry 2: Title='Palavra de Ontem (12/02/2026)', ID=b83ae88aa005bfd68dea523ac0c0bd5b
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/02/2026)', ID=ac8c1c9f2205e1fa9c3d38c1155c6a0a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (12/02/2026) - Significado completo de xaxado:
+INFO:root:🔹 Title: Palavra de Hoje (13/02/2026) - Significado completo de velhofobia:
+INFO:root:🔹 URL: https://www.dicio.com.br/velhofobia/
+INFO:root:🔹 Description: substantivo feminino Comportamento preconceituoso direcionado a pessoas idosas; preconceito e discriminação em relação aos idosos, a pessoas mais velhas, à idade; idadismo, etarismo.Etimologia (origem da palavra velhofobia). A palavra velhofobia tem sua origem pela junção da palavra velho e do sufixo -fobia.
+ 
+Sinônimos:
+
+etarismo, idadismo 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (12/02/2026) - Significado completo de xaxado:
 INFO:root:🔹 URL: https://www.dicio.com.br/xaxado/
-INFO:root:🔹 Description: substantivo masculino Tipo de forró nordestino originalmente performado apenas por homens em Pernambuco; executado em círculo, sendo seu ritmo marcado pela ação de bater rifles no chão, em alusão ou por influência dos cangaceiros.Etimologia (origem da palavra xaxado). A palavra xaxado tem sua origem onomatopaica, por influência do som "xa-xa-xá", agregado ao sufixo -ado.
- Classe gramatical:substantivo masculino
+INFO:root:🔹 Description: Sinônimos:
+
+etarismo, idadismo
+ Sílabas:ve-lho-fo-bi-a
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (11/02/2026) - Significado completo de caucasiano:
+INFO:root:🔹 Title: Palavra de Anteontem (11/02/2026) - Significado completo de caucasiano:
 INFO:root:🔹 URL: https://www.dicio.com.br/caucasiano/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:xa-xa-do
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (10/02/2026) - Significado completo de autodescrição:
-INFO:root:🔹 URL: https://www.dicio.com.br/autodescricao/
-INFO:root:🔹 Description: Sílabas:xa-xa-do
- Classe gramatical:adjetivo e substantivo masculino
+INFO:root:🔹 Description: Sílabas:ve-lho-fo-bi-a
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -36,43 +42,74 @@ INFO:root:Response length: 528 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316242 characters
-INFO:root:HTML parsed, length: 306054 characters
-INFO:root:Found 1 titles: ['Números 23:23']
-INFO:root:Found 1 URLs: ['/versiculo/numeros_23_23/']
-INFO:root:Found 1 descriptions: ['Não há magia que possa contra Jacó,\nnem encantamen']
+INFO:root:Response length: 316213 characters
+INFO:root:HTML parsed, length: 306025 characters
+INFO:root:Found 1 titles: ['Mateus 6:21']
+INFO:root:Found 1 URLs: ['/versiculo/mateus_6_21/']
+INFO:root:Found 1 descriptions: ['Pois onde estiver o seu tesouro, aí também estará ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Números 23:23', ID=e8aa9d05ebb61fbe6f7f335168cc284f
+INFO:root:Processing entry 1: Title='Mateus 6:21', ID=9693342bbcfb1007c7e68cae3e4d6434
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Números 23:23
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/numeros_23_23/
-INFO:root:🔹 Description: Não há magia que possa contra Jacó,
-nem encantamento contra Israel.
-Agora se dirá de Jacó e de Israel:
-'Vejam o que Deus tem feito!' Números 23:23
+INFO:root:🔹 Title: Mateus 6:21
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_6_21/
+INFO:root:🔹 Description: Pois onde estiver o seu tesouro, aí também estará o seu coração. Mateus 6:21
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316979 characters
-INFO:root:HTML parsed, length: 307600 characters
-INFO:root:Found 3 titles: ['Salmo 52', 'Salmo 72', 'Salmo 144']
-INFO:root:Found 3 URLs: ['/salmos_52/', '/salmos_72/', '/salmos_144/']
-INFO:root:Found 3 descriptions: ['Por que você se vangloria do mal\ne de ultrajar a D', 'Reveste da tua justiça o rei, ó Deus,\ne da tua ret', 'Bendito seja o Senhor, a minha Rocha,\nque treina a']
-INFO:root:Found 3 dates: ['12 de Fevereiro de 2026', '11 de Fevereiro de 2026', '10 de Fevereiro de 2026']
+INFO:root:Response length: 316310 characters
+INFO:root:HTML parsed, length: 306917 characters
+INFO:root:Found 3 titles: ['Salmo 16', 'Salmo 52', 'Salmo 72']
+INFO:root:Found 3 URLs: ['/salmos_16/', '/salmos_52/', '/salmos_72/']
+INFO:root:Found 3 descriptions: ['Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen', 'Por que você se vangloria do mal\ne de ultrajar a D', 'Reveste da tua justiça o rei, ó Deus,\ne da tua ret']
+INFO:root:Found 3 dates: ['13 de Fevereiro de 2026', '12 de Fevereiro de 2026', '11 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
-INFO:root:Processing entry 2: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
-INFO:root:Processing entry 3: Title=' Salmo 144', ID=49ac889de8bc5a68b31e914f265de5df
+INFO:root:Processing entry 1: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
+INFO:root:Processing entry 2: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
+INFO:root:Processing entry 3: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 16
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_16/
+INFO:root:🔹 Description: Protege-me, ó Deus,
+pois em ti me refugio. 
+Ao Senhor declaro: "Tu és o meu Senhor;
+não tenho bem nenhum além de ti". 
+Quanto aos fiéis que há na terra,
+eles é que são os notáveis
+em quem está todo o meu prazer. 
+Grande será o sofrimento
+dos que correm atrás de outros deuses.
+Não participarei dos seus sacrifícios de sangue,
+e os meus lábios nem mencionarão
+os seus nomes. 
+Senhor, tu és a minha porção e o meu cálice;
+és tu que garantes o meu futuro. 
+As divisas caíram para mim
+em lugares agradáveis:
+Tenho uma bela herança! 
+Bendirei o Senhor, que me aconselha;
+na escura noite o meu coração me ensina! 
+Sempre tenho o Senhor diante de mim.
+Com ele à minha direita, não serei abalado. 
+Por isso o meu coração se alegra
+e no íntimo exulto;
+mesmo o meu corpo repousará tranquilo, 
+porque tu não me abandonarás no sepulcro,
+nem permitirás que o teu santo
+sofra decomposição. 
+Tu me farás conhecer a vereda da vida,
+a alegria plena da tua presença,
+eterno prazer à tua direita. 
+ Salmo 16
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 52
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_52/
 INFO:root:🔹 Description: Por que você se vangloria do mal
@@ -160,113 +197,91 @@ Amém e amém.
 Encerram-se aqui as orações de Davi, filho de Jessé. 
  Salmo 72
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 144
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_144/
-INFO:root:🔹 Description: Bendito seja o Senhor, a minha Rocha,
-que treina as minhas mãos para a guerra
-e os meus dedos para a batalha. 
-Ele é o meu aliado fiel, a minha fortaleza,
-a minha torre de proteção
-e o meu libertador;
-é o meu escudo, aquele em quem me refugio.
-Ele subjuga a mim os povos. 
-Senhor, que é o homem
-para que te importes com ele,
-ou o filho do homem
-para que por ele te interesses? 
-O homem é como um sopro;
-seus dias são como sombra passageira. 
-Estende, Senhor, os teus céus e desce;
-toca os montes para que fumeguem. 
-Envia relâmpagos e dispersa os inimigos;
-atira as tuas flechas e faze-os debandar. 
-Das alturas, estende a tua mão e liberta-me;
-salva-me da imensidão das águas,
-das mãos desses estrangeiros, 
-que têm lábios mentirosos
-e que, com a mão direita erguida,
-juram falsamente. 
-Cantarei uma nova canção a ti, ó Deus;
-tocarei para ti a lira de dez cordas, 
-para aquele que dá vitória aos reis,
-que livra o seu servo Davi
-da espada mortal. 
-Dá-me libertação;
-salva-me das mãos dos estrangeiros,
-que têm lábios mentirosos
-e que, com a mão direita erguida,
-juram falsamente. 
-Então, na juventude,
-os nossos filhos serão como plantas viçosas;
-as nossas filhas, como colunas
-esculpidas para ornar um palácio. 
-Os nossos celeiros estarão cheios
-das mais variadas provisões.
-Os nossos rebanhos se multiplicarão
-aos milhares,
-às dezenas de milhares em nossos campos; 
-o nosso gado dará suas crias;
-não haverá praga alguma nem aborto.
-Não haverá gritos de aflição em nossas ruas. 
-Como é feliz o povo assim abençoado!
-Como é feliz o povo cujo Deus é o Senhor! 
- Salmo 144
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 318953 characters
-INFO:root:HTML parsed, length: 309220 characters
-INFO:root:Found 3 titles: ['Você clama a Deus e Ele te liberta: dê a Ele toda a glória!', 'O mundo julga, Cristo liberta', 'Na presença do Rei']
+INFO:root:Response length: 318998 characters
+INFO:root:HTML parsed, length: 309271 characters
+INFO:root:Found 3 titles: ['A força que vem do Senhor', 'Você clama a Deus e Ele te liberta: dê a Ele toda a glória!', 'O mundo julga, Cristo liberta']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['e clame a mim no dia da angústia;\neu o livrarei, e', 'Portanto, se o Filho os libertar, vocês de fato se', 'Tu me farás conhecer a vereda da vida,\na alegria p']
-INFO:root:Found 1 dates: ['Quinta, 12 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['O Senhor é a minha luz e a minha salvação;\nde quem', 'e clame a mim no dia da angústia;\neu o livrarei, e', 'Portanto, se o Filho os libertar, vocês de fato se']
+INFO:root:Found 1 dates: ['Sexta, 13 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Você clama a Deus e Ele te liberta: dê a Ele toda a glória!', ID=071a5eb08fe93ec1639a8d2103c90ea4
+INFO:root:Processing entry 1: Title='A força que vem do Senhor', ID=9d2645f17ad6a8463c93ca0b7e0cc879
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Você clama a Deus e Ele te liberta: dê a Ele toda a glória! - Palavra de Hoje
+INFO:root:🔹 Title: A força que vem do Senhor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: e clame a mim no dia da angústia;
-eu o livrarei, e você me honrará."
-- Salmo 50:15
+INFO:root:🔹 Description: O Senhor é a minha luz e a minha salvação;
+de quem terei temor?
+O Senhor é o meu forte refúgio;
+de quem terei medo?
+- Salmo 27:1
 
-O Salmo 50 fala da importância que Deus dá à obediência e a um coração grato. Deus não se impressiona com nossos atos de religiosidade. Ele nos chama a permitir que Ele nos transforme por dentro, vivendo para Ele e glorificando-O em tudo o que fazemos. Quando nossos corações se alinham com a Sua vontade, os portões do céu se abrem: Ele ouve o nosso clamor e nos livra do mal.
-Deus sempre ouve todos que se aproximam Dele com um coração humilde, reconhecendo o Seu amor, grandeza e poder. Ele nos chama a entregar nossas vidas a Ele, a confiar plenamente em Seu caráter e a depender da Sua graça. Quando clamamos sinceramente e colocamos nossos fardos em Suas mãos, Ele responde segundo a Sua perfeita vontade. Podemos ter certeza de que Deus traz consolo, orientação e libertação em meio às nossas provações.
-E quando Deus age, nossa resposta deve ser dar-Lhe toda a glória. Não é a nossa força, a nossa sabedoria ou os nossos méritos que produzem a vitória; é o Seu poder operando em nós. Somente Ele é digno de honra, adoração e louvor. Viver para Deus significa reconhecer a Sua mão em cada ação, testemunhar a Sua fidelidade e exaltar o Seu nome em todos os momentos.
+Existem dádivas maravilhosas de Deus que só podemos experimentar plenamente quando passamos por momentos difíceis. Uma delas é a força. Quando tudo vai bem, sabemos que o Senhor é a nossa força, a nossa paz e o nosso refúgio, e agradecemos-Lhe por isso. Contudo, quando enfrentamos provações profundas e sentimos como Deus nos sustenta com uma força que não vem de dentro de nós mesmos, a nossa fé cresce, se fortalece e amadurece.
+Deus é sempre fiel; podemos confiar nEle em meio a qualquer circunstância, porque Ele nunca nos abandona. Podemos não entender completamente por que Ele permite certas situações em nossas vidas, mas podemos ter certeza de uma coisa: Ele é a nossa Rocha eterna. Tudo o que Ele permite é justo, e em Sua presença, estamos verdadeiramente seguros.
 
-Os justos clamam, o Senhor os ouve
-e os livra de todas as suas tribulações.
-- Salmo 34:17
+Ele é a Rocha,
+as suas obras são perfeitas,
+e todos os seus caminhos são justos.
+É Deus fiel, que não comete erros;
+justo e reto ele é.
+- Deuteronômio 32:4
 
-Lembre-se hoje de que Deus não é indiferente aos clamores de Seus filhos. Ele ouve as orações que brotam de um coração que busca justiça, anseia agradá-Lo e confia em Seu cuidado. Mesmo em momentos de aflição, você pode ter certeza de que Ele está atento e pronto para ajudá-lo.
-Portanto, clame ao Senhor, confie nele e dê-lhe graças. Apresente suas necessidades, seus medos e seus desejos a Deus hoje, mas também entregue a ele sua obediência, sua adoração e toda a sua vida. Que cada resposta que você receber seja uma oportunidade para exaltar o seu nome e viver para a sua glória.
-Veja também: Versículos sobre a resposta de Deus (Ele nos ouve)
+Quando a vida nos derruba e nossas forças parecem se esvair, é aí que o Senhor se manifesta com todo o seu poder. Sua força nos ergue quando sentimos que não podemos ir mais longe. Ele nos renova por dentro e nos lembra que não caminhamos sozinhos. Nesses momentos, aprendemos a depender menos de nossas próprias habilidades e mais de sua graça, descobrindo que seu poder se aperfeiçoa em nossa fraqueza.
+Portanto, mesmo em meio à dor ou à incerteza, podemos erguer o olhar com esperança. O mesmo Deus que foi fiel no passado continuará sendo fiel hoje, amanhã e para sempre. Apegue-se a Ele com confiança, sabendo que Sua justiça é perfeita, Seu amor é constante e Sua força está disponível a todos que descansam Nele.
+Veja também: Versículos de Ânimo
  
-e clame a mim no dia da angústia;
-eu o livrarei, e você me honrará."
-- Salmo 50:15
+O Senhor é a minha luz e a minha salvação;
+de quem terei temor?
+O Senhor é o meu forte refúgio;
+de quem terei medo?
+- Salmo 27:1
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 329809 characters
-INFO:root:HTML parsed, length: 319630 characters
-INFO:root:Found 3 titles: ['O mundo rejeita, Deus acolhe', 'Quem você quer agradar?', 'Compartilhando o pão']
-INFO:root:Found 3 URLs: ['/provas_do_amor_de_deus/', '/versiculos_para_louvar_a_deus/', '/amar_o_proximo_como_a_ti_mesmo_explicacao_do_mandamento/']
-INFO:root:Found 3 descriptions: ['O Senhor está perto\ndos que têm o coração quebrant', 'Acaso busco eu agora a aprovação dos homens ou a d', 'Então Jesus tomou os pães, deu graças e os reparti']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n12\nQUINTA', 'FEVEREIRO\n\n11\nQUARTA', 'FEVEREIRO\n\n10\nTERÇA']
+INFO:root:Response length: 329058 characters
+INFO:root:HTML parsed, length: 318881 characters
+INFO:root:Found 3 titles: ['Fazendo boas escolhas', 'O mundo rejeita, Deus acolhe', 'Quem você quer agradar?']
+INFO:root:Found 3 URLs: ['/inteligencia/', '/provas_do_amor_de_deus/', '/versiculos_para_louvar_a_deus/']
+INFO:root:Found 3 descriptions: ['Confie no Senhor de todo o seu coração\ne não se ap', 'O Senhor está perto\ndos que têm o coração quebrant', 'Acaso busco eu agora a aprovação dos homens ou a d']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n13\nSEXTA', 'FEVEREIRO\n\n12\nQUINTA', 'FEVEREIRO\n\n11\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O mundo rejeita, Deus acolhe', ID=adacaa0fa70a597d00d7e77c90e98ce0
-INFO:root:Processing entry 2: Title='Quem você quer agradar?', ID=990bae19136891e619606a9394cfee64
-INFO:root:Processing entry 3: Title='Compartilhando o pão', ID=69a5d30df0d2ef43b288757d994d48ef
+INFO:root:Processing entry 1: Title='Fazendo boas escolhas', ID=4381d983617e7d642267cb806808598d
+INFO:root:Processing entry 2: Title='O mundo rejeita, Deus acolhe', ID=adacaa0fa70a597d00d7e77c90e98ce0
+INFO:root:Processing entry 3: Title='Quem você quer agradar?', ID=990bae19136891e619606a9394cfee64
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Fazendo boas escolhas
+INFO:root:🔹 URL: https://www.bibliaon.com/inteligencia/
+INFO:root:🔹 Description: Confie no Senhor de todo o seu coração
+e não se apoie
+em seu próprio entendimento;
+- Provérbios 3:5
+
+Algumas escolhas na vida parecem simples, outras carregam peso e consequências duradouras. Todos os dias somos confrontados com decisões que moldam nosso presente e definem nosso futuro.
+A Palavra de Deus nos ensina que a verdadeira sabedoria não está apenas na experiência, mas na confiança plena no Senhor. Quando colocamos nossos caminhos diante d’Ele, recebemos direção segura.
+Fazer boas escolhas é mais do que optar pelo que é conveniente; é decidir pelo que agrada a Deus. Muitas vezes, o caminho correto exige renúncia, paciência e fé. Porém, cada decisão alinhada à vontade do Pai produz frutos de paz, crescimento e maturidade espiritual. Deus não nos deixa sozinhos nesse processo. Ele nos concede o Espírito Santo, que nos orienta, alerta e fortalece.
+Escolher bem também envolve discernimento. Nem tudo o que parece bom é, de fato, o melhor. Precisamos avaliar nossas atitudes à luz das Escrituras, buscando compreender se nossas decisões refletem amor, justiça e humildade. Quando erramos, temos a graça do arrependimento e a oportunidade de recomeçar.
+A vida é construída escolha após escolha. Ao priorizarmos a vontade de Deus, desenvolvemos caráter, testemunho e confiança. Que cada decisão nossa seja uma expressão de fé, demonstrando que confiamos no Senhor acima de qualquer circunstância.
+No caminho certo
+
+Busque a Deus em oração antes de decidir, pedindo sabedoria, discernimento e paz no coração para reconhecer a vontade dEle.
+Consulte a Palavra de Deus diariamente, permitindo que os princípios bíblicos moldem seus pensamentos, atitudes e decisões.
+Procure conselhos de pessoas maduras na fé, que vivam princípios cristãos e possam orientar com equilíbrio, amor e responsabilidade.
+
+Para orar:
+
+Senhor Deus, ajuda-me a confiar em Ti em cada decisão que eu precisar tomar. Dá-me sabedoria para escolher o que Te agrada e coragem para rejeitar o que não vem de Ti. Que meu coração esteja sensível à Tua voz e firme na Tua Palavra. Guia meus passos, fortalece minha fé e molda meu caráter segundo a Tua vontade. Em nome de Jesus, amém.
+
+Veja Também: Versículos de sabedoria e inteligência (para crescer em discernimento)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O mundo rejeita, Deus acolhe
 INFO:root:🔹 URL: https://www.bibliaon.com/provas_do_amor_de_deus/
 INFO:root:🔹 Description: O Senhor está perto
@@ -315,35 +330,6 @@ Senhor Deus, nós nos colocamos diante de Ti com um coração humilde, pedindo q
 
 Veja também: 5 formas de louvar ao Senhor de todo o nosso coração
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Compartilhando o pão
-INFO:root:🔹 URL: https://www.bibliaon.com/amar_o_proximo_como_a_ti_mesmo_explicacao_do_mandamento/
-INFO:root:🔹 Description: Então Jesus tomou os pães, deu graças e os repartiu entre os que estavam assentados, tanto quanto queriam; e fez o mesmo com os peixes.
-- João 6:11
-
-Compartilhar o pão é mais do que um gesto de generosidade; é uma expressão viva do amor de Deus em ação. O pão simboliza sustento, cuidado e comunhão. Quando partilhamos o que temos, mesmo que pareça pouco, demonstramos confiança naquele que multiplica e supre todas as necessidades.
-Jesus nos ensinou, com palavras e atitudes, que ninguém deve passar fome, seja ela física ou espiritual. Ao sentar-se com os simples, ao alimentar multidões e ao repartir o pão com seus discípulos, Ele revelou que o Reino de Deus se manifesta nos pequenos gestos feitos com fé e compaixão. Compartilhar o pão é reconhecer o outro como irmão, digno de atenção, respeito e amor.
-No nosso dia a dia, o pão pode assumir muitas formas. Pode ser o alimento colocado à mesa, o tempo dedicado a ouvir alguém, uma palavra de encorajamento ou uma ajuda oferecida no momento certo. Cada ato de partilha rompe barreiras do egoísmo e aproxima os corações, criando laços de solidariedade e esperança.
-Quando repartimos, também somos transformados. Aprendemos a depender menos do acúmulo e mais da providência divina. Descobrimos que a verdadeira abundância não está em ter muito, mas em viver com o coração aberto. Deus age poderosamente quando decidimos ser instrumentos de Sua graça.
-Que possamos olhar ao nosso redor e perceber as oportunidades diárias de compartilhar o pão. Que nossas mãos estejam dispostas a servir e nosso coração sensível às necessidades do próximo. Assim, refletiremos o amor de Cristo e testemunharemos que, quando o pão é repartido com fé, nunca falta.
-
-Pois eu tive fome, e vocês me deram de comer; tive sede, e vocês me deram de beber; fui estrangeiro, e vocês me acolheram;
-- Mateus 25:35
-
-Praticando o amor no compartilhar
-
-
-Alimente os necessitados: Ofereça comida ou recursos a quem passa fome, lembrando que pequenos gestos de generosidade podem suprir necessidades físicas e espirituais diárias.
-
-Compartilhe seu tempo e atenção: Ouça e acompanhe pessoas em dificuldade, mostrando empatia e cuidado. O tempo dedicado é um pão que fortalece corações e relacionamentos.
-
-Doe palavras e gestos de encorajamento: Incentive, conforte, tornando cada ato de bondade uma expressão do amor de Cristo, multiplicando fé, esperança e alegria.
-
-Para orar:
-
-Senhor Deus, agradecemos pelo pão diário e pelo amor que nos sustenta. Ensina-nos a partilhar com generosidade, aliviar o sofrimento do próximo e refletir Teu cuidado. Que nossas mãos sejam instrumentos de bondade, nosso coração fonte de compaixão e nossa vida testemunho de fé. Multiplica nosso pouco para abençoar muitos, fortalecendo a comunhão e espalhando Tua luz em cada gesto. Em nome de Jesus, amém.
-
-Veja também: Amar o próximo como a ti mesmo: explicação do mandamento
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -373,15 +359,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  28 +++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  29 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  51 +++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  36 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  14 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  62 ++++----
+ feeds/salmo_do_dia/atom.xml               |  84 ++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 255 ++++++++++++++++--------------
- 11 files changed, 245 insertions(+), 202 deletions(-)
+ output.log                                | 304 ++++++++++++++----------------
+ 11 files changed, 258 insertions(+), 298 deletions(-)
