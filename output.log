@@ -1,81 +1,111 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123275 characters
-INFO:root:HTML parsed, length: 116940 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (13/02/2026)', 'Palavra de Ontem (12/02/2026)', 'Palavra de Anteontem (11/02/2026)']
-INFO:root:Found 3 URLs: ['/velhofobia/', '/xaxado/', '/caucasiano/']
-INFO:root:Found 9 descriptions: ['substantivo feminino Comportamento preconceituoso ', 'Sinônimos:\n\netarismo, idadismo', 'Sílabas:ve-lho-fo-bi-a']
-INFO:root:Found 3 dates: ['Palavra de Hoje (13/02/2026)', 'Palavra de Ontem (12/02/2026)', 'Palavra de Anteontem (11/02/2026)']
+INFO:root:Response length: 122744 characters
+INFO:root:HTML parsed, length: 116409 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (14/02/2026)', 'Palavra de Ontem (13/02/2026)', 'Palavra de Anteontem (12/02/2026)']
+INFO:root:Found 3 URLs: ['/pronta-entrega/', '/velhofobia/', '/xaxado/']
+INFO:root:Found 8 descriptions: ['substantivo feminino Sistema de entrega imediata, ', 'Sílabas:pron-ta-en-tre-ga', 'substantivo feminino Comportamento preconceituoso ']
+INFO:root:Found 3 dates: ['Palavra de Hoje (14/02/2026)', 'Palavra de Ontem (13/02/2026)', 'Palavra de Anteontem (12/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (13/02/2026)', ID=8992292df2eaa95129ea592ee754564f
-INFO:root:Processing entry 2: Title='Palavra de Ontem (12/02/2026)', ID=b83ae88aa005bfd68dea523ac0c0bd5b
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/02/2026)', ID=ac8c1c9f2205e1fa9c3d38c1155c6a0a
+INFO:root:Processing entry 1: Title='Palavra de Hoje (14/02/2026)', ID=4d383a03758236d15866bac07cc85209
+INFO:root:Processing entry 2: Title='Palavra de Ontem (13/02/2026)', ID=201071980c9a37fd5b3a726fc89e8929
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/02/2026)', ID=b358b1e90e85299f7f215bba4ab2176e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (13/02/2026) - Significado completo de velhofobia:
+INFO:root:🔹 Title: Palavra de Hoje (14/02/2026) - Significado completo de pronta-entrega:
+INFO:root:🔹 URL: https://www.dicio.com.br/pronta-entrega/
+INFO:root:🔹 Description: substantivo feminino Sistema de entrega imediata, a venda do produto ocorre no momento exato em que se efetua a compra: carros usados à pronta-entrega.Estabelecimento que trabalha com este tipo de sistema, com entrega imediata do produto que vende: rede de lojas de pronta-entrega de sofás.Etimologia (origem da palavra pronta-entrega). A palavra pronta entrega tem sua origem pela junção da palavra pronta, forma menina de pronto, com sentido de imediato, e da palavra entrega.
+ Sílabas:pron-ta-en-tre-ga
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (13/02/2026) - Significado completo de velhofobia:
 INFO:root:🔹 URL: https://www.dicio.com.br/velhofobia/
-INFO:root:🔹 Description: substantivo feminino Comportamento preconceituoso direcionado a pessoas idosas; preconceito e discriminação em relação aos idosos, a pessoas mais velhas, à idade; idadismo, etarismo.Etimologia (origem da palavra velhofobia). A palavra velhofobia tem sua origem pela junção da palavra velho e do sufixo -fobia.
+INFO:root:🔹 Description: Sílabas:pron-ta-en-tre-ga
  
 Sinônimos:
 
 etarismo, idadismo 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (12/02/2026) - Significado completo de xaxado:
+INFO:root:🔹 Title: Palavra de Anteontem (12/02/2026) - Significado completo de xaxado:
 INFO:root:🔹 URL: https://www.dicio.com.br/xaxado/
-INFO:root:🔹 Description: Sinônimos:
-
-etarismo, idadismo
+INFO:root:🔹 Description: substantivo feminino Comportamento preconceituoso direcionado a pessoas idosas; preconceito e discriminação em relação aos idosos, a pessoas mais velhas, à idade; idadismo, etarismo.Etimologia (origem da palavra velhofobia). A palavra velhofobia tem sua origem pela junção da palavra velho e do sufixo -fobia.
  Sílabas:ve-lho-fo-bi-a
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (11/02/2026) - Significado completo de caucasiano:
-INFO:root:🔹 URL: https://www.dicio.com.br/caucasiano/
-INFO:root:🔹 Description: Sílabas:ve-lho-fo-bi-a
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
-INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
-INFO:root:Response length: 528 characters
-WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
+ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316213 characters
-INFO:root:HTML parsed, length: 306025 characters
-INFO:root:Found 1 titles: ['Mateus 6:21']
-INFO:root:Found 1 URLs: ['/versiculo/mateus_6_21/']
-INFO:root:Found 1 descriptions: ['Pois onde estiver o seu tesouro, aí também estará ']
+INFO:root:Response length: 316259 characters
+INFO:root:HTML parsed, length: 306071 characters
+INFO:root:Found 1 titles: ['João 11:33']
+INFO:root:Found 1 URLs: ['/versiculo/joao_11_33/']
+INFO:root:Found 1 descriptions: ['Ao ver chorando Maria e os judeus que a acompanhav']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Mateus 6:21', ID=9693342bbcfb1007c7e68cae3e4d6434
+INFO:root:Processing entry 1: Title='João 11:33', ID=0e3542e9322e2029454e8295d9d074fb
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Mateus 6:21
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_6_21/
-INFO:root:🔹 Description: Pois onde estiver o seu tesouro, aí também estará o seu coração. Mateus 6:21
+INFO:root:🔹 Title: João 11:33
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_11_33/
+INFO:root:🔹 Description: Ao ver chorando Maria e os judeus que a acompanhavam, Jesus agitou-se no espírito e perturbou-se. João 11:33
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316310 characters
-INFO:root:HTML parsed, length: 306917 characters
-INFO:root:Found 3 titles: ['Salmo 16', 'Salmo 52', 'Salmo 72']
-INFO:root:Found 3 URLs: ['/salmos_16/', '/salmos_52/', '/salmos_72/']
-INFO:root:Found 3 descriptions: ['Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen', 'Por que você se vangloria do mal\ne de ultrajar a D', 'Reveste da tua justiça o rei, ó Deus,\ne da tua ret']
-INFO:root:Found 3 dates: ['13 de Fevereiro de 2026', '12 de Fevereiro de 2026', '11 de Fevereiro de 2026']
+INFO:root:Response length: 315425 characters
+INFO:root:HTML parsed, length: 306016 characters
+INFO:root:Found 3 titles: ['Salmo 108', 'Salmo 16', 'Salmo 52']
+INFO:root:Found 3 URLs: ['/salmos_108/', '/salmos_16/', '/salmos_52/']
+INFO:root:Found 3 descriptions: ['Meu coração está firme, ó Deus!\nCantarei e louvare', 'Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen', 'Por que você se vangloria do mal\ne de ultrajar a D']
+INFO:root:Found 3 dates: ['14 de Fevereiro de 2026', '13 de Fevereiro de 2026', '12 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
-INFO:root:Processing entry 2: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
-INFO:root:Processing entry 3: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
+INFO:root:Processing entry 1: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
+INFO:root:Processing entry 2: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
+INFO:root:Processing entry 3: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 108
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_108/
+INFO:root:🔹 Description: Meu coração está firme, ó Deus!
+Cantarei e louvarei, ó Glória minha! 
+Acordem, harpa e lira!
+Despertarei a alvorada. 
+Eu te darei graças, ó Senhor, entre os povos;
+cantarei louvores entre as nações, 
+porque o teu amor leal
+se eleva muito acima dos céus;
+a tua fidelidade alcança as nuvens! 
+Sê exaltado, ó Deus, acima dos céus;
+estenda-se a tua glória sobre toda a terra! 
+Salva-nos com a tua mão direita
+e responde-nos,
+para que sejam libertos aqueles a quem amas. 
+Do seu santuário Deus falou:
+"No meu triunfo dividirei Siquém
+e repartirei o vale de Sucote. 
+Gileade me pertence e Manassés também;
+Efraim é o meu capacete, Judá é o meu cetro. 
+Moabe é a pia em que me lavo,
+em Edom atiro a minha sandália,
+sobre a Filístia dou meu brado de vitória!" 
+Quem me levará à cidade fortificada?
+Quem me guiará a Edom? 
+Não foste tu, ó Deus, que nos rejeitaste
+e deixaste de sair com os nossos exércitos? 
+Dá-nos ajuda contra os adversários,
+pois inútil é o socorro do homem. 
+Com Deus conquistaremos a vitória,
+e ele pisará os nossos adversários. 
+ Salmo 108
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 16
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_16/
 INFO:root:🔹 Description: Protege-me, ó Deus,
@@ -140,124 +170,88 @@ proclamarei o teu nome,
 porque tu és bom. 
  Salmo 52
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 72
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_72/
-INFO:root:🔹 Description: Reveste da tua justiça o rei, ó Deus,
-e da tua retidão o filho do rei, 
-para que ele julgue com retidão
-e com justiça os teus que sofrem opressão. 
-Que os montes tragam prosperidade ao povo
-e as colinas o fruto da justiça. 
-Defenda ele os oprimidos no meio do povo
-e liberte os filhos dos pobres;
-esmague ele o opressor! 
-Que ele perdure como o sol
-e como a lua por todas as gerações. 
-Seja ele como chuva
-sobre uma lavoura ceifada,
-como aguaceiros que regam a terra. 
-Floresçam os justos nos dias do rei,
-e haja grande prosperidade enquanto durar a lua. 
-Governe ele de mar a mar
-e desde o rio Eufrates até os confins da terra. 
-Inclinem-se diante dele as tribos do deserto,
-e os seus inimigos lambam o pó. 
-Que os reis de Társis e das regiões litorâneas
-lhe tragam tributo;
-os reis de Sabá e de Sebá
-lhe ofereçam presentes. 
-Inclinem-se diante dele todos os reis,
-e sirvam-no todas as nações. 
-Pois ele liberta os pobres que pedem socorro,
-os oprimidos que não têm quem os ajude. 
-Ele se compadece dos fracos e dos pobres
-e os salva da morte. 
-Ele os resgata da opressão e da violência,
-pois aos seus olhos a vida deles é preciosa. 
-Tenha o rei vida longa!
-Receba ele o ouro de Sabá.
-Que se ore por ele continuamente,
-e todo o dia se invoquem bênçãos sobre ele. 
-Haja fartura de trigo por toda a terra,
-ondulando no alto dos montes.
-Floresçam os seus frutos como os do Líbano
-e cresçam as cidades como as plantas no campo. 
-Permaneça para sempre o seu nome
-e dure a sua fama enquanto o sol brilhar.
-Sejam abençoadas todas as nações
-por meio dele,
-e que elas o chamem bendito. 
-Bendito seja o Senhor Deus,
-o Deus de Israel,
-o único que realiza feitos maravilhosos. 
-Bendito seja
-o seu glorioso nome para sempre;
-encha-se toda a terra da sua glória.
-Amém e amém. 
-Encerram-se aqui as orações de Davi, filho de Jessé. 
- Salmo 72
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 318998 characters
-INFO:root:HTML parsed, length: 309271 characters
-INFO:root:Found 3 titles: ['A força que vem do Senhor', 'Você clama a Deus e Ele te liberta: dê a Ele toda a glória!', 'O mundo julga, Cristo liberta']
+INFO:root:Response length: 319201 characters
+INFO:root:HTML parsed, length: 309475 characters
+INFO:root:Found 3 titles: ['Sejam cheios do Espírito Santo', 'A força que vem do Senhor', 'Você clama a Deus e Ele te liberta: dê a Ele toda a glória!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O Senhor é a minha luz e a minha salvação;\nde quem', 'e clame a mim no dia da angústia;\neu o livrarei, e', 'Portanto, se o Filho os libertar, vocês de fato se']
-INFO:root:Found 1 dates: ['Sexta, 13 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Novamente Jesus disse: "Paz seja com vocês! Assim ', 'O Senhor é a minha luz e a minha salvação;\nde quem', 'e clame a mim no dia da angústia;\neu o livrarei, e']
+INFO:root:Found 1 dates: ['Sábado, 14 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A força que vem do Senhor', ID=9d2645f17ad6a8463c93ca0b7e0cc879
+INFO:root:Processing entry 1: Title='Sejam cheios do Espírito Santo', ID=994fe068810b981b30f353c65dd5b47c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A força que vem do Senhor - Palavra de Hoje
+INFO:root:🔹 Title: Sejam cheios do Espírito Santo - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O Senhor é a minha luz e a minha salvação;
-de quem terei temor?
-O Senhor é o meu forte refúgio;
-de quem terei medo?
-- Salmo 27:1
+INFO:root:🔹 Description: Novamente Jesus disse: "Paz seja com vocês! Assim como o Pai me enviou, eu os envio".
+E com isso, soprou sobre eles e disse: "Recebam o Espírito Santo.
+- João 20:21-22
 
-Existem dádivas maravilhosas de Deus que só podemos experimentar plenamente quando passamos por momentos difíceis. Uma delas é a força. Quando tudo vai bem, sabemos que o Senhor é a nossa força, a nossa paz e o nosso refúgio, e agradecemos-Lhe por isso. Contudo, quando enfrentamos provações profundas e sentimos como Deus nos sustenta com uma força que não vem de dentro de nós mesmos, a nossa fé cresce, se fortalece e amadurece.
-Deus é sempre fiel; podemos confiar nEle em meio a qualquer circunstância, porque Ele nunca nos abandona. Podemos não entender completamente por que Ele permite certas situações em nossas vidas, mas podemos ter certeza de uma coisa: Ele é a nossa Rocha eterna. Tudo o que Ele permite é justo, e em Sua presença, estamos verdadeiramente seguros.
+Após a sua ressurreição, antes de ascender aos céus, Jesus apareceu aos seus discípulos. Estavam reunidos a portas fechadas, escondidos pelo medo. A crucificação os havia abalado profundamente. O mundo deles havia desmoronado e eles ainda tentavam compreender o que havia acontecido.
+Em meio a essa confusão e medo, o Jesus ressuscitado apareceu diante deles. Que momento poderoso! O Mestre, a quem tinham visto morrer, estava vivo. E, mais notável ainda, Jesus não os repreendeu pelo medo nem zombou da sua fraqueza.
+Pelo contrário, as suas primeiras palavras foram palavras de graça, conforto e restauração: “A paz esteja convosco”. Jesus sabia que eles precisavam de paz interior para seguir em frente e, com amor, concedeu-lhes essa paz. A sua presença viva entre eles trouxe-lhes paz.
+Então, Jesus lembrou-lhes que eram escolhidos e chamados: “Assim como o Pai me enviou, eu vos envio”. Apesar da sua fragilidade, Jesus confiou neles. Incluiu-os no seu plano e lembrou-lhes que agora estavam sendo enviados para levar a sua mensagem e dar continuidade à sua obra. Ele não os chamou por serem fortes ou corajosos, mas porque, em seu amor, os escolheu.
+Finalmente, ele os capacitou. Soprou sobre eles e disse: “Recebam o Espírito Santo”. Jesus sabia que eles não conseguiriam cumprir a missão sozinhos. Por isso, deu-lhes o seu Espírito, para guiá-los, fortalecê-los e capacitá-los a viver segundo a vontade de Deus.
+O mesmo acontece conosco. Quando abrimos nossos corações a Jesus, recebemos a sua paz. Ele nos dá propósito e nos envia para viver uma vida que reflita o seu amor. Mas ele não nos envia sozinhos. Assim como prometeu, ele nos preenche com o seu Espírito Santo, que nos capacita e nos fortalece a cada dia.
 
-Ele é a Rocha,
-as suas obras são perfeitas,
-e todos os seus caminhos são justos.
-É Deus fiel, que não comete erros;
-justo e reto ele é.
-- Deuteronômio 32:4
+Mas receberão poder quando o Espírito Santo descer sobre vocês, e serão minhas testemunhas em Jerusalém, em toda a Judeia e Samaria, e até os confins da terra".
+- Atos 1:8
 
-Quando a vida nos derruba e nossas forças parecem se esvair, é aí que o Senhor se manifesta com todo o seu poder. Sua força nos ergue quando sentimos que não podemos ir mais longe. Ele nos renova por dentro e nos lembra que não caminhamos sozinhos. Nesses momentos, aprendemos a depender menos de nossas próprias habilidades e mais de sua graça, descobrindo que seu poder se aperfeiçoa em nossa fraqueza.
-Portanto, mesmo em meio à dor ou à incerteza, podemos erguer o olhar com esperança. O mesmo Deus que foi fiel no passado continuará sendo fiel hoje, amanhã e para sempre. Apegue-se a Ele com confiança, sabendo que Sua justiça é perfeita, Seu amor é constante e Sua força está disponível a todos que descansam Nele.
-Veja também: Versículos de Ânimo
+Peçamos ao Senhor que nos preencha novamente, que renove a nossa fé e que nos capacite a viver de acordo com o Seu chamado, pelo poder do Seu Espírito.
+Veja também: Versículos sobre o Batismo no Espírito Santo
  
-O Senhor é a minha luz e a minha salvação;
-de quem terei temor?
-O Senhor é o meu forte refúgio;
-de quem terei medo?
-- Salmo 27:1
+Novamente Jesus disse: "Paz seja com vocês! Assim como o Pai me enviou, eu os envio".
+E com isso, soprou sobre eles e disse: "Recebam o Espírito Santo.
+- João 20:21-22
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 329058 characters
-INFO:root:HTML parsed, length: 318881 characters
-INFO:root:Found 3 titles: ['Fazendo boas escolhas', 'O mundo rejeita, Deus acolhe', 'Quem você quer agradar?']
-INFO:root:Found 3 URLs: ['/inteligencia/', '/provas_do_amor_de_deus/', '/versiculos_para_louvar_a_deus/']
-INFO:root:Found 3 descriptions: ['Confie no Senhor de todo o seu coração\ne não se ap', 'O Senhor está perto\ndos que têm o coração quebrant', 'Acaso busco eu agora a aprovação dos homens ou a d']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n13\nSEXTA', 'FEVEREIRO\n\n12\nQUINTA', 'FEVEREIRO\n\n11\nQUARTA']
+INFO:root:Response length: 328975 characters
+INFO:root:HTML parsed, length: 318796 characters
+INFO:root:Found 3 titles: ['Prestando a atenção aos detalhes', 'Fazendo boas escolhas', 'O mundo rejeita, Deus acolhe']
+INFO:root:Found 3 URLs: ['/versiculos_para_louvar_a_deus/', '/inteligencia/', '/provas_do_amor_de_deus/']
+INFO:root:Found 3 descriptions: ['Tenham cuidado com a maneira como vocês vivem; que', 'Confie no Senhor de todo o seu coração\ne não se ap', 'O Senhor está perto\ndos que têm o coração quebrant']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n14\nSÁBADO', 'FEVEREIRO\n\n13\nSEXTA', 'FEVEREIRO\n\n12\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Fazendo boas escolhas', ID=4381d983617e7d642267cb806808598d
-INFO:root:Processing entry 2: Title='O mundo rejeita, Deus acolhe', ID=adacaa0fa70a597d00d7e77c90e98ce0
-INFO:root:Processing entry 3: Title='Quem você quer agradar?', ID=990bae19136891e619606a9394cfee64
+INFO:root:Processing entry 1: Title='Prestando a atenção aos detalhes', ID=a16c29d427058a74265b4b425c3fab71
+INFO:root:Processing entry 2: Title='Fazendo boas escolhas', ID=4381d983617e7d642267cb806808598d
+INFO:root:Processing entry 3: Title='O mundo rejeita, Deus acolhe', ID=adacaa0fa70a597d00d7e77c90e98ce0
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Prestando a atenção aos detalhes
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
+INFO:root:🔹 Description: Tenham cuidado com a maneira como vocês vivem; que não seja como insensatos, mas como sábios, aproveitando ao máximo cada oportunidade, porque os dias são maus.
+- Efésios 5:15-16
+
+Muitas vezes subestimamos os pequenos detalhes da vida. Somos tentados a pensar que somente os grandes acontecimentos ou decisões importantes têm valor para Deus, mas a Bíblia nos ensina que Ele se importa com cada aspecto de nossa vida, por menor que pareça.
+Os detalhes moldam nosso caráter, mostram nossa fé e determinam se estamos realmente vivendo para glorificar a Deus.
+Um bom exemplo disso é a história de Daniel na Babilônia. Apesar de estar em um ambiente hostil, Daniel não negligenciou pequenas decisões: recusar alimentos impuros, orar três vezes ao dia e manter sua integridade. Esses detalhes, aparentemente pequenos, refletiam uma obediência profunda a Deus e o mantiveram firme mesmo diante da pressão de um reino estrangeiro (Leia Daniel 1 e 6).
+Da mesma forma, em nossa vida, prestar atenção aos detalhes significa escolher palavras gentis, ser honesto em pequenas tarefas, manter nossos compromissos e até cuidar de nosso tempo de oração e leitura da Palavra. Cada ação, por menor que seja, é uma oportunidade de glorificar Deus ou de nos afastar Dele.
+Quando ignoramos os detalhes, permitimos que a rotina, a pressa ou a negligência nos afastem do propósito de Deus. Viver com atenção, consciência e amor em cada detalhe nos aproxima do Senhor e demonstra nossa gratidão por tudo o que Ele nos concede.
+Que possamos aprender a valorizar cada momento, cada escolha e cada gesto, sabendo que Deus vê e se alegra quando prestamos atenção aos detalhes de nossas vidas.
+Assim, como Daniel, seremos testemunhas da fidelidade de Deus e viveremos de maneira que glorifique Seu nome em tudo.
+Foco nos pequenos detalhes
+
+
+Pequenas escolhas revelam a direção do nosso coração e demonstram se buscamos agradar a Deus ou satisfazer apenas nossos desejos egoístas pessoais.
+
+Detalhes ignorados podem lentamente enfraquecer nossa fé, afastando-nos da comunhão, da oração constante e da sensibilidade à voz do Espírito Santo diariamente presente.
+Quando valorizamos atitudes simples como honestidade, gratidão e serviço, transformamos momentos comuns em atos de adoração que glorificam o Senhor em tudo.
+
+Para orar:
+
+Senhor Deus amado, ensina-me a perceber os detalhes da minha vida e a viver cada momento para a Tua glória. Que minhas palavras, atitudes e pensamentos reflitam o Teu amor. Guarda meu coração da distração e do pecado, e aproxima-me cada dia mais de Ti. Dá-me sensibilidade para ouvir Tua voz e fidelidade nas pequenas coisas. Em nome de Jesus, amém.
+
+Veja também: 5 formas de louvar ao Senhor de todo o nosso coração
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Fazendo boas escolhas
 INFO:root:🔹 URL: https://www.bibliaon.com/inteligencia/
 INFO:root:🔹 Description: Confie no Senhor de todo o seu coração
@@ -308,28 +302,6 @@ Senhor Deus, entrego a Ti meu coração, minhas dores e minhas fraquezas. Quando
 
 Veja também: 7 características do amor de Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Quem você quer agradar?
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
-INFO:root:🔹 Description: Acaso busco eu agora a aprovação dos homens ou a de Deus? Ou estou tentando agradar a homens? Se eu ainda estivesse procurando agradar a homens, não seria servo de Cristo.
-- Gálatas 1:10
-
-Essa é uma pergunta que chega até nós com a mesma força: quem, de fato, queremos agradar?
-Vivemos em um tempo marcado por expectativas, opiniões e pressões constantes. Redes sociais, ambientes de trabalho, família e até a igreja podem, sem percebermos, nos empurrar para uma vida guiada pelo desejo de aprovação humana. Aos poucos, corremos o risco de moldar nossas escolhas para sermos aceitos, elogiados ou reconhecidos.
-Jesus é o maior exemplo de alguém que viveu exclusivamente para agradar ao Pai. Em nenhum momento Ele buscou popularidade ou conforto pessoal. Muitas de Suas palavras confrontaram líderes religiosos, multidões e até os próprios discípulos. Jesus curou, ensinou e amou profundamente, mas nunca negociou a verdade para manter seguidores. Mesmo quando isso O levou à rejeição, à dor e à cruz, Ele permaneceu fiel à vontade de Deus.
-A vida de Jesus nos ensina que agradar a Deus nem sempre será o caminho mais fácil, mas sempre será o mais verdadeiro. A obediência ao Pai custou tudo a Cristo, mas também trouxe redenção, vida e esperança para toda a humanidade. Quando escolhemos agradar a Deus, talvez enfrentemos incompreensão, críticas ou solidão, mas ganhamos algo muito maior: comunhão com Ele e paz no coração.
-Hoje, essa pergunta ecoa para cada um de nós. Nossas decisões refletem a vontade de Deus ou o medo de desagradar pessoas? Nosso caráter permanece firme mesmo quando ninguém está olhando? Que possamos, como Jesus, viver com os olhos voltados para o Pai, certos de que agradá-Lo é o maior propósito da nossa caminhada. Afinal, agradar a Deus é viver alinhado com aquilo para o qual fomos criados.
-Vivendo para agradar a Deus no dia a dia
-
-Antes de decidir, ore e pergunte se sua escolha glorifica a Deus, mesmo que traga rejeição, desconforto ou perda de aprovação humana temporária.
-Examine suas motivações, verificando se atitudes, palavras e posturas refletem obediência sincera a Deus ou apenas desejo de aceitação social constante humana.
-Tenha coragem de seguir o exemplo de Jesus, permanecendo fiel à verdade, mesmo quando isso custar relacionamentos, conforto pessoal e reconhecimento terreno momentâneo.
-
-Para orar:
-
-Senhor Deus, nós nos colocamos diante de Ti com um coração humilde, pedindo que alinhes nossas vontades à Tua. Ensina-nos a viver não para agradar pessoas, mas para honrar o Teu nome em cada decisão. Dá-nos coragem para seguir o exemplo de Jesus, permanecendo firmes na verdade, mesmo diante das dificuldades. Purifica nossas intenções, fortalece nossa fé e conduz nossos passos segundo o Teu propósito. Que nossa vida Te glorifique hoje e sempre. Em nome de Jesus, amém.
-
-Veja também: 5 formas de louvar ao Senhor de todo o nosso coração
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -359,15 +331,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  51 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  36 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  37 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  14 +-
+ feeds/palavra_do_dia/atom.xml             |  10 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  84 ++++-----
+ feeds/salmo_do_dia/atom.xml               |  89 ++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 304 ++++++++++++++----------------
- 11 files changed, 258 insertions(+), 298 deletions(-)
+ output.log                                | 298 +++++++++++++-----------------
+ 11 files changed, 239 insertions(+), 305 deletions(-)
