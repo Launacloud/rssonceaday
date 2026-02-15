@@ -1,77 +1,111 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 122744 characters
-INFO:root:HTML parsed, length: 116409 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (14/02/2026)', 'Palavra de Ontem (13/02/2026)', 'Palavra de Anteontem (12/02/2026)']
-INFO:root:Found 3 URLs: ['/pronta-entrega/', '/velhofobia/', '/xaxado/']
-INFO:root:Found 8 descriptions: ['substantivo feminino Sistema de entrega imediata, ', 'Sílabas:pron-ta-en-tre-ga', 'substantivo feminino Comportamento preconceituoso ']
-INFO:root:Found 3 dates: ['Palavra de Hoje (14/02/2026)', 'Palavra de Ontem (13/02/2026)', 'Palavra de Anteontem (12/02/2026)']
+INFO:root:Response length: 123267 characters
+INFO:root:HTML parsed, length: 116748 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (15/02/2026)', 'Palavra de Ontem (14/02/2026)', 'Palavra de Anteontem (13/02/2026)']
+INFO:root:Found 3 URLs: ['/simultaneidade/', '/pronta-entrega/', '/velhofobia/']
+INFO:root:Found 9 descriptions: ['substantivo feminino Característica do que é simul', 'Sinônimos:\n\ncoexistência, concomitância, sincronis', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (15/02/2026)', 'Palavra de Ontem (14/02/2026)', 'Palavra de Anteontem (13/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (14/02/2026)', ID=4d383a03758236d15866bac07cc85209
-INFO:root:Processing entry 2: Title='Palavra de Ontem (13/02/2026)', ID=201071980c9a37fd5b3a726fc89e8929
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/02/2026)', ID=b358b1e90e85299f7f215bba4ab2176e
+INFO:root:Processing entry 1: Title='Palavra de Hoje (15/02/2026)', ID=54ec1910dd00be42cb21edcf2bf81adb
+INFO:root:Processing entry 2: Title='Palavra de Ontem (14/02/2026)', ID=29da0289f18238de4f4fbae2634f7216
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (13/02/2026)', ID=efe1f0da86c94b9e540c27122cfe9131
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (14/02/2026) - Significado completo de pronta-entrega:
-INFO:root:🔹 URL: https://www.dicio.com.br/pronta-entrega/
-INFO:root:🔹 Description: substantivo feminino Sistema de entrega imediata, a venda do produto ocorre no momento exato em que se efetua a compra: carros usados à pronta-entrega.Estabelecimento que trabalha com este tipo de sistema, com entrega imediata do produto que vende: rede de lojas de pronta-entrega de sofás.Etimologia (origem da palavra pronta-entrega). A palavra pronta entrega tem sua origem pela junção da palavra pronta, forma menina de pronto, com sentido de imediato, e da palavra entrega.
- Sílabas:pron-ta-en-tre-ga
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (13/02/2026) - Significado completo de velhofobia:
-INFO:root:🔹 URL: https://www.dicio.com.br/velhofobia/
-INFO:root:🔹 Description: Sílabas:pron-ta-en-tre-ga
+INFO:root:🔹 Title: Palavra de Hoje (15/02/2026) - Significado completo de simultaneidade:
+INFO:root:🔹 URL: https://www.dicio.com.br/simultaneidade/
+INFO:root:🔹 Description: substantivo feminino Característica do que é simultâneo, do que ocorre ao mesmo tempo que outra coisa; concomitância.Designação de uma ou mais ações, coisas ou fatos que ocorrem em simultâneo (ao mesmo tempo); coexistência.Etimologia (origem da palavra simultaneidade). A palavra simultaneidade tem sua origem no latim "simultaneitas,atis; de simultaneus, e do sufixo -tas.
  
 Sinônimos:
 
-etarismo, idadismo 
+coexistência, concomitância, sincronismo, sincronia 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (12/02/2026) - Significado completo de xaxado:
-INFO:root:🔹 URL: https://www.dicio.com.br/xaxado/
-INFO:root:🔹 Description: substantivo feminino Comportamento preconceituoso direcionado a pessoas idosas; preconceito e discriminação em relação aos idosos, a pessoas mais velhas, à idade; idadismo, etarismo.Etimologia (origem da palavra velhofobia). A palavra velhofobia tem sua origem pela junção da palavra velho e do sufixo -fobia.
- Sílabas:ve-lho-fo-bi-a
+INFO:root:🔹 Title: Palavra de Ontem (14/02/2026) - Significado completo de pronta-entrega:
+INFO:root:🔹 URL: https://www.dicio.com.br/pronta-entrega/
+INFO:root:🔹 Description: Sinônimos:
+
+coexistência, concomitância, sincronismo, sincronia
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (13/02/2026) - Significado completo de velhofobia:
+INFO:root:🔹 URL: https://www.dicio.com.br/velhofobia/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:si-mul-ta-nei-da-de
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316259 characters
-INFO:root:HTML parsed, length: 306071 characters
-INFO:root:Found 1 titles: ['João 11:33']
-INFO:root:Found 1 URLs: ['/versiculo/joao_11_33/']
-INFO:root:Found 1 descriptions: ['Ao ver chorando Maria e os judeus que a acompanhav']
+INFO:root:Response length: 316326 characters
+INFO:root:HTML parsed, length: 306138 characters
+INFO:root:Found 1 titles: ['Isaías 58:11']
+INFO:root:Found 1 URLs: ['/versiculo/isaias_58_11/']
+INFO:root:Found 1 descriptions: ['O Senhor o guiará constantemente;\nsatisfará os seu']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='João 11:33', ID=0e3542e9322e2029454e8295d9d074fb
+INFO:root:Processing entry 1: Title='Isaías 58:11', ID=fe9de3c94ee76c7f5d4da7ccb66f7067
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: João 11:33
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_11_33/
-INFO:root:🔹 Description: Ao ver chorando Maria e os judeus que a acompanhavam, Jesus agitou-se no espírito e perturbou-se. João 11:33
+INFO:root:🔹 Title: Isaías 58:11
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/isaias_58_11/
+INFO:root:🔹 Description: O Senhor o guiará constantemente;
+satisfará os seus desejos
+numa terra ressequida pelo sol
+e fortalecerá os seus ossos.
+Você será como um jardim bem regado,
+como uma fonte cujas águas
+nunca faltam. Isaías 58:11
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 315425 characters
-INFO:root:HTML parsed, length: 306016 characters
-INFO:root:Found 3 titles: ['Salmo 108', 'Salmo 16', 'Salmo 52']
-INFO:root:Found 3 URLs: ['/salmos_108/', '/salmos_16/', '/salmos_52/']
-INFO:root:Found 3 descriptions: ['Meu coração está firme, ó Deus!\nCantarei e louvare', 'Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen', 'Por que você se vangloria do mal\ne de ultrajar a D']
-INFO:root:Found 3 dates: ['14 de Fevereiro de 2026', '13 de Fevereiro de 2026', '12 de Fevereiro de 2026']
+INFO:root:Response length: 315315 characters
+INFO:root:HTML parsed, length: 305904 characters
+INFO:root:Found 3 titles: ['Salmo 11', 'Salmo 108', 'Salmo 16']
+INFO:root:Found 3 URLs: ['/salmos_11/', '/salmos_108/', '/salmos_16/']
+INFO:root:Found 3 descriptions: ['No Senhor me refugio.\nComo então vocês podem dizer', 'Meu coração está firme, ó Deus!\nCantarei e louvare', 'Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen']
+INFO:root:Found 3 dates: ['15 de Fevereiro de 2026', '14 de Fevereiro de 2026', '13 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
-INFO:root:Processing entry 2: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
-INFO:root:Processing entry 3: Title=' Salmo 52', ID=8e3b71c3463042bfdd97a2cfce8aef99
+INFO:root:Processing entry 1: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
+INFO:root:Processing entry 2: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
+INFO:root:Processing entry 3: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 11
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_11/
+INFO:root:🔹 Description: No Senhor me refugio.
+Como então vocês podem dizer-me:
+"Fuja como um pássaro para os montes"? 
+Vejam! Os ímpios preparam os seus arcos;
+colocam as flechas contra as cordas
+para das sombras as atirarem
+nos retos de coração. 
+Quando os fundamentos
+estão sendo destruídos,
+que pode fazer o justo? 
+O Senhor está no seu santo templo;
+o Senhor tem o seu trono nos céus.
+Seus olhos observam;
+seus olhos examinam os filhos dos homens. 
+O Senhor prova o justo,
+mas o ímpio e a quem ama a injustiça,
+a sua alma odeia. 
+Sobre os ímpios ele fará chover
+brasas ardentes e enxofre incandescente;
+vento ressecante é o que terão. 
+Pois o Senhor é justo e ama a justiça;
+os retos verão a sua face. 
+ Salmo 11
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 108
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_108/
 INFO:root:🔹 Description: Meu coração está firme, ó Deus!
@@ -140,94 +174,75 @@ a alegria plena da tua presença,
 eterno prazer à tua direita. 
  Salmo 16
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 52
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_52/
-INFO:root:🔹 Description: Por que você se vangloria do mal
-e de ultrajar a Deus continuamente?,
-ó homem poderoso! 
-Sua língua trama destruição;
-é como navalha afiada, cheia de engano. 
-Você prefere o mal ao bem;
-a falsidade, à verdade. 
-Você ama toda palavra maldosa,
-ó língua mentirosa! 
-Saiba que Deus o arruinará para sempre:
-ele o agarrará e o arrancará da sua tenda;
-ele o desarraigará da terra dos vivos. 
-Os justos verão isso e temerão;
-rirão dele, dizendo: 
-"Veja só o homem
-que rejeitou a Deus como refúgio;
-confiou em sua grande riqueza
-e buscou refúgio em sua maldade!" 
-Mas eu sou como uma oliveira
-que floresce na casa de Deus;
-confio no amor de Deus
-para todo o sempre. 
-Para sempre te louvarei pelo que fizeste;
-na presença dos teus fiéis
-proclamarei o teu nome,
-porque tu és bom. 
- Salmo 52
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 319201 characters
-INFO:root:HTML parsed, length: 309475 characters
-INFO:root:Found 3 titles: ['Sejam cheios do Espírito Santo', 'A força que vem do Senhor', 'Você clama a Deus e Ele te liberta: dê a Ele toda a glória!']
+INFO:root:Response length: 318876 characters
+INFO:root:HTML parsed, length: 309150 characters
+INFO:root:Found 3 titles: ['Revestidos de coragem', 'Sejam cheios do Espírito Santo', 'A força que vem do Senhor']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Novamente Jesus disse: "Paz seja com vocês! Assim ', 'O Senhor é a minha luz e a minha salvação;\nde quem', 'e clame a mim no dia da angústia;\neu o livrarei, e']
-INFO:root:Found 1 dates: ['Sábado, 14 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Sejam fortes e corajosos. Não tenham medo nem fiqu', 'Novamente Jesus disse: "Paz seja com vocês! Assim ', 'O Senhor é a minha luz e a minha salvação;\nde quem']
+INFO:root:Found 1 dates: ['Domingo, 15 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Sejam cheios do Espírito Santo', ID=994fe068810b981b30f353c65dd5b47c
+INFO:root:Processing entry 1: Title='Revestidos de coragem', ID=619085877e58881ddbfa5a26e20ca8e6
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Sejam cheios do Espírito Santo - Palavra de Hoje
+INFO:root:🔹 Title: Revestidos de coragem - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Novamente Jesus disse: "Paz seja com vocês! Assim como o Pai me enviou, eu os envio".
-E com isso, soprou sobre eles e disse: "Recebam o Espírito Santo.
-- João 20:21-22
+INFO:root:🔹 Description: Sejam fortes e corajosos. Não tenham medo nem fiquem apavorados por causa delas, pois o Senhor, o seu Deus, vai com vocês; nunca os deixará, nunca os abandonará".
+- Deuteronômio 31:6
 
-Após a sua ressurreição, antes de ascender aos céus, Jesus apareceu aos seus discípulos. Estavam reunidos a portas fechadas, escondidos pelo medo. A crucificação os havia abalado profundamente. O mundo deles havia desmoronado e eles ainda tentavam compreender o que havia acontecido.
-Em meio a essa confusão e medo, o Jesus ressuscitado apareceu diante deles. Que momento poderoso! O Mestre, a quem tinham visto morrer, estava vivo. E, mais notável ainda, Jesus não os repreendeu pelo medo nem zombou da sua fraqueza.
-Pelo contrário, as suas primeiras palavras foram palavras de graça, conforto e restauração: “A paz esteja convosco”. Jesus sabia que eles precisavam de paz interior para seguir em frente e, com amor, concedeu-lhes essa paz. A sua presença viva entre eles trouxe-lhes paz.
-Então, Jesus lembrou-lhes que eram escolhidos e chamados: “Assim como o Pai me enviou, eu vos envio”. Apesar da sua fragilidade, Jesus confiou neles. Incluiu-os no seu plano e lembrou-lhes que agora estavam sendo enviados para levar a sua mensagem e dar continuidade à sua obra. Ele não os chamou por serem fortes ou corajosos, mas porque, em seu amor, os escolheu.
-Finalmente, ele os capacitou. Soprou sobre eles e disse: “Recebam o Espírito Santo”. Jesus sabia que eles não conseguiriam cumprir a missão sozinhos. Por isso, deu-lhes o seu Espírito, para guiá-los, fortalecê-los e capacitá-los a viver segundo a vontade de Deus.
-O mesmo acontece conosco. Quando abrimos nossos corações a Jesus, recebemos a sua paz. Ele nos dá propósito e nos envia para viver uma vida que reflita o seu amor. Mas ele não nos envia sozinhos. Assim como prometeu, ele nos preenche com o seu Espírito Santo, que nos capacita e nos fortalece a cada dia.
+Ser revestido de coragem não significa ausência de medo, mas a certeza de que Deus caminha conosco mesmo quando o coração treme.
+A nossa coragem nasce da confiança no Senhor, não na nossa força. Em dias difíceis, quando as respostas parecem distantes e o caminho incerto, Deus nos chama a permanecer firmes, lembrando que Ele é nosso refúgio e fortaleza. É no secreto da oração e na meditação da Palavra que somos fortalecidos interiormente.
+Muitas vezes, enfrentamos batalhas silenciosas que ninguém vê. Lutas na mente, no coração e na fé. Nessas horas, o Senhor nos reveste com Sua armadura espiritual, capacitando-nos a resistir e prosseguir. A coragem que vem de Deus não é barulhenta, mas perseverante. Ela nos sustenta quando tudo parece parado e nos impulsiona a dar mais um passo, mesmo sem enxergar o fim da estrada.
+Jesus é o maior exemplo de coragem. Ele enfrentou a cruz por amor, confiando plenamente no Pai. Ao olharmos para Cristo, aprendemos que a obediência gera força e que a fé transforma dor em propósito. Quando escolhemos confiar, mesmo em meio às lágrimas, somos renovados por dentro e experimentamos a paz que excede todo entendimento.
+Hoje, permita que o Espírito Santo o revista de coragem. Entregue seus medos, dúvidas e fraquezas ao Senhor. Creia que Deus está no controle e que nenhuma luta é maior do que o Seu poder. Caminhe com fé, permaneça firme na esperança e lembre-se: aquele que confia no Senhor jamais será confundido.
+Revestido de coragem, você seguirá adiante, sustentado pela graça e guiado pelo amor eterno de Deus.
 
-Mas receberão poder quando o Espírito Santo descer sobre vocês, e serão minhas testemunhas em Jerusalém, em toda a Judeia e Samaria, e até os confins da terra".
-- Atos 1:8
-
-Peçamos ao Senhor que nos preencha novamente, que renove a nossa fé e que nos capacite a viver de acordo com o Seu chamado, pelo poder do Seu Espírito.
-Veja também: Versículos sobre o Batismo no Espírito Santo
+Veja também: Versículos de coragem.
  
-Novamente Jesus disse: "Paz seja com vocês! Assim como o Pai me enviou, eu os envio".
-E com isso, soprou sobre eles e disse: "Recebam o Espírito Santo.
-- João 20:21-22
+Sejam fortes e corajosos. Não tenham medo nem fiquem apavorados por causa delas, pois o Senhor, o seu Deus, vai com vocês; nunca os deixará, nunca os abandonará".
+- Deuteronômio 31:6
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 328975 characters
-INFO:root:HTML parsed, length: 318796 characters
-INFO:root:Found 3 titles: ['Prestando a atenção aos detalhes', 'Fazendo boas escolhas', 'O mundo rejeita, Deus acolhe']
-INFO:root:Found 3 URLs: ['/versiculos_para_louvar_a_deus/', '/inteligencia/', '/provas_do_amor_de_deus/']
-INFO:root:Found 3 descriptions: ['Tenham cuidado com a maneira como vocês vivem; que', 'Confie no Senhor de todo o seu coração\ne não se ap', 'O Senhor está perto\ndos que têm o coração quebrant']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n14\nSÁBADO', 'FEVEREIRO\n\n13\nSEXTA', 'FEVEREIRO\n\n12\nQUINTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Prestando a atenção aos detalhes', ID=a16c29d427058a74265b4b425c3fab71
-INFO:root:Processing entry 2: Title='Fazendo boas escolhas', ID=4381d983617e7d642267cb806808598d
-INFO:root:Processing entry 3: Title='O mundo rejeita, Deus acolhe', ID=adacaa0fa70a597d00d7e77c90e98ce0
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 327836 characters
+INFO:root:HTML parsed, length: 317659 characters
+INFO:root:Found 3 titles: ['Olhe para Jesus', 'Prestando a atenção aos detalhes', 'Fazendo boas escolhas']
+INFO:root:Found 2 URLs: ['/versiculos_para_louvar_a_deus/', '/inteligencia/']
+INFO:root:Found 3 descriptions: ['Moisés fez uma serpente de bronze e a pôs sobre um', 'Tenham cuidado com a maneira como vocês vivem; que', 'Confie no Senhor de todo o seu coração\ne não se ap']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n15\nDOMINGO', 'FEVEREIRO\n\n14\nSÁBADO', 'FEVEREIRO\n\n13\nSEXTA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Olhe para Jesus', ID=513b7542c3befed22be3276cc4c9a25b
+INFO:root:Processing entry 2: Title='Prestando a atenção aos detalhes', ID=a16c29d427058a74265b4b425c3fab71
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Prestando a atenção aos detalhes
+INFO:root:🔹 Title: Olhe para Jesus
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
+INFO:root:🔹 Description: Moisés fez uma serpente de bronze e a pôs sobre uma haste. Quando alguém era mordido por alguma cobra, se olhava para a serpente de bronze, ficava curado.
+Números 21:9
+
+Na marcha para Canaã, o povo de Israel começou a reclamar e a se queixar, dizendo-se enjoado do maná. O Senhor enviou cobras venenosas, e muitos morreram. O povo se arrependeu e clamou a Deus, que mandou Moisés fazer uma serpente de bronze. Todos que fossem mordidos, ao olhar para a serpente de bronze, ficavam curados (Números 21:3-9).
+Jesus afirmou que, assim como Moisés levantou a serpente no deserto, assim também seria necessário que Ele fosse levantado (na cruz), para que todo aquele que nEle cresse, tivesse a vida eterna (João 3:14-15).
+Em meio ao sofrimento e à dor precisamos levantar a cabeça e fixar os nossos olhos em Jesus. Ficar focado somente no problema não resolverá a situação. Precisamos olhar para Jesus com esperança e fé, crendo que, se for da Sua vontade, a situação será resolvida.
+Levante a cabeça e olhe para Jesus!
+
+Leia e medite em Números 21:3-9 e João 3:14-16.
+Procure lembrar do que Deus já fez por você no passado e agradeça por todas as bênçãos recebidas.
+Tome a decisão de levantar a cabeça e crer somente em Jesus como seu único Senhor e verdadeiro Salvador.
+
+Para orar:
+
+Senhor, nesse momento, eu levanto a minha cabeça para te contemplar. Declaro que creio no Senhor e no Seu poder. Vem me socorrer na hora da aflição. Em nome de Jesus. Amém!
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Prestando a atenção aos detalhes
+INFO:root:🔹 URL: https://www.bibliaon.com/inteligencia/
 INFO:root:🔹 Description: Tenham cuidado com a maneira como vocês vivem; que não seja como insensatos, mas como sábios, aproveitando ao máximo cada oportunidade, porque os dias são maus.
 - Efésios 5:15-16
 
@@ -251,56 +266,6 @@ Para orar:
 Senhor Deus amado, ensina-me a perceber os detalhes da minha vida e a viver cada momento para a Tua glória. Que minhas palavras, atitudes e pensamentos reflitam o Teu amor. Guarda meu coração da distração e do pecado, e aproxima-me cada dia mais de Ti. Dá-me sensibilidade para ouvir Tua voz e fidelidade nas pequenas coisas. Em nome de Jesus, amém.
 
 Veja também: 5 formas de louvar ao Senhor de todo o nosso coração
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Fazendo boas escolhas
-INFO:root:🔹 URL: https://www.bibliaon.com/inteligencia/
-INFO:root:🔹 Description: Confie no Senhor de todo o seu coração
-e não se apoie
-em seu próprio entendimento;
-- Provérbios 3:5
-
-Algumas escolhas na vida parecem simples, outras carregam peso e consequências duradouras. Todos os dias somos confrontados com decisões que moldam nosso presente e definem nosso futuro.
-A Palavra de Deus nos ensina que a verdadeira sabedoria não está apenas na experiência, mas na confiança plena no Senhor. Quando colocamos nossos caminhos diante d’Ele, recebemos direção segura.
-Fazer boas escolhas é mais do que optar pelo que é conveniente; é decidir pelo que agrada a Deus. Muitas vezes, o caminho correto exige renúncia, paciência e fé. Porém, cada decisão alinhada à vontade do Pai produz frutos de paz, crescimento e maturidade espiritual. Deus não nos deixa sozinhos nesse processo. Ele nos concede o Espírito Santo, que nos orienta, alerta e fortalece.
-Escolher bem também envolve discernimento. Nem tudo o que parece bom é, de fato, o melhor. Precisamos avaliar nossas atitudes à luz das Escrituras, buscando compreender se nossas decisões refletem amor, justiça e humildade. Quando erramos, temos a graça do arrependimento e a oportunidade de recomeçar.
-A vida é construída escolha após escolha. Ao priorizarmos a vontade de Deus, desenvolvemos caráter, testemunho e confiança. Que cada decisão nossa seja uma expressão de fé, demonstrando que confiamos no Senhor acima de qualquer circunstância.
-No caminho certo
-
-Busque a Deus em oração antes de decidir, pedindo sabedoria, discernimento e paz no coração para reconhecer a vontade dEle.
-Consulte a Palavra de Deus diariamente, permitindo que os princípios bíblicos moldem seus pensamentos, atitudes e decisões.
-Procure conselhos de pessoas maduras na fé, que vivam princípios cristãos e possam orientar com equilíbrio, amor e responsabilidade.
-
-Para orar:
-
-Senhor Deus, ajuda-me a confiar em Ti em cada decisão que eu precisar tomar. Dá-me sabedoria para escolher o que Te agrada e coragem para rejeitar o que não vem de Ti. Que meu coração esteja sensível à Tua voz e firme na Tua Palavra. Guia meus passos, fortalece minha fé e molda meu caráter segundo a Tua vontade. Em nome de Jesus, amém.
-
-Veja Também: Versículos de sabedoria e inteligência (para crescer em discernimento)
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O mundo rejeita, Deus acolhe
-INFO:root:🔹 URL: https://www.bibliaon.com/provas_do_amor_de_deus/
-INFO:root:🔹 Description: O Senhor está perto
-dos que têm o coração quebrantado
-e salva os de espírito abatido.
-- Salmos 34:18
-
-“O mundo rejeita, Deus acolhe.” Essa frase resume uma verdade que muitas pessoas vivem todos os dias. O mundo costuma valorizar quem tem sucesso, beleza, dinheiro ou poder. Quem não se encaixa nesses padrões muitas vezes é ignorado, criticado ou deixado de lado.
-Nos dias de hoje, pessoas são julgadas pela aparência, pela condição social ou até pelas suas fraquezas. Isso machuca, gera tristeza e faz muitos se sentirem sozinhos.
-Mas Deus é diferente do mundo. Ele não olha primeiro para a aparência, mas para o coração. Quando todos se afastam, Deus se aproxima. Quando alguém é rejeitado por falhar, Deus oferece perdão. Quando a pessoa pensa que não tem valor, Deus mostra que ela é preciosa.
-A Bíblia está cheia de exemplos assim: Jesus acolheu os doentes, os pobres, os pecadores e aqueles que eram desprezados pela sociedade. Ele conversou com quem ninguém queria conversar e amou quem ninguém queria amar.
-Deus não nos recebe porque somos perfeitos, mas porque Ele é amor. Seu acolhimento não depende de mérito, mas de graça. Isso significa que qualquer pessoa pode se aproximar d’Ele, não importa sua história. Onde o mundo aponta o dedo, Deus estende a mão. Onde o mundo fecha portas, Deus abre caminhos.
-Saber que Deus acolhe traz esperança. Podemos levar a Ele nossas dores, medos e erros sem medo de sermos rejeitados.
-No amor de Deus encontramos consolo, recomeço e força para continuar. Mesmo que o mundo rejeite, em Deus sempre haverá um lugar seguro.
-Um amor que não exclui, mas restaura e dá novo começo
-
-Quando o mundo nos julga por erros passados, Deus nos oferece perdão, mostrando que nossa história não define o nosso verdadeiro valor.
-A rejeição humana pode ferir, mas o acolhimento de Deus cura o coração e devolve esperança aos que se sentem esquecidos.
-Ao compreender que Deus nos aceita como somos, aprendemos também a acolher outros com amor, graça e menos julgamento diário.
-
-Para orar:
-
-Senhor Deus, entrego a Ti meu coração, minhas dores e minhas fraquezas. Quando o mundo me rejeitar, lembra-me que sou amado por Ti. Dá-me força para continuar, fé para confiar e paz para descansar em Teus braços. Ensina-me a acolher como Tu acolhes, com graça e misericórdia. Guia meus passos e renova minha esperança a cada dia, em nome de Jesus, amém.
-
-Veja também: 7 características do amor de Deus
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -331,15 +296,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  37 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  60 ++----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  28 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  10 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  89 ++++-----
+ feeds/salmo_do_dia/atom.xml               |  54 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 298 +++++++++++++-----------------
- 11 files changed, 239 insertions(+), 305 deletions(-)
+ output.log                                | 293 +++++++++++++-----------------
+ 11 files changed, 220 insertions(+), 303 deletions(-)
