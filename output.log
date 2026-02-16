@@ -1,85 +1,149 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123267 characters
-INFO:root:HTML parsed, length: 116748 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (15/02/2026)', 'Palavra de Ontem (14/02/2026)', 'Palavra de Anteontem (13/02/2026)']
-INFO:root:Found 3 URLs: ['/simultaneidade/', '/pronta-entrega/', '/velhofobia/']
-INFO:root:Found 9 descriptions: ['substantivo feminino Característica do que é simul', 'Sinônimos:\n\ncoexistência, concomitância, sincronis', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (15/02/2026)', 'Palavra de Ontem (14/02/2026)', 'Palavra de Anteontem (13/02/2026)']
+INFO:root:Response length: 123451 characters
+INFO:root:HTML parsed, length: 116932 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (16/02/2026)', 'Palavra de Ontem (15/02/2026)', 'Palavra de Anteontem (14/02/2026)']
+INFO:root:Found 3 URLs: ['/flotilha/', '/simultaneidade/', '/pronta-entrega/']
+INFO:root:Found 10 descriptions: ['substantivo feminino Frota pequena; conjunto de pe', 'Sinônimos:\n\nesquadrilha', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (16/02/2026)', 'Palavra de Ontem (15/02/2026)', 'Palavra de Anteontem (14/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (15/02/2026)', ID=54ec1910dd00be42cb21edcf2bf81adb
-INFO:root:Processing entry 2: Title='Palavra de Ontem (14/02/2026)', ID=29da0289f18238de4f4fbae2634f7216
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (13/02/2026)', ID=efe1f0da86c94b9e540c27122cfe9131
+INFO:root:Processing entry 1: Title='Palavra de Hoje (16/02/2026)', ID=e99e4ea55d42b7a4c98fcd6d642cf285
+INFO:root:Processing entry 2: Title='Palavra de Ontem (15/02/2026)', ID=4d3f3d7ac69be57693dd648b3115050a
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (14/02/2026)', ID=34da7715162e4c09cadcf43f94f6d89a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (15/02/2026) - Significado completo de simultaneidade:
-INFO:root:🔹 URL: https://www.dicio.com.br/simultaneidade/
-INFO:root:🔹 Description: substantivo feminino Característica do que é simultâneo, do que ocorre ao mesmo tempo que outra coisa; concomitância.Designação de uma ou mais ações, coisas ou fatos que ocorrem em simultâneo (ao mesmo tempo); coexistência.Etimologia (origem da palavra simultaneidade). A palavra simultaneidade tem sua origem no latim "simultaneitas,atis; de simultaneus, e do sufixo -tas.
+INFO:root:🔹 Title: Palavra de Hoje (16/02/2026) - Significado completo de flotilha:
+INFO:root:🔹 URL: https://www.dicio.com.br/flotilha/
+INFO:root:🔹 Description: substantivo feminino Frota pequena; conjunto de pequenos barcos.Mar. Reunião de pequenos barcos da marinha de guerra; esquadrilha: flotilha de torpedeiros, de submarinos.[Por Extensão] Reunião de quaisquer embarcações ou aviões: uma flotilha de pesca.Etimologia (origem da palavra flotilha). A palavra flotilha tem sua origem no espanhol “flotilla”, forma diminutiva de “flota”, com o mesmo sentido.
  
 Sinônimos:
 
-coexistência, concomitância, sincronismo, sincronia 
+esquadrilha 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (14/02/2026) - Significado completo de pronta-entrega:
-INFO:root:🔹 URL: https://www.dicio.com.br/pronta-entrega/
+INFO:root:🔹 Title: Palavra de Ontem (15/02/2026) - Significado completo de simultaneidade:
+INFO:root:🔹 URL: https://www.dicio.com.br/simultaneidade/
 INFO:root:🔹 Description: Sinônimos:
 
-coexistência, concomitância, sincronismo, sincronia
+esquadrilha
  Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (13/02/2026) - Significado completo de velhofobia:
-INFO:root:🔹 URL: https://www.dicio.com.br/velhofobia/
+INFO:root:🔹 Title: Palavra de Anteontem (14/02/2026) - Significado completo de pronta-entrega:
+INFO:root:🔹 URL: https://www.dicio.com.br/pronta-entrega/
 INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:si-mul-ta-nei-da-de
+ Sílabas:flo-ti-lha
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316326 characters
-INFO:root:HTML parsed, length: 306138 characters
-INFO:root:Found 1 titles: ['Isaías 58:11']
-INFO:root:Found 1 URLs: ['/versiculo/isaias_58_11/']
-INFO:root:Found 1 descriptions: ['O Senhor o guiará constantemente;\nsatisfará os seu']
+INFO:root:Response length: 316600 characters
+INFO:root:HTML parsed, length: 306412 characters
+INFO:root:Found 1 titles: ['Isaías 53:4-5']
+INFO:root:Found 1 URLs: ['/versiculo/isaias_53_4-5/']
+INFO:root:Found 1 descriptions: ['Certamente ele tomou sobre si\nas nossas enfermidad']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Isaías 58:11', ID=fe9de3c94ee76c7f5d4da7ccb66f7067
+INFO:root:Processing entry 1: Title='Isaías 53:4-5', ID=71f1f162ee75ff6c94c610f68dcb7836
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Isaías 58:11
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/isaias_58_11/
-INFO:root:🔹 Description: O Senhor o guiará constantemente;
-satisfará os seus desejos
-numa terra ressequida pelo sol
-e fortalecerá os seus ossos.
-Você será como um jardim bem regado,
-como uma fonte cujas águas
-nunca faltam. Isaías 58:11
+INFO:root:🔹 Title: Isaías 53:4-5
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/isaias_53_4-5/
+INFO:root:🔹 Description: Certamente ele tomou sobre si
+as nossas enfermidades
+e sobre si levou as nossas doenças;
+contudo nós o consideramos
+castigado por Deus,
+por Deus atingido e afligido. Mas ele foi traspassado
+por causa das nossas transgressões,
+foi esmagado por causa
+de nossas iniquidades;
+o castigo que nos trouxe paz
+estava sobre ele, e pelas suas feridas
+fomos curados. Isaías 53:4-5
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 315315 characters
-INFO:root:HTML parsed, length: 305904 characters
-INFO:root:Found 3 titles: ['Salmo 11', 'Salmo 108', 'Salmo 16']
-INFO:root:Found 3 URLs: ['/salmos_11/', '/salmos_108/', '/salmos_16/']
-INFO:root:Found 3 descriptions: ['No Senhor me refugio.\nComo então vocês podem dizer', 'Meu coração está firme, ó Deus!\nCantarei e louvare', 'Protege-me, ó Deus,\npois em ti me refugio. \nAo Sen']
-INFO:root:Found 3 dates: ['15 de Fevereiro de 2026', '14 de Fevereiro de 2026', '13 de Fevereiro de 2026']
+INFO:root:Response length: 316215 characters
+INFO:root:HTML parsed, length: 306820 characters
+INFO:root:Found 3 titles: ['Salmo 9', 'Salmo 11', 'Salmo 108']
+INFO:root:Found 3 URLs: ['/salmos_9/', '/salmos_11/', '/salmos_108/']
+INFO:root:Found 3 descriptions: ['Senhor, quero dar-te graças de todo o coração\ne fa', 'No Senhor me refugio.\nComo então vocês podem dizer', 'Meu coração está firme, ó Deus!\nCantarei e louvare']
+INFO:root:Found 3 dates: ['16 de Fevereiro de 2026', '15 de Fevereiro de 2026', '14 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
-INFO:root:Processing entry 2: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
-INFO:root:Processing entry 3: Title=' Salmo 16', ID=0a48a9deae50a49a4dd4c1df1d903f38
+INFO:root:Processing entry 1: Title=' Salmo 9', ID=8c922c6d9002e2d23b66b38ad26f10ab
+INFO:root:Processing entry 2: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
+INFO:root:Processing entry 3: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 9
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_9/
+INFO:root:🔹 Description: Senhor, quero dar-te graças de todo o coração
+e falar de todas as tuas maravilhas. 
+Em ti quero alegrar-me e exultar,
+e cantar louvores ao teu nome, ó Altíssimo. 
+Quando os meus inimigos
+contigo se defrontam,
+tropeçam e são destruídos. 
+Pois defendeste o meu direito e a minha causa;
+em teu trono te assentaste,
+julgando com justiça. 
+Repreendeste as nações e destruíste os ímpios;
+para todo o sempre apagaste o nome deles. 
+O inimigo foi totalmente arrasado,
+para sempre;
+desarraigaste as suas cidades;
+já não há quem delas se lembre. 
+O Senhor reina para sempre;
+estabeleceu o seu trono para julgar. 
+Ele mesmo julga o mundo com justiça;
+governa os povos com retidão. 
+O Senhor é refúgio para os oprimidos,
+uma torre segura na hora da adversidade. 
+Os que conhecem o teu nome confiam em ti,
+pois tu, Senhor, jamais abandonas
+os que te buscam. 
+Cantem louvores ao Senhor,
+que reina em Sião;
+proclamem entre as nações os seus feitos. 
+Aquele que pede contas do sangue derramado
+não esquece;
+ele não ignora o clamor dos oprimidos. 
+Misericórdia, Senhor!
+Vê o sofrimento que me causam
+os que me odeiam.
+Salva-me das portas da morte, 
+para que, junto às portas da cidade de Sião,
+eu cante louvores a ti
+e ali exulte em tua salvação. 
+Caíram as nações na cova que abriram;
+os seus pés ficaram presos
+no laço que esconderam. 
+O Senhor é conhecido
+pela justiça que executa;
+os ímpios caem em suas próprias armadilhas.
+Interlúdio. 
+Voltem os ímpios ao pó,
+todas as nações que se esquecem de Deus! 
+Mas os pobres nunca serão esquecidos,
+nem se frustrará a esperança dos necessitados. 
+Levanta-te, Senhor!
+Não permitas que o mortal triunfe!
+Julgadas sejam as nações na tua presença. 
+Infunde-lhes terror, Senhor;
+saibam as nações
+que não passam de seres humanos. 
+ Salmo 9
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 11
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_11/
 INFO:root:🔹 Description: No Senhor me refugio.
@@ -140,91 +204,81 @@ Com Deus conquistaremos a vitória,
 e ele pisará os nossos adversários. 
  Salmo 108
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 16
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_16/
-INFO:root:🔹 Description: Protege-me, ó Deus,
-pois em ti me refugio. 
-Ao Senhor declaro: "Tu és o meu Senhor;
-não tenho bem nenhum além de ti". 
-Quanto aos fiéis que há na terra,
-eles é que são os notáveis
-em quem está todo o meu prazer. 
-Grande será o sofrimento
-dos que correm atrás de outros deuses.
-Não participarei dos seus sacrifícios de sangue,
-e os meus lábios nem mencionarão
-os seus nomes. 
-Senhor, tu és a minha porção e o meu cálice;
-és tu que garantes o meu futuro. 
-As divisas caíram para mim
-em lugares agradáveis:
-Tenho uma bela herança! 
-Bendirei o Senhor, que me aconselha;
-na escura noite o meu coração me ensina! 
-Sempre tenho o Senhor diante de mim.
-Com ele à minha direita, não serei abalado. 
-Por isso o meu coração se alegra
-e no íntimo exulto;
-mesmo o meu corpo repousará tranquilo, 
-porque tu não me abandonarás no sepulcro,
-nem permitirás que o teu santo
-sofra decomposição. 
-Tu me farás conhecer a vereda da vida,
-a alegria plena da tua presença,
-eterno prazer à tua direita. 
- Salmo 16
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 318876 characters
-INFO:root:HTML parsed, length: 309150 characters
-INFO:root:Found 3 titles: ['Revestidos de coragem', 'Sejam cheios do Espírito Santo', 'A força que vem do Senhor']
+INFO:root:Response length: 319001 characters
+INFO:root:HTML parsed, length: 309266 characters
+INFO:root:Found 3 titles: ['Quando o mundo fica para trás', 'Revestidos de coragem', 'Sejam cheios do Espírito Santo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Sejam fortes e corajosos. Não tenham medo nem fiqu', 'Novamente Jesus disse: "Paz seja com vocês! Assim ', 'O Senhor é a minha luz e a minha salvação;\nde quem']
-INFO:root:Found 1 dates: ['Domingo, 15 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Jesus dizia a todos: "Se alguém quiser acompanhar-', 'Sejam fortes e corajosos. Não tenham medo nem fiqu', 'Novamente Jesus disse: "Paz seja com vocês! Assim ']
+INFO:root:Found 1 dates: ['Segunda, 16 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Revestidos de coragem', ID=619085877e58881ddbfa5a26e20ca8e6
+INFO:root:Processing entry 1: Title='Quando o mundo fica para trás', ID=9583c069930d12985f3228b9aa1cdc00
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Revestidos de coragem - Palavra de Hoje
+INFO:root:🔹 Title: Quando o mundo fica para trás - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Sejam fortes e corajosos. Não tenham medo nem fiquem apavorados por causa delas, pois o Senhor, o seu Deus, vai com vocês; nunca os deixará, nunca os abandonará".
-- Deuteronômio 31:6
+INFO:root:🔹 Description: Jesus dizia a todos: "Se alguém quiser acompanhar-me, negue-se a si mesmo, tome diariamente a sua cruz e siga-me.
+- Lucas 9:23
 
-Ser revestido de coragem não significa ausência de medo, mas a certeza de que Deus caminha conosco mesmo quando o coração treme.
-A nossa coragem nasce da confiança no Senhor, não na nossa força. Em dias difíceis, quando as respostas parecem distantes e o caminho incerto, Deus nos chama a permanecer firmes, lembrando que Ele é nosso refúgio e fortaleza. É no secreto da oração e na meditação da Palavra que somos fortalecidos interiormente.
-Muitas vezes, enfrentamos batalhas silenciosas que ninguém vê. Lutas na mente, no coração e na fé. Nessas horas, o Senhor nos reveste com Sua armadura espiritual, capacitando-nos a resistir e prosseguir. A coragem que vem de Deus não é barulhenta, mas perseverante. Ela nos sustenta quando tudo parece parado e nos impulsiona a dar mais um passo, mesmo sem enxergar o fim da estrada.
-Jesus é o maior exemplo de coragem. Ele enfrentou a cruz por amor, confiando plenamente no Pai. Ao olharmos para Cristo, aprendemos que a obediência gera força e que a fé transforma dor em propósito. Quando escolhemos confiar, mesmo em meio às lágrimas, somos renovados por dentro e experimentamos a paz que excede todo entendimento.
-Hoje, permita que o Espírito Santo o revista de coragem. Entregue seus medos, dúvidas e fraquezas ao Senhor. Creia que Deus está no controle e que nenhuma luta é maior do que o Seu poder. Caminhe com fé, permaneça firme na esperança e lembre-se: aquele que confia no Senhor jamais será confundido.
-Revestido de coragem, você seguirá adiante, sustentado pela graça e guiado pelo amor eterno de Deus.
-
-Veja também: Versículos de coragem.
+Seguir Jesus sempre foi uma escolha radical. Não é um chamado para ajustar pequenos hábitos, mas para uma mudança profunda.
+Quando decidimos caminhar com Cristo, o mundo que antes parecia indispensável começa a perder o brilho. Não porque tudo ao redor se torne mau, mas porque nossos olhos aprendem a enxergar algo maior, eterno e verdadeiro.
+Deixar o mundo para trás não significa fugir das responsabilidades ou desprezar as pessoas. Significa escolher não viver mais guiado pelos mesmos valores, desejos e prioridades. O orgulho cede lugar à humildade, a pressa dá espaço à confiança, e a busca por reconhecimento é substituída pelo desejo sincero de agradar a Deus. É um processo diário, feito de escolhas pequenas, porém cheias de significado.
+Muitas vezes, esse caminho causa estranhamento. Alguns não entenderão nossas decisões, outros se afastarão. Ainda assim, Cristo nos lembra que quem perde a vida por amor a Ele, a encontrará. O que parece perda aos olhos humanos é, na verdade, um ganho espiritual que ninguém pode roubar.
+Essa jornada nos convida a confiar mesmo quando não vemos o próximo passo. A fé amadurece no silêncio, na oração persistente, na Palavra meditada, e na obediência simples. Cada renúncia se transforma em semente de vida, e cada passo com Cristo constrói um testemunho vivo, capaz de iluminar outros, apontar caminhos, curar feridas e glorificar a Deus em meio às lutas diárias. Sempre.
+Quando o mundo fica para trás, não ficamos vazios. Somos preenchidos pela presença de Deus, pela paz que excede todo entendimento e por uma esperança que não depende das circunstâncias. Caminhar com Jesus nos ensina que o verdadeiro futuro não está no que deixamos, mas naquele que seguimos. E é nesse seguir fiel, mesmo quando dói, que descobrimos o sentido mais profundo da vida.
+Veja também: Versículos sobre transformação
  
-Sejam fortes e corajosos. Não tenham medo nem fiquem apavorados por causa delas, pois o Senhor, o seu Deus, vai com vocês; nunca os deixará, nunca os abandonará".
-- Deuteronômio 31:6
+Jesus dizia a todos: "Se alguém quiser acompanhar-me, negue-se a si mesmo, tome diariamente a sua cruz e siga-me.
+- Lucas 9:23
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 327836 characters
-INFO:root:HTML parsed, length: 317659 characters
-INFO:root:Found 3 titles: ['Olhe para Jesus', 'Prestando a atenção aos detalhes', 'Fazendo boas escolhas']
-INFO:root:Found 2 URLs: ['/versiculos_para_louvar_a_deus/', '/inteligencia/']
-INFO:root:Found 3 descriptions: ['Moisés fez uma serpente de bronze e a pôs sobre um', 'Tenham cuidado com a maneira como vocês vivem; que', 'Confie no Senhor de todo o seu coração\ne não se ap']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n15\nDOMINGO', 'FEVEREIRO\n\n14\nSÁBADO', 'FEVEREIRO\n\n13\nSEXTA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Olhe para Jesus', ID=513b7542c3befed22be3276cc4c9a25b
-INFO:root:Processing entry 2: Title='Prestando a atenção aos detalhes', ID=a16c29d427058a74265b4b425c3fab71
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 327363 characters
+INFO:root:HTML parsed, length: 317182 characters
+INFO:root:Found 3 titles: ['Devocional: Andem em amor!', 'Olhe para Jesus', 'Prestando a atenção aos detalhes']
+INFO:root:Found 3 URLs: ['/amor_segundo_a_biblia/', '/obedecer/', '/versiculos_para_louvar_a_deus/']
+INFO:root:Found 3 descriptions: ['E este é o amor: que andemos em obediência aos seu', 'Moisés fez uma serpente de bronze e a pôs sobre um', 'Tenham cuidado com a maneira como vocês vivem; que']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n16\nSEGUNDA', 'FEVEREIRO\n\n15\nDOMINGO', 'FEVEREIRO\n\n14\nSÁBADO']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Devocional: Andem em amor!', ID=39c77606ca498e282344acb81ce0666b
+INFO:root:Processing entry 2: Title='Olhe para Jesus', ID=513b7542c3befed22be3276cc4c9a25b
+INFO:root:Processing entry 3: Title='Prestando a atenção aos detalhes', ID=a16c29d427058a74265b4b425c3fab71
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Devocional: Andem em amor!
+INFO:root:🔹 URL: https://www.bibliaon.com/amor_segundo_a_biblia/
+INFO:root:🔹 Description: E este é o amor: que andemos em obediência aos seus mandamentos. Como vocês já têm ouvido desde o princípio, o mandamento é este: Que vocês andem em amor.
+- 2 João 1:6 
+
+No livro de 2 João 1:6, aprendemos que o amor é fundamental para os cristãos. João destaca que amar significa obedecer aos mandamentos de Deus. Deus nos deu regras para seguir, e quando obedecemos a essas regras, estamos mostrando amor verdadeiro.
+Amar não é apenas falar bonito, mas agir no dia a dia. Significa comprometer-se a viver de acordo com o que Jesus ensinou, amando as outras pessoas como amamos a nós mesmos. Ao obedecer aos mandamentos de Deus, mostramos que amamos a Ele e aos outros.
+O amor é a base do cristianismo, e obedecer aos mandamentos de Deus é a maneira de demonstrar esse amor em nossas vidas. Jesus é o exemplo perfeito de amor e obediência, e Ele nos convida a seguir Seu exemplo, vivendo de acordo com a vontade de Deus.
+Vamos buscar, com humildade, viver o amor todos os dias, seguindo os ensinamentos eternos da Bíblia. Assim, poderemos refletir o amor de Deus para o mundo ao nosso redor. 
+Viva o amor de Deus! 
+
+Coloque em prática os ensinamentos bíblicos, agindo com bondade, paciência e perdão, refletindo assim o amor de Deus em suas ações. 
+Ao amar o próximo, você cumpre o mandamento de Deus e testemunha o poder transformador do amor. 
+Comprometa-se a estudar regularmente a Bíblia para compreender os mandamentos de Deus. 
+
+Para Orar: 
+
+Senhor, guia-me com Tua luz e fortalece meu coração para viver em amor e obediência. Que cada ação reflita Tua graça, inspirando outros a conhecerem o verdadeiro significado do amor. Amém. 
+
+Veja Também: 
+
+Significado de amor na Bíblia (Estudo)
+Versículos sobre Obedecer
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Olhe para Jesus
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
+INFO:root:🔹 URL: https://www.bibliaon.com/obedecer/
 INFO:root:🔹 Description: Moisés fez uma serpente de bronze e a pôs sobre uma haste. Quando alguém era mordido por alguma cobra, se olhava para a serpente de bronze, ficava curado.
 Números 21:9
 
@@ -242,7 +296,7 @@ Para orar:
 Senhor, nesse momento, eu levanto a minha cabeça para te contemplar. Declaro que creio no Senhor e no Seu poder. Vem me socorrer na hora da aflição. Em nome de Jesus. Amém!
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Prestando a atenção aos detalhes
-INFO:root:🔹 URL: https://www.bibliaon.com/inteligencia/
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_louvar_a_deus/
 INFO:root:🔹 Description: Tenham cuidado com a maneira como vocês vivem; que não seja como insensatos, mas como sábios, aproveitando ao máximo cada oportunidade, porque os dias são maus.
 - Efésios 5:15-16
 
@@ -296,15 +350,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  60 ++----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  28 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  26 ++-
+ feeds/devocional_de_hoje/feed.json        |  10 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  23 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  54 +++---
+ feeds/salmo_do_dia/atom.xml               |  91 ++++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |  19 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 293 +++++++++++++-----------------
- 11 files changed, 220 insertions(+), 303 deletions(-)
+ output.log                                | 286 +++++++++++++++++-------------
+ 11 files changed, 307 insertions(+), 210 deletions(-)
