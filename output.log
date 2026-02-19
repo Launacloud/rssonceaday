@@ -1,79 +1,110 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123423 characters
-INFO:root:HTML parsed, length: 116720 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (18/02/2026)', 'Palavra de Ontem (17/02/2026)', 'Palavra de Anteontem (16/02/2026)']
-INFO:root:Found 3 URLs: ['/manicomio/', '/croqui/', '/flotilha/']
-INFO:root:Found 12 descriptions: ['substantivo masculino Estabelecimento ou hospital ', 'Sinônimos:\n\nhospício', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (18/02/2026)', 'Palavra de Ontem (17/02/2026)', 'Palavra de Anteontem (16/02/2026)']
+INFO:root:Response length: 123291 characters
+INFO:root:HTML parsed, length: 116772 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (19/02/2026)', 'Palavra de Ontem (18/02/2026)', 'Palavra de Anteontem (17/02/2026)']
+INFO:root:Found 3 URLs: ['/concausa/', '/manicomio/', '/croqui/']
+INFO:root:Found 11 descriptions: ['substantivo feminino Causa que ocorre em conjunto ', 'Classe gramatical:substantivo feminino', 'Sílabas:con-cau-sa']
+INFO:root:Found 3 dates: ['Palavra de Hoje (19/02/2026)', 'Palavra de Ontem (18/02/2026)', 'Palavra de Anteontem (17/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (18/02/2026)', ID=3641d4242061e96375ba490c79fa665d
-INFO:root:Processing entry 2: Title='Palavra de Ontem (17/02/2026)', ID=b3f38ab330d4bb8387cd961601c23a44
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/02/2026)', ID=2f09a5e7e6f8a31585ccb710386c3ec9
+INFO:root:Processing entry 1: Title='Palavra de Hoje (19/02/2026)', ID=019b5e7643ef5534252a225fced5fa3b
+INFO:root:Processing entry 2: Title='Palavra de Ontem (18/02/2026)', ID=138e66bc08934efb0eb2d3e7ad5d5e13
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (17/02/2026)', ID=851887686074defc27530bd8679ec005
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (18/02/2026) - Significado completo de manicômio:
+INFO:root:🔹 Title: Palavra de Hoje (19/02/2026) - Significado completo de concausa:
+INFO:root:🔹 URL: https://www.dicio.com.br/concausa/
+INFO:root:🔹 Description: substantivo feminino Causa que ocorre em conjunto com outra de existência anterior para que, ambas, provoquem uma consequência; causa concomitante.Pessoa que se junta a outra buscando alcançar um determinado propósito.[Jurídico] Na designação de um delito, existência conjunta de causas que, preexistentes ou posteriores, tornam a pessoa que as cometeu responsável, exceto quando suas ocorrências não dependem da sua vontade.Etimologia (origem da palavra concausa). A palavra concausa tem sua origem pela junção do prefixo com-, com alteração do -m, para -n; e da palavra causa.
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (18/02/2026) - Significado completo de manicômio:
 INFO:root:🔹 URL: https://www.dicio.com.br/manicomio/
-INFO:root:🔹 Description: substantivo masculino Estabelecimento ou hospital especializado na internação e no tratamento de pessoas que perderam a razão ou aquelas com problemas mentais; hospital psiquiátrico.Etimologia (origem da palavra manicômio). A palavra manicômio tem sua origem pela junção do prefixo mani-, do latim "manu" que significa "mão", e do sufixo -cômio, hospital.
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:con-cau-sa
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (17/02/2026) - Significado completo de croqui:
+INFO:root:🔹 URL: https://www.dicio.com.br/croqui/
+INFO:root:🔹 Description: Sílabas:con-cau-sa
  
 Sinônimos:
 
 hospício 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (17/02/2026) - Significado completo de croqui:
-INFO:root:🔹 URL: https://www.dicio.com.br/croqui/
-INFO:root:🔹 Description: Sinônimos:
-
-hospício
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (16/02/2026) - Significado completo de flotilha:
-INFO:root:🔹 URL: https://www.dicio.com.br/flotilha/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:ma-ni-cô-mi-o
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316714 characters
-INFO:root:HTML parsed, length: 306526 characters
-INFO:root:Found 1 titles: ['Hebreus 4:12']
-INFO:root:Found 1 URLs: ['/versiculo/hebreus_4_12/']
-INFO:root:Found 1 descriptions: ['Pois a palavra de Deus é viva e eficaz, e mais afi']
+INFO:root:Response length: 316541 characters
+INFO:root:HTML parsed, length: 306353 characters
+INFO:root:Found 1 titles: ['Salmos 27:7-8']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_27_7-8/']
+INFO:root:Found 1 descriptions: ['Ouve a minha voz quando clamo, ó Senhor;\ntem miser']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Hebreus 4:12', ID=8dcb46e01291fbb5f796f9c830ec6036
+INFO:root:Processing entry 1: Title='Salmos 27:7-8', ID=c413480431575dd243ae18d98ca37a5d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Hebreus 4:12
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_4_12/
-INFO:root:🔹 Description: Pois a palavra de Deus é viva e eficaz, e mais afiada que qualquer espada de dois gumes; ela penetra até o ponto de dividir alma e espírito, juntas e medulas, e julga os pensamentos e as intenções do coração. Hebreus 4:12
+INFO:root:🔹 Title: Salmos 27:7-8
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_27_7-8/
+INFO:root:🔹 Description: Ouve a minha voz quando clamo, ó Senhor;
+tem misericórdia de mim e responde-me. A teu respeito diz o meu coração:
+Busque a minha face!
+A tua face, Senhor, buscarei. Salmos 27:7-8
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 318074 characters
-INFO:root:HTML parsed, length: 308707 characters
-INFO:root:Found 3 titles: ['Salmo 145', 'Salmo 33', 'Salmo 9']
-INFO:root:Found 3 URLs: ['/salmos_145/', '/salmos_33/', '/salmos_9/']
-INFO:root:Found 3 descriptions: ['Eu te exaltarei, meu Deus e meu rei;\nbendirei o te', 'Cantem de alegria ao Senhor,\nvocês que são justos;', 'Senhor, quero dar-te graças de todo o coração\ne fa']
-INFO:root:Found 3 dates: ['18 de Fevereiro de 2026', '17 de Fevereiro de 2026', '16 de Fevereiro de 2026']
+INFO:root:Response length: 316975 characters
+INFO:root:HTML parsed, length: 307589 characters
+INFO:root:Found 3 titles: ['Salmo 24', 'Salmo 145', 'Salmo 33']
+INFO:root:Found 3 URLs: ['/salmos_24/', '/salmos_145/', '/salmos_33/']
+INFO:root:Found 3 descriptions: ['Do Senhor é a terra e tudo o que nela existe,\no mu', 'Eu te exaltarei, meu Deus e meu rei;\nbendirei o te', 'Cantem de alegria ao Senhor,\nvocês que são justos;']
+INFO:root:Found 3 dates: ['19 de Fevereiro de 2026', '18 de Fevereiro de 2026', '17 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 145', ID=5fe1d626361a77bf2874800c96eb12cc
-INFO:root:Processing entry 2: Title=' Salmo 33', ID=b5fdbe77bb9ade637a5290d93190889c
-INFO:root:Processing entry 3: Title=' Salmo 9', ID=8c922c6d9002e2d23b66b38ad26f10ab
+INFO:root:Processing entry 1: Title=' Salmo 24', ID=c31a58314d2016c8168b8f285dbb4196
+INFO:root:Processing entry 2: Title=' Salmo 145', ID=5fe1d626361a77bf2874800c96eb12cc
+INFO:root:Processing entry 3: Title=' Salmo 33', ID=b5fdbe77bb9ade637a5290d93190889c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 24
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_24/
+INFO:root:🔹 Description: Do Senhor é a terra e tudo o que nela existe,
+o mundo e os que nele vivem; 
+pois foi ele quem a estabeleceu sobre os mares
+e a firmou sobre as águas. 
+Quem poderá subir o monte do Senhor?
+Quem poderá entrar no seu Santo Lugar? 
+Aquele que tem as mãos limpas
+e o coração puro,
+que não recorre aos ídolos
+nem jura por deuses falsos. 
+Ele receberá bênçãos do Senhor,
+e Deus, o seu Salvador, lhe fará justiça. 
+São assim aqueles que o buscam,
+que buscam a tua face, ó Deus de Jacó. 
+Abram-se, ó portais;
+abram-se, ó portas antigas,
+para que o Rei da glória entre. 
+Quem é o Rei da glória?
+O Senhor forte e valente,
+o Senhor valente nas guerras. 
+Abram-se, ó portais;
+abram-se, ó portas antigas,
+para que o Rei da glória entre. 
+Quem é esse Rei da glória?
+O Senhor dos Exércitos;
+ele é o Rei da glória! 
+ Salmo 24
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 145
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_145/
 INFO:root:🔹 Description: Eu te exaltarei, meu Deus e meu rei;
@@ -185,118 +216,84 @@ Esteja sobre nós o teu amor, Senhor,
 como está em ti a nossa esperança. 
  Salmo 33
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 9
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_9/
-INFO:root:🔹 Description: Senhor, quero dar-te graças de todo o coração
-e falar de todas as tuas maravilhas. 
-Em ti quero alegrar-me e exultar,
-e cantar louvores ao teu nome, ó Altíssimo. 
-Quando os meus inimigos
-contigo se defrontam,
-tropeçam e são destruídos. 
-Pois defendeste o meu direito e a minha causa;
-em teu trono te assentaste,
-julgando com justiça. 
-Repreendeste as nações e destruíste os ímpios;
-para todo o sempre apagaste o nome deles. 
-O inimigo foi totalmente arrasado,
-para sempre;
-desarraigaste as suas cidades;
-já não há quem delas se lembre. 
-O Senhor reina para sempre;
-estabeleceu o seu trono para julgar. 
-Ele mesmo julga o mundo com justiça;
-governa os povos com retidão. 
-O Senhor é refúgio para os oprimidos,
-uma torre segura na hora da adversidade. 
-Os que conhecem o teu nome confiam em ti,
-pois tu, Senhor, jamais abandonas
-os que te buscam. 
-Cantem louvores ao Senhor,
-que reina em Sião;
-proclamem entre as nações os seus feitos. 
-Aquele que pede contas do sangue derramado
-não esquece;
-ele não ignora o clamor dos oprimidos. 
-Misericórdia, Senhor!
-Vê o sofrimento que me causam
-os que me odeiam.
-Salva-me das portas da morte, 
-para que, junto às portas da cidade de Sião,
-eu cante louvores a ti
-e ali exulte em tua salvação. 
-Caíram as nações na cova que abriram;
-os seus pés ficaram presos
-no laço que esconderam. 
-O Senhor é conhecido
-pela justiça que executa;
-os ímpios caem em suas próprias armadilhas.
-Interlúdio. 
-Voltem os ímpios ao pó,
-todas as nações que se esquecem de Deus! 
-Mas os pobres nunca serão esquecidos,
-nem se frustrará a esperança dos necessitados. 
-Levanta-te, Senhor!
-Não permitas que o mortal triunfe!
-Julgadas sejam as nações na tua presença. 
-Infunde-lhes terror, Senhor;
-saibam as nações
-que não passam de seres humanos. 
- Salmo 9
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 318476 characters
-INFO:root:HTML parsed, length: 308739 characters
-INFO:root:Found 3 titles: ['Esteja com os olhos bem atentos', 'Nascendo de novo', 'Quando o mundo fica para trás']
+INFO:root:Response length: 318419 characters
+INFO:root:HTML parsed, length: 308681 characters
+INFO:root:Found 3 titles: ['Jesus supera qualquer nível de dificuldade', 'Esteja com os olhos bem atentos', 'Nascendo de novo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['"Vigiem e orem para que não caiam em tentação. O e', 'Em resposta, Jesus declarou: "Digo a verdade: Ning', 'Jesus dizia a todos: "Se alguém quiser acompanhar-']
-INFO:root:Found 1 dates: ['Quarta, 18 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Tudo posso naquele que me fortalece.\n- Filipenses ', '"Vigiem e orem para que não caiam em tentação. O e', 'Em resposta, Jesus declarou: "Digo a verdade: Ning']
+INFO:root:Found 1 dates: ['Quinta, 19 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Esteja com os olhos bem atentos', ID=9b61612248b2041cd1e8d3deb9e458fa
+INFO:root:Processing entry 1: Title='Jesus supera qualquer nível de dificuldade', ID=16b891de15885cac64c9acd90bcdf6d4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Esteja com os olhos bem atentos - Palavra de Hoje
+INFO:root:🔹 Title: Jesus supera qualquer nível de dificuldade - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: "Vigiem e orem para que não caiam em tentação. O espírito está pronto, mas a carne é fraca."
-- Mateus 26:41
+INFO:root:🔹 Description: Tudo posso naquele que me fortalece.
+- Filipenses 4:13
 
-Vivemos dias em que muitas vozes disputam nossa atenção. São notícias, preocupações, desejos e distrações que, pouco a pouco, tentam desviar nosso olhar daquilo que realmente importa. Por isso, Jesus nos alerta: estejam atentos.
-A vigilância espiritual não é viver com medo, mas viver com discernimento. É manter os olhos da fé abertos para perceber a direção de Deus em cada situação.
-Estar com os olhos bem atentos significa observar o próprio coração. Muitas vezes o maior perigo não está fora, mas dentro de nós, em pensamentos negativos, orgulho, ressentimentos ou dúvidas que tentam enfraquecer nossa confiança no Senhor. Quando vigiamos, percebemos esses sinais e os levamos imediatamente em oração, antes que criem raízes profundas.
-Também precisamos estar atentos às oportunidades de fazer o bem. Deus age de maneira sutil: em uma palavra amiga, em um gesto de perdão, em uma atitude de generosidade. Quem está espiritualmente desperto enxerga essas oportunidades como respostas divinas e instrumentos de transformação.
-Além disso, manter os olhos atentos é esperar pelas promessas do Senhor. Nem sempre veremos resultados imediatos, mas a fé nos faz perseverar. Assim como o sentinela aguarda o amanhecer, confiamos que a luz de Deus sempre surgirá, mesmo após a noite mais escura.
-Que nossa atenção esteja voltada para Cristo diariamente. Que nossos olhos não se encantem mais com as coisas passageiras do que com a eternidade. E que, atentos à voz do Espírito Santo, caminhemos firmes, confiantes e vigilantes até o fim.
-
-Tenham cuidado com a maneira como vocês vivem; que não seja como insensatos, mas como sábios,
-- Efésios 5:15
-
-Veja também: Versículos sobre vigiar
+Quem nunca se sentiu frustrado diante de um desafio que parecia impossível? Às vezes a vida se parece com um jogo difícil, em que tentamos passar de fase repetidas vezes, mas sempre somos derrotados.
+A cada tentativa frustrada, vem o desânimo, a sensação de incapacidade e até a vontade de desistir. Pensamos: “Talvez eu não seja bom o suficiente para isso”.
+O mesmo acontece na escola, quando nos deparamos com uma disciplina que parece não entrar na cabeça. Estudamos, nos esforçamos, mas os resultados não aparecem. A comparação com os outros machuca, a pressão aumenta e o medo do fracasso nos acompanha.
+No trabalho, as dificuldades também surgem: tarefas complexas, responsabilidades que exigem o máximo de nós e a insegurança de não saber se daremos conta. Nessas horas, o peso é grande demais para carregar sozinho.
+É exatamente nesses momentos que precisamos lembrar que Jesus supera qualquer nível de dificuldade. Aquilo que para nós parece impossível, para Deus é oportunidade de manifestar Seu poder. Ele não apenas nos ajuda a “passar de fase”, mas nos capacita, nos fortalece e nos ensina a crescer durante o processo. Deus não promete ausência de desafios, mas garante Sua presença constante em cada batalha da nossa vida.
+Quando confiamos em Jesus, entendemos que não dependemos apenas da nossa força, inteligência ou habilidade. O Espírito Santo nos dá sabedoria para aprender, perseverança para continuar tentando e paz para enfrentar a pressão. Assim como em um jogo difícil, cada tentativa nos torna mais experientes, na vida cristã cada desafio nos aproxima mais de Deus.
+Entregue suas dificuldades ao Senhor. Ore, confie e siga em frente. Com Jesus, até o nível mais difícil pode ser superado, porque Ele luta por nós e nunca falha.
+Veja também: Versículos de força em momentos difíceis
  
-"Vigiem e orem para que não caiam em tentação. O espírito está pronto, mas a carne é fraca."
-- Mateus 26:41
+Tudo posso naquele que me fortalece.
+- Filipenses 4:13
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 328324 characters
-INFO:root:HTML parsed, length: 318137 characters
-INFO:root:Found 3 titles: ['Fé e expectativa', 'Resistindo às tentações', 'Devocional: Andem em amor!']
-INFO:root:Found 4 URLs: ['/versiculos_para_fortalecer_a_fe/', '/historia_de_daniel/', '/amor_segundo_a_biblia/']
-INFO:root:Found 3 descriptions: ['Ora, a fé é a certeza daquilo que esperamos e a pr', 'Daniel, porém, propôs no seu coração não se contam', 'E este é o amor: que andemos em obediência aos seu']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n18\nQUARTA', 'FEVEREIRO\n\n17\nTERÇA', 'FEVEREIRO\n\n16\nSEGUNDA']
+INFO:root:Response length: 328877 characters
+INFO:root:HTML parsed, length: 318695 characters
+INFO:root:Found 3 titles: ['Confiando em Deus sempre!', 'Fé e expectativa', 'Resistindo às tentações']
+INFO:root:Found 3 URLs: ['/razoes_para_confiar_em_deus/', '/versiculos_para_fortalecer_a_fe/', '/historia_de_daniel/']
+INFO:root:Found 3 descriptions: ['Confie no Senhor de todo o seu coração\ne não se ap', 'Ora, a fé é a certeza daquilo que esperamos e a pr', 'Daniel, porém, propôs no seu coração não se contam']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n19\nQUINTA', 'FEVEREIRO\n\n18\nQUARTA', 'FEVEREIRO\n\n17\nTERÇA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Fé e expectativa', ID=9bcb0b15618da996730ad6b69fa087e4
-INFO:root:Processing entry 2: Title='Resistindo às tentações', ID=41273d885ae0198816b16232fbfef23d
-INFO:root:Processing entry 3: Title='Devocional: Andem em amor!', ID=39c77606ca498e282344acb81ce0666b
+INFO:root:Processing entry 1: Title='Confiando em Deus sempre!', ID=6a8bea89ff4aa52115cce2ed6df0f6b9
+INFO:root:Processing entry 2: Title='Fé e expectativa', ID=9bcb0b15618da996730ad6b69fa087e4
+INFO:root:Processing entry 3: Title='Resistindo às tentações', ID=41273d885ae0198816b16232fbfef23d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Confiando em Deus sempre!
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 Description: Confie no Senhor de todo o seu coração
+e não se apoie
+em seu próprio entendimento;
+- Provérbios 3:5
+
+Diante das adversidades da vida, é natural sentirmos medo, especialmente quando não compreendemos os propósitos de Deus. No entanto, a Palavra nos ensina a confiar n’Ele de todo o coração, sem depender do nosso próprio entendimento.
+Confiar em Deus não significa que não enfrentaremos problemas, mas sim que, independentemente das circunstâncias, Ele permanece no controle. Jó, mesmo após perder tudo, declarou: “Embora ele me mate,
+ainda assim esperarei nele” (Jó 13:15). Essa confiança inabalável não vem de uma vida sem provações, mas de um relacionamento profundo com o Senhor.
+Jesus nos ensinou que no mundo teríamos aflições, mas nos encorajou: “Tende bom ânimo, eu venci o mundo” (João 16:33). Saber que servimos a um Deus que já venceu nos fortalece. Deus nos convida a lançarmos sobre Ele nossas ansiedades, pois cuida de nós.
+Nos momentos difíceis, devemos nos apegar às promessas de Deus e lembrar que Ele trabalha para o bem daqueles que O amam. Às vezes, não entendemos os caminhos do Senhor, mas Ele vê além do que podemos enxergar. Nossa parte é confiar, perseverar em oração e permanecer fiéis.
+Se hoje você enfrenta tribulações, lembre-se: Deus é fiel. Ele nunca abandona Seus filhos e, no tempo certo, trará alívio. O Senhor é nossa rocha e refúgio seguro. Confie n’Ele, pois aquele que prometeu é fiel para cumprir!
+Confiando em Deus em meio às adversidades
+
+
+Ore com fé: Apresente suas dificuldades a Deus em oração, confiando que Ele ouve e responderá no tempo certo.
+
+Medite na Palavra de Deus: Fortaleça sua fé lendo a Bíblia, lembrando-se das promessas de Deus e do Seu cuidado constante.
+
+Descanse na soberania de Deus: Entregue suas preocupações ao Senhor, sabendo que Ele está no controle e sempre trabalha para o seu bem.
+
+Para orar:
+
+Senhor amado, em Ti deposito minha confiança. Nos momentos difíceis, fortalece minha fé e renova minhas forças. Ajuda-me a lembrar que estás no controle e que Teus planos são sempre melhores que os meus. Ensina-me a descansar em Ti. Que Tua paz inunde meu coração e Tua presença me guie sempre. Em nome de Jesus, amém.
+
+Veja também: 7 razões para confiar em Deus em meio às lutas
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Fé e expectativa
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_fortalecer_a_fe/
 INFO:root:🔹 Description: Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos.
@@ -345,30 +342,6 @@ Senhor Deus amado, fortalece meu coração para permanecer fiel em meio às tent
 
 Veja também: A história de Daniel
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Devocional: Andem em amor!
-INFO:root:🔹 URL: https://www.bibliaon.com/amor_segundo_a_biblia/
-INFO:root:🔹 Description: E este é o amor: que andemos em obediência aos seus mandamentos. Como vocês já têm ouvido desde o princípio, o mandamento é este: Que vocês andem em amor.
-- 2 João 1:6 
-
-No livro de 2 João 1:6, aprendemos que o amor é fundamental para os cristãos. João destaca que amar significa obedecer aos mandamentos de Deus. Deus nos deu regras para seguir, e quando obedecemos a essas regras, estamos mostrando amor verdadeiro.
-Amar não é apenas falar bonito, mas agir no dia a dia. Significa comprometer-se a viver de acordo com o que Jesus ensinou, amando as outras pessoas como amamos a nós mesmos. Ao obedecer aos mandamentos de Deus, mostramos que amamos a Ele e aos outros.
-O amor é a base do cristianismo, e obedecer aos mandamentos de Deus é a maneira de demonstrar esse amor em nossas vidas. Jesus é o exemplo perfeito de amor e obediência, e Ele nos convida a seguir Seu exemplo, vivendo de acordo com a vontade de Deus.
-Vamos buscar, com humildade, viver o amor todos os dias, seguindo os ensinamentos eternos da Bíblia. Assim, poderemos refletir o amor de Deus para o mundo ao nosso redor. 
-Viva o amor de Deus! 
-
-Coloque em prática os ensinamentos bíblicos, agindo com bondade, paciência e perdão, refletindo assim o amor de Deus em suas ações. 
-Ao amar o próximo, você cumpre o mandamento de Deus e testemunha o poder transformador do amor. 
-Comprometa-se a estudar regularmente a Bíblia para compreender os mandamentos de Deus. 
-
-Para Orar: 
-
-Senhor, guia-me com Tua luz e fortalece meu coração para viver em amor e obediência. Que cada ação reflita Tua graça, inspirando outros a conhecerem o verdadeiro significado do amor. Amém. 
-
-Veja Também: 
-
-Significado de amor na Bíblia (Estudo)
-Versículos sobre Obedecer
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -398,15 +371,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  40 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  25 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  27 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  10 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  80 ++++++---
+ feeds/salmo_do_dia/atom.xml               |  87 +++------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 267 ++++++++++++++++--------------
- 11 files changed, 275 insertions(+), 213 deletions(-)
+ output.log                                | 295 +++++++++++++-----------------
+ 11 files changed, 235 insertions(+), 301 deletions(-)
