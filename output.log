@@ -1,80 +1,117 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123291 characters
-INFO:root:HTML parsed, length: 116772 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (19/02/2026)', 'Palavra de Ontem (18/02/2026)', 'Palavra de Anteontem (17/02/2026)']
-INFO:root:Found 3 URLs: ['/concausa/', '/manicomio/', '/croqui/']
-INFO:root:Found 11 descriptions: ['substantivo feminino Causa que ocorre em conjunto ', 'Classe gramatical:substantivo feminino', 'Sílabas:con-cau-sa']
-INFO:root:Found 3 dates: ['Palavra de Hoje (19/02/2026)', 'Palavra de Ontem (18/02/2026)', 'Palavra de Anteontem (17/02/2026)']
+INFO:root:Response length: 123612 characters
+INFO:root:HTML parsed, length: 117093 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (20/02/2026)', 'Palavra de Ontem (19/02/2026)', 'Palavra de Anteontem (18/02/2026)']
+INFO:root:Found 3 URLs: ['/deportacao/', '/concausa/', '/manicomio/']
+INFO:root:Found 11 descriptions: ['substantivo feminino Ação de deportar, mandar para', 'Sinônimos:\n\nexílio, expatriação, proscrição, banim', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (20/02/2026)', 'Palavra de Ontem (19/02/2026)', 'Palavra de Anteontem (18/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (19/02/2026)', ID=019b5e7643ef5534252a225fced5fa3b
-INFO:root:Processing entry 2: Title='Palavra de Ontem (18/02/2026)', ID=138e66bc08934efb0eb2d3e7ad5d5e13
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (17/02/2026)', ID=851887686074defc27530bd8679ec005
+INFO:root:Processing entry 1: Title='Palavra de Hoje (20/02/2026)', ID=df70e5000d4c9a3c564aaef558056ccb
+INFO:root:Processing entry 2: Title='Palavra de Ontem (19/02/2026)', ID=3374ad0a0cf4bb5fcf90ba9d13a5c482
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (18/02/2026)', ID=b9235bf22a5b5161fbeed9e8e852304c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (19/02/2026) - Significado completo de concausa:
-INFO:root:🔹 URL: https://www.dicio.com.br/concausa/
-INFO:root:🔹 Description: substantivo feminino Causa que ocorre em conjunto com outra de existência anterior para que, ambas, provoquem uma consequência; causa concomitante.Pessoa que se junta a outra buscando alcançar um determinado propósito.[Jurídico] Na designação de um delito, existência conjunta de causas que, preexistentes ou posteriores, tornam a pessoa que as cometeu responsável, exceto quando suas ocorrências não dependem da sua vontade.Etimologia (origem da palavra concausa). A palavra concausa tem sua origem pela junção do prefixo com-, com alteração do -m, para -n; e da palavra causa.
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (18/02/2026) - Significado completo de manicômio:
-INFO:root:🔹 URL: https://www.dicio.com.br/manicomio/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:con-cau-sa
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (17/02/2026) - Significado completo de croqui:
-INFO:root:🔹 URL: https://www.dicio.com.br/croqui/
-INFO:root:🔹 Description: Sílabas:con-cau-sa
+INFO:root:🔹 Title: Palavra de Hoje (20/02/2026) - Significado completo de deportação:
+INFO:root:🔹 URL: https://www.dicio.com.br/deportacao/
+INFO:root:🔹 Description: substantivo feminino Ação de deportar, mandar para fora de um país; desterro, exílio.[Jurídico] Pena de banimento através da qual o Estado impõe ao estrangeiro que, por incumprimento ou crime, deve se retirar do país sem previsão de retorno.Etimologia (origem da palavra deportação). A palavra deportação tem sua origem no latim "deportatio,onis", derivada do verbo latino "deportare", com sentido de desterrar.
  
 Sinônimos:
 
-hospício 
+exílio, expatriação, proscrição, banimento, degredo, desterro 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (19/02/2026) - Significado completo de concausa:
+INFO:root:🔹 URL: https://www.dicio.com.br/concausa/
+INFO:root:🔹 Description: Sinônimos:
+
+exílio, expatriação, proscrição, banimento, degredo, desterro
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (18/02/2026) - Significado completo de manicômio:
+INFO:root:🔹 URL: https://www.dicio.com.br/manicomio/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:de-por-ta-ção
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316541 characters
-INFO:root:HTML parsed, length: 306353 characters
-INFO:root:Found 1 titles: ['Salmos 27:7-8']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_27_7-8/']
-INFO:root:Found 1 descriptions: ['Ouve a minha voz quando clamo, ó Senhor;\ntem miser']
+INFO:root:Response length: 320626 characters
+INFO:root:HTML parsed, length: 311017 characters
+INFO:root:Found 1 titles: ['Hebreus 9:24']
+INFO:root:Found 1 URLs: ['/versiculo/hebreus_9_24/']
+INFO:root:Found 1 descriptions: ['Pois Cristo não entrou em santuário feito por home']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 27:7-8', ID=c413480431575dd243ae18d98ca37a5d
+INFO:root:Processing entry 1: Title='Hebreus 9:24', ID=998b8000350b50b8a1011a03ce8772c8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 27:7-8
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_27_7-8/
-INFO:root:🔹 Description: Ouve a minha voz quando clamo, ó Senhor;
-tem misericórdia de mim e responde-me. A teu respeito diz o meu coração:
-Busque a minha face!
-A tua face, Senhor, buscarei. Salmos 27:7-8
+INFO:root:🔹 Title: Hebreus 9:24
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_9_24/
+INFO:root:🔹 Description: Pois Cristo não entrou em santuário feito por homens, uma simples representação do verdadeiro; ele entrou nos céus, para agora se apresentar diante de Deus em nosso favor; Hebreus 9:24
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 316975 characters
-INFO:root:HTML parsed, length: 307589 characters
-INFO:root:Found 3 titles: ['Salmo 24', 'Salmo 145', 'Salmo 33']
-INFO:root:Found 3 URLs: ['/salmos_24/', '/salmos_145/', '/salmos_33/']
-INFO:root:Found 3 descriptions: ['Do Senhor é a terra e tudo o que nela existe,\no mu', 'Eu te exaltarei, meu Deus e meu rei;\nbendirei o te', 'Cantem de alegria ao Senhor,\nvocês que são justos;']
-INFO:root:Found 3 dates: ['19 de Fevereiro de 2026', '18 de Fevereiro de 2026', '17 de Fevereiro de 2026']
+INFO:root:Response length: 320422 characters
+INFO:root:HTML parsed, length: 311606 characters
+INFO:root:Found 3 titles: ['Salmo 148', 'Salmo 24', 'Salmo 145']
+INFO:root:Found 3 URLs: ['/salmos_148/', '/salmos_24/', '/salmos_145/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ', 'Do Senhor é a terra e tudo o que nela existe,\no mu', 'Eu te exaltarei, meu Deus e meu rei;\nbendirei o te']
+INFO:root:Found 3 dates: ['20 de Fevereiro de 2026', '19 de Fevereiro de 2026', '18 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 24', ID=c31a58314d2016c8168b8f285dbb4196
-INFO:root:Processing entry 2: Title=' Salmo 145', ID=5fe1d626361a77bf2874800c96eb12cc
-INFO:root:Processing entry 3: Title=' Salmo 33', ID=b5fdbe77bb9ade637a5290d93190889c
+INFO:root:Processing entry 1: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
+INFO:root:Processing entry 2: Title=' Salmo 24', ID=c31a58314d2016c8168b8f285dbb4196
+INFO:root:Processing entry 3: Title=' Salmo 145', ID=5fe1d626361a77bf2874800c96eb12cc
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 148
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_148/
+INFO:root:🔹 Description: Aleluia!
+Louvem o Senhor desde os céus,
+louvem-no nas alturas! 
+Louvem-no todos os seus anjos,
+louvem-no todos os seus exércitos celestiais. 
+Louvem-no sol e lua,
+louvem-no todas as estrelas cintilantes. 
+Louvem-no os mais altos céus
+e as águas acima do firmamento. 
+Louvem todos eles o nome do Senhor,
+pois ordenou, e eles foram criados. 
+Ele os estabeleceu em seus lugares
+para todo o sempre;
+deu-lhes um decreto que jamais mudará. 
+Louvem o Senhor, vocês que estão na terra,
+serpentes marinhas e todas as profundezas, 
+relâmpagos e granizo, neve e neblina,
+vendavais que cumprem o que ele determina, 
+todas as montanhas e colinas,
+árvores frutíferas e todos os cedros, 
+todos os animais selvagens
+e os rebanhos domésticos,
+todos os demais seres vivos e as aves, 
+reis da terra e todas as nações,
+todos os governantes e juízes da terra, 
+moços e moças, velhos e crianças. 
+Louvem todos o nome do Senhor,
+pois somente o seu nome é exaltado;
+a sua majestade está acima
+da terra e dos céus. 
+Ele concedeu poder ao seu povo
+e recebeu louvor de todos os seus fiéis,
+dos israelitas, povo a quem ele tanto ama.
+Aleluia! 
+ Salmo 148
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 24
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_24/
 INFO:root:🔹 Description: Do Senhor é a terra e tudo o que nela existe,
@@ -161,113 +198,93 @@ Que todo ser vivo bendiga o seu santo nome
 para todo o sempre! 
  Salmo 145
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 33
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_33/
-INFO:root:🔹 Description: Cantem de alegria ao Senhor,
-vocês que são justos;
-aos que são retos fica bem louvá-lo. 
-Louvem o Senhor com harpa;
-ofereçam-lhe música com lira de dez cordas. 
-Cantem-lhe uma nova canção;
-toquem com habilidade ao aclamá-lo. 
-Pois a palavra do Senhor é verdadeira;
-ele é fiel em tudo o que faz. 
-Ele ama a justiça e a retidão;
-a terra está cheia da bondade do Senhor. 
-Mediante a palavra do Senhor
-foram feitos os céus,
-e os corpos celestes, pelo sopro de sua boca. 
-Ele ajunta as águas do mar num só lugar;
-das profundezas faz reservatórios. 
-Toda a terra tema o Senhor;
-tremam diante dele
-todos os habitantes do mundo. 
-Pois ele falou, e tudo se fez;
-ele ordenou, e tudo surgiu. 
-O Senhor desfaz os planos das nações
-e frustra os propósitos dos povos. 
-Mas os planos do Senhor
-permanecem para sempre,
-os propósitos do seu coração,
-por todas as gerações. 
-Como é feliz a nação
-que tem o Senhor como Deus,
-o povo que ele escolheu para lhe pertencer! 
-Dos céus olha o Senhor
-e vê toda a humanidade; 
-do seu trono ele observa
-todos os habitantes da terra; 
-ele, que forma o coração de todos,
-que conhece tudo o que fazem. 
-Nenhum rei se salva
-pelo tamanho do seu exército;
-nenhum guerreiro escapa por sua grande força. 
-O cavalo é vã esperança de vitória;
-apesar da sua grande força, é incapaz de salvar. 
-Mas o Senhor protege aqueles que o temem,
-aqueles que firmam a esperança no seu amor, 
-para livrá-los da morte e garantir-lhes vida,
-mesmo em tempos de fome. 
-Nossa esperança está no Senhor;
-ele é o nosso auxílio e a nossa proteção. 
-Nele se alegra o nosso coração,
-pois confiamos no seu santo nome. 
-Esteja sobre nós o teu amor, Senhor,
-como está em ti a nossa esperança. 
- Salmo 33
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 318419 characters
-INFO:root:HTML parsed, length: 308681 characters
-INFO:root:Found 3 titles: ['Jesus supera qualquer nível de dificuldade', 'Esteja com os olhos bem atentos', 'Nascendo de novo']
+INFO:root:Response length: 322940 characters
+INFO:root:HTML parsed, length: 313788 characters
+INFO:root:Found 3 titles: ['Preparando-se para as Bodas do Cordeiro', 'Jesus supera qualquer nível de dificuldade', 'Esteja com os olhos bem atentos']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Tudo posso naquele que me fortalece.\n- Filipenses ', '"Vigiem e orem para que não caiam em tentação. O e', 'Em resposta, Jesus declarou: "Digo a verdade: Ning']
-INFO:root:Found 1 dates: ['Quinta, 19 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Regozijemo-nos! Vamos alegrar-nos\ne dar-lhe glória', 'Tudo posso naquele que me fortalece.\n- Filipenses ', '"Vigiem e orem para que não caiam em tentação. O e']
+INFO:root:Found 1 dates: ['Sexta, 20 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jesus supera qualquer nível de dificuldade', ID=16b891de15885cac64c9acd90bcdf6d4
+INFO:root:Processing entry 1: Title='Preparando-se para as Bodas do Cordeiro', ID=fef8426d1f8cacfeba2ad6d55909ad40
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jesus supera qualquer nível de dificuldade - Palavra de Hoje
+INFO:root:🔹 Title: Preparando-se para as Bodas do Cordeiro - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Tudo posso naquele que me fortalece.
-- Filipenses 4:13
+INFO:root:🔹 Description: Regozijemo-nos! Vamos alegrar-nos
+e dar-lhe glória!
+Pois chegou a hora
+do casamento do Cordeiro,
+e a sua noiva já se aprontou.
+Para vestir-se, foi-lhe dado
+linho fino, brilhante e puro".
+O linho fino são os atos justos dos santos.
+E o anjo me disse: "Escreva: Felizes os convidados para o banquete do casamento do Cordeiro!
+- Apocalipse 19:7-9a
 
-Quem nunca se sentiu frustrado diante de um desafio que parecia impossível? Às vezes a vida se parece com um jogo difícil, em que tentamos passar de fase repetidas vezes, mas sempre somos derrotados.
-A cada tentativa frustrada, vem o desânimo, a sensação de incapacidade e até a vontade de desistir. Pensamos: “Talvez eu não seja bom o suficiente para isso”.
-O mesmo acontece na escola, quando nos deparamos com uma disciplina que parece não entrar na cabeça. Estudamos, nos esforçamos, mas os resultados não aparecem. A comparação com os outros machuca, a pressão aumenta e o medo do fracasso nos acompanha.
-No trabalho, as dificuldades também surgem: tarefas complexas, responsabilidades que exigem o máximo de nós e a insegurança de não saber se daremos conta. Nessas horas, o peso é grande demais para carregar sozinho.
-É exatamente nesses momentos que precisamos lembrar que Jesus supera qualquer nível de dificuldade. Aquilo que para nós parece impossível, para Deus é oportunidade de manifestar Seu poder. Ele não apenas nos ajuda a “passar de fase”, mas nos capacita, nos fortalece e nos ensina a crescer durante o processo. Deus não promete ausência de desafios, mas garante Sua presença constante em cada batalha da nossa vida.
-Quando confiamos em Jesus, entendemos que não dependemos apenas da nossa força, inteligência ou habilidade. O Espírito Santo nos dá sabedoria para aprender, perseverança para continuar tentando e paz para enfrentar a pressão. Assim como em um jogo difícil, cada tentativa nos torna mais experientes, na vida cristã cada desafio nos aproxima mais de Deus.
-Entregue suas dificuldades ao Senhor. Ore, confie e siga em frente. Com Jesus, até o nível mais difícil pode ser superado, porque Ele luta por nós e nunca falha.
-Veja também: Versículos de força em momentos difíceis
+Nossa passagem pela Terra parece longa. Celebramos aniversário após aniversário, os dias passam, crescemos e, muitas vezes, vivemos como se isso fosse tudo o que existe. No entanto, a Bíblia deixa claro que, comparada à eternidade, nossa vida na Terra é curta. É como um sopro ou a névoa da manhã (veja Tiago 4:14 e Salmo 39:5-7).
+Deus nos concede tempo na Terra para que possamos nos preparar para a eternidade. Ele nos criou, nos escolheu para fazer parte da história da humanidade e deseja que passemos a eternidade com Ele. Para que isso aconteça, precisamos aceitar Jesus como Senhor e Salvador e preparar nossas almas para a eternidade.
+Preparar-se para as bodas do Cordeiro não é algo que podemos adiar dia após dia. Por quê? Porque não sabemos quando estaremos diante de Deus. Precisamos nos preparar agora, entregando nossas vidas a Deus, tendo uma fé viva que se expressa em obediência, amor e perseverança.
+Cada decisão, cada ato de justiça, cada momento em que escolhemos honrar a Cristo, é um pedaço do linho fino com o qual nos apresentaremos diante do Senhor. Viver como Cristo e para Ele deve ser o nosso objetivo diário.
+Um dia, Jesus virá reunir a sua Igreja, a sua amada noiva, e esse encontro marcará o início de uma gloriosa eternidade com Ele. Que privilégio saber que somos convidados para essa grande celebração! E que bela responsabilidade é nos prepararmos agora.
+Que nossos corações estejam despertos, nossas lâmpadas acesas e nossa fé firme, aguardando com alegria o Noivo que está para vir. Hoje é o tempo de preparar nossas vestes, caminhar em santidade e viver com a viva esperança de que em breve estaremos com Ele, celebrando as bodas do Cordeiro por toda a eternidade.
+Veja também: Sinais da volta de Jesus (e 25 versículos que mostram estes sinais)
  
-Tudo posso naquele que me fortalece.
-- Filipenses 4:13
+Regozijemo-nos! Vamos alegrar-nos
+e dar-lhe glória!
+Pois chegou a hora
+do casamento do Cordeiro,
+e a sua noiva já se aprontou.
+Para vestir-se, foi-lhe dado
+linho fino, brilhante e puro".
+O linho fino são os atos justos dos santos.
+E o anjo me disse: "Escreva: Felizes os convidados para o banquete do casamento do Cordeiro!
+- Apocalipse 19:7-9a
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 328877 characters
-INFO:root:HTML parsed, length: 318695 characters
-INFO:root:Found 3 titles: ['Confiando em Deus sempre!', 'Fé e expectativa', 'Resistindo às tentações']
-INFO:root:Found 3 URLs: ['/razoes_para_confiar_em_deus/', '/versiculos_para_fortalecer_a_fe/', '/historia_de_daniel/']
-INFO:root:Found 3 descriptions: ['Confie no Senhor de todo o seu coração\ne não se ap', 'Ora, a fé é a certeza daquilo que esperamos e a pr', 'Daniel, porém, propôs no seu coração não se contam']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n19\nQUINTA', 'FEVEREIRO\n\n18\nQUARTA', 'FEVEREIRO\n\n17\nTERÇA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Confiando em Deus sempre!', ID=6a8bea89ff4aa52115cce2ed6df0f6b9
-INFO:root:Processing entry 2: Title='Fé e expectativa', ID=9bcb0b15618da996730ad6b69fa087e4
-INFO:root:Processing entry 3: Title='Resistindo às tentações', ID=41273d885ae0198816b16232fbfef23d
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 332433 characters
+INFO:root:HTML parsed, length: 322833 characters
+INFO:root:Found 3 titles: ['Gafanhoto ou filho de Deus?', 'Confiando em Deus sempre!', 'Fé e expectativa']
+INFO:root:Found 2 URLs: ['/razoes_para_confiar_em_deus/', '/versiculos_para_fortalecer_a_fe/']
+INFO:root:Found 3 descriptions: ['E espalharam entre os israelitas um relatório nega', 'Confie no Senhor de todo o seu coração\ne não se ap', 'Ora, a fé é a certeza daquilo que esperamos e a pr']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n20\nSEXTA', 'FEVEREIRO\n\n19\nQUINTA', 'FEVEREIRO\n\n18\nQUARTA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Gafanhoto ou filho de Deus?', ID=2d3d26862d3071a71d9e36dccba767b2
+INFO:root:Processing entry 2: Title='Confiando em Deus sempre!', ID=6a8bea89ff4aa52115cce2ed6df0f6b9
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Confiando em Deus sempre!
+INFO:root:🔹 Title: Gafanhoto ou filho de Deus?
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 Description: E espalharam entre os israelitas um relatório negativo acerca daquela terra. Disseram: "A terra para a qual fomos em missão de reconhecimento devora os que nela vivem. Todos os que vimos são de grande estatura. Vimos também os gigantes, os descendentes de Enaque, diante de quem parecíamos gafanhotos, a nós e a eles".
+Números 13:32-33
+
+Quando o povo de Israel estava no deserto, Moisés enviou espiões para observar a terra de Canaã e trazerem um relatório. Aquela era a terra prometida por Deus, há muito tempo. O Senhor já tinha dado provas da Sua fidelidade, sustentado-os no Egito e depois os tirando de lá poderosamente, com grandes milagres e sinais. O Senhor da promessa era o mesmo que abriu o Mar Vermelho, fazendo-os passar com pés enxutos, mas afogou o exército inimigo que os perseguia.
+A terra era excelente! Mas 10 dos 12 enviados estavam transmitindo um relatório negativo ao povo. Eles se viam como gafanhotos diante dos habitantes da terra, pois esqueceram-se da grandeza de Deus que estava presente com eles...
+Assim também acontece conosco, nos desertos da vida, quando sentimos medo ou limitados pelas dificuldades. Mas, confie! Você é um filho de Deus, não um gafanhoto! Tenha coragem e não murmure. Deus está contigo e te dá forças para vencer!
+Viva como filho de Deus, não como um gafanhoto:
+
+Qual a imagem que tem de si mesmo? Também se vê como um pequeno inseto diante das dificuldades?
+Abandone o complexo de inferioridade, Deus é o seu Pai!
+Ore e coloque diante de Deus todos "gigantes" (problemas) que te assustam. Ele luta por você!
+Confie na Palavra de Deus. Leia, se alimente e encha seu coração de fé diariamente.
+Exclua a murmuração e rebeldia. Lembre-se de tudo que Deus tem feito e seja grato.
+Tenha bom ânimo! Deus está contigo na caminhada e te ampara nos tempos difíceis...
+
+Para Orar:
+
+Senhor Deus, ajuda-me a confiar em Ti, sempre que passar pelos desertos da vida. Ensina-me a crer que maior é o que está em nós do que o que está no mundo... Fortalece a minha fé na Tua promessa, Pai. Tu és fiel e todo poderoso, sei que no Senhor posso ter esperança de um futuro certo, cheio de alegria e paz. A Ti entrego as minhas necessidades e aflições. Ajuda-me a prosseguir! Em nome de Jesus, te peço. Amém!
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Confiando em Deus sempre!
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_fortalecer_a_fe/
 INFO:root:🔹 Description: Confie no Senhor de todo o seu coração
 e não se apoie
 em seu próprio entendimento;
@@ -293,54 +310,6 @@ Para orar:
 Senhor amado, em Ti deposito minha confiança. Nos momentos difíceis, fortalece minha fé e renova minhas forças. Ajuda-me a lembrar que estás no controle e que Teus planos são sempre melhores que os meus. Ensina-me a descansar em Ti. Que Tua paz inunde meu coração e Tua presença me guie sempre. Em nome de Jesus, amém.
 
 Veja também: 7 razões para confiar em Deus em meio às lutas
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Fé e expectativa
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_fortalecer_a_fe/
-INFO:root:🔹 Description: Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos.
-- Hebreus 11:1
-
-Fé e expectativa caminham juntas. A fé é o alicerce invisível que sustenta o coração em meio às incertezas, enquanto a expectativa é a esperança viva de que Deus está agindo, mesmo quando nossos olhos não conseguem perceber.
-Crer não é apenas aceitar que Deus existe, mas confiar plenamente em Seu caráter, em Suas promessas e em Seu tempo perfeito.
-Muitas vezes enfrentamos situações que desafiam nossa compreensão. Portas se fecham, respostas demoram e os sonhos parecem distantes. Porém, é nesse cenário que a fé se fortalece. Quando escolhemos confiar, declaramos que Deus continua no controle. A expectativa saudável nasce dessa confiança, pois sabemos que Aquele que prometeu é fiel para cumprir.
-A Palavra de Deus nos ensina que a espera não é tempo perdido. É tempo de preparação, amadurecimento e crescimento espiritual. Enquanto esperamos, Deus trabalha em nós e ao nosso redor. Ele molda nosso caráter, fortalece nossa perseverança e ajusta nossos caminhos para que estejamos prontos para receber aquilo que Ele preparou.
-Ter fé não significa ignorar a realidade, mas enxergá-la pela perspectiva do céu. É acordar todos os dias crendo que algo extraordinário pode acontecer, porque servimos a um Deus extraordinário. Nossa expectativa não está baseada em circunstâncias, mas na fidelidade divina.
-Hoje, renove sua fé. Alimente sua expectativa com oração, gratidão e confiança. Lembre-se de que Deus nunca se atrasa. Ele age no momento certo e da maneira perfeita.
-Quando fé e expectativa se unem, o coração descansa e os milagres se tornam parte da jornada.
-Vivendo a fé com esperança ativa
-
-Alimente sua fé por meio da leitura da Bíblia, ela é a fonte para fortalecer o seu coração.
-Declare promessas bíblicas sobre sua vida todos os dias, substituindo pensamentos negativos por verdades espirituais que renovam sua mente.
-Pratique a confiança obedecendo a Deus nas pequenas decisões, mantendo expectativa mesmo quando resultados demoram.
-
-Para orar:
-
-Senhor Deus, fortalece minha fé quando o medo tentar me paralisar. Ensina-me a confiar nos Teus planos, mesmo sem entender os caminhos. Renova minha esperança a cada amanhecer e enche meu coração de paz. Conduza meus passos, em nome de Jesus, amém.
-
-Veja também: 8 versículos para fortalecer a sua fé (não desanime)
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Resistindo às tentações
-INFO:root:🔹 URL: https://www.bibliaon.com/historia_de_daniel/
-INFO:root:🔹 Description: Daniel, porém, propôs no seu coração não se contaminar com a porção das iguarias do rei, nem com o vinho que ele bebia; portanto pediu ao chefe dos eunucos que lhe concedesse não se contaminar.
-- Daniel 1:8
-
-A história de Daniel é um poderoso testemunho de fidelidade em meio à pressão. Levado ainda jovem para a Babilônia, longe de sua terra e de seus costumes, ele foi exposto a uma cultura diferente, a novos ensinamentos e a tentações sutis que poderiam afastá-lo de Deus. Mesmo assim, Daniel decidiu, em seu coração, permanecer fiel.
-A primeira grande lição que aprendemos com ele é que a resistência começa com uma decisão interior. Antes mesmo de enfrentar a prova, Daniel já havia determinado quem ele era e a quem pertencia. Quando surgiram alimentos e práticas contrárias à sua fé, ele não cedeu, porque sua identidade estava firmada em Deus.
-Resistir às tentações exige essa mesma convicção: saber que nossos valores não mudam conforme o ambiente.
-Outra lição importante é a coragem aliada à sabedoria. Daniel não foi rebelde nem desrespeitoso; ele dialogou, propôs uma alternativa e confiou que Deus honraria sua fidelidade. Muitas vezes, resistir não significa confrontar com agressividade, mas agir com mansidão e firmeza.
-Também aprendemos sobre constância. No livro de Daniel 6, quando uma lei proibia a oração, Daniel continuou orando três vezes ao dia. Ele preferiu enfrentar a cova dos leões a negar sua comunhão com Deus. A tentação de se calar ou se conformar é real, mas a perseverança fortalece nossa fé.
-Assim como Daniel, vivemos em uma sociedade que frequentemente desafia nossos princípios. Contudo, quando decidimos antecipadamente obedecer a Deus, buscamos sabedoria e mantemos uma vida de oração, encontramos força para resistir.
-A fidelidade pode ter um custo, mas sempre traz a presença e o favor do Senhor como recompensa maior.
-Firmes em meio a pressão
-
-Decida antes da tentação quem você é em Deus, fortalecendo convicções diariamente por meio da Palavra, para não negociar princípios.
-Cultive uma vida constante de oração e comunhão com Deus, buscando o Espírito Santo, para permanecer fiel mesmo sob pressão intensa.
-Aja com sabedoria e respeito diante dos desafios, propondo alternativas justas, confiando que Deus honra atitudes firmes, humildes e obedientes.
-
-Para orar:
-
-Senhor Deus amado, fortalece meu coração para permanecer fiel em meio às tentações. Dá-me a mesma coragem que concedeste a Daniel, para que eu não negocie meus valores nem me afaste da Tua presença. Ensina-me a confiar em Ti nas pequenas e grandes decisões, buscando sempre a Tua vontade. Sustenta-me com Teu Espírito e guia meus passos em santidade. Em nome de Jesus, amém.
-
-Veja também: A história de Daniel
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -371,15 +340,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 ++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  27 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  61 ++----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  39 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  10 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  87 +++------
+ feeds/salmo_do_dia/atom.xml               |  91 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 295 +++++++++++++-----------------
- 11 files changed, 235 insertions(+), 301 deletions(-)
+ output.log                                | 339 +++++++++++++-----------------
+ 11 files changed, 270 insertions(+), 345 deletions(-)
