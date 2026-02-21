@@ -1,79 +1,124 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123612 characters
-INFO:root:HTML parsed, length: 117093 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (20/02/2026)', 'Palavra de Ontem (19/02/2026)', 'Palavra de Anteontem (18/02/2026)']
-INFO:root:Found 3 URLs: ['/deportacao/', '/concausa/', '/manicomio/']
-INFO:root:Found 11 descriptions: ['substantivo feminino Ação de deportar, mandar para', 'Sinônimos:\n\nexílio, expatriação, proscrição, banim', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (20/02/2026)', 'Palavra de Ontem (19/02/2026)', 'Palavra de Anteontem (18/02/2026)']
+INFO:root:Response length: 124284 characters
+INFO:root:HTML parsed, length: 117582 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (21/02/2026)', 'Palavra de Ontem (20/02/2026)', 'Palavra de Anteontem (19/02/2026)']
+INFO:root:Found 3 URLs: ['/pedantice/', '/deportacao/', '/concausa/']
+INFO:root:Found 12 descriptions: ['substantivo feminino Característica de pedante, da', 'Sinônimos:\n\npedantismo, disparate, sandice, toleim', 'Antônimos:\n\nausteridade']
+INFO:root:Found 3 dates: ['Palavra de Hoje (21/02/2026)', 'Palavra de Ontem (20/02/2026)', 'Palavra de Anteontem (19/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (20/02/2026)', ID=df70e5000d4c9a3c564aaef558056ccb
-INFO:root:Processing entry 2: Title='Palavra de Ontem (19/02/2026)', ID=3374ad0a0cf4bb5fcf90ba9d13a5c482
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (18/02/2026)', ID=b9235bf22a5b5161fbeed9e8e852304c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (21/02/2026)', ID=e12f5038708d20b4030d25516af248bd
+INFO:root:Processing entry 2: Title='Palavra de Ontem (20/02/2026)', ID=e2d64f15a5535876c60db888912526ca
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (19/02/2026)', ID=5601d8090bbc585378829212f51eaad2
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (20/02/2026) - Significado completo de deportação:
-INFO:root:🔹 URL: https://www.dicio.com.br/deportacao/
-INFO:root:🔹 Description: substantivo feminino Ação de deportar, mandar para fora de um país; desterro, exílio.[Jurídico] Pena de banimento através da qual o Estado impõe ao estrangeiro que, por incumprimento ou crime, deve se retirar do país sem previsão de retorno.Etimologia (origem da palavra deportação). A palavra deportação tem sua origem no latim "deportatio,onis", derivada do verbo latino "deportare", com sentido de desterrar.
+INFO:root:🔹 Title: Palavra de Hoje (21/02/2026) - Significado completo de pedantice:
+INFO:root:🔹 URL: https://www.dicio.com.br/pedantice/
+INFO:root:🔹 Description: substantivo feminino Característica de pedante, da pessoa que demonstra conhecimentos que não possui; pedantismo.Qualidade de quem tem comportamentos e atitudes artificiais, maneiristas, afetados.Etimologia (origem da palavra pedantice). A palavra pedantice tem sua origem pela junção da palavra pedante, e do sufixo -ice.
  
 Sinônimos:
 
-exílio, expatriação, proscrição, banimento, degredo, desterro 
+pedantismo, disparate, sandice, toleima, tolice, magistralidade, formalismo, academicismo, afetação, presunção, pernosticismo 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (19/02/2026) - Significado completo de concausa:
-INFO:root:🔹 URL: https://www.dicio.com.br/concausa/
+INFO:root:🔹 Title: Palavra de Ontem (20/02/2026) - Significado completo de deportação:
+INFO:root:🔹 URL: https://www.dicio.com.br/deportacao/
 INFO:root:🔹 Description: Sinônimos:
 
-exílio, expatriação, proscrição, banimento, degredo, desterro
- Classe gramatical:substantivo feminino
+pedantismo, disparate, sandice, toleima, tolice, magistralidade, formalismo, academicismo, afetação, presunção, pernosticismo
+ 
+Antônimos:
+
+austeridade 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (18/02/2026) - Significado completo de manicômio:
-INFO:root:🔹 URL: https://www.dicio.com.br/manicomio/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:de-por-ta-ção
+INFO:root:🔹 Title: Palavra de Anteontem (19/02/2026) - Significado completo de concausa:
+INFO:root:🔹 URL: https://www.dicio.com.br/concausa/
+INFO:root:🔹 Description: Antônimos:
+
+austeridade
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320626 characters
-INFO:root:HTML parsed, length: 311017 characters
-INFO:root:Found 1 titles: ['Hebreus 9:24']
-INFO:root:Found 1 URLs: ['/versiculo/hebreus_9_24/']
-INFO:root:Found 1 descriptions: ['Pois Cristo não entrou em santuário feito por home']
+INFO:root:Response length: 320475 characters
+INFO:root:HTML parsed, length: 310866 characters
+INFO:root:Found 1 titles: ['Salmos 30:5']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_30_5/']
+INFO:root:Found 1 descriptions: ['Pois a sua ira só dura um instante,\nmas o seu favo']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Hebreus 9:24', ID=998b8000350b50b8a1011a03ce8772c8
+INFO:root:Processing entry 1: Title='Salmos 30:5', ID=3d66f79f906eed22902bc0986db90f14
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Hebreus 9:24
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_9_24/
-INFO:root:🔹 Description: Pois Cristo não entrou em santuário feito por homens, uma simples representação do verdadeiro; ele entrou nos céus, para agora se apresentar diante de Deus em nosso favor; Hebreus 9:24
+INFO:root:🔹 Title: Salmos 30:5
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_30_5/
+INFO:root:🔹 Description: Pois a sua ira só dura um instante,
+mas o seu favor dura a vida toda;
+o choro pode persistir uma noite,
+mas de manhã irrompe a alegria. Salmos 30:5
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320422 characters
-INFO:root:HTML parsed, length: 311606 characters
-INFO:root:Found 3 titles: ['Salmo 148', 'Salmo 24', 'Salmo 145']
-INFO:root:Found 3 URLs: ['/salmos_148/', '/salmos_24/', '/salmos_145/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ', 'Do Senhor é a terra e tudo o que nela existe,\no mu', 'Eu te exaltarei, meu Deus e meu rei;\nbendirei o te']
-INFO:root:Found 3 dates: ['20 de Fevereiro de 2026', '19 de Fevereiro de 2026', '18 de Fevereiro de 2026']
+INFO:root:Response length: 319571 characters
+INFO:root:HTML parsed, length: 310744 characters
+INFO:root:Found 3 titles: ['Salmo 76', 'Salmo 148', 'Salmo 24']
+INFO:root:Found 3 URLs: ['/salmos_76/', '/salmos_148/', '/salmos_24/']
+INFO:root:Found 3 descriptions: ['Em Judá Deus é conhecido;\no seu nome é grande em I', 'Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ', 'Do Senhor é a terra e tudo o que nela existe,\no mu']
+INFO:root:Found 3 dates: ['21 de Fevereiro de 2026', '20 de Fevereiro de 2026', '19 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
-INFO:root:Processing entry 2: Title=' Salmo 24', ID=c31a58314d2016c8168b8f285dbb4196
-INFO:root:Processing entry 3: Title=' Salmo 145', ID=5fe1d626361a77bf2874800c96eb12cc
+INFO:root:Processing entry 1: Title=' Salmo 76', ID=5ab438a54757379c1a6b9ad8dc6df77b
+INFO:root:Processing entry 2: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
+INFO:root:Processing entry 3: Title=' Salmo 24', ID=c31a58314d2016c8168b8f285dbb4196
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 76
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_76/
+INFO:root:🔹 Description: Em Judá Deus é conhecido;
+o seu nome é grande em Israel. 
+Sua tenda está em Salém;
+o lugar da sua habitação está em Sião. 
+Ali quebrou ele as flechas reluzentes,
+os escudos e as espadas,
+as armas de guerra. 
+Resplendes de luz!
+És mais majestoso que os montes
+cheios de despojos. 
+Os homens valorosos jazem saqueados,
+dormem o sono final;
+nenhum dos guerreiros
+foi capaz de erguer as mãos. 
+Diante da tua repreensão, ó Deus de Jacó,
+o cavalo e o carro estacaram. 
+Somente tu és temível.
+Quem poderá permanecer diante de ti
+quando estiveres irado? 
+Dos céus pronunciaste juízo,
+e a terra tremeu e emudeceu, 
+quando tu, ó Deus, te levantaste para julgar,
+para salvar todos os oprimidos da terra. 
+Até a tua ira contra os homens
+redundará em teu louvor,
+e os sobreviventes da tua ira se refrearão. 
+Façam votos ao Senhor, ao seu Deus,
+e não deixem de cumpri-los;
+que todas as nações vizinhas tragam presentes
+a quem todos devem temer. 
+Ele tira o ânimo dos governantes
+e é temido pelos reis da terra. 
+ Salmo 76
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 148
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_148/
 INFO:root:🔹 Description: Aleluia!
@@ -142,174 +187,73 @@ O Senhor dos Exércitos;
 ele é o Rei da glória! 
  Salmo 24
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 145
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_145/
-INFO:root:🔹 Description: Eu te exaltarei, meu Deus e meu rei;
-bendirei o teu nome para todo o sempre! 
-Todos os dias te bendirei
-e louvarei o teu nome para todo o sempre! 
-Grande é o Senhor e digno de ser louvado;
-sua grandeza não tem limites. 
-Uma geração contará à outra
-a grandiosidade dos teus feitos;
-eles anunciarão os teus atos poderosos. 
-Proclamarão o glorioso esplendor
-da tua majestade,
-e meditarei nas maravilhas que fazes. 
-Anunciarão o poder dos teus feitos temíveis,
-e eu falarei das tuas grandes obras. 
-Comemorarão a tua imensa bondade
-e celebrarão a tua justiça. 
-O Senhor é misericordioso e compassivo,
-paciente e transbordante de amor. 
-O Senhor é bom para todos;
-a sua compaixão alcança
-todas as suas criaturas. 
-Rendam-te graças todas as tuas criaturas, Senhor,
-e os teus fiéis te bendigam. 
-Eles anunciarão a glória do teu reino
-e falarão do teu poder, 
-para que todos saibam
-dos teus feitos poderosos
-e do glorioso esplendor do teu reino. 
-O teu reino é reino eterno,
-e o teu domínio permanece
-de geração em geração.
-O Senhor é fiel em todas as suas promessas
-e é bondoso em tudo o que faz. 
-O Senhor ampara todos os que caem
-e levanta todos os que estão prostrados. 
-Os olhos de todos estão voltados para ti,
-e tu lhes dás o alimento no devido tempo. 
-Abres a tua mão e satisfazes os desejos
-de todos os seres vivos. 
-O Senhor é justo
-em todos os seus caminhos
-e bondoso em tudo o que faz. 
-O Senhor está perto
-de todos os que o invocam,
-de todos os que o invocam com sinceridade. 
-Ele realiza os desejos daqueles que o temem;
-ouve-os gritar por socorro e os salva. 
-O Senhor cuida de todos os que o amam,
-mas a todos os ímpios destruirá. 
-Com meus lábios louvarei o Senhor.
-Que todo ser vivo bendiga o seu santo nome
-para todo o sempre! 
- Salmo 145
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 322940 characters
-INFO:root:HTML parsed, length: 313788 characters
-INFO:root:Found 3 titles: ['Preparando-se para as Bodas do Cordeiro', 'Jesus supera qualquer nível de dificuldade', 'Esteja com os olhos bem atentos']
+INFO:root:Response length: 323145 characters
+INFO:root:HTML parsed, length: 313992 characters
+INFO:root:Found 3 titles: ['Quando a sabedoria nos afasta da fonte', 'Preparando-se para as Bodas do Cordeiro', 'Jesus supera qualquer nível de dificuldade']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Regozijemo-nos! Vamos alegrar-nos\ne dar-lhe glória', 'Tudo posso naquele que me fortalece.\n- Filipenses ', '"Vigiem e orem para que não caiam em tentação. O e']
-INFO:root:Found 1 dates: ['Sexta, 20 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['À medida que Salomão foi envelhecendo, suas mulher', 'Regozijemo-nos! Vamos alegrar-nos\ne dar-lhe glória', 'Tudo posso naquele que me fortalece.\n- Filipenses ']
+INFO:root:Found 1 dates: ['Sábado, 21 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Preparando-se para as Bodas do Cordeiro', ID=fef8426d1f8cacfeba2ad6d55909ad40
+INFO:root:Processing entry 1: Title='Quando a sabedoria nos afasta da fonte', ID=c57497327a8bcec1b71a2be8a4e065fc
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Preparando-se para as Bodas do Cordeiro - Palavra de Hoje
+INFO:root:🔹 Title: Quando a sabedoria nos afasta da fonte - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Regozijemo-nos! Vamos alegrar-nos
-e dar-lhe glória!
-Pois chegou a hora
-do casamento do Cordeiro,
-e a sua noiva já se aprontou.
-Para vestir-se, foi-lhe dado
-linho fino, brilhante e puro".
-O linho fino são os atos justos dos santos.
-E o anjo me disse: "Escreva: Felizes os convidados para o banquete do casamento do Cordeiro!
-- Apocalipse 19:7-9a
+INFO:root:🔹 Description: À medida que Salomão foi envelhecendo, suas mulheres o induziram a voltar-se para outros deuses, e o seu coração já não era totalmente dedicado ao Senhor, o seu Deus, como fora o coração do seu pai, Davi.
+- 1 Reis 11:4
 
-Nossa passagem pela Terra parece longa. Celebramos aniversário após aniversário, os dias passam, crescemos e, muitas vezes, vivemos como se isso fosse tudo o que existe. No entanto, a Bíblia deixa claro que, comparada à eternidade, nossa vida na Terra é curta. É como um sopro ou a névoa da manhã (veja Tiago 4:14 e Salmo 39:5-7).
-Deus nos concede tempo na Terra para que possamos nos preparar para a eternidade. Ele nos criou, nos escolheu para fazer parte da história da humanidade e deseja que passemos a eternidade com Ele. Para que isso aconteça, precisamos aceitar Jesus como Senhor e Salvador e preparar nossas almas para a eternidade.
-Preparar-se para as bodas do Cordeiro não é algo que podemos adiar dia após dia. Por quê? Porque não sabemos quando estaremos diante de Deus. Precisamos nos preparar agora, entregando nossas vidas a Deus, tendo uma fé viva que se expressa em obediência, amor e perseverança.
-Cada decisão, cada ato de justiça, cada momento em que escolhemos honrar a Cristo, é um pedaço do linho fino com o qual nos apresentaremos diante do Senhor. Viver como Cristo e para Ele deve ser o nosso objetivo diário.
-Um dia, Jesus virá reunir a sua Igreja, a sua amada noiva, e esse encontro marcará o início de uma gloriosa eternidade com Ele. Que privilégio saber que somos convidados para essa grande celebração! E que bela responsabilidade é nos prepararmos agora.
-Que nossos corações estejam despertos, nossas lâmpadas acesas e nossa fé firme, aguardando com alegria o Noivo que está para vir. Hoje é o tempo de preparar nossas vestes, caminhar em santidade e viver com a viva esperança de que em breve estaremos com Ele, celebrando as bodas do Cordeiro por toda a eternidade.
-Veja também: Sinais da volta de Jesus (e 25 versículos que mostram estes sinais)
+Por que o homem mais sábio do mundo acabou caindo e se afastando de Deus? Salomão recebeu de Deus algo extraordinário: sabedoria como nenhum outro homem teve. Ele governou com inteligência, escreveu provérbios, julgou causas difíceis e construiu o Templo do Senhor.
+Tudo parecia perfeito. No entanto, sua história nos mostra uma verdade dura: grandes talentos não substituem um coração totalmente dependente de Deus.
+A queda de Salomão não aconteceu de uma vez. Foi um processo silencioso. Ele começou a relaxar na obediência, a fazer concessões e a permitir que outras vozes ocupassem o lugar que era exclusivo de Deus. Seus relacionamentos o afastaram do Senhor, e seu coração, antes sensível, tornou-se dividido. A sabedoria continuava lá, mas a comunhão foi se perdendo.
+Isso nos ensina que dons espirituais, inteligência, carisma ou sucesso não são garantia de fidelidade. Podemos cantar bem, liderar bem, falar bem e ainda assim nos afastar de Deus se não vigiarmos o coração. Tudo o que temos vem do Senhor, e sem Ele nada permanece firme.
+Somos totalmente dependentes da graça de Deus. Os talentos que carregamos não são nossos por mérito próprio; foram dados por Ele. E somente Deus pode potencializar aquilo que Ele mesmo colocou em nós. Quando tentamos caminhar confiando apenas na nossa capacidade, abrimos espaço para a queda.
+A história de Salomão nos chama à humildade e à vigilância. Ela nos lembra que o segredo não está em quão sábios ou talentosos somos, mas em quão próximos permanecemos do Senhor. Permanecer em Deus é o que protege nossos dons, fortalece nossa fé e mantém nosso coração alinhado com a vontade d’Ele.
+Sem Deus, até o mais sábio pode cair; com Ele, até o mais simples pode permanecer firme.
+Veja também: A história da vida de Salomão
  
-Regozijemo-nos! Vamos alegrar-nos
-e dar-lhe glória!
-Pois chegou a hora
-do casamento do Cordeiro,
-e a sua noiva já se aprontou.
-Para vestir-se, foi-lhe dado
-linho fino, brilhante e puro".
-O linho fino são os atos justos dos santos.
-E o anjo me disse: "Escreva: Felizes os convidados para o banquete do casamento do Cordeiro!
-- Apocalipse 19:7-9a
+À medida que Salomão foi envelhecendo, suas mulheres o induziram a voltar-se para outros deuses, e o seu coração já não era totalmente dedicado ao Senhor, o seu Deus, como fora o coração do seu pai, Davi.
+- 1 Reis 11:4
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 332433 characters
-INFO:root:HTML parsed, length: 322833 characters
-INFO:root:Found 3 titles: ['Gafanhoto ou filho de Deus?', 'Confiando em Deus sempre!', 'Fé e expectativa']
-INFO:root:Found 2 URLs: ['/razoes_para_confiar_em_deus/', '/versiculos_para_fortalecer_a_fe/']
-INFO:root:Found 3 descriptions: ['E espalharam entre os israelitas um relatório nega', 'Confie no Senhor de todo o seu coração\ne não se ap', 'Ora, a fé é a certeza daquilo que esperamos e a pr']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n20\nSEXTA', 'FEVEREIRO\n\n19\nQUINTA', 'FEVEREIRO\n\n18\nQUARTA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Gafanhoto ou filho de Deus?', ID=2d3d26862d3071a71d9e36dccba767b2
-INFO:root:Processing entry 2: Title='Confiando em Deus sempre!', ID=6a8bea89ff4aa52115cce2ed6df0f6b9
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 331863 characters
+INFO:root:HTML parsed, length: 322263 characters
+INFO:root:Found 3 titles: ['Você colhe o que plantar!', 'Gafanhoto ou filho de Deus?', 'Confiando em Deus sempre!']
+INFO:root:Found 1 URLs: ['/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['Não se deixem enganar: de Deus não se zomba. Pois ', 'E espalharam entre os israelitas um relatório nega', 'Confie no Senhor de todo o seu coração\ne não se ap']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n21\nSÁBADO', 'FEVEREIRO\n\n20\nSEXTA', 'FEVEREIRO\n\n19\nQUINTA']
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='Você colhe o que plantar!', ID=424f45b3937dd020ffb0870737f13cdc
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Gafanhoto ou filho de Deus?
+INFO:root:🔹 Title: Você colhe o que plantar!
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
-INFO:root:🔹 Description: E espalharam entre os israelitas um relatório negativo acerca daquela terra. Disseram: "A terra para a qual fomos em missão de reconhecimento devora os que nela vivem. Todos os que vimos são de grande estatura. Vimos também os gigantes, os descendentes de Enaque, diante de quem parecíamos gafanhotos, a nós e a eles".
-Números 13:32-33
+INFO:root:🔹 Description: Não se deixem enganar: de Deus não se zomba. Pois o que o homem semear isso também colherá.
+Gálatas 6:7
 
-Quando o povo de Israel estava no deserto, Moisés enviou espiões para observar a terra de Canaã e trazerem um relatório. Aquela era a terra prometida por Deus, há muito tempo. O Senhor já tinha dado provas da Sua fidelidade, sustentado-os no Egito e depois os tirando de lá poderosamente, com grandes milagres e sinais. O Senhor da promessa era o mesmo que abriu o Mar Vermelho, fazendo-os passar com pés enxutos, mas afogou o exército inimigo que os perseguia.
-A terra era excelente! Mas 10 dos 12 enviados estavam transmitindo um relatório negativo ao povo. Eles se viam como gafanhotos diante dos habitantes da terra, pois esqueceram-se da grandeza de Deus que estava presente com eles...
-Assim também acontece conosco, nos desertos da vida, quando sentimos medo ou limitados pelas dificuldades. Mas, confie! Você é um filho de Deus, não um gafanhoto! Tenha coragem e não murmure. Deus está contigo e te dá forças para vencer!
-Viva como filho de Deus, não como um gafanhoto:
+O grande alerta deste versículo chama a nossa atenção para o engano de pensarmos que podemos trapacear a Deus. A lei da semeadura tem um ensinamento muito claro: todos recebem os frutos daquilo que plantaram. A cada novo dia temos a oportunidade de agir bem, de plantar coisas boas, movidos pelo Espírito de Deus. Mas, ser assim ou não é uma decisão pessoal...
+A Bíblia nos mostra inúmeros exemplos da justiça e das consequências que as atitudes de cada um trazem. Para semear bem precisamos decidir quais sementes e em qual solo iremos plantar. É tudo uma questão de escolha! Plante boas sementes em solo fértil, é certo que você colherá bons frutos.
+Comece a plantar boas sementes hoje:
 
-Qual a imagem que tem de si mesmo? Também se vê como um pequeno inseto diante das dificuldades?
-Abandone o complexo de inferioridade, Deus é o seu Pai!
-Ore e coloque diante de Deus todos "gigantes" (problemas) que te assustam. Ele luta por você!
-Confie na Palavra de Deus. Leia, se alimente e encha seu coração de fé diariamente.
-Exclua a murmuração e rebeldia. Lembre-se de tudo que Deus tem feito e seja grato.
-Tenha bom ânimo! Deus está contigo na caminhada e te ampara nos tempos difíceis...
-
-Para Orar:
-
-Senhor Deus, ajuda-me a confiar em Ti, sempre que passar pelos desertos da vida. Ensina-me a crer que maior é o que está em nós do que o que está no mundo... Fortalece a minha fé na Tua promessa, Pai. Tu és fiel e todo poderoso, sei que no Senhor posso ter esperança de um futuro certo, cheio de alegria e paz. A Ti entrego as minhas necessidades e aflições. Ajuda-me a prosseguir! Em nome de Jesus, te peço. Amém!
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Confiando em Deus sempre!
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_fortalecer_a_fe/
-INFO:root:🔹 Description: Confie no Senhor de todo o seu coração
-e não se apoie
-em seu próprio entendimento;
-- Provérbios 3:5
-
-Diante das adversidades da vida, é natural sentirmos medo, especialmente quando não compreendemos os propósitos de Deus. No entanto, a Palavra nos ensina a confiar n’Ele de todo o coração, sem depender do nosso próprio entendimento.
-Confiar em Deus não significa que não enfrentaremos problemas, mas sim que, independentemente das circunstâncias, Ele permanece no controle. Jó, mesmo após perder tudo, declarou: “Embora ele me mate,
-ainda assim esperarei nele” (Jó 13:15). Essa confiança inabalável não vem de uma vida sem provações, mas de um relacionamento profundo com o Senhor.
-Jesus nos ensinou que no mundo teríamos aflições, mas nos encorajou: “Tende bom ânimo, eu venci o mundo” (João 16:33). Saber que servimos a um Deus que já venceu nos fortalece. Deus nos convida a lançarmos sobre Ele nossas ansiedades, pois cuida de nós.
-Nos momentos difíceis, devemos nos apegar às promessas de Deus e lembrar que Ele trabalha para o bem daqueles que O amam. Às vezes, não entendemos os caminhos do Senhor, mas Ele vê além do que podemos enxergar. Nossa parte é confiar, perseverar em oração e permanecer fiéis.
-Se hoje você enfrenta tribulações, lembre-se: Deus é fiel. Ele nunca abandona Seus filhos e, no tempo certo, trará alívio. O Senhor é nossa rocha e refúgio seguro. Confie n’Ele, pois aquele que prometeu é fiel para cumprir!
-Confiando em Deus em meio às adversidades
-
-
-Ore com fé: Apresente suas dificuldades a Deus em oração, confiando que Ele ouve e responderá no tempo certo.
-
-Medite na Palavra de Deus: Fortaleça sua fé lendo a Bíblia, lembrando-se das promessas de Deus e do Seu cuidado constante.
-
-Descanse na soberania de Deus: Entregue suas preocupações ao Senhor, sabendo que Ele está no controle e sempre trabalha para o seu bem.
+Observe que tipo de semente você tem semeado. Se tem plantado mal e tem colhido o que não te agrada, talvez seja a hora de mudar de atitude. Peça perdão a Deus.
+Reveja como tem agido (com Deus, com a família, trabalho, amigos etc.) e busque plantar sempre boas sementes movido por Deus.
+Ore para que as suas sementes possam abençoar a vida de outras pessoas além de você mesmo.
+Semeie boas sementes hoje de forma prática (seja gentil, seja grato, ajude alguém, perdoe, demonstre amor).
+Busque na Bíblia como deverá plantar de forma a agradar a Deus.
+Converse com irmãos em Cristo e busque compartilhar a sua vontade de produzir bons frutos para Deus.
 
 Para orar:
 
-Senhor amado, em Ti deposito minha confiança. Nos momentos difíceis, fortalece minha fé e renova minhas forças. Ajuda-me a lembrar que estás no controle e que Teus planos são sempre melhores que os meus. Ensina-me a descansar em Ti. Que Tua paz inunde meu coração e Tua presença me guie sempre. Em nome de Jesus, amém.
-
-Veja também: 7 razões para confiar em Deus em meio às lutas
+Amado Deus, eu sei que o Senhor conhece as minhas atitudes. Ninguém pode se esconder do Senhor e não há como te enganar. Perdoa as minhas más intenções e as decisões erradas até aqui. Ajuda-me a plantar sempre boas sementes. Que eu aproveite sempre as oportunidades de semear coisas boas na vida de outras pessoas. Obrigado por me ajudar e ensinar a colher bons frutos que te agradem. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -340,15 +284,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  61 ++----
- feeds/devocional_de_hoje/feed.json        |  18 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  49 ++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
  feeds/palavra_biblica_do_dia/atom.xml     |  39 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  91 ++++----
+ feeds/salmo_do_dia/atom.xml               |  90 ++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 339 +++++++++++++-----------------
- 11 files changed, 270 insertions(+), 345 deletions(-)
+ output.log                                | 322 ++++++++++++------------------
+ 11 files changed, 230 insertions(+), 355 deletions(-)
