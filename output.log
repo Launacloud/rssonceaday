@@ -1,88 +1,122 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124284 characters
-INFO:root:HTML parsed, length: 117582 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (21/02/2026)', 'Palavra de Ontem (20/02/2026)', 'Palavra de Anteontem (19/02/2026)']
-INFO:root:Found 3 URLs: ['/pedantice/', '/deportacao/', '/concausa/']
-INFO:root:Found 12 descriptions: ['substantivo feminino Característica de pedante, da', 'Sinônimos:\n\npedantismo, disparate, sandice, toleim', 'Antônimos:\n\nausteridade']
-INFO:root:Found 3 dates: ['Palavra de Hoje (21/02/2026)', 'Palavra de Ontem (20/02/2026)', 'Palavra de Anteontem (19/02/2026)']
+INFO:root:Response length: 124730 characters
+INFO:root:HTML parsed, length: 117844 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (22/02/2026)', 'Palavra de Ontem (21/02/2026)', 'Palavra de Anteontem (20/02/2026)']
+INFO:root:Found 3 URLs: ['/contribuinte/', '/pedantice/', '/deportacao/']
+INFO:root:Found 13 descriptions: ['substantivo masculino e feminino Pessoa que paga i', 'Sinônimos:\n\ntributário, contribuidor', 'Classe gramatical:adjetivo de dois gêneros e subst']
+INFO:root:Found 3 dates: ['Palavra de Hoje (22/02/2026)', 'Palavra de Ontem (21/02/2026)', 'Palavra de Anteontem (20/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (21/02/2026)', ID=e12f5038708d20b4030d25516af248bd
-INFO:root:Processing entry 2: Title='Palavra de Ontem (20/02/2026)', ID=e2d64f15a5535876c60db888912526ca
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (19/02/2026)', ID=5601d8090bbc585378829212f51eaad2
+INFO:root:Processing entry 1: Title='Palavra de Hoje (22/02/2026)', ID=49dfb6ac0c7bf8b7f2e54bf00759f996
+INFO:root:Processing entry 2: Title='Palavra de Ontem (21/02/2026)', ID=4e2536dfcbf732a57477cc678e58607f
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/02/2026)', ID=6be2487b05610a035db895b0d67eed9f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (21/02/2026) - Significado completo de pedantice:
-INFO:root:🔹 URL: https://www.dicio.com.br/pedantice/
-INFO:root:🔹 Description: substantivo feminino Característica de pedante, da pessoa que demonstra conhecimentos que não possui; pedantismo.Qualidade de quem tem comportamentos e atitudes artificiais, maneiristas, afetados.Etimologia (origem da palavra pedantice). A palavra pedantice tem sua origem pela junção da palavra pedante, e do sufixo -ice.
+INFO:root:🔹 Title: Palavra de Hoje (22/02/2026) - Significado completo de contribuinte:
+INFO:root:🔹 URL: https://www.dicio.com.br/contribuinte/
+INFO:root:🔹 Description: substantivo masculino e feminino Pessoa que paga impostos, contribuições financeiras que são devidas ao Estado.Pessoa que contribui que oferece uma parte do total que recebeu ou qualquer pessoa que ofereça contribuições.Pessoa física ou jurídica que está sujeita ao pagamento tributações, de taxas atribuídas a bens ou a serviços prestados.adjetivo Que contribui, faz contribuições, especialmente falando de impostos ou taxas a serem pagos para o Estado.Etimologia (origem da palavra contribuinte). A palavra contribuinte tem sua origem pela junção do verbo contribuir, e do sufixo -inte.
  
 Sinônimos:
 
-pedantismo, disparate, sandice, toleima, tolice, magistralidade, formalismo, academicismo, afetação, presunção, pernosticismo 
+tributário, contribuidor 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (20/02/2026) - Significado completo de deportação:
-INFO:root:🔹 URL: https://www.dicio.com.br/deportacao/
+INFO:root:🔹 Title: Palavra de Ontem (21/02/2026) - Significado completo de pedantice:
+INFO:root:🔹 URL: https://www.dicio.com.br/pedantice/
 INFO:root:🔹 Description: Sinônimos:
 
-pedantismo, disparate, sandice, toleima, tolice, magistralidade, formalismo, academicismo, afetação, presunção, pernosticismo
- 
-Antônimos:
-
-austeridade 
-
+tributário, contribuidor
+ Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (19/02/2026) - Significado completo de concausa:
-INFO:root:🔹 URL: https://www.dicio.com.br/concausa/
-INFO:root:🔹 Description: Antônimos:
-
-austeridade
- Classe gramatical:substantivo feminino
+INFO:root:🔹 Title: Palavra de Anteontem (20/02/2026) - Significado completo de deportação:
+INFO:root:🔹 URL: https://www.dicio.com.br/deportacao/
+INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+ Sílabas:con-tri-bu-in-te
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320475 characters
-INFO:root:HTML parsed, length: 310866 characters
-INFO:root:Found 1 titles: ['Salmos 30:5']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_30_5/']
-INFO:root:Found 1 descriptions: ['Pois a sua ira só dura um instante,\nmas o seu favo']
+INFO:root:Response length: 320466 characters
+INFO:root:HTML parsed, length: 310857 characters
+INFO:root:Found 1 titles: ['Salmos 126:5']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_126_5/']
+INFO:root:Found 1 descriptions: ['Aqueles que semeiam com lágrimas,\ncom cantos de al']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 30:5', ID=3d66f79f906eed22902bc0986db90f14
+INFO:root:Processing entry 1: Title='Salmos 126:5', ID=8a6b0ddbe6b7b92523db9c2a066019bf
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 30:5
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_30_5/
-INFO:root:🔹 Description: Pois a sua ira só dura um instante,
-mas o seu favor dura a vida toda;
-o choro pode persistir uma noite,
-mas de manhã irrompe a alegria. Salmos 30:5
+INFO:root:🔹 Title: Salmos 126:5
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_126_5/
+INFO:root:🔹 Description: Aqueles que semeiam com lágrimas,
+com cantos de alegria colherão. Salmos 126:5
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 319571 characters
-INFO:root:HTML parsed, length: 310744 characters
-INFO:root:Found 3 titles: ['Salmo 76', 'Salmo 148', 'Salmo 24']
-INFO:root:Found 3 URLs: ['/salmos_76/', '/salmos_148/', '/salmos_24/']
-INFO:root:Found 3 descriptions: ['Em Judá Deus é conhecido;\no seu nome é grande em I', 'Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ', 'Do Senhor é a terra e tudo o que nela existe,\no mu']
-INFO:root:Found 3 dates: ['21 de Fevereiro de 2026', '20 de Fevereiro de 2026', '19 de Fevereiro de 2026']
+INFO:root:Response length: 319985 characters
+INFO:root:HTML parsed, length: 311168 characters
+INFO:root:Found 3 titles: ['Salmo 143', 'Salmo 76', 'Salmo 148']
+INFO:root:Found 3 URLs: ['/salmos_143/', '/salmos_76/', '/salmos_148/']
+INFO:root:Found 3 descriptions: ['Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Em Judá Deus é conhecido;\no seu nome é grande em I', 'Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ']
+INFO:root:Found 3 dates: ['22 de Fevereiro de 2026', '21 de Fevereiro de 2026', '20 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 76', ID=5ab438a54757379c1a6b9ad8dc6df77b
-INFO:root:Processing entry 2: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
-INFO:root:Processing entry 3: Title=' Salmo 24', ID=c31a58314d2016c8168b8f285dbb4196
+INFO:root:Processing entry 1: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
+INFO:root:Processing entry 2: Title=' Salmo 76', ID=5ab438a54757379c1a6b9ad8dc6df77b
+INFO:root:Processing entry 3: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 143
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_143/
+INFO:root:🔹 Description: Ouve, Senhor, a minha oração,
+dá ouvidos à minha súplica;
+responde-me
+por tua fidelidade e por tua justiça. 
+Mas não leves o teu servo a julgamento,
+pois ninguém é justo diante de ti. 
+O inimigo persegue-me
+e esmaga-me ao chão;
+ele me faz morar nas trevas,
+como os que há muito morreram. 
+O meu espírito desanima;
+o meu coração está em pânico. 
+Eu me recordo dos tempos antigos;
+medito em todas as tuas obras
+e considero o que as tuas mãos têm feito. 
+Estendo as minhas mãos para ti;
+como a terra árida, tenho sede de ti. 
+Apressa-te em responder-me, Senhor!
+O meu espírito se abate.
+Não escondas de mim o teu rosto,
+ou serei como os que descem à cova. 
+Faze-me ouvir do teu amor leal pela manhã,
+pois em ti confio.
+Mostra-me o caminho que devo seguir,
+pois a ti elevo a minha alma. 
+Livra-me dos meus inimigos, Senhor,
+pois em ti eu me abrigo. 
+Ensina-me a fazer a tua vontade,
+pois tu és o meu Deus;
+que o teu bondoso Espírito
+me conduza por terreno plano. 
+Preserva-me a vida, Senhor,
+por causa do teu nome;
+por tua justiça, tira-me desta angústia. 
+E no teu amor leal,
+aniquila os meus inimigos;
+destrói todos os meus adversários,
+pois sou teu servo. 
+ Salmo 143
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 76
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_76/
 INFO:root:🔹 Description: Em Judá Deus é conhecido;
@@ -157,103 +191,75 @@ dos israelitas, povo a quem ele tanto ama.
 Aleluia! 
  Salmo 148
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 24
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_24/
-INFO:root:🔹 Description: Do Senhor é a terra e tudo o que nela existe,
-o mundo e os que nele vivem; 
-pois foi ele quem a estabeleceu sobre os mares
-e a firmou sobre as águas. 
-Quem poderá subir o monte do Senhor?
-Quem poderá entrar no seu Santo Lugar? 
-Aquele que tem as mãos limpas
-e o coração puro,
-que não recorre aos ídolos
-nem jura por deuses falsos. 
-Ele receberá bênçãos do Senhor,
-e Deus, o seu Salvador, lhe fará justiça. 
-São assim aqueles que o buscam,
-que buscam a tua face, ó Deus de Jacó. 
-Abram-se, ó portais;
-abram-se, ó portas antigas,
-para que o Rei da glória entre. 
-Quem é o Rei da glória?
-O Senhor forte e valente,
-o Senhor valente nas guerras. 
-Abram-se, ó portais;
-abram-se, ó portas antigas,
-para que o Rei da glória entre. 
-Quem é esse Rei da glória?
-O Senhor dos Exércitos;
-ele é o Rei da glória! 
- Salmo 24
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 323145 characters
-INFO:root:HTML parsed, length: 313992 characters
-INFO:root:Found 3 titles: ['Quando a sabedoria nos afasta da fonte', 'Preparando-se para as Bodas do Cordeiro', 'Jesus supera qualquer nível de dificuldade']
+INFO:root:Response length: 323154 characters
+INFO:root:HTML parsed, length: 314002 characters
+INFO:root:Found 3 titles: ['Prossiga para o alvo', 'Quando a sabedoria nos afasta da fonte', 'Preparando-se para as Bodas do Cordeiro']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['À medida que Salomão foi envelhecendo, suas mulher', 'Regozijemo-nos! Vamos alegrar-nos\ne dar-lhe glória', 'Tudo posso naquele que me fortalece.\n- Filipenses ']
-INFO:root:Found 1 dates: ['Sábado, 21 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Irmãos, não penso que eu mesmo já o tenha alcançad', 'À medida que Salomão foi envelhecendo, suas mulher', 'Regozijemo-nos! Vamos alegrar-nos\ne dar-lhe glória']
+INFO:root:Found 1 dates: ['Domingo, 22 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Quando a sabedoria nos afasta da fonte', ID=c57497327a8bcec1b71a2be8a4e065fc
+INFO:root:Processing entry 1: Title='Prossiga para o alvo', ID=f6d9cc9615d350b9970abec4f29bfa0b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Quando a sabedoria nos afasta da fonte - Palavra de Hoje
+INFO:root:🔹 Title: Prossiga para o alvo - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: À medida que Salomão foi envelhecendo, suas mulheres o induziram a voltar-se para outros deuses, e o seu coração já não era totalmente dedicado ao Senhor, o seu Deus, como fora o coração do seu pai, Davi.
-- 1 Reis 11:4
+INFO:root:🔹 Description: Irmãos, não penso que eu mesmo já o tenha alcançado, mas uma coisa faço: esquecendo-me das coisas que ficaram para trás e avançando para as que estão adiante, prossigo para o alvo, a fim de ganhar o prêmio do chamado celestial de Deus em Cristo Jesus.
+- Filipenses 3:13-14
 
-Por que o homem mais sábio do mundo acabou caindo e se afastando de Deus? Salomão recebeu de Deus algo extraordinário: sabedoria como nenhum outro homem teve. Ele governou com inteligência, escreveu provérbios, julgou causas difíceis e construiu o Templo do Senhor.
-Tudo parecia perfeito. No entanto, sua história nos mostra uma verdade dura: grandes talentos não substituem um coração totalmente dependente de Deus.
-A queda de Salomão não aconteceu de uma vez. Foi um processo silencioso. Ele começou a relaxar na obediência, a fazer concessões e a permitir que outras vozes ocupassem o lugar que era exclusivo de Deus. Seus relacionamentos o afastaram do Senhor, e seu coração, antes sensível, tornou-se dividido. A sabedoria continuava lá, mas a comunhão foi se perdendo.
-Isso nos ensina que dons espirituais, inteligência, carisma ou sucesso não são garantia de fidelidade. Podemos cantar bem, liderar bem, falar bem e ainda assim nos afastar de Deus se não vigiarmos o coração. Tudo o que temos vem do Senhor, e sem Ele nada permanece firme.
-Somos totalmente dependentes da graça de Deus. Os talentos que carregamos não são nossos por mérito próprio; foram dados por Ele. E somente Deus pode potencializar aquilo que Ele mesmo colocou em nós. Quando tentamos caminhar confiando apenas na nossa capacidade, abrimos espaço para a queda.
-A história de Salomão nos chama à humildade e à vigilância. Ela nos lembra que o segredo não está em quão sábios ou talentosos somos, mas em quão próximos permanecemos do Senhor. Permanecer em Deus é o que protege nossos dons, fortalece nossa fé e mantém nosso coração alinhado com a vontade d’Ele.
-Sem Deus, até o mais sábio pode cair; com Ele, até o mais simples pode permanecer firme.
-Veja também: A história da vida de Salomão
+O apóstolo Paulo nos ensina que a vida não é sobre perfeição, mas sobre direção constante. Ele reconhece que ainda não alcançou tudo, mas decidiu não permanecer preso ao passado. Essa declaração revela maturidade espiritual: entender que Deus não nos chama para viver acorrentados aos erros, culpas ou até mesmo às antigas conquistas.
+Muitos deixam de avançar porque continuam olhando para trás. Alguns são paralisados por fracassos; outros, acomodados por vitórias antigas. Porém, o chamado de Deus é progressivo. Há sempre mais crescimento, mais profundidade, mais propósito. Esquecer, aqui, não significa apagar a memória, mas recusar-se a permitir que o passado determine o futuro.
+Prosseguir para o alvo exige foco. O mundo oferece distrações, atalhos e falsas recompensas, mas o prêmio do chamado celestial é incomparável. Trata-se de viver segundo a vontade de Deus, de refletir Cristo em nossas atitudes e de permanecer firmes mesmo quando o caminho se torna difícil.
+Avançar também exige fé. Nem sempre veremos claramente o que está adiante, mas confiamos naquele que nos chamou. Deus não desperdiça dores, não ignora esforços e não abandona aqueles que caminham com Ele. Cada passo dado em obediência nos aproxima do propósito eterno.
+Hoje é dia de decidir seguir em frente. Liberte-se do peso do ontem. Ajuste seus olhos ao alvo. Renove sua confiança no Senhor. O chamado continua ativo, o prêmio permanece diante de você e a graça de Deus é suficiente para sustentar sua jornada.
+Prossiga. O melhor de Deus ainda está adiante!
+Veja também: Filipenses 3:13-14 explicado: Prossigo para o alvo (Estudo Bíblico)
  
-À medida que Salomão foi envelhecendo, suas mulheres o induziram a voltar-se para outros deuses, e o seu coração já não era totalmente dedicado ao Senhor, o seu Deus, como fora o coração do seu pai, Davi.
-- 1 Reis 11:4
+Irmãos, não penso que eu mesmo já o tenha alcançado, mas uma coisa faço: esquecendo-me das coisas que ficaram para trás e avançando para as que estão adiante, prossigo para o alvo, a fim de ganhar o prêmio do chamado celestial de Deus em Cristo Jesus.
+- Filipenses 3:13-14
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 331863 characters
-INFO:root:HTML parsed, length: 322263 characters
-INFO:root:Found 3 titles: ['Você colhe o que plantar!', 'Gafanhoto ou filho de Deus?', 'Confiando em Deus sempre!']
-INFO:root:Found 1 URLs: ['/razoes_para_confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['Não se deixem enganar: de Deus não se zomba. Pois ', 'E espalharam entre os israelitas um relatório nega', 'Confie no Senhor de todo o seu coração\ne não se ap']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n21\nSÁBADO', 'FEVEREIRO\n\n20\nSEXTA', 'FEVEREIRO\n\n19\nQUINTA']
+INFO:root:Response length: 332139 characters
+INFO:root:HTML parsed, length: 322535 characters
+INFO:root:Found 3 titles: ['Reter o que é bom', 'Você colhe o que plantar!', 'Gafanhoto ou filho de Deus?']
+INFO:root:Found 1 URLs: ['/santificacao/']
+INFO:root:Found 3 descriptions: ['mas ponham à prova todas as coisas e fiquem com o ', 'Não se deixem enganar: de Deus não se zomba. Pois ', 'E espalharam entre os israelitas um relatório nega']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n22\nDOMINGO', 'FEVEREIRO\n\n21\nSÁBADO', 'FEVEREIRO\n\n20\nSEXTA']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Você colhe o que plantar!', ID=424f45b3937dd020ffb0870737f13cdc
+INFO:root:Processing entry 1: Title='Reter o que é bom', ID=02e72965e7a2b7389353fe45b65c7a0c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Você colhe o que plantar!
-INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
-INFO:root:🔹 Description: Não se deixem enganar: de Deus não se zomba. Pois o que o homem semear isso também colherá.
-Gálatas 6:7
+INFO:root:🔹 Title: Reter o que é bom
+INFO:root:🔹 URL: https://www.bibliaon.com/santificacao/
+INFO:root:🔹 Description: mas ponham à prova todas as coisas e fiquem com o que é bom.
+- 1 Tessalonicenses 5:21
 
-O grande alerta deste versículo chama a nossa atenção para o engano de pensarmos que podemos trapacear a Deus. A lei da semeadura tem um ensinamento muito claro: todos recebem os frutos daquilo que plantaram. A cada novo dia temos a oportunidade de agir bem, de plantar coisas boas, movidos pelo Espírito de Deus. Mas, ser assim ou não é uma decisão pessoal...
-A Bíblia nos mostra inúmeros exemplos da justiça e das consequências que as atitudes de cada um trazem. Para semear bem precisamos decidir quais sementes e em qual solo iremos plantar. É tudo uma questão de escolha! Plante boas sementes em solo fértil, é certo que você colherá bons frutos.
-Comece a plantar boas sementes hoje:
+Vivemos em um mundo repleto de vozes, opiniões, influências e caminhos diferentes. A cada dia somos expostos a ideias, comportamentos e valores que disputam espaço em nosso coração e mente.
+Mas, diante disso, a Palavra de Deus nos orienta com sabedoria: examinar tudo e reter o que é bom. Não se trata de aceitar tudo passivamente, mas de discernir, avaliar e escolher aquilo que está alinhado com a vontade do Senhor.
+Reter o que é bom exige maturidade espiritual. É necessário conhecer as Escrituras, buscar intimidade com Deus e permitir que o Espírito Santo nos conduza. Quando temos a Palavra como fundamento, desenvolvemos sensibilidade para identificar o que edifica e o que destrói. O que é bom produz paz, amor, justiça e crescimento espiritual; o que é ruim gera confusão, pecado e afastamento de Deus.
+Muitas vezes, o mal se apresenta de forma sutil, disfarçado de algo atraente ou aparentemente inofensivo. Por isso, devemos vigiar. Nem tudo que parece bom aos nossos olhos é aprovado por Deus. Precisamos filtrar pensamentos, amizades, conteúdos e decisões à luz da verdade bíblica. Reter o que é bom também significa cultivar bons hábitos, palavras que edificam, atitudes de perdão e práticas que glorificam a Cristo.
+Não podemos permitir que o coração seja terreno fértil para a amargura, a inveja ou a incredulidade. Em vez disso, devemos guardar aquilo que fortalece nossa fé. Quando escolhemos o bem, estamos escolhendo obedecer ao Senhor e confiar em Seus caminhos.
+Que diariamente possamos examinar nossas escolhas e, com firmeza e fé, reter aquilo que nos aproxima de Deus, rejeitando tudo o que nos afasta de Sua presença.
+Discernimento que transforma atitudes
 
-Observe que tipo de semente você tem semeado. Se tem plantado mal e tem colhido o que não te agrada, talvez seja a hora de mudar de atitude. Peça perdão a Deus.
-Reveja como tem agido (com Deus, com a família, trabalho, amigos etc.) e busque plantar sempre boas sementes movido por Deus.
-Ore para que as suas sementes possam abençoar a vida de outras pessoas além de você mesmo.
-Semeie boas sementes hoje de forma prática (seja gentil, seja grato, ajude alguém, perdoe, demonstre amor).
-Busque na Bíblia como deverá plantar de forma a agradar a Deus.
-Converse com irmãos em Cristo e busque compartilhar a sua vontade de produzir bons frutos para Deus.
+Examine diariamente seus pensamentos e atitudes à luz da Palavra, permitindo que Deus revele o que deve permanecer e o que precisa ser removido.
+Escolha amizades, conteúdos e conversas que edifiquem sua fé, rejeitando influências negativas que enfraquecem seu compromisso com Cristo diariamente.
+Cultive hábitos espirituais, como oração e leitura bíblica, fortalecendo seu discernimento para reter o bem e resistir às tentações.
 
 Para orar:
 
-Amado Deus, eu sei que o Senhor conhece as minhas atitudes. Ninguém pode se esconder do Senhor e não há como te enganar. Perdoa as minhas más intenções e as decisões erradas até aqui. Ajuda-me a plantar sempre boas sementes. Que eu aproveite sempre as oportunidades de semear coisas boas na vida de outras pessoas. Obrigado por me ajudar e ensinar a colher bons frutos que te agradem. Em nome de Jesus, amém.
+Senhor Deus, ajuda-me a examinar tudo com sabedoria e discernimento. Dá-me um coração sensível à Tua voz, para reter o que é bom e rejeitar tudo que me afasta de Ti. Purifica meus pensamentos, guia minhas escolhas e fortalece minha fé. Que minhas atitudes glorifiquem Teu nome e reflitam Teu amor todos os dias. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre Santificação
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -284,15 +290,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  49 ++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  39 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  27 ++--
+ feeds/devocional_de_hoje/feed.json        |   8 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  23 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +--
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  90 ++++-----
+ feeds/salmo_do_dia/atom.xml               |  70 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 322 ++++++++++++------------------
- 11 files changed, 230 insertions(+), 355 deletions(-)
+ output.log                                | 254 +++++++++++++++---------------
+ 11 files changed, 228 insertions(+), 228 deletions(-)
