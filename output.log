@@ -1,80 +1,142 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124730 characters
-INFO:root:HTML parsed, length: 117844 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (22/02/2026)', 'Palavra de Ontem (21/02/2026)', 'Palavra de Anteontem (20/02/2026)']
-INFO:root:Found 3 URLs: ['/contribuinte/', '/pedantice/', '/deportacao/']
-INFO:root:Found 13 descriptions: ['substantivo masculino e feminino Pessoa que paga i', 'Sinônimos:\n\ntributário, contribuidor', 'Classe gramatical:adjetivo de dois gêneros e subst']
-INFO:root:Found 3 dates: ['Palavra de Hoje (22/02/2026)', 'Palavra de Ontem (21/02/2026)', 'Palavra de Anteontem (20/02/2026)']
+INFO:root:Response length: 125559 characters
+INFO:root:HTML parsed, length: 118466 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (23/02/2026)', 'Palavra de Ontem (22/02/2026)', 'Palavra de Anteontem (21/02/2026)']
+INFO:root:Found 3 URLs: ['/resumo/', '/contribuinte/', '/pedantice/']
+INFO:root:Found 14 descriptions: ['substantivo masculino Ato ou efeito de resumir, de', 'Sinônimos:\n\ncompêndio, epítome, resenha, sinopse, ', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (23/02/2026)', 'Palavra de Ontem (22/02/2026)', 'Palavra de Anteontem (21/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (22/02/2026)', ID=49dfb6ac0c7bf8b7f2e54bf00759f996
-INFO:root:Processing entry 2: Title='Palavra de Ontem (21/02/2026)', ID=4e2536dfcbf732a57477cc678e58607f
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/02/2026)', ID=6be2487b05610a035db895b0d67eed9f
+INFO:root:Processing entry 1: Title='Palavra de Hoje (23/02/2026)', ID=99400a869cf85b1515a3217fdd0ec2c3
+INFO:root:Processing entry 2: Title='Palavra de Ontem (22/02/2026)', ID=a612db9ee125e444157059a5dadf216b
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/02/2026)', ID=40b1972399db145b4807cf6578edb0ad
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (22/02/2026) - Significado completo de contribuinte:
-INFO:root:🔹 URL: https://www.dicio.com.br/contribuinte/
-INFO:root:🔹 Description: substantivo masculino e feminino Pessoa que paga impostos, contribuições financeiras que são devidas ao Estado.Pessoa que contribui que oferece uma parte do total que recebeu ou qualquer pessoa que ofereça contribuições.Pessoa física ou jurídica que está sujeita ao pagamento tributações, de taxas atribuídas a bens ou a serviços prestados.adjetivo Que contribui, faz contribuições, especialmente falando de impostos ou taxas a serem pagos para o Estado.Etimologia (origem da palavra contribuinte). A palavra contribuinte tem sua origem pela junção do verbo contribuir, e do sufixo -inte.
+INFO:root:🔹 Title: Palavra de Hoje (23/02/2026) - Significado completo de resumo:
+INFO:root:🔹 URL: https://www.dicio.com.br/resumo/
+INFO:root:🔹 Description: substantivo masculino Ato ou efeito de resumir, de reduzir a poucas palavras; sumário, síntese, sinopse: resumo de um livro.Exposição sucinta de um fato, situação, de um acontecimento ou das particularidades de alguma coisa, com o intuito de passar a ideia geral do seu conteúdo.Ato de recapitular brevemente um assunto em poucas palavras; recapitulação.Algo ou alguém que representa certas características e qualidades.locução adverbial Em resumo. Em poucas palavras; em síntese: em resumo, a conferência atingiu o seu propósito.Etimologia (origem da palavra resumo). A palavra resumo deriva como forma reduzida do verbo resumir.
  
 Sinônimos:
 
-tributário, contribuidor 
+compêndio, epítome, resenha, sinopse, sumário, síntese, súmula, recapitulação 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (21/02/2026) - Significado completo de pedantice:
-INFO:root:🔹 URL: https://www.dicio.com.br/pedantice/
+INFO:root:🔹 Title: Palavra de Ontem (22/02/2026) - Significado completo de contribuinte:
+INFO:root:🔹 URL: https://www.dicio.com.br/contribuinte/
 INFO:root:🔹 Description: Sinônimos:
 
-tributário, contribuidor
- Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+compêndio, epítome, resenha, sinopse, sumário, síntese, súmula, recapitulação
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (20/02/2026) - Significado completo de deportação:
-INFO:root:🔹 URL: https://www.dicio.com.br/deportacao/
-INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
- Sílabas:con-tri-bu-in-te
+INFO:root:🔹 Title: Palavra de Anteontem (21/02/2026) - Significado completo de pedantice:
+INFO:root:🔹 URL: https://www.dicio.com.br/pedantice/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:re-su-mo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320466 characters
-INFO:root:HTML parsed, length: 310857 characters
-INFO:root:Found 1 titles: ['Salmos 126:5']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_126_5/']
-INFO:root:Found 1 descriptions: ['Aqueles que semeiam com lágrimas,\ncom cantos de al']
+INFO:root:Response length: 320449 characters
+INFO:root:HTML parsed, length: 310840 characters
+INFO:root:Found 1 titles: ['Salmos 25:4-5']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_25_4-5/']
+INFO:root:Found 1 descriptions: ['Mostra-me, Senhor, os teus caminhos,\nensina-me as ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 126:5', ID=8a6b0ddbe6b7b92523db9c2a066019bf
+INFO:root:Processing entry 1: Title='Salmos 25:4-5', ID=5ca0a489700690b59c25bd5d2922159f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 126:5
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_126_5/
-INFO:root:🔹 Description: Aqueles que semeiam com lágrimas,
-com cantos de alegria colherão. Salmos 126:5
+INFO:root:🔹 Title: Salmos 25:4-5
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_25_4-5/
+INFO:root:🔹 Description: Mostra-me, Senhor, os teus caminhos,
+ensina-me as tuas veredas; guia-me com a tua verdade e ensina-me,
+pois tu és Deus, meu Salvador,
+e a minha esperança está em ti o tempo todo. Salmos 25:4-5
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 319985 characters
-INFO:root:HTML parsed, length: 311168 characters
-INFO:root:Found 3 titles: ['Salmo 143', 'Salmo 76', 'Salmo 148']
-INFO:root:Found 3 URLs: ['/salmos_143/', '/salmos_76/', '/salmos_148/']
-INFO:root:Found 3 descriptions: ['Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Em Judá Deus é conhecido;\no seu nome é grande em I', 'Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ']
-INFO:root:Found 3 dates: ['22 de Fevereiro de 2026', '21 de Fevereiro de 2026', '20 de Fevereiro de 2026']
+INFO:root:Response length: 320680 characters
+INFO:root:HTML parsed, length: 311873 characters
+INFO:root:Found 3 titles: ['Salmo 136', 'Salmo 143', 'Salmo 76']
+INFO:root:Found 3 URLs: ['/salmos_136/', '/salmos_143/', '/salmos_76/']
+INFO:root:Found 3 descriptions: ['Deem graças ao Senhor, porque ele é bom.\nO seu amo', 'Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Em Judá Deus é conhecido;\no seu nome é grande em I']
+INFO:root:Found 3 dates: ['23 de Fevereiro de 2026', '22 de Fevereiro de 2026', '21 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
-INFO:root:Processing entry 2: Title=' Salmo 76', ID=5ab438a54757379c1a6b9ad8dc6df77b
-INFO:root:Processing entry 3: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
+INFO:root:Processing entry 1: Title=' Salmo 136', ID=0466a24f0d7612131a62aaffef81edc4
+INFO:root:Processing entry 2: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
+INFO:root:Processing entry 3: Title=' Salmo 76', ID=5ab438a54757379c1a6b9ad8dc6df77b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 136
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_136/
+INFO:root:🔹 Description: Deem graças ao Senhor, porque ele é bom.
+O seu amor dura para sempre! 
+Deem graças ao Deus dos deuses.
+O seu amor dura para sempre! 
+Deem graças ao Senhor dos senhores.
+O seu amor dura para sempre! 
+Ao único que faz grandes maravilhas,
+O seu amor dura para sempre! 
+Que com habilidade fez os céus,
+O seu amor dura para sempre! 
+Que estendeu a terra sobre as águas;
+O seu amor dura para sempre! 
+Àquele que fez os grandes luminares:
+O seu amor dura para sempre! 
+O sol para governar o dia,
+O seu amor dura para sempre! 
+A lua e as estrelas para governarem a noite.
+O seu amor dura para sempre! 
+Àquele que matou
+os primogênitos do Egito
+O seu amor dura para sempre! 
+E tirou Israel do meio deles
+O seu amor dura para sempre! 
+Com mão poderosa e braço forte.
+O seu amor dura para sempre! 
+Àquele que dividiu o mar Vermelho
+O seu amor dura para sempre! 
+E fez Israel atravessá-lo,
+O seu amor dura para sempre! 
+Mas lançou o faraó e o seu exército
+no mar Vermelho.
+O seu amor dura para sempre! 
+Àquele que conduziu seu povo pelo deserto,
+O seu amor dura para sempre! 
+Feriu grandes reis
+O seu amor dura para sempre! 
+E matou reis poderosos:
+O seu amor dura para sempre! 
+Seom, rei dos amorreus,
+O seu amor dura para sempre! 
+E Ogue, rei de Basã,
+O seu amor dura para sempre! 
+E deu a terra deles como herança,
+O seu amor dura para sempre! 
+Como herança ao seu servo Israel.
+O seu amor dura para sempre! 
+Àquele que se lembrou de nós
+quando fomos humilhados
+O seu amor dura para sempre! 
+E nos livrou dos nossos adversários;
+O seu amor dura para sempre! 
+Àquele que dá alimento
+a todos os seres vivos.
+O seu amor dura para sempre! 
+Deem graças ao Deus dos céus.
+O seu amor dura para sempre! 
+ Salmo 136
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 143
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_143/
 INFO:root:🔹 Description: Ouve, Senhor, a minha oração,
@@ -153,91 +215,90 @@ Ele tira o ânimo dos governantes
 e é temido pelos reis da terra. 
  Salmo 76
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 148
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_148/
-INFO:root:🔹 Description: Aleluia!
-Louvem o Senhor desde os céus,
-louvem-no nas alturas! 
-Louvem-no todos os seus anjos,
-louvem-no todos os seus exércitos celestiais. 
-Louvem-no sol e lua,
-louvem-no todas as estrelas cintilantes. 
-Louvem-no os mais altos céus
-e as águas acima do firmamento. 
-Louvem todos eles o nome do Senhor,
-pois ordenou, e eles foram criados. 
-Ele os estabeleceu em seus lugares
-para todo o sempre;
-deu-lhes um decreto que jamais mudará. 
-Louvem o Senhor, vocês que estão na terra,
-serpentes marinhas e todas as profundezas, 
-relâmpagos e granizo, neve e neblina,
-vendavais que cumprem o que ele determina, 
-todas as montanhas e colinas,
-árvores frutíferas e todos os cedros, 
-todos os animais selvagens
-e os rebanhos domésticos,
-todos os demais seres vivos e as aves, 
-reis da terra e todas as nações,
-todos os governantes e juízes da terra, 
-moços e moças, velhos e crianças. 
-Louvem todos o nome do Senhor,
-pois somente o seu nome é exaltado;
-a sua majestade está acima
-da terra e dos céus. 
-Ele concedeu poder ao seu povo
-e recebeu louvor de todos os seus fiéis,
-dos israelitas, povo a quem ele tanto ama.
-Aleluia! 
- Salmo 148
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 323154 characters
-INFO:root:HTML parsed, length: 314002 characters
-INFO:root:Found 3 titles: ['Prossiga para o alvo', 'Quando a sabedoria nos afasta da fonte', 'Preparando-se para as Bodas do Cordeiro']
+INFO:root:Response length: 322777 characters
+INFO:root:HTML parsed, length: 313618 characters
+INFO:root:Found 3 titles: ['A provisão que quebra as correntes', 'Prossiga para o alvo', 'Quando a sabedoria nos afasta da fonte']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Irmãos, não penso que eu mesmo já o tenha alcançad', 'À medida que Salomão foi envelhecendo, suas mulher', 'Regozijemo-nos! Vamos alegrar-nos\ne dar-lhe glória']
-INFO:root:Found 1 dates: ['Domingo, 22 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Na noite anterior ao dia em que Herodes iria subme', 'Irmãos, não penso que eu mesmo já o tenha alcançad', 'À medida que Salomão foi envelhecendo, suas mulher']
+INFO:root:Found 1 dates: ['Segunda, 23 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Prossiga para o alvo', ID=f6d9cc9615d350b9970abec4f29bfa0b
+INFO:root:Processing entry 1: Title='A provisão que quebra as correntes', ID=aeab895d4aff49641499b2b77b470b9a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Prossiga para o alvo - Palavra de Hoje
+INFO:root:🔹 Title: A provisão que quebra as correntes - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Irmãos, não penso que eu mesmo já o tenha alcançado, mas uma coisa faço: esquecendo-me das coisas que ficaram para trás e avançando para as que estão adiante, prossigo para o alvo, a fim de ganhar o prêmio do chamado celestial de Deus em Cristo Jesus.
-- Filipenses 3:13-14
+INFO:root:🔹 Description: Na noite anterior ao dia em que Herodes iria submetê-lo a julgamento, Pedro estava dormindo entre dois soldados, preso com duas algemas, e sentinelas montavam guarda à entrada do cárcere.
+Repentinamente apareceu um anjo do Senhor, e uma luz brilhou na cela. Ele tocou no lado de Pedro e o acordou. "Depressa, levante-se!", disse ele. Então as algemas caíram dos punhos de Pedro.
+- Atos dos Apóstolos 12:6-7
 
-O apóstolo Paulo nos ensina que a vida não é sobre perfeição, mas sobre direção constante. Ele reconhece que ainda não alcançou tudo, mas decidiu não permanecer preso ao passado. Essa declaração revela maturidade espiritual: entender que Deus não nos chama para viver acorrentados aos erros, culpas ou até mesmo às antigas conquistas.
-Muitos deixam de avançar porque continuam olhando para trás. Alguns são paralisados por fracassos; outros, acomodados por vitórias antigas. Porém, o chamado de Deus é progressivo. Há sempre mais crescimento, mais profundidade, mais propósito. Esquecer, aqui, não significa apagar a memória, mas recusar-se a permitir que o passado determine o futuro.
-Prosseguir para o alvo exige foco. O mundo oferece distrações, atalhos e falsas recompensas, mas o prêmio do chamado celestial é incomparável. Trata-se de viver segundo a vontade de Deus, de refletir Cristo em nossas atitudes e de permanecer firmes mesmo quando o caminho se torna difícil.
-Avançar também exige fé. Nem sempre veremos claramente o que está adiante, mas confiamos naquele que nos chamou. Deus não desperdiça dores, não ignora esforços e não abandona aqueles que caminham com Ele. Cada passo dado em obediência nos aproxima do propósito eterno.
-Hoje é dia de decidir seguir em frente. Liberte-se do peso do ontem. Ajuste seus olhos ao alvo. Renove sua confiança no Senhor. O chamado continua ativo, o prêmio permanece diante de você e a graça de Deus é suficiente para sustentar sua jornada.
-Prossiga. O melhor de Deus ainda está adiante!
-Veja também: Filipenses 3:13-14 explicado: Prossigo para o alvo (Estudo Bíblico)
+A cena descrita nesse trecho é marcada por contraste: prisão e liberdade, escuridão e luz, medo e coragem. Pedro estava acorrentado, vigiado e aparentemente sem saída. Humanamente falando, não havia esperança, mas enquanto tudo parecia perdido, o céu estava em movimento.
+O que mais impressiona é que Pedro dormia. Em meio à ameaça de morte e as correntes, ele descansava. Esse detalhe revela confiança. Quando a fé é verdadeira, ela não ignora a realidade das prisões, mas descansa na soberania de Deus. Pedro sabia que sua vida estava nas mãos do Senhor.
+A intervenção foi repentina, uma luz brilhou na cela. Deus não precisa de portas abertas para agir; Ele entra onde ninguém mais pode entrar. As correntes caíram sem esforço. Aquilo que prendia Pedro não resistiu ao toque de Deus.
+Assim também acontece conosco. Existem prisões emocionais, espirituais que parecem inquebráveis. Medos, pecados, traumas, situações impossíveis. Mas quando Deus decide agir, nenhuma corrente permanece.
+Essa passagem nos ensina que mesmo quando estamos cercados por limitações, Deus continua soberano. A libertação pode não vir no nosso tempo, mas virá no tempo perfeito d’Ele. Nossa parte é confiar, vigiar em oração e permanecer firmes.
+Se hoje você se sente preso, lembre-se: a luz de Deus alcança qualquer cela. E quando Ele toca, as correntes caem.
+Veja também: Versículos sobre provisão de Deus
  
-Irmãos, não penso que eu mesmo já o tenha alcançado, mas uma coisa faço: esquecendo-me das coisas que ficaram para trás e avançando para as que estão adiante, prossigo para o alvo, a fim de ganhar o prêmio do chamado celestial de Deus em Cristo Jesus.
-- Filipenses 3:13-14
+Na noite anterior ao dia em que Herodes iria submetê-lo a julgamento, Pedro estava dormindo entre dois soldados, preso com duas algemas, e sentinelas montavam guarda à entrada do cárcere.
+Repentinamente apareceu um anjo do Senhor, e uma luz brilhou na cela. Ele tocou no lado de Pedro e o acordou. "Depressa, levante-se!", disse ele. Então as algemas caíram dos punhos de Pedro.
+- Atos dos Apóstolos 12:6-7
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 332139 characters
-INFO:root:HTML parsed, length: 322535 characters
-INFO:root:Found 3 titles: ['Reter o que é bom', 'Você colhe o que plantar!', 'Gafanhoto ou filho de Deus?']
-INFO:root:Found 1 URLs: ['/santificacao/']
-INFO:root:Found 3 descriptions: ['mas ponham à prova todas as coisas e fiquem com o ', 'Não se deixem enganar: de Deus não se zomba. Pois ', 'E espalharam entre os israelitas um relatório nega']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n22\nDOMINGO', 'FEVEREIRO\n\n21\nSÁBADO', 'FEVEREIRO\n\n20\nSEXTA']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Reter o que é bom', ID=02e72965e7a2b7389353fe45b65c7a0c
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 332790 characters
+INFO:root:HTML parsed, length: 323195 characters
+INFO:root:Found 3 titles: ['Mesmo quando tudo falta, Deus é suficiente!', 'Reter o que é bom', 'Você colhe o que plantar!']
+INFO:root:Found 2 URLs: ['/versiculos_para_momentos_dificeis/', '/santificacao/']
+INFO:root:Found 3 descriptions: ['Mesmo não florescendo a figueira\ne não havendo uva', 'mas ponham à prova todas as coisas e fiquem com o ', 'Não se deixem enganar: de Deus não se zomba. Pois ']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n23\nSEGUNDA', 'FEVEREIRO\n\n22\nDOMINGO', 'FEVEREIRO\n\n21\nSÁBADO']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Mesmo quando tudo falta, Deus é suficiente!', ID=f20883c3928e647363c68fb6424b859a
+INFO:root:Processing entry 2: Title='Reter o que é bom', ID=02e72965e7a2b7389353fe45b65c7a0c
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Mesmo quando tudo falta, Deus é suficiente!
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_momentos_dificeis/
+INFO:root:🔹 Description: Mesmo não florescendo a figueira
+e não havendo uvas nas videiras,
+mesmo falhando a safra de azeitonas
+e não havendo produção de alimento
+nas lavouras,
+nem ovelhas no curral,
+nem bois nos estábulos, ainda assim eu exultarei no Senhor
+e me alegrarei
+no Deus da minha salvação. O Senhor,o Soberano, é a minha força;
+ele faz os meus pés como os do cervo;
+faz-me andar em lugares altos.
+Para o mestre de música. Para os meus instrumentos de cordas.
+- Habacuque 3:17-19
+
+O profeta Habacuque descreve um cenário de completa escassez. Figueiras sem frutos, vinhas vazias, campos improdutivos e estábulos silenciosos. Para aquele tempo, isso significava crise econômica, fome e insegurança. Era o retrato do colapso total. Ainda assim, ele declara algo surpreendente: “eu exultarei no Senhor”.
+Essa é uma fé que não depende das circunstâncias. Não é uma alegria baseada na prosperidade, mas na presença de Deus. Habacuque nos ensina que a verdadeira segurança não está no que temos, mas em Quem temos. Quando tudo falha, Deus permanece.
+Vivemos dias em que muitas “figueiras” deixam de florescer: sonhos frustrados, portas que se fecham, recursos que acabam, respostas que não chegam. Humanamente, a tendência é desanimar. Porém, o texto nos conduz a uma decisão espiritual profunda: escolher confiar mesmo quando não entendemos.
+“O Senhor, o Soberano, é a minha força.” A força não vem das circunstâncias favoráveis, mas da comunhão com Deus. Ele nos dá pés como os do cervo, firmes, ágeis e capazes de subir montanhas íngremes. Ele nos conduz a lugares altos, acima do desespero e da desesperança.
+A fé madura não nega a dor, mas declara confiança apesar dela. Exultar em meio à escassez é afirmar que Deus é maior que qualquer crise.
+Que aprendamos a louvar antes do milagre, confiar antes da resposta e permanecer firmes quando tudo parece incerto. Porque, quando Deus é nossa salvação, nada nos falta de fato.
+A alegria que nasce da confiança inabalável em Deus
+
+A verdadeira fé não se apoia nas circunstâncias visíveis, mas na certeza do caráter de Deus, que permanece fiel mesmo quando tudo parece ruir.
+Louvar em tempos difíceis é um ato de coragem espiritual, declarando que nossa esperança está no Senhor, acima das perdas momentâneas.
+Deus nos fortalece nas crises, transforma fraqueza em resistência e nos conduz a lugares altos, onde enxergamos propósito além das dificuldades.
+
+Para orar:
+
+Senhor Deus, mesmo quando tudo parece faltar, sustenta o nosso coração com Tua presença. Ensina-nos a confiar além das circunstâncias, a louvar em meio às dificuldades e a descansar na Tua soberania. Sê a nossa força, renova nossa esperança e guia nossos passos em lugares altos. Em nome de Jesus, amém.
+
+Veja também: 17 versículos de força em momentos difíceis
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Reter o que é bom
 INFO:root:🔹 URL: https://www.bibliaon.com/santificacao/
 INFO:root:🔹 Description: mas ponham à prova todas as coisas e fiquem com o que é bom.
@@ -290,15 +351,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  27 ++--
- feeds/devocional_de_hoje/feed.json        |   8 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  23 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  34 +++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  24 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +--
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  70 ++++----
+ feeds/salmo_do_dia/atom.xml               |  96 ++++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 254 +++++++++++++++---------------
- 11 files changed, 228 insertions(+), 228 deletions(-)
+ output.log                                | 287 +++++++++++++++++-------------
+ 11 files changed, 313 insertions(+), 202 deletions(-)
