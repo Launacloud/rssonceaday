@@ -1,82 +1,121 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 125559 characters
-INFO:root:HTML parsed, length: 118466 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (23/02/2026)', 'Palavra de Ontem (22/02/2026)', 'Palavra de Anteontem (21/02/2026)']
-INFO:root:Found 3 URLs: ['/resumo/', '/contribuinte/', '/pedantice/']
-INFO:root:Found 14 descriptions: ['substantivo masculino Ato ou efeito de resumir, de', 'Sinônimos:\n\ncompêndio, epítome, resenha, sinopse, ', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (23/02/2026)', 'Palavra de Ontem (22/02/2026)', 'Palavra de Anteontem (21/02/2026)']
+INFO:root:Response length: 125425 characters
+INFO:root:HTML parsed, length: 118515 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (24/02/2026)', 'Palavra de Ontem (23/02/2026)', 'Palavra de Anteontem (22/02/2026)']
+INFO:root:Found 3 URLs: ['/interlocucao/', '/resumo/', '/contribuinte/']
+INFO:root:Found 13 descriptions: ['substantivo feminino Conversação entre duas ou mai', 'Sinônimos:\n\ndiálogo, conversa, comunicação, intera', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (24/02/2026)', 'Palavra de Ontem (23/02/2026)', 'Palavra de Anteontem (22/02/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (23/02/2026)', ID=99400a869cf85b1515a3217fdd0ec2c3
-INFO:root:Processing entry 2: Title='Palavra de Ontem (22/02/2026)', ID=a612db9ee125e444157059a5dadf216b
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/02/2026)', ID=40b1972399db145b4807cf6578edb0ad
+INFO:root:Processing entry 1: Title='Palavra de Hoje (24/02/2026)', ID=6a38833dea5b763a9b91c5c313841d2d
+INFO:root:Processing entry 2: Title='Palavra de Ontem (23/02/2026)', ID=af54bdb561ecaecb8f84f7d0dc8c3690
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/02/2026)', ID=0ae3a49399a349bd814628463731f28b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (23/02/2026) - Significado completo de resumo:
-INFO:root:🔹 URL: https://www.dicio.com.br/resumo/
-INFO:root:🔹 Description: substantivo masculino Ato ou efeito de resumir, de reduzir a poucas palavras; sumário, síntese, sinopse: resumo de um livro.Exposição sucinta de um fato, situação, de um acontecimento ou das particularidades de alguma coisa, com o intuito de passar a ideia geral do seu conteúdo.Ato de recapitular brevemente um assunto em poucas palavras; recapitulação.Algo ou alguém que representa certas características e qualidades.locução adverbial Em resumo. Em poucas palavras; em síntese: em resumo, a conferência atingiu o seu propósito.Etimologia (origem da palavra resumo). A palavra resumo deriva como forma reduzida do verbo resumir.
+INFO:root:🔹 Title: Palavra de Hoje (24/02/2026) - Significado completo de interlocução:
+INFO:root:🔹 URL: https://www.dicio.com.br/interlocucao/
+INFO:root:🔹 Description: substantivo feminino Conversação entre duas ou mais pessoas; diálogo.Fala que sobrevém no decurso de uma conversa, interrompendo-lhe o fluxo.[Jurídico] Decisão judicial para resolver uma questão que aparece no decorrer de um processo sem que isso interrompa seu curso; despacho interlocutório.Etimologia (origem da palavra interlocução). A palavra interlocução tem sua origem no latim “interlocutio,onis” que significa ação de interrogar, interpelar.
  
 Sinônimos:
 
-compêndio, epítome, resenha, sinopse, sumário, síntese, súmula, recapitulação 
+diálogo, conversa, comunicação, interação, discussão, colóquio, discurso, debate, consulta, parlamento, argumentação 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (22/02/2026) - Significado completo de contribuinte:
-INFO:root:🔹 URL: https://www.dicio.com.br/contribuinte/
+INFO:root:🔹 Title: Palavra de Ontem (23/02/2026) - Significado completo de resumo:
+INFO:root:🔹 URL: https://www.dicio.com.br/resumo/
 INFO:root:🔹 Description: Sinônimos:
 
-compêndio, epítome, resenha, sinopse, sumário, síntese, súmula, recapitulação
- Classe gramatical:substantivo masculino
+diálogo, conversa, comunicação, interação, discussão, colóquio, discurso, debate, consulta, parlamento, argumentação
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (21/02/2026) - Significado completo de pedantice:
-INFO:root:🔹 URL: https://www.dicio.com.br/pedantice/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:re-su-mo
+INFO:root:🔹 Title: Palavra de Anteontem (22/02/2026) - Significado completo de contribuinte:
+INFO:root:🔹 URL: https://www.dicio.com.br/contribuinte/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:in-ter-lo-cu-ção
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320449 characters
-INFO:root:HTML parsed, length: 310840 characters
-INFO:root:Found 1 titles: ['Salmos 25:4-5']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_25_4-5/']
-INFO:root:Found 1 descriptions: ['Mostra-me, Senhor, os teus caminhos,\nensina-me as ']
+INFO:root:Response length: 320701 characters
+INFO:root:HTML parsed, length: 311092 characters
+INFO:root:Found 1 titles: ['1 Coríntios 12:12-13']
+INFO:root:Found 1 URLs: ['/versiculo/1_corintios_12_12-13/']
+INFO:root:Found 1 descriptions: ['Ora, assim como o corpo é uma unidade, embora tenh']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 25:4-5', ID=5ca0a489700690b59c25bd5d2922159f
+INFO:root:Processing entry 1: Title='1 Coríntios 12:12-13', ID=c399fe1747951d906ab5ee97c300865c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 25:4-5
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_25_4-5/
-INFO:root:🔹 Description: Mostra-me, Senhor, os teus caminhos,
-ensina-me as tuas veredas; guia-me com a tua verdade e ensina-me,
-pois tu és Deus, meu Salvador,
-e a minha esperança está em ti o tempo todo. Salmos 25:4-5
+INFO:root:🔹 Title: 1 Coríntios 12:12-13
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_corintios_12_12-13/
+INFO:root:🔹 Description: Ora, assim como o corpo é uma unidade, embora tenha muitos membros, e todos os membros, mesmo sendo muitos, formam um só corpo, assim também com respeito a Cristo. Pois em um só corpo todos nós fomos batizados em um único Espírito: quer judeus, quer gregos, quer escravos, quer livres. E a todos nós foi dado beber de um único Espírito. 1 Coríntios 12:12-13
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320680 characters
-INFO:root:HTML parsed, length: 311873 characters
-INFO:root:Found 3 titles: ['Salmo 136', 'Salmo 143', 'Salmo 76']
-INFO:root:Found 3 URLs: ['/salmos_136/', '/salmos_143/', '/salmos_76/']
-INFO:root:Found 3 descriptions: ['Deem graças ao Senhor, porque ele é bom.\nO seu amo', 'Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Em Judá Deus é conhecido;\no seu nome é grande em I']
-INFO:root:Found 3 dates: ['23 de Fevereiro de 2026', '22 de Fevereiro de 2026', '21 de Fevereiro de 2026']
+INFO:root:Response length: 320850 characters
+INFO:root:HTML parsed, length: 312047 characters
+INFO:root:Found 3 titles: ['Salmo 48', 'Salmo 136', 'Salmo 143']
+INFO:root:Found 3 URLs: ['/salmos_48/', '/salmos_136/', '/salmos_143/']
+INFO:root:Found 3 descriptions: ['Grande é o Senhor,\ne digno de todo louvor\nna cidad', 'Deem graças ao Senhor, porque ele é bom.\nO seu amo', 'Ouve, Senhor, a minha oração,\ndá ouvidos à minha s']
+INFO:root:Found 3 dates: ['24 de Fevereiro de 2026', '23 de Fevereiro de 2026', '22 de Fevereiro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 136', ID=0466a24f0d7612131a62aaffef81edc4
-INFO:root:Processing entry 2: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
-INFO:root:Processing entry 3: Title=' Salmo 76', ID=5ab438a54757379c1a6b9ad8dc6df77b
+INFO:root:Processing entry 1: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
+INFO:root:Processing entry 2: Title=' Salmo 136', ID=0466a24f0d7612131a62aaffef81edc4
+INFO:root:Processing entry 3: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 48
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_48/
+INFO:root:🔹 Description: Grande é o Senhor,
+e digno de todo louvor
+na cidade do nosso Deus. 
+Seu santo monte, belo e majestoso,
+é a alegria de toda a terra.
+Como as alturas do Zafom é o monte Sião,
+a cidade do grande Rei. 
+Nas suas cidadelas
+Deus se revela como sua proteção. 
+Vejam! Os reis somaram forças,
+e juntos avançaram contra ela. 
+Quando a viram, ficaram atônitos,
+fugiram aterrorizados. 
+Ali mesmo o pavor os dominou;
+contorceram-se como a mulher no parto. 
+Foste como o vento oriental
+quando destruiu os navios de Társis. 
+Como já temos ouvido,
+agora também temos visto
+na cidade do Senhor dos Exércitos,
+na cidade de nosso Deus:
+Deus a preserva firme para sempre. 
+No teu templo, ó Deus,
+meditamos em teu amor leal. 
+Como o teu nome, ó Deus,
+o teu louvor alcança os confins da terra;
+a tua mão direita está cheia de justiça. 
+O monte Sião se alegra,
+as cidades de Judá exultam
+por causa das tuas decisões justas. 
+Percorram Sião, contornando-a,
+contem as suas torres, 
+observem bem as suas muralhas,
+examinem as suas cidadelas,
+para que vocês falem à próxima geração 
+que este Deus é o nosso Deus
+para todo o sempre;
+ele será o nosso guia até o fim. 
+ Salmo 48
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 136
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_136/
 INFO:root:🔹 Description: Deem graças ao Senhor, porque ele é bom.
@@ -179,92 +218,80 @@ destrói todos os meus adversários,
 pois sou teu servo. 
  Salmo 143
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 76
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_76/
-INFO:root:🔹 Description: Em Judá Deus é conhecido;
-o seu nome é grande em Israel. 
-Sua tenda está em Salém;
-o lugar da sua habitação está em Sião. 
-Ali quebrou ele as flechas reluzentes,
-os escudos e as espadas,
-as armas de guerra. 
-Resplendes de luz!
-És mais majestoso que os montes
-cheios de despojos. 
-Os homens valorosos jazem saqueados,
-dormem o sono final;
-nenhum dos guerreiros
-foi capaz de erguer as mãos. 
-Diante da tua repreensão, ó Deus de Jacó,
-o cavalo e o carro estacaram. 
-Somente tu és temível.
-Quem poderá permanecer diante de ti
-quando estiveres irado? 
-Dos céus pronunciaste juízo,
-e a terra tremeu e emudeceu, 
-quando tu, ó Deus, te levantaste para julgar,
-para salvar todos os oprimidos da terra. 
-Até a tua ira contra os homens
-redundará em teu louvor,
-e os sobreviventes da tua ira se refrearão. 
-Façam votos ao Senhor, ao seu Deus,
-e não deixem de cumpri-los;
-que todas as nações vizinhas tragam presentes
-a quem todos devem temer. 
-Ele tira o ânimo dos governantes
-e é temido pelos reis da terra. 
- Salmo 76
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 322777 characters
-INFO:root:HTML parsed, length: 313618 characters
-INFO:root:Found 3 titles: ['A provisão que quebra as correntes', 'Prossiga para o alvo', 'Quando a sabedoria nos afasta da fonte']
+INFO:root:Response length: 322467 characters
+INFO:root:HTML parsed, length: 313309 characters
+INFO:root:Found 3 titles: ['Caminhando em paz', 'A provisão que quebra as correntes', 'Prossiga para o alvo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Na noite anterior ao dia em que Herodes iria subme', 'Irmãos, não penso que eu mesmo já o tenha alcançad', 'À medida que Salomão foi envelhecendo, suas mulher']
-INFO:root:Found 1 dates: ['Segunda, 23 de fevereiro de 2026']
+INFO:root:Found 3 descriptions: ['Deixo a paz a vocês; a minha paz dou a vocês. Não ', 'Na noite anterior ao dia em que Herodes iria subme', 'Irmãos, não penso que eu mesmo já o tenha alcançad']
+INFO:root:Found 1 dates: ['Terça, 24 de fevereiro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A provisão que quebra as correntes', ID=aeab895d4aff49641499b2b77b470b9a
+INFO:root:Processing entry 1: Title='Caminhando em paz', ID=075606637c188c75d36b37efbb8bee1a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A provisão que quebra as correntes - Palavra de Hoje
+INFO:root:🔹 Title: Caminhando em paz - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Na noite anterior ao dia em que Herodes iria submetê-lo a julgamento, Pedro estava dormindo entre dois soldados, preso com duas algemas, e sentinelas montavam guarda à entrada do cárcere.
-Repentinamente apareceu um anjo do Senhor, e uma luz brilhou na cela. Ele tocou no lado de Pedro e o acordou. "Depressa, levante-se!", disse ele. Então as algemas caíram dos punhos de Pedro.
-- Atos dos Apóstolos 12:6-7
+INFO:root:🔹 Description: Deixo a paz a vocês; a minha paz dou a vocês. Não a dou como o mundo a dá. Não se perturbe o seu coração, nem tenham medo.
+- João 14:27
 
-A cena descrita nesse trecho é marcada por contraste: prisão e liberdade, escuridão e luz, medo e coragem. Pedro estava acorrentado, vigiado e aparentemente sem saída. Humanamente falando, não havia esperança, mas enquanto tudo parecia perdido, o céu estava em movimento.
-O que mais impressiona é que Pedro dormia. Em meio à ameaça de morte e as correntes, ele descansava. Esse detalhe revela confiança. Quando a fé é verdadeira, ela não ignora a realidade das prisões, mas descansa na soberania de Deus. Pedro sabia que sua vida estava nas mãos do Senhor.
-A intervenção foi repentina, uma luz brilhou na cela. Deus não precisa de portas abertas para agir; Ele entra onde ninguém mais pode entrar. As correntes caíram sem esforço. Aquilo que prendia Pedro não resistiu ao toque de Deus.
-Assim também acontece conosco. Existem prisões emocionais, espirituais que parecem inquebráveis. Medos, pecados, traumas, situações impossíveis. Mas quando Deus decide agir, nenhuma corrente permanece.
-Essa passagem nos ensina que mesmo quando estamos cercados por limitações, Deus continua soberano. A libertação pode não vir no nosso tempo, mas virá no tempo perfeito d’Ele. Nossa parte é confiar, vigiar em oração e permanecer firmes.
-Se hoje você se sente preso, lembre-se: a luz de Deus alcança qualquer cela. E quando Ele toca, as correntes caem.
-Veja também: Versículos sobre provisão de Deus
+Este caminho com Cristo começa no coração. Quando confiamos nossas preocupações ao Senhor, aprendemos a respirar com esperança e a caminhar sem pressa. A fé nos lembra que não estamos sozinhos, mesmo quando o dia pesa, e isso faz uma diferença na nossa caminhada.
+Caminhar em paz é escolher ouvir a voz de Deus acima do barulho do medo. É orar com sinceridade, agradecer pelo simples e descansar na promessa de que Ele cuida de nós. Jesus nos convida a lançar sobre Ele nossas ansiedades, porque Seu amor é firme e constante. Assim, o coração encontra descanso e a mente se aquieta.
+Na prática, essa paz se constrói no dia a dia. Perdoar quando dói, amar quando cansa, confiar quando não entendemos. A Palavra ilumina o caminho e o Espírito Santo fortalece os nossos passos. Cada decisão guiada pelo amor se torna um testemunho vivo da graça de Deus.
+Com olhos voltados para Cristo, seguimos adiante, certos de que Ele vai à frente. Caminhar em paz é viver com esperança, servir com alegria e descansar na fidelidade do Pai. Que nossos passos reflitam essa paz, hoje e sempre.
+A paz cresce quando escolhemos a verdade, a justiça e a misericórdia. Pequenos gestos, como ouvir, ajudar e orar juntos, revelam o Reino de Deus no cotidiano. Mesmo em tempos difíceis, a confiança floresce, porque sabemos que a última palavra pertence ao amor que vence o mal.
+Siga firme, confiando em Deus, esperando com paciência, escolhendo a paz como estilo de vida, sustentados pela graça, guiados pela Palavra, fortalecidos pela oração constante e amor verdadeiro sempre!
+Veja também: 23 versículos de confiança em Deus
  
-Na noite anterior ao dia em que Herodes iria submetê-lo a julgamento, Pedro estava dormindo entre dois soldados, preso com duas algemas, e sentinelas montavam guarda à entrada do cárcere.
-Repentinamente apareceu um anjo do Senhor, e uma luz brilhou na cela. Ele tocou no lado de Pedro e o acordou. "Depressa, levante-se!", disse ele. Então as algemas caíram dos punhos de Pedro.
-- Atos dos Apóstolos 12:6-7
+Deixo a paz a vocês; a minha paz dou a vocês. Não a dou como o mundo a dá. Não se perturbe o seu coração, nem tenham medo.
+- João 14:27
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 332790 characters
-INFO:root:HTML parsed, length: 323195 characters
-INFO:root:Found 3 titles: ['Mesmo quando tudo falta, Deus é suficiente!', 'Reter o que é bom', 'Você colhe o que plantar!']
-INFO:root:Found 2 URLs: ['/versiculos_para_momentos_dificeis/', '/santificacao/']
-INFO:root:Found 3 descriptions: ['Mesmo não florescendo a figueira\ne não havendo uva', 'mas ponham à prova todas as coisas e fiquem com o ', 'Não se deixem enganar: de Deus não se zomba. Pois ']
-INFO:root:Found 3 dates: ['FEVEREIRO\n\n23\nSEGUNDA', 'FEVEREIRO\n\n22\nDOMINGO', 'FEVEREIRO\n\n21\nSÁBADO']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Mesmo quando tudo falta, Deus é suficiente!', ID=f20883c3928e647363c68fb6424b859a
-INFO:root:Processing entry 2: Title='Reter o que é bom', ID=02e72965e7a2b7389353fe45b65c7a0c
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 333328 characters
+INFO:root:HTML parsed, length: 323732 characters
+INFO:root:Found 3 titles: ['Colocando a fé em ação', 'Mesmo quando tudo falta, Deus é suficiente!', 'Reter o que é bom']
+INFO:root:Found 3 URLs: ['/versiculos_para_fortalecer_a_fe/', '/versiculos_para_momentos_dificeis/', '/santificacao/']
+INFO:root:Found 3 descriptions: ['Assim também a fé, se não tiver obras, é morta em ', 'Mesmo não florescendo a figueira\ne não havendo uva', 'mas ponham à prova todas as coisas e fiquem com o ']
+INFO:root:Found 3 dates: ['FEVEREIRO\n\n24\nTERÇA', 'FEVEREIRO\n\n23\nSEGUNDA', 'FEVEREIRO\n\n22\nDOMINGO']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Colocando a fé em ação', ID=2f36648e4dda495e44ab8bf890ab88f8
+INFO:root:Processing entry 2: Title='Mesmo quando tudo falta, Deus é suficiente!', ID=f20883c3928e647363c68fb6424b859a
+INFO:root:Processing entry 3: Title='Reter o que é bom', ID=02e72965e7a2b7389353fe45b65c7a0c
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Colocando a fé em ação
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_fortalecer_a_fe/
+INFO:root:🔹 Description: Assim também a fé, se não tiver obras, é morta em si mesma.
+- Tiago 2:17
+
+A fé é mais do que palavras bonitas ou sentimentos guardados no coração; ela é uma força viva que transforma atitudes, decisões e relacionamentos.
+Quando cremos verdadeiramente em Deus, essa confiança se reflete em nossas ações diárias. Colocar a fé em ação significa permitir que aquilo que acreditamos molde a maneira como vivemos.
+No dia a dia, exercemos a fé quando escolhemos confiar em Deus. Ao enfrentar dificuldades financeiras, por exemplo, podemos agir com honestidade e integridade, crendo que o Senhor é nosso provedor. Em momentos de enfermidade, exercitamos a fé ao orar, manter a esperança e apoiar-nos nas promessas de Deus, sem perder a confiança em Seu cuidado.
+Também colocamos a fé em prática quando perdoamos alguém que nos feriu. O perdão é uma atitude concreta que demonstra obediência aos ensinamentos de Cristo. Amar o próximo, ajudar alguém em necessidade, oferecer uma palavra de encorajamento ou repartir o que temos com quem passa por dificuldades são atitudes simples, mas poderosas.
+No ambiente de trabalho ou na escola, viver a fé significa agir com ética, respeito e responsabilidade, mesmo quando ninguém está observando. É escolher o caminho certo, ainda que seja mais difícil. Em casa, a fé se manifesta na paciência com a família, na oração em conjunto e no exemplo de caráter cristão.
+Colocar a fé em ação é viver de maneira coerente com aquilo que professamos. Quando nossas atitudes refletem nossa confiança em Deus, tornamo-nos testemunhas vivas do Seu amor. Assim, nossa fé deixa de ser apenas discurso e se torna prática transformadora no mundo ao nosso redor.
+5 Pontos práticos para colocar a fé em ação no seu dia
+
+Orar diariamente com perseverança
+Ajudar necessitados com amor e sem julgar
+Perdoar sempre sem guardar mágoas
+Agir com honestidade constante
+Permanecer confiante em Deus nas dificuldades
+
+Para orar:
+
+Senhor Deus amado, agradeço-Te por mais um dia de vida e pela Tua presença constante ao meu lado. Fortalece minha fé diante das dificuldades, guia meus passos segundo a Tua vontade e enche meu coração de amor, paz e esperança. Ajuda-me a confiar em Ti em todo tempo, servindo com alegria e vivendo para glorificar o Teu nome. Em nome de Jesus , amém
+
+Veja também: 8 versículos para fortalecer a sua fé
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Mesmo quando tudo falta, Deus é suficiente!
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_momentos_dificeis/
 INFO:root:🔹 Description: Mesmo não florescendo a figueira
@@ -351,15 +378,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  34 +++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  27 +++-
  feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  24 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  24 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  96 ++++++----
+ feeds/salmo_do_dia/atom.xml               |  76 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 287 +++++++++++++++++-------------
- 11 files changed, 313 insertions(+), 202 deletions(-)
+ output.log                                | 259 ++++++++++++++++--------------
+ 11 files changed, 251 insertions(+), 208 deletions(-)
