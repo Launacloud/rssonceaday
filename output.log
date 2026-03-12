@@ -1,79 +1,150 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 126642 characters
-INFO:root:HTML parsed, length: 119709 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (11/03/2026)', 'Palavra de Ontem (10/03/2026)', 'Palavra de Anteontem (09/03/2026)']
-INFO:root:Found 3 URLs: ['/ditadura/', '/xepa/', '/volta/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Regime autoritário de governo', 'Sinônimos:\n\nabsolutismo, tirania, autocracia, desp', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (11/03/2026)', 'Palavra de Ontem (10/03/2026)', 'Palavra de Anteontem (09/03/2026)']
+INFO:root:Response length: 124432 characters
+INFO:root:HTML parsed, length: 117706 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (12/03/2026)', 'Palavra de Ontem (11/03/2026)', 'Palavra de Anteontem (10/03/2026)']
+INFO:root:Found 3 URLs: ['/tradutor/', '/ditadura/', '/xepa/']
+INFO:root:Found 12 descriptions: ['substantivo masculino Pessoa que faz traduções, qu', 'Sinônimos:\n\nintérprete', 'Classe gramatical:adjetivo e substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (12/03/2026)', 'Palavra de Ontem (11/03/2026)', 'Palavra de Anteontem (10/03/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (11/03/2026)', ID=8e163b3226590e5b5018bf4edca950b4
-INFO:root:Processing entry 2: Title='Palavra de Ontem (10/03/2026)', ID=aa0a2afbdfa5e8162dcb60dbcf205487
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/03/2026)', ID=c0d0eea4e68149cbca4950c8cb65e992
+INFO:root:Processing entry 1: Title='Palavra de Hoje (12/03/2026)', ID=2af4f923f9b6468298f49c98c5998660
+INFO:root:Processing entry 2: Title='Palavra de Ontem (11/03/2026)', ID=88190e1f5214e13a651cff2a2a5670db
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (10/03/2026)', ID=9d8b1f3ea3abe1000fd5d8d225f5b721
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (11/03/2026) - Significado completo de ditadura:
-INFO:root:🔹 URL: https://www.dicio.com.br/ditadura/
-INFO:root:🔹 Description: substantivo feminino Regime autoritário de governo que, para suprimir e restringir os direitos individuais, é definido pela soberania do Poder Executivo sobre o Legislativo e o Judiciário: o Brasil já esteve sob ditadura.[Política] País ou nação em que o governo é exercido dessa forma.[Por Extensão] Sistema antidemocrático em que o chefe de Estado não é escolhido por votações populares.[Figurado] Influência exagerada que uma pessoa ou coisa exerce sobre os demais: ditadura da beleza.Etimologia (origem da palavra ditadura). A palavra ditadura tem sua origem no latim "dictatura,ae", ofício do ditador.
+INFO:root:🔹 Title: Palavra de Hoje (12/03/2026) - Significado completo de tradutor:
+INFO:root:🔹 URL: https://www.dicio.com.br/tradutor/
+INFO:root:🔹 Description: substantivo masculino Pessoa que faz traduções, que decodifica uma obra escrita numa língua e transcreve para outra: precisamos de um tradutor de português para o espanhol.adjetivo Capaz de fazer traduções: tradutor on-line.Etimologia (origem da palavra tradutor). A palavra tradutor tem sua origem no latim “traductor,oris” com o mesmo sentido.
  
 Sinônimos:
 
-absolutismo, tirania, autocracia, despotismo, autoritarismo, arbitrariedade, cesarismo, opressão 
+intérprete 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (10/03/2026) - Significado completo de xepa:
-INFO:root:🔹 URL: https://www.dicio.com.br/xepa/
+INFO:root:🔹 Title: Palavra de Ontem (11/03/2026) - Significado completo de ditadura:
+INFO:root:🔹 URL: https://www.dicio.com.br/ditadura/
 INFO:root:🔹 Description: Sinônimos:
 
-absolutismo, tirania, autocracia, despotismo, autoritarismo, arbitrariedade, cesarismo, opressão
- Classe gramatical:substantivo feminino
+intérprete
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (09/03/2026) - Significado completo de volta:
-INFO:root:🔹 URL: https://www.dicio.com.br/volta/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:di-ta-du-ra
+INFO:root:🔹 Title: Palavra de Anteontem (10/03/2026) - Significado completo de xepa:
+INFO:root:🔹 URL: https://www.dicio.com.br/xepa/
+INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
+ Sílabas:tra-du-tor
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320439 characters
-INFO:root:HTML parsed, length: 310830 characters
-INFO:root:Found 1 titles: ['Romanos 12:12']
-INFO:root:Found 1 URLs: ['/versiculo/romanos_12_12/']
-INFO:root:Found 1 descriptions: ['Alegrem-se na esperança, sejam pacientes na tribul']
+INFO:root:Response length: 320292 characters
+INFO:root:HTML parsed, length: 310683 characters
+INFO:root:Found 1 titles: ['Salmos 100:4']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_100_4/']
+INFO:root:Found 1 descriptions: ['Entrem por suas portas com ações de graças\ne em se']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Romanos 12:12', ID=d96b70362af5924b64373c8ba1720b57
+INFO:root:Processing entry 1: Title='Salmos 100:4', ID=8c05de445df511737db272e4e3ebd317
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Romanos 12:12
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_12_12/
-INFO:root:🔹 Description: Alegrem-se na esperança, sejam pacientes na tribulação, perseverem na oração. Romanos 12:12
+INFO:root:🔹 Title: Salmos 100:4
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_100_4/
+INFO:root:🔹 Description: Entrem por suas portas com ações de graças
+e em seus átrios com louvor;
+deem-lhe graças e bendigam o seu nome. Salmos 100:4
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 322121 characters
-INFO:root:HTML parsed, length: 313329 characters
-INFO:root:Found 3 titles: ['Salmo 10', 'Salmo 91', 'Salmo 118']
-INFO:root:Found 3 URLs: ['/salmos_10/', '/salmos_91/', '/salmos_118/']
-INFO:root:Found 3 descriptions: ['Senhor, por que estás tão longe?\nPor que te escond', 'Aquele que habita no abrigo do Altíssimo\ne descans', 'Deem graças ao Senhor porque ele é bom;\no seu amor']
-INFO:root:Found 3 dates: ['11 de Março de 2026', '10 de Março de 2026', '9 de Março de 2026']
+INFO:root:Response length: 322118 characters
+INFO:root:HTML parsed, length: 313332 characters
+INFO:root:Found 3 titles: ['Salmo 74', 'Salmo 10', 'Salmo 91']
+INFO:root:Found 3 URLs: ['/salmos_74/', '/salmos_10/', '/salmos_91/']
+INFO:root:Found 3 descriptions: ['Por que nos rejeitaste definitivamente, ó Deus?\nPo', 'Senhor, por que estás tão longe?\nPor que te escond', 'Aquele que habita no abrigo do Altíssimo\ne descans']
+INFO:root:Found 3 dates: ['12 de Março de 2026', '11 de Março de 2026', '10 de Março de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
-INFO:root:Processing entry 2: Title=' Salmo 91', ID=ae2230ac157c45f9089a80ccb29436a2
-INFO:root:Processing entry 3: Title=' Salmo 118', ID=8fc6e7bb42ca393915a24ebaf7381156
+INFO:root:Processing entry 1: Title=' Salmo 74', ID=4d6b41387835ec778afe1a0518cbc6fe
+INFO:root:Processing entry 2: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
+INFO:root:Processing entry 3: Title=' Salmo 91', ID=ae2230ac157c45f9089a80ccb29436a2
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 74
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_74/
+INFO:root:🔹 Description: Por que nos rejeitaste definitivamente, ó Deus?
+Por que se acende a tua ira
+contra as ovelhas da tua pastagem? 
+Lembra-te do povo que adquiriste
+em tempos passados,
+da tribo da tua herança, que resgataste,
+do monte Sião, onde habitaste. 
+Volta os teus passos
+para aquelas ruínas irreparáveis,
+para toda a destruição
+que o inimigo causou em teu santuário. 
+Teus adversários gritaram triunfantes
+bem no local onde te encontravas conosco,
+e hastearam suas bandeiras em sinal de vitória. 
+Pareciam homens armados com machados
+invadindo um bosque cerrado. 
+Com seus machados e machadinhas
+esmigalharam todos os revestimentos
+de madeira esculpida. 
+Atearam fogo ao teu santuário;
+profanaram o lugar da habitação do teu nome. 
+Disseram no coração:
+"Vamos acabar com eles!"
+Queimaram todos os santuários do país. 
+Já não vemos sinais milagrosos;
+não há mais profetas,
+e nenhum de nós sabe
+até quando isso continuará. 
+Até quando o adversário irá zombar, ó Deus?
+Será que o inimigo blasfemará
+o teu nome para sempre? 
+Por que reténs a tua mão, a tua mão direita?
+Não fiques de braços cruzados! Destrói-os! 
+Mas tu, ó Deus,
+és o meu rei desde a antiguidade;
+trazes salvação sobre a terra. 
+Tu dividiste o mar pelo teu poder;
+quebraste as cabeças das serpentes das águas. 
+Esmagaste as cabeças do Leviatã
+e o deste por comida às criaturas do deserto. 
+Tu abriste fontes e regatos;
+secaste rios perenes. 
+O dia é teu, e tua também é a noite;
+estabeleceste o sol e a lua. 
+Determinaste todas as fronteiras da terra;
+fizeste o verão e o inverno. 
+Lembra-te de como o inimigo
+tem zombado de ti, ó Senhor,
+como os insensatos têm blasfemado o teu nome. 
+Não entregues a vida da tua pomba
+aos animais selvagens;
+não te esqueças para sempre da vida
+do teu povo indefeso. 
+Dá atenção à tua aliança,
+porque de antros de violência se enchem
+os lugares sombrios do país. 
+Não deixes que o oprimido
+se retire humilhado!
+Faze que o pobre e o necessitado
+louvem o teu nome. 
+Levanta-te, ó Deus, e defende a tua causa;
+lembra-te de como os insensatos
+zombam de ti sem cessar. 
+Não ignores a gritaria dos teus adversários,
+o crescente tumulto dos teus inimigos. 
+ Salmo 74
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 10
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_10/
 INFO:root:🔹 Description: Senhor, por que estás tão longe?
@@ -171,124 +242,84 @@ Vida longa eu lhe darei,
 e lhe mostrarei a minha salvação." 
  Salmo 91
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 118
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_118/
-INFO:root:🔹 Description: Deem graças ao Senhor porque ele é bom;
-o seu amor dura para sempre. 
-Que Israel diga:
-"O seu amor dura para sempre!" 
-Os sacerdotes digam:
-"O seu amor dura para sempre!" 
-Os que temem o Senhor digam:
-"O seu amor dura para sempre!" 
-Na minha angústia clamei ao Senhor;
-e o Senhor me respondeu,
-dando-me ampla liberdade. 
-O Senhor está comigo, não temerei.
-O que me podem fazer os homens? 
-O Senhor está comigo;
-ele é o meu ajudador.
-Verei a derrota dos meus inimigos. 
-É melhor buscar refúgio no Senhor
-do que confiar nos homens. 
-É melhor buscar refúgio no Senhor
-do que confiar em príncipes. 
-Todas as nações me cercaram,
-mas em nome do Senhor eu as derrotei. 
-Cercaram-me por todos os lados,
-mas em nome do Senhor eu as derrotei. 
-Cercaram-me como um enxame de abelhas,
-mas logo se extinguiram
-como espinheiros em chamas.
-Em nome do Senhor eu as derrotei! 
-Empurraram-me para forçar a minha queda,
-mas o Senhor me ajudou. 
-O Senhor é a minha força e o meu cântico;
-ele é a minha salvação. 
-Alegres brados de vitória
-ressoam nas tendas dos justos:
-"A mão direita do Senhor age com poder! 
-A mão direita do Senhor é exaltada!
-A mão direita do Senhor age com poder!" 
-Não morrerei; mas vivo ficarei
-para anunciar os feitos do Senhor. 
-O Senhor me castigou com severidade,
-mas não me entregou à morte. 
-Abram as portas da justiça para mim,
-pois quero entrar para dar graças ao Senhor. 
-Esta é a porta do Senhor,
-pela qual entram os justos. 
-Dou-te graças, porque me respondeste
-e foste a minha salvação. 
-A pedra que os construtores rejeitaram
-tornou-se a pedra angular. 
-Isso vem do Senhor,
-e é algo maravilhoso para nós. 
-Este é o dia em que o Senhor agiu;
-alegremo-nos e exultemos neste dia. 
-Salva-nos, Senhor! Nós imploramos.
-Faze-nos prosperar, Senhor! Nós suplicamos. 
-Bendito é o que vem em nome do Senhor.
-Da casa do Senhor nós os abençoamos. 
-O Senhor é Deus,
-e ele fez resplandecer sobre nós a sua luz.
-Juntem-se ao cortejo festivo,
-levando ramos até as pontas do altar. 
-Tu és o meu Deus; graças te darei!
-Ó meu Deus, eu te exaltarei! 
-Deem graças ao Senhor, porque ele é bom;
-o seu amor dura para sempre. 
- Salmo 118
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 322991 characters
-INFO:root:HTML parsed, length: 313831 characters
-INFO:root:Found 3 titles: ['Com Cristo crescemos juntos', 'Evite discussões desnecessárias', 'Quando a obediência abre caminho para o milagre']
+INFO:root:Response length: 323036 characters
+INFO:root:HTML parsed, length: 313877 characters
+INFO:root:Found 3 titles: ['Sua mente é o templo do Espírito Santo', 'Com Cristo crescemos juntos', 'Evite discussões desnecessárias']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Antes, seguindo a verdade em amor, cresçamos em tu', 'Evite as controvérsias tolas e inúteis, pois você ', 'Assim ele desceu ao Jordão, mergulhou sete vezes c']
-INFO:root:Found 1 dates: ['Quarta, 11 de março de 2026']
+INFO:root:Found 3 descriptions: ['Nossa mente é um dos lugares mais sagrados que pos', 'Antes, seguindo a verdade em amor, cresçamos em tu', 'Evite as controvérsias tolas e inúteis, pois você ']
+INFO:root:Found 1 dates: ['Quinta, 12 de março de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Com Cristo crescemos juntos', ID=c0e269fdcc66bdf727d9c45d7603f2e6
+INFO:root:Processing entry 1: Title='Sua mente é o templo do Espírito Santo', ID=12d636d547b266bea43bd0d0afac2673
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Com Cristo crescemos juntos - Palavra de Hoje
+INFO:root:🔹 Title: Sua mente é o templo do Espírito Santo - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Antes, seguindo a verdade em amor, cresçamos em tudo naquele que é a cabeça, Cristo.
-- Efésios 4:15
+INFO:root:🔹 Description: Nossa mente é um dos lugares mais sagrados que possuímos. É nela que nascem os pensamentos, os sonhos, as decisões e as intenções que direcionam nossa vida.
 
-A vida cristã nunca foi planejada por Deus para ser vivida de forma isolada. Desde o início, o Senhor nos chama para caminhar em comunhão, aprender uns com os outros e fortalecer nossa fé como corpo de Cristo. Crescer espiritualmente é um processo que envolve relacionamento, cuidado mútuo e unidade.
-A cultura ao nosso redor incentiva a independência absoluta, o pensamento de que não precisamos de ninguém e que podemos construir tudo sozinhos. Esse pensamento, porém, pode nos afastar do propósito de Deus para a Igreja. Quando o cristão acredita que pode caminhar sozinho, ele se torna mais vulnerável, mais fraco e mais suscetível ao desânimo e ao afastamento da fé.
-A Palavra de Deus nos ensina que somos membros de um mesmo corpo. Assim como o corpo humano precisa que cada parte funcione em harmonia, também a Igreja precisa de união para crescer de forma saudável. Um irmão fortalece o outro, uma oração sustenta quem está fraco, uma palavra de encorajamento levanta quem está cansado.
-Crescer com Cristo significa aprender a caminhar lado a lado. Significa celebrar as vitórias uns dos outros, carregar juntos os fardos e permanecer firmes na fé quando surgem dificuldades. Deus usa pessoas para abençoar pessoas. Muitas vezes, a resposta para nossas lutas vem através de um irmão que nos aconselha, nos ouve ou simplesmente ora conosco.
-Precisamos vigiar contra o isolamento espiritual. A individualidade excessiva pode nos afastar da comunhão, da igreja e da vida em família na fé. O crescimento verdadeiro acontece quando permanecemos conectados ao Senhor e também uns aos outros.
-Quando caminhamos juntos em Cristo, nossa fé se fortalece, nosso amor amadurece e nosso testemunho se torna mais poderoso. Unidos, somos edificados, encorajados e preparados para cumprir o propósito de Deus. Em Cristo, não apenas sobrevivemos espiritualmente, nós crescemos juntos, para a glória de Deus.
-Veja também: 12 palavras sobre comunhão na Bíblia
+Vocês não sabem que são santuário de Deus e que o Espírito de Deus habita em vocês?
+- 1 Coríntios 3:16
+
+Quando entendemos que somos templo do Espírito Santo, passamos a olhar para nossa mente com mais responsabilidade e reverência. Não se trata apenas de evitar pensamentos negativos, mas de cultivar aquilo que edifica, fortalece e aproxima do propósito de Deus.
+Assim como um templo físico era mantido limpo, organizado e dedicado à presença de Deus, nossa mente também precisa de cuidado constante. O que assistimos, ouvimos e alimentamos em nosso interior influencia diretamente nossa saúde espiritual e emocional. Pensamentos de medo, culpa e rancor podem ocupar espaço precioso que deveria ser preenchido por fé, esperança e amor.
+Cuidar da mente é um exercício diário. É escolher a gratidão em vez da reclamação, o perdão em vez do ressentimento, a confiança em vez da ansiedade. Quando permitimos que o Espírito Santo conduza nossos pensamentos, encontramos paz mesmo em meio às dificuldades. Ele nos orienta, consola e fortalece, lembrando-nos de quem somos e do valor que temos.
+Reconhecer que a mente é templo é também entender que não estamos sozinhos. Há uma presença divina que habita em nós, pronta para renovar nossos pensamentos e restaurar nossas forças. Cada vez que silenciamos para ouvir essa voz interior, fortalecemos nossa conexão com Deus.
+Que possamos vigiar nossos pensamentos com sabedoria e alimentar nossa mente com aquilo que produz vida. Ao fazer isso, transformamos não apenas nosso interior, mas também nossas atitudes e relacionamentos. Afinal, quando a mente está alinhada com o Espírito, toda a vida reflete luz, equilíbrio e propósito.
+Veja também: Armadura de Deus: aprenda a usar os 6 elementos da armadura (Estudo Bíblico)
  
-Antes, seguindo a verdade em amor, cresçamos em tudo naquele que é a cabeça, Cristo.
-- Efésios 4:15
+Vocês não sabem que são santuário de Deus e que o Espírito de Deus habita em vocês?
+- 1 Coríntios 3:16
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 334426 characters
-INFO:root:HTML parsed, length: 324831 characters
-INFO:root:Found 3 titles: ['Seja um pacificador', 'Tempo de restauração', 'Guarde a sua mente: O campo de batalha da alma']
-INFO:root:Found 3 URLs: ['/bem_aventurancas/', '/versiculos_de_esperanca/', '/vestir_armadura_de_deus/']
-INFO:root:Found 3 descriptions: ['Bem-aventurados\nos pacificadores,\npois serão chama', '"Vou compensá-los\npelos anos de colheitas\nque os g', 'Pois, embora vivamos como homens, não lutamos segu']
-INFO:root:Found 3 dates: ['MARçO\n\n11\nQUARTA', 'MARçO\n\n10\nTERÇA', 'MARçO\n\n9\nSEGUNDA']
+INFO:root:Response length: 334556 characters
+INFO:root:HTML parsed, length: 324962 characters
+INFO:root:Found 3 titles: ['Refúgio seguro', 'Seja um pacificador', 'Tempo de restauração']
+INFO:root:Found 3 URLs: ['/historia_de_davi_na_biblia/', '/bem_aventurancas/', '/versiculos_de_esperanca/']
+INFO:root:Found 3 descriptions: ['pode dizer ao Senhor:\n"Tu és o meu refúgio e a min', 'Bem-aventurados\nos pacificadores,\npois serão chama', '"Vou compensá-los\npelos anos de colheitas\nque os g']
+INFO:root:Found 3 dates: ['MARçO\n\n12\nQUINTA', 'MARçO\n\n11\nQUARTA', 'MARçO\n\n10\nTERÇA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Seja um pacificador', ID=23f9534b64e8f8919a59b624204285e5
-INFO:root:Processing entry 2: Title='Tempo de restauração', ID=453e8602de5ccbffaba27692570becfa
-INFO:root:Processing entry 3: Title='Guarde a sua mente: O campo de batalha da alma', ID=e7347a28c36f381ded918c9b6f445271
+INFO:root:Processing entry 1: Title='Refúgio seguro', ID=6c0d6de0a5f3813975ad9ff8932f92cd
+INFO:root:Processing entry 2: Title='Seja um pacificador', ID=23f9534b64e8f8919a59b624204285e5
+INFO:root:Processing entry 3: Title='Tempo de restauração', ID=453e8602de5ccbffaba27692570becfa
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Refúgio seguro
+INFO:root:🔹 URL: https://www.bibliaon.com/historia_de_davi_na_biblia/
+INFO:root:🔹 Description: pode dizer ao Senhor:
+"Tu és o meu refúgio e a minha fortaleza,
+o meu Deus, em quem confio".
+- Salmos 91:2 
+
+A vida do rei Davi nos ensina que o verdadeiro refúgio não está nas situações favoráveis, mas na presença de Deus. Antes de se tornar rei de Israel, Davi enfrentou momentos de grande medo, perseguição e solidão. Ele foi perseguido pelo rei Saul, precisou fugir para o deserto e, muitas vezes, não tinha segurança humana ao seu redor. Mesmo assim, Davi descobriu algo poderoso: quando tudo parecia instável, Deus continuava sendo um abrigo seguro.
+Nos Salmos que escreveu, Davi frequentemente expressa suas emoções com sinceridade. Ele chorava, se angustiava e até perguntava a Deus por que certas coisas estavam acontecendo. Porém, mesmo em meio às lutas, ele sempre voltava seu coração para o Senhor. Davi compreendeu que confiar em Deus não significa ausência de problemas, mas a certeza de que nunca estamos sozinhos no meio deles.
+Assim também acontece conosco hoje. Todos enfrentamos dias difíceis: momentos de medo, insegurança, perdas ou decisões complicadas. Muitas vezes procuramos refúgio em coisas passageiras, nas opiniões das pessoas, recursos materiais ou nossas próprias forças. No entanto, esses lugares não conseguem trazer verdadeira paz.
+O exemplo de Davi nos convida a fazer algo diferente: correr para Deus. Quando oramos, entregamos nossas preocupações e reconhecemos nossa dependência do Senhor, encontramos descanso para a alma. Deus não apenas nos protege espiritualmente, mas também fortalece nosso coração para enfrentar as batalhas da vida.
+Talvez hoje você esteja vivendo um tempo de incerteza. Lembre-se: o mesmo Deus que sustentou Davi continua presente e atuante. Ele é um refúgio aberto para todos que se aproximam com fé.
+Quando o coração estiver aflito, busque o Senhor. Nele encontramos segurança, esperança e direção. Em Deus, sempre existe um refúgio seguro. 
+Encontrando refúgio em Deus 
+
+
+Busque a Deus em oração constante: Separe momentos diários para orar com sinceridade, entregando medos, dúvidas e decisões, confiando que Deus escuta e fortalece seu coração.
+
+Alimente sua fé com a Palavra: Medite nos Salmos de Davi e permita que as promessas de Deus renovem esperança e direção.
+
+Confie em Deus mesmo nas dificuldades: Nos momentos de pressão ou medo, lembre-se do cuidado de Deus no passado e escolha confiar no Senhor novamente.
+
+Para orar:
+
+Senhor Deus, meu refúgio e fortaleza, venho diante de Ti com um coração humilde. Assim como Davi confiou em Ti nos dias de medo e perseguição, eu também escolho confiar. Guarda minha mente, acalma meu coração e guia meus passos. Quando eu me sentir fraco, lembra-me que em Ti existe segurança e esperança. Sustenta minha fé e ensina-me a descansar em Tua presença todos os dias. Em nome de Jesus, amém.
+
+Veja também: A história de Davi (o rei mais conhecido de Israel)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Seja um pacificador
 INFO:root:🔹 URL: https://www.bibliaon.com/bem_aventurancas/
 INFO:root:🔹 Description: Bem-aventurados
@@ -353,33 +384,6 @@ Senhor Deus amado, entregamos em Tuas mãos nossas vidas, nossos medos e nossas 
 
 Veja também: Versículos de esperança para sua vida
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Guarde a sua mente: O campo de batalha da alma
-INFO:root:🔹 URL: https://www.bibliaon.com/vestir_armadura_de_deus/
-INFO:root:🔹 Description: Pois, embora vivamos como homens, não lutamos segundo os padrões humanos.
-As armas com as quais lutamos não são humanas; ao contrário, são poderosas em Deus para destruir fortalezas.
-- 2 Coríntios 10:3-4
-
-A mente é o campo de batalha mais intenso da vida cristã. É nela que surgem pensamentos de medo, dúvida, impureza, acusação e desânimo. O inimigo sabe que, antes de derrubar uma pessoa em suas atitudes, ele tenta enfraquecê-la em seus pensamentos. Por isso, a proteção da mente é essencial para quem deseja viver em santidade.
-A Palavra de Deus nos ensina que existem fortalezas que precisam ser derrubadas. Muitas delas são construídas por pensamentos repetitivos e pecaminosos. Contudo, não estamos indefesos. O Senhor nos entregou armas espirituais poderosas: a oração, o jejum, a Palavra e a comunhão com o Espírito Santo.
-Em Filipenses 4:8, somos orientados a pensar em tudo o que é verdadeiro, honesto, justo, puro e de boa fama. Isso revela que proteger a mente não é apenas rejeitar o mal, mas também alimentar-se do que é santo. Uma mente vazia se torna terreno fértil para tentações; uma mente cheia da Palavra se torna fortaleza inabalável.
-Jesus também declarou em João 8:32: “E conhecereis a verdade, e a verdade vos libertará.” A verdade bíblica confronta mentiras que tentam se instalar em nosso interior. Quando pensamentos contrários à vontade de Deus surgirem, devemos levá-los cativos à obediência de Cristo.
-Proteja sua mente diariamente. Vigie o que você ouve, vê e permite permanecer em seu coração. Declare a Palavra, louve ao Senhor e rejeite toda semente maligna.
-Uma mente guardada por Deus produz paz, pureza e vitória. Onde a mente é protegida, a alma permanece firme, e a vida floresce sob a graça do Senhor.
-Blindando a mente
-
-
-Declare a Palavra em voz alta todos os dias. Ao enfrentar medo, declare promessas de coragem; diante da tentação, proclame textos de santidade.
-
-Medite e memorize as Escrituras. Quando a mente estiver sob pressão, o Espírito Santo trará à memória aquilo que foi armazenado.
-
-Substitua pensamentos ruins imediatamente. Não negocie com pensamentos pecaminosos.Sempre que surgir uma ideia contrária à vontade de Deus, troque-a por uma verdade bíblica específica.
-
-Para orar:
-
-Senhor Deus Todo-Poderoso, entrego a Ti minha mente e meu coração. Purifica meus pensamentos, afasta de mim toda ideia que não vem de Ti e fortalece meu interior com Tua Palavra. Dá-me discernimento para rejeitar o mal e coragem para escolher o que é santo. Que Teu Espírito me guie em todo tempo, guardando minha mente na Tua paz e na Tua verdade. Em nome de Jesus, amém.
-
-Veja também: Armadura de Deus: aprenda a usar os 6 elementos da armadura
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -409,15 +413,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  51 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  53 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  23 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 486 +++------------------
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               | 136 ++++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 689 +++++++-----------------------
- 11 files changed, 283 insertions(+), 1041 deletions(-)
+ output.log                                | 340 +++++++++++++++---------------
+ 11 files changed, 313 insertions(+), 317 deletions(-)
