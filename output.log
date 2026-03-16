@@ -1,83 +1,120 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 126492 characters
-INFO:root:HTML parsed, length: 119578 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (15/03/2026)', 'Palavra de Ontem (14/03/2026)', 'Palavra de Anteontem (13/03/2026)']
-INFO:root:Found 3 URLs: ['/microchipar/', '/subterfugio/', '/borboleta/']
-INFO:root:Found 12 descriptions: ['verbo intransitivo Inserir um microchip sob a pele', 'Sinônimos:\n\nidentificar, codificar, marcar, implan', 'Sílabas:mi-cro-chi-par']
-INFO:root:Found 3 dates: ['Palavra de Hoje (15/03/2026)', 'Palavra de Ontem (14/03/2026)', 'Palavra de Anteontem (13/03/2026)']
+INFO:root:Response length: 124634 characters
+INFO:root:HTML parsed, length: 117748 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (16/03/2026)', 'Palavra de Ontem (15/03/2026)', 'Palavra de Anteontem (14/03/2026)']
+INFO:root:Found 3 URLs: ['/independentemente/', '/microchipar/', '/subterfugio/']
+INFO:root:Found 11 descriptions: ['advérbio De maneira independente; de modo a não de', 'Sinônimos:\n\nlivremente, altivamente, autonomamente', 'Antônimos:\n\ndependentemente, subordinadamente']
+INFO:root:Found 3 dates: ['Palavra de Hoje (16/03/2026)', 'Palavra de Ontem (15/03/2026)', 'Palavra de Anteontem (14/03/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (15/03/2026)', ID=19e6b6c037cc504a655b0c8b53a0775b
-INFO:root:Processing entry 2: Title='Palavra de Ontem (14/03/2026)', ID=1b0d37c975245110537a715bf1f63ed6
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (13/03/2026)', ID=89c29888904f48353f0544ad36a4ba60
+INFO:root:Processing entry 1: Title='Palavra de Hoje (16/03/2026)', ID=025a600ea65d4f772cc9861fa679159c
+INFO:root:Processing entry 2: Title='Palavra de Ontem (15/03/2026)', ID=1e60121744d82d44f14092801e5f7931
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (14/03/2026)', ID=728adc035e83a19627bf933e1ff3be93
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (15/03/2026) - Significado completo de microchipar:
-INFO:root:🔹 URL: https://www.dicio.com.br/microchipar/
-INFO:root:🔹 Description: verbo intransitivo Inserir um microchip sob a pele por meio de um implante, com o intuito de monitorar, identificar e registrar quem o utiliza, normalmente animais.Etimologia (origem da palavra microchipar). A palavra microchipar tem sua origem pela junção do prefixo micro-, da palavra inglesa “chip”, e do sufixo verbal -ar.
+INFO:root:🔹 Title: Palavra de Hoje (16/03/2026) - Significado completo de independentemente:
+INFO:root:🔹 URL: https://www.dicio.com.br/independentemente/
+INFO:root:🔹 Description: advérbio De maneira independente; de modo a não depender, a não estar subordinado, a não apresentar uma relação de dependência, de subordinação; livremente.Etimologia (origem da palavra independentemente). A palavra independentemente deriva da junção de independente, e do sufixo -mente.
  
 Sinônimos:
 
-identificar, codificar, marcar, implantar, inserir, registrar, catalogar, rastrear, etiquetar, indexar 
+livremente, altivamente, autonomamente, soberanamente 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (14/03/2026) - Significado completo de subterfúgio:
-INFO:root:🔹 URL: https://www.dicio.com.br/subterfugio/
+INFO:root:🔹 Title: Palavra de Ontem (15/03/2026) - Significado completo de microchipar:
+INFO:root:🔹 URL: https://www.dicio.com.br/microchipar/
 INFO:root:🔹 Description: Sinônimos:
 
-identificar, codificar, marcar, implantar, inserir, registrar, catalogar, rastrear, etiquetar, indexar
- Sílabas:mi-cro-chi-par
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (13/03/2026) - Significado completo de borboleta:
-INFO:root:🔹 URL: https://www.dicio.com.br/borboleta/
-INFO:root:🔹 Description: Sílabas:mi-cro-chi-par
+livremente, altivamente, autonomamente, soberanamente
  
-Sinônimos:
+Antônimos:
 
-escapatória, evasiva, evasão, fuga, pretexto, desculpa, rodeio, alegação, efúgio, escusa, justificação, justificativa, mentira, tergiversação 
+dependentemente, subordinadamente 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (14/03/2026) - Significado completo de subterfúgio:
+INFO:root:🔹 URL: https://www.dicio.com.br/subterfugio/
+INFO:root:🔹 Description: Antônimos:
+
+dependentemente, subordinadamente
+ Sílabas:in-de-pen-den-te-men-te
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320577 characters
-INFO:root:HTML parsed, length: 310968 characters
-INFO:root:Found 1 titles: ['Tito 2:7-8']
-INFO:root:Found 1 URLs: ['/versiculo/tito_2_7-8/']
-INFO:root:Found 1 descriptions: ['Em tudo seja você mesmo um exemplo para eles, faze']
+INFO:root:Response length: 320537 characters
+INFO:root:HTML parsed, length: 310928 characters
+INFO:root:Found 1 titles: ['1 Crônicas 29:12']
+INFO:root:Found 1 URLs: ['/versiculo/1_cronicas_29_12/']
+INFO:root:Found 1 descriptions: ['A riqueza e a honra vêm de ti;\ntu dominas sobre to']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Tito 2:7-8', ID=30a684b009822fb69225ad5d993ed18b
+INFO:root:Processing entry 1: Title='1 Crônicas 29:12', ID=66049441d0d7c00332b27ff19ce77488
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Tito 2:7-8
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tito_2_7-8/
-INFO:root:🔹 Description: Em tudo seja você mesmo um exemplo para eles, fazendo boas obras. Em seu ensino, mostre integridade e seriedade; use linguagem sadia, contra a qual nada se possa dizer, para que aqueles que se opõem a você fiquem envergonhados por não poderem falar mal de nós. Tito 2:7-8
+INFO:root:🔹 Title: 1 Crônicas 29:12
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_cronicas_29_12/
+INFO:root:🔹 Description: A riqueza e a honra vêm de ti;
+tu dominas sobre todas as coisas.
+Nas tuas mãos estão a força e o poder
+para exaltar e dar força a todos. 1 Crônicas 29:12
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 321030 characters
-INFO:root:HTML parsed, length: 312233 characters
-INFO:root:Found 3 titles: ['Salmo 40', 'Salmo 20', 'Salmo 83']
-INFO:root:Found 3 URLs: ['/salmos_40/', '/salmos_20/', '/salmos_83/']
-INFO:root:Found 3 descriptions: ['Depositei toda a minha esperança no Senhor;\nele se', 'Que o Senhor te responda\nno tempo da angústia;\no n', 'Ó Deus, não te emudeças;\nnão fiques em silêncio ne']
-INFO:root:Found 3 dates: ['15 de Março de 2026', '14 de Março de 2026', '13 de Março de 2026']
+INFO:root:Response length: 320527 characters
+INFO:root:HTML parsed, length: 311720 characters
+INFO:root:Found 3 titles: ['Salmo 2', 'Salmo 40', 'Salmo 20']
+INFO:root:Found 3 URLs: ['/salmos_2/', '/salmos_40/', '/salmos_20/']
+INFO:root:Found 3 descriptions: ['Por que se amotinam as nações\ne os povos tramam em', 'Depositei toda a minha esperança no Senhor;\nele se', 'Que o Senhor te responda\nno tempo da angústia;\no n']
+INFO:root:Found 3 dates: ['16 de Março de 2026', '15 de Março de 2026', '14 de Março de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
-INFO:root:Processing entry 2: Title=' Salmo 20', ID=8b9cb5cd40f9096fbb8f17788869e2f7
-INFO:root:Processing entry 3: Title=' Salmo 83', ID=455a2a5421c5fd34019d89d09ee08877
+INFO:root:Processing entry 1: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
+INFO:root:Processing entry 2: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
+INFO:root:Processing entry 3: Title=' Salmo 20', ID=8b9cb5cd40f9096fbb8f17788869e2f7
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 2
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_2/
+INFO:root:🔹 Description: Por que se amotinam as nações
+e os povos tramam em vão? 
+Os reis da terra tomam posição
+e os governantes conspiram unidos
+contra o Senhor e contra o seu ungido,
+e dizem: 
+"Façamos em pedaços as suas correntes,
+lancemos de nós as suas algemas!" 
+Do seu trono nos céus o Senhor põe-se a rir e caçoa deles. 
+Em sua ira os repreende
+e em seu furor os aterroriza, dizendo: 
+"Eu mesmo estabeleci o meu rei
+em Sião, no meu santo monte". 
+Proclamarei o decreto do Senhor:
+Ele me disse: "Tu és meu filho;
+eu hoje te gerei. 
+Pede-me, e te darei as nações como herança
+e os confins da terra como tua propriedade. 
+Tu as quebrarás com vara de ferro
+e as despedaçarás como a um vaso de barro". 
+Por isso, ó reis, sejam prudentes;
+aceitem a advertência, autoridades da terra. 
+Adorem o Senhor com temor;
+exultem com tremor. 
+Beijem o filho, para que ele não se ire
+e vocês não sejam destruídos de repente,
+pois num instante acende-se a sua ira.
+Como são felizes todos os que nele se refugiam! 
+ Salmo 2
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 40
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_40/
 INFO:root:🔹 Description: Depositei toda a minha esperança no Senhor;
@@ -172,162 +209,94 @@ Senhor, concede vitória ao rei!
 Responde-nos quando clamamos! 
  Salmo 20
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 83
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_83/
-INFO:root:🔹 Description: Ó Deus, não te emudeças;
-não fiques em silêncio nem te detenhas, ó Deus. 
-Vê como se agitam os teus inimigos,
-como os teus adversários
-te desafiam de cabeça erguida. 
-Com astúcia conspiram contra o teu povo;
-tramam contra aqueles
-que são o teu tesouro. 
-Eles dizem: "Venham,
-vamos destruí-los como nação,
-para que o nome de Israel
-não seja mais lembrado!" 
-Com um só propósito tramam juntos;
-é contra ti que fazem acordo 
-as tendas de Edom e os ismaelitas,
-Moabe e os hagarenos, 
-Gebal, Amom e Amaleque,
-a Filístia, com os habitantes de Tiro. 
-Até a Assíria aliou-se a eles,
-e trouxe força aos descendentes de Ló. 
-Trata-os como trataste Midiã,
-como trataste Sísera e Jabim no rio Quisom, 
-os quais morreram em En-Dor
-e se tornaram esterco para a terra. 
-Faze com os seus nobres o que fizeste
-com Orebe e Zeebe,
-e com todos os seus príncipes
-o que fizeste com Zeba e Zalmuna, 
-que disseram:
-"Vamos apossar-nos das pastagens de Deus". 
-Faze-os como folhas secas
-levadas no redemoinho, ó meu Deus,
-como palha ao vento. 
-Assim como o fogo consome a floresta
-e as chamas incendeiam os montes, 
-persegue-os com o teu vendaval
-e aterroriza-os com a tua tempestade. 
-Cobre-lhes de vergonha o rosto
-até que busquem o teu nome, Senhor. 
-Sejam eles humilhados e aterrorizados
-para sempre;
-pereçam em completa desgraça. 
-Saibam eles que tu, cujo nome é Senhor,
-somente tu, és o Altíssimo sobre toda a terra. 
- Salmo 83
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 322076 characters
-INFO:root:HTML parsed, length: 312960 characters
-INFO:root:Found 3 titles: ['Metamorfose em Cristo', 'Busque o que te edifica', 'Você tem a proteção de Deus']
+INFO:root:Response length: 323106 characters
+INFO:root:HTML parsed, length: 313980 characters
+INFO:root:Found 3 titles: ['O que fazer em uma rua sem saída?', 'Metamorfose em Cristo', 'Busque o que te edifica']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['"Não vos conformeis com este mundo,\nmas transforma', 'Em um mundo cheio de estímulos e caminhos aparente', 'Deus é o nosso refúgio e a nossa fortaleza,\nauxíli']
-INFO:root:Found 1 dates: ['Domingo, 15 de março de 2026']
+INFO:root:Found 3 descriptions: ['Entrega o teu caminho ao Senhor; confia nele, e o ', '"Não vos conformeis com este mundo,\nmas transforma', 'Em um mundo cheio de estímulos e caminhos aparente']
+INFO:root:Found 1 dates: ['Segunda, 16 de março de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Metamorfose em Cristo', ID=7712d3e6086847056b8850288be1296b
+INFO:root:Processing entry 1: Title='O que fazer em uma rua sem saída?', ID=fdf97aeecbaa6117276ea2aa42501123
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Metamorfose em Cristo - Palavra de Hoje
+INFO:root:🔹 Title: O que fazer em uma rua sem saída? - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: "Não vos conformeis com este mundo,
-mas transformai-vos pela renovação da vossa mente."
-Quando Cristo toca o barro cansado da alma
-algo começa a mover no silêncio do coração
-humano cansado de fugir de si mesmo
-e também de fugir do céu.
-Eu era como folha levada pelo vento
-dos desejos perdidos,
-procurando sentido nas ruas vazias
-da própria vontade.
-Mas Tua graça soprou como manhã
-sobre a noite turva,
-e Teus olhos viram possibilidade
-onde eu via apenas ruína.
-Lentamente minha velha pele de medo
-começou a cair como escamas
-libertas de um passado pesado demais.
-Em Ti aprendi que morrer para o orgulho
-é nascer para uma vida
-que respira eternidade.
-Cada lágrima tornou-se semente,
-cada oração um passo,
-cada queda uma lembrança
-de que tua mão ainda sustenta.
-A metamorfose não acontece
-num instante repentino,
-mas no cotidiano secreto
-onde tua voz sussurra:
-continua.
-E assim a alma antes cinza
-começa a florescer em cores
-que só o Espírito Santo pode pintar.
-O coração endurecido
-aprende novamente a sentir esperança
-como rio depois da seca.
-Já não sou apenas quem fui ontem,
-pois tua luz trabalha em profundo
-nas câmaras profundas do ser.
-Transformas pensamentos,
-caminhos, desejos e até os sonhos
-que um dia pensei perdidos.
-Em Cristo descubro
-que a verdadeira mudança começa
-quando me rendo
-e deixo Tua vida crescer em mim.
-Como lagarta escondida
-no mistério do casulo,
-minha história aprende a esperar.
-Então surgem asas feitas de graça e fé,
-capazes de tocar horizontes
-que antes eu temia.
-E enquanto caminho contigo
-percebo que a velha criação
-se desfaz devagar,
-para que o novo homem respire
-liberdade, verdade, amor e propósito.
-Esta é a obra do Salvador
-que transforma pó em vida
-e fraqueza em testemunho.
-E no final da jornada saberei
-que tudo era Tua paciente graça
-moldando meu coração
-até que ele se parecesse contigo.
-"Assim que, se alguém está em Cristo,
-nova criatura é; as coisas velhas já passaram;
-eis que tudo se fez novo."
-Veja também: Explicação de 2 Coríntios 5:17: Se alguém está em Cristo, nova criatura é
+INFO:root:🔹 Description: Entrega o teu caminho ao Senhor; confia nele, e o mais ele fará.
+- Salmos 37:5
+
+Todos nós, em algum momento da vida, nos sentimos como se tivéssemos chegado a uma rua sem saída. São dias em que as portas se fecham, as respostas não vêm e o coração se enche de dúvidas. Nessas horas, a fé é desafiada, e a alma clama por direção. O que fazer quando parece não haver mais para onde ir?
+A Palavra de Deus nos ensina que, mesmo quando não vemos saída, o Senhor continua no controle. Uma rua sem saída para nós nunca é o fim para Deus. Muitas vezes, é exatamente nesse lugar de limite que Ele começa algo novo. Quando nossas forças acabam, o poder dEle se aperfeiçoa em nossa fraqueza.
+O primeiro passo é parar e ouvir. O silêncio que assusta também pode ser o espaço onde Deus fala. Em vez de insistir em caminhos que não se abrem, somos convidados a confiar, descansar e entregar. Orar não muda apenas as circunstâncias, mas transforma principalmente o nosso interior.
+Em uma rua sem saída, Deus trabalha nosso caráter, fortalece nossa fé e ajusta nossa visão. Aquilo que parecia fracasso pode se tornar testemunho. Aquilo que doeu pode gerar crescimento. O Senhor não desperdiça lágrimas nem ignora o clamor sincero de um coração quebrantado.
+Jesus é o Caminho. Se Ele é o Caminho, então nunca estamos realmente sem direção. Mesmo quando tudo parece parado, Ele abre portas que ninguém pode fechar e cria caminhos onde não existiam estradas.
+Se hoje você se encontra em uma rua sem saída, não desanime. Confie. Espere. Persevere. O mesmo Deus que abriu o mar continua abrindo caminhos. A saída pode não ser como você imaginou, mas será exatamente como você precisa. 
+Veja também: 35 versículos para suportar o processo de Deus
  
-Finalmente, irmãos, tudo o que for verdadeiro, tudo o que for nobre, tudo o que for correto, tudo o que for puro, tudo o que for amável, tudo o que for de boa fama, se houver algo de excelente ou digno de louvor, pensem nessas coisas.
-- Filipenses 4:8 
+Entrega o teu caminho ao Senhor; confia nele, e o mais ele fará.
+- Salmos 37:5
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 334184 characters
-INFO:root:HTML parsed, length: 324581 characters
-INFO:root:Found 3 titles: ['A maratona da fé', 'Confiar e descansar', 'A Bíblia é a fonte!']
-INFO:root:Found 3 URLs: ['/frases_evangelicas_de_motivacao/', '/razoes_para_confiar_em_deus/', '/planos_de_leitura_da_biblia/']
-INFO:root:Found 3 descriptions: ['Portanto, também nós, uma vez que estamos rodeados', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e', 'A tua palavra é lâmpada\nque ilumina os meus passos']
-INFO:root:Found 3 dates: ['MARçO\n\n15\nDOMINGO', 'MARçO\n\n14\nSÁBADO', 'MARçO\n\n13\nSEXTA']
+INFO:root:Response length: 333677 characters
+INFO:root:HTML parsed, length: 324081 characters
+INFO:root:Found 3 titles: ['Cristo é o motivo do nosso louvor!', 'A maratona da fé', 'Confiar e descansar']
+INFO:root:Found 4 URLs: ['/como_mostrar_sua_gratidao_a_deus/', '/frases_de_gratidao_a_deus/', '/frases_evangelicas_de_motivacao/']
+INFO:root:Found 3 descriptions: ['Quando expressamos o nosso louvor a Deus, estamos ', 'Portanto, também nós, uma vez que estamos rodeados', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e']
+INFO:root:Found 3 dates: ['MARçO\n\n16\nSEGUNDA', 'MARçO\n\n15\nDOMINGO', 'MARçO\n\n14\nSÁBADO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A maratona da fé', ID=bf7801e968d762ecc610453737f54f5b
-INFO:root:Processing entry 2: Title='Confiar e descansar', ID=e8bca856570b420ff1e0726bc2db42d0
-INFO:root:Processing entry 3: Title='A Bíblia é a fonte!', ID=aa6c24529f3a13c8726e885201997cd0
+INFO:root:Processing entry 1: Title='Cristo é o motivo do nosso louvor!', ID=aacfb7c1d6f2facf6f4e31a55352a26a
+INFO:root:Processing entry 2: Title='A maratona da fé', ID=bf7801e968d762ecc610453737f54f5b
+INFO:root:Processing entry 3: Title='Confiar e descansar', ID=e8bca856570b420ff1e0726bc2db42d0
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Cristo é o motivo do nosso louvor!
+INFO:root:🔹 URL: https://www.bibliaon.com/como_mostrar_sua_gratidao_a_deus/
+INFO:root:🔹 Description: Quando expressamos o nosso louvor a Deus, estamos nos esforçando em retribuí-lo por tudo o que Ele fez. Esse sacrifício envolve a nosso corpo, os nossos pensamentos e as nossas emoções. Louvar a Deus é entregar um pouco de si a Ele. 
+
+Aleluia!
+Louvem a Deus no seu santuário,
+louvem-no em seu magnífico firmamento. Louvem-no pelos seus feitos poderosos,
+louvem-no segundo a imensidão
+de sua grandeza! Louvem-no ao som de trombeta,
+louvem-no com a lira e a harpa, louvem-no com tamborins e danças,
+louvem-no com instrumentos de cordas
+e com flautas, louvem-no com címbalos sonoros,
+louvem-no com címbalos ressonantes. Tudo o que tem vida louve o Senhor!
+Aleluia!
+Salmos 150:1-6 
+
+Dedicar o nosso melhor para Deus, também é uma forma de louvá-lo. Podemos ter uma voz desafinada - ou não ser um bom instrumentista - mas quando separamos o nosso melhor para Deus, estamos prestando o verdadeiro louvor. Ele sonda o nosso coração e as nossas intenções. Por isso, saia da zona da inércia, retribua a Deus tudo o que já recebeu.
+Quando olhamos pelo que já passamos, só temos motivos para agradecê-lo. Fomos resgatados da escuridão e conduzidos para a luz da Salvação, Jesus Cristo!
+
+Pois Deus, que disse: "Das trevas resplandeça a luz", ele mesmo brilhou em nossos corações, para iluminação do conhecimento da glória de Deus na face de Cristo.
+2 Coríntios 4:6 
+
+Louvando com o melhor que há em nós
+
+Busque uma forma de louvar a Deus. Podemos cantar, mas também há outras formas de louvá-lo.
+Tenha o hábito de agradecer e louvar a Deus. Essa boa rotina influencia todo o nosso dia.
+Canalize o que você faz de melhor para a casa de Deus. Podemos sempre ajudar o Reino com nossas habilidades.
+
+Para Orar:
+
+Senhor Jesus, quero louvar e engrandecer o Teu poderoso nome. Tem feito maravilhas e quero reconhecer que sem a Tua presença, não seria bem-sucedido. Por isso, receba o meu louvor e gratidão. Amém.
+
+Sugestões de leitura:
+
+3 formas de mostrar sua gratidão a Deus
+Frases e mensagens de gratidão a Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A maratona da fé
-INFO:root:🔹 URL: https://www.bibliaon.com/frases_evangelicas_de_motivacao/
+INFO:root:🔹 URL: https://www.bibliaon.com/frases_de_gratidao_a_deus/
 INFO:root:🔹 Description: Portanto, também nós, uma vez que estamos rodeados por tão grande nuvem de testemunhas, livremo-nos de tudo o que nos atrapalha e do pecado que nos envolve e corramos com perseverança a corrida que nos é proposta, tendo os olhos fitos em Jesus, autor e consumador da nossa fé. Ele, pela alegria que lhe fora proposta, suportou a cruz, desprezando a vergonha, e assentou-se à direita do trono de Deus.
 - Hebreus 12:1-2 
 
@@ -349,7 +318,7 @@ Senhor Deus, Pai amado, colocamos diante de Ti nossa caminhada de fé. Fortalece
 Veja também: Frases evangélicas de motivação (incentivo na caminhada com Deus)
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Confiar e descansar
-INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 URL: https://www.bibliaon.com/frases_evangelicas_de_motivacao/
 INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
 confie nele, e ele agirá:
 - Salmos 37:5
@@ -376,31 +345,6 @@ Para orar:
 Senhor Deus, hoje eu coloco diante de Ti minhas preocupações, medos e ansiedades. Ensina-me a descansar em Tua presença e confiar em Teus planos, mesmo quando não entendo o caminho. Fortalece minha fé para que eu não desista diante das dificuldades. Que meu coração encontre paz em Ti e que eu caminhe cada dia com confiança, sabendo que Tu cuidas de mim. Em nome de Jesus, amém.
 
 Veja também: 7 razões para confiar em Deus em meio às lutas
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A Bíblia é a fonte!
-INFO:root:🔹 URL: https://www.bibliaon.com/planos_de_leitura_da_biblia/
-INFO:root:🔹 Description: A tua palavra é lâmpada
-que ilumina os meus passos
-e luz que clareia o meu caminho.
-- Salmos 119:105 
-
-Vivemos em um mundo cheio de vozes, opiniões e caminhos diferentes. Muitas vezes as pessoas procuram respostas em todos os lugares: nas redes sociais, em conselhos humanos ou em experiências passageiras. No entanto, existe uma fonte segura, eterna e verdadeira que nunca falha: a Palavra de Deus. A Bíblia é essa fonte.
-Assim como uma fonte de água pura no meio do deserto traz vida, a Bíblia traz direção, esperança e renovação para o coração. Quando abrimos as Escrituras, não estamos apenas lendo um livro; estamos recebendo orientação do próprio Deus. Cada página carrega promessas, ensinamentos e exemplos que mostram como viver com propósito e fé.
-A Bíblia faz diferença porque ela transforma o interior da pessoa. Em momentos de tristeza, ela consola. Em tempos de dúvida, ela esclarece. Quando nos sentimos fracos, ela fortalece. A Palavra de Deus tem poder para renovar pensamentos, restaurar esperança e reacender a fé que parecia apagada.
-Muitos testemunham que, ao começar a ler e meditar na Bíblia diariamente, suas vidas mudaram. Decisões passaram a ser tomadas com mais sabedoria, o coração encontrou paz e a fé se tornou mais firme. Isso acontece porque a Bíblia aponta para a verdade e nos aproxima de Deus.
-Quando fazemos da Bíblia nossa fonte diária, encontramos alimento espiritual para cada dia. Assim como o corpo precisa de água e alimento, o espírito precisa da Palavra para crescer e permanecer forte.
-Abra a Bíblia, leia com atenção e permita que Deus fale ao seu coração. Faça dela sua fonte constante de vida, sabedoria e esperança. Quem bebe dessa fonte nunca fica vazio, pois nela encontramos direção para hoje e promessa de vida eterna. 
-Busque na fonte
-
-Leia a Bíblia todos os dias, mesmo que por poucos minutos, permitindo que a Palavra oriente decisões, renove pensamentos e fortaleça sua fé.
-Medite no que leu, perguntando como aplicar o ensinamento na sua vida, transformando conhecimento bíblico em atitudes práticas de amor todos os dias.
-Compartilhe versículos e aprendizados com outras pessoas, encorajando amigos e familiares, pois a Palavra de Deus também ilumina caminhos além do seu coração. 
-
-Para orar: 
-
-Senhor Deus, obrigado pela Tua Palavra que ilumina o meu caminho e traz direção para a minha vida. Ajuda-me a ouvir a Tua voz em meio às muitas vozes do mundo. Dá-me sabedoria para viver segundo os Teus ensinamentos, força para permanecer na fé e um coração humilde para aprender todos os dias. Que a Tua presença guie meus passos e encha minha vida de paz, esperança e amor. Em nome de Jesus, amém.
-
-Veja também: 11 planos de leitura da Bíblia
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -431,15 +375,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 ++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  79 +++++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  60 +++--
+ feeds/devocional_de_hoje/feed.json        |  16 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  81 +------
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  20 +-
  feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 133 +++++-----
+ feeds/salmo_do_dia/atom.xml               |  78 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 391 ++++++++++++++++--------------
- 11 files changed, 409 insertions(+), 323 deletions(-)
+ output.log                                | 358 ++++++++++++------------------
+ 11 files changed, 272 insertions(+), 396 deletions(-)
