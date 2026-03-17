@@ -1,88 +1,141 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124634 characters
-INFO:root:HTML parsed, length: 117748 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (16/03/2026)', 'Palavra de Ontem (15/03/2026)', 'Palavra de Anteontem (14/03/2026)']
-INFO:root:Found 3 URLs: ['/independentemente/', '/microchipar/', '/subterfugio/']
-INFO:root:Found 11 descriptions: ['advérbio De maneira independente; de modo a não de', 'Sinônimos:\n\nlivremente, altivamente, autonomamente', 'Antônimos:\n\ndependentemente, subordinadamente']
-INFO:root:Found 3 dates: ['Palavra de Hoje (16/03/2026)', 'Palavra de Ontem (15/03/2026)', 'Palavra de Anteontem (14/03/2026)']
+INFO:root:Response length: 124005 characters
+INFO:root:HTML parsed, length: 117119 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (17/03/2026)', 'Palavra de Ontem (16/03/2026)', 'Palavra de Anteontem (15/03/2026)']
+INFO:root:Found 3 URLs: ['/oxitona/', '/independentemente/', '/microchipar/']
+INFO:root:Found 10 descriptions: ['substantivo feminino Palavra cujo acento tônico (m', 'Sinônimos:\n\naguda', 'Sílabas:o-xí-to-na']
+INFO:root:Found 3 dates: ['Palavra de Hoje (17/03/2026)', 'Palavra de Ontem (16/03/2026)', 'Palavra de Anteontem (15/03/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (16/03/2026)', ID=025a600ea65d4f772cc9861fa679159c
-INFO:root:Processing entry 2: Title='Palavra de Ontem (15/03/2026)', ID=1e60121744d82d44f14092801e5f7931
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (14/03/2026)', ID=728adc035e83a19627bf933e1ff3be93
+INFO:root:Processing entry 1: Title='Palavra de Hoje (17/03/2026)', ID=5d87c2a75bf9f05d95fea414077bbb44
+INFO:root:Processing entry 2: Title='Palavra de Ontem (16/03/2026)', ID=df25396778e1f81425168480770ce3bf
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (15/03/2026)', ID=848bd7009c789cd5a36b4807a1290075
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (16/03/2026) - Significado completo de independentemente:
+INFO:root:🔹 Title: Palavra de Hoje (17/03/2026) - Significado completo de oxítona:
+INFO:root:🔹 URL: https://www.dicio.com.br/oxitona/
+INFO:root:🔹 Description: substantivo feminino Palavra cujo acento tônico (mais forte) fica na última sílaba; palavra oxítona: café é uma oxítona.adjetivo [Gramática] Cujo acento tônico está na última sílaba: abacaxi, açaí e anzol são exemplos de palavras oxítonas.Etimologia (origem da palavra oxítona). A palavra oxítona deriva como feminino singular da palavra oxítono, pelo grego “okstonos”, que significa com acento agudo.
+ 
+Sinônimos:
+
+aguda 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (16/03/2026) - Significado completo de independentemente:
 INFO:root:🔹 URL: https://www.dicio.com.br/independentemente/
-INFO:root:🔹 Description: advérbio De maneira independente; de modo a não depender, a não estar subordinado, a não apresentar uma relação de dependência, de subordinação; livremente.Etimologia (origem da palavra independentemente). A palavra independentemente deriva da junção de independente, e do sufixo -mente.
+INFO:root:🔹 Description: Sinônimos:
+
+aguda
+ Sílabas:o-xí-to-na
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (15/03/2026) - Significado completo de microchipar:
+INFO:root:🔹 URL: https://www.dicio.com.br/microchipar/
+INFO:root:🔹 Description: Sílabas:o-xí-to-na
  
 Sinônimos:
 
 livremente, altivamente, autonomamente, soberanamente 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (15/03/2026) - Significado completo de microchipar:
-INFO:root:🔹 URL: https://www.dicio.com.br/microchipar/
-INFO:root:🔹 Description: Sinônimos:
-
-livremente, altivamente, autonomamente, soberanamente
- 
-Antônimos:
-
-dependentemente, subordinadamente 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (14/03/2026) - Significado completo de subterfúgio:
-INFO:root:🔹 URL: https://www.dicio.com.br/subterfugio/
-INFO:root:🔹 Description: Antônimos:
-
-dependentemente, subordinadamente
- Sílabas:in-de-pen-den-te-men-te
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320537 characters
-INFO:root:HTML parsed, length: 310928 characters
-INFO:root:Found 1 titles: ['1 Crônicas 29:12']
-INFO:root:Found 1 URLs: ['/versiculo/1_cronicas_29_12/']
-INFO:root:Found 1 descriptions: ['A riqueza e a honra vêm de ti;\ntu dominas sobre to']
+INFO:root:Response length: 320588 characters
+INFO:root:HTML parsed, length: 310979 characters
+INFO:root:Found 1 titles: ['Ezequiel 34:26']
+INFO:root:Found 1 URLs: ['/versiculo/ezequiel_34_26/']
+INFO:root:Found 1 descriptions: ['Eu as abençoarei e abençoarei os lugares em torno ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Crônicas 29:12', ID=66049441d0d7c00332b27ff19ce77488
+INFO:root:Processing entry 1: Title='Ezequiel 34:26', ID=2763d8ed6fdc452921c160a3e350e1e8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Crônicas 29:12
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_cronicas_29_12/
-INFO:root:🔹 Description: A riqueza e a honra vêm de ti;
-tu dominas sobre todas as coisas.
-Nas tuas mãos estão a força e o poder
-para exaltar e dar força a todos. 1 Crônicas 29:12
+INFO:root:🔹 Title: Ezequiel 34:26
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/ezequiel_34_26/
+INFO:root:🔹 Description: Eu as abençoarei e abençoarei os lugares em torno da minha colina. Na estação própria farei descer chuva; haverá chuvas de bênçãos. Ezequiel 34:26
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320527 characters
-INFO:root:HTML parsed, length: 311720 characters
-INFO:root:Found 3 titles: ['Salmo 2', 'Salmo 40', 'Salmo 20']
-INFO:root:Found 3 URLs: ['/salmos_2/', '/salmos_40/', '/salmos_20/']
-INFO:root:Found 3 descriptions: ['Por que se amotinam as nações\ne os povos tramam em', 'Depositei toda a minha esperança no Senhor;\nele se', 'Que o Senhor te responda\nno tempo da angústia;\no n']
-INFO:root:Found 3 dates: ['16 de Março de 2026', '15 de Março de 2026', '14 de Março de 2026']
+INFO:root:Response length: 321594 characters
+INFO:root:HTML parsed, length: 312804 characters
+INFO:root:Found 3 titles: ['Salmo 38', 'Salmo 2', 'Salmo 40']
+INFO:root:Found 3 URLs: ['/salmos_38/', '/salmos_2/', '/salmos_40/']
+INFO:root:Found 3 descriptions: ['Senhor, não me repreendas no teu furor\nnem me disc', 'Por que se amotinam as nações\ne os povos tramam em', 'Depositei toda a minha esperança no Senhor;\nele se']
+INFO:root:Found 3 dates: ['17 de Março de 2026', '16 de Março de 2026', '15 de Março de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
-INFO:root:Processing entry 2: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
-INFO:root:Processing entry 3: Title=' Salmo 20', ID=8b9cb5cd40f9096fbb8f17788869e2f7
+INFO:root:Processing entry 1: Title=' Salmo 38', ID=282dc27a0c80d468d6e7d65a1fc291fb
+INFO:root:Processing entry 2: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
+INFO:root:Processing entry 3: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 38
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_38/
+INFO:root:🔹 Description: Senhor, não me repreendas no teu furor
+nem me disciplines na tua ira. 
+Pois as tuas flechas me atravessaram,
+e a tua mão me atingiu. 
+Por causa de tua ira,
+todo o meu corpo está doente;
+não há saúde nos meus ossos
+por causa do meu pecado. 
+As minhas culpas me afogam;
+são como um fardo pesado e insuportável. 
+Minhas feridas cheiram mal e supuram
+por causa da minha insensatez. 
+Estou encurvado e muitíssimo abatido;
+o dia todo saio vagueando e pranteando. 
+Estou ardendo em febre;
+todo o meu corpo está doente. 
+Sinto-me muito fraco e totalmente esmagado;
+meu coração geme de angústia. 
+Senhor, diante de ti
+estão todos os meus anseios;
+o meu suspiro não te é oculto. 
+Meu coração palpita, as forças me faltam;
+até a luz dos meus olhos se foi. 
+Meus amigos e companheiros me evitam
+por causa da doença que me aflige;
+ficam longe de mim os meus vizinhos. 
+Os que desejam matar-me
+preparam armadilhas,
+os que me querem prejudicar
+anunciam a minha ruína;
+passam o dia planejando traição. 
+Como um surdo, não ouço,
+como um mudo, não abro a boca. 
+Fiz-me como quem não ouve,
+e em cuja boca não há resposta. 
+Senhor, em ti espero;
+tu me responderás, ó Senhor meu Deus! 
+Pois eu disse: "Não permitas
+que eles se divirtam à minha custa
+nem triunfem sobre mim quando eu tropeçar". 
+Estou a ponto de cair,
+e a minha dor está sempre comigo. 
+Confesso a minha culpa;
+em angústia estou por causa do meu pecado. 
+Meus inimigos, porém,
+são muitos e poderosos;
+é grande o número
+dos que me odeiam sem motivo. 
+Os que me retribuem o bem com o mal
+caluniam-me porque é o bem que procuro. 
+Senhor, não me abandones!
+Não fiques longe de mim, ó meu Deus! 
+Apressa-te a ajudar-me,
+Senhor, meu Salvador! 
+ Salmo 38
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 2
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_2/
 INFO:root:🔹 Description: Por que se amotinam as nações
@@ -181,83 +234,94 @@ Tu és o meu socorro e o meu libertador;
 meu Deus, não te demores! 
  Salmo 40
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 20
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_20/
-INFO:root:🔹 Description: Que o Senhor te responda
-no tempo da angústia;
-o nome do Deus de Jacó te proteja! 
-Do santuário te envie auxílio
-e de Sião te dê apoio. 
-Lembre-se de todas as tuas ofertas
-e aceite os teus holocaustos. 
-Conceda-te o desejo do teu coração
-e leve a efeito todos os teus planos. 
-Saudaremos a tua vitória com gritos de alegria
-e ergueremos as nossas bandeiras
-em nome do nosso Deus.
-Que o Senhor atenda a todos os teus pedidos! 
-Agora sei que o Senhor
-dará vitória ao seu ungido;
-dos seus santos céus lhe responde
-com o poder salvador da sua mão direita. 
-Alguns confiam em carros e outros em cavalos,
-mas nós confiamos
-no nome do Senhor, o nosso Deus. 
-Eles vacilam e caem,
-mas nós nos erguemos e estamos firmes. 
-Senhor, concede vitória ao rei!
-Responde-nos quando clamamos! 
- Salmo 20
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 323106 characters
-INFO:root:HTML parsed, length: 313980 characters
-INFO:root:Found 3 titles: ['O que fazer em uma rua sem saída?', 'Metamorfose em Cristo', 'Busque o que te edifica']
+INFO:root:Response length: 321831 characters
+INFO:root:HTML parsed, length: 312711 characters
+INFO:root:Found 3 titles: ['O Derramar que transforma gerações', 'O que fazer em uma rua sem saída?', 'Metamorfose em Cristo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Entrega o teu caminho ao Senhor; confia nele, e o ', '"Não vos conformeis com este mundo,\nmas transforma', 'Em um mundo cheio de estímulos e caminhos aparente']
-INFO:root:Found 1 dates: ['Segunda, 16 de março de 2026']
+INFO:root:Found 3 descriptions: ['O profeta anuncia uma promessa poderosa e viva: De', 'Entrega o teu caminho ao Senhor; confia nele, e o ', '"Não vos conformeis com este mundo,\nmas transforma']
+INFO:root:Found 1 dates: ['Terça, 17 de março de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O que fazer em uma rua sem saída?', ID=fdf97aeecbaa6117276ea2aa42501123
+INFO:root:Processing entry 1: Title='O Derramar que transforma gerações', ID=3e1532f6bf6ebc4681590e4ddb08e797
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O que fazer em uma rua sem saída? - Palavra de Hoje
+INFO:root:🔹 Title: O Derramar que transforma gerações - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Entrega o teu caminho ao Senhor; confia nele, e o mais ele fará.
-- Salmos 37:5
+INFO:root:🔹 Description: O profeta anuncia uma promessa poderosa e viva: Deus derramaria do Seu Espírito sobre todos os povos. Não seria algo limitado, exclusivo ou reservado a poucos escolhidos. Seria um mover abundante, como chuva que cai sobre a terra seca, alcançando todas as gerações, classes e nações.
+Em Livro de Joel 2:28, vemos o coração missionário de Deus revelado: Ele deseja encher vidas com Sua presença.
 
-Todos nós, em algum momento da vida, nos sentimos como se tivéssemos chegado a uma rua sem saída. São dias em que as portas se fecham, as respostas não vêm e o coração se enche de dúvidas. Nessas horas, a fé é desafiada, e a alma clama por direção. O que fazer quando parece não haver mais para onde ir?
-A Palavra de Deus nos ensina que, mesmo quando não vemos saída, o Senhor continua no controle. Uma rua sem saída para nós nunca é o fim para Deus. Muitas vezes, é exatamente nesse lugar de limite que Ele começa algo novo. Quando nossas forças acabam, o poder dEle se aperfeiçoa em nossa fraqueza.
-O primeiro passo é parar e ouvir. O silêncio que assusta também pode ser o espaço onde Deus fala. Em vez de insistir em caminhos que não se abrem, somos convidados a confiar, descansar e entregar. Orar não muda apenas as circunstâncias, mas transforma principalmente o nosso interior.
-Em uma rua sem saída, Deus trabalha nosso caráter, fortalece nossa fé e ajusta nossa visão. Aquilo que parecia fracasso pode se tornar testemunho. Aquilo que doeu pode gerar crescimento. O Senhor não desperdiça lágrimas nem ignora o clamor sincero de um coração quebrantado.
-Jesus é o Caminho. Se Ele é o Caminho, então nunca estamos realmente sem direção. Mesmo quando tudo parece parado, Ele abre portas que ninguém pode fechar e cria caminhos onde não existiam estradas.
-Se hoje você se encontra em uma rua sem saída, não desanime. Confie. Espere. Persevere. O mesmo Deus que abriu o mar continua abrindo caminhos. A saída pode não ser como você imaginou, mas será exatamente como você precisa. 
-Veja também: 35 versículos para suportar o processo de Deus
+"E, depois disso,
+derramarei do meu Espírito
+sobre todos os povos.
+Os seus filhos e as suas filhas
+profetizarão,
+os velhos terão sonhos,
+os jovens terão visões.
+- Joel 2:28
+
+Esse derramar não faz distinção. Filhos e filhas profetizarão. Deus levanta uma geração que fala Sua Palavra com ousadia e verdade. Jovens terão visões, sonhos vivos de um futuro guiado pelo Espírito. Eles não caminharão perdidos, mas direcionados pela revelação divina. Os idosos terão sonhos, não sonhos frustrados pelo tempo, mas renovados pela esperança. O Espírito restaura propósito, reacende promessas e traz nova vida àquilo que parecia acabado.
+Essa promessa encontrou cumprimento poderoso no dia de Pentecostes, quando o Espírito Santo foi derramado sobre a Igreja. O que Joel profetizou tornou-se realidade viva, confirmando que Deus cumpre cada palavra liberada.
+Hoje, essa promessa continua acessível. O Espírito Santo ainda transforma, capacita e envia. Ele consola o aflito, fortalece o fraco e levanta o caído. Ele une gerações, pois no Reino não há divisão entre jovens e idosos, todos são vasos nas mãos do Senhor.
+Vivemos dias em que o mundo precisa ouvir vozes proféticas, ver jovens cheios de visão e idosos cheios de esperança. O mesmo Deus que prometeu é fiel para cumprir. Quando o Espírito é derramado, há arrependimento, restauração e avivamento.
+Que nossos corações estejam abertos para receber esse derramar. Que nossas famílias experimentem essa promessa. E que, como geração escolhida, sejamos instrumentos vivos do mover sobrenatural de Deus na terra. Amém.
+Veja também: A descida do Espírito Santo no dia de Pentecoste (Estudo Bíblico)
  
-Entrega o teu caminho ao Senhor; confia nele, e o mais ele fará.
-- Salmos 37:5
+"E, depois disso,
+derramarei do meu Espírito
+sobre todos os povos.
+Os seus filhos e as suas filhas
+profetizarão,
+os velhos terão sonhos,
+os jovens terão visões.
+- Joel 2:28
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 333677 characters
-INFO:root:HTML parsed, length: 324081 characters
-INFO:root:Found 3 titles: ['Cristo é o motivo do nosso louvor!', 'A maratona da fé', 'Confiar e descansar']
-INFO:root:Found 4 URLs: ['/como_mostrar_sua_gratidao_a_deus/', '/frases_de_gratidao_a_deus/', '/frases_evangelicas_de_motivacao/']
-INFO:root:Found 3 descriptions: ['Quando expressamos o nosso louvor a Deus, estamos ', 'Portanto, também nós, uma vez que estamos rodeados', 'Entregue o seu caminho ao Senhor;\nconfie nele, e e']
-INFO:root:Found 3 dates: ['MARçO\n\n16\nSEGUNDA', 'MARçO\n\n15\nDOMINGO', 'MARçO\n\n14\nSÁBADO']
+INFO:root:Response length: 333939 characters
+INFO:root:HTML parsed, length: 324342 characters
+INFO:root:Found 3 titles: ['Não deixe o mundo te consumir', 'Cristo é o motivo do nosso louvor!', 'A maratona da fé']
+INFO:root:Found 4 URLs: ['/buscar_a_deus/', '/como_mostrar_sua_gratidao_a_deus/', '/frases_de_gratidao_a_deus/']
+INFO:root:Found 3 descriptions: ['Não se amoldem ao padrão deste mundo, mas transfor', 'Quando expressamos o nosso louvor a Deus, estamos ', 'Portanto, também nós, uma vez que estamos rodeados']
+INFO:root:Found 3 dates: ['MARçO\n\n17\nTERÇA', 'MARçO\n\n16\nSEGUNDA', 'MARçO\n\n15\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Cristo é o motivo do nosso louvor!', ID=aacfb7c1d6f2facf6f4e31a55352a26a
-INFO:root:Processing entry 2: Title='A maratona da fé', ID=bf7801e968d762ecc610453737f54f5b
-INFO:root:Processing entry 3: Title='Confiar e descansar', ID=e8bca856570b420ff1e0726bc2db42d0
+INFO:root:Processing entry 1: Title='Não deixe o mundo te consumir', ID=421b43491461ad13be09e8b969cd57c9
+INFO:root:Processing entry 2: Title='Cristo é o motivo do nosso louvor!', ID=aacfb7c1d6f2facf6f4e31a55352a26a
+INFO:root:Processing entry 3: Title='A maratona da fé', ID=bf7801e968d762ecc610453737f54f5b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Não deixe o mundo te consumir
+INFO:root:🔹 URL: https://www.bibliaon.com/buscar_a_deus/
+INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
+- Romanos 12:2
+
+A Palavra de Deus nos lembra que nossa identidade não está nas expectativas do mundo, mas no propósito que Ele tem para cada um de nós.
+Hoje em dia somos constantemente cercados por muitas vozes dizendo como devemos viver, o que devemos ter e quem devemos ser. As redes, as opiniões das pessoas e até as comparações podem nos fazer sentir que nunca somos suficientes.
+O mundo apresenta uma ideia de felicidade baseada em reconhecimento, conquistas e aprovação dos outros. Porém, quando seguimos apenas esse caminho, o caminho da validação, acabamos nos afastando daquilo que realmente alimenta a alma.
+Não deixar o mundo te consumir significa guardar o coração. Significa lembrar, todos os dias, quem você é em Deus. Você não é definido pela opinião das pessoas, pelas redes sociais ou pelos erros do passado. Você é filho amado de Deus, criado com propósito e valor.
+Quando permitimos que a mente seja renovada pela Palavra, começamos a enxergar a vida de outra forma. Aquilo que antes parecia urgente perde força, e aquilo que realmente tem valor passa a ocupar o centro do nosso coração. A paz de Deus começa a substituir a ansiedade, e a confiança no Senhor vence o medo.
+É normal enfrentar pressões, dúvidas e momentos difíceis. Todos nós passamos por isso. Mas a diferença está em quem escolhemos ouvir. Se ouvirmos apenas o mundo, viveremos cansados e vazios. Mas se ouvirmos a voz de Deus, encontraremos direção, esperança e força para continuar.
+Não permita que as preocupações, as comparações e a correria da vida apaguem aquilo que Deus colocou dentro de você. Reserve tempo para orar, para meditar na Palavra e para lembrar que sua vida está nas mãos do Senhor.
+O mundo pode tentar te moldar, mas Deus quer te transformar. E quando você escolhe caminhar com Ele, descobre que a verdadeira vida não está no que o mundo oferece, mas na presença de Deus que sustenta, renova e fortalece todos os dias.
+Permanecendo firme sem se deixar levar pelos padrões do mundo
+
+Separe diariamente alguns minutos para orar e ler a Bíblia. Esse hábito fortalece sua fé, renova seus pensamentos e ajuda você a lembrar quem Deus diz que você é.
+Preste atenção no que você consome, ouve e vê. Nem tudo que o mundo oferece edifica. Escolha conteúdos e ambientes que aproximem você de Deus.
+Não viva tentando agradar todos ao seu redor. Busque agradar a Deus em suas atitudes, decisões e palavras, lembrando que seu valor vem dEle.
+
+Para orar:
+
+Senhor Deus, ajuda-me a não me deixar levar pelos caminhos deste mundo. Fortalece meu coração para que eu permaneça firme em Ti todos os dias. Renova minha mente com a Tua Palavra e ensina-me a buscar a Tua vontade acima de tudo. Que eu viva com sabedoria, fé e coragem, lembrando que minha verdadeira identidade está em Ti. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre buscar a Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Cristo é o motivo do nosso louvor!
 INFO:root:🔹 URL: https://www.bibliaon.com/como_mostrar_sua_gratidao_a_deus/
 INFO:root:🔹 Description: Quando expressamos o nosso louvor a Deus, estamos nos esforçando em retribuí-lo por tudo o que Ele fez. Esse sacrifício envolve a nosso corpo, os nossos pensamentos e as nossas emoções. Louvar a Deus é entregar um pouco de si a Ele. 
@@ -317,35 +381,6 @@ Senhor Deus, Pai amado, colocamos diante de Ti nossa caminhada de fé. Fortalece
 
 Veja também: Frases evangélicas de motivação (incentivo na caminhada com Deus)
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Confiar e descansar
-INFO:root:🔹 URL: https://www.bibliaon.com/frases_evangelicas_de_motivacao/
-INFO:root:🔹 Description: Entregue o seu caminho ao Senhor;
-confie nele, e ele agirá:
-- Salmos 37:5
-
-Descansar em Deus não significa abandonar, desistir dos sonhos ou cruzar os braços e dizer "tá nas mãos de Deus".
-Descansar em Deus é um ato profundo de fé e confiança. É reconhecer que fazemos a nossa parte, mas entendemos que o controle final está nas mãos do Senhor. É caminhar com esperança mesmo quando não enxergamos todo o caminho à frente.
-Muitas vezes pensamos que descansar é sinônimo de fraqueza ou passividade. Porém, descansar é confiar que Deus trabalha mesmo quando nossas forças se esgotam. É entregar as preocupações, os medos e as incertezas a Ele, acreditando que sua vontade é boa, perfeita e maior do que nossa compreensão.
-A Bíblia nos mostra um exemplo poderoso dessa confiança na história de Davi. Quando ele enfrentou o gigante Golias, a situação parecia impossível. Davi era jovem, não tinha a armadura de um guerreiro experiente e estava diante de um inimigo muito mais forte. Ainda assim, ele não se deixou dominar pelo medo. Sua confiança estava em Deus. Ele fez sua parte ao enfrentar o desafio, mas descansava na certeza de que o Senhor lutaria por ele.
-Esse é o verdadeiro descanso: agir com coragem enquanto o coração permanece tranquilo em Deus.
-Hoje também enfrentamos gigantes, problemas, inseguranças, pressões e desafios que parecem maiores do que nós. No entanto, quando colocamos nossa confiança no Senhor, aprendemos que não precisamos carregar tudo sozinhos. Deus caminha conosco em cada batalha.
-Descansar em Deus é dizer com fé: “Senhor, eu confio em Ti. Vou continuar caminhando, mas sei que és Tu quem sustenta meus passos.”
-Quando aprendemos a viver assim, o coração encontra paz mesmo em meio às tempestades. Porque quem confia em Deus nunca caminha sozinho.
-Aprender a descansar em Deus na prática
-
-
-Decida entregar suas preocupações a Deus, resistindo ao impulso de controlar tudo e escolhendo confiar mesmo quando respostas demorarem.
-
-Pratique obedecer a Deus mesmo quando o caminho parecer incerto, lembrando que fé verdadeira age primeiro e confia que Deus guiará cada passo.
-
-Desafie-se a substituir pensamentos de medo por promessas da Palavra, declarando verdades bíblicas diariamente até que sua mente aprenda descansar em Deus.
-
-Para orar:
-
-Senhor Deus, hoje eu coloco diante de Ti minhas preocupações, medos e ansiedades. Ensina-me a descansar em Tua presença e confiar em Teus planos, mesmo quando não entendo o caminho. Fortalece minha fé para que eu não desista diante das dificuldades. Que meu coração encontre paz em Ti e que eu caminhe cada dia com confiança, sabendo que Tu cuidas de mim. Em nome de Jesus, amém.
-
-Veja também: 7 razões para confiar em Deus em meio às lutas
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -375,15 +410,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  60 +++--
- feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  81 +------
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  52 +++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  36 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  20 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               |  78 +++----
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  84 +++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 358 ++++++++++++------------------
- 11 files changed, 272 insertions(+), 396 deletions(-)
+ output.log                                | 307 ++++++++++++++++--------------
+ 11 files changed, 312 insertions(+), 254 deletions(-)
