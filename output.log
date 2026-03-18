@@ -1,83 +1,123 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124005 characters
-INFO:root:HTML parsed, length: 117119 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (17/03/2026)', 'Palavra de Ontem (16/03/2026)', 'Palavra de Anteontem (15/03/2026)']
-INFO:root:Found 3 URLs: ['/oxitona/', '/independentemente/', '/microchipar/']
-INFO:root:Found 10 descriptions: ['substantivo feminino Palavra cujo acento tônico (m', 'Sinônimos:\n\naguda', 'Sílabas:o-xí-to-na']
-INFO:root:Found 3 dates: ['Palavra de Hoje (17/03/2026)', 'Palavra de Ontem (16/03/2026)', 'Palavra de Anteontem (15/03/2026)']
+INFO:root:Response length: 125207 characters
+INFO:root:HTML parsed, length: 118114 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (18/03/2026)', 'Palavra de Ontem (17/03/2026)', 'Palavra de Anteontem (16/03/2026)']
+INFO:root:Found 3 URLs: ['/aura/', '/oxitona/', '/independentemente/']
+INFO:root:Found 12 descriptions: ['substantivo feminino Grupo de características que ', 'Sinônimos:\n\nsopro, fama, renome, celebridade, arag', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (18/03/2026)', 'Palavra de Ontem (17/03/2026)', 'Palavra de Anteontem (16/03/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (17/03/2026)', ID=5d87c2a75bf9f05d95fea414077bbb44
-INFO:root:Processing entry 2: Title='Palavra de Ontem (16/03/2026)', ID=df25396778e1f81425168480770ce3bf
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (15/03/2026)', ID=848bd7009c789cd5a36b4807a1290075
+INFO:root:Processing entry 1: Title='Palavra de Hoje (18/03/2026)', ID=79825a690b8d2c7e8ef731598a416942
+INFO:root:Processing entry 2: Title='Palavra de Ontem (17/03/2026)', ID=3d7e81b90e28e4096ae166c1131828b8
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/03/2026)', ID=a9f51ded92749d6d2c92728e3c13acf3
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (17/03/2026) - Significado completo de oxítona:
-INFO:root:🔹 URL: https://www.dicio.com.br/oxitona/
-INFO:root:🔹 Description: substantivo feminino Palavra cujo acento tônico (mais forte) fica na última sílaba; palavra oxítona: café é uma oxítona.adjetivo [Gramática] Cujo acento tônico está na última sílaba: abacaxi, açaí e anzol são exemplos de palavras oxítonas.Etimologia (origem da palavra oxítona). A palavra oxítona deriva como feminino singular da palavra oxítono, pelo grego “okstonos”, que significa com acento agudo.
+INFO:root:🔹 Title: Palavra de Hoje (18/03/2026) - Significado completo de aura:
+INFO:root:🔹 URL: https://www.dicio.com.br/aura/
+INFO:root:🔹 Description: substantivo feminino Grupo de características que identifica algo ou alguém: tem aura de escritor.Suposto circulo de luz ou de energia que envolve o corpo.[Figurado] Atmosfera imaterial que envolve certos seres: uma aura de santidade.Vento brando; brisa, aragem.Psiq Sensação subjetiva que anuncia a certos doentes o início de sua crise epiléptica.[Psicologia] Aparência externa de um estado de espírito.[História] Emanação de um líquido que contém sêmen capaz de produzir a fecundação sem estar o contato com o óvulo.expressão Aura popular. Expressão de estima; admiração do público.Etimologia (origem da palavra aura). A palavra aura tem sua origem no latim “aura,ae”, com sentido de vento brando; pelo grego “aúra, as” com o mesmo sentido.
  
 Sinônimos:
 
-aguda 
+sopro, fama, renome, celebridade, aragem, brisa, chance 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (16/03/2026) - Significado completo de independentemente:
-INFO:root:🔹 URL: https://www.dicio.com.br/independentemente/
+INFO:root:🔹 Title: Palavra de Ontem (17/03/2026) - Significado completo de oxítona:
+INFO:root:🔹 URL: https://www.dicio.com.br/oxitona/
 INFO:root:🔹 Description: Sinônimos:
 
-aguda
- Sílabas:o-xí-to-na
+sopro, fama, renome, celebridade, aragem, brisa, chance
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (15/03/2026) - Significado completo de microchipar:
-INFO:root:🔹 URL: https://www.dicio.com.br/microchipar/
-INFO:root:🔹 Description: Sílabas:o-xí-to-na
- 
-Sinônimos:
-
-livremente, altivamente, autonomamente, soberanamente 
-
+INFO:root:🔹 Title: Palavra de Anteontem (16/03/2026) - Significado completo de independentemente:
+INFO:root:🔹 URL: https://www.dicio.com.br/independentemente/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:au-ra
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320588 characters
-INFO:root:HTML parsed, length: 310979 characters
-INFO:root:Found 1 titles: ['Ezequiel 34:26']
-INFO:root:Found 1 URLs: ['/versiculo/ezequiel_34_26/']
-INFO:root:Found 1 descriptions: ['Eu as abençoarei e abençoarei os lugares em torno ']
+INFO:root:Response length: 320585 characters
+INFO:root:HTML parsed, length: 310976 characters
+INFO:root:Found 1 titles: ['Sofonias 3:15']
+INFO:root:Found 1 URLs: ['/versiculo/sofonias_3_15/']
+INFO:root:Found 1 descriptions: ['O Senhor anulou a sentença\ncontra você,\nele fez re']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Ezequiel 34:26', ID=2763d8ed6fdc452921c160a3e350e1e8
+INFO:root:Processing entry 1: Title='Sofonias 3:15', ID=7297e4d4a50547ee6a2b7a967bdd7aac
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Ezequiel 34:26
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/ezequiel_34_26/
-INFO:root:🔹 Description: Eu as abençoarei e abençoarei os lugares em torno da minha colina. Na estação própria farei descer chuva; haverá chuvas de bênçãos. Ezequiel 34:26
+INFO:root:🔹 Title: Sofonias 3:15
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/sofonias_3_15/
+INFO:root:🔹 Description: O Senhor anulou a sentença
+contra você,
+ele fez retroceder os seus inimigos.
+O Senhor, o Rei de Israel,
+está em seu meio;
+nunca mais você temerá perigo algum. Sofonias 3:15
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 321594 characters
-INFO:root:HTML parsed, length: 312804 characters
-INFO:root:Found 3 titles: ['Salmo 38', 'Salmo 2', 'Salmo 40']
-INFO:root:Found 3 URLs: ['/salmos_38/', '/salmos_2/', '/salmos_40/']
-INFO:root:Found 3 descriptions: ['Senhor, não me repreendas no teu furor\nnem me disc', 'Por que se amotinam as nações\ne os povos tramam em', 'Depositei toda a minha esperança no Senhor;\nele se']
-INFO:root:Found 3 dates: ['17 de Março de 2026', '16 de Março de 2026', '15 de Março de 2026']
+INFO:root:Response length: 320489 characters
+INFO:root:HTML parsed, length: 311679 characters
+INFO:root:Found 3 titles: ['Salmo 141', 'Salmo 38', 'Salmo 2']
+INFO:root:Found 3 URLs: ['/salmos_141/', '/salmos_38/', '/salmos_2/']
+INFO:root:Found 3 descriptions: ['Clamo a ti, Senhor; vem depressa!\nEscuta a minha v', 'Senhor, não me repreendas no teu furor\nnem me disc', 'Por que se amotinam as nações\ne os povos tramam em']
+INFO:root:Found 3 dates: ['18 de Março de 2026', '17 de Março de 2026', '16 de Março de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 38', ID=282dc27a0c80d468d6e7d65a1fc291fb
-INFO:root:Processing entry 2: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
-INFO:root:Processing entry 3: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
+INFO:root:Processing entry 1: Title=' Salmo 141', ID=e2beea10b2b051294b0a6e62337fc7ac
+INFO:root:Processing entry 2: Title=' Salmo 38', ID=282dc27a0c80d468d6e7d65a1fc291fb
+INFO:root:Processing entry 3: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 141
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_141/
+INFO:root:🔹 Description: Clamo a ti, Senhor; vem depressa!
+Escuta a minha voz quando clamo a ti. 
+Seja a minha oração
+como incenso diante de ti
+e o levantar das minhas mãos
+como a oferta da tarde. 
+Coloca, Senhor,
+uma guarda à minha boca;
+vigia a porta de meus lábios. 
+Não permitas que o meu coração
+se volte para o mal
+nem que eu me envolva em práticas perversas
+com os malfeitores.
+Que eu nunca participe dos seus banquetes! 
+Fira-me o justo com amor leal
+e me repreenda,
+mas não perfume a minha cabeça
+o óleo do ímpio,
+pois a minha oração
+é contra as práticas dos malfeitores. 
+Quando eles caírem nas mãos da Rocha,
+o juiz deles,
+ouvirão as minhas palavras com apreço. 
+Como a terra é arada e fendida,
+assim foram espalhados os seus ossos
+à entrada da sepultura. 
+Mas os meus olhos estão fixos em ti,
+ó Soberano Senhor;
+em ti me refugio;
+não me entregues à morte. 
+Guarda-me das armadilhas
+que prepararam contra mim,
+das ciladas dos que praticam o mal. 
+Caiam os ímpios em sua própria rede,
+enquanto eu escapo ileso. 
+ Salmo 141
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 38
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_38/
 INFO:root:🔹 Description: Senhor, não me repreendas no teu furor
@@ -168,135 +208,98 @@ pois num instante acende-se a sua ira.
 Como são felizes todos os que nele se refugiam! 
  Salmo 2
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 40
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_40/
-INFO:root:🔹 Description: Depositei toda a minha esperança no Senhor;
-ele se inclinou para mim
-e ouviu o meu grito de socorro. 
-Ele me tirou de um poço de destruição,
-de um atoleiro de lama;
-pôs os meus pés sobre uma rocha
-e firmou-me num local seguro. 
-Pôs um novo cântico na minha boca,
-um hino de louvor ao nosso Deus.
-Muitos verão isso e temerão,
-e confiarão no Senhor. 
-Como é feliz o homem
-que põe no Senhor a sua confiança,
-e não vai atrás dos orgulhosos,
-dos que se afastam para seguir deuses falsos! 
-Senhor meu Deus!
-Quantas maravilhas tens feito!
-Não se pode relatar
-os planos que preparaste para nós!
-Eu queria proclamá-los e anunciá-los,
-mas são por demais numerosos! 
-Sacrifício e oferta não pediste,
-mas abriste os meus ouvidos;
-holocaustos e ofertas pelo pecado
-não exigiste. 
-Então eu disse: "Aqui estou!"
-No livro está escrito a meu respeito. 
-Tenho grande alegria em fazer a tua vontade,
-ó meu Deus;
-a tua lei está no fundo do meu coração. 
-Eu proclamo as novas de justiça
-na grande assembleia;
-como sabes, Senhor, não fecho os meus lábios. 
-Não oculto no coração a tua justiça;
-falo da tua fidelidade e da tua salvação.
-Não escondo da grande assembleia
-a tua fidelidade e a tua verdade. 
-Não me negues a tua misericórdia, Senhor;
-que o teu amor e a tua verdade
-sempre me protejam. 
-Pois incontáveis problemas me cercam,
-as minhas culpas me alcançaram
-e já não consigo ver.
-Mais numerosos são
-que os cabelos da minha cabeça,
-e o meu coração perdeu o ânimo. 
-Agrada-te, Senhor, em libertar-me;
-apressa-te, Senhor, a ajudar-me. 
-Sejam humilhados e frustrados
-todos os que procuram tirar-me a vida;
-retrocedam desprezados
-os que desejam a minha ruína. 
-Fiquem chocados com a sua própria desgraça
-os que zombam de mim. 
-Mas regozijem-se e alegrem-se em ti
-todos os que te buscam;
-digam sempre aqueles que amam a tua salvação:
-"Grande é o Senhor!" 
-Quanto a mim, sou pobre e necessitado,
-mas o Senhor preocupa-se comigo.
-Tu és o meu socorro e o meu libertador;
-meu Deus, não te demores! 
- Salmo 40
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 321831 characters
-INFO:root:HTML parsed, length: 312711 characters
-INFO:root:Found 3 titles: ['O Derramar que transforma gerações', 'O que fazer em uma rua sem saída?', 'Metamorfose em Cristo']
+INFO:root:Response length: 322821 characters
+INFO:root:HTML parsed, length: 313664 characters
+INFO:root:Found 3 titles: ['Nunca duvide do poder de Deus', 'O Derramar que transforma gerações', 'O que fazer em uma rua sem saída?']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O profeta anuncia uma promessa poderosa e viva: De', 'Entrega o teu caminho ao Senhor; confia nele, e o ', '"Não vos conformeis com este mundo,\nmas transforma']
-INFO:root:Found 1 dates: ['Terça, 17 de março de 2026']
+INFO:root:Found 3 descriptions: ['A Bíblia nos assegura repetidamente de que não dev', 'O profeta anuncia uma promessa poderosa e viva: De', 'Entrega o teu caminho ao Senhor; confia nele, e o ']
+INFO:root:Found 1 dates: ['Quarta, 18 de março de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O Derramar que transforma gerações', ID=3e1532f6bf6ebc4681590e4ddb08e797
+INFO:root:Processing entry 1: Title='Nunca duvide do poder de Deus', ID=080d9325251ae8567e736746b5724cd7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O Derramar que transforma gerações - Palavra de Hoje
+INFO:root:🔹 Title: Nunca duvide do poder de Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O profeta anuncia uma promessa poderosa e viva: Deus derramaria do Seu Espírito sobre todos os povos. Não seria algo limitado, exclusivo ou reservado a poucos escolhidos. Seria um mover abundante, como chuva que cai sobre a terra seca, alcançando todas as gerações, classes e nações.
-Em Livro de Joel 2:28, vemos o coração missionário de Deus revelado: Ele deseja encher vidas com Sua presença.
+INFO:root:🔹 Description: A Bíblia nos assegura repetidamente de que não devemos duvidar do poder de Deus. O versículo de Lucas 1:37 nos lembra:
 
-"E, depois disso,
-derramarei do meu Espírito
-sobre todos os povos.
-Os seus filhos e as suas filhas
-profetizarão,
-os velhos terão sonhos,
-os jovens terão visões.
-- Joel 2:28
+Pois nada é impossível para Deus.
+- Lucas 1:37
 
-Esse derramar não faz distinção. Filhos e filhas profetizarão. Deus levanta uma geração que fala Sua Palavra com ousadia e verdade. Jovens terão visões, sonhos vivos de um futuro guiado pelo Espírito. Eles não caminharão perdidos, mas direcionados pela revelação divina. Os idosos terão sonhos, não sonhos frustrados pelo tempo, mas renovados pela esperança. O Espírito restaura propósito, reacende promessas e traz nova vida àquilo que parecia acabado.
-Essa promessa encontrou cumprimento poderoso no dia de Pentecostes, quando o Espírito Santo foi derramado sobre a Igreja. O que Joel profetizou tornou-se realidade viva, confirmando que Deus cumpre cada palavra liberada.
-Hoje, essa promessa continua acessível. O Espírito Santo ainda transforma, capacita e envia. Ele consola o aflito, fortalece o fraco e levanta o caído. Ele une gerações, pois no Reino não há divisão entre jovens e idosos, todos são vasos nas mãos do Senhor.
-Vivemos dias em que o mundo precisa ouvir vozes proféticas, ver jovens cheios de visão e idosos cheios de esperança. O mesmo Deus que prometeu é fiel para cumprir. Quando o Espírito é derramado, há arrependimento, restauração e avivamento.
-Que nossos corações estejam abertos para receber esse derramar. Que nossas famílias experimentem essa promessa. E que, como geração escolhida, sejamos instrumentos vivos do mover sobrenatural de Deus na terra. Amém.
-Veja também: A descida do Espírito Santo no dia de Pentecoste (Estudo Bíblico)
+Exitem motivos para não duvidarmos do poder de Deus. O primeiro é porque Ele é o Criador do universo. Deus fez o mundo a partir do nada, e esse mesmo poder criador está à nossa disposição quando buscamos Sua ajuda.
+Em segundo lugar, não devemos duvidar do poder de Deus, porque a história da Bíblia está repleta de milagres que demonstram Sua capacidade de realizar o impossível, como a abertura do Mar Vermelho e a ressurreição de Jesus Cristo. Esses eventos mostram que o poder de Deus transcende as leis naturais.
+Por último, não devemos duvidar do poder de Deus porque Ele é amoroso e compassivo. Ele se preocupa conosco e deseja o nosso bem. Quando confiamos em Seu poder, encontramos conforto e esperança, sabendo que Ele está ao nosso lado, independentemente das circunstâncias.
+Portanto, lembremos sempre desses três motivos e não duvidarmos do poder de Deus: Ele é o Criador, Sua história está repleta de milagres e Ele te ama! Quando confiamos em Deus, somos capacitados a enfrentar qualquer desafio com fé e sem duvidar do Seu poder.
+Isso significa que, independentemente do tamanho do desafio que enfrentamos, Deus é capaz de superá-lo.
+
+Confiem para sempre no Senhor,
+pois o Senhor, somente o Senhor,
+é a Rocha eterna.
+- Isaías 26:4
+
+A fé em Deus produzirá frutos! Não duvide, somente creia.
+
+Então Jesus lhe disse: "Porque me viu, você creu? Felizes os que não viram e creram".
+- João 20:29
+
+Veja mais sobre o poder de Deus:
+
+Versículos sobre dúvida
+Versículos que mostram que Deus não falha
+43 frases que mostram que Deus sabe de todas as coisas
  
-"E, depois disso,
-derramarei do meu Espírito
-sobre todos os povos.
-Os seus filhos e as suas filhas
-profetizarão,
-os velhos terão sonhos,
-os jovens terão visões.
-- Joel 2:28
+Versículos sobre dúvida
+Versículos que mostram que Deus não falha
+43 frases que mostram que Deus sabe de todas as coisas
+
+ 
+Pois nada é impossível para Deus.
+- Lucas 1:37
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 333939 characters
-INFO:root:HTML parsed, length: 324342 characters
-INFO:root:Found 3 titles: ['Não deixe o mundo te consumir', 'Cristo é o motivo do nosso louvor!', 'A maratona da fé']
-INFO:root:Found 4 URLs: ['/buscar_a_deus/', '/como_mostrar_sua_gratidao_a_deus/', '/frases_de_gratidao_a_deus/']
-INFO:root:Found 3 descriptions: ['Não se amoldem ao padrão deste mundo, mas transfor', 'Quando expressamos o nosso louvor a Deus, estamos ', 'Portanto, também nós, uma vez que estamos rodeados']
-INFO:root:Found 3 dates: ['MARçO\n\n17\nTERÇA', 'MARçO\n\n16\nSEGUNDA', 'MARçO\n\n15\nDOMINGO']
+INFO:root:Response length: 333134 characters
+INFO:root:HTML parsed, length: 323537 characters
+INFO:root:Found 3 titles: ['Um momento a sós com Deus', 'Não deixe o mundo te consumir', 'Cristo é o motivo do nosso louvor!']
+INFO:root:Found 4 URLs: ['/como_buscar_e_se_aproximar_de_deus/', '/buscar_a_deus/', '/como_mostrar_sua_gratidao_a_deus/']
+INFO:root:Found 3 descriptions: ['Mas, quando você orar, vá para seu quarto, feche a', 'Não se amoldem ao padrão deste mundo, mas transfor', 'Quando expressamos o nosso louvor a Deus, estamos ']
+INFO:root:Found 3 dates: ['MARçO\n\n18\nQUARTA', 'MARçO\n\n17\nTERÇA', 'MARçO\n\n16\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Não deixe o mundo te consumir', ID=421b43491461ad13be09e8b969cd57c9
-INFO:root:Processing entry 2: Title='Cristo é o motivo do nosso louvor!', ID=aacfb7c1d6f2facf6f4e31a55352a26a
-INFO:root:Processing entry 3: Title='A maratona da fé', ID=bf7801e968d762ecc610453737f54f5b
+INFO:root:Processing entry 1: Title='Um momento a sós com Deus', ID=d32ed7b1d3ea42e6717b81ee4316fdd3
+INFO:root:Processing entry 2: Title='Não deixe o mundo te consumir', ID=421b43491461ad13be09e8b969cd57c9
+INFO:root:Processing entry 3: Title='Cristo é o motivo do nosso louvor!', ID=aacfb7c1d6f2facf6f4e31a55352a26a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Um momento a sós com Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
+INFO:root:🔹 Description: Mas, quando você orar, vá para seu quarto, feche a porta e ore a seu Pai, que está em secreto. Então seu Pai, que vê em secreto, o recompensará.
+- Mateus 6:6 
+
+Ter um momento a sós com Deus é essencial para fortalecer a fé, renovar as forças e alinhar o coração com a vontade d'Ele. Separar um tempo exclusivo para Deus nos permite ouvir Sua voz com mais clareza e desenvolver um relacionamento mais íntimo com Ele. Esse momento não precisa ser longo, mas deve ser sincero e dedicado a Deus.
+Jesus nos deixou o maior exemplo dessa prática. Mesmo sendo o Filho de Deus, Ele se retirou em vários momentos para orar. Em diversas passagens, vemos Jesus se afastando das multidões, dos discípulos para buscar comunhão com o Pai.
+Antes de tomar decisões importantes, como a escolha dos doze discípulos, Jesus passou a noite em oração. Em momentos de dor e angústia, como no Getsêmani, Jesus também ficou a sós com Deus que encontrou força para continuar.
+Isso nos ensina que, assim como Jesus, precisamos desse tempo reservado. Não se trata apenas de pedir, mas de estar com Deus, ouvir, descansar e confiar n'Ele. Quando nos retiramos para esse encontro pessoal, somos transformados, aumentamos a nossa intimidade e passamos a nos entregar de verdade. O resultado é uma maior comunhão com o Pai, paz e direção para seguimos em frente.
+Cultivar um momento diário a sós com Deus não é uma obrigação, mas um privilégio. É nesse lugar secreto que encontramos direção, paz e renovação para viver segundo o propósito que Ele tem para nós. 
+Reserve um momento com Deus
+
+Escolha um horário fixo diariamente, evitando distrações, e dedique esse tempo exclusivamente para oração, leitura bíblica e silêncio diante de Deus.
+Encontre um lugar tranquilo, onde você possa se concentrar, abrir seu coração com sinceridade e ouvir a voz de Deus.
+Seja constante mesmo quando não sentir vontade, pois disciplina espiritual fortalece sua fé e aprofunda seu relacionamento com Deus diariamente. 
+
+Para orar: 
+
+Senhor Deus, agradeço por Tua presença que me sustenta. Ensina-me a buscar-Te todos os dias com sinceridade e fé. Quero ouvir Tua voz e descansar em Teu amor. Fortalece meu coração, guia meus passos e renova minhas forças. Que minha vida Te honre em tudo. Em nome de Jesus, amém.
+
+Veja também: Como se aproximar de Deus segundo a Bíblia
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Não deixe o mundo te consumir
 INFO:root:🔹 URL: https://www.bibliaon.com/buscar_a_deus/
 INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
@@ -359,28 +362,6 @@ Sugestões de leitura:
 3 formas de mostrar sua gratidão a Deus
 Frases e mensagens de gratidão a Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A maratona da fé
-INFO:root:🔹 URL: https://www.bibliaon.com/frases_de_gratidao_a_deus/
-INFO:root:🔹 Description: Portanto, também nós, uma vez que estamos rodeados por tão grande nuvem de testemunhas, livremo-nos de tudo o que nos atrapalha e do pecado que nos envolve e corramos com perseverança a corrida que nos é proposta, tendo os olhos fitos em Jesus, autor e consumador da nossa fé. Ele, pela alegria que lhe fora proposta, suportou a cruz, desprezando a vergonha, e assentou-se à direita do trono de Deus.
-- Hebreus 12:1-2 
-
-Uma maratona é uma corrida longa e desafiadora. Diferente de uma corrida curta, ela exige resistência, disciplina, preparo e determinação. Os corredores sabem que não podem começar em velocidade máxima e esperar chegar ao fim sem esforço. Durante o percurso há cansaço, sede, dores e momentos em que a vontade de desistir aparece. Porém, quem termina a maratona entende que a vitória não está apenas em correr rápido, mas em permanecer firme até cruzar a linha de chegada.
-A caminhada da fé em Cristo se parece muito com uma maratona. Quando decidimos seguir a Jesus, iniciamos uma jornada que não é apenas de momentos fáceis ou de vitórias imediatas. Ao longo do caminho enfrentamos desafios, dúvidas, lutas e períodos em que parece difícil continuar. Assim como o corredor precisa de preparo, o cristão precisa alimentar sua fé por meio da oração, da Palavra de Deus e da comunhão com outros irmãos.
-Em uma maratona, muitos corredores pensam em desistir antes do final, mas continuam porque lembram do objetivo. Na vida cristã também precisamos manter nossos olhos em Jesus. Ele é quem nos fortalece quando estamos cansados, quem nos levanta quando tropeçamos e quem nos lembra que a recompensa eterna vale cada passo dado com fidelidade.
-Além disso, nenhum corredor completa uma maratona sem treinamento. Da mesma forma, Deus usa cada experiência da vida para fortalecer nossa fé. As dificuldades não são sinais de abandono, mas oportunidades de crescimento espiritual e dependência de Deus.
-Não desista da sua caminhada com Cristo. Continue correndo com perseverança, confiando no Senhor. No final da maratona da fé, a maior vitória será estar diante de Deus e ouvir: “Servo bom e fiel, você permaneceu até o fim.”
-Permanecendo firmes até o fim da corrida espiritual 
-
-Quando o cansaço chegar, lembre que Deus fortalece quem continua. Cada desafio pode amadurecer sua fé e aproximar você mais profundamente do Senhor.
-Não permita que dificuldades desviem seu foco. Lembre-se das promessas de Deus e confie que Cristo caminha com você em cada etapa.
-Separe tempo diário para oração e leitura da Bíblia. Assim como o corpo precisa alimento, o espírito cresce quando permanece conectado com Deus.
-
-Para orar: 
-
-Senhor Deus, Pai amado, colocamos diante de Ti nossa caminhada de fé. Fortalece-nos quando o cansaço chegar e renova nossa esperança quando surgirem dificuldades. Ensina-nos a confiar em Tuas promessas e a permanecer firmes, olhando sempre para Cristo. Que nosso coração não desista diante das lutas, mas encontre em Ti força, paz e direção todos os dias. Conduza nossos passos no Teu caminho. Em nome de Jesus, amém.
-
-Veja também: Frases evangélicas de motivação (incentivo na caminhada com Deus)
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -410,15 +391,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  52 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  36 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  59 +++---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  20 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  84 +++++---
+ feeds/salmo_do_dia/atom.xml               | 103 ++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 307 ++++++++++++++++--------------
- 11 files changed, 312 insertions(+), 254 deletions(-)
+ output.log                                | 335 ++++++++++++++----------------
+ 11 files changed, 287 insertions(+), 337 deletions(-)
