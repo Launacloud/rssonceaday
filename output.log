@@ -1,84 +1,122 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 125207 characters
-INFO:root:HTML parsed, length: 118114 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (18/03/2026)', 'Palavra de Ontem (17/03/2026)', 'Palavra de Anteontem (16/03/2026)']
-INFO:root:Found 3 URLs: ['/aura/', '/oxitona/', '/independentemente/']
-INFO:root:Found 12 descriptions: ['substantivo feminino Grupo de características que ', 'Sinônimos:\n\nsopro, fama, renome, celebridade, arag', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (18/03/2026)', 'Palavra de Ontem (17/03/2026)', 'Palavra de Anteontem (16/03/2026)']
+INFO:root:Response length: 124816 characters
+INFO:root:HTML parsed, length: 117907 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (19/03/2026)', 'Palavra de Ontem (18/03/2026)', 'Palavra de Anteontem (17/03/2026)']
+INFO:root:Found 3 URLs: ['/decolonialidade/', '/aura/', '/oxitona/']
+INFO:root:Found 11 descriptions: ['adjetivo Característica do que é decolonial, relac', 'Antônimos:\n\ncolonialismo', 'Sílabas:de-co-lo-ni-a-li-da-de']
+INFO:root:Found 3 dates: ['Palavra de Hoje (19/03/2026)', 'Palavra de Ontem (18/03/2026)', 'Palavra de Anteontem (17/03/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (18/03/2026)', ID=79825a690b8d2c7e8ef731598a416942
-INFO:root:Processing entry 2: Title='Palavra de Ontem (17/03/2026)', ID=3d7e81b90e28e4096ae166c1131828b8
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/03/2026)', ID=a9f51ded92749d6d2c92728e3c13acf3
+INFO:root:Processing entry 1: Title='Palavra de Hoje (19/03/2026)', ID=1397e14dd9d2d6c5b3a3323d00f21bdd
+INFO:root:Processing entry 2: Title='Palavra de Ontem (18/03/2026)', ID=5291f13c248c2f8ad01e30b0f3f1700f
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (17/03/2026)', ID=e887554c5f382ee662fff3a15f7bb301
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (18/03/2026) - Significado completo de aura:
+INFO:root:🔹 Title: Palavra de Hoje (19/03/2026) - Significado completo de decolonialidade:
+INFO:root:🔹 URL: https://www.dicio.com.br/decolonialidade/
+INFO:root:🔹 Description: adjetivo Característica do que é decolonial, relacionado com a crítica do colonialismo, dos processos que levaram países a se estabelecerem em outros países, e das relações de poder criadas a partir desse sistema (opõe-se ao que é colonial ou alvo de colonização).Etimologia (origem da palavra decolonialidade). A palavra decolonialidade tem sua origem pela junção de decolonial, -i-, e do sufixo -dade.
+ 
+Antônimos:
+
+colonialismo 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (18/03/2026) - Significado completo de aura:
 INFO:root:🔹 URL: https://www.dicio.com.br/aura/
-INFO:root:🔹 Description: substantivo feminino Grupo de características que identifica algo ou alguém: tem aura de escritor.Suposto circulo de luz ou de energia que envolve o corpo.[Figurado] Atmosfera imaterial que envolve certos seres: uma aura de santidade.Vento brando; brisa, aragem.Psiq Sensação subjetiva que anuncia a certos doentes o início de sua crise epiléptica.[Psicologia] Aparência externa de um estado de espírito.[História] Emanação de um líquido que contém sêmen capaz de produzir a fecundação sem estar o contato com o óvulo.expressão Aura popular. Expressão de estima; admiração do público.Etimologia (origem da palavra aura). A palavra aura tem sua origem no latim “aura,ae”, com sentido de vento brando; pelo grego “aúra, as” com o mesmo sentido.
+INFO:root:🔹 Description: Antônimos:
+
+colonialismo
+ Sílabas:de-co-lo-ni-a-li-da-de
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (17/03/2026) - Significado completo de oxítona:
+INFO:root:🔹 URL: https://www.dicio.com.br/oxitona/
+INFO:root:🔹 Description: Sílabas:de-co-lo-ni-a-li-da-de
  
 Sinônimos:
 
 sopro, fama, renome, celebridade, aragem, brisa, chance 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (17/03/2026) - Significado completo de oxítona:
-INFO:root:🔹 URL: https://www.dicio.com.br/oxitona/
-INFO:root:🔹 Description: Sinônimos:
-
-sopro, fama, renome, celebridade, aragem, brisa, chance
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (16/03/2026) - Significado completo de independentemente:
-INFO:root:🔹 URL: https://www.dicio.com.br/independentemente/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:au-ra
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320585 characters
-INFO:root:HTML parsed, length: 310976 characters
-INFO:root:Found 1 titles: ['Sofonias 3:15']
-INFO:root:Found 1 URLs: ['/versiculo/sofonias_3_15/']
-INFO:root:Found 1 descriptions: ['O Senhor anulou a sentença\ncontra você,\nele fez re']
+INFO:root:Response length: 320489 characters
+INFO:root:HTML parsed, length: 310880 characters
+INFO:root:Found 1 titles: ['Êxodo 20:20']
+INFO:root:Found 1 URLs: ['/versiculo/exodo_20_20/']
+INFO:root:Found 1 descriptions: ['Moisés disse ao povo: "Não tenham medo! Deus veio ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Sofonias 3:15', ID=7297e4d4a50547ee6a2b7a967bdd7aac
+INFO:root:Processing entry 1: Title='Êxodo 20:20', ID=cef717ef5f31d49e2f2132c751174874
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Sofonias 3:15
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/sofonias_3_15/
-INFO:root:🔹 Description: O Senhor anulou a sentença
-contra você,
-ele fez retroceder os seus inimigos.
-O Senhor, o Rei de Israel,
-está em seu meio;
-nunca mais você temerá perigo algum. Sofonias 3:15
+INFO:root:🔹 Title: Êxodo 20:20
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/exodo_20_20/
+INFO:root:🔹 Description: Moisés disse ao povo: "Não tenham medo! Deus veio prová-los, para que o temor de Deus esteja em vocês e os livre de pecar". Êxodo 20:20
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320489 characters
-INFO:root:HTML parsed, length: 311679 characters
-INFO:root:Found 3 titles: ['Salmo 141', 'Salmo 38', 'Salmo 2']
-INFO:root:Found 3 URLs: ['/salmos_141/', '/salmos_38/', '/salmos_2/']
-INFO:root:Found 3 descriptions: ['Clamo a ti, Senhor; vem depressa!\nEscuta a minha v', 'Senhor, não me repreendas no teu furor\nnem me disc', 'Por que se amotinam as nações\ne os povos tramam em']
-INFO:root:Found 3 dates: ['18 de Março de 2026', '17 de Março de 2026', '16 de Março de 2026']
+INFO:root:Response length: 320728 characters
+INFO:root:HTML parsed, length: 311922 characters
+INFO:root:Found 3 titles: ['Salmo 92', 'Salmo 141', 'Salmo 38']
+INFO:root:Found 3 URLs: ['/salmos_92/', '/salmos_141/', '/salmos_38/']
+INFO:root:Found 3 descriptions: ['Como é bom render graças ao Senhor\ne cantar louvor', 'Clamo a ti, Senhor; vem depressa!\nEscuta a minha v', 'Senhor, não me repreendas no teu furor\nnem me disc']
+INFO:root:Found 3 dates: ['19 de Março de 2026', '18 de Março de 2026', '17 de Março de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 141', ID=e2beea10b2b051294b0a6e62337fc7ac
-INFO:root:Processing entry 2: Title=' Salmo 38', ID=282dc27a0c80d468d6e7d65a1fc291fb
-INFO:root:Processing entry 3: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
+INFO:root:Processing entry 1: Title=' Salmo 92', ID=ae899820dc3cd693b22e3b6649bf23d7
+INFO:root:Processing entry 2: Title=' Salmo 141', ID=e2beea10b2b051294b0a6e62337fc7ac
+INFO:root:Processing entry 3: Title=' Salmo 38', ID=282dc27a0c80d468d6e7d65a1fc291fb
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 92
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_92/
+INFO:root:🔹 Description: Como é bom render graças ao Senhor
+e cantar louvores ao teu nome, ó Altíssimo; 
+anunciar de manhã o teu amor leal
+e de noite a tua fidelidade, 
+ao som da lira de dez cordas e da cítara,
+e da melodia da harpa. 
+Tu me alegras, Senhor, com os teus feitos;
+as obras das tuas mãos
+levam-me a cantar de alegria. 
+Como são grandes as tuas obras, Senhor,
+como são profundos os teus propósitos! 
+O insensato não entende, o tolo não vê 
+que, embora os ímpios brotem como a erva
+e floresçam todos os malfeitores,
+eles serão destruídos para sempre. 
+Pois tu, Senhor, és exaltado para sempre. 
+Mas os teus inimigos, Senhor,
+os teus inimigos perecerão;
+serão dispersos todos os malfeitores! 
+Tu aumentaste a minha força
+como a do boi selvagem;
+derramaste sobre mim óleo novo. 
+Os meus olhos contemplaram a derrota
+dos meus inimigos;
+os meus ouvidos escutaram a debandada
+dos meus maldosos agressores. 
+Os justos florescerão como a palmeira,
+crescerão como o cedro do Líbano; 
+plantados na casa do Senhor,
+florescerão nos átrios do nosso Deus. 
+Mesmo na velhice darão fruto,
+permanecerão viçosos e verdejantes, 
+para proclamar que o Senhor é justo.
+Ele é a minha Rocha;
+nele não há injustiça. 
+ Salmo 92
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 141
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_141/
 INFO:root:🔹 Description: Clamo a ti, Senhor; vem depressa!
@@ -176,108 +214,89 @@ Apressa-te a ajudar-me,
 Senhor, meu Salvador! 
  Salmo 38
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 2
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_2/
-INFO:root:🔹 Description: Por que se amotinam as nações
-e os povos tramam em vão? 
-Os reis da terra tomam posição
-e os governantes conspiram unidos
-contra o Senhor e contra o seu ungido,
-e dizem: 
-"Façamos em pedaços as suas correntes,
-lancemos de nós as suas algemas!" 
-Do seu trono nos céus o Senhor põe-se a rir e caçoa deles. 
-Em sua ira os repreende
-e em seu furor os aterroriza, dizendo: 
-"Eu mesmo estabeleci o meu rei
-em Sião, no meu santo monte". 
-Proclamarei o decreto do Senhor:
-Ele me disse: "Tu és meu filho;
-eu hoje te gerei. 
-Pede-me, e te darei as nações como herança
-e os confins da terra como tua propriedade. 
-Tu as quebrarás com vara de ferro
-e as despedaçarás como a um vaso de barro". 
-Por isso, ó reis, sejam prudentes;
-aceitem a advertência, autoridades da terra. 
-Adorem o Senhor com temor;
-exultem com tremor. 
-Beijem o filho, para que ele não se ire
-e vocês não sejam destruídos de repente,
-pois num instante acende-se a sua ira.
-Como são felizes todos os que nele se refugiam! 
- Salmo 2
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 322821 characters
-INFO:root:HTML parsed, length: 313664 characters
-INFO:root:Found 3 titles: ['Nunca duvide do poder de Deus', 'O Derramar que transforma gerações', 'O que fazer em uma rua sem saída?']
+INFO:root:Response length: 322995 characters
+INFO:root:HTML parsed, length: 313837 characters
+INFO:root:Found 3 titles: ['Não alimente a raiva', 'Nunca duvide do poder de Deus', 'O Derramar que transforma gerações']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['A Bíblia nos assegura repetidamente de que não dev', 'O profeta anuncia uma promessa poderosa e viva: De', 'Entrega o teu caminho ao Senhor; confia nele, e o ']
-INFO:root:Found 1 dates: ['Quarta, 18 de março de 2026']
+INFO:root:Found 3 descriptions: ['Livrem-se de toda amargura, indignação e ira, grit', 'A Bíblia nos assegura repetidamente de que não dev', 'O profeta anuncia uma promessa poderosa e viva: De']
+INFO:root:Found 1 dates: ['Quinta, 19 de março de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Nunca duvide do poder de Deus', ID=080d9325251ae8567e736746b5724cd7
+INFO:root:Processing entry 1: Title='Não alimente a raiva', ID=0ddd6c28edb802be1e898fcb8fe4e969
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Nunca duvide do poder de Deus - Palavra de Hoje
+INFO:root:🔹 Title: Não alimente a raiva - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: A Bíblia nos assegura repetidamente de que não devemos duvidar do poder de Deus. O versículo de Lucas 1:37 nos lembra:
+INFO:root:🔹 Description: Livrem-se de toda amargura, indignação e ira, gritaria e calúnia, bem como de toda maldade.
+- Efésios 4:31
 
-Pois nada é impossível para Deus.
-- Lucas 1:37
-
-Exitem motivos para não duvidarmos do poder de Deus. O primeiro é porque Ele é o Criador do universo. Deus fez o mundo a partir do nada, e esse mesmo poder criador está à nossa disposição quando buscamos Sua ajuda.
-Em segundo lugar, não devemos duvidar do poder de Deus, porque a história da Bíblia está repleta de milagres que demonstram Sua capacidade de realizar o impossível, como a abertura do Mar Vermelho e a ressurreição de Jesus Cristo. Esses eventos mostram que o poder de Deus transcende as leis naturais.
-Por último, não devemos duvidar do poder de Deus porque Ele é amoroso e compassivo. Ele se preocupa conosco e deseja o nosso bem. Quando confiamos em Seu poder, encontramos conforto e esperança, sabendo que Ele está ao nosso lado, independentemente das circunstâncias.
-Portanto, lembremos sempre desses três motivos e não duvidarmos do poder de Deus: Ele é o Criador, Sua história está repleta de milagres e Ele te ama! Quando confiamos em Deus, somos capacitados a enfrentar qualquer desafio com fé e sem duvidar do Seu poder.
-Isso significa que, independentemente do tamanho do desafio que enfrentamos, Deus é capaz de superá-lo.
-
-Confiem para sempre no Senhor,
-pois o Senhor, somente o Senhor,
-é a Rocha eterna.
-- Isaías 26:4
-
-A fé em Deus produzirá frutos! Não duvide, somente creia.
-
-Então Jesus lhe disse: "Porque me viu, você creu? Felizes os que não viram e creram".
-- João 20:29
-
-Veja mais sobre o poder de Deus:
-
-Versículos sobre dúvida
-Versículos que mostram que Deus não falha
-43 frases que mostram que Deus sabe de todas as coisas
+A raiva é um sentimento que todos nós experimentamos em algum momento da vida. Ela pode surgir diante de injustiças, frustrações ou palavras que ferem profundamente o coração.
+Quando permitimos que a raiva permaneça em nosso interior, ela começa a crescer como uma chama que consome nossa paz, nossa alegria e até mesmo nossos relacionamentos.
+A Palavra de Deus nos ensina que não devemos alimentar esse sentimento. Quando guardamos mágoas e ressentimentos, abrimos espaço para que a amargura se instale em nossa alma. Muitas vezes, aquilo que começou como uma pequena irritação se transforma em rancor, distância entre pessoas e atitudes que não refletem o amor de Cristo.
+Jesus nos chama para um caminho diferente. Ele nos convida ao perdão, à paciência e à mansidão. Isso não significa ignorar a dor ou fingir que nada aconteceu, mas sim escolher não permitir que a raiva governe nossas atitudes. Quando entregamos nossos sentimentos a Deus em oração, Ele trabalha em nosso coração e nos ajuda a responder com sabedoria.
+Alimentar a raiva é como regar uma planta que produz frutos amargos. Quanto mais cuidamos dela, mais forte ela se torna. Mas quando decidimos perdoar e confiar em Deus, essa planta perde a força e começa a secar.
+O Espírito Santo nos capacita a viver de maneira diferente. Em vez de palavras duras, podemos oferecer palavras de graça. Em vez de vingança, podemos escolher o perdão. Em vez de carregar pesos emocionais, podemos descansar na justiça e no cuidado do Senhor.
+Hoje, escolha não alimentar a raiva. Entregue ao Senhor aquilo que machucou você. Permita que Ele cure seu coração e renove sua mente. Quando deixamos a raiva de lado, abrimos espaço para algo muito maior: a paz de Deus, que transforma vidas e restaura relacionamentos.
+Veja também: 7 conselhos bíblicos para tirar mágoa e o ressentimento do coração
  
 Versículos sobre dúvida
 Versículos que mostram que Deus não falha
 43 frases que mostram que Deus sabe de todas as coisas
 
  
-Pois nada é impossível para Deus.
-- Lucas 1:37
+Livrem-se de toda amargura, indignação e ira, gritaria e calúnia, bem como de toda maldade.
+- Efésios 4:31
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 333134 characters
-INFO:root:HTML parsed, length: 323537 characters
-INFO:root:Found 3 titles: ['Um momento a sós com Deus', 'Não deixe o mundo te consumir', 'Cristo é o motivo do nosso louvor!']
-INFO:root:Found 4 URLs: ['/como_buscar_e_se_aproximar_de_deus/', '/buscar_a_deus/', '/como_mostrar_sua_gratidao_a_deus/']
-INFO:root:Found 3 descriptions: ['Mas, quando você orar, vá para seu quarto, feche a', 'Não se amoldem ao padrão deste mundo, mas transfor', 'Quando expressamos o nosso louvor a Deus, estamos ']
-INFO:root:Found 3 dates: ['MARçO\n\n18\nQUARTA', 'MARçO\n\n17\nTERÇA', 'MARçO\n\n16\nSEGUNDA']
+INFO:root:Response length: 333423 characters
+INFO:root:HTML parsed, length: 323822 characters
+INFO:root:Found 3 titles: ['Recebendo um "ok" de Deus', 'Um momento a sós com Deus', 'Não deixe o mundo te consumir']
+INFO:root:Found 3 URLs: ['/formas_que_deus_fala/', '/como_buscar_e_se_aproximar_de_deus/', '/buscar_a_deus/']
+INFO:root:Found 3 descriptions: ['Confie no Senhor de todo o seu coração\ne não se ap', 'Mas, quando você orar, vá para seu quarto, feche a', 'Não se amoldem ao padrão deste mundo, mas transfor']
+INFO:root:Found 3 dates: ['MARçO\n\n19\nQUINTA', 'MARçO\n\n18\nQUARTA', 'MARçO\n\n17\nTERÇA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Um momento a sós com Deus', ID=d32ed7b1d3ea42e6717b81ee4316fdd3
-INFO:root:Processing entry 2: Title='Não deixe o mundo te consumir', ID=421b43491461ad13be09e8b969cd57c9
-INFO:root:Processing entry 3: Title='Cristo é o motivo do nosso louvor!', ID=aacfb7c1d6f2facf6f4e31a55352a26a
+INFO:root:Processing entry 1: Title='Recebendo um "ok" de Deus', ID=d1f2916df969796fea2646fec2752392
+INFO:root:Processing entry 2: Title='Um momento a sós com Deus', ID=d32ed7b1d3ea42e6717b81ee4316fdd3
+INFO:root:Processing entry 3: Title='Não deixe o mundo te consumir', ID=421b43491461ad13be09e8b969cd57c9
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Recebendo um "ok" de Deus
+INFO:root:🔹 URL: https://www.bibliaon.com/formas_que_deus_fala/
+INFO:root:🔹 Description: Confie no Senhor de todo o seu coração
+e não se apoie
+em seu próprio entendimento;
+reconheça o Senhor
+em todos os seus caminhos,
+e ele endireitará as suas veredas.
+- Provérbios 3:5-6
+
+Receber um “ok” de Deus é mais do que simplesmente ouvir um “sim”; é perceber, pela fé, que Ele está conduzindo cada detalhe da nossa vida. Quando aprendemos a confiar no Senhor, entendemos que o “ok” d’Ele nem sempre vem da forma que esperamos, mas sempre chega exatamente como precisamos.
+Há momentos em que Deus diz “espere”, porque está preparando algo maior. Em outros, Ele diz “vá”, mesmo quando o medo tenta nos paralisar. E também existem os momentos em que Ele diz “não”, protegendo-nos de caminhos que não nos fariam bem. Em todas essas situações, o mais importante é reconhecer que estamos ouvindo a Sua voz.
+Por isso, estar atento e sensível à voz de Deus é essencial. Afinal, como podemos desejar direção e respostas d’Ele se não conseguimos discernir quando Ele fala? Buscar intimidade com Deus é fundamental, pois é nesse relacionamento que aprendemos a reconhecer Sua vontade com clareza.
+Se hoje você está à espera de uma resposta, lembre-se: Deus não se atrasa. Continue orando, confiando e caminhando com fé. O “ok” d’Ele virá no tempo certo, trazendo direção, provisão e propósito para a sua vida.
+Não desista no meio do caminho. Cada oração, cada lágrima e cada passo de fé são vistos por Deus. Ele está escrevendo uma história muito maior do que você pode imaginar.
+Confie. O “ok” de Deus não falha, não se perde e nunca chega atrasado. Ele vem carregado de amor, cuidado e perfeita vontade.
+Preparados para o “ok” de Deus
+
+Busque intimidade diária com Deus por meio da oração e leitura da Palavra, afinando seu coração para reconhecer a voz d’Ele com clareza.
+Aprenda a esperar com paciência, confiando no tempo de Deus, mantendo a fé firme mesmo sem respostas imediatas, sabendo que Ele está trabalhando.
+Esteja disposto a obedecer prontamente quando Deus falar, deixando o medo de lado e caminhando com coragem, certo de que Ele guiará cada passo.
+
+Para orar:
+
+Senhor Deus, entrego a Ti meus caminhos e decisões. Ensina-me a ouvir Tua voz com clareza e a confiar no Teu tempo perfeito. Dá-me paciência para esperar, coragem para obedecer e discernimento para seguir Tua vontade. Que o Teu “ok” guie meus passos, trazendo paz ao meu coração. Fortalece minha fé e renova minha esperança a cada dia. Em nome de Jesus, amém.
+
+Veja também: Como ouvir a voz de Deus: 7 maneiras
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Um momento a sós com Deus
 INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
 INFO:root:🔹 Description: Mas, quando você orar, vá para seu quarto, feche a porta e ore a seu Pai, que está em secreto. Então seu Pai, que vê em secreto, o recompensará.
@@ -325,43 +344,6 @@ Senhor Deus, ajuda-me a não me deixar levar pelos caminhos deste mundo. Fortale
 
 Veja também: Versículos sobre buscar a Deus
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Cristo é o motivo do nosso louvor!
-INFO:root:🔹 URL: https://www.bibliaon.com/como_mostrar_sua_gratidao_a_deus/
-INFO:root:🔹 Description: Quando expressamos o nosso louvor a Deus, estamos nos esforçando em retribuí-lo por tudo o que Ele fez. Esse sacrifício envolve a nosso corpo, os nossos pensamentos e as nossas emoções. Louvar a Deus é entregar um pouco de si a Ele. 
-
-Aleluia!
-Louvem a Deus no seu santuário,
-louvem-no em seu magnífico firmamento. Louvem-no pelos seus feitos poderosos,
-louvem-no segundo a imensidão
-de sua grandeza! Louvem-no ao som de trombeta,
-louvem-no com a lira e a harpa, louvem-no com tamborins e danças,
-louvem-no com instrumentos de cordas
-e com flautas, louvem-no com címbalos sonoros,
-louvem-no com címbalos ressonantes. Tudo o que tem vida louve o Senhor!
-Aleluia!
-Salmos 150:1-6 
-
-Dedicar o nosso melhor para Deus, também é uma forma de louvá-lo. Podemos ter uma voz desafinada - ou não ser um bom instrumentista - mas quando separamos o nosso melhor para Deus, estamos prestando o verdadeiro louvor. Ele sonda o nosso coração e as nossas intenções. Por isso, saia da zona da inércia, retribua a Deus tudo o que já recebeu.
-Quando olhamos pelo que já passamos, só temos motivos para agradecê-lo. Fomos resgatados da escuridão e conduzidos para a luz da Salvação, Jesus Cristo!
-
-Pois Deus, que disse: "Das trevas resplandeça a luz", ele mesmo brilhou em nossos corações, para iluminação do conhecimento da glória de Deus na face de Cristo.
-2 Coríntios 4:6 
-
-Louvando com o melhor que há em nós
-
-Busque uma forma de louvar a Deus. Podemos cantar, mas também há outras formas de louvá-lo.
-Tenha o hábito de agradecer e louvar a Deus. Essa boa rotina influencia todo o nosso dia.
-Canalize o que você faz de melhor para a casa de Deus. Podemos sempre ajudar o Reino com nossas habilidades.
-
-Para Orar:
-
-Senhor Jesus, quero louvar e engrandecer o Teu poderoso nome. Tem feito maravilhas e quero reconhecer que sem a Tua presença, não seria bem-sucedido. Por isso, receba o meu louvor e gratidão. Amém.
-
-Sugestões de leitura:
-
-3 formas de mostrar sua gratidão a Deus
-Frases e mensagens de gratidão a Deus
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -391,15 +373,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  63 +++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  59 +++---
+ feeds/palavra_biblica_do_dia/atom.xml     |  41 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 103 ++++-----
+ feeds/salmo_do_dia/atom.xml               |  69 ++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 335 ++++++++++++++----------------
- 11 files changed, 287 insertions(+), 337 deletions(-)
+ output.log                                | 310 ++++++++++++++----------------
+ 11 files changed, 260 insertions(+), 308 deletions(-)
