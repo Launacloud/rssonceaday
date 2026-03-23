@@ -1,79 +1,133 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 125411 characters
-INFO:root:HTML parsed, length: 118501 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (22/03/2026)', 'Palavra de Ontem (21/03/2026)', 'Palavra de Anteontem (20/03/2026)']
-INFO:root:Found 3 URLs: ['/ativista/', '/vergonha-alheia/', '/episodio/']
-INFO:root:Found 12 descriptions: ['substantivo masculino e feminino Pessoa que trabal', 'Sinônimos:\n\nmilitante, defensor, transformador, vi', 'Classe gramatical:adjetivo de dois gêneros e subst']
-INFO:root:Found 3 dates: ['Palavra de Hoje (22/03/2026)', 'Palavra de Ontem (21/03/2026)', 'Palavra de Anteontem (20/03/2026)']
+INFO:root:Response length: 124220 characters
+INFO:root:HTML parsed, length: 117517 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (23/03/2026)', 'Palavra de Ontem (22/03/2026)', 'Palavra de Anteontem (21/03/2026)']
+INFO:root:Found 3 URLs: ['/judicializar/', '/ativista/', '/vergonha-alheia/']
+INFO:root:Found 10 descriptions: ['verbo intransitivo [Jurídico] Deliberar em juízo; ', 'Sinônimos:\n\njulgar, decidir, sentenciar, arbitrar,', 'Sílabas:ju-di-ci-a-li-zar']
+INFO:root:Found 3 dates: ['Palavra de Hoje (23/03/2026)', 'Palavra de Ontem (22/03/2026)', 'Palavra de Anteontem (21/03/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (22/03/2026)', ID=03e1fd4933e9037126a001bbaf05d111
-INFO:root:Processing entry 2: Title='Palavra de Ontem (21/03/2026)', ID=6eb260a944227645c53cbd3838413848
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/03/2026)', ID=ab30f1ddd541d256346d821b90c62b22
+INFO:root:Processing entry 1: Title='Palavra de Hoje (23/03/2026)', ID=6e866a6012bf1340d15dc9e300b61efd
+INFO:root:Processing entry 2: Title='Palavra de Ontem (22/03/2026)', ID=2689be512197eb809a9dc140cdc6d7d1
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/03/2026)', ID=1609411690ef93c52673066cfcbd5a9c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (22/03/2026) - Significado completo de ativista:
+INFO:root:🔹 Title: Palavra de Hoje (23/03/2026) - Significado completo de judicializar:
+INFO:root:🔹 URL: https://www.dicio.com.br/judicializar/
+INFO:root:🔹 Description: verbo intransitivo [Jurídico] Deliberar em juízo; decidir num tribunal, através da justiça: o tribunal decidiu judiciar sobre o caso com base nas provas apresentadas.Etimologia (origem da palavra judicializar). A palavra judiciar tem sua origem no latim “judicium,ii”, com sentido de juízo, judicial; e do sufixo verbal -ar.
+ 
+Sinônimos:
+
+julgar, decidir, sentenciar, arbitrar, deliberar, avaliar, analisar, determinar, resolver 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (22/03/2026) - Significado completo de ativista:
 INFO:root:🔹 URL: https://www.dicio.com.br/ativista/
-INFO:root:🔹 Description: substantivo masculino e feminino Pessoa que trabalha de modo ativo, eficiente, na prática por uma causa, falando especialmente de um interesse coletivo: os ativistas do meio ambiente garantem sua preservação.Quem atua e trabalha por uma ideologia política ou social; militante.adjetivo Que se pode referir ao ativismo ou à pessoa partidária do ativismo; que exerce a militância por uma causa, partido político etc.Etimologia (origem da palavra ativista). A palavra ativismo deriva da junção do substantivo ativo, do latim "activus,a,um", com o sentido do que age, e do sufixo -ista.
+INFO:root:🔹 Description: Sinônimos:
+
+julgar, decidir, sentenciar, arbitrar, deliberar, avaliar, analisar, determinar, resolver
+ Sílabas:ju-di-ci-a-li-zar
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (21/03/2026) - Significado completo de vergonha alheia:
+INFO:root:🔹 URL: https://www.dicio.com.br/vergonha-alheia/
+INFO:root:🔹 Description: Sílabas:ju-di-ci-a-li-zar
  
 Sinônimos:
 
 militante, defensor, transformador, visionário, mobilizador, motivador 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (21/03/2026) - Significado completo de vergonha alheia:
-INFO:root:🔹 URL: https://www.dicio.com.br/vergonha-alheia/
-INFO:root:🔹 Description: Sinônimos:
-
-militante, defensor, transformador, visionário, mobilizador, motivador
- Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (20/03/2026) - Significado completo de episódio:
-INFO:root:🔹 URL: https://www.dicio.com.br/episodio/
-INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
- Sílabas:a-ti-vis-ta
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320543 characters
-INFO:root:HTML parsed, length: 310934 characters
-INFO:root:Found 1 titles: ['Romanos 3:22-23']
-INFO:root:Found 1 URLs: ['/versiculo/romanos_3_22-23/']
-INFO:root:Found 1 descriptions: ['Justiça de Deus mediante a fé em Jesus Cristo para']
+INFO:root:Response length: 320512 characters
+INFO:root:HTML parsed, length: 310903 characters
+INFO:root:Found 1 titles: ['Jonas 2:9']
+INFO:root:Found 1 URLs: ['/versiculo/jonas_2_9/']
+INFO:root:Found 1 descriptions: ['Mas eu, com um cântico de gratidão,\noferecerei sac']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Romanos 3:22-23', ID=9d16f1d7fbbb3e4f607398dc474b7875
+INFO:root:Processing entry 1: Title='Jonas 2:9', ID=d98201c13a60c511a1d2a970dd7b03ab
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Romanos 3:22-23
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_3_22-23/
-INFO:root:🔹 Description: Justiça de Deus mediante a fé em Jesus Cristo para todos os que creem. Não há distinção, pois todos pecaram e estão destituídos da glória de Deus, Romanos 3:22-23
+INFO:root:🔹 Title: Jonas 2:9
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jonas_2_9/
+INFO:root:🔹 Description: Mas eu, com um cântico de gratidão,
+oferecerei sacrifício a ti.
+O que eu prometi
+cumprirei totalmente.
+A salvação vem do Senhor". Jonas 2:9
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 322583 characters
-INFO:root:HTML parsed, length: 313800 characters
-INFO:root:Found 3 titles: ['Salmo 17', 'Salmo 149', 'Salmo 107']
-INFO:root:Found 3 URLs: ['/salmos_17/', '/salmos_149/', '/salmos_107/']
-INFO:root:Found 3 descriptions: ['Ouve, Senhor, a minha justa queixa;\natenta para o ', 'Aleluia!\nCantem ao Senhor uma nova canção,\nlouvem-', 'Deem graças ao Senhor porque ele é bom;\no seu amor']
-INFO:root:Found 3 dates: ['22 de Março de 2026', '21 de Março de 2026', '20 de Março de 2026']
+INFO:root:Response length: 320366 characters
+INFO:root:HTML parsed, length: 311556 characters
+INFO:root:Found 3 titles: ['Salmo 39', 'Salmo 17', 'Salmo 149']
+INFO:root:Found 3 URLs: ['/salmos_39/', '/salmos_17/', '/salmos_149/']
+INFO:root:Found 3 descriptions: ['Eu disse: Vigiarei a minha conduta\ne não pecarei e', 'Ouve, Senhor, a minha justa queixa;\natenta para o ', 'Aleluia!\nCantem ao Senhor uma nova canção,\nlouvem-']
+INFO:root:Found 3 dates: ['23 de Março de 2026', '22 de Março de 2026', '21 de Março de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 17', ID=84a47d8f90d5f870664ac09c8c4178a4
-INFO:root:Processing entry 2: Title=' Salmo 149', ID=db5d6d8e1b7c9392315f60fb855f672e
-INFO:root:Processing entry 3: Title=' Salmo 107', ID=bcdc76c80130807af62dd161a5882fc3
+INFO:root:Processing entry 1: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
+INFO:root:Processing entry 2: Title=' Salmo 17', ID=84a47d8f90d5f870664ac09c8c4178a4
+INFO:root:Processing entry 3: Title=' Salmo 149', ID=db5d6d8e1b7c9392315f60fb855f672e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 39
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_39/
+INFO:root:🔹 Description: Eu disse: Vigiarei a minha conduta
+e não pecarei em palavras;
+porei mordaça em minha boca
+enquanto os ímpios
+estiverem na minha presença. 
+Enquanto me calei resignado,
+e me contive inutilmente,
+minha angústia aumentou. 
+Meu coração ardia-me no peito
+e, enquanto eu meditava, o fogo aumentava;
+então comecei a dizer: 
+Mostra-me, Senhor, o fim da minha vida
+e o número dos meus dias,
+para que eu saiba quão frágil sou. 
+Deste aos meus dias
+o comprimento de um palmo;
+a duração da minha vida é nada diante de ti.
+De fato, o homem não passa de um sopro. 
+Sim, cada um vai e volta como a sombra.
+Em vão se agita, amontoando riqueza
+sem saber quem ficará com ela. 
+Mas agora, Senhor, que hei de esperar?
+Minha esperança está em ti. 
+Livra-me de todas as minhas transgressões;
+não faças de mim
+um objeto de zombaria dos tolos. 
+Estou calado! Não posso abrir a boca,
+pois tu mesmo fizeste isso. 
+Afasta de mim o teu açoite;
+fui vencido pelo golpe da tua mão. 
+Tu repreendes e disciplinas o homem
+por causa do seu pecado;
+como traça destróis o que ele mais valoriza;
+de fato, o homem não passa de um sopro. 
+Ouve a minha oração, Senhor;
+escuta o meu grito de socorro;
+não sejas indiferente ao meu lamento.
+Pois sou para ti um estrangeiro,
+como foram todos os meus antepassados. 
+Desvia de mim os teus olhos,
+para que eu volte a ter alegria,
+antes que eu me vá e deixe de existir. 
+ Salmo 39
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 17
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_17/
 INFO:root:🔹 Description: Ouve, Senhor, a minha justa queixa;
@@ -150,194 +204,70 @@ Esta é a glória de todos os seus fiéis.
 Aleluia! 
  Salmo 149
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 107
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_107/
-INFO:root:🔹 Description: Deem graças ao Senhor porque ele é bom;
-o seu amor dura para sempre. 
-Assim o digam os que o Senhor resgatou,
-os que livrou das mãos do adversário 
-e reuniu de outras terras,
-do oriente e do ocidente, do norte e do sul. 
-Perambularam pelo deserto e por terras áridas
-sem encontrar cidade habitada. 
-Estavam famintos e sedentos;
-sua vida ia se esvaindo. 
-Na sua aflição, clamaram ao Senhor,
-e ele os livrou da tribulação
-em que se encontravam 
-e os conduziu por caminho seguro
-a uma cidade habitada. 
-Que eles deem graças ao Senhor
-por seu amor leal e por suas maravilhas
-em favor dos homens, 
-porque ele sacia o sedento
-e satisfaz plenamente o faminto. 
-Assentaram-se nas trevas e na sombra mortal,
-aflitos, acorrentados, 
-pois se rebelaram contra as palavras de Deus
-e desprezaram os desígnios do Altíssimo. 
-Por isso ele os sujeitou a trabalhos pesados;
-eles tropeçaram,
-e não houve quem os ajudasse. 
-Na sua aflição, clamaram ao Senhor,
-e ele os salvou da tribulação
-em que se encontravam. 
-Ele os tirou das trevas e da sombra mortal
-e quebrou as correntes que os prendiam. 
-Que eles deem graças ao Senhor,
-por seu amor leal e por suas maravilhas
-em favor dos homens, 
-porque despedaçou as portas de bronze
-e rompeu as trancas de ferro. 
-Tornaram-se tolos por causa
-dos seus caminhos rebeldes,
-e sofreram por causa das suas maldades. 
-Sentiram repugnância por toda comida
-e chegaram perto das portas da morte. 
-Na sua aflição, clamaram ao Senhor,
-e ele os salvou da tribulação
-em que se encontravam. 
-Ele enviou a sua palavra e os curou,
-e os livrou da morte. 
-Que eles deem graças ao Senhor,
-por seu amor leal e por suas maravilhas
-em favor dos homens. 
-Que eles ofereçam
-sacrifícios de ação de graças
-e anunciem as suas obras
-com cânticos de alegria. 
-Fizeram-se ao mar em navios,
-para negócios na imensidão das águas, 
-e viram as obras do Senhor,
-as suas maravilhas nas profundezas. 
-Deus falou e provocou um vendaval
-que levantava as ondas. 
-Subiam aos céus e desciam aos abismos;
-diante de tal perigo, perderam a coragem. 
-Cambaleavam, tontos como bêbados,
-e toda a sua habilidade foi inútil. 
-Na sua aflição, clamaram ao Senhor,
-e ele os tirou da tribulação
-em que se encontravam. 
-Reduziu a tempestade a uma brisa
-e serenou as ondas. 
-As ondas sossegaram, eles se alegraram,
-e Deus os guiou ao porto almejado. 
-Que eles deem graças ao Senhor
-por seu amor leal e por suas maravilhas
-em favor dos homens. 
-Que o exaltem na assembleia do povo
-e o louvem na reunião dos líderes. 
-Ele transforma os rios em deserto
-e as fontes em terra seca, 
-faz da terra fértil um solo estéril,
-por causa da maldade dos seus moradores. 
-Transforma o deserto em açudes
-e a terra ressecada em fontes. 
-Ali ele assenta os famintos,
-para fundarem uma cidade habitável, 
-semearem lavouras, plantarem vinhas
-e colherem uma grande safra. 
-Ele os abençoa, e eles se multiplicam;
-e não deixa que os seus rebanhos diminuam. 
-Quando, porém, reduzidos,
-são humilhados com opressão,
-desgraça e tristeza. 
-Deus derrama desprezo sobre os nobres
-e os faz vagar num deserto sem caminhos. 
-Mas tira os pobres da miséria
-e aumenta as suas famílias como rebanhos. 
-Os justos veem tudo isso e se alegram,
-mas todos os perversos se calam. 
-Reflitam nisso os sábios
-e considerem a bondade do Senhor. 
- Salmo 107
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 322499 characters
-INFO:root:HTML parsed, length: 313339 characters
-INFO:root:Found 3 titles: ['Perdoe e seja livre', 'Tão somente creia', 'Qual o seu ponto de vista?']
+INFO:root:Response length: 322159 characters
+INFO:root:HTML parsed, length: 313001 characters
+INFO:root:Found 3 titles: ['Renovados por dentro', 'Perdoe e seja livre', 'Tão somente creia']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Pois, se perdoarem as ofensas uns dos outros, o Pa', 'Não fazendo caso do que eles disseram, Jesus disse', 'Porque vivemos por fé, e não pelo que vemos.\n- 2 C']
-INFO:root:Found 1 dates: ['Domingo, 22 de março de 2026']
+INFO:root:Found 3 descriptions: ['Por isso não desanimamos. Embora exteriormente est', 'Pois, se perdoarem as ofensas uns dos outros, o Pa', 'Não fazendo caso do que eles disseram, Jesus disse']
+INFO:root:Found 1 dates: ['Segunda, 23 de março de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Perdoe e seja livre', ID=5e6925f6e623e583e459073d5b96ec9c
+INFO:root:Processing entry 1: Title='Renovados por dentro', ID=a49d5e429cef5b1e9352b5f727e58477
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Perdoe e seja livre - Palavra de Hoje
+INFO:root:🔹 Title: Renovados por dentro - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Pois, se perdoarem as ofensas uns dos outros, o Pai celestial também perdoará vocês. Mas, se não perdoarem uns aos outros, o Pai celestial não perdoará as ofensas de vocês.
-- Mateus 6:14-15
+INFO:root:🔹 Description: Por isso não desanimamos. Embora exteriormente estejamos a desgastar-nos, interiormente estamos sendo renovados dia após dia,
+- 2 Coríntios 4:16
 
-Todos nós, em algum momento da vida, experimentamos a dor causada por alguém que amamos. Pode ser uma palavra dolorosa, uma ação inesperada ou a falta de apoio em um momento de necessidade. Muitas ações podem nos ferir, mas diante de todas elas, Deus nos chama ao perdão.
-Quando, em vez de guardar rancor ou tentar ferir a outra pessoa, escolhemos perdoar, libertamos nossos corações da amargura e da dor. Perdoar não significa justificar o mal causado ou dizer que a outra pessoa estava certa. Podemos até perdoar e, ao mesmo tempo, estabelecer limites saudáveis para não sermos feridos novamente.
-Mas o maior efeito do perdão acontece dentro de nós mesmos: o perdão traz paz. Ele nos liberta do poder que aquela pessoa ou situação exerce sobre nossas emoções e atitudes. E, acima de tudo, quando perdoamos, abrimos a porta para receber o perdão de Deus, porque nós também somos imperfeitos, falhamos e precisamos de graça.
-O perdão é uma decisão corajosa que rompe as correntes do passado. Quando nos libertamos da mágoa, deixamos de ser prisioneiros da dor e começamos a caminhar na liberdade que Deus deseja para nós.
-O perdão não muda o passado, mas transforma o nosso presente e abre caminho para um futuro cheio de esperança. Além disso, perdoar nos permite viver sob a bênção de Deus e experimentar a leveza de um coração puro.
-Portanto, escolha perdoar! Viva livre das amarras do ressentimento. Reflita o amor de Cristo, que o perdoou primeiro, e demonstre a cada dia a alegria de viver com gratidão, paz e verdadeira liberdade.
-Veja também: Versículos sobre perdão
+O apóstolo Paulo escreveu essas palavras em meio a perseguições, sofrimentos e desafios intensos. Ainda assim, ele declara com convicção: “não desanimamos”. Essa afirmação não nasce da negação da dor, mas da certeza da renovação interior. O corpo sente o peso do tempo, das lutas e das circunstâncias. A vida pode nos marcar com cicatrizes visíveis e invisíveis. Contudo, há uma obra silenciosa acontecendo no interior daqueles que permanecem firmes em Deus.
+Na fé, enquanto o exterior pode experimentar desgaste, limitações e fraquezas, o interior é fortalecido pelo Espírito Santo. Cada desafio enfrentado com confiança em Deus se torna instrumento de crescimento espiritual. Cada lágrima pode regar sementes de maturidade e esperança.
+Quando buscamos a presença de Deus em oração, quando meditamos na Palavra e confiamos nas promessas do Senhor, algo novo floresce dentro de nós. O cansaço pode até bater à porta, mas não governa o coração de quem está firmado na eternidade.
+O mundo valoriza aparência, juventude e resultados imediatos. Deus, porém, trabalha no invisível, moldando caráter, aprofundando fé e produzindo perseverança. A verdadeira força do cristão não está no que se vê, mas no que é cultivado em secreto.
+Se hoje você sente o peso da caminhada, lembre-se: Deus está operando em você. A luta não é o fim da história. Em Cristo, cada dia traz consigo a oportunidade de renovação. E essa obra interior é mais poderosa do que qualquer desgaste exterior.
+Veja também: Versículos de força em momentos difíceis
  
-Pois, se perdoarem as ofensas uns dos outros, o Pai celestial também perdoará vocês. Mas, se não perdoarem uns aos outros, o Pai celestial não perdoará as ofensas de vocês.
-- Mateus 6:14-15
+Por isso não desanimamos. Embora exteriormente estejamos a desgastar-nos, interiormente estamos sendo renovados dia após dia,
+- 2 Coríntios 4:16
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 331993 characters
-INFO:root:HTML parsed, length: 322393 characters
-INFO:root:Found 3 titles: ['Gratidão é reconhecer e agradecer', '3 motivos para buscarmos mais a Deus', 'Perdoar não é uma opção, é um mandamento']
-INFO:root:Found 2 URLs: ['/gratidao/', '/perdoar/']
-INFO:root:Found 3 descriptions: ['Deem graças em todas as circunstâncias, pois esta ', 'À medida que caminhamos nesta jornada de fé, há tr', 'Sejam bondosos e compassivos uns para com os outro']
-INFO:root:Found 3 dates: ['MARçO\n\n22\nDOMINGO', 'MARçO\n\n21\nSÁBADO', 'MARçO\n\n20\nSEXTA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Gratidão é reconhecer e agradecer', ID=c3245eff097015696b45c741c641cce3
-INFO:root:Processing entry 2: Title='3 motivos para buscarmos mais a Deus', ID=2563c6171cb6dc02e9cd0eeada693a35
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 329711 characters
+INFO:root:HTML parsed, length: 320113 characters
+INFO:root:Found 3 titles: ['O significado de arrependimento', 'Gratidão é reconhecer e agradecer', '3 motivos para buscarmos mais a Deus']
+INFO:root:Found 1 URLs: ['/gratidao/']
+INFO:root:Found 3 descriptions: ['Arrependam-se, pois, e voltem-se para Deus, para q', 'Deem graças em todas as circunstâncias, pois esta ', 'À medida que caminhamos nesta jornada de fé, há tr']
+INFO:root:Found 3 dates: ['MARçO\n\n23\nSEGUNDA', 'MARçO\n\n22\nDOMINGO', 'MARçO\n\n21\nSÁBADO']
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='O significado de arrependimento', ID=8ceba5a756ff223b8a884c2b89a3e589
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Gratidão é reconhecer e agradecer
+INFO:root:🔹 Title: O significado de arrependimento
 INFO:root:🔹 URL: https://www.bibliaon.com/gratidao/
-INFO:root:🔹 Description: Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.
-- 1 Tessalonicenses 5:18
+INFO:root:🔹 Description: Arrependam-se, pois, e voltem-se para Deus, para que os seus pecados sejam cancelados, para que venham tempos de descanso da parte do Senhor, e ele mande o Cristo, o qual lhes foi designado, Jesus.
+- Atos dos Apóstolos 3:19-20
 
-A gratidão é uma expressão profunda de fé e reconhecimento da bondade de Deus em nossas vidas. Já percebeu que muitas vezes, estamos tão focados no que nos falta que esquecemos de agradecer pelo que já recebemos?
-Ser grato é mais do que dizer “obrigado”; é reconhecer que tudo o que temos e somos vem de Deus. Cada novo dia, cada respiração, cada pequena vitória é um presente divino. Quando cultivamos um coração grato, nossa perspectiva muda. Passamos a enxergar bênçãos onde antes víamos apenas dificuldades.
-A gratidão também fortalece nossa relação com Deus. Quando agradecemos, demonstramos humildade e dependência d’Ele. Reconhecemos que Ele cuida de cada detalhe da nossa vida e que a Sua presença é vital. Mesmo nos momentos difíceis, podemos encontrar motivos para agradecer, pois Deus continua sendo fiel.
-Além disso, a gratidão nos transforma de dentro para fora. Ela traz paz, alegria e contentamento. Uma pessoa grata não vive reclamando, mas confia que Deus está no controle de todas as coisas. Essa atitude agrada ao Senhor e nos aproxima ainda mais da Sua presença.
-Coloque a prática da gratidão na sua vida. Agradeça nas pequenas e grandes coisas, nas alegrias e nos desafios. Quando você decide reconhecer e agradecer, sua vida se torna mais leve e cheia de esperança. Afinal, a gratidão é uma chave poderosa que abre portas para uma vida mais plena com Deus.
-5 pontos práticos para ter um coração grato
+Arrependimento é muito mais que pedir perdão. Significa voltar-se para Deus, reconhecendo seus pecados e decidindo viver de maneira diferente. Em vez de querer continuar em uma vida de pecado, seu desejo se torna agradar a Deus. E isso é possível com a ajuda de Jesus.
+Quando você se arrepende e crê que Jesus é seu salvador, você recebe Jesus em sua vida. Isso significa que ele vai estar sempre com você e vai lhe ajudar a viver para Deus. Agora, Jesus vive em você e vai transformar sua vida!
+Se você está arrependido de algum pecado:
 
-Comece cada dia reconhecendo três pequenas bênçãos, treinando sua mente para focar no positivo e valorizar o que já possui.
-Expresse gratidão às pessoas ao seu redor com palavras sinceras, fortalecendo relações e criando um ambiente leve, respeitoso e acolhedor.
-Mantenha um diário de gratidão anotando experiências positivas, ajudando a perceber padrões de alegria e crescimento pessoal ao longo tempo.
-Pratique a empatia colocando-se no lugar dos outros e desenvolvendo a compaixão.
-Aprenda a aceitar desafios como oportunidades de aprendizado, mudando perspectiva diante das dificuldades e cultivando resiliência acompanhada de coração agradecido.
+Confesse o pecado a Deus, pedindo perdão
+Creia que Jesus morreu para lhe salvar de seu pecado
+Peça ajuda a Deus para consertar as coisas e parar de fazer esse pecado
+Sempre que você se sente tentado ou cair no pecado, volte a pedir perdão e ajuda a Deus
+Lembre-se que Deus SEMPRE perdoa quem se arrepende
 
 Para orar:
 
-Senhor, obrigado pela vida, pelas oportunidades e até pelos desafios que me fazem crescer. Ensina-me a valorizar o simples, a amar mais, perdoar com sinceridade e confiar nos Teus planos. Guia meus passos, fortalece meu coração e enche minha alma de paz, fé e esperança para seguir com coragem a cada novo dia. Em nome de Jesus, amém.
-
-Veja também: Versículos de gratidão
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: 3 motivos para buscarmos mais a Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/perdoar/
-INFO:root:🔹 Description: À medida que caminhamos nesta jornada de fé, há três motivos essenciais pelos quais devemos buscar mais a Deus:
-
-Primeiro, porque Ele é nosso Criador e Salvador, aquele que nos conhece intimamente e tem um plano perfeito para nossas vidas. Ao buscá-Lo, descobrimos nossa verdadeira identidade e propósito.
-
-Segundo, a busca constante de Deus nos conecta com Sua presença poderosa. Em Sua intimidade, encontramos consolo em tempos de aflição, orientação em meio à confusão e paz em meio ao caos. Ele é nossa rocha inabalável, pronto para nos sustentar e nos fortalecer em todas as circunstâncias.
-Terceiro, buscar a Deus nos permite experimentar Seu amor transformador. Sua graça nos liberta da culpa e do pecado, capacitando-nos a viver uma vida abundante e cheia de esperança. Ao nos achegarmos a Ele, somos moldados e renovados, refletindo Seu amor aos outros ao nosso redor.
-
-Ao buscarmos a Deus, encontramos nosso propósito, experimentamos Sua presença e somos transformados pelo Seu amor. Que nossa busca seja constante e intensa, para vivermos uma vida plena em comunhão com Ele. Amém!
-Vamos orar?
-
-Ó Deus misericordioso, ajuda-me a perseverar na busca da Tua presença, sei que em Ti encontro a verdadeira plenitude. Derrama Tua graça sobre mim e capacita-me a ser luz neste mundo, levando esperança aos perdidos e consolo aos aflitos. Em nome de Jesus, amém.
+Senhor Deus, reconheço que tenho cometido pecados. Não quero mais viver entristecendo você. Peço perdão pelos meus pecados e quero mesmo viver de maneira diferente. Creio que Jesus morreu e ressuscitou para me salvar de meus pecados e que ele é meu salvador. Ajude-me a vencer a tentação e a ter força para parar de cometer esses pecados. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -368,15 +298,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  37 +---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  21 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  87 +++++----
+ feeds/salmo_do_dia/atom.xml               | 147 ++++---------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 285 +++++++++++++++---------------
- 11 files changed, 259 insertions(+), 261 deletions(-)
+ output.log                                | 348 ++++++++++++------------------
+ 11 files changed, 242 insertions(+), 395 deletions(-)
