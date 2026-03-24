@@ -1,87 +1,120 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124220 characters
-INFO:root:HTML parsed, length: 117517 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (23/03/2026)', 'Palavra de Ontem (22/03/2026)', 'Palavra de Anteontem (21/03/2026)']
-INFO:root:Found 3 URLs: ['/judicializar/', '/ativista/', '/vergonha-alheia/']
-INFO:root:Found 10 descriptions: ['verbo intransitivo [Jurídico] Deliberar em juízo; ', 'Sinônimos:\n\njulgar, decidir, sentenciar, arbitrar,', 'Sílabas:ju-di-ci-a-li-zar']
-INFO:root:Found 3 dates: ['Palavra de Hoje (23/03/2026)', 'Palavra de Ontem (22/03/2026)', 'Palavra de Anteontem (21/03/2026)']
+INFO:root:Response length: 125155 characters
+INFO:root:HTML parsed, length: 118245 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (24/03/2026)', 'Palavra de Ontem (23/03/2026)', 'Palavra de Anteontem (22/03/2026)']
+INFO:root:Found 3 URLs: ['/alicerce/', '/judicializar/', '/ativista/']
+INFO:root:Found 12 descriptions: ['substantivo masculino Aquilo que fundamenta e sust', 'Sinônimos:\n\nfirmamento, sustentáculo, fundação, ba', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (24/03/2026)', 'Palavra de Ontem (23/03/2026)', 'Palavra de Anteontem (22/03/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (23/03/2026)', ID=6e866a6012bf1340d15dc9e300b61efd
-INFO:root:Processing entry 2: Title='Palavra de Ontem (22/03/2026)', ID=2689be512197eb809a9dc140cdc6d7d1
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/03/2026)', ID=1609411690ef93c52673066cfcbd5a9c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (24/03/2026)', ID=0332b74f63de9d9566d3f7444e40c68c
+INFO:root:Processing entry 2: Title='Palavra de Ontem (23/03/2026)', ID=524724865a5ba7bdef8f4126b3bbf731
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/03/2026)', ID=e1831afd351e70e85be0c9b7e30550ba
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (23/03/2026) - Significado completo de judicializar:
-INFO:root:🔹 URL: https://www.dicio.com.br/judicializar/
-INFO:root:🔹 Description: verbo intransitivo [Jurídico] Deliberar em juízo; decidir num tribunal, através da justiça: o tribunal decidiu judiciar sobre o caso com base nas provas apresentadas.Etimologia (origem da palavra judicializar). A palavra judiciar tem sua origem no latim “judicium,ii”, com sentido de juízo, judicial; e do sufixo verbal -ar.
+INFO:root:🔹 Title: Palavra de Hoje (24/03/2026) - Significado completo de alicerce:
+INFO:root:🔹 URL: https://www.dicio.com.br/alicerce/
+INFO:root:🔹 Description: substantivo masculino Aquilo que fundamenta e sustenta; base, apoio, sustentáculo: o bom êxito se fundamenta nos alicerces do trabalho.[Construção] Maciço de alvenaria sobre o qual se assenta a estrutura de uma construção, geralmente feito em cimento ou pedra; estrutura que sustenta uma construção: o primeiro passo é construir o alicerce.[Figurado] Processo de escavação através do qual os alicerces são colocados.Etimologia (origem da palavra alicerce). A palavra alicerce tem sua origem no árabe "al-isas" que significa base, fundamento.
  
 Sinônimos:
 
-julgar, decidir, sentenciar, arbitrar, deliberar, avaliar, analisar, determinar, resolver 
+firmamento, sustentáculo, fundação, base, fundamento, estrutura, suporte, coluna, pilar 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (22/03/2026) - Significado completo de ativista:
-INFO:root:🔹 URL: https://www.dicio.com.br/ativista/
+INFO:root:🔹 Title: Palavra de Ontem (23/03/2026) - Significado completo de judicializar:
+INFO:root:🔹 URL: https://www.dicio.com.br/judicializar/
 INFO:root:🔹 Description: Sinônimos:
 
-julgar, decidir, sentenciar, arbitrar, deliberar, avaliar, analisar, determinar, resolver
- Sílabas:ju-di-ci-a-li-zar
+firmamento, sustentáculo, fundação, base, fundamento, estrutura, suporte, coluna, pilar
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (21/03/2026) - Significado completo de vergonha alheia:
-INFO:root:🔹 URL: https://www.dicio.com.br/vergonha-alheia/
-INFO:root:🔹 Description: Sílabas:ju-di-ci-a-li-zar
- 
-Sinônimos:
-
-militante, defensor, transformador, visionário, mobilizador, motivador 
-
+INFO:root:🔹 Title: Palavra de Anteontem (22/03/2026) - Significado completo de ativista:
+INFO:root:🔹 URL: https://www.dicio.com.br/ativista/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:a-li-cer-ce
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320512 characters
-INFO:root:HTML parsed, length: 310903 characters
-INFO:root:Found 1 titles: ['Jonas 2:9']
-INFO:root:Found 1 URLs: ['/versiculo/jonas_2_9/']
-INFO:root:Found 1 descriptions: ['Mas eu, com um cântico de gratidão,\noferecerei sac']
+INFO:root:Response length: 320558 characters
+INFO:root:HTML parsed, length: 310949 characters
+INFO:root:Found 1 titles: ['Gálatas 2:20']
+INFO:root:Found 1 URLs: ['/versiculo/galatas_2_20/']
+INFO:root:Found 1 descriptions: ['Fui crucificado com Cristo. Assim, já não sou eu q']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jonas 2:9', ID=d98201c13a60c511a1d2a970dd7b03ab
+INFO:root:Processing entry 1: Title='Gálatas 2:20', ID=812bcaada0f70487c32ef5e00bd906d5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jonas 2:9
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jonas_2_9/
-INFO:root:🔹 Description: Mas eu, com um cântico de gratidão,
-oferecerei sacrifício a ti.
-O que eu prometi
-cumprirei totalmente.
-A salvação vem do Senhor". Jonas 2:9
+INFO:root:🔹 Title: Gálatas 2:20
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/galatas_2_20/
+INFO:root:🔹 Description: Fui crucificado com Cristo. Assim, já não sou eu quem vive, mas Cristo vive em mim. A vida que agora vivo no corpo, vivo-a pela fé no filho de Deus, que me amou e se entregou por mim. Gálatas 2:20
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320366 characters
-INFO:root:HTML parsed, length: 311556 characters
-INFO:root:Found 3 titles: ['Salmo 39', 'Salmo 17', 'Salmo 149']
-INFO:root:Found 3 URLs: ['/salmos_39/', '/salmos_17/', '/salmos_149/']
-INFO:root:Found 3 descriptions: ['Eu disse: Vigiarei a minha conduta\ne não pecarei e', 'Ouve, Senhor, a minha justa queixa;\natenta para o ', 'Aleluia!\nCantem ao Senhor uma nova canção,\nlouvem-']
-INFO:root:Found 3 dates: ['23 de Março de 2026', '22 de Março de 2026', '21 de Março de 2026']
+INFO:root:Response length: 320914 characters
+INFO:root:HTML parsed, length: 312115 characters
+INFO:root:Found 3 titles: ['Salmo 41', 'Salmo 39', 'Salmo 17']
+INFO:root:Found 3 URLs: ['/salmos_41/', '/salmos_39/', '/salmos_17/']
+INFO:root:Found 3 descriptions: ['Como é feliz aquele\nque se interessa pelo pobre!\nO', 'Eu disse: Vigiarei a minha conduta\ne não pecarei e', 'Ouve, Senhor, a minha justa queixa;\natenta para o ']
+INFO:root:Found 3 dates: ['24 de Março de 2026', '23 de Março de 2026', '22 de Março de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
-INFO:root:Processing entry 2: Title=' Salmo 17', ID=84a47d8f90d5f870664ac09c8c4178a4
-INFO:root:Processing entry 3: Title=' Salmo 149', ID=db5d6d8e1b7c9392315f60fb855f672e
+INFO:root:Processing entry 1: Title=' Salmo 41', ID=b34f131061fcae68771d58ea8844e2fb
+INFO:root:Processing entry 2: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
+INFO:root:Processing entry 3: Title=' Salmo 17', ID=84a47d8f90d5f870664ac09c8c4178a4
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 41
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_41/
+INFO:root:🔹 Description: Como é feliz aquele
+que se interessa pelo pobre!
+O Senhor o livra em tempos de adversidade. 
+O Senhor o protegerá e preservará a sua vida;
+ele o fará feliz na terra
+e não o entregará ao desejo dos seus inimigos. 
+O Senhor o susterá
+em seu leito de enfermidade,
+e da doença o restaurará. 
+Eu disse: "Misericórdia, Senhor!
+Cura-me, pois pequei contra ti". 
+Os meus inimigos
+dizem maldosamente a meu respeito:
+"Quando ele vai morrer?
+Quando vai desaparecer o seu nome?" 
+Sempre que alguém vem visitar-me,
+fala com falsidade,
+enche o coração de calúnias
+e depois as espalha por onde vai. 
+Todos os que me odeiam
+juntam-se e cochicham contra mim,
+imaginando que o pior me acontecerá: 
+"Uma praga terrível o derrubou;
+está de cama e jamais se levantará". 
+Até o meu melhor amigo,
+em quem eu confiava
+e que partilhava do meu pão,
+voltou-se contra mim. 
+Mas, tu, Senhor, tem misericórdia de mim;
+levanta-me, para que eu lhes retribua. 
+Sei que me queres bem,
+pois o meu inimigo não triunfa sobre mim. 
+Por causa da minha integridade me susténs
+e me pões na tua presença para sempre. 
+Louvado seja o Senhor, o Deus de Israel,
+de eternidade a eternidade!
+Amém e amém! 
+ Salmo 41
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 39
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_39/
 INFO:root:🔹 Description: Eu disse: Vigiarei a minha conduta
@@ -178,96 +211,69 @@ quando despertar, ficarei satisfeito
 ao ver a tua semelhança. 
  Salmo 17
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 149
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_149/
-INFO:root:🔹 Description: Aleluia!
-Cantem ao Senhor uma nova canção,
-louvem-no na assembleia dos fiéis. 
-Alegre-se Israel no seu Criador,
-exulte o povo de Sião no seu Rei! 
-Louvem eles o seu nome com danças;
-ofereçam-lhe música
-com tamborim e harpa. 
-O Senhor agrada-se do seu povo;
-ele coroa de vitória os oprimidos. 
-Regozijem-se os seus fiéis nessa glória
-e em seu leito cantem alegremente! 
-Altos louvores estejam em seus lábios
-e uma espada de dois gumes em suas mãos, 
-para impor vingança às nações
-e trazer castigo aos povos; 
-para prender os seus reis com grilhões
-e seus nobres com algemas de ferro; 
-para executar a sentença escrita
-contra eles.
-Esta é a glória de todos os seus fiéis.
-Aleluia! 
- Salmo 149
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 322159 characters
-INFO:root:HTML parsed, length: 313001 characters
-INFO:root:Found 3 titles: ['Renovados por dentro', 'Perdoe e seja livre', 'Tão somente creia']
+INFO:root:Response length: 322302 characters
+INFO:root:HTML parsed, length: 313145 characters
+INFO:root:Found 3 titles: ['Enxergando além do que os olhos podem ver', 'Renovados por dentro', 'Perdoe e seja livre']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Por isso não desanimamos. Embora exteriormente est', 'Pois, se perdoarem as ofensas uns dos outros, o Pa', 'Não fazendo caso do que eles disseram, Jesus disse']
-INFO:root:Found 1 dates: ['Segunda, 23 de março de 2026']
+INFO:root:Found 3 descriptions: ['Porque vivemos por fé, e não pelo que vemos.\n- 2 C', 'Por isso não desanimamos. Embora exteriormente est', 'Pois, se perdoarem as ofensas uns dos outros, o Pa']
+INFO:root:Found 1 dates: ['Terça, 24 de março de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Renovados por dentro', ID=a49d5e429cef5b1e9352b5f727e58477
+INFO:root:Processing entry 1: Title='Enxergando além do que os olhos podem ver', ID=a51902a7d03d167d820393ea84bcb3dc
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Renovados por dentro - Palavra de Hoje
+INFO:root:🔹 Title: Enxergando além do que os olhos podem ver - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Por isso não desanimamos. Embora exteriormente estejamos a desgastar-nos, interiormente estamos sendo renovados dia após dia,
-- 2 Coríntios 4:16
+INFO:root:🔹 Description: Porque vivemos por fé, e não pelo que vemos.
+- 2 Coríntios 5:7
 
-O apóstolo Paulo escreveu essas palavras em meio a perseguições, sofrimentos e desafios intensos. Ainda assim, ele declara com convicção: “não desanimamos”. Essa afirmação não nasce da negação da dor, mas da certeza da renovação interior. O corpo sente o peso do tempo, das lutas e das circunstâncias. A vida pode nos marcar com cicatrizes visíveis e invisíveis. Contudo, há uma obra silenciosa acontecendo no interior daqueles que permanecem firmes em Deus.
-Na fé, enquanto o exterior pode experimentar desgaste, limitações e fraquezas, o interior é fortalecido pelo Espírito Santo. Cada desafio enfrentado com confiança em Deus se torna instrumento de crescimento espiritual. Cada lágrima pode regar sementes de maturidade e esperança.
-Quando buscamos a presença de Deus em oração, quando meditamos na Palavra e confiamos nas promessas do Senhor, algo novo floresce dentro de nós. O cansaço pode até bater à porta, mas não governa o coração de quem está firmado na eternidade.
-O mundo valoriza aparência, juventude e resultados imediatos. Deus, porém, trabalha no invisível, moldando caráter, aprofundando fé e produzindo perseverança. A verdadeira força do cristão não está no que se vê, mas no que é cultivado em secreto.
-Se hoje você sente o peso da caminhada, lembre-se: Deus está operando em você. A luta não é o fim da história. Em Cristo, cada dia traz consigo a oportunidade de renovação. E essa obra interior é mais poderosa do que qualquer desgaste exterior.
-Veja também: Versículos de força em momentos difíceis
+Você já se perguntou se aquilo que você vê é realmente toda a verdade sobre a sua vida? Muitas vezes, nos deixamos conduzir apenas pelo que está diante dos nossos olhos: situações difíceis, portas fechadas e respostas que parecem nunca chegar. No entanto, quando aceitamos a Cristo, algo extraordinário começa a acontecer dentro de nós. Passamos a perceber que existe uma realidade mais profunda, que não pode ser compreendida apenas pela visão natural, mas pelos olhos da fé.
+Quando aprendemos a enxergar além do que os olhos podem ver, algo dentro de nós desperta. Por meio do Espírito Santo, desenvolvemos uma sensibilidade que antes não tínhamos. Começamos a perceber detalhes que passavam despercebidos: uma palavra, um gesto, uma direção. Aquilo que antes parecia comum ganha significado, e passamos a discernir espiritualmente o que está ao nosso redor.
+Além dessa sensibilidade, a fé em Jesus nos transforma completamente. Ela nos capacita a enxergar saída onde muitos só veem impossibilidades, a encontrar soluções onde só existem problemas e a perceber o agir de Deus mesmo em meio das situações mais desafiadoras. A fé muda a forma como interpretamos a vida e nos fortalece para continuar, mesmo quando tudo parece contrário.
+Hoje, Deus está te convidando a olhar novamente. Não com os olhos do medo, da dúvida ou da insegurança, mas com os olhos da fé. Com Jesus, você pode enxergar além do que os olhos naturais permitem ver e experimentar algo muito maior.
+Permita-se crer além das evidências. Vá além do que é visível. Quando você decide viver pela fé, descobre que Deus sempre esteve agindo, mesmo quando você não percebia. E nesse despertar, a esperança renasce, o coração se fortalece e a vida ganha um novo e verdadeiro sentido.
+Veja também: Fé: entenda o que é e o significado bíblico
  
-Por isso não desanimamos. Embora exteriormente estejamos a desgastar-nos, interiormente estamos sendo renovados dia após dia,
-- 2 Coríntios 4:16
+Porque vivemos por fé, e não pelo que vemos.
+- 2 Coríntios 5:7
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 329711 characters
-INFO:root:HTML parsed, length: 320113 characters
-INFO:root:Found 3 titles: ['O significado de arrependimento', 'Gratidão é reconhecer e agradecer', '3 motivos para buscarmos mais a Deus']
+INFO:root:Response length: 330581 characters
+INFO:root:HTML parsed, length: 320983 characters
+INFO:root:Found 3 titles: ['Deus está sempre presente!', 'O significado de arrependimento', 'Gratidão é reconhecer e agradecer']
 INFO:root:Found 1 URLs: ['/gratidao/']
-INFO:root:Found 3 descriptions: ['Arrependam-se, pois, e voltem-se para Deus, para q', 'Deem graças em todas as circunstâncias, pois esta ', 'À medida que caminhamos nesta jornada de fé, há tr']
-INFO:root:Found 3 dates: ['MARçO\n\n23\nSEGUNDA', 'MARçO\n\n22\nDOMINGO', 'MARçO\n\n21\nSÁBADO']
+INFO:root:Found 3 descriptions: ['Deus é o nosso refúgio e a nossa fortaleza, auxíli', 'Arrependam-se, pois, e voltem-se para Deus, para q', 'Deem graças em todas as circunstâncias, pois esta ']
+INFO:root:Found 3 dates: ['MARçO\n\n24\nTERÇA', 'MARçO\n\n23\nSEGUNDA', 'MARçO\n\n22\nDOMINGO']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O significado de arrependimento', ID=8ceba5a756ff223b8a884c2b89a3e589
+INFO:root:Processing entry 1: Title='Deus está sempre presente!', ID=1107ec9f74dc6cde806283dc3e8c2e32
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O significado de arrependimento
+INFO:root:🔹 Title: Deus está sempre presente!
 INFO:root:🔹 URL: https://www.bibliaon.com/gratidao/
-INFO:root:🔹 Description: Arrependam-se, pois, e voltem-se para Deus, para que os seus pecados sejam cancelados, para que venham tempos de descanso da parte do Senhor, e ele mande o Cristo, o qual lhes foi designado, Jesus.
-- Atos dos Apóstolos 3:19-20
+INFO:root:🔹 Description: Deus é o nosso refúgio e a nossa fortaleza, auxílio sempre presente na adversidade.
+Salmos 46:1  
 
-Arrependimento é muito mais que pedir perdão. Significa voltar-se para Deus, reconhecendo seus pecados e decidindo viver de maneira diferente. Em vez de querer continuar em uma vida de pecado, seu desejo se torna agradar a Deus. E isso é possível com a ajuda de Jesus.
-Quando você se arrepende e crê que Jesus é seu salvador, você recebe Jesus em sua vida. Isso significa que ele vai estar sempre com você e vai lhe ajudar a viver para Deus. Agora, Jesus vive em você e vai transformar sua vida!
-Se você está arrependido de algum pecado:
+Nos momentos de adversidade nossa fé é colocada a prova. E sabemos, uma provação testa todos os nossos sentimentos. São nesses momentos de angústia que podemos perder o nosso foco.
+Deus está conosco sempre, nos momentos bons e ruins. Ele não nos abandona, nunca! A sensação de medo pode surgir, mas não esqueça, Ele está sempre presente contigo. Clame a Deus em oração, peça a Sua provisão.
+Também podemos encontrar refúgio na Sua Palavra, a Bíblia é um verdadeiro alívio na adversidade. Deus é fiel para cumprir todas a suas promessas, por isso, mantenha-se firme e confie no Senhor!
+Ele está presente! 
 
-Confesse o pecado a Deus, pedindo perdão
-Creia que Jesus morreu para lhe salvar de seu pecado
-Peça ajuda a Deus para consertar as coisas e parar de fazer esse pecado
-Sempre que você se sente tentado ou cair no pecado, volte a pedir perdão e ajuda a Deus
-Lembre-se que Deus SEMPRE perdoa quem se arrepende
+Deus está sempre presente. Busque a sua presença em oração. 
+O Espírito Santo nos conforta e nos dá direção, busque-o. 
+Busque refúgio na Palavra de Deus. A Bíblia é um ótimo meio para nos reconectarmos com Deus. 
 
-Para orar:
+Para Orar: 
 
-Senhor Deus, reconheço que tenho cometido pecados. Não quero mais viver entristecendo você. Peço perdão pelos meus pecados e quero mesmo viver de maneira diferente. Creio que Jesus morreu e ressuscitou para me salvar de meus pecados e que ele é meu salvador. Ajude-me a vencer a tentação e a ter força para parar de cometer esses pecados. Em nome de Jesus, amém.
+Senhor, sei que no meio das dificuldades estás comigo. Guarda-me segundo a Tua Palavra e guia-me em direção as Tuas promessas. Confio em Ti e sei que estás comigo sempre! Amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -298,15 +304,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  37 +---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  21 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  23 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  20 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 147 ++++---------
+ feeds/salmo_do_dia/atom.xml               |  65 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 348 ++++++++++++------------------
- 11 files changed, 242 insertions(+), 395 deletions(-)
+ output.log                                | 236 +++++++++++++++---------------
+ 11 files changed, 211 insertions(+), 211 deletions(-)
