@@ -1,90 +1,117 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 125418 characters
-INFO:root:HTML parsed, length: 118325 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (25/03/2026)', 'Palavra de Ontem (24/03/2026)', 'Palavra de Anteontem (23/03/2026)']
-INFO:root:Found 3 URLs: ['/mau-gosto/', '/alicerce/', '/judicializar/']
-INFO:root:Found 12 descriptions: ['expressão Péssimas escolhas estéticas, desprovidas', 'Sinônimos:\n\nvulgaridade, deselegância, exagero', 'Antônimos:\n\nelegância, sofisticação, refinamento, ']
-INFO:root:Found 3 dates: ['Palavra de Hoje (25/03/2026)', 'Palavra de Ontem (24/03/2026)', 'Palavra de Anteontem (23/03/2026)']
+INFO:root:Response length: 125738 characters
+INFO:root:HTML parsed, length: 118462 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (26/03/2026)', 'Palavra de Ontem (25/03/2026)', 'Palavra de Anteontem (24/03/2026)']
+INFO:root:Found 3 URLs: ['/overdose/', '/mau-gosto/', '/alicerce/']
+INFO:root:Found 14 descriptions: ['substantivo feminino Dose excessiva de um medicame', 'Sinônimos:\n\nsuperdose, intoxicação', 'Antônimos:\n\nfalta']
+INFO:root:Found 3 dates: ['Palavra de Hoje (26/03/2026)', 'Palavra de Ontem (25/03/2026)', 'Palavra de Anteontem (24/03/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (25/03/2026)', ID=f6ba332996e6e687bd04deaa88f77512
-INFO:root:Processing entry 2: Title='Palavra de Ontem (24/03/2026)', ID=d75668eeaf705b05faac7e143293be46
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (23/03/2026)', ID=b491d2d3dc352bd5bfbfa36d17f42836
+INFO:root:Processing entry 1: Title='Palavra de Hoje (26/03/2026)', ID=e820ba38dd075953cb11629b8456927a
+INFO:root:Processing entry 2: Title='Palavra de Ontem (25/03/2026)', ID=f867404a25fffb98521f8a80fe63a7f2
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/03/2026)', ID=b785cc54795b8a5e7eec5fe24f995b01
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (25/03/2026) - Significado completo de mau gosto:
-INFO:root:🔹 URL: https://www.dicio.com.br/mau-gosto/
-INFO:root:🔹 Description: expressão Péssimas escolhas estéticas, desprovidas de qualidade, de requinte; breguice, cafonice: a combinação da sua mobília é de extremo mau gosto.Escolhas feitas por quem não preza pelo bom gosto, pelo requinte, pela erudição, pelo considerado culto, educado, formal: o palestrante fez comentários de mau gosto.Etimologia (origem de mau gosto). A palavra mau gosto tem sua origem pela junção de mau e da palavra gosto.
+INFO:root:🔹 Title: Palavra de Hoje (26/03/2026) - Significado completo de overdose:
+INFO:root:🔹 URL: https://www.dicio.com.br/overdose/
+INFO:root:🔹 Description: substantivo feminino Dose excessiva de um medicamento (bem maior que a indicada ou prescrita); superdose.Consumo excessivo de alguma coisa (substância tóxica, estupefaciente ou medicamento) que pode levar a uma intoxicação ou à morte; morte por drogas.[Figurado] Quantidade fora do comum ou anormal de alguma coisa; excesso de exposição a: overdose de refrigerante; overdose de televisão.Etimologia (origem da palavra overdose). A palavra overdose tem sua origem no inglês "overdose", com o mesmo sentido.
  
 Sinônimos:
 
-vulgaridade, deselegância, exagero 
+superdose, intoxicação 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (24/03/2026) - Significado completo de alicerce:
-INFO:root:🔹 URL: https://www.dicio.com.br/alicerce/
+INFO:root:🔹 Title: Palavra de Ontem (25/03/2026) - Significado completo de mau gosto:
+INFO:root:🔹 URL: https://www.dicio.com.br/mau-gosto/
 INFO:root:🔹 Description: Sinônimos:
 
-vulgaridade, deselegância, exagero
+superdose, intoxicação
  
 Antônimos:
 
-elegância, sofisticação, refinamento, estilo, classe, finesse, discrição, distinção, beleza, harmonia, requinte, bom gosto 
+falta 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (23/03/2026) - Significado completo de judicializar:
-INFO:root:🔹 URL: https://www.dicio.com.br/judicializar/
+INFO:root:🔹 Title: Palavra de Anteontem (24/03/2026) - Significado completo de alicerce:
+INFO:root:🔹 URL: https://www.dicio.com.br/alicerce/
 INFO:root:🔹 Description: Antônimos:
 
-elegância, sofisticação, refinamento, estilo, classe, finesse, discrição, distinção, beleza, harmonia, requinte, bom gosto
- Sílabas:mau-gos-to
+falta
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320549 characters
-INFO:root:HTML parsed, length: 310940 characters
-INFO:root:Found 1 titles: ['Amós 8:11']
-INFO:root:Found 1 URLs: ['/versiculo/amos_8_11/']
-INFO:root:Found 1 descriptions: ['"Estão chegando os dias",\ndeclara o Senhor, o Sobe']
+INFO:root:Response length: 320656 characters
+INFO:root:HTML parsed, length: 311047 characters
+INFO:root:Found 1 titles: ['Filipenses 2:5-7']
+INFO:root:Found 1 URLs: ['/versiculo/filipenses_2_5-7/']
+INFO:root:Found 1 descriptions: ['Seja a atitude de vocês a mesma de Cristo Jesus, q']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Amós 8:11', ID=a67a9107293d2c88aacc299a4e55bc09
+INFO:root:Processing entry 1: Title='Filipenses 2:5-7', ID=e65939e2b154eb7aa56bb80989dfe2a7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Amós 8:11
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/amos_8_11/
-INFO:root:🔹 Description: "Estão chegando os dias",
-declara o Senhor, o Soberano,
-"em que enviarei fome a toda esta terra;
-não fome de comida nem sede de água,
-mas fome e sede de ouvir
-as palavras do Senhor. Amós 8:11
+INFO:root:🔹 Title: Filipenses 2:5-7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_2_5-7/
+INFO:root:🔹 Description: Seja a atitude de vocês a mesma de Cristo Jesus, que, embora sendo Deus,
+não considerou
+que o ser igual a Deus
+era algo a que devia apegar-se; mas esvaziou-se a si mesmo,
+vindo a ser servo,
+tornando-se semelhante
+aos homens. Filipenses 2:5-7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320294 characters
-INFO:root:HTML parsed, length: 311483 characters
-INFO:root:Found 3 titles: ['Salmo 97', 'Salmo 41', 'Salmo 39']
-INFO:root:Found 3 URLs: ['/salmos_97/', '/salmos_41/', '/salmos_39/']
-INFO:root:Found 3 descriptions: ['O Senhor reina!\nExulte a terra\ne alegrem-se as reg', 'Como é feliz aquele\nque se interessa pelo pobre!\nO', 'Eu disse: Vigiarei a minha conduta\ne não pecarei e']
-INFO:root:Found 3 dates: ['25 de Março de 2026', '24 de Março de 2026', '23 de Março de 2026']
+INFO:root:Response length: 319470 characters
+INFO:root:HTML parsed, length: 310647 characters
+INFO:root:Found 3 titles: ['Salmo 43', 'Salmo 97', 'Salmo 41']
+INFO:root:Found 3 URLs: ['/salmos_43/', '/salmos_97/', '/salmos_41/']
+INFO:root:Found 3 descriptions: ['Faze-me justiça, ó Deus,\ne defende a minha causa c', 'O Senhor reina!\nExulte a terra\ne alegrem-se as reg', 'Como é feliz aquele\nque se interessa pelo pobre!\nO']
+INFO:root:Found 3 dates: ['26 de Março de 2026', '25 de Março de 2026', '24 de Março de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
-INFO:root:Processing entry 2: Title=' Salmo 41', ID=b34f131061fcae68771d58ea8844e2fb
-INFO:root:Processing entry 3: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
+INFO:root:Processing entry 1: Title=' Salmo 43', ID=637739b6a41438cafeba86488eda1a45
+INFO:root:Processing entry 2: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
+INFO:root:Processing entry 3: Title=' Salmo 41', ID=b34f131061fcae68771d58ea8844e2fb
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 43
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_43/
+INFO:root:🔹 Description: Faze-me justiça, ó Deus,
+e defende a minha causa contra um povo infiel;
+livra-me dos homens traidores e perversos. 
+Pois tu, ó Deus, és a minha fortaleza.
+Por que me rejeitaste?
+Por que devo sair vagueando e pranteando,
+oprimido pelo inimigo? 
+Envia a tua luz e a tua verdade;
+elas me guiarão
+e me levarão ao teu santo monte,
+ao lugar onde habitas. 
+Então irei ao altar de Deus,
+a Deus, a fonte da minha plena alegria.
+Com a harpa te louvarei,
+ó Deus, meu Deus! 
+Por que você está assim tão triste,
+ó minha alma?
+Por que está assim tão perturbada
+dentro de mim?
+Ponha a sua esperança em Deus!
+Pois ainda o louvarei;
+ele é o meu Salvador e o meu Deus. 
+ Salmo 43
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 97
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_97/
 INFO:root:🔹 Description: O Senhor reina!
@@ -161,105 +188,86 @@ de eternidade a eternidade!
 Amém e amém! 
  Salmo 41
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 39
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_39/
-INFO:root:🔹 Description: Eu disse: Vigiarei a minha conduta
-e não pecarei em palavras;
-porei mordaça em minha boca
-enquanto os ímpios
-estiverem na minha presença. 
-Enquanto me calei resignado,
-e me contive inutilmente,
-minha angústia aumentou. 
-Meu coração ardia-me no peito
-e, enquanto eu meditava, o fogo aumentava;
-então comecei a dizer: 
-Mostra-me, Senhor, o fim da minha vida
-e o número dos meus dias,
-para que eu saiba quão frágil sou. 
-Deste aos meus dias
-o comprimento de um palmo;
-a duração da minha vida é nada diante de ti.
-De fato, o homem não passa de um sopro. 
-Sim, cada um vai e volta como a sombra.
-Em vão se agita, amontoando riqueza
-sem saber quem ficará com ela. 
-Mas agora, Senhor, que hei de esperar?
-Minha esperança está em ti. 
-Livra-me de todas as minhas transgressões;
-não faças de mim
-um objeto de zombaria dos tolos. 
-Estou calado! Não posso abrir a boca,
-pois tu mesmo fizeste isso. 
-Afasta de mim o teu açoite;
-fui vencido pelo golpe da tua mão. 
-Tu repreendes e disciplinas o homem
-por causa do seu pecado;
-como traça destróis o que ele mais valoriza;
-de fato, o homem não passa de um sopro. 
-Ouve a minha oração, Senhor;
-escuta o meu grito de socorro;
-não sejas indiferente ao meu lamento.
-Pois sou para ti um estrangeiro,
-como foram todos os meus antepassados. 
-Desvia de mim os teus olhos,
-para que eu volte a ter alegria,
-antes que eu me vá e deixe de existir. 
- Salmo 39
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 322239 characters
-INFO:root:HTML parsed, length: 313085 characters
-INFO:root:Found 3 titles: ['A beleza da integridade', 'Enxergando além do que os olhos podem ver', 'Renovados por dentro']
+INFO:root:Response length: 322572 characters
+INFO:root:HTML parsed, length: 313418 characters
+INFO:root:Found 3 titles: ['Encontrando o norte', 'A beleza da integridade', 'Enxergando além do que os olhos podem ver']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Quem anda com integridade\nanda com segurança,\nmas ', 'Porque vivemos por fé, e não pelo que vemos.\n- 2 C', 'Por isso não desanimamos. Embora exteriormente est']
-INFO:root:Found 1 dates: ['Quarta, 25 de março de 2026']
+INFO:root:Found 3 descriptions: ['A tua palavra é lâmpada\nque ilumina os meus passos', 'Quem anda com integridade\nanda com segurança,\nmas ', 'Porque vivemos por fé, e não pelo que vemos.\n- 2 C']
+INFO:root:Found 1 dates: ['Quinta, 26 de março de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A beleza da integridade', ID=6b920932eed82513427f80b00a45dc6c
+INFO:root:Processing entry 1: Title='Encontrando o norte', ID=2d72dd2e5b2e2d2bcc43d34066c2e4de
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A beleza da integridade - Palavra de Hoje
+INFO:root:🔹 Title: Encontrando o norte - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Quem anda com integridade
-anda com segurança,
-mas quem segue veredas tortuosas
-será descoberto.
-- Provérbios 10:9
+INFO:root:🔹 Description: A tua palavra é lâmpada
+que ilumina os meus passos
+e luz que clareia o meu caminho.
+- Salmos 119:105
 
-A integridade é uma beleza silenciosa, que não depende de aplausos nem de reconhecimento dos outros. Ela se revela nas pequenas escolhas do dia a dia, quando ninguém está olhando e mesmo assim decidimos fazer o que é certo.
-Ser íntegro é alinhar aquilo que pensamos, falamos e fazemos, mantendo um coração firme no que cremos.
-Vivemos em um mundo onde muitas vezes o mais fácil parece mais atraente do que o correto. No entanto, a verdadeira beleza está em permanecer fiel aos valores, mesmo quando isso custa algo. A integridade não é perfeição, mas constância, é levantar após falhar e continuar escolhendo o caminho certo.
-A vida de Jó é um grande exemplo da importância da integridade. Ele era descrito como um homem justo, íntegro e temente a Deus. Ainda assim, enfrentou grandes problemas: bens, saúde e até o apoio de pessoas próximas. Em meio à dor, Jó poderia ter abandonado seus princípios, mas escolheu permanecer firme na sua fé, mesmo sem entender o caos que acontecia a sua volta.
-Isso nos ensina que a integridade não nos livra de dificuldades, mas nos sustenta nelas. Ela nos dá paz, mesmo quando tudo ao redor parece desmoronar. Há uma beleza especial em alguém que, mesmo ferido, não se corrompe, que mesmo pressionado, não negocia seus valores.
-Ser íntegro é viver com transparência e coragem. É construir uma vida sólida, baseada na verdade e no caráter. A integridade deixa marcas duradouras, não apenas na própria vida, mas também na vida daqueles que observam e se inspiram nesse exemplo.
-Veja também: A história de Jó
+Em muitos momentos da vida, sentimos como se estivéssemos caminhando sem direção, perdidos no meio do caminho. É como estar em meio a uma grande caminhada sem saber qual caminho seguir.
+Nessas horas, precisamos de algo confiável que nos aponte o norte, que nos ajude a seguir em frente com segurança. Assim como uma bússola é essencial para quem está perdido, Jesus é a nossa bússola espiritual.
+A bússola não muda a sua orientação, ela aponta sempre para o norte. Da mesma forma, Jesus permanece o mesmo, ontem, hoje e eternamente.
+Quando o mundo tenta nos confundir com tantas vozes e caminhos diferentes, Ele continua sendo a referência segura, aquele que nos conduz à verdade e à vida. Em João 14:6, Jesus afirma que é o caminho, a verdade e a vida, deixando claro que, com Ele, não andamos em círculos nem sem propósito.
+
+Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.
+- João 14:6
+
+Muitas vezes, nos perdemos porque confiamos apenas em nossas próprias forças. Tentamos seguir mapas incompletos, opiniões alheias ou desejos momentâneos. No entanto, quando paramos, reconhecemos nossa fragilidade e voltamos o coração para Deus, começamos a reencontrar o rumo. Encontrar Jesus não exige perfeição, mas um coração disposto. Ele se deixa encontrar por aqueles que O buscam com sinceridade.
+Quando estamos perdidos, podemos encontrá-Lo na oração, na leitura da Palavra e no silêncio que nos aproxima de Sua presença. Jesus nos chama com amor e paciência, reajustando nossa rota sempre que necessário. Mesmo que tenhamos nos afastado, Ele nunca perde o caminho até nós.
+Encontrar o norte é decidir confiar. É permitir que Jesus guie nossos passos, mesmo quando não vemos o caminho completo. Com Ele, seguimos com esperança, fé e a certeza de que nunca caminhamos sozinhos.
+Veja também: Versículos sobre direção de Deus
  
-Quem anda com integridade
-anda com segurança,
-mas quem segue veredas tortuosas
-será descoberto.
-- Provérbios 10:9
+A tua palavra é lâmpada
+que ilumina os meus passos
+e luz que clareia o meu caminho.
+- Salmos 119:105
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 330580 characters
-INFO:root:HTML parsed, length: 320983 characters
-INFO:root:Found 3 titles: ['A Bíblia é muito mais que uma saída de emergência', 'Deus está sempre presente!', 'O significado de arrependimento']
-INFO:root:Found 1 URLs: ['/plano_de_leitura_da_biblia_em_1_ano/']
-INFO:root:Found 3 descriptions: ['Lâmpada para os meus pés é a tua palavra e luz par', 'Deus é o nosso refúgio e a nossa fortaleza, auxíli', 'Arrependam-se, pois, e voltem-se para Deus, para q']
-INFO:root:Found 3 dates: ['MARçO\n\n25\nQUARTA', 'MARçO\n\n24\nTERÇA', 'MARçO\n\n23\nSEGUNDA']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A Bíblia é muito mais que uma saída de emergência', ID=5b03e258ef88bf7aca60bb1a36b761b9
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 331895 characters
+INFO:root:HTML parsed, length: 322296 characters
+INFO:root:Found 3 titles: ['A verdadeira liberdade em Cristo', 'A Bíblia é muito mais que uma saída de emergência', 'Deus está sempre presente!']
+INFO:root:Found 2 URLs: ['/o_que_e_a_liberdade/', '/plano_de_leitura_da_biblia_em_1_ano/']
+INFO:root:Found 3 descriptions: ['E conhecereis a verdade, e a verdade vos libertará', 'Lâmpada para os meus pés é a tua palavra e luz par', 'Deus é o nosso refúgio e a nossa fortaleza, auxíli']
+INFO:root:Found 3 dates: ['MARçO\n\n26\nQUINTA', 'MARçO\n\n25\nQUARTA', 'MARçO\n\n24\nTERÇA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='A verdadeira liberdade em Cristo', ID=c103bef589f22aa3b460f0dcece2bf4f
+INFO:root:Processing entry 2: Title='A Bíblia é muito mais que uma saída de emergência', ID=5b03e258ef88bf7aca60bb1a36b761b9
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A verdadeira liberdade em Cristo
+INFO:root:🔹 URL: https://www.bibliaon.com/o_que_e_a_liberdade/
+INFO:root:🔹 Description: E conhecereis a verdade, e a verdade vos libertará.
+- João 8:32
+
+No mundo de hoje, a a liberdade é constantemente exaltada. A liberdade financeira, a liberdade sexual, a liberdade parental, a liberdade no linguajar, tudo deve ser exercido sem regras, sem limites, como o caminho que trará a verdadeira satisfação. Há pessoas que vivem isso plenamente, por vontade própria ou por influência.
+À primeira vista, muitos aparentam alegria, satisfação aparentemente real. Redes sociais mostram sorrisos, festas e conquistas, criando a ilusão de uma felicidade constante. No entanto, por trás dessa aparência, existe uma realidade muitas vezes ignorada: a escravidão do pecado.
+Quando o ser humano vive distante de Deus, ele se torna refém de desejos, vícios, orgulho e vaidades. Aquilo que parece liberdade, na verdade, se torna uma prisão. O pecado seduz, promete prazer momentâneo, mas cobra um preço alto: vazio, angústia e afastamento do propósito de Deus. Assim, muitos vivem presos sem perceber, caminhando em ciclos que os afastam cada vez mais da verdadeira paz.
+A verdadeira liberdade não está em fazer tudo o que se quer, mas em viver segundo a vontade de Deus. É em Jesus Cristo que encontramos essa liberdade genuína. Quando O conhecemos, nossos olhos se abrem para as armadilhas do inimigo, que tenta nos enganar e nos afastar da verdade. Através da Palavra de Deus, somos ensinados, corrigidos e fortalecidos para vencer essas ciladas.
+Em Cristo, não somos mais escravos do pecado, mas livres para viver uma vida nova, cheia de propósito, paz e alegria verdadeira. Essa liberdade é exercida com entendimento e sabedoria. É uma liberdade que liberta a alma, renova a mente e nos aproxima de Deus.
+A verdadeira liberdade só é encontrada em Jesus. Somente n'Ele podemos viver plenamente, livres de tudo aquilo que nos aprisiona.
+Como ser livre em Cristo
+
+Buscando intimidade com Deus por meio da oração e leitura da Bíblia, permitindo que o Espírito Santo transforme os nossos pensamentos e concepção de liberdade.
+Afastando-se do pecado, reconhecendo fraquezas pessoais e escolhendo obedecer aos ensinamentos de Cristo, fortalecendo caráter e vivendo uma vida alinhada à vontade d'Ele.
+Praticando o amor e perdão, refletindo caráter de Jesus no cotidiano e testemunhando a liberdade que transforma vidas ao redor.
+
+Para orar:
+
+Senhor Deus, reconheço que só em Ti há verdadeira liberdade. Liberta meu coração de todo pecado e engano, e guia meus passos na Tua verdade. Dá-me força para vencer as tentações e sabedoria para discernir as armadilhas do inimigo. Que eu viva segundo a Tua vontade, com fé, amor e obediência. Em nome de Jesus, amém.
+
+Veja também: 9 versículos sobre a liberdade em Cristo
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A Bíblia é muito mais que uma saída de emergência
 INFO:root:🔹 URL: https://www.bibliaon.com/plano_de_leitura_da_biblia_em_1_ano/
 INFO:root:🔹 Description: Lâmpada para os meus pés é a tua palavra e luz para o meu caminho.
@@ -312,15 +320,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  27 +--
- feeds/devocional_de_hoje/feed.json        |   8 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  27 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  23 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  37 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  83 ++++-----
+ feeds/salmo_do_dia/atom.xml               |  70 +++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |  13 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
  output.log                                | 270 +++++++++++++++---------------
- 11 files changed, 247 insertions(+), 243 deletions(-)
+ 11 files changed, 245 insertions(+), 240 deletions(-)
