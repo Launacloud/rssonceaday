@@ -1,91 +1,210 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 125738 characters
-INFO:root:HTML parsed, length: 118462 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (26/03/2026)', 'Palavra de Ontem (25/03/2026)', 'Palavra de Anteontem (24/03/2026)']
-INFO:root:Found 3 URLs: ['/overdose/', '/mau-gosto/', '/alicerce/']
-INFO:root:Found 14 descriptions: ['substantivo feminino Dose excessiva de um medicame', 'Sinônimos:\n\nsuperdose, intoxicação', 'Antônimos:\n\nfalta']
-INFO:root:Found 3 dates: ['Palavra de Hoje (26/03/2026)', 'Palavra de Ontem (25/03/2026)', 'Palavra de Anteontem (24/03/2026)']
+INFO:root:Response length: 124205 characters
+INFO:root:HTML parsed, length: 117320 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (27/03/2026)', 'Palavra de Ontem (26/03/2026)', 'Palavra de Anteontem (25/03/2026)']
+INFO:root:Found 3 URLs: ['/ambigrama/', '/overdose/', '/mau-gosto/']
+INFO:root:Found 11 descriptions: ['substantivo masculino Representação visual de pala', 'Sílabas:am-bi-gra-ma', 'substantivo feminino Dose excessiva de um medicame']
+INFO:root:Found 3 dates: ['Palavra de Hoje (27/03/2026)', 'Palavra de Ontem (26/03/2026)', 'Palavra de Anteontem (25/03/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (26/03/2026)', ID=e820ba38dd075953cb11629b8456927a
-INFO:root:Processing entry 2: Title='Palavra de Ontem (25/03/2026)', ID=f867404a25fffb98521f8a80fe63a7f2
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/03/2026)', ID=b785cc54795b8a5e7eec5fe24f995b01
+INFO:root:Processing entry 1: Title='Palavra de Hoje (27/03/2026)', ID=aa15432263bbb2c1747fea9a340be41f
+INFO:root:Processing entry 2: Title='Palavra de Ontem (26/03/2026)', ID=f3e451d210d7121cdda29e50235aae94
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/03/2026)', ID=b3132c583bf12f0e87afc0260263d6dd
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (26/03/2026) - Significado completo de overdose:
+INFO:root:🔹 Title: Palavra de Hoje (27/03/2026) - Significado completo de ambigrama:
+INFO:root:🔹 URL: https://www.dicio.com.br/ambigrama/
+INFO:root:🔹 Description: substantivo masculino Representação visual de palavras escritas ou desenhadas de uma maneira específica fazendo com que seja possível sua leitura em duas ou mais orientações.Etimologia (origem da palavra ambigrama). A palavra ambigrama tem sua origem no inglês “ambigram”, com o mesmo sentido.
+ Sílabas:am-bi-gra-ma
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (26/03/2026) - Significado completo de overdose:
 INFO:root:🔹 URL: https://www.dicio.com.br/overdose/
-INFO:root:🔹 Description: substantivo feminino Dose excessiva de um medicamento (bem maior que a indicada ou prescrita); superdose.Consumo excessivo de alguma coisa (substância tóxica, estupefaciente ou medicamento) que pode levar a uma intoxicação ou à morte; morte por drogas.[Figurado] Quantidade fora do comum ou anormal de alguma coisa; excesso de exposição a: overdose de refrigerante; overdose de televisão.Etimologia (origem da palavra overdose). A palavra overdose tem sua origem no inglês "overdose", com o mesmo sentido.
+INFO:root:🔹 Description: Sílabas:am-bi-gra-ma
  
 Sinônimos:
 
 superdose, intoxicação 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (25/03/2026) - Significado completo de mau gosto:
+INFO:root:🔹 Title: Palavra de Anteontem (25/03/2026) - Significado completo de mau gosto:
 INFO:root:🔹 URL: https://www.dicio.com.br/mau-gosto/
-INFO:root:🔹 Description: Sinônimos:
-
-superdose, intoxicação
+INFO:root:🔹 Description: substantivo feminino Dose excessiva de um medicamento (bem maior que a indicada ou prescrita); superdose.Consumo excessivo de alguma coisa (substância tóxica, estupefaciente ou medicamento) que pode levar a uma intoxicação ou à morte; morte por drogas.[Figurado] Quantidade fora do comum ou anormal de alguma coisa; excesso de exposição a: overdose de refrigerante; overdose de televisão.Etimologia (origem da palavra overdose). A palavra overdose tem sua origem no inglês "overdose", com o mesmo sentido.
  
 Antônimos:
 
 falta 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (24/03/2026) - Significado completo de alicerce:
-INFO:root:🔹 URL: https://www.dicio.com.br/alicerce/
-INFO:root:🔹 Description: Antônimos:
-
-falta
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 320656 characters
-INFO:root:HTML parsed, length: 311047 characters
-INFO:root:Found 1 titles: ['Filipenses 2:5-7']
-INFO:root:Found 1 URLs: ['/versiculo/filipenses_2_5-7/']
-INFO:root:Found 1 descriptions: ['Seja a atitude de vocês a mesma de Cristo Jesus, q']
+INFO:root:Response length: 323569 characters
+INFO:root:HTML parsed, length: 313960 characters
+INFO:root:Found 1 titles: ['Jeremias 17:14']
+INFO:root:Found 1 URLs: ['/versiculo/jeremias_17_14/']
+INFO:root:Found 1 descriptions: ['Cura-me, Senhor, e serei curado;\nsalva-me, e serei']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Filipenses 2:5-7', ID=e65939e2b154eb7aa56bb80989dfe2a7
+INFO:root:Processing entry 1: Title='Jeremias 17:14', ID=15243c5dcba987643add7fa523614101
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Filipenses 2:5-7
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_2_5-7/
-INFO:root:🔹 Description: Seja a atitude de vocês a mesma de Cristo Jesus, que, embora sendo Deus,
-não considerou
-que o ser igual a Deus
-era algo a que devia apegar-se; mas esvaziou-se a si mesmo,
-vindo a ser servo,
-tornando-se semelhante
-aos homens. Filipenses 2:5-7
+INFO:root:🔹 Title: Jeremias 17:14
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jeremias_17_14/
+INFO:root:🔹 Description: Cura-me, Senhor, e serei curado;
+salva-me, e serei salvo,
+pois tu és aquele a quem eu louvo. Jeremias 17:14
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 319470 characters
-INFO:root:HTML parsed, length: 310647 characters
-INFO:root:Found 3 titles: ['Salmo 43', 'Salmo 97', 'Salmo 41']
-INFO:root:Found 3 URLs: ['/salmos_43/', '/salmos_97/', '/salmos_41/']
-INFO:root:Found 3 descriptions: ['Faze-me justiça, ó Deus,\ne defende a minha causa c', 'O Senhor reina!\nExulte a terra\ne alegrem-se as reg', 'Como é feliz aquele\nque se interessa pelo pobre!\nO']
-INFO:root:Found 3 dates: ['26 de Março de 2026', '25 de Março de 2026', '24 de Março de 2026']
+INFO:root:Response length: 325956 characters
+INFO:root:HTML parsed, length: 317180 characters
+INFO:root:Found 3 titles: ['Salmo 89', 'Salmo 43', 'Salmo 97']
+INFO:root:Found 3 URLs: ['/salmos_89/', '/salmos_43/', '/salmos_97/']
+INFO:root:Found 3 descriptions: ['Cantarei para sempre o amor do Senhor;\ncom minha b', 'Faze-me justiça, ó Deus,\ne defende a minha causa c', 'O Senhor reina!\nExulte a terra\ne alegrem-se as reg']
+INFO:root:Found 3 dates: ['27 de Março de 2026', '26 de Março de 2026', '25 de Março de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 43', ID=637739b6a41438cafeba86488eda1a45
-INFO:root:Processing entry 2: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
-INFO:root:Processing entry 3: Title=' Salmo 41', ID=b34f131061fcae68771d58ea8844e2fb
+INFO:root:Processing entry 1: Title=' Salmo 89', ID=e46bb9c27225d3ff0b9681b0878a0e4f
+INFO:root:Processing entry 2: Title=' Salmo 43', ID=637739b6a41438cafeba86488eda1a45
+INFO:root:Processing entry 3: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 89
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_89/
+INFO:root:🔹 Description: Cantarei para sempre o amor do Senhor;
+com minha boca anunciarei
+a tua fidelidade por todas as gerações. 
+Sei que firme está o teu amor para sempre,
+e que firmaste nos céus a tua fidelidade. 
+Tu disseste: "Fiz aliança com o meu escolhido,
+jurei ao meu servo Davi: 
+'Estabelecerei a tua linhagem para sempre
+e firmarei o teu trono
+por todas as gerações' ". 
+Os céus louvam as tuas maravilhas, Senhor,
+e a tua fidelidade na assembleia dos santos. 
+Pois quem nos céus
+poderá comparar-se ao Senhor?
+Quem entre os seres celestiais
+assemelha-se ao Senhor? 
+Na assembleia dos santos Deus é temível,
+mais do que todos os que o rodeiam. 
+Ó Senhor, Deus dos Exércitos,
+quem é semelhante a ti?
+És poderoso, Senhor,
+envolto em tua fidelidade. 
+Tu dominas o revolto mar;
+quando se agigantam as suas ondas,
+tu as acalmas. 
+Esmagaste e mataste o Monstro dos Mares;
+com teu braço forte
+dispersaste os teus inimigos. 
+Os céus são teus, e tua também é a terra;
+fundaste o mundo e tudo o que nele existe. 
+Tu criaste o Norte e o Sul;
+o Tabor e o Hermom
+cantam de alegria pelo teu nome. 
+O teu braço é poderoso;
+a tua mão é forte, exaltada é tua mão direita. 
+A retidão e a justiça são os alicerces
+do teu trono;
+o amor e a fidelidade vão à tua frente. 
+Como é feliz o povo
+que aprendeu a aclamar-te, Senhor,
+e que anda na luz da tua presença! 
+Sem cessar exultam no teu nome,
+e alegram-se na tua retidão, 
+pois tu és a nossa glória e a nossa força,
+e pelo teu favor exaltas a nossa força. 
+Sim, Senhor, tu és o nosso escudo,
+ó Santo de Israel, tu és o nosso rei. 
+Numa visão falaste um dia,
+e aos teus fiéis disseste:
+"Cobri de forças um guerreiro,
+exaltei um homem escolhido dentre o povo. 
+Encontrei o meu servo Davi;
+ungi-o com o meu óleo sagrado. 
+A minha mão o susterá,
+e o meu braço o fará forte. 
+Nenhum inimigo o sujeitará a tributos;
+nenhum injusto o oprimirá. 
+Esmagarei diante dele os seus adversários
+e destruirei os seus inimigos. 
+A minha fidelidade e o meu amor
+o acompanharão,
+e pelo meu nome aumentará o seu poder. 
+A sua mão dominará até o mar;
+sua mão direita, até os rios. 
+Ele me dirá: 'Tu és o meu Pai,
+o meu Deus, a Rocha que me salva'. 
+Também o nomearei meu primogênito,
+o mais exaltado dos reis da terra. 
+Manterei o meu amor por ele para sempre,
+e a minha aliança com ele jamais se quebrará. 
+Firmarei a sua linhagem para sempre,
+e o seu trono durará enquanto existirem céus. 
+"Se os seus filhos abandonarem a minha lei
+e não seguirem as minhas ordenanças, 
+se violarem os meus decretos
+e deixarem de obedecer aos meus mandamentos, 
+com a vara castigarei o seu pecado,
+e a sua iniquidade com açoites; 
+mas não afastarei dele o meu amor;
+jamais desistirei da minha fidelidade. 
+Não violarei a minha aliança
+nem modificarei as promessas dos meus lábios. 
+De uma vez para sempre jurei
+pela minha santidade
+e não mentirei a Davi, 
+que a sua linhagem permanecerá para sempre,
+e o seu trono durará como o sol; 
+será estabelecido para sempre como a lua,
+a fiel testemunha no céu." 
+Mas tu o rejeitaste, recusaste-o
+e te enfureceste com o teu ungido. 
+Revogaste a aliança com o teu servo
+e desonraste a sua coroa, lançando-a ao chão. 
+Derrubaste todos os seus muros
+e reduziste a ruínas as suas fortalezas. 
+Todos os que passam o saqueiam;
+tornou-se objeto de zombaria
+para os seus vizinhos. 
+Tu exaltaste a mão direita dos seus adversários
+e encheste de alegria todos os seus inimigos. 
+Tiraste o fio da sua espada
+e não o apoiaste na batalha. 
+Deste fim ao seu esplendor
+e atiraste ao chão o seu trono. 
+Encurtaste os dias da sua juventude;
+com um manto de vergonha o cobriste. 
+Até quando, Senhor?
+Para sempre te esconderás?
+Até quando a tua ira queimará como fogo? 
+Lembra-te de como é passageira a minha vida.
+Terás criado em vão todos os homens? 
+Que homem pode viver e não ver a morte,
+ou livrar-se do poder da sepultura? 
+Ó Senhor, onde está o teu antigo amor,
+que com fidelidade juraste a Davi? 
+Lembra-te, Senhor,
+das afrontas que o teu servo tem sofrido,
+das zombarias que no íntimo
+tenho que suportar de todos os povos, 
+das zombarias dos teus inimigos, Senhor,
+com que afrontam a cada passo o teu ungido. 
+Bendito seja o Senhor para sempre!
+Amém e amém. 
+ Salmo 89
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 43
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_43/
 INFO:root:🔹 Description: Faze-me justiça, ó Deus,
@@ -147,104 +266,89 @@ Alegrem-se no Senhor, justos,
 e louvem o seu santo nome. 
  Salmo 97
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 41
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_41/
-INFO:root:🔹 Description: Como é feliz aquele
-que se interessa pelo pobre!
-O Senhor o livra em tempos de adversidade. 
-O Senhor o protegerá e preservará a sua vida;
-ele o fará feliz na terra
-e não o entregará ao desejo dos seus inimigos. 
-O Senhor o susterá
-em seu leito de enfermidade,
-e da doença o restaurará. 
-Eu disse: "Misericórdia, Senhor!
-Cura-me, pois pequei contra ti". 
-Os meus inimigos
-dizem maldosamente a meu respeito:
-"Quando ele vai morrer?
-Quando vai desaparecer o seu nome?" 
-Sempre que alguém vem visitar-me,
-fala com falsidade,
-enche o coração de calúnias
-e depois as espalha por onde vai. 
-Todos os que me odeiam
-juntam-se e cochicham contra mim,
-imaginando que o pior me acontecerá: 
-"Uma praga terrível o derrubou;
-está de cama e jamais se levantará". 
-Até o meu melhor amigo,
-em quem eu confiava
-e que partilhava do meu pão,
-voltou-se contra mim. 
-Mas, tu, Senhor, tem misericórdia de mim;
-levanta-me, para que eu lhes retribua. 
-Sei que me queres bem,
-pois o meu inimigo não triunfa sobre mim. 
-Por causa da minha integridade me susténs
-e me pões na tua presença para sempre. 
-Louvado seja o Senhor, o Deus de Israel,
-de eternidade a eternidade!
-Amém e amém! 
- Salmo 41
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 322572 characters
-INFO:root:HTML parsed, length: 313418 characters
-INFO:root:Found 3 titles: ['Encontrando o norte', 'A beleza da integridade', 'Enxergando além do que os olhos podem ver']
+INFO:root:Response length: 325491 characters
+INFO:root:HTML parsed, length: 316336 characters
+INFO:root:Found 3 titles: ['Guardado em meio a guerra', 'Encontrando o norte', 'A beleza da integridade']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['A tua palavra é lâmpada\nque ilumina os meus passos', 'Quem anda com integridade\nanda com segurança,\nmas ', 'Porque vivemos por fé, e não pelo que vemos.\n- 2 C']
-INFO:root:Found 1 dates: ['Quinta, 26 de março de 2026']
+INFO:root:Found 3 descriptions: ['Ele me guarda ileso na batalha,\nsendo muitos os qu', 'A tua palavra é lâmpada\nque ilumina os meus passos', 'Quem anda com integridade\nanda com segurança,\nmas ']
+INFO:root:Found 1 dates: ['Sexta, 27 de março de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Encontrando o norte', ID=2d72dd2e5b2e2d2bcc43d34066c2e4de
+INFO:root:Processing entry 1: Title='Guardado em meio a guerra', ID=ec7ff827294cddd41e657a8ffdfacf69
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Encontrando o norte - Palavra de Hoje
+INFO:root:🔹 Title: Guardado em meio a guerra - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: A tua palavra é lâmpada
-que ilumina os meus passos
-e luz que clareia o meu caminho.
-- Salmos 119:105
+INFO:root:🔹 Description: Ele me guarda ileso na batalha,
+sendo muitos os que estão contra mim.
+- Salmo 55:18
 
-Em muitos momentos da vida, sentimos como se estivéssemos caminhando sem direção, perdidos no meio do caminho. É como estar em meio a uma grande caminhada sem saber qual caminho seguir.
-Nessas horas, precisamos de algo confiável que nos aponte o norte, que nos ajude a seguir em frente com segurança. Assim como uma bússola é essencial para quem está perdido, Jesus é a nossa bússola espiritual.
-A bússola não muda a sua orientação, ela aponta sempre para o norte. Da mesma forma, Jesus permanece o mesmo, ontem, hoje e eternamente.
-Quando o mundo tenta nos confundir com tantas vozes e caminhos diferentes, Ele continua sendo a referência segura, aquele que nos conduz à verdade e à vida. Em João 14:6, Jesus afirma que é o caminho, a verdade e a vida, deixando claro que, com Ele, não andamos em círculos nem sem propósito.
-
-Respondeu Jesus: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.
-- João 14:6
-
-Muitas vezes, nos perdemos porque confiamos apenas em nossas próprias forças. Tentamos seguir mapas incompletos, opiniões alheias ou desejos momentâneos. No entanto, quando paramos, reconhecemos nossa fragilidade e voltamos o coração para Deus, começamos a reencontrar o rumo. Encontrar Jesus não exige perfeição, mas um coração disposto. Ele se deixa encontrar por aqueles que O buscam com sinceridade.
-Quando estamos perdidos, podemos encontrá-Lo na oração, na leitura da Palavra e no silêncio que nos aproxima de Sua presença. Jesus nos chama com amor e paciência, reajustando nossa rota sempre que necessário. Mesmo que tenhamos nos afastado, Ele nunca perde o caminho até nós.
-Encontrar o norte é decidir confiar. É permitir que Jesus guie nossos passos, mesmo quando não vemos o caminho completo. Com Ele, seguimos com esperança, fé e a certeza de que nunca caminhamos sozinhos.
-Veja também: Versículos sobre direção de Deus
+Mesmo quando a batalha se levanta ao nosso redor e as vozes contrárias parecem numerosas, o Senhor permanece fiel à Sua promessa.
+O salmista declara com convicção: “Ele me guarda ileso na batalha, sendo muitos os que estão contra mim.” Essa não é apenas uma lembrança do passado, mas uma verdade para todos os que confiam em Deus hoje.
+Há momentos em que o coração se sente cercado: lutas internas, oposição, palavras que ferem, situações que parecem injustas. Às vezes, os inimigos não empunham espadas, mas críticas, rejeições ou até o silêncio. Ainda assim, o Deus é o mesmo que entra na guerra por nós. Ele não promete ausência de batalhas, mas garante Sua presença constante nelas.
+Ser guardado não significa que não haverá marcas emocionais ou cansaço, mas que nada poderá destruir o propósito de Deus em nossa vida. O Senhor nos preserva espiritualmente, fortalece nossa fé e nos conduz com Suas mãos poderosas. Quando somos fracos, Ele se mostra forte. Quando nos sentimos sozinhos, Ele se revela como refúgio seguro.
+A confiança no Senhor muda nossa postura diante do conflito. Em vez de reagir com medo, aprendemos a descansar. Em vez de buscar vingança, escolhemos entregar a causa Àquele que julga com justiça. Deus luta por nós de maneiras que muitas vezes não enxergamos, silenciando o inimigo, abrindo caminhos e trazendo paz ao coração.
+Se hoje você sente que muitos estão contra você, levante seus olhos. O Senhor está perto dos que O invocam com sinceridade. Ele guarda, sustenta e livra.
+A batalha pode ser grande, mas maior é o Deus que peleja por você. Confie, permaneça firme e siga em frente, pois aquele que confia no Senhor jamais será confundido.
+Veja também: 9 Salmos de Proteção
  
-A tua palavra é lâmpada
-que ilumina os meus passos
-e luz que clareia o meu caminho.
-- Salmos 119:105
+Ele me guarda ileso na batalha,
+sendo muitos os que estão contra mim.
+- Salmo 55:18
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 331895 characters
-INFO:root:HTML parsed, length: 322296 characters
-INFO:root:Found 3 titles: ['A verdadeira liberdade em Cristo', 'A Bíblia é muito mais que uma saída de emergência', 'Deus está sempre presente!']
-INFO:root:Found 2 URLs: ['/o_que_e_a_liberdade/', '/plano_de_leitura_da_biblia_em_1_ano/']
-INFO:root:Found 3 descriptions: ['E conhecereis a verdade, e a verdade vos libertará', 'Lâmpada para os meus pés é a tua palavra e luz par', 'Deus é o nosso refúgio e a nossa fortaleza, auxíli']
-INFO:root:Found 3 dates: ['MARçO\n\n26\nQUINTA', 'MARçO\n\n25\nQUARTA', 'MARçO\n\n24\nTERÇA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='A verdadeira liberdade em Cristo', ID=c103bef589f22aa3b460f0dcece2bf4f
-INFO:root:Processing entry 2: Title='A Bíblia é muito mais que uma saída de emergência', ID=5b03e258ef88bf7aca60bb1a36b761b9
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 336602 characters
+INFO:root:HTML parsed, length: 326998 characters
+INFO:root:Found 3 titles: ['Revertendo um dia ruim em um bom dia', 'A verdadeira liberdade em Cristo', 'A Bíblia é muito mais que uma saída de emergência']
+INFO:root:Found 3 URLs: ['/em_tudo_dai_gracas/', '/o_que_e_a_liberdade/', '/plano_de_leitura_da_biblia_em_1_ano/']
+INFO:root:Found 3 descriptions: ['Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'E conhecereis a verdade, e a verdade vos libertará', 'Lâmpada para os meus pés é a tua palavra e luz par']
+INFO:root:Found 3 dates: ['MARçO\n\n27\nSEXTA', 'MARçO\n\n26\nQUINTA', 'MARçO\n\n25\nQUARTA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Revertendo um dia ruim em um bom dia', ID=351b7b03780615b34fde376d7aeaab5e
+INFO:root:Processing entry 2: Title='A verdadeira liberdade em Cristo', ID=c103bef589f22aa3b460f0dcece2bf4f
+INFO:root:Processing entry 3: Title='A Bíblia é muito mais que uma saída de emergência', ID=5b03e258ef88bf7aca60bb1a36b761b9
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Revertendo um dia ruim em um bom dia
+INFO:root:🔹 URL: https://www.bibliaon.com/em_tudo_dai_gracas/
+INFO:root:🔹 Description: Este é o dia em que o Senhor agiu;
+alegremo-nos e exultemos neste dia.
+- Salmos 118:24 
+
+Todo dia é bom e uma oportunidade, mas há momento que podem distorcer a nossa percepção. No entanto, a Bíblia nos ensina que, mesmo nos momentos mais complicados, podemos encontrar esperança, paz e transformação.
+Os problemas podem surgir ao longo do dia, mas Deus é bondoso e misericordioso; n’Ele encontramos alívio, pois podemos entregar e compartilhar todo o nosso peso. Veja sete formas práticas e espirituais de transformar dias ruins em dias bons, segundo os princípios bíblicos.
+
+
+Comece com oração: A oração nos conecta diretamente com Deus. Ao entregar nossas preocupações a Ele, encontramos alívio e direção para enfrentar qualquer situação. Tente agora.
+
+Pratique a gratidão: Mesmo em dias difíceis, sempre há algo pelo qual agradecer. A gratidão muda nossa perspectiva e abre espaço para a alegria.
+
+Confie nos planos de Deus: A Bíblia afirma que Deus tem planos de bem para nós. Confiar nisso traz paz, mesmo quando não entendemos o momento atual.
+
+Alimente sua mente com a Palavra: Ler a Bíblia fortalece o espírito e renova a mente. Ela traz consolo, sabedoria e encorajamento nos dias ruins.
+
+Evite pensamentos negativos: Substitua pensamentos ruins por verdades bíblicas, para cada problema há uma promessa de Deus para nós. O que pensamos influencia diretamente como nos sentimos e agimos.
+
+Pratique o amor ao próximo: Ajudar alguém pode transformar completamente o nosso dia. Sempre há pessoas em situação piores do que a nossa, sempre podemos ajudar de alguma forma. Pequenos gestos de amor geram grandes mudanças internas. E quando abençoamos, mesmo na dor, somos abençoados.
+
+Lembre-se: tudo passa: Nenhuma dificuldade é eterna. Deus está no controle e cada fase tem um propósito. Confie que dias melhores virão, fique atento ao que Deus quer te ensinar e retenha o que é bom.
+
+Deus pode transformar o nosso dia. Entregue a Ele suas preocupações, abra o coração e compartilhe tudo o que está passando. Ele deseja fazer parte da sua vida e aliviar a sua dor. Com fé, até os dias mais difíceis podem se tornar oportunidades de crescimento e renovação espiritual.
+Para orar:  
+
+Senhor Deus, neste momento me coloco em Tua presença. Conheces meu coração, minhas dores e preocupações. Entrego a Ti tudo o que tenho vivido e peço que renoves minhas forças. Guia meus passos, acalma minha mente e enche meu coração de paz. Ajuda-me a confiar nos Teus planos e a permanecer firme, mesmo nas dificuldades. Em nome de Jesus, amém. 
+
+Veja também: Explicação de "em tudo dai graças" (Estudo Bíblico)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A verdadeira liberdade em Cristo
 INFO:root:🔹 URL: https://www.bibliaon.com/o_que_e_a_liberdade/
 INFO:root:🔹 Description: E conhecereis a verdade, e a verdade vos libertará.
@@ -320,15 +424,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  23 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  33 ++-
  feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  37 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  34 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  70 +++-----
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 166 ++++++++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |  13 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |  10 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 270 +++++++++++++++---------------
- 11 files changed, 245 insertions(+), 240 deletions(-)
+ output.log                                | 368 +++++++++++++++++++-----------
+ 11 files changed, 438 insertions(+), 241 deletions(-)
