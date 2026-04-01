@@ -1,90 +1,102 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124778 characters
-INFO:root:HTML parsed, length: 117893 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (31/03/2026)', 'Palavra de Ontem (30/03/2026)', 'Palavra de Anteontem (29/03/2026)']
-INFO:root:Found 3 URLs: ['/destimido/', '/exodo-rural/', '/sepultar/']
-INFO:root:Found 12 descriptions: ['adjetivo Que não é tímido; que não se sente enverg', 'Sinônimos:\n\natrevido, despachado, ousado, audacios', 'Antônimos:\n\ntímido, inseguro, envergonhado, acanha']
-INFO:root:Found 3 dates: ['Palavra de Hoje (31/03/2026)', 'Palavra de Ontem (30/03/2026)', 'Palavra de Anteontem (29/03/2026)']
+INFO:root:Response length: 124034 characters
+INFO:root:HTML parsed, length: 117332 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (01/04/2026)', 'Palavra de Ontem (31/03/2026)', 'Palavra de Anteontem (30/03/2026)']
+INFO:root:Found 3 URLs: ['/antropofagia/', '/destimido/', '/exodo-rural/']
+INFO:root:Found 11 descriptions: ['substantivo feminino Condição de antropófago, de q', 'Sinônimos:\n\nandrofagia, antropofagismo, canibalism', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (01/04/2026)', 'Palavra de Ontem (31/03/2026)', 'Palavra de Anteontem (30/03/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (31/03/2026)', ID=8d0426547853021f67c47e7f8806b9d5
-INFO:root:Processing entry 2: Title='Palavra de Ontem (30/03/2026)', ID=264b0a18e18cb9c6786313bc15e563bf
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/03/2026)', ID=cc9b93354bf23ba5595def8d424ec5bc
+INFO:root:Processing entry 1: Title='Palavra de Hoje (01/04/2026)', ID=41ecd0bfe404cfb36d7ed6e99a2b9cae
+INFO:root:Processing entry 2: Title='Palavra de Ontem (31/03/2026)', ID=023ffddfa20a81376d6e9f9a366d8e7f
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/03/2026)', ID=15e9124ca0cc75df642a2e0b6820e84d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (31/03/2026) - Significado completo de destímido:
-INFO:root:🔹 URL: https://www.dicio.com.br/destimido/
-INFO:root:🔹 Description: adjetivo Que não é tímido; que não se sente envergonhado ou retraído diante de pessoas ou convívios sociais; sem timidez; desinibido.Etimologia (origem da palavra destímido). A palavra destímido tem sua origem pela junção do prefixo des-, com sentido de oposição, e da palavra tímido.
+INFO:root:🔹 Title: Palavra de Hoje (01/04/2026) - Significado completo de antropofagia:
+INFO:root:🔹 URL: https://www.dicio.com.br/antropofagia/
+INFO:root:🔹 Description: substantivo feminino Condição de antropófago, de quem come carne humana; canibalismo: a antropofagia faz parte de alguns rituais indígenas.[Literatura] Refere-se ao manifesto antropófago, escrito pelo modernista Oswald de Andrade, em 1928, cujo nome foi inspirado na crença dos índios que devoravam o inimigo, para assimilar suas qualidades.Etimologia (origem da palavra antropofagia). Do francês anthropophagie; do grego anthropophagia.
  
 Sinônimos:
 
-atrevido, despachado, ousado, audacioso, destemido, valente, corajoso, bravo, impávido, intrépido, arrojado 
+androfagia, antropofagismo, canibalismo 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (30/03/2026) - Significado completo de êxodo rural:
-INFO:root:🔹 URL: https://www.dicio.com.br/exodo-rural/
+INFO:root:🔹 Title: Palavra de Ontem (31/03/2026) - Significado completo de destímido:
+INFO:root:🔹 URL: https://www.dicio.com.br/destimido/
 INFO:root:🔹 Description: Sinônimos:
 
-atrevido, despachado, ousado, audacioso, destemido, valente, corajoso, bravo, impávido, intrépido, arrojado
- 
-Antônimos:
-
-tímido, inseguro, envergonhado, acanhado, constrangido, embaraçado, encalistrado, encolhido 
-
+androfagia, antropofagismo, canibalismo
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (29/03/2026) - Significado completo de sepultar:
-INFO:root:🔹 URL: https://www.dicio.com.br/sepultar/
-INFO:root:🔹 Description: Antônimos:
-
-tímido, inseguro, envergonhado, acanhado, constrangido, embaraçado, encalistrado, encolhido
- Classe gramatical:adjetivo
+INFO:root:🔹 Title: Palavra de Anteontem (30/03/2026) - Significado completo de êxodo rural:
+INFO:root:🔹 URL: https://www.dicio.com.br/exodo-rural/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:an-tro-po-fa-gi-a
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 324581 characters
-INFO:root:HTML parsed, length: 314964 characters
-INFO:root:Found 1 titles: ['Isaías 40:28']
-INFO:root:Found 1 URLs: ['/versiculo/isaias_40_28/']
-INFO:root:Found 1 descriptions: ['Será que você não sabe?\nNunca ouviu falar?\nO Senho']
+INFO:root:Response length: 325383 characters
+INFO:root:HTML parsed, length: 315770 characters
+INFO:root:Found 1 titles: ['Jeremias 33:3']
+INFO:root:Found 1 URLs: ['/versiculo/jeremias_33_3/']
+INFO:root:Found 1 descriptions: ['Cla\xadme a mim e eu responderei e direi a você coisa']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Isaías 40:28', ID=373baf061414d57eb8713d7141c811e9
+INFO:root:Processing entry 1: Title='Jeremias 33:3', ID=6ee4c710f4471f95f4c0ca8b7267252c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Isaías 40:28
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/isaias_40_28/
-INFO:root:🔹 Description: Será que você não sabe?
-Nunca ouviu falar?
-O Senhor é o Deus eterno,
-o Criador de toda a terra.
-Ele não se cansa nem fica exausto;
-sua sabedoria é insondável. Isaías 40:28
+INFO:root:🔹 Title: Jeremias 33:3
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jeremias_33_3/
+INFO:root:🔹 Description: Cla­me a mim e eu responderei e direi a você coisas grandiosas e insondáveis que você não conhece". Jeremias 33:3
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 324517 characters
-INFO:root:HTML parsed, length: 315695 characters
-INFO:root:Found 3 titles: ['Salmo 44', 'Salmo 23', 'Salmo 120']
-INFO:root:Found 3 URLs: ['/salmos_44/', '/salmos_23/', '/salmos_120/']
-INFO:root:Found 3 descriptions: ['Com os nossos próprios ouvidos ouvimos,\nó Deus;\nos', 'O Senhor é o meu pastor; de nada terei falta. \nEm ', 'Eu clamo pelo Senhor na minha angústia,\ne ele me r']
-INFO:root:Found 3 dates: ['31 de Março de 2026', '30 de Março de 2026', '29 de Março de 2026']
+INFO:root:Response length: 325337 characters
+INFO:root:HTML parsed, length: 316513 characters
+INFO:root:Found 3 titles: ['Salmo 130', 'Salmo 44', 'Salmo 23']
+INFO:root:Found 3 URLs: ['/salmos_130/', '/salmos_44/', '/salmos_23/']
+INFO:root:Found 3 descriptions: ['Das profundezas clamo a ti, Senhor; \nouve, Senhor,', 'Com os nossos próprios ouvidos ouvimos,\nó Deus;\nos', 'O Senhor é o meu pastor; de nada terei falta. \nEm ']
+INFO:root:Found 3 dates: ['1 de Abril de 2026', '31 de Março de 2026', '30 de Março de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 44', ID=d29eff8a34fc31ca10413a0cec24b4d0
-INFO:root:Processing entry 2: Title=' Salmo 23', ID=55cf3da6e8cae97ccf3b295406df8fc3
-INFO:root:Processing entry 3: Title=' Salmo 120', ID=49152a5bfdcdab894006a944c5e2cf87
+INFO:root:Processing entry 1: Title=' Salmo 130', ID=ec79926a1e39d14d7b4e76e1576e9d96
+INFO:root:Processing entry 2: Title=' Salmo 44', ID=d29eff8a34fc31ca10413a0cec24b4d0
+INFO:root:Processing entry 3: Title=' Salmo 23', ID=55cf3da6e8cae97ccf3b295406df8fc3
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 130
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_130/
+INFO:root:🔹 Description: Das profundezas clamo a ti, Senhor; 
+ouve, Senhor, a minha voz!
+Estejam atentos os teus ouvidos
+às minhas súplicas! 
+Se tu, Soberano Senhor,
+registrasses os pecados, quem escaparia? 
+Mas contigo está o perdão
+para que sejas temido. 
+Espero no Senhor com todo o meu ser
+e na sua palavra ponho a minha esperança. 
+Espero pelo Senhor
+mais do que as sentinelas pela manhã;
+sim, mais do que as sentinelas
+esperam pela manhã! 
+Ponha a sua esperança no Senhor, ó Israel,
+pois no Senhor há amor leal
+e plena redenção. 
+Ele próprio redimirá Israel
+de todas as suas culpas. 
+ Salmo 130
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 44
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_44/
 INFO:root:🔹 Description: Com os nossos próprios ouvidos ouvimos,
@@ -184,74 +196,84 @@ me acompanharão todos os dias da minha vida,
 e voltarei à casa do Senhor enquanto eu viver. 
  Salmo 23
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 120
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_120/
-INFO:root:🔹 Description: Eu clamo pelo Senhor na minha angústia,
-e ele me responde. 
-Senhor, livra-me dos lábios mentirosos
-e da língua traiçoeira! 
-O que ele dará a você?
-Como lhe retribuirá, ó língua enganadora? 
-Ele a castigará
-com flechas afiadas de guerreiro,
-com brasas incandescentes de sândalo. 
-Ai de mim, que vivo como estrangeiro
-em Meseque,
-que habito entre as tendas de Quedar! 
-Tenho vivido tempo demais
-entre os que odeiam a paz. 
-Sou um homem de paz;
-mas, ainda que eu fale de paz,
-eles só falam de guerra. 
- Salmo 120
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 327089 characters
-INFO:root:HTML parsed, length: 317922 characters
-INFO:root:Found 3 titles: ['Deus não escreve histórias sem propósito', 'Não perca tempo', 'Quando a gratidão falta, a fé enfraquece']
+INFO:root:Response length: 327579 characters
+INFO:root:HTML parsed, length: 318409 characters
+INFO:root:Found 3 titles: ['Quem são os nossos verdadeiros amigos?', 'Deus não escreve histórias sem propósito', 'Não perca tempo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Porque sou eu que conheço os planos que tenho para', 'Ensina-nos a contar os nossos dias\npara que o noss', 'Deem graças em todas as circunstâncias, pois esta ']
-INFO:root:Found 1 dates: ['Terça, 31 de março de 2026']
+INFO:root:Found 3 descriptions: ['O amigo ama em todos os momentos;\né um irmão na ad', 'Porque sou eu que conheço os planos que tenho para', 'Ensina-nos a contar os nossos dias\npara que o noss']
+INFO:root:Found 1 dates: ['Quarta, 1 de abril de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus não escreve histórias sem propósito', ID=62089c0617f7e3bce69f2aebb794b23b
+INFO:root:Processing entry 1: Title='Quem são os nossos verdadeiros amigos?', ID=957babcdc15e83b38e7fb7261ff898cb
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus não escreve histórias sem propósito - Palavra de Hoje
+INFO:root:🔹 Title: Quem são os nossos verdadeiros amigos? - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
-- Jeremias 29:11
+INFO:root:🔹 Description: O amigo ama em todos os momentos;
+é um irmão na adversidade.
+- Provérbios 17:17
 
-Muitas vezes olhamos para a nossa vida e pensamos que alguns capítulos foram erros, perdas ou caminhos sem sentido. Existem momentos em que tudo parece confuso, como se as páginas da nossa história estivessem fora de ordem. No entanto, nada escapa aos olhos de Deus, Ele escreveu a sua história. Antes mesmo de você nascer, o Senhor já conhecia cada detalhe da sua caminhada.
-Deus não escreve histórias sem propósito. Cada lágrima, cada espera e até mesmo cada porta fechada fazem parte de um processo maior que Ele está conduzindo. Aquilo que hoje parece atraso pode, na verdade, ser proteção. Aquilo que parece silêncio pode ser Deus preparando algo maior do que você imagina.
-Há pessoas que olham para o passado com culpa ou arrependimento. Mas Deus é especialista em transformar capítulos difíceis em testemunhos poderosos. Ele pega aquilo que parecia derrota e transforma em vitória. O que parecia o fim de um sonho pode se tornar o começo de algo ainda melhor.
-A sua história não foi escrita pelo acaso, pelas opiniões das pessoas ou pelas circunstâncias da vida. Ela foi escrita por Deus. E quando Deus escreve uma história, Ele também garante que o propósito será cumprido no tempo certo.
-Talvez hoje você esteja vivendo um capítulo de espera, de luta ou de dúvidas. Mesmo assim, continue caminhando com fé. O autor da sua história não perdeu o controle da narrativa. Ele ainda está escrevendo novas páginas cheias de esperança, restauração e milagres.
-Confie no Senhor, entregue a Ele os seus caminhos e permita que Ele conduza cada passo. No final, você perceberá que cada detalhe, até os momentos difíceis, cooperaram para revelar o grande plano de Deus para a sua vida.
-Veja também: Propósito de Deus: como descobrir e entender o seu
+Quem são os nossos verdadeiros amigos? Em algum momento da nossa vida podemos levantar essa questão. Muitas vezes, confundimos amizade com conveniência, presença com interesse, e palavras bonitas com lealdade.
+Através da Palavra de Deus, vemos que um verdadeiro amigo é aquele que permanece, que edifica e que ama com sinceridade, mesmo quando não é fácil.
+Por exemplo, um homem passa por um momento difícil, perdeu o emprego, enfrenta problemas familiares e se sente desanimado. Muitos dos seus “amigos” desaparecem, param de responder mensagens ou evitam contato. Porém, há apenas um amigo que continua presente. Ele não tem todas as respostas, nem soluções, mas decide caminhar do seu lado. Ora com ele, ouve sem julgar e lembra das promessas de Deus.
+Esse é um retrato de um verdadeiro amigo segundo a Palavra de Deus. Não é aquele que está apenas nos momentos de alegria, mas o que se dispõe a carregar fardos, como ensina Gálatas 6:2.
+
+Levem os fardos pesados uns dos outros e
+- Gálatas 6:2a
+
+É alguém que fala a verdade com amor, que corrige quando necessário e que celebra cada conquista com sinceridade.
+Jesus é o maior exemplo de amizade. Ele nos amou primeiro, entregou Sua vida por nós e permanece fiel, mesmo quando falhamos. Assim, somos chamados a refletir esse mesmo amor nas nossas relações.
+Os verdadeiros amigos não são medidos pela quantidade, mas pela qualidade do amor que demonstram. Que possamos ser, antes de tudo, o amigo que queremos ter: fiel, presente e guiado pelos princípios de Deus.
+Veja também: Davi e Jônatas: uma história de amizade e lealdade
  
-Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
-- Jeremias 29:11
+O amigo ama em todos os momentos;
+é um irmão na adversidade.
+- Provérbios 17:17
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 336756 characters
-INFO:root:HTML parsed, length: 327146 characters
-INFO:root:Found 3 titles: ['Quem fica na presença de Deus encontra proteção', 'Devocional: Aproveite bem o seu tempo hoje', 'Devocional Diário: Jesus, o Príncipe da Paz']
-INFO:root:Found 1 URLs: ['/protecao/']
-INFO:root:Found 3 descriptions: ['Viver na presença de Deus é experimentar uma segur', 'Para tudo há uma ocasião certa;\nhá um tempo certo ', 'Em meio ao tumulto e à inquietação do mundo modern']
-INFO:root:Found 3 dates: ['MARçO\n\n31\nTERÇA', 'MARçO\n\n30\nSEGUNDA', 'MARçO\n\n29\nDOMINGO']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Quem fica na presença de Deus encontra proteção', ID=8047b68dffdf23ad0fa518b553579554
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 337603 characters
+INFO:root:HTML parsed, length: 327996 characters
+INFO:root:Found 3 titles: ['Talento sem prática não floresce', 'Quem fica na presença de Deus encontra proteção', 'Devocional: Aproveite bem o seu tempo hoje']
+INFO:root:Found 2 URLs: ['/historia_dos_talentos_significado/', '/protecao/']
+INFO:root:Found 3 descriptions: ['A quem tem será dado, e este terá em grande quanti', 'Viver na presença de Deus é experimentar uma segur', 'Para tudo há uma ocasião certa;\nhá um tempo certo ']
+INFO:root:Found 3 dates: ['ABRIL\n\n1\nQUARTA', 'MARçO\n\n31\nTERÇA', 'MARçO\n\n30\nSEGUNDA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Talento sem prática não floresce', ID=dcf435ecab6660492b4f20c39ed64399
+INFO:root:Processing entry 2: Title='Quem fica na presença de Deus encontra proteção', ID=8047b68dffdf23ad0fa518b553579554
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Talento sem prática não floresce
+INFO:root:🔹 URL: https://www.bibliaon.com/historia_dos_talentos_significado/
+INFO:root:🔹 Description: A quem tem será dado, e este terá em grande quantidade. De quem não tem, até o que tem lhe será tirado.
+- Mateus 13:12
+
+De que adianta ter talento se não o põe em prática? Essa é uma pergunta que passa no coração de muitos que reconhecem dons em si mesmos, mas vivem paralisados pelo medo, pela procrastinação ou pela falta de disciplina.
+Deus, em Sua infinita sabedoria, distribui talentos a cada um de nós, não como enfeites espirituais, mas como ferramentas para cumprir um propósito maior.
+Na parábola dos talentos, Jesus nos ensina que aqueles que multiplicaram o que receberam foram honrados, enquanto o que escondeu seu talento foi repreendido. Isso revela uma verdade essencial: Deus espera movimento, ação, compromisso. Não basta reconhecer o dom; é necessário exercitá-lo com fé e perseverança.
+Assim como um músculo precisa ser exercitado para se fortalecer, o talento precisa ser usado para se desenvolver. A prática constante molda, aprimora e transforma aquilo que Deus já colocou em você. Negligenciar isso é, de certa forma, desprezar o presente divino.
+Quando você decide usar seu talento, não apenas cresce individualmente, mas também abençoa outras pessoas. Deus não nos capacita apenas para benefício próprio, mas para edificação do próximo e expansão do Seu Reino. Não tenha medo de exercer o seu talento; ele será um canal de bênção para muitas pessoas.
+Comece hoje, com o que você tem. Confie que Deus aperfeiçoa no caminho. Lembre-se: talento sem prática permanece estagnado, mas talento em ação se torna instrumento de transformação nas mãos de Deus.
+Ativando os dons que Deus colocou em você
+
+Use o que Deus lhe deu hoje, mesmo com medo, pois a obediência desbloqueia o crescimento e as forças contrárias.
+Pratique com constância, lembrando que pequenos passos produzem grandes frutos e fortalecem seu dom para servir às pessoas ao redor.
+Confie que Deus aperfeiçoa enquanto você age, transformando esforço em testemunho, abrindo portas e usando talentos para impactar vidas com amor e verdade.
+
+Para orar:
+
+Senhor Deus, Te agradeço pelos talentos que colocaste em mim. Dá-me coragem para usá-los com fé, disciplina e amor, mesmo diante das dificuldades. Livra-me do medo e da procrastinação, e ensina-me a agir com propósito. Que tudo o que eu fizer glorifique o Teu nome e abençoe outras vidas. Aperfeiçoa-me no caminho e guia meus passos diariamente. Em nome de Jesus, amém.
+
+Veja também: Parábola dos talentos (com explicação).
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Quem fica na presença de Deus encontra proteção
 INFO:root:🔹 URL: https://www.bibliaon.com/protecao/
 INFO:root:🔹 Description: Viver na presença de Deus é experimentar uma segurança que o mundo não pode oferecer. Aqueles que buscam ao Senhor encontram abrigo verdadeiro, mesmo nesse mundo tão conturbado.
@@ -306,15 +328,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  35 +--
- feeds/devocional_de_hoje/feed.json        |   8 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  25 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  23 ++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  29 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 180 ++++++--------
+ feeds/palavra_do_dia/atom.xml             |  18 +--
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  42 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 375 ++++++++++++++----------------
- 11 files changed, 321 insertions(+), 375 deletions(-)
+ output.log                                | 234 ++++++++++++++++--------------
+ 11 files changed, 221 insertions(+), 188 deletions(-)
