@@ -1,79 +1,127 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124034 characters
-INFO:root:HTML parsed, length: 117332 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (01/04/2026)', 'Palavra de Ontem (31/03/2026)', 'Palavra de Anteontem (30/03/2026)']
-INFO:root:Found 3 URLs: ['/antropofagia/', '/destimido/', '/exodo-rural/']
-INFO:root:Found 11 descriptions: ['substantivo feminino Condição de antropófago, de q', 'Sinônimos:\n\nandrofagia, antropofagismo, canibalism', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (01/04/2026)', 'Palavra de Ontem (31/03/2026)', 'Palavra de Anteontem (30/03/2026)']
+INFO:root:Response length: 125629 characters
+INFO:root:HTML parsed, length: 118536 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (02/04/2026)', 'Palavra de Ontem (01/04/2026)', 'Palavra de Anteontem (31/03/2026)']
+INFO:root:Found 3 URLs: ['/rapariga/', '/antropofagia/', '/destimido/']
+INFO:root:Found 14 descriptions: ['substantivo feminino [Portugal] Mulher entre a inf', 'Sinônimos:\n\nmenina, moça, moçoila, jovem, amante, ', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (02/04/2026)', 'Palavra de Ontem (01/04/2026)', 'Palavra de Anteontem (31/03/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (01/04/2026)', ID=41ecd0bfe404cfb36d7ed6e99a2b9cae
-INFO:root:Processing entry 2: Title='Palavra de Ontem (31/03/2026)', ID=023ffddfa20a81376d6e9f9a366d8e7f
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/03/2026)', ID=15e9124ca0cc75df642a2e0b6820e84d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (02/04/2026)', ID=ea27ed0d48889dca38601df2fee3ba66
+INFO:root:Processing entry 2: Title='Palavra de Ontem (01/04/2026)', ID=9b0a2b60375553b54e99e1d24f5fb6b2
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (31/03/2026)', ID=c92a137095fe70a2ee330443b65a2cf3
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (01/04/2026) - Significado completo de antropofagia:
-INFO:root:🔹 URL: https://www.dicio.com.br/antropofagia/
-INFO:root:🔹 Description: substantivo feminino Condição de antropófago, de quem come carne humana; canibalismo: a antropofagia faz parte de alguns rituais indígenas.[Literatura] Refere-se ao manifesto antropófago, escrito pelo modernista Oswald de Andrade, em 1928, cujo nome foi inspirado na crença dos índios que devoravam o inimigo, para assimilar suas qualidades.Etimologia (origem da palavra antropofagia). Do francês anthropophagie; do grego anthropophagia.
+INFO:root:🔹 Title: Palavra de Hoje (02/04/2026) - Significado completo de rapariga:
+INFO:root:🔹 URL: https://www.dicio.com.br/rapariga/
+INFO:root:🔹 Description: substantivo feminino [Portugal] Mulher entre a infância e a adolescência; mulher jovem.[Regionalismo: algumas regiões do Brasil] Palavra usada para ofender uma mulher, com o mesmo sentido de prostituta.[Regionalismo: algumas regiões do Brasil] Mulher que vive com um homem, mas sem estar casada com ele; amante.[Regionalismo: Amazonas] Menina virgem; donzela.[Portugal] Moça que vive no campo; roceira.Etimologia (origem da palavra rapariga). A palavra rapariga deriva talvez por influência e alteração da palavra rapaz, mas não é possível confirmar com toda a certeza.
  
 Sinônimos:
 
-androfagia, antropofagismo, canibalismo 
+menina, moça, moçoila, jovem, amante, donzela, roceira 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (31/03/2026) - Significado completo de destímido:
-INFO:root:🔹 URL: https://www.dicio.com.br/destimido/
+INFO:root:🔹 Title: Palavra de Ontem (01/04/2026) - Significado completo de antropofagia:
+INFO:root:🔹 URL: https://www.dicio.com.br/antropofagia/
 INFO:root:🔹 Description: Sinônimos:
 
-androfagia, antropofagismo, canibalismo
+menina, moça, moçoila, jovem, amante, donzela, roceira
  Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (30/03/2026) - Significado completo de êxodo rural:
-INFO:root:🔹 URL: https://www.dicio.com.br/exodo-rural/
+INFO:root:🔹 Title: Palavra de Anteontem (31/03/2026) - Significado completo de destímido:
+INFO:root:🔹 URL: https://www.dicio.com.br/destimido/
 INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:an-tro-po-fa-gi-a
+ Sílabas:ra-pa-ri-ga
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325383 characters
-INFO:root:HTML parsed, length: 315770 characters
-INFO:root:Found 1 titles: ['Jeremias 33:3']
-INFO:root:Found 1 URLs: ['/versiculo/jeremias_33_3/']
-INFO:root:Found 1 descriptions: ['Cla\xadme a mim e eu responderei e direi a você coisa']
+INFO:root:Response length: 325315 characters
+INFO:root:HTML parsed, length: 315702 characters
+INFO:root:Found 1 titles: ['João 8:36']
+INFO:root:Found 1 URLs: ['/versiculo/joao_8_36/']
+INFO:root:Found 1 descriptions: ['Portanto, se o Filho os libertar, vocês de fato se']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jeremias 33:3', ID=6ee4c710f4471f95f4c0ca8b7267252c
+INFO:root:Processing entry 1: Title='João 8:36', ID=03489bc68217df280f8306798969f771
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jeremias 33:3
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jeremias_33_3/
-INFO:root:🔹 Description: Cla­me a mim e eu responderei e direi a você coisas grandiosas e insondáveis que você não conhece". Jeremias 33:3
+INFO:root:🔹 Title: João 8:36
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_8_36/
+INFO:root:🔹 Description: Portanto, se o Filho os libertar, vocês de fato serão livres. João 8:36
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325337 characters
-INFO:root:HTML parsed, length: 316513 characters
-INFO:root:Found 3 titles: ['Salmo 130', 'Salmo 44', 'Salmo 23']
-INFO:root:Found 3 URLs: ['/salmos_130/', '/salmos_44/', '/salmos_23/']
-INFO:root:Found 3 descriptions: ['Das profundezas clamo a ti, Senhor; \nouve, Senhor,', 'Com os nossos próprios ouvidos ouvimos,\nó Deus;\nos', 'O Senhor é o meu pastor; de nada terei falta. \nEm ']
-INFO:root:Found 3 dates: ['1 de Abril de 2026', '31 de Março de 2026', '30 de Março de 2026']
+INFO:root:Response length: 326232 characters
+INFO:root:HTML parsed, length: 317421 characters
+INFO:root:Found 3 titles: ['Salmo 116', 'Salmo 130', 'Salmo 44']
+INFO:root:Found 3 URLs: ['/salmos_116/', '/salmos_130/', '/salmos_44/']
+INFO:root:Found 3 descriptions: ['Eu amo o Senhor, porque ele me ouviu\nquando lhe fi', 'Das profundezas clamo a ti, Senhor; \nouve, Senhor,', 'Com os nossos próprios ouvidos ouvimos,\nó Deus;\nos']
+INFO:root:Found 3 dates: ['2 de Abril de 2026', '1 de Abril de 2026', '31 de Março de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 130', ID=ec79926a1e39d14d7b4e76e1576e9d96
-INFO:root:Processing entry 2: Title=' Salmo 44', ID=d29eff8a34fc31ca10413a0cec24b4d0
-INFO:root:Processing entry 3: Title=' Salmo 23', ID=55cf3da6e8cae97ccf3b295406df8fc3
+INFO:root:Processing entry 1: Title=' Salmo 116', ID=515f571b9537cbf552404892a7122f8d
+INFO:root:Processing entry 2: Title=' Salmo 130', ID=ec79926a1e39d14d7b4e76e1576e9d96
+INFO:root:Processing entry 3: Title=' Salmo 44', ID=d29eff8a34fc31ca10413a0cec24b4d0
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 116
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_116/
+INFO:root:🔹 Description: Eu amo o Senhor, porque ele me ouviu
+quando lhe fiz a minha súplica. 
+Ele inclinou os seus ouvidos para mim;
+eu o invocarei toda a minha vida. 
+As cordas da morte me envolveram,
+as angústias do Sheol vieram sobre mim;
+aflição e tristeza me dominaram. 
+Então clamei pelo nome do Senhor:
+Livra-me, Senhor! 
+O Senhor é misericordioso e justo;
+o nosso Deus é compassivo. 
+O Senhor protege os simples;
+quando eu já estava sem forças, ele me salvou. 
+Retorne ao seu descanso, ó minha alma,
+porque o Senhor tem sido bom para você! 
+Pois tu me livraste da morte,
+livraste os meus olhos das lágrimas
+e os meus pés de tropeçar, 
+para que eu pudesse andar diante do Senhor
+na terra dos viventes. 
+Eu cri, ainda que tenha dito:
+Estou muito aflito. 
+Em pânico eu disse:
+Ninguém merece confiança. 
+Como posso retribuir ao Senhor
+toda a sua bondade para comigo? 
+Erguerei o cálice da salvação
+e invocarei o nome do Senhor. 
+Cumprirei para com o Senhor
+os meus votos,
+na presença de todo o seu povo. 
+O Senhor vê com pesar
+a morte de seus fiéis. 
+Senhor, sou teu servo,
+Sim, sou teu servo, filho da tua serva;
+livraste-me das minhas correntes. 
+Oferecerei a ti um sacrifício de gratidão
+e invocarei o nome do Senhor. 
+Cumprirei para com o Senhor
+os meus votos,
+na presença de todo o seu povo, 
+nos pátios da casa do Senhor,
+no seu interior, ó Jerusalém!
+Aleluia! 
+ Salmo 116
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 130
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_130/
 INFO:root:🔹 Description: Das profundezas clamo a ti, Senhor; 
@@ -174,83 +222,80 @@ Levanta-te! Socorre-nos!
 Resgata-nos por causa da tua fidelidade. 
  Salmo 44
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 23
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_23/
-INFO:root:🔹 Description: O Senhor é o meu pastor; de nada terei falta. 
-Em verdes pastagens me faz repousar
-e me conduz a águas tranquilas; 
-restaura-me o vigor.
-Guia-me nas veredas da justiça
-por amor do seu nome. 
-Mesmo quando eu andar
-por um vale de trevas e morte,
-não temerei perigo algum, pois tu estás comigo;
-a tua vara e o teu cajado me protegem. 
-Preparas um banquete para mim
-à vista dos meus inimigos.
-Tu me honras,
-ungindo a minha cabeça com óleo
-e fazendo transbordar o meu cálice. 
-Sei que a bondade e a fidelidade
-me acompanharão todos os dias da minha vida,
-e voltarei à casa do Senhor enquanto eu viver. 
- Salmo 23
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 327579 characters
-INFO:root:HTML parsed, length: 318409 characters
-INFO:root:Found 3 titles: ['Quem são os nossos verdadeiros amigos?', 'Deus não escreve histórias sem propósito', 'Não perca tempo']
+INFO:root:Response length: 327664 characters
+INFO:root:HTML parsed, length: 318492 characters
+INFO:root:Found 3 titles: ['Eu vejo uma pequena nuvem', 'Quem são os nossos verdadeiros amigos?', 'Deus não escreve histórias sem propósito']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O amigo ama em todos os momentos;\né um irmão na ad', 'Porque sou eu que conheço os planos que tenho para', 'Ensina-nos a contar os nossos dias\npara que o noss']
-INFO:root:Found 1 dates: ['Quarta, 1 de abril de 2026']
+INFO:root:Found 3 descriptions: ['E sucedeu que, à sétima vez, disse: Eis aqui uma p', 'O amigo ama em todos os momentos;\né um irmão na ad', 'Porque sou eu que conheço os planos que tenho para']
+INFO:root:Found 1 dates: ['Quinta, 2 de abril de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Quem são os nossos verdadeiros amigos?', ID=957babcdc15e83b38e7fb7261ff898cb
+INFO:root:Processing entry 1: Title='Eu vejo uma pequena nuvem', ID=8d027637b13938b75f2b72ba2d63bfd4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Quem são os nossos verdadeiros amigos? - Palavra de Hoje
+INFO:root:🔹 Title: Eu vejo uma pequena nuvem - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O amigo ama em todos os momentos;
-é um irmão na adversidade.
-- Provérbios 17:17
+INFO:root:🔹 Description: E sucedeu que, à sétima vez, disse: Eis aqui uma pequena nuvem, como a mão de um homem, subindo do mar. Então, disse ele: Sobe e dize a Acabe: Aparelha o teu carro e desce, para que a chuva te não apanhe.
+- 1 Reis 18:44 ARC
 
-Quem são os nossos verdadeiros amigos? Em algum momento da nossa vida podemos levantar essa questão. Muitas vezes, confundimos amizade com conveniência, presença com interesse, e palavras bonitas com lealdade.
-Através da Palavra de Deus, vemos que um verdadeiro amigo é aquele que permanece, que edifica e que ama com sinceridade, mesmo quando não é fácil.
-Por exemplo, um homem passa por um momento difícil, perdeu o emprego, enfrenta problemas familiares e se sente desanimado. Muitos dos seus “amigos” desaparecem, param de responder mensagens ou evitam contato. Porém, há apenas um amigo que continua presente. Ele não tem todas as respostas, nem soluções, mas decide caminhar do seu lado. Ora com ele, ouve sem julgar e lembra das promessas de Deus.
-Esse é um retrato de um verdadeiro amigo segundo a Palavra de Deus. Não é aquele que está apenas nos momentos de alegria, mas o que se dispõe a carregar fardos, como ensina Gálatas 6:2.
-
-Levem os fardos pesados uns dos outros e
-- Gálatas 6:2a
-
-É alguém que fala a verdade com amor, que corrige quando necessário e que celebra cada conquista com sinceridade.
-Jesus é o maior exemplo de amizade. Ele nos amou primeiro, entregou Sua vida por nós e permanece fiel, mesmo quando falhamos. Assim, somos chamados a refletir esse mesmo amor nas nossas relações.
-Os verdadeiros amigos não são medidos pela quantidade, mas pela qualidade do amor que demonstram. Que possamos ser, antes de tudo, o amigo que queremos ter: fiel, presente e guiado pelos princípios de Deus.
-Veja também: Davi e Jônatas: uma história de amizade e lealdade
+Eu vejo uma pequena nuvem no céu! À primeira vista, parece insignificante, quase invisível. Mas a Bíblia nos lembra, em 1 Reis 18:44, que mesmo uma nuvem pequena pode anunciar grandes mudanças.
+Elias viu algo parecido, e logo depois, a chuva que tanto esperavam começou a cair. Às vezes, Deus nos fala em pequenos sinais, e precisamos aprender a perceber.
+Na vida, podemos nos sentir desanimados, como se nossos problemas fossem maiores do que nós. Podemos pensar que nossos esforços são inúteis ou que nossas orações não são ouvidas. Mas Deus nos ensina a ter paciência e a confiarmos nas Suas promessas. Assim como a pequena nuvem traz a chuva no tempo certo, Deus envia bênçãos na hora certa. Ele conhece nossas necessidades e nunca se atrasa.
+É importante não subestimar o poder das pequenas coisas. Um sorriso, uma palavra de incentivo, uma atitude de amor, tudo isso pode se tornar uma grande bênção na vida de alguém. O Senhor usa o que parece pequeno para fazer grandes obras. Quando nos colocamos em Suas mãos, mesmo nossos passos mais tímidos podem gerar frutos abundantes.
+Não perca a esperança. Continue crendo, continue orando e continue servindo.
+Deus está trabalhando mesmo quando não conseguimos ver. Ele transforma o pouco em muito, a tristeza em alegria, o desânimo em força. Lembre-se: uma pequena nuvem anuncia a chuva; uma pequena fé pode mover montanhas.
+Olhe para o céu, observe a pequena nuvem e confie: Deus tem um plano maior para você.
+Deus está cuidando de cada detalhe, e a Sua promessa de vida plena se cumprirá. Mesmo que pareça pequeno, Ele está preparando algo grande. Confie, espere e veja a maravilha que Deus fará.
+Veja também: 13 versículos sobre sonhos e o propósito de Deus
  
-O amigo ama em todos os momentos;
-é um irmão na adversidade.
-- Provérbios 17:17
+E sucedeu que, à sétima vez, disse: Eis aqui uma pequena nuvem, como a mão de um homem, subindo do mar. Então, disse ele: Sobe e dize a Acabe: Aparelha o teu carro e desce, para que a chuva te não apanhe.
+- 1 Reis 18:44 ARC
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 337603 characters
-INFO:root:HTML parsed, length: 327996 characters
-INFO:root:Found 3 titles: ['Talento sem prática não floresce', 'Quem fica na presença de Deus encontra proteção', 'Devocional: Aproveite bem o seu tempo hoje']
-INFO:root:Found 2 URLs: ['/historia_dos_talentos_significado/', '/protecao/']
-INFO:root:Found 3 descriptions: ['A quem tem será dado, e este terá em grande quanti', 'Viver na presença de Deus é experimentar uma segur', 'Para tudo há uma ocasião certa;\nhá um tempo certo ']
-INFO:root:Found 3 dates: ['ABRIL\n\n1\nQUARTA', 'MARçO\n\n31\nTERÇA', 'MARçO\n\n30\nSEGUNDA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Talento sem prática não floresce', ID=dcf435ecab6660492b4f20c39ed64399
-INFO:root:Processing entry 2: Title='Quem fica na presença de Deus encontra proteção', ID=8047b68dffdf23ad0fa518b553579554
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 336165 characters
+INFO:root:HTML parsed, length: 326553 characters
+INFO:root:Found 3 titles: ['Entendendo as diferenças e preservando a fé', 'Talento sem prática não floresce', 'Quem fica na presença de Deus encontra proteção']
+INFO:root:Found 3 URLs: ['/historia_de_daniel/', '/historia_dos_talentos_significado/', '/protecao/']
+INFO:root:Found 3 descriptions: ['Não se amoldem ao padrão deste mundo, mas transfor', 'A quem tem será dado, e este terá em grande quanti', 'Viver na presença de Deus é experimentar uma segur']
+INFO:root:Found 3 dates: ['ABRIL\n\n2\nQUINTA', 'ABRIL\n\n1\nQUARTA', 'MARçO\n\n31\nTERÇA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Entendendo as diferenças e preservando a fé', ID=27027afdc401aff7993e60bbf9789ed9
+INFO:root:Processing entry 2: Title='Talento sem prática não floresce', ID=dcf435ecab6660492b4f20c39ed64399
+INFO:root:Processing entry 3: Title='Quem fica na presença de Deus encontra proteção', ID=8047b68dffdf23ad0fa518b553579554
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Entendendo as diferenças e preservando a fé
+INFO:root:🔹 URL: https://www.bibliaon.com/historia_de_daniel/
+INFO:root:🔹 Description: Não se amoldem ao padrão deste mundo, mas transformem-se pela renovação da sua mente, para que sejam capazes de experimentar e comprovar a boa, agradável e perfeita vontade de Deus.
+- Romanos 12:2
+
+Vivemos em uma sociedade cheia de escolhas distintas e caminhos variados. Como cristãos, somos chamados a permanecermos firmes na fé, sem perder a graça no trato com o próximo. Respeitar as decisões dos outros não significa abrir mão dos próprios princípios, mas demonstrar o amor de Cristo.
+A Bíblia nos apresenta o exemplo de Daniel, que viveu em uma cultura diferente, cercado por práticas contrárias à sua fé. Ainda assim, ele decidiu não se contaminar, mantendo sua comunhão com Deus. Daniel não precisou desrespeitar ninguém para ser fiel a Deus; ele não acusou os outros e muito menos procurou humilhar alguém, sua vida coerente falava por si.
+Assim como no exemplo de Daniel, é possível conviver com quem pensa diferente, sem abandonar a verdade. Quando permanecemos firmes, tornamo-nos referência, não por imposição, mas por testemunho vivo, e é isso o que Deus quer de nós.
+A constância em oração, na Palavra e em atitudes corretas revela quem realmente somos. Em vez de julgar, podemos acolher, ouvir e amar, confiando que Deus age nos corações. Nossa missão não é forçar mudanças, nem apontar erros, mas viver de modo que inspire outros a conhecer a Verdade.
+Ao preservarmos nossa fé, refletimos, ao mesmo tempo, a luz de Cristo no mundo. Que sejamos, como Daniel, constantes, corajosos e cheios de graça, mostrando que é possível respeitar diferenças sem perder a essência do Evangelho.
+Sua vida é um testemunho do que Deus pode fazer, pregue na forma de agir, seja um canal de mudança por meio do amor de Cristo.
+Pense duas vezes
+
+Em vez de fazer julgamentos precipitados, pense em agir com amor e paciência, lembrando que Deus é quem conhece os corações.
+Em vez de fazer concessões que enfraquecem sua fé, pense em permanecer firme na Palavra, seguindo o exemplo de Daniel em fidelidade constante ao Senhor.
+Em vez de fazer críticas ou impor sua opinião, pense em aconselhar com mansidão e sabedoria, refletindo o caráter de Cristo.
+
+Para orar:
+
+Senhor, fortalece minha fé em meio às diferenças, dá-me sabedoria para agir com amor, paciência e verdade. Que eu permaneça firme na Tua Palavra, sendo luz onde eu estiver. Guarda meu coração de julgamentos e enche-me de graça para respeitar e amar o próximo. Que minha vida Te honre em tudo. Em nome de Jesus, amém.
+
+Conheça a história de Daniel.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Talento sem prática não floresce
 INFO:root:🔹 URL: https://www.bibliaon.com/historia_dos_talentos_significado/
 INFO:root:🔹 Description: A quem tem será dado, e este terá em grande quantidade. De quem não tem, até o que tem lhe será tirado.
@@ -328,15 +373,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  23 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  25 ++-
  feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  29 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  31 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +--
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  42 +++---
+ feeds/salmo_do_dia/atom.xml               |  68 +++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 234 ++++++++++++++++--------------
- 11 files changed, 221 insertions(+), 188 deletions(-)
+ output.log                                | 249 +++++++++++++++++-------------
+ 11 files changed, 261 insertions(+), 182 deletions(-)
