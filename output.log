@@ -1,85 +1,144 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 125080 characters
-INFO:root:HTML parsed, length: 118195 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (05/04/2026)', 'Palavra de Ontem (04/04/2026)', 'Palavra de Anteontem (03/04/2026)']
-INFO:root:Found 3 URLs: ['/mitigar/', '/bibliosmia/', '/aduzir/']
-INFO:root:Found 12 descriptions: ['verbo transitivo direto Tornar brando, tênue, meno', 'Sinônimos:\n\npacificar, tranquilizar, desapoquentar', 'Antônimos:\n\nexasperar, aumentar, intensificar']
-INFO:root:Found 3 dates: ['Palavra de Hoje (05/04/2026)', 'Palavra de Ontem (04/04/2026)', 'Palavra de Anteontem (03/04/2026)']
+INFO:root:Response length: 124009 characters
+INFO:root:HTML parsed, length: 117307 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (06/04/2026)', 'Palavra de Ontem (05/04/2026)', 'Palavra de Anteontem (04/04/2026)']
+INFO:root:Found 3 URLs: ['/halterofilismo/', '/mitigar/', '/bibliosmia/']
+INFO:root:Found 11 descriptions: ['substantivo masculino [Esporte] Esporte que consis', 'Sinônimos:\n\nhalterofilia', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (06/04/2026)', 'Palavra de Ontem (05/04/2026)', 'Palavra de Anteontem (04/04/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (05/04/2026)', ID=d1ad4361ba400b84536190642d302194
-INFO:root:Processing entry 2: Title='Palavra de Ontem (04/04/2026)', ID=26acec9cd30a9dedebfb1a76f65e52f4
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (03/04/2026)', ID=e3bcd8985983f45e7ba7258fa9b19661
+INFO:root:Processing entry 1: Title='Palavra de Hoje (06/04/2026)', ID=d2a1a235662acb8a3359ee6697b4e5a8
+INFO:root:Processing entry 2: Title='Palavra de Ontem (05/04/2026)', ID=4f5796cbaadc883c1f37b4ab684ad765
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (04/04/2026)', ID=c92f25081076b819819146fb826db325
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (05/04/2026) - Significado completo de mitigar:
-INFO:root:🔹 URL: https://www.dicio.com.br/mitigar/
-INFO:root:🔹 Description: verbo transitivo direto Tornar brando, tênue, menos intenso; atenuar: mitigar a dor com medicamentos.Diminuir a intensidade de; aliviar: aquele tratamento mitigava o sofrimento.verbo pronominal Tornar menos doloroso e mais suave; abrandar: sua tristeza se mitigou com palavras de carinho.Etimologia (origem da palavra mitigar). A palavra mitigar tem sua origem no latim "mitigare", que pode significar abrandar, amolecer.
+INFO:root:🔹 Title: Palavra de Hoje (06/04/2026) - Significado completo de halterofilismo:
+INFO:root:🔹 URL: https://www.dicio.com.br/halterofilismo/
+INFO:root:🔹 Description: substantivo masculino [Esporte] Esporte que consiste em levantar pesos e halteres.Levantamento de peso, partindo do chão até acima da cabeça, com os braços na posição vertical; halterofilia.Etimologia (origem da palavra halterofilismo). A palavra halterofilismo tem sua origem pela junção de halterófilo, e do sufixo -ismo.
  
 Sinônimos:
 
-pacificar, tranquilizar, desapoquentar, aliviar, serenar, sossegar, amenizar, abrandar, acalmar, amortecer, aplacar, atenuar, diminuir, moderar, suavizar 
+halterofilia 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (04/04/2026) - Significado completo de bibliosmia:
-INFO:root:🔹 URL: https://www.dicio.com.br/bibliosmia/
+INFO:root:🔹 Title: Palavra de Ontem (05/04/2026) - Significado completo de mitigar:
+INFO:root:🔹 URL: https://www.dicio.com.br/mitigar/
 INFO:root:🔹 Description: Sinônimos:
 
-pacificar, tranquilizar, desapoquentar, aliviar, serenar, sossegar, amenizar, abrandar, acalmar, amortecer, aplacar, atenuar, diminuir, moderar, suavizar
- 
-Antônimos:
-
-exasperar, aumentar, intensificar 
-
+halterofilia
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (03/04/2026) - Significado completo de aduzir:
-INFO:root:🔹 URL: https://www.dicio.com.br/aduzir/
-INFO:root:🔹 Description: Antônimos:
-
-exasperar, aumentar, intensificar
- Classe gramatical:verbo pronominal e verbo transitivo direto
+INFO:root:🔹 Title: Palavra de Anteontem (04/04/2026) - Significado completo de bibliosmia:
+INFO:root:🔹 URL: https://www.dicio.com.br/bibliosmia/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:hal-te-ro-fi-lis-mo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325233 characters
-INFO:root:HTML parsed, length: 315620 characters
-INFO:root:Found 1 titles: ['Números 6:24']
-INFO:root:Found 1 URLs: ['/versiculo/numeros_6_24/']
-INFO:root:Found 1 descriptions: ['"O Senhor te abençoe e te guarde; Números 6:24']
+INFO:root:Response length: 325436 characters
+INFO:root:HTML parsed, length: 315823 characters
+INFO:root:Found 1 titles: ['Hebreus 13:5-6']
+INFO:root:Found 1 URLs: ['/versiculo/hebreus_13_5-6/']
+INFO:root:Found 1 descriptions: ['Conservem-se livres do amor ao dinheiro e contente']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Números 6:24', ID=f694d7eb0b217daef2a5d235a05cd0d4
+INFO:root:Processing entry 1: Title='Hebreus 13:5-6', ID=a7dddc0bb79612fde4db29c7753438af
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Números 6:24
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/numeros_6_24/
-INFO:root:🔹 Description: "O Senhor te abençoe e te guarde; Números 6:24
+INFO:root:🔹 Title: Hebreus 13:5-6
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_13_5-6/
+INFO:root:🔹 Description: Conservem-se livres do amor ao dinheiro e contentem-se com o que vocês têm, porque Deus mesmo disse:
+"Nunca o deixarei,
+nunca o abandonarei". Podemos, pois, dizer com confiança:
+"O Senhor é o meu ajudador,
+não temerei.
+O que me podem fazer
+os homens?" Hebreus 13:5-6
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325619 characters
-INFO:root:HTML parsed, length: 316795 characters
-INFO:root:Found 3 titles: ['Salmo 114', 'Salmo 56', 'Salmo 73']
-INFO:root:Found 3 URLs: ['/salmos_114/', '/salmos_56/', '/salmos_73/']
-INFO:root:Found 3 descriptions: ['Quando Israel saiu do Egito\ne a casa de Jacó saiu ', 'Tem misericórdia de mim, ó Deus,\npois os homens me', 'Certamente Deus é bom para Israel,\npara os puros d']
-INFO:root:Found 3 dates: ['5 de Abril de 2026', '4 de Abril de 2026', '3 de Abril de 2026']
+INFO:root:Response length: 325088 characters
+INFO:root:HTML parsed, length: 316264 characters
+INFO:root:Found 3 titles: ['Salmo 59', 'Salmo 114', 'Salmo 56']
+INFO:root:Found 3 URLs: ['/salmos_59/', '/salmos_114/', '/salmos_56/']
+INFO:root:Found 3 descriptions: ['Livra-me dos meus inimigos, ó Deus;\npõe-me fora do', 'Quando Israel saiu do Egito\ne a casa de Jacó saiu ', 'Tem misericórdia de mim, ó Deus,\npois os homens me']
+INFO:root:Found 3 dates: ['6 de Abril de 2026', '5 de Abril de 2026', '4 de Abril de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 114', ID=d6e74d49122c592b0d1572e2dff6e74f
-INFO:root:Processing entry 2: Title=' Salmo 56', ID=48342b4b68cc062982053050b246e0c7
-INFO:root:Processing entry 3: Title=' Salmo 73', ID=05c2b68762e3d28ede5707659652f87c
+INFO:root:Processing entry 1: Title=' Salmo 59', ID=aac784327ec5034951e7ef111d110a62
+INFO:root:Processing entry 2: Title=' Salmo 114', ID=d6e74d49122c592b0d1572e2dff6e74f
+INFO:root:Processing entry 3: Title=' Salmo 56', ID=48342b4b68cc062982053050b246e0c7
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 59
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_59/
+INFO:root:🔹 Description: Livra-me dos meus inimigos, ó Deus;
+põe-me fora do alcance dos meus agressores. 
+Livra-me dos que praticam o mal
+e salva-me dos assassinos. 
+Vê como ficam à minha espreita!
+Homens cruéis conspiram contra mim,
+sem que eu tenha cometido
+qualquer delito ou pecado, ó Senhor. 
+Mesmo eu não tendo culpa de nada,
+eles se preparam às pressas para atacar-me.
+Levanta-te para ajudar-me;
+olha para a situação em que me encontro! 
+Ó Senhor, Deus dos Exércitos,
+ó Deus de Israel!
+Desperta para castigar todas as nações;
+não tenhas misericórdia
+dos traidores perversos. 
+Eles voltam ao cair da tarde,
+rosnando como cães
+e rondando a cidade. 
+Vê que ameaças saem de sua boca;
+seus lábios são como espadas
+e dizem: "Quem nos ouvirá?" 
+Mas tu, Senhor, vais rir deles;
+caçoarás de todas aquelas nações. 
+Ó tu, minha força, por ti vou aguardar;
+tu, ó Deus, és o meu alto refúgio. 
+O meu Deus fiel
+virá ao meu encontro
+e permitirá que eu triunfe
+sobre os meus inimigos. 
+Mas não os mates, ó Senhor, nosso escudo,
+se não, o meu povo o esquecerá.
+Em teu poder faze-os vaguear,
+e abate-os. 
+Pelos pecados de sua boca,
+pelas palavras de seus lábios,
+sejam apanhados em seu orgulho.
+Pelas maldições e mentiras que pronunciam, 
+consome-os em tua ira,
+consome-os até que não mais existam.
+Então se saberá até os confins da terra
+que Deus governa Jacó. 
+Eles voltam ao cair da tarde,
+rosnando como cães
+e rondando a cidade. 
+À procura de comida perambulam
+e, se não ficam satisfeitos, uivam. 
+Mas eu cantarei louvores à tua força;
+de manhã louvarei a tua fidelidade,
+pois tu és o meu alto refúgio,
+abrigo seguro nos tempos difíceis. 
+Ó minha força, canto louvores a ti;
+tu és, ó Deus, o meu alto refúgio,
+o Deus que me ama. 
+ Salmo 59
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 114
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_114/
 INFO:root:🔹 Description: Quando Israel saiu do Egito
@@ -141,150 +200,83 @@ para que eu ande diante de Deus
 na luz que ilumina os vivos. 
  Salmo 56
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 73
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_73/
-INFO:root:🔹 Description: Certamente Deus é bom para Israel,
-para os puros de coração. 
-Quanto a mim, os meus pés quase tropeçaram;
-por pouco não escorreguei. 
-Pois tive inveja dos arrogantes
-quando vi a prosperidade desses ímpios. 
-Eles não passam por sofrimento
-e têm o corpo saudável e forte. 
-Estão livres dos fardos de todos;
-não são atingidos por doenças
-como os outros homens. 
-Por isso o orgulho lhes serve de colar,
-e eles se vestem de violência. 
-Do seu íntimo brota a maldade;
-da sua mente transbordam maquinações. 
-Eles zombam e falam com más intenções;
-em sua arrogância ameaçam com opressão. 
-Com a boca arrogam a si os céus,
-e com a língua se apossam da terra. 
-Por isso o seu povo se volta para eles
-e bebe suas palavras até saciar-se. 
-Eles dizem: "Como saberá Deus?
-Terá conhecimento o Altíssimo?" 
-Assim são os ímpios;
-sempre despreocupados,
-aumentam suas riquezas. 
-Certamente me foi inútil
-manter puro o coração
-e lavar as mãos na inocência, 
-pois o dia inteiro sou afligido,
-e todas as manhãs sou castigado. 
-Se eu tivesse dito: "Falarei como eles",
-teria traído os teus filhos. 
-Quando tentei entender tudo isso,
-achei muito difícil para mim, 
-até que entrei no santuário de Deus,
-e então compreendi o destino dos ímpios. 
-Certamente os pões em terreno escorregadio
-e os fazes cair na ruína. 
-Como são destruídos de repente,
-completamente tomados de pavor! 
-São como um sonho
-que se vai quando acordamos;
-quando te levantares, Senhor,
-tu os farás desaparecer. 
-Quando o meu coração estava amargurado
-e no íntimo eu sentia inveja, 
-agi como insensato e ignorante;
-minha atitude para contigo
-era a de um animal irracional. 
-Contudo, sempre estou contigo;
-tomas a minha mão direita e me susténs. 
-Tu me diriges com o teu conselho,
-e depois me receberás com honras. 
-A quem tenho nos céus senão a ti?
-E, na terra, nada mais desejo
-além de estar junto a ti. 
-O meu corpo e o meu coração
-poderão fraquejar,
-mas Deus é a força do meu coração
-e a minha herança para sempre. 
-Os que te abandonam sem dúvida perecerão;
-tu destróis todos os infiéis. 
-Mas, para mim, bom é estar perto de Deus;
-fiz do Soberano Senhor o meu refúgio;
-proclamarei todos os teus feitos. 
- Salmo 73
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 327035 characters
-INFO:root:HTML parsed, length: 317869 characters
-INFO:root:Found 3 titles: ['Deus vê suas lágrimas', 'Ao som da trombeta', 'Preste atenção no que você diz: honre a Deus com suas palavras']
+INFO:root:Response length: 327944 characters
+INFO:root:HTML parsed, length: 318774 characters
+INFO:root:Found 3 titles: ['Coragem para sair do barco', 'Deus vê suas lágrimas', 'Ao som da trombeta']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Deus vê suas lágrimas. Ele sabe o que você está vi', 'Pois, dada a ordem, com a voz do arcanjo e o resso', 'Eu disse: Vigiarei a minha conduta\ne não pecarei e']
-INFO:root:Found 1 dates: ['Domingo, 5 de abril de 2026']
+INFO:root:Found 3 descriptions: ['"Senhor", disse Pedro, "se és tu, manda-me ir ao t', 'Deus vê suas lágrimas. Ele sabe o que você está vi', 'Pois, dada a ordem, com a voz do arcanjo e o resso']
+INFO:root:Found 1 dates: ['Segunda, 6 de abril de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus vê suas lágrimas', ID=0515bff10ca3e0a1d39a024b6375d5cb
+INFO:root:Processing entry 1: Title='Coragem para sair do barco', ID=647c733e0d4ccf74d8fbd81b688ac462
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus vê suas lágrimas - Palavra de Hoje
+INFO:root:🔹 Title: Coragem para sair do barco - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Deus vê suas lágrimas. Ele sabe o que você está vivendo e se importa com você. Cada lágrima que você derrama está registrada e guardada, com o cuidado do Pai Celestial. Deus não te abandonou.
+INFO:root:🔹 Description: "Senhor", disse Pedro, "se és tu, manda-me ir ao teu encontro por sobre as águas".
+"Venha", respondeu ele.
+Então Pedro saiu do barco, andou sobre as águas e foi na direção de Jesus.
+- Mateus 14:28-29
 
-Registra, tu mesmo, o meu lamento;
-recolhe as minhas lágrimas em teu odre;
-acaso não estão anotadas em teu livro?
-- Salmos 56:8
-
-Se Deus registra suas lágrimas, é porque são importantes para Ele. Deus tem um plano para sua vida e a tristeza não durará para sempre. Nesse momento, você poderá não ver o plano, mas saiba que Deus está no controle. Se você o ama, Deus vai cuidar de sua vida.
-Os tempos de tristeza podem ser um grande desafio para sua fé. Mas você não está lutando sozinho! Deus está com você e não te vai abandonar na dificuldade. Mesmo quando você não sente, Deus está tomando conta de você.
-Os sentimentos são enganosos. Só porque você sente que não há solução e que Deus não se importa, não significa que isso é verdade. Isso é seu coração mentindo para você! Escolha ouvir o que Deus diz:
-
-Digo que certamente vocês chorarão e se lamentarão, mas o mundo se alegrará. Vocês se entristecerão, mas a tristeza de vocês se transformará em alegria.
-- João 16:20
-
-A tristeza vai ter fim! Talvez não seja nesse exato momento, mas Deus vai restaurar sua alegria, porque Ele te ama. Tenha esperança: toda prova tem início, meio e fim. A dor vai passar! A alegria na manhã de Deus vai nascer:
-
-O choro pode durar uma noite, mas a alegria vem pela manhã.
-- Salmos 30:5b
-
-Confie na Palavra de Deus. Nessa vida, você vai passar por tempos de tristeza, mas eles são temporários. A tristeza não vai dominar toda sua vida. A alegria de Deus é mais forte e vai te restaurar. Creia, um dia, a tristeza vai acabar para sempre!
-Em Jesus você tem sempre uma esperança, mesmo na tristeza mais profunda.
-Veja também:
-
-Aquietai-vos e sabei que eu sou Deus (Estudo Bíblico)
-Versículos sobre lágrimas
-Estudos Bíblicos: estudos evangélicos organizados por tema
+Pense neste momento: o mar agitado, o vento contrário e um barco cheio de discípulos tomados pelo medo. No meio da tempestade, Jesus aparece andando sobre as águas, algo impossível aos olhos humanos, mas natural para quem tem autoridade sobre toda a criação. É nesse contexto que Pedro demonstra fé e ousadia. Ele não pede explicações, não exige garantias, apenas pede uma palavra: “manda-me ir”. E ao ouvir o “venha” de Jesus, ele saiu do barco.
+Sair do barco é um ato de coragem. O barco representa segurança, controle e zona de conforto. Pedro poderia ter permanecido ali, protegido junto aos outros, mas escolheu confiar na voz de Jesus e no seu chamado. Essa atitude nos ensina que a fé verdadeira supera o medo.
+Muitas vezes, Deus também nos chama para sair do “barco” em nossas vidas, abandonar velhos hábitos, iniciar algo novo e confiar n'Ele independentemente da situação. O chamado pode parecer arriscado, mas a presença de Jesus é a garantia de que não estaremos sozinhos. Pedro começou a andar sobre as águas enquanto manteve seus olhos em Cristo. Quando desviou o olhar para o vento, começou a afundar, mas, até nesse momento, Jesus estava ali para segurá-lo.
+Isso nos lembra que falhar não é o fim. O importante é responder ao chamado e confiar que, mesmo em meio às dúvidas, Jesus estende a mão.
+Hoje, Deus continua dizendo: “Venha”. A pergunta é: você terá coragem de sair do barco?
+Veja também: Jesus anda sobre as águas: explicado.
  
 Aquietai-vos e sabei que eu sou Deus (Estudo Bíblico)
 Versículos sobre lágrimas
 Estudos Bíblicos: estudos evangélicos organizados por tema
 
  
-Registra, tu mesmo, o meu lamento;
-recolhe as minhas lágrimas em teu odre;
-acaso não estão anotadas em teu livro?
-- Salmos 56:8
+"Senhor", disse Pedro, "se és tu, manda-me ir ao teu encontro por sobre as águas".
+"Venha", respondeu ele.
+Então Pedro saiu do barco, andou sobre as águas e foi na direção de Jesus.
+- Mateus 14:28-29
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 335934 characters
-INFO:root:HTML parsed, length: 326319 characters
-INFO:root:Found 3 titles: ['Devocional Diário: Quero mais de Ti', 'Jesus quebra as correntes do pecado', 'Deus fez e fará ainda mais!']
-INFO:root:Found 5 URLs: ['/versiculos_de_fe_para_te_aproximar_de_deus_hoje/', '/como_buscar_e_se_aproximar_de_deus/', '/buscai_ao_senhor_enquanto_ha_tempo/']
-INFO:root:Found 3 descriptions: ['Vocês me procurarão e me acharão quando me procura', 'Jesus quebrou as correntes do pecado e as do medo,', 'Ao longo da nossa caminhada na fé, muitas vezes ol']
-INFO:root:Found 3 dates: ['ABRIL\n\n5\nDOMINGO', 'ABRIL\n\n4\nSÁBADO', 'ABRIL\n\n3\nSEXTA']
+INFO:root:Response length: 334438 characters
+INFO:root:HTML parsed, length: 324829 characters
+INFO:root:Found 3 titles: ['Com Cristo lado a lado', 'Devocional Diário: Quero mais de Ti', 'Jesus quebra as correntes do pecado']
+INFO:root:Found 4 URLs: ['/versiculos_de_fe_para_te_aproximar_de_deus_hoje/', '/como_buscar_e_se_aproximar_de_deus/', '/buscai_ao_senhor_enquanto_ha_tempo/']
+INFO:root:Found 3 descriptions: ['Duas pessoas andarão juntas\nse não estiverem de ac', 'Vocês me procurarão e me acharão quando me procura', 'Jesus quebrou as correntes do pecado e as do medo,']
+INFO:root:Found 3 dates: ['ABRIL\n\n6\nSEGUNDA', 'ABRIL\n\n5\nDOMINGO', 'ABRIL\n\n4\nSÁBADO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Devocional Diário: Quero mais de Ti', ID=d4c05d1cd73fb82bf2f6685165383c36
-INFO:root:Processing entry 2: Title='Jesus quebra as correntes do pecado', ID=763a5c5d39669232ac14a71c1a62159c
-INFO:root:Processing entry 3: Title='Deus fez e fará ainda mais!', ID=4a14806d9951cd65414261704f7dcd6a
+INFO:root:Processing entry 1: Title='Com Cristo lado a lado', ID=7bf34c1f1a3c5e1a05305a5d861790ce
+INFO:root:Processing entry 2: Title='Devocional Diário: Quero mais de Ti', ID=d4c05d1cd73fb82bf2f6685165383c36
+INFO:root:Processing entry 3: Title='Jesus quebra as correntes do pecado', ID=763a5c5d39669232ac14a71c1a62159c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Devocional Diário: Quero mais de Ti
+INFO:root:🔹 Title: Com Cristo lado a lado
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_de_fe_para_te_aproximar_de_deus_hoje/
+INFO:root:🔹 Description: Duas pessoas andarão juntas
+se não estiverem de acordo?
+- Amós 3:3 
+
+Como é possível dois andar juntos em total desacordo? A união prevê concordância. Andar lado a lado é cooperar um com o outro. Da mesma forma, para aproximarmos de Deus, devemos corresponder com a Sua Palavra.
+Para crescermos espiritualmente, é necessário alinharmos com os preceitos do Senhor. Ao andarmos com Deus, estamos vivendo em harmonia com Ele. Com isso, outras pessoas que também entraram de acordo com Ele - nossos irmãos em Cristo - estarão ao nosso lado e todos avançarão em fé e verdade.
+Andando com Cristo
+
+Siga os passos do Senhor, leia a Sua Palavra.
+Deus não entra onde não é convidado. Por isso, chame-o e abra o seu coração. 
+Convide outras pessoas a andarem ao lado de Cristo, evangelize. 
+
+Para Orar: 
+
+Senhor, como é bom estar ao Teu lado. A Tua Palavra me aproxima de Ti e mesmo andando pelo caminho estreito sinto a Tua presença ao meu lado. Obrigado Pai pela Tua companhia. Amém!
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Devocional Diário: Quero mais de Ti
+INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
 INFO:root:🔹 Description: Vocês me procurarão e me acharão quando me procurarem de todo o coração.
 - Jeremias 29:13
 
@@ -313,7 +305,7 @@ Como se aproximar de Deus segundo a Bíblia
 Buscai ao Senhor enquanto há tempo (Estudo Bíblico)
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Jesus quebra as correntes do pecado
-INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
+INFO:root:🔹 URL: https://www.bibliaon.com/buscai_ao_senhor_enquanto_ha_tempo/
 INFO:root:🔹 Description: Jesus quebrou as correntes do pecado e as do medo, culpa e insegurança que ainda tentam te prender. Nenhuma corrente é mais forte que o Seu poder. A liberdade que você busca já é sua em Cristo.
 
 Portanto, se o Filho os libertar, vocês de fato serão livres.
@@ -339,30 +331,6 @@ Para orar:
 Senhor Jesus, reconheço que somente Tu tens poder para quebrar todas as correntes da minha vida. Liberta-me de tudo aquilo que ainda tenta me prender ao passado, cura minhas feridas e renova minha mente. Dá-me força para permanecer firme na Tua verdade e coragem para viver em liberdade. Que o Teu Espírito me guie todos os dias, para que eu nunca mais volte à escravidão do pecado, mas viva plenamente na Tua graça. Em nome de Jesus, amém.
 
 Veja também: Versículos sobre libertação.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Deus fez e fará ainda mais!
-INFO:root:🔹 URL: https://www.bibliaon.com/buscai_ao_senhor_enquanto_ha_tempo/
-INFO:root:🔹 Description: Ao longo da nossa caminhada na fé, muitas vezes olhamos para trás e reconhecemos o quanto Deus já fez por nós. Foram livramentos, portas abertas quando tudo parecia fechado, forças renovadas quando já não havia ânimo. Mesmo sem perceber em todos os momentos, a mão de Deus esteve presente, cuidando de cada detalhe da nossa história.
-Há dias em que o coração se enche de dúvidas e o futuro parece incerto. Nessas horas, é fácil esquecer as promessas e focar apenas nos problemas à nossa frente. Porém, o mesmo Deus que agiu no passado continua vivo e poderoso. Ele não mudou, e Seu amor permanece constante.
-Deus não apenas fez grandes coisas, Ele ainda fará muito mais! Seus planos vão além daquilo que conseguimos imaginar. O que hoje parece demora pode ser, na verdade, preparação. O que hoje parece silêncio é Deus trabalhando em áreas que ainda não conseguimos ver.
-Traga à memória o que Deus já fez na sua vida. Ele fez e continua a fazer, basta crer e permanecer n'Ele. 
-Lembre-se: você não chegou até aqui por acaso. Há um propósito sendo construído em sua vida. Continue firme, perseverante e confiante. Deus já provou Seu cuidado antes, e Ele continuará provando.
-O melhor ainda está por vir. Deus fez, Deus faz e Deus fará ainda mais.
-
-Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
-- Jeremias 29:11
-
-Confiando no agir presente de Deus 
-
-Deus age nas pequenas coisas, nos detalhes que passam despercebidos, como proteção, provisão e paz, mostrando que Ele continua cuidando de tudo.
-Podemos ver Deus por meio das portas que se abrem e também das que se fecham, pois ambas direcionam nosso caminho conforme Sua vontade perfeita.
-O agir de Deus se revela na nossa transformação, renovando pensamentos, fortalecendo a fé e trazendo esperança mesmo em meio às dificuldades da vida cotidiana.
-
-Para orar: 
-
-Senhor Deus, agradeço por Tua presença constante em minha vida. Mesmo quando não percebo, Tu estás cuidando de mim e guiando meus passos. Fortalece minha fé nos dias difíceis e renova minha esperança quando o desânimo chegar. Ensina-me a confiar em Teus planos e a descansar em Tua vontade. Que eu nunca esqueça do Teu amor e da Tua graça. Em nome de Jesus, amém.
-
-Veja também: Propósito de Deus: como descobrir e entender o seu
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -393,15 +361,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 ++---
- feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  47 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  40 ++--
+ feeds/devocional_de_hoje/feed.json        |  14 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  45 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  69 +++----
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 127 +++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 302 +++++++++++++++---------------
- 11 files changed, 278 insertions(+), 274 deletions(-)
+ output.log                                | 354 +++++++++++++-----------------
+ 11 files changed, 290 insertions(+), 366 deletions(-)
