@@ -1,79 +1,106 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124465 characters
-INFO:root:HTML parsed, length: 117579 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (07/04/2026)', 'Palavra de Ontem (06/04/2026)', 'Palavra de Anteontem (05/04/2026)']
-INFO:root:Found 3 URLs: ['/antropofagico/', '/halterofilismo/', '/mitigar/']
-INFO:root:Found 13 descriptions: ['adjetivo Que se refere à antropofagia, à condição ', 'Sinônimos:\n\ncanibalesco, andrófago', 'Classe gramatical:adjetivo']
-INFO:root:Found 3 dates: ['Palavra de Hoje (07/04/2026)', 'Palavra de Ontem (06/04/2026)', 'Palavra de Anteontem (05/04/2026)']
+INFO:root:Response length: 124565 characters
+INFO:root:HTML parsed, length: 117655 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (08/04/2026)', 'Palavra de Ontem (07/04/2026)', 'Palavra de Anteontem (06/04/2026)']
+INFO:root:Found 3 URLs: ['/escrito/', '/antropofagico/', '/halterofilismo/']
+INFO:root:Found 13 descriptions: ['substantivo masculino Qualquer coisa escrita: text', 'Sinônimos:\n\ntexto, manuscrito', 'Classe gramatical:adjetivo e substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (08/04/2026)', 'Palavra de Ontem (07/04/2026)', 'Palavra de Anteontem (06/04/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (07/04/2026)', ID=73c5cec22ab9e84d6501af4f67584fc3
-INFO:root:Processing entry 2: Title='Palavra de Ontem (06/04/2026)', ID=236cc310c764d200067ab332bf0b849f
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (05/04/2026)', ID=29b86aceea2d695891a057af497728c5
+INFO:root:Processing entry 1: Title='Palavra de Hoje (08/04/2026)', ID=f3ac3a7b1cbf6b77f97eef28dd2d9c88
+INFO:root:Processing entry 2: Title='Palavra de Ontem (07/04/2026)', ID=9cdb310ebb54e5484610186c5e8242c9
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/04/2026)', ID=0554d545c275afa394d1586fedb32e4c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (07/04/2026) - Significado completo de antropofágico:
-INFO:root:🔹 URL: https://www.dicio.com.br/antropofagico/
-INFO:root:🔹 Description: adjetivo Que se refere à antropofagia, à condição patológica de quem come carne humana, da pessoal canibal.Característico ou próprio de antropofagia; androfágico, canibalesco.Etimologia (origem da palavra antropofágico). A palavra antropofágico tem sua origem pela junção de antropofagia, e do sufixo -ico.
+INFO:root:🔹 Title: Palavra de Hoje (08/04/2026) - Significado completo de escrito:
+INFO:root:🔹 URL: https://www.dicio.com.br/escrito/
+INFO:root:🔹 Description: substantivo masculino Qualquer coisa escrita: texto escrito; página escrita; legenda escrita.Ato, convenção escrita: entre pessoas honradas, a palavra dada vale por um escrito, por uma obrigação escrita.Expresso por meio de sinais gráficos.substantivo masculino plural Obra literária: os escritos de Voltaire.adjetivo Representado por sinais gráficos ou pela escrita: língua escrita.Mensagem que se envia com palavras escritas; bilhete.[Figurado] De natureza, aparência, caráter idêntico; igual: é sua mãe escrita.Etimologia (origem da palavra escrito). A palavra escrito tem sua origem no latim “scriptus”, com o mesmo sentido.
  
 Sinônimos:
 
-canibalesco, andrófago 
+texto, manuscrito 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (06/04/2026) - Significado completo de halterofilismo:
-INFO:root:🔹 URL: https://www.dicio.com.br/halterofilismo/
+INFO:root:🔹 Title: Palavra de Ontem (07/04/2026) - Significado completo de antropofágico:
+INFO:root:🔹 URL: https://www.dicio.com.br/antropofagico/
 INFO:root:🔹 Description: Sinônimos:
 
-canibalesco, andrófago
- Classe gramatical:adjetivo
+texto, manuscrito
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (05/04/2026) - Significado completo de mitigar:
-INFO:root:🔹 URL: https://www.dicio.com.br/mitigar/
-INFO:root:🔹 Description: Classe gramatical:adjetivo
- Sílabas:an-tro-po-fá-gi-co
+INFO:root:🔹 Title: Palavra de Anteontem (06/04/2026) - Significado completo de halterofilismo:
+INFO:root:🔹 URL: https://www.dicio.com.br/halterofilismo/
+INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
+ Sílabas:es-cri-to
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325390 characters
-INFO:root:HTML parsed, length: 315777 characters
-INFO:root:Found 1 titles: ['Romanos 8:18']
-INFO:root:Found 1 URLs: ['/versiculo/romanos_8_18/']
-INFO:root:Found 1 descriptions: ['Considero que os nossos sofrimentos atuais não pod']
+INFO:root:Response length: 325603 characters
+INFO:root:HTML parsed, length: 315990 characters
+INFO:root:Found 1 titles: ['Isaías 61:10']
+INFO:root:Found 1 URLs: ['/versiculo/isaias_61_10/']
+INFO:root:Found 1 descriptions: ['É grande o meu prazer no Senhor!\nRegozija-se a min']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Romanos 8:18', ID=7f4091b34a44348cd6b84b6e7acf0ce7
+INFO:root:Processing entry 1: Title='Isaías 61:10', ID=0bed4251237f218ab3417f9e30fa8733
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Romanos 8:18
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_8_18/
-INFO:root:🔹 Description: Considero que os nossos sofrimentos atuais não podem ser comparados com a glória que em nós será revelada. Romanos 8:18
+INFO:root:🔹 Title: Isaías 61:10
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/isaias_61_10/
+INFO:root:🔹 Description: É grande o meu prazer no Senhor!
+Regozija-se a minha alma em meu Deus!
+Pois ele me vestiu
+com as vestes da salvação
+e sobre mim pôs o manto da justiça,
+qual noivo que adorna a cabeça
+como um sacerdote,
+qual noiva que se enfeita com joias. Isaías 61:10
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 326741 characters
-INFO:root:HTML parsed, length: 317945 characters
-INFO:root:Found 3 titles: ['Salmo 109', 'Salmo 59', 'Salmo 114']
-INFO:root:Found 3 URLs: ['/salmos_109/', '/salmos_59/', '/salmos_114/']
-INFO:root:Found 3 descriptions: ['Ó Deus, a quem louvo, não fiques indiferente, \npoi', 'Livra-me dos meus inimigos, ó Deus;\npõe-me fora do', 'Quando Israel saiu do Egito\ne a casa de Jacó saiu ']
-INFO:root:Found 3 dates: ['7 de Abril de 2026', '6 de Abril de 2026', '5 de Abril de 2026']
+INFO:root:Response length: 326714 characters
+INFO:root:HTML parsed, length: 317918 characters
+INFO:root:Found 3 titles: ['Salmo 15', 'Salmo 109', 'Salmo 59']
+INFO:root:Found 3 URLs: ['/salmos_15/', '/salmos_109/', '/salmos_59/']
+INFO:root:Found 3 descriptions: ['Senhor, quem habitará no teu santuário?\nQuem poder', 'Ó Deus, a quem louvo, não fiques indiferente, \npoi', 'Livra-me dos meus inimigos, ó Deus;\npõe-me fora do']
+INFO:root:Found 3 dates: ['8 de Abril de 2026', '7 de Abril de 2026', '6 de Abril de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 109', ID=2616b0fb60e3746a13e993db90dcc2a5
-INFO:root:Processing entry 2: Title=' Salmo 59', ID=aac784327ec5034951e7ef111d110a62
-INFO:root:Processing entry 3: Title=' Salmo 114', ID=d6e74d49122c592b0d1572e2dff6e74f
+INFO:root:Processing entry 1: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
+INFO:root:Processing entry 2: Title=' Salmo 109', ID=2616b0fb60e3746a13e993db90dcc2a5
+INFO:root:Processing entry 3: Title=' Salmo 59', ID=aac784327ec5034951e7ef111d110a62
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 15
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_15/
+INFO:root:🔹 Description: Senhor, quem habitará no teu santuário?
+Quem poderá morar no teu santo monte? 
+Aquele que é íntegro em sua conduta
+e pratica o que é justo;
+que de coração fala a verdade 
+e não usa a língua para difamar;
+que nenhum mal faz ao seu semelhante
+e não lança calúnia contra o seu próximo; 
+que rejeita quem merece desprezo,
+mas honra os que temem o Senhor;
+que mantém a sua palavra,
+mesmo quando sai prejudicado; 
+que não empresta o seu dinheiro visando a algum lucro
+nem aceita suborno contra o inocente.
+Quem assim procede
+nunca será abalado! 
+ Salmo 15
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 109
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_109/
 INFO:root:🔹 Description: Ó Deus, a quem louvo, não fiques indiferente, 
@@ -217,83 +244,83 @@ tu és, ó Deus, o meu alto refúgio,
 o Deus que me ama. 
  Salmo 59
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 114
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_114/
-INFO:root:🔹 Description: Quando Israel saiu do Egito
-e a casa de Jacó saiu do meio
-de um povo de língua estrangeira, 
-Judá tornou-se o santuário de Deus;
-Israel, o seu domínio. 
-O mar olhou e fugiu,
-o Jordão retrocedeu; 
-os montes saltaram como carneiros;
-as colinas, como cordeiros. 
-Por que fugir, ó mar?
-E você, Jordão, por que retroceder? 
-Por que vocês saltaram como carneiros,
-ó montes?
-E vocês, colinas, porque saltaram
-como cordeiros? 
-Estremeça na presença do Soberano, ó terra,
-na presença do Deus de Jacó! 
-Ele fez da rocha um açude,
-do rochedo uma fonte. 
- Salmo 114
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 327538 characters
-INFO:root:HTML parsed, length: 318368 characters
-INFO:root:Found 3 titles: ['Dissipando as forças contrárias à fé', 'Coragem para sair do barco', 'Deus vê suas lágrimas']
+INFO:root:Response length: 327230 characters
+INFO:root:HTML parsed, length: 318062 characters
+INFO:root:Found 3 titles: ['Santidade sem negociação', 'Dissipando as forças contrárias à fé', 'Coragem para sair do barco']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Ele respondeu: "Porque a fé que vocês têm é pequen', '"Senhor", disse Pedro, "se és tu, manda-me ir ao t', 'Deus vê suas lágrimas. Ele sabe o que você está vi']
-INFO:root:Found 1 dates: ['Terça, 7 de abril de 2026']
+INFO:root:Found 3 descriptions: ['Amados, visto que temos essas promessas, purifique', 'Ele respondeu: "Porque a fé que vocês têm é pequen', '"Senhor", disse Pedro, "se és tu, manda-me ir ao t']
+INFO:root:Found 1 dates: ['Quarta, 8 de abril de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Dissipando as forças contrárias à fé', ID=9d1e60d28824191937f605b8695fa166
+INFO:root:Processing entry 1: Title='Santidade sem negociação', ID=5a71349b7cff6ea03390ab88e7c34856
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Dissipando as forças contrárias à fé - Palavra de Hoje
+INFO:root:🔹 Title: Santidade sem negociação - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Ele respondeu: "Porque a fé que vocês têm é pequena. Eu asseguro que, se vocês tiverem fé do tamanho de um grão de mostarda, poderão dizer a este monte: 'Vá daqui para lá', e ele irá. Nada será impossível para vocês.
-- Mateus 17:20
+INFO:root:🔹 Description: Amados, visto que temos essas promessas, purifiquemo-nos de tudo o que contamina o corpo e o espírito, aperfeiçoando a santidade no temor de Deus.
+- 2 Coríntios 7:1
 
-Devemos reconhecer: a nossa fé pode ser enfraquecida por forças silenciosas e constantes, como o medo, a dúvida, as preocupações excessivas, as influências negativas e o afastamento da Palavra de Deus.
-todas essas forças agem como ventos contrários, tentando apagar a chama da confiança no Senhor. Quando permitimos que pensamentos de insegurança dominem o coração, começamos a questionar as promessas de Deus e a perder a esperança.
-Para combater essas forças, precisamos fortalecer nossa intimidade com Deus diariamente. A oração é uma arma poderosa: ela nos conecta diretamente com o Pai e renova nossas forças.
-A leitura da Bíblia nos lembra das promessas de Deus e nos firma na Verdade, dissipando as mentiras que tentam nos confundir. Além disso, cultivar uma mente grata e vigilante ajuda a rejeitar pensamentos negativos antes que criem raízes.
-Outro ponto essencial é a comunhão; quando caminhamos juntos, somos encorajados, corrigidos e fortalecidos. O isolamento, por outro lado, abre espaço para a fraqueza espiritual. Também é necessário vigiar aquilo que ouvimos e consumimos, pois muitas influências externas podem semear dúvidas e afastar-nos do propósito de Deus.
-Dissipar as forças contrárias à fé exige decisão e perseverança. A fé cresce quando é exercitada; é no meio da luta que obtemos a vitória. Levante-se, fortaleça seu espírito e permaneça firme. Deus é fiel para sustentar aqueles que n’Ele confiam.
-Veja também: Deus quer melhorar a sua visão espiritual: versículos com explicação
+Esse chamado do apóstolo Paulo continua com força em nossos dias: Deus continua convidando Seu povo para uma vida de santidade. Não se trata apenas de aparência, mas de uma transformação profunda que começa no coração e se manifesta nas atitudes diárias.
+Santidade não é isolamento, mas consagração. É decidir diariamente que nossa mente, nossas palavras e nossas escolhas pertencem ao Senhor. Quando lembramos das promessas de Deus — Sua presença, Seu perdão e Sua adoção como filhos — percebemos que viver de qualquer maneira já não faz sentido.
+O temor de Deus mencionado por Paulo não é medo paralisante, mas reverência profunda. É reconhecer que pertencemos a um Deus santo e amoroso, que nos chama para algo maior do que os padrões deste mundo.
+Cada dia é uma oportunidade de limpar o coração, abandonar hábitos que entristecem o Espírito Santo e aproximar-se mais de Cristo. A santidade não nasce da perfeição humana, mas da rendição sincera.
+Quando nos colocamos diante de Deus com humildade, Ele nos purifica, restaura e fortalece nossa caminhada. Assim, pouco a pouco, nossa vida passa a refletir a luz de Cristo em meio à escuridão do mundo.
+Que hoje escolhamos viver de maneira digna das promessas que recebemos. Que nosso coração seja um altar vivo, onde Deus seja honrado em cada pensamento, palavra e atitude. Porque quando buscamos a verdadeira santidade, mostramos ao mundo que pertencer a Cristo muda tudo.
+A graça de Deus nos levanta quando caímos e nos conduz novamente ao caminho da santidade. Persevere, pois o Senhor ainda está moldando sua vida para refletir Sua glória todos os dias da sua jornada.
+Veja também: Versículos sobre o poder de Deus
  
-Aquietai-vos e sabei que eu sou Deus (Estudo Bíblico)
-Versículos sobre lágrimas
-Estudos Bíblicos: estudos evangélicos organizados por tema
-
- 
-Ele respondeu: "Porque a fé que vocês têm é pequena. Eu asseguro que, se vocês tiverem fé do tamanho de um grão de mostarda, poderão dizer a este monte: 'Vá daqui para lá', e ele irá. Nada será impossível para vocês.
-- Mateus 17:20
+Amados, visto que temos essas promessas, purifiquemo-nos de tudo o que contamina o corpo e o espírito, aperfeiçoando a santidade no temor de Deus.
+- 2 Coríntios 7:1
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 334706 characters
-INFO:root:HTML parsed, length: 325103 characters
-INFO:root:Found 3 titles: ['O perigo de não mudar', 'Com Cristo lado a lado', 'Quero mais de Ti']
-INFO:root:Found 4 URLs: ['/resumo_livro_de_naum/', '/versiculos_de_fe_para_te_aproximar_de_deus_hoje/', '/como_buscar_e_se_aproximar_de_deus/']
-INFO:root:Found 3 descriptions: ['O Senhor é muito paciente,\nmas o seu poder é imens', 'Duas pessoas andarão juntas\nse não estiverem de ac', 'Vocês me procurarão e me acharão quando me procura']
-INFO:root:Found 3 dates: ['ABRIL\n\n7\nTERÇA', 'ABRIL\n\n6\nSEGUNDA', 'ABRIL\n\n5\nDOMINGO']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O perigo de não mudar', ID=72264e7788a5e440bdc0cad5e2525e49
-INFO:root:Processing entry 2: Title='Com Cristo lado a lado', ID=7bf34c1f1a3c5e1a05305a5d861790ce
-INFO:root:Processing entry 3: Title='Quero mais de Ti', ID=6a9c6dc1fffd4e3cf6175f570d163fc6
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 335022 characters
+INFO:root:HTML parsed, length: 325423 characters
+INFO:root:Found 3 titles: ['A promessa está viva, tome posse dela!', 'O perigo de não mudar', 'Com Cristo lado a lado']
+INFO:root:Found 2 URLs: ['/promessas_de_deus_para_voce/', '/resumo_livro_de_naum/']
+INFO:root:Found 3 descriptions: ['Há momentos em que a vida parece nos aprisionar em', 'O Senhor é muito paciente,\nmas o seu poder é imens', 'Duas pessoas andarão juntas\nse não estiverem de ac']
+INFO:root:Found 3 dates: ['ABRIL\n\n8\nQUARTA', 'ABRIL\n\n7\nTERÇA', 'ABRIL\n\n6\nSEGUNDA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='A promessa está viva, tome posse dela!', ID=4b626d479605d6f83d84744674ac1956
+INFO:root:Processing entry 2: Title='O perigo de não mudar', ID=72264e7788a5e440bdc0cad5e2525e49
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A promessa está viva, tome posse dela!
+INFO:root:🔹 URL: https://www.bibliaon.com/promessas_de_deus_para_voce/
+INFO:root:🔹 Description: Há momentos em que a vida parece nos aprisionar em dores; são perdas e pressões. mas, no entanto, a Palavra de Deus nos chama de “prisioneiros da esperança”, não do medo, nem do desespero.
+
+Voltem à sua fortaleza,
+ó prisioneiros da esperança;
+pois hoje mesmo anuncio que restaurarei
+tudo em dobro para vocês.
+- Zacarias 9:12
+
+A luta pode ser difícil, intensa, mas, existe algo dentro de nós que não pode ser acorrentado: a esperança viva no Senhor.
+A fortaleza mencionada no versículo de Zacarias não é um lugar físico, mas um posicionamento espiritual. É voltar para Deus, confiar em Sua fidelidade e descansar em Suas promessas. Muitas vezes, tentamos resolver tudo com nossas próprias forças, mas Deus nos convida a retornar a Ele, onde há proteção, direção e restauração.
+A promessa é clara e poderosa: restituição em dobro. Deus não apenas restaura, Ele surpreende! Aquilo que foi perdido, roubado ou destruído não define o fim da sua história. Em Deus, há recomeço, há abundância e há propósito em cada detalhe.
+Ser um prisioneiro da esperança é escolher crer quando tudo parece impossível. É manter os olhos fixos em Deus quando tudo diz o contrário. É declarar que o melhor ainda está por vir, porque o Senhor é fiel para cumprir tudo o que prometeu.
+Hoje, Deus está chamando você de volta. Volte à fortaleza. Volte ao lugar de fé, de intimidade e de confiança n'Ele. Não importa quão distante você tenha ido ou quão difícil esteja o caminho, há restauração disponível agora.
+Desafio de fé: Hoje, entregue a Deus aquilo que você considera perdido e declare com ousadia: “Eu creio na restituição em dobro!”
+Fique com a esperança
+
+Reflita sobre áreas da sua vida onde perdeu a esperança. Ore entregando cada uma a Deus e escolha confiar, Ele já está trabalhando na sua restauração.
+Pratique voltar à fortaleza da esperança, separe um tempo específico para Deus, fortalecendo sua fé.
+Identifique pensamentos negativos que enfraquecem sua fé. Declare em voz alta que Deus é fiel e poderoso para restaurar tudo aquilo que foi perdido em sua vida.
+
+Para orar:
+
+Senhor, hoje volto à Tua fortaleza com o coração cheio de esperança. Entrego minhas dores, perdas e medos em Tuas mãos. Renova minha fé, fortalece meu espírito e ensina-me a confiar em Ti acima de tudo. Creio na Tua promessa de restauração em dobro. Guia meus passos, sustenta-me em cada desafio e faz nascer um novo tempo em minha vida. Em nome de Jesus, amém.
+
+Veja também: 10 promessas de Deus na Bíblia
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O perigo de não mudar
 INFO:root:🔹 URL: https://www.bibliaon.com/resumo_livro_de_naum/
 INFO:root:🔹 Description: O Senhor é muito paciente,
@@ -321,53 +348,6 @@ Para orar:
 Senhor Deus, reconheço que muitas vezes insisto nos mesmos erros e resisto à mudança que o Senhor deseja para mim. Dá-me um coração humilde, sensível à Tua voz, e coragem para abandonar práticas antigas que me afastam de Ti. Renova minha mente, transforma minhas atitudes e guia meus passos no caminho da justiça. Que eu não endureça meu coração, mas viva em constante arrependimento e crescimento. Em nome de Jesus, amém.
 
 Veja também: Resumo explicado do livro de Naum (Estudo Bíblico)
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Com Cristo lado a lado
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_de_fe_para_te_aproximar_de_deus_hoje/
-INFO:root:🔹 Description: Duas pessoas andarão juntas
-se não estiverem de acordo?
-- Amós 3:3 
-
-Como é possível dois andar juntos em total desacordo? A união prevê concordância. Andar lado a lado é cooperar um com o outro. Da mesma forma, para aproximarmos de Deus, devemos corresponder com a Sua Palavra.
-Para crescermos espiritualmente, é necessário alinharmos com os preceitos do Senhor. Ao andarmos com Deus, estamos vivendo em harmonia com Ele. Com isso, outras pessoas que também entraram de acordo com Ele - nossos irmãos em Cristo - estarão ao nosso lado e todos avançarão em fé e verdade.
-Andando com Cristo
-
-Siga os passos do Senhor, leia a Sua Palavra.
-Deus não entra onde não é convidado. Por isso, chame-o e abra o seu coração. 
-Convide outras pessoas a andarem ao lado de Cristo, evangelize. 
-
-Para Orar: 
-
-Senhor, como é bom estar ao Teu lado. A Tua Palavra me aproxima de Ti e mesmo andando pelo caminho estreito sinto a Tua presença ao meu lado. Obrigado Pai pela Tua companhia. Amém!
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Quero mais de Ti
-INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
-INFO:root:🔹 Description: Vocês me procurarão e me acharão quando me procurarem de todo o coração.
-- Jeremias 29:13
-
-Quando escolhemos nos aproximar mais de Deus, iniciamos uma jornada de renovação geral na nossa vida. A busca por mais de Deus começa na oração. Reservar um tempo diário para conversar com o Senhor é essencial. A oração nos aproxima do coração de Deus, permitindo-nos compartilhar nossas preocupações, agradecer pelas bênçãos e ouvir a Sua voz.
-A leitura da Bíblia também é fundamental. As Escrituras são a palavra viva de Deus, oferecendo sabedoria, consolo e direção. Meditar na Palavra permite que ela penetre profundamente em nosso ser, moldando nossas atitudes e ações.
-Além disso, a adoração é uma poderosa maneira de buscar mais a Deus. Quando louvamos e adoramos, nossos corações são elevados e nossa perspectiva muda. Passamos a ver nossas circunstâncias da vida através da lente da fé e da esperança. Participar de uma comunidade cristã, como igreja, também é vital. Juntos, somos encorajados e fortalecidos na fé, lembrando que não estamos sozinhos na nossa caminhada.
-
-Buscai, antes, o Reino de Deus, e todas essas coisas vos serão acrescentadas.
-- Lucas 12:31 ARC
-
-À medida que buscamos mais a Deus, nossa vida diária é transformada. Experimentamos paz em meio às tempestades, alegria em tempos de tristeza e força quando estamos fracos. A presença de Deus nos guia, nos conforta e nos dá propósito.
-Buscando mais a Deus
-
-Dedique tempo diário à oração e à leitura da Bíblia.
-Participe ativamente de uma comunidade cristã para apoio e crescimento.
-Pratique a adoração, louvando a Deus em todas as circunstâncias.
-
-Para Orar:
-
-Senhor, quero mais de Ti! Derrama o Seu favor sobre mim, faz com que a Sua presença acenda o meu coração a te buscar ainda mais. Quero continuar sendo moldado por Ti, crescendo e frutificando como uma árvore frutífera em Suas mãos. Amém.
-
-Veja também:
-
-Versículos sobre se aproximar de Deus
-Como se aproximar de Deus segundo a Bíblia
-Buscai ao Senhor enquanto há tempo (Estudo Bíblico)
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -398,15 +378,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  54 ++---
- feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  25 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  67 +++----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  28 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 120 +++++++----
+ feeds/salmo_do_dia/atom.xml               |  41 ++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   9 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 333 ++++++++++++++++--------------
- 11 files changed, 340 insertions(+), 278 deletions(-)
+ output.log                                | 282 +++++++++++++-----------------
+ 11 files changed, 227 insertions(+), 280 deletions(-)
