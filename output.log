@@ -1,83 +1,123 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 123634 characters
-INFO:root:HTML parsed, length: 117092 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (10/04/2026)', 'Palavra de Ontem (09/04/2026)', 'Palavra de Anteontem (08/04/2026)']
-INFO:root:Found 3 URLs: ['/batavia/', '/adultizar/', '/escrito/']
-INFO:root:Found 9 descriptions: ['feminino Ant.Pano fino de linho. Espécie de tabaco', 'Sílabas:ba-tá-via', 'verbo transitivo direto Tornar adulto; atribuir te']
-INFO:root:Found 3 dates: ['Palavra de Hoje (10/04/2026)', 'Palavra de Ontem (09/04/2026)', 'Palavra de Anteontem (08/04/2026)']
+INFO:root:Response length: 123960 characters
+INFO:root:HTML parsed, length: 117442 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (11/04/2026)', 'Palavra de Ontem (10/04/2026)', 'Palavra de Anteontem (09/04/2026)']
+INFO:root:Found 3 URLs: ['/revitalizacao/', '/batavia/', '/adultizar/']
+INFO:root:Found 9 descriptions: ['substantivo feminino Ações que dão um novo vigor, ', 'Sinônimos:\n\nreabilitação, reconstrução, reanimação', 'Antônimos:\n\ndegradação, devastação, estrago, perda']
+INFO:root:Found 3 dates: ['Palavra de Hoje (11/04/2026)', 'Palavra de Ontem (10/04/2026)', 'Palavra de Anteontem (09/04/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (10/04/2026)', ID=dc0b2fa78a5ff6c6c103da528eac97d5
-INFO:root:Processing entry 2: Title='Palavra de Ontem (09/04/2026)', ID=72ffcc6afbc57b13cde47c2ec994baf9
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/04/2026)', ID=fb31af94cc277cf7700c2792c1a30b4e
+INFO:root:Processing entry 1: Title='Palavra de Hoje (11/04/2026)', ID=be24e73a9031be283251948b8cc50d19
+INFO:root:Processing entry 2: Title='Palavra de Ontem (10/04/2026)', ID=5caaead8e3bf90fb20c1f9e525220215
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/04/2026)', ID=46929f8d4f0781a783add7836de8ed76
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (10/04/2026) - Significado completo de batávia:
-INFO:root:🔹 URL: https://www.dicio.com.br/batavia/
-INFO:root:🔹 Description: feminino Ant.Pano fino de linho. Espécie de tabaco.
- Sílabas:ba-tá-via
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (09/04/2026) - Significado completo de adultizar:
-INFO:root:🔹 URL: https://www.dicio.com.br/adultizar/
-INFO:root:🔹 Description: Sílabas:ba-tá-via
- Sílabas:a-dul-ti-zar
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (08/04/2026) - Significado completo de escrito:
-INFO:root:🔹 URL: https://www.dicio.com.br/escrito/
-INFO:root:🔹 Description: verbo transitivo direto Tornar adulto; atribuir teor adulto ou características próprias da vida de uma pessoa adulta a: alguns programas televisivos tendem a adultizar personagens infantis.Tratar como se fosse uma pessoa adulta, falando especialmente de crianças e adolescentes: é preocupante adultizar crianças impondo-lhes comportamentos típicos de adultos.verbo pronominal Passar a se comportar como uma pessoa adulta: ela precisou se adultizar para cuidar dos irmãos mais novos.Etimologia (origem da palavra adultizar). O verbo adultizar tem sua origem pela junção da palavra adulto, e do sufixo -izar.
+INFO:root:🔹 Title: Palavra de Hoje (11/04/2026) - Significado completo de revitalização:
+INFO:root:🔹 URL: https://www.dicio.com.br/revitalizacao/
+INFO:root:🔹 Description: substantivo feminino Ações que dão um novo vigor, uma nova força e energia a alguma coisa; reabilitação: projeto de revitalização do bairro.Ação de atribuir nova vida a algo ou a alguém; processo de dar vigor, energia.Etimologia (origem da palavra revitalização). A palavra revitalização tem sua origem no verbo revitalizar, pela junção do prefixo re-, do verbo vitalizar, e do sufição -ção.
  
 Sinônimos:
 
-texto, manuscrito 
+reabilitação, reconstrução, reanimação, renovação, vivificação, estimulação, incentivo, revigoramento, restauração, recuperação, urbanização 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (10/04/2026) - Significado completo de batávia:
+INFO:root:🔹 URL: https://www.dicio.com.br/batavia/
+INFO:root:🔹 Description: Sinônimos:
+
+reabilitação, reconstrução, reanimação, renovação, vivificação, estimulação, incentivo, revigoramento, restauração, recuperação, urbanização
+ 
+Antônimos:
+
+degradação, devastação, estrago, perda, queda, ruína 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (09/04/2026) - Significado completo de adultizar:
+INFO:root:🔹 URL: https://www.dicio.com.br/adultizar/
+INFO:root:🔹 Description: Antônimos:
+
+degradação, devastação, estrago, perda, queda, ruína
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325521 characters
-INFO:root:HTML parsed, length: 315908 characters
-INFO:root:Found 1 titles: ['Joel 2:32']
-INFO:root:Found 1 URLs: ['/versiculo/joel_2_32/']
-INFO:root:Found 1 descriptions: ['E todo aquele que invocar\no nome do Senhor será sa']
+INFO:root:Response length: 325418 characters
+INFO:root:HTML parsed, length: 315805 characters
+INFO:root:Found 1 titles: ['1 Pedro 5:8']
+INFO:root:Found 1 URLs: ['/versiculo/1_pedro_5_8/']
+INFO:root:Found 1 descriptions: ['Estejam alertas e vigiem. O Diabo, o inimigo de vo']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Joel 2:32', ID=517c641c02f6b786812973cd6197c6e9
+INFO:root:Processing entry 1: Title='1 Pedro 5:8', ID=c2ee6caedf474f8288177cbe9863de78
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Joel 2:32
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joel_2_32/
-INFO:root:🔹 Description: E todo aquele que invocar
-o nome do Senhor será salvo,
-pois, conforme prometeu o Senhor,
-no monte Sião e em Jerusalém
-haverá livramento
-para os sobreviventes,
-para aqueles a quem o Senhor chamar. Joel 2:32
+INFO:root:🔹 Title: 1 Pedro 5:8
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_pedro_5_8/
+INFO:root:🔹 Description: Estejam alertas e vigiem. O Diabo, o inimigo de vocês, anda ao redor como leão, rugindo e procurando a quem possa devorar. 1 Pedro 5:8
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 330732 characters
-INFO:root:HTML parsed, length: 321989 characters
-INFO:root:Found 3 titles: ['Salmo 135', 'Salmo 78', 'Salmo 15']
-INFO:root:Found 3 URLs: ['/salmos_135/', '/salmos_78/', '/salmos_15/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo', 'Povo meu, escute o meu ensino;\nincline os ouvidos\n', 'Senhor, quem habitará no teu santuário?\nQuem poder']
-INFO:root:Found 3 dates: ['10 de Abril de 2026', '9 de Abril de 2026', '8 de Abril de 2026']
+INFO:root:Response length: 331390 characters
+INFO:root:HTML parsed, length: 322657 characters
+INFO:root:Found 3 titles: ['Salmo 21', 'Salmo 135', 'Salmo 78']
+INFO:root:Found 3 URLs: ['/salmos_21/', '/salmos_135/', '/salmos_78/']
+INFO:root:Found 3 descriptions: ['O rei se alegra na tua força, ó Senhor!\nComo é gra', 'Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo', 'Povo meu, escute o meu ensino;\nincline os ouvidos\n']
+INFO:root:Found 3 dates: ['11 de Abril de 2026', '10 de Abril de 2026', '9 de Abril de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
-INFO:root:Processing entry 2: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
-INFO:root:Processing entry 3: Title=' Salmo 15', ID=f1b4cf8b1d1a8ac86b6d53404ff1ea89
+INFO:root:Processing entry 1: Title=' Salmo 21', ID=f5499d96daf550cf503937d224980eef
+INFO:root:Processing entry 2: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
+INFO:root:Processing entry 3: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 21
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_21/
+INFO:root:🔹 Description: O rei se alegra na tua força, ó Senhor!
+Como é grande a sua exultação
+pelas vitórias que lhe dás! 
+Tu lhe concedeste o desejo do seu coração
+e não lhe rejeitaste o pedido
+dos seus lábios. 
+Tu o recebeste dando-lhe ricas bênçãos,
+e em sua cabeça
+puseste uma coroa de ouro puro. 
+Ele te pediu vida, e tu lhe deste!
+Vida longa e duradoura. 
+Pelas vitórias que lhe deste,
+grande é a sua glória;
+de esplendor e majestade o cobriste. 
+Fizeste dele uma grande bênção para sempre
+e lhe deste a alegria da tua presença. 
+O rei confia no Senhor:
+por causa da fidelidade do Altíssimo
+ele não será abalado. 
+Tua mão alcançará todos os teus inimigos;
+tua mão direita atingirá todos os que te odeiam. 
+No dia em que te manifestares
+farás deles uma fornalha ardente.
+Na sua ira o Senhor os devorará,
+um fogo os consumirá. 
+Acabarás com a geração deles na terra,
+com a sua descendência entre os homens. 
+Embora tramem o mal contra ti
+e façam planos perversos,
+nada conseguirão; 
+pois tu os porás em fuga
+quando apontares para eles o teu arco. 
+Sê exaltado, Senhor, na tua força!
+Cantaremos e louvaremos o teu poder. 
+ Salmo 21
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 135
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_135/
 INFO:root:🔹 Description: Aleluia!
@@ -319,79 +359,73 @@ E de coração íntegro Davi os pastoreou;
 com mãos experientes os conduziu. 
  Salmo 78
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 15
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_15/
-INFO:root:🔹 Description: Senhor, quem habitará no teu santuário?
-Quem poderá morar no teu santo monte? 
-Aquele que é íntegro em sua conduta
-e pratica o que é justo;
-que de coração fala a verdade 
-e não usa a língua para difamar;
-que nenhum mal faz ao seu semelhante
-e não lança calúnia contra o seu próximo; 
-que rejeita quem merece desprezo,
-mas honra os que temem o Senhor;
-que mantém a sua palavra,
-mesmo quando sai prejudicado; 
-que não empresta o seu dinheiro visando a algum lucro
-nem aceita suborno contra o inocente.
-Quem assim procede
-nunca será abalado! 
- Salmo 15
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 327114 characters
-INFO:root:HTML parsed, length: 317943 characters
-INFO:root:Found 3 titles: ['Não desanime, Deus está com você nesse momento', 'Quem você guarda no seu coração', 'Santidade sem negociação']
+INFO:root:Response length: 327166 characters
+INFO:root:HTML parsed, length: 317997 characters
+INFO:root:Found 3 titles: ['Cristo é o centro!', 'Não desanime, Deus está com você nesse momento', 'Quem você guarda no seu coração']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['A Palavra de Deus nos lembra que Ele é o nosso Pas', 'Acima de tudo, guarde o seu coração,\npois dele dep', 'Amados, visto que temos essas promessas, purifique']
-INFO:root:Found 1 dates: ['Sexta, 10 de abril de 2026']
+INFO:root:Found 3 descriptions: ['Ele é a imagem do Deus invisível, o primogênito so', 'A Palavra de Deus nos lembra que Ele é o nosso Pas', 'Acima de tudo, guarde o seu coração,\npois dele dep']
+INFO:root:Found 1 dates: ['Sábado, 11 de abril de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Não desanime, Deus está com você nesse momento', ID=316df583bda88dd607c413f68ea59ba0
+INFO:root:Processing entry 1: Title='Cristo é o centro!', ID=7bd924a7ed07a838596468a2d07d7969
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Não desanime, Deus está com você nesse momento - Palavra de Hoje
+INFO:root:🔹 Title: Cristo é o centro! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: A Palavra de Deus nos lembra que Ele é o nosso Pastor, aquele que cuida, guia e protege cada passo da nossa caminhada.
+INFO:root:🔹 Description: Ele é a imagem do Deus invisível, o primogênito sobre toda a criação, pois nele foram criadas todas as coisas nos céus e na terra, as visíveis e as invisíveis, sejam tronos sejam soberanias, poderes ou autoridades; todas as coisas foram criadas por ele e para ele.
+- Colossenses 1:15-16
 
-O Senhor é o meu pastor; nada me faltará.
-- Salmos 23:1
-
-Não desanime. Deus está com você nesse momento, mesmo que você não consiga perceber. Ele trabalha em silêncio, move circunstâncias e fortalece você por dentro.
-Às vezes, o que parece atraso é livramento. O que parece perda é, na verdade, preparação para algo maior. Deus enxerga o que você não vê e sabe exatamente do que você precisa.
-Talvez você esteja enfrentando lutas na família, preocupações financeiras ou batalhas emocionais que ninguém conhece. Saiba que Deus conhece cada lágrima derramada e cada oração feita em segredo. Ele não ignora o seu clamor. Ao contrário, Ele se aproxima dos que têm o coração quebrantado e renova as forças dos que confiam Nele.
-Permita que a fé seja maior que o medo. Continue caminhando, mesmo que seja devagar. Continue orando, mesmo quando parecer difícil. Continue acreditando, mesmo sem entender. Deus não abandona os seus filhos. Ele sustenta, consola e direciona no tempo certo.
-Hoje, escolha confiar. Entregue suas preocupações nas mãos do Senhor e descanse na certeza de que Ele está no controle. O mesmo Deus que abriu o mar, que fechou a boca dos leões e que realizou milagres impossíveis continua agindo.
-Não desanime. A sua história ainda está sendo escrita pelas mãos de Deus, e o melhor ainda está por vir.
-Veja também: Versículos sobre Esperança em Deus
+O texto de Colossenses 1 nos conduz a grandiosidade de quem é Cristo. Ele não é apenas um mestre ou profeta, mas "a própria imagem do Deus invisível, Aquele por meio de quem todas as coisas foram criadas" e em quem tudo encontra sentido e existência. Isso muda completamente a maneira como enxergamos a vida: nada está fora do Seu domínio, nada escapa ao Seu propósito.
+Cristo é "antes de todas as coisas" e sustenta o universo com Seu poder. Não estamos à deriva; estamos nas mãos daquele que governa sobre céus e terra. Ele é a cabeça da Igreja, o princípio de uma nova vida, inaugurada por Sua ressurreição. Nele, encontramos não apenas direção, mas também renovação.
+O ponto central dessa passagem, porém, é a reconciliação. Antes, estávamos separados de Deus, inimigos em nossos pensamentos e atitudes. Mas, por meio do sacrifício de Cristo na cruz, fomos trazidos de volta. O sangue derramado não apenas perdoa, mas restaura completamente nosso relacionamento com Deus. Somos apresentados como santos, livres de acusação, não por mérito próprio, mas pela graça d'Ele.
+Esta passagem além de falar da centralidade de Cristo, nos impulsiona a permanecermos firmes na fé. Não basta conhecer a mensagem; é necessário viver baseado nela, sem se afastar da esperança do Evangelho. Em tempos de dúvidas e pressões, essa firmeza, Cristo, que nos mantém de pé.
+Cristo é suficiente. Ele é o início, o meio e o fim. Quando entendemos Sua supremacia, nossa vida ganha propósito, nossa fé ganha raízes e nosso coração encontra paz. Permanecer nEle é permanecer na própria vida.
+Veja também: O livro de Colossenses explicado e resumido.
  
-O Senhor é o meu pastor; nada me faltará.
-- Salmos 23:1
+Ele é a imagem do Deus invisível, o primogênito sobre toda a criação, pois nele foram criadas todas as coisas nos céus e na terra, as visíveis e as invisíveis, sejam tronos sejam soberanias, poderes ou autoridades; todas as coisas foram criadas por ele e para ele.
+- Colossenses 1:15-16
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 336382 characters
-INFO:root:HTML parsed, length: 326781 characters
-INFO:root:Found 3 titles: ['A Bíblia transforma, não apenas motiva', 'Crescendo juntos', 'A promessa está viva, tome posse dela!']
-INFO:root:Found 3 URLs: ['/planos_de_leitura_da_biblia/', '/ajuda_ao_proximo/', '/promessas_de_deus_para_voce/']
-INFO:root:Found 3 descriptions: ['Lâmpada para os meus pés é a tua palavra e luz par', 'É melhor ter companhia\ndo que estar sozinho,\nporqu', 'Há momentos em que a vida parece nos aprisionar em']
-INFO:root:Found 3 dates: ['ABRIL\n\n10\nSEXTA', 'ABRIL\n\n9\nQUINTA', 'ABRIL\n\n8\nQUARTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A Bíblia transforma, não apenas motiva', ID=5760a8dd722e1d59bd4988012b51cd85
-INFO:root:Processing entry 2: Title='Crescendo juntos', ID=901a63ab5e9e3a9abcbea5caf72b1d6d
-INFO:root:Processing entry 3: Title='A promessa está viva, tome posse dela!', ID=4b626d479605d6f83d84744674ac1956
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 335463 characters
+INFO:root:HTML parsed, length: 325864 characters
+INFO:root:Found 3 titles: ['Mulheres que amavam Jesus', 'A Bíblia transforma, não apenas motiva', 'Crescendo juntos']
+INFO:root:Found 2 URLs: ['/planos_de_leitura_da_biblia/', '/ajuda_ao_proximo/']
+INFO:root:Found 3 descriptions: ['As mulheres que haviam acompanhado Jesus desde a G', 'Lâmpada para os meus pés é a tua palavra e luz par', 'É melhor ter companhia\ndo que estar sozinho,\nporqu']
+INFO:root:Found 3 dates: ['ABRIL\n\n11\nSÁBADO', 'ABRIL\n\n10\nSEXTA', 'ABRIL\n\n9\nQUINTA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Mulheres que amavam Jesus', ID=a6202cf9555aa3929aaeca79422dff08
+INFO:root:Processing entry 2: Title='A Bíblia transforma, não apenas motiva', ID=5760a8dd722e1d59bd4988012b51cd85
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A Bíblia transforma, não apenas motiva
+INFO:root:🔹 Title: Mulheres que amavam Jesus
 INFO:root:🔹 URL: https://www.bibliaon.com/planos_de_leitura_da_biblia/
+INFO:root:🔹 Description: As mulheres que haviam acompanhado Jesus desde a Galileia, seguiram José e viram o sepulcro e como o corpo de Jesus fora colocado nele. Em seguida, foram para casa e prepararam perfumes e especiarias aromáticas. E descansaram no sábado, em obediência ao mandamento.
+- Lucas 23:55-56
+
+O evangelho de Lucas sempre mostra como Jesus tratava com carinho as mulheres de seu tempo. Ele as valorizava, e elas o seguiam; ele transformou suas vidas, e elas se dedicavam em seu ministério. Quando Jesus foi preso, acusado e sentenciado, muitos de seus discípulos simplesmente o abandonaram, fugiram.
+Mas essas mulheres, por outro lado, ficaram próximas todo tempo, e ainda em sua morte, se empenharam em honrar seu mestre. Elas foram preparar perfumes para cuidar do corpo de seu amigo, salvador de suas vidas. Quando ele ressuscitou, mostrou-se primeiro a elas. Essas mulheres que seguiam Jesus, o amavam de todas as suas forças, e Jesus as honrou.
+Tenha você um amor similar ao delas, dedique-se a caminhar com Jesus e não fuja diante das dificuldades. Permita que Jesus transforme sua vida e siga-o até o fim da vida!
+Tome a decisão e siga-o
+
+Quais áreas da sua vida você precisa de transformação? Deixe isso aos pés de Jesus, e tão somente creia
+Siga o Senhor com toda sua vida, se permita ser transformado pelo poder de Cristo
+Compartilhe a mensagem da salvação com alguém, leve o evangelho adiante
+
+Para orar:
+
+Senhor Deus, meu Salvador e resgatador. Peço a ti que me cure dos meus males, me dê forças para continuar avançando na caminhada com o Senhor. Quero ter a fidelidade e a coragem daquelas mulheres seguidoras de Cristo. Assim te peço, em nome de Jesus.
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: A Bíblia transforma, não apenas motiva
+INFO:root:🔹 URL: https://www.bibliaon.com/ajuda_ao_proximo/
 INFO:root:🔹 Description: Lâmpada para os meus pés é a tua palavra e luz para o meu caminho.
 - Salmos 119:105
 
@@ -411,65 +445,6 @@ Para orar:
 Pai amado, hoje me coloco diante de Ti com um coração. Obrigado pela Tua Palavra, que ilumina meus passos e fortalece minha fé em todos os momentos. Ajuda-me a não buscar apenas respostas fáceis, mas a mergulhar na verdade que transforma minha vida. Dá-me sabedoria para viver segundo a Tua vontade, coragem para obedecer e fé para confiar mesmo nas dificuldades. Molda meu coração, renova minha mente e guia meus caminhos. Em nome de Jesus, amém.
 
 Comece a ler a Bíblia hoje, veja: 11 planos de leitura da Bíblia.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Crescendo juntos
-INFO:root:🔹 URL: https://www.bibliaon.com/ajuda_ao_proximo/
-INFO:root:🔹 Description: É melhor ter companhia
-do que estar sozinho,
-porque maior é
-a recompensa do trabalho
-de duas pessoas.
-Se um cair,
-o amigo pode ajudá-lo a levantar-se.
-Mas pobre do homem que cai
-e não tem quem o ajude a levantar-se!
-- Eclesiastes 4:9-10
-
-Crescer espiritualmente não é uma jornada solitária. Deus nos criou para vivermos em comunhão, para caminharmos lado a lado, fortalecendo-nos uns aos outros em amor, fé e esperança.
-A vida cristã floresce quando entendemos que nossas atitudes e palavras têm o poder de influenciar aqueles que estão ao nosso redor.
-A cada dia, somos desafiados a escolher entre espalhar luz ou permitir que a escuridão prevaleça. Influenciar para o bem é um chamado que exige sensibilidade ao Espírito Santo e disposição para servir. Singelos gestos, como uma palavra de encorajamento, um ouvido atento ou uma oração, podem transformar o dia e até a vida de alguém.
-Edificar o próximo é mais do que aconselhar; é viver de forma que o amor de Cristo seja visível em nós. Quando escolhemos perdoar, apoiar e caminhar junto, refletimos o caráter de Deus. Assim, criamos um ambiente em que vidas são restauradas, fé é renovada e corações são fortalecidos.
-Ao crescermos juntos, aprendemos que ninguém é forte o tempo todo. Há momentos em que precisamos ser sustentados e outros em que somos chamados a sustentar. Essa troca nos molda e nos aproxima mais de Deus, pois nos ensina a depender dEle e a valorizar o corpo de Cristo.
-Crescer juntos é viver o propósito de Deus em unidade, tornando-nos canais de graça e amor em um mundo que tanto precisa.
-Unidos na fé, fortalecendo vidas
-
-Quando caminhamos juntos em fé, nossas atitudes refletem Cristo e fortalecem outros.
-Influenciar positivamente exige escolhas diárias guiadas pelo Espírito Santo, usando palavras sábias e exemplos sinceros que inspiram transformação na vida das pessoas.
-Edificar vidas ao nosso redor significa servir com humildade, oferecer apoio, praticar o perdão e cultivar relacionamentos que revelam o amor de Deus diariamente.
-
-Para orar:
-
-Senhor Deus, ensina-nos a caminhar juntos em amor, fortalecendo uns aos outros na fé. Dá-nos um coração disposto a servir, palavras que edificam e atitudes que refletem Tua graça. Que sejamos instrumentos de paz, levando esperança aos que precisam. Guia-nos diariamente e ajuda-nos a crescer unidos em Ti. Em nome de Jesus, amém.
-
-Veja também: Versículos sobre ajudar o próximo
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A promessa está viva, tome posse dela!
-INFO:root:🔹 URL: https://www.bibliaon.com/promessas_de_deus_para_voce/
-INFO:root:🔹 Description: Há momentos em que a vida parece nos aprisionar em dores; são perdas e pressões. mas, no entanto, a Palavra de Deus nos chama de “prisioneiros da esperança”, não do medo, nem do desespero.
-
-Voltem à sua fortaleza,
-ó prisioneiros da esperança;
-pois hoje mesmo anuncio que restaurarei
-tudo em dobro para vocês.
-- Zacarias 9:12
-
-A luta pode ser difícil, intensa, mas, existe algo dentro de nós que não pode ser acorrentado: a esperança viva no Senhor.
-A fortaleza mencionada no versículo de Zacarias não é um lugar físico, mas um posicionamento espiritual. É voltar para Deus, confiar em Sua fidelidade e descansar em Suas promessas. Muitas vezes, tentamos resolver tudo com nossas próprias forças, mas Deus nos convida a retornar a Ele, onde há proteção, direção e restauração.
-A promessa é clara e poderosa: restituição em dobro. Deus não apenas restaura, Ele surpreende! Aquilo que foi perdido, roubado ou destruído não define o fim da sua história. Em Deus, há recomeço, há abundância e há propósito em cada detalhe.
-Ser um prisioneiro da esperança é escolher crer quando tudo parece impossível. É manter os olhos fixos em Deus quando tudo diz o contrário. É declarar que o melhor ainda está por vir, porque o Senhor é fiel para cumprir tudo o que prometeu.
-Hoje, Deus está chamando você de volta. Volte à fortaleza. Volte ao lugar de fé, de intimidade e de confiança n'Ele. Não importa quão distante você tenha ido ou quão difícil esteja o caminho, há restauração disponível agora.
-Desafio de fé: Hoje, entregue a Deus aquilo que você considera perdido e declare com ousadia: “Eu creio na restituição em dobro!”
-Fique com a esperança
-
-Reflita sobre áreas da sua vida onde perdeu a esperança. Ore entregando cada uma a Deus e escolha confiar, Ele já está trabalhando na sua restauração.
-Pratique voltar à fortaleza da esperança, separe um tempo específico para Deus, fortalecendo sua fé.
-Identifique pensamentos negativos que enfraquecem sua fé. Declare em voz alta que Deus é fiel e poderoso para restaurar tudo aquilo que foi perdido em sua vida.
-
-Para orar:
-
-Senhor, hoje volto à Tua fortaleza com o coração cheio de esperança. Entrego minhas dores, perdas e medos em Tuas mãos. Renova minha fé, fortalece meu espírito e ensina-me a confiar em Ti acima de tudo. Creio na Tua promessa de restauração em dobro. Guia meus passos, sustenta-me em cada desafio e faz nascer um novo tempo em minha vida. Em nome de Jesus, amém.
-
-Veja também: 10 promessas de Deus na Bíblia
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -500,15 +475,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 ++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  26 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  69 ++-----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  23 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |   8 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 139 +++++-------
+ feeds/salmo_do_dia/atom.xml               |  56 ++++--
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 339 +++++++++++++-----------------
- 11 files changed, 282 insertions(+), 348 deletions(-)
+ output.log                                | 307 +++++++++++++-----------------
+ 11 files changed, 243 insertions(+), 306 deletions(-)
