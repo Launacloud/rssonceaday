@@ -1,83 +1,132 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 127060 characters
-INFO:root:HTML parsed, length: 120334 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (14/04/2026)', 'Palavra de Ontem (13/04/2026)', 'Palavra de Anteontem (12/04/2026)']
-INFO:root:Found 3 URLs: ['/clone/', '/gourmet/', '/especial/']
-INFO:root:Found 12 descriptions: ['substantivo masculino [Genética] Conjunto de célul', 'Sinônimos:\n\ncópia, imitação, reprodução, réplica, ', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (14/04/2026)', 'Palavra de Ontem (13/04/2026)', 'Palavra de Anteontem (12/04/2026)']
+INFO:root:Response length: 124884 characters
+INFO:root:HTML parsed, length: 118549 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (15/04/2026)', 'Palavra de Ontem (14/04/2026)', 'Palavra de Anteontem (13/04/2026)']
+INFO:root:Found 3 URLs: ['/jacareiense/', '/clone/', '/gourmet/']
+INFO:root:Found 10 descriptions: ['adjetivo Relativo a Jacareí, município do estado d', 'Classe gramatical:adjetivo de dois gêneros e subst', 'Sílabas:ja-ca-re-i-en-se']
+INFO:root:Found 3 dates: ['Palavra de Hoje (15/04/2026)', 'Palavra de Ontem (14/04/2026)', 'Palavra de Anteontem (13/04/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (14/04/2026)', ID=0b221cbf8d4b9f35ff866f7847a607c9
-INFO:root:Processing entry 2: Title='Palavra de Ontem (13/04/2026)', ID=c3fd4fb9e218c250c25610b5a32c61fc
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/04/2026)', ID=ac6c03fcbad1824ce1f7f0d8bebafc51
+INFO:root:Processing entry 1: Title='Palavra de Hoje (15/04/2026)', ID=fceb1716ccf3350197ee6a455a68d06b
+INFO:root:Processing entry 2: Title='Palavra de Ontem (14/04/2026)', ID=fcf979a8c54eeb88426c90795d5e118e
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (13/04/2026)', ID=fb628f377f824777e4e8e4504c81abe9
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (14/04/2026) - Significado completo de clone:
+INFO:root:🔹 Title: Palavra de Hoje (15/04/2026) - Significado completo de jacareiense:
+INFO:root:🔹 URL: https://www.dicio.com.br/jacareiense/
+INFO:root:🔹 Description: adjetivo Relativo a Jacareí, município do estado de São Paulo.Relativo ou próprio de Conceição de Jacareí, município do estado de Minas Gerais.substantivo masculino e feminino Pessoa natural ou habitante desses municípios.Etimologia (origem da palavra jacareiense). A palavra jacareiense tem sua origem pela junção do topónimo, nome da cidade, Jacareí, e do sufixo -ense.
+ Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (14/04/2026) - Significado completo de clone:
 INFO:root:🔹 URL: https://www.dicio.com.br/clone/
-INFO:root:🔹 Description: substantivo masculino [Genética] Conjunto de células que, geradas por mitose, são geneticamente idênticas à célula original da qual derivam.[Figurado] O que é a cópia de um original, ou que tem semelhanças com ele.[Botânica] Conjunto de descendentes ou fragmentos regenerados, de um único organismo, por reprodução vegetativa.Indivíduo geneticamente idêntico a outro, que resulta de manipulação genética, de procedimentos científicos de clonagem.[Biologia] Cópia de uma molécula de DNA obtida pela inserção de um fragmento dessa molécula num vetor.[Informática] Cópia de um programa de computador (sofware) que tem capacidade para realizar as mesmas funções que seu original.Etimologia (origem da palavra clone). A palavra clone tem sua origem no grego "klón,onós" que significa ramo pequenino, broto; talvez por influência do inglês “clone”, com o mesmo sentido.
+INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+ Sílabas:ja-ca-re-i-en-se
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (13/04/2026) - Significado completo de gourmet:
+INFO:root:🔹 URL: https://www.dicio.com.br/gourmet/
+INFO:root:🔹 Description: Sílabas:ja-ca-re-i-en-se
  
 Sinônimos:
 
 cópia, imitação, reprodução, réplica, repetição, duplicação, duplicado, clono, replica 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (13/04/2026) - Significado completo de gourmet:
-INFO:root:🔹 URL: https://www.dicio.com.br/gourmet/
-INFO:root:🔹 Description: Sinônimos:
-
-cópia, imitação, reprodução, réplica, repetição, duplicação, duplicado, clono, replica
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (12/04/2026) - Significado completo de especial:
-INFO:root:🔹 URL: https://www.dicio.com.br/especial/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:clo-ne
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
-ERROR:root:Network error fetching https://www.example.com/feed/: HTTPSConnectionPool(host='www.example.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
+INFO:root:Response length: 528 characters
+WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 325680 characters
-INFO:root:HTML parsed, length: 316067 characters
-INFO:root:Found 1 titles: ['Gênesis 2:23-24']
-INFO:root:Found 1 URLs: ['/versiculo/genesis_2_23-24/']
-INFO:root:Found 1 descriptions: ['Disse então o homem:\n"Esta, sim, é osso dos meus o']
+INFO:root:Response length: 325775 characters
+INFO:root:HTML parsed, length: 316162 characters
+INFO:root:Found 1 titles: ['Filipenses 4:8']
+INFO:root:Found 1 URLs: ['/versiculo/filipenses_4_8/']
+INFO:root:Found 1 descriptions: ['Finalmente, irmãos, tudo o que for verdadeiro, tud']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Gênesis 2:23-24', ID=6cd88f7d553a2eb300e867c642577a1a
+INFO:root:Processing entry 1: Title='Filipenses 4:8', ID=9ebf84b0e246f845fca9ace6be65f142
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Gênesis 2:23-24
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/genesis_2_23-24/
-INFO:root:🔹 Description: Disse então o homem:
-"Esta, sim, é osso dos meus ossos
-e carne da minha carne!
-Ela será chamada mulher,
-porque do homem foi tirada". Por essa razão, o homem deixará pai e mãe e se unirá à sua mulher, e eles se tornarão uma só carne. Gênesis 2:23-24
+INFO:root:🔹 Title: Filipenses 4:8
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_4_8/
+INFO:root:🔹 Description: Finalmente, irmãos, tudo o que for verdadeiro, tudo o que for nobre, tudo o que for correto, tudo o que for puro, tudo o que for amável, tudo o que for de boa fama, se houver algo de excelente ou digno de louvor, pensem nessas coisas. Filipenses 4:8
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 328261 characters
-INFO:root:HTML parsed, length: 319486 characters
-INFO:root:Found 3 titles: ['Salmo 139', 'Salmo 31', 'Salmo 34']
-INFO:root:Found 3 URLs: ['/salmos_139/', '/salmos_31/', '/salmos_34/']
-INFO:root:Found 3 descriptions: ['Senhor, tu me sondas e me conheces. \nSabes quando ', 'Em ti, Senhor, me refugio;\nnunca permitas que eu s', 'Bendirei o Senhor o tempo todo!\nOs meus lábios sem']
-INFO:root:Found 3 dates: ['14 de Abril de 2026', '13 de Abril de 2026', '12 de Abril de 2026']
+INFO:root:Response length: 328104 characters
+INFO:root:HTML parsed, length: 319329 characters
+INFO:root:Found 3 titles: ['Salmo 147', 'Salmo 139', 'Salmo 31']
+INFO:root:Found 3 URLs: ['/salmos_147/', '/salmos_139/', '/salmos_31/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nComo é bom cantar louvores ao nosso Deus!', 'Senhor, tu me sondas e me conheces. \nSabes quando ', 'Em ti, Senhor, me refugio;\nnunca permitas que eu s']
+INFO:root:Found 3 dates: ['15 de Abril de 2026', '14 de Abril de 2026', '13 de Abril de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 139', ID=a7e635d36a8b14a8c51005103bd4b395
-INFO:root:Processing entry 2: Title=' Salmo 31', ID=c35edf8fc04fcd7848dc48e60fe7e4ea
-INFO:root:Processing entry 3: Title=' Salmo 34', ID=5f5eca0bb8f7313a7526389f25305576
+INFO:root:Processing entry 1: Title=' Salmo 147', ID=dfcb6cf1e08521a2bda738555423051a
+INFO:root:Processing entry 2: Title=' Salmo 139', ID=a7e635d36a8b14a8c51005103bd4b395
+INFO:root:Processing entry 3: Title=' Salmo 31', ID=c35edf8fc04fcd7848dc48e60fe7e4ea
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 147
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_147/
+INFO:root:🔹 Description: Aleluia!
+Como é bom cantar louvores ao nosso Deus!
+Como é agradável e próprio louvá-lo! 
+O Senhor edifica Jerusalém;
+ele reúne os exilados de Israel. 
+Só ele cura os de coração quebrantado
+e cuida das suas feridas. 
+Ele determina o número de estrelas
+e chama cada uma pelo nome. 
+Grande é o nosso Soberano
+e tremendo é o seu poder;
+é impossível medir o seu entendimento. 
+O Senhor sustém o oprimido,
+mas lança por terra o ímpio. 
+Cantem ao Senhor com ações de graças;
+ao som da harpa façam música
+para o nosso Deus. 
+Ele cobre o céu de nuvens,
+concede chuvas à terra
+e faz crescer a relva nas colinas. 
+Ele dá alimento aos animais,
+e aos filhotes dos corvos
+quando gritam de fome. 
+Não é a força do cavalo
+que lhe dá satisfação,
+nem é a agilidade do homem que lhe agrada; 
+o Senhor se agrada dos que o temem,
+dos que depositam sua esperança no seu amor leal. 
+Exalte o Senhor, ó Jerusalém!
+Louve o seu Deus, ó Sião, 
+pois ele reforçou as trancas de suas portas
+e abençoou o seu povo, que lá habita. 
+É ele que mantém as suas fronteiras
+em segurança
+e que a supre do melhor do trigo. 
+Ele envia sua ordem à terra,
+e sua palavra corre veloz. 
+Faz cair a neve como lã,
+e espalha a geada como cinza. 
+Faz cair o gelo como se fosse pedra.
+Quem pode suportar o seu frio? 
+Ele envia a sua palavra, e o gelo derrete;
+envia o seu sopro, e as águas tornam a correr. 
+Ele revela a sua palavra a Jacó,
+os seus decretos e ordenanças a Israel. 
+Ele não fez isso a nenhuma outra nação;
+todas as outras desconhecem
+as suas ordenanças.
+Aleluia! 
+ Salmo 147
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 139
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_139/
 INFO:root:🔹 Description: Senhor, tu me sondas e me conheces. 
@@ -224,110 +273,78 @@ Sejam fortes e corajosos,
 todos vocês que esperam no Senhor! 
  Salmo 31
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 34
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_34/
-INFO:root:🔹 Description: Bendirei o Senhor o tempo todo!
-Os meus lábios sempre o louvarão. 
-Minha alma se gloriará no Senhor;
-ouçam os oprimidos e se alegrem. 
-Proclamem a grandeza do Senhor comigo;
-juntos exaltemos o seu nome. 
-Busquei o Senhor, e ele me respondeu;
-livrou-me de todos os meus temores. 
-Os que olham para ele
-estão radiantes de alegria;
-seu rosto jamais mostrará decepção. 
-Este pobre homem clamou,
-e o Senhor o ouviu;
-e o libertou de todas as suas tribulações. 
-O anjo do Senhor é sentinela ao redor
-daqueles que o temem,
-e os livra. 
-Provem e vejam como o Senhor é bom.
-Como é feliz o homem que nele se refugia! 
-Temam o Senhor,
-vocês que são os seus santos,
-pois nada falta aos que o temem. 
-Os leões podem passar necessidade e fome,
-mas os que buscam o Senhor de nada têm falta. 
-Venham, meus filhos, ouçam-me;
-eu ensinarei a vocês o temor do Senhor. 
-Quem de vocês quer amar a vida
-e deseja ver dias felizes? 
-Guarde a sua língua do mal
-e os seus lábios da falsidade. 
-Afaste-se do mal e faça o bem;
-busque a paz com perseverança. 
-Os olhos do Senhor voltam-se para os justos
-e os seus ouvidos
-estão atentos ao seu grito de socorro; 
-o rosto do Senhor
-volta-se contra os que praticam o mal,
-para apagar da terra a memória deles. 
-Os justos clamam, o Senhor os ouve
-e os livra de todas as suas tribulações. 
-O Senhor está perto
-dos que têm o coração quebrantado
-e salva os de espírito abatido. 
-O justo passa por muitas adversidades,
-mas o Senhor o livra de todas; 
-protege todos os seus ossos;
-nenhum deles será quebrado. 
-A desgraça matará os ímpios;
-os que odeiam o justo serão condenados. 
-O Senhor redime a vida dos seus servos;
-ninguém que nele se refugia será condenado. 
- Salmo 34
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 327081 characters
-INFO:root:HTML parsed, length: 317912 characters
-INFO:root:Found 3 titles: ['Cristo é uma realidade', 'O mundo tem fome de Deus', 'A Palavra de Deus: o alicerce para uma vida organizada']
+INFO:root:Response length: 327146 characters
+INFO:root:HTML parsed, length: 317976 characters
+INFO:root:Found 3 titles: ['Não deixe o conhecimento te afastar da fé', 'Cristo é uma realidade', 'O mundo tem fome de Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['e eis que eu estou convosco todos os dias, até a c', 'Então Jesus declarou: "Eu sou o pão da vida. Aquel', 'A tua palavra é lâmpada\nque ilumina os meus passos']
-INFO:root:Found 1 dates: ['Terça, 14 de abril de 2026']
+INFO:root:Found 3 descriptions: ['Com respeito aos alimentos sacrificados aos ídolos', 'e eis que eu estou convosco todos os dias, até a c', 'Então Jesus declarou: "Eu sou o pão da vida. Aquel']
+INFO:root:Found 1 dates: ['Quarta, 15 de abril de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Cristo é uma realidade', ID=1b0f53c95fde02b43e0f800e9caf9f53
+INFO:root:Processing entry 1: Title='Não deixe o conhecimento te afastar da fé', ID=5e1399a3de7c4eaa4137edeb4cee821f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Cristo é uma realidade - Palavra de Hoje
+INFO:root:🔹 Title: Não deixe o conhecimento te afastar da fé - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: e eis que eu estou convosco todos os dias, até a consumação dos séculos.
-- Mateus 28:20b
+INFO:root:🔹 Description: Com respeito aos alimentos sacrificados aos ídolos, sabemos que todos temos conhecimento. O conhecimento traz orgulho, mas o amor edifica.
+- 1 Coríntios 8:1 
 
-Muitas pessoas enxergam Jesus como alguém distante, quase como um personagem de histórias antigas. Para alguns, Seus milagres parecem lendas, e Sua vida soa como um relato encantador, porém desconectado da realidade. Infelizmente, essa visão limita a verdade mais poderosa do Evangelho: Cristo não é apenas parte do passado, Ele está vivo.
-Jesus não ficou preso às páginas da Bíblia nem aos acontecimentos de dois mil anos atrás. Ele ressuscitou e continua presente hoje, atuando na vida de todos aqueles que O buscam. Sua presença não é simbólica, mas real. Hoje, Ele transforma corações, restaura vidas e dá sentido a histórias que pareciam perdidas.
-É comum pensar que Deus está longe, ocupado demais ou indiferente às nossas dores. Mas Cristo veio justamente para quebrar essa barreira. Ele se aproxima, entende nossas fraquezas e caminha conosco em meio às dificuldades. Não importa o quão distante alguém se sinta, sempre há um caminho de volta, porque Jesus continua chamando.
-Quando abrimos o coração, percebemos que Cristo não é uma ideia, mas uma presença viva. Ele fala por meio da Palavra, consola em momentos de dor e traz paz em meio ao caos. Sua atuação é diária, simples e profunda ao mesmo tempo.
-Cristo é uma realidade acessível. Ele não exige perfeição, mas disposição. Não pede que sejamos fortes, mas que confiemos n'Ele. E, ao fazer isso, nossa história começa a mudar. O que antes parecia sem esperança ganha novo significado.
-Jesus está vivo e pode estar com você agora. Basta abrir o coração e permitir que Ele faça parte da sua vida.
-Veja também: Deus nunca nos abandona.
+Vivemos em um tempo em que o conhecimento é valorizado como nunca. Livros, cursos, estudos e descobertas estão ao alcance de todos. No entanto, quando o conhecimento ocupa o lugar de Deus em nosso coração, ele pode nos conduzir à soberba e, consequentemente, à queda espiritual.
+O conhecimento em si não é ruim; ele é uma dádiva. O problema começa quando passamos a confiar mais na nossa própria compreensão do que na sabedoria divina. É quando pensamos que já sabemos o suficiente e deixamos de buscar a Deus com humildade.
+Esse foi o erro de muitos ao longo da história bíblica. Adão e Eva, por exemplo, desejaram um conhecimento que os tornaria “como Deus”, mas isso os levou à desobediência e à separação do Criador.
+Hoje, isso também acontece de forma mais sutil. Alguém pode estudar tanto a Bíblia de maneira intelectual que esquece de viver seus ensinamentos. Outro pode adquirir tanto conhecimento acadêmico que começa a questionar a fé de maneira arrogante, colocando a razão acima da revelação divina. Assim, o coração se endurece, e a intimidade com Deus se esfria.
+O verdadeiro conhecimento deve nos aproximar de Deus, não nos afastar. Quando entendemos isso, percebemos que, quanto mais aprendemos, mais reconhecemos nossa dependência d'Ele. A humildade passa a caminhar junto com o saber, e a fé se fortalece em vez de enfraquecer.
+Busque conhecimento, mas não perca sua essência espiritual. Permita que tudo o que você aprenda seja filtrado pela presença de Deus. Lembre-se: mais importante do que saber muito é permanecer fiel. Pois o conhecimento pode até impressionar pessoas, mas é a fé que sustenta a alma e nos mantém firmes até o fim.
+Veja também: Versículos de sabedoria.
  
-e eis que eu estou convosco todos os dias, até a consumação dos séculos.
-- Mateus 28:20b
+Com respeito aos alimentos sacrificados aos ídolos, sabemos que todos temos conhecimento. O conhecimento traz orgulho, mas o amor edifica.
+- 1 Coríntios 8:1 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 336169 characters
-INFO:root:HTML parsed, length: 326550 characters
-INFO:root:Found 3 titles: ['Fé e mãos a obra!', 'É hora de se alegrar! Hoje é o seu melhor dia!', 'O orgulho nos afasta de Deus']
-INFO:root:Found 5 URLs: ['/fe_sem_obras_e_morta/', '/frases_biblicas_para_status/', '/bom_dia_abencoado_frases_mensagem/']
-INFO:root:Found 3 descriptions: ['Assim também a fé, por si só, se não for acompanha', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ', 'Entretanto, depois que Uzias se tornou poderoso, o']
-INFO:root:Found 3 dates: ['ABRIL\n\n14\nTERÇA', 'ABRIL\n\n13\nSEGUNDA', 'ABRIL\n\n12\nDOMINGO']
+INFO:root:Response length: 336266 characters
+INFO:root:HTML parsed, length: 326646 characters
+INFO:root:Found 3 titles: ['Deus confronta o pecado com amor', 'Fé e mãos a obra!', 'É hora de se alegrar! Hoje é o seu melhor dia!']
+INFO:root:Found 5 URLs: ['/arrependimento/', '/fe_sem_obras_e_morta/', '/frases_biblicas_para_status/']
+INFO:root:Found 3 descriptions: ['"Você é esse homem!", disse Natã a Davi.\n- 2 Samue', 'Assim também a fé, por si só, se não for acompanha', 'Este é o dia em que o Senhor agiu;\nalegremo-nos e ']
+INFO:root:Found 3 dates: ['ABRIL\n\n15\nQUARTA', 'ABRIL\n\n14\nTERÇA', 'ABRIL\n\n13\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Fé e mãos a obra!', ID=aae1e6c3503895219c98ba63380f6314
-INFO:root:Processing entry 2: Title='É hora de se alegrar! Hoje é o seu melhor dia!', ID=92fdef2880405a3f0c4139eea024cc29
-INFO:root:Processing entry 3: Title='O orgulho nos afasta de Deus', ID=2c43d6304d52db772e72fa70bb5efb06
+INFO:root:Processing entry 1: Title='Deus confronta o pecado com amor', ID=efed8f820a6d231c38155c0b03c588d6
+INFO:root:Processing entry 2: Title='Fé e mãos a obra!', ID=aae1e6c3503895219c98ba63380f6314
+INFO:root:Processing entry 3: Title='É hora de se alegrar! Hoje é o seu melhor dia!', ID=92fdef2880405a3f0c4139eea024cc29
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Deus confronta o pecado com amor
+INFO:root:🔹 URL: https://www.bibliaon.com/arrependimento/
+INFO:root:🔹 Description: "Você é esse homem!", disse Natã a Davi.
+- 2 Samuel 12:7a
+
+A forma como o profeta Natã confronta o rei Davi revela algo profundo sobre o caráter de Deus: Ele não ignora o pecado, mas também não deixa de amar aquele que erra. Em vez de expor Davi de maneira humilhante ou imediata, Natã usa uma parábola. Ele conta a história de um homem rico que, mesmo tendo muitos rebanhos, toma a única ovelha de um homem pobre. Davi se enche de indignação diante daquela injustiça, sem perceber que estava julgando a si mesmo.
+Quando Natã revela: “Tu és este homem”, a verdade não vem como destruição, mas como um espelho. Davi reconhece o seu pecado, se quebra diante de Deus e encontra o caminho do arrependimento. Esse momento mostra que o confronto de Deus não tem como objetivo a condenação, mas a restauração.
+Deus, em sua sabedoria, não ignora o pecado, porque Ele é justo. No entanto, Ele também não abandona o pecador, porque Ele é amor.
+Natã não foi apenas um acusador, mas um instrumento de Deus para trazer Davi de volta ao lugar de humildade e arrependimento. A verdade foi dita com coragem, mas também com sensibilidade, no tempo certo e da forma certa.
+Isso nos ensina que o amor de Deus não é permissivo com o pecado, mas também não é destrutivo com o pecador arrependido. Muitas vezes, Deus também nos confronta por meio da Sua Palavra, de uma mensagem, ou até de situações que nos fazem enxergar aquilo que não queremos ver.
+A história de Davi nos lembra que o pecado pode ser grande, mas o arrependimento sincero abre caminho para a restauração. Deus ainda nos confronta hoje, não para nos afastar, mas para nos trazer de volta para perto Dele, onde há perdão, cura e transformação.
+Quando a verdade de Deus nos chama ao arrependimento
+
+Deus muitas vezes fala conosco de forma sutil, revelando erros ocultos e chamando nossa consciência ao arrependimento e mudança sincera.
+O confronto de Deus não busca destruir, mas restaurar relacionamentos, curar feridas espirituais e nos reconduzir ao caminho da obediência verdadeira.
+Quando reconhecemos nossos erros diante de Deus, experimentamos perdão, renovação espiritual e a oportunidade de recomeçar uma vida transformada por Ele.
+
+Para orar:
+
+Senhor Deus, ensina-me a ouvir a Tua voz como Davi ouviu através de Natã. Dá-me um coração sensível à correção e humilde para reconhecer meus erros. Não me deixes endurecer diante da verdade, mas conduz-me ao arrependimento sincero. Que a Tua graça me restaure e me transforme. Ajuda-me a viver em obediência, caminhando sempre na Tua luz e no Teu amor. Em nome de Jesus, amém.
+
+Veja também: Versículos de arrependimento.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Fé e mãos a obra!
 INFO:root:🔹 URL: https://www.bibliaon.com/fe_sem_obras_e_morta/
 INFO:root:🔹 Description: Assim também a fé, por si só, se não for acompanhada de obras, está morta.
@@ -384,28 +401,6 @@ Frases bíblicas para status
 Bom dia abençoado: 51 mensagens e frases com a paz de Deus
 Frases e palavras de Deus para uma semana abençoada
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O orgulho nos afasta de Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
-INFO:root:🔹 Description: Entretanto, depois que Uzias se tornou poderoso, o seu orgulho provocou a sua queda. Ele foi infiel ao Senhor, o seu Deus, e entrou no templo do Senhor para queimar incenso no altar de incenso.
-- 2 Crônicas 26:16
-
-A história do rei Uzias nos ensina que o orgulho pode nos afastar da presença de Deus. Uzias começou seu reinado buscando ao Senhor, e, enquanto permaneceu dependente d’Ele, prosperou. Deus o abençoou, Uzias com vitórias, sabedoria e reconhecimento. No entanto, à medida que se fortaleceu, seu coração se encheu de orgulho.
-O erro de Uzias não foi apenas sentir-se forte, mas esquecer-se de quem lhe deu a força. O orgulho subiu tanto à cabeça que ele entrou no templo do Senhor carregando incensos, uma função exclusiva dos sacerdotes. Esse ato revelou um coração que já não se submetia à autoridade de Deus.
-Quantas vezes isso também acontece conosco? Começamos bem, dependentes de Deus, orando, buscando direção. Mas, com o tempo, conquistas e habilidades podem nos levar a confiar mais em nós mesmos do que no Senhor. O orgulho se manifesta de forma sutil: na autossuficiência, na falta de oração, na resistência à correção.
-A consequência para Uzias foi dura: ele foi ferido com lepra e viveu isolado até o fim de seus dias. Isso nos mostra que o orgulho não apenas nos distancia de Deus, mas também traz consequências para nossa vida espiritual.
-A boa notícia é que Deus resiste aos soberbos, mas dá graça aos humildes. O caminho de volta sempre passa pela humildade, pelo reconhecimento de que tudo o que temos vem do Senhor. Que possamos aprender com Uzias e manter nosso coração alinhado com Deus, lembrando que a verdadeira força está em permanecer dependente d’Ele.
-O caminho da humildade restaura nossa comunhão com Deus
-
-Reconheça suas limitações diante de Deus, confessando pecados com sinceridade e abandonando toda autossuficiência que impede sua dependência total dEle.
-Busque a presença de Deus em oração, pedindo um coração ensinável, disposto a ouvir, obedecer e aceitar correção sem resistência.
-Pratique a humildade nas atitudes, servindo outras pessoas com amor, reconhecendo que toda honra, capacidade e conquista vêm exclusivamente de Deus.
-
-Para orar:
-
-Senhor Deus, reconheço que muitas vezes o orgulho tem dominado meu coração. Perdoa-me por agir com autossuficiência e esquecer de Ti. Ensina-me a ser humilde, dependente da Tua graça e obediente à Tua vontade. Purifica meus pensamentos e guia meus passos. Que eu viva para Te honrar em tudo. Em nome de Jesus, amém.
-
-Veja também: Versículos sobre buscar a Deus
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -435,15 +430,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  52 +++--
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 +++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  10 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 103 ++++++----
+ feeds/salmo_do_dia/atom.xml               | 106 +++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |  14 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 323 ++++++++++++++++--------------
- 11 files changed, 326 insertions(+), 268 deletions(-)
+ output.log                                | 307 ++++++++++++++----------------
+ 11 files changed, 266 insertions(+), 290 deletions(-)
