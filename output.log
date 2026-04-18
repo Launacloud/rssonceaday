@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 126370 characters
-INFO:root:HTML parsed, length: 119461 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (17/04/2026)', 'Palavra de Ontem (16/04/2026)', 'Palavra de Anteontem (15/04/2026)']
-INFO:root:Found 3 URLs: ['/dosimetria/', '/persuadir/', '/jacareiense/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Medida das doses de radiação ', 'Sinônimos:\n\ndosagem, mensuração, avaliação', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (17/04/2026)', 'Palavra de Ontem (16/04/2026)', 'Palavra de Anteontem (15/04/2026)']
+INFO:root:Response length: 126489 characters
+INFO:root:HTML parsed, length: 119396 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (18/04/2026)', 'Palavra de Ontem (17/04/2026)', 'Palavra de Anteontem (16/04/2026)']
+INFO:root:Found 3 URLs: ['/recursal/', '/dosimetria/', '/persuadir/']
+INFO:root:Found 14 descriptions: ['adjetivo [Jurídico] Referente a recurso, ao meio a', 'Sinônimos:\n\napelativo, impugnativo', 'Classe gramatical:adjetivo de dois gêneros']
+INFO:root:Found 3 dates: ['Palavra de Hoje (18/04/2026)', 'Palavra de Ontem (17/04/2026)', 'Palavra de Anteontem (16/04/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (17/04/2026)', ID=ed42b9a36193ff1bd9d06920657c5cf7
-INFO:root:Processing entry 2: Title='Palavra de Ontem (16/04/2026)', ID=6017f84a070a27ef84ee88c457eef208
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (15/04/2026)', ID=096759fc01a04d2986e9bed8e62de3a3
+INFO:root:Processing entry 1: Title='Palavra de Hoje (18/04/2026)', ID=d3138d63c72650166ec93e936e40d55f
+INFO:root:Processing entry 2: Title='Palavra de Ontem (17/04/2026)', ID=4899999850854a41cf407347709a8804
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/04/2026)', ID=dbe44289a3ed92b54afea85691307916
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (17/04/2026) - Significado completo de dosimetria:
-INFO:root:🔹 URL: https://www.dicio.com.br/dosimetria/
-INFO:root:🔹 Description: substantivo feminino Medida das doses de radiação que um indivíduo ou um ser vivo pode estar exposto.Medida de radiação dada a um sistema, corpo, organismo etc.[Jurídico] Quantificação da pena exata atribuída a quem foi condenado, refere-se ao tempo de prisão, tipo de regime etc.Etimologia (origem da palavra dosimetria). A palavra dosimetria tem sua origem pela junção da palavra dose, do grego “dósis”, e -metria, do grego “métron”, que significa medida.
+INFO:root:🔹 Title: Palavra de Hoje (18/04/2026) - Significado completo de recursal:
+INFO:root:🔹 URL: https://www.dicio.com.br/recursal/
+INFO:root:🔹 Description: adjetivo [Jurídico] Referente a recurso, ao meio através do qual se pode contestar uma sentença judicial.Etimologia (origem da palavra recursal). A palavra recursal tem sua origem pela junção da palavra recurso e do sufixo -al.
  
 Sinônimos:
 
-dosagem, mensuração, avaliação 
+apelativo, impugnativo 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (16/04/2026) - Significado completo de persuadir:
-INFO:root:🔹 URL: https://www.dicio.com.br/persuadir/
+INFO:root:🔹 Title: Palavra de Ontem (17/04/2026) - Significado completo de dosimetria:
+INFO:root:🔹 URL: https://www.dicio.com.br/dosimetria/
 INFO:root:🔹 Description: Sinônimos:
 
-dosagem, mensuração, avaliação
- Classe gramatical:substantivo feminino
+apelativo, impugnativo
+ Classe gramatical:adjetivo de dois gêneros
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (15/04/2026) - Significado completo de jacareiense:
-INFO:root:🔹 URL: https://www.dicio.com.br/jacareiense/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:do-si-me-tri-a
+INFO:root:🔹 Title: Palavra de Anteontem (16/04/2026) - Significado completo de persuadir:
+INFO:root:🔹 URL: https://www.dicio.com.br/persuadir/
+INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros
+ Sílabas:re-cur-sal
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,74 @@ INFO:root:Response length: 528 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 336595 characters
-INFO:root:HTML parsed, length: 326629 characters
-INFO:root:Found 1 titles: ['Efésios 2:8']
-INFO:root:Found 1 URLs: ['/versiculo/efesios_2_8/']
-INFO:root:Found 1 descriptions: ['Pois vocês são salvos pela graça, por meio da fé, ']
+INFO:root:Response length: 336516 characters
+INFO:root:HTML parsed, length: 326550 characters
+INFO:root:Found 1 titles: ['Efésios 1:3']
+INFO:root:Found 1 URLs: ['/versiculo/efesios_1_3/']
+INFO:root:Found 1 descriptions: ['Bendito seja o Deus e Pai de nosso Senhor Jesus Cr']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Efésios 2:8', ID=ce7b8fae0f689623465b2dcc49e3af4f
+INFO:root:Processing entry 1: Title='Efésios 1:3', ID=5ddec14ca5f1d108cb615a4e5237a3cb
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Efésios 2:8
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/efesios_2_8/
-INFO:root:🔹 Description: Pois vocês são salvos pela graça, por meio da fé, e isto não vem de vocês, é dom de Deus; Efésios 2:8
+INFO:root:🔹 Title: Efésios 1:3
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/efesios_1_3/
+INFO:root:🔹 Description: Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, que nos abençoou com todas as bênçãos espirituais nas regiões celestiais em Cristo. Efésios 1:3
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 333338 characters
-INFO:root:HTML parsed, length: 324518 characters
-INFO:root:Found 3 titles: ['Salmo 77', 'Salmo 4', 'Salmo 147']
-INFO:root:Found 3 URLs: ['/salmos_77/', '/salmos_4/', '/salmos_147/']
-INFO:root:Found 3 descriptions: ['Clamo a Deus por socorro;\nclamo a Deus que me escu', 'Responde-me quando clamo,\nó Deus que me fazes just', 'Aleluia!\nComo é bom cantar louvores ao nosso Deus!']
-INFO:root:Found 3 dates: ['17 de Abril de 2026', '16 de Abril de 2026', '15 de Abril de 2026']
+INFO:root:Response length: 332709 characters
+INFO:root:HTML parsed, length: 323881 characters
+INFO:root:Found 3 titles: ['Salmo 28', 'Salmo 77', 'Salmo 4']
+INFO:root:Found 3 URLs: ['/salmos_28/', '/salmos_77/', '/salmos_4/']
+INFO:root:Found 3 descriptions: ['A ti eu clamo, Senhor, minha Rocha;\nnão fiques ind', 'Clamo a Deus por socorro;\nclamo a Deus que me escu', 'Responde-me quando clamo,\nó Deus que me fazes just']
+INFO:root:Found 3 dates: ['18 de Abril de 2026', '17 de Abril de 2026', '16 de Abril de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 77', ID=14fad9419be27a1af032aca0794e57dd
-INFO:root:Processing entry 2: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
-INFO:root:Processing entry 3: Title=' Salmo 147', ID=dfcb6cf1e08521a2bda738555423051a
+INFO:root:Processing entry 1: Title=' Salmo 28', ID=78b7dee7d237c8a96fe45379c63d7e92
+INFO:root:Processing entry 2: Title=' Salmo 77', ID=14fad9419be27a1af032aca0794e57dd
+INFO:root:Processing entry 3: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 28
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_28/
+INFO:root:🔹 Description: A ti eu clamo, Senhor, minha Rocha;
+não fiques indiferente para comigo.
+Se permaneceres calado,
+serei como os que descem à cova. 
+Ouve as minhas súplicas
+quando clamo a ti por socorro,
+quando ergo as mãos
+para o teu Lugar Santíssimo. 
+Não me dês o castigo reservado para os ímpios
+e para os malfeitores,
+que falam como amigos com o próximo,
+mas abrigam maldade no coração. 
+Retribui-lhes conforme os seus atos,
+conforme as suas más obras;
+retribui-lhes o que as suas mãos têm feito
+e dá-lhes o que merecem. 
+Visto que não consideram os feitos do Senhor
+nem as obras de suas mãos,
+ele os arrasará e jamais os deixará reerguer-se. 
+Bendito seja o Senhor,
+pois ouviu as minhas súplicas. 
+O Senhor é a minha força e o meu escudo;
+nele o meu coração confia, e dele recebo ajuda.
+Meu coração exulta de alegria,
+e com o meu cântico lhe darei graças. 
+O Senhor é a força do seu povo,
+a fortaleza que salva o seu ungido. 
+Salva o teu povo e abençoa a tua herança!
+Cuida deles como o seu pastor
+e conduze-os para sempre. 
+ Salmo 28
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 77
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_77/
 INFO:root:🔹 Description: Clamo a Deus por socorro;
@@ -157,108 +191,85 @@ pois só tu, Senhor,
 me fazes viver em segurança. 
  Salmo 4
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 147
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_147/
-INFO:root:🔹 Description: Aleluia!
-Como é bom cantar louvores ao nosso Deus!
-Como é agradável e próprio louvá-lo! 
-O Senhor edifica Jerusalém;
-ele reúne os exilados de Israel. 
-Só ele cura os de coração quebrantado
-e cuida das suas feridas. 
-Ele determina o número de estrelas
-e chama cada uma pelo nome. 
-Grande é o nosso Soberano
-e tremendo é o seu poder;
-é impossível medir o seu entendimento. 
-O Senhor sustém o oprimido,
-mas lança por terra o ímpio. 
-Cantem ao Senhor com ações de graças;
-ao som da harpa façam música
-para o nosso Deus. 
-Ele cobre o céu de nuvens,
-concede chuvas à terra
-e faz crescer a relva nas colinas. 
-Ele dá alimento aos animais,
-e aos filhotes dos corvos
-quando gritam de fome. 
-Não é a força do cavalo
-que lhe dá satisfação,
-nem é a agilidade do homem que lhe agrada; 
-o Senhor se agrada dos que o temem,
-dos que depositam sua esperança no seu amor leal. 
-Exalte o Senhor, ó Jerusalém!
-Louve o seu Deus, ó Sião, 
-pois ele reforçou as trancas de suas portas
-e abençoou o seu povo, que lá habita. 
-É ele que mantém as suas fronteiras
-em segurança
-e que a supre do melhor do trigo. 
-Ele envia sua ordem à terra,
-e sua palavra corre veloz. 
-Faz cair a neve como lã,
-e espalha a geada como cinza. 
-Faz cair o gelo como se fosse pedra.
-Quem pode suportar o seu frio? 
-Ele envia a sua palavra, e o gelo derrete;
-envia o seu sopro, e as águas tornam a correr. 
-Ele revela a sua palavra a Jacó,
-os seus decretos e ordenanças a Israel. 
-Ele não fez isso a nenhuma outra nação;
-todas as outras desconhecem
-as suas ordenanças.
-Aleluia! 
- Salmo 147
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 337500 characters
-INFO:root:HTML parsed, length: 327977 characters
-INFO:root:Found 3 titles: ['A alegria de poder chamá-lo de Abba, Pai', 'A fé que transforma lágrimas em milagres', 'Não deixe o conhecimento te afastar da fé']
+INFO:root:Response length: 337267 characters
+INFO:root:HTML parsed, length: 327742 characters
+INFO:root:Found 3 titles: ['Você recebeu um e-mail de Jesus', 'A alegria de poder chamá-lo de Abba, Pai', 'A fé que transforma lágrimas em milagres']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Pois vocês não receberam um espírito que os escrav', 'Era este menino que eu pedia, e o Senhor concedeu-', 'Com respeito aos alimentos sacrificados aos ídolos']
-INFO:root:Found 1 dates: ['Sexta, 17 de abril de 2026']
+INFO:root:Found 3 descriptions: ['E-mail: jesus@te.ama\nAssunto: Estou aqui por você\n', 'Pois vocês não receberam um espírito que os escrav', 'Era este menino que eu pedia, e o Senhor concedeu-']
+INFO:root:Found 1 dates: ['Sábado, 18 de abril de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A alegria de poder chamá-lo de Abba, Pai', ID=d2a1d8a7a10fa80cb5e61f2a46f814dd
+INFO:root:Processing entry 1: Title='Você recebeu um e-mail de Jesus', ID=329d11ffbe207dfbb612d0432b455ee6
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A alegria de poder chamá-lo de Abba, Pai - Palavra de Hoje
+INFO:root:🔹 Title: Você recebeu um e-mail de Jesus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Pois vocês não receberam um espírito que os escravize para novamente temerem, mas receberam o Espírito que os torna filhos por adoção, por meio do qual clamamos: "Aba, Pai".
-- Romanos 8:15
+INFO:root:🔹 Description: E-mail: jesus@te.ama
+Assunto: Estou aqui por você
+Olá,
+Se você está lendo esta mensagem, não é por acaso. Eu conheço o seu coração, cada dúvida silenciosa e cada esperança que você guarda. Eu vi suas lutas, suas noites difíceis e também os momentos em que você pensou em desistir. E ainda assim, estou aqui, escrevendo para você.
+Talvez você ache que precisa mudar antes de se aproximar de mim. Talvez pense que não é digno, ou que já foi longe demais. Mas eu te digo: venha como está. Não espere estar perfeito. Eu não procuro perfeição, procuro um coração disposto a ser aperfeiçoado por mim.
+Eu nunca deixei de caminhar ao seu lado, mesmo quando você não percebeu ou não reconheceu... Em cada passo incerto, em cada queda, minha mão esteve estendida. Confie em mim, mesmo quando não entender o caminho. Há um propósito maior sendo construído, mesmo nos momentos de dor.
+Eu te ofereço paz, não como o mundo dá, mas uma paz que permanece mesmo no caos. Eu te ofereço descanso para sua alma cansada e esperança para os dias que parecem sem cor. Você não precisa carregar tudo sozinho; posso carregar este fardo contigo.
+Abra seu coração hoje. Fale comigo. Eu escuto até os pensamentos que você não consegue expressar em palavras. Entregue suas preocupações, seus medos, seus sonhos. Eu cuido de você.
+Aceite meu amor. Confie em mim. Caminhe comigo.
+Estou esperando por você, sempre.
+Com amor eterno,
+Jesus
 
-Existe uma ternura especial, um sentimento profundo e genuíno, que desperta quando ouvimos uma criança pequena chamar seu pai de "Papai" ou "Papai". São palavras simples, mas repletas de confiança e amor. Essas expressões revelam proximidade, segurança e um relacionamento vibrante entre pai e filho.
-Na Bíblia, encontramos o termo Abba três vezes. Essa palavra aramaica transmite precisamente essa mistura de intimidade, respeito e profundo amor por nosso Pai Celestial. Não é um título distante ou frio, mas uma expressão do coração de uma criança que sabe que é amada.
-É muito significativo que, em seu momento de maior agonia, Jesus tenha usado esse termo para se dirigir ao Pai (Marcos 14:36). Em meio à dor, angústia e sofrimento, Jesus se voltou para o Pai com total confiança. Ele tinha certeza de que seu Abba o amava, o ouvia e estava com ele, mesmo em sua hora mais sombria.
-Ainda mais surpreendente é saber que nós também, em nossos momentos de dificuldade, podemos clamar a Deus, dizendo: "Abba! Pai!" Podemos nos aproximar Dele com total confiança, pois, como o Pai amoroso que Ele é, não nos abandona em meio aos nossos problemas nem nos deixa sozinhos em nossas angústias.
-Não precisamos viver com medo ao nos aproximarmos de Deus, como se fôssemos rejeitados ou repreendidos por nossas fraquezas. Em Cristo, fomos adotados como filhos, e um bom Pai jamais fecha o coração ao clamor sincero de seus filhos. Podemos vir exatamente como somos, com nossos fardos, dúvidas e feridas, sabendo que seremos recebidos com amor.
-Nosso Pai Celestial está atento à nossa voz. Ele caminha conosco em cada processo, mesmo quando não conseguimos vê-Lo claramente. Chamá-Lo de Abba nos lembra que não enfrentamos a vida sozinhos: temos um Pai que nos ouve, nos acompanha e age em meio a cada situação. Em Seu amor fiel, Ele nos sustenta e nos sustentará até o fim!
-Veja também: Pai Nosso explicado passo a passo (Estudo Bíblico)
+Vinde a mim, todos os que estai cansados e oprimidos, e eu vos aliviarei.
+- Mateus 11:28
+
+Veja também: Versículos que mostram que Jesus me ama
  
-Pois vocês não receberam um espírito que os escravize para novamente temerem, mas receberam o Espírito que os torna filhos por adoção, por meio do qual clamamos: "Aba, Pai".
-- Romanos 8:15
+Vinde a mim, todos os que estai cansados e oprimidos, e eu vos aliviarei.
+- Mateus 11:28
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 347113 characters
-INFO:root:HTML parsed, length: 337150 characters
-INFO:root:Found 3 titles: ['Quando a pressa nos afasta de Deus', 'Trabalhe, mas também descanse', 'Deus confronta o pecado com amor']
-INFO:root:Found 3 URLs: ['/a_historia_de_joabe/', '/descanso/', '/arrependimento/']
-INFO:root:Found 3 descriptions: ['O homem paciente\ndá prova de grande entendimento,\n', '"Venham a mim, todos os que estão cansados e sobre', '"Você é esse homem!", disse Natã a Davi.\n- 2 Samue']
-INFO:root:Found 3 dates: ['ABRIL\n\n17\nSEXTA', 'ABRIL\n\n16\nQUINTA', 'ABRIL\n\n15\nQUARTA']
+INFO:root:Response length: 347115 characters
+INFO:root:HTML parsed, length: 337152 characters
+INFO:root:Found 3 titles: ['Em Deus não há contradição', 'Quando a pressa nos afasta de Deus', 'Trabalhe, mas também descanse']
+INFO:root:Found 3 URLs: ['/inteligencia/', '/a_historia_de_joabe/', '/descanso/']
+INFO:root:Found 3 descriptions: ['Pois Deus não é Deus de desordem, mas de paz. Como', 'O homem paciente\ndá prova de grande entendimento,\n', '"Venham a mim, todos os que estão cansados e sobre']
+INFO:root:Found 3 dates: ['ABRIL\n\n18\nSÁBADO', 'ABRIL\n\n17\nSEXTA', 'ABRIL\n\n16\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Quando a pressa nos afasta de Deus', ID=29b9c16908631a8451e7b890f17e18fa
-INFO:root:Processing entry 2: Title='Trabalhe, mas também descanse', ID=1347e0bd509ef50f8a1f4d0cfaca8441
-INFO:root:Processing entry 3: Title='Deus confronta o pecado com amor', ID=efed8f820a6d231c38155c0b03c588d6
+INFO:root:Processing entry 1: Title='Em Deus não há contradição', ID=81c35b3d29b2cdbda8c537aacb2dc40e
+INFO:root:Processing entry 2: Title='Quando a pressa nos afasta de Deus', ID=29b9c16908631a8451e7b890f17e18fa
+INFO:root:Processing entry 3: Title='Trabalhe, mas também descanse', ID=1347e0bd509ef50f8a1f4d0cfaca8441
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Em Deus não há contradição
+INFO:root:🔹 URL: https://www.bibliaon.com/inteligencia/
+INFO:root:🔹 Description: Pois Deus não é Deus de desordem, mas de paz. Como em todas as congregações dos santos,
+- 1 Coríntios 14:33
+
+O caráter de Deus é perfeito, imutável e absolutamente coerente. Nele não há sombra de variação, nem duplicidade de intenções. Tudo o que Deus faz está em plena harmonia com quem Ele é: santo, justo, amoroso e verdadeiro.
+Diferente do ser humano, que muitas vezes age de forma contraditória, Deus permanece fiel em todos os Seus caminhos. Sua essência não muda e Suas promessas não falham.
+Essa clareza do caráter de Deus também se revela em Sua Palavra. A Bíblia não é um conjunto confuso de ideias, mas uma expressão viva da verdade de Deus. Quando a lemos e buscamos entendimento por meio do Espírito Santo, encontramos sabedoria e discernimento para nossa vida diária. Deus não deseja que vivamos em dúvida ou engano, mas que caminhemos na luz do Seu conhecimento.
+As armadilhas do maligno sempre se apresentam por meio da confusão, da distorção da verdade e das meias-verdades. Desde o período de Gênesis, o inimigo tenta semear dúvida no coração humano, questionando aquilo que Deus já estabeleceu com clareza. Porém, quando estamos firmados na Palavra e conhecemos o caráter de Deus, conseguimos identificar essas ciladas e resistir a elas.
+Viver segundo a verdade de Deus nos dá segurança. Sua Palavra é lâmpada para os nossos pés e luz para o nosso caminho. Quando confiamos nela, não somos levados por ventos de falsas doutrinas nem por sentimentos enganosos. Em Deus há direção segura, propósito definido e paz constante.
+Busquemos conhecer mais a Deus, mergulhar em Sua Palavra e alinhar nossa vida com a Sua verdade. Assim, permaneceremos firmes, longe da confusão, e caminharemos com confiança na perfeita vontade daquele em quem não há contradição.
+Deus nos conduz com segurança em meio à confusão do mundo
+
+Busque ler a palavra de Deus permita que o Senhor revele Sua verdade e alinhe seus pensamentos à vontade d'Ele.
+Desenvolva discernimento espiritual, comparando tudo que ouve com as Escrituras, evitando enganos e fortalecendo sua fé na verdade absoluta de Deus.
+Mantenha uma vida de comunhão com Deus, cultivando intimidade através da oração constante, para permanecer firme contra as investidas do maligno.
+
+Para orar:
+
+Senhor Deus, Tu és a verdade que não muda e a luz que guia meus passos. Dá-me discernimento para reconhecer o que vem de Ti e rejeitar toda confusão. Fortalece minha fé, guarda meu coração e conduz minha vida segundo a Tua Palavra. Livra-me das armadilhas do maligno e firma-me na Tua paz. Em nome de Jesus, amém.
+
+Veja também: Versículos de sabedoria e inteligência (para crescer em discernimento)
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Quando a pressa nos afasta de Deus
 INFO:root:🔹 URL: https://www.bibliaon.com/a_historia_de_joabe/
 INFO:root:🔹 Description: O homem paciente
@@ -306,29 +317,6 @@ Senhor Deus, entrego a Ti minha vida cansada e sobrecarregada. Ensina-me a confi
 
 Veja também: Versículos sobre descanso
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Deus confronta o pecado com amor
-INFO:root:🔹 URL: https://www.bibliaon.com/arrependimento/
-INFO:root:🔹 Description: "Você é esse homem!", disse Natã a Davi.
-- 2 Samuel 12:7a
-
-A forma como o profeta Natã confronta o rei Davi revela algo profundo sobre o caráter de Deus: Ele não ignora o pecado, mas também não deixa de amar aquele que erra. Em vez de expor Davi de maneira humilhante ou imediata, Natã usa uma parábola. Ele conta a história de um homem rico que, mesmo tendo muitos rebanhos, toma a única ovelha de um homem pobre. Davi se enche de indignação diante daquela injustiça, sem perceber que estava julgando a si mesmo.
-Quando Natã revela: “Tu és este homem”, a verdade não vem como destruição, mas como um espelho. Davi reconhece o seu pecado, se quebra diante de Deus e encontra o caminho do arrependimento. Esse momento mostra que o confronto de Deus não tem como objetivo a condenação, mas a restauração.
-Deus, em sua sabedoria, não ignora o pecado, porque Ele é justo. No entanto, Ele também não abandona o pecador, porque Ele é amor.
-Natã não foi apenas um acusador, mas um instrumento de Deus para trazer Davi de volta ao lugar de humildade e arrependimento. A verdade foi dita com coragem, mas também com sensibilidade, no tempo certo e da forma certa.
-Isso nos ensina que o amor de Deus não é permissivo com o pecado, mas também não é destrutivo com o pecador arrependido. Muitas vezes, Deus também nos confronta por meio da Sua Palavra, de uma mensagem, ou até de situações que nos fazem enxergar aquilo que não queremos ver.
-A história de Davi nos lembra que o pecado pode ser grande, mas o arrependimento sincero abre caminho para a restauração. Deus ainda nos confronta hoje, não para nos afastar, mas para nos trazer de volta para perto Dele, onde há perdão, cura e transformação.
-Quando a verdade de Deus nos chama ao arrependimento
-
-Deus muitas vezes fala conosco de forma sutil, revelando erros ocultos e chamando nossa consciência ao arrependimento e mudança sincera.
-O confronto de Deus não busca destruir, mas restaurar relacionamentos, curar feridas espirituais e nos reconduzir ao caminho da obediência verdadeira.
-Quando reconhecemos nossos erros diante de Deus, experimentamos perdão, renovação espiritual e a oportunidade de recomeçar uma vida transformada por Ele.
-
-Para orar:
-
-Senhor Deus, ensina-me a ouvir a Tua voz como Davi ouviu através de Natã. Dá-me um coração sensível à correção e humilde para reconhecer meus erros. Não me deixes endurecer diante da verdade, mas conduz-me ao arrependimento sincero. Que a Tua graça me restaure e me transforme. Ajuda-me a viver em obediência, caminhando sempre na Tua luz e no Teu amor. Em nome de Jesus, amém.
-
-Veja também: Versículos de arrependimento.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -358,15 +346,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  21 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  29 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 116 +++++------
+ feeds/salmo_do_dia/atom.xml               |  85 ++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 315 ++++++++++++++----------------
- 11 files changed, 265 insertions(+), 315 deletions(-)
+ output.log                                | 284 ++++++++++++++----------------
+ 11 files changed, 241 insertions(+), 277 deletions(-)
