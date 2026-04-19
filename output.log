@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 126489 characters
-INFO:root:HTML parsed, length: 119396 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (18/04/2026)', 'Palavra de Ontem (17/04/2026)', 'Palavra de Anteontem (16/04/2026)']
-INFO:root:Found 3 URLs: ['/recursal/', '/dosimetria/', '/persuadir/']
-INFO:root:Found 14 descriptions: ['adjetivo [Jurídico] Referente a recurso, ao meio a', 'Sinônimos:\n\napelativo, impugnativo', 'Classe gramatical:adjetivo de dois gêneros']
-INFO:root:Found 3 dates: ['Palavra de Hoje (18/04/2026)', 'Palavra de Ontem (17/04/2026)', 'Palavra de Anteontem (16/04/2026)']
+INFO:root:Response length: 124284 characters
+INFO:root:HTML parsed, length: 117581 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (19/04/2026)', 'Palavra de Ontem (18/04/2026)', 'Palavra de Anteontem (17/04/2026)']
+INFO:root:Found 3 URLs: ['/agendamento/', '/recursal/', '/dosimetria/']
+INFO:root:Found 12 descriptions: ['substantivo masculino Ação ou efeito de agendar, d', 'Sinônimos:\n\nprogramação, reservação, planejamento,', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (19/04/2026)', 'Palavra de Ontem (18/04/2026)', 'Palavra de Anteontem (17/04/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (18/04/2026)', ID=d3138d63c72650166ec93e936e40d55f
-INFO:root:Processing entry 2: Title='Palavra de Ontem (17/04/2026)', ID=4899999850854a41cf407347709a8804
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/04/2026)', ID=dbe44289a3ed92b54afea85691307916
+INFO:root:Processing entry 1: Title='Palavra de Hoje (19/04/2026)', ID=7ae52a6c6ab0042eed92303f354a2827
+INFO:root:Processing entry 2: Title='Palavra de Ontem (18/04/2026)', ID=7bd6f8de4f661dd5ad97052178bd9d09
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (17/04/2026)', ID=5232de6ebe65cc351c43d21ab36b41f9
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (18/04/2026) - Significado completo de recursal:
-INFO:root:🔹 URL: https://www.dicio.com.br/recursal/
-INFO:root:🔹 Description: adjetivo [Jurídico] Referente a recurso, ao meio através do qual se pode contestar uma sentença judicial.Etimologia (origem da palavra recursal). A palavra recursal tem sua origem pela junção da palavra recurso e do sufixo -al.
+INFO:root:🔹 Title: Palavra de Hoje (19/04/2026) - Significado completo de agendamento:
+INFO:root:🔹 URL: https://www.dicio.com.br/agendamento/
+INFO:root:🔹 Description: substantivo masculino Ação ou efeito de agendar, de marcar um compromisso ou um evento na data e no horário determinados: farei o agendamento da sua consulta.Conjunto de compromissos agendados: o agendamento da doutora está lotado.Inclusão de uma pauta, assunto ou tema para discussão em uma reunião ou conselho: o agendamento da reforma tributária está confirmado.Etimologia (origem da palavra agendamento). A palavra agendamento tem sua origem no latim "agenda", significando coisas que devem ser feitas, e -mento, sufixo para ação ou resultado da ação.
  
 Sinônimos:
 
-apelativo, impugnativo 
+programação, reservação, planejamento, marcação, agenda, organização, cronograma, alocação, distribuição, coordenação, previsão 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (17/04/2026) - Significado completo de dosimetria:
-INFO:root:🔹 URL: https://www.dicio.com.br/dosimetria/
+INFO:root:🔹 Title: Palavra de Ontem (18/04/2026) - Significado completo de recursal:
+INFO:root:🔹 URL: https://www.dicio.com.br/recursal/
 INFO:root:🔹 Description: Sinônimos:
 
-apelativo, impugnativo
- Classe gramatical:adjetivo de dois gêneros
+programação, reservação, planejamento, marcação, agenda, organização, cronograma, alocação, distribuição, coordenação, previsão
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (16/04/2026) - Significado completo de persuadir:
-INFO:root:🔹 URL: https://www.dicio.com.br/persuadir/
-INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros
- Sílabas:re-cur-sal
+INFO:root:🔹 Title: Palavra de Anteontem (17/04/2026) - Significado completo de dosimetria:
+INFO:root:🔹 URL: https://www.dicio.com.br/dosimetria/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:a-gen-da-men-to
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,93 @@ INFO:root:Response length: 528 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 336516 characters
-INFO:root:HTML parsed, length: 326550 characters
-INFO:root:Found 1 titles: ['Efésios 1:3']
-INFO:root:Found 1 URLs: ['/versiculo/efesios_1_3/']
-INFO:root:Found 1 descriptions: ['Bendito seja o Deus e Pai de nosso Senhor Jesus Cr']
+INFO:root:Response length: 336687 characters
+INFO:root:HTML parsed, length: 326721 characters
+INFO:root:Found 1 titles: ['1 Coríntios 13:12']
+INFO:root:Found 1 URLs: ['/versiculo/1_corintios_13_12/']
+INFO:root:Found 1 descriptions: ['Agora, pois, vemos apenas um reflexo obscuro, como']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Efésios 1:3', ID=5ddec14ca5f1d108cb615a4e5237a3cb
+INFO:root:Processing entry 1: Title='1 Coríntios 13:12', ID=96954d82919772f3665aea5b3b55a01c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Efésios 1:3
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/efesios_1_3/
-INFO:root:🔹 Description: Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, que nos abençoou com todas as bênçãos espirituais nas regiões celestiais em Cristo. Efésios 1:3
+INFO:root:🔹 Title: 1 Coríntios 13:12
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_corintios_13_12/
+INFO:root:🔹 Description: Agora, pois, vemos apenas um reflexo obscuro, como em espelho; mas, então, veremos face a face. Agora conheço em parte; então, conhecerei plenamente, da mesma forma com que sou plenamente conhecido. 1 Coríntios 13:12
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 332709 characters
-INFO:root:HTML parsed, length: 323881 characters
-INFO:root:Found 3 titles: ['Salmo 28', 'Salmo 77', 'Salmo 4']
-INFO:root:Found 3 URLs: ['/salmos_28/', '/salmos_77/', '/salmos_4/']
-INFO:root:Found 3 descriptions: ['A ti eu clamo, Senhor, minha Rocha;\nnão fiques ind', 'Clamo a Deus por socorro;\nclamo a Deus que me escu', 'Responde-me quando clamo,\nó Deus que me fazes just']
-INFO:root:Found 3 dates: ['18 de Abril de 2026', '17 de Abril de 2026', '16 de Abril de 2026']
+INFO:root:Response length: 333598 characters
+INFO:root:HTML parsed, length: 324784 characters
+INFO:root:Found 3 titles: ['Salmo 90', 'Salmo 28', 'Salmo 77']
+INFO:root:Found 3 URLs: ['/salmos_90/', '/salmos_28/', '/salmos_77/']
+INFO:root:Found 3 descriptions: ['Senhor, tu és o nosso refúgio, sempre,\nde geração ', 'A ti eu clamo, Senhor, minha Rocha;\nnão fiques ind', 'Clamo a Deus por socorro;\nclamo a Deus que me escu']
+INFO:root:Found 3 dates: ['19 de Abril de 2026', '18 de Abril de 2026', '17 de Abril de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 28', ID=78b7dee7d237c8a96fe45379c63d7e92
-INFO:root:Processing entry 2: Title=' Salmo 77', ID=14fad9419be27a1af032aca0794e57dd
-INFO:root:Processing entry 3: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
+INFO:root:Processing entry 1: Title=' Salmo 90', ID=d178cec5e87ab7f471246c4a0929f7d6
+INFO:root:Processing entry 2: Title=' Salmo 28', ID=78b7dee7d237c8a96fe45379c63d7e92
+INFO:root:Processing entry 3: Title=' Salmo 77', ID=14fad9419be27a1af032aca0794e57dd
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 90
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_90/
+INFO:root:🔹 Description: Senhor, tu és o nosso refúgio, sempre,
+de geração em geração. 
+Antes de nascerem os montes
+e de criares a terra e o mundo,
+de eternidade a eternidade tu és Deus. 
+Fazes os homens voltarem ao pó,
+dizendo: "Retornem ao pó, seres humanos!" 
+De fato, mil anos para ti
+são como o dia de ontem que passou,
+como as horas da noite. 
+Como uma correnteza, tu arrastas os homens;
+são breves como o sono;
+são como a relva que brota ao amanhecer; 
+germina e brota pela manhã,
+mas, à tarde, murcha e seca. 
+Somos consumidos pela tua ira
+e aterrorizados pelo teu furor. 
+Conheces as nossas iniquidades;
+não escapam os nossos pecados secretos
+à luz da tua presença. 
+Todos os nossos dias passam
+debaixo do teu furor;
+vão-se como um murmúrio. 
+Os anos de nossa vida chegam a setenta,
+ou a oitenta para os que têm mais vigor;
+entretanto, são anos difíceis
+e cheios de sofrimento,
+pois a vida passa depressa,
+e nós voamos! 
+Quem conhece o poder da tua ira?
+Pois o teu furor é tão grande
+como o temor que te é devido. 
+Ensina-nos a contar os nossos dias
+para que o nosso coração alcance sabedoria. 
+Volta-te, Senhor! Até quando será assim?
+Tem compaixão dos teus servos! 
+Satisfaze-nos pela manhã
+com o teu amor leal,
+e todos os nossos dias cantaremos felizes. 
+Dá-nos alegria pelo tempo que nos afligiste,
+pelos anos em que tanto sofremos. 
+Sejam manifestos os teus feitos
+aos teus servos,
+e aos filhos deles o teu esplendor! 
+Esteja sobre nós a bondade
+do nosso Deus Soberano.
+Consolida, para nós,
+a obra de nossas mãos;
+consolida a obra de nossas mãos! 
+ Salmo 90
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 28
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_28/
 INFO:root:🔹 Description: A ti eu clamo, Senhor, minha Rocha;
@@ -161,92 +214,78 @@ Guiaste o teu povo como a um rebanho
 pela mão de Moisés e de Arão. 
  Salmo 77
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 4
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_4/
-INFO:root:🔹 Description: Responde-me quando clamo,
-ó Deus que me fazes justiça!
-Dá-me alívio da minha angústia;
-tem misericórdia de mim
-e ouve a minha oração. 
-Até quando vocês, ó poderosos,
-ultrajarão a minha honra?
-Até quando estarão amando ilusões
-e buscando mentiras? 
-Saibam que o Senhor escolheu o piedoso;
-o Senhor ouvirá quando eu o invocar. 
-Quando vocês ficarem irados, não pequem;
-ao deitar-se, reflitam nisso
-e aquietem-se. 
-Ofereçam sacrifícios como Deus exige
-e confiem no Senhor. 
-Muitos perguntam:
-"Quem nos fará desfrutar o bem?"
-Faze, ó Senhor, resplandecer sobre nós
-a luz do teu rosto! 
-Encheste o meu coração de alegria,
-alegria maior do que a daqueles
-que têm fartura de trigo e de vinho. 
-Em paz me deito e logo adormeço,
-pois só tu, Senhor,
-me fazes viver em segurança. 
- Salmo 4
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 337267 characters
-INFO:root:HTML parsed, length: 327742 characters
-INFO:root:Found 3 titles: ['Você recebeu um e-mail de Jesus', 'A alegria de poder chamá-lo de Abba, Pai', 'A fé que transforma lágrimas em milagres']
+INFO:root:Response length: 338876 characters
+INFO:root:HTML parsed, length: 329350 characters
+INFO:root:Found 3 titles: ['A coragem não ignora o medo;\xa0ela o enfrenta com fé', 'Você recebeu um e-mail de Jesus', 'A alegria de poder chamá-lo de Abba, Pai']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['E-mail: jesus@te.ama\nAssunto: Estou aqui por você\n', 'Pois vocês não receberam um espírito que os escrav', 'Era este menino que eu pedia, e o Senhor concedeu-']
-INFO:root:Found 1 dates: ['Sábado, 18 de abril de 2026']
+INFO:root:Found 3 descriptions: ['Sejam fortes e corajosos. Não tenham medo nem fiqu', 'E-mail: jesus@te.ama\nAssunto: Estou aqui por você\n', 'Pois vocês não receberam um espírito que os escrav']
+INFO:root:Found 1 dates: ['Domingo, 19 de abril de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Você recebeu um e-mail de Jesus', ID=329d11ffbe207dfbb612d0432b455ee6
+INFO:root:Processing entry 1: Title='A coragem não ignora o medo; ela o enfrenta com fé', ID=6812c5921821697a7e1be25a9eb46141
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Você recebeu um e-mail de Jesus - Palavra de Hoje
+INFO:root:🔹 Title: A coragem não ignora o medo; ela o enfrenta com fé - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: E-mail: jesus@te.ama
-Assunto: Estou aqui por você
-Olá,
-Se você está lendo esta mensagem, não é por acaso. Eu conheço o seu coração, cada dúvida silenciosa e cada esperança que você guarda. Eu vi suas lutas, suas noites difíceis e também os momentos em que você pensou em desistir. E ainda assim, estou aqui, escrevendo para você.
-Talvez você ache que precisa mudar antes de se aproximar de mim. Talvez pense que não é digno, ou que já foi longe demais. Mas eu te digo: venha como está. Não espere estar perfeito. Eu não procuro perfeição, procuro um coração disposto a ser aperfeiçoado por mim.
-Eu nunca deixei de caminhar ao seu lado, mesmo quando você não percebeu ou não reconheceu... Em cada passo incerto, em cada queda, minha mão esteve estendida. Confie em mim, mesmo quando não entender o caminho. Há um propósito maior sendo construído, mesmo nos momentos de dor.
-Eu te ofereço paz, não como o mundo dá, mas uma paz que permanece mesmo no caos. Eu te ofereço descanso para sua alma cansada e esperança para os dias que parecem sem cor. Você não precisa carregar tudo sozinho; posso carregar este fardo contigo.
-Abra seu coração hoje. Fale comigo. Eu escuto até os pensamentos que você não consegue expressar em palavras. Entregue suas preocupações, seus medos, seus sonhos. Eu cuido de você.
-Aceite meu amor. Confie em mim. Caminhe comigo.
-Estou esperando por você, sempre.
-Com amor eterno,
-Jesus
+INFO:root:🔹 Description: Sejam fortes e corajosos. Não tenham medo nem fiquem apavorados por causa delas, pois o Senhor, o seu Deus, vai com vocês; nunca os deixará, nunca os abandonará".
+- Deuteronômio 31:6
 
-Vinde a mim, todos os que estai cansados e oprimidos, e eu vos aliviarei.
-- Mateus 11:28
-
-Veja também: Versículos que mostram que Jesus me ama
+A coragem não ignora o medo; ela o enfrenta com fé. A história de Davi ilustra isso de forma marcante. Ainda jovem, sem experiência de guerra, ele decidiu encarar Golias, um guerreiro temido por todos. Enquanto soldados treinados recuavam, Davi avançou com passos firmes, não por confiar em si mesmo, mas por saber em quem confiava.
+Davi não negou a realidade do perigo. Ele simplesmente não permitiu que o medo fosse maior do que sua fé. Sua determinação nasceu de um relacionamento com Deus, cultivado no silêncio dos campos, longe dos olhares, onde aprendeu a depender do Senhor nas pequenas batalhas antes de enfrentar a maior delas.
+Essa mesma lógica se aplica à nossa vida. Há momentos em que os desafios parecem desproporcionais. Nessas horas, a tendência é recuar ou esperar condições ideais. Mas a fé nos convida a dar um passo, mesmo quando tudo ainda parece incerto.
+Ser determinado não é insistir por orgulho, mas permanecer firme por convicção. É seguir adiante com o coração alinhado a Deus, mesmo quando não há garantias visíveis. Coragem, nesse sentido, é escolher confiar todos os dias.
+Davi usou o que tinha em mãos. Não tentou ser outra pessoa, nem buscou atalhos. Ele foi fiel ao que Deus já havia colocado em sua vida. Isso nos lembra que não precisamos de recursos extraordinários para viver algo extraordinário, precisamos apenas de fé e disposição para agir.
+Quando confiamos em Deus, damos espaço para que Ele transforme nossas limitações em instrumentos de vitória. E, assim como Davi, descobrimos que um coração firme pode vencer até os maiores gigantes.
+Veja também: Estudo sobre Davi e Golias: lições de como Davi derrotou o gigante
  
-Vinde a mim, todos os que estai cansados e oprimidos, e eu vos aliviarei.
-- Mateus 11:28
+Sejam fortes e corajosos. Não tenham medo nem fiquem apavorados por causa delas, pois o Senhor, o seu Deus, vai com vocês; nunca os deixará, nunca os abandonará".
+- Deuteronômio 31:6
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 347115 characters
-INFO:root:HTML parsed, length: 337152 characters
-INFO:root:Found 3 titles: ['Em Deus não há contradição', 'Quando a pressa nos afasta de Deus', 'Trabalhe, mas também descanse']
-INFO:root:Found 3 URLs: ['/inteligencia/', '/a_historia_de_joabe/', '/descanso/']
-INFO:root:Found 3 descriptions: ['Pois Deus não é Deus de desordem, mas de paz. Como', 'O homem paciente\ndá prova de grande entendimento,\n', '"Venham a mim, todos os que estão cansados e sobre']
-INFO:root:Found 3 dates: ['ABRIL\n\n18\nSÁBADO', 'ABRIL\n\n17\nSEXTA', 'ABRIL\n\n16\nQUINTA']
+INFO:root:Response length: 347058 characters
+INFO:root:HTML parsed, length: 337094 characters
+INFO:root:Found 3 titles: ['Desbloqueando a mente', 'Em Deus não há contradição', 'Quando a pressa nos afasta de Deus']
+INFO:root:Found 3 URLs: ['/renovacao/', '/inteligencia/', '/a_historia_de_joabe/']
+INFO:root:Found 3 descriptions: ['Pois Deus não nos deu espírito de covardia, mas de', 'Pois Deus não é Deus de desordem, mas de paz. Como', 'O homem paciente\ndá prova de grande entendimento,\n']
+INFO:root:Found 3 dates: ['ABRIL\n\n19\nDOMINGO', 'ABRIL\n\n18\nSÁBADO', 'ABRIL\n\n17\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Em Deus não há contradição', ID=81c35b3d29b2cdbda8c537aacb2dc40e
-INFO:root:Processing entry 2: Title='Quando a pressa nos afasta de Deus', ID=29b9c16908631a8451e7b890f17e18fa
-INFO:root:Processing entry 3: Title='Trabalhe, mas também descanse', ID=1347e0bd509ef50f8a1f4d0cfaca8441
+INFO:root:Processing entry 1: Title='Desbloqueando a mente', ID=cc5efcec84c9e92e8f34f9c7d4d2a84e
+INFO:root:Processing entry 2: Title='Em Deus não há contradição', ID=81c35b3d29b2cdbda8c537aacb2dc40e
+INFO:root:Processing entry 3: Title='Quando a pressa nos afasta de Deus', ID=29b9c16908631a8451e7b890f17e18fa
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Desbloqueando a mente
+INFO:root:🔹 URL: https://www.bibliaon.com/renovacao/
+INFO:root:🔹 Description: Pois Deus não nos deu espírito de covardia, mas de poder, de amor e de equilíbrio.
+- 2 Timóteo 1:7
+
+A mente é um dos campos de batalha mais intensos da vida espiritual. É nela que pensamentos são plantados, dúvidas são alimentadas e decisões são formadas. O maligno sabe disso e, por isso, trabalha constantemente para bloquear nossa mente, tentando nos paralisar com medo, ansiedade e culpa. Quando cedemos a esses ataques, deixamos de avançar para o propósito e as promessas que Deus preparou para nós.
+Muitas vezes, esses bloqueios vêm disfarçados de pensamentos aparentemente inofensivos: “você não é capaz”, “não vai dar certo”, “Deus não se importa”. Aos poucos, essas ideias criam barreiras invisíveis que nos impedem o crescimento espiritual. Até queremos avançar, mas nos sentimos travados, sem forças para agir.
+Podemos ter como exemplo a vida de Moisés. Quando Deus o chamou para libertar o povo do Egito, sua mente foi imediatamente tomada pela insegurança. Ele apresentou várias desculpas, dizendo que não era eloquente e que não seria ouvido.
+O bloqueio de Moisés não estava em sua capacidade, mas na forma como ele se via, velho, gago, incapacitado. Você se vê assim também? Deus não aceitou aquela limitação mental como definitiva. Ele mostrou a Moisés que o poder não vinha dele, mas do próprio Deus, e o capacitou para cumprir a missão.
+Deus continua sendo aquele que desbloqueia mentes. Quando nos voltamos para Ele em fé, Sua verdade substitui a mentira, Sua paz vence a ansiedade e Sua graça nos liberta do peso do pecado.
+Deus não apenas nos chama para avançar, mas também renova nossa mente. Em Sua presença, o medo perde força, a ansiedade é aquietada e encontramos coragem para viver o melhor que Ele preparou.
+Libertando-se do que nos limita
+
+Renove sua mente pela Palavra de Deus, pois a verdade liberta e fortalece sua fé.
+Ore entregando suas ansiedades ao Senhor, porque Ele cuida de você e traz paz ao coração, quebrando ciclos de medo e insegurança.
+Afaste-se do pecado e busque viver em santidade, pois o pecado aprisiona a mente, mas a obediência a Deus traz liberdade e transformação.
+
+Para orar:
+
+Senhor Deus, entrego a Ti minha mente e meu coração. Liberta-me de todo medo, ansiedade e pensamentos que me paralisam. Renova meu interior com Tua verdade e enche-me com Tua paz. Dá-me força para vencer o pecado e coragem para avançar em Teus caminhos. Que eu confie em Ti plenamente, sabendo que tens o melhor para minha vida. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre Renovação.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Em Deus não há contradição
 INFO:root:🔹 URL: https://www.bibliaon.com/inteligencia/
 INFO:root:🔹 Description: Pois Deus não é Deus de desordem, mas de paz. Como em todas as congregações dos santos,
@@ -295,28 +334,6 @@ Senhor Deus, reconheço que muitas vezes ajo com pressa e sigo meus próprios im
 
 Veja também: A história de Joabe.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Trabalhe, mas também descanse
-INFO:root:🔹 URL: https://www.bibliaon.com/descanso/
-INFO:root:🔹 Description: "Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.
-- Mateus 11:28 
-
-Vivemos em uma cultura que exalta o trabalho acima de tudo. Produzir, performar, alcançar resultados; essas se tornaram as medidas de valor, inclusive dentro de algumas igrejas. Muitas vezes, a fé é vivida como uma corrida de desempenho espiritual: quanto mais fazemos, mais pensamos que agradamos a Deus. No entanto, essa mentalidade está distante do coração do Evangelho.
-A própria Palavra nos lembra que o descanso não é luxo, mas necessidade. Deus não apenas trabalha, Ele também descansa e nos convida a fazer o mesmo. Há beleza em uma caminhada no parque, em um passeio de barco, em um mergulho refrescante ou até mesmo em um simples cochilo ao ar livre. Esses momentos não são perda de tempo; são expressões de confiança em Deus, reconhecendo que Ele já fez e continua fazendo muito mais do que nós poderíamos realizar.
-A falta de descanso cobra um preço alto. A mente se torna ansiosa, o corpo se desgasta e a alma se distancia da paz. O excesso de atividade pode nos tornar produtivos por fora, mas vazios por dentro. Sem pausas, perdemos a sensibilidade à presença de Deus e passamos a viver no automático.
-A Bíblia nos convida a uma vida equilibrada, em que trabalho e descanso caminham juntos. Ao desacelerarmos, abrimos espaço para ouvir a voz de Deus, renovar nossas forças e lembrar que não somos definidos pelo que fazemos, mas por quem somos n'Ele.
-Descansar também é um ato de fé. É reconhecer que Deus está no controle e que a vida pode ser leve quando confiamos n'Ele. 
-Descansar é confiar que Deus continua agindo enquanto paramos 
-
-Separe um tempo semanal para desacelerar, desligando-se de tarefas e telas, permitindo que sua mente e corpo se renovem na presença de Deus.
-Inclua momentos simples de prazer na rotina, como caminhar ao ar livre, contemplar a natureza ou descansar, reconhecendo essas pausas como presentes divinos para sua alma.
-Relembre diariamente que sua identidade não está no desempenho, mas em Deus, meditando na Palavra e entregando a Ele suas cargas e expectativas.
-
-Para orar: 
-
-Senhor Deus, entrego a Ti minha vida cansada e sobrecarregada. Ensina-me a confiar mais em Ti do que no meu próprio esforço. Ajuda-me a desacelerar, a encontrar descanso em Tua presença e a valorizar os pequenos momentos que o Senhor preparou para mim. Renova minha mente, fortalece meu corpo e acalma meu coração. Que eu viva com leveza, sabendo que Tu estás no controle de tudo. Em nome de Jesus, amém.
-
-Veja também: Versículos sobre descanso
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -346,15 +363,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  29 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  29 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  85 ++++-----
+ feeds/salmo_do_dia/atom.xml               |  81 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 284 ++++++++++++++----------------
- 11 files changed, 241 insertions(+), 277 deletions(-)
+ output.log                                | 279 +++++++++++++++---------------
+ 11 files changed, 265 insertions(+), 243 deletions(-)
