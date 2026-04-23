@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 125884 characters
-INFO:root:HTML parsed, length: 118859 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (22/04/2026)', 'Palavra de Ontem (21/04/2026)', 'Palavra de Anteontem (20/04/2026)']
-INFO:root:Found 3 URLs: ['/alameda/', '/coelho/', '/canhoto/']
-INFO:root:Found 14 descriptions: ['substantivo feminino Rua repleta de fileiras de ár', 'Sinônimos:\n\nparque, avenida, passarela, passeio, s', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (22/04/2026)', 'Palavra de Ontem (21/04/2026)', 'Palavra de Anteontem (20/04/2026)']
+INFO:root:Response length: 125338 characters
+INFO:root:HTML parsed, length: 118495 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (23/04/2026)', 'Palavra de Ontem (22/04/2026)', 'Palavra de Anteontem (21/04/2026)']
+INFO:root:Found 3 URLs: ['/lixeira/', '/alameda/', '/coelho/']
+INFO:root:Found 13 descriptions: ['substantivo feminino Local onde se coloca o lixo; ', 'Sinônimos:\n\nesterqueira, alfurja, monturo, alfuja,', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (23/04/2026)', 'Palavra de Ontem (22/04/2026)', 'Palavra de Anteontem (21/04/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (22/04/2026)', ID=99cf996dd17ef7d0105a4a0c2698f95a
-INFO:root:Processing entry 2: Title='Palavra de Ontem (21/04/2026)', ID=917ffbb7883e1a52f0475a8875b2719f
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/04/2026)', ID=034c58a093b72657b87502fd9ef9e72d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (23/04/2026)', ID=7b10fd547a557039e1d6a44cbc0b0a22
+INFO:root:Processing entry 2: Title='Palavra de Ontem (22/04/2026)', ID=e8adee62c747b8bb4d0971176c27069a
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/04/2026)', ID=6eada5e980321f22728a92b87aa792b5
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (22/04/2026) - Significado completo de alameda:
-INFO:root:🔹 URL: https://www.dicio.com.br/alameda/
-INFO:root:🔹 Description: substantivo feminino Rua repleta de fileiras de árvores plantadas em suas bordas.Rua ornada de álamos; terreno plantado de álamos (árvore alta, de tronco reto e folhas ovais).Local arborizado; parque, passeio.Etimologia (origem da palavra alameda). A palavra alameda tem sua origem pela junção de álamo, e do sufixo -eda.
+INFO:root:🔹 Title: Palavra de Hoje (23/04/2026) - Significado completo de lixeira:
+INFO:root:🔹 URL: https://www.dicio.com.br/lixeira/
+INFO:root:🔹 Description: substantivo feminino Local onde se coloca o lixo; lixo.Lugar repugnante, asqueroso.[Figurado] Conduto vertical, que abrange a altura de um edifício, e no qual se lança o lixo doméstico de cada andar.Etimologia (origem da palavra lixeira). A palavra lixeira com sentido de lixo, tem sua origem pela junção de lixo, e do sufixo -eira.substantivo feminino [Regionalismo: Mato Grosso e Mato Grosso do Sul] Nome comum dado ao cajueiro-bravo; cajupeba, cambarba, craibeira, penteeira, pentieira, sambaíba.Etimologia (origem da palavra lixeira). A palavra lixeira com sentido de cajueiro tem sua origem pela junção de lixa, e do sufixo -eira.
  
 Sinônimos:
 
-parque, avenida, passarela, passeio, souto 
+esterqueira, alfurja, monturo, alfuja, busilhão, cadoz, chafurda 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (21/04/2026) - Significado completo de coelho:
-INFO:root:🔹 URL: https://www.dicio.com.br/coelho/
+INFO:root:🔹 Title: Palavra de Ontem (22/04/2026) - Significado completo de alameda:
+INFO:root:🔹 URL: https://www.dicio.com.br/alameda/
 INFO:root:🔹 Description: Sinônimos:
 
-parque, avenida, passarela, passeio, souto
+esterqueira, alfurja, monturo, alfuja, busilhão, cadoz, chafurda
  Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (20/04/2026) - Significado completo de canhoto:
-INFO:root:🔹 URL: https://www.dicio.com.br/canhoto/
+INFO:root:🔹 Title: Palavra de Anteontem (21/04/2026) - Significado completo de coelho:
+INFO:root:🔹 URL: https://www.dicio.com.br/coelho/
 INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:a-la-me-da
+ Sílabas:li-xei-ra
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,102 @@ INFO:root:Response length: 528 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 339661 characters
-INFO:root:HTML parsed, length: 329695 characters
-INFO:root:Found 1 titles: ['3 João 1:11']
-INFO:root:Found 1 URLs: ['/versiculo/3_joao_1_11/']
-INFO:root:Found 1 descriptions: ['Amado, não imite o que é mau, mas sim o que é bom.']
+INFO:root:Response length: 339501 characters
+INFO:root:HTML parsed, length: 329535 characters
+INFO:root:Found 1 titles: ['Provérbios 14:26']
+INFO:root:Found 1 URLs: ['/versiculo/proverbios_14_26/']
+INFO:root:Found 1 descriptions: ['Aquele que teme o Senhor\npossui uma fortaleza segu']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='3 João 1:11', ID=11dc34989a233907e185ad077c8727e7
+INFO:root:Processing entry 1: Title='Provérbios 14:26', ID=d60bdfbeed4c5097ecd60d4283f89e98
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 3 João 1:11
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/3_joao_1_11/
-INFO:root:🔹 Description: Amado, não imite o que é mau, mas sim o que é bom. Aquele que faz o bem é de Deus; aquele que faz o mal não viu a Deus. 3 João 1:11
+INFO:root:🔹 Title: Provérbios 14:26
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_14_26/
+INFO:root:🔹 Description: Aquele que teme o Senhor
+possui uma fortaleza segura,
+refúgio para os seus filhos. Provérbios 14:26
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 340021 characters
-INFO:root:HTML parsed, length: 331265 characters
-INFO:root:Found 3 titles: ['Salmo 106', 'Salmo 63', 'Salmo 102']
-INFO:root:Found 3 URLs: ['/salmos_106/', '/salmos_63/', '/salmos_102/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nDeem graças ao Senhor porque ele é bom;\no', 'Ó Deus, tu és o meu Deus,\neu te busco intensamente', 'Ouve a minha oração, Senhor!\nChegue a ti o meu gri']
-INFO:root:Found 3 dates: ['22 de Abril de 2026', '21 de Abril de 2026', '20 de Abril de 2026']
+INFO:root:Response length: 339417 characters
+INFO:root:HTML parsed, length: 330649 characters
+INFO:root:Found 3 titles: ['Salmo 94', 'Salmo 106', 'Salmo 63']
+INFO:root:Found 3 URLs: ['/salmos_94/', '/salmos_106/', '/salmos_63/']
+INFO:root:Found 3 descriptions: ['Ó Senhor, Deus vingador;\nDeus vingador! Intervém! ', 'Aleluia!\nDeem graças ao Senhor porque ele é bom;\no', 'Ó Deus, tu és o meu Deus,\neu te busco intensamente']
+INFO:root:Found 3 dates: ['23 de Abril de 2026', '22 de Abril de 2026', '21 de Abril de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 106', ID=72d02b08d54e5be369d917261872f13c
-INFO:root:Processing entry 2: Title=' Salmo 63', ID=f0010b8e8f70e3e74affd7797680d0c6
-INFO:root:Processing entry 3: Title=' Salmo 102', ID=f3f93203bf47edc3fa3727bdb061891a
+INFO:root:Processing entry 1: Title=' Salmo 94', ID=1d8e97580a5987dd308a0faca1ecf59b
+INFO:root:Processing entry 2: Title=' Salmo 106', ID=72d02b08d54e5be369d917261872f13c
+INFO:root:Processing entry 3: Title=' Salmo 63', ID=f0010b8e8f70e3e74affd7797680d0c6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 94
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_94/
+INFO:root:🔹 Description: Ó Senhor, Deus vingador;
+Deus vingador! Intervém! 
+Levanta-te, Juiz da terra;
+retribui aos orgulhosos o que merecem. 
+Até quando os ímpios, Senhor,
+até quando os ímpios exultarão? 
+Eles despejam palavras arrogantes;
+todos esses malfeitores enchem-se de vanglória. 
+Massacram o teu povo, Senhor,
+e oprimem a tua herança; 
+matam as viúvas e os estrangeiros,
+assassinam os órfãos 
+e ainda dizem: "O Senhor não nos vê;
+o Deus de Jacó nada percebe". 
+Insensatos, procurem entender!
+E vocês, tolos, quando se tornarão sábios? 
+Será que quem fez o ouvido não ouve?
+Será que quem formou o olho não vê? 
+Aquele que disciplina as nações
+os deixará sem castigo?
+Não tem sabedoria aquele
+que dá ao homem o conhecimento? 
+O Senhor conhece
+os pensamentos do homem,
+e sabe como são fúteis. 
+Como é feliz o homem a quem disciplinas,
+Senhor,
+aquele a quem ensinas a tua lei; 
+tranquilo, enfrentará os dias maus,
+enquanto, para os ímpios,
+uma cova se abrirá. 
+O Senhor não desamparará o seu povo;
+jamais abandonará a sua herança. 
+Voltará a haver justiça nos julgamentos,
+e todos os retos de coração a seguirão. 
+Quem se levantará a meu favor
+contra os ímpios?
+Quem ficará a meu lado contra os malfeitores? 
+Não fosse a ajuda do Senhor,
+eu já estaria habitando no silêncio. 
+Quando eu disse:
+Os meus pés escorregaram,
+o teu amor leal, Senhor, me amparou! 
+Quando a ansiedade
+já me dominava no íntimo,
+o teu consolo trouxe alívio à minha alma. 
+Poderá um trono corrupto
+estar em aliança contigo?,
+um trono que faz injustiças em nome da lei? 
+Eles planejam contra a vida dos justos
+e condenam os inocentes à morte. 
+Mas o Senhor é a minha torre segura;
+o meu Deus é a rocha em que encontro refúgio. 
+Deus fará cair sobre eles os seus crimes,
+e os destruirá por causa dos seus pecados;
+o Senhor, o nosso Deus, os destruirá! 
+ Salmo 94
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 106
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_106/
 INFO:root:🔹 Description: Aleluia!
@@ -236,132 +298,79 @@ o louvarão,
 mas a boca dos mentirosos será tapada. 
  Salmo 63
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 102
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_102/
-INFO:root:🔹 Description: Ouve a minha oração, Senhor!
-Chegue a ti o meu grito de socorro! 
-Não escondas de mim o teu rosto
-quando estou atribulado.
-Inclina para mim os teus ouvidos;
-quando eu clamar, responde-me depressa! 
-Esvaem-se os meus dias como fumaça;
-meus ossos queimam como brasas vivas. 
-Como a relva ressequida está o meu coração;
-esqueço até de comer! 
-De tanto gemer estou reduzido a pele e osso. 
-Sou como a coruja do deserto,
-como uma coruja entre as ruínas. 
-Não consigo dormir;
-pareço um pássaro solitário no telhado. 
-Os meus inimigos zombam de mim
-o tempo todo;
-os que me insultam usam o meu nome
-para lançar maldições. 
-Cinzas são a minha comida,
-e com lágrimas misturo o que bebo, 
-por causa da tua indignação e da tua ira,
-pois me rejeitaste e me expulsaste
-para longe de ti. 
-Meus dias são como sombras crescentes;
-sou como a relva que vai murchando. 
-Tu, porém, Senhor,
-no trono reinarás para sempre;
-o teu nome será lembrado
-de geração em geração. 
-Tu te levantarás e terás misericórdia de Sião,
-pois é hora de lhe mostrares compaixão;
-o tempo certo é chegado. 
-Pois as suas pedras são amadas
-pelos teus servos,
-as suas ruínas os enchem de compaixão. 
-Então as nações temerão o nome do Senhor
-e todos os reis da terra a sua glória. 
-Porque o Senhor reconstruirá Sião
-e se manifestará na glória que ele tem. 
-Responderá à oração dos desamparados;
-as suas súplicas não desprezará. 
-Escreva-se isto para as futuras gerações,
-e um povo que ainda será criado
-louvará o Senhor, proclamando: 
-"Do seu santuário nas alturas o Senhor olhou;
-dos céus observou a terra, 
-para ouvir os gemidos dos prisioneiros
-e libertar os condenados à morte". 
-Assim o nome do Senhor
-será anunciado em Sião
-e o seu louvor em Jerusalém, 
-quando os povos e os reinos
-se reunirem para adorar o Senhor. 
-No meio da minha vida
-ele me abateu com sua força;
-abreviou os meus dias. 
-Então pedi:
-"Ó meu Deus, não me leves
-no meio dos meus dias.
-Os teus dias duram por todas as gerações!" 
-No princípio firmaste os fundamentos da terra,
-e os céus são obras das tuas mãos. 
-Eles perecerão, mas tu permanecerás;
-envelhecerão como vestimentas.
-Como roupas tu os trocarás
-e serão jogados fora. 
-Mas tu permaneces o mesmo,
-e os teus dias jamais terão fim. 
-Os filhos dos teus servos
-terão uma habitação;
-os seus descendentes serão estabelecidos
-na tua presença. 
- Salmo 102
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 340505 characters
-INFO:root:HTML parsed, length: 330984 characters
-INFO:root:Found 3 titles: ['Quando abrimos espaço para Deus, Ele transforma nossa história', 'A arrogância precede a queda', 'Poder, orgulho e queda']
+INFO:root:Response length: 340459 characters
+INFO:root:HTML parsed, length: 330936 characters
+INFO:root:Found 3 titles: ['Prepare-se para o melhor', 'Quando abrimos espaço para Deus, Ele transforma nossa história', 'A arrogância precede a queda']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Em vista disso, ela disse ao marido: "Sei que esse', 'O orgulho vem antes da destruição;\no espírito alti', 'Antes da sua queda\no coração do homem se envaidece']
-INFO:root:Found 1 dates: ['Quarta, 22 de abril de 2026']
+INFO:root:Found 3 descriptions: ['Deus não trabalha com improviso. Mesmo quando você', 'Em vista disso, ela disse ao marido: "Sei que esse', 'O orgulho vem antes da destruição;\no espírito alti']
+INFO:root:Found 1 dates: ['Quinta, 23 de abril de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Quando abrimos espaço para Deus, Ele transforma nossa história', ID=acd9cee4a9ef920970400503d8b3b0ce
+INFO:root:Processing entry 1: Title='Prepare-se para o melhor', ID=959e0916c3d9533f9a758bb5b43168c7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Quando abrimos espaço para Deus, Ele transforma nossa história - Palavra de Hoje
+INFO:root:🔹 Title: Prepare-se para o melhor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Em vista disso, ela disse ao marido: "Sei que esse homem que sempre vem aqui é um santo homem de Deus. Vamos construir lá em cima um quartinho de tijolos e colocar nele uma cama, uma mesa, uma cadeira e uma lamparina para ele. Assim, sempre que nos visitar ele poderá ocupá-lo".
-- 2 Reis 4:9-10
+INFO:root:🔹 Description: Deus não trabalha com improviso. Mesmo quando você não vê, Ele já está preparando o melhor para a sua vida. Essa verdade não ignora as lutas, mas dá sentido a elas.
 
-A história da mulher sunamita nos ensina uma lição profunda sobre sensibilidade, generosidade e fé. Ela percebeu algo que muitos ignorariam: aquele homem que passava por sua casa não era apenas um viajante comum, mas um servo de Deus. Esse discernimento não veio de palavras bonitas, mas de um coração atento à presença de Deus no cotidiano.
-Movida por essa certeza, ela não ficou apenas na admiração. Sua fé se transformou em atitude. Com o marido, decidiu preparar um quarto simples, mas completo: cama, mesa, cadeira e lamparina. Nada luxuoso, mas tudo necessário. Esse gesto revela que honrar a Deus não exige grandes riquezas, e sim disposição sincera de servir com o que temos.
-Cada objeto naquele quarto carrega um significado. A cama fala de descanso; a mesa, de comunhão; a cadeira, de permanência; e a lamparina, de luz. Quando abrimos espaço para Deus em nossa vida, Ele traz descanso para a alma cansada, fortalece nossos relacionamentos, nos ensina a permanecer firmes e ilumina nossos caminhos escuros.
-Muitas vezes esperamos milagres grandiosos, mas esquecemos que eles começam com pequenas atitudes de obediência. A mulher sunamita não pediu nada em troca. Ainda assim, sua hospitalidade abriu portas para uma intervenção sobrenatural de Deus em sua história.
-Temos reconhecido a presença de Deus em nossa rotina? Temos preparado um “quarto” para Ele em nosso coração, em nossa casa, em nosso tempo?
-Quando fazemos espaço para Deus, Ele nunca entra de mãos vazias. Sua presença sempre transforma, restaura e gera vida onde antes havia apenas rotina. Que aprendamos a servir com simplicidade, fé e amor, confiando que Deus honra aqueles que O honram.
-Veja também: A história da mulher sunamita
+Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
+- Jeremias 29:11
+
+Pense em José, no livro de Gênesis. Ele recebeu um sonho de Deus, mas o caminho foi difícil. Seus irmãos o venderam, ele foi injustiçado no Egito e passou anos na prisão. Nada disso parecia “o melhor”. Ainda assim, Deus estava agindo em cada detalhe.
+Em Gênesis 50:20, José diz algo profundo aos seus irmãos: “Vocês planejaram o mal contra mim, mas Deus o tornou em bem”. José não romantiza o sofrimento. Ele reconhece a dor, mas também enxerga a mão de Deus conduzindo tudo.
+Talvez você esteja em um momento parecido. As coisas não saíram como você esperava. Planos foram interrompidos. Pessoas decepcionaram. É aqui que a fé se torna prática. Confiar não é negar a realidade, é lembrar que Deus continua presente nela.
+Como cristãos, sabemos que Deus usa até o que parece perdido. Romanos 8:28 afirma que todas as coisas cooperam para o bem daqueles que amam a Deus. Isso não significa que tudo é bom, mas que Deus pode transformar tudo.
+Preparar-se para o melhor não é viver em ilusão. Deus está mais interessado em formar o seu caráter do que apenas resolver situações. Hoje, você pode dar um passo simples: confiar de novo. Entregar aquilo que você não controla. Assim como fez com José, Deus continua escrevendo histórias de redenção. O melhor de Deus nem sempre chega rápido, mas sempre chega no tempo certo.
+Veja também: 3 etapas na vida de José do Egito (Estudo Bíblico)
  
-Em vista disso, ela disse ao marido: "Sei que esse homem que sempre vem aqui é um santo homem de Deus. Vamos construir lá em cima um quartinho de tijolos e colocar nele uma cama, uma mesa, uma cadeira e uma lamparina para ele. Assim, sempre que nos visitar ele poderá ocupá-lo".
-- 2 Reis 4:9-10
+Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
+- Jeremias 29:11
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 350595 characters
-INFO:root:HTML parsed, length: 340628 characters
-INFO:root:Found 3 titles: ['Entre a dúvida e a fé, escolha confiar', 'Onde a mente encontra refúgio', 'Sinais do fim, um novo início']
-INFO:root:Found 5 URLs: ['/salmos_de_protecao/', '/oracao_de_agradecimento_a_deus/', '/o_fim_do_mundo_vem_ai/']
-INFO:root:Found 3 descriptions: ['Agora, pois, vemos apenas um reflexo obscuro, como', 'Há um tipo de segurança que não depende de portas ', 'Vocês ouvirão falar de guerras e rumores de guerra']
-INFO:root:Found 3 dates: ['ABRIL\n\n22\nQUARTA', 'ABRIL\n\n21\nTERÇA', 'ABRIL\n\n20\nSEGUNDA']
+INFO:root:Response length: 349712 characters
+INFO:root:HTML parsed, length: 339749 characters
+INFO:root:Found 3 titles: ['O que significa "nada me faltará" para você?', 'Entre a dúvida e a fé, escolha confiar', 'Onde a mente encontra refúgio']
+INFO:root:Found 3 URLs: ['/salmo_23_completo_explicacao_versiculo_a_versiculo/', '/salmos_de_protecao/', '/oracao_de_agradecimento_a_deus/']
+INFO:root:Found 3 descriptions: ['O Senhor é o meu pastor; nada me faltará.\n- Salmos', 'Agora, pois, vemos apenas um reflexo obscuro, como', 'Há um tipo de segurança que não depende de portas ']
+INFO:root:Found 3 dates: ['ABRIL\n\n23\nQUINTA', 'ABRIL\n\n22\nQUARTA', 'ABRIL\n\n21\nTERÇA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Entre a dúvida e a fé, escolha confiar', ID=f23b738863d895666dde9875a816ad36
-INFO:root:Processing entry 2: Title='Onde a mente encontra refúgio', ID=7eb7f12cbbe1ae9b30c0df49c371935c
-INFO:root:Processing entry 3: Title='Sinais do fim, um novo início', ID=c4e5441b3b3b6f46461572b885344e81
+INFO:root:Processing entry 1: Title='O que significa "nada me faltará" para você?', ID=8e41450930d03af6219e9c3ce2989c93
+INFO:root:Processing entry 2: Title='Entre a dúvida e a fé, escolha confiar', ID=f23b738863d895666dde9875a816ad36
+INFO:root:Processing entry 3: Title='Onde a mente encontra refúgio', ID=7eb7f12cbbe1ae9b30c0df49c371935c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O que significa "nada me faltará" para você?
+INFO:root:🔹 URL: https://www.bibliaon.com/salmo_23_completo_explicacao_versiculo_a_versiculo/
+INFO:root:🔹 Description: O Senhor é o meu pastor; nada me faltará.
+- Salmos 23:1
+
+O que significa, de fato, declarar que “nada me faltará”? Muitas pessoas leem esse versículo com uma expectativa em alcançar prosperidade material, como se fosse uma promessa de riqueza, conforto e ausência de problemas. Mas será que essa é a intenção original desse poderoso salmo? Será que nossa percepção não está limitada àquilo que vemos e desejamos no mundo físico?
+O Salmo 23 foi escrito por Davi, um pastor que conhecia o cuidado, a proteção e a provisão necessárias para conduzir suas ovelhas. Ao chamar o Senhor de seu pastor, Davi estava reconhecendo uma dependência total de Deus, não apenas bens materiais, mas para direção, proteção, descanso e propósito. O contexto do Salmo 23 não é de abundância superficial, mas de confiança mesmo em as dificuldades da vida.
+Quando Davi diz “nada me faltará”, ele não está dizendo que terá tudo o que deseja, mas sim tudo o que precisa segundo a vontade de Deus. Isso vai muito além de uma visão materialista. Trata-se de uma suficiência espiritual: paz em meio ao caos, força em tempos de fraqueza, consolo na dor e esperança mesmo diante das incertezas.
+Deus não se limita a suprir necessidades que julgamos importantes para nós, Ele vai além. Muitas vezes, aquilo que pensamos ser essencial não é o que realmente precisamos para crescer, amadurecer e cumprir o propósito do Senhor. Deus, como bom pastor, conhece cada detalhe do nosso coração e provê exatamente o que é necessário no tempo certo.
+“Nada me faltará” é um convite à confiança plena em Deus e no Seu caráter. É descansar na certeza de que, sob Seu cuidado, temos tudo o que verdadeiramente importa.
+Compreendendo a suficiência de Deus
+
+Muitas pessoas interpretam essa promessa como garantia de bens materiais, mas Deus deseja transformar nossa visão, mostrando que a verdadeira provisão é espiritual.
+
+Davi expressa confiança em Deus como pastor fiel, que guia, protege e sustenta, mesmo em tempos difíceis.
+“Nada me faltará” revela que Deus supre além do que imaginamos necessário, oferecendo paz, propósito e crescimento espiritual conforme Sua perfeita vontade para nós.
+
+Para orar:
+
+Senhor Deus, meu Pastor, ensina-me a confiar plenamente em Ti. Muitas vezes penso saber do que preciso, mas Tu conheces o meu coração melhor que eu. Supre não apenas minhas necessidades, mas também aquilo que fortalece minha fé e me aproxima de Ti. Dá-me paz, direção e contentamento em Tua presença. Em nome de Jesus, amém.
+
+Veja também: Explicação do Salmo 23: versículo por versículo
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Entre a dúvida e a fé, escolha confiar
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_de_protecao/
 INFO:root:🔹 Description: Agora, pois, vemos apenas um reflexo obscuro, como em espelho; mas, então, veremos face a face. Agora conheço em parte; então, conhecerei plenamente, da mesma forma com que sou plenamente conhecido.
@@ -415,32 +424,6 @@ Senhor Jesus, aquieta minha mente e ensina-me a descansar em Ti. Entrego minhas 
 
 Veja também: Oração de Agradecimento a Deus: 5 orações de gratidão por tudo
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Sinais do fim, um novo início
-INFO:root:🔹 URL: https://www.bibliaon.com/o_fim_do_mundo_vem_ai/
-INFO:root:🔹 Description: Vocês ouvirão falar de guerras e rumores de guerras, mas não tenham medo. É necessário que tais coisas aconteçam, mas ainda não é o fim.
-- Mateus 24:6
-
-Vivemos em tempos incertos, marcados por crises, conflitos e inquietações. As palavras de Jesus em Mateus 24 nunca foram tão iminentes. No entanto, longe de serem motivo de desespero, esses sinais nos chamam à vigilância e a uma fé com prontidão.
-Os sinais do fim não representam apenas o encerramento de uma era, mas também o anúncio de um novo começo. Deus nunca permite que algo termine sem que haja propósito e redenção. Cada dificuldade, cada desafio enfrentado, é uma oportunidade para fortalecer nossa confiança n’Ele e alinhar nossa vida com Sua vontade.
-Jesus nos alertou para permanecermos firmes, com entendimento dos tempos, e não nos deixarmos enganar pelo medo. Em vez disso, somos chamados a perseverar, a manter o amor vivo e a continuar anunciando a verdade.
-Esse tempo é um convite à transformação e à reafirmação da nossa fé. É momento de reavaliar prioridades, buscar intimidade com Deus e viver de forma que reflita os valores do Reino. Não se trata apenas de esperar pelo fim, mas de viver com propósito até que Ele venha!
-Os sinais estão diante de nós, mas a promessa também está: um novo início se aproxima. Que o nosso coração esteja preparado, cheio de fé, esperança e amor, sabendo que, acima de tudo, Deus continua no controle e Seu plano é perfeito.
-Firmes enquanto o mundo muda
-
-Fortaleça sua fé buscando intimidade com Deus, confiando em Sua vontade mesmo quando tudo parece incerto.
-Alimente sua esperança meditando na Palavra de Deus; seja guiado por Ele e não pelos noticiários.
-Permaneçam em comunhão, encorajando uns aos outros na fé, praticando o amor e perseverando juntos.
-
-Para orar:
-
-Senhor Deus, em meio às incertezas deste mundo, fortalece minha fé e acalma meu coração. Ajuda-me a confiar em Ti mesmo quando não entendo os caminhos. Renova minha esperança, guia meus passos e ensina-me a permanecer firme na Tua Palavra. Que eu nunca me afaste da Tua presença e viva para glorificar o Teu nome. Em nome de Jesus, amém.
-
-Veja também:
-
-5 sinais do fim do mundo na Bíblia (o fim está próximo?)
-Sinais do fim dos tempos
-5 versículos sobre estar preparados para o fim do mundo
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -470,15 +453,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  23 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 178 +++++++++-----
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               | 135 ++++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 372 +++++++++++++++++-------------
- 11 files changed, 413 insertions(+), 281 deletions(-)
+ output.log                                | 329 ++++++++++++++----------------
+ 11 files changed, 283 insertions(+), 329 deletions(-)
