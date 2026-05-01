@@ -1,44 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 125321 characters
-INFO:root:HTML parsed, length: 118407 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (30/04/2026)', 'Palavra de Ontem (29/04/2026)', 'Palavra de Anteontem (28/04/2026)']
-INFO:root:Found 3 URLs: ['/diletissimo/', '/estorvo/', '/arado/']
-INFO:root:Found 12 descriptions: ['adjetivo Extremamente querido; excessivamente amad', 'Antônimos:\n\nodiado, ominoso, detestável', 'Sílabas:di-le-tís-si-mo']
-INFO:root:Found 3 dates: ['Palavra de Hoje (30/04/2026)', 'Palavra de Ontem (29/04/2026)', 'Palavra de Anteontem (28/04/2026)']
+INFO:root:Response length: 124369 characters
+INFO:root:HTML parsed, length: 117667 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (01/05/2026)', 'Palavra de Ontem (30/04/2026)', 'Palavra de Anteontem (29/04/2026)']
+INFO:root:Found 3 URLs: ['/souvenirs/', '/diletissimo/', '/estorvo/']
+INFO:root:Found 11 descriptions: ['substantivo masculino plural Artigos típicos dos l', 'Sinônimos:\n\nlembranças, presentes, mimos, brindes,', 'Classe gramatical:substantivo masculino plural']
+INFO:root:Found 3 dates: ['Palavra de Hoje (01/05/2026)', 'Palavra de Ontem (30/04/2026)', 'Palavra de Anteontem (29/04/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (30/04/2026)', ID=4c9f46b0ed88e849ffa3ce2623a98e00
-INFO:root:Processing entry 2: Title='Palavra de Ontem (29/04/2026)', ID=0241b71eb9862b48bc5981188e3873d3
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/04/2026)', ID=dbe468940caa1d93cde07a0602779d10
+INFO:root:Processing entry 1: Title='Palavra de Hoje (01/05/2026)', ID=455c1ae9bc35f7962f4ca0c2860dc75c
+INFO:root:Processing entry 2: Title='Palavra de Ontem (30/04/2026)', ID=714709de9b29ad3acbb5cd2f799cbc85
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/04/2026)', ID=c34a124a36b1d625533e3112e25b02fa
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (30/04/2026) - Significado completo de diletíssimo:
-INFO:root:🔹 URL: https://www.dicio.com.br/diletissimo/
-INFO:root:🔹 Description: adjetivo Extremamente querido; excessivamente amado; característica de quem se gosta muito; amadíssimo, queridíssimo.[Gramática] A palavra diletíssimo é forma superlativa do adjetivo dileto.Etimologia (origem da palavra diletíssimo). A palavra diletíssimo tem sua origem pela junção de dileto, do latim “dilectus,a,um”, como ação de “diligere” que significa amar, adorar, estimar, e pelo sufixo -íssimo.
- 
-Antônimos:
-
-odiado, ominoso, detestável 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (29/04/2026) - Significado completo de estorvo:
-INFO:root:🔹 URL: https://www.dicio.com.br/estorvo/
-INFO:root:🔹 Description: Antônimos:
-
-odiado, ominoso, detestável
- Sílabas:di-le-tís-si-mo
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (28/04/2026) - Significado completo de arado:
-INFO:root:🔹 URL: https://www.dicio.com.br/arado/
-INFO:root:🔹 Description: Sílabas:di-le-tís-si-mo
+INFO:root:🔹 Title: Palavra de Hoje (01/05/2026) - Significado completo de souvenirs:
+INFO:root:🔹 URL: https://www.dicio.com.br/souvenirs/
+INFO:root:🔹 Description: substantivo masculino plural Artigos típicos dos lugares em que são vendidos, geralmente comprados por turistas ou por pessoas que visitam cidades turísticas, outros países ou territórios estrangeiros: loja de souvenirs.[Por Extensão] Artigo vendido como uma lembrança de alguém muito famoso, geralmente uma miniatura que traz uma memória desta pessoa: souvenirs dos Beatles.Etimologia (origem da palavra souvenirs). A palava souvernirs tem sua origem como plural da palavra francesa "souvernir", com o mesmo sentido.
  
 Sinônimos:
 
-atravanco, embaraço, empecilho, empeço, encalhe, impedimento, obstáculo, entrave 
+lembranças, presentes, mimos, brindes, prendas, regalos 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (30/04/2026) - Significado completo de diletíssimo:
+INFO:root:🔹 URL: https://www.dicio.com.br/diletissimo/
+INFO:root:🔹 Description: Sinônimos:
+
+lembranças, presentes, mimos, brindes, prendas, regalos
+ Classe gramatical:substantivo masculino plural
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (29/04/2026) - Significado completo de estorvo:
+INFO:root:🔹 URL: https://www.dicio.com.br/estorvo/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino plural
+ Sílabas:sou-ve-nirs
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,40 +42,99 @@ INFO:root:Response length: 528 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 339572 characters
-INFO:root:HTML parsed, length: 329606 characters
-INFO:root:Found 1 titles: ['João 19:19']
-INFO:root:Found 1 URLs: ['/versiculo/joao_19_19/']
-INFO:root:Found 1 descriptions: ['Pilatos mandou preparar uma placa e pregá-la na cr']
+INFO:root:Response length: 339435 characters
+INFO:root:HTML parsed, length: 329469 characters
+INFO:root:Found 1 titles: ['Habacuque 2:4']
+INFO:root:Found 1 URLs: ['/versiculo/habacuque_2_4/']
+INFO:root:Found 1 descriptions: ['"Escreva: O ímpio está envaidecido;\nseus desejos n']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='João 19:19', ID=d7758a1e8e852ed535cd3130d1c5ac86
+INFO:root:Processing entry 1: Title='Habacuque 2:4', ID=9e77aea887d13342b384e6cd7e740eae
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: João 19:19
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_19_19/
-INFO:root:🔹 Description: Pilatos mandou preparar uma placa e pregá-la na cruz, com a seguinte inscrição: JESUS NAZARENO, O REI DOS JUDEUS. João 19:19
+INFO:root:🔹 Title: Habacuque 2:4
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/habacuque_2_4/
+INFO:root:🔹 Description: "Escreva: O ímpio está envaidecido;
+seus desejos não são bons;
+mas o justo viverá
+por sua fidelidade. Habacuque 2:4
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 336312 characters
-INFO:root:HTML parsed, length: 327493 characters
-INFO:root:Found 3 titles: ['Salmo 125', 'Salmo 103', 'Salmo 25']
-INFO:root:Found 3 URLs: ['/salmos_125/', '/salmos_103/', '/salmos_25/']
-INFO:root:Found 3 descriptions: ['Os que confiam no Senhor\nsão como o monte Sião,\nqu', 'Bendiga o Senhor a minha alma!\nBendiga o Senhor to', 'A ti, Senhor, elevo a minha alma. \nEm ti confio, ó']
-INFO:root:Found 3 dates: ['30 de Abril de 2026', '29 de Abril de 2026', '28 de Abril de 2026']
+INFO:root:Response length: 336148 characters
+INFO:root:HTML parsed, length: 327328 characters
+INFO:root:Found 3 titles: ['Salmo 66', 'Salmo 125', 'Salmo 103']
+INFO:root:Found 3 URLs: ['/salmos_66/', '/salmos_125/', '/salmos_103/']
+INFO:root:Found 3 descriptions: ['Aclamem a Deus, povos de toda terra! \nCantem louvo', 'Os que confiam no Senhor\nsão como o monte Sião,\nqu', 'Bendiga o Senhor a minha alma!\nBendiga o Senhor to']
+INFO:root:Found 3 dates: ['1 de Maio de 2026', '30 de Abril de 2026', '29 de Abril de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 125', ID=4453eb37e34143ba230b77d444355962
-INFO:root:Processing entry 2: Title=' Salmo 103', ID=3f34ccb33feee5531a16bf49fcaecef6
-INFO:root:Processing entry 3: Title=' Salmo 25', ID=e880629da3912517b7fddb927493f37f
+INFO:root:Processing entry 1: Title=' Salmo 66', ID=15a03b6e313ede2b2a4b5a3c41b598ff
+INFO:root:Processing entry 2: Title=' Salmo 125', ID=4453eb37e34143ba230b77d444355962
+INFO:root:Processing entry 3: Title=' Salmo 103', ID=3f34ccb33feee5531a16bf49fcaecef6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 66
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_66/
+INFO:root:🔹 Description: Aclamem a Deus, povos de toda terra! 
+Cantem louvores ao seu glorioso nome;
+louvem-no gloriosamente! 
+Digam a Deus:
+"Quão temíveis são os teus feitos!
+Tão grande é o teu poder que os teus inimigos
+rastejam diante de ti! 
+Toda a terra te adora
+e canta louvores a ti,
+canta louvores ao teu nome". 
+Venham e vejam o que Deus tem feito;
+como são impressionantes
+as suas obras em favor dos homens! 
+Ele transformou o mar em terra seca,
+e o povo atravessou as águas a pé;
+e ali nos alegramos nele. 
+Ele governa para sempre com o seu poder,
+seus olhos vigiam as nações;
+que os rebeldes
+não se levantem contra ele! 
+Bendigam o nosso Deus, ó povos,
+façam ressoar o som do seu louvor; 
+foi ele quem preservou a nossa vida
+impedindo que os nossos pés escorregassem. 
+Pois tu, ó Deus, nos submeteste à prova
+e nos refinaste como a prata. 
+Fizeste-nos cair numa armadilha
+e sobre nossas costas puseste fardos. 
+Deixaste que os inimigos cavalgassem
+sobre a nossa cabeça;
+passamos pelo fogo e pela água,
+mas a um lugar de fartura nos trouxeste. 
+Para o teu templo virei com holocaustos
+e cumprirei os meus votos para contigo, 
+votos que os meus lábios fizeram
+e a minha boca falou
+quando eu estava em dificuldade. 
+Oferecerei a ti animais gordos em holocausto;
+sacrificarei carneiros, cuja fumaça subirá a ti,
+e também novilhos e cabritos. 
+Venham e ouçam,
+todos vocês que temem a Deus;
+vou contar-lhes o que ele fez por mim. 
+A ele clamei com os lábios;
+com a língua o exaltei. 
+Se eu acalentasse o pecado no coração,
+o Senhor não me ouviria; 
+mas Deus me ouviu,
+deu atenção à oração que lhe dirigi. 
+Louvado seja Deus,
+que não rejeitou a minha oração
+nem afastou de mim o seu amor! 
+ Salmo 66
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 125
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_125/
 INFO:root:🔹 Description: Os que confiam no Senhor
@@ -157,117 +212,80 @@ em todos os lugares do seu domínio.
 Bendiga o Senhor a minha alma! 
  Salmo 103
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 25
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_25/
-INFO:root:🔹 Description: A ti, Senhor, elevo a minha alma. 
-Em ti confio, ó meu Deus.
-Não deixes que eu seja humilhado
-nem que os meus inimigos triunfem sobre mim! 
-Nenhum dos que esperam em ti
-ficará decepcionado;
-decepcionados ficarão
-aqueles que, sem motivo, agem traiçoeiramente. 
-Mostra-me, Senhor, os teus caminhos,
-ensina-me as tuas veredas; 
-guia-me com a tua verdade e ensina-me,
-pois tu és Deus, meu Salvador,
-e a minha esperança está em ti o tempo todo. 
-Lembra-te, Senhor,
-da tua compaixão e da tua misericórdia,
-que tens mostrado desde a antiguidade. 
-Não te lembres dos pecados e transgressões
-da minha juventude;
-conforme a tua misericórdia, lembra-te de mim,
-pois tu, Senhor, és bom. 
-Bom e justo é o Senhor;
-por isso mostra o caminho aos pecadores. 
-Conduz os humildes na justiça
-e lhes ensina o seu caminho. 
-Todos os caminhos do Senhor
-são amor e fidelidade
-para com os que cumprem
-os preceitos da sua aliança. 
-Por amor do teu nome, Senhor,
-perdoa o meu pecado, que é tão grande! 
-Quem é o homem que teme o Senhor?
-Ele o instruirá no caminho que deve seguir. 
-Viverá em prosperidade,
-e os seus descendentes herdarão a terra. 
-O Senhor confia os seus segredos
-aos que o temem,
-e os leva a conhecer a sua aliança. 
-Os meus olhos estão sempre voltados
-para o Senhor,
-pois só ele tira os meus pés da armadilha. 
-Volta-te para mim e tem misericórdia de mim,
-pois estou só e aflito. 
-As angústias do meu coração se multiplicaram;
-liberta-me da minha aflição. 
-Olha para a minha tribulação
-e o meu sofrimento,
-e perdoa todos os meus pecados. 
-Vê como aumentaram os meus inimigos
-e com que fúria me odeiam! 
-Guarda a minha vida e livra-me!
-Não me deixes decepcionado,
-pois eu me refugio em ti. 
-Que a integridade e a retidão me protejam,
-porque a minha esperança está em ti. 
-Ó Deus, liberta Israel de todas as suas aflições! 
- Salmo 25
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 339786 characters
-INFO:root:HTML parsed, length: 330264 characters
-INFO:root:Found 3 titles: ['Palavras que curam o coração', 'A fé não é um salto no escuro', 'O que fazer nos dias complicados?']
+INFO:root:Response length: 339849 characters
+INFO:root:HTML parsed, length: 330327 characters
+INFO:root:Found 3 titles: ['Curta a sua família', 'Palavras que curam o coração', 'A fé não é um salto no escuro']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O Senhor está perto\ndos que têm o coração quebrant', 'Porque andamos por fé, e não pelo que vemos.\n- 2 C', '"Eu disse essas coisas para que em mim vocês tenha']
-INFO:root:Found 1 dates: ['Quinta, 30 de abril de 2026']
+INFO:root:Found 3 descriptions: ['"Honra teu pai e tua mãe, a fim de que tenhas vida', 'O Senhor está perto\ndos que têm o coração quebrant', 'Porque andamos por fé, e não pelo que vemos.\n- 2 C']
+INFO:root:Found 1 dates: ['Sexta, 1 de maio de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Palavras que curam o coração', ID=dbb821d3b3255dd66ae22c26b20ecdb5
+INFO:root:Processing entry 1: Title='Curta a sua família', ID=bc50e174a02a6bc723da5b0c5bffb5ac
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavras que curam o coração - Palavra de Hoje
+INFO:root:🔹 Title: Curta a sua família - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O Senhor está perto
-dos que têm o coração quebrantado
-e salva os de espírito abatido.
-- Salmos 34:18
+INFO:root:🔹 Description: "Honra teu pai e tua mãe, a fim de que tenhas vida longa na terra que o Senhor,o teu Deus, te dá.
+- Êxodo 20:12
 
-Às vezes, as palavras têm um peso maior do que imaginamos. Uma frase dita sem cuidado pode ferir profundamente, deixando marcas que permanecem por muito tempo no coração. Quem nunca se sentiu abalado por algo que ouviu? Críticas duras, rejeições ou até o silêncio em momentos importantes podem gerar dor e tristeza. Essas palavras negativas, quando guardadas no coração, podem nos afastar da alegria e até da esperança.
-Mas assim como palavras podem ferir, também podem curar. E é nas palavras de Deus que encontramos restauração verdadeira. Um desses exemplos é José. Traído por seus próprios irmãos, vendido como escravo e injustamente preso, ele tinha todos os motivos para carregar mágoa e dor. No entanto, ao longo de sua jornada, Deus foi trabalhando em seu coração.
-José poderia ter se tornado amargo, mas escolheu confiar em Deus. Com o tempo, ele não apenas foi restaurado, mas também elevado a uma posição de honra no Egito. Mais do que isso, seu coração foi curado a ponto de perdoar aqueles que o feriram.
-A história de José nos mostra que, mesmo quando as palavras e atitudes dos outros nos machucam, Deus é capaz de transformar dor em propósito e culminar em uma vitória.
-Hoje, talvez você carregue palavras que feriram sua alma. Mas lembre-se: a voz de Deus é mais poderosa do que qualquer palavra negativa. Ele pode restaurar sua identidade, renovar sua esperança e curar seu coração. Permita que Ele fale com você, pois Suas palavras trazem vida, consolo e verdadeira paz.
-Veja também: Versículos de restauração.
+Vivemos dias acelerados, em que o tempo parece escapar por entre os dedos, e muitas vezes deixamos de valorizar aquilo que Deus nos concedeu como um dos maiores presentes: a família.
+Curtir seus familiares não significa apenas estar presente, mas dedicar atenção, amor, paciência e cuidado genuíno em cada momento compartilhado.
+A Palavra de Deus nos ensina que a família é um projeto divino, um lugar de refúgio, crescimento e aprendizado. É dentro do lar que exercitamos o perdão, a empatia e a graça, virtudes que refletem o caráter de Cristo em nós. No entanto, quantas vezes priorizamos compromissos, distrações e preocupações, deixando de lado aqueles que caminham conosco todos os dias?
+Aproveitar sua família é reconhecer que cada instante é único. Um simples diálogo, uma refeição juntos, um gesto de carinho ou até mesmo o silêncio compartilhado podem se tornar memórias preciosas. Não espere ocasiões especiais para demonstrar amor. O hoje é o presente que Deus nos deu.
+Também é importante lembrar que nenhuma família é perfeita. Conflitos existem, diferenças surgem, mas é justamente nesses momentos que o amor deve prevalecer. Deus nos chama a sermos instrumentos de reconciliação dentro de nossos lares, levando paz onde há tensão e compreensão onde há dor.
+Decida hoje valorizar seus familiares. Invista tempo, ouça mais, abrace mais, ame mais. Pois, ao cuidar da sua família, você está honrando a Deus e vivendo o propósito que Ele estabeleceu para sua vida.
+Que seu lar seja um lugar de bênção, união e alegria, refletindo o amor do Pai em cada detalhe.
+Veja também: Estudo bíblico sobre família
  
-O Senhor está perto
-dos que têm o coração quebrantado
-e salva os de espírito abatido.
-- Salmos 34:18
+"Honra teu pai e tua mãe, a fim de que tenhas vida longa na terra que o Senhor,o teu Deus, te dá.
+- Êxodo 20:12
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 350398 characters
-INFO:root:HTML parsed, length: 340441 characters
-INFO:root:Found 3 titles: ['Coração simples, fé verdadeira', 'O sacrifício de Jesus nos absolveu', 'Um chamado ao coração']
-INFO:root:Found 3 URLs: ['/razoes_para_confiar_em_deus/', '/oracao_de_agradecimento_a_deus/', '/transformacao/']
-INFO:root:Found 3 descriptions: ['Então disse Jesus: "Deixem vir a mim as crianças e', 'O sacrifício de Jesus nos absolveu. Isso significa', 'Vivemos em um tempo em que muitas pessoas confunde']
-INFO:root:Found 3 dates: ['ABRIL\n\n30\nQUINTA', 'ABRIL\n\n29\nQUARTA', 'ABRIL\n\n28\nTERÇA']
+INFO:root:Response length: 348906 characters
+INFO:root:HTML parsed, length: 338946 characters
+INFO:root:Found 3 titles: ['O caminho da verdadeira vitória', 'Coração simples, fé verdadeira', 'O sacrifício de Jesus nos absolveu']
+INFO:root:Found 3 URLs: ['/razoes_para_confiar_em_deus/', '/razoes_para_confiar_em_deus/', '/oracao_de_agradecimento_a_deus/']
+INFO:root:Found 3 descriptions: ['Decisões, sonhos e responsabilidades. Queremos que', 'Então disse Jesus: "Deixem vir a mim as crianças e', 'O sacrifício de Jesus nos absolveu. Isso significa']
+INFO:root:Found 3 dates: ['MAIO\n\n1\nSEXTA', 'ABRIL\n\n30\nQUINTA', 'ABRIL\n\n29\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Coração simples, fé verdadeira', ID=9a5a32c711d06c1e1e10d03db4243b8c
-INFO:root:Processing entry 2: Title='O sacrifício de Jesus nos absolveu', ID=9ab95ed52da4487d378376ed6ddfa171
-INFO:root:Processing entry 3: Title='Um chamado ao coração', ID=0e7094b1545c587fb3656e14a0332c8b
+INFO:root:Processing entry 1: Title='O caminho da verdadeira vitória', ID=ea86b0fe6028bc9efaf8de722bc50350
+INFO:root:Processing entry 2: Title='Coração simples, fé verdadeira', ID=9a5a32c711d06c1e1e10d03db4243b8c
+INFO:root:Processing entry 3: Title='O sacrifício de Jesus nos absolveu', ID=9ab95ed52da4487d378376ed6ddfa171
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O caminho da verdadeira vitória
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 Description: Decisões, sonhos e responsabilidades. Queremos que tudo dê certo, mas muitas vezes tentamos carregar o peso sozinhos. Esse versículo nos traz um convite simples e poderoso: entregar tudo a Deus.
+
+Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos.
+- Provérbios 16:3 
+
+Consagrar ao Senhor não significa apenas orar de vez em quando, mas colocar cada detalhe da nossa vida nas mãos d'Ele, nossos planos, medos, objetivos e até nossas dúvidas. É reconhecer que, por mais que nos esforcemos, a verdadeira direção vem de Deus.
+Quando confiamos nossos caminhos a Ele, algo muda dentro de nós. A ansiedade começa a dar lugar à paz. A insegurança é substituída por confiança.
+Deus se importa com aquilo que você está construindo. Seja no trabalho, nos estudos, na família ou nos sonhos pessoais, Ele deseja participar de tudo. Quando colocamos Deus no centro, nossos planos deixam de ser apenas nossos e passam a ser guiados por um propósito maior.
+Muitas vezes pensamos que sucesso é apenas alcançar resultados visíveis, mas o verdadeiro sucesso é viver de acordo com a vontade de Deus. E quando fazemos isso, mesmo os caminhos difíceis se tornam parte de algo maior e melhor.
+Entregue seus planos a Deus com sinceridade. Faça sua parte com dedicação, mas deixe que Ele conduza os resultados. Quando Deus está à frente, o sucesso não é apenas possível, ele é certo no tempo e da forma perfeita.
+Os planos não avançam? Pense nisso:
+
+Tenho realmente colocado meus planos nas mãos de Deus ou ainda tento controlar tudo sozinho?
+Minhas decisões refletem confiança em Deus ou medo do futuro?
+Estou buscando apenas resultados ou também um propósito alinhado com a vontade de Deus?
+
+Para orar: 
+
+Senhor Deus, hoje entrego a Ti tudo o que sou e tudo o que faço. Guia meus passos, acalma meu coração e fortalece minha fé. Ensina-me a confiar em Teus planos, mesmo quando não entendo o caminho. Que minha vida esteja em Tuas mãos e que tudo seja para Tua glória. Em nome de Jesus, amém.
+
+Veja também: razões para confiar em Deus em meio às lutas
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Coração simples, fé verdadeira
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
 INFO:root:🔹 Description: Então disse Jesus: "Deixem vir a mim as crianças e não as impeçam; pois o Reino dos céus pertence aos que são semelhantes a elas".
@@ -324,33 +342,6 @@ Senhor Deus, agradeço pelo sacrifício de Jesus, que me trouxe perdão e nova v
 
 Veja também: Oração de Agradecimento a Deus: 5 orações de gratidão por tudo
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Um chamado ao coração
-INFO:root:🔹 URL: https://www.bibliaon.com/transformacao/
-INFO:root:🔹 Description: Vivemos em um tempo em que muitas pessoas confundem fé com aparência. Pensam que agradar a Deus é apenas cumprir regras ou frequentar cultos. Mas a mensagem de Oséias 6:6 nos mosrtra que Deus não está interessado em sacrifícios, mas em corações transformados.
-
-Pois desejo misericórdia
-e não sacrifícios;
-conhecimento de Deus
-em vez de holocaustos.
-Oséias 6:6
-
-Esse versículo revela o desejo de Deus por um relacionamento verdadeiro conosco. Ele quer mais do que ações externas, Ele quer que vivamos a essência do amor, da compaixão e da graça no nosso dia a dia.
-Misericórdia significa olhar para o outro com empatia, perdoar quando é difícil, ajudar sem esperar nada em troca. É estender a mão ao necessitado, é amar até mesmo aqueles que nos ferem. Isso agrada a Deus muito mais do que qualquer gesto religioso feito sem sinceridade.
-O conhecimento de Deus não vem apenas de ouvir falar d’Ele, mas de caminhar com Ele. É buscar Sua presença, entender Seu caráter e permitir que Ele molde nossa vida. É um relacionamento vivo, que transforma nossas atitudes, pensamentos e escolhas.
-De nada adianta levantar as mãos em adoração se o coração está endurecido. Não faz sentido oferecer palavras a Deus enquanto negamos amor ao próximo. A verdadeira fé se manifesta em ações simples, porém cheias de significado.
-Hoje, Deus nos convida a viver algo mais profundo. Ele nos chama a abandonar a superficialidade e a mergulhar em um relacionamento sincero com Ele. Que nossa vida seja marcada não por tradições, mas por misericórdia. Não por aparência, mas por verdade. Pois é isso que realmente toca o coração de Deus.
-Um convite a viver a essência da fé
-
-Será que minhas atitudes refletem misericórdia ou apenas cumprimento de deveres religiosos que não transformam meu coração diariamente?
-Tenho buscado conhecer a Deus de forma íntima, permitindo que Sua presença molde minhas decisões, pensamentos e relacionamentos com outros?
-Estou disposto a trocar práticas vazias por um amor genuíno que perdoa, acolhe e revela Deus através das minhas ações?
-
-Para orar:
-
-Senhor Deus, ensina-me a viver além das aparências e dos gestos vazios. Coloca em meu coração misericórdia verdadeira, para que eu ame como Tu amas. Ajuda-me a Te conhecer profundamente e a refletir Tua graça em cada atitude. Que minhas palavras e ações revelem Tua presença. Molda minha vida segundo Tua vontade. Em nome de Jesus, amém.
-
-Veja também: Versículos sobre transformação
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -380,15 +371,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  48 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  49 +++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  25 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  26 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  72 +++-----
+ feeds/salmo_do_dia/atom.xml               | 113 +++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 279 +++++++++++++-----------------
- 11 files changed, 225 insertions(+), 279 deletions(-)
+ output.log                                | 325 ++++++++++++++----------------
+ 11 files changed, 284 insertions(+), 314 deletions(-)
