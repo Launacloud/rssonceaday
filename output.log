@@ -1,40 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124369 characters
-INFO:root:HTML parsed, length: 117667 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (01/05/2026)', 'Palavra de Ontem (30/04/2026)', 'Palavra de Anteontem (29/04/2026)']
-INFO:root:Found 3 URLs: ['/souvenirs/', '/diletissimo/', '/estorvo/']
-INFO:root:Found 11 descriptions: ['substantivo masculino plural Artigos típicos dos l', 'Sinônimos:\n\nlembranças, presentes, mimos, brindes,', 'Classe gramatical:substantivo masculino plural']
-INFO:root:Found 3 dates: ['Palavra de Hoje (01/05/2026)', 'Palavra de Ontem (30/04/2026)', 'Palavra de Anteontem (29/04/2026)']
+INFO:root:Response length: 123553 characters
+INFO:root:HTML parsed, length: 117035 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (02/05/2026)', 'Palavra de Ontem (01/05/2026)', 'Palavra de Anteontem (30/04/2026)']
+INFO:root:Found 3 URLs: ['/neuroplasticidade/', '/souvenirs/', '/diletissimo/']
+INFO:root:Found 9 descriptions: ['substantivo feminino Habilidade inata que o cérebr', 'Sílabas:neu-ro-plas-ti-ci-da-de', 'substantivo masculino plural Artigos típicos dos l']
+INFO:root:Found 3 dates: ['Palavra de Hoje (02/05/2026)', 'Palavra de Ontem (01/05/2026)', 'Palavra de Anteontem (30/04/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (01/05/2026)', ID=455c1ae9bc35f7962f4ca0c2860dc75c
-INFO:root:Processing entry 2: Title='Palavra de Ontem (30/04/2026)', ID=714709de9b29ad3acbb5cd2f799cbc85
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/04/2026)', ID=c34a124a36b1d625533e3112e25b02fa
+INFO:root:Processing entry 1: Title='Palavra de Hoje (02/05/2026)', ID=d71aa59be597a7551c8d1773572d3fc3
+INFO:root:Processing entry 2: Title='Palavra de Ontem (01/05/2026)', ID=81f6193d7ea729b42a20395a39719906
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/04/2026)', ID=7b4add135a890da19abac721bcf6c9cf
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (01/05/2026) - Significado completo de souvenirs:
+INFO:root:🔹 Title: Palavra de Hoje (02/05/2026) - Significado completo de neuroplasticidade:
+INFO:root:🔹 URL: https://www.dicio.com.br/neuroplasticidade/
+INFO:root:🔹 Description: substantivo feminino Habilidade inata que o cérebro possui de se alterar e de se adaptar no decorrer da vida de uma pessoa.Etimologia (origem da palavra neuroplasticidade). A palavra neuroplasticidade tem sua origem pela junção de neuro-, do grego "neuron", com sentido de nervo, e plasticidade.
+ Sílabas:neu-ro-plas-ti-ci-da-de
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (01/05/2026) - Significado completo de souvenirs:
 INFO:root:🔹 URL: https://www.dicio.com.br/souvenirs/
-INFO:root:🔹 Description: substantivo masculino plural Artigos típicos dos lugares em que são vendidos, geralmente comprados por turistas ou por pessoas que visitam cidades turísticas, outros países ou territórios estrangeiros: loja de souvenirs.[Por Extensão] Artigo vendido como uma lembrança de alguém muito famoso, geralmente uma miniatura que traz uma memória desta pessoa: souvenirs dos Beatles.Etimologia (origem da palavra souvenirs). A palava souvernirs tem sua origem como plural da palavra francesa "souvernir", com o mesmo sentido.
+INFO:root:🔹 Description: Sílabas:neu-ro-plas-ti-ci-da-de
  
 Sinônimos:
 
 lembranças, presentes, mimos, brindes, prendas, regalos 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (30/04/2026) - Significado completo de diletíssimo:
+INFO:root:🔹 Title: Palavra de Anteontem (30/04/2026) - Significado completo de diletíssimo:
 INFO:root:🔹 URL: https://www.dicio.com.br/diletissimo/
-INFO:root:🔹 Description: Sinônimos:
-
-lembranças, presentes, mimos, brindes, prendas, regalos
+INFO:root:🔹 Description: substantivo masculino plural Artigos típicos dos lugares em que são vendidos, geralmente comprados por turistas ou por pessoas que visitam cidades turísticas, outros países ou territórios estrangeiros: loja de souvenirs.[Por Extensão] Artigo vendido como uma lembrança de alguém muito famoso, geralmente uma miniatura que traz uma memória desta pessoa: souvenirs dos Beatles.Etimologia (origem da palavra souvenirs). A palava souvernirs tem sua origem como plural da palavra francesa "souvernir", com o mesmo sentido.
  Classe gramatical:substantivo masculino plural
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (29/04/2026) - Significado completo de estorvo:
-INFO:root:🔹 URL: https://www.dicio.com.br/estorvo/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino plural
- Sílabas:sou-ve-nirs
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,43 +40,132 @@ INFO:root:Response length: 528 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 339435 characters
-INFO:root:HTML parsed, length: 329469 characters
-INFO:root:Found 1 titles: ['Habacuque 2:4']
-INFO:root:Found 1 URLs: ['/versiculo/habacuque_2_4/']
-INFO:root:Found 1 descriptions: ['"Escreva: O ímpio está envaidecido;\nseus desejos n']
+INFO:root:Response length: 339496 characters
+INFO:root:HTML parsed, length: 329530 characters
+INFO:root:Found 1 titles: ['Romanos 5:12']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_5_12/']
+INFO:root:Found 1 descriptions: ['Portanto, da mesma forma como o pecado entrou no m']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Habacuque 2:4', ID=9e77aea887d13342b384e6cd7e740eae
+INFO:root:Processing entry 1: Title='Romanos 5:12', ID=42d1aed4d39d09f10cfa30d0f8a5a5ec
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Habacuque 2:4
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/habacuque_2_4/
-INFO:root:🔹 Description: "Escreva: O ímpio está envaidecido;
-seus desejos não são bons;
-mas o justo viverá
-por sua fidelidade. Habacuque 2:4
+INFO:root:🔹 Title: Romanos 5:12
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_5_12/
+INFO:root:🔹 Description: Portanto, da mesma forma como o pecado entrou no mundo por um homem, e pelo pecado a morte, assim também a morte veio a todos os homens, porque todos pecaram; Romanos 5:12
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 336148 characters
-INFO:root:HTML parsed, length: 327328 characters
-INFO:root:Found 3 titles: ['Salmo 66', 'Salmo 125', 'Salmo 103']
-INFO:root:Found 3 URLs: ['/salmos_66/', '/salmos_125/', '/salmos_103/']
-INFO:root:Found 3 descriptions: ['Aclamem a Deus, povos de toda terra! \nCantem louvo', 'Os que confiam no Senhor\nsão como o monte Sião,\nqu', 'Bendiga o Senhor a minha alma!\nBendiga o Senhor to']
-INFO:root:Found 3 dates: ['1 de Maio de 2026', '30 de Abril de 2026', '29 de Abril de 2026']
+INFO:root:Response length: 337383 characters
+INFO:root:HTML parsed, length: 328594 characters
+INFO:root:Found 3 titles: ['Salmo 35', 'Salmo 66', 'Salmo 125']
+INFO:root:Found 3 URLs: ['/salmos_35/', '/salmos_66/', '/salmos_125/']
+INFO:root:Found 3 descriptions: ['Defende-me, Senhor, dos que me acusam;\nluta contra', 'Aclamem a Deus, povos de toda terra! \nCantem louvo', 'Os que confiam no Senhor\nsão como o monte Sião,\nqu']
+INFO:root:Found 3 dates: ['2 de Maio de 2026', '1 de Maio de 2026', '30 de Abril de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 66', ID=15a03b6e313ede2b2a4b5a3c41b598ff
-INFO:root:Processing entry 2: Title=' Salmo 125', ID=4453eb37e34143ba230b77d444355962
-INFO:root:Processing entry 3: Title=' Salmo 103', ID=3f34ccb33feee5531a16bf49fcaecef6
+INFO:root:Processing entry 1: Title=' Salmo 35', ID=f22ce77f5c2201b9a50bfc7e72a56440
+INFO:root:Processing entry 2: Title=' Salmo 66', ID=15a03b6e313ede2b2a4b5a3c41b598ff
+INFO:root:Processing entry 3: Title=' Salmo 125', ID=4453eb37e34143ba230b77d444355962
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 35
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_35/
+INFO:root:🔹 Description: Defende-me, Senhor, dos que me acusam;
+luta contra os que lutam comigo. 
+Toma os escudos, o grande e o pequeno;
+levanta-te e vem socorrer-me. 
+Empunha a lança e o machado de guerra
+contra os meus perseguidores.
+Dize à minha alma: "Eu sou a sua salvação". 
+Sejam humilhados e desprezados
+os que procuram matar-me;
+retrocedam envergonhados
+aqueles que tramam a minha ruína. 
+Que eles sejam como a palha ao vento,
+quando o anjo do Senhor os expulsar; 
+seja a vereda deles sombria e escorregadia,
+quando o anjo do Senhor os perseguir. 
+Já que, sem motivo, prepararam contra mim
+uma armadilha oculta
+e, sem motivo, abriram uma cova para mim, 
+que a ruína lhes sobrevenha de surpresa:
+sejam presos pela armadilha que prepararam,
+caiam na cova que abriram,
+para a sua própria ruína. 
+Então a minha alma exultará no Senhor
+e se regozijará na sua salvação. 
+Todo o meu ser exclamará:
+"Quem se compara a ti, Senhor?
+Tu livras os necessitados daqueles que são
+mais poderosos do que eles,
+livras os necessitados e os pobres
+daqueles que os exploram." 
+Testemunhas maldosas enfrentam-me
+e questionam-me sobre coisas de que nada sei. 
+Elas me retribuem o bem com o mal
+e procuram tirar-me a vida. 
+Contudo, quando estavam doentes,
+usei vestes de lamento,
+humilhei-me com jejum
+e recolhi-me em oração. 
+Saí vagueando e pranteando,
+como por um amigo ou por um irmão.
+Eu me prostrei enlutado,
+como quem lamenta por sua mãe. 
+Mas, quando tropecei,
+eles se reuniram alegres;
+sem que eu o soubesse,
+ajuntaram-se para me atacar.
+Eles me agrediram sem cessar. 
+Como ímpios caçoando do meu refúgio,
+rosnaram contra mim. 
+Senhor, até quando ficarás olhando?
+Livra-me dos ataques deles,
+livra a minha vida preciosa desses leões. 
+Eu te darei graças na grande assembleia;
+no meio da grande multidão te louvarei. 
+Não deixes que os meus inimigos traiçoeiros
+se divirtam à minha custa;
+não permitas que aqueles
+que sem razão me odeiam
+troquem olhares de desprezo. 
+Não falam pacificamente,
+mas planejam acusações falsas
+contra os que vivem tranquilamente na terra. 
+Com a boca escancarada,
+riem de mim e me acusam:
+"Nós vimos! Sabemos de tudo!" 
+Tu viste isso, Senhor! Não fiques calado.
+Não te afastes de mim, Senhor, 
+Acorda! Desperta! Faze-me justiça!
+Defende a minha causa, meu Deus e Senhor. 
+Senhor, meu Deus, tu és justo;
+faze-me justiça para que eles
+não se alegrem à minha custa. 
+Não deixes que pensem:
+"Ah! Era isso que queríamos!"
+nem que digam: "Acabamos com ele!" 
+Sejam humilhados e frustrados
+todos os que se divertem
+à custa do meu sofrimento;
+cubram-se de vergonha e desonra
+todos os que se acham superiores a mim. 
+Cantem de alegria e regozijo
+todos os que desejam ver provada
+a minha inocência
+e sempre repitam:
+"O Senhor seja engrandecido!
+Ele tem prazer no bem-estar do seu servo". 
+Minha língua proclamará a tua justiça
+e o teu louvor o dia inteiro. 
+ Salmo 35
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 66
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_66/
 INFO:root:🔹 Description: Aclamem a Deus, povos de toda terra! 
@@ -157,111 +244,81 @@ o Senhor infligirá o castigo dado aos malfeitores.
 Haja paz em Israel! 
  Salmo 125
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 103
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_103/
-INFO:root:🔹 Description: Bendiga o Senhor a minha alma!
-Bendiga o Senhor todo o meu ser! 
-Bendiga o Senhor a minha alma!
-Não esqueça nenhuma de suas bênçãos! 
-É ele que perdoa todos os seus pecados
-e cura todas as suas doenças, 
-que resgata a sua vida da sepultura
-e o coroa de bondade e compaixão, 
-que enche de bens a sua existência,
-de modo que a sua juventude
-se renova como a águia. 
-O Senhor faz justiça
-e defende a causa dos oprimidos. 
-Ele manifestou os seus caminhos a Moisés;
-os seus feitos, aos israelitas. 
-O Senhor é compassivo e misericordioso,
-mui paciente e cheio de amor. 
-Não acusa sem cessar
-nem fica ressentido para sempre; 
-não nos trata conforme os nossos pecados
-nem nos retribui conforme as nossas iniquidades. 
-Pois como os céus se elevam acima da terra,
-assim é grande o seu amor
-para com os que o temem; 
-e como o Oriente está longe do Ocidente,
-assim ele afasta para longe de nós
-as nossas transgressões. 
-Como um pai tem compaixão de seus filhos,
-assim o Senhor
-tem compaixão dos que o temem; 
-pois ele sabe do que somos formados;
-lembra-se de que somos pó. 
-A vida do homem é semelhante à relva;
-ele floresce como a flor do campo, 
-que se vai quando sopra o vento;
-tampouco se sabe mais o lugar que ocupava. 
-Mas o amor leal do Senhor,
-o seu amor eterno, está com os que o temem
-e a sua justiça com os filhos dos seus filhos, 
-com os que guardam a sua aliança
-e se lembram de obedecer aos seus preceitos. 
-O Senhor estabeleceu o seu trono nos céus,
-e como rei domina sobre tudo o que existe. 
-Bendigam o Senhor,
-vocês, seus anjos poderosos,
-que obedecem à sua palavra. 
-Bendigam o Senhor todos os seus exércitos,
-vocês, seus servos, que cumprem a sua vontade. 
-Bendigam o Senhor todas as suas obras
-em todos os lugares do seu domínio.
-Bendiga o Senhor a minha alma! 
- Salmo 103
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 339849 characters
-INFO:root:HTML parsed, length: 330327 characters
-INFO:root:Found 3 titles: ['Curta a sua família', 'Palavras que curam o coração', 'A fé não é um salto no escuro']
+INFO:root:Response length: 339889 characters
+INFO:root:HTML parsed, length: 330365 characters
+INFO:root:Found 3 titles: ['Moisés pisou na Terra Prometida', 'Curta a sua família', 'Palavras que curam o coração']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['"Honra teu pai e tua mãe, a fim de que tenhas vida', 'O Senhor está perto\ndos que têm o coração quebrant', 'Porque andamos por fé, e não pelo que vemos.\n- 2 C']
-INFO:root:Found 1 dates: ['Sexta, 1 de maio de 2026']
+INFO:root:Found 3 descriptions: ['Quando Deus impediu a entrada de Moisés na Terra P', '"Honra teu pai e tua mãe, a fim de que tenhas vida', 'O Senhor está perto\ndos que têm o coração quebrant']
+INFO:root:Found 1 dates: ['Sábado, 2 de maio de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Curta a sua família', ID=bc50e174a02a6bc723da5b0c5bffb5ac
+INFO:root:Processing entry 1: Title='Moisés pisou na Terra Prometida', ID=98dd5d5950cd1135813fe3f1f55d5b36
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Curta a sua família - Palavra de Hoje
+INFO:root:🔹 Title: Moisés pisou na Terra Prometida - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: "Honra teu pai e tua mãe, a fim de que tenhas vida longa na terra que o Senhor,o teu Deus, te dá.
-- Êxodo 20:12
+INFO:root:🔹 Description: Quando Deus impediu a entrada de Moisés na Terra Prometida, o contexto era de desobediência em Meribá. Deus havia ordenado que ele falasse à rocha, mas Moisés a feriu, tomando para si uma atitude que não refletia a santidade e a plena obediência exigidas. Por causa disso, o Senhor declarou que ele veria a terra, mas não pisaria nela.
+À primeira vista, parece um fim duro para um líder tão fiel. No entanto, há um detalhe que muita gente não presta atenção, mas é importantíssimo.
+Séculos depois, algo extraordinário acontece. No monte da transfiguração, Moisés aparece ao lado de Jesus e Elias:
 
-Vivemos dias acelerados, em que o tempo parece escapar por entre os dedos, e muitas vezes deixamos de valorizar aquilo que Deus nos concedeu como um dos maiores presentes: a família.
-Curtir seus familiares não significa apenas estar presente, mas dedicar atenção, amor, paciência e cuidado genuíno em cada momento compartilhado.
-A Palavra de Deus nos ensina que a família é um projeto divino, um lugar de refúgio, crescimento e aprendizado. É dentro do lar que exercitamos o perdão, a empatia e a graça, virtudes que refletem o caráter de Cristo em nós. No entanto, quantas vezes priorizamos compromissos, distrações e preocupações, deixando de lado aqueles que caminham conosco todos os dias?
-Aproveitar sua família é reconhecer que cada instante é único. Um simples diálogo, uma refeição juntos, um gesto de carinho ou até mesmo o silêncio compartilhado podem se tornar memórias preciosas. Não espere ocasiões especiais para demonstrar amor. O hoje é o presente que Deus nos deu.
-Também é importante lembrar que nenhuma família é perfeita. Conflitos existem, diferenças surgem, mas é justamente nesses momentos que o amor deve prevalecer. Deus nos chama a sermos instrumentos de reconciliação dentro de nossos lares, levando paz onde há tensão e compreensão onde há dor.
-Decida hoje valorizar seus familiares. Invista tempo, ouça mais, abrace mais, ame mais. Pois, ao cuidar da sua família, você está honrando a Deus e vivendo o propósito que Ele estabeleceu para sua vida.
-Que seu lar seja um lugar de bênção, união e alegria, refletindo o amor do Pai em cada detalhe.
-Veja também: Estudo bíblico sobre família
+Naquele mesmo momento, apareceram diante deles Moisés e Elias, conversando com Jesus.
+- Mateus 17:3
+
+Aqui está o ponto profundo: Moisés, que não entrou na Terra Prometida no tempo antigo, aparece agora na presença gloriosa de Cristo. Ele está, de fato, participando da promessa cumprida, não apenas de uma terra física, mas da realidade eterna.
+Elias, por sua vez, representa os profetas, enquanto Moisés representa a Lei. Ambos apontam para Jesus, que é o cumprimento perfeito de tudo.
+O próprio nome Yeshua, que significa Josué, remete àquele que conduz o povo à verdadeira Terra Prometida. Assim como Josué levou Israel à terra, Jesus nos conduz à salvação eterna.
+Essa cena simboliza que a promessa de Deus vai além das limitações humanas. Aquilo que parecia uma perda na vida de Moisés foi, na verdade, parte de um plano maior. Em Cristo, tudo se cumpre de maneira perfeita.
+Para nós, isso revela a importância de Jesus. Ele é o centro da história, aquele que une a Lei e os Profetas, e nos garante acesso à verdadeira promessa. Em Cristo, nenhuma promessa de Deus falha, ela se cumpre de forma plena e eterna. 
+Veja também: história de Moisés.
  
-"Honra teu pai e tua mãe, a fim de que tenhas vida longa na terra que o Senhor,o teu Deus, te dá.
-- Êxodo 20:12
+Naquele mesmo momento, apareceram diante deles Moisés e Elias, conversando com Jesus.
+- Mateus 17:3
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 348906 characters
-INFO:root:HTML parsed, length: 338946 characters
-INFO:root:Found 3 titles: ['O caminho da verdadeira vitória', 'Coração simples, fé verdadeira', 'O sacrifício de Jesus nos absolveu']
-INFO:root:Found 3 URLs: ['/razoes_para_confiar_em_deus/', '/razoes_para_confiar_em_deus/', '/oracao_de_agradecimento_a_deus/']
-INFO:root:Found 3 descriptions: ['Decisões, sonhos e responsabilidades. Queremos que', 'Então disse Jesus: "Deixem vir a mim as crianças e', 'O sacrifício de Jesus nos absolveu. Isso significa']
-INFO:root:Found 3 dates: ['MAIO\n\n1\nSEXTA', 'ABRIL\n\n30\nQUINTA', 'ABRIL\n\n29\nQUARTA']
+INFO:root:Response length: 348958 characters
+INFO:root:HTML parsed, length: 338992 characters
+INFO:root:Found 3 titles: ['Sem sombra de dúvidas', 'O caminho da verdadeira vitória', 'Coração simples, fé verdadeira']
+INFO:root:Found 3 URLs: ['/palavra_do_dia_fortaleca_sua_fe_hoje/', '/razoes_para_confiar_em_deus/', '/razoes_para_confiar_em_deus/']
+INFO:root:Found 3 descriptions: ['Por essa causa também sofro, mas não me envergonho', 'Decisões, sonhos e responsabilidades. Queremos que', 'Então disse Jesus: "Deixem vir a mim as crianças e']
+INFO:root:Found 3 dates: ['MAIO\n\n2\nSÁBADO', 'MAIO\n\n1\nSEXTA', 'ABRIL\n\n30\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O caminho da verdadeira vitória', ID=ea86b0fe6028bc9efaf8de722bc50350
-INFO:root:Processing entry 2: Title='Coração simples, fé verdadeira', ID=9a5a32c711d06c1e1e10d03db4243b8c
-INFO:root:Processing entry 3: Title='O sacrifício de Jesus nos absolveu', ID=9ab95ed52da4487d378376ed6ddfa171
+INFO:root:Processing entry 1: Title='Sem sombra de dúvidas', ID=65b67d0d665b4a68d76c54c6cf58f568
+INFO:root:Processing entry 2: Title='O caminho da verdadeira vitória', ID=ea86b0fe6028bc9efaf8de722bc50350
+INFO:root:Processing entry 3: Title='Coração simples, fé verdadeira', ID=9a5a32c711d06c1e1e10d03db4243b8c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Sem sombra de dúvidas
+INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia_fortaleca_sua_fe_hoje/
+INFO:root:🔹 Description: Por essa causa também sofro, mas não me envergonho, porque sei em quem tenho crido e estou bem certo de que ele é poderoso para guardar o que lhe confiei até aquele dia.
+- 2 Timóteo 1:12
+
+Você já ouviu ou já usou a expressão “sem sombra de dúvidas”? Sabe o que ela significa? É quando temos absoluta certeza de algo, quando não há espaço para dúvidas, medo ou hesitação. É uma convicção firme, que não se abala com opiniões contrárias.
+Na nossa caminhada com Cristo, essa expressão precisa deixar de ser apenas uma frase comum e se tornar uma realidade. Muitos dizem que creem, mas vivem inseguros, ansiosos e cheios de dúvidas. A fé verdadeira, porém, nos conduz a uma confiança sólida em Deus.
+O apóstolo Paulo declarou com convicção: “Eu sei em quem tenho crido”. Ele não disse “eu acho” ou “eu espero”, mas “eu sei”. Isso revela um relacionamento profundo, uma experiência real com Deus. Quando conhecemos a Cristo de verdade, nossa fé não depende do que vemos, mas do que cremos.
+Viver “sem sombra de dúvidas” não significa que nunca enfrentaremos lutas. Significa que, mesmo nas dificuldades, continuamos confiando. É saber que Deus é fiel, que Suas promessas se cumprem e que Ele está no controle de todas as coisas.
+Hoje, Deus nos chama a uma fé madura, firme e inabalável. Não uma fé baseada em sentimentos, mas na convicção n'Ele. Uma fé que permanece mesmo quando tudo ao redor parece incerto.
+Como Paulo, que possamos declarar com o coração cheio de certeza: eu sei em quem tenho crido. E que a nossa vida reflita essa confiança, sem sombra de dúvidas.
+Uma fé firme que não se abala 
+
+Fortaleça sua fé conhecendo a Palavra diariamente, pois quanto mais você conhece a Deus, mais confiança terá para enfrentar dúvidas e permanecer firme em Cristo.
+Desenvolva uma vida de oração, apresentando suas inquietações a Deus, pois a comunhão diária fortalece o coração e traz paz mesmo diante das incertezas.
+Em tempos difíceis, lembre-se das promessa de Deus, pois recordar Sua fidelidade no passado renova a esperança e fortalece a certeza de que Ele continuará cuidando.
+
+Para orar: 
+
+Senhor meu Deus, eu me coloco diante de Ti com fé e confiança. Fortalece meu coração para que eu não duvide, mesmo nas dificuldades. Ajuda-me a confiar em Tuas promessas e a permanecer firme em Cristo todos os dias. Renova minha esperança, guia meus passos e enche minha vida com Tua paz. Que eu viva sempre seguro em Ti, sem sombra de dúvidas. Em nome de Jesus, amém.
+
+Veja também: Palavras para fortalecer a sua fé hoje
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O caminho da verdadeira vitória
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
 INFO:root:🔹 Description: Decisões, sonhos e responsabilidades. Queremos que tudo dê certo, mas muitas vezes tentamos carregar o peso sozinhos. Esse versículo nos traz um convite simples e poderoso: entregar tudo a Deus.
@@ -312,36 +369,6 @@ Senhor Deus, hoje me coloco diante de Ti com um coração simples. Ensina-me a c
 
 Veja também: 7 razões para confiar em Deus em meio às lutas
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O sacrifício de Jesus nos absolveu
-INFO:root:🔹 URL: https://www.bibliaon.com/oracao_de_agradecimento_a_deus/
-INFO:root:🔹 Description: O sacrifício de Jesus nos absolveu. Isso significa que a culpa que carregávamos não define mais quem somos. Na cruz, Ele assumiu o peso do nosso pecado e ofereceu perdão. Você não precisa viver tentando compensar seus erros, porque Jesus já pagou o preço completo.
-
-Mas ele foi traspassado
-por causa das nossas transgressões,
-foi esmagado por causa
-de nossas iniquidades;
-o castigo que nos trouxe paz
-estava sobre ele, e pelas suas feridas
-fomos curados.
-- Isaías 53:5
-
-Às vezes, é difícil aceitar isso. Nós falhamos, lembramos do passado e pensamos que ainda precisamos “merecer” o amor de Deus. Mas a Bíblia mostra outro caminho. Em Romanos 5:8, Paulo diz que Cristo morreu por nós quando ainda éramos pecadores. O amor de Deus não começou depois da nossa mudança, ele começou antes.
-Isso não significa que o pecado deixou de ter importância. Significa que ele não tem mais a palavra final. Quando reconhecemos o que Jesus fez, somos chamados a uma nova vida. Não por obrigação, mas por gratidão. Como cristãos, sabemos que essa transformação acontece aos poucos, com a ajuda do Espírito Santo.
-Se você sente culpa ou acha que não é digno, vale lembrar: a cruz não foi um plano improvisado. Foi a resposta de Deus para a nossa maior necessidade. Em 1 João 1:9, lemos que, se confessarmos nossos pecados, Deus é fiel e justo para perdoar e purificar. Existe perdão disponível, hoje.
-Receber esse perdão muda a forma como você vê a si mesmo e aos outros. Você passa a viver com mais leveza e também aprende a perdoar.
-O sacrifício de Jesus não apenas nos livra da culpa, ele nos convida a viver reconciliados com Deus.
-Vivendo a liberdade do perdão todos os dias
-
-Receba o perdão, lembrando que em Cristo sua culpa foi apagada, e rejeite pensamentos que insistem em condenar sua identidade.
-Confesse seus pecados com sinceridade a Deus, permita que Ele transforme seu coração gradualmente.
-Pratique o perdão com outras pessoas, assim como Deus perdoou você em Cristo, liberando seu coração de amargura, ressentimento.
-
-Para orar: 
-
-Senhor Deus, agradeço pelo sacrifício de Jesus, que me trouxe perdão e nova vida. Ajuda-me a viver nessa graça todos os dias. Quando eu lembrar dos meus erros, lembra-me da Tua misericórdia. Fortalece meu coração para perdoar e amar como Tu amas. Guia meus passos e renova minha fé. Em nome de Jesus, amém.
-
-Veja também: Oração de Agradecimento a Deus: 5 orações de gratidão por tudo
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -371,15 +398,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  49 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  51 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  26 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  26 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  10 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 113 +++++------
+ feeds/salmo_do_dia/atom.xml               | 145 ++++++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 325 ++++++++++++++----------------
- 11 files changed, 284 insertions(+), 314 deletions(-)
+ output.log                                | 347 ++++++++++++++++--------------
+ 11 files changed, 344 insertions(+), 302 deletions(-)
