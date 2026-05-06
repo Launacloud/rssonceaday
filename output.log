@@ -1,40 +1,42 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 126723 characters
-INFO:root:HTML parsed, length: 119630 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (05/05/2026)', 'Palavra de Ontem (04/05/2026)', 'Palavra de Anteontem (03/05/2026)']
-INFO:root:Found 3 URLs: ['/ativismo/', '/chutar-o-balde/', '/conforme/']
-INFO:root:Found 14 descriptions: ['substantivo masculino Doutrina ou argumentação que', 'Sinônimos:\n\nmilitância, mobilização', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (05/05/2026)', 'Palavra de Ontem (04/05/2026)', 'Palavra de Anteontem (03/05/2026)']
+INFO:root:Response length: 124966 characters
+INFO:root:HTML parsed, length: 118236 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (06/05/2026)', 'Palavra de Ontem (05/05/2026)', 'Palavra de Anteontem (04/05/2026)']
+INFO:root:Found 3 URLs: ['/sapo/', '/ativismo/', '/chutar-o-balde/']
+INFO:root:Found 12 descriptions: ['substantivo masculino [Zoologia] Anfíbio anuro, no', 'Classe gramatical:substantivo masculino', 'Sílabas:sa-po']
+INFO:root:Found 3 dates: ['Palavra de Hoje (06/05/2026)', 'Palavra de Ontem (05/05/2026)', 'Palavra de Anteontem (04/05/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (05/05/2026)', ID=4ed3a7c6163f688ca90312c1ca35b276
-INFO:root:Processing entry 2: Title='Palavra de Ontem (04/05/2026)', ID=311365746a9ec1bf7f433801469e0af5
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (03/05/2026)', ID=b9fb840f540ab611ce08b174f4e6278e
+INFO:root:Processing entry 1: Title='Palavra de Hoje (06/05/2026)', ID=942a58b17ca686bdf09140d360a5e74e
+INFO:root:Processing entry 2: Title='Palavra de Ontem (05/05/2026)', ID=b7e3d68392cf0516b5960eb3b26e41b4
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (04/05/2026)', ID=7a88ab28bb16e40e45ed886adb39b163
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (05/05/2026) - Significado completo de ativismo:
-INFO:root:🔹 URL: https://www.dicio.com.br/ativismo/
-INFO:root:🔹 Description: substantivo masculino Doutrina ou argumentação que prioriza a prática efetiva de transformação da realidade em oposição à atividade puramente teórica.Efetivação dessa doutrina ou dessa argumentação, através da defesa de uma causa ou da transformação da sociedade por meio da ação e não da especulação; militância.Transformação da realidade por meio da ação prática.[Política] Propaganda que defende os ideais de uma religião, ideologia, partido político etc.[Literatura] Gênero literário cujo conteúdo é político; literatura engajada.Etimologia (origem da palavra ativismo). A palavra ativismo tem sua origem pela junção da palavra ativo, e do sufixo -ismo.
- 
-Sinônimos:
-
-militância, mobilização 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (04/05/2026) - Significado completo de chutar o balde:
-INFO:root:🔹 URL: https://www.dicio.com.br/chutar-o-balde/
-INFO:root:🔹 Description: Sinônimos:
-
-militância, mobilização
+INFO:root:🔹 Title: Palavra de Hoje (06/05/2026) - Significado completo de sapo:
+INFO:root:🔹 URL: https://www.dicio.com.br/sapo/
+INFO:root:🔹 Description: substantivo masculino [Zoologia] Anfíbio anuro, nomeadamente anfíbios terrestres pertencentes ao gênero Bufo, das famílias dos bufonídeos e pipídeos, desdentado, de pele rugosa e seca.[Popular] Indivíduo que assiste a um jogo sem participar dele.[Popular] Doença que ataca os cascos do cavalo.[Antigo] Fiscal não uniformizado de bondes.expressão Engolir Sapos. Aceitar coisas desconfortáveis ou desagradáveis sem se opor.Etimologia (origem da palavra sapo). A palavra sapo tem sua origem incerta; provavelmente de origem pré-romana.
  Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (03/05/2026) - Significado completo de conforme:
-INFO:root:🔹 URL: https://www.dicio.com.br/conforme/
+INFO:root:🔹 Title: Palavra de Ontem (05/05/2026) - Significado completo de ativismo:
+INFO:root:🔹 URL: https://www.dicio.com.br/ativismo/
 INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:a-ti-vis-mo
+ Sílabas:sa-po
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (04/05/2026) - Significado completo de chutar o balde:
+INFO:root:🔹 URL: https://www.dicio.com.br/chutar-o-balde/
+INFO:root:🔹 Description: Sílabas:sa-po
+ Citação: "minha casa
+o sapo já sabe
+entrar e sair"
+                                - Alice Ruiz
+"fim do dia
+porta aberta
+o sapo espia"
+                                - Alice Ruiz
+
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,41 +44,98 @@ INFO:root:Response length: 528 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 339363 characters
-INFO:root:HTML parsed, length: 329397 characters
-INFO:root:Found 1 titles: ['2 Samuel 22:33']
-INFO:root:Found 1 URLs: ['/versiculo/2_samuel_22_33/']
-INFO:root:Found 1 descriptions: ['É Deus quem me reveste de força \ne torna perfeito ']
+INFO:root:Response length: 339458 characters
+INFO:root:HTML parsed, length: 329492 characters
+INFO:root:Found 1 titles: ['Salmos 122:1']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_122_1/']
+INFO:root:Found 1 descriptions: ['Alegrei-me com os que me disseram:\n"Vamos à casa d']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Samuel 22:33', ID=683ac99651dcaa8fd30961aff7ffa346
+INFO:root:Processing entry 1: Title='Salmos 122:1', ID=f0026f1e816219fcc65ff5069667d5e8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Samuel 22:33
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_samuel_22_33/
-INFO:root:🔹 Description: É Deus quem me reveste de força 
-e torna perfeito o meu caminho. 2 Samuel 22:33
+INFO:root:🔹 Title: Salmos 122:1
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_122_1/
+INFO:root:🔹 Description: Alegrei-me com os que me disseram:
+"Vamos à casa do Senhor!" Salmos 122:1
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 335438 characters
-INFO:root:HTML parsed, length: 326606 characters
-INFO:root:Found 3 titles: ['Salmo 46', 'Salmo 136', 'Salmo 11']
-INFO:root:Found 3 URLs: ['/salmos_46/', '/salmos_136/', '/salmos_11/']
-INFO:root:Found 3 descriptions: ['Deus é o nosso refúgio e a nossa fortaleza,\nauxíli', 'Deem graças ao Senhor, porque ele é bom.\nO seu amo', 'No Senhor me refugio.\nComo então vocês podem dizer']
-INFO:root:Found 3 dates: ['5 de Maio de 2026', '4 de Maio de 2026', '3 de Maio de 2026']
+INFO:root:Response length: 336790 characters
+INFO:root:HTML parsed, length: 327976 characters
+INFO:root:Found 3 titles: ['Salmo 72', 'Salmo 46', 'Salmo 136']
+INFO:root:Found 3 URLs: ['/salmos_72/', '/salmos_46/', '/salmos_136/']
+INFO:root:Found 3 descriptions: ['Reveste da tua justiça o rei, ó Deus,\ne da tua ret', 'Deus é o nosso refúgio e a nossa fortaleza,\nauxíli', 'Deem graças ao Senhor, porque ele é bom.\nO seu amo']
+INFO:root:Found 3 dates: ['6 de Maio de 2026', '5 de Maio de 2026', '4 de Maio de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 46', ID=9766995a91a0db2cf56ba6ef2a22f28d
-INFO:root:Processing entry 2: Title=' Salmo 136', ID=0466a24f0d7612131a62aaffef81edc4
-INFO:root:Processing entry 3: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
+INFO:root:Processing entry 1: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
+INFO:root:Processing entry 2: Title=' Salmo 46', ID=9766995a91a0db2cf56ba6ef2a22f28d
+INFO:root:Processing entry 3: Title=' Salmo 136', ID=0466a24f0d7612131a62aaffef81edc4
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 72
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_72/
+INFO:root:🔹 Description: Reveste da tua justiça o rei, ó Deus,
+e da tua retidão o filho do rei, 
+para que ele julgue com retidão
+e com justiça os teus que sofrem opressão. 
+Que os montes tragam prosperidade ao povo
+e as colinas o fruto da justiça. 
+Defenda ele os oprimidos no meio do povo
+e liberte os filhos dos pobres;
+esmague ele o opressor! 
+Que ele perdure como o sol
+e como a lua por todas as gerações. 
+Seja ele como chuva
+sobre uma lavoura ceifada,
+como aguaceiros que regam a terra. 
+Floresçam os justos nos dias do rei,
+e haja grande prosperidade enquanto durar a lua. 
+Governe ele de mar a mar
+e desde o rio Eufrates até os confins da terra. 
+Inclinem-se diante dele as tribos do deserto,
+e os seus inimigos lambam o pó. 
+Que os reis de Társis e das regiões litorâneas
+lhe tragam tributo;
+os reis de Sabá e de Sebá
+lhe ofereçam presentes. 
+Inclinem-se diante dele todos os reis,
+e sirvam-no todas as nações. 
+Pois ele liberta os pobres que pedem socorro,
+os oprimidos que não têm quem os ajude. 
+Ele se compadece dos fracos e dos pobres
+e os salva da morte. 
+Ele os resgata da opressão e da violência,
+pois aos seus olhos a vida deles é preciosa. 
+Tenha o rei vida longa!
+Receba ele o ouro de Sabá.
+Que se ore por ele continuamente,
+e todo o dia se invoquem bênçãos sobre ele. 
+Haja fartura de trigo por toda a terra,
+ondulando no alto dos montes.
+Floresçam os seus frutos como os do Líbano
+e cresçam as cidades como as plantas no campo. 
+Permaneça para sempre o seu nome
+e dure a sua fama enquanto o sol brilhar.
+Sejam abençoadas todas as nações
+por meio dele,
+e que elas o chamem bendito. 
+Bendito seja o Senhor Deus,
+o Deus de Israel,
+o único que realiza feitos maravilhosos. 
+Bendito seja
+o seu glorioso nome para sempre;
+encha-se toda a terra da sua glória.
+Amém e amém. 
+Encerram-se aqui as orações de Davi, filho de Jessé. 
+ Salmo 72
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 46
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_46/
 INFO:root:🔹 Description: Deus é o nosso refúgio e a nossa fortaleza,
@@ -169,86 +228,80 @@ Deem graças ao Deus dos céus.
 O seu amor dura para sempre! 
  Salmo 136
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 11
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_11/
-INFO:root:🔹 Description: No Senhor me refugio.
-Como então vocês podem dizer-me:
-"Fuja como um pássaro para os montes"? 
-Vejam! Os ímpios preparam os seus arcos;
-colocam as flechas contra as cordas
-para das sombras as atirarem
-nos retos de coração. 
-Quando os fundamentos
-estão sendo destruídos,
-que pode fazer o justo? 
-O Senhor está no seu santo templo;
-o Senhor tem o seu trono nos céus.
-Seus olhos observam;
-seus olhos examinam os filhos dos homens. 
-O Senhor prova o justo,
-mas o ímpio e a quem ama a injustiça,
-a sua alma odeia. 
-Sobre os ímpios ele fará chover
-brasas ardentes e enxofre incandescente;
-vento ressecante é o que terão. 
-Pois o Senhor é justo e ama a justiça;
-os retos verão a sua face. 
- Salmo 11
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 340529 characters
-INFO:root:HTML parsed, length: 331001 characters
-INFO:root:Found 3 titles: ['Foco no que é importante', 'Deixando o pecado para trás', 'A libertação que nasce na Cruz']
+INFO:root:Response length: 340778 characters
+INFO:root:HTML parsed, length: 331251 characters
+INFO:root:Found 3 titles: ['Firme no meio do caos: lições da vida de Ló', 'Foco no que é importante', 'Deixando o pecado para trás']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Busquem, pois, em primeiro lugar o Reino de Deus e', 'Lembrem-se da mulher de Ló!\n- Lucas 17:32\n\nQuando ', 'Foi para a liberdade que Cristo nos libertou. \n- G']
-INFO:root:Found 1 dates: ['Terça, 5 de maio de 2026']
+INFO:root:Found 3 descriptions: ['Fuja por amor à vida! Não olhe para trás e não par', 'Busquem, pois, em primeiro lugar o Reino de Deus e', 'Lembrem-se da mulher de Ló!\n- Lucas 17:32\n\nQuando ']
+INFO:root:Found 1 dates: ['Quarta, 6 de maio de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Foco no que é importante', ID=ed6a5d5944e1e53b492874ba86159b2f
+INFO:root:Processing entry 1: Title='Firme no meio do caos: lições da vida de Ló', ID=c8a158f51601bb4d4b9c34b7392b00ed
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Foco no que é importante - Palavra de Hoje
+INFO:root:🔹 Title: Firme no meio do caos: lições da vida de Ló - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.
-- Mateus 6:33
+INFO:root:🔹 Description: Fuja por amor à vida! Não olhe para trás e não pare em lugar nenhum da planície!
+- Gênesis 19:17b 
 
-Vivemos em um tempo de muitas vozes, muitas distrações e inúmeros caminhos que parecem bons aos nossos olhos. A cada dia somos desafiados a escolher onde colocar nossa atenção, nosso tempo e nosso coração. Apesar disso, a Palavra de Deus nos ensina que a verdadeira prioridade deve ser buscar o Reino de Deus acima de todas as coisas.
-Quando focamos no que é certo, nossa vida começa a tomar direção. Assim como um atleta precisa manter os olhos na linha de chegada, nós também precisamos manter nossos olhos firmes em Cristo. A Bíblia nos orienta em Provérbios 4:25:
-
-Olhe sempre para a frente, mantenha o olhar fixo no que está adiante de você.
-- Provérbios 4:25
-
-As distrações podem parecer inofensivas, mas muitas vezes são armadilhas sutis que roubam nossa paz, nosso tempo com Deus e até mesmo nossos valores. O inimigo trabalha com aquilo que tira nosso foco, preocupações excessivas, comparações, desejos desordenados e caminhos aparentemente mais fáceis. Porém, quando estamos firmados na Palavra, aprendemos a discernir o que edifica e o que destrói.
-Focar no que edifica é escolher pensamentos que fortalecem a fé, atitudes que refletem o caráter de Cristo e decisões alinhadas com a vontade de Deus. Em Filipenses 4:8 somos ensinados a pensar em tudo o que é verdadeiro, honesto, justo, puro e de boa fama. Quando alimentamos nossa mente com a Palavra de Deus, criamos raízes profundas que nos sustentam nos dias difíceis.
-A Palavra é como uma bússola que nos orienta quando surgem dúvidas. Ela ilumina nosso caminho e revela as armadilhas escondidas. Quanto mais nos dedicamos à leitura, à oração e à comunhão com Deus, mais fortalecidos ficamos para dizer “não” ao que nos afasta e “sim” ao que nos aproxima do Senhor.
-Focar no que é importante não é apenas uma decisão momentânea, mas um compromisso diário. É escolher obedecer mesmo quando é difícil. É confiar que Deus sabe o que é melhor para nós. Quando colocamos o Reino em primeiro lugar, experimentamos paz, direção e crescimento espiritual.
-Que hoje possamos ajustar nosso olhar, alinhar nosso coração e reafirmar nosso compromisso com aquilo que realmente importa: viver para a glória de Deus, firmados na Sua Palavra, edificando uma vida que honra o Senhor em todas as áreas.
-Veja também: Versículos sobre buscar a Deus
+Vivemos dias marcados por perversidade, violência e valores distorcidos, muito semelhantes aos tempos de Ló. Ele habitava em Sodoma, uma cidade corrompida, mas ainda assim buscava manter sua vida voltada para Deus. Sua história nos mostra que, mesmo cercados pelo pecado, é possível viver com fé e integridade.
+Ló não era perfeito, mas havia em seu coração um desejo de agradar ao Senhor. Isso nos ensina que Deus não procura pessoas impecáveis, mas corações dispostos. Em um mundo em que o errado é normalizado, precisamos escolher a verdade, mesmo quando isso nos isola.
+Outro ponto marcante é o alerta para não olhar para trás. A esposa de Ló se prendeu ao que ficava, e isso lhe custou tudo. Hoje, muitos querem seguir a Deus, mas sem abrir mão do passado. Para viver em tempos difíceis, é necessário decidir-se completamente por Cristo, sem dividir o coração.
+Além disso, vemos que Deus sempre oferece livramento. Mesmo em meio ao juízo, Ele estendeu a mão a Ló e o tirou daquele lugar. Isso revela sua misericórdia e cuidado com os que o buscam. Não importa quão escuro seja o mundo, Deus continua sendo refúgio seguro.
+Não negocie seus valores, não se conforme com o pecado ao seu redor. Viva com os olhos no Senhor e o coração desprendido do mundo. Assim, mesmo em tempos de caos, sua vida será um testemunho de luz, esperança e salvação.
+Lembre-se de que a justiça de Deus não falha, e sua graça está disponível para sustentar cada passo. Escolha andar com Ele diariamente, fortalecendo sua fé pela Palavra e pela oração. Assim, você não apenas resistirá, mas influenciará outros a também buscarem a verdade que liberta e transforma vidas para sempre. Com coragem e fé, prossiga sempre.
+Veja também: A história de Ló
  
-Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.
-- Mateus 6:33
+Fuja por amor à vida! Não olhe para trás e não pare em lugar nenhum da planície!
+- Gênesis 19:17b 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 350362 characters
-INFO:root:HTML parsed, length: 340395 characters
-INFO:root:Found 3 titles: ['Deserto é lugar de travessia', 'A salvação vem do Senhor Deus', 'Jesus, meu melhor amigo']
-INFO:root:Found 3 URLs: ['/mensagem_de_fe_em_deus/', '/como_mostrar_sua_gratidao_a_deus/', '/confiar_em_deus/']
-INFO:root:Found 3 descriptions: ['Lembrem-se de como o Senhor, o seu Deus, os conduz', 'Mas eu, com um cântico de gratidão, oferecerei sac', 'Ninguém tem maior amor do que aquele que dá a sua ']
-INFO:root:Found 3 dates: ['MAIO\n\n5\nTERÇA', 'MAIO\n\n4\nSEGUNDA', 'MAIO\n\n3\nDOMINGO']
+INFO:root:Response length: 349508 characters
+INFO:root:HTML parsed, length: 339541 characters
+INFO:root:Found 3 titles: ['Quando menos é mais na presença d’Ele', 'Deserto é lugar de travessia', 'A salvação vem do Senhor Deus']
+INFO:root:Found 3 URLs: ['/confianca_em_deus/', '/mensagem_de_fe_em_deus/', '/como_mostrar_sua_gratidao_a_deus/']
+INFO:root:Found 3 descriptions: ['Vivemos em uma época em que somos constantemente b', 'Lembrem-se de como o Senhor, o seu Deus, os conduz', 'Mas eu, com um cântico de gratidão, oferecerei sac']
+INFO:root:Found 3 dates: ['MAIO\n\n6\nQUARTA', 'MAIO\n\n5\nTERÇA', 'MAIO\n\n4\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Deserto é lugar de travessia', ID=fd1449f1bec92f679e206992eb2cb94b
-INFO:root:Processing entry 2: Title='A salvação vem do Senhor Deus', ID=53f71f3ce7008f1ef26703ad673d0389
-INFO:root:Processing entry 3: Title='Jesus, meu melhor amigo', ID=598878c568d159a714b1ed8104417f30
+INFO:root:Processing entry 1: Title='Quando menos é mais na presença d’Ele', ID=be71c5b8362a0a13a2bfc4461192b6dc
+INFO:root:Processing entry 2: Title='Deserto é lugar de travessia', ID=fd1449f1bec92f679e206992eb2cb94b
+INFO:root:Processing entry 3: Title='A salvação vem do Senhor Deus', ID=53f71f3ce7008f1ef26703ad673d0389
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Quando menos é mais na presença d’Ele
+INFO:root:🔹 URL: https://www.bibliaon.com/confianca_em_deus/
+INFO:root:🔹 Description: Vivemos em uma época em que somos constantemente bombardeados por mensagens dizendo que precisamos de mais: mais dinheiro, mais reconhecimento, mais seguidores, mais conquistas. Vídeos, propagandas e influenciadores digitais criam uma sensação de urgência, como se nunca fôssemos completos. Esse ciclo pode gerar ansiedade, comparação e um vazio difícil de preencher.
+No entanto, a Palavra de Deus nos apresenta uma verdade simples e libertadora: Deus é suficiente.
+
+O Senhor é o meu pastor; nada me faltará.
+- Salmos 23:1 
+
+Quando o salmista declara que nada lhe faltará, ele não está falando de uma vida sem desafios, mas de uma confiança profunda em um Deus que supre todas as necessidades da alma.
+Quando colocamos nosso foco em Deus, nossa perspectiva muda. Já não somos guiados pela pressão externa, mas pela paz que vem da presença d’Ele. Em vez de correr atrás de padrões impostos pelo mundo, encontramos estabilidade espiritual para avançar com propósito e equilíbrio.
+Isso não significa que devemos parar de sonhar ou crescer, mas que nosso valor não está nas conquistas, e sim em quem somos em Deus. Ele nos chama a viver com contentamento, confiando que tudo o que realmente precisamos já foi providenciado por Sua graça.
+Ao reconhecer que Deus é suficiente, somos libertos da comparação e da ansiedade. Passamos a viver com mais leveza, focados no que realmente importa: um relacionamento íntimo com Ele. E é nessa segurança que encontramos forças para nos tornarmos a melhor versão de nós mesmos, não para agradar o mundo, mas para glorificar a Deus.
+Escolha desacelerar, silenciar as vozes externas e ouvir a voz de Deus. n’Ele, você já tem tudo o que precisa.
+Deus é suficiente 
+
+Separe diariamente um tempo para oração e leitura bíblica, fortaleça a sua mente e intimidade com Deus.
+Limite o consumo de redes sociais e conteúdos que geram comparação, substituindo esses momentos por reflexões que direcionem seu coração para Deus.
+Pratique a gratidão , reconhecendo o cuidado de Deus em cada detalhe da sua vida, cultivando contentamento e diminuindo a ansiedade por mais.
+
+Para orar: 
+
+Senhor Deus, reconheço que Tu és suficiente em todas as áreas da minha vida. Ajuda-me a confiar mais em Ti e menos nas distrações deste mundo. Guarda meu coração da ansiedade e da comparação, e ensina-me a descansar na Tua presença. Que eu encontre em Ti a paz, a direção e a força para viver segundo a Tua vontade. Em nome de Jesus, amém.
+
+Veja também: 23 versículos sobre confiar em Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Deserto é lugar de travessia
 INFO:root:🔹 URL: https://www.bibliaon.com/mensagem_de_fe_em_deus/
 INFO:root:🔹 Description: Lembrem-se de como o Senhor, o seu Deus, os conduziu por todo o caminho no deserto, durante estes quarenta anos, para humilhá-los e pô-los à prova, a fim de conhecer suas intenções, se iriam obedecer aos seus mandamentos ou não.
@@ -298,30 +351,6 @@ Senhor, agradeço por Tua fidelidade em todos os momentos. Ensina-me a louvar-Te
 
 Veja também: 8 formas de mostrar sua gratidão
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Jesus, meu melhor amigo
-INFO:root:🔹 URL: https://www.bibliaon.com/confiar_em_deus/
-INFO:root:🔹 Description: Ninguém tem maior amor do que aquele que dá a sua vida pelos seus amigos.
-- João 15:13 
-
-Quando o dinheiro acaba, quando os planos falham, quando cometemos erros e passamos vergonha, muitos se afastam. Nessas horas difíceis, percebemos quem realmente está ao nosso lado.
-O verdadeiro amigo não é aquele que permanece apenas nos dias bons, mas aquele que não nos abandona quando tudo parece perdido. E é justamente nesse lugar de dor, de fraqueza e de necessidade que encontramos o maior de todos os amigos: Jesus.
-Ele não nos ama pelo que temos ou pelo que podemos oferecer. Ele nos ama pelo que somos.
-Mesmo conhecendo nossas falhas, nossos pecados e nossas fraquezas, Ele escolheu permanecer conosco. Mais do que isso, Ele decidiu dar a própria vida por nós, em um gesto de amor incomparável.
-Jesus é aquele amigo que nos ouve quando ninguém mais quer ouvir, que nos levanta quando caímos e que nos perdoa quando erramos. Ele não nos expõe nem nos rejeita, mas nos acolhe com graça e misericórdia. Sua amizade não depende das circunstâncias; ela é firme, constante e eterna.
-Quando tudo parece escuro, Ele é a luz. Quando o coração está pesado, Ele traz paz. Quando nos sentimos sozinhos, Ele nos lembra que nunca estamos abandonados.
-Ter Jesus como melhor amigo é ter a certeza de que, independentemente das situações, existe alguém que jamais nos deixará. Ele é fiel, verdadeiro e capaz de fazer o que nenhum outro faria: dar a própria vida por amor a nós.
-Um amigo fiel em todos os momentos da vida 
-
-Podemos confiar em Jesus porque Ele permanece ao nosso lado mesmo quando falhamos, oferecendo perdão sincero, sem nos julgar.
-Podemos confiar em Jesus porque Ele conhece nossas dores mais profundas e ainda assim nos ama, trazendo consolo, esperança e direção quando tudo parece perdido.
-Podemos confiar em Jesus porque Ele provou Seu amor ao dar a própria vida por nós, garantindo a salvação. 
-
-Para orar: 
-
-Senhor Jesus, meu melhor amigo, eu Te agradeço por Tua presença constante em minha vida. Mesmo quando falho e tudo parece difícil, Tu permaneces fiel. Perdoa meus erros, fortalece meu coração e ensina-me a confiar mais em Ti. Guia meus passos, renova minha esperança e enche minha vida com Tua paz e amor. Em nome de Jesus, amém.
-
-Veja também: Versículos sobre crer e confiar somente em Deus
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -351,15 +380,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  29 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  27 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  22 ++-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 122 +++--------
+ feeds/salmo_do_dia/atom.xml               |  81 ++++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 322 ++++++++++++------------------
- 11 files changed, 235 insertions(+), 359 deletions(-)
+ output.log                                | 293 ++++++++++++++++--------------
+ 11 files changed, 291 insertions(+), 245 deletions(-)
