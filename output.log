@@ -1,44 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 126045 characters
-INFO:root:HTML parsed, length: 118925 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (08/05/2026)', 'Palavra de Ontem (07/05/2026)', 'Palavra de Anteontem (06/05/2026)']
-INFO:root:Found 3 URLs: ['/ultracrepidario/', '/garantido/', '/sapo/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Pessoa que opina sobre um as', 'Sinônimos:\n\npresunçoso, pretensioso, arrogante, in', 'Sílabas:ul-tra-cre-pi-dá-ri-o']
-INFO:root:Found 3 dates: ['Palavra de Hoje (08/05/2026)', 'Palavra de Ontem (07/05/2026)', 'Palavra de Anteontem (06/05/2026)']
+INFO:root:Response length: 125663 characters
+INFO:root:HTML parsed, length: 118570 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (09/05/2026)', 'Palavra de Ontem (08/05/2026)', 'Palavra de Anteontem (07/05/2026)']
+INFO:root:Found 3 URLs: ['/elacao/', '/ultracrepidario/', '/garantido/']
+INFO:root:Found 13 descriptions: ['substantivo feminino Característica de altivo; arr', 'Sinônimos:\n\naltivez, arrogância, elevação, orgulho', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (09/05/2026)', 'Palavra de Ontem (08/05/2026)', 'Palavra de Anteontem (07/05/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (08/05/2026)', ID=11349f1d0f186807fece9506e101a2bf
-INFO:root:Processing entry 2: Title='Palavra de Ontem (07/05/2026)', ID=09058b6d53239fe654829268f71f447c
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (06/05/2026)', ID=57f153ac937ddc8409b8fd59299b9af0
+INFO:root:Processing entry 1: Title='Palavra de Hoje (09/05/2026)', ID=1ebaadc268aa442dd4749b00a6b10d30
+INFO:root:Processing entry 2: Title='Palavra de Ontem (08/05/2026)', ID=a874cc7d3cc1cc0704047bee3e90efee
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/05/2026)', ID=290557f64537c4b885b7f0e968d0dd54
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (08/05/2026) - Significado completo de ultracrepidário:
-INFO:root:🔹 URL: https://www.dicio.com.br/ultracrepidario/
-INFO:root:🔹 Description: substantivo masculino Pessoa que opina sobre um assunto do qual nada sabe; quem dá opiniões sobre aquilo que desconhece ou conhece superficialmente.adjetivo Que dá opiniões sobre o que não sabe ou conhece pouco.Etimologia (origem da palavra ultracrepidário). A palavra ultracrepodário tem sua origem no inglês “ultra-crepidarian”, do latim “ultra crepidam”, com o sufixo -arian.
+INFO:root:🔹 Title: Palavra de Hoje (09/05/2026) - Significado completo de elação:
+INFO:root:🔹 URL: https://www.dicio.com.br/elacao/
+INFO:root:🔹 Description: substantivo feminino Característica de altivo; arrogante, soberbo.Estado do que possui magnitude, elevação; grandiosidade, magnificência.Etimologia (origem da palavra elação). A palavra elação tem sua origem no latim "elatio,onis", com o mesmo sentido.
  
 Sinônimos:
 
-presunçoso, pretensioso, arrogante, intrometido, opinativo, dogmático, palpiteiro, convencido, metido, vaidoso, impostor, aventureiro, superficial, falastrão, pedante, audacioso 
+altivez, arrogância, elevação, orgulho, sublimidade, grandiosidade, magnificência 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (07/05/2026) - Significado completo de garantido:
-INFO:root:🔹 URL: https://www.dicio.com.br/garantido/
+INFO:root:🔹 Title: Palavra de Ontem (08/05/2026) - Significado completo de ultracrepidário:
+INFO:root:🔹 URL: https://www.dicio.com.br/ultracrepidario/
 INFO:root:🔹 Description: Sinônimos:
 
-presunçoso, pretensioso, arrogante, intrometido, opinativo, dogmático, palpiteiro, convencido, metido, vaidoso, impostor, aventureiro, superficial, falastrão, pedante, audacioso
- Sílabas:ul-tra-cre-pi-dá-ri-o
+altivez, arrogância, elevação, orgulho, sublimidade, grandiosidade, magnificência
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (06/05/2026) - Significado completo de sapo:
-INFO:root:🔹 URL: https://www.dicio.com.br/sapo/
-INFO:root:🔹 Description: Sílabas:ul-tra-cre-pi-dá-ri-o
- 
-Sinônimos:
-
-guardado, reservado, certo, assegurado, certificado, tranquilo, firme, seguro, confiável, sólido, incontestável, inegável, indubitável 
-
+INFO:root:🔹 Title: Palavra de Anteontem (07/05/2026) - Significado completo de garantido:
+INFO:root:🔹 URL: https://www.dicio.com.br/garantido/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:e-la-ção
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,45 +42,141 @@ INFO:root:Response length: 528 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 339457 characters
-INFO:root:HTML parsed, length: 329491 characters
-INFO:root:Found 1 titles: ['1 Coríntios 2:9']
-INFO:root:Found 1 URLs: ['/versiculo/1_corintios_2_9/']
-INFO:root:Found 1 descriptions: ['Todavia, como está escrito:\n"Olho nenhum viu,\nouvi']
+INFO:root:Response length: 339466 characters
+INFO:root:HTML parsed, length: 329500 characters
+INFO:root:Found 1 titles: ['João 11:25']
+INFO:root:Found 1 URLs: ['/versiculo/joao_11_25/']
+INFO:root:Found 1 descriptions: ['Disse-lhe Jesus: "Eu sou a ressurreição e a vida. ']
 INFO:root:Found 1 dates: ['']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Coríntios 2:9', ID=eaa6126049733c5f2ab112c3b87b923f
+INFO:root:Processing entry 1: Title='João 11:25', ID=184ce22236b561754cbf18bddbe04beb
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Coríntios 2:9
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_corintios_2_9/
-INFO:root:🔹 Description: Todavia, como está escrito:
-"Olho nenhum viu,
-ouvido nenhum ouviu,
-mente nenhuma imaginou
-o que Deus preparou
-para aqueles que o amam"; 1 Coríntios 2:9
+INFO:root:🔹 Title: João 11:25
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_11_25/
+INFO:root:🔹 Description: Disse-lhe Jesus: "Eu sou a ressurreição e a vida. Aquele que crê em mim, ainda que morra, viverá; João 11:25
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 337029 characters
-INFO:root:HTML parsed, length: 328228 characters
-INFO:root:Found 3 titles: ['Salmo 84', 'Salmo 45', 'Salmo 72']
-INFO:root:Found 3 URLs: ['/salmos_84/', '/salmos_45/', '/salmos_72/']
-INFO:root:Found 3 descriptions: ['Como é agradável o lugar da tua habitação,\nSenhor ', 'Com o coração vibrando de boas palavras\nrecito os ', 'Reveste da tua justiça o rei, ó Deus,\ne da tua ret']
-INFO:root:Found 3 dates: ['8 de Maio de 2026', '7 de Maio de 2026', '6 de Maio de 2026']
+INFO:root:Response length: 338704 characters
+INFO:root:HTML parsed, length: 329931 characters
+INFO:root:Found 3 titles: ['Salmo 69', 'Salmo 84', 'Salmo 45']
+INFO:root:Found 3 URLs: ['/salmos_69/', '/salmos_84/', '/salmos_45/']
+INFO:root:Found 3 descriptions: ['Salva-me, ó Deus!,\npois as águas subiram até o meu', 'Como é agradável o lugar da tua habitação,\nSenhor ', 'Com o coração vibrando de boas palavras\nrecito os ']
+INFO:root:Found 3 dates: ['9 de Maio de 2026', '8 de Maio de 2026', '7 de Maio de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 84', ID=6970902c885cf7c9d72a121098125b5c
-INFO:root:Processing entry 2: Title=' Salmo 45', ID=cf6ec74f737411dd9d097a129de9c8ec
-INFO:root:Processing entry 3: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
+INFO:root:Processing entry 1: Title=' Salmo 69', ID=5195f6a86b128f1cf77ff0d1125e16c4
+INFO:root:Processing entry 2: Title=' Salmo 84', ID=6970902c885cf7c9d72a121098125b5c
+INFO:root:Processing entry 3: Title=' Salmo 45', ID=cf6ec74f737411dd9d097a129de9c8ec
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 69
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_69/
+INFO:root:🔹 Description: Salva-me, ó Deus!,
+pois as águas subiram até o meu pescoço. 
+Nas profundezas lamacentas eu me afundo;
+não tenho onde firmar os pés.
+Entrei em águas profundas;
+as correntezas me arrastam. 
+Cansei-me de pedir socorro;
+minha garganta se abrasa.
+Meus olhos fraquejam
+de tanto esperar pelo meu Deus. 
+Os que sem razão me odeiam
+são mais do que os fios de cabelo
+da minha cabeça;
+muitos são os que me prejudicam sem motivo;
+muitos, os que procuram destruir-me.
+Sou forçado a devolver o que não roubei. 
+Tu bem sabes como fui insensato, ó Deus;
+a minha culpa não te é encoberta. 
+Não se decepcionem por minha causa
+aqueles que esperam em ti,
+ó Senhor, Senhor dos Exércitos!
+Não se frustrem por minha causa
+os que te buscam, ó Deus de Israel! 
+Pois por amor a ti suporto zombaria,
+e a vergonha cobre-me o rosto. 
+Sou um estrangeiro para os meus irmãos,
+um estranho até para os filhos da minha mãe; 
+pois o zelo pela tua casa me consome,
+e os insultos daqueles que te insultam
+caem sobre mim. 
+Até quando choro e jejuo,
+tenho que suportar zombaria; 
+quando ponho vestes de lamento,
+sou objeto de chacota. 
+Os que se ajuntam na praça falam de mim,
+e sou a canção dos bêbados. 
+Mas eu, Senhor, no tempo oportuno,
+elevo a ti minha oração;
+responde-me, por teu grande amor, ó Deus,
+com a tua salvação infalível! 
+Tira-me do atoleiro,
+não me deixes afundar;
+liberta-me dos que me odeiam
+e das águas profundas. 
+Não permitas que as correntezas me arrastem
+nem que as profundezas me engulam,
+nem que a cova feche sobre mim a sua boca! 
+Responde-me, Senhor,
+pela bondade do teu amor;
+por tua grande misericórdia, volta-te para mim. 
+Não escondas do teu servo a tua face;
+responde-me depressa, pois estou em perigo. 
+Aproxima-te e resgata-me;
+livra-me por causa dos meus inimigos. 
+Tu bem sabes como sofro zombaria,
+humilhação e vergonha;
+conheces todos os meus adversários. 
+A zombaria partiu-me o coração;
+estou em desespero!
+Supliquei por socorro, nada recebi;
+por consoladores, e a ninguém encontrei. 
+Puseram fel na minha comida
+e para matar-me a sede deram-me vinagre. 
+Que a mesa deles se lhes transforme em laço;
+torne-se retribuição e armadilha. 
+Que se lhe escureçam os olhos
+para que não consigam ver;
+faze-lhes tremer o corpo sem parar. 
+Despeja sobre eles a tua ira;
+que o teu furor ardente os alcance. 
+Fique deserto o lugar deles;
+não haja ninguém que habite nas suas tendas. 
+Pois perseguem aqueles que tu feres
+e comentam a dor daqueles a quem castigas. 
+Acrescenta-lhes pecado sobre pecado;
+não os deixes alcançar a tua justiça. 
+Sejam eles tirados do livro da vida
+e não sejam incluídos no rol dos justos. 
+Grande é a minha aflição e a minha dor!
+Proteja-me, ó Deus, a tua salvação! 
+Louvarei o nome de Deus com cânticos
+e proclamarei sua grandeza
+com ações de graças; 
+isso agradará o Senhor mais do que bois,
+mais do que touros com seus chifres e cascos. 
+Os necessitados o verão e se alegrarão;
+a vocês que buscam a Deus,
+vida ao seu coração! 
+O Senhor ouve o pobre
+e não despreza o seu povo aprisionado. 
+Louvem-no os céus e a terra,
+os mares e tudo o que neles se move, 
+pois Deus salvará Sião
+e reconstruirá as cidades de Judá.
+Então o povo ali viverá e tomará posse da terra; 
+a descendência dos seus servos a herdará,
+e nela habitarão os que amam o seu nome. 
+ Salmo 69
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 84
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_84/
 INFO:root:🔹 Description: Como é agradável o lugar da tua habitação,
@@ -182,116 +274,92 @@ por isso as nações te louvarão
 para todo o sempre. 
  Salmo 45
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 72
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_72/
-INFO:root:🔹 Description: Reveste da tua justiça o rei, ó Deus,
-e da tua retidão o filho do rei, 
-para que ele julgue com retidão
-e com justiça os teus que sofrem opressão. 
-Que os montes tragam prosperidade ao povo
-e as colinas o fruto da justiça. 
-Defenda ele os oprimidos no meio do povo
-e liberte os filhos dos pobres;
-esmague ele o opressor! 
-Que ele perdure como o sol
-e como a lua por todas as gerações. 
-Seja ele como chuva
-sobre uma lavoura ceifada,
-como aguaceiros que regam a terra. 
-Floresçam os justos nos dias do rei,
-e haja grande prosperidade enquanto durar a lua. 
-Governe ele de mar a mar
-e desde o rio Eufrates até os confins da terra. 
-Inclinem-se diante dele as tribos do deserto,
-e os seus inimigos lambam o pó. 
-Que os reis de Társis e das regiões litorâneas
-lhe tragam tributo;
-os reis de Sabá e de Sebá
-lhe ofereçam presentes. 
-Inclinem-se diante dele todos os reis,
-e sirvam-no todas as nações. 
-Pois ele liberta os pobres que pedem socorro,
-os oprimidos que não têm quem os ajude. 
-Ele se compadece dos fracos e dos pobres
-e os salva da morte. 
-Ele os resgata da opressão e da violência,
-pois aos seus olhos a vida deles é preciosa. 
-Tenha o rei vida longa!
-Receba ele o ouro de Sabá.
-Que se ore por ele continuamente,
-e todo o dia se invoquem bênçãos sobre ele. 
-Haja fartura de trigo por toda a terra,
-ondulando no alto dos montes.
-Floresçam os seus frutos como os do Líbano
-e cresçam as cidades como as plantas no campo. 
-Permaneça para sempre o seu nome
-e dure a sua fama enquanto o sol brilhar.
-Sejam abençoadas todas as nações
-por meio dele,
-e que elas o chamem bendito. 
-Bendito seja o Senhor Deus,
-o Deus de Israel,
-o único que realiza feitos maravilhosos. 
-Bendito seja
-o seu glorioso nome para sempre;
-encha-se toda a terra da sua glória.
-Amém e amém. 
-Encerram-se aqui as orações de Davi, filho de Jessé. 
- Salmo 72
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 339987 characters
-INFO:root:HTML parsed, length: 330462 characters
-INFO:root:Found 3 titles: ['Eu sei em quem tenho crido', 'Não desista porque ainda está distante', 'Firme no meio do caos: lições da vida de Ló']
+INFO:root:Response length: 339876 characters
+INFO:root:HTML parsed, length: 330354 characters
+INFO:root:Found 3 titles: ['Controlando as emoções', 'Eu sei em quem tenho crido', 'Não desista porque ainda está distante']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['A vida cristã não é isenta de momentos difíceis. H', 'Não nos cansemos de fazer o bem, pois no tempo pró', 'Fuja por amor à vida! Não olhe para trás e não par']
-INFO:root:Found 1 dates: ['Sexta, 8 de maio de 2026']
+INFO:root:Found 3 descriptions: ['Melhor é o homem paciente\ndo que o guerreiro,\nmais', 'A vida cristã não é isenta de momentos difíceis. H', 'Não nos cansemos de fazer o bem, pois no tempo pró']
+INFO:root:Found 1 dates: ['Sábado, 9 de maio de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Eu sei em quem tenho crido', ID=3b20bef71cbeee763f5cb9383710cb91
+INFO:root:Processing entry 1: Title='Controlando as emoções', ID=2c29d61d998930036037b9bd93c4aee6
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Eu sei em quem tenho crido - Palavra de Hoje
+INFO:root:🔹 Title: Controlando as emoções - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: A vida cristã não é isenta de momentos difíceis. Há fases em que tudo parece dar errado, portas se fecham e os sonhos parecem distantes. Em outros momentos, não há grandes crises, mas uma sensação de estagnação, como se nada avançasse, como se Deus estivesse em silêncio. É justamente nesses períodos que a nossa fé é provada e fortalecida.
+INFO:root:🔹 Description: Melhor é o homem paciente
+do que o guerreiro,
+mais vale controlar o seu espírito
+do que conquistar uma cidade.
+- Provérbios 16:32
 
-Por essa causa também sofro, mas não me envergonho, porque sei em quem tenho crido e estou bem certo de que ele é poderoso para guardar o que lhe confiei até aquele dia.
-- 2 Timóteo 1:12 
-
-O apóstolo Paulo escreveu essas palavras em meio a sofrimento e perseguição. Ainda assim, ele declara com convicção: “eu sei em quem tenho crido”. Paulo não estava confiando no caráter de Deus. Ele sabia que o Senhor é fiel, mesmo quando o cenário ao redor não parece favorável.
-Ter fé não significa fingir que está tudo bem. Significa confiar que Deus continua no controle, mesmo quando não entendemos o que está acontecendo. É crer que Ele está trabalhando, alinhando tudo conforme o Seu propósito perfeito.
-Se você se sente parado, cansado ou desanimado, lembre-se: Deus não se esqueceu de você.
-O tempo de espera também é tempo de preparo. Muitas vezes, Ele usa esses períodos para fortalecer o seu coração, amadurecer a sua fé e direcionar seus passos.
-Continue crendo, mesmo sem ver resultados imediatos. Continue orando, mesmo quando parecer que o céu está em silêncio. Deus permanece o mesmo; Ele é soberano.
-Declare com confiança: eu sei em quem tenho crido. E essa certeza será a âncora da sua alma, sustentando você até que as promessas se cumpram.
-Veja também: 7 versículos que mostram que Deus é maior que os problemas
+Depois de um longo dia de trabalho, você entra no carro e enfrenta o trânsito intenso na volta para casa. Buzinas, pressa, disputas por espaço, parece uma corrida onde todos querem chegar primeiro. Surge então um sentimento quase automático: competir, ultrapassar, provar que você é mais rápido. Aos poucos, a ansiedade cresce, a irritação aparece e, quando percebemos, já estamos dominados por emoções que roubam nossa paz.
+Esse comportamento, embora comum, pode nos prejudicar profundamente. A pressa e o espírito de competição no trânsito aumentam o estresse, prejudicam nossa saúde emocional e até colocam vidas em risco. Mais do que isso, revelam um coração inquieto, distante da paz que Deus deseja para nós.
+A Bíblia nos ensina a agir de forma diferente. Em vez de sermos guiados pela impulsividade, somos chamados a viver com domínio próprio, paciência e mansidão. Controlar as emoções não significa ignorá-las, mas submetê-las à direção do Espírito Santo.
+Quando escolhemos a calma em meio ao caos, demonstramos confiança em Deus e em Seu cuidado.
+Em momentos como esse, vale a pena desacelerar, respirar fundo e lembrar que chegar alguns minutos mais tarde não é mais importante do que manter a paz. Podemos transformar o trânsito em um momento de reflexão, oração ou até gratidão pelo dia que tivemos.
+Deus se agrada quando escolhemos a paz em vez da disputa. Ele nos fortalece para vencer não os outros, mas a nós mesmos. Afinal, a verdadeira vitória está em manter o coração tranquilo, mesmo em meio às pressões da vida.
+Veja também: Oração para Acalmar o Coração: 5 orações para dar tranquilidade
  
-Por essa causa também sofro, mas não me envergonho, porque sei em quem tenho crido e estou bem certo de que ele é poderoso para guardar o que lhe confiei até aquele dia.
-- 2 Timóteo 1:12 
+Melhor é o homem paciente
+do que o guerreiro,
+mais vale controlar o seu espírito
+do que conquistar uma cidade.
+- Provérbios 16:32
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 349365 characters
-INFO:root:HTML parsed, length: 339399 characters
-INFO:root:Found 3 titles: ['Quando o "eu" fala mais forte que o "Tu"', 'Vendo os desafios como um obstáculo, não como uma barreira', 'Quando menos é mais na presença d’Ele']
-INFO:root:Found 4 URLs: ['/historia_de_jonas/', '/historia_de_sansao/', '/versiculos_para_fortalecer_a_fe/']
-INFO:root:Found 3 descriptions: ['Existe um grande perigo na vida quando o “eu” ocup', 'Tudo posso naquele que me fortalece.\n- Filipenses ', 'Vivemos em uma época em que somos constantemente b']
-INFO:root:Found 3 dates: ['MAIO\n\n8\nSEXTA', 'MAIO\n\n7\nQUINTA', 'MAIO\n\n6\nQUARTA']
+INFO:root:Response length: 349573 characters
+INFO:root:HTML parsed, length: 339605 characters
+INFO:root:Found 3 titles: ['Devocional Diário: Não esmaga a cana quebrada', 'Quando o "eu" fala mais forte que o "Tu"', 'Vendo os desafios como um obstáculo, não como uma barreira']
+INFO:root:Found 6 URLs: ['/deus_veio_ao_nosso_encontro/', '/pregacao_sobre_fe/', '/deus_maior_que_problemas/']
+INFO:root:Found 3 descriptions: ['Não esmagará a cana quebrada,\nnem apagará o pavio ', 'Existe um grande perigo na vida quando o “eu” ocup', 'Tudo posso naquele que me fortalece.\n- Filipenses ']
+INFO:root:Found 3 dates: ['MAIO\n\n9\nSÁBADO', 'MAIO\n\n8\nSEXTA', 'MAIO\n\n7\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Quando o "eu" fala mais forte que o "Tu"', ID=b583355fcab16ef6b003f2e09e267b0b
-INFO:root:Processing entry 2: Title='Vendo os desafios como um obstáculo, não como uma barreira', ID=3e0fdf602f3a867a46bc004e34b00d0b
-INFO:root:Processing entry 3: Title='Quando menos é mais na presença d’Ele', ID=be71c5b8362a0a13a2bfc4461192b6dc
+INFO:root:Processing entry 1: Title='Devocional Diário: Não esmaga a cana quebrada', ID=4c2d846e6af0c1b203af670209c1f38c
+INFO:root:Processing entry 2: Title='Quando o "eu" fala mais forte que o "Tu"', ID=b583355fcab16ef6b003f2e09e267b0b
+INFO:root:Processing entry 3: Title='Vendo os desafios como um obstáculo, não como uma barreira', ID=3e0fdf602f3a867a46bc004e34b00d0b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Devocional Diário: Não esmaga a cana quebrada
+INFO:root:🔹 URL: https://www.bibliaon.com/deus_veio_ao_nosso_encontro/
+INFO:root:🔹 Description: Não esmagará a cana quebrada,
+nem apagará o pavio que fumega,
+até que faça vencedor o juízo.
+- Mateus 12:20
+
+Neste versículo, Mateus cita um trecho do profeta Isaías (42:1-4), que apresenta o prometido Servo do Senhor. O evangelista assinalou que Jesus era aquele Messias amoroso e misericordioso, que preferia curar e ajudar as pessoas sem os holofotes da fama. Ele optou por não usar a força ou violência contra os seus opositores. Jesus cumpriu a sua Missão com gentileza, paciência, humildade e mansidão, e da mesma forma Ele nos chama a seguir os seus passos...
+Jesus não esmaga a pessoa quebrantada e fragilizada, que quase perdeu a fé e a esperança. Independentemente da sua condição de fraqueza ou falha, Cristo não termina por destruir aquele que deseja uma segunda chance. A atitude misericordiosa do Senhor, se recusa a apagar um "pavio fumegante", isto é, não extingue o restinho de luz que ainda reside num coração destroçado.
+Em vez disso, O Deus Filho quer curar e restaurar o fraco e abatido, que se volta para Ele. Se é assim com você hoje, que reconhece a sua condição, como alguém que perdeu o rumo e caiu, volte-se para Jesus. Ele não te rejeitará, pois a Sua justiça é vitoriosa. Creia e busque-O, em espírito e em verdade.
+Jesus restaura os fracos e feridos
+
+
+Creia em Jesus como o Único meio para uma transformação real da sua vida.
+Nada que você ou outras pessoas façam poderá te satisfazer mais do que se decidir por Cristo, de verdade, no coração.
+Reconheça as suas fraquezas, falhas e sofrimentos, e entregue tudo a Deus em oração.
+Busque conhecer mais a Jesus, Sua vida, Sua obra e Sua vontade através da Bíblia Sagrada.
+Tal como Deus te trata com paciência e bondade, siga o exemplo de Jesus e ame outras "canas quebradas" e "pavios quase apagados".
+
+Para Orar:
+
+Senhor meu Deus, obrigado por me conceder uma segunda chance, sempre que caio ou vacilo. Reconheço que sou falho e que me afastei de Ti. Mas Tu és o Deus misericordioso, paciente e justo! Ajuda-me a confiar em Ti, sem deixar que a chama da fé e esperança se apaguem no meu coração. Senhor Jesus, quero voltar ao primeiro amor, rever meus valores e reconstruir uma amizade sincera contigo. Ensina-me a ser mais parecido contigo, que é manso e humilde de coração. Renova-me e restaura-me, Senhor! Em nome de Jesus, amém.
+
+Leia mais:
+
+Deus veio ao nosso encontro - uma mensagem de esperança para você
+Pregação sobre fé - A vitória que vence o mundo
+Versículos que mostram que Deus é maior que os problemas
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Quando o "eu" fala mais forte que o "Tu"
-INFO:root:🔹 URL: https://www.bibliaon.com/historia_de_jonas/
+INFO:root:🔹 URL: https://www.bibliaon.com/pregacao_sobre_fe/
 INFO:root:🔹 Description: Existe um grande perigo na vida quando o “eu” ocupa o lugar que pertence a Deus. Isso acontece quando nossa vontade fala mais alto que a voz do Senhor, quando nossos desejos se tornam prioridade e deixamos de perguntar: “Deus, o que Tu queres para mim?”.
 
 Há caminho que parece certo ao homem,
@@ -319,7 +387,7 @@ Senhor Deus, reconheço que muitas vezes meu “eu” fala mais alto que a Tua v
 Conheça mais sobre a história de Jonas e Sansão.
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Vendo os desafios como um obstáculo, não como uma barreira
-INFO:root:🔹 URL: https://www.bibliaon.com/historia_de_sansao/
+INFO:root:🔹 URL: https://www.bibliaon.com/deus_maior_que_problemas/
 INFO:root:🔹 Description: Tudo posso naquele que me fortalece.
 - Filipenses 4:13
 
@@ -338,31 +406,6 @@ Para orar:
 Senhor Deus, entrego a Ti meus caminhos, minhas lutas e meus medos. Fortalece meu coração para que eu não desista diante dos desafios. Dá-me sabedoria para enxergar além das dificuldades e fé para confiar em Teu agir. Guia meus passos, renova minhas forças e enche minha vida com Tua paz. Em tudo, quero depender de Ti. Em nome de Jesus, amém.
 
 Veja também: 8 versículos para fortalecer a sua fé (não desanime)
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Quando menos é mais na presença d’Ele
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_fortalecer_a_fe/
-INFO:root:🔹 Description: Vivemos em uma época em que somos constantemente bombardeados por mensagens dizendo que precisamos de mais: mais dinheiro, mais reconhecimento, mais seguidores, mais conquistas. Vídeos, propagandas e influenciadores digitais criam uma sensação de urgência, como se nunca fôssemos completos. Esse ciclo pode gerar ansiedade, comparação e um vazio difícil de preencher.
-No entanto, a Palavra de Deus nos apresenta uma verdade simples e libertadora: Deus é suficiente.
-
-O Senhor é o meu pastor; nada me faltará.
-- Salmos 23:1 
-
-Quando o salmista declara que nada lhe faltará, ele não está falando de uma vida sem desafios, mas de uma confiança profunda em um Deus que supre todas as necessidades da alma.
-Quando colocamos nosso foco em Deus, nossa perspectiva muda. Já não somos guiados pela pressão externa, mas pela paz que vem da presença d’Ele. Em vez de correr atrás de padrões impostos pelo mundo, encontramos estabilidade espiritual para avançar com propósito e equilíbrio.
-Isso não significa que devemos parar de sonhar ou crescer, mas que nosso valor não está nas conquistas, e sim em quem somos em Deus. Ele nos chama a viver com contentamento, confiando que tudo o que realmente precisamos já foi providenciado por Sua graça.
-Ao reconhecer que Deus é suficiente, somos libertos da comparação e da ansiedade. Passamos a viver com mais leveza, focados no que realmente importa: um relacionamento íntimo com Ele. E é nessa segurança que encontramos forças para nos tornarmos a melhor versão de nós mesmos, não para agradar o mundo, mas para glorificar a Deus.
-Escolha desacelerar, silenciar as vozes externas e ouvir a voz de Deus. n’Ele, você já tem tudo o que precisa.
-Deus é suficiente 
-
-Separe diariamente um tempo para oração e leitura bíblica, fortaleça a sua mente e intimidade com Deus.
-Limite o consumo de redes sociais e conteúdos que geram comparação, substituindo esses momentos por reflexões que direcionem seu coração para Deus.
-Pratique a gratidão , reconhecendo o cuidado de Deus em cada detalhe da sua vida, cultivando contentamento e diminuindo a ansiedade por mais.
-
-Para orar: 
-
-Senhor Deus, reconheço que Tu és suficiente em todas as áreas da minha vida. Ajuda-me a confiar mais em Ti e menos nas distrações deste mundo. Guarda meu coração da ansiedade e da comparação, e ensina-me a descansar na Tua presença. Que eu encontre em Ti a paz, a direção e a força para viver segundo a Tua vontade. Em nome de Jesus, amém.
-
-Veja também: 23 versículos sobre confiar em Deus
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -393,15 +436,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  49 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  52 +++--
  feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  30 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  20 +--
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  72 ++++----
+ feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 156 ++++++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 286 +++++++++++++++---------------
- 11 files changed, 276 insertions(+), 248 deletions(-)
+ output.log                                | 377 ++++++++++++++++--------------
+ 11 files changed, 389 insertions(+), 315 deletions(-)
