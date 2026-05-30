@@ -1,38 +1,34 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124281 characters
-INFO:root:HTML parsed, length: 117764 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (29/05/2026)', 'Palavra de Ontem (28/05/2026)', 'Palavra de Anteontem (27/05/2026)']
-INFO:root:Found 3 URLs: ['/farao-2/', '/grosso-modo/', '/pinoia/']
-INFO:root:Found 9 descriptions: ['substantivo masculino Título atribuído aos soberan', 'Classe gramatical:substantivo masculino', 'Sílabas:fa-ra-ó']
-INFO:root:Found 3 dates: ['Palavra de Hoje (29/05/2026)', 'Palavra de Ontem (28/05/2026)', 'Palavra de Anteontem (27/05/2026)']
+INFO:root:Response length: 123290 characters
+INFO:root:HTML parsed, length: 116957 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (30/05/2026)', 'Palavra de Ontem (29/05/2026)', 'Palavra de Anteontem (28/05/2026)']
+INFO:root:Found 3 URLs: ['/nomade-digital/', '/farao-2/', '/grosso-modo/']
+INFO:root:Found 7 descriptions: ['locução substantiva Pessoa que tem a possibilidade', 'Sílabas:nô-ma-de-di-gi-tal', 'substantivo masculino Título atribuído aos soberan']
+INFO:root:Found 3 dates: ['Palavra de Hoje (30/05/2026)', 'Palavra de Ontem (29/05/2026)', 'Palavra de Anteontem (28/05/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (29/05/2026)', ID=3408ac5e76ee089dd22385a106610f59
-INFO:root:Processing entry 2: Title='Palavra de Ontem (28/05/2026)', ID=06c73f4a6d8142739c5df462647bee0c
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (27/05/2026)', ID=063228b1d6235dcdb8e86f3eb870c087
+INFO:root:Processing entry 1: Title='Palavra de Hoje (30/05/2026)', ID=0e67b9826af333e2e24446dfc15b72a9
+INFO:root:Processing entry 2: Title='Palavra de Ontem (29/05/2026)', ID=1f1cd205c83cf114587051cca091b56f
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/05/2026)', ID=319ae5ebf692d46c8791b754dd3a2a45
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (29/05/2026) - Significado completo de faraó:
+INFO:root:🔹 Title: Palavra de Hoje (30/05/2026) - Significado completo de nômade digital:
+INFO:root:🔹 URL: https://www.dicio.com.br/nomade-digital/
+INFO:root:🔹 Description: locução substantiva Pessoa que tem a possibilidade de viajar regularmente e, por não possuir residência fixa, consegue exercer suas atividades de trabalho remotamente, geralmente por meio da internet; trabalhador remoto.Imigrante que exerce suas atividades profissionais em regime de teletrabalho.Etimologia (origem de nômade digital). A locução nômade digital tem sua origem pela junção das palavras nômade, pelo latim "nomades", sem residência fixa, e digital.
+ Sílabas:nô-ma-de-di-gi-tal
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (29/05/2026) - Significado completo de faraó:
 INFO:root:🔹 URL: https://www.dicio.com.br/farao-2/
-INFO:root:🔹 Description: substantivo masculino Título atribuído aos soberanos do antigo Egito; designação pela qual esse soberanos eram chamados: Tutancâmon era um faraó egípcio.Ludologia. Antigo jogo de cartas em que o responsável pelo banco abre duas cartas, pagando em sobro à pessoa que acertar o valor da carta mais alta.Etimologia (origem da palavra faraó). Do latim pharao; pharaon.onis; pelo grego pharaó.
+INFO:root:🔹 Description: Sílabas:nô-ma-de-di-gi-tal
  Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (28/05/2026) - Significado completo de grosso modo:
+INFO:root:🔹 Title: Palavra de Anteontem (28/05/2026) - Significado completo de grosso modo:
 INFO:root:🔹 URL: https://www.dicio.com.br/grosso-modo/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+INFO:root:🔹 Description: substantivo masculino Título atribuído aos soberanos do antigo Egito; designação pela qual esse soberanos eram chamados: Tutancâmon era um faraó egípcio.Ludologia. Antigo jogo de cartas em que o responsável pelo banco abre duas cartas, pagando em sobro à pessoa que acertar o valor da carta mais alta.Etimologia (origem da palavra faraó). Do latim pharao; pharaon.onis; pelo grego pharaó.
  Sílabas:fa-ra-ó
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (27/05/2026) - Significado completo de pinoia:
-INFO:root:🔹 URL: https://www.dicio.com.br/pinoia/
-INFO:root:🔹 Description: Sílabas:fa-ra-ó
- 
-Sinônimos:
-
-aproximadamente, genericamente, vagamente, imprecisamente, amplamente 
-
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +36,85 @@ INFO:root:Response length: 528 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 384909 characters
-INFO:root:HTML parsed, length: 374630 characters
-INFO:root:Found 1 titles: ['Mateus 16:26']
-INFO:root:Found 1 URLs: ['/versiculo/mateus_16_26/']
-INFO:root:Found 1 descriptions: ['Pois, que adiantará ao homem ganhar o mundo inteir']
+INFO:root:Response length: 384974 characters
+INFO:root:HTML parsed, length: 374695 characters
+INFO:root:Found 1 titles: ['Provérbios 1:7']
+INFO:root:Found 1 URLs: ['/versiculo/proverbios_1_7/']
+INFO:root:Found 1 descriptions: ['O temor do Senhor\né o princípio do conhecimento,\nm']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Mateus 16:26', ID=a92b1fb877da5b5efa4f0a0ea3c71e14
+INFO:root:Processing entry 1: Title='Provérbios 1:7', ID=11660c5f990a3e69aa7d693e8882f101
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Mateus 16:26
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_16_26/
-INFO:root:🔹 Description: Pois, que adiantará ao homem ganhar o mundo inteiro e perder a sua alma? Ou, o que o homem poderá dar em troca de sua alma? Mateus 16:26
+INFO:root:🔹 Title: Provérbios 1:7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_1_7/
+INFO:root:🔹 Description: O temor do Senhor
+é o princípio do conhecimento,
+mas os insensatos desprezam
+a sabedoria e a disciplina. Provérbios 1:7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 380759 characters
-INFO:root:HTML parsed, length: 371532 characters
-INFO:root:Found 3 titles: ['Salmo 33', 'Salmo 82', 'Salmo 20']
-INFO:root:Found 3 URLs: ['/salmos_33/', '/salmos_82/', '/salmos_20/']
-INFO:root:Found 3 descriptions: ['Cantem de alegria ao Senhor,\nvocês que são justos;', 'É Deus quem preside a assembleia divina;\nno meio d', 'Que o Senhor te responda\nno tempo da angústia;\no n']
-INFO:root:Found 3 dates: ['29 de Maio de 2026', '28 de Maio de 2026', '27 de Maio de 2026']
+INFO:root:Response length: 381209 characters
+INFO:root:HTML parsed, length: 371993 characters
+INFO:root:Found 3 titles: ['Salmo 143', 'Salmo 33', 'Salmo 82']
+INFO:root:Found 3 URLs: ['/salmos_143/', '/salmos_33/', '/salmos_82/']
+INFO:root:Found 3 descriptions: ['Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Cantem de alegria ao Senhor,\nvocês que são justos;', 'É Deus quem preside a assembleia divina;\nno meio d']
+INFO:root:Found 3 dates: ['30 de Maio de 2026', '29 de Maio de 2026', '28 de Maio de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 33', ID=b5fdbe77bb9ade637a5290d93190889c
-INFO:root:Processing entry 2: Title=' Salmo 82', ID=b08571775c4d91acb25aaf79665479aa
-INFO:root:Processing entry 3: Title=' Salmo 20', ID=8b9cb5cd40f9096fbb8f17788869e2f7
+INFO:root:Processing entry 1: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
+INFO:root:Processing entry 2: Title=' Salmo 33', ID=b5fdbe77bb9ade637a5290d93190889c
+INFO:root:Processing entry 3: Title=' Salmo 82', ID=b08571775c4d91acb25aaf79665479aa
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 143
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_143/
+INFO:root:🔹 Description: Ouve, Senhor, a minha oração,
+dá ouvidos à minha súplica;
+responde-me
+por tua fidelidade e por tua justiça. 
+Mas não leves o teu servo a julgamento,
+pois ninguém é justo diante de ti. 
+O inimigo persegue-me
+e esmaga-me ao chão;
+ele me faz morar nas trevas,
+como os que há muito morreram. 
+O meu espírito desanima;
+o meu coração está em pânico. 
+Eu me recordo dos tempos antigos;
+medito em todas as tuas obras
+e considero o que as tuas mãos têm feito. 
+Estendo as minhas mãos para ti;
+como a terra árida, tenho sede de ti. 
+Apressa-te em responder-me, Senhor!
+O meu espírito se abate.
+Não escondas de mim o teu rosto,
+ou serei como os que descem à cova. 
+Faze-me ouvir do teu amor leal pela manhã,
+pois em ti confio.
+Mostra-me o caminho que devo seguir,
+pois a ti elevo a minha alma. 
+Livra-me dos meus inimigos, Senhor,
+pois em ti eu me abrigo. 
+Ensina-me a fazer a tua vontade,
+pois tu és o meu Deus;
+que o teu bondoso Espírito
+me conduza por terreno plano. 
+Preserva-me a vida, Senhor,
+por causa do teu nome;
+por tua justiça, tira-me desta angústia. 
+E no teu amor leal,
+aniquila os meus inimigos;
+destrói todos os meus adversários,
+pois sou teu servo. 
+ Salmo 143
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 33
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_33/
 INFO:root:🔹 Description: Cantem de alegria ao Senhor,
@@ -152,92 +193,85 @@ Levanta-te, ó Deus, julga a terra,
 pois todas as nações te pertencem. 
  Salmo 82
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 20
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_20/
-INFO:root:🔹 Description: Que o Senhor te responda
-no tempo da angústia;
-o nome do Deus de Jacó te proteja! 
-Do santuário te envie auxílio
-e de Sião te dê apoio. 
-Lembre-se de todas as tuas ofertas
-e aceite os teus holocaustos. 
-Conceda-te o desejo do teu coração
-e leve a efeito todos os teus planos. 
-Saudaremos a tua vitória com gritos de alegria
-e ergueremos as nossas bandeiras
-em nome do nosso Deus.
-Que o Senhor atenda a todos os teus pedidos! 
-Agora sei que o Senhor
-dará vitória ao seu ungido;
-dos seus santos céus lhe responde
-com o poder salvador da sua mão direita. 
-Alguns confiam em carros e outros em cavalos,
-mas nós confiamos
-no nome do Senhor, o nosso Deus. 
-Eles vacilam e caem,
-mas nós nos erguemos e estamos firmes. 
-Senhor, concede vitória ao rei!
-Responde-nos quando clamamos! 
- Salmo 20
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 386751 characters
-INFO:root:HTML parsed, length: 376924 characters
-INFO:root:Found 3 titles: ['Há descanso para os humildes', 'Permita que o sofrimento o aproxime de Deus', 'Como partilhar o Evangelho? A Bíblia responde']
+INFO:root:Response length: 385680 characters
+INFO:root:HTML parsed, length: 375847 characters
+INFO:root:Found 3 titles: ['Coloque seus olhos em Jesus', 'Há descanso para os humildes', 'Permita que o sofrimento o aproxime de Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Tomem sobre vocês o meu jugo e aprendam de mim, po', 'Como a corça anseia por águas correntes,\na minha a', 'Jesus disse que devemos pregar o Evangelho a todos']
-INFO:root:Found 1 dates: ['Sexta, 29 de maio de 2026']
+INFO:root:Found 3 descriptions: ['Portanto, também nós, uma vez que estamos rodeados', 'Tomem sobre vocês o meu jugo e aprendam de mim, po', 'Como a corça anseia por águas correntes,\na minha a']
+INFO:root:Found 1 dates: ['Sábado, 30 de maio de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Há descanso para os humildes', ID=e6a0a64d0bfaa8fb1bb4d8d9fe48ce4a
+INFO:root:Processing entry 1: Title='Coloque seus olhos em Jesus', ID=c940eb8c7983cc745c77e7ae8a6e624f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Há descanso para os humildes - Palavra de Hoje
+INFO:root:🔹 Title: Coloque seus olhos em Jesus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Tomem sobre vocês o meu jugo e aprendam de mim, pois sou manso e humilde de coração, e vocês encontrarão descanso para as suas almas. Pois o meu jugo é suave e o meu fardo é leve".
-- Mateus 11:29-30
+INFO:root:🔹 Description: Portanto, também nós, uma vez que estamos rodeados por tão grande nuvem de testemunhas, livremo-nos de tudo o que nos atrapalha e do pecado que nos envolve e corramos com perseverança a corrida que nos é proposta, tendo os olhos fitos em Jesus, autor e consumador da nossa fé. Ele, pela alegria que lhe fora proposta, suportou a cruz, desprezando a vergonha, e assentou-se à direita do trono de Deus.
+- Hebreus 12:1-2
 
-Muitas vezes nos sentimos cansados de lutar. Desejamos que os outros nos compreendam e nos esforçamos para mostrar que estamos certos ou que o nosso ponto de vista é melhor. Viver com essa atitude esgota nossas forças e nos deixa totalmente exaustos.
-Jesus nos ensinou uma maneira melhor de lidar com aqueles que se opõem a nós: a humildade. Seu método? Esforcemo-nos ainda mais para ser como ele, amando os outros, tentando compreendê-los.
-Vamos parar de gastar tanta energia em estratégias para convencer os outros de que estamos certos ou que o nosso ponto de vista é melhor. Sejamos mais parecidos com Jesus! Vamos tratar as outras pessoas com bondade e humildade. Com toda certeza sentiremos cada dia mais paz e poderemos descansar melhor.
-Viva cada dia com humildade diante de Deus e diante dos outros e receberá o descanso que Deus quer dar ao seu coração. Efésios 4:2 diz que somos chamados a andar “completamente humildes e dóceis, e sejam pacientes, suportando uns aos outros com amor.”.
-Oremos hoje a Deus para que nos ajude a ser mais humildes em meio aos desafios da vida. Sendo mais humildes, encontraremos verdadeiro descanso para nossas almas.
+Sentes que o teu mundo está confuso e que não tens esperança? Olha para Jesus! Nele sempre há esperança, mesmo no meio de situações que parecem impossíveis. Ele venceu a tentação, o pecado e até a morte. Não há nada que Ele não possa transformar com o seu poder. Leia a Bíblia, aprenda mais sobre Jesus e confia nele. Verás como Ele mudará a tua vida.
+Com a sua ajuda, podes libertar-te do poder do pecado e vencer as tentações que tentam desviar-te do seu caminho. No meio das tuas lutas, lembra-te que Jesus é:
 
-Bem-aventurados os humildes,
-pois eles receberão a terra por herança.
-- Mateus 5:5
+Teu salvador: "E em nenhum outro há salvação; porque debaixo do céu nenhum outro nome há, dado entre os homens, pelo qual devamos ser salvos." (Atos 4:12)
+O Deus poderoso: "No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus. Este era no princípio com Deus. Todas as coisas foram feitas por ele, e sem ele nada do que foi feito se fez." (João 1:1-3)
+Sempre o mesmo: "Jesus Cristo é o mesmo, ontem, hoje e eternamente." (Hebreus 13:8)
+Teu intercessor: "Quem é que condena? Pois é Cristo quem morreu, ou antes quem ressuscitou dentre os mortos, o qual está à direita de Deus, e também intercede por nós." (Romanos 8:34)
 
-Veja também: Versículos sobre humildade
+Concentra-te em Jesus, mantém os teus olhos nele e desfruta da sua companhia.
+
+Versículos que mostram que Jesus é a salvação
+10 versículos que mostram que Jesus venceu a morte
  
-Razões para confiar em Deus nas dificuldades
-Mensagem de otimismo e fé: vai dar tudo certo!
+Teu salvador: "E em nenhum outro há salvação; porque debaixo do céu nenhum outro nome há, dado entre os homens, pelo qual devamos ser salvos." (Atos 4:12)
+O Deus poderoso: "No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus. Este era no princípio com Deus. Todas as coisas foram feitas por ele, e sem ele nada do que foi feito se fez." (João 1:1-3)
+Sempre o mesmo: "Jesus Cristo é o mesmo, ontem, hoje e eternamente." (Hebreus 13:8)
+Teu intercessor: "Quem é que condena? Pois é Cristo quem morreu, ou antes quem ressuscitou dentre os mortos, o qual está à direita de Deus, e também intercede por nós." (Romanos 8:34)
 
  
-Tomem sobre vocês o meu jugo e aprendam de mim, pois sou manso e humilde de coração, e vocês encontrarão descanso para as suas almas. Pois o meu jugo é suave e o meu fardo é leve".
-- Mateus 11:29-30
+Portanto, também nós, uma vez que estamos rodeados por tão grande nuvem de testemunhas, livremo-nos de tudo o que nos atrapalha e do pecado que nos envolve e corramos com perseverança a corrida que nos é proposta, tendo os olhos fitos em Jesus, autor e consumador da nossa fé. Ele, pela alegria que lhe fora proposta, suportou a cruz, desprezando a vergonha, e assentou-se à direita do trono de Deus.
+- Hebreus 12:1-2
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 394701 characters
-INFO:root:HTML parsed, length: 384427 characters
-INFO:root:Found 3 titles: ['Pare e considere as maravilhas de Deus!', 'Devocional: Renovando a mente e o coração', 'O verdadeiro descanso']
+INFO:root:Response length: 393380 characters
+INFO:root:HTML parsed, length: 383106 characters
+INFO:root:Found 3 titles: ['O dia que o Rei nascceu', 'Pare e considere as maravilhas de Deus!', 'Devocional: Renovando a mente e o coração']
 INFO:root:Found 2 URLs: ['/estudos_biblicos/', '/acao_do_espirito_santo_na_vida/']
-INFO:root:Found 3 descriptions: ['Escute isto, Jó; pare e reflita nas maravilhas de ', 'Quanto à antiga maneira de viver, vocês foram ensi', '"Venham a mim, todos os que estão cansados e sobre']
-INFO:root:Found 3 dates: ['MAIO\n\n29\nSEXTA', 'MAIO\n\n28\nQUINTA', 'MAIO\n\n27\nQUARTA']
+INFO:root:Found 3 descriptions: ['e perguntaram: "Onde está o recém-nascido rei dos ', 'Escute isto, Jó; pare e reflita nas maravilhas de ', 'Quanto à antiga maneira de viver, vocês foram ensi']
+INFO:root:Found 3 dates: ['MAIO\n\n30\nSÁBADO', 'MAIO\n\n29\nSEXTA', 'MAIO\n\n28\nQUINTA']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Pare e considere as maravilhas de Deus!', ID=4b143f7dca8b5d9bfefa64d413cccad5
-INFO:root:Processing entry 2: Title='Devocional: Renovando a mente e o coração', ID=02a246351daf03172611ea0bf2a6ac23
+INFO:root:Processing entry 1: Title='O dia que o Rei nascceu', ID=a222f3c101058b81d59d053cb9a475ed
+INFO:root:Processing entry 2: Title='Pare e considere as maravilhas de Deus!', ID=4b143f7dca8b5d9bfefa64d413cccad5
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Pare e considere as maravilhas de Deus!
+INFO:root:🔹 Title: O dia que o Rei nascceu
 INFO:root:🔹 URL: https://www.bibliaon.com/estudos_biblicos/
+INFO:root:🔹 Description: e perguntaram: "Onde está o recém-nascido rei dos judeus? Vimos a sua estrela no oriente e viemos adorá-lo".
+Mateus 2:2
+
+Assim que o menino Jesus nasceu, magos do oriente sentiram sua presença, eles sabiam que algo extraordinário tinha acabado de acontecer. Eles decidiram ir à pessoa mais poderosa daquela região, o rei Herodes, perguntando sobre o novo Rei que nasceu. Então Herodes ficou irado e planejou matar o menino, pois ele seria uma ameaça ao seu reinado.
+Essa seria apenas a primeira vez que Jesus ameaçou reis terrenos. No seu ministério provaram Jesus para saber o que ele diria sobre o pagamento de imposto a Cesar. Em outra ocasião, quiseram nomeá-lo rei a força, mas conseguiu fugir. Quando foi crucificado, porém, foi posto em cima de sua cabeça uma placa que dizia "REI DOS JUDEUS" (Mt 27:37) em zombaria.
+O que não sabiam é que Ele realmente era o Rei dos judeus, mas não um rei que toma o poder a força, conspiração ou enganação. Jesus é um Rei que ganhou seu trono por meio da humildade. Quando ressuscitou, Deus pôs tudo debaixo de seus pés.
+Sujeite-se ao Rei
+
+Creia que Jesus é o Rei da sua vida, Ele domina e deve ser Senhor sobre cada área.
+Seja seu súdito leal, esteja disposto a cumprir seus mandamentos em amor.
+Espalhe o Reino de Deus entre as pessoas, faça-o conhecido e convide outros a se juntar a você.
+
+Para orar:
+
+Senhor Jesus, me ajoelho diante de Ti como sendo meu Rei. O Senhor conquistou na cruz a minha vida, pois morreu a minha morte, pagou o preço por mim. Peço que me perdoe quando falho, pois ainda sou pecador. Mas virá o dia em que retornará do céu e nos encontraremos, meu Rei retornará! Aguardo e anseio por esse dia, em nome de Jesus, amém!
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Pare e considere as maravilhas de Deus!
+INFO:root:🔹 URL: https://www.bibliaon.com/acao_do_espirito_santo_na_vida/
 INFO:root:🔹 Description: Escute isto, Jó; pare e reflita nas maravilhas de Deus.
 - Jó 37:14
 
@@ -255,35 +289,6 @@ Esforce para ter momentos de comunhão e partilha com sua família em casa e na 
 Para orar:
 
 Senhor meu Deus, muito obrigado por tantas dádivas e tantas maravilhas! O Senhor é maravilhoso! Ajuda-me a estar atento e refletir com gratidão em tudo o que o Senhor fez e faz por nós todos os dias. Que a Sua Palavra me faça lembrar de todo o bem que o Senhor nos tem feito, hoje e sempre. Amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Devocional: Renovando a mente e o coração
-INFO:root:🔹 URL: https://www.bibliaon.com/acao_do_espirito_santo_na_vida/
-INFO:root:🔹 Description: Quanto à antiga maneira de viver, vocês foram ensinados a despir-se do velho homem, que se corrompe por desejos enganosos, a serem renovados no modo de pensar e a revestir-se do novo homem, criado para ser semelhante a Deus em justiça e em santidade provenientes da verdade.
-- Efésios 4:22-24
-
-Em Efésios 4:22-24, somos instruídos a abandonar nosso antigo modo de viver, marcado pela corrupção dos desejos enganosos, e a nos renovar na atitude da nossa mente. Este chamado à renovação não é apenas uma mudança superficial, mas uma transformação profunda que afeta a essência de quem somos.
-A Palavra nos exorta a nos despojar do velho homem, corrompido pelos enganos do mundo, e a nos revestir do novo homem, criado à imagem de Deus, na verdadeira justiça e santidade.
-
-Portanto, se alguém está em Cristo, é nova criação. As coisas antigas já passaram; eis que surgiram coisas novas!
-- 2 Coríntios 5:17 
-
-2 Coríntios 5:17 nos assegura que, em Cristo, somos novas criaturas; o velho passou, e eis que tudo se fez novo. Essa transformação não é apenas uma troca exterior, mas uma renovação interior que ocorre no âmago da nossa existência. Quando aceitamos Jesus como Senhor e Salvador, Ele inicia um processo de renovação em nós, restaurando-nos à imagem que Deus planejou desde o princípio. 
-Renovar a mente não é apenas mudar pensamentos, mas permitir que a verdade de Deus permeie nossos pensamentos, atitudes e comportamentos. É um convite para alinhar nossas mentes com a Palavra de Deus, deixando que Sua verdade nos molde, purifique e conduza a uma vida que reflita Seu caráter.
-Que possamos, diariamente, buscar a renovação da nossa mente em Deus, permitindo que Ele transforme cada aspecto de quem somos. Que a graça de Cristo nos guie na jornada de renovação, para que possamos viver uma vida que glorifica a Deus em justiça e santidade.
-Renove a sua mente hoje! 
-
-Dedique tempo diário para estudar a Bíblia. Permita que a Palavra viva permeiem sua mente e renove o seu interior.
-Identifique e abandone padrões de vida antigos e corrompidos. A verdadeira renovação começa quando nos despojamos do velho para abraçar o novo em Cristo.
-Fortaleça sua conexão com Deus através da oração e comunhão constante. Busque por santidade e renove a sua vida.
-
-Para Orar: 
-
-Senhor, ajuda-me a identificar e abandonar os padrões antigos, despojando-me do velho homem. Que minha comunhão contigo seja constante, fortalecendo minha transformação. Conduze-me, Espírito Santo, para que minha vida reflita Tua justiça e santidade. Em nome de Jesus, amém.
-
-Veja também: 
-
-Estudos Bíblicos: estudos evangélicos organizados por tema
-O poder do Espírito Santo em nossas vidas (estudo bíblico)
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -314,15 +319,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  61 ++---
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  41 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  33 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  14 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 122 +++++-----
+ feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  68 +++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 371 ++++++++++++------------------
- 11 files changed, 268 insertions(+), 411 deletions(-)
+ output.log                                | 271 +++++++++++++++---------------
+ 11 files changed, 246 insertions(+), 248 deletions(-)
