@@ -1,87 +1,86 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
-INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 127134 characters
-INFO:root:HTML parsed, length: 120099 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (01/06/2026)', 'Palavra de Ontem (31/05/2026)', 'Palavra de Anteontem (30/05/2026)']
-INFO:root:Found 3 URLs: ['/solene/', '/impetuoso/', '/nomade-digital/']
-INFO:root:Found 13 descriptions: ['adjetivo Celebrado com pompa e majestade; suntuoso', 'Sinônimos:\n\ncerimonial, cerimonioso, faustoso, for', 'Antônimos:\n\ninformal, coloquial, apagado, ático, d']
-INFO:root:Found 3 dates: ['Palavra de Hoje (01/06/2026)', 'Palavra de Ontem (31/05/2026)', 'Palavra de Anteontem (30/05/2026)']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (01/06/2026)', ID=4523e8882c7a5df322d4cc0c73a95e5b
-INFO:root:Processing entry 2: Title='Palavra de Ontem (31/05/2026)', ID=f47d058899d5f08fb8ca02299e893a7e
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/05/2026)', ID=310f468364cf048e79edb02c7705b795
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
-INFO:root:
-📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (01/06/2026) - Significado completo de solene:
-INFO:root:🔹 URL: https://www.dicio.com.br/solene/
-INFO:root:🔹 Description: adjetivo Celebrado com pompa e majestade; suntuoso: festa solene.Repleto de ações formais e de regras estritas; protocolar: visita solene.Feito com magnificência; majestoso: festa solene.Que expressa relevância e seriedade; sério: discursava de modo solene.Que traz consigo formalidades legais ou habituais: juramento solene.[Pejorativo] Em que há ênfase excessiva; pedante: tom solene.Etimologia (origem da palavra solene). A palavra solene deriva do latim "sollenmnis, solennis,e", que significa que se consagrou.
- 
-Sinônimos:
-
-cerimonial, cerimonioso, faustoso, formal, grandioso, grandiloquente, imponente, luxuoso, magnífico, majestoso, manifesto, nobre, notório, oficial, pomposo, protocolar, sério, social, suntuoso 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (31/05/2026) - Significado completo de impetuoso:
-INFO:root:🔹 URL: https://www.dicio.com.br/impetuoso/
-INFO:root:🔹 Description: Sinônimos:
-
-cerimonial, cerimonioso, faustoso, formal, grandioso, grandiloquente, imponente, luxuoso, magnífico, majestoso, manifesto, nobre, notório, oficial, pomposo, protocolar, sério, social, suntuoso
- 
-Antônimos:
-
-informal, coloquial, apagado, ático, despojado, humilde, lacônico, pobre, simples 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (30/05/2026) - Significado completo de nômade digital:
-INFO:root:🔹 URL: https://www.dicio.com.br/nomade-digital/
-INFO:root:🔹 Description: Antônimos:
-
-informal, coloquial, apagado, ático, despojado, humilde, lacônico, pobre, simples
- Classe gramatical:adjetivo de dois gêneros
-INFO:root:--------------------------------------------------
+INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 403
+INFO:root:Response length: 5388 characters
+WARNING:root:Failed to fetch content from https://www.dicio.com.br/palavra-do-dia/ - Status: 403
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
 INFO:root:Response length: 528 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 384978 characters
-INFO:root:HTML parsed, length: 374699 characters
-INFO:root:Found 1 titles: ['Josué 6:20']
-INFO:root:Found 1 URLs: ['/versiculo/josue_6_20/']
-INFO:root:Found 1 descriptions: ['Quando soaram as trombetas, o povo gritou. Ao som ']
+INFO:root:Response length: 384941 characters
+INFO:root:HTML parsed, length: 374662 characters
+INFO:root:Found 1 titles: ['Lucas 1:37']
+INFO:root:Found 1 URLs: ['/versiculo/lucas_1_37/']
+INFO:root:Found 1 descriptions: ['Pois nada é impossível para Deus". Lucas 1:37']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Josué 6:20', ID=1999e0823057c0bc3e667767027c89b1
+INFO:root:Processing entry 1: Title='Lucas 1:37', ID=cf3c520f5e45361df1047009a40849d7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Josué 6:20
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/josue_6_20/
-INFO:root:🔹 Description: Quando soaram as trombetas, o povo gritou. Ao som das trombetas e do forte grito, o muro caiu. Cada um atacou do lugar onde estava, e tomaram a cidade. Josué 6:20
+INFO:root:🔹 Title: Lucas 1:37
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/lucas_1_37/
+INFO:root:🔹 Description: Pois nada é impossível para Deus". Lucas 1:37
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 383993 characters
-INFO:root:HTML parsed, length: 374829 characters
-INFO:root:Found 3 titles: ['Salmo 39', 'Salmo 37', 'Salmo 143']
-INFO:root:Found 3 URLs: ['/salmos_39/', '/salmos_37/', '/salmos_143/']
-INFO:root:Found 3 descriptions: ['Eu disse: Vigiarei a minha conduta\ne não pecarei e', 'Não se aborreça por causa dos homens maus\ne não te', 'Ouve, Senhor, a minha oração,\ndá ouvidos à minha s']
-INFO:root:Found 3 dates: ['1 de Junho de 2026', '31 de Maio de 2026', '30 de Maio de 2026']
+INFO:root:Response length: 384009 characters
+INFO:root:HTML parsed, length: 374839 characters
+INFO:root:Found 3 titles: ['Salmo 92', 'Salmo 39', 'Salmo 37']
+INFO:root:Found 3 URLs: ['/salmos_92/', '/salmos_39/', '/salmos_37/']
+INFO:root:Found 3 descriptions: ['Como é bom render graças ao Senhor\ne cantar louvor', 'Eu disse: Vigiarei a minha conduta\ne não pecarei e', 'Não se aborreça por causa dos homens maus\ne não te']
+INFO:root:Found 3 dates: ['2 de Junho de 2026', '1 de Junho de 2026', '31 de Maio de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
-INFO:root:Processing entry 2: Title=' Salmo 37', ID=89d0f6523954eb5d7c6f293845fa038a
-INFO:root:Processing entry 3: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
+INFO:root:Processing entry 1: Title=' Salmo 92', ID=ae899820dc3cd693b22e3b6649bf23d7
+INFO:root:Processing entry 2: Title=' Salmo 39', ID=bf93ec2d6fad912f942758cd0ea4eb7a
+INFO:root:Processing entry 3: Title=' Salmo 37', ID=89d0f6523954eb5d7c6f293845fa038a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 92
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_92/
+INFO:root:🔹 Description: Como é bom render graças ao Senhor
+e cantar louvores ao teu nome, ó Altíssimo; 
+anunciar de manhã o teu amor leal
+e de noite a tua fidelidade, 
+ao som da lira de dez cordas e da cítara,
+e da melodia da harpa. 
+Tu me alegras, Senhor, com os teus feitos;
+as obras das tuas mãos
+levam-me a cantar de alegria. 
+Como são grandes as tuas obras, Senhor,
+como são profundos os teus propósitos! 
+O insensato não entende, o tolo não vê 
+que, embora os ímpios brotem como a erva
+e floresçam todos os malfeitores,
+eles serão destruídos para sempre. 
+Pois tu, Senhor, és exaltado para sempre. 
+Mas os teus inimigos, Senhor,
+os teus inimigos perecerão;
+serão dispersos todos os malfeitores! 
+Tu aumentaste a minha força
+como a do boi selvagem;
+derramaste sobre mim óleo novo. 
+Os meus olhos contemplaram a derrota
+dos meus inimigos;
+os meus ouvidos escutaram a debandada
+dos meus maldosos agressores. 
+Os justos florescerão como a palmeira,
+crescerão como o cedro do Líbano; 
+plantados na casa do Senhor,
+florescerão nos átrios do nosso Deus. 
+Mesmo na velhice darão fruto,
+permanecerão viçosos e verdejantes, 
+para proclamar que o Senhor é justo.
+Ele é a minha Rocha;
+nele não há injustiça. 
+ Salmo 92
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 39
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_39/
 INFO:root:🔹 Description: Eu disse: Vigiarei a minha conduta
@@ -235,128 +234,91 @@ ele os livra dos ímpios e os salva,
 porque nele se refugiam. 
  Salmo 37
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 143
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_143/
-INFO:root:🔹 Description: Ouve, Senhor, a minha oração,
-dá ouvidos à minha súplica;
-responde-me
-por tua fidelidade e por tua justiça. 
-Mas não leves o teu servo a julgamento,
-pois ninguém é justo diante de ti. 
-O inimigo persegue-me
-e esmaga-me ao chão;
-ele me faz morar nas trevas,
-como os que há muito morreram. 
-O meu espírito desanima;
-o meu coração está em pânico. 
-Eu me recordo dos tempos antigos;
-medito em todas as tuas obras
-e considero o que as tuas mãos têm feito. 
-Estendo as minhas mãos para ti;
-como a terra árida, tenho sede de ti. 
-Apressa-te em responder-me, Senhor!
-O meu espírito se abate.
-Não escondas de mim o teu rosto,
-ou serei como os que descem à cova. 
-Faze-me ouvir do teu amor leal pela manhã,
-pois em ti confio.
-Mostra-me o caminho que devo seguir,
-pois a ti elevo a minha alma. 
-Livra-me dos meus inimigos, Senhor,
-pois em ti eu me abrigo. 
-Ensina-me a fazer a tua vontade,
-pois tu és o meu Deus;
-que o teu bondoso Espírito
-me conduza por terreno plano. 
-Preserva-me a vida, Senhor,
-por causa do teu nome;
-por tua justiça, tira-me desta angústia. 
-E no teu amor leal,
-aniquila os meus inimigos;
-destrói todos os meus adversários,
-pois sou teu servo. 
- Salmo 143
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 385742 characters
-INFO:root:HTML parsed, length: 375900 characters
-INFO:root:Found 3 titles: ['Deus tem uma aventura preparada para você!', 'Amar a Deus de todas as forças', 'Coloque seus olhos em Jesus']
+INFO:root:Response length: 385338 characters
+INFO:root:HTML parsed, length: 375502 characters
+INFO:root:Found 3 titles: ['Supere o desânimo com a ajuda de Deus!', 'Deus tem uma aventura preparada para você!', 'Amar a Deus de todas as forças']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['A vida cristã é uma vida cheia de aventuras! Mas a', 'Jesus resumiu o maior mandamento assim: amar a Deu', 'Portanto, também nós, uma vez que estamos rodeados']
-INFO:root:Found 1 dates: ['Segunda, 1 de junho de 2026']
+INFO:root:Found 3 descriptions: ['Não deixe o desânimo tirar sua alegria! Deus quer ', 'A vida cristã é uma vida cheia de aventuras! Mas a', 'Jesus resumiu o maior mandamento assim: amar a Deu']
+INFO:root:Found 1 dates: ['Terça, 2 de junho de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus tem uma aventura preparada para você!', ID=e7f49fc1fba3652d38068c5c09172ad1
+INFO:root:Processing entry 1: Title='Supere o desânimo com a ajuda de Deus!', ID=ed113e3b59df51dbce6e8b18954f6e74
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus tem uma aventura preparada para você! - Palavra de Hoje
+INFO:root:🔹 Title: Supere o desânimo com a ajuda de Deus! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: A vida cristã é uma vida cheia de aventuras! Mas a maior aventura de todas é poder compartilhar o evangelho. Deus está chamando você hoje para alcançar outras pessoas que precisam conhecer o evangelho. Seja um missionário.
+INFO:root:🔹 Description: Não deixe o desânimo tirar sua alegria! Deus quer lhe dar ânimo para viver e ser luz na vida de outras pessoas. Ele oferece esperança para sua vida quando você está em baixo. Ele também ensina a ser grato, que restaura a alegria de viver. E Ele tem planos para sua vida, que quer lhe revelar. A palavra de Deus vai lhe animar!
 
-E disse-lhes: "Vão pelo mundo todo e preguem o evangelho a todas as pessoas.
-- Marcos 16-15
+Pois a palavra de Deus é viva e eficaz, e mais afiada que qualquer espada de dois gumes; ela penetra até o ponto de dividir alma e espírito, juntas e medulas, e julga os pensamentos e as intenções do coração.
+- Hebreus 4:12 
 
-Você pode pensar que não está pronto para sair e levar a Palavra de Deus às pessoas ao seu redor. No entanto, tudo que você precisa para começar é ter um coração pronto para seguir Jesus onde quer que ele o leve. Quando você dá o primeiro passo, Deus te pega pela mão e te ajuda. Ele lhe dará a coragem necessária e a palavra precisa para ajudar aqueles que hoje vivem sem Ele.
-Peça hoje a Deus que encha o seu coração de amor pelas almas perdidas, que lhe dê o desejo de levar a sua presença a todos os lugares. Deus pode ajudá-lo a ver os outros como ele os vê: pessoas necessitadas do seu amor e da esperança que nele há.
-Seja na sua vizinhança, com sua família, entre seus amigos ou em uma nação distante, Deus quer usar você todos os dias para levar seu amor aos outros. Afirme sua prontidão hoje! Diga a Deus que você deseja atender ao chamado dele.
+Na Palavra de Deus você encontrará o que precisa para enfrentar o desânimo e os problemas da vida. Se precisar de conselhos, você pode começar a ler o livro de Provérbios. Se você quiser encorajamento, pode consultar o livro dos Salmos. E se você precisa se lembrar do grande amor e do poder incomparável de Deus, você pode ler os Evangelhos.
+Cada livro da Bíblia, cada palavra escrita, tem poder para transformar vidas e situações. Agarre-se ao poder de Deus, lembre-se de Seu grande amor por você e escolha superar o desânimo com a ajuda do Espírito Santo que habita em você. 
 
-Portanto, vão e façam discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, ensinando-os a obedecer a tudo o que eu ordenei a vocês. E eu estarei sempre com vocês, até o fim dos tempos".
-- Mateus 28:19-20
+Mas tu, Senhor,
+és o escudo que me protege;
+és a minha glória
+e me fazes andar de cabeça erguida.
+- Salmo 3:3
 
-Você quer seguir o chamado de Deus?
+Do que você precisa para vencer o desânimo hoje?
 
-Descubra aqui o que significa ser missionário
-Missões: Jesus está chamando Você!
+Esperança
+Gratidão
+Planos
  
-Descubra aqui o que significa ser missionário
-Missões: Jesus está chamando Você!
+Esperança
+Gratidão
+Planos
 
  
-E disse-lhes: "Vão pelo mundo todo e preguem o evangelho a todas as pessoas.
-- Marcos 16-15
+Pois a palavra de Deus é viva e eficaz, e mais afiada que qualquer espada de dois gumes; ela penetra até o ponto de dividir alma e espírito, juntas e medulas, e julga os pensamentos e as intenções do coração.
+- Hebreus 4:12 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 392664 characters
-INFO:root:HTML parsed, length: 382400 characters
-INFO:root:Found 3 titles: ['O papel das provações', 'Pronto para voar', 'O dia que o Rei nascceu']
+INFO:root:Response length: 393066 characters
+INFO:root:HTML parsed, length: 382804 characters
+INFO:root:Found 3 titles: ['Jesus pode iluminar e transformar nossas manhãs', 'O papel das provações', 'Pronto para voar']
 INFO:root:Found 1 URLs: ['/lindas_frases_de_deus/']
-INFO:root:Found 3 descriptions: ['Meus irmãos, tende por motivo de toda alegria o pa', 'mas aqueles que esperam no Senhor\nrenovam as suas ', 'e perguntaram: "Onde está o recém-nascido rei dos ']
-INFO:root:Found 3 dates: ['JUNHO\n\n1\nSEGUNDA', 'MAIO\n\n31\nDOMINGO', 'MAIO\n\n30\nSÁBADO']
+INFO:root:Found 3 descriptions: ['Graças ao grande amor do Senhor\né que não somos co', 'Meus irmãos, tende por motivo de toda alegria o pa', 'mas aqueles que esperam no Senhor\nrenovam as suas ']
+INFO:root:Found 3 dates: ['JUNHO\n\n2\nTERÇA', 'JUNHO\n\n1\nSEGUNDA', 'MAIO\n\n31\nDOMINGO']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O papel das provações', ID=295e19f3a25fc65750e019860047ad9b
+INFO:root:Processing entry 1: Title='Jesus pode iluminar e transformar nossas manhãs', ID=2c49a2ed2276a3122067a44e2e8ffff1
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O papel das provações
+INFO:root:🔹 Title: Jesus pode iluminar e transformar nossas manhãs
 INFO:root:🔹 URL: https://www.bibliaon.com/lindas_frases_de_deus/
-INFO:root:🔹 Description: Meus irmãos, tende por motivo de toda alegria o passardes por várias provações,
-sabendo que a provação da vossa fé, uma vez confirmada, produz perseverança.
-Tiago 1:2-3
+INFO:root:🔹 Description: Graças ao grande amor do Senhor
+é que não somos consumidos,
+pois as suas misericórdias são inesgotáveis. Renovam-se cada manhã;
+grande é a sua fidelidade! Digo a mim mesmo:
+A minha porção é o Senhor;
+portanto, nele porei a minha esperança.
+- Lamentações 3:22-24
 
-Muitas vezes nos sentimos assustados, fragilizados e até perdidos, sem entender o sentido das provas na vida. Mas é mesmo nesses momentos que a nossa fé precisa se elevar, apoiando-se na grandeza do Senhor Jesus, que nos sustenta em tudo. 
-As provações, entre muitos significados, têm um papel pedagógico na vida dos cristãos. Elas nos ensinam a depender única e exclusivamente do Pai celestial. Também nos ajudam a reconhecer a grandeza de Deus, nossa fragilidade e necessidade de mudança. Essas experiências de fé apontam para o alto e para uma luta interior que se projeta em desafios concretos, como num teste real de caráter e amor genuínos a Deus.
-Perseverando nas provações
+Quando acordamos, muitas vezes somos recebidos pelo peso das preocupações do dia que está por vir. Mas, ao convidarmos Jesus para caminhar conosco desde o primeiro raio de sol, nossa perspectiva muda. Ele nos traz paz, esperança e um renovado sentido de propósito.
+Jesus é como a luz da manhã que atravessa as cortinas escuras do nosso coração. Ele dissipa as sombras da dúvida, do medo e da ansiedade, revelando a beleza de um novo começo. Sua presença nos envolve em amor incondicional e nos lembra de que não estamos sozinhos.
+Quando nos abrimos para Ele, permitindo que Sua paz encha nossos corações, encontramos força para enfrentar os desafios do dia. Ele nos dá a coragem para enfrentar as adversidades com confiança, sabendo que Ele está ao nosso lado, pronto para nos guiar e nos sustentar.
+Além disso, Jesus nos oferece a oportunidade de começar de novo. Se ontem foi difícil, Ele nos lembra que Sua misericórdia é nova a cada manhã. Ele nos convida a deixar para trás nossos erros e arrependimentos, nos capacitando a buscar a santidade e a transformação.
+Ao acordar todas as manhãs, convidemos Jesus para estar conosco. Que Ele seja o sol que ilumina nossa jornada, a esperança que nos impulsiona e o amor que nos sustenta. Com Ele ao nosso lado, cada manhã se torna uma oportunidade de crescer em fé, amor e graça.
+Renove-se em Cristo pela manhã
 
+Ore ao acordar, convidando Jesus para guiar seu dia.
+Medite nas Escrituras para encontrar paz e orientação divina.
+Pratique a gratidão, reconhecendo as bênçãos de cada manhã.
 
-Alegre-se em Deus. Parece difícil, mas a sua alegria lhe fortalecerá nas lutas. 
-Vencer as provações produz perseverança. Fique firme e não desanime!
+Para 0rar:
 
-
-Leia e interiorize a Palavra de Deus, faça dela o seu alimento diariamente.
-Ore, peça a ajuda de Cristo nas provas. O Senhor está contigo sempre!
-
-A sua fé será confirmada, se estiver firmada no Senhor Jesus. Confie de todo o coração.
-
-Para Orar:
-
-Senhor nosso Deus, ajuda-me a permanecer firme nos testes desta vida. Muitas provações são duras e difíceis, Pai... Não permita que a nossa fé e esperança sejam abaladas, mas sim, edificadas em Cristo. Que o teu nome seja glorificado na minha vida, hoje e sempre. Amém.
+Senhor, que Tua luz brilhe sobre nós nesta manhã. Guie-nos, fortaleça-nos e encha nossos corações de paz. Que possamos refletir Teu amor em cada palavra e ação. Amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -377,8 +339,6 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M feeds/devocional_de_hoje/feed.json
  M feeds/palavra_biblica_do_dia/atom.xml
  M feeds/palavra_biblica_do_dia/feed.json
- M feeds/palavra_do_dia/atom.xml
- M feeds/palavra_do_dia/feed.json
  M feeds/salmo_do_dia/atom.xml
  M feeds/salmo_do_dia/feed.json
  M "feeds/vers\303\255culo_do_dia/atom.xml"
@@ -387,15 +347,13 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  31 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++---
  feeds/devocional_de_hoje/feed.json        |   6 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  33 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  34 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  99 +++++------
+ feeds/salmo_do_dia/atom.xml               |  79 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 283 ++++++++++++++----------------
- 11 files changed, 239 insertions(+), 281 deletions(-)
+ output.log                                | 274 ++++++++++++------------------
+ 9 files changed, 207 insertions(+), 257 deletions(-)
