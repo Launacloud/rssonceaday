@@ -1,49 +1,123 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
-INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 403
-INFO:root:Response length: 5388 characters
-WARNING:root:Failed to fetch content from https://www.dicio.com.br/palavra-do-dia/ - Status: 403
+INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
+INFO:root:Response length: 124867 characters
+INFO:root:HTML parsed, length: 118031 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (10/06/2026)', 'Palavra de Ontem (09/06/2026)', 'Palavra de Anteontem (08/06/2026)']
+INFO:root:Found 3 URLs: ['/gilete-2/', '/gado/', '/falsificacao/']
+INFO:root:Found 13 descriptions: ['substantivo feminino A palavra gilete tem sua orig', 'Sinônimos:\n\nbarbeador, navalha', 'Classe gramatical:substantivo de dois gêneros']
+INFO:root:Found 3 dates: ['Palavra de Hoje (10/06/2026)', 'Palavra de Ontem (09/06/2026)', 'Palavra de Anteontem (08/06/2026)']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Palavra de Hoje (10/06/2026)', ID=9c42136c745fa726ec0a1f1f04937ac4
+INFO:root:Processing entry 2: Title='Palavra de Ontem (09/06/2026)', ID=79ff0eb54a569e4524cfb8741e3960ee
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/06/2026)', ID=295956e7d72eb4d271b7038e36d8b41d
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
+INFO:root:
+📌 Last 3 entries:
+INFO:root:🔹 Title: Palavra de Hoje (10/06/2026) - Significado completo de gilete:
+INFO:root:🔹 URL: https://www.dicio.com.br/gilete-2/
+INFO:root:🔹 Description: substantivo feminino A palavra gilete tem sua origem no inglês Gillette, marca registrada, derivada do nome King Camp Gillette, inventor e fabricante da lâmina e do aparelho.
+ 
+Sinônimos:
+
+barbeador, navalha 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (09/06/2026) - Significado completo de gado:
+INFO:root:🔹 URL: https://www.dicio.com.br/gado/
+INFO:root:🔹 Description: Sinônimos:
+
+barbeador, navalha
+ Classe gramatical:substantivo de dois gêneros
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (08/06/2026) - Significado completo de falsificação:
+INFO:root:🔹 URL: https://www.dicio.com.br/falsificacao/
+INFO:root:🔹 Description: Classe gramatical:substantivo de dois gêneros
+ Sílabas:gi-le-te
+INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
-INFO:root:Response length: 528 characters
+INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 379383 characters
-INFO:root:HTML parsed, length: 369164 characters
-INFO:root:Found 1 titles: ['Salmos 27:14']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_27_14/']
-INFO:root:Found 1 descriptions: ['Espere no Senhor.\nSeja forte! Coragem!\nEspere no S']
+INFO:root:Response length: 379212 characters
+INFO:root:HTML parsed, length: 368997 characters
+INFO:root:Found 1 titles: ['2 Coríntios 5:14']
+INFO:root:Found 1 URLs: ['/versiculo/2_corintios_5_14/']
+INFO:root:Found 1 descriptions: ['Pois o amor de Cristo nos constrange, porque estam']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 27:14', ID=ecc5fcce449ce49e4ec3df697b99671c
+INFO:root:Processing entry 1: Title='2 Coríntios 5:14', ID=2dc16069660b56dda097d51e57cd4c75
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 27:14
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_27_14/
-INFO:root:🔹 Description: Espere no Senhor.
-Seja forte! Coragem!
-Espere no Senhor. Salmos 27:14
+INFO:root:🔹 Title: 2 Coríntios 5:14
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_corintios_5_14/
+INFO:root:🔹 Description: Pois o amor de Cristo nos constrange, porque estamos convencidos de que um morreu por todos; logo, todos morreram. 2 Coríntios 5:14
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 376133 characters
-INFO:root:HTML parsed, length: 366990 characters
-INFO:root:Found 3 titles: ['Salmo 109', 'Salmo 97', 'Salmo 121']
-INFO:root:Found 3 URLs: ['/salmos_109/', '/salmos_97/', '/salmos_121/']
-INFO:root:Found 3 descriptions: ['Ó Deus, a quem louvo, não fiques indiferente, \npoi', 'O Senhor reina!\nExulte a terra\ne alegrem-se as reg', 'Levanto os meus olhos para os montes\ne pergunto:\nD']
-INFO:root:Found 3 dates: ['9 de Junho de 2026', '8 de Junho de 2026', '7 de Junho de 2026']
+INFO:root:Response length: 376831 characters
+INFO:root:HTML parsed, length: 367701 characters
+INFO:root:Found 3 titles: ['Salmo 48', 'Salmo 109', 'Salmo 97']
+INFO:root:Found 3 URLs: ['/salmos_48/', '/salmos_109/', '/salmos_97/']
+INFO:root:Found 3 descriptions: ['Grande é o Senhor,\ne digno de todo louvor\nna cidad', 'Ó Deus, a quem louvo, não fiques indiferente, \npoi', 'O Senhor reina!\nExulte a terra\ne alegrem-se as reg']
+INFO:root:Found 3 dates: ['10 de Junho de 2026', '9 de Junho de 2026', '8 de Junho de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 109', ID=2616b0fb60e3746a13e993db90dcc2a5
-INFO:root:Processing entry 2: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
-INFO:root:Processing entry 3: Title=' Salmo 121', ID=98f635e6d01f1c89090e151efae7c021
+INFO:root:Processing entry 1: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
+INFO:root:Processing entry 2: Title=' Salmo 109', ID=2616b0fb60e3746a13e993db90dcc2a5
+INFO:root:Processing entry 3: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 48
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_48/
+INFO:root:🔹 Description: Grande é o Senhor,
+e digno de todo louvor
+na cidade do nosso Deus. 
+Seu santo monte, belo e majestoso,
+é a alegria de toda a terra.
+Como as alturas do Zafom é o monte Sião,
+a cidade do grande Rei. 
+Nas suas cidadelas
+Deus se revela como sua proteção. 
+Vejam! Os reis somaram forças,
+e juntos avançaram contra ela. 
+Quando a viram, ficaram atônitos,
+fugiram aterrorizados. 
+Ali mesmo o pavor os dominou;
+contorceram-se como a mulher no parto. 
+Foste como o vento oriental
+quando destruiu os navios de Társis. 
+Como já temos ouvido,
+agora também temos visto
+na cidade do Senhor dos Exércitos,
+na cidade de nosso Deus:
+Deus a preserva firme para sempre. 
+No teu templo, ó Deus,
+meditamos em teu amor leal. 
+Como o teu nome, ó Deus,
+o teu louvor alcança os confins da terra;
+a tua mão direita está cheia de justiça. 
+O monte Sião se alegra,
+as cidades de Judá exultam
+por causa das tuas decisões justas. 
+Percorram Sião, contornando-a,
+contem as suas torres, 
+observem bem as suas muralhas,
+examinem as suas cidadelas,
+para que vocês falem à próxima geração 
+que este Deus é o nosso Deus
+para todo o sempre;
+ele será o nosso guia até o fim. 
+ Salmo 48
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 109
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_109/
 INFO:root:🔹 Description: Ó Deus, a quem louvo, não fiques indiferente, 
@@ -163,101 +237,85 @@ Alegrem-se no Senhor, justos,
 e louvem o seu santo nome. 
  Salmo 97
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 121
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_121/
-INFO:root:🔹 Description: Levanto os meus olhos para os montes
-e pergunto:
-De onde me vem o socorro? 
-O meu socorro vem do Senhor,
-que fez os céus e a terra. 
-Ele não permitirá que você tropece;
-o seu protetor se manterá alerta, 
-sim, o protetor de Israel não dormirá;
-ele está sempre alerta! 
-O Senhor é o seu protetor;
-como sombra que o protege,
-ele está à sua direita. 
-De dia o sol não o ferirá;
-nem a lua, de noite. 
-O Senhor o protegerá de todo o mal,
-protegerá a sua vida. 
-O Senhor protegerá a sua saída
-e a sua chegada,
-desde agora e para sempre. 
- Salmo 121
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 379244 characters
-INFO:root:HTML parsed, length: 369504 characters
-INFO:root:Found 3 titles: ['Confie no amor de Deus', 'Cuidado com o que você diz!', 'Não corra perigo']
+INFO:root:Response length: 379207 characters
+INFO:root:HTML parsed, length: 369464 characters
+INFO:root:Found 3 titles: ['Jesus nos fez levantar', 'Confie no amor de Deus', 'Cuidado com o que você diz!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Às vezes você pode pensar que Deus se esqueceu de ', 'A Bíblia diz que a língua tem poder sobre a vida e', 'O prudente percebe o perigo\ne busca refúgio;\no ine']
-INFO:root:Found 1 dates: ['Terça, 9 de junho de 2026']
+INFO:root:Found 3 descriptions: ['Jesus trouxe-nos a dádiva mais preciosa: o resgate', 'Às vezes você pode pensar que Deus se esqueceu de ', 'A Bíblia diz que a língua tem poder sobre a vida e']
+INFO:root:Found 1 dates: ['Quarta, 10 de junho de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Confie no amor de Deus', ID=ec53137e836c8ea117c9d830148d9830
+INFO:root:Processing entry 1: Title='Jesus nos fez levantar', ID=4ede1b6a5eef5b6d2c11ebe4ecdbfb7d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Confie no amor de Deus - Palavra de Hoje
+INFO:root:🔹 Title: Jesus nos fez levantar - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Às vezes você pode pensar que Deus se esqueceu de você. Os testes chegam até você de todos os lados e você se sente sobrecarregado. David, no Salmo 13, expressa a sua frustração por se sentir sozinho e abandonado no meio das dificuldades.
+INFO:root:🔹 Description: Jesus trouxe-nos a dádiva mais preciosa: o resgate do sono eterno. Antes de conhecê-lo, estávamos adormecidos espiritualmente, perdidos nas sombras do pecado e da separação de Deus. Mas Ele veio como a luz que rompe a escuridão.
+Através de Sua vida, morte e ressurreição, Jesus ofereceu a todos nós a oportunidade de despertar para a vida eterna. Ele nos resgatou das garras da morte espiritual, para podermos experimentar a redenção e a Salvação.
+O sacrifício de Jesus na cruz foi o preço pago para nos libertar do sono eterno do pecado. Agora, temos a chance de viver uma vida abundante em comunhão com Deus, acordados para a Sua graça e amor infinitos.
+Que possamos sempre lembrar do resgate gracioso de Jesus, e que nosso coração esteja cheio de gratidão por Ele, que nos despertou para a esperança da vida eterna ao Seu lado. Jesus é a nossa luz, nossa salvação, e nossa fonte de vida eterna.
 
-Até quando, Senhor?
-Para sempre te esquecerás de mim?
-Até quando esconderás de mim o teu rosto?
-- Salmo 13:1
+O espírito gritou, agitou-o violentamente e saiu. O menino ficou como morto, ao ponto de muitos dizerem: "Ele morreu". Mas Jesus tomou-o pela mão e o levantou, e ele ficou em pé.
+- Marcos 9:26-27
 
-Porém, ele levou sua tristeza diante de Deus, levantou os olhos para falar com ele e decidiu continuar confiando no Pai celestial. Davi se concentrou na salvação e na bondade que já havia recebido do Senhor.
+O que Jesus fez conosco é similar ao que fez com esse menino. Antes de nos encontrarmos com Cristo, estávamos como mortos, separados de Deus pelo pecado. Mas Cristo estendeu sua mão em nossa direção e salvou nossas vidas. Hoje podemos ficar de pé diante de Deus Pai e agradecer por tudo que Jesus fez por nós!
+Veja também:
 
-Eu, porém, confio em teu amor;
-o meu coração exulta em tua salvação.
-Quero cantar ao Senhor
-pelo bem que me tem feito.
-- Salmo 13:5-6
-
-E você, escolherá confiar no Senhor? Você vai se concentrar no que ele já fez por você? Fale com Deus hoje e decida continuar confiando em seu amor e poder. Faça uma lista (mental ou escrita) de ocasiões em que você viu Deus trabalhar em seu favor. Momentos em que você recebeu uma solução inesperada para um problema que o oprimia.
-Agradeça a Deus pela forma como você viu pedidos que pareciam muito complicados serem atendidos. Lembre-se da fidelidade de Deus em sua vida e decida confiar no amor dele mesmo em meio aos problemas que a vida lhe apresenta.
-
-Apesar disso, esta certeza eu tenho:
-viverei até ver a bondade do Senhor na terra.
-Espere no Senhor.
-Seja forte! Coragem!
-Espere no Senhor.
-- Salmo 27:13-14
-
-Veja também: 7 razões para confiar em Deus nas dificuldades
+História de Raabe: uma mulher de fé e coragem
+Filho Pródigo: explicação e significado da parábola
  
-
-Salmos de Proteção: Deus é seu livramento! 
-4 verdades sobre a proteção de Deus
+História de Raabe: uma mulher de fé e coragem
+Filho Pródigo: explicação e significado da parábola
 
  
-Até quando, Senhor?
-Para sempre te esquecerás de mim?
-Até quando esconderás de mim o teu rosto?
-- Salmo 13:1
+O espírito gritou, agitou-o violentamente e saiu. O menino ficou como morto, ao ponto de muitos dizerem: "Ele morreu". Mas Jesus tomou-o pela mão e o levantou, e ele ficou em pé.
+- Marcos 9:26-27
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 389871 characters
-INFO:root:HTML parsed, length: 379690 characters
-INFO:root:Found 3 titles: ['A luz que liberta e não ofusca', 'Reverberando o amor de Cristo!', 'Somos servos ou senhores?']
-INFO:root:Found 3 URLs: ['/estudo_sobre_libertacao/', '/amar_a_deus_com_tudo/', '/versiculos_de_amar_o_proximo/']
-INFO:root:Found 3 descriptions: ['A tua palavra é lâmpada\nque ilumina os meus passos', 'Porque Deus nos escolheu nele antes da criação do ', 'Seja a atitude de vocês a mesma de Cristo Jesus, q']
-INFO:root:Found 3 dates: ['JUNHO\n\n9\nTERÇA', 'JUNHO\n\n8\nSEGUNDA', 'JUNHO\n\n7\nDOMINGO']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A luz que liberta e não ofusca', ID=27c98957e36bd4571d865a28a28739fd
-INFO:root:Processing entry 2: Title='Reverberando o amor de Cristo!', ID=d01259c57d79748faacbafefb0d7da30
-INFO:root:Processing entry 3: Title='Somos servos ou senhores?', ID=ca14c892d23abe8804696e381d5c3050
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 390317 characters
+INFO:root:HTML parsed, length: 380128 characters
+INFO:root:Found 3 titles: ['Você é um milagre', 'A luz que liberta e não ofusca', 'Reverberando o amor de Cristo!']
+INFO:root:Found 2 URLs: ['/jesus_me_ama/', '/estudo_sobre_libertacao/']
+INFO:root:Found 3 descriptions: ['Pois nada é impossível para Deus".\n- Lucas 1:37\n\nV', 'A tua palavra é lâmpada\nque ilumina os meus passos', 'Porque Deus nos escolheu nele antes da criação do ']
+INFO:root:Found 3 dates: ['JUNHO\n\n10\nQUARTA', 'JUNHO\n\n9\nTERÇA', 'JUNHO\n\n8\nSEGUNDA']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Você é um milagre', ID=0c523f8aa38a7156fdb884a533d094f6
+INFO:root:Processing entry 2: Title='A luz que liberta e não ofusca', ID=27c98957e36bd4571d865a28a28739fd
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Você é um milagre
+INFO:root:🔹 URL: https://www.bibliaon.com/jesus_me_ama/
+INFO:root:🔹 Description: Pois nada é impossível para Deus".
+- Lucas 1:37
+
+Você já parou pra pensar que, só de estar vivo hoje, você já é um milagre? Talvez você nem perceba, mas Deus te trouxe até aqui por um motivo. Nada na sua vida é por acaso. Cada detalhe, cada luta, cada vitória e até cada lágrima forma parte de um propósito maior que Ele está construindo em você.
+Às vezes a gente olha para si mesmo e só enxerga falhas. Acha que não é bom o bastante, que não tem valor ou que não vai conseguir. Mas Deus não te vê assim. Ele te olha com amor, com cuidado, com aquela certeza absoluta de que você nasceu para algo grande. Ele investiu sonhos em você. Ele colocou dons únicos no seu coração. Ele te escolheu antes mesmo de você nascer.
+E sabe o que é mais incrível? Mesmo quando você desanima, Ele continua acreditando. Mesmo quando você pensa em desistir, Ele te sustenta. Mesmo quando você se sente distante, Ele permanece perto. Deus não desiste de você. Nunca.
+Você é um milagre porque Deus te formou com carinho, te preservou em momentos que você nem imaginou, abriu portas que você nem viu, te deu forças que você nem sabia que tinha. Você é prova viva de que a graça é real.
+Então, levanta a cabeça. Não importa o que disseram sobre você, não importa as quedas, não importa o caos ao redor. Deus está te guiando. É Ele quem te fortalece, que cura sua mente, restaura seu coração e ilumina o seu caminho.
+Respira fundo e lembra: você é um milagre! E milagres não nascem para viver uma vida comum. Eles nascem pra mostrar o amor e o poder de Deus.
+Confia. Caminha. E deixe Deus te surpreender.
+Viva o milagre que Deus colocou em você
+
+Pare um momento e lembre das portas, livramentos e oportunidades que Deus te deu. A gratidão abre seus olhos para perceber o cuidado constante d'Ele na sua vida.
+Separe alguns minutos para orar, ler a Bíblia e conversar com Deus. Pequenos hábitos espirituais fortalecem sua fé e mantêm seu coração firme, mesmo nos desafios.
+Procure amizades que te levantem, te inspirem e te lembrem quem você é em Cristo. Relações saudáveis fortalecem sua identidade e te ajudam a crescer espiritualmente.
+
+Para orar:
+
+Senhor Jesus, agradeço pelo Teu amor e por me lembrar que sou um milagre. Restaura meu coração, fortalece minha fé e me guia em cada decisão. Tira de mim todo medo e enche minha vida de paz. Que eu viva Teu propósito com coragem, esperança e gratidão. Cuida da minha família, ilumina meu caminho e faz de mim instrumento do Teu amor. Sustenta meus passos quando eu estiver fraco e renova minhas forças a cada manhã. Que minha vida reflita Tua graça e que eu nunca duvide do Teu cuidado. Amém.
+
+Veja também: Versículos que mostram que Jesus me ama.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A luz que liberta e não ofusca
 INFO:root:🔹 URL: https://www.bibliaon.com/estudo_sobre_libertacao/
 INFO:root:🔹 Description: A tua palavra é lâmpada
@@ -283,64 +341,6 @@ Senhor Jesus, ilumina meu coração com Tua verdade. Liberta-me dos medos, forta
 
 Veja também: Estudo bíblico sobre libertação
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Reverberando o amor de Cristo!
-INFO:root:🔹 URL: https://www.bibliaon.com/amar_a_deus_com_tudo/
-INFO:root:🔹 Description: Porque Deus nos escolheu nele antes da criação do mundo, para sermos santos e irrepreensíveis em sua presença. Em amor nos predestinou para sermos adotados como filhos, por meio de Jesus Cristo, conforme o bom propósito da sua vontade
-- Efésios 1:4-5
-
-O amor de Deus é incondicional, não discrimina ou machuca. O amor de Deus é sublime, nos traz segurança e paz. Além disso, podemos perceber outras características:
-
-O amor de Deus é transformador
-O amor de Deus tem um efeito multiplicador
-O amor de Deus salva o ser humano
-
-Quando experimentamos o amor de Deus, somos transformados extraordinariamente! A consciência de que fomos amados antes de tudo (Efésios 1:4-5), causa em nós uma revolução. Velhos hábitos são quebrados e tornamo-nos criaturas novas (2 Coríntios 5:17). No amor de Deus há novidade de vida, cada dia é uma oportunidade de crescer em amor.
-
-Quando recebemos o amor de Deus, transbordarmos o que recebemos. O amor de Deus tem um efeito multiplicador. É impossível alguém beber da fonte da água viva - que é Jesus - e não transbordar o amor dele. Mesmo sem percebermos, passamos a ser um canal do amor de Deus. 
-O amor de Deus é centrado em Jesus. Ele é a prova viva do amor de Deus! Foi por Jesus que recebemos a vida eterna. Não existe prova de amor maior do que esta: Deus entregou o seu próprio Filho em nosso favor (João 3:16). Ele é o elo que nos liga diretamente a Deus! Ao reconhecermos o sacrifício do Filho, recebemos o amor do Pai.
-Reverbere este amor com a sua voz e atitude!
-
-Vivencie o amor de Deus, busque e permita que o Espírito Santo possa te transformar.
-Deixa Deus te usar. Seja um canal do amor de Deus. Não se envergonhe, o amor de Deus gera bons frutos. 
-
-Para orar: 
-
-Deus, o Teu amor me transformou! Minha vida é outra e hoje sou uma nova criatura. Usa-me como um instrumento nas Tuas mãos. Quero permanecer e anunciar o Teu amor! Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Somos servos ou senhores?
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_de_amar_o_proximo/
-INFO:root:🔹 Description: Seja a atitude de vocês a mesma de Cristo Jesus, que, embora sendo Deus,
-não considerou
-que o ser igual a Deus
-era algo a que devia apegar-se; mas esvaziou-se a si mesmo,
-vindo a ser servo,
-tornando-se semelhante
-aos homens.
-- Filipenses 2:5-7
-
-Às vezes temos uma relação servil com Deus, mas, em vez de sermos servos, parecemos senhores... Pedimos, declaramos, quase ordenamos. Não somos senhores, mas servos. Ainda assim, esperamos de Deus bênçãos, paz, prosperidade, saúde, entre outras coisas. Agora, o que Ele espera de nós?
-A primeira coisa que Deus espera de nós é reconhecimento. Reconhecermos que Ele é Deus e que nos salvou por Jesus. Ele quer que o reconheçamos como o Senhor das nossas vidas, pois foi pago um alto preço para sermos salvos.
-Outro ponto que Ele espera de nós é que andemos segundo a Sua Palavra. A obediência é prova de respeito e consequentemente, ao obedecermos à Sua Palavra, trazemos benefícios a nós mesmos. Tudo que pedimos poderia ser-nos dado se buscássemos o Reino de Deus.
-A terceira coisa que Deus quer de nós é amor! Sim, amor puro e genuíno. Este ponto é o mais importante, pois, sem amor, não há reconhecimento nem obediência a Ele. Quando amamos a Deus, cativamos o amor ao próximo e aos mandamentos da Sua Palavra.
-
-Deus não espera nem mais, nem menos de você. Ele espera que você o ame de verdade!
-Correspondendo a Deus
-
-Reflita no modo como fala com Deus. Tem falado com Ele apenas para pedir? Aproveite um momento do seu dia para engrandecê-lo.
-Ame o próximo. Pequenos gestos de amor e compaixão pelo próximo nos tornam mais amáveis.
-Não leia a Bíblia como um livro de restrições, mas como um manual de instruções para a vida. Guarde a Palavra de Deus no coração.
-
-Para orar:
-
-Senhor, quero ser um instrumento nas Tuas mãos. Tenho desejos, sonhos, mas a Tua vontade é maior. Toma a frente na minha vida e conduza-me segundo a Tua Palavra. Quero corresponder a Ti, pois reconheço tudo que tem feito na minha vida. Obrigado, em nome de Jesus, amém.
-
-Veja também:
-
-
-Amar a Deus sobre todas as coisas (Estudo Bíblico).
-
-Versículos que mostram como é importante amar o próximo.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -360,6 +360,8 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
  M feeds/devocional_de_hoje/feed.json
  M feeds/palavra_biblica_do_dia/atom.xml
  M feeds/palavra_biblica_do_dia/feed.json
+ M feeds/palavra_do_dia/atom.xml
+ M feeds/palavra_do_dia/feed.json
  M feeds/salmo_do_dia/atom.xml
  M feeds/salmo_do_dia/feed.json
  M "feeds/vers\303\255culo_do_dia/atom.xml"
@@ -368,13 +370,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  27 ++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  63 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  74 ++-----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  44 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/salmo_do_dia/atom.xml               | 209 +++++++----------
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  63 ++++--
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 378 ++++++++++++++----------------
- 9 files changed, 334 insertions(+), 379 deletions(-)
+ output.log                                | 322 +++++++++++++++---------------
+ 11 files changed, 272 insertions(+), 321 deletions(-)
