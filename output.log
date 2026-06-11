@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124867 characters
-INFO:root:HTML parsed, length: 118031 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (10/06/2026)', 'Palavra de Ontem (09/06/2026)', 'Palavra de Anteontem (08/06/2026)']
-INFO:root:Found 3 URLs: ['/gilete-2/', '/gado/', '/falsificacao/']
-INFO:root:Found 13 descriptions: ['substantivo feminino A palavra gilete tem sua orig', 'Sinônimos:\n\nbarbeador, navalha', 'Classe gramatical:substantivo de dois gêneros']
-INFO:root:Found 3 dates: ['Palavra de Hoje (10/06/2026)', 'Palavra de Ontem (09/06/2026)', 'Palavra de Anteontem (08/06/2026)']
+INFO:root:Response length: 125334 characters
+INFO:root:HTML parsed, length: 118498 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (11/06/2026)', 'Palavra de Ontem (10/06/2026)', 'Palavra de Anteontem (09/06/2026)']
+INFO:root:Found 3 URLs: ['/farra/', '/gilete-2/', '/gado/']
+INFO:root:Found 13 descriptions: ['substantivo feminino Festa alegre e excessivamente', 'Sinônimos:\n\nfolgança, pândega, patuscada, gaudério', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (11/06/2026)', 'Palavra de Ontem (10/06/2026)', 'Palavra de Anteontem (09/06/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (10/06/2026)', ID=9c42136c745fa726ec0a1f1f04937ac4
-INFO:root:Processing entry 2: Title='Palavra de Ontem (09/06/2026)', ID=79ff0eb54a569e4524cfb8741e3960ee
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/06/2026)', ID=295956e7d72eb4d271b7038e36d8b41d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (11/06/2026)', ID=4d513e28f453cc78d15470dbba88e8db
+INFO:root:Processing entry 2: Title='Palavra de Ontem (10/06/2026)', ID=20baf45ecfdb2cb0b78a42ccae86bb47
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/06/2026)', ID=b2f3ee82433d10828d1e4b746f75817c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (10/06/2026) - Significado completo de gilete:
-INFO:root:🔹 URL: https://www.dicio.com.br/gilete-2/
-INFO:root:🔹 Description: substantivo feminino A palavra gilete tem sua origem no inglês Gillette, marca registrada, derivada do nome King Camp Gillette, inventor e fabricante da lâmina e do aparelho.
+INFO:root:🔹 Title: Palavra de Hoje (11/06/2026) - Significado completo de farra:
+INFO:root:🔹 URL: https://www.dicio.com.br/farra/
+INFO:root:🔹 Description: substantivo feminino Festa alegre e excessivamente animada; folia.[Por Extensão] Zombaria que se sobre algo ou alguém; brincadeira.Situação divertida ou comemorativa, definida pelo excesso de alegria ou de barulho, geralmente acompanhada por danças, bebidas, cantorias e por muitas pessoas; patuscada.Etimologia (origem da palavra farra). A palavra patuscada tem sua origem questionável; não é possível confirmar com toda a certeza a origem desta palavra.
  
 Sinônimos:
 
-barbeador, navalha 
+folgança, pândega, patuscada, gaudério, brincadeira, folguedo, folia, reinação, festa, festança, celebração, balada, diversão, agito, algazarra, bagunça, festividade, comemoração, animação 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (09/06/2026) - Significado completo de gado:
-INFO:root:🔹 URL: https://www.dicio.com.br/gado/
+INFO:root:🔹 Title: Palavra de Ontem (10/06/2026) - Significado completo de gilete:
+INFO:root:🔹 URL: https://www.dicio.com.br/gilete-2/
 INFO:root:🔹 Description: Sinônimos:
 
-barbeador, navalha
- Classe gramatical:substantivo de dois gêneros
+folgança, pândega, patuscada, gaudério, brincadeira, folguedo, folia, reinação, festa, festança, celebração, balada, diversão, agito, algazarra, bagunça, festividade, comemoração, animação
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (08/06/2026) - Significado completo de falsificação:
-INFO:root:🔹 URL: https://www.dicio.com.br/falsificacao/
-INFO:root:🔹 Description: Classe gramatical:substantivo de dois gêneros
- Sílabas:gi-le-te
+INFO:root:🔹 Title: Palavra de Anteontem (09/06/2026) - Significado completo de gado:
+INFO:root:🔹 URL: https://www.dicio.com.br/gado/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:far-ra
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,79 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 379212 characters
-INFO:root:HTML parsed, length: 368997 characters
-INFO:root:Found 1 titles: ['2 Coríntios 5:14']
-INFO:root:Found 1 URLs: ['/versiculo/2_corintios_5_14/']
-INFO:root:Found 1 descriptions: ['Pois o amor de Cristo nos constrange, porque estam']
+INFO:root:Response length: 379322 characters
+INFO:root:HTML parsed, length: 369107 characters
+INFO:root:Found 1 titles: ['Deuteronômio 1:21']
+INFO:root:Found 1 URLs: ['/versiculo/deuteronomio_1_21/']
+INFO:root:Found 1 descriptions: ['Vejam, o Senhor, o seu Deus, põe diante de vocês e']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Coríntios 5:14', ID=2dc16069660b56dda097d51e57cd4c75
+INFO:root:Processing entry 1: Title='Deuteronômio 1:21', ID=5c3b95ba944ca5e75480ae0ac6cb26d9
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Coríntios 5:14
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_corintios_5_14/
-INFO:root:🔹 Description: Pois o amor de Cristo nos constrange, porque estamos convencidos de que um morreu por todos; logo, todos morreram. 2 Coríntios 5:14
+INFO:root:🔹 Title: Deuteronômio 1:21
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/deuteronomio_1_21/
+INFO:root:🔹 Description: Vejam, o Senhor, o seu Deus, põe diante de vocês esta terra. Entrem na terra e tomem posse dela, conforme o Senhor, o Deus dos seus antepassados, disse a vocês. Não tenham medo nem desanimem. Deuteronômio 1:21
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 376831 characters
-INFO:root:HTML parsed, length: 367701 characters
-INFO:root:Found 3 titles: ['Salmo 48', 'Salmo 109', 'Salmo 97']
-INFO:root:Found 3 URLs: ['/salmos_48/', '/salmos_109/', '/salmos_97/']
-INFO:root:Found 3 descriptions: ['Grande é o Senhor,\ne digno de todo louvor\nna cidad', 'Ó Deus, a quem louvo, não fiques indiferente, \npoi', 'O Senhor reina!\nExulte a terra\ne alegrem-se as reg']
-INFO:root:Found 3 dates: ['10 de Junho de 2026', '9 de Junho de 2026', '8 de Junho de 2026']
+INFO:root:Response length: 376921 characters
+INFO:root:HTML parsed, length: 367796 characters
+INFO:root:Found 3 titles: ['Salmo 57', 'Salmo 48', 'Salmo 109']
+INFO:root:Found 3 URLs: ['/salmos_57/', '/salmos_48/', '/salmos_109/']
+INFO:root:Found 3 descriptions: ['Misericórdia, ó Deus; misericórdia,\npois em ti a m', 'Grande é o Senhor,\ne digno de todo louvor\nna cidad', 'Ó Deus, a quem louvo, não fiques indiferente, \npoi']
+INFO:root:Found 3 dates: ['11 de Junho de 2026', '10 de Junho de 2026', '9 de Junho de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
-INFO:root:Processing entry 2: Title=' Salmo 109', ID=2616b0fb60e3746a13e993db90dcc2a5
-INFO:root:Processing entry 3: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
+INFO:root:Processing entry 1: Title=' Salmo 57', ID=28e1653b0e01d76fbd4eeb45358d4c91
+INFO:root:Processing entry 2: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
+INFO:root:Processing entry 3: Title=' Salmo 109', ID=2616b0fb60e3746a13e993db90dcc2a5
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 57
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_57/
+INFO:root:🔹 Description: Misericórdia, ó Deus; misericórdia,
+pois em ti a minha alma se refugia.
+Eu me refugiarei à sombra das tuas asas,
+até que passe o perigo. 
+Clamo ao Deus Altíssimo,
+a Deus, que para comigo
+cumpre o seu propósito. 
+Dos céus ele me envia a salvação,
+põe em fuga
+os que me perseguem de perto;
+Pausa
+Deus envia o seu amor e a sua fidelidade. 
+Estou em meio a leões,
+ávidos para devorar;
+seus dentes são lanças e flechas,
+sua língua é espada afiada. 
+Sê exaltado, ó Deus, acima dos céus!
+Sobre toda a terra esteja a tua glória! 
+Preparam armadilhas para os meus pés;
+fiquei muito abatido.
+Abriram uma cova no meu caminho,
+mas foram eles que nela caíram. 
+Meu coração está firme, ó Deus,
+meu coração está firme;
+cantarei ao som de instrumentos! 
+Acorde, minha alma!
+Acordem, harpa e lira!
+Vou despertar a alvorada! 
+Eu te louvarei, ó Senhor, entre as nações;
+cantarei teus louvores entre os povos. 
+Pois o teu amor é tão grande
+que alcança os céus;
+a tua fidelidade vai até as nuvens. 
+Sê exaltado, ó Deus, acima dos céus!
+Sobre toda a terra esteja a tua glória! 
+ Salmo 57
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 48
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_48/
 INFO:root:🔹 Description: Grande é o Senhor,
@@ -202,96 +241,84 @@ pois ele se põe ao lado do pobre
 para salvá-lo daqueles que o condenam. 
  Salmo 109
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 97
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_97/
-INFO:root:🔹 Description: O Senhor reina!
-Exulte a terra
-e alegrem-se as regiões costeiras distantes. 
-Nuvens escuras e espessas o cercam;
-retidão e justiça são a base do seu trono. 
-Fogo vai adiante dele
-e devora os adversários ao redor. 
-Seus relâmpagos iluminam o mundo;
-a terra os vê e estremece. 
-Os montes se derretem como cera
-diante do Senhor,
-diante do Soberano de toda a terra. 
-Os céus proclamam a sua justiça,
-e todos os povos contemplam a sua glória. 
-Ficam decepcionados
-todos os que adoram imagens
-e se vangloriam de ídolos.
-Prostram-se diante dele todos os deuses! 
-Sião ouve e se alegra,
-e as cidades de Judá exultam,
-por causa das tuas sentenças, Senhor. 
-Pois tu, Senhor,
-és o Altíssimo sobre toda a terra!
-És exaltado muito acima de todos os deuses! 
-Odeiem o mal, vocês que amam o Senhor,
-pois ele protege a vida dos seus fiéis
-e os livra das mãos dos ímpios. 
-A luz nasce sobre o justo
-e a alegria sobre os retos de coração. 
-Alegrem-se no Senhor, justos,
-e louvem o seu santo nome. 
- Salmo 97
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 379207 characters
-INFO:root:HTML parsed, length: 369464 characters
-INFO:root:Found 3 titles: ['Jesus nos fez levantar', 'Confie no amor de Deus', 'Cuidado com o que você diz!']
+INFO:root:Response length: 379224 characters
+INFO:root:HTML parsed, length: 369476 characters
+INFO:root:Found 3 titles: ['Poder para vencer', 'Jesus nos fez levantar', 'Confie no amor de Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Jesus trouxe-nos a dádiva mais preciosa: o resgate', 'Às vezes você pode pensar que Deus se esqueceu de ', 'A Bíblia diz que a língua tem poder sobre a vida e']
-INFO:root:Found 1 dates: ['Quarta, 10 de junho de 2026']
+INFO:root:Found 3 descriptions: ['Porei o meu Espírito em vocês e os levarei a agir ', 'Jesus trouxe-nos a dádiva mais preciosa: o resgate', 'Às vezes você pode pensar que Deus se esqueceu de ']
+INFO:root:Found 1 dates: ['Quinta, 11 de junho de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jesus nos fez levantar', ID=4ede1b6a5eef5b6d2c11ebe4ecdbfb7d
+INFO:root:Processing entry 1: Title='Poder para vencer', ID=6aa0ec8bc7f4d905b3a276b69c20c5ae
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jesus nos fez levantar - Palavra de Hoje
+INFO:root:🔹 Title: Poder para vencer - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Jesus trouxe-nos a dádiva mais preciosa: o resgate do sono eterno. Antes de conhecê-lo, estávamos adormecidos espiritualmente, perdidos nas sombras do pecado e da separação de Deus. Mas Ele veio como a luz que rompe a escuridão.
-Através de Sua vida, morte e ressurreição, Jesus ofereceu a todos nós a oportunidade de despertar para a vida eterna. Ele nos resgatou das garras da morte espiritual, para podermos experimentar a redenção e a Salvação.
-O sacrifício de Jesus na cruz foi o preço pago para nos libertar do sono eterno do pecado. Agora, temos a chance de viver uma vida abundante em comunhão com Deus, acordados para a Sua graça e amor infinitos.
-Que possamos sempre lembrar do resgate gracioso de Jesus, e que nosso coração esteja cheio de gratidão por Ele, que nos despertou para a esperança da vida eterna ao Seu lado. Jesus é a nossa luz, nossa salvação, e nossa fonte de vida eterna.
+INFO:root:🔹 Description: Porei o meu Espírito em vocês e os levarei a agir segundo os meus decretos e a obedecer fielmente às minhas leis.
+- Ezequiel 36:27
 
-O espírito gritou, agitou-o violentamente e saiu. O menino ficou como morto, ao ponto de muitos dizerem: "Ele morreu". Mas Jesus tomou-o pela mão e o levantou, e ele ficou em pé.
-- Marcos 9:26-27
+Às vezes nos escondemos atrás de um “não posso”, especialmente quando lutamos contra um pecado recorrente. No entanto, devemos lembrar que não lutamos sozinhos contra as nossas fraquezas ou tentações. Os filhos de Deus têm o Espírito Santo que habita em nós e nos dá poder para vencer. Ao permanecermos firmes no Senhor e permitirmos que o Espírito Santo nos guie, somos fortes e capazes de caminhar em obediência.
+Reserve um momento hoje para avaliar seu coração. Você está permitindo que o Espírito Santo o ajude a viver em obediência a Deus e a guardar seus mandamentos? Você vive a vida vitoriosa em Cristo, porque ele reina em seu coração? Se sim, prepare-se hoje para conquistar em nome dele. Encha o seu coração com o Senhor e rejeite tudo o que o separa dele.
 
-O que Jesus fez conosco é similar ao que fez com esse menino. Antes de nos encontrarmos com Cristo, estávamos como mortos, separados de Deus pelo pecado. Mas Cristo estendeu sua mão em nossa direção e salvou nossas vidas. Hoje podemos ficar de pé diante de Deus Pai e agradecer por tudo que Jesus fez por nós!
-Veja também:
+Pois Deus não nos deu espírito de covardia, mas de poder, de amor e de equilíbrio.
+- 2 Timóteo 1:7
 
-História de Raabe: uma mulher de fé e coragem
-Filho Pródigo: explicação e significado da parábola
+Seja forte no Senhor e viva cada dia com ele. Não deixe o inimigo te enganar dizendo que você não consegue. Você pode, porque você pertence a Cristo e sua força vem dele. Nele você tem poder para vencer, amor para doar e autocontrole para dizer “não” a tudo que vai contra o Senhor. Seja um bom embaixador de Cristo onde quer que você vá e mostre a todos a obra que o Espírito Santo faz em você e pode fazer neles.
+Leia também: O poder do Espírito Santo em nossas vidas (Estudo Bíblico)
  
 História de Raabe: uma mulher de fé e coragem
 Filho Pródigo: explicação e significado da parábola
 
  
-O espírito gritou, agitou-o violentamente e saiu. O menino ficou como morto, ao ponto de muitos dizerem: "Ele morreu". Mas Jesus tomou-o pela mão e o levantou, e ele ficou em pé.
-- Marcos 9:26-27
+Porei o meu Espírito em vocês e os levarei a agir segundo os meus decretos e a obedecer fielmente às minhas leis.
+- Ezequiel 36:27
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 390317 characters
-INFO:root:HTML parsed, length: 380128 characters
-INFO:root:Found 3 titles: ['Você é um milagre', 'A luz que liberta e não ofusca', 'Reverberando o amor de Cristo!']
-INFO:root:Found 2 URLs: ['/jesus_me_ama/', '/estudo_sobre_libertacao/']
-INFO:root:Found 3 descriptions: ['Pois nada é impossível para Deus".\n- Lucas 1:37\n\nV', 'A tua palavra é lâmpada\nque ilumina os meus passos', 'Porque Deus nos escolheu nele antes da criação do ']
-INFO:root:Found 3 dates: ['JUNHO\n\n10\nQUARTA', 'JUNHO\n\n9\nTERÇA', 'JUNHO\n\n8\nSEGUNDA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Você é um milagre', ID=0c523f8aa38a7156fdb884a533d094f6
-INFO:root:Processing entry 2: Title='A luz que liberta e não ofusca', ID=27c98957e36bd4571d865a28a28739fd
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 390819 characters
+INFO:root:HTML parsed, length: 380628 characters
+INFO:root:Found 3 titles: ['Busquem-me e terão vida', 'Você é um milagre', 'A luz que liberta e não ofusca']
+INFO:root:Found 3 URLs: ['/buscar_a_deus/', '/jesus_me_ama/', '/estudo_sobre_libertacao/']
+INFO:root:Found 3 descriptions: ['Assim diz o Senhor à nação de Israel:\n"Busquem-me ', 'Pois nada é impossível para Deus".\n- Lucas 1:37\n\nV', 'A tua palavra é lâmpada\nque ilumina os meus passos']
+INFO:root:Found 3 dates: ['JUNHO\n\n11\nQUINTA', 'JUNHO\n\n10\nQUARTA', 'JUNHO\n\n9\nTERÇA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Busquem-me e terão vida', ID=321c1f432c6b673fa42a23170dbd6475
+INFO:root:Processing entry 2: Title='Você é um milagre', ID=0c523f8aa38a7156fdb884a533d094f6
+INFO:root:Processing entry 3: Title='A luz que liberta e não ofusca', ID=27c98957e36bd4571d865a28a28739fd
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Busquem-me e terão vida
+INFO:root:🔹 URL: https://www.bibliaon.com/buscar_a_deus/
+INFO:root:🔹 Description: Assim diz o Senhor à nação de Israel:
+"Busquem-me e terão vida;
+- Amós 5:4
+
+Amós falou a um povo religiosamente ativo, porém, espiritualmente distante, mostrando que culto sem obediência e justiça não sustenta a vida verdadeira.
+Buscar o Senhor não é um ato ocasional, mas uma disposição diária de alinhar valores, escolhas e atitudes ao coração de Deus. Esse chamado envolve arrependimento, escuta sincera da Palavra e coragem para viver de forma diferente em meio a uma cultura que normaliza a injustiça e a indiferença.
+Quando Deus diz “terão vida”, Ele aponta para uma vida plena, que ultrapassa a questão material e se manifesta em comunhão, justiça, misericórdia e esperança.
+Viver é experimentar sentido mesmo em tempos difíceis, porque a fonte da vida não está nas circunstâncias, mas naquele que sustenta todas as coisas. Ao buscarmos o Senhor, somos transformados para refletir Seu amor no mundo, tornando-nos instrumentos de restauração onde há dor, opressão e perda.
+A promessa de Amós permanece atual: somente em Deus encontramos vida, e somente ao buscá-lo com sinceridade experimentamos renovação verdadeira. Que este chamado nos desperte hoje a abandonar caminhos vazios e a voltar o coração completamente ao Senhor, para que vivamos, não apenas existamos, mas floresçamos segundo a Sua vontade.
+Enquanto O buscamos, aprendemos que a verdadeira vida brota da obediência, da fé perseverante e de um compromisso profundo com a justiça do Reino, revelando ao mundo que Deus ainda chama, cura e salva aqueles que respondem ao Seu convite eterno. Com graça, Ele continua oferecendo recomeço, direção, propósito e vida abundante a todos que O buscam hoje sinceramente.
+A vida verdadeira nasce quando o coração volta-se totalmente para Deus
+
+Reserve tempo diário para orar, ler a Bíblia, ouvir Deus com atenção e deixar Ele guiar suas escolhas com amor.
+Pratique o bem todos os dias, tratando pessoas com respeito, ajudando quando possível e vivendo com honestidade simplicidade e fé.
+Reavalie sua vida, deixe hábitos vazios, confie em Deus e escolha caminhos que tragam paz verdadeira ao coração hoje sempre.
+
+Para orar:
+
+Senhor Deus, ajuda-me a Te buscar de todo o coração. Quero ouvir Tua voz, andar em Teus caminhos e viver conforme Tua vontade. Perdoa-me quando me afasto e renova minha fé diariamente. Ensina-me a amar, praticar o bem e confiar em Ti em todos os momentos. Amém.
+
+Veja também: Versículos sobre buscar a Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Você é um milagre
 INFO:root:🔹 URL: https://www.bibliaon.com/jesus_me_ama/
 INFO:root:🔹 Description: Pois nada é impossível para Deus".
@@ -370,15 +397,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  74 ++-----
- feeds/devocional_de_hoje/feed.json        |  18 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  44 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  26 +++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  63 ++++--
+ feeds/salmo_do_dia/atom.xml               |  72 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 322 +++++++++++++++---------------
- 11 files changed, 272 insertions(+), 321 deletions(-)
+ output.log                                | 249 ++++++++++++++++--------------
+ 11 files changed, 241 insertions(+), 198 deletions(-)
