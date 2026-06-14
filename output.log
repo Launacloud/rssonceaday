@@ -1,40 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 126429 characters
-INFO:root:HTML parsed, length: 119596 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (13/06/2026)', 'Palavra de Ontem (12/06/2026)', 'Palavra de Anteontem (11/06/2026)']
-INFO:root:Found 3 URLs: ['/embocadura/', '/enfase/', '/farra/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Ação ou efeito de embocar; po', 'Sinônimos:\n\npropensão, tendência, bocado, inclinaç', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (13/06/2026)', 'Palavra de Ontem (12/06/2026)', 'Palavra de Anteontem (11/06/2026)']
+INFO:root:Response length: 125329 characters
+INFO:root:HTML parsed, length: 118680 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (14/06/2026)', 'Palavra de Ontem (13/06/2026)', 'Palavra de Anteontem (12/06/2026)']
+INFO:root:Found 3 URLs: ['/geocentrismo/', '/embocadura/', '/enfase/']
+INFO:root:Found 12 descriptions: ['substantivo masculino [Antigo] Designação antiga d', 'Classe gramatical:substantivo masculino', 'Sílabas:ge-o-cen-tris-mo']
+INFO:root:Found 3 dates: ['Palavra de Hoje (14/06/2026)', 'Palavra de Ontem (13/06/2026)', 'Palavra de Anteontem (12/06/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (13/06/2026)', ID=64767c5abcac9112beb8c3ed883f2bad
-INFO:root:Processing entry 2: Title='Palavra de Ontem (12/06/2026)', ID=8564c3cc85d51aa198a505f83d9bc07a
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/06/2026)', ID=67d53b3fae43452b4b9337fbce21e87d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (14/06/2026)', ID=f3a7d88d25b698d581a5b772c3cf8399
+INFO:root:Processing entry 2: Title='Palavra de Ontem (13/06/2026)', ID=d4a18b2903d6a1415dea6c397d997d04
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/06/2026)', ID=dad598e4474aeec1450f7a83abb3d09f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (13/06/2026) - Significado completo de embocadura:
+INFO:root:🔹 Title: Palavra de Hoje (14/06/2026) - Significado completo de geocentrismo:
+INFO:root:🔹 URL: https://www.dicio.com.br/geocentrismo/
+INFO:root:🔹 Description: substantivo masculino [Antigo] Designação antiga de acordo com a qual a Terra seria o centro do sistema solar e ao redor da qual os astros, supostamente, girariam; sistema geocêntrico.Etimologia (origem da palavra geocentrismo). Geo + centro + ismo.
+ Classe gramatical:substantivo masculino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (13/06/2026) - Significado completo de embocadura:
 INFO:root:🔹 URL: https://www.dicio.com.br/embocadura/
-INFO:root:🔹 Description: substantivo feminino Ação ou efeito de embocar; posicionamento dos lábios nos instrumentos de sopro, ao soprar.Início de uma rua; parte usada para entrar numa estrada, numa avenida.[Figurado] Aptidão pessoal para realizar certo trabalho ou atividade: tem embocadura para o teatro; tendência.Parte do freio que fica no interior da boca de uma cavalgadura; bocado.[Por Extensão] Modo como se comporta a cavalgadura com os arreios.Etimologia (origem da palavra embocadura). A palavra embocadura tem sua origem pela junção de embocado, e do sufixo -ura.
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:ge-o-cen-tris-mo
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (12/06/2026) - Significado completo de ênfase:
+INFO:root:🔹 URL: https://www.dicio.com.br/enfase/
+INFO:root:🔹 Description: Sílabas:ge-o-cen-tris-mo
  
 Sinônimos:
 
 propensão, tendência, bocado, inclinação, barra, margem, canal, passagem, acesso, saída, interseção, junção, portal 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (12/06/2026) - Significado completo de ênfase:
-INFO:root:🔹 URL: https://www.dicio.com.br/enfase/
-INFO:root:🔹 Description: Sinônimos:
-
-propensão, tendência, bocado, inclinação, barra, margem, canal, passagem, acesso, saída, interseção, junção, portal
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (11/06/2026) - Significado completo de farra:
-INFO:root:🔹 URL: https://www.dicio.com.br/farra/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:em-bo-ca-du-ra
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,48 +40,63 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 380225 characters
-INFO:root:HTML parsed, length: 370010 characters
-INFO:root:Found 1 titles: ['Joel 2:28-29']
-INFO:root:Found 1 URLs: ['/versiculo/joel_2_28-29/']
-INFO:root:Found 1 descriptions: ['"E, depois disso,\nderramarei do meu Espírito\nsobre']
+INFO:root:Response length: 380050 characters
+INFO:root:HTML parsed, length: 369835 characters
+INFO:root:Found 1 titles: ['Tiago 4:7']
+INFO:root:Found 1 URLs: ['/versiculo/tiago_4_7/']
+INFO:root:Found 1 descriptions: ['Portanto, submetam-se a Deus. Resistam ao Diabo, e']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Joel 2:28-29', ID=df202a04dc15ce7442675c7c2814385f
+INFO:root:Processing entry 1: Title='Tiago 4:7', ID=f793827ab202a8a60610b70582222124
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Joel 2:28-29
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joel_2_28-29/
-INFO:root:🔹 Description: "E, depois disso,
-derramarei do meu Espírito
-sobre todos os povos.
-Os seus filhos e as suas filhas
-profetizarão,
-os velhos terão sonhos,
-os jovens terão visões. Até sobre os servos e as servas
-derramarei do meu Espírito
-naqueles dias. Joel 2:28-29
+INFO:root:🔹 Title: Tiago 4:7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_4_7/
+INFO:root:🔹 Description: Portanto, submetam-se a Deus. Resistam ao Diabo, e ele fugirá de vocês. Tiago 4:7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 375925 characters
-INFO:root:HTML parsed, length: 366771 characters
-INFO:root:Found 3 titles: ['Salmo 126', 'Salmo 135', 'Salmo 57']
-INFO:root:Found 3 URLs: ['/salmos_126/', '/salmos_135/', '/salmos_57/']
-INFO:root:Found 3 descriptions: ['Quando o Senhor trouxe os cativos\nde volta a Sião,', 'Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo', 'Misericórdia, ó Deus; misericórdia,\npois em ti a m']
-INFO:root:Found 3 dates: ['13 de Junho de 2026', '12 de Junho de 2026', '11 de Junho de 2026']
+INFO:root:Response length: 375394 characters
+INFO:root:HTML parsed, length: 366227 characters
+INFO:root:Found 3 titles: ['Salmo 3', 'Salmo 126', 'Salmo 135']
+INFO:root:Found 3 URLs: ['/salmos_3/', '/salmos_126/', '/salmos_135/']
+INFO:root:Found 3 descriptions: ['Senhor, muitos são os meus adversários!\nMuitos se ', 'Quando o Senhor trouxe os cativos\nde volta a Sião,', 'Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo']
+INFO:root:Found 3 dates: ['14 de Junho de 2026', '13 de Junho de 2026', '12 de Junho de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 126', ID=40adfd97c9db40aaa6d3d61dd831270b
-INFO:root:Processing entry 2: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
-INFO:root:Processing entry 3: Title=' Salmo 57', ID=28e1653b0e01d76fbd4eeb45358d4c91
+INFO:root:Processing entry 1: Title=' Salmo 3', ID=2382efb24e8b2ed4937c03831af37388
+INFO:root:Processing entry 2: Title=' Salmo 126', ID=40adfd97c9db40aaa6d3d61dd831270b
+INFO:root:Processing entry 3: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 3
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_3/
+INFO:root:🔹 Description: Senhor, muitos são os meus adversários!
+Muitos se rebelam contra mim! 
+São muitos os que dizem a meu respeito:
+"Deus nunca o salvará!" 
+Mas tu, Senhor,
+és o escudo que me protege;
+és a minha glória
+e me fazes andar de cabeça erguida. 
+Ao Senhor clamo em alta voz,
+e do seu santo monte ele me responde. 
+Eu me deito e durmo, e torno a acordar,
+porque é o Senhor que me sustém. 
+Não me assustam os milhares que me cercam. 
+Levanta-te, Senhor!
+Salva-me, Deus meu!
+Quebra o queixo de todos os meus inimigos;
+arrebenta os dentes dos ímpios. 
+Do Senhor vem o livramento.
+A tua bênção está sobre o teu povo. 
+ Salmo 3
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 126
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_126/
 INFO:root:🔹 Description: Quando o Senhor trouxe os cativos
@@ -163,111 +176,100 @@ aquele que habita em Jerusalém.
 Aleluia! 
  Salmo 135
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 57
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_57/
-INFO:root:🔹 Description: Misericórdia, ó Deus; misericórdia,
-pois em ti a minha alma se refugia.
-Eu me refugiarei à sombra das tuas asas,
-até que passe o perigo. 
-Clamo ao Deus Altíssimo,
-a Deus, que para comigo
-cumpre o seu propósito. 
-Dos céus ele me envia a salvação,
-põe em fuga
-os que me perseguem de perto;
-Pausa
-Deus envia o seu amor e a sua fidelidade. 
-Estou em meio a leões,
-ávidos para devorar;
-seus dentes são lanças e flechas,
-sua língua é espada afiada. 
-Sê exaltado, ó Deus, acima dos céus!
-Sobre toda a terra esteja a tua glória! 
-Preparam armadilhas para os meus pés;
-fiquei muito abatido.
-Abriram uma cova no meu caminho,
-mas foram eles que nela caíram. 
-Meu coração está firme, ó Deus,
-meu coração está firme;
-cantarei ao som de instrumentos! 
-Acorde, minha alma!
-Acordem, harpa e lira!
-Vou despertar a alvorada! 
-Eu te louvarei, ó Senhor, entre as nações;
-cantarei teus louvores entre os povos. 
-Pois o teu amor é tão grande
-que alcança os céus;
-a tua fidelidade vai até as nuvens. 
-Sê exaltado, ó Deus, acima dos céus!
-Sobre toda a terra esteja a tua glória! 
- Salmo 57
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 380010 characters
-INFO:root:HTML parsed, length: 370257 characters
-INFO:root:Found 3 titles: ['Ele é o mesmo sempre', 'Uma nova vida em Cristo Jesus', 'Poder para vencer']
+INFO:root:Response length: 380475 characters
+INFO:root:HTML parsed, length: 370721 characters
+INFO:root:Found 3 titles: ['A Bíblia abençoa!', 'Ele é o mesmo sempre', 'Uma nova vida em Cristo Jesus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Jesus Cristo é o mesmo, ontem, hoje e para sempre.', 'Portanto, se alguém está em Cristo, é nova criação', 'Porei o meu Espírito em vocês e os levarei a agir ']
-INFO:root:Found 1 dates: ['Sábado, 13 de junho de 2026']
+INFO:root:Found 3 descriptions: ['A Bíblia é uma grande bênção que Deus nos deu. Atr', 'Jesus Cristo é o mesmo, ontem, hoje e para sempre.', 'Portanto, se alguém está em Cristo, é nova criação']
+INFO:root:Found 1 dates: ['Domingo, 14 de junho de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Ele é o mesmo sempre', ID=e257ff3ae36b2380463f77fe57c4b03f
+INFO:root:Processing entry 1: Title='A Bíblia abençoa!', ID=4e98cf0bebd6eec46ef9a539ce4f7538
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Ele é o mesmo sempre - Palavra de Hoje
+INFO:root:🔹 Title: A Bíblia abençoa! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Jesus Cristo é o mesmo, ontem, hoje e para sempre.
-- Hebreus 13:8
+INFO:root:🔹 Description: A Bíblia é uma grande bênção que Deus nos deu. Através dela, aprendemos a verdade sobre Jesus e descobrimos o propósito de Deus para nossas vidas. Na Bíblia encontramos palavras de Deus que fortalecem nossa fé, que nos trazem alegria e que nos dão esperança para o futuro. Em todas as circunstâncias, podemos encontrar conforto e força na Palavra de Deus. 
 
-Vivemos em um mundo em mudança. O que nos é familiar hoje pode mudar em um instante. As pessoas que amamos mudam-se para outros lugares, a tecnologia avança e temos que aprender a trabalhar com novos modelos, a paisagem muda por novas construções ou pela força da natureza. Gostemos ou não, estamos constantemente nos adaptando às mudanças e isso pode ser muito exaustivo.
-Como é bom saber que temos uma constante em nossa vida! Jesus! Ele é o mesmo ontem, hoje e sempre. Seu amor não declina de acordo com nossas atitudes. Sua presença não nos abandona em momentos de dor ou incerteza. Ele é o mesmo Deus Todo-Poderoso que nos ama, cuida de nós e nos ajuda a seguir em frente.
-Agradeça a Deus hoje por sua perseverança e fidelidade, porque ele está com você até hoje e nunca o deixará.
+Deus é o nosso refúgio e a nossa fortaleza,
+auxílio sempre presente na adversidade.
+Por isso não temeremos,
+ainda que a terra trema
+e os montes afundem no coração do mar,
+- Salmo 46:1-2 
 
-Por isso não tema, pois estou com você;
-não tenha medo, pois sou o seu Deus.
-Eu o fortalecerei e o ajudarei;
-eu o segurarei
-com a minha mão direita vitoriosa.
-- Isaías 41:10
+Em meio à dor e às dificuldades, podemos nos apegar às promessas de Deus. Na Bíblia também encontramos palavras de encorajamento que trazem alegria ao coração e nos encorajam a seguir em frente com o coração cheio de confiança em Deus. 
 
-Deus está contigo e nunca te abandonará. Não há mudança: isso e sempre será fiel. Agradeça sua fidelidade e confie nele, seja qual for sua situação. Lembre-se de que você se sustenta firmemente em seus braços de amor.
-Desenvolva um coração cheio de gratidão:
+"Eu disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo".
+- João 16:33 
 
-99 frases e mensagens de gratidão a Deus
-Salmos de Gratidão a Deus
-Significado bíblico de Gratidão (com exemplos)
+Há muitas bênçãos que recebemos ao ler a Bíblia. Ela nos mostra o caminho para a salvação em Jesus e nos ensina a viver de uma forma que agrada a Deus. 
+
+Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção e para a instrução na justiça, para que o homem de Deus seja apto e plenamente preparado para toda boa obra.
+- 2 Timoteo 3:16-17 
+
+Através da Bíblia aprendemos como podemos receber as bênçãos de Deus, onde podemos encontrar proteção e socorro e como podemos alcançar sabedoria. Portanto, faça questão de ler a Bíblia todos os dias e abra o seu coração para receber as bênçãos que o Pai quer lhe dar. 
+Você quer receber uma bênção de Deus neste dia? Leia Sua Palavra!
+
+5 razões para ler a Bíblia
+10 planos de leitura da Bíblia
+Versículos curtos para aprender, decorar e compartilhar a Palavra de Deus
  
-99 frases e mensagens de gratidão a Deus
-Salmos de Gratidão a Deus
-Significado bíblico de Gratidão (com exemplos)
+5 razões para ler a Bíblia
+10 planos de leitura da Bíblia
+Versículos curtos para aprender, decorar e compartilhar a Palavra de Deus
 
  
-Jesus Cristo é o mesmo, ontem, hoje e para sempre.
-- Hebreus 13:8
+Deus é o nosso refúgio e a nossa fortaleza,
+auxílio sempre presente na adversidade.
+Por isso não temeremos,
+ainda que a terra trema
+e os montes afundem no coração do mar,
+- Salmo 46:1-2 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 390385 characters
-INFO:root:HTML parsed, length: 380192 characters
-INFO:root:Found 3 titles: ['Vivendo sem vaidade', 'Devocional: O amor de Deus para com seu povo', 'Busquem-me e terão vida']
-INFO:root:Found 4 URLs: ['/versiculos_de_amar_o_proximo/', '/o_amor_incondicional_de_deus_estudo/', '/caracteristicas_do_amor/']
-INFO:root:Found 3 descriptions: ['Nada façam por ambição egoísta ou por vaidade, mas', 'Eu os conduzi\ncom laços de bondade humana\ne de amo', 'Assim diz o Senhor à nação de Israel:\n"Busquem-me ']
-INFO:root:Found 3 dates: ['JUNHO\n\n13\nSÁBADO', 'JUNHO\n\n12\nSEXTA', 'JUNHO\n\n11\nQUINTA']
+INFO:root:Response length: 389758 characters
+INFO:root:HTML parsed, length: 379568 characters
+INFO:root:Found 3 titles: ['Vaso de honra', 'Vivendo sem vaidade', 'Devocional: O amor de Deus para com seu povo']
+INFO:root:Found 3 URLs: ['/versiculos_de_amar_o_proximo/', '/o_amor_incondicional_de_deus_estudo/', '/caracteristicas_do_amor/']
+INFO:root:Found 3 descriptions: ['Se alguém se purificar dessas coisas, será vaso pa', 'Nada façam por ambição egoísta ou por vaidade, mas', 'Eu os conduzi\ncom laços de bondade humana\ne de amo']
+INFO:root:Found 3 dates: ['JUNHO\n\n14\nDOMINGO', 'JUNHO\n\n13\nSÁBADO', 'JUNHO\n\n12\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Vivendo sem vaidade', ID=d2bde39a4cf3a69deb904508b47c3bdb
-INFO:root:Processing entry 2: Title='Devocional: O amor de Deus para com seu povo', ID=a3be8f6414697bad511c72fc4480e453
-INFO:root:Processing entry 3: Title='Busquem-me e terão vida', ID=321c1f432c6b673fa42a23170dbd6475
+INFO:root:Processing entry 1: Title='Vaso de honra', ID=2ecd7ef0e7500f5dc22385226b24cfb5
+INFO:root:Processing entry 2: Title='Vivendo sem vaidade', ID=d2bde39a4cf3a69deb904508b47c3bdb
+INFO:root:Processing entry 3: Title='Devocional: O amor de Deus para com seu povo', ID=a3be8f6414697bad511c72fc4480e453
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Vivendo sem vaidade
+INFO:root:🔹 Title: Vaso de honra
 INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_de_amar_o_proximo/
+INFO:root:🔹 Description: Se alguém se purificar dessas coisas, será vaso para honra, santificado, útil para o Senhor e preparado para toda boa obra.
+- 2 Timóteo 2:21
+
+O vaso era um tipo de instrumento muito utilizado nos contextos bíblicos, para variadas funções de armazenamento ou exposição.
+Você se lembra do milagre da multiplicação de azeite na botija da viúva? Ou do vaso nas mãos do oleiro, que após se quebrar foi restaurado? Ou ainda o precioso vaso de alabastro com perfume caríssimo que foi quebrado e derramado sobre Jesus? Há várias outras ocorrências em que este simples utensílio aparece nos mostrando a importância da sua utilidade.
+Além da menção dos recipientes, a metáfora do vaso também é utilizada na Bíblia. Neste texto, Paulo orienta a Timóteo sobre os vasos de honra e desonra na casa de Deus. Ser separado do mal é um pré-requisito para ser honrado e usado por Deus. A purificação do mal, dos falsos ensinamentos, das contendas e conversações inúteis é fundamental para pessoas que querem ser vasos de honra para Deus.
+Seja um vaso de honra para Deus
+
+Ore e peça a Deus ajuda para se purificar dos seus erros e falhas.
+Permita que Deus molde seu caráter e personalidade, tal como o oleiro faz ao barro.
+Esvazie-se de "conteúdos" prejudiciais ou que não edificam: evite fofocas, brigas e discussões desnecessárias; saia de grupos ou "chats" (presenciais ou virtuais) onde essa prática é incentivada.
+Encha-se da Palavra de Deus. Só assim, você dará honra ao Senhor e será honrado por Ele.
+
+Para Orar:
+
+Senhor meu Deus, ajuda-me a ser um vaso precioso em tuas mãos. Sei que sou falho, por isso preciso de ser moldado e purificado para ser ainda mais útil na tua casa. Ajuda-me a fugir da aparência do mal, buscando fazer sempre o que te agrada em tudo. Quero ser um vaso que Te honre e glorifique, todos os dias da minha vida. Em nome de Jesus te peço e te agradeço por essas coisas. Amém!
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Vivendo sem vaidade
+INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
 INFO:root:🔹 Description: Nada façam por ambição egoísta ou por vaidade, mas humildemente considerem os outros superiores a vocês mesmos.
 - Filipenses 2:3
 
@@ -288,7 +290,7 @@ Senhor, ajuda-nos a viver com humildade e amor, seguindo o exemplo de Jesus. Que
 Veja também: Versículos que mostram como é importante amar o próximo
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Devocional: O amor de Deus para com seu povo
-INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
+INFO:root:🔹 URL: https://www.bibliaon.com/caracteristicas_do_amor/
 INFO:root:🔹 Description: Eu os conduzi
 com laços de bondade humana
 e de amor;
@@ -321,30 +323,6 @@ Veja Também:
 Reflexão sobre o amor de Deus (Estudo Bíblico)
 As 5 características do amor segundo a Bíblia
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Busquem-me e terão vida
-INFO:root:🔹 URL: https://www.bibliaon.com/caracteristicas_do_amor/
-INFO:root:🔹 Description: Assim diz o Senhor à nação de Israel:
-"Busquem-me e terão vida;
-- Amós 5:4
-
-Amós falou a um povo religiosamente ativo, porém, espiritualmente distante, mostrando que culto sem obediência e justiça não sustenta a vida verdadeira.
-Buscar o Senhor não é um ato ocasional, mas uma disposição diária de alinhar valores, escolhas e atitudes ao coração de Deus. Esse chamado envolve arrependimento, escuta sincera da Palavra e coragem para viver de forma diferente em meio a uma cultura que normaliza a injustiça e a indiferença.
-Quando Deus diz “terão vida”, Ele aponta para uma vida plena, que ultrapassa a questão material e se manifesta em comunhão, justiça, misericórdia e esperança.
-Viver é experimentar sentido mesmo em tempos difíceis, porque a fonte da vida não está nas circunstâncias, mas naquele que sustenta todas as coisas. Ao buscarmos o Senhor, somos transformados para refletir Seu amor no mundo, tornando-nos instrumentos de restauração onde há dor, opressão e perda.
-A promessa de Amós permanece atual: somente em Deus encontramos vida, e somente ao buscá-lo com sinceridade experimentamos renovação verdadeira. Que este chamado nos desperte hoje a abandonar caminhos vazios e a voltar o coração completamente ao Senhor, para que vivamos, não apenas existamos, mas floresçamos segundo a Sua vontade.
-Enquanto O buscamos, aprendemos que a verdadeira vida brota da obediência, da fé perseverante e de um compromisso profundo com a justiça do Reino, revelando ao mundo que Deus ainda chama, cura e salva aqueles que respondem ao Seu convite eterno. Com graça, Ele continua oferecendo recomeço, direção, propósito e vida abundante a todos que O buscam hoje sinceramente.
-A vida verdadeira nasce quando o coração volta-se totalmente para Deus
-
-Reserve tempo diário para orar, ler a Bíblia, ouvir Deus com atenção e deixar Ele guiar suas escolhas com amor.
-Pratique o bem todos os dias, tratando pessoas com respeito, ajudando quando possível e vivendo com honestidade simplicidade e fé.
-Reavalie sua vida, deixe hábitos vazios, confie em Deus e escolha caminhos que tragam paz verdadeira ao coração hoje sempre.
-
-Para orar:
-
-Senhor Deus, ajuda-me a Te buscar de todo o coração. Quero ouvir Tua voz, andar em Teus caminhos e viver conforme Tua vontade. Perdoa-me quando me afasto e renova minha fé diariamente. Ensina-me a amar, praticar o bem e confiar em Ti em todos os momentos. Amém.
-
-Veja também: Versículos sobre buscar a Deus
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -374,15 +352,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 +++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  35 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 ++--
+ feeds/devocional_de_hoje/feed.json        |  14 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  59 +++---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  10 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  62 +++----
+ feeds/salmo_do_dia/atom.xml               |  60 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |  12 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |  10 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 272 ++++++++++++++----------------
- 11 files changed, 235 insertions(+), 263 deletions(-)
+ output.log                                | 300 +++++++++++++-----------------
+ 11 files changed, 244 insertions(+), 300 deletions(-)
