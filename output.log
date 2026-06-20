@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 125974 characters
-INFO:root:HTML parsed, length: 118958 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (19/06/2026)', 'Palavra de Ontem (18/06/2026)', 'Palavra de Anteontem (17/06/2026)']
-INFO:root:Found 3 URLs: ['/encrenca-2/', '/tendo-em-vista/', '/utopista/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Situação muito difícil ou per', 'Sinônimos:\n\nconfusão, alvoroço, rebordosa, embaraç', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (19/06/2026)', 'Palavra de Ontem (18/06/2026)', 'Palavra de Anteontem (17/06/2026)']
+INFO:root:Response length: 125718 characters
+INFO:root:HTML parsed, length: 118885 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (20/06/2026)', 'Palavra de Ontem (19/06/2026)', 'Palavra de Anteontem (18/06/2026)']
+INFO:root:Found 3 URLs: ['/pluralismo/', '/encrenca-2/', '/tendo-em-vista/']
+INFO:root:Found 12 descriptions: ['substantivo masculino O que não é único; multiplic', 'Sinônimos:\n\ndiversidade', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (20/06/2026)', 'Palavra de Ontem (19/06/2026)', 'Palavra de Anteontem (18/06/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (19/06/2026)', ID=f01eaa22f6704c0471b9395991a9ed0c
-INFO:root:Processing entry 2: Title='Palavra de Ontem (18/06/2026)', ID=00af57c6f083a986c3d59dc9e2cd2ac3
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (17/06/2026)', ID=267f1e58ed5c729a6c41df94b79a651d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (20/06/2026)', ID=27d37408cc49fa08e5cf07252f69885f
+INFO:root:Processing entry 2: Title='Palavra de Ontem (19/06/2026)', ID=00e37a45b8d85663a78ff0b0b96f8e65
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (18/06/2026)', ID=7daf1695859267aa3d563704b5b05b9d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (19/06/2026) - Significado completo de encrenca:
-INFO:root:🔹 URL: https://www.dicio.com.br/encrenca-2/
-INFO:root:🔹 Description: substantivo feminino Situação muito difícil ou perigosa; confusão, alvoroço, tumulto.Circunstância excessivamente conflituosa; briga, desordem.Desenvolvido com intriga, com maquinação, tramoia; intriga.Etimologia (origem da palavra encrenca). A palavra encrenca tem sua origem como forma regressiva de encrencar.
+INFO:root:🔹 Title: Palavra de Hoje (20/06/2026) - Significado completo de pluralismo:
+INFO:root:🔹 URL: https://www.dicio.com.br/pluralismo/
+INFO:root:🔹 Description: substantivo masculino O que não é único; multiplicidade.Múltiplas e diversas opiniões políticas, religiosas, pontos de vista, interesses, experiências, modos de ver o mundo etc., que coexistem num só lugar.[Filosofia] Teoria que acredita ser o universo composto pela variedade de elementos que, embora diversos, mantêm uma continuidade e ligação entre si.[Sociologia] Corrente ideológica segundo a qual as ideias políticas, sociais e culturais, são consequência de uma multiplicidade que, embora unida por um diversidade independente, apresentam ligações entre si.[Política] Sistema político que admite a coexistência de grupos ou de organismos diferentes, sendo administrativa ou representativamente independentes: pluralismo sindical, pluralismo partidário.[Filosofia] Doutrina filosófica que não admite, no mundo, senão seres múltiplos e individuais.Etimologia (origem da palavra pluralismo). Plural + ismo.
  
 Sinônimos:
 
-confusão, alvoroço, rebordosa, embaraço, intriga, desordem, barulho, fuzuê, tramoia 
+diversidade 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (18/06/2026) - Significado completo de tendo em vista:
-INFO:root:🔹 URL: https://www.dicio.com.br/tendo-em-vista/
+INFO:root:🔹 Title: Palavra de Ontem (19/06/2026) - Significado completo de encrenca:
+INFO:root:🔹 URL: https://www.dicio.com.br/encrenca-2/
 INFO:root:🔹 Description: Sinônimos:
 
-confusão, alvoroço, rebordosa, embaraço, intriga, desordem, barulho, fuzuê, tramoia
- Classe gramatical:substantivo feminino
+diversidade
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (17/06/2026) - Significado completo de utopista:
-INFO:root:🔹 URL: https://www.dicio.com.br/utopista/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:en-cren-ca
+INFO:root:🔹 Title: Palavra de Anteontem (18/06/2026) - Significado completo de tendo em vista:
+INFO:root:🔹 URL: https://www.dicio.com.br/tendo-em-vista/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:plu-ra-lis-mo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,41 +42,94 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 379949 characters
-INFO:root:HTML parsed, length: 369734 characters
-INFO:root:Found 1 titles: ['1 Crônicas 29:13']
-INFO:root:Found 1 URLs: ['/versiculo/1_cronicas_29_13/']
-INFO:root:Found 1 descriptions: ['Agora, nosso Deus, damos-te graças,\ne louvamos o t']
+INFO:root:Response length: 379871 characters
+INFO:root:HTML parsed, length: 369656 characters
+INFO:root:Found 1 titles: ['Mateus 25:31']
+INFO:root:Found 1 URLs: ['/versiculo/mateus_25_31/']
+INFO:root:Found 1 descriptions: ['"Quando o Filho do homem vier em sua glória, com t']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Crônicas 29:13', ID=792a55fa6d9120cd3a416cb5cf3c9ffb
+INFO:root:Processing entry 1: Title='Mateus 25:31', ID=5a740a95d3fbda7c74c7ba00ac9d7f22
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Crônicas 29:13
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_cronicas_29_13/
-INFO:root:🔹 Description: Agora, nosso Deus, damos-te graças,
-e louvamos o teu glorioso nome. 1 Crônicas 29:13
+INFO:root:🔹 Title: Mateus 25:31
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_25_31/
+INFO:root:🔹 Description: "Quando o Filho do homem vier em sua glória, com todos os anjos, ele se assentará em seu trono na glória celestial. Mateus 25:31
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 377377 characters
-INFO:root:HTML parsed, length: 368247 characters
-INFO:root:Found 3 titles: ['Salmo 148', 'Salmo 132', 'Salmo 40']
-INFO:root:Found 3 URLs: ['/salmos_148/', '/salmos_132/', '/salmos_40/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ', 'Senhor, lembra-te de Davi\ne das dificuldades que e', 'Depositei toda a minha esperança no Senhor;\nele se']
-INFO:root:Found 3 dates: ['19 de Junho de 2026', '18 de Junho de 2026', '17 de Junho de 2026']
+INFO:root:Response length: 377056 characters
+INFO:root:HTML parsed, length: 367912 characters
+INFO:root:Found 3 titles: ['Salmo 51', 'Salmo 148', 'Salmo 132']
+INFO:root:Found 3 URLs: ['/salmos_51/', '/salmos_148/', '/salmos_132/']
+INFO:root:Found 3 descriptions: ['Tem misericórdia de mim, ó Deus,\npor teu amor;\npor', 'Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ', 'Senhor, lembra-te de Davi\ne das dificuldades que e']
+INFO:root:Found 3 dates: ['20 de Junho de 2026', '19 de Junho de 2026', '18 de Junho de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
-INFO:root:Processing entry 2: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
-INFO:root:Processing entry 3: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
+INFO:root:Processing entry 1: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
+INFO:root:Processing entry 2: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
+INFO:root:Processing entry 3: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 51
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_51/
+INFO:root:🔹 Description: Tem misericórdia de mim, ó Deus,
+por teu amor;
+por tua grande compaixão
+apaga as minhas transgressões. 
+Lava-me de toda a minha culpa
+e purifica-me do meu pecado. 
+Pois eu mesmo
+reconheço as minhas transgressões,
+e o meu pecado sempre me persegue. 
+Contra ti, só contra ti, pequei
+e fiz o que tu reprovas,
+de modo que justa é a tua sentença
+e tens razão em condenar-me. 
+Sei que sou pecador desde que nasci;
+sim, desde que me concebeu minha mãe. 
+Sei que desejas a verdade no íntimo;
+e no coração me ensinas a sabedoria. 
+Purifica-me com hissopo, e ficarei puro;
+lava-me, e mais branco do que a neve serei. 
+Faze-me ouvir de novo júbilo e alegria,
+e os ossos que esmagaste exultarão. 
+Esconde o rosto dos meus pecados
+e apaga todas as minhas iniquidades. 
+Cria em mim um coração puro, ó Deus,
+e renova dentro de mim um espírito estável. 
+Não me expulses da tua presença
+nem tires de mim o teu Santo Espírito. 
+Devolve-me a alegria da tua salvação
+e sustenta-me
+com um espírito pronto a obedecer. 
+Então ensinarei os teus caminhos
+aos transgressores,
+para que os pecadores se voltem para ti. 
+Livra-me da culpa dos crimes de sangue,
+ó Deus, Deus da minha salvação!
+E a minha língua aclamará a tua justiça. 
+Ó Senhor, dá palavras aos meus lábios,
+e a minha boca anunciará o teu louvor. 
+Não te deleitas em sacrifícios
+nem te agradas em holocaustos,
+senão eu os traria. 
+Os sacrifícios que agradam a Deus
+são um espírito quebrantado;
+um coração quebrantado e contrito,
+ó Deus, não desprezarás. 
+Por tua boa vontade faze Sião prosperar;
+ergue os muros de Jerusalém. 
+Então te agradarás dos sacrifícios sinceros,
+das ofertas queimadas e dos holocaustos;
+e novilhos serão oferecidos sobre o teu altar. 
+ Salmo 51
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 148
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_148/
 INFO:root:🔹 Description: Aleluia!
@@ -164,140 +217,108 @@ Vestirei de vergonha os seus inimigos,
 mas nele brilhará a sua coroa". 
  Salmo 132
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 40
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_40/
-INFO:root:🔹 Description: Depositei toda a minha esperança no Senhor;
-ele se inclinou para mim
-e ouviu o meu grito de socorro. 
-Ele me tirou de um poço de destruição,
-de um atoleiro de lama;
-pôs os meus pés sobre uma rocha
-e firmou-me num local seguro. 
-Pôs um novo cântico na minha boca,
-um hino de louvor ao nosso Deus.
-Muitos verão isso e temerão,
-e confiarão no Senhor. 
-Como é feliz o homem
-que põe no Senhor a sua confiança,
-e não vai atrás dos orgulhosos,
-dos que se afastam para seguir deuses falsos! 
-Senhor meu Deus!
-Quantas maravilhas tens feito!
-Não se pode relatar
-os planos que preparaste para nós!
-Eu queria proclamá-los e anunciá-los,
-mas são por demais numerosos! 
-Sacrifício e oferta não pediste,
-mas abriste os meus ouvidos;
-holocaustos e ofertas pelo pecado
-não exigiste. 
-Então eu disse: "Aqui estou!"
-No livro está escrito a meu respeito. 
-Tenho grande alegria em fazer a tua vontade,
-ó meu Deus;
-a tua lei está no fundo do meu coração. 
-Eu proclamo as novas de justiça
-na grande assembleia;
-como sabes, Senhor, não fecho os meus lábios. 
-Não oculto no coração a tua justiça;
-falo da tua fidelidade e da tua salvação.
-Não escondo da grande assembleia
-a tua fidelidade e a tua verdade. 
-Não me negues a tua misericórdia, Senhor;
-que o teu amor e a tua verdade
-sempre me protejam. 
-Pois incontáveis problemas me cercam,
-as minhas culpas me alcançaram
-e já não consigo ver.
-Mais numerosos são
-que os cabelos da minha cabeça,
-e o meu coração perdeu o ânimo. 
-Agrada-te, Senhor, em libertar-me;
-apressa-te, Senhor, a ajudar-me. 
-Sejam humilhados e frustrados
-todos os que procuram tirar-me a vida;
-retrocedam desprezados
-os que desejam a minha ruína. 
-Fiquem chocados com a sua própria desgraça
-os que zombam de mim. 
-Mas regozijem-se e alegrem-se em ti
-todos os que te buscam;
-digam sempre aqueles que amam a tua salvação:
-"Grande é o Senhor!" 
-Quanto a mim, sou pobre e necessitado,
-mas o Senhor preocupa-se comigo.
-Tu és o meu socorro e o meu libertador;
-meu Deus, não te demores! 
- Salmo 40
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 381235 characters
-INFO:root:HTML parsed, length: 371467 characters
-INFO:root:Found 3 titles: ['Qual é o valor de sua vida?', 'Seja uma bênção na vida do próximo', 'Onde está a tua segurança']
+INFO:root:Response length: 381457 characters
+INFO:root:HTML parsed, length: 371698 characters
+INFO:root:Found 3 titles: ['A Bíblia é mais que palavras', 'Qual é o valor de sua vida?', 'Seja uma bênção na vida do próximo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Você sabe quanto vale sua vida? A Bíblia diz que v', 'Ser um canal de bênção de Deus é um privilégio que', 'Quando parece que tudo está indo mal e você não en']
-INFO:root:Found 1 dates: ['Sexta, 19 de junho de 2026']
+INFO:root:Found 3 descriptions: ['A tua palavra é lâmpada\nque ilumina os meus passos', 'Você sabe quanto vale sua vida? A Bíblia diz que v', 'Ser um canal de bênção de Deus é um privilégio que']
+INFO:root:Found 1 dates: ['Sábado, 20 de junho de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Qual é o valor de sua vida?', ID=b5b1c06b417d0f6c007907d3bcdb53c5
+INFO:root:Processing entry 1: Title='A Bíblia é mais que palavras', ID=1be4085a18b4c7d8ad8af9ecc927d903
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Qual é o valor de sua vida? - Palavra de Hoje
+INFO:root:🔹 Title: A Bíblia é mais que palavras - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Você sabe quanto vale sua vida? A Bíblia diz que você foi criado à imagem e semelhança de Deus, formado de maneira muito especial. O pecado lhe separa de Deus, mas não destrói seu valor. Deus ama você tanto que Ele enviou seu único filho para salvar você do pecado!
+INFO:root:🔹 Description: A tua palavra é lâmpada
+que ilumina os meus passos
+e luz que clareia o meu caminho.
+- Salmos 119:105
 
-"Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna."
-- João 3:16
+Não leia a Bíblia como algo distante ou como um conjunto de registos históricos. A Bíblia é a Palavra viva de Deus! Todo dia há uma mensagem especial para tocar o seu coração.
 
-Você é muito precioso para Deus! Ao ponto de Ele enviar o Seu Filho bendito para te salvar! Nunca se esqueça: você tem valor para o Senhor... Mesmo que você tenha sido rejeitado no passado, ou que pessoas te humilhem e tratem com descaso hoje, ou ainda que você mesmo não reconheça o seu valor real, lembre-se: o soberano Deus te criou e te ama!
-Mais do que qualquer obra de arte, estimadas em milhões, você é mais precioso, pois é Jesus mesmo quem determina a sua importância e dignidade. Não dê ouvidos a vozes alheias que dizem o contrário! É mentira! Deus te confere o verdadeiro valor!
-Assim, como uma obra de Leonardo da Vinci, ou Michelangelo, p.ex., trazem consigo valor devido à importância de seus criadores, você também carrega um valor inestimável por causa Daquele que te fez! O Seu autor é o Rei do universo! Você vale muito mais do que as obras de arte mais valiosas do mundo todo...
-Olhe para o que Deus diz na Sua Palavra, e encontre o seu verdadeiro valor em Cristo!
+Através das Escrituras podemos receber orientação, entendimento e palavras que esticam a nossa fé em Cristo. A Palavra de Deus é poderosa:
 
-Observem as aves do céu, que não semeiam, não colhem, nem ajuntam em celeiros. No entanto, o Pai de vocês, que está no céu, as sustenta. Será que vocês não valem muito mais do que as aves?
-- Mateus 6:26
+Pois a palavra de Deus é viva e eficaz, e mais afiada que qualquer espada de dois gumes; ela penetra até o ponto de dividir alma e espírito, juntas e medulas, e julga os pensamentos e as intenções do coração.
+- Hebreus 4:12
 
+Leia com expectativa! Deixe a Palavra de Deus tocar o mais profundo do seu coração e lhe mostrar algo novo sobre o que Deus preparou para você e quer de você. Permita que cada versículo da Palavra de Deus fique gravado em seu coração. 
 
-— Não se vendem dois pardais por uma moedinha? Entretanto, nenhum deles cairá no chão sem o consentimento do Pai de vocês.
-E, quanto a vocês, até os cabelos da cabeça de vocês estão todos contados.
-Portanto, não temam! Vocês valem bem mais do que muitos pardais.
-- Mateus 10:29-31
+7 A lei do Senhor é perfeita e revigora a alma.
+Os testemunhos do Senhor
+são dignos de confiança
+e tornam sábios os inexperientes.
+8 Os preceitos do Senhor são justos
+e dão alegria ao coração.
+Os mandamentos do Senhor são límpidos
+e trazem luz aos olhos.
+9 O temor do Senhor é puro
+e dura para sempre.
+As ordenanças do Senhor são verdadeiras,
+são todas elas justas.
+10 São mais desejáveis do que o ouro,
+do que muito ouro puro;
+são mais doces do que o mel,
+do que as gotas do favo.
+- Salmo 19:7-10
 
-Deus cuida de toda a criação, mas nós fomos especialmente feitos, à Sua imagem e semelhança, com um propósito certo. Ele nos fez para nos relacionarmos com Ele e lhe darmos glória. Entenda isso e você descobrirá Nele o seu verdadeiro valor.
-Descubra mais sobre:
+Veja como a Bíblia é maravilhosa:
 
-O que é a salvação
-O amor de Deus
+Os 20 versículos mais conhecidos da Bíblia (e o que significam)
+Tudo sobre os livros da Bíblia
+10 Planos de Leitura da Bíblia
  
-O que é a salvação
-O amor de Deus
+Os 20 versículos mais conhecidos da Bíblia (e o que significam)
+Tudo sobre os livros da Bíblia
+10 Planos de Leitura da Bíblia
 
  
-"Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna."
-- João 3:16
+A tua palavra é lâmpada
+que ilumina os meus passos
+e luz que clareia o meu caminho.
+- Salmos 119:105
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 391104 characters
-INFO:root:HTML parsed, length: 380914 characters
-INFO:root:Found 3 titles: ['Deus não esquece de você', 'Divina paz', 'Há limites para as suas tentações']
+INFO:root:Response length: 389440 characters
+INFO:root:HTML parsed, length: 379256 characters
+INFO:root:Found 3 titles: ['Aquele que me ama será amado por meu Pai', 'Deus não esquece de você', 'Divina paz']
 INFO:root:Found 2 URLs: ['/razoes_para_confiar_em_deus/', '/versiculos_para_encontrar_paz/']
-INFO:root:Found 3 descriptions: ['Mas o Senhor disse a Samuel: Não atentes para a su', 'Os que amam a tua lei desfrutam paz, e nada há que', 'Não sobreveio a vocês tentação que não fosse comum']
-INFO:root:Found 3 dates: ['JUNHO\n\n19\nSEXTA', 'JUNHO\n\n18\nQUINTA', 'JUNHO\n\n17\nQUARTA']
+INFO:root:Found 3 descriptions: ['Quem tem os meus mandamentos e lhes obedece, esse ', 'Mas o Senhor disse a Samuel: Não atentes para a su', 'Os que amam a tua lei desfrutam paz, e nada há que']
+INFO:root:Found 3 dates: ['JUNHO\n\n20\nSÁBADO', 'JUNHO\n\n19\nSEXTA', 'JUNHO\n\n18\nQUINTA']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Deus não esquece de você', ID=89d4926a6c55b051121702bb908f8998
-INFO:root:Processing entry 2: Title='Divina paz', ID=eb63e9c130a4e57b65333cacc42d1146
+INFO:root:Processing entry 1: Title='Aquele que me ama será amado por meu Pai', ID=d02398a363a974da5d678da4207e20b6
+INFO:root:Processing entry 2: Title='Deus não esquece de você', ID=89d4926a6c55b051121702bb908f8998
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus não esquece de você
+INFO:root:🔹 Title: Aquele que me ama será amado por meu Pai
 INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_confiar_em_deus/
+INFO:root:🔹 Description: Quem tem os meus mandamentos e lhes obedece, esse é o que me ama. Aquele que me ama será amado por meu Pai, e eu também o amarei e me revelarei a ele".João 14:21 
+
+Sentir-se amado nos faz bem e nos dá segurança. Como é bom receber o carinho dos parentes e de nossos irmãos. Agora, quando sentimos o amor de Deus é ainda mais encorajador! Quando sentimos que somos amados por Deus, esquecemos a rejeição, a vergonha e a opressão do mundo.
+Quando João escreveu esta epístola, deixou-nos registrado a importância da divindade de Cristo e o poder do Seu amor. Os crentes passavam por muitas dificuldades e perseguições, precisavam ser confortados no amor de Jesus e encorajados a amá-lo.
+Amar a Jesus é a melhor forma de ser amado por Ele. É cíclico: Nossa obediência à Palavra nos aproxima de Deus. Ele nos ama revelando-se a nós através da sua própria Palavra.
+Quando obedecemos aos mandamentos de Jesus, estamos amando-lhe. Ao mesmo tempo, quando guardamos a Palavra, convidamos o próprio Deus a fazer morada me nós.
+Aquele que me ama é amado por meu Pai!
+
+Deus já tomou a iniciativa de te amar por Jesus. Falta a sua parte.
+Não obedeça a Deus apenas com palavras, mas com atos concretos. Quando agimos, Deus age!
+Se você ama a Deus, acalme-se, sinta-se amado por Ele.
+
+Para Orar:
+
+Senhor Jesus, como eu te amo! Tua Palavra me transforma e me transporta até a Ti. Quero mergulhar na Tua Palavra e experimentar ainda mais o teu amor. Faz morada em mim, amém.
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Deus não esquece de você
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_encontrar_paz/
 INFO:root:🔹 Description: Mas o Senhor disse a Samuel: Não atentes para a sua aparência, nem para a grandeza da sua estatura, porque eu o rejeitei; porque o Senhor não vê como vê o homem, pois o homem olha para o que está diante dos olhos, porém o Senhor olha para o coraçao.
 - 1 Samuel 16:7
 
@@ -321,27 +342,6 @@ Para orar:
 Senhor, mesmo quando me sinto esquecido, sei que Tu me vês. Molda meu coração, fortalece minha fé e prepara-me para Teus propósitos. Que eu seja fiel no oculto e confie no Teu tempo. Amém.
 
 Veja também: Razões para confiar em Deus em meio às lutas
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Divina paz
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_encontrar_paz/
-INFO:root:🔹 Description: Os que amam a tua lei desfrutam paz, e nada há que os faça tropeçar.
-- Salmo 119:165
-
-A Palavra de Deus é como um suave bálsamo que acalma as tormentas da vida, oferecendo-nos a divina paz que transcende todo entendimento. Em meio às adversidades, encontramos refúgio nas promessas do Senhor, pois Ele é nossa rocha inabalável!
-A Palavra de Deus consegue iluminar nosso caminho, dissipando as trevas e revelando a verdadeira fonte de serenidade. Jesus, o Príncipe da Paz, nos convida a depositar nossas preocupações aos Seus pés, garantindo-nos descanso e alívio.
-Ao mergulharmos nas Escrituras, descobrimos que a paz divina não é apenas a ausência de conflitos, mas a presença inabalável do próprio Deus em nossas vidas. A Palavra nos orienta a buscar a paz, cultivar relacionamentos pacíficos e permitir que o Espírito Santo governe nossos corações.
-Que possamos, como crentes, encontrar consolo e tranquilidade na Palavra de Deus, pois é nela que descobrimos a verdadeira fonte da divina paz que nos sustenta, guiando-nos em todos os momentos da vida.
-Experimentando a divina paz de Deus
-
-Desligue-se do tumulto cotidiano, feche os olhos e ore em silêncio. Meditando na presença de Deus, encontramos calma e discernimento.
-Deixe que as Escrituras iluminem sua mente e inspirem seu coração. A meditação na Palavra de Deus fortalece a fé e traz clareza espiritual.
-Mantenha um diário de gratidão, registrando momentos pelos quais você é grato. Essa reflexão constante promove um espírito de louvor e contentamento.
-
-Para orar:
-
-Senhor, neste momento, ergo meu coração a Ti. Guia-me em cada passo, ilumina meu caminho com Tua sabedoria. Perdoa minhas falhas e fortalece minha fé. Que Teu amor envolva cada área da minha vida. Sou grato por Tua graça e misericórdia. Em nome de Jesus, amém.
-
-Veja também: Encontre paz nesses 7 versículos
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -372,15 +372,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  26 ++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  47 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  35 ++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  72 ++++---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  66 ++++----
+ feeds/salmo_do_dia/atom.xml               | 118 +++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 273 ++++++++++++++++--------------
- 11 files changed, 278 insertions(+), 211 deletions(-)
+ output.log                                | 338 ++++++++++++++----------------
+ 11 files changed, 314 insertions(+), 326 deletions(-)
