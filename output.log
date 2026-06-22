@@ -1,38 +1,34 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 125062 characters
-INFO:root:HTML parsed, length: 118413 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (21/06/2026)', 'Palavra de Ontem (20/06/2026)', 'Palavra de Anteontem (19/06/2026)']
-INFO:root:Found 3 URLs: ['/tupi/', '/pluralismo/', '/encrenca-2/']
-INFO:root:Found 12 descriptions: ['substantivo masculino e feminino Indivíduo dos tup', 'Classe gramatical:adjetivo de dois gêneros e subst', 'Sílabas:tu-pi']
-INFO:root:Found 3 dates: ['Palavra de Hoje (21/06/2026)', 'Palavra de Ontem (20/06/2026)', 'Palavra de Anteontem (19/06/2026)']
+INFO:root:Response length: 124194 characters
+INFO:root:HTML parsed, length: 117866 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (22/06/2026)', 'Palavra de Ontem (21/06/2026)', 'Palavra de Anteontem (20/06/2026)']
+INFO:root:Found 3 URLs: ['/jobiniano/', '/tupi/', '/pluralismo/']
+INFO:root:Found 9 descriptions: ['adjetivo Relativo ou pertencente ao compositor e c', 'Sílabas:jo-bi-ni-a-no', 'substantivo masculino e feminino Indivíduo dos tup']
+INFO:root:Found 3 dates: ['Palavra de Hoje (22/06/2026)', 'Palavra de Ontem (21/06/2026)', 'Palavra de Anteontem (20/06/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (21/06/2026)', ID=7a031db7f1c3b71e65412a72ed8700de
-INFO:root:Processing entry 2: Title='Palavra de Ontem (20/06/2026)', ID=b8f0f67f7865e1c4b650ba126dfea098
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (19/06/2026)', ID=c8838b0ae69669156b8ff18fe5b45024
+INFO:root:Processing entry 1: Title='Palavra de Hoje (22/06/2026)', ID=4c0c5b8f60b8a7a441676eb6f996ade1
+INFO:root:Processing entry 2: Title='Palavra de Ontem (21/06/2026)', ID=331180852486b5411eee33d78d224344
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/06/2026)', ID=c3b6d9a268fb04195b4e9b5537b1138c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (21/06/2026) - Significado completo de tupi:
+INFO:root:🔹 Title: Palavra de Hoje (22/06/2026) - Significado completo de jobiniano:
+INFO:root:🔹 URL: https://www.dicio.com.br/jobiniano/
+INFO:root:🔹 Description: adjetivo Relativo ou pertencente ao compositor e cantor brasileiro Antônio Carlos Jobim, conhecido como Tom Jobim (1927-1994).De natureza, essência e estilo parecidos ou semelhantes aos das músicas desse compositor.Que admira ou se dedica ao estudo da obra de Tom Jobim: músico com influências jobinianas.Etimologia (origem da palavra jobiniano). A palavra jobiniano tem sua origem pela junção do nome próprio, Jobim, e do sufixo -ano.
+ Sílabas:jo-bi-ni-a-no
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (21/06/2026) - Significado completo de tupi:
 INFO:root:🔹 URL: https://www.dicio.com.br/tupi/
-INFO:root:🔹 Description: substantivo masculino e feminino Indivíduo dos tupis, uma das principais etnias indígenas da América do Sul que ocupava toda a extensão do Brasil e grandes extensões de terra na Argentina, Paraguai, Bolívia, Peru, Equador e Guianas.substantivo masculino [Linguística] Língua pertencente ao tronco linguístico tupi (falada pelas pessoas de origem étnica tupi).adjetivo Relativo ou pertencente aos tupis, aos seus grupos ou à sua língua.Etimologia (origem da palavra tupi). A palavra do tupi tem sua origem controversa; do tupi tu-u’pi”, com sentido de pai absoluto.
+INFO:root:🔹 Description: Sílabas:jo-bi-ni-a-no
  Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (20/06/2026) - Significado completo de pluralismo:
+INFO:root:🔹 Title: Palavra de Anteontem (20/06/2026) - Significado completo de pluralismo:
 INFO:root:🔹 URL: https://www.dicio.com.br/pluralismo/
-INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+INFO:root:🔹 Description: substantivo masculino e feminino Indivíduo dos tupis, uma das principais etnias indígenas da América do Sul que ocupava toda a extensão do Brasil e grandes extensões de terra na Argentina, Paraguai, Bolívia, Peru, Equador e Guianas.substantivo masculino [Linguística] Língua pertencente ao tronco linguístico tupi (falada pelas pessoas de origem étnica tupi).adjetivo Relativo ou pertencente aos tupis, aos seus grupos ou à sua língua.Etimologia (origem da palavra tupi). A palavra do tupi tem sua origem controversa; do tupi tu-u’pi”, com sentido de pai absoluto.
  Sílabas:tu-pi
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (19/06/2026) - Significado completo de encrenca:
-INFO:root:🔹 URL: https://www.dicio.com.br/encrenca-2/
-INFO:root:🔹 Description: Sílabas:tu-pi
- 
-Sinônimos:
-
-diversidade 
-
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,43 +36,117 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 379937 characters
-INFO:root:HTML parsed, length: 369722 characters
-INFO:root:Found 1 titles: ['Salmos 23:4']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_23_4/']
-INFO:root:Found 1 descriptions: ['Mesmo quando eu andar\npor um vale de trevas e mort']
+INFO:root:Response length: 380001 characters
+INFO:root:HTML parsed, length: 369786 characters
+INFO:root:Found 1 titles: ['João 3:16']
+INFO:root:Found 1 URLs: ['/versiculo/joao_3_16/']
+INFO:root:Found 1 descriptions: ['"Porque Deus tanto amou o mundo que deu o seu Filh']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 23:4', ID=bd68e702e5c9238579de5f8f2139ad13
+INFO:root:Processing entry 1: Title='João 3:16', ID=4a0c225c7f2f8c587cfbc3c5227c0032
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 23:4
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_23_4/
-INFO:root:🔹 Description: Mesmo quando eu andar
-por um vale de trevas e morte,
-não temerei perigo algum, pois tu estás comigo;
-a tua vara e o teu cajado me protegem. Salmos 23:4
+INFO:root:🔹 Title: João 3:16
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_3_16/
+INFO:root:🔹 Description: "Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna. João 3:16
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 376264 characters
-INFO:root:HTML parsed, length: 367108 characters
-INFO:root:Found 3 titles: ['Salmo 6', 'Salmo 51', 'Salmo 148']
-INFO:root:Found 3 URLs: ['/salmos_6/', '/salmos_51/', '/salmos_148/']
-INFO:root:Found 3 descriptions: ['Senhor, não me castigues na tua ira\nnem me discipl', 'Tem misericórdia de mim, ó Deus,\npor teu amor;\npor', 'Aleluia!\nLouvem o Senhor desde os céus,\nlouvem-no ']
-INFO:root:Found 3 dates: ['21 de Junho de 2026', '20 de Junho de 2026', '19 de Junho de 2026']
+INFO:root:Response length: 377787 characters
+INFO:root:HTML parsed, length: 368658 characters
+INFO:root:Found 3 titles: ['Salmo 44', 'Salmo 6', 'Salmo 51']
+INFO:root:Found 3 URLs: ['/salmos_44/', '/salmos_6/', '/salmos_51/']
+INFO:root:Found 3 descriptions: ['Com os nossos próprios ouvidos ouvimos,\nó Deus;\nos', 'Senhor, não me castigues na tua ira\nnem me discipl', 'Tem misericórdia de mim, ó Deus,\npor teu amor;\npor']
+INFO:root:Found 3 dates: ['22 de Junho de 2026', '21 de Junho de 2026', '20 de Junho de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 6', ID=9a5dfa84a1c1ed176bdcd855730eb2a6
-INFO:root:Processing entry 2: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
-INFO:root:Processing entry 3: Title=' Salmo 148', ID=72fcb5647ba824f3f94edc9c490ee314
+INFO:root:Processing entry 1: Title=' Salmo 44', ID=d29eff8a34fc31ca10413a0cec24b4d0
+INFO:root:Processing entry 2: Title=' Salmo 6', ID=9a5dfa84a1c1ed176bdcd855730eb2a6
+INFO:root:Processing entry 3: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 44
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_44/
+INFO:root:🔹 Description: Com os nossos próprios ouvidos ouvimos,
+ó Deus;
+os nossos antepassados nos contaram
+os feitos que realizaste no tempo deles,
+nos dias da antiguidade. 
+Com a tua própria mão expulsaste as nações
+para estabelecer os nossos antepassados;
+arruinaste povos e fizeste prosperar
+os nossos antepassados. 
+Não foi pela espada que conquistaram a terra
+nem pela força do seu braço
+que alcançaram a vitória;
+foi pela tua mão direita, pelo teu braço
+e pela luz do teu rosto,
+por causa do teu amor para com eles. 
+És tu, meu Rei e meu Deus!
+És tu que decretas vitórias para Jacó! 
+Contigo pomos em fuga os nossos adversários;
+pelo teu nome pisoteamos os que nos atacam. 
+Não confio em meu arco,
+minha espada não me concede a vitória; 
+mas tu nos concedes a vitória
+sobre os nossos adversários
+e humilhas os que nos odeiam. 
+Em Deus nos gloriamos o tempo todo,
+e louvaremos o teu nome para sempre. 
+Mas agora nos rejeitaste e nos humilhaste;
+já não sais com os nossos exércitos. 
+Diante dos nossos adversários
+fizeste-nos bater em retirada,
+e os que nos odeiam nos saquearam. 
+Tu nos entregaste
+para sermos devorados como ovelhas
+e nos dispersaste entre as nações. 
+Vendeste o teu povo por uma ninharia,
+nada lucrando com a sua venda. 
+Tu nos fizeste
+motivo de vergonha dos nossos vizinhos,
+objeto de zombaria e menosprezo dos que nos rodeiam. 
+Fizeste de nós um provérbio entre as nações;
+os povos meneiam a cabeça quando nos veem. 
+Sofro humilhação o tempo todo,
+e o meu rosto está coberto de vergonha 
+por causa da zombaria
+dos que me censuram e me provocam,
+por causa do inimigo, que busca vingança. 
+Tudo isso aconteceu conosco,
+sem que nos tivéssemos esquecido de ti
+nem tivéssemos traído a tua aliança. 
+Nosso coração não voltou atrás
+nem os nossos pés se desviaram da tua vereda. 
+Todavia, tu nos esmagaste e fizeste de nós
+um covil de chacais,
+e de densas trevas nos cobriste. 
+Se tivéssemos esquecido
+o nome do nosso Deus
+e tivéssemos estendido as nossas mãos
+a um deus estrangeiro, 
+Deus não o teria descoberto?
+Pois ele conhece os segredos do coração! 
+Contudo, por amor de ti
+enfrentamos a morte todos os dias;
+somos considerados como ovelhas
+destinadas ao matadouro. 
+Desperta, Senhor! Por que dormes?
+Levanta-te! Não nos rejeites para sempre. 
+Por que escondes o teu rosto
+e esqueces o nosso sofrimento
+e a nossa aflição? 
+Fomos humilhados até o pó;
+nossos corpos se apegam ao chão. 
+Levanta-te! Socorre-nos!
+Resgata-nos por causa da tua fidelidade. 
+ Salmo 44
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 6
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_6/
 INFO:root:🔹 Description: Senhor, não me castigues na tua ira
@@ -160,102 +230,110 @@ das ofertas queimadas e dos holocaustos;
 e novilhos serão oferecidos sobre o teu altar. 
  Salmo 51
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 148
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_148/
-INFO:root:🔹 Description: Aleluia!
-Louvem o Senhor desde os céus,
-louvem-no nas alturas! 
-Louvem-no todos os seus anjos,
-louvem-no todos os seus exércitos celestiais. 
-Louvem-no sol e lua,
-louvem-no todas as estrelas cintilantes. 
-Louvem-no os mais altos céus
-e as águas acima do firmamento. 
-Louvem todos eles o nome do Senhor,
-pois ordenou, e eles foram criados. 
-Ele os estabeleceu em seus lugares
-para todo o sempre;
-deu-lhes um decreto que jamais mudará. 
-Louvem o Senhor, vocês que estão na terra,
-serpentes marinhas e todas as profundezas, 
-relâmpagos e granizo, neve e neblina,
-vendavais que cumprem o que ele determina, 
-todas as montanhas e colinas,
-árvores frutíferas e todos os cedros, 
-todos os animais selvagens
-e os rebanhos domésticos,
-todos os demais seres vivos e as aves, 
-reis da terra e todas as nações,
-todos os governantes e juízes da terra, 
-moços e moças, velhos e crianças. 
-Louvem todos o nome do Senhor,
-pois somente o seu nome é exaltado;
-a sua majestade está acima
-da terra e dos céus. 
-Ele concedeu poder ao seu povo
-e recebeu louvor de todos os seus fiéis,
-dos israelitas, povo a quem ele tanto ama.
-Aleluia! 
- Salmo 148
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 381327 characters
-INFO:root:HTML parsed, length: 371573 characters
-INFO:root:Found 3 titles: ['Espalhe o perfume de Cristo', 'A Bíblia é mais que palavras', 'Qual é o valor de sua vida?']
+INFO:root:Response length: 380492 characters
+INFO:root:HTML parsed, length: 370756 characters
+INFO:root:Found 3 titles: ['O que os outros dizem?', 'Espalhe o perfume de Cristo', 'A Bíblia é mais que palavras']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Mas graças a Deus, que, em Cristo, sempre nos cond', 'A tua palavra é lâmpada\nque ilumina os meus passos', 'Você sabe quanto vale sua vida? A Bíblia diz que v']
-INFO:root:Found 1 dates: ['Domingo, 21 de junho de 2026']
+INFO:root:Found 3 descriptions: ['Quando o Senhor trouxe os cativos\nde volta a Sião,', 'Mas graças a Deus, que, em Cristo, sempre nos cond', 'A tua palavra é lâmpada\nque ilumina os meus passos']
+INFO:root:Found 1 dates: ['Segunda, 22 de junho de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Espalhe o perfume de Cristo', ID=d0a807286f1c32a3bbb2d0454af6fc65
+INFO:root:Processing entry 1: Title='O que os outros dizem?', ID=038163ce4431a79f2cec692f4fe60d8e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Espalhe o perfume de Cristo - Palavra de Hoje
+INFO:root:🔹 Title: O que os outros dizem? - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Mas graças a Deus, que, em Cristo, sempre nos conduz triunfantemente. Agora, por nosso intermédio, ele espalha o conhecimento de Cristo por toda parte, como um doce perfume.
-- 2 Coríntios 2:14
+INFO:root:🔹 Description: Quando o Senhor trouxe os cativos
+de volta a Sião, foi como um sonho.
+Então a nossa boca encheu-se de riso
+e a nossa língua de cantos de alegria.
+Até nas outras nações se dizia:
+"O Senhor fez coisas grandiosas
+por este povo".
+- Salmo 126:1-2 
 
-Deus tem feito uma grande obra em nossas vidas! Em Cristo, passamos das trevas para a luz, da morte para a vida eterna. Tal como os romanos exibiam suas conquistas em um desfile triunfal, assim também nós marchamos juntos a Cristo, num desfile vitorioso, que celebra o que Ele tem feito em nós e por nós.
-O incenso era parte importante da marcha triunfal dos romanos. O público não só via o que foi conquistado, mas também podia sentir seu cheiro. Da mesma forma, nós mostramos a diferença da obra que Cristo fez em nossas vidas e espalhamos o seu bom perfume através de ações e atitudes. Com que finalidade? Para que os outros possam chegar ao conhecimento de Cristo.
-Como você pode fazer isso? Encha o seu coração com o amor de Deus e escolha amar as pessoas ao seu redor de maneiras práticas que glorifiquem a Deus. Lembre-se de que quando você serve aos outros com amor, você serve ao Senhor Jesus Cristo. 
+Nestes versículos vemos que Deus libertou o povo de Israel do seu cativeiro e a alegria que sentiam era palpável. Eles riam incessantemente, cantavam louvores a Deus, expressavam sua alegria de tal forma que outras pessoas não podiam fazer outra coisa senão reconhecer a grande obra que Deus havia feito por eles.
+Você recebeu a salvação do Senhor? Você sente alegria quando se lembra de tudo o que Deus fez por você? Você tem motivos específicos hoje para se alegrar no Senhor? Expresse sua alegria! Deixe que as pessoas ao seu redor percebam, ouçam, percebam e falem sobre a obra de Deus em sua vida. Que eles mesmos testemunhem das grandes coisas que Deus fez por você. 
 
-Pois eu tive fome, e vocês me deram de comer; tive sede, e vocês me deram de beber; fui estrangeiro, e vocês me acolheram; necessitei de roupas, e vocês me vestiram; estive enfermo, e vocês cuidaram de mim; estive preso, e vocês me visitaram'.
-"Então os justos lhe responderão: 'Senhor, quando te vimos com fome e te demos de comer, ou com sede e te demos de beber? Quando te vimos como estrangeiro e te acolhemos, ou necessitado de roupas e te vestimos? Quando te vimos enfermo ou preso e fomos te visitar?'
-"O Rei responderá: 'Digo a verdade: O que vocês fizeram a algum dos meus menores irmãos, a mim o fizeram'.
-- Mateus 25:35-40 
+Louvem o Senhor, todas as nações;
+exaltem-no, todos os povos!
+Porque imenso é o seu amor leal por nós,
+e a fidelidade do Senhor dura para sempre.
+Aleluia!
+- Salmo 117 
 
-Espalhe hoje mesmo a boa fragrância do Senhor!
-Veja mais: Versículos sobre perfume
+Inspire outros a louvar a Deus pelo que ele fez em sua vida e pelo que ele fará, tanto em você quanto neles, se você permitir. Deus é um Deus de amor e deseja abençoar todos os seres humanos e todas as nações. Deixe que o seu testemunho aproxime outras pessoas de Deus, deixe que todos vejam a obra preciosa que Deus fez em você e decidam louvá-Lo também. 
+Veja também: A verdadeira alegria vem do Senhor: descubra nestes 5 versículos
  
 Os 20 versículos mais conhecidos da Bíblia (e o que significam)
 Tudo sobre os livros da Bíblia
 10 Planos de Leitura da Bíblia
 
  
-Mas graças a Deus, que, em Cristo, sempre nos conduz triunfantemente. Agora, por nosso intermédio, ele espalha o conhecimento de Cristo por toda parte, como um doce perfume.
-- 2 Coríntios 2:14
+Quando o Senhor trouxe os cativos
+de volta a Sião, foi como um sonho.
+Então a nossa boca encheu-se de riso
+e a nossa língua de cantos de alegria.
+Até nas outras nações se dizia:
+"O Senhor fez coisas grandiosas
+por este povo".
+- Salmo 126:1-2 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 389037 characters
-INFO:root:HTML parsed, length: 378842 characters
-INFO:root:Found 3 titles: ['Devocional: chamados filhos de Deus!', 'Aquele que me ama será amado por meu Pai', 'Deus não esquece de você']
-INFO:root:Found 4 URLs: ['/caracteristicas_do_amor/', '/o_amor_incondicional_de_deus_estudo/', '/versiculos_do_amor_de_deus_por_voce/']
-INFO:root:Found 3 descriptions: ['Vejam como é grande o amor que o Pai nos concedeu:', 'Quem tem os meus mandamentos e lhes obedece, esse ', 'Mas o Senhor disse a Samuel: Não atentes para a su']
-INFO:root:Found 3 dates: ['JUNHO\n\n21\nDOMINGO', 'JUNHO\n\n20\nSÁBADO', 'JUNHO\n\n19\nSEXTA']
+INFO:root:Response length: 389169 characters
+INFO:root:HTML parsed, length: 378983 characters
+INFO:root:Found 3 titles: ['Não lute sozinho', 'Devocional: chamados filhos de Deus!', 'Aquele que me ama será amado por meu Pai']
+INFO:root:Found 4 URLs: ['/comunhao_com_os_irmaos/', '/caracteristicas_do_amor/', '/o_amor_incondicional_de_deus_estudo/']
+INFO:root:Found 3 descriptions: ['É melhor ter companhia\ndo que estar sozinho,\nporqu', 'Vejam como é grande o amor que o Pai nos concedeu:', 'Quem tem os meus mandamentos e lhes obedece, esse ']
+INFO:root:Found 3 dates: ['JUNHO\n\n22\nSEGUNDA', 'JUNHO\n\n21\nDOMINGO', 'JUNHO\n\n20\nSÁBADO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Devocional: chamados filhos de Deus!', ID=fc17444fbb1270c48b08e49a50078a79
-INFO:root:Processing entry 2: Title='Aquele que me ama será amado por meu Pai', ID=d02398a363a974da5d678da4207e20b6
-INFO:root:Processing entry 3: Title='Deus não esquece de você', ID=89d4926a6c55b051121702bb908f8998
+INFO:root:Processing entry 1: Title='Não lute sozinho', ID=35363e28411867464c3a3b20df7a8f84
+INFO:root:Processing entry 2: Title='Devocional: chamados filhos de Deus!', ID=fc17444fbb1270c48b08e49a50078a79
+INFO:root:Processing entry 3: Title='Aquele que me ama será amado por meu Pai', ID=d02398a363a974da5d678da4207e20b6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Não lute sozinho
+INFO:root:🔹 URL: https://www.bibliaon.com/comunhao_com_os_irmaos/
+INFO:root:🔹 Description: É melhor ter companhia
+do que estar sozinho,
+porque maior é
+a recompensa do trabalho
+de duas pessoas.
+Se um cair,
+o amigo pode ajudá-lo a levantar-se.
+Mas pobre do homem que cai
+e não tem quem o ajude a levantar-se!
+- Eclesiastes 4:9-10 
+
+Desde o início, Deus olhou para o homem e disse: “Não é bom que o homem esteja só” (Gênesis 2:18). Ele nos criou para vivermos em comunhão, para sermos apoio uns dos outros nas lutas e nas alegrias da vida. Ainda assim, quantas vezes tentamos carregar fardos pesados sozinhos, acreditando que pedir ajuda é sinal de fraqueza?
+Não é. Na verdade, é um ato de coragem e humildade reconhecer que precisamos de outros. O inimigo quer nos isolar, porque sabe que um soldado sozinho é mais fácil de derrotar. Mas juntos, somos como corda de três dobras que não se rompe com facilidade (Eclesiastes 4:12).
+Quando enfrentamos batalhas, sejam elas emocionais, espirituais ou físicas, é essencial buscarmos apoio: de amigos, da família, da igreja e principalmente de Deus. Jesus, mesmo sendo o Filho de Deus, chamou três discípulos para vigiar com Ele no Getsêmani. Isso mostra que até mesmo o Salvador do mundo valorizava a presença de amigos em momentos de angústia.
+Não lute sozinho. Compartilhe suas cargas. Ore com alguém. Abra o coração. Deus usa pessoas para nos levantar, consolar e fortalecer. Há graça na comunhão, cura nas palavras ditas em amor e poder na oração feita em unidade.
+Se hoje você se sente só, lembre-se: você faz parte de um corpo. E o Cabeça desse corpo é Cristo, que nunca te abandona. Há pessoas que Deus já preparou para estar ao seu lado. Levante os olhos, abra o coração, e permita-se ser ajudado. Você não está só. E nunca estará. 
+A força da comunhão em tempos de luta 
+
+
+Não fomos criados para o isolamento: Caminhar sozinho enfraquece a fé, mas a comunhão nos renova, encoraja e nos lembra de que não estamos abandonados.
+
+Compartilhar é sinal de coragem, não fraqueza: Deus age por meio das pessoas para trazer consolo, direção e apoio em nossas batalhas.
+
+A vitória é mais certa quando estamos unidos: Quando caminhamos juntos, há força, oração compartilhada e suporte mútuo. A união torna o fardo mais leve e nos aproxima do propósito de Deus em nossas vidas.
+
+Para orar: 
+
+Senhor, ajuda-me a reconhecer que não preciso lutar sozinho. Fortalece meu coração para buscar ajuda e viver em comunhão. Coloca pessoas de fé ao meu lado e usa-me também para ser apoio. Que Tua presença seja meu sustento em todo tempo. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre a comunhão com os irmãos
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Devocional: chamados filhos de Deus!
 INFO:root:🔹 URL: https://www.bibliaon.com/caracteristicas_do_amor/
 INFO:root:🔹 Description: Vejam como é grande o amor que o Pai nos concedeu: sermos chamados filhos de Deus, o que de fato somos! Por isso o mundo não nos conhece, porque não o conheceu.
@@ -306,32 +384,6 @@ Para Orar:
 
 Senhor Jesus, como eu te amo! Tua Palavra me transforma e me transporta até a Ti. Quero mergulhar na Tua Palavra e experimentar ainda mais o teu amor. Faz morada em mim, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Deus não esquece de você
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_do_amor_de_deus_por_voce/
-INFO:root:🔹 Description: Mas o Senhor disse a Samuel: Não atentes para a sua aparência, nem para a grandeza da sua estatura, porque eu o rejeitei; porque o Senhor não vê como vê o homem, pois o homem olha para o que está diante dos olhos, porém o Senhor olha para o coraçao.
-- 1 Samuel 16:7
-
-Davi não era a escolha óbvia. Quando o profeta Samuel foi à casa de Jessé para ungir o próximo rei de Israel, todos os irmãos de Davi passaram diante dele. Eram fortes, altos, preparados, pelo menos aos olhos humanos. Mas nenhum deles era o escolhido de Deus. Davi, o mais novo, estava no campo cuidando das ovelhas, esquecido por seu próprio pai.
-Mas Deus não esquece os que são fiéis no anonimato. Ele viu o coração de Davi quando ninguém mais via valor nele. No silêncio dos pastos, Davi aprendeu a confiar em Deus, a lutar contra leões e ursos, a adorar com sinceridade. Foi naquele lugar de solidão que ele foi moldado para o trono.
-Talvez hoje você se sinta esquecido, como se todos tivessem passado à sua frente e você não tivesse valor. Mas Deus vê além da aparência. Ele vê o coração quebrantado, fiel, disposto. E é justamente nesses corações que Ele derrama Sua unção.
-A história de Davi nos lembra que não precisamos estar em evidência para sermos escolhidos. Deus exalta os humildes, levanta os pequenos e transforma pastores em reis.
-Não importa onde você está hoje. O mesmo Deus que tirou Davi do campo e o colocou no trono está trabalhando em sua vida. Confie, permaneça fiel e permita que Ele o molde.
-De esquecido a rei, esse é o poder da graça de Deus em ação.
-Quando Deus vê o que os olhos humanos não enxergam
-
-
-Seja fiel nos bastidores: Mesmo quando ninguém está vendo, mantenha sua integridade e dedicação. Deus observa o que é feito no secreto e recompensa os que permanecem fiéis em todo tempo.
-
-Confie na escolha de Deus: Não se compare com os que parecem mais preparados. Deus não escolhe pela aparência, mas pelo coração. Confie que Ele tem um propósito único para sua vida.
-
-Permita-se ser moldado por Deus: As lutas e desafios do presente estão formando seu caráter. Aceite o processo com fé, pois o preparo de hoje será a base para o seu futuro.
-
-Para orar:
-
-Senhor, mesmo quando me sinto esquecido, sei que Tu me vês. Molda meu coração, fortalece minha fé e prepara-me para Teus propósitos. Que eu seja fiel no oculto e confie no Teu tempo. Amém.
-
-Veja também: Razões para confiar em Deus em meio às lutas
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -361,15 +413,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  34 +++-
- feeds/devocional_de_hoje/feed.json        |  10 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  51 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  57 ++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  39 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  10 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  76 +++-----
+ feeds/salmo_do_dia/atom.xml               | 113 ++++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 299 ++++++++++++++----------------
- 11 files changed, 251 insertions(+), 284 deletions(-)
+ output.log                                | 336 +++++++++++++++++-------------
+ 11 files changed, 358 insertions(+), 266 deletions(-)
