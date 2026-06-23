@@ -1,34 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 124194 characters
-INFO:root:HTML parsed, length: 117866 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (22/06/2026)', 'Palavra de Ontem (21/06/2026)', 'Palavra de Anteontem (20/06/2026)']
-INFO:root:Found 3 URLs: ['/jobiniano/', '/tupi/', '/pluralismo/']
-INFO:root:Found 9 descriptions: ['adjetivo Relativo ou pertencente ao compositor e c', 'Sílabas:jo-bi-ni-a-no', 'substantivo masculino e feminino Indivíduo dos tup']
-INFO:root:Found 3 dates: ['Palavra de Hoje (22/06/2026)', 'Palavra de Ontem (21/06/2026)', 'Palavra de Anteontem (20/06/2026)']
+INFO:root:Response length: 123445 characters
+INFO:root:HTML parsed, length: 117117 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (23/06/2026)', 'Palavra de Ontem (22/06/2026)', 'Palavra de Anteontem (21/06/2026)']
+INFO:root:Found 3 URLs: ['/nicturia/', '/jobiniano/', '/tupi/']
+INFO:root:Found 9 descriptions: ['substantivo feminino [Medicina] Excreção anormal d', 'Sinônimos:\n\nnoctúria', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (23/06/2026)', 'Palavra de Ontem (22/06/2026)', 'Palavra de Anteontem (21/06/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (22/06/2026)', ID=4c0c5b8f60b8a7a441676eb6f996ade1
-INFO:root:Processing entry 2: Title='Palavra de Ontem (21/06/2026)', ID=331180852486b5411eee33d78d224344
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/06/2026)', ID=c3b6d9a268fb04195b4e9b5537b1138c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (23/06/2026)', ID=fda2dfe4c98fe1ac54b27ddaa204bbb3
+INFO:root:Processing entry 2: Title='Palavra de Ontem (22/06/2026)', ID=4503bac882d723ae9293c6271f64485b
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/06/2026)', ID=2762acaa782dd9e8154c15f3da7e387b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (22/06/2026) - Significado completo de jobiniano:
+INFO:root:🔹 Title: Palavra de Hoje (23/06/2026) - Significado completo de nictúria:
+INFO:root:🔹 URL: https://www.dicio.com.br/nicturia/
+INFO:root:🔹 Description: substantivo feminino [Medicina] Excreção anormal de urina no período da noite; vontade excessiva de urinar durante a noite, maior em comparação ao período diurno.Etimologia (origem da palavra nictúria). A palavra nictúria tem sua origem pela junção do grego “nyx,nyktos” que significa noite, e "ouron", urina, e do sufixo -ia.
+ 
+Sinônimos:
+
+noctúria 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (22/06/2026) - Significado completo de jobiniano:
 INFO:root:🔹 URL: https://www.dicio.com.br/jobiniano/
-INFO:root:🔹 Description: adjetivo Relativo ou pertencente ao compositor e cantor brasileiro Antônio Carlos Jobim, conhecido como Tom Jobim (1927-1994).De natureza, essência e estilo parecidos ou semelhantes aos das músicas desse compositor.Que admira ou se dedica ao estudo da obra de Tom Jobim: músico com influências jobinianas.Etimologia (origem da palavra jobiniano). A palavra jobiniano tem sua origem pela junção do nome próprio, Jobim, e do sufixo -ano.
- Sílabas:jo-bi-ni-a-no
+INFO:root:🔹 Description: Sinônimos:
+
+noctúria
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (21/06/2026) - Significado completo de tupi:
+INFO:root:🔹 Title: Palavra de Anteontem (21/06/2026) - Significado completo de tupi:
 INFO:root:🔹 URL: https://www.dicio.com.br/tupi/
-INFO:root:🔹 Description: Sílabas:jo-bi-ni-a-no
- Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (20/06/2026) - Significado completo de pluralismo:
-INFO:root:🔹 URL: https://www.dicio.com.br/pluralismo/
-INFO:root:🔹 Description: substantivo masculino e feminino Indivíduo dos tupis, uma das principais etnias indígenas da América do Sul que ocupava toda a extensão do Brasil e grandes extensões de terra na Argentina, Paraguai, Bolívia, Peru, Equador e Guianas.substantivo masculino [Linguística] Língua pertencente ao tronco linguístico tupi (falada pelas pessoas de origem étnica tupi).adjetivo Relativo ou pertencente aos tupis, aos seus grupos ou à sua língua.Etimologia (origem da palavra tupi). A palavra do tupi tem sua origem controversa; do tupi tu-u’pi”, com sentido de pai absoluto.
- Sílabas:tu-pi
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:nic-tú-ri-a
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -36,40 +42,61 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 380001 characters
-INFO:root:HTML parsed, length: 369786 characters
-INFO:root:Found 1 titles: ['João 3:16']
-INFO:root:Found 1 URLs: ['/versiculo/joao_3_16/']
-INFO:root:Found 1 descriptions: ['"Porque Deus tanto amou o mundo que deu o seu Filh']
+INFO:root:Response length: 379999 characters
+INFO:root:HTML parsed, length: 369784 characters
+INFO:root:Found 1 titles: ['Romanos 1:16']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_1_16/']
+INFO:root:Found 1 descriptions: ['Não me envergonho do evangelho, porque é o poder d']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='João 3:16', ID=4a0c225c7f2f8c587cfbc3c5227c0032
+INFO:root:Processing entry 1: Title='Romanos 1:16', ID=8c94d504af062259d01fb2c3cf3cbb8a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: João 3:16
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_3_16/
-INFO:root:🔹 Description: "Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna. João 3:16
+INFO:root:🔹 Title: Romanos 1:16
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_1_16/
+INFO:root:🔹 Description: Não me envergonho do evangelho, porque é o poder de Deus para a salvação de todo aquele que crê: primeiro do judeu, depois do grego. Romanos 1:16
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 377787 characters
-INFO:root:HTML parsed, length: 368658 characters
-INFO:root:Found 3 titles: ['Salmo 44', 'Salmo 6', 'Salmo 51']
-INFO:root:Found 3 URLs: ['/salmos_44/', '/salmos_6/', '/salmos_51/']
-INFO:root:Found 3 descriptions: ['Com os nossos próprios ouvidos ouvimos,\nó Deus;\nos', 'Senhor, não me castigues na tua ira\nnem me discipl', 'Tem misericórdia de mim, ó Deus,\npor teu amor;\npor']
-INFO:root:Found 3 dates: ['22 de Junho de 2026', '21 de Junho de 2026', '20 de Junho de 2026']
+INFO:root:Response length: 376468 characters
+INFO:root:HTML parsed, length: 367318 characters
+INFO:root:Found 3 titles: ['Salmo 87', 'Salmo 44', 'Salmo 6']
+INFO:root:Found 3 URLs: ['/salmos_87/', '/salmos_44/', '/salmos_6/']
+INFO:root:Found 3 descriptions: ['O Senhor edificou sua cidade sobre o monte santo; ', 'Com os nossos próprios ouvidos ouvimos,\nó Deus;\nos', 'Senhor, não me castigues na tua ira\nnem me discipl']
+INFO:root:Found 3 dates: ['23 de Junho de 2026', '22 de Junho de 2026', '21 de Junho de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 44', ID=d29eff8a34fc31ca10413a0cec24b4d0
-INFO:root:Processing entry 2: Title=' Salmo 6', ID=9a5dfa84a1c1ed176bdcd855730eb2a6
-INFO:root:Processing entry 3: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
+INFO:root:Processing entry 1: Title=' Salmo 87', ID=bed2fe69ca2fb77136c0a1a6108f450f
+INFO:root:Processing entry 2: Title=' Salmo 44', ID=d29eff8a34fc31ca10413a0cec24b4d0
+INFO:root:Processing entry 3: Title=' Salmo 6', ID=9a5dfa84a1c1ed176bdcd855730eb2a6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 87
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_87/
+INFO:root:🔹 Description: O Senhor edificou sua cidade sobre o monte santo; 
+ele ama as portas de Sião
+mais do que qualquer outro lugar de Jacó. 
+Coisas gloriosas são ditas de ti,
+ó cidade de Deus! 
+"Entre os que me reconhecem
+incluirei Raabe e Babilônia,
+além da Filístia, de Tiro,
+e também da Etiópia,
+como se tivessem nascido em Sião." 
+De fato, acerca de Sião se dirá:
+"Todos estes nasceram em Sião,
+e o próprio Altíssimo a estabelecerá". 
+O Senhor escreverá no registro dos povos:
+"Este nasceu ali". 
+Com danças e cânticos, dirão:
+"Em Sião estão as nossas origens!" 
+ Salmo 87
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 44
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_44/
 INFO:root:🔹 Description: Com os nossos próprios ouvidos ouvimos,
@@ -176,133 +203,89 @@ todos os meus inimigos;
 frustrados, recuarão de repente. 
  Salmo 6
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 51
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_51/
-INFO:root:🔹 Description: Tem misericórdia de mim, ó Deus,
-por teu amor;
-por tua grande compaixão
-apaga as minhas transgressões. 
-Lava-me de toda a minha culpa
-e purifica-me do meu pecado. 
-Pois eu mesmo
-reconheço as minhas transgressões,
-e o meu pecado sempre me persegue. 
-Contra ti, só contra ti, pequei
-e fiz o que tu reprovas,
-de modo que justa é a tua sentença
-e tens razão em condenar-me. 
-Sei que sou pecador desde que nasci;
-sim, desde que me concebeu minha mãe. 
-Sei que desejas a verdade no íntimo;
-e no coração me ensinas a sabedoria. 
-Purifica-me com hissopo, e ficarei puro;
-lava-me, e mais branco do que a neve serei. 
-Faze-me ouvir de novo júbilo e alegria,
-e os ossos que esmagaste exultarão. 
-Esconde o rosto dos meus pecados
-e apaga todas as minhas iniquidades. 
-Cria em mim um coração puro, ó Deus,
-e renova dentro de mim um espírito estável. 
-Não me expulses da tua presença
-nem tires de mim o teu Santo Espírito. 
-Devolve-me a alegria da tua salvação
-e sustenta-me
-com um espírito pronto a obedecer. 
-Então ensinarei os teus caminhos
-aos transgressores,
-para que os pecadores se voltem para ti. 
-Livra-me da culpa dos crimes de sangue,
-ó Deus, Deus da minha salvação!
-E a minha língua aclamará a tua justiça. 
-Ó Senhor, dá palavras aos meus lábios,
-e a minha boca anunciará o teu louvor. 
-Não te deleitas em sacrifícios
-nem te agradas em holocaustos,
-senão eu os traria. 
-Os sacrifícios que agradam a Deus
-são um espírito quebrantado;
-um coração quebrantado e contrito,
-ó Deus, não desprezarás. 
-Por tua boa vontade faze Sião prosperar;
-ergue os muros de Jerusalém. 
-Então te agradarás dos sacrifícios sinceros,
-das ofertas queimadas e dos holocaustos;
-e novilhos serão oferecidos sobre o teu altar. 
- Salmo 51
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 380492 characters
-INFO:root:HTML parsed, length: 370756 characters
-INFO:root:Found 3 titles: ['O que os outros dizem?', 'Espalhe o perfume de Cristo', 'A Bíblia é mais que palavras']
+INFO:root:Response length: 380443 characters
+INFO:root:HTML parsed, length: 370700 characters
+INFO:root:Found 3 titles: ['Vença o desânimo com a ajuda de Deus', 'O que os outros dizem?', 'Espalhe o perfume de Cristo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Quando o Senhor trouxe os cativos\nde volta a Sião,', 'Mas graças a Deus, que, em Cristo, sempre nos cond', 'A tua palavra é lâmpada\nque ilumina os meus passos']
-INFO:root:Found 1 dates: ['Segunda, 22 de junho de 2026']
+INFO:root:Found 3 descriptions: ['Todos passamos por fases de desânimo na vida, mas ', 'Quando o Senhor trouxe os cativos\nde volta a Sião,', 'Mas graças a Deus, que, em Cristo, sempre nos cond']
+INFO:root:Found 1 dates: ['Terça, 23 de junho de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O que os outros dizem?', ID=038163ce4431a79f2cec692f4fe60d8e
+INFO:root:Processing entry 1: Title='Vença o desânimo com a ajuda de Deus', ID=31222226252a78f047e3e408686b9274
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O que os outros dizem? - Palavra de Hoje
+INFO:root:🔹 Title: Vença o desânimo com a ajuda de Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Quando o Senhor trouxe os cativos
-de volta a Sião, foi como um sonho.
-Então a nossa boca encheu-se de riso
-e a nossa língua de cantos de alegria.
-Até nas outras nações se dizia:
-"O Senhor fez coisas grandiosas
-por este povo".
-- Salmo 126:1-2 
+INFO:root:🔹 Description: Todos passamos por fases de desânimo na vida, mas a Bíblia nos ajuda a encontrar o ânimo de novo. Quando estamos desiludidos, tristes, em baixo, a palavra de Deus nos oferece consolo e esperança. Por causa de Jesus, sabemos que há um futuro para nós, mesmo se as coisas estão difíceis agora.
+A Bíblia mostra que a nossa força não é suficiente para sustentar o coração por muito tempo. É por isso que Deus oferece algo maior: esperança viva em Jesus, capaz de restaurar aquilo que foi enfraquecido pelo cansaço da alma.
+Quando o desânimo tentar dominar seus pensamentos, lembre-se de que Deus não se afasta de você nesses dias. Pelo contrário, é justamente quando você se sente em baixo que o Senhor se aproxima com mais cuidado e graça. A Palavra de Deus diz:
 
-Nestes versículos vemos que Deus libertou o povo de Israel do seu cativeiro e a alegria que sentiam era palpável. Eles riam incessantemente, cantavam louvores a Deus, expressavam sua alegria de tal forma que outras pessoas não podiam fazer outra coisa senão reconhecer a grande obra que Deus havia feito por eles.
-Você recebeu a salvação do Senhor? Você sente alegria quando se lembra de tudo o que Deus fez por você? Você tem motivos específicos hoje para se alegrar no Senhor? Expresse sua alegria! Deixe que as pessoas ao seu redor percebam, ouçam, percebam e falem sobre a obra de Deus em sua vida. Que eles mesmos testemunhem das grandes coisas que Deus fez por você. 
+O Senhor está perto
+dos que têm o coração quebrantado
+e salva os de espírito abatido.
+- Salmo 34:18
 
-Louvem o Senhor, todas as nações;
-exaltem-no, todos os povos!
-Porque imenso é o seu amor leal por nós,
-e a fidelidade do Senhor dura para sempre.
-Aleluia!
-- Salmo 117 
+Mesmo quando tudo parece parado, Deus continua trabalhando em silêncio, conduzindo sua história com propósito e amor. A esperança em Jesus não é uma ideia distante, mas uma força que levanta o seu interior e renova a coragem para continuar caminhando com fé e determinação.
 
-Inspire outros a louvar a Deus pelo que ele fez em sua vida e pelo que ele fará, tanto em você quanto neles, se você permitir. Deus é um Deus de amor e deseja abençoar todos os seres humanos e todas as nações. Deixe que o seu testemunho aproxime outras pessoas de Deus, deixe que todos vejam a obra preciosa que Deus fez em você e decidam louvá-Lo também. 
-Veja também: A verdadeira alegria vem do Senhor: descubra nestes 5 versículos
+mas aqueles que esperam no Senhor
+renovam as suas forças.
+Voam alto como águias;
+correm e não ficam exaustos,
+andam e não se cansam.
+- Isaías 40:31
+
+Talvez hoje o seu coração esteja cansado, mas isso não define o que Deus pode fazer em você. O Senhor restaura o ânimo, reacende a fé e devolve a força para recomeçar. Coloque sua esperança em Jesus. Ele não apenas consola o seu coração, Ele o renova por completo.
+Ponha sua esperança em Jesus e ele restaurará seu ânimo!
+Veja também: 7 versículos para encontrar ânimo em tempos difíceis.
  
-Os 20 versículos mais conhecidos da Bíblia (e o que significam)
-Tudo sobre os livros da Bíblia
-10 Planos de Leitura da Bíblia
-
- 
-Quando o Senhor trouxe os cativos
-de volta a Sião, foi como um sonho.
-Então a nossa boca encheu-se de riso
-e a nossa língua de cantos de alegria.
-Até nas outras nações se dizia:
-"O Senhor fez coisas grandiosas
-por este povo".
-- Salmo 126:1-2 
+O Senhor está perto
+dos que têm o coração quebrantado
+e salva os de espírito abatido.
+- Salmo 34:18
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 389169 characters
-INFO:root:HTML parsed, length: 378983 characters
-INFO:root:Found 3 titles: ['Não lute sozinho', 'Devocional: chamados filhos de Deus!', 'Aquele que me ama será amado por meu Pai']
+INFO:root:Response length: 390318 characters
+INFO:root:HTML parsed, length: 380130 characters
+INFO:root:Found 3 titles: ['Você pede corretamente?', 'Não lute sozinho', 'Devocional: chamados filhos de Deus!']
 INFO:root:Found 4 URLs: ['/comunhao_com_os_irmaos/', '/caracteristicas_do_amor/', '/o_amor_incondicional_de_deus_estudo/']
-INFO:root:Found 3 descriptions: ['É melhor ter companhia\ndo que estar sozinho,\nporqu', 'Vejam como é grande o amor que o Pai nos concedeu:', 'Quem tem os meus mandamentos e lhes obedece, esse ']
-INFO:root:Found 3 dates: ['JUNHO\n\n22\nSEGUNDA', 'JUNHO\n\n21\nDOMINGO', 'JUNHO\n\n20\nSÁBADO']
+INFO:root:Found 3 descriptions: ['Quando pedem, não recebem, pois pedem por motivos ', 'É melhor ter companhia\ndo que estar sozinho,\nporqu', 'Vejam como é grande o amor que o Pai nos concedeu:']
+INFO:root:Found 3 dates: ['JUNHO\n\n23\nTERÇA', 'JUNHO\n\n22\nSEGUNDA', 'JUNHO\n\n21\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Não lute sozinho', ID=35363e28411867464c3a3b20df7a8f84
-INFO:root:Processing entry 2: Title='Devocional: chamados filhos de Deus!', ID=fc17444fbb1270c48b08e49a50078a79
-INFO:root:Processing entry 3: Title='Aquele que me ama será amado por meu Pai', ID=d02398a363a974da5d678da4207e20b6
+INFO:root:Processing entry 1: Title='Você pede corretamente?', ID=e6aa7baef7f57a5203584bb4ddc4b4be
+INFO:root:Processing entry 2: Title='Não lute sozinho', ID=35363e28411867464c3a3b20df7a8f84
+INFO:root:Processing entry 3: Title='Devocional: chamados filhos de Deus!', ID=fc17444fbb1270c48b08e49a50078a79
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Não lute sozinho
+INFO:root:🔹 Title: Você pede corretamente?
 INFO:root:🔹 URL: https://www.bibliaon.com/comunhao_com_os_irmaos/
+INFO:root:🔹 Description: Quando pedem, não recebem, pois pedem por motivos errados, para gastar em seus prazeres.
+- Tiago 4:3
+
+Imagine o cenário de uma criança pedindo um tênis novo ao seu pai, após chegar da escola. O pai, intrigado pelo pedido do filho se pergunta "será que seus tênis estão velhos? Será que estão furados?". Diante disso, ele pergunta ao filho o motivo desse pedido, mas se surpreende com a resposta "é para fazer inveja nos meus colegas".
+Diante desse cenário, qual você acha que seria a atitude correta do pai? Dar o tênis ou não? Certamente que ele não daria por esses motivos, e ainda conversaria com a criança sobre essa situação.
+Quando você faz seus pedidos ao Senhor, ele vê as intenções do seu coração. Ainda que você não Lhe diga, Ele sabe quais são. Tiago ensina que nós não recebemos nossos pedidos porque pedimos por motivos errados, egoístas e pecaminosos. Examine seu coração antes de fazer seus pedidos, e peça as coisas corretas!
+Faça um pedido!
+
+Veja quais são seus principais pedidos a Deus, aqueles que você mais passa tempo orando
+Agora veja quais são os motivos por trás deles, se é por status, por prazer, por orgulho ou por real necessidade
+Peça orientação do Espírito para identificar isso, para iluminar as razões do seu coração
+
+Para orar:
+
+
+Senhor Jesus, ilumine o meu coração para enxergar quais têm sido as razões por trás dos meus pedidos. Estou pedindo errado? Por favor, meu Senhor, ajuda-me e ensina-me a orar como se deve. Assim te peço, no nome de Jesus, amém!
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Não lute sozinho
+INFO:root:🔹 URL: https://www.bibliaon.com/caracteristicas_do_amor/
 INFO:root:🔹 Description: É melhor ter companhia
 do que estar sozinho,
 porque maior é
@@ -335,7 +318,7 @@ Senhor, ajuda-me a reconhecer que não preciso lutar sozinho. Fortalece meu cora
 Veja também: Versículos sobre a comunhão com os irmãos
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Devocional: chamados filhos de Deus!
-INFO:root:🔹 URL: https://www.bibliaon.com/caracteristicas_do_amor/
+INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
 INFO:root:🔹 Description: Vejam como é grande o amor que o Pai nos concedeu: sermos chamados filhos de Deus, o que de fato somos! Por isso o mundo não nos conhece, porque não o conheceu.
 - 1 João 3:1
 
@@ -366,24 +349,6 @@ As 5 características do amor segundo a Bíblia
 O amor de Deus é incondicional (Estudo Bíblico)
 Versículos lindos sobre o amor de Deus que vão tocar seu coração
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Aquele que me ama será amado por meu Pai
-INFO:root:🔹 URL: https://www.bibliaon.com/o_amor_incondicional_de_deus_estudo/
-INFO:root:🔹 Description: Quem tem os meus mandamentos e lhes obedece, esse é o que me ama. Aquele que me ama será amado por meu Pai, e eu também o amarei e me revelarei a ele".João 14:21 
-
-Sentir-se amado nos faz bem e nos dá segurança. Como é bom receber o carinho dos parentes e de nossos irmãos. Agora, quando sentimos o amor de Deus é ainda mais encorajador! Quando sentimos que somos amados por Deus, esquecemos a rejeição, a vergonha e a opressão do mundo.
-Quando João escreveu esta epístola, deixou-nos registrado a importância da divindade de Cristo e o poder do Seu amor. Os crentes passavam por muitas dificuldades e perseguições, precisavam ser confortados no amor de Jesus e encorajados a amá-lo.
-Amar a Jesus é a melhor forma de ser amado por Ele. É cíclico: Nossa obediência à Palavra nos aproxima de Deus. Ele nos ama revelando-se a nós através da sua própria Palavra.
-Quando obedecemos aos mandamentos de Jesus, estamos amando-lhe. Ao mesmo tempo, quando guardamos a Palavra, convidamos o próprio Deus a fazer morada me nós.
-Aquele que me ama é amado por meu Pai!
-
-Deus já tomou a iniciativa de te amar por Jesus. Falta a sua parte.
-Não obedeça a Deus apenas com palavras, mas com atos concretos. Quando agimos, Deus age!
-Se você ama a Deus, acalme-se, sinta-se amado por Ele.
-
-Para Orar:
-
-Senhor Jesus, como eu te amo! Tua Palavra me transforma e me transporta até a Ti. Quero mergulhar na Tua Palavra e experimentar ainda mais o teu amor. Faz morada em mim, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -413,15 +378,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  57 ++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  39 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  35 ++--
+ feeds/devocional_de_hoje/feed.json        |  14 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  51 +++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  14 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 113 ++++++----
+ feeds/salmo_do_dia/atom.xml               |  73 ++------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 336 +++++++++++++++++-------------
- 11 files changed, 358 insertions(+), 266 deletions(-)
+ output.log                                | 297 +++++++++++++-----------------
+ 11 files changed, 227 insertions(+), 309 deletions(-)
