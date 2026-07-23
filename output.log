@@ -1,46 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 130580 characters
-INFO:root:HTML parsed, length: 122985 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (22/07/2026)', 'Palavra de Ontem (21/07/2026)', 'Palavra de Anteontem (20/07/2026)']
-INFO:root:Found 3 URLs: ['/abundante/', '/ufana/', '/grandioso/']
-INFO:root:Found 14 descriptions: ['adjetivo Característica do que é excessivo; em gra', 'Sinônimos:\n\nprofuso, copioso, rico, numeroso, volu', 'Antônimos:\n\nparco, pouco']
-INFO:root:Found 3 dates: ['Palavra de Hoje (22/07/2026)', 'Palavra de Ontem (21/07/2026)', 'Palavra de Anteontem (20/07/2026)']
+INFO:root:Response length: 129208 characters
+INFO:root:HTML parsed, length: 122003 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (23/07/2026)', 'Palavra de Ontem (22/07/2026)', 'Palavra de Anteontem (21/07/2026)']
+INFO:root:Found 3 URLs: ['/personal-trainer/', '/abundante/', '/ufana/']
+INFO:root:Found 11 descriptions: ['substantivo masculino e feminino Profissional grad', 'Sinônimos:\n\ninstrutor, treinador', 'Sílabas:per-so-nal-trai-ner']
+INFO:root:Found 3 dates: ['Palavra de Hoje (23/07/2026)', 'Palavra de Ontem (22/07/2026)', 'Palavra de Anteontem (21/07/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (22/07/2026)', ID=065022e3d8e5b1f56f5cbfaf450a5dad
-INFO:root:Processing entry 2: Title='Palavra de Ontem (21/07/2026)', ID=8b3f7c11bb8da6f5c1f144488fdebffb
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/07/2026)', ID=1034f3cc1a8b9cd21f6c14140ae7db0a
+INFO:root:Processing entry 1: Title='Palavra de Hoje (23/07/2026)', ID=4591755e27e023d91857eb2ab78a9a5f
+INFO:root:Processing entry 2: Title='Palavra de Ontem (22/07/2026)', ID=89d3b06649513cf7007227fdc97ef2f5
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/07/2026)', ID=6c5bc244421fcb63eb3462a67fd2813f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (22/07/2026) - Significado completo de abundante:
+INFO:root:🔹 Title: Palavra de Hoje (23/07/2026) - Significado completo de personal trainer:
+INFO:root:🔹 URL: https://www.dicio.com.br/personal-trainer/
+INFO:root:🔹 Description: substantivo masculino e feminino Profissional graduado em Educação Física que ajuda alguém a se exercitar, principalmente indicando os melhores exercícios físicos, seguindo a necessidade individual de seus alunos; instrutor, treinador: a atriz contratou um personal trainer buscando ter uma vida mais saudável.Etimologia (origem de personal trainer). A palavra personal trainer tem sua origem mo inglês "personal trainer", com o sentido de 'treinador, instrutor pessoal'.
+ 
+Sinônimos:
+
+instrutor, treinador 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (22/07/2026) - Significado completo de abundante:
 INFO:root:🔹 URL: https://www.dicio.com.br/abundante/
-INFO:root:🔹 Description: adjetivo Característica do que é excessivo; em grande número; numeroso: número abundante de pessoas no evento.Em quantidade maior do que a suficiente: mesa abundante.[Figurado] Rico em ideias e expressões: estilo abundante.Capaz de produzir em excesso; fértil.Que fala em demasia; loquaz.[Gramática] Que apresenta mais de uma forma para o mesmo tempo, modo ou pessoa (verbos abundantes): nascido, nato e nado são três formas abundantes do particípio passado de nascer.[Gramática] Que usa exageradamente recursos estilísticos ou usa muitas palavras para expressar uma ideia; verborrágico.[Matemática] De valor maior que os seus divisores: número abundante.Etimologia (origem da palavra abundante). A palavra abundante tem sua origem no latim "abundans,antis", com o sentido de cheio.
+INFO:root:🔹 Description: Sinônimos:
+
+instrutor, treinador
+ Sílabas:per-so-nal-trai-ner
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (21/07/2026) - Significado completo de ufana:
+INFO:root:🔹 URL: https://www.dicio.com.br/ufana/
+INFO:root:🔹 Description: Sílabas:per-so-nal-trai-ner
  
 Sinônimos:
 
 profuso, copioso, rico, numeroso, volumoso, abundoso, fértil, loquaz 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (21/07/2026) - Significado completo de ufana:
-INFO:root:🔹 URL: https://www.dicio.com.br/ufana/
-INFO:root:🔹 Description: Sinônimos:
-
-profuso, copioso, rico, numeroso, volumoso, abundoso, fértil, loquaz
- 
-Antônimos:
-
-parco, pouco 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (20/07/2026) - Significado completo de grandioso:
-INFO:root:🔹 URL: https://www.dicio.com.br/grandioso/
-INFO:root:🔹 Description: Antônimos:
-
-parco, pouco
- Classe gramatical:adjetivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,43 +46,65 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 383531 characters
-INFO:root:HTML parsed, length: 373114 characters
-INFO:root:Found 1 titles: ['Salmos 25:10']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_25_10/']
-INFO:root:Found 1 descriptions: ['Todos os caminhos do Senhor\nsão amor e fidelidade\n']
+INFO:root:Response length: 383543 characters
+INFO:root:HTML parsed, length: 373126 characters
+INFO:root:Found 1 titles: ['Tiago 4:8']
+INFO:root:Found 1 URLs: ['/versiculo/tiago_4_8/']
+INFO:root:Found 1 descriptions: ['Aproximem-se de Deus, e ele se aproximará de vocês']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 25:10', ID=cf6a8abf21ff4303e121a60690b1943b
+INFO:root:Processing entry 1: Title='Tiago 4:8', ID=b7d7eb67a861596444b0d4e11bb7d203
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 25:10
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_25_10/
-INFO:root:🔹 Description: Todos os caminhos do Senhor
-são amor e fidelidade
-para com os que cumprem
-os preceitos da sua aliança. Salmos 25:10
+INFO:root:🔹 Title: Tiago 4:8
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_4_8/
+INFO:root:🔹 Description: Aproximem-se de Deus, e ele se aproximará de vocês! Pecadores, limpem as mãos, e vocês, que têm a mente dividida, purifiquem o coração. Tiago 4:8
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 380926 characters
-INFO:root:HTML parsed, length: 371547 characters
-INFO:root:Found 3 titles: ['Salmo 81', 'Salmo 60', 'Salmo 19']
-INFO:root:Found 3 URLs: ['/salmos_81/', '/salmos_60/', '/salmos_19/']
-INFO:root:Found 3 descriptions: ['Cantem de alegria a Deus, nossa força;\naclamem o D', 'Tu nos rejeitaste e dispersaste, ó Deus; tu derram', 'Os céus declaram a glória de Deus;\no firmamento pr']
-INFO:root:Found 3 dates: ['22 de Julho de 2026', '21 de Julho de 2026', '20 de Julho de 2026']
+INFO:root:Response length: 379838 characters
+INFO:root:HTML parsed, length: 370441 characters
+INFO:root:Found 3 titles: ['Salmo 47', 'Salmo 81', 'Salmo 60']
+INFO:root:Found 3 URLs: ['/salmos_47/', '/salmos_81/', '/salmos_60/']
+INFO:root:Found 3 descriptions: ['Batam palmas, vocês, todos os povos;\naclamem a Deu', 'Cantem de alegria a Deus, nossa força;\naclamem o D', 'Tu nos rejeitaste e dispersaste, ó Deus; tu derram']
+INFO:root:Found 3 dates: ['23 de Julho de 2026', '22 de Julho de 2026', '21 de Julho de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 81', ID=217c73953ef40620789252b2837f3900
-INFO:root:Processing entry 2: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
-INFO:root:Processing entry 3: Title=' Salmo 19', ID=db6236442bff7c5899bca41c0cc17596
+INFO:root:Processing entry 1: Title=' Salmo 47', ID=2cf72a8f20404ab489b27d6675339716
+INFO:root:Processing entry 2: Title=' Salmo 81', ID=217c73953ef40620789252b2837f3900
+INFO:root:Processing entry 3: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 47
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_47/
+INFO:root:🔹 Description: Batam palmas, vocês, todos os povos;
+aclamem a Deus com cantos de alegria. 
+Pois o Senhor Altíssimo é temível,
+é o grande Rei sobre toda a terra! 
+Ele subjugou as nações ao nosso poder;
+os povos, colocou debaixo de nossos pés 
+e escolheu para nós a nossa herança,
+o orgulho de Jacó, a quem amou. 
+Deus subiu em meio a gritos de alegria;
+o Senhor, em meio ao som de trombetas. 
+Ofereçam música a Deus, cantem louvores!
+Ofereçam música ao nosso Rei,
+cantem louvores! 
+Pois Deus é o rei de toda a terra;
+cantem louvores com harmonia e arte. 
+Deus reina sobre as nações;
+Deus está assentado em seu santo trono. 
+Os soberanos das nações se juntam
+ao povo do Deus de Abraão,
+pois os governantes da terra pertencem a Deus;
+ele é soberanamente exaltado. 
+ Salmo 47
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 81
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_81/
 INFO:root:🔹 Description: Cantem de alegria a Deus, nossa força;
@@ -160,110 +180,84 @@ Com Deus conquistaremos a vitória,
 e ele pisoteará os nossos adversários. 
  Salmo 60
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 19
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_19/
-INFO:root:🔹 Description: Os céus declaram a glória de Deus;
-o firmamento proclama a obra das suas mãos. 
-Um dia fala disso a outro dia;
-uma noite o revela a outra noite. 
-Sem discurso nem palavras,
-não se ouve a sua voz. 
-Mas a sua voz ressoa por toda a terra
-e as suas palavras até os confins do mundo.
-Nos céus ele armou uma tenda para o sol, 
-que é como um noivo que sai de seu aposento
-e se lança em sua carreira
-com a alegria de um herói. 
-Sai de uma extremidade dos céus
-e faz o seu trajeto até a outra;
-nada escapa ao seu calor. 
-A lei do Senhor é perfeita e revigora a alma.
-Os testemunhos do Senhor
-são dignos de confiança
-e tornam sábios os inexperientes. 
-Os preceitos do Senhor são justos
-e dão alegria ao coração.
-Os mandamentos do Senhor são límpidos
-e trazem luz aos olhos. 
-O temor do Senhor é puro
-e dura para sempre.
-As ordenanças do Senhor são verdadeiras,
-são todas elas justas. 
-São mais desejáveis do que o ouro,
-do que muito ouro puro;
-são mais doces do que o mel,
-do que as gotas do favo. 
-Por elas o teu servo é advertido;
-há grande recompensa em obedecer-lhes. 
-Quem pode discernir os próprios erros?
-Absolve-me dos que desconheço! 
-Também guarda o teu servo
-dos pecados intencionais;
-que eles não me dominem!
-Então serei íntegro,
-inocente de grande transgressão. 
-Que as palavras da minha boca
-e a meditação do meu coração
-sejam agradáveis a ti,
-Senhor, minha Rocha e meu Resgatador! 
- Salmo 19
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 384744 characters
-INFO:root:HTML parsed, length: 374809 characters
-INFO:root:Found 3 titles: ['Deus pode transformar seu lamento em dança', 'Seja franco', 'Em que baseio minha identidade?']
+INFO:root:Response length: 385119 characters
+INFO:root:HTML parsed, length: 375178 characters
+INFO:root:Found 3 titles: ['Em busca da felicidade', 'Deus pode transformar seu lamento em dança', 'Seja franco']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Mudaste o meu pranto em dança,\na minha veste de la', 'Examinem-se para ver se vocês estão na fé; provem ', 'Contudo, aos que o receberam, aos que creram em se']
-INFO:root:Found 1 dates: ['Quarta, 22 de julho de 2026']
+INFO:root:Found 3 descriptions: ['Se vocês obedecerem aos meus mandamentos, permanec', 'Mudaste o meu pranto em dança,\na minha veste de la', 'Examinem-se para ver se vocês estão na fé; provem ']
+INFO:root:Found 1 dates: ['Quinta, 23 de julho de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus pode transformar seu lamento em dança', ID=9214317d0ef6dfa006dd1a50a5def922
+INFO:root:Processing entry 1: Title='Em busca da felicidade', ID=427a07a127319dd70af39629796ff932
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus pode transformar seu lamento em dança - Palavra de Hoje
+INFO:root:🔹 Title: Em busca da felicidade - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Mudaste o meu pranto em dança,
-a minha veste de lamento em veste de alegria,
-para que o meu coração
-cante louvores a ti e não se cale.
-Senhor, meu Deus,
-eu te darei graças para sempre.
-- Salmo 30:11-12
+INFO:root:🔹 Description: Se vocês obedecerem aos meus mandamentos, permanecerão no meu amor, assim como tenho obedecido aos mandamentos de meu Pai e em seu amor permaneço. Tenho dito estas palavras para que a minha alegria esteja em vocês e a alegria de vocês seja completa.
+- João 15:10-11
 
-Muitas situações podem nos causar tristeza, sofrimento e dor. Talvez surja um problema de saúde ou uma dificuldade financeira. Ou talvez alguém que amamos esteja com dificuldades e nos sintamos impotentes, sem saber como ajudar. Na vida, enfrentamos muitos momentos difíceis, mas Deus reina sobre tudo e, em um instante, pode mudar as situações e restaurar nossa alegria.
-Davi expressou esse sentimento no Salmo 30. Ele viu como Deus interveio para que os inimigos de Davi não conseguissem o que queriam. Além disso, em um momento de doença e à beira da morte, ele clamou a Deus e Deus o curou. Como ele poderia não querer dançar, cantar e adorar a Deus? Ele sentiu tanta alegria que não conseguia ficar em silêncio!
-Deus faz o mesmo conosco. Embora permita momentos de dificuldade como parte da vida, Ele permanece ao nosso lado e opera de maneiras maravilhosas, lembrando-nos de que Ele está presente e no controle. Embora às vezes pareça que Deus está demorando muito, a realidade é que Ele está sempre lá, nos acompanhando durante todo o processo, e Seu tempo é sempre o melhor.
-Lembre-se de que o Deus Todo-Poderoso, o mesmo que transformou o lamento de Davi em dança, pode transformar qualquer dificuldade e tristeza em um momento de alegria e renovação. Não importa quão sombria e difícil seja a sua situação, a luz do Senhor dissipará as sombras. Eleve sua voz com gratidão hoje. Acredite em Seu poder e experimente como Ele renova seu espírito, dando-lhe novos motivos para pular, dançar e agradecer a Ele para sempre.
-Veja também: A verdadeira alegria vem do Senhor
+Em geral, as pessoas anseiam pela felicidade. Ninguém gosta de problemas e dificuldades, muito menos de discutir com familiares e amigos. Buscamos a felicidade e fazemos todo o possível para obtê-la.
+No entanto, por mais que tentemos, nossa felicidade não depende apenas de nós. Mesmo que tentemos nos manter longe dos problemas, na vida eles surgem repentinamente e, muitas vezes, de onde menos esperamos.
+Graças a Deus, em Cristo, podemos desfrutar de uma alegria muito mais profunda, que perdura em meio às nossas lutas diárias. A alegria, a felicidade que Deus nos dá não depende das circunstâncias. É uma felicidade baseada em nosso relacionamento com Deus. Isso significa que quanto mais próximos estamos de Deus, mais somos preenchidos com a felicidade, a paz e a alegria que Ele nos dá.
+João 15:10-11 nos dá uma boa ideia de como podemos alcançar uma vida feliz, repleta da alegria do Senhor, em meio às lutas da vida. Ele nos diz que devemos...
+
+Guarde os mandamentos do Senhor, obedeça ao que Ele nos diz.
+Permaneça no amor de Deus. Não permita que os problemas nos separem do Senhor, mas continue apegado a Ele, confiando em Seu amor.
+Veja o exemplo de Jesus, como Ele guardou os mandamentos e permaneceu no amor do Pai em todos os momentos.
+
+Quando fazemos essas coisas, abrimos a porta para receber a alegria do Senhor, a felicidade que nunca acaba. Em meio aos problemas e dificuldades da vida, podemos sorrir sabendo que Deus está no controle e que a Sua vontade para nós é sempre boa!
+Permaneçam firmes no Senhor e desfrutem da felicidade que vem dEle, que dura para sempre. Nele temos alegria eterna.
+Veja também: A verdadeira alegria vem do Senhor: descubra nestes 6 versículos.
  
-Mudaste o meu pranto em dança,
-a minha veste de lamento em veste de alegria,
-para que o meu coração
-cante louvores a ti e não se cale.
-Senhor, meu Deus,
-eu te darei graças para sempre.
-- Salmo 30:11-12
+Se vocês obedecerem aos meus mandamentos, permanecerão no meu amor, assim como tenho obedecido aos mandamentos de meu Pai e em seu amor permaneço. Tenho dito estas palavras para que a minha alegria esteja em vocês e a alegria de vocês seja completa.
+- João 15:10-11
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 395002 characters
-INFO:root:HTML parsed, length: 384612 characters
-INFO:root:Found 3 titles: ['Entregue suas preocupações ao Senhor', 'O que Deus diz sobre você', 'Avançando em vitória']
-INFO:root:Found 2 URLs: ['/deus_cuida_de_mim_versiculos/', '/versiculos_para_momentos_dificeis/']
-INFO:root:Found 3 descriptions: ['Entregue suas preocupações ao Senhor,\ne ele o sust', 'Vejam como é grande o amor que o Pai nos concedeu:', 'Mas graças a Deus, que sempre nos conduz vitoriosa']
-INFO:root:Found 3 dates: ['JULHO\n\n22\nQUARTA', 'JULHO\n\n21\nTERÇA', 'JULHO\n\n20\nSEGUNDA']
+INFO:root:Response length: 395044 characters
+INFO:root:HTML parsed, length: 384664 characters
+INFO:root:Found 3 titles: ['Aproxime-se do Pai', 'Entregue suas preocupações ao Senhor', 'O que Deus diz sobre você']
+INFO:root:Found 2 URLs: ['/buscar_a_deus/', '/deus_cuida_de_mim_versiculos/']
+INFO:root:Found 3 descriptions: ['Chegai-vos a Deus, e ele se chegará a vós.\n- Tiago', 'Entregue suas preocupações ao Senhor,\ne ele o sust', 'Vejam como é grande o amor que o Pai nos concedeu:']
+INFO:root:Found 3 dates: ['JULHO\n\n23\nQUINTA', 'JULHO\n\n22\nQUARTA', 'JULHO\n\n21\nTERÇA']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Entregue suas preocupações ao Senhor', ID=2ee8db2e2298d99a0348509cf1ee37cf
-INFO:root:Processing entry 2: Title='O que Deus diz sobre você', ID=dbd81ff390bdaa5fc3ec3786bba7c4bb
+INFO:root:Processing entry 1: Title='Aproxime-se do Pai', ID=53d81d5a7519cbcd8e085ea27993537b
+INFO:root:Processing entry 2: Title='Entregue suas preocupações ao Senhor', ID=2ee8db2e2298d99a0348509cf1ee37cf
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Aproxime-se do Pai
+INFO:root:🔹 URL: https://www.bibliaon.com/buscar_a_deus/
+INFO:root:🔹 Description: Chegai-vos a Deus, e ele se chegará a vós.
+- Tiago 4:8a
+
+A vida pode nos arrastar em muitas direções. Problemas, distrações, pressões e frustrações tentam nos afastar da presença de Deus. Mas há uma verdade que não muda: quanto mais nos aproximamos do Pai, mais sentimos Sua paz, Sua direção e Seu amor transformador.
+A verdadeira força não está em nossas habilidades, mas em nossa proximidade com Ele. Quando decidimos buscar ao Senhor de todo o coração, descobrimos que Ele sempre esteve ali, esperando por nós.
+Estar perto de Deus não significa ausência de lutas, mas a certeza de que não estamos sozinhos nelas. Em tempos difíceis, o Pai nos sustenta. Em momentos de dúvida, Ele nos guia. E nos dias bons, Ele se alegra conosco. A intimidade com Deus é construída diariamente: através da oração sincera, da leitura da Palavra e da obediência à Sua vontade. Não é sobre religião, é sobre relacionamento.
+Talvez você sinta que se afastou. Talvez a rotina tenha abafado sua fé. Mas hoje é o dia de recomeçar. Deus não está longe. Ele está ao seu lado, esperando apenas um passo seu em direção a Ele. Basta um coração quebrantado e sincero. Ele acolhe, perdoa, restaura e renova.
+Não há lugar mais seguro, mais cheio de propósito e paz, do que aos pés do Pai. Então, desligue as distrações, silencie as vozes externas e volte seu coração para Aquele que nunca deixou de te amar. Fique mais perto do Pai. É lá que você vai encontrar tudo o que o mundo não pode oferecer: descanso para a alma, direção para os passos e esperança que não falha.
+Aproxime-se. Ele está te esperando
+
+
+Separe um tempo para oração e leitura da Bíblia. A constância no relacionamento com o Pai fortalece sua fé e renova sua mente todos os dias.
+
+Afaste-se de tudo que rouba seu foco espiritual. Reduza o tempo nas redes sociais e cultive momentos de silêncio para ouvir a voz de Deus com clareza.
+
+A fé se expressa na obediência. Mesmo quando não compreendemos, confiar na direção de Deus nos leva por caminhos de paz, crescimento e propósito eterno.
+
+Para orar:
+
+Pai amado, eu me aproximo de Ti com um coração sincero. Perdoa meus erros e renova em mim o desejo de Te buscar todos os dias. Que Tua presença seja meu abrigo, minha força e direção. Ensina-me a Te ouvir, a Te obedecer e a caminhar em fé, mesmo quando não entendo. Ajuda-me a vencer as distrações e a viver perto de Ti, firmemente enraizado em Teu amor. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre buscar a Deus
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Entregue suas preocupações ao Senhor
 INFO:root:🔹 URL: https://www.bibliaon.com/deus_cuida_de_mim_versiculos/
 INFO:root:🔹 Description: Entregue suas preocupações ao Senhor,
@@ -289,29 +283,6 @@ Pratique a gratidão, reconhecendo a presença de Deus em cada aspecto da sua vi
 Para orar:
 
 Senhor, entrego a Ti minhas preocupações e confio no Teu cuidado. Sustenta-me com Tua força e guia meus passos com sabedoria. Ajuda-me a viver com fé, sem medo, crendo que Tu nunca me abandonas. Que eu sinta Tua paz e presença constante em cada momento da minha vida. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O que Deus diz sobre você
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_momentos_dificeis/
-INFO:root:🔹 Description: Vejam como é grande o amor que o Pai nos concedeu: sermos chamados filhos de Deus, o que de fato somos! Por isso o mundo não nos conhece, porque não o conheceu.
-- 1 João 3:1
-
-Muitas vezes, somos tentados a medir nosso valor pelo que fazemos, pelo que conquistamos ou pela forma como os outros nos enxergam. Mas Deus não nos avalia por aparências, desempenho ou status. O Seu olhar vai muito além da superfície e alcança o nosso coração.
-A Bíblia nos ensina que fomos criados à imagem e semelhança de Deus. Isso significa que nossa existência não é fruto do acaso. Somos obra das mãos do Criador, formados com propósito, amor e cuidado. Desde o princípio, Deus nos atribuiu valor e dignidade.
-Mesmo quando falhamos ou nos sentimos insuficientes, o amor de Deus por nós permanece inabalável. A maior prova desse amor foi dada quando Ele enviou Seu Filho, Jesus Cristo, para nos salvar. Na cruz, vemos o quanto somos preciosos para Deus. Ele nos amou antes mesmo de podermos fazer algo para merecer esse amor.
-Além disso, Deus não apenas nos ama, mas também tem planos de paz e esperança para nossas vidas. Nem sempre compreendemos os caminhos pelos quais passamos, mas podemos confiar que o Senhor continua guiando nossos passos e trabalhando para o nosso bem.
-Quando nos lembramos de quem somos aos olhos de Deus, encontramos segurança para enfrentar as dificuldades. Somos Seus filhos amados, guardados por Seu cuidado e sustentados por Sua graça. Nada pode nos separar do amor que Ele derramou sobre nós em Cristo Jesus.
-Viva hoje como amado por Deus
-
-Reserve alguns minutos para agradecer a Deus pelo amor que Ele tem demonstrado em sua vida.
-Rejeite pensamentos que diminuem seu valor e substitua-os pelas verdades da Palavra de Deus.
-Lembre-se de que sua identidade está em Cristo, não na opinião das pessoas.
-Demonstre o amor que você recebeu de Deus tratando alguém com bondade e compaixão hoje.
-
-Para orar:
-
-Pai amado, obrigado porque o Teu amor define quem eu sou. Mesmo quando me sinto fraco ou inseguro, posso descansar na certeza de que sou Teu filho e fui criado com propósito. Ajuda-me a enxergar minha vida através dos Teus olhos e a viver hoje com confiança no Teu cuidado. Obrigado por Jesus, a maior prova do Teu amor por mim. Em nome de Jesus, amém.
-
-Veja também: Deus cuida de mim nos mínimos detalhes.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -342,15 +313,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  51 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  49 ++---
+ feeds/palavra_biblica_do_dia/atom.xml     |  35 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  20 +-
+ feeds/palavra_do_dia/atom.xml             |  20 +--
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  92 ++++-----
+ feeds/salmo_do_dia/atom.xml               |  71 +++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 327 ++++++++++++++----------------
- 11 files changed, 276 insertions(+), 330 deletions(-)
+ output.log                                | 285 +++++++++++++-----------------
+ 11 files changed, 226 insertions(+), 296 deletions(-)
