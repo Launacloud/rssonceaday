@@ -1,44 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 129208 characters
-INFO:root:HTML parsed, length: 122003 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (23/07/2026)', 'Palavra de Ontem (22/07/2026)', 'Palavra de Anteontem (21/07/2026)']
-INFO:root:Found 3 URLs: ['/personal-trainer/', '/abundante/', '/ufana/']
-INFO:root:Found 11 descriptions: ['substantivo masculino e feminino Profissional grad', 'Sinônimos:\n\ninstrutor, treinador', 'Sílabas:per-so-nal-trai-ner']
-INFO:root:Found 3 dates: ['Palavra de Hoje (23/07/2026)', 'Palavra de Ontem (22/07/2026)', 'Palavra de Anteontem (21/07/2026)']
+INFO:root:Response length: 129301 characters
+INFO:root:HTML parsed, length: 121914 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (24/07/2026)', 'Palavra de Ontem (23/07/2026)', 'Palavra de Anteontem (22/07/2026)']
+INFO:root:Found 3 URLs: ['/esmarrir/', '/personal-trainer/', '/abundante/']
+INFO:root:Found 13 descriptions: ['verbo intransitivo Perder o vigor, a seiva; secar,', 'Sinônimos:\n\nsecar, ressecar, ressequir, mirrar, ma', 'Antônimos:\n\nrevigorar, reavivar, reanimar, revital']
+INFO:root:Found 3 dates: ['Palavra de Hoje (24/07/2026)', 'Palavra de Ontem (23/07/2026)', 'Palavra de Anteontem (22/07/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (23/07/2026)', ID=4591755e27e023d91857eb2ab78a9a5f
-INFO:root:Processing entry 2: Title='Palavra de Ontem (22/07/2026)', ID=89d3b06649513cf7007227fdc97ef2f5
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/07/2026)', ID=6c5bc244421fcb63eb3462a67fd2813f
+INFO:root:Processing entry 1: Title='Palavra de Hoje (24/07/2026)', ID=62c6f0d1efcd9773b1eab9c3742f2b41
+INFO:root:Processing entry 2: Title='Palavra de Ontem (23/07/2026)', ID=5ba1fc45010ef88c9a313781d0f3b96a
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/07/2026)', ID=73b97d6e02fe29cdc8470dcf95e52a0e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (23/07/2026) - Significado completo de personal trainer:
-INFO:root:🔹 URL: https://www.dicio.com.br/personal-trainer/
-INFO:root:🔹 Description: substantivo masculino e feminino Profissional graduado em Educação Física que ajuda alguém a se exercitar, principalmente indicando os melhores exercícios físicos, seguindo a necessidade individual de seus alunos; instrutor, treinador: a atriz contratou um personal trainer buscando ter uma vida mais saudável.Etimologia (origem de personal trainer). A palavra personal trainer tem sua origem mo inglês "personal trainer", com o sentido de 'treinador, instrutor pessoal'.
+INFO:root:🔹 Title: Palavra de Hoje (24/07/2026) - Significado completo de esmarrir:
+INFO:root:🔹 URL: https://www.dicio.com.br/esmarrir/
+INFO:root:🔹 Description: verbo intransitivo Perder o vigor, a seiva; secar, ressequir-se, murchar.[Figurado] Ficar triste, sorumbático, taciturno; perder o ânimo; entristecer, desanimar.Etimologia (origem da palavra esmarrir). A palavra esmarrir tem sua origem no italiano "smarrire", com o mesmo sentido.
  
 Sinônimos:
 
-instrutor, treinador 
+secar, ressecar, ressequir, mirrar, magoar, compadecer, consternar, contristar, atristar, desolar, desvigorar 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (22/07/2026) - Significado completo de abundante:
-INFO:root:🔹 URL: https://www.dicio.com.br/abundante/
+INFO:root:🔹 Title: Palavra de Ontem (23/07/2026) - Significado completo de personal trainer:
+INFO:root:🔹 URL: https://www.dicio.com.br/personal-trainer/
 INFO:root:🔹 Description: Sinônimos:
 
-instrutor, treinador
- Sílabas:per-so-nal-trai-ner
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (21/07/2026) - Significado completo de ufana:
-INFO:root:🔹 URL: https://www.dicio.com.br/ufana/
-INFO:root:🔹 Description: Sílabas:per-so-nal-trai-ner
+secar, ressecar, ressequir, mirrar, magoar, compadecer, consternar, contristar, atristar, desolar, desvigorar
  
-Sinônimos:
+Antônimos:
 
-profuso, copioso, rico, numeroso, volumoso, abundoso, fértil, loquaz 
+revigorar, reavivar, reanimar, revitalizar, realentar 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (22/07/2026) - Significado completo de abundante:
+INFO:root:🔹 URL: https://www.dicio.com.br/abundante/
+INFO:root:🔹 Description: Antônimos:
+
+revigorar, reavivar, reanimar, revitalizar, realentar
+ Sílabas:es-mar-rir
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,40 +48,85 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 383543 characters
-INFO:root:HTML parsed, length: 373126 characters
-INFO:root:Found 1 titles: ['Tiago 4:8']
-INFO:root:Found 1 URLs: ['/versiculo/tiago_4_8/']
-INFO:root:Found 1 descriptions: ['Aproximem-se de Deus, e ele se aproximará de vocês']
+INFO:root:Response length: 383606 characters
+INFO:root:HTML parsed, length: 373169 characters
+INFO:root:Found 1 titles: ['Romanos 14:11']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_14_11/']
+INFO:root:Found 1 descriptions: ['Porque está escrito:\n" \'Por mim mesmo jurei\',\ndiz ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Tiago 4:8', ID=b7d7eb67a861596444b0d4e11bb7d203
+INFO:root:Processing entry 1: Title='Romanos 14:11', ID=1fa7116f2c5182ae6de8d35347f9035a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Tiago 4:8
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_4_8/
-INFO:root:🔹 Description: Aproximem-se de Deus, e ele se aproximará de vocês! Pecadores, limpem as mãos, e vocês, que têm a mente dividida, purifiquem o coração. Tiago 4:8
+INFO:root:🔹 Title: Romanos 14:11
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_14_11/
+INFO:root:🔹 Description: Porque está escrito:
+" 'Por mim mesmo jurei',
+diz o Senhor,
+'diante de mim
+todo joelho se dobrará
+e toda língua confessará
+que sou Deus' ". Romanos 14:11
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 379838 characters
-INFO:root:HTML parsed, length: 370441 characters
-INFO:root:Found 3 titles: ['Salmo 47', 'Salmo 81', 'Salmo 60']
-INFO:root:Found 3 URLs: ['/salmos_47/', '/salmos_81/', '/salmos_60/']
-INFO:root:Found 3 descriptions: ['Batam palmas, vocês, todos os povos;\naclamem a Deu', 'Cantem de alegria a Deus, nossa força;\naclamem o D', 'Tu nos rejeitaste e dispersaste, ó Deus; tu derram']
-INFO:root:Found 3 dates: ['23 de Julho de 2026', '22 de Julho de 2026', '21 de Julho de 2026']
+INFO:root:Response length: 380120 characters
+INFO:root:HTML parsed, length: 370732 characters
+INFO:root:Found 3 titles: ['Salmo 141', 'Salmo 47', 'Salmo 81']
+INFO:root:Found 3 URLs: ['/salmos_141/', '/salmos_47/', '/salmos_81/']
+INFO:root:Found 3 descriptions: ['Clamo a ti, Senhor; vem depressa!\nEscuta a minha v', 'Batam palmas, vocês, todos os povos;\naclamem a Deu', 'Cantem de alegria a Deus, nossa força;\naclamem o D']
+INFO:root:Found 3 dates: ['24 de Julho de 2026', '23 de Julho de 2026', '22 de Julho de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 47', ID=2cf72a8f20404ab489b27d6675339716
-INFO:root:Processing entry 2: Title=' Salmo 81', ID=217c73953ef40620789252b2837f3900
-INFO:root:Processing entry 3: Title=' Salmo 60', ID=9a93548a49a44779a9a21e0eee0765a1
+INFO:root:Processing entry 1: Title=' Salmo 141', ID=e2beea10b2b051294b0a6e62337fc7ac
+INFO:root:Processing entry 2: Title=' Salmo 47', ID=2cf72a8f20404ab489b27d6675339716
+INFO:root:Processing entry 3: Title=' Salmo 81', ID=217c73953ef40620789252b2837f3900
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 141
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_141/
+INFO:root:🔹 Description: Clamo a ti, Senhor; vem depressa!
+Escuta a minha voz quando clamo a ti. 
+Seja a minha oração
+como incenso diante de ti
+e o levantar das minhas mãos
+como a oferta da tarde. 
+Coloca, Senhor,
+uma guarda à minha boca;
+vigia a porta de meus lábios. 
+Não permitas que o meu coração
+se volte para o mal
+nem que eu me envolva em práticas perversas
+com os malfeitores.
+Que eu nunca participe dos seus banquetes! 
+Fira-me o justo com amor leal
+e me repreenda,
+mas não perfume a minha cabeça
+o óleo do ímpio,
+pois a minha oração
+é contra as práticas dos malfeitores. 
+Quando eles caírem nas mãos da Rocha,
+o juiz deles,
+ouvirão as minhas palavras com apreço. 
+Como a terra é arada e fendida,
+assim foram espalhados os seus ossos
+à entrada da sepultura. 
+Mas os meus olhos estão fixos em ti,
+ó Soberano Senhor;
+em ti me refugio;
+não me entregues à morte. 
+Guarda-me das armadilhas
+que prepararam contra mim,
+das ciladas dos que praticam o mal. 
+Caiam os ímpios em sua própria rede,
+enquanto eu escapo ileso. 
+ Salmo 141
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 47
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_47/
 INFO:root:🔹 Description: Batam palmas, vocês, todos os povos;
@@ -148,141 +195,96 @@ com o melhor trigo,
 e com o mel da rocha eu o satisfaria". 
  Salmo 81
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 60
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_60/
-INFO:root:🔹 Description: Tu nos rejeitaste e dispersaste, ó Deus; tu derramaste a tua ira; restaura-nos agora! 
-Sacudiste a terra e abriste-lhe fendas;
-repara suas brechas,
-pois ameaça desmoronar-se. 
-Fizeste passar o teu povo por tempos difíceis;
-deste-nos um vinho estonteante. 
-Mas aos que te temem deste um sinal
-para que fugissem das flechas. 
-Salva-nos com a tua mão direita
-e responde-nos,
-para que sejam libertos aqueles a quem amas. 
-Do seu santuário Deus falou:
-"No meu triunfo dividirei Siquém
-e repartirei o vale de Sucote. 
-Gileade é minha, Manassés também;
-Efraim é o meu capacete,
-Judá é o meu cetro. 
-Moabe é a pia em que me lavo,
-em Edom atiro a minha sandália;
-sobre a Filístia dou meu brado de vitória!" 
-Quem me levará à cidade fortificada?
-Quem me guiará a Edom? 
-Não foste tu, ó Deus, que nos rejeitaste
-e deixaste de sair com os nossos exércitos? 
-Dá-nos ajuda contra os adversários,
-pois inútil é o socorro do homem. 
-Com Deus conquistaremos a vitória,
-e ele pisoteará os nossos adversários. 
- Salmo 60
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 385119 characters
-INFO:root:HTML parsed, length: 375178 characters
-INFO:root:Found 3 titles: ['Em busca da felicidade', 'Deus pode transformar seu lamento em dança', 'Seja franco']
+INFO:root:Response length: 385491 characters
+INFO:root:HTML parsed, length: 375548 characters
+INFO:root:Found 3 titles: ['Utilize seus superpoderes para o bem!', 'Em busca da felicidade', 'Deus pode transformar seu lamento em dança']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Se vocês obedecerem aos meus mandamentos, permanec', 'Mudaste o meu pranto em dança,\na minha veste de la', 'Examinem-se para ver se vocês estão na fé; provem ']
-INFO:root:Found 1 dates: ['Quinta, 23 de julho de 2026']
+INFO:root:Found 3 descriptions: ['Pois, embora vivamos como homens, não lutamos segu', 'Se vocês obedecerem aos meus mandamentos, permanec', 'Mudaste o meu pranto em dança,\na minha veste de la']
+INFO:root:Found 1 dates: ['Sexta, 24 de julho de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Em busca da felicidade', ID=427a07a127319dd70af39629796ff932
+INFO:root:Processing entry 1: Title='Utilize seus superpoderes para o bem!', ID=7668651475a7cd1a96e9b0537293cb7a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Em busca da felicidade - Palavra de Hoje
+INFO:root:🔹 Title: Utilize seus superpoderes para o bem! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Se vocês obedecerem aos meus mandamentos, permanecerão no meu amor, assim como tenho obedecido aos mandamentos de meu Pai e em seu amor permaneço. Tenho dito estas palavras para que a minha alegria esteja em vocês e a alegria de vocês seja completa.
-- João 15:10-11
+INFO:root:🔹 Description: Pois, embora vivamos como homens, não lutamos segundo os padrões humanos.
+As armas com as quais lutamos não são humanas; ao contrário, são poderosas em Deus para destruir fortalezas.
+- 2 Coríntios 10:3-4 
 
-Em geral, as pessoas anseiam pela felicidade. Ninguém gosta de problemas e dificuldades, muito menos de discutir com familiares e amigos. Buscamos a felicidade e fazemos todo o possível para obtê-la.
-No entanto, por mais que tentemos, nossa felicidade não depende apenas de nós. Mesmo que tentemos nos manter longe dos problemas, na vida eles surgem repentinamente e, muitas vezes, de onde menos esperamos.
-Graças a Deus, em Cristo, podemos desfrutar de uma alegria muito mais profunda, que perdura em meio às nossas lutas diárias. A alegria, a felicidade que Deus nos dá não depende das circunstâncias. É uma felicidade baseada em nosso relacionamento com Deus. Isso significa que quanto mais próximos estamos de Deus, mais somos preenchidos com a felicidade, a paz e a alegria que Ele nos dá.
-João 15:10-11 nos dá uma boa ideia de como podemos alcançar uma vida feliz, repleta da alegria do Senhor, em meio às lutas da vida. Ele nos diz que devemos...
+Quando aceitamos a Cristo, recebemos o Espírito Santo e somos revestidos de poder. Como tal, todo poder vem atrelado a responsabilidades. Fomos transformados por Deus e somos um canal deste poder para resgatar outras vidas. Essa força não foi designada para a destruição do homem, mas para a libertação.
 
-Guarde os mandamentos do Senhor, obedeça ao que Ele nos diz.
-Permaneça no amor de Deus. Não permita que os problemas nos separem do Senhor, mas continue apegado a Ele, confiando em Seu amor.
-Veja o exemplo de Jesus, como Ele guardou os mandamentos e permaneceu no amor do Pai em todos os momentos.
+Se você conhece a Palavra, não a use para ferir o próximo.
+Defender a fé não é atacar, mas esclarecer e conduzir a Cristo.
+Evite discussões desnecessárias que levem a ofensas pessoais.
 
-Quando fazemos essas coisas, abrimos a porta para receber a alegria do Senhor, a felicidade que nunca acaba. Em meio aos problemas e dificuldades da vida, podemos sorrir sabendo que Deus está no controle e que a Sua vontade para nós é sempre boa!
-Permaneçam firmes no Senhor e desfrutem da felicidade que vem dEle, que dura para sempre. Nele temos alegria eterna.
-Veja também: A verdadeira alegria vem do Senhor: descubra nestes 6 versículos.
+Lembre-se, a sua luta não são contra pessoas, mas contra o espírito que as enganam. Utilize este superpoder para libertar os cativos e conduzi-los a fonte da vida eterna!
+
+O Espírito do Senhor Deus está sobre mim, 
+porque o Senhor me ungiu para pregar boas-novas aos pobres, 
+enviou-me a curar os quebrantados de coração, 
+a proclamar libertação aos cativos e a pôr em liberdade os algemados,
+a apregoar o ano aceitável do Senhor e o dia da vingança do nosso Deus,
+a consolar todos os que choram e a pôr sobre os que choram em Sião 
+uma coroa em vez de cinzas, óleo de alegria em vez de pranto, 
+manto de louvor em vez de espírito angustiado. 
+Eles serão chamados carvalhos de justiça, 
+plantados pelo Senhor para a sua glória.
+- Isaías 61:1-3
+
+Veja também:
+
+7 conselhos da Bíblia para resolver conflitos
+Frutos da carne e frutos do espírito
+O poder do Espírito Santo em nossas vidas (estudo bíblico)
  
-Se vocês obedecerem aos meus mandamentos, permanecerão no meu amor, assim como tenho obedecido aos mandamentos de meu Pai e em seu amor permaneço. Tenho dito estas palavras para que a minha alegria esteja em vocês e a alegria de vocês seja completa.
-- João 15:10-11
+Se você conhece a Palavra, não a use para ferir o próximo.
+Defender a fé não é atacar, mas esclarecer e conduzir a Cristo.
+Evite discussões desnecessárias que levem a ofensas pessoais.
+
+ 
+Pois, embora vivamos como homens, não lutamos segundo os padrões humanos.
+As armas com as quais lutamos não são humanas; ao contrário, são poderosas em Deus para destruir fortalezas.
+- 2 Coríntios 10:3-4 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 395044 characters
-INFO:root:HTML parsed, length: 384664 characters
-INFO:root:Found 3 titles: ['Aproxime-se do Pai', 'Entregue suas preocupações ao Senhor', 'O que Deus diz sobre você']
-INFO:root:Found 2 URLs: ['/buscar_a_deus/', '/deus_cuida_de_mim_versiculos/']
-INFO:root:Found 3 descriptions: ['Chegai-vos a Deus, e ele se chegará a vós.\n- Tiago', 'Entregue suas preocupações ao Senhor,\ne ele o sust', 'Vejam como é grande o amor que o Pai nos concedeu:']
-INFO:root:Found 3 dates: ['JULHO\n\n23\nQUINTA', 'JULHO\n\n22\nQUARTA', 'JULHO\n\n21\nTERÇA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Aproxime-se do Pai', ID=53d81d5a7519cbcd8e085ea27993537b
-INFO:root:Processing entry 2: Title='Entregue suas preocupações ao Senhor', ID=2ee8db2e2298d99a0348509cf1ee37cf
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 394346 characters
+INFO:root:HTML parsed, length: 383959 characters
+INFO:root:Found 3 titles: ['O perigo da queda', 'Aproxime-se do Pai', 'Entregue suas preocupações ao Senhor']
+INFO:root:Found 1 URLs: ['/buscar_a_deus/']
+INFO:root:Found 3 descriptions: ['Assim, aquele que julga estar firme, cuide-se para', 'Chegai-vos a Deus, e ele se chegará a vós.\n- Tiago', 'Entregue suas preocupações ao Senhor,\ne ele o sust']
+INFO:root:Found 3 dates: ['JULHO\n\n24\nSEXTA', 'JULHO\n\n23\nQUINTA', 'JULHO\n\n22\nQUARTA']
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='O perigo da queda', ID=18739b0f868cd19de94df2ac005f3943
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Aproxime-se do Pai
+INFO:root:🔹 Title: O perigo da queda
 INFO:root:🔹 URL: https://www.bibliaon.com/buscar_a_deus/
-INFO:root:🔹 Description: Chegai-vos a Deus, e ele se chegará a vós.
-- Tiago 4:8a
+INFO:root:🔹 Description: Assim, aquele que julga estar firme, cuide-se para que não caia!
+- 1 Coríntios 10:12
 
-A vida pode nos arrastar em muitas direções. Problemas, distrações, pressões e frustrações tentam nos afastar da presença de Deus. Mas há uma verdade que não muda: quanto mais nos aproximamos do Pai, mais sentimos Sua paz, Sua direção e Seu amor transformador.
-A verdadeira força não está em nossas habilidades, mas em nossa proximidade com Ele. Quando decidimos buscar ao Senhor de todo o coração, descobrimos que Ele sempre esteve ali, esperando por nós.
-Estar perto de Deus não significa ausência de lutas, mas a certeza de que não estamos sozinhos nelas. Em tempos difíceis, o Pai nos sustenta. Em momentos de dúvida, Ele nos guia. E nos dias bons, Ele se alegra conosco. A intimidade com Deus é construída diariamente: através da oração sincera, da leitura da Palavra e da obediência à Sua vontade. Não é sobre religião, é sobre relacionamento.
-Talvez você sinta que se afastou. Talvez a rotina tenha abafado sua fé. Mas hoje é o dia de recomeçar. Deus não está longe. Ele está ao seu lado, esperando apenas um passo seu em direção a Ele. Basta um coração quebrantado e sincero. Ele acolhe, perdoa, restaura e renova.
-Não há lugar mais seguro, mais cheio de propósito e paz, do que aos pés do Pai. Então, desligue as distrações, silencie as vozes externas e volte seu coração para Aquele que nunca deixou de te amar. Fique mais perto do Pai. É lá que você vai encontrar tudo o que o mundo não pode oferecer: descanso para a alma, direção para os passos e esperança que não falha.
-Aproxime-se. Ele está te esperando
+Você se lembra de alguma vez que caiu "feio"? Distraído, num piso irregular, quando criança ou adulto, praticando algum esporte, num episódio engraçado ou num acidente grave, todos nós já sofremos alguma queda na vida. Dependendo da base de sustentação, cair pode deixar sequelas permanentes. Na Bíblia vemos um exemplo desses com Mefibosete (filho de Jônatas e neto de Saul) que ficou aleijado dos pés por causa de uma queda (2 Samuel 4:4).
+Na vida espiritual as quedas também podem acontecer. Todo cristão que já caiu sabe que isso gera marcas que podem durar a vida toda. Neste versículo, o apóstolo Paulo nos exorta a ter cuidado para não cair. De fato, é pela misericórdia de Deus que permanecemos firmes na fé. Mas muitos deslizes acontecem por vacilos e decisões erradas nossas.
+Firme-se em Jesus para não cair:
 
-
-Separe um tempo para oração e leitura da Bíblia. A constância no relacionamento com o Pai fortalece sua fé e renova sua mente todos os dias.
-
-Afaste-se de tudo que rouba seu foco espiritual. Reduza o tempo nas redes sociais e cultive momentos de silêncio para ouvir a voz de Deus com clareza.
-
-A fé se expressa na obediência. Mesmo quando não compreendemos, confiar na direção de Deus nos leva por caminhos de paz, crescimento e propósito eterno.
+Agradeça a Deus por manter a sua fé firme e o seu coração seguro na Sua presença.
+Busque orientação na Palavra de Deus para permanecer firme com Deus.
+Aprenda com os tropeços do passado e comprometa-se a andar sempre na direção do Pai.
+Você caiu? Arrependa-se, ore e peça a Deus para te levantar e ajudar a não cair novamente.
+Desenvolva uma amizade pessoal com Jesus - à medida que você permanece em Cristo, Ele se torna o seu sustento diário e te livra de cair nas várias armadilhas à sua volta.
 
 Para orar:
 
-Pai amado, eu me aproximo de Ti com um coração sincero. Perdoa meus erros e renova em mim o desejo de Te buscar todos os dias. Que Tua presença seja meu abrigo, minha força e direção. Ensina-me a Te ouvir, a Te obedecer e a caminhar em fé, mesmo quando não entendo. Ajuda-me a vencer as distrações e a viver perto de Ti, firmemente enraizado em Teu amor. Em nome de Jesus, amém.
-
-Veja também: Versículos sobre buscar a Deus
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Entregue suas preocupações ao Senhor
-INFO:root:🔹 URL: https://www.bibliaon.com/deus_cuida_de_mim_versiculos/
-INFO:root:🔹 Description: Entregue suas preocupações ao Senhor,
-e ele o susterá;
-jamais permitirá que o justo venha a cair.
-- Salmos 55:22
-
-Este salmo nos lembra que Deus não apenas nos ouve, mas também age em nosso favor. Muitas vezes, carregamos fardos que parecem insuportáveis, nos afligimos com problemas que fogem ao nosso controle, e o medo do desconhecido nos paralisa. Mas Deus nos convida a entregar todas essas preocupações a Ele.
-Entregar as preocupações ao Senhor não significa ignorar os desafios da vida, mas sim confiar plenamente que Ele está no controle.
-Quando deixamos nossas ansiedades nas mãos de Deus, estamos reconhecendo que Ele é capaz de cuidar de nós de forma perfeita, mais do que jamais poderíamos. Ele promete nos suster, nos segurar firmemente, não permitindo que tropecemos ou sejamos derrotados pelo peso das adversidades.
-Deus vê a justiça em nosso coração, e é essa justiça que Ele preserva. Ele nos sustenta em meio às tempestades e nos dá forças para continuar. Não estamos sozinhos; o Senhor é nosso amparo constante, nosso refúgio em tempos de tribulação.
-Confie em Deus, entregue a Ele todas as suas angústias e creia que Ele não permitirá que você caia. Ele é fiel e está sempre ao seu lado, te guiando cada passo.
-
-"Sejam fortes e corajosos. Não tenham medo nem fiquem apavorados por causa delas, pois o Senhor, o seu Deus, vai com vocês; nunca os deixará, nunca os abandonará."
-- Deuteronômio 31:6
-
-3 Passos práticos para entregar suas preocupações a Deus
-
-Ore diariamente, entregando suas ansiedades e medos ao cuidado do Senhor.
-Confie nas promessas de Deus, lembrando que Ele sustenta você em todas as situações.
-Pratique a gratidão, reconhecendo a presença de Deus em cada aspecto da sua vida.
-
-Para orar:
-
-Senhor, entrego a Ti minhas preocupações e confio no Teu cuidado. Sustenta-me com Tua força e guia meus passos com sabedoria. Ajuda-me a viver com fé, sem medo, crendo que Tu nunca me abandonas. Que eu sinta Tua paz e presença constante em cada momento da minha vida. Em nome de Jesus, amém.
+Senhor Deus, obrigado por sustentar a minha vida contigo a cada dia. Ajuda-me a andar firme na fé, permanecendo fiel na Tua presença, Senhor. Perdoa todas as vezes que caí e me ensina a levantar estando seguro em Ti. Que hoje eu escolha te agradar e cuide para não cair, em nome de Jesus. Amém!
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -313,15 +315,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  35 ++--
+ feeds/palavra_biblica_do_dia/atom.xml     |  48 +++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  20 +--
+ feeds/palavra_do_dia/atom.xml             |  20 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  71 +++-----
+ feeds/salmo_do_dia/atom.xml               |  69 ++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 285 +++++++++++++-----------------
- 11 files changed, 226 insertions(+), 296 deletions(-)
+ output.log                                | 314 +++++++++++++++---------------
+ 11 files changed, 281 insertions(+), 290 deletions(-)
