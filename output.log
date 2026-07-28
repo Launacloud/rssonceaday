@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 130196 characters
-INFO:root:HTML parsed, length: 122626 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (27/07/2026)', 'Palavra de Ontem (26/07/2026)', 'Palavra de Anteontem (25/07/2026)']
-INFO:root:Found 3 URLs: ['/maledicencia/', '/desativado/', '/genocida/']
-INFO:root:Found 16 descriptions: ['substantivo feminino Característica ou particulari', 'Sinônimos:\n\ndifamação, mordacidade, mexerico, fuxi', 'Antônimos:\n\nelogio']
-INFO:root:Found 3 dates: ['Palavra de Hoje (27/07/2026)', 'Palavra de Ontem (26/07/2026)', 'Palavra de Anteontem (25/07/2026)']
+INFO:root:Response length: 193804 characters
+INFO:root:HTML parsed, length: 170864 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (28/07/2026)', 'Palavra de Ontem (27/07/2026)', 'Palavra de Anteontem (26/07/2026)']
+INFO:root:Found 3 URLs: ['/celula/', '/maledicencia/', '/desativado/']
+INFO:root:Found 15 descriptions: ['substantivo feminino [Biologia] Elemento microscóp', 'Sinônimos:\n\npartícula, alvéolo, corpúsculo', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (28/07/2026)', 'Palavra de Ontem (27/07/2026)', 'Palavra de Anteontem (26/07/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (27/07/2026)', ID=04c27cd1d908cf88a4d1e2a76ba4973c
-INFO:root:Processing entry 2: Title='Palavra de Ontem (26/07/2026)', ID=beac9546ef7c841c44a8aa8cf430b200
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/07/2026)', ID=85c9136f3d9b096207ad341af722d293
+INFO:root:Processing entry 1: Title='Palavra de Hoje (28/07/2026)', ID=dc0a2bf389913cb0724a9dd53039af06
+INFO:root:Processing entry 2: Title='Palavra de Ontem (27/07/2026)', ID=8e89d2ed6d1d77f5b49b20e09a9f2bf0
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (26/07/2026)', ID=9355c1af3c922daae3f30edacaecdb19
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (27/07/2026) - Significado completo de maledicência:
-INFO:root:🔹 URL: https://www.dicio.com.br/maledicencia/
-INFO:root:🔹 Description: substantivo feminino Característica ou particularidade da pessoa maledicente, de quem vive falando mal de outras pessoas.Ato ou aptidão para falar mal dos outros; cuja intenção é denegrir; difamação.Fala injuriosa ou maldosa: comentário cheio de maledicência.Etimologia (origem da palavra maledicência). Do latim maledicentia.ae, "dizer mal, ofender".
+INFO:root:🔹 Title: Palavra de Hoje (28/07/2026) - Significado completo de célula:
+INFO:root:🔹 URL: https://www.dicio.com.br/celula/
+INFO:root:🔹 Description: substantivo feminino [Biologia] Elemento microscópico constitutivo de todo ser vivo, composto essencialmente por material genético, membrana plasmática e citoplasma.[Figurado] Elemento constitutivo organizado: a comuna é a célula fundamental de uma organização administrativa.[Figurado] Agrupamento de pessoas com ideologias comuns, particularmente partidos políticos.[Zoologia] Local situado na membrana da asa dos insetos, rodeada por nervuras.[Jurídico] Local pequeno onde habita o presidiário; cela.[Aeronáutica] Grupo que contém as asas de um transporte aéreo.[Música] Estrutura que serve de base para uma composição.Etimologia (origem da palavra célula). A palavra célula tem sua origem no latim “cellula,ae”, com o sentido de quarto minúsculo.
  
 Sinônimos:
 
-difamação, mordacidade, mexerico, fuxico, fofoca 
+partícula, alvéolo, corpúsculo 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (26/07/2026) - Significado completo de desativado:
-INFO:root:🔹 URL: https://www.dicio.com.br/desativado/
+INFO:root:🔹 Title: Palavra de Ontem (27/07/2026) - Significado completo de maledicência:
+INFO:root:🔹 URL: https://www.dicio.com.br/maledicencia/
 INFO:root:🔹 Description: Sinônimos:
 
-difamação, mordacidade, mexerico, fuxico, fofoca
- 
-Antônimos:
-
-elogio 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (25/07/2026) - Significado completo de genocida:
-INFO:root:🔹 URL: https://www.dicio.com.br/genocida/
-INFO:root:🔹 Description: Antônimos:
-
-elogio
+partícula, alvéolo, corpúsculo
  Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (26/07/2026) - Significado completo de desativado:
+INFO:root:🔹 URL: https://www.dicio.com.br/desativado/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:cé-lu-la
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,44 +42,117 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 383674 characters
-INFO:root:HTML parsed, length: 373257 characters
-INFO:root:Found 1 titles: ['Oséias 11:4']
-INFO:root:Found 1 URLs: ['/versiculo/oseias_11_4/']
-INFO:root:Found 1 descriptions: ['Eu os conduzi\ncom laços de bondade humana\ne de amo']
+INFO:root:Response length: 383466 characters
+INFO:root:HTML parsed, length: 373049 characters
+INFO:root:Found 1 titles: ['Romanos 3:23']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_3_23/']
+INFO:root:Found 1 descriptions: ['Pois todos pecaram e estão destituídos da glória d']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Oséias 11:4', ID=416eebbf49134421ea1e92b6fb88409a
+INFO:root:Processing entry 1: Title='Romanos 3:23', ID=af45845173b9b0e1213a79849895014e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Oséias 11:4
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/oseias_11_4/
-INFO:root:🔹 Description: Eu os conduzi
-com laços de bondade humana
-e de amor;
-tirei do seu pescoço o jugo
-e me inclinei para alimentá-los. Oséias 11:4
+INFO:root:🔹 Title: Romanos 3:23
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_3_23/
+INFO:root:🔹 Description: Pois todos pecaram e estão destituídos da glória de Deus, Romanos 3:23
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 391748 characters
-INFO:root:HTML parsed, length: 382579 characters
-INFO:root:Found 3 titles: ['Salmo 128', 'Salmo 119', 'Salmo 101']
-INFO:root:Found 3 URLs: ['/salmos_128/', '/salmos_119/', '/salmos_101/']
-INFO:root:Found 3 descriptions: ['Como é feliz quem teme o Senhor,\nquem anda em seus', 'Como são felizes os que andam\nem caminhos irrepree', 'Cantarei a lealdade e a justiça.\nA ti, Senhor, can']
-INFO:root:Found 3 dates: ['27 de Julho de 2026', '26 de Julho de 2026', '25 de Julho de 2026']
+INFO:root:Response length: 394176 characters
+INFO:root:HTML parsed, length: 385046 characters
+INFO:root:Found 3 titles: ['Salmo 102', 'Salmo 128', 'Salmo 119']
+INFO:root:Found 3 URLs: ['/salmos_102/', '/salmos_128/', '/salmos_119/']
+INFO:root:Found 3 descriptions: ['Ouve a minha oração, Senhor!\nChegue a ti o meu gri', 'Como é feliz quem teme o Senhor,\nquem anda em seus', 'Como são felizes os que andam\nem caminhos irrepree']
+INFO:root:Found 3 dates: ['28 de Julho de 2026', '27 de Julho de 2026', '26 de Julho de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 128', ID=566f59e35e0f2396b80f951a21a49154
-INFO:root:Processing entry 2: Title=' Salmo 119', ID=f7b8c0665d825eb68d68c7b47cd0b556
-INFO:root:Processing entry 3: Title=' Salmo 101', ID=abd166d429ab88ca02f4860a95e1240a
+INFO:root:Processing entry 1: Title=' Salmo 102', ID=f3f93203bf47edc3fa3727bdb061891a
+INFO:root:Processing entry 2: Title=' Salmo 128', ID=566f59e35e0f2396b80f951a21a49154
+INFO:root:Processing entry 3: Title=' Salmo 119', ID=f7b8c0665d825eb68d68c7b47cd0b556
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 102
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_102/
+INFO:root:🔹 Description: Ouve a minha oração, Senhor!
+Chegue a ti o meu grito de socorro! 
+Não escondas de mim o teu rosto
+quando estou atribulado.
+Inclina para mim os teus ouvidos;
+quando eu clamar, responde-me depressa! 
+Esvaem-se os meus dias como fumaça;
+meus ossos queimam como brasas vivas. 
+Como a relva ressequida está o meu coração;
+esqueço até de comer! 
+De tanto gemer estou reduzido a pele e osso. 
+Sou como a coruja do deserto,
+como uma coruja entre as ruínas. 
+Não consigo dormir;
+pareço um pássaro solitário no telhado. 
+Os meus inimigos zombam de mim
+o tempo todo;
+os que me insultam usam o meu nome
+para lançar maldições. 
+Cinzas são a minha comida,
+e com lágrimas misturo o que bebo, 
+por causa da tua indignação e da tua ira,
+pois me rejeitaste e me expulsaste
+para longe de ti. 
+Meus dias são como sombras crescentes;
+sou como a relva que vai murchando. 
+Tu, porém, Senhor,
+no trono reinarás para sempre;
+o teu nome será lembrado
+de geração em geração. 
+Tu te levantarás e terás misericórdia de Sião,
+pois é hora de lhe mostrares compaixão;
+o tempo certo é chegado. 
+Pois as suas pedras são amadas
+pelos teus servos,
+as suas ruínas os enchem de compaixão. 
+Então as nações temerão o nome do Senhor
+e todos os reis da terra a sua glória. 
+Porque o Senhor reconstruirá Sião
+e se manifestará na glória que ele tem. 
+Responderá à oração dos desamparados;
+as suas súplicas não desprezará. 
+Escreva-se isto para as futuras gerações,
+e um povo que ainda será criado
+louvará o Senhor, proclamando: 
+"Do seu santuário nas alturas o Senhor olhou;
+dos céus observou a terra, 
+para ouvir os gemidos dos prisioneiros
+e libertar os condenados à morte". 
+Assim o nome do Senhor
+será anunciado em Sião
+e o seu louvor em Jerusalém, 
+quando os povos e os reinos
+se reunirem para adorar o Senhor. 
+No meio da minha vida
+ele me abateu com sua força;
+abreviou os meus dias. 
+Então pedi:
+"Ó meu Deus, não me leves
+no meio dos meus dias.
+Os teus dias duram por todas as gerações!" 
+No princípio firmaste os fundamentos da terra,
+e os céus são obras das tuas mãos. 
+Eles perecerão, mas tu permanecerás;
+envelhecerão como vestimentas.
+Como roupas tu os trocarás
+e serão jogados fora. 
+Mas tu permaneces o mesmo,
+e os teus dias jamais terão fim. 
+Os filhos dos teus servos
+terão uma habitação;
+os seus descendentes serão estabelecidos
+na tua presença. 
+ Salmo 102
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 128
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_128/
 INFO:root:🔹 Description: Como é feliz quem teme o Senhor,
@@ -539,96 +606,80 @@ pois não me esqueci
 dos teus mandamentos. 
  Salmo 119
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 101
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_101/
-INFO:root:🔹 Description: Cantarei a lealdade e a justiça.
-A ti, Senhor, cantarei louvores! 
-Seguirei o caminho da integridade;
-quando virás ao meu encontro?
-Em minha casa viverei de coração íntegro. 
-Repudiarei todo mal.
-Odeio a conduta dos infiéis;
-jamais me dominará! 
-Longe estou dos perversos de coração;
-não quero envolver-me com o mal. 
-Farei calar ao que difama o próximo às ocultas.
-Não vou tolerar o homem de olhos arrogantes
-e de coração orgulhoso. 
-Meus olhos aprovam os fiéis da terra,
-e eles habitarão comigo.
-Somente quem tem vida íntegra me servirá. 
-Quem pratica a fraude
-não habitará no meu santuário;
-o mentiroso não permanecerá
-na minha presença. 
-Cada manhã fiz calar
-todos os ímpios desta terra;
-eliminei todos os malfeitores
-da cidade do Senhor. 
- Salmo 101
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 385186 characters
-INFO:root:HTML parsed, length: 375254 characters
-INFO:root:Found 3 titles: ['Este dom vale ouro! Veja como recebê-lo', 'Ainda há tempo', 'Que a proteção de Deus esteja sobre ti nesta semana!']
+INFO:root:Response length: 384370 characters
+INFO:root:HTML parsed, length: 374427 characters
+INFO:root:Found 3 titles: ['Crer e obedecer', 'Este dom vale ouro! Veja como recebê-lo', 'Ainda há tempo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['A Bíblia diz que a sabedoria vale mais que muitas ', 'Que o ímpio abandone o seu caminho;\ne o homem mau,', 'Um refúgio é um local para onde vamos para escapar']
-INFO:root:Found 1 dates: ['Segunda, 27 de julho de 2026']
+INFO:root:Found 3 descriptions: ['Quem crê no Filho tem a vida eterna; já quem rejei', 'A Bíblia diz que a sabedoria vale mais que muitas ', 'Que o ímpio abandone o seu caminho;\ne o homem mau,']
+INFO:root:Found 1 dates: ['Terça, 28 de julho de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Este dom vale ouro! Veja como recebê-lo', ID=1929114acb5043e498a04a53685b8f67
+INFO:root:Processing entry 1: Title='Crer e obedecer', ID=055327693464bd46c184e791e5e8fd62
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Este dom vale ouro! Veja como recebê-lo - Palavra de Hoje
+INFO:root:🔹 Title: Crer e obedecer - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: A Bíblia diz que a sabedoria vale mais que muitas riquezas! Quem encontra a sabedoria de Deus encontra paz, segurança e prosperidade. Mas como encontrar essa sabedoria? A resposta é simples: temer a Deus e pedir por sabedoria. O temor do Senhor é o princípio da sabedoria e Deus dá sabedoria a quem pede.
+INFO:root:🔹 Description: Quem crê no Filho tem a vida eterna; já quem rejeita o Filho não verá a vida, mas a ira de Deus permanece sobre ele".
+- João 3:36
 
-Se algum de vocês tem falta de sabedoria, peça-a a Deus, que a todos dá livremente, de boa vontade; e lhe será concedida.
-- Tiago 1:5 
+Crer em Jesus nos transforma completamente. Quando abrimos nossos corações para uma nova vida em Cristo Jesus, tudo muda. Conhecer a Deus e obedecer aos Seus mandamentos se tornam nossos maiores desejos. Portanto, a obediência é o fruto da nossa fé. Cremos em Jesus, nos entregamos a Ele e começamos a viver em obediência.
+É fácil obedecer a alguém que amamos e confiamos, porque sabemos que Ele só quer o melhor para nós. Esse é o coração de Deus Pai. Nele, temos a vida eterna! Em amor, Ele nos chama a crer e confiar, porque nossa salvação é pela fé. Mas, ao obedecer aos Seus mandamentos, expressamos de forma mais tangível nosso amor por Ele e nosso desejo de viver para Ele.
+Com a obediência, tudo em nossas vidas se encaixa. A obediência abre a porta para que vivamos uma vida mais feliz e com mais propósito.
 
+"Nem todo aquele que me diz: 'Senhor, Senhor', entrará no Reino dos céus, mas apenas aquele que faz a vontade de meu Pai que está nos céus.
+- Mateus 7:21
 
-Como é feliz o homem
-que acha a sabedoria,
-o homem que obtém entendimento,
-pois a sabedoria
-é mais proveitosa do que a prata
-e rende mais do que o ouro.
-É mais preciosa do que rubis;
-nada do que você possa desejar
-se compara a ela.
-- Provérbios 3:13-15
-
-Você quer ter uma vida plena e satisfatória? Busque a sabedoria que vem do Senhor! Tema a Deus de todo o coração, reconheça a sua grandeza e o seu senhorio. Vá até ele para receber a verdadeira sabedoria, aquela que o levará a viver dentro da vontade dele. Com essa sabedoria você descobrirá a vida plena que existe em Deus e no serviço a ele.
-Em vez de se concentrar na busca dos prazeres terrenos e na obtenção de riquezas materiais, aprofunde-se em sua caminhada com Deus. Valorize o que ele valoriza e siga dentro do plano dele para sua vida. Você será mais feliz quando começar a buscar as maravilhas que Deus já preparou para você.
-Você teme a Deus e já pediu por sabedoria?
-Encontre sabedoria nesses versículos.
+A obediência é a expressão mais visível do que acontece dentro de nós. É fácil dizer que cremos em Deus e temos fé nele. Viver em obediência diariamente é um compromisso mais difícil e desafiador. A obediência nos chama a deixar de lado nossas preferências e nos concentrar no que Deus deseja e no que agrada ao seu coração.
+Escolha crer em Deus e obedecê-lo em todas as coisas. A vontade dele para você é boa, perfeita e agradável (Romanos 12:2). Viva a vida plena que ele preparou para você. Viva em amor e obediência àquele que o ama mais do que a todos. Viva para Jesus!
+Leia também: Mensagens de fé e esperança em Deus
  
-Se algum de vocês tem falta de sabedoria, peça-a a Deus, que a todos dá livremente, de boa vontade; e lhe será concedida.
-- Tiago 1:5 
+Quem crê no Filho tem a vida eterna; já quem rejeita o Filho não verá a vida, mas a ira de Deus permanece sobre ele".
+- João 3:36
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 395469 characters
-INFO:root:HTML parsed, length: 385085 characters
-INFO:root:Found 3 titles: ['O verdadeiro sucesso na vida cristã', 'Dedique este dia para a glória de Deus!', 'Escolha sorrir']
-INFO:root:Found 4 URLs: ['/sucesso/', '/bom_dia_abencoado_frases_mensagem/', '/dia_melhor/']
-INFO:root:Found 3 descriptions: ['Não deixe de falar as palavras deste Livro da Lei ', 'Assim, quer vocês comam, quer bebam, quer façam qu', 'O coração bem disposto\né remédio eficiente,\nmas o ']
-INFO:root:Found 3 dates: ['JULHO\n\n27\nSEGUNDA', 'JULHO\n\n26\nDOMINGO', 'JULHO\n\n25\nSÁBADO']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O verdadeiro sucesso na vida cristã', ID=e1206f8ca95318341f585276eb50d330
-INFO:root:Processing entry 2: Title='Dedique este dia para a glória de Deus!', ID=88a0afed679e56de5dbdb27f7607ffae
-INFO:root:Processing entry 3: Title='Escolha sorrir', ID=d89a021c6037e55bdd1e3b508b58d2ee
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 395628 characters
+INFO:root:HTML parsed, length: 385224 characters
+INFO:root:Found 3 titles: ['Jesus acalma a tempestade', 'O verdadeiro sucesso na vida cristã', 'Dedique este dia para a glória de Deus!']
+INFO:root:Found 2 URLs: ['/sucesso/', '/bom_dia_abencoado_frases_mensagem/']
+INFO:root:Found 3 descriptions: ['Naquele dia, ao anoitecer, disse ele aos seus disc', 'Não deixe de falar as palavras deste Livro da Lei ', 'Assim, quer vocês comam, quer bebam, quer façam qu']
+INFO:root:Found 3 dates: ['JULHO\n\n28\nTERÇA', 'JULHO\n\n27\nSEGUNDA', 'JULHO\n\n26\nDOMINGO']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Jesus acalma a tempestade', ID=ccebbfbb356523e118b9d4901751e6ee
+INFO:root:Processing entry 2: Title='O verdadeiro sucesso na vida cristã', ID=e1206f8ca95318341f585276eb50d330
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O verdadeiro sucesso na vida cristã
+INFO:root:🔹 Title: Jesus acalma a tempestade
 INFO:root:🔹 URL: https://www.bibliaon.com/sucesso/
+INFO:root:🔹 Description: Naquele dia, ao anoitecer, disse ele aos seus discípulos: "Vamos para o outro lado". Deixando a multidão, eles o levaram no barco, assim como estava. Outros barcos também o acompanhavam. Levantou-se um forte vendaval, e as ondas se lançavam sobre o barco, de forma que este ia se enchendo de água. Jesus estava na popa, dormindo com a cabeça sobre um travesseiro. Os discípulos o acordaram e clamaram: "Mestre, não te importas que morramos?" Ele se levantou, repreendeu o vento e disse ao mar: "Aquiete-se! Acalme-se!" O vento se aquietou, e fez-se completa bonança.
+- Marcos 4:35-39
+
+Os discípulos passavam por uma grande tempestade e Jesus dormia tranquilamente a bordo. Mesmo conscientes de que Jesus estava com eles, os discípulos entraram em desespero. Acordaram o Mestre com cobranças e questionamentos.
+Jesus ouviu as reclamações, levantou-se e acalmou o mar. Logo depois Jesus perguntou aos discípulos: "'Por que vocês estão com tanto medo? Ainda não têm fé?' Eles estavam apavorados e perguntavam uns aos outros: 'Quem é este que até o vento e o mar lhe obedecem?'".
+Existem problemas que parecem difíceis de ser superados. Temos a sensação de estarmos vulneráveis, como num barco em plena tempestade. Deus sabe das nossas dificuldades e está conosco, mas é necessário que tenhamos fé.
+Se somos fiéis à Palavra de Deus, podemos ainda assim passar por dificuldades, por isso devemos voltar os nossos olhos para o que cremos, não para o que tira a nossa fé.
+Jesus acalma a tempestade, mas quer que confiemos nele. A cada tempestade que passamos é uma oportunidade de confiarmos ainda mais em Jesus. Ele não nos abandonará e nem nos fará mal, por isso creia que a tempestade vai passar e que Jesus está contigo em todos os momentos.
+Jesus acalma a tempestade, mas quer que a enfrentemos para que o Seu nome seja glorificado através da nossa fé. Jesus está no seu barco e tudo vai dar certo.
+Jesus acalma a tempestade na sua vida
+
+Por maior que a tempestade o amedronte, confie em Jesus e no Seu poder. Se Ele está contigo, tudo será superado.
+Quanto mais lemos a Palavra de Deus, mais confiamos em Jesus. Fortaleça a sua fé, leia a Bíblia.
+Deus não te abandonou, Jesus é o nosso canal direto com o Pai. Ore, abra o seu coração e fale com Deus sobre as suas dificuldades. Ele quer te ajudar.
+
+Para orar:
+
+Senhor Jesus, sei que estás comigo. Quero confiar mais em Ti. Sei que as tempestades virão, mas sei que podes acalmar qualquer tempestade. Amém.
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: O verdadeiro sucesso na vida cristã
+INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
 INFO:root:🔹 Description: Não deixe de falar as palavras deste Livro da Lei e de meditar nelas de dia e de noite, para que você cumpra fielmente tudo o que nele está escrito. Só então os seus caminhos prosperarão e você será bem-sucedido.
 - Josué 1:8
 
@@ -652,63 +703,6 @@ Para orar:
 Senhor, obrigado pela Tua Palavra, que ilumina o meu caminho e revela a Tua vontade. Dá-me disciplina para buscá-la todos os dias e um coração disposto a obedecer ao que Tu me ensinares. Que minhas decisões sejam guiadas por Ti e que minha vida encontre verdadeiro sucesso em viver para a Tua glória. Em nome de Jesus, amém.
 
 Veja também: Versículos sobre sucesso.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Dedique este dia para a glória de Deus!
-INFO:root:🔹 URL: https://www.bibliaon.com/bom_dia_abencoado_frases_mensagem/
-INFO:root:🔹 Description: Assim, quer vocês comam, quer bebam, quer façam qualquer outra coisa, façam tudo para a glória de Deus.
-- 1 Coríntios 10:31 
-
-Ao acordarmos, somos presenteados com o dom da vida, um dia novo e cheio de oportunidades. Cada respiração, cada momento é uma dádiva vinda das mãos do Criador. Por isso, o convite para hoje é claro: dedique este dia para a glória de Deus!
-Mas o que significa viver para a glória de Deus? Não é sobre grandes feitos ou momentos extraordinários, mas sobre honrar a Deus em cada detalhe da nossa rotina. Seja ao trabalhar com excelência, ao cuidar de nossa família ou ao oferecer uma palavra de encorajamento a alguém, podemos refletir o amor de Cristo em nossas ações.
-O mundo nos pressiona a buscar reconhecimento pessoal e conquistas materiais, mas o chamado do Evangelho é diferente: "negue-se a si mesmo, tome a sua cruz e siga-me" (Lucas 9:23).
-Quando colocamos Deus no centro de tudo, nossos esforços deixam de ser para nossa própria vaidade e apontam para algo maior: o Reino de Deus.
-Ao longo do dia, reserve momentos para oração e reflexão. Agradeça pelas bênçãos e peça força para enfrentar os desafios. Lembre-se de que sua vida é um testemunho vivo e que suas atitudes podem inspirar outros a conhecerem o amor de Cristo.
-Permita que este dia seja um ato de louvor. Sorria para quem cruza seu caminho, faça seu trabalho com alegria e trate todos com bondade. São gestos simples, mas que, movidos pelo Espírito Santo, têm o poder de glorificar a Deus.
-Que ao fim deste dia, você possa olhar para trás e dizer: "Senhor, tudo o que fiz foi para Ti." Viva hoje de forma que o nome de Deus seja exaltado em cada passo. 
-Faça tudo para a glória do Senhor 
-
-
-Comece o dia com oração e gratidão, entregando suas tarefas e desafios a Deus, buscando Sua direção e força.
-
-Realize suas atividades com excelência, lembrando que mesmo nas pequenas tarefas, você pode glorificar a Deus através do trabalho diligente e fiel.
-
-Pratique a bondade, sendo uma luz para os outros por meio de palavras de encorajamento, gestos de ajuda e amor. 
-
-Para orar: 
-
-Senhor, entrego este dia em Tuas mãos. Guia meus passos, palavras e ações para glorificar Teu nome. Dá-me sabedoria, força e amor para refletir Tua graça aos que encontrar. Perdoa minhas falhas e enche-me do Teu Espírito. Que tudo o que eu fizer hoje seja para honrar-Te. Obrigado por Tua bondade e misericórdia. Em nome de Jesus, amém. 
-
-Veja também: Bom dia abençoado: mensagens para um dia de fé e alegria em Deus
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Escolha sorrir
-INFO:root:🔹 URL: https://www.bibliaon.com/dia_melhor/
-INFO:root:🔹 Description: O coração bem disposto
-é remédio eficiente,
-mas o espírito oprimido resseca os ossos.
-- Provérbios 17:22
-
-Em meio às tempestades da vida, somos desafiados a fazer uma escolha difícil, mas a melhor decisão: escolher sorrir. O sorriso é mais do que uma expressão facial; é um reflexo da esperança que reside em nossos corações, uma manifestação de nossa confiança em Deus, independentemente das adversidades que enfrentamos.
-Quando olhamos para as Escrituras, encontramos inúmeras passagens que nos lembram da importância da alegria e da resiliência.
-Deus nos fortalece quando nossas forças parecem esgotadas e nos inspira a enfrentar os desafios com um sorriso confiante. Nos momentos de tribulação, podemos encontrar consolo nas palavras de Jeremias 29:11:
-
-Porque sou eu que conheço os planos que tenho para vocês', diz o Senhor, 'planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro.
-- Jeremias 29:11
-
-Escolher sorrir não significa ignorar as dificuldades, mas sim reconhecer que, com Deus ao nosso lado, somos mais do que vencedores. Que a alegria que provém da fé em Cristo seja a luz que ilumina nosso caminho, mesmo nos dias mais sombrios. Que possamos ser testemunhas vivas do poder transformador de um sorriso escolhido em meio às adversidades da vida.
-Sorria!
-
-Escolher sorrir reflete confiança na resiliência que Deus proporciona, fortalecendo-nos nas adversidades.
-Provérbios 17:22 ressalta que um coração alegre é um bálsamo curativo, incentivando-nos a encontrar alívio e cura na escolha consciente da alegria.
-A alegria persiste nas tribulações, pois sabemos que, ao enfrentar desafios, nossa fé é refinada, resultando em perseverança e, por fim, plena alegria.
-
-Para orar:
-
-Senhor, em meio às tribulações, agradeço pela certeza da minha salvação em Cristo, fonte de alegria eterna. Confio em Tuas promessas, encontrando consolo na certeza de que, assim como alimentas as aves, também provês para mim. Dá-me a alegria que persiste na adversidade, sabendo que em cada desafio, minha fé é fortalecida. Que o sorriso em meu rosto reflita a confiança na Tua fidelidade e amor redentor. Em nome de Jesus, amém.
-
-Veja também:
-
-20 versículos que vão melhorar seu dia 
-Estudo bíblico sobre Alegria: Deus fica feliz com nossa felicidade
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -739,15 +733,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 +++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  51 ++----
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  70 ++----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  32 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  56 ++----
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 103 ++++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |  10 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   6 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 292 +++++++++++++-----------------
- 11 files changed, 233 insertions(+), 297 deletions(-)
+ output.log                                | 356 ++++++++++++++----------------
+ 11 files changed, 314 insertions(+), 339 deletions(-)
