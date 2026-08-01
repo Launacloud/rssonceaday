@@ -1,38 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 192025 characters
-INFO:root:HTML parsed, length: 169843 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (31/07/2026)', 'Palavra de Ontem (30/07/2026)', 'Palavra de Anteontem (29/07/2026)']
-INFO:root:Found 3 URLs: ['/contraespionagem/', '/interdicao/', '/informacional/']
-INFO:root:Found 10 descriptions: ['substantivo feminino Ação ou efeito de combater e ', 'Classe gramatical:substantivo feminino', 'Sílabas:con-tra-es-pi-o-na-gem']
-INFO:root:Found 3 dates: ['Palavra de Hoje (31/07/2026)', 'Palavra de Ontem (30/07/2026)', 'Palavra de Anteontem (29/07/2026)']
+INFO:root:Response length: 192639 characters
+INFO:root:HTML parsed, length: 170273 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (01/08/2026)', 'Palavra de Ontem (31/07/2026)', 'Palavra de Anteontem (30/07/2026)']
+INFO:root:Found 3 URLs: ['/tigrinho/', '/contraespionagem/', '/interdicao/']
+INFO:root:Found 11 descriptions: ['substantivo masculino [Linguística] Língua falada ', 'Sinônimos:\n\ntigré', 'Sílabas:ti-gri-nho']
+INFO:root:Found 3 dates: ['Palavra de Hoje (01/08/2026)', 'Palavra de Ontem (31/07/2026)', 'Palavra de Anteontem (30/07/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (31/07/2026)', ID=842f8789e886c83439289a03d710633b
-INFO:root:Processing entry 2: Title='Palavra de Ontem (30/07/2026)', ID=c02870166cd8e46a21254f9ac0c882ff
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/07/2026)', ID=5e3b97982defb058b272b91acc4698a2
+INFO:root:Processing entry 1: Title='Palavra de Hoje (01/08/2026)', ID=8bb929dadc0bbc8b99ca4b8ce13ea9f0
+INFO:root:Processing entry 2: Title='Palavra de Ontem (31/07/2026)', ID=4c3ee74718392d42ac69b5d653860edb
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/07/2026)', ID=48cf890423e80ea5ce89e1f2e45e7f9d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (31/07/2026) - Significado completo de contraespionagem:
-INFO:root:🔹 URL: https://www.dicio.com.br/contraespionagem/
-INFO:root:🔹 Description: substantivo feminino Ação ou efeito de combater e prevenir atividades de espiões inimigos, avaliando ameaças que possam prejudicar os interesses do país.Ação ou atividade que consiste em lutar contra, impedir ou prevenir que organizações tenham suas informações confidenciais divulgadas ou fiquem sob o domínio de nações inimigas.Organização que tem como propósito esse tipo de atividade.Etimologia (origem da palavra contraespionagem). A palavra contraespionagem tem sua origem pela junção de “contra-“, do latim “contra” com o sentido de ao contrário, e da palavra espionagem.
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (30/07/2026) - Significado completo de interdição:
-INFO:root:🔹 URL: https://www.dicio.com.br/interdicao/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:con-tra-es-pi-o-na-gem
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (29/07/2026) - Significado completo de informacional:
-INFO:root:🔹 URL: https://www.dicio.com.br/informacional/
-INFO:root:🔹 Description: Sílabas:con-tra-es-pi-o-na-gem
+INFO:root:🔹 Title: Palavra de Hoje (01/08/2026) - Significado completo de tigrinho:
+INFO:root:🔹 URL: https://www.dicio.com.br/tigrinho/
+INFO:root:🔹 Description: substantivo masculino [Linguística] Língua falada pelos trigrés, etnia que habita a Eritreia e o Sudão.[Etnologia] População que tem como idioma o tigré, língua semítica falada em alguns lugares da Eritreia e do Sudão (países africanos).adjetivo Relativo ou próprio dos tigrés: costumes tigrinhos.[Gramática] A grafia preferencial para o diminutivo de tigre é tigrezinho.Etimologia (origem da palavra tigrinho). A palavra tigrinho tem sua origem da palavra tigré, topônimo de atribuído à região norte da Etiópia, e do sufixo -inho.
  
 Sinônimos:
 
-proibição, inibição, veto, obstrução, impedimento, vedação, negação, oposição, impedição 
+tigré 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (31/07/2026) - Significado completo de contraespionagem:
+INFO:root:🔹 URL: https://www.dicio.com.br/contraespionagem/
+INFO:root:🔹 Description: Sinônimos:
+
+tigré
+ Sílabas:ti-gri-nho
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (30/07/2026) - Significado completo de interdição:
+INFO:root:🔹 URL: https://www.dicio.com.br/interdicao/
+INFO:root:🔹 Description: Sílabas:ti-gri-nho
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +42,76 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 383520 characters
-INFO:root:HTML parsed, length: 373103 characters
-INFO:root:Found 1 titles: ['Tiago 1:5']
-INFO:root:Found 1 URLs: ['/versiculo/tiago_1_5/']
-INFO:root:Found 1 descriptions: ['Se algum de vocês tem falta de sabedoria, peça-a a']
+INFO:root:Response length: 383601 characters
+INFO:root:HTML parsed, length: 373184 characters
+INFO:root:Found 1 titles: ['Sofonias 3:17']
+INFO:root:Found 1 URLs: ['/versiculo/sofonias_3_17/']
+INFO:root:Found 1 descriptions: ['O Senhor, o seu Deus,\nestá em seu meio,\npoderoso p']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Tiago 1:5', ID=e7980644a3b3172f7b622ad036e6bcb1
+INFO:root:Processing entry 1: Title='Sofonias 3:17', ID=c3f6d28ea99d49ce6cfd5b7e21bfb9b1
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Tiago 1:5
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_1_5/
-INFO:root:🔹 Description: Se algum de vocês tem falta de sabedoria, peça-a a Deus, que a todos dá livremente, de boa vontade; e lhe será concedida. Tiago 1:5
+INFO:root:🔹 Title: Sofonias 3:17
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/sofonias_3_17/
+INFO:root:🔹 Description: O Senhor, o seu Deus,
+está em seu meio,
+poderoso para salvar.
+Ele se regozijará em você;
+com o seu amor a renovará,
+ele se regozijará em você
+com brados de alegria". Sofonias 3:17
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 380922 characters
-INFO:root:HTML parsed, length: 371529 characters
-INFO:root:Found 3 titles: ['Salmo 10', 'Salmo 62', 'Salmo 75']
-INFO:root:Found 3 URLs: ['/salmos_10/', '/salmos_62/', '/salmos_75/']
-INFO:root:Found 3 descriptions: ['Senhor, por que estás tão longe?\nPor que te escond', 'A minha alma descansa somente em Deus;\ndele vem a ', 'Damos-te graças, ó Deus,\ndamos-te graças, pois per']
-INFO:root:Found 3 dates: ['31 de Julho de 2026', '30 de Julho de 2026', '29 de Julho de 2026']
+INFO:root:Response length: 380550 characters
+INFO:root:HTML parsed, length: 371179 characters
+INFO:root:Found 3 titles: ['Salmo 4', 'Salmo 10', 'Salmo 62']
+INFO:root:Found 3 URLs: ['/salmos_4/', '/salmos_10/', '/salmos_62/']
+INFO:root:Found 3 descriptions: ['Responde-me quando clamo,\nó Deus que me fazes just', 'Senhor, por que estás tão longe?\nPor que te escond', 'A minha alma descansa somente em Deus;\ndele vem a ']
+INFO:root:Found 3 dates: ['1 de Agosto de 2026', '31 de Julho de 2026', '30 de Julho de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
-INFO:root:Processing entry 2: Title=' Salmo 62', ID=431dedfd9d0be64d1669d23c4e7c973c
-INFO:root:Processing entry 3: Title=' Salmo 75', ID=c2d6745375247eaf0fba5b419098a069
+INFO:root:Processing entry 1: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
+INFO:root:Processing entry 2: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
+INFO:root:Processing entry 3: Title=' Salmo 62', ID=431dedfd9d0be64d1669d23c4e7c973c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 4
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_4/
+INFO:root:🔹 Description: Responde-me quando clamo,
+ó Deus que me fazes justiça!
+Dá-me alívio da minha angústia;
+tem misericórdia de mim
+e ouve a minha oração. 
+Até quando vocês, ó poderosos,
+ultrajarão a minha honra?
+Até quando estarão amando ilusões
+e buscando mentiras? 
+Saibam que o Senhor escolheu o piedoso;
+o Senhor ouvirá quando eu o invocar. 
+Quando vocês ficarem irados, não pequem;
+ao deitar-se, reflitam nisso
+e aquietem-se. 
+Ofereçam sacrifícios como Deus exige
+e confiem no Senhor. 
+Muitos perguntam:
+"Quem nos fará desfrutar o bem?"
+Faze, ó Senhor, resplandecer sobre nós
+a luz do teu rosto! 
+Encheste o meu coração de alegria,
+alegria maior do que a daqueles
+que têm fartura de trigo e de vinho. 
+Em paz me deito e logo adormeço,
+pois só tu, Senhor,
+me fazes viver em segurança. 
+ Salmo 4
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 10
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_10/
 INFO:root:🔹 Description: Senhor, por que estás tão longe?
@@ -171,97 +209,93 @@ Contigo também, Senhor, está a fidelidade.
 conforme o seu procedimento. 
  Salmo 62
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 75
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_75/
-INFO:root:🔹 Description: Damos-te graças, ó Deus,
-damos-te graças, pois perto está o teu nome;
-todos falam dos teus feitos maravilhosos. 
-Tu dizes: "Eu determino o tempo
-em que julgarei com justiça. 
-Quando treme a terra
-com todos os seus habitantes,
-sou eu que mantenho firmes
-as suas colunas. 
-"Aos arrogantes digo: Parem de vangloriar-se!
-E aos ímpios: Não se rebelem! 
-Não se rebelem contra os céus;
-não falem com insolência". 
-Não é do oriente nem do ocidente
-nem do deserto que vem a exaltação. 
-É Deus quem julga:
-Humilha a um, a outro exalta. 
-Na mão do Senhor está um cálice
-cheio de vinho espumante e misturado;
-ele o derrama, e todos os ímpios da terra
-o bebem até a última gota. 
-Quanto a mim,
-para sempre anunciarei essas coisas;
-cantarei louvores ao Deus de Jacó. 
-Destruirei o poder de todos os ímpios,
-mas o poder dos justos aumentará. 
- Salmo 75
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 384505 characters
-INFO:root:HTML parsed, length: 374542 characters
-INFO:root:Found 3 titles: ['Perdoados para perdoar', '3 razões para ser grato a Deus', 'Não perca sua esperança! Olhe para Jesus']
+INFO:root:Response length: 384951 characters
+INFO:root:HTML parsed, length: 374997 characters
+INFO:root:Found 3 titles: ['Seja grato em todos os momentos', 'Perdoados para perdoar', '3 razões para ser grato a Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Antes sede uns para com os outros benignos, miseri', 'A gratidão é uma das virtudes mais poderosas que p', 'Nos momentos mais difíceis a esperança em Jesus no']
-INFO:root:Found 1 dates: ['Sexta, 31 de julho de 2026']
+INFO:root:Found 3 descriptions: ['Deem graças ao Senhor porque ele é bom;\no seu amor', 'Antes sede uns para com os outros benignos, miseri', 'A gratidão é uma das virtudes mais poderosas que p']
+INFO:root:Found 1 dates: ['Sábado, 1 de agosto de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Perdoados para perdoar', ID=ea4c55a028f3543fe9f8b5bec22f5c33
+INFO:root:Processing entry 1: Title='Seja grato em todos os momentos', ID=dd00be3a1534f1f185704e6026176672
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Perdoados para perdoar - Palavra de Hoje
+INFO:root:🔹 Title: Seja grato em todos os momentos - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Antes sede uns para com os outros benignos, misericordiosos, perdoando-vos uns aos outros, como também Deus vos perdoou em Cristo.
-- Efésios 4:32
+INFO:root:🔹 Description: Deem graças ao Senhor porque ele é bom;
+o seu amor dura para sempre.
+- Salmos 107:1
 
-Você foi perdoado por Jesus, por isso, pode também perdoar. Perdoar é reconhecer a graça recebida por Deus e assim, conceder de igual forma o perdão a quem nos ofendeu. É imitar a Jesus Cristo na experiência milagrosa de perdoar.
-O outro caminho inclui: ser vingativo, guardar mágoa, ficar rancoroso ou se fazer de vítima. Mas nenhum dessas condições são da vontade de Deus nem são benéficas para ninguém. Na verdade, a ausência de perdão aprisiona o ofendido ao ofensor de maneira claustrofóbica.
-Contudo, quem já recebeu o perdão através de Cristo já está capacitado a perdoar como Ele fez. Não é fácil. Mas ore ao Senhor entregando seus sentimentos negativos e peça ajuda para conseguir perdoar, agora mesmo.
+Quando tudo vai bem, a alma humana tende a se acomodar. As bênçãos chegam, as orações são respondidas, e o coração, em vez de se erguer em louvor, muitas vezes se distrai. Esse é um perigo silencioso: desfrutar dos dons de Deus e esquecer do abençoador.
+A ingratidão não é apenas a ausência de palavras, mas um distanciamento do coração. Ela surge quando passamos a considerar as vitórias como mérito próprio e as conquistas como resultado exclusivo de nossos esforços.
+A Palavra nos lembra que toda boa dádiva vem do alto, e que a gratidão verdadeira não depende de circunstâncias. Ela é uma decisão espiritual, um chamado para todo momento:
 
-Portanto, como eleitos de Deus, santos e amados, revistam-se de profunda compaixão, de bondade, de humildade, de mansidão, de paciência.
-Suportem-se uns aos outros e perdoem-se mutuamente, caso alguém tenha motivo de queixa contra outra pessoa. Assim como o Senhor perdoou vocês, perdoem também uns aos outros.
-- Colossenses 3:12-13
+Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.
+- 1 Tessalonicenses 5:18
 
-Também pode lhe interessar:
-
-Lições sobre o perdão
-70x7 - Estudo Bíblico sobre o Perdão
-Mitos sobre perdoar
+Agradecer em todas as circunstâncias inclui os dias de abundância, quando é mais fácil esquecer. Jesus mostrou esse caminho: agradeceu antes do pão multiplicado e antes da cruz. Quando reconhecemos a mão de Deus na nossa vida, a fé se fortalece e o orgulho diminui.
+Por isso, cultive um coração grato mesmo quando tudo parece perfeito. A prosperidade também é um teste espiritual: se você não vigiar, ela pode afastá-lo de Deus; mas, transformada em agradecimento, cada bênção vira um altar de louvor.
+Decida lembrar, reconhecer e expressar sua gratidão. Não espere a dor para buscar a Deus; celebre a presença dele enquanto há paz. Um coração grato permanece firme, conectado e sensível à voz do Senhor, e é na constância da gratidão que você vive cheio da presença de Deus. Que você nunca perca a sensibilidade de agradecer pelas coisas simples, nem a consciência de que tudo vem dele. Assim, a sua vida se torna um testemunho vivo de louvor, honrando Aquele que é digno de toda glória.
+Veja também: Estudo bíblico sobre gratidão (com exemplos)
  
 Lições sobre o perdão
 70x7 - Estudo Bíblico sobre o Perdão
 Mitos sobre perdoar
 
  
-Antes sede uns para com os outros benignos, misericordiosos, perdoando-vos uns aos outros, como também Deus vos perdoou em Cristo.
-- Efésios 4:32
+Deem graças ao Senhor porque ele é bom;
+o seu amor dura para sempre.
+- Salmos 107:1
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 393714 characters
-INFO:root:HTML parsed, length: 383327 characters
-INFO:root:Found 3 titles: ['Contando os nossos dias com sabedoria', 'Abra as portas do seu coração', 'Jesus é a melhor vacina!']
+INFO:root:Response length: 395281 characters
+INFO:root:HTML parsed, length: 384900 characters
+INFO:root:Found 3 titles: ['Mantenha-se focado em Deus', 'Contando os nossos dias com sabedoria', 'Abra as portas do seu coração']
 INFO:root:Found 2 URLs: ['/salmo_90_contar_os_dias/', '/como_buscar_e_se_aproximar_de_deus/']
-INFO:root:Found 3 descriptions: ['Essa mensagem é um convite a olharmos para a vida ', 'Eis que estou à porta e bato. Se alguém ouvir a mi', 'Ele mesmo levou em seu corpo os nossos pecados sob']
-INFO:root:Found 3 dates: ['JULHO\n\n31\nSEXTA', 'JULHO\n\n30\nQUINTA', 'JULHO\n\n29\nQUARTA']
+INFO:root:Found 3 descriptions: ['Mantenham o pensamento nas coisas do alto, e não n', 'Essa mensagem é um convite a olharmos para a vida ', 'Eis que estou à porta e bato. Se alguém ouvir a mi']
+INFO:root:Found 3 dates: ['AGOSTO\n\n1\nSÁBADO', 'JULHO\n\n31\nSEXTA', 'JULHO\n\n30\nQUINTA']
 INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Contando os nossos dias com sabedoria', ID=83f27ae2978844983eaa42def2b2954d
-INFO:root:Processing entry 2: Title='Abra as portas do seu coração', ID=82cf7392b7582dd6f7a0fdad34e7ef61
+INFO:root:Processing entry 1: Title='Mantenha-se focado em Deus', ID=8b41422ab711100ee604accb22838caa
+INFO:root:Processing entry 2: Title='Contando os nossos dias com sabedoria', ID=83f27ae2978844983eaa42def2b2954d
 INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Contando os nossos dias com sabedoria
+INFO:root:🔹 Title: Mantenha-se focado em Deus
 INFO:root:🔹 URL: https://www.bibliaon.com/salmo_90_contar_os_dias/
+INFO:root:🔹 Description: Mantenham o pensamento nas coisas do alto, e não nas coisas terrenas.
+- Colossenses 3:2
+
+Temos à nossa disposição inúmeros atrativos e distrações, à distância de um clique. Parece que o mundo todo deseja tirar nossa atenção do que é importante, atraindo-a para coisas supérfluas, vãs e sem sentido. Mesmo assim, nada disso é capaz de preencher-nos nem satisfazer os anseios e dificuldades que trazemos no coração.
+Por isso, tire suas ideias e confiança das coisas passageiras dessa terra, ponha-as no alto, no Altíssimo.
+Foque sua mente em Cristo e mantenha-a focada Nele. Tudo muda quando você olha para cima. Persevere, entregando-se ao Senhor com fé e amor. O socorro vem do alto (de Deus), não desse mundo.
+Mas entenda, é difícil pensar nas coisas celestiais quando uma enxurrada de notícias sensacionalistas, fake news, entretenimentos, fofocas e tantas informações inúteis chegam até nós. Quando deixamos a nossa mente à deriva na imensidão de informações dispensáveis, corremos o risco de perder de vista o que é principal.
+Mantenha seu foco em Jesus
+
+
+Pense em Cristo. Esteja focado no Reino de Deus e na Sua justiça (Mateus 6:33); todo o resto deve ter importância secundária na sua vida.
+
+Seja seletivo. É importante sermos informados e conhecedores das atualidades (até para orar e dialogar com outros). Mas sem excesso. Não se afogue em informação desnecessária.
+
+Purifique seus pensamentos. Veja se o que povoa a sua mente combina com o que ensinam a Bíblia e o Espírito Santo. Se não, descarte logo.
+
+Coloque Deus em primeiro lugar. Leia a Bíblia e faça dela a sua prioridade do dia. A fé e o conhecimento que vêm dela vão te firmar nas tempestades da vida.
+
+Ore mais. Gaste mais tempo na presença de Deus e menos nas redes sociais. Pense em Deus ao longo do dia. Medite, ore e ouça o Senhor através da Sua Palavra.
+
+Para orar:
+
+Senhor nosso Deus, ajuda-me a manter meus pensamentos focados nas coisas do Alto, na Tua Palavra e não neste mundo mau e passageiro. Que eu possa raciocinar tendo a mente transformada por Teu amor e graça. Limpa-me. E, perdoa-me por perder tanto tempo enchendo a cabeça com distrações e coisas tão inúteis. Ensina-me a aproveitar melhor o tempo de vida que me dás, para amar e servir ao Senhor e ao meu próximo. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Contando os nossos dias com sabedoria
+INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
 INFO:root:🔹 Description: Essa mensagem é um convite a olharmos para a vida de forma diferente, com gratidão e propósito.
 
 Ensina-nos a contar os nossos dias, para que alcancemos coração sábio.
@@ -286,37 +320,6 @@ Para orar:
 Senhor, ensina-me a contar meus dias, vivendo com propósito e gratidão. Ajuda-me a buscar Tua sabedoria em cada escolha, valorizando o que é eterno. Dá-me um coração cheio de amor, paciência e discernimento, para que eu faça o bem e siga o Teu caminho. Que minha vida reflita Tua graça. Amém.
 
 Veja também: Ensina-nos a contar os nossos dias (Estudo Bíblico)
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Abra as portas do seu coração
-INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
-INFO:root:🔹 Description: Eis que estou à porta e bato. Se alguém ouvir a minha voz e abrir a porta, entrarei e cearei com ele, e ele comigo.
-- Apocalipse 3:20 
-
-Quantas vezes passamos por dias em que tudo parece estar trancado? Portas de oportunidades fechadas, sonhos engavetados, sentimentos escondidos. Nessas horas, a voz de Deus nos chama, não apenas para mudar as circunstâncias externas, mas para transformar o nosso interior.
-Jesus não força entrada. Ele bate. Espera. Chama com amor. E só entra se você abrir. Abrir o coração é mais do que somente sentir algo bonito, é um ato de rendição, de confiança. Significa entregar a Ele não só os bons sentimentos, mas também as dores, medos e inseguranças.
-Muitas vezes mantemos nosso coração fechado por traumas, decepções ou por acharmos que não somos dignos de receber o amor de Deus. Mas a verdade é que Ele não espera perfeição, Ele quer sinceridade. Ele quer morar em você, curar o que está quebrado e renovar o que foi perdido.
-Quando abrimos a porta do coração, damos espaço para a paz que excede todo entendimento. Recebemos direção, consolo e força para continuar. E, mais importante, passamos a viver em comunhão com Aquele que nos conhece melhor do que nós mesmos.
-Hoje, faça essa escolha. Não adie mais. Jesus está à porta. Ele quer cear com você. Quer fazer morada. Abra o seu coração.  
-
-Meu filho, dê-me o seu coração;
-mantenha os seus olhos
-em meus caminhos,
-- Provérbios 23:26
-
-Deixe Cristo entrar no seu coração 
-
-
-Escute a voz de Jesus: Reserve momentos de silêncio e oração para ouvir a voz de Cristo. Ele deseja guiar cada passo seu com sabedoria e compaixão.
-
-Entregue suas dores e medos: Não esconda suas feridas de Jesus. Confie a Ele suas angústias, traumas e inseguranças. Cristo transforma aquilo que parece perdido em fonte de cura e esperança renovada.
-
-Cultive comunhão diária com Deus: Abra seu coração todos os dias através da Palavra, louvor e oração. A presença de Cristo traz direção até nos dias mais difíceis da vida.
-
-Para orar: 
-
-Senhor Jesus, eu abro meu coração para Ti. Entra, transforma minha vida, cura minhas feridas e guia meus passos. Que Tua paz habite em mim e que eu viva segundo a Tua vontade. Amém.
-
-Veja também: Como se aproximar de Deus segundo a Bíblia
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -347,15 +350,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  27 ++-
- feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  35 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  53 +++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  30 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 129 +++++-------
+ feeds/salmo_do_dia/atom.xml               |  58 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 328 +++++++++++++++---------------
- 11 files changed, 295 insertions(+), 298 deletions(-)
+ output.log                                | 279 +++++++++++++++---------------
+ 11 files changed, 248 insertions(+), 254 deletions(-)
