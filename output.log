@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 192639 characters
-INFO:root:HTML parsed, length: 170273 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (01/08/2026)', 'Palavra de Ontem (31/07/2026)', 'Palavra de Anteontem (30/07/2026)']
-INFO:root:Found 3 URLs: ['/tigrinho/', '/contraespionagem/', '/interdicao/']
-INFO:root:Found 11 descriptions: ['substantivo masculino [Linguística] Língua falada ', 'Sinônimos:\n\ntigré', 'Sílabas:ti-gri-nho']
-INFO:root:Found 3 dates: ['Palavra de Hoje (01/08/2026)', 'Palavra de Ontem (31/07/2026)', 'Palavra de Anteontem (30/07/2026)']
+INFO:root:Response length: 192005 characters
+INFO:root:HTML parsed, length: 169502 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (02/08/2026)', 'Palavra de Ontem (01/08/2026)', 'Palavra de Anteontem (31/07/2026)']
+INFO:root:Found 3 URLs: ['/azarado/', '/tigrinho/', '/contraespionagem/']
+INFO:root:Found 12 descriptions: ['substantivo masculino Pessoa com azar; quem não te', 'Sinônimos:\n\npesado, infeliz, infortunado, azarento', 'Antônimos:\n\nsortudo, bem-aventurado']
+INFO:root:Found 3 dates: ['Palavra de Hoje (02/08/2026)', 'Palavra de Ontem (01/08/2026)', 'Palavra de Anteontem (31/07/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (01/08/2026)', ID=8bb929dadc0bbc8b99ca4b8ce13ea9f0
-INFO:root:Processing entry 2: Title='Palavra de Ontem (31/07/2026)', ID=4c3ee74718392d42ac69b5d653860edb
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/07/2026)', ID=48cf890423e80ea5ce89e1f2e45e7f9d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (02/08/2026)', ID=ac913e74b4370ca9b793e31f64db2ec3
+INFO:root:Processing entry 2: Title='Palavra de Ontem (01/08/2026)', ID=84bff022e8da6bcc85acb4815ed50373
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (31/07/2026)', ID=f8bc5e97ae45a3324ac9f8afd9aea318
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (01/08/2026) - Significado completo de tigrinho:
-INFO:root:🔹 URL: https://www.dicio.com.br/tigrinho/
-INFO:root:🔹 Description: substantivo masculino [Linguística] Língua falada pelos trigrés, etnia que habita a Eritreia e o Sudão.[Etnologia] População que tem como idioma o tigré, língua semítica falada em alguns lugares da Eritreia e do Sudão (países africanos).adjetivo Relativo ou próprio dos tigrés: costumes tigrinhos.[Gramática] A grafia preferencial para o diminutivo de tigre é tigrezinho.Etimologia (origem da palavra tigrinho). A palavra tigrinho tem sua origem da palavra tigré, topônimo de atribuído à região norte da Etiópia, e do sufixo -inho.
+INFO:root:🔹 Title: Palavra de Hoje (02/08/2026) - Significado completo de azarado:
+INFO:root:🔹 URL: https://www.dicio.com.br/azarado/
+INFO:root:🔹 Description: substantivo masculino Pessoa com azar; quem não tem sorte; zicado, pé-frio.adjetivo [Popular] Que foi alvo de sedução: o ator foi super azarado da festa!Que não tem sorte; azarento: nunca conseguiu ganhar no jogo, era muito azarado!Etimologia (origem da palavra azarado). A palavra azarado tem sua origem. como particípio passado do verbo azarar.
  
 Sinônimos:
 
-tigré 
+pesado, infeliz, infortunado, azarento, caipora, desventurado, amaldiçoado, fadado, desafortunado 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (31/07/2026) - Significado completo de contraespionagem:
-INFO:root:🔹 URL: https://www.dicio.com.br/contraespionagem/
+INFO:root:🔹 Title: Palavra de Ontem (01/08/2026) - Significado completo de tigrinho:
+INFO:root:🔹 URL: https://www.dicio.com.br/tigrinho/
 INFO:root:🔹 Description: Sinônimos:
 
-tigré
- Sílabas:ti-gri-nho
+pesado, infeliz, infortunado, azarento, caipora, desventurado, amaldiçoado, fadado, desafortunado
+ 
+Antônimos:
+
+sortudo, bem-aventurado 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (30/07/2026) - Significado completo de interdição:
-INFO:root:🔹 URL: https://www.dicio.com.br/interdicao/
-INFO:root:🔹 Description: Sílabas:ti-gri-nho
- Classe gramatical:substantivo feminino
+INFO:root:🔹 Title: Palavra de Anteontem (31/07/2026) - Significado completo de contraespionagem:
+INFO:root:🔹 URL: https://www.dicio.com.br/contraespionagem/
+INFO:root:🔹 Description: Antônimos:
+
+sortudo, bem-aventurado
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,46 +48,82 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 383601 characters
-INFO:root:HTML parsed, length: 373184 characters
-INFO:root:Found 1 titles: ['Sofonias 3:17']
-INFO:root:Found 1 URLs: ['/versiculo/sofonias_3_17/']
-INFO:root:Found 1 descriptions: ['O Senhor, o seu Deus,\nestá em seu meio,\npoderoso p']
+INFO:root:Response length: 384069 characters
+INFO:root:HTML parsed, length: 373652 characters
+INFO:root:Found 1 titles: ['Hebreus 4:12-13']
+INFO:root:Found 1 URLs: ['/versiculo/hebreus_4_12-13/']
+INFO:root:Found 1 descriptions: ['Pois a palavra de Deus é viva e eficaz, e mais afi']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Sofonias 3:17', ID=c3f6d28ea99d49ce6cfd5b7e21bfb9b1
+INFO:root:Processing entry 1: Title='Hebreus 4:12-13', ID=08c2aed69a5c6ee4f83c73463739f8b4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Sofonias 3:17
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/sofonias_3_17/
-INFO:root:🔹 Description: O Senhor, o seu Deus,
-está em seu meio,
-poderoso para salvar.
-Ele se regozijará em você;
-com o seu amor a renovará,
-ele se regozijará em você
-com brados de alegria". Sofonias 3:17
+INFO:root:🔹 Title: Hebreus 4:12-13
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_4_12-13/
+INFO:root:🔹 Description: Pois a palavra de Deus é viva e eficaz, e mais afiada que qualquer espada de dois gumes; ela penetra até o ponto de dividir alma e espírito, juntas e medulas, e julga os pensamentos e as intenções do coração. Nada, em toda a criação, está oculto aos olhos de Deus. Tudo está descoberto e exposto diante dos olhos daquele a quem havemos de prestar contas. Hebreus 4:12-13
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 380550 characters
-INFO:root:HTML parsed, length: 371179 characters
-INFO:root:Found 3 titles: ['Salmo 4', 'Salmo 10', 'Salmo 62']
-INFO:root:Found 3 URLs: ['/salmos_4/', '/salmos_10/', '/salmos_62/']
-INFO:root:Found 3 descriptions: ['Responde-me quando clamo,\nó Deus que me fazes just', 'Senhor, por que estás tão longe?\nPor que te escond', 'A minha alma descansa somente em Deus;\ndele vem a ']
-INFO:root:Found 3 dates: ['1 de Agosto de 2026', '31 de Julho de 2026', '30 de Julho de 2026']
+INFO:root:Response length: 380864 characters
+INFO:root:HTML parsed, length: 371492 characters
+INFO:root:Found 3 titles: ['Salmo 143', 'Salmo 4', 'Salmo 10']
+INFO:root:Found 3 URLs: ['/salmos_143/', '/salmos_4/', '/salmos_10/']
+INFO:root:Found 3 descriptions: ['Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Responde-me quando clamo,\nó Deus que me fazes just', 'Senhor, por que estás tão longe?\nPor que te escond']
+INFO:root:Found 3 dates: ['2 de Agosto de 2026', '1 de Agosto de 2026', '31 de Julho de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
-INFO:root:Processing entry 2: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
-INFO:root:Processing entry 3: Title=' Salmo 62', ID=431dedfd9d0be64d1669d23c4e7c973c
+INFO:root:Processing entry 1: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
+INFO:root:Processing entry 2: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
+INFO:root:Processing entry 3: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 143
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_143/
+INFO:root:🔹 Description: Ouve, Senhor, a minha oração,
+dá ouvidos à minha súplica;
+responde-me
+por tua fidelidade e por tua justiça. 
+Mas não leves o teu servo a julgamento,
+pois ninguém é justo diante de ti. 
+O inimigo persegue-me
+e esmaga-me ao chão;
+ele me faz morar nas trevas,
+como os que há muito morreram. 
+O meu espírito desanima;
+o meu coração está em pânico. 
+Eu me recordo dos tempos antigos;
+medito em todas as tuas obras
+e considero o que as tuas mãos têm feito. 
+Estendo as minhas mãos para ti;
+como a terra árida, tenho sede de ti. 
+Apressa-te em responder-me, Senhor!
+O meu espírito se abate.
+Não escondas de mim o teu rosto,
+ou serei como os que descem à cova. 
+Faze-me ouvir do teu amor leal pela manhã,
+pois em ti confio.
+Mostra-me o caminho que devo seguir,
+pois a ti elevo a minha alma. 
+Livra-me dos meus inimigos, Senhor,
+pois em ti eu me abrigo. 
+Ensina-me a fazer a tua vontade,
+pois tu és o meu Deus;
+que o teu bondoso Espírito
+me conduza por terreno plano. 
+Preserva-me a vida, Senhor,
+por causa do teu nome;
+por tua justiça, tira-me desta angústia. 
+E no teu amor leal,
+aniquila os meus inimigos;
+destrói todos os meus adversários,
+pois sou teu servo. 
+ Salmo 143
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 4
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_4/
 INFO:root:🔹 Description: Responde-me quando clamo,
@@ -166,110 +208,89 @@ a fim de que o homem, que é pó,
 já não cause terror. 
  Salmo 10
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 62
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_62/
-INFO:root:🔹 Description: A minha alma descansa somente em Deus;
-dele vem a minha salvação. 
-Somente ele é a rocha que me salva;
-ele é a minha torre segura! Jamais serei abalado! 
-Até quando todos vocês atacarão um homem
-que está como um muro inclinado,
-como uma cerca prestes a cair? 
-Todo o propósito deles é derrubá-lo
-de sua posição elevada;
-eles se deliciam com mentiras.
-Com a boca abençoam,
-mas no íntimo amaldiçoam. 
-Descanse somente em Deus,
-ó minha alma;
-dele vem a minha esperança. 
-Somente ele é a rocha que me salva;
-ele é a minha torre alta! Não serei abalado! 
-A minha salvação e a minha honra
-de Deus dependem;
-ele é a minha rocha firme, o meu refúgio. 
-Confie nele em todos os momentos, ó povo;
-derrame diante dele o coração,
-pois ele é o nosso refúgio. 
-Os homens de origem humilde
-não passam de um sopro,
-os de origem importante
-não passam de mentira;
-pesados na balança,
-juntos não chegam ao peso de um sopro. 
-Não confiem na extorsão
-nem ponham a esperança em bens roubados;
-se as suas riquezas aumentam,
-não ponham nelas o coração. 
-Uma vez Deus falou,
-duas vezes eu ouvi,
-que o poder pertence a Deus. 
-Contigo também, Senhor, está a fidelidade.
-É certo que retribuirás a cada um
-conforme o seu procedimento. 
- Salmo 62
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 384951 characters
-INFO:root:HTML parsed, length: 374997 characters
-INFO:root:Found 3 titles: ['Seja grato em todos os momentos', 'Perdoados para perdoar', '3 razões para ser grato a Deus']
+INFO:root:Response length: 384544 characters
+INFO:root:HTML parsed, length: 374582 characters
+INFO:root:Found 3 titles: ['Conheça a maravilha de viver em união', 'Seja grato em todos os momentos', 'Perdoados para perdoar']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Deem graças ao Senhor porque ele é bom;\no seu amor', 'Antes sede uns para com os outros benignos, miseri', 'A gratidão é uma das virtudes mais poderosas que p']
-INFO:root:Found 1 dates: ['Sábado, 1 de agosto de 2026']
+INFO:root:Found 3 descriptions: ['Deus não criou ninguém para caminhar isolado. Ele ', 'Deem graças ao Senhor porque ele é bom;\no seu amor', 'Antes sede uns para com os outros benignos, miseri']
+INFO:root:Found 1 dates: ['Domingo, 2 de agosto de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Seja grato em todos os momentos', ID=dd00be3a1534f1f185704e6026176672
+INFO:root:Processing entry 1: Title='Conheça a maravilha de viver em união', ID=4d3939d43966338993d4cab38431cf91
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Seja grato em todos os momentos - Palavra de Hoje
+INFO:root:🔹 Title: Conheça a maravilha de viver em união - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Deem graças ao Senhor porque ele é bom;
-o seu amor dura para sempre.
-- Salmos 107:1
+INFO:root:🔹 Description: Deus não criou ninguém para caminhar isolado. Ele nos chama para fazer parte de uma família, onde há cuidado, apoio e amor que refletem o próprio coração do Senhor.
+Viver em união não é só estar perto de outras pessoas, mas aprender a amar de forma sincera. E esse amor começa em Deus. Quando o coração se enche do amor do Senhor, ele começa a transbordar para quem está ao redor.
+A gente percebe isso nas pequenas atitudes: um apoio em silêncio, uma palavra de incentivo, alguém que escolhe permanecer mesmo quando não é fácil. Esses gestos mostram como Deus age através das pessoas.
 
-Quando tudo vai bem, a alma humana tende a se acomodar. As bênçãos chegam, as orações são respondidas, e o coração, em vez de se erguer em louvor, muitas vezes se distrai. Esse é um perigo silencioso: desfrutar dos dons de Deus e esquecer do abençoador.
-A ingratidão não é apenas a ausência de palavras, mas um distanciamento do coração. Ela surge quando passamos a considerar as vitórias como mérito próprio e as conquistas como resultado exclusivo de nossos esforços.
-A Palavra nos lembra que toda boa dádiva vem do alto, e que a gratidão verdadeira não depende de circunstâncias. Ela é uma decisão espiritual, um chamado para todo momento:
+Como é bom e agradável quando os irmãos convivem em união!
+- Salmos 133:1
 
-Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.
-- 1 Tessalonicenses 5:18
-
-Agradecer em todas as circunstâncias inclui os dias de abundância, quando é mais fácil esquecer. Jesus mostrou esse caminho: agradeceu antes do pão multiplicado e antes da cruz. Quando reconhecemos a mão de Deus na nossa vida, a fé se fortalece e o orgulho diminui.
-Por isso, cultive um coração grato mesmo quando tudo parece perfeito. A prosperidade também é um teste espiritual: se você não vigiar, ela pode afastá-lo de Deus; mas, transformada em agradecimento, cada bênção vira um altar de louvor.
-Decida lembrar, reconhecer e expressar sua gratidão. Não espere a dor para buscar a Deus; celebre a presença dele enquanto há paz. Um coração grato permanece firme, conectado e sensível à voz do Senhor, e é na constância da gratidão que você vive cheio da presença de Deus. Que você nunca perca a sensibilidade de agradecer pelas coisas simples, nem a consciência de que tudo vem dele. Assim, a sua vida se torna um testemunho vivo de louvor, honrando Aquele que é digno de toda glória.
-Veja também: Estudo bíblico sobre gratidão (com exemplos)
+Essa união não significa que todos são iguais ou que nunca existem diferenças. Significa escolher caminhar juntos apesar delas, com respeito, perdão e paciência.
+Quando existe união, o coração encontra leveza. A vida fica mais forte porque ninguém precisa enfrentar tudo sozinho. Deus usa essa conexão para fortalecer a fé e renovar a esperança.
+Amar os irmãos em Cristo também passa por atitudes simples. Uma mensagem, uma palavra de cuidado, um gesto de atenção já podem marcar o dia de alguém.
+Hoje, valorize quem caminha com você na fé. E permita que o amor de Deus seja o que une, sustenta e fortalece cada relação.
+Veja também: Aprenda a valorizar seus irmãos com a ajuda desses versículos.
  
 Lições sobre o perdão
 70x7 - Estudo Bíblico sobre o Perdão
 Mitos sobre perdoar
 
  
-Deem graças ao Senhor porque ele é bom;
-o seu amor dura para sempre.
-- Salmos 107:1
+Como é bom e agradável quando os irmãos convivem em união!
+- Salmos 133:1
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 395281 characters
-INFO:root:HTML parsed, length: 384900 characters
-INFO:root:Found 3 titles: ['Mantenha-se focado em Deus', 'Contando os nossos dias com sabedoria', 'Abra as portas do seu coração']
-INFO:root:Found 2 URLs: ['/salmo_90_contar_os_dias/', '/como_buscar_e_se_aproximar_de_deus/']
-INFO:root:Found 3 descriptions: ['Mantenham o pensamento nas coisas do alto, e não n', 'Essa mensagem é um convite a olharmos para a vida ', 'Eis que estou à porta e bato. Se alguém ouvir a mi']
-INFO:root:Found 3 dates: ['AGOSTO\n\n1\nSÁBADO', 'JULHO\n\n31\nSEXTA', 'JULHO\n\n30\nQUINTA']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Mantenha-se focado em Deus', ID=8b41422ab711100ee604accb22838caa
-INFO:root:Processing entry 2: Title='Contando os nossos dias com sabedoria', ID=83f27ae2978844983eaa42def2b2954d
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 394844 characters
+INFO:root:HTML parsed, length: 384447 characters
+INFO:root:Found 3 titles: ['Devocional: Ele está contigo!', 'Mantenha-se focado em Deus', 'Contando os nossos dias com sabedoria']
+INFO:root:Found 3 URLs: ['/coisas_que_deus_diz_hoje/', '/reflexao_biblica_oraganizada_por_tema/', '/salmo_90_contar_os_dias/']
+INFO:root:Found 3 descriptions: ['Deus, em Sua infinita misericórdia, não apenas nos', 'Mantenham o pensamento nas coisas do alto, e não n', 'Essa mensagem é um convite a olharmos para a vida ']
+INFO:root:Found 3 dates: ['AGOSTO\n\n2\nDOMINGO', 'AGOSTO\n\n1\nSÁBADO', 'JULHO\n\n31\nSEXTA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Devocional: Ele está contigo!', ID=ee9f60d57f17271ce8568a1f256d3c22
+INFO:root:Processing entry 2: Title='Mantenha-se focado em Deus', ID=8b41422ab711100ee604accb22838caa
+INFO:root:Processing entry 3: Title='Contando os nossos dias com sabedoria', ID=83f27ae2978844983eaa42def2b2954d
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Devocional: Ele está contigo!
+INFO:root:🔹 URL: https://www.bibliaon.com/coisas_que_deus_diz_hoje/
+INFO:root:🔹 Description: Deus, em Sua infinita misericórdia, não apenas nos criou, mas também se compromete a nos acompanhar em toda a nossa jornada.
+
+Respondeu o Senhor: "Eu mesmo o acompanharei e lhe darei descanso".
+- Êxodo 33:14
+
+Deus promete estar sempre conosco, o que nos faz sentir seguros e confortáveis. Mesmo quando a vida está cheia de incertezas, é reconfortante saber que Deus está ao nosso lado, não apenas nos observando de longe, mas se envolvendo de perto em cada parte da nossa vida.
+Além disso, Deus mostra que se importa muito com as pessoas ao prometer dar a elas descanso. Num mundo cheio de correria e preocupações, o Senhor nos oferece um descanso que não é só para o corpo, mas também para a alma. Podemos encontrar tranquilidade não apenas quando paramos um pouco, mas ao ter a certeza de que podemos descansar nos cuidados de Deus, confiando que Ele está no comando.
+Assim, ao pensar sobre o que está escrito em Êxodo 33:14, lembramos que não estamos sozinhos. Deus nos convida a confiar que Ele está sempre conosco e a descansar sabendo que Ele nos ama para sempre. Vamos seguir com fé, tendo a certeza de que o Senhor é nosso amigo leal, nos dando descanso mesmo quando a vida fica complicada.
+Ele está contigo!
+
+Confie em Deus. Ele é um companheiro fiel em todas as situações.
+Reserve momentos para descansar não apenas fisicamente, mas nas emoções, confiando que o amor eterno de Deus oferece paz e tranquilidade.
+Encare os desafios diários com fé, sabendo que Deus está no controle.
+
+Para Orar:
+
+Senhor, confio em Tua presença constante em minha vida. Ajuda-me a reservar momentos para descansar, buscando paz no Teu amor eterno. Que, com fé, eu encare os desafios diários, encontrando força e descanso em Ti. Amém.
+
+Veja Também:
+
+15 coisas que Deus diz para você hoje
+Reflexões bíblicas organizadas por temas
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Mantenha-se focado em Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/salmo_90_contar_os_dias/
+INFO:root:🔹 URL: https://www.bibliaon.com/reflexao_biblica_oraganizada_por_tema/
 INFO:root:🔹 Description: Mantenham o pensamento nas coisas do alto, e não nas coisas terrenas.
 - Colossenses 3:2
 
@@ -295,7 +316,7 @@ Para orar:
 Senhor nosso Deus, ajuda-me a manter meus pensamentos focados nas coisas do Alto, na Tua Palavra e não neste mundo mau e passageiro. Que eu possa raciocinar tendo a mente transformada por Teu amor e graça. Limpa-me. E, perdoa-me por perder tanto tempo enchendo a cabeça com distrações e coisas tão inúteis. Ensina-me a aproveitar melhor o tempo de vida que me dás, para amar e servir ao Senhor e ao meu próximo. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Contando os nossos dias com sabedoria
-INFO:root:🔹 URL: https://www.bibliaon.com/como_buscar_e_se_aproximar_de_deus/
+INFO:root:🔹 URL: https://www.bibliaon.com/salmo_90_contar_os_dias/
 INFO:root:🔹 Description: Essa mensagem é um convite a olharmos para a vida de forma diferente, com gratidão e propósito.
 
 Ensina-nos a contar os nossos dias, para que alcancemos coração sábio.
@@ -350,15 +371,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  53 +++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  30 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  27 ++-
+ feeds/devocional_de_hoje/feed.json        |  10 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  28 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  58 +++----
+ feeds/salmo_do_dia/atom.xml               |  83 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 279 +++++++++++++++---------------
- 11 files changed, 248 insertions(+), 254 deletions(-)
+ output.log                                | 283 +++++++++++++++---------------
+ 11 files changed, 269 insertions(+), 238 deletions(-)
