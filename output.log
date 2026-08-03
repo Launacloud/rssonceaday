@@ -1,46 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 192005 characters
-INFO:root:HTML parsed, length: 169502 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (02/08/2026)', 'Palavra de Ontem (01/08/2026)', 'Palavra de Anteontem (31/07/2026)']
-INFO:root:Found 3 URLs: ['/azarado/', '/tigrinho/', '/contraespionagem/']
-INFO:root:Found 12 descriptions: ['substantivo masculino Pessoa com azar; quem não te', 'Sinônimos:\n\npesado, infeliz, infortunado, azarento', 'Antônimos:\n\nsortudo, bem-aventurado']
-INFO:root:Found 3 dates: ['Palavra de Hoje (02/08/2026)', 'Palavra de Ontem (01/08/2026)', 'Palavra de Anteontem (31/07/2026)']
+INFO:root:Response length: 191742 characters
+INFO:root:HTML parsed, length: 169239 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (03/08/2026)', 'Palavra de Ontem (02/08/2026)', 'Palavra de Anteontem (01/08/2026)']
+INFO:root:Found 3 URLs: ['/calabresa/', '/azarado/', '/tigrinho/']
+INFO:root:Found 12 descriptions: ['substantivo feminino Linguiça levemente apimentada', 'Classe gramatical:substantivo feminino', 'Sílabas:ca-la-bre-sa']
+INFO:root:Found 3 dates: ['Palavra de Hoje (03/08/2026)', 'Palavra de Ontem (02/08/2026)', 'Palavra de Anteontem (01/08/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (02/08/2026)', ID=ac913e74b4370ca9b793e31f64db2ec3
-INFO:root:Processing entry 2: Title='Palavra de Ontem (01/08/2026)', ID=84bff022e8da6bcc85acb4815ed50373
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (31/07/2026)', ID=f8bc5e97ae45a3324ac9f8afd9aea318
+INFO:root:Processing entry 1: Title='Palavra de Hoje (03/08/2026)', ID=0f57f8b35fc63e57667034b5590f6eef
+INFO:root:Processing entry 2: Title='Palavra de Ontem (02/08/2026)', ID=908e82a75c432cab2425dbe710641e4e
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (01/08/2026)', ID=b9b0a96e5f799d560d4c054a941d200c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (02/08/2026) - Significado completo de azarado:
+INFO:root:🔹 Title: Palavra de Hoje (03/08/2026) - Significado completo de calabresa:
+INFO:root:🔹 URL: https://www.dicio.com.br/calabresa/
+INFO:root:🔹 Description: substantivo feminino Linguiça levemente apimentada muito usada na confecção de pizzas: pizza de calabresa.[Gramática] A grafia "calabreza" está incorreta e deve ser evitada.Etimologia (origem da palavra calabresa). A palavra calabresa tem sua origem como feminino de calabrês, do nome Calábria e do sufixo -ês, com o sentido de nativo da Calábria, região Sul da Itália.
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (02/08/2026) - Significado completo de azarado:
 INFO:root:🔹 URL: https://www.dicio.com.br/azarado/
-INFO:root:🔹 Description: substantivo masculino Pessoa com azar; quem não tem sorte; zicado, pé-frio.adjetivo [Popular] Que foi alvo de sedução: o ator foi super azarado da festa!Que não tem sorte; azarento: nunca conseguiu ganhar no jogo, era muito azarado!Etimologia (origem da palavra azarado). A palavra azarado tem sua origem. como particípio passado do verbo azarar.
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:ca-la-bre-sa
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (01/08/2026) - Significado completo de tigrinho:
+INFO:root:🔹 URL: https://www.dicio.com.br/tigrinho/
+INFO:root:🔹 Description: Sílabas:ca-la-bre-sa
  
 Sinônimos:
 
 pesado, infeliz, infortunado, azarento, caipora, desventurado, amaldiçoado, fadado, desafortunado 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (01/08/2026) - Significado completo de tigrinho:
-INFO:root:🔹 URL: https://www.dicio.com.br/tigrinho/
-INFO:root:🔹 Description: Sinônimos:
-
-pesado, infeliz, infortunado, azarento, caipora, desventurado, amaldiçoado, fadado, desafortunado
- 
-Antônimos:
-
-sortudo, bem-aventurado 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (31/07/2026) - Significado completo de contraespionagem:
-INFO:root:🔹 URL: https://www.dicio.com.br/contraespionagem/
-INFO:root:🔹 Description: Antônimos:
-
-sortudo, bem-aventurado
- Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +40,73 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 384069 characters
-INFO:root:HTML parsed, length: 373652 characters
-INFO:root:Found 1 titles: ['Hebreus 4:12-13']
-INFO:root:Found 1 URLs: ['/versiculo/hebreus_4_12-13/']
-INFO:root:Found 1 descriptions: ['Pois a palavra de Deus é viva e eficaz, e mais afi']
+INFO:root:Response length: 383855 characters
+INFO:root:HTML parsed, length: 373438 characters
+INFO:root:Found 1 titles: ['Mateus 6:20']
+INFO:root:Found 1 URLs: ['/versiculo/mateus_6_20/']
+INFO:root:Found 1 descriptions: ['Mas acumulem para vocês tesouros nos céus, onde a ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Hebreus 4:12-13', ID=08c2aed69a5c6ee4f83c73463739f8b4
+INFO:root:Processing entry 1: Title='Mateus 6:20', ID=e4789610b55aa188c0ed3220a564e9a8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Hebreus 4:12-13
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_4_12-13/
-INFO:root:🔹 Description: Pois a palavra de Deus é viva e eficaz, e mais afiada que qualquer espada de dois gumes; ela penetra até o ponto de dividir alma e espírito, juntas e medulas, e julga os pensamentos e as intenções do coração. Nada, em toda a criação, está oculto aos olhos de Deus. Tudo está descoberto e exposto diante dos olhos daquele a quem havemos de prestar contas. Hebreus 4:12-13
+INFO:root:🔹 Title: Mateus 6:20
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_6_20/
+INFO:root:🔹 Description: Mas acumulem para vocês tesouros nos céus, onde a traça e a ferrugem não destroem e onde os ladrões não arrombam nem furtam. Mateus 6:20
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 380864 characters
-INFO:root:HTML parsed, length: 371492 characters
-INFO:root:Found 3 titles: ['Salmo 143', 'Salmo 4', 'Salmo 10']
-INFO:root:Found 3 URLs: ['/salmos_143/', '/salmos_4/', '/salmos_10/']
-INFO:root:Found 3 descriptions: ['Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Responde-me quando clamo,\nó Deus que me fazes just', 'Senhor, por que estás tão longe?\nPor que te escond']
-INFO:root:Found 3 dates: ['2 de Agosto de 2026', '1 de Agosto de 2026', '31 de Julho de 2026']
+INFO:root:Response length: 379780 characters
+INFO:root:HTML parsed, length: 370394 characters
+INFO:root:Found 3 titles: ['Salmo 63', 'Salmo 143', 'Salmo 4']
+INFO:root:Found 3 URLs: ['/salmos_63/', '/salmos_143/', '/salmos_4/']
+INFO:root:Found 3 descriptions: ['Ó Deus, tu és o meu Deus,\neu te busco intensamente', 'Ouve, Senhor, a minha oração,\ndá ouvidos à minha s', 'Responde-me quando clamo,\nó Deus que me fazes just']
+INFO:root:Found 3 dates: ['3 de Agosto de 2026', '2 de Agosto de 2026', '1 de Agosto de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
-INFO:root:Processing entry 2: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
-INFO:root:Processing entry 3: Title=' Salmo 10', ID=bcba108df87206d66f6d3fc4662e1823
+INFO:root:Processing entry 1: Title=' Salmo 63', ID=f0010b8e8f70e3e74affd7797680d0c6
+INFO:root:Processing entry 2: Title=' Salmo 143', ID=b85c119a6e1fee9483da0438a79daea1
+INFO:root:Processing entry 3: Title=' Salmo 4', ID=7101db95cc7ee03b6fb8c3d549cc35a5
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 63
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_63/
+INFO:root:🔹 Description: Ó Deus, tu és o meu Deus,
+eu te busco intensamente;
+a minha alma tem sede de ti!
+Todo o meu ser anseia por ti,
+numa terra seca, exausta e sem água. 
+Quero contemplar-te no santuário
+e avistar o teu poder e a tua glória. 
+O teu amor é melhor do que a vida!
+Por isso os meus lábios te exaltarão. 
+Enquanto eu viver te bendirei,
+e em teu nome levantarei as minhas mãos. 
+A minha alma ficará satisfeita
+como quando tem rico banquete;
+com lábios jubilosos a minha boca te louvará. 
+Quando me deito, lembro-me de ti;
+penso em ti durante as vigílias da noite. 
+Porque és a minha ajuda,
+canto de alegria à sombra das tuas asas. 
+A minha alma apega-se a ti;
+a tua mão direita me sustém. 
+Aqueles, porém, que querem matar-me
+serão destruídos;
+descerão às profundezas da terra. 
+Serão entregues à espada
+e devorados por chacais. 
+Mas o rei se alegrará em Deus;
+todos os que juram pelo nome de Deus
+o louvarão,
+mas a boca dos mentirosos será tapada. 
+ Salmo 63
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 143
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_143/
 INFO:root:🔹 Description: Ouve, Senhor, a minha oração,
@@ -154,118 +179,94 @@ pois só tu, Senhor,
 me fazes viver em segurança. 
  Salmo 4
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 10
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_10/
-INFO:root:🔹 Description: Senhor, por que estás tão longe?
-Por que te escondes em tempos de angústia? 
-Em sua arrogância o ímpio persegue o pobre,
-que é apanhado em suas tramas. 
-Ele se gaba de sua própria cobiça
-e, em sua ganância,
-amaldiçoa e insulta o Senhor. 
-Em sua presunção o ímpio não o busca;
-não há lugar para Deus
-em nenhum dos seus planos. 
-Os seus caminhos prosperam sempre;
-tão acima da sua compreensão estão as tuas leis
-que ele faz pouco caso
-de todos os seus adversários, 
-pensando consigo mesmo: "Nada me abalará!
-Desgraça alguma me atingirá,
-nem a mim nem aos meus descendentes". 
-Sua boca está cheia de maldições,
-mentiras e ameaças;
-violência e maldade estão em sua língua. 
-Fica à espreita perto dos povoados;
-em emboscadas mata os inocentes,
-procurando às escondidas as suas vítimas. 
-Fica à espreita como o leão escondido;
-fica à espreita para apanhar o necessitado;
-apanha o necessitado e o arrasta para a sua rede. 
-Agachado, fica de tocaia;
-as suas vítimas caem em seu poder. 
-Pensa consigo mesmo: "Deus se esqueceu;
-escondeu o rosto e nunca verá isto". 
-Levanta-te, Senhor!
-Ergue a tua mão, ó Deus!
-Não te esqueças dos necessitados. 
-Por que o ímpio insulta a Deus,
-dizendo no seu íntimo:
-"De nada me pedirás contas!"? 
-Mas tu enxergas o sofrimento e a dor;
-observa-os para tomá-los em tuas mãos.
-A vítima deles entrega-se a ti;
-tu és o protetor do órfão. 
-Quebra o braço do ímpio e do perverso,
-pede contas de sua impiedade
-até que dela nada mais se ache. 
-O Senhor é rei para todo o sempre;
-da sua terra desapareceram os outros povos. 
-Tu, Senhor, ouves a súplica dos necessitados;
-tu os reanimas e atendes ao seu clamor. 
-Defendes o órfão e o oprimido,
-a fim de que o homem, que é pó,
-já não cause terror. 
- Salmo 10
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 384544 characters
-INFO:root:HTML parsed, length: 374582 characters
-INFO:root:Found 3 titles: ['Conheça a maravilha de viver em união', 'Seja grato em todos os momentos', 'Perdoados para perdoar']
+INFO:root:Response length: 385264 characters
+INFO:root:HTML parsed, length: 375303 characters
+INFO:root:Found 3 titles: ['Este é o segredo para uma vida feliz…', 'Conheça a maravilha de viver em união', 'Seja grato em todos os momentos']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Deus não criou ninguém para caminhar isolado. Ele ', 'Deem graças ao Senhor porque ele é bom;\no seu amor', 'Antes sede uns para com os outros benignos, miseri']
-INFO:root:Found 1 dates: ['Domingo, 2 de agosto de 2026']
+INFO:root:Found 3 descriptions: ['Quem de vocês quer amar a vida e deseja ver dias f', 'Deus não criou ninguém para caminhar isolado. Ele ', 'Deem graças ao Senhor porque ele é bom;\no seu amor']
+INFO:root:Found 1 dates: ['Segunda, 3 de agosto de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Conheça a maravilha de viver em união', ID=4d3939d43966338993d4cab38431cf91
+INFO:root:Processing entry 1: Title='Este é o segredo para uma vida feliz…', ID=90d08f31b758dd98c5620a0ded8c84a7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Conheça a maravilha de viver em união - Palavra de Hoje
+INFO:root:🔹 Title: Este é o segredo para uma vida feliz… - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Deus não criou ninguém para caminhar isolado. Ele nos chama para fazer parte de uma família, onde há cuidado, apoio e amor que refletem o próprio coração do Senhor.
-Viver em união não é só estar perto de outras pessoas, mas aprender a amar de forma sincera. E esse amor começa em Deus. Quando o coração se enche do amor do Senhor, ele começa a transbordar para quem está ao redor.
-A gente percebe isso nas pequenas atitudes: um apoio em silêncio, uma palavra de incentivo, alguém que escolhe permanecer mesmo quando não é fácil. Esses gestos mostram como Deus age através das pessoas.
+INFO:root:🔹 Description: Quem de vocês quer amar a vida e deseja ver dias felizes? Guarde a sua língua do mal e os seus lábios da falsidade. Afaste-se do mal e faça o bem; busque a paz com perseverança.
+- Salmos 34:12-14
 
-Como é bom e agradável quando os irmãos convivem em união!
-- Salmos 133:1
+Quem não quer ser feliz? Muitos procuram a felicidade no dinheiro, na comida, nos entretenimentos, nos prazeres ou no trabalho. Todas essas coisas podem trazer alguma satisfação, mas a verdadeira felicidade está nas coisas de Deus. Quando você busca o bem, a verdade e a paz de Deus, você encontra uma felicidade forte e duradoura.
+Para vermos dias realmente felizes, precisamos ter Jesus no centro dos nossos corações. Isso implica uma vida transformada! Ele nos ajudará a reconfigurar a nossa mente e o nosso comportamento segundo os Seus santos padrões. Reflita se seus valores estão em concordância com a verdadeira felicidade... Para começar, o Salmo 34 nos dá bons conselhos:
 
-Essa união não significa que todos são iguais ou que nunca existem diferenças. Significa escolher caminhar juntos apesar delas, com respeito, perdão e paciência.
-Quando existe união, o coração encontra leveza. A vida fica mais forte porque ninguém precisa enfrentar tudo sozinho. Deus usa essa conexão para fortalecer a fé e renovar a esperança.
-Amar os irmãos em Cristo também passa por atitudes simples. Uma mensagem, uma palavra de cuidado, um gesto de atenção já podem marcar o dia de alguém.
-Hoje, valorize quem caminha com você na fé. E permita que o amor de Deus seja o que une, sustenta e fortalece cada relação.
-Veja também: Aprenda a valorizar seus irmãos com a ajuda desses versículos.
+
+Pare de falar mal. Não murmurede qualquer coisa, de outras pessoas ou situações que esteja vivendo. Viver resmungando só atrasa as nossas vidas. 
+
+Seja verdadeiro (fuja da falsidade, não diga inverdades, nem seja hipócrita).
+
+Fuja do mal (até mesmo do que é aparentemente mal), afaste-se de todo tipo de maldade, seja em pensamentos, ações, reações, entretenimentos, companhias, relacionamentos, hábitos, etc.
+
+Faça o bem, mesmo quando não está ninguém por perto, Deus te vê! Seja honesto, verdadeiro e justo em tudo que faz.
+
+Busque a paz com perseverança. Evite inimizades e conflitos injustificados. Mesmo que para isso seja preciso algum esforço, busque e espalhe a Paz de Cristo onde estiver!  
+
+Quer ainda mais conselhos sábios da Bíblia? Leia também:
+
+Estudos Bíblicos: estudos evangélicos organizados por tema
+Encontre a felicidade na palavra de Deus!
+Trabalhador cristão: veja os conselhos que a Bíblia nos traz
+Sê tu uma benção! (Esboço de Pregação)
  
-Lições sobre o perdão
-70x7 - Estudo Bíblico sobre o Perdão
-Mitos sobre perdoar
+Estudos Bíblicos: estudos evangélicos organizados por tema
+Encontre a felicidade na palavra de Deus!
+Trabalhador cristão: veja os conselhos que a Bíblia nos traz
+Sê tu uma benção! (Esboço de Pregação)
 
  
-Como é bom e agradável quando os irmãos convivem em união!
-- Salmos 133:1
+Quem de vocês quer amar a vida e deseja ver dias felizes? Guarde a sua língua do mal e os seus lábios da falsidade. Afaste-se do mal e faça o bem; busque a paz com perseverança.
+- Salmos 34:12-14
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 394844 characters
-INFO:root:HTML parsed, length: 384447 characters
-INFO:root:Found 3 titles: ['Devocional: Ele está contigo!', 'Mantenha-se focado em Deus', 'Contando os nossos dias com sabedoria']
-INFO:root:Found 3 URLs: ['/coisas_que_deus_diz_hoje/', '/reflexao_biblica_oraganizada_por_tema/', '/salmo_90_contar_os_dias/']
-INFO:root:Found 3 descriptions: ['Deus, em Sua infinita misericórdia, não apenas nos', 'Mantenham o pensamento nas coisas do alto, e não n', 'Essa mensagem é um convite a olharmos para a vida ']
-INFO:root:Found 3 dates: ['AGOSTO\n\n2\nDOMINGO', 'AGOSTO\n\n1\nSÁBADO', 'JULHO\n\n31\nSEXTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Devocional: Ele está contigo!', ID=ee9f60d57f17271ce8568a1f256d3c22
-INFO:root:Processing entry 2: Title='Mantenha-se focado em Deus', ID=8b41422ab711100ee604accb22838caa
-INFO:root:Processing entry 3: Title='Contando os nossos dias com sabedoria', ID=83f27ae2978844983eaa42def2b2954d
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 394186 characters
+INFO:root:HTML parsed, length: 383802 characters
+INFO:root:Found 3 titles: ['Deus está contigo em todas as estações', 'Devocional: Ele está contigo!', 'Mantenha-se focado em Deus']
+INFO:root:Found 2 URLs: ['/coisas_que_deus_diz_hoje/', '/reflexao_biblica_oraganizada_por_tema/']
+INFO:root:Found 3 descriptions: ['Aparecem flores na terra, e chegou o tempo de cant', 'Deus, em Sua infinita misericórdia, não apenas nos', 'Mantenham o pensamento nas coisas do alto, e não n']
+INFO:root:Found 3 dates: ['AGOSTO\n\n3\nSEGUNDA', 'AGOSTO\n\n2\nDOMINGO', 'AGOSTO\n\n1\nSÁBADO']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Deus está contigo em todas as estações', ID=c96db2bc6d2aa4a8dc3e5d58130ecf17
+INFO:root:Processing entry 2: Title='Devocional: Ele está contigo!', ID=ee9f60d57f17271ce8568a1f256d3c22
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Devocional: Ele está contigo!
+INFO:root:🔹 Title: Deus está contigo em todas as estações
 INFO:root:🔹 URL: https://www.bibliaon.com/coisas_que_deus_diz_hoje/
+INFO:root:🔹 Description: Aparecem flores na terra, e chegou o tempo de cantar; já se ouve em nossa terra o arrulhar dos pombos.
+- Cânticos 2:12
+
+Na vida, as coisas mudam como as estações do ano. Às vezes, tudo parece triste como o inverno, mas então chega a primavera e vemos flores coloridas surgindo. Assim como essas flores, há momentos felizes em nossas vidas.
+Quando ouvimos os pombos cantando, sabemos que a primavera chegou. É um lembrete de que coisas boas estão por vir, mesmo depois de tempos difíceis.
+Do mesmo jeito, Deus está sempre conosco. Ele nos ajuda nos momentos ruins e nos traz alegria quando precisamos. Às vezes, pode parecer que Ele está quieto, mas Ele está sempre cuidando de nós.
+Então, devemos confiar em Deus em todas as fases da vida, tanto nas boas quanto nas ruins. Assim como esperamos pela primavera depois do inverno, podemos esperar pela alegria que Deus nos traz, sabendo que Ele está sempre conosco, nos dando esperança e conforto.
+Em todas as estações do ano Deus está presente!
+
+Aprenda a reconhecer os sinais da presença de Deus ao seu redor, assim como reconhecemos a chegada da primavera pelas flores e o canto dos pássaros.
+Lembre-se de que, assim como as estações mudam, também passaremos por diferentes fases na vida, sempre com a promessa da presença constante de Deus.
+Encontre momentos para louvar e agradecer a Deus, mesmo nos tempos difíceis, lembrando-se de que Ele é digno de louvor em todas as circunstâncias.
+
+Para orar:
+
+Senhor, que possamos perceber tua presença nas pequenas alegrias da vida, como as flores que desabrocham na terra. Dá-nos fé para confiar em Ti, mesmo nos momentos difíceis, sabendo que Tu és nosso refúgio. Que nossa gratidão a Ti seja constante, assim como o arrulhar dos pombos, lembrando-nos de tua fidelidade. Amém.
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Devocional: Ele está contigo!
+INFO:root:🔹 URL: https://www.bibliaon.com/reflexao_biblica_oraganizada_por_tema/
 INFO:root:🔹 Description: Deus, em Sua infinita misericórdia, não apenas nos criou, mas também se compromete a nos acompanhar em toda a nossa jornada.
 
 Respondeu o Senhor: "Eu mesmo o acompanharei e lhe darei descanso".
@@ -288,59 +289,6 @@ Veja Também:
 
 15 coisas que Deus diz para você hoje
 Reflexões bíblicas organizadas por temas
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Mantenha-se focado em Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/reflexao_biblica_oraganizada_por_tema/
-INFO:root:🔹 Description: Mantenham o pensamento nas coisas do alto, e não nas coisas terrenas.
-- Colossenses 3:2
-
-Temos à nossa disposição inúmeros atrativos e distrações, à distância de um clique. Parece que o mundo todo deseja tirar nossa atenção do que é importante, atraindo-a para coisas supérfluas, vãs e sem sentido. Mesmo assim, nada disso é capaz de preencher-nos nem satisfazer os anseios e dificuldades que trazemos no coração.
-Por isso, tire suas ideias e confiança das coisas passageiras dessa terra, ponha-as no alto, no Altíssimo.
-Foque sua mente em Cristo e mantenha-a focada Nele. Tudo muda quando você olha para cima. Persevere, entregando-se ao Senhor com fé e amor. O socorro vem do alto (de Deus), não desse mundo.
-Mas entenda, é difícil pensar nas coisas celestiais quando uma enxurrada de notícias sensacionalistas, fake news, entretenimentos, fofocas e tantas informações inúteis chegam até nós. Quando deixamos a nossa mente à deriva na imensidão de informações dispensáveis, corremos o risco de perder de vista o que é principal.
-Mantenha seu foco em Jesus
-
-
-Pense em Cristo. Esteja focado no Reino de Deus e na Sua justiça (Mateus 6:33); todo o resto deve ter importância secundária na sua vida.
-
-Seja seletivo. É importante sermos informados e conhecedores das atualidades (até para orar e dialogar com outros). Mas sem excesso. Não se afogue em informação desnecessária.
-
-Purifique seus pensamentos. Veja se o que povoa a sua mente combina com o que ensinam a Bíblia e o Espírito Santo. Se não, descarte logo.
-
-Coloque Deus em primeiro lugar. Leia a Bíblia e faça dela a sua prioridade do dia. A fé e o conhecimento que vêm dela vão te firmar nas tempestades da vida.
-
-Ore mais. Gaste mais tempo na presença de Deus e menos nas redes sociais. Pense em Deus ao longo do dia. Medite, ore e ouça o Senhor através da Sua Palavra.
-
-Para orar:
-
-Senhor nosso Deus, ajuda-me a manter meus pensamentos focados nas coisas do Alto, na Tua Palavra e não neste mundo mau e passageiro. Que eu possa raciocinar tendo a mente transformada por Teu amor e graça. Limpa-me. E, perdoa-me por perder tanto tempo enchendo a cabeça com distrações e coisas tão inúteis. Ensina-me a aproveitar melhor o tempo de vida que me dás, para amar e servir ao Senhor e ao meu próximo. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Contando os nossos dias com sabedoria
-INFO:root:🔹 URL: https://www.bibliaon.com/salmo_90_contar_os_dias/
-INFO:root:🔹 Description: Essa mensagem é um convite a olharmos para a vida de forma diferente, com gratidão e propósito.
-
-Ensina-nos a contar os nossos dias, para que alcancemos coração sábio.
-- Salmo 90:12 
-
-Contar os nossos dias, não significa apenas reconhecer que a vida é curta, mas aprender a viver cada momento com intenção. Muitas vezes, nos distraímos com preocupações ou coisas que não têm valor.
-Este versículo nos chama a refletir: como estamos usando o tempo precioso que Deus nos deu? Estamos investindo em amor, bondade e em coisas que realmente importam?
-Buscar um “coração sábio” é muito mais do que adquirir conhecimento. É aprender a viver com discernimento, aproveitando cada dia como uma oportunidade de crescer, de servir aos outros e de nos aproximar de Deus. Quando entendemos que nossos dias são limitados, deixamos de adiar nossos sonhos, de perder tempo com mágoas ou futilidades, e começamos a priorizar o que tem valor eterno.
-Essa passagem nos inspira a vivermos com gratidão e propósito. Cada amanhecer é uma nova chance de fazer o bem, de nos reconectar com o que realmente importa e de deixar um impacto positivo no mundo. Ao pedirmos a Deus que nos ensine a contar nossos dias, estamos reconhecendo que precisamos d'Ele para nos guiar no caminho certo.
-Viva cada dia com alegria e sabedoria. Ame mais, perdoe mais rápido e invista no que é eterno. Faça da sua vida uma expressão de gratidão a Deus, sabendo que, ao buscar sabedoria, você também encontra propósito e paz. Que cada dia seja uma oportunidade de crescer, amar e fazer a diferença! 
-Vivendo com propósito e sabedoria 
-
-
-Valorize cada dia: Viva cada dia com gratidão, reconhecendo que cada momento é uma oportunidade de crescimento e amor.
-
-Priorize o que é duradouro: Foque em ações e relacionamentos que tenham valor duradouro, como amor, bondade, e sua caminhada com Deus.
-
-Evite desperdícios: Reflita antes de agir, eliminando distrações e dedicando tempo às coisas que realmente importam em sua vida.
-
-Para orar: 
-
-Senhor, ensina-me a contar meus dias, vivendo com propósito e gratidão. Ajuda-me a buscar Tua sabedoria em cada escolha, valorizando o que é eterno. Dá-me um coração cheio de amor, paciência e discernimento, para que eu faça o bem e siga o Teu caminho. Que minha vida reflita Tua graça. Amém.
-
-Veja também: Ensina-nos a contar os nossos dias (Estudo Bíblico)
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -371,15 +319,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  27 ++-
- feeds/devocional_de_hoje/feed.json        |  10 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  28 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  64 ++----
+ feeds/devocional_de_hoje/feed.json        |  18 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  46 ++--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  83 +++++----
+ feeds/salmo_do_dia/atom.xml               |  85 +++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 283 +++++++++++++++---------------
- 11 files changed, 269 insertions(+), 238 deletions(-)
+ output.log                                | 340 ++++++++++++------------------
+ 11 files changed, 252 insertions(+), 369 deletions(-)
