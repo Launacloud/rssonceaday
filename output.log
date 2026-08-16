@@ -1,34 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 196182 characters
-INFO:root:HTML parsed, length: 173957 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (15/08/2026)', 'Palavra de Ontem (14/08/2026)', 'Palavra de Anteontem (13/08/2026)']
-INFO:root:Found 3 URLs: ['/ecoansiedade/', '/status-quo/', '/cicloativismo/']
-INFO:root:Found 6 descriptions: ['substantivo feminino Ansiedade climática que se de', 'Sílabas:eco-an-si-e-da-de', 'substantivo masculino Estado das coisas que perman']
-INFO:root:Found 3 dates: ['Palavra de Hoje (15/08/2026)', 'Palavra de Ontem (14/08/2026)', 'Palavra de Anteontem (13/08/2026)']
+INFO:root:Response length: 196532 characters
+INFO:root:HTML parsed, length: 174123 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (16/08/2026)', 'Palavra de Ontem (15/08/2026)', 'Palavra de Anteontem (14/08/2026)']
+INFO:root:Found 3 URLs: ['/bugiganga/', '/ecoansiedade/', '/status-quo/']
+INFO:root:Found 8 descriptions: ['substantivo feminino Coisa de pouco valor; quinqui', 'Sinônimos:\n\nbagatela, quinquilharia, babugem, baga', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (16/08/2026)', 'Palavra de Ontem (15/08/2026)', 'Palavra de Anteontem (14/08/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (15/08/2026)', ID=65f4cce9f2a26fd3779b1b6dd6e29a08
-INFO:root:Processing entry 2: Title='Palavra de Ontem (14/08/2026)', ID=541a4d88541fa2b97584ed3a4d485e71
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (13/08/2026)', ID=3b91023d06a9dc53f089615aa3e2ebae
+INFO:root:Processing entry 1: Title='Palavra de Hoje (16/08/2026)', ID=92bdffb7085d22d38afea1f1b7027d45
+INFO:root:Processing entry 2: Title='Palavra de Ontem (15/08/2026)', ID=aeeb17d57938cf4401b2ce778c7a8bcb
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (14/08/2026)', ID=e0ee7376156559f6d04b31d5de1fcb67
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (15/08/2026) - Significado completo de ecoansiedade:
+INFO:root:🔹 Title: Palavra de Hoje (16/08/2026) - Significado completo de bugiganga:
+INFO:root:🔹 URL: https://www.dicio.com.br/bugiganga/
+INFO:root:🔹 Description: substantivo feminino Coisa de pouco valor; quinquilharia, bagatela.Rede de pescar.
+ 
+Sinônimos:
+
+bagatela, quinquilharia, babugem, bagana, besteira, bobagem, mexinflório, migalhice, minúcia, mixaria 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (15/08/2026) - Significado completo de ecoansiedade:
 INFO:root:🔹 URL: https://www.dicio.com.br/ecoansiedade/
-INFO:root:🔹 Description: substantivo feminino Ansiedade climática que se define pelo estado de preocupação constante e de angústia causados pelos efeitos catastróficos das mudanças climáticas, além do sentimento de impotência em relação ao futuro e aos danos que não são reversíveis.Etimologia (origem da palavra ecoansiedade). A palavra ecoansiedade tem sua origem pela junção do prefixo eco-, do grego “oikos”, com sentido de ambiente; e, da palavra ansiedade.
- Sílabas:eco-an-si-e-da-de
+INFO:root:🔹 Description: Sinônimos:
+
+bagatela, quinquilharia, babugem, bagana, besteira, bobagem, mexinflório, migalhice, minúcia, mixaria
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (14/08/2026) - Significado completo de status quo:
+INFO:root:🔹 Title: Palavra de Anteontem (14/08/2026) - Significado completo de status quo:
 INFO:root:🔹 URL: https://www.dicio.com.br/status-quo/
-INFO:root:🔹 Description: Sílabas:eco-an-si-e-da-de
- Sílabas:sta-tus-quo
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (13/08/2026) - Significado completo de cicloativismo:
-INFO:root:🔹 URL: https://www.dicio.com.br/cicloativismo/
-INFO:root:🔹 Description: substantivo masculino Estado das coisas que permanecem exatamente como estão; estado atual; condição atual.Condição que permanece antes de qualquer alteração: não queria perder o status quo de socialite.[Gramática] Grafia preferencial: statu quo.Etimologia (origem de status quo). A palavra status quo tem sua origem influenciada pela forma preferencial "statu quo", com o sentido de "no estado anterior".
- Sílabas:ci-clo-a-ti-vis-mo
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:bu-gi-gan-ga
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -36,43 +42,70 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365422 characters
-INFO:root:HTML parsed, length: 354930 characters
-INFO:root:Found 1 titles: ['Isaías 33:2']
-INFO:root:Found 1 URLs: ['/versiculo/isaias_33_2/']
-INFO:root:Found 1 descriptions: ['Senhor, tem misericórdia de nós;\npois em ti espera']
+INFO:root:Response length: 365594 characters
+INFO:root:HTML parsed, length: 355102 characters
+INFO:root:Found 1 titles: ['Oséias 6:6']
+INFO:root:Found 1 URLs: ['/versiculo/oseias_6_6/']
+INFO:root:Found 1 descriptions: ['Pois desejo misericórdia\ne não sacrifícios;\nconhec']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Isaías 33:2', ID=2e895eb371347369ee0b9b8f4d27c660
+INFO:root:Processing entry 1: Title='Oséias 6:6', ID=bada6ded191710d67bd665d5128de751
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Isaías 33:2
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/isaias_33_2/
-INFO:root:🔹 Description: Senhor, tem misericórdia de nós;
-pois em ti esperamos!
-Sê tu a nossa força cada manhã,
-nossa salvação na hora do perigo. Isaías 33:2
+INFO:root:🔹 Title: Oséias 6:6
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/oseias_6_6/
+INFO:root:🔹 Description: Pois desejo misericórdia
+e não sacrifícios;
+conhecimento de Deus
+em vez de holocaustos. Oséias 6:6
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 361435 characters
-INFO:root:HTML parsed, length: 351966 characters
-INFO:root:Found 3 titles: ['Salmo 13', 'Salmo 80', 'Salmo 20']
-INFO:root:Found 3 URLs: ['/salmos_13/', '/salmos_80/', '/salmos_20/']
-INFO:root:Found 3 descriptions: ['Até quando, Senhor?\nPara sempre te esquecerás de m', 'Escuta-nos, Pastor de Israel,\ntu, que conduzes Jos', 'Que o Senhor te responda\nno tempo da angústia;\no n']
-INFO:root:Found 3 dates: ['15 de Agosto de 2026', '14 de Agosto de 2026', '13 de Agosto de 2026']
+INFO:root:Response length: 361756 characters
+INFO:root:HTML parsed, length: 352288 characters
+INFO:root:Found 3 titles: ['Salmo 14', 'Salmo 13', 'Salmo 80']
+INFO:root:Found 3 URLs: ['/salmos_14/', '/salmos_13/', '/salmos_80/']
+INFO:root:Found 3 descriptions: ['Diz o tolo em seu coração: "Deus não existe".\nCorr', 'Até quando, Senhor?\nPara sempre te esquecerás de m', 'Escuta-nos, Pastor de Israel,\ntu, que conduzes Jos']
+INFO:root:Found 3 dates: ['16 de Agosto de 2026', '15 de Agosto de 2026', '14 de Agosto de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 13', ID=929ac7e9fc48e8e2f594f5526caa6071
-INFO:root:Processing entry 2: Title=' Salmo 80', ID=393ad09d28e6ce8c20c5ea20009ca2e6
-INFO:root:Processing entry 3: Title=' Salmo 20', ID=8b9cb5cd40f9096fbb8f17788869e2f7
+INFO:root:Processing entry 1: Title=' Salmo 14', ID=44f8a1cc34f2b4ef56ad4bc3dcedfb6c
+INFO:root:Processing entry 2: Title=' Salmo 13', ID=929ac7e9fc48e8e2f594f5526caa6071
+INFO:root:Processing entry 3: Title=' Salmo 80', ID=393ad09d28e6ce8c20c5ea20009ca2e6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 14
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_14/
+INFO:root:🔹 Description: Diz o tolo em seu coração: "Deus não existe".
+Corromperam-se e cometeram atos detestáveis;
+não há ninguém que faça o bem. 
+O Senhor olha dos céus
+para os filhos dos homens,
+para ver se há alguém que tenha entendimento,
+alguém que busque a Deus. 
+Todos se desviaram,
+igualmente se corromperam;
+não há ninguém que faça o bem,
+não há nem um sequer. 
+Será que nenhum dos malfeitores aprende?
+Eles devoram o meu povo
+como quem come pão
+e não clamam pelo Senhor! 
+Olhem! Estão tomados de pavor!
+Pois Deus está presente no meio dos justos. 
+Vocês, malfeitores,
+frustram os planos dos pobres,
+mas o refúgio deles é o Senhor. 
+Ah, se de Sião viesse a salvação para Israel!
+Quando o Senhor restaurar o seu povo,
+Jacó exultará! Israel se regozijará! 
+ Salmo 14
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 13
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_13/
 INFO:root:🔹 Description: Até quando, Senhor?
@@ -145,87 +178,85 @@ faze resplandecer sobre nós o teu rosto,
 para que sejamos salvos. 
  Salmo 80
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 20
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_20/
-INFO:root:🔹 Description: Que o Senhor te responda
-no tempo da angústia;
-o nome do Deus de Jacó te proteja! 
-Do santuário te envie auxílio
-e de Sião te dê apoio. 
-Lembre-se de todas as tuas ofertas
-e aceite os teus holocaustos. 
-Conceda-te o desejo do teu coração
-e leve a efeito todos os teus planos. 
-Saudaremos a tua vitória com gritos de alegria
-e ergueremos as nossas bandeiras
-em nome do nosso Deus.
-Que o Senhor atenda a todos os teus pedidos! 
-Agora sei que o Senhor
-dará vitória ao seu ungido;
-dos seus santos céus lhe responde
-com o poder salvador da sua mão direita. 
-Alguns confiam em carros e outros em cavalos,
-mas nós confiamos
-no nome do Senhor, o nosso Deus. 
-Eles vacilam e caem,
-mas nós nos erguemos e estamos firmes. 
-Senhor, concede vitória ao rei!
-Responde-nos quando clamamos! 
- Salmo 20
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 365969 characters
-INFO:root:HTML parsed, length: 355936 characters
-INFO:root:Found 3 titles: ['Cristo é a sua vida', 'Deus te separou para Ele', 'Cristo te amou primeiro']
+INFO:root:Response length: 366266 characters
+INFO:root:HTML parsed, length: 356242 characters
+INFO:root:Found 3 titles: ['A graça é maior que o pecado', 'Cristo é a sua vida', 'Deus te separou para Ele']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Você já se perguntou onde a sua vida realmente est', 'Santidade parece, à primeira vista, uma lista de c', 'Antes de você fazer qualquer coisa por Deus, Ele j']
-INFO:root:Found 1 dates: ['Sábado, 15 de agosto de 2026']
+INFO:root:Found 3 descriptions: ['O pecado gosta de sussurrar duas mentiras ao mesmo', 'Você já se perguntou onde a sua vida realmente est', 'Santidade parece, à primeira vista, uma lista de c']
+INFO:root:Found 1 dates: ['Domingo, 16 de agosto de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Cristo é a sua vida', ID=3e337cebd2f634c96bc8679e8fccf425
+INFO:root:Processing entry 1: Title='A graça é maior que o pecado', ID=99196907f2d4dc63366f9bf852d7aa55
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Cristo é a sua vida - Palavra de Hoje
+INFO:root:🔹 Title: A graça é maior que o pecado - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Você já se perguntou onde a sua vida realmente está guardada, apesar de tudo o que pode dar errado no seu dia a dia? A conta que atrasa, o plano que muda de última hora, a notícia que te tira o chão.
+INFO:root:🔹 Description: O pecado gosta de sussurrar duas mentiras ao mesmo tempo: que ele não é tão grave assim, e que ele é grande demais para ser perdoado. As duas são mentira, e a Bíblia responde a ambas com a mesma verdade.
 
-Pois vocês morreram, e a sua vida está escondida com Cristo em Deus. Quando Cristo, que é a sua vida, se manifestar, então vocês também serão manifestados com ele em glória.
-Colossenses 3:3-4
+Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar os pecados e nos purificar de toda injustiça.
+1 João 1:9
 
-Escondida não significa perdida; significa protegida, guardada num lugar que nada nem ninguém consegue alcançar. A sua vida real, a que mais importa, não está exposta aos riscos do seu dia; está guardada com Cristo, em Deus, fora do alcance de qualquer coisa que ameace tirá-la.
-Isso muda completamente o que significa viver hoje, mesmo num dia comum, cheio de tarefas pequenas e preocupações que parecem urgentes. Jesus não veio só para garantir esse destino guardado lá na frente; veio para encher o presente também, agora:
+Deus não pede que você se esconda do que fez, nem que finja estar bem diante dEle. Pede só que você confesse, que chame o pecado pelo nome certo. E a resposta não é julgamento frio; é perdão e limpeza completa, prometida por Quem é fiel.
+Repare que a promessa não depende do seu esforço para se sentir perdoado. Depende do caráter de Deus, fiel mesmo quando você falha de novo.
+Mas o perdão não é a única boa notícia; existe também liberdade para hoje, não só para o passado:
 
-Eu vim para que tenham vida, e a tenham em abundância.
-João 10:10
+Pois o pecado não terá domínio sobre vocês, pois vocês não estão debaixo da lei, mas debaixo da graça.
+Romanos 6:14
 
-Vida abundante não é sinônimo de vida sem dificuldade, sem contas, sem dor. É viver cada dia sabendo que a parte mais importante de você, a que Deus chama de "a sua vida" de verdade, já está segura. E por isso você pode viver o hoje sem o medo de perder o que realmente importa.
-Muita gente passa o dia inteiro tentando proteger uma vida que pode ser perdida: a aparência, o emprego, a aprovação dos outros. Mas a vida que Cristo garante não depende de nada disso, e continua guardada mesmo quando essas outras coisas balançam.
-Hoje, viva como alguém que já tem a vida garantida em Cristo, sem precisar provar nada a ninguém. O resto, os altos e baixos do dia, não muda o que já está guardado com Ele, esperando para ser revelado em glória.
+Domínio significa comando, controle. Antes de Cristo, o pecado mandava, e você seguia quase sem perceber. Agora, quem manda é a graça. Isso não apaga a luta real contra hábitos antigos e quedas que ainda acontecem, mas muda quem está no comando da sua história.
+Você pode cair e ainda assim não estar mais debaixo do domínio que antes te controlava. A queda de hoje não anula a liberdade que Cristo já garantiu.
+Hoje, se o pecado tentar te convencer de que você é definido por ele, lembre-se: você já foi perdoado, e ele já não tem mais domínio sobre você.
  
-Pois vocês morreram, e a sua vida está escondida com Cristo em Deus. Quando Cristo, que é a sua vida, se manifestar, então vocês também serão manifestados com ele em glória.
-Colossenses 3:3-4
+Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar os pecados e nos purificar de toda injustiça.
+1 João 1:9
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376634 characters
-INFO:root:HTML parsed, length: 366166 characters
-INFO:root:Found 3 titles: ['Sozinho, mas conhecido por inteiro', 'Em paz me deito e logo adormeço', 'Nem todo dia é um bom dia']
+INFO:root:Response length: 377230 characters
+INFO:root:HTML parsed, length: 366751 characters
+INFO:root:Found 3 titles: ['Quando a tentação parece maior que eu', 'Sozinho, mas conhecido por inteiro', 'Em paz me deito e logo adormeço']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Senhor, tu me sondas e me conheces. Sabes quando m', 'Em paz me deito e logo pego no sono, pois só tu, S', 'Por que você está assim tão triste, ó minha alma? ']
-INFO:root:Found 3 dates: ['AGOSTO\n\n15\nSÁBADO', 'AGOSTO\n\n14\nSEXTA', 'AGOSTO\n\n13\nQUINTA']
+INFO:root:Found 3 descriptions: ['Nenhuma tentação os alcançou que não fosse comum a', 'Senhor, tu me sondas e me conheces. Sabes quando m', 'Em paz me deito e logo pego no sono, pois só tu, S']
+INFO:root:Found 3 dates: ['AGOSTO\n\n16\nDOMINGO', 'AGOSTO\n\n15\nSÁBADO', 'AGOSTO\n\n14\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Sozinho, mas conhecido por inteiro', ID=6cb5a44a01c39d0f5fc1899fc5308b8b
-INFO:root:Processing entry 2: Title='Em paz me deito e logo adormeço', ID=178e61a2f2f7621d6e23494ab9f90a5a
-INFO:root:Processing entry 3: Title='Nem todo dia é um bom dia', ID=ac6448498edd7e822032d71c5bde9a9d
+INFO:root:Processing entry 1: Title='Quando a tentação parece maior que eu', ID=eae81cf0b296f47a787fbd8317354262
+INFO:root:Processing entry 2: Title='Sozinho, mas conhecido por inteiro', ID=6cb5a44a01c39d0f5fc1899fc5308b8b
+INFO:root:Processing entry 3: Title='Em paz me deito e logo adormeço', ID=178e61a2f2f7621d6e23494ab9f90a5a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Quando a tentação parece maior que eu
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Nenhuma tentação os alcançou que não fosse comum aos seres humanos. E Deus é fiel; ele não permitirá que vocês sejam tentados além do que podem suportar. Mas, quando forem tentados, ele lhes dará também um jeito de escapar, para que a possam suportar.
+1 Coríntios 10:13
+
+Toda tentação, na hora em que acontece, parece maior do que qualquer outra pessoa já enfrentou. A mente convence você de que ninguém entenderia, de que dessa vez é diferente, de que você está sozinho nisso.
+Paulo escreve essas palavras logo depois de lembrar os erros do povo de Israel no deserto: idolatria, imoralidade, reclamação. Ele não usa esses exemplos para envergonhar ninguém; usa para lembrar que ceder à tentação não é destino, é escolha, e já aconteceu com outros antes de você.
+Repare que ele também avisa, um versículo antes: "aquele que pensa estar em pé, tenha cuidado para não cair" (1 Coríntios 10:12). A confiança de que Deus é fiel não é desculpa para relaxar a guarda.
+Mas é importante entender de onde vem a tentação, para não confundir Deus com o problema:
+
+Quando tentado, ninguém diga: "Estou sendo tentado por Deus". Pois Deus não pode ser tentado pelo mal, e ele mesmo não tenta ninguém; mas cada um é tentado por seu próprio mau desejo, que o atrai e o seduz.
+Tiago 1:13-14
+
+Deus não é a fonte da tentação; Ele é quem promete a saída. E essa saída raramente é mágica; geralmente é prática: sair do lugar, desligar a tela, ligar para alguém, dizer não antes de dizer sim.
+A tentação de hoje pode parecer maior que você, mas nunca é maior que o caminho de saída que Deus já preparou.
+Procure a saída que Deus já preparou
+
+Identifique hoje uma situação específica em que você costuma ceder à tentação, e planeje com antecedência a sua "saída" prática antes que o momento chegue.
+Quando sentir a tentação subir, ore em voz alta pedindo a Deus para mostrar o caminho de escape, em vez de tentar resistir sozinho em silêncio.
+Conte a alguém de confiança sobre uma luta específica que você enfrenta; tentação escondida cresce, tentação compartilhada perde força.
+Releia 1 Coríntios 10:13 sempre que sentir que está sozinho nessa luta, e lembre-se: é comum, e Deus é fiel.
+
+Para orar:
+Senhor, hoje a tentação parece maior do que eu consigo suportar. Ajuda-me a lembrar que não estou sozinho nessa luta, e que tu já preparaste uma saída, mesmo que eu ainda não a tenha visto. Dá-me coragem para tomar esse caminho de escape, em vez de ficar parado esperando cair. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Sozinho, mas conhecido por inteiro
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Senhor, tu me sondas e me conheces. Sabes quando me sento e quando me levanto; de longe percebes os meus pensamentos. Sabes quando saio e quando me deito; conheces todos os meus caminhos. Antes de falar a palavra, já a conheces inteiramente, Senhor.
@@ -267,26 +298,6 @@ Ao acordar amanhã, antes de checar o telefone, agradeça a Deus pela noite de d
 Para orar:
 Senhor, muitas noites eu deito com a mente cheia de preocupações que não consigo resolver sozinho. Hoje eu escolho entregar cada uma delas nas tuas mãos, antes de fechar os olhos. Ensina-me a confiar em ti mesmo quando o problema continua lá fora, e dá-me o sono tranquilo que só vem de saber que tu estás de guarda sobre mim esta noite. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Nem todo dia é um bom dia
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Por que você está assim tão triste, ó minha alma? Por que está assim tão perturbada dentro de mim? Ponha a sua esperança em Deus! Pois ainda o louvarei; ele é o meu Salvador e o meu Deus.
-Salmos 42:11
-
-Há dias em que acordamos sem energia para nada, com um peso no peito que não sabemos explicar direito. Nem todo dia é um bom dia, e fingir o contrário só afasta a gente de Deus.
-O autor deste salmo também não estava bem. Longe de casa, lembrando dos dias em que liderava a multidão até o templo em festa, agora só tinha lágrimas como comida, dia e noite. Ele não escondeu a tristeza; ele conversou com ela.
-Repare o que ele faz: em vez de deixar a tristeza falar sozinha, ele se pergunta, quase surpreso com o próprio estado: "Por que você está assim tão triste, ó minha alma?" É uma pergunta honesta, não uma repreensão. Só depois de perguntar, ele escolhe esperar em Deus.
-Essa mesma frase se repete três vezes nesse salmo, como quem precisa se lembrar da mesma verdade várias vezes ao dia. Escolher esperança não é resolver a tristeza numa vez só; é voltar a Deus de novo, cada vez que ela reaparece.
-Deus não pede que você finja estar bem. Pede que, mesmo triste, você continue falando com Ele.
-Converse com Deus sobre a sua tristeza
-
-Hoje, em vez de engolir o desânimo, pergunte à sua própria alma, em voz alta ou no papel: "Por que estou assim?", sem pressa de responder certo.
-Releia o Salmo 42 inteiro e note que o salmista chora e espera ao mesmo tempo; você também pode.
-Se a tristeza persistir por muitos dias seguidos, converse com alguém de confiança, um pastor, um amigo maduro na fé, ou um profissional de saúde mental. Pedir ajuda também é fé.
-Repita a promessa de hoje sempre que a tristeza voltar, mesmo que seja várias vezes no mesmo dia: "Ainda vou louvá-lo; ele é o meu Deus."
-
-Para orar:
-Senhor, hoje eu não estou bem, e não quero fingir que estou. Minha alma está pesada, e eu nem sei explicar direito por quê. Ajuda-me a fazer como o salmista: falar contigo sobre essa tristeza, em vez de carregá-la sozinho. Mesmo sem vontade agora, escolho esperar em ti, porque sei que ainda vou te louvar. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -316,15 +327,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  38 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  23 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  25 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  14 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 122 ++----------
+ feeds/salmo_do_dia/atom.xml               |  53 +++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 308 ++++++++++--------------------
- 11 files changed, 193 insertions(+), 377 deletions(-)
+ output.log                                | 255 +++++++++++++++---------------
+ 11 files changed, 235 insertions(+), 225 deletions(-)
