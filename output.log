@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 196532 characters
-INFO:root:HTML parsed, length: 174123 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (16/08/2026)', 'Palavra de Ontem (15/08/2026)', 'Palavra de Anteontem (14/08/2026)']
-INFO:root:Found 3 URLs: ['/bugiganga/', '/ecoansiedade/', '/status-quo/']
-INFO:root:Found 8 descriptions: ['substantivo feminino Coisa de pouco valor; quinqui', 'Sinônimos:\n\nbagatela, quinquilharia, babugem, baga', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (16/08/2026)', 'Palavra de Ontem (15/08/2026)', 'Palavra de Anteontem (14/08/2026)']
+INFO:root:Response length: 197155 characters
+INFO:root:HTML parsed, length: 174562 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (17/08/2026)', 'Palavra de Ontem (16/08/2026)', 'Palavra de Anteontem (15/08/2026)']
+INFO:root:Found 3 URLs: ['/micromachismo/', '/bugiganga/', '/ecoansiedade/']
+INFO:root:Found 9 descriptions: ['substantivo masculino [Neologismo] Pequenos atos d', 'Sinônimos:\n\nsexismo, machismo, preconceito, discri', 'Sílabas:mi-cro-ma-chis-mo']
+INFO:root:Found 3 dates: ['Palavra de Hoje (17/08/2026)', 'Palavra de Ontem (16/08/2026)', 'Palavra de Anteontem (15/08/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (16/08/2026)', ID=92bdffb7085d22d38afea1f1b7027d45
-INFO:root:Processing entry 2: Title='Palavra de Ontem (15/08/2026)', ID=aeeb17d57938cf4401b2ce778c7a8bcb
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (14/08/2026)', ID=e0ee7376156559f6d04b31d5de1fcb67
+INFO:root:Processing entry 1: Title='Palavra de Hoje (17/08/2026)', ID=d750ea1733433fc319df5e2e88fde220
+INFO:root:Processing entry 2: Title='Palavra de Ontem (16/08/2026)', ID=e492e89d6a068c89d7ddc58509ffbe22
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (15/08/2026)', ID=97ec58b7bc91477e74b6d392cbf85911
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (16/08/2026) - Significado completo de bugiganga:
+INFO:root:🔹 Title: Palavra de Hoje (17/08/2026) - Significado completo de micromachismo:
+INFO:root:🔹 URL: https://www.dicio.com.br/micromachismo/
+INFO:root:🔹 Description: substantivo masculino [Neologismo] Pequenos atos de machismo que se disseminam de forma sutil, não evidente.Atitudes discriminatórias em relação às mulheres que se perpetuam diariamente e de uma maneira tão naturalizada que estão incorporadas no cotidiano.Etimologia (origem da palavra micromachismo). A palavra micromachismo deriva da junção do prefixo micro-, do grego "miklos", com sentido de pequeno, e machismo; pelo espanhol "micromachismo".
+ 
+Sinônimos:
+
+sexismo, machismo, preconceito, discriminação, misoginia, opressão, autoritarismo, repressão 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (16/08/2026) - Significado completo de bugiganga:
 INFO:root:🔹 URL: https://www.dicio.com.br/bugiganga/
-INFO:root:🔹 Description: substantivo feminino Coisa de pouco valor; quinquilharia, bagatela.Rede de pescar.
+INFO:root:🔹 Description: Sinônimos:
+
+sexismo, machismo, preconceito, discriminação, misoginia, opressão, autoritarismo, repressão
+ Sílabas:mi-cro-ma-chis-mo
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (15/08/2026) - Significado completo de ecoansiedade:
+INFO:root:🔹 URL: https://www.dicio.com.br/ecoansiedade/
+INFO:root:🔹 Description: Sílabas:mi-cro-ma-chis-mo
  
 Sinônimos:
 
 bagatela, quinquilharia, babugem, bagana, besteira, bobagem, mexinflório, migalhice, minúcia, mixaria 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (15/08/2026) - Significado completo de ecoansiedade:
-INFO:root:🔹 URL: https://www.dicio.com.br/ecoansiedade/
-INFO:root:🔹 Description: Sinônimos:
-
-bagatela, quinquilharia, babugem, bagana, besteira, bobagem, mexinflório, migalhice, minúcia, mixaria
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (14/08/2026) - Significado completo de status quo:
-INFO:root:🔹 URL: https://www.dicio.com.br/status-quo/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:bu-gi-gan-ga
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,43 +46,95 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365594 characters
-INFO:root:HTML parsed, length: 355102 characters
-INFO:root:Found 1 titles: ['Oséias 6:6']
-INFO:root:Found 1 URLs: ['/versiculo/oseias_6_6/']
-INFO:root:Found 1 descriptions: ['Pois desejo misericórdia\ne não sacrifícios;\nconhec']
+INFO:root:Response length: 365493 characters
+INFO:root:HTML parsed, length: 355001 characters
+INFO:root:Found 1 titles: ['Jeremias 29:13']
+INFO:root:Found 1 URLs: ['/versiculo/jeremias_29_13/']
+INFO:root:Found 1 descriptions: ['Vocês me procurarão e me acharão quando me procura']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Oséias 6:6', ID=bada6ded191710d67bd665d5128de751
+INFO:root:Processing entry 1: Title='Jeremias 29:13', ID=f96702e7730236e39bf53ac4eca153dd
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Oséias 6:6
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/oseias_6_6/
-INFO:root:🔹 Description: Pois desejo misericórdia
-e não sacrifícios;
-conhecimento de Deus
-em vez de holocaustos. Oséias 6:6
+INFO:root:🔹 Title: Jeremias 29:13
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jeremias_29_13/
+INFO:root:🔹 Description: Vocês me procurarão e me acharão quando me procurarem de todo o coração. Jeremias 29:13
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 361756 characters
-INFO:root:HTML parsed, length: 352288 characters
-INFO:root:Found 3 titles: ['Salmo 14', 'Salmo 13', 'Salmo 80']
-INFO:root:Found 3 URLs: ['/salmos_14/', '/salmos_13/', '/salmos_80/']
-INFO:root:Found 3 descriptions: ['Diz o tolo em seu coração: "Deus não existe".\nCorr', 'Até quando, Senhor?\nPara sempre te esquecerás de m', 'Escuta-nos, Pastor de Israel,\ntu, que conduzes Jos']
-INFO:root:Found 3 dates: ['16 de Agosto de 2026', '15 de Agosto de 2026', '14 de Agosto de 2026']
+INFO:root:Response length: 362062 characters
+INFO:root:HTML parsed, length: 352603 characters
+INFO:root:Found 3 titles: ['Salmo 34', 'Salmo 14', 'Salmo 13']
+INFO:root:Found 3 URLs: ['/salmos_34/', '/salmos_14/', '/salmos_13/']
+INFO:root:Found 3 descriptions: ['Bendirei o Senhor o tempo todo!\nOs meus lábios sem', 'Diz o tolo em seu coração: "Deus não existe".\nCorr', 'Até quando, Senhor?\nPara sempre te esquecerás de m']
+INFO:root:Found 3 dates: ['17 de Agosto de 2026', '16 de Agosto de 2026', '15 de Agosto de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 14', ID=44f8a1cc34f2b4ef56ad4bc3dcedfb6c
-INFO:root:Processing entry 2: Title=' Salmo 13', ID=929ac7e9fc48e8e2f594f5526caa6071
-INFO:root:Processing entry 3: Title=' Salmo 80', ID=393ad09d28e6ce8c20c5ea20009ca2e6
+INFO:root:Processing entry 1: Title=' Salmo 34', ID=5f5eca0bb8f7313a7526389f25305576
+INFO:root:Processing entry 2: Title=' Salmo 14', ID=44f8a1cc34f2b4ef56ad4bc3dcedfb6c
+INFO:root:Processing entry 3: Title=' Salmo 13', ID=929ac7e9fc48e8e2f594f5526caa6071
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 34
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_34/
+INFO:root:🔹 Description: Bendirei o Senhor o tempo todo!
+Os meus lábios sempre o louvarão. 
+Minha alma se gloriará no Senhor;
+ouçam os oprimidos e se alegrem. 
+Proclamem a grandeza do Senhor comigo;
+juntos exaltemos o seu nome. 
+Busquei o Senhor, e ele me respondeu;
+livrou-me de todos os meus temores. 
+Os que olham para ele
+estão radiantes de alegria;
+seu rosto jamais mostrará decepção. 
+Este pobre homem clamou,
+e o Senhor o ouviu;
+e o libertou de todas as suas tribulações. 
+O anjo do Senhor é sentinela ao redor
+daqueles que o temem,
+e os livra. 
+Provem e vejam como o Senhor é bom.
+Como é feliz o homem que nele se refugia! 
+Temam o Senhor,
+vocês que são os seus santos,
+pois nada falta aos que o temem. 
+Os leões podem passar necessidade e fome,
+mas os que buscam o Senhor de nada têm falta. 
+Venham, meus filhos, ouçam-me;
+eu ensinarei a vocês o temor do Senhor. 
+Quem de vocês quer amar a vida
+e deseja ver dias felizes? 
+Guarde a sua língua do mal
+e os seus lábios da falsidade. 
+Afaste-se do mal e faça o bem;
+busque a paz com perseverança. 
+Os olhos do Senhor voltam-se para os justos
+e os seus ouvidos
+estão atentos ao seu grito de socorro; 
+o rosto do Senhor
+volta-se contra os que praticam o mal,
+para apagar da terra a memória deles. 
+Os justos clamam, o Senhor os ouve
+e os livra de todas as suas tribulações. 
+O Senhor está perto
+dos que têm o coração quebrantado
+e salva os de espírito abatido. 
+O justo passa por muitas adversidades,
+mas o Senhor o livra de todas; 
+protege todos os seus ossos;
+nenhum deles será quebrado. 
+A desgraça matará os ímpios;
+os que odeiam o justo serão condenados. 
+O Senhor redime a vida dos seus servos;
+ninguém que nele se refugia será condenado. 
+ Salmo 34
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 14
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_14/
 INFO:root:🔹 Description: Diz o tolo em seu coração: "Deus não existe".
@@ -125,113 +181,84 @@ Quero cantar ao Senhor
 pelo bem que me tem feito. 
  Salmo 13
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 80
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_80/
-INFO:root:🔹 Description: Escuta-nos, Pastor de Israel,
-tu, que conduzes José como um rebanho;
-tu, que tens o teu trono sobre os querubins,
-manifesta o teu esplendor 
-diante de Efraim, Benjamim e Manassés.
-Desperta o teu poder e vem salvar-nos! 
-Restaura-nos, ó Deus!
-Faze resplandecer sobre nós o teu rosto,
-para que sejamos salvos. 
-Ó Senhor, Deus dos Exércitos,
-até quando arderá a tua ira
-contra as orações do teu povo? 
-Tu o alimentaste com pão de lágrimas
-e o fizeste beber copos de lágrimas. 
-Fizeste de nós um motivo de disputas
-entre as nações vizinhas,
-e os nossos inimigos caçoam de nós. 
-Restaura-nos, ó Deus dos Exércitos;
-faze resplandecer sobre nós o teu rosto,
-para que sejamos salvos. 
-Do Egito trouxeste uma videira;
-expulsaste as nações e a plantaste. 
-Limpaste o terreno,
-ela lançou raízes e encheu a terra. 
-Os montes foram cobertos pela sua sombra
-e os mais altos cedros pelos seus ramos. 
-Seus ramos se estenderam até o Mar
-e os seus brotos até o Rio. 
-Por que derrubaste as suas cercas,
-permitindo que todos os que passam
-apanhem as suas uvas? 
-Javalis da floresta a devastam
-e as criaturas do campo dela se alimentam. 
-Volta-te para nós, ó Deus dos Exércitos!
-Dos altos céus olha e vê!
-Toma conta desta videira, 
-da raiz que a tua mão direita plantou,
-do filho que para ti fizeste crescer! 
-Tua videira foi derrubada;
-como lixo foi consumida pelo fogo.
-Pela tua repreensão perece o teu povo! 
-Repouse a tua mão sobre aquele
-que puseste à tua mão direita,
-o filho do homem que para ti fizeste crescer. 
-Então não nos desviaremos de ti;
-vivifica-nos, e invocaremos o teu nome. 
-Restaura-nos, ó Senhor, Deus dos Exércitos;
-faze resplandecer sobre nós o teu rosto,
-para que sejamos salvos. 
- Salmo 80
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366266 characters
-INFO:root:HTML parsed, length: 356242 characters
-INFO:root:Found 3 titles: ['A graça é maior que o pecado', 'Cristo é a sua vida', 'Deus te separou para Ele']
+INFO:root:Response length: 366372 characters
+INFO:root:HTML parsed, length: 356348 characters
+INFO:root:Found 3 titles: ['Troque a reclamação pela confiança', 'A graça é maior que o pecado', 'Cristo é a sua vida']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O pecado gosta de sussurrar duas mentiras ao mesmo', 'Você já se perguntou onde a sua vida realmente est', 'Santidade parece, à primeira vista, uma lista de c']
-INFO:root:Found 1 dates: ['Domingo, 16 de agosto de 2026']
+INFO:root:Found 3 descriptions: ['Reclamar parece inofensivo, quase um alívio depois', 'O pecado gosta de sussurrar duas mentiras ao mesmo', 'Você já se perguntou onde a sua vida realmente est']
+INFO:root:Found 1 dates: ['Segunda, 17 de agosto de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A graça é maior que o pecado', ID=99196907f2d4dc63366f9bf852d7aa55
+INFO:root:Processing entry 1: Title='Troque a reclamação pela confiança', ID=9af79e7f8ddb88126f76a814a420118f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A graça é maior que o pecado - Palavra de Hoje
+INFO:root:🔹 Title: Troque a reclamação pela confiança - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O pecado gosta de sussurrar duas mentiras ao mesmo tempo: que ele não é tão grave assim, e que ele é grande demais para ser perdoado. As duas são mentira, e a Bíblia responde a ambas com a mesma verdade.
+INFO:root:🔹 Description: Reclamar parece inofensivo, quase um alívio depois de um dia difícil. Mas a Bíblia trata a murmuração como sintoma de algo mais profundo: o coração que esqueceu o que Deus já fez.
 
-Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar os pecados e nos purificar de toda injustiça.
-1 João 1:9
+Façam tudo sem queixas nem discussões, para que se tornem irrepreensíveis e puros, filhos de Deus inculpáveis no meio de uma geração corrompida e perversa, na qual vocês brilham como estrelas no universo.
+Filipenses 2:14-15
 
-Deus não pede que você se esconda do que fez, nem que finja estar bem diante dEle. Pede só que você confesse, que chame o pecado pelo nome certo. E a resposta não é julgamento frio; é perdão e limpeza completa, prometida por Quem é fiel.
-Repare que a promessa não depende do seu esforço para se sentir perdoado. Depende do caráter de Deus, fiel mesmo quando você falha de novo.
-Mas o perdão não é a única boa notícia; existe também liberdade para hoje, não só para o passado:
+Paulo escreve isso logo depois de falar de Jesus, que se esvaziou de todos os privilégios e serviu até a morte sem uma palavra de queixa. O padrão que ele pede não é fingir estar feliz; é servir e confiar do mesmo jeito que Cristo serviu.
+O povo de Israel aprendeu essa lição do jeito difícil. Recém-libertos da escravidão, viram o mar se abrir diante deles e ainda assim reclamaram no deserto, da comida, da água, do caminho.
 
-Pois o pecado não terá domínio sobre vocês, pois vocês não estão debaixo da lei, mas debaixo da graça.
-Romanos 6:14
+Não resmunguem, como alguns deles resmungaram, e foram mortos pelo anjo destruidor. Estas coisas aconteceram a eles como exemplos, e foram escritas como advertência para nós.
+1 Coríntios 10:10-11
 
-Domínio significa comando, controle. Antes de Cristo, o pecado mandava, e você seguia quase sem perceber. Agora, quem manda é a graça. Isso não apaga a luta real contra hábitos antigos e quedas que ainda acontecem, mas muda quem está no comando da sua história.
-Você pode cair e ainda assim não estar mais debaixo do domínio que antes te controlava. A queda de hoje não anula a liberdade que Cristo já garantiu.
-Hoje, se o pecado tentar te convencer de que você é definido por ele, lembre-se: você já foi perdoado, e ele já não tem mais domínio sobre você.
+A queixa deles não era só sobre comida ou água; era sobre se Deus, que já tinha feito o mar se abrir, ainda era digno de confiança no deserto. Cada reclamação repetia a mesma dúvida.
+A próxima vez que a vontade de reclamar aparecer, antes de falar, lembre o que Deus já fez por você. A gratidão não nega a dificuldade; só muda para quem você está falando sobre ela.
  
-Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar os pecados e nos purificar de toda injustiça.
-1 João 1:9
+Façam tudo sem queixas nem discussões, para que se tornem irrepreensíveis e puros, filhos de Deus inculpáveis no meio de uma geração corrompida e perversa, na qual vocês brilham como estrelas no universo.
+Filipenses 2:14-15
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 377230 characters
-INFO:root:HTML parsed, length: 366751 characters
-INFO:root:Found 3 titles: ['Quando a tentação parece maior que eu', 'Sozinho, mas conhecido por inteiro', 'Em paz me deito e logo adormeço']
+INFO:root:Response length: 376439 characters
+INFO:root:HTML parsed, length: 365949 characters
+INFO:root:Found 3 titles: ['A batalha que ninguém vê', 'Quando a tentação parece maior que eu', 'Sozinho, mas conhecido por inteiro']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Nenhuma tentação os alcançou que não fosse comum a', 'Senhor, tu me sondas e me conheces. Sabes quando m', 'Em paz me deito e logo pego no sono, pois só tu, S']
-INFO:root:Found 3 dates: ['AGOSTO\n\n16\nDOMINGO', 'AGOSTO\n\n15\nSÁBADO', 'AGOSTO\n\n14\nSEXTA']
+INFO:root:Found 3 descriptions: ['Pois a nossa luta não é contra seres humanos, mas ', 'Nenhuma tentação os alcançou que não fosse comum a', 'Senhor, tu me sondas e me conheces. Sabes quando m']
+INFO:root:Found 3 dates: ['AGOSTO\n\n17\nSEGUNDA', 'AGOSTO\n\n16\nDOMINGO', 'AGOSTO\n\n15\nSÁBADO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Quando a tentação parece maior que eu', ID=eae81cf0b296f47a787fbd8317354262
-INFO:root:Processing entry 2: Title='Sozinho, mas conhecido por inteiro', ID=6cb5a44a01c39d0f5fc1899fc5308b8b
-INFO:root:Processing entry 3: Title='Em paz me deito e logo adormeço', ID=178e61a2f2f7621d6e23494ab9f90a5a
+INFO:root:Processing entry 1: Title='A batalha que ninguém vê', ID=f51e1a6fea84be503febaa991b01d38a
+INFO:root:Processing entry 2: Title='Quando a tentação parece maior que eu', ID=eae81cf0b296f47a787fbd8317354262
+INFO:root:Processing entry 3: Title='Sozinho, mas conhecido por inteiro', ID=6cb5a44a01c39d0f5fc1899fc5308b8b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A batalha que ninguém vê
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Pois a nossa luta não é contra seres humanos, mas contra os poderes e autoridades, contra os dominadores deste mundo de trevas, contra as forças espirituais do mal nas regiões celestiais.
+Efésios 6:12
+
+Às vezes a luta mais cansativa do dia não é contra uma pessoa nem contra uma situação, é contra um pensamento que não sai da cabeça, contra o desânimo que volta sem motivo aparente, contra a vontade de desistir de algo que sabemos ser certo.
+Paulo escreve isso depois de capítulos inteiros pedindo unidade, paciência e amor entre irmãos, entre marido e mulher, entre pais e filhos. Quando ele diz que a luta não é contra carne e sangue, ele está corrigindo um erro comum: tratar a pessoa que te machucou como o verdadeiro inimigo.
+Isso não significa que conflitos humanos não sejam reais ou que você deva ignorar quem te fez mal. Significa que, por trás de muita discórdia, existe uma disputa mais profunda, espiritual, que não se resolve atacando a pessoa à sua frente.
+Repare também onde essa batalha muitas vezes acontece primeiro: na mente.
+
+As armas com que lutamos não são as armas do mundo. Destruímos argumentos e toda pretensão que se levanta contra o conhecimento de Deus, e levamos cativo todo pensamento, para torná-lo obediente a Cristo.
+2 Coríntios 10:4-5
+
+Muita guerra espiritual acontece silenciosamente, num pensamento que você aceita sem questionar: "você não vale nada", "isso nunca vai mudar", "Deus não está aí". Vencer essa batalha começa por examinar o que você está deixando entrar na mente.
+A armadura que Deus oferece (verdade, justiça, fé, salvação, a Palavra) não é para atacar ninguém; é para você continuar de pé.
+Você não está lutando sozinho contra o que não vê, e a maior parte da luta se vence ficando firme, não atacando quem está ao seu lado.
+Vista a armadura antes de reagir
+
+Hoje, quando um pensamento de desânimo, mentira ou desesperança aparecer, identifique-o e responda com uma verdade específica da Palavra de Deus.
+Antes de tratar alguém que te magoou como inimigo, pare e pergunte a Deus o que realmente está por trás desse conflito.
+Leia Efésios 6:10-18 inteiro e escolha uma peça da armadura para praticar especificamente hoje.
+Termine o dia orando pelas pessoas com quem você teve atrito, em vez de só remoendo a situação sozinho.
+
+Para orar:
+Senhor, hoje eu reconheço que a luta que mais me cansa não é só contra o que vejo. Ajuda-me a não tratar as pessoas ao meu redor como inimigas, mesmo quando elas me machucam. Veste-me da tua armadura, verdade, justiça, fé, e guarda a minha mente dos pensamentos que me afastam de ti. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Quando a tentação parece maior que eu
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Nenhuma tentação os alcançou que não fosse comum aos seres humanos. E Deus é fiel; ele não permitirá que vocês sejam tentados além do que podem suportar. Mas, quando forem tentados, ele lhes dará também um jeito de escapar, para que a possam suportar.
@@ -277,27 +304,6 @@ Quando sentir que ninguém entende, repita: "Antes de eu falar, ele já me conhe
 Para orar:
 Senhor, hoje eu sinto que ninguém entende de verdade o que estou vivendo. Às vezes me sinto invisível, mesmo cercado de gente. Obrigado porque tu me conheces por inteiro, antes mesmo de eu conseguir explicar o que sinto. Ajuda-me a lembrar que nunca estou realmente sozinho, porque tu estás comigo onde quer que eu vá. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Em paz me deito e logo adormeço
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Em paz me deito e logo pego no sono, pois só tu, Senhor, me fazes viver em segurança.
-Salmos 4:8
-
-Quantas vezes ficamos deitados no escuro, olhos abertos, repassando os mesmos problemas sem solução? A ansiedade costuma roubar o descanso antes de tirar qualquer outra coisa.
-Davi escreveu este salmo numa noite de perigo real, cercado por inimigos que queriam a sua queda. Antes de se deitar, ele já tinha levado a Deus a sua queixa e pedido socorro (Salmos 4:1). Ele não fecha os olhos porque o problema desapareceu; fecha os olhos porque confia em Quem cuida dele enquanto dorme.
-Essa confiança não nasce de ignorar o perigo. Nasce de entregar o que não está nas nossas mãos para as mãos de Deus, antes de apagar a luz. A Bíblia repete essa promessa em outro lugar: "Quando você se deitar, não terá medo; ao deitar-se, o seu sono será tranquilo" (Provérbios 3:24).
-Dormir em paz, na Bíblia, não é sinal de que não resta nenhum problema. É sinal de que confiamos em Alguém maior do que qualquer problema que ainda não foi resolvido.
-Deus não promete apagar tudo o que te preocupa antes da meia-noite. Promete ficar de guarda enquanto nós descansamos, noite após noite, mesmo quando o dia seguinte ainda está cheio de perguntas sem resposta.
-Entregue a Deus o que te tira o sono
-
-Antes de dormir, escreva num papel, ou diga em voz alta, as três coisas que mais pesam na sua mente hoje, e entregue cada uma a Deus em oração.
-Leia o Salmo 4 inteiro em voz baixa antes de apagar a luz, deixando a última frase ser a última coisa que você pensa.
-Troque cinco minutos de tela por cinco minutos de silêncio diante de Deus, respirando fundo e lembrando quem cuida de você enquanto você dorme.
-Se a ansiedade voltar durante a noite, sussurre o versículo de hoje como oração: "Só tu, Senhor, me fazes viver em segurança."
-Ao acordar amanhã, antes de checar o telefone, agradeça a Deus pela noite de descanso que só Ele podia dar.
-
-Para orar:
-Senhor, muitas noites eu deito com a mente cheia de preocupações que não consigo resolver sozinho. Hoje eu escolho entregar cada uma delas nas tuas mãos, antes de fechar os olhos. Ensina-me a confiar em ti mesmo quando o problema continua lá fora, e dá-me o sono tranquilo que só vem de saber que tu estás de guarda sobre mim esta noite. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -327,15 +333,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 +++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  25 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  24 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  14 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  53 +++----
+ feeds/salmo_do_dia/atom.xml               | 106 ++++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 255 +++++++++++++++---------------
- 11 files changed, 235 insertions(+), 225 deletions(-)
+ output.log                                | 306 +++++++++++++++---------------
+ 11 files changed, 282 insertions(+), 282 deletions(-)
