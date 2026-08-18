@@ -1,44 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 197155 characters
-INFO:root:HTML parsed, length: 174562 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (17/08/2026)', 'Palavra de Ontem (16/08/2026)', 'Palavra de Anteontem (15/08/2026)']
-INFO:root:Found 3 URLs: ['/micromachismo/', '/bugiganga/', '/ecoansiedade/']
-INFO:root:Found 9 descriptions: ['substantivo masculino [Neologismo] Pequenos atos d', 'Sinônimos:\n\nsexismo, machismo, preconceito, discri', 'Sílabas:mi-cro-ma-chis-mo']
-INFO:root:Found 3 dates: ['Palavra de Hoje (17/08/2026)', 'Palavra de Ontem (16/08/2026)', 'Palavra de Anteontem (15/08/2026)']
+INFO:root:Response length: 197023 characters
+INFO:root:HTML parsed, length: 174430 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (18/08/2026)', 'Palavra de Ontem (17/08/2026)', 'Palavra de Anteontem (16/08/2026)']
+INFO:root:Found 3 URLs: ['/crossfit/', '/micromachismo/', '/bugiganga/']
+INFO:root:Found 9 descriptions: ['substantivo masculino [Esporte] Treinamento físico', 'Sílabas:cros-fit', 'substantivo masculino [Neologismo] Pequenos atos d']
+INFO:root:Found 3 dates: ['Palavra de Hoje (18/08/2026)', 'Palavra de Ontem (17/08/2026)', 'Palavra de Anteontem (16/08/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (17/08/2026)', ID=d750ea1733433fc319df5e2e88fde220
-INFO:root:Processing entry 2: Title='Palavra de Ontem (16/08/2026)', ID=e492e89d6a068c89d7ddc58509ffbe22
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (15/08/2026)', ID=97ec58b7bc91477e74b6d392cbf85911
+INFO:root:Processing entry 1: Title='Palavra de Hoje (18/08/2026)', ID=536bc80aaf8684d65698dd2f4f1b16f7
+INFO:root:Processing entry 2: Title='Palavra de Ontem (17/08/2026)', ID=a764b8e8b5b231fa3fcc0744c48a19ad
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (16/08/2026)', ID=5b3a3050517bb593b88c4805442ef426
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (17/08/2026) - Significado completo de micromachismo:
+INFO:root:🔹 Title: Palavra de Hoje (18/08/2026) - Significado completo de crossfit:
+INFO:root:🔹 URL: https://www.dicio.com.br/crossfit/
+INFO:root:🔹 Description: substantivo masculino [Esporte] Treinamento físico conhecido pela intensidade dos exercícios físicos, caracterizado por incorporar na rotina de treino vários esportes e múltiplas modalidades de exercícios.Etimologia (origem da palavra crossfit). A palavra crossfit tem sua origem no inglês pela marca registrada CrossFit.
+ Sílabas:cros-fit
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (17/08/2026) - Significado completo de micromachismo:
 INFO:root:🔹 URL: https://www.dicio.com.br/micromachismo/
-INFO:root:🔹 Description: substantivo masculino [Neologismo] Pequenos atos de machismo que se disseminam de forma sutil, não evidente.Atitudes discriminatórias em relação às mulheres que se perpetuam diariamente e de uma maneira tão naturalizada que estão incorporadas no cotidiano.Etimologia (origem da palavra micromachismo). A palavra micromachismo deriva da junção do prefixo micro-, do grego "miklos", com sentido de pequeno, e machismo; pelo espanhol "micromachismo".
+INFO:root:🔹 Description: Sílabas:cros-fit
  
 Sinônimos:
 
 sexismo, machismo, preconceito, discriminação, misoginia, opressão, autoritarismo, repressão 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (16/08/2026) - Significado completo de bugiganga:
+INFO:root:🔹 Title: Palavra de Anteontem (16/08/2026) - Significado completo de bugiganga:
 INFO:root:🔹 URL: https://www.dicio.com.br/bugiganga/
-INFO:root:🔹 Description: Sinônimos:
-
-sexismo, machismo, preconceito, discriminação, misoginia, opressão, autoritarismo, repressão
+INFO:root:🔹 Description: substantivo masculino [Neologismo] Pequenos atos de machismo que se disseminam de forma sutil, não evidente.Atitudes discriminatórias em relação às mulheres que se perpetuam diariamente e de uma maneira tão naturalizada que estão incorporadas no cotidiano.Etimologia (origem da palavra micromachismo). A palavra micromachismo deriva da junção do prefixo micro-, do grego "miklos", com sentido de pequeno, e machismo; pelo espanhol "micromachismo".
  Sílabas:mi-cro-ma-chis-mo
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (15/08/2026) - Significado completo de ecoansiedade:
-INFO:root:🔹 URL: https://www.dicio.com.br/ecoansiedade/
-INFO:root:🔹 Description: Sílabas:mi-cro-ma-chis-mo
- 
-Sinônimos:
-
-bagatela, quinquilharia, babugem, bagana, besteira, bobagem, mexinflório, migalhice, minúcia, mixaria 
-
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,40 +40,74 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365493 characters
-INFO:root:HTML parsed, length: 355001 characters
-INFO:root:Found 1 titles: ['Jeremias 29:13']
-INFO:root:Found 1 URLs: ['/versiculo/jeremias_29_13/']
-INFO:root:Found 1 descriptions: ['Vocês me procurarão e me acharão quando me procura']
+INFO:root:Response length: 365502 characters
+INFO:root:HTML parsed, length: 355010 characters
+INFO:root:Found 1 titles: ['Tito 3:9']
+INFO:root:Found 1 URLs: ['/versiculo/tito_3_9/']
+INFO:root:Found 1 descriptions: ['Evite, porém, controvérsias tolas, genealogias, di']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jeremias 29:13', ID=f96702e7730236e39bf53ac4eca153dd
+INFO:root:Processing entry 1: Title='Tito 3:9', ID=d9b8b3a60f6fece5f0db27c3e36a1776
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jeremias 29:13
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jeremias_29_13/
-INFO:root:🔹 Description: Vocês me procurarão e me acharão quando me procurarem de todo o coração. Jeremias 29:13
+INFO:root:🔹 Title: Tito 3:9
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tito_3_9/
+INFO:root:🔹 Description: Evite, porém, controvérsias tolas, genealogias, discussões e contendas a respeito da Lei, porque essas coisas são inúteis e sem valor. Tito 3:9
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 362062 characters
-INFO:root:HTML parsed, length: 352603 characters
-INFO:root:Found 3 titles: ['Salmo 34', 'Salmo 14', 'Salmo 13']
-INFO:root:Found 3 URLs: ['/salmos_34/', '/salmos_14/', '/salmos_13/']
-INFO:root:Found 3 descriptions: ['Bendirei o Senhor o tempo todo!\nOs meus lábios sem', 'Diz o tolo em seu coração: "Deus não existe".\nCorr', 'Até quando, Senhor?\nPara sempre te esquecerás de m']
-INFO:root:Found 3 dates: ['17 de Agosto de 2026', '16 de Agosto de 2026', '15 de Agosto de 2026']
+INFO:root:Response length: 362661 characters
+INFO:root:HTML parsed, length: 353200 characters
+INFO:root:Found 3 titles: ['Salmo 108', 'Salmo 34', 'Salmo 14']
+INFO:root:Found 3 URLs: ['/salmos_108/', '/salmos_34/', '/salmos_14/']
+INFO:root:Found 3 descriptions: ['Meu coração está firme, ó Deus!\nCantarei e louvare', 'Bendirei o Senhor o tempo todo!\nOs meus lábios sem', 'Diz o tolo em seu coração: "Deus não existe".\nCorr']
+INFO:root:Found 3 dates: ['18 de Agosto de 2026', '17 de Agosto de 2026', '16 de Agosto de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 34', ID=5f5eca0bb8f7313a7526389f25305576
-INFO:root:Processing entry 2: Title=' Salmo 14', ID=44f8a1cc34f2b4ef56ad4bc3dcedfb6c
-INFO:root:Processing entry 3: Title=' Salmo 13', ID=929ac7e9fc48e8e2f594f5526caa6071
+INFO:root:Processing entry 1: Title=' Salmo 108', ID=16729cde4cbd154c4a8776a3301e4551
+INFO:root:Processing entry 2: Title=' Salmo 34', ID=5f5eca0bb8f7313a7526389f25305576
+INFO:root:Processing entry 3: Title=' Salmo 14', ID=44f8a1cc34f2b4ef56ad4bc3dcedfb6c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 108
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_108/
+INFO:root:🔹 Description: Meu coração está firme, ó Deus!
+Cantarei e louvarei, ó Glória minha! 
+Acordem, harpa e lira!
+Despertarei a alvorada. 
+Eu te darei graças, ó Senhor, entre os povos;
+cantarei louvores entre as nações, 
+porque o teu amor leal
+se eleva muito acima dos céus;
+a tua fidelidade alcança as nuvens! 
+Sê exaltado, ó Deus, acima dos céus;
+estenda-se a tua glória sobre toda a terra! 
+Salva-nos com a tua mão direita
+e responde-nos,
+para que sejam libertos aqueles a quem amas. 
+Do seu santuário Deus falou:
+"No meu triunfo dividirei Siquém
+e repartirei o vale de Sucote. 
+Gileade me pertence e Manassés também;
+Efraim é o meu capacete, Judá é o meu cetro. 
+Moabe é a pia em que me lavo,
+em Edom atiro a minha sandália,
+sobre a Filístia dou meu brado de vitória!" 
+Quem me levará à cidade fortificada?
+Quem me guiará a Edom? 
+Não foste tu, ó Deus, que nos rejeitaste
+e deixaste de sair com os nossos exércitos? 
+Dá-nos ajuda contra os adversários,
+pois inútil é o socorro do homem. 
+Com Deus conquistaremos a vitória,
+e ele pisará os nossos adversários. 
+ Salmo 108
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 34
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_34/
 INFO:root:🔹 Description: Bendirei o Senhor o tempo todo!
@@ -162,77 +190,84 @@ Quando o Senhor restaurar o seu povo,
 Jacó exultará! Israel se regozijará! 
  Salmo 14
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 13
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_13/
-INFO:root:🔹 Description: Até quando, Senhor?
-Para sempre te esquecerás de mim?
-Até quando esconderás de mim o teu rosto? 
-Até quando terei inquietações
-e tristeza no coração dia após dia?
-Até quando o meu inimigo triunfará sobre mim? 
-Olha para mim e responde, Senhor, meu Deus.
-Ilumina os meus olhos,
-ou do contrário dormirei o sono da morte; 
-os meus inimigos dirão: "Eu o venci",
-e os meus adversários festejarão o meu fracasso. 
-Eu, porém, confio em teu amor;
-o meu coração exulta em tua salvação. 
-Quero cantar ao Senhor
-pelo bem que me tem feito. 
- Salmo 13
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366372 characters
-INFO:root:HTML parsed, length: 356348 characters
-INFO:root:Found 3 titles: ['Troque a reclamação pela confiança', 'A graça é maior que o pecado', 'Cristo é a sua vida']
+INFO:root:Response length: 365944 characters
+INFO:root:HTML parsed, length: 355911 characters
+INFO:root:Found 3 titles: ['Você conhece a voz de Deus', 'Troque a reclamação pela confiança', 'A graça é maior que o pecado']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Reclamar parece inofensivo, quase um alívio depois', 'O pecado gosta de sussurrar duas mentiras ao mesmo', 'Você já se perguntou onde a sua vida realmente est']
-INFO:root:Found 1 dates: ['Segunda, 17 de agosto de 2026']
+INFO:root:Found 3 descriptions: ['Muita gente pede a Deus um sinal, uma resposta cla', 'Reclamar parece inofensivo, quase um alívio depois', 'O pecado gosta de sussurrar duas mentiras ao mesmo']
+INFO:root:Found 1 dates: ['Terça, 18 de agosto de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Troque a reclamação pela confiança', ID=9af79e7f8ddb88126f76a814a420118f
+INFO:root:Processing entry 1: Title='Você conhece a voz de Deus', ID=120b361e575bc530b31b702c81553030
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Troque a reclamação pela confiança - Palavra de Hoje
+INFO:root:🔹 Title: Você conhece a voz de Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Reclamar parece inofensivo, quase um alívio depois de um dia difícil. Mas a Bíblia trata a murmuração como sintoma de algo mais profundo: o coração que esqueceu o que Deus já fez.
+INFO:root:🔹 Description: Muita gente pede a Deus um sinal, uma resposta clara, quase esperando ouvir uma voz audível vinda do céu. Mas Jesus já disse quem consegue reconhecer a voz dEle, e não é sobre milagre auditivo.
 
-Façam tudo sem queixas nem discussões, para que se tornem irrepreensíveis e puros, filhos de Deus inculpáveis no meio de uma geração corrompida e perversa, na qual vocês brilham como estrelas no universo.
-Filipenses 2:14-15
+As minhas ovelhas ouvem a minha voz; eu as conheço, e elas me seguem.
+João 10:27
 
-Paulo escreve isso logo depois de falar de Jesus, que se esvaziou de todos os privilégios e serviu até a morte sem uma palavra de queixa. O padrão que ele pede não é fingir estar feliz; é servir e confiar do mesmo jeito que Cristo serviu.
-O povo de Israel aprendeu essa lição do jeito difícil. Recém-libertos da escravidão, viram o mar se abrir diante deles e ainda assim reclamaram no deserto, da comida, da água, do caminho.
+Reconhecer a voz de Deus não é um dom raro, reservado a poucos escolhidos. É a marca de quem pertence a Ele, como ovelha que reconhece a voz do pastor entre muitas outras vozes, sem precisar de esforço sobrenatural, só de proximidade e costume.
+Essa proximidade se constrói, não acontece por acaso. O menino Samuel precisou de três chamados até entender quem estava falando com ele; ele ouvia o som, mas ainda não sabia de onde vinha. Só depois de aprender a reconhecer, respondeu do jeito certo:
 
-Não resmunguem, como alguns deles resmungaram, e foram mortos pelo anjo destruidor. Estas coisas aconteceram a eles como exemplos, e foram escritas como advertência para nós.
-1 Coríntios 10:10-11
+Fala, Senhor, que o teu servo ouve.
+1 Samuel 3:10
 
-A queixa deles não era só sobre comida ou água; era sobre se Deus, que já tinha feito o mar se abrir, ainda era digno de confiança no deserto. Cada reclamação repetia a mesma dúvida.
-A próxima vez que a vontade de reclamar aparecer, antes de falar, lembre o que Deus já fez por você. A gratidão não nega a dificuldade; só muda para quem você está falando sobre ela.
+Samuel não nasceu sabendo escutar a Deus; alguém mais experiente o ajudou a reconhecer o chamado. Reconhecer a voz de Deus também é assim para você: cresce com o tempo, com a Palavra, com quietude, com quem já andou esse caminho antes de você.
+Hoje, antes de pedir um sinal novo, volte para o que Deus já falou na Sua Palavra. É ali, na leitura de todo dia, que a sua familiaridade com a voz dEle começa a se formar.
  
-Façam tudo sem queixas nem discussões, para que se tornem irrepreensíveis e puros, filhos de Deus inculpáveis no meio de uma geração corrompida e perversa, na qual vocês brilham como estrelas no universo.
-Filipenses 2:14-15
+As minhas ovelhas ouvem a minha voz; eu as conheço, e elas me seguem.
+João 10:27
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376439 characters
-INFO:root:HTML parsed, length: 365949 characters
-INFO:root:Found 3 titles: ['A batalha que ninguém vê', 'Quando a tentação parece maior que eu', 'Sozinho, mas conhecido por inteiro']
+INFO:root:Response length: 377767 characters
+INFO:root:HTML parsed, length: 367265 characters
+INFO:root:Found 3 titles: ['DD Gratidão quando nada está no lugar', 'A batalha que ninguém vê', 'Quando a tentação parece maior que eu']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Pois a nossa luta não é contra seres humanos, mas ', 'Nenhuma tentação os alcançou que não fosse comum a', 'Senhor, tu me sondas e me conheces. Sabes quando m']
-INFO:root:Found 3 dates: ['AGOSTO\n\n17\nSEGUNDA', 'AGOSTO\n\n16\nDOMINGO', 'AGOSTO\n\n15\nSÁBADO']
+INFO:root:Found 3 descriptions: ['Deem graças ao Senhor, pois ele é bom; o seu amor ', 'Pois a nossa luta não é contra seres humanos, mas ', 'Nenhuma tentação os alcançou que não fosse comum a']
+INFO:root:Found 3 dates: ['AGOSTO\n\n18\nTERÇA', 'AGOSTO\n\n17\nSEGUNDA', 'AGOSTO\n\n16\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A batalha que ninguém vê', ID=f51e1a6fea84be503febaa991b01d38a
-INFO:root:Processing entry 2: Title='Quando a tentação parece maior que eu', ID=eae81cf0b296f47a787fbd8317354262
-INFO:root:Processing entry 3: Title='Sozinho, mas conhecido por inteiro', ID=6cb5a44a01c39d0f5fc1899fc5308b8b
+INFO:root:Processing entry 1: Title='DD Gratidão quando nada está no lugar', ID=153d1ff96c1ecbbdbacf16b6171be250
+INFO:root:Processing entry 2: Title='A batalha que ninguém vê', ID=f51e1a6fea84be503febaa991b01d38a
+INFO:root:Processing entry 3: Title='Quando a tentação parece maior que eu', ID=eae81cf0b296f47a787fbd8317354262
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: DD Gratidão quando nada está no lugar
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Deem graças ao Senhor, pois ele é bom; o seu amor dura para sempre.
+1 Crônicas 16:34
+
+É fácil agradecer quando tudo está no lugar: a saúde em dia, a conta paga, a família reunida. O difícil é agradecer quando nada disso é verdade hoje.
+Este versículo faz parte de uma canção cantada num dia de vitória, quando a arca da aliança finalmente voltou para Jerusalém depois de anos longe. Foi escrito num momento bom. Mas repare no motivo que a canção dá para agradecer: não é "porque hoje está tudo bem", é "porque ele é bom" e "o seu amor dura para sempre".
+O motivo do agradecimento não muda com a circunstância, porque nunca dependeu dela. Se a bondade de Deus e o seu amor duram para sempre, eles continuam verdadeiros num dia difícil tanto quanto num dia de festa.
+É por isso que a própria canção, ainda em pleno festejo, já pede socorro para um futuro incerto: "Salva-nos, ó Deus Salvador nosso; ajunta-nos e livra-nos dentre as nações" (1 Crônicas 16:35). Quem escreveu essa canção sabia que dias difíceis viriam, e mesmo assim ensinou o povo a agradecer primeiro.
+Paulo escreve algo parecido, séculos depois, sem depender de nenhuma vitória recente:
+
+Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.
+1 Tessalonicenses 5:18
+
+Gratidão não é fingir que está tudo bem quando não está. É escolher lembrar quem Deus é, mesmo quando o que está ao seu redor não reflete isso ainda.
+Hoje, mesmo com nada no lugar, você pode agradecer pelo que nunca mudou: a bondade de Deus e o seu amor que dura para sempre.
+Agradeça pelo que não muda, não só pelo que está bem
+
+Hoje, mesmo que nada pareça estar no lugar, agradeça a Deus especificamente por dois traços do caráter dele que não mudam com a sua circunstância.
+Releia 1 Crônicas 16:8-36 e observe como a gratidão e o pedido de socorro aparecem juntos, sem contradição.
+Quando perceber que só agradece nos dias bons, pratique hoje agradecer em voz alta mesmo em meio à dificuldade.
+Compartilhe com alguém um motivo de gratidão que não depende de como está o seu dia hoje.
+
+Para orar:
+Senhor, hoje nada parece estar no lugar, e é difícil sentir vontade de agradecer. Mesmo assim, escolho lembrar que tu és bom e que o teu amor dura para sempre, independente da minha circunstância. Ajuda-me a agradecer por quem tu és, enquanto espero que as coisas se ajeitem. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A batalha que ninguém vê
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Pois a nossa luta não é contra seres humanos, mas contra os poderes e autoridades, contra os dominadores deste mundo de trevas, contra as forças espirituais do mal nas regiões celestiais.
@@ -284,26 +319,6 @@ Releia 1 Coríntios 10:13 sempre que sentir que está sozinho nessa luta, e lemb
 Para orar:
 Senhor, hoje a tentação parece maior do que eu consigo suportar. Ajuda-me a lembrar que não estou sozinho nessa luta, e que tu já preparaste uma saída, mesmo que eu ainda não a tenha visto. Dá-me coragem para tomar esse caminho de escape, em vez de ficar parado esperando cair. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Sozinho, mas conhecido por inteiro
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Senhor, tu me sondas e me conheces. Sabes quando me sento e quando me levanto; de longe percebes os meus pensamentos. Sabes quando saio e quando me deito; conheces todos os meus caminhos. Antes de falar a palavra, já a conheces inteiramente, Senhor.
-Salmos 139:1-4
-
-Existe um tipo de solidão que não tem a ver com estar sozinho numa sala. É a sensação de que ninguém, mesmo por perto, entende de verdade o que passamos por dentro, e isso pode doer mais do que a solidão física.
-Davi escreve este salmo maravilhado com uma verdade simples: Deus não só sabe onde ele está, sabe o que ele pensa antes de pensar, o que ele vai dizer antes de falar. Não é vigilância distante; é conhecimento íntimo, do tipo que só existe entre quem se ama de verdade.
-Mais à frente no mesmo salmo, Davi pergunta para onde poderia fugir da presença de Deus, e responde que nem nos confins do mar estaria sozinho: "ali também a tua mão me guiará, a tua mão direita me segurará" (Salmos 139:9-10). Não existe lugar, nem sentimento, onde Deus não esteja junto.
-Isso muda o que significa estar sozinho. Você pode estar numa sala vazia, sem ninguém para ligar, e ainda assim não estar desacompanhado, porque Alguém que te conhece por inteiro está ali com você.
-A solidão mente quando diz que ninguém te vê. Deus te vê, te conhece por dentro, e não vai embora.
-Fale com Quem já te conhece por inteiro
-
-Hoje, em vez de guardar para si o que ninguém parece entender, converse com Deus sobre isso em oração, sabendo que Ele já sabia antes de você contar.
-Leia o Salmo 139 inteiro e sublinhe as frases que mostram Deus presente em cada lugar da sua vida.
-Se a solidão for constante, dê um passo concreto: mande uma mensagem, ligue para alguém, participe de um grupo na igreja. Deus também usa pessoas para acompanhar você.
-Quando sentir que ninguém entende, repita: "Antes de eu falar, ele já me conhece inteiramente."
-
-Para orar:
-Senhor, hoje eu sinto que ninguém entende de verdade o que estou vivendo. Às vezes me sinto invisível, mesmo cercado de gente. Obrigado porque tu me conheces por inteiro, antes mesmo de eu conseguir explicar o que sinto. Ajuda-me a lembrar que nunca estou realmente sozinho, porque tu estás comigo onde quer que eu vá. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -333,15 +348,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 +++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  14 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 106 ++++++-----
+ feeds/salmo_do_dia/atom.xml               |  51 ++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 306 +++++++++++++++---------------
- 11 files changed, 282 insertions(+), 282 deletions(-)
+ output.log                                | 241 +++++++++++++++---------------
+ 11 files changed, 227 insertions(+), 209 deletions(-)
