@@ -1,38 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 198925 characters
-INFO:root:HTML parsed, length: 175871 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (23/08/2026)', 'Palavra de Ontem (22/08/2026)', 'Palavra de Anteontem (21/08/2026)']
-INFO:root:Found 3 URLs: ['/psiu/', '/girafa/', '/atribuladamente/']
-INFO:root:Found 13 descriptions: ['interjeição Som sibilante com que se chama alguém ', 'Classe gramatical:interjeição e substantivo mascul', 'Sílabas:psiu']
-INFO:root:Found 3 dates: ['Palavra de Hoje (23/08/2026)', 'Palavra de Ontem (22/08/2026)', 'Palavra de Anteontem (21/08/2026)']
+INFO:root:Response length: 199296 characters
+INFO:root:HTML parsed, length: 176425 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (24/08/2026)', 'Palavra de Ontem (23/08/2026)', 'Palavra de Anteontem (22/08/2026)']
+INFO:root:Found 3 URLs: ['/conformacao/', '/psiu/', '/girafa/']
+INFO:root:Found 13 descriptions: ['substantivo feminino Disposição das partes de um c', 'Sinônimos:\n\nestrutura, feitio, configuração, forma', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (24/08/2026)', 'Palavra de Ontem (23/08/2026)', 'Palavra de Anteontem (22/08/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (23/08/2026)', ID=eb2af9a7c98c00cd7b0a2c91d11afed0
-INFO:root:Processing entry 2: Title='Palavra de Ontem (22/08/2026)', ID=c2a29535a948e438fa407fc557e21dd4
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/08/2026)', ID=77b9076662a8692ed913606dc2ff4163
+INFO:root:Processing entry 1: Title='Palavra de Hoje (24/08/2026)', ID=49ca80deb08346d30e9ccb61408b28b5
+INFO:root:Processing entry 2: Title='Palavra de Ontem (23/08/2026)', ID=62387ce792db723f7af2e95750ec982c
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/08/2026)', ID=f6c53a499f2351ae34b86f8995003a12
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (23/08/2026) - Significado completo de psiu:
-INFO:root:🔹 URL: https://www.dicio.com.br/psiu/
-INFO:root:🔹 Description: interjeição Som sibilante com que se chama alguém ou lhe atrai a atenção.Som através do qual se chama alguém; esta pessoa pode ser alguém conhecido (cujo nome não se quer falar) ou alguém desconhecido.Som para pedir atenção, fazer calar, solicitar silêncio (normalmente vem acompanhado pelo dedo indicador à frente dos lábios).Etimologia (origem da palavra psiu). A palavra psiu tem sua origem onomatopaica; por influência do som.
- Classe gramatical:interjeição e substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (22/08/2026) - Significado completo de girafa:
-INFO:root:🔹 URL: https://www.dicio.com.br/girafa/
-INFO:root:🔹 Description: Classe gramatical:interjeição e substantivo masculino
- Sílabas:psiu
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (21/08/2026) - Significado completo de atribuladamente:
-INFO:root:🔹 URL: https://www.dicio.com.br/atribuladamente/
-INFO:root:🔹 Description: Sílabas:psiu
- Citação: "e um vaga-lume
-lanterneiro que riscou
-um psiu de luz"
-                                - Guimarães Rosa
+INFO:root:🔹 Title: Palavra de Hoje (24/08/2026) - Significado completo de conformação:
+INFO:root:🔹 URL: https://www.dicio.com.br/conformacao/
+INFO:root:🔹 Description: substantivo feminino Disposição das partes de um corpo organizado; constituição de um corpo; compleição, constituição.Processo de formação de algo concreto ou abstrato; configuração.Particularidades de algo ou de alguém; forma, tamanho, físico.Ato de se resignar, submeter; submissão: nasceu para o estrelado não para conformação.Etimologia (origem da palavra conformação). A palavra conformação tem sua origem pelo latim “conformatio,onis”, podendo significar forma, figura, feição, aspecto.
+ 
+Sinônimos:
 
+estrutura, feitio, configuração, forma, resignação, adaptação, ajustamento, ajuste, adequação, acomodação, assimilação, conformidade, tamanho, físico, compleição, constituição 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (23/08/2026) - Significado completo de psiu:
+INFO:root:🔹 URL: https://www.dicio.com.br/psiu/
+INFO:root:🔹 Description: Sinônimos:
+
+estrutura, feitio, configuração, forma, resignação, adaptação, ajustamento, ajuste, adequação, acomodação, assimilação, conformidade, tamanho, físico, compleição, constituição
+ Classe gramatical:substantivo feminino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (22/08/2026) - Significado completo de girafa:
+INFO:root:🔹 URL: https://www.dicio.com.br/girafa/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:con-for-ma-ção
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +42,224 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365678 characters
-INFO:root:HTML parsed, length: 355186 characters
-INFO:root:Found 1 titles: ['Hebreus 11:6']
-INFO:root:Found 1 URLs: ['/versiculo/hebreus_11_6/']
-INFO:root:Found 1 descriptions: ['Sem fé é impossível agradar a Deus, pois quem dele']
+INFO:root:Response length: 365971 characters
+INFO:root:HTML parsed, length: 355479 characters
+INFO:root:Found 1 titles: ['Tiago 1:26-27']
+INFO:root:Found 1 URLs: ['/versiculo/tiago_1_26-27/']
+INFO:root:Found 1 descriptions: ['Se alguém se considera religioso, mas não refreia ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Hebreus 11:6', ID=95edf24c5882514242c492e82309564d
+INFO:root:Processing entry 1: Title='Tiago 1:26-27', ID=6bba4c767fada2655ede680ebb695bbf
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Hebreus 11:6
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_11_6/
-INFO:root:🔹 Description: Sem fé é impossível agradar a Deus, pois quem dele se aproxima precisa crer que ele existe e que recompensa aqueles que o buscam. Hebreus 11:6
+INFO:root:🔹 Title: Tiago 1:26-27
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_1_26-27/
+INFO:root:🔹 Description: Se alguém se considera religioso, mas não refreia a sua língua, engana-se a si mesmo. Sua religião não tem valor algum! A religião que Deus, o nosso Pai, aceita como pura e imaculada é esta: cuidar dos órfãos e das viúvas em suas dificuldades e não se deixar corromper pelo mundo. Tiago 1:26-27
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 363122 characters
-INFO:root:HTML parsed, length: 353642 characters
-INFO:root:Found 3 titles: ['Salmo 118', 'Salmo 93', 'Salmo 41']
-INFO:root:Found 3 URLs: ['/salmos_118/', '/salmos_93/', '/salmos_41/']
-INFO:root:Found 3 descriptions: ['Deem graças ao Senhor porque ele é bom;\no seu amor', 'O Senhor reina!\nVestiu-se de majestade;\nde majesta', 'Como é feliz aquele\nque se interessa pelo pobre!\nO']
-INFO:root:Found 3 dates: ['23 de Agosto de 2026', '22 de Agosto de 2026', '21 de Agosto de 2026']
+INFO:root:Response length: 368780 characters
+INFO:root:HTML parsed, length: 359424 characters
+INFO:root:Found 3 titles: ['Salmo 78', 'Salmo 118', 'Salmo 93']
+INFO:root:Found 3 URLs: ['/salmos_78/', '/salmos_118/', '/salmos_93/']
+INFO:root:Found 3 descriptions: ['Povo meu, escute o meu ensino;\nincline os ouvidos\n', 'Deem graças ao Senhor porque ele é bom;\no seu amor', 'O Senhor reina!\nVestiu-se de majestade;\nde majesta']
+INFO:root:Found 3 dates: ['24 de Agosto de 2026', '23 de Agosto de 2026', '22 de Agosto de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 118', ID=8fc6e7bb42ca393915a24ebaf7381156
-INFO:root:Processing entry 2: Title=' Salmo 93', ID=a3266148ae5a2899b43f65ea48da1d05
-INFO:root:Processing entry 3: Title=' Salmo 41', ID=b34f131061fcae68771d58ea8844e2fb
+INFO:root:Processing entry 1: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
+INFO:root:Processing entry 2: Title=' Salmo 118', ID=8fc6e7bb42ca393915a24ebaf7381156
+INFO:root:Processing entry 3: Title=' Salmo 93', ID=a3266148ae5a2899b43f65ea48da1d05
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 78
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_78/
+INFO:root:🔹 Description: Povo meu, escute o meu ensino;
+incline os ouvidos
+para o que eu tenho a dizer. 
+Em parábolas abrirei a minha boca,
+proferirei enigmas do passado; 
+o que ouvimos e aprendemos,
+o que nossos pais nos contaram. 
+Não os esconderemos dos nossos filhos;
+contaremos à próxima geração
+os louváveis feitos do Senhor,
+o seu poder e as maravilhas que fez. 
+Ele decretou estatutos para Jacó,
+e em Israel estabeleceu a lei,
+e ordenou aos nossos antepassados
+que a ensinassem aos seus filhos, 
+de modo que a geração seguinte a conhecesse,
+e também os filhos que ainda nasceriam,
+e eles, por sua vez,
+contassem aos seus próprios filhos. 
+Então eles porão a confiança em Deus;
+não esquecerão os seus feitos
+e obedecerão aos seus mandamentos. 
+Eles não serão como os seus antepassados,
+obstinados e rebeldes,
+povo de coração desleal para com Deus,
+gente de espírito infiel. 
+Os homens de Efraim, flecheiros armados,
+viraram as costas no dia da batalha; 
+não guardaram a aliança de Deus
+e se recusaram a viver de acordo com a sua lei. 
+Esqueceram o que ele tinha feito,
+as maravilhas que lhes havia mostrado. 
+Ele fez milagres diante dos seus antepassados,
+na terra do Egito, na região de Zoã. 
+Dividiu o mar para que pudessem passar;
+fez a água erguer-se como um muro. 
+Ele os guiou com a nuvem de dia
+e com a luz do fogo de noite. 
+Fendeu as rochas no deserto
+e deu-lhes tanta água
+como a que flui das profundezas; 
+da pedra fez sair regatos
+e fluir água como um rio. 
+Mas contra ele continuaram a pecar,
+revoltando-se no deserto contra o Altíssimo. 
+Deliberadamente puseram Deus à prova,
+exigindo o que desejavam comer. 
+Duvidaram de Deus, dizendo:
+"Poderá Deus preparar uma mesa no deserto? 
+Sabemos que, quando ele feriu a rocha,
+a água brotou e jorrou em torrentes.
+Mas conseguirá também dar-nos de comer?
+Poderá suprir de carne o seu povo?" 
+O Senhor os ouviu e enfureceu-se;
+com fogo atacou Jacó,
+e sua ira levantou-se contra Israel, 
+pois eles não creram em Deus
+nem confiaram no seu poder salvador. 
+Contudo, ele deu ordens às nuvens
+e abriu as portas dos céus; 
+fez chover maná para que o povo comesse,
+deu-lhe o pão dos céus. 
+Os homens comeram o pão dos anjos;
+enviou-lhes comida à vontade. 
+Enviou dos céus o vento oriental
+e pelo seu poder fez avançar o vento sul. 
+Fez chover carne sobre eles como pó,
+bandos de aves como a areia da praia. 
+Levou-as a cair dentro do acampamento,
+ao redor das suas tendas. 
+Comeram à vontade,
+e assim ele satisfez o desejo deles. 
+Mas, antes de saciarem o apetite,
+quando ainda tinham a comida na boca, 
+acendeu-se contra eles a ira de Deus;
+e ele feriu de morte os mais fortes dentre eles,
+matando os jovens de Israel. 
+A despeito disso tudo, continuaram pecando;
+não creram nos seus prodígios. 
+Por isso ele encerrou
+os dias deles como um sopro
+e os anos deles em repentino pavor. 
+Sempre que Deus os castigava com a morte,
+eles o buscavam;
+com fervor se voltavam de novo para ele. 
+Lembravam-se de que Deus era a sua Rocha,
+de que o Deus Altíssimo era o seu Redentor. 
+Com a boca o adulavam,
+com a língua o enganavam; 
+o coração deles não era sincero;
+não foram fiéis à sua aliança. 
+Contudo, ele foi misericordioso;
+perdoou-lhes as maldades
+e não os destruiu.
+Vez após vez conteve a sua ira,
+sem despertá-la totalmente. 
+Lembrou-se de que eram meros mortais,
+brisa passageira que não retorna. 
+Quantas vezes mostraram-se rebeldes
+contra ele no deserto
+e o entristeceram na terra solitária! 
+Repetidas vezes puseram Deus à prova;
+irritaram o Santo de Israel. 
+Não se lembravam da sua mão poderosa,
+do dia em que os redimiu do opressor, 
+do dia em que mostrou
+os seus prodígios no Egito,
+as suas maravilhas na região de Zoã, 
+quando transformou os rios
+e os riachos dos egípcios em sangue,
+e eles não mais conseguiam beber das suas águas, 
+e enviou enxames de moscas
+que os devoraram,
+e rãs que os devastaram; 
+quando entregou as suas plantações às larvas,
+a produção da terra aos gafanhotos, 
+e destruiu as suas vinhas com a saraiva
+e as suas figueiras bravas com a geada; 
+quando entregou o gado deles ao granizo,
+os seus rebanhos aos raios; 
+quando os atingiu com a sua ira ardente,
+com furor, indignação e hostilidade,
+com muitos anjos destruidores. 
+Abriu caminho para a sua ira;
+não os poupou da morte,
+mas os entregou à peste. 
+Matou todos os primogênitos do Egito,
+as primícias do vigor varonil
+das tendas de Cam. 
+Mas tirou o seu povo como ovelhas
+e o conduziu como a um rebanho pelo deserto. 
+Ele os guiou em segurança,
+e não tiveram medo;
+e os seus inimigos afundaram-se no mar. 
+Assim os trouxe à fronteira
+da sua terra santa,
+aos montes que a sua mão direita conquistou. 
+Expulsou nações que lá estavam,
+distribuiu-lhes as terras por herança
+e deu suas tendas às tribos de Israel
+para que nelas habitassem. 
+Mas eles puseram Deus à prova
+e foram rebeldes contra o Altíssimo;
+não obedeceram aos seus testemunhos. 
+Foram desleais e infiéis,
+como os seus antepassados,
+confiáveis como um arco defeituoso. 
+Eles o irritaram com os altares idólatras;
+com os seus ídolos lhe provocaram ciúmes. 
+Sabendo-o Deus, enfureceu-se
+e rejeitou totalmente Israel; 
+abandonou o tabernáculo de Siló,
+a tenda onde habitava entre os homens. 
+Entregou o símbolo do seu poder ao cativeiro
+e o seu esplendor nas mãos do adversário. 
+Deixou que o seu povo fosse morto à espada,
+pois enfureceu-se com a sua herança. 
+O fogo consumiu os seus jovens,
+e as suas moças não tiveram
+canções de núpcias; 
+os sacerdotes foram mortos à espada!
+As viúvas já nem podiam chorar! 
+Então o Senhor despertou
+como que de um sono,
+como um guerreiro despertado do domínio do vinho. 
+Fez retroceder a golpes os seus adversários
+e os entregou a permanente humilhação. 
+Também rejeitou as tendas de José
+e não escolheu a tribo de Efraim; 
+ao contrário, escolheu a tribo de Judá
+e o monte Sião, o qual amou. 
+Construiu o seu santuário como as alturas;
+como a terra o firmou para sempre. 
+Escolheu o seu servo Davi
+e o tirou do aprisco das ovelhas, 
+do pastoreio de ovelhas,
+para ser o pastor de Jacó, seu povo,
+de Israel, sua herança. 
+E de coração íntegro Davi os pastoreou;
+com mãos experientes os conduziu. 
+ Salmo 78
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 118
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_118/
 INFO:root:🔹 Description: Deem graças ao Senhor porque ele é bom;
@@ -165,100 +351,78 @@ a santidade, SENHOR,
 é o ornamento perpétuo da tua casa. 
  Salmo 93
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 41
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_41/
-INFO:root:🔹 Description: Como é feliz aquele
-que se interessa pelo pobre!
-O Senhor o livra em tempos de adversidade. 
-O Senhor o protegerá e preservará a sua vida;
-ele o fará feliz na terra
-e não o entregará ao desejo dos seus inimigos. 
-O Senhor o susterá
-em seu leito de enfermidade,
-e da doença o restaurará. 
-Eu disse: "Misericórdia, Senhor!
-Cura-me, pois pequei contra ti". 
-Os meus inimigos
-dizem maldosamente a meu respeito:
-"Quando ele vai morrer?
-Quando vai desaparecer o seu nome?" 
-Sempre que alguém vem visitar-me,
-fala com falsidade,
-enche o coração de calúnias
-e depois as espalha por onde vai. 
-Todos os que me odeiam
-juntam-se e cochicham contra mim,
-imaginando que o pior me acontecerá: 
-"Uma praga terrível o derrubou;
-está de cama e jamais se levantará". 
-Até o meu melhor amigo,
-em quem eu confiava
-e que partilhava do meu pão,
-voltou-se contra mim. 
-Mas, tu, Senhor, tem misericórdia de mim;
-levanta-me, para que eu lhes retribua. 
-Sei que me queres bem,
-pois o meu inimigo não triunfa sobre mim. 
-Por causa da minha integridade me susténs
-e me pões na tua presença para sempre. 
-Louvado seja o Senhor, o Deus de Israel,
-de eternidade a eternidade!
-Amém e amém! 
- Salmo 41
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366957 characters
-INFO:root:HTML parsed, length: 356893 characters
-INFO:root:Found 3 titles: ['A resposta calma evita a guerra', 'Tristeza que leva à vida', 'Seja simples como uma criança']
+INFO:root:Response length: 366966 characters
+INFO:root:HTML parsed, length: 356884 characters
+INFO:root:Found 3 titles: ['Uma nova criação em Cristo', 'A resposta calma evita a guerra', 'Tristeza que leva à vida']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Boa parte dos conflitos não começa pelo motivo ori', 'Nem toda tristeza por um erro é arrependimento. Às', 'A vida com Deus fica complicada quando você tenta ']
-INFO:root:Found 1 dates: ['Domingo, 23 de agosto de 2026']
+INFO:root:Found 3 descriptions: ['Muita gente ouve "nova criatura" e imagina uma tra', 'Boa parte dos conflitos não começa pelo motivo ori', 'Nem toda tristeza por um erro é arrependimento. Às']
+INFO:root:Found 1 dates: ['Segunda, 24 de agosto de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A resposta calma evita a guerra', ID=55bbfd591f20bdc9a794e6286b6cd38f
+INFO:root:Processing entry 1: Title='Uma nova criação em Cristo', ID=927710bce5e0c0520845674373c37499
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A resposta calma evita a guerra - Palavra de Hoje
+INFO:root:🔹 Title: Uma nova criação em Cristo - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Boa parte dos conflitos não começa pelo motivo original, começa pela forma como alguém respondeu. Um comentário, um tom de voz, uma resposta seca, e o que era uma diferença de opinião vira briga.
+INFO:root:🔹 Description: Muita gente ouve "nova criatura" e imagina uma transformação instantânea e completa: de um dia para o outro, sem luta, sem tentação, sem passado. E quando a vida real não corresponde a essa expectativa, vem a dúvida se a transformação de fato aconteceu.
 
-"A resposta calma desvia a fúria, mas a palavra ríspida desperta a ira."
-Provérbios 15:1 (NVI)
+"Portanto, se alguém está em Cristo, é uma nova criação. As coisas antigas já passaram; eis que se fizeram novas!"
+2 Coríntios 5:17 (NVI)
 
-Esse provérbio descreve algo que qualquer pessoa já viveu. A mesma discordância pode esfriar ou explodir, dependendo só de como a primeira resposta é dada. Uma palavra dura não resolve nada, só acrescenta lenha a um fogo que já estava aceso. Uma resposta calma não é fraqueza, é o que impede a situação de piorar.
-Isso não significa fingir que está tudo bem quando não está, nem engolir toda mágoa em silêncio. Significa escolher o tom antes de escolher as palavras. Dá para discordar, dá para colocar um limite, dá para dizer que algo doeu, sem usar a ríspida como arma. A diferença entre resolver um conflito e alimentá-lo geralmente está nesse detalhe pequeno: a temperatura da resposta.
-Paulo escreve algo parecido pensando em relacionamentos mais amplos:
-
-"Se possível, naquilo que depender de vocês, vivam em paz com todos os homens."
-Romanos 12:18 (NVI)
-
-Repare no "se possível" e no "naquilo que depender de vocês". Paulo não promete que toda relação vai terminar em paz, porque isso depende de mais de uma pessoa. Mas ele é claro sobre a parte que cabe a cada um: fazer o que estiver ao seu alcance para não ser você quem acende o próximo incêndio.
-Gestão de conflito, na Bíblia, não é evitar todo desacordo nem vencer toda discussão. É cuidar da própria resposta, porque essa é a única parte que realmente está nas suas mãos. Da próxima vez que sentir a irritação subindo antes de responder, vale a pausa: essa resposta vai desviar a fúria ou vai despertar mais ira?
+Paulo escreve isso para uma igreja cheia de gente ainda em processo, com conflitos, recaídas, imperfeições visíveis. "Nova criação" não descreve ausência de luta; descreve uma identidade que já mudou de base, mesmo que o processo de viver essa identidade ainda esteja em curso. É como uma semente que já é uma árvore em potencial, mesmo antes de crescer todos os galhos.
+"As coisas antigas já passaram" não significa que você esqueceu quem era, ou que nunca mais vai sentir os efeitos do que viveu. Significa que essas coisas não têm mais a palavra final sobre quem você é. Sua identidade não está mais ancorada no que você fez ou no que fizeram com você; está ancorada em estar em Cristo.
+Isso muda a pergunta que fazemos diante de uma recaída ou de um dia ruim. Em vez de "então eu nunca mudei mesmo", a pergunta vira "o que uma nova criação faz quando tropeça?" E a resposta é: continua sendo nova, porque a novidade nunca dependeu da sua perfeição. Dependeu de estar em Cristo, e isso já aconteceu.
  
-"A resposta calma desvia a fúria, mas a palavra ríspida desperta a ira."
-Provérbios 15:1 (NVI)
+"Portanto, se alguém está em Cristo, é uma nova criação. As coisas antigas já passaram; eis que se fizeram novas!"
+2 Coríntios 5:17 (NVI)
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376898 characters
-INFO:root:HTML parsed, length: 366403 characters
-INFO:root:Found 3 titles: ['Nunca é o bastante', 'Será que eu sou suficiente?', 'E se der tudo errado?']
+INFO:root:Response length: 376821 characters
+INFO:root:HTML parsed, length: 366354 characters
+INFO:root:Found 3 titles: ['Quando Deus parece calado', 'Nunca é o bastante', 'Será que eu sou suficiente?']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['"De fato, a piedade com contentamento é grande fon', '"Eu te louvo porque me fizeste de modo assombroso ', '"Portanto, não se preocupem com o amanhã, pois o a']
-INFO:root:Found 3 dates: ['AGOSTO\n\n23\nDOMINGO', 'AGOSTO\n\n22\nSÁBADO', 'AGOSTO\n\n21\nSEXTA']
+INFO:root:Found 3 descriptions: ['Até quando, Senhor? Vais te esquecer de mim para s', '"De fato, a piedade com contentamento é grande fon', '"Eu te louvo porque me fizeste de modo assombroso ']
+INFO:root:Found 3 dates: ['AGOSTO\n\n24\nSEGUNDA', 'AGOSTO\n\n23\nDOMINGO', 'AGOSTO\n\n22\nSÁBADO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Nunca é o bastante', ID=322536e06ca6aaa306a671cf4066f70f
-INFO:root:Processing entry 2: Title='Será que eu sou suficiente?', ID=f392e85c84501ae892f75d0c1b9e47f6
-INFO:root:Processing entry 3: Title='E se der tudo errado?', ID=bc33f3b336741fea440d707a4bf5bcde
+INFO:root:Processing entry 1: Title='Quando Deus parece calado', ID=62941ccd19df9701ad5601a99d896f85
+INFO:root:Processing entry 2: Title='Nunca é o bastante', ID=322536e06ca6aaa306a671cf4066f70f
+INFO:root:Processing entry 3: Title='Será que eu sou suficiente?', ID=f392e85c84501ae892f75d0c1b9e47f6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Quando Deus parece calado
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Até quando, Senhor? Vais te esquecer de mim para sempre? Até quando esconderás de mim o teu rosto?
+Salmos 13:1
+
+Há orações que saem mais como grito do que como pedido educado. Quando parece que Deus está calado, é fácil pensar que fizemos algo errado, ou que oração só funciona quando sentimos Deus perto.
+David começa este salmo com a mesma pergunta repetida quatro vezes em poucas linhas: "Até quando, Senhor?". Ele não suaviza a queixa nem finge estar em paz. A Bíblia registra essa oração exatamente como ela saiu, crua e sincera.
+Isso ensina algo sobre orar: Deus não pede que você chegue arrumado para falar com Ele. A queixa honesta também é oração, tão válida quanto o louvor, porque ainda é você se dirigindo a Deus, e não se afastando dele.
+O mesmo salmo, que começa em lamento, termina em confiança:
+
+Mas eu confio no teu amor; o meu coração se alegra na tua salvação. Cantarei ao Senhor, porque ele tem sido bom para mim.
+Salmos 13:5-6
+
+Repare que nada mudou na circunstância entre o primeiro e o último versículo. O que mudou foi o lugar de onde David falava: ele continuou orando até a queixa virar confiança de novo.
+Deus não se ofende com a sua sinceridade na oração; Ele se aproxima dela.
+Ore com sinceridade, mesmo quando Deus parece distante
+
+Hoje, em vez de orar com frases prontas, diga a Deus exatamente o que você sente, mesmo que pareça queixa.
+Leia o Salmo 13 inteiro em voz alta e observe a virada do versículo 5; deixe que ela guie a sua própria oração.
+Continue orando mesmo sem sentir resposta imediata; a confiança de David não veio antes da oração, veio durante ela.
+Escreva a sua própria versão do "até quando, Senhor?" hoje, e depois escreva uma frase de confiança para terminar, como David fez.
+
+Para orar:
+Senhor, às vezes eu sinto que as minhas orações batem no teto. Não entendo o teu silêncio, e isso me cansa. Mas, como David, eu escolho continuar falando contigo, mesmo sem sentir resposta ainda. Ajuda o meu coração a confiar no teu amor até que a queixa vire louvor de novo. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Nunca é o bastante
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: "De fato, a piedade com contentamento é grande fonte de lucro, pois nada trouxemos para este mundo e dele nada podemos levar."
@@ -298,25 +462,6 @@ Leia o Salmo 139 inteiro esta semana, devagar, como quem lê uma carta escrita p
 Oração sugerida
 Senhor, eu confesso que muitas vezes meço meu valor pelo que ainda não consegui, e esqueço que fui formado por ti com cuidado e intenção. Ajuda-me a acreditar que sou suficiente não porque provei alguma coisa, mas porque tu me fizeste assim. Tira de mim o peso de precisar merecer o que já é meu por graça. Amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: E se der tudo errado?
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: "Portanto, não se preocupem com o amanhã, pois o amanhã trará as suas próprias preocupações. Bastam a cada dia os seus próprios problemas."
-Mateus 6:34 (NVI)
-
-A ansiedade tem um jeito específico de nos prender: ela nos tira do dia de hoje e nos joga num amanhã que ainda nem aconteceu. "E se eu perder o emprego?" "E se o exame não sair bem?" "E se essa dor for algo sério?" Sem perceber, vivemos metade da vida resolvendo problemas que talvez nunca cheguem, e a outra metade cansados demais para viver o que de fato está diante de nós.
-Jesus fala sobre isso logo depois de ensinar sobre a provisão de Deus: os pássaros que não plantam e são alimentados, os lírios que não trabalham e são vestidos com mais beleza do que Salomão em toda a sua glória. E então Ele diz algo que soa quase óbvio, mas que esquecemos toda hora: o amanhã já vai trazer as suas próprias preocupações. Não precisamos adiantar nada.
-Isso não é um convite para não planejar ou não se importar com o futuro. É um convite para viver um dia de cada vez, com a energia que temos hoje, confiando que Deus vai estar presente amanhã do mesmo jeito que está presente agora. A ansiedade nasce, quase sempre, de tentar carregar hoje um peso que ainda nem existe, e nunca foi feito para as suas costas.
-Aplicação prática
-
-Escreva o que você está temendo. Muitas vezes o medo cresce porque fica vago; colocá-lo no papel ajuda a ver o tamanho real dele.
-Pergunte-se: isso é algo que preciso resolver hoje, ou estou tentando resolver um amanhã que ainda não chegou?
-Volte para uma tarefa concreta deste dia. Dê o próximo passo possível, não tente resolver o problema inteiro de uma vez.
-Quando o pensamento "e se der tudo errado" voltar, responda em voz alta: "hoje basta a Deus me sustentar hoje."
-Agradeça por algo específico deste dia, mesmo que pequeno. Gratidão pelo presente enfraquece a ansiedade pelo futuro.
-
-Oração
-Senhor, eu confesso que já vivi hoje pensando em amanhãs que talvez nunca cheguem. Ensina-me a confiar que a tua provisão de hoje é suficiente para hoje, e que amanhã vou encontrar a mesma fidelidade. Tira de mim o peso de carregar o que ainda não é meu para carregar. Amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -346,15 +491,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 +--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 122 +++++++-----
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 223 +++++++++++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 321 +++++++++++++++---------------
- 11 files changed, 298 insertions(+), 296 deletions(-)
+ output.log                                | 419 ++++++++++++++++++++----------
+ 11 files changed, 533 insertions(+), 255 deletions(-)
