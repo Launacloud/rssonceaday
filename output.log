@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 199296 characters
-INFO:root:HTML parsed, length: 176425 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (24/08/2026)', 'Palavra de Ontem (23/08/2026)', 'Palavra de Anteontem (22/08/2026)']
-INFO:root:Found 3 URLs: ['/conformacao/', '/psiu/', '/girafa/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Disposição das partes de um c', 'Sinônimos:\n\nestrutura, feitio, configuração, forma', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (24/08/2026)', 'Palavra de Ontem (23/08/2026)', 'Palavra de Anteontem (22/08/2026)']
+INFO:root:Response length: 198622 characters
+INFO:root:HTML parsed, length: 175890 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (25/08/2026)', 'Palavra de Ontem (24/08/2026)', 'Palavra de Anteontem (23/08/2026)']
+INFO:root:Found 3 URLs: ['/date/', '/conformacao/', '/psiu/']
+INFO:root:Found 11 descriptions: ['substantivo masculino [Popular] Encontro com algué', 'Sinônimos:\n\nencontro, compromisso, saída, programa', 'Sílabas:da-te']
+INFO:root:Found 3 dates: ['Palavra de Hoje (25/08/2026)', 'Palavra de Ontem (24/08/2026)', 'Palavra de Anteontem (23/08/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (24/08/2026)', ID=49ca80deb08346d30e9ccb61408b28b5
-INFO:root:Processing entry 2: Title='Palavra de Ontem (23/08/2026)', ID=62387ce792db723f7af2e95750ec982c
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/08/2026)', ID=f6c53a499f2351ae34b86f8995003a12
+INFO:root:Processing entry 1: Title='Palavra de Hoje (25/08/2026)', ID=6aec58236d115a3da915b9127c5a5932
+INFO:root:Processing entry 2: Title='Palavra de Ontem (24/08/2026)', ID=8a25872174348a8dbb3dca67a3021537
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (23/08/2026)', ID=5cd0b0615cdebb28072d1e330965e766
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (24/08/2026) - Significado completo de conformação:
+INFO:root:🔹 Title: Palavra de Hoje (25/08/2026) - Significado completo de date:
+INFO:root:🔹 URL: https://www.dicio.com.br/date/
+INFO:root:🔹 Description: substantivo masculino [Popular] Encontro com alguém por quem se tem algum interesse afetivo, sexual, romântico; encontro: não vou para sua casa hoje porque tenho um date![Popular] Programa romântico entre namorados.[Gramática] A palavra date é considerada um estrangeirismo.Etimologia (origem da palavra date). A palavra date tem sua origem no inglês date, pelo sentido de encontro.
+ 
+Sinônimos:
+
+encontro, compromisso, saída, programa, rolê, saidinha, ficada 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (24/08/2026) - Significado completo de conformação:
 INFO:root:🔹 URL: https://www.dicio.com.br/conformacao/
-INFO:root:🔹 Description: substantivo feminino Disposição das partes de um corpo organizado; constituição de um corpo; compleição, constituição.Processo de formação de algo concreto ou abstrato; configuração.Particularidades de algo ou de alguém; forma, tamanho, físico.Ato de se resignar, submeter; submissão: nasceu para o estrelado não para conformação.Etimologia (origem da palavra conformação). A palavra conformação tem sua origem pelo latim “conformatio,onis”, podendo significar forma, figura, feição, aspecto.
+INFO:root:🔹 Description: Sinônimos:
+
+encontro, compromisso, saída, programa, rolê, saidinha, ficada
+ Sílabas:da-te
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (23/08/2026) - Significado completo de psiu:
+INFO:root:🔹 URL: https://www.dicio.com.br/psiu/
+INFO:root:🔹 Description: Sílabas:da-te
  
 Sinônimos:
 
 estrutura, feitio, configuração, forma, resignação, adaptação, ajustamento, ajuste, adequação, acomodação, assimilação, conformidade, tamanho, físico, compleição, constituição 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (23/08/2026) - Significado completo de psiu:
-INFO:root:🔹 URL: https://www.dicio.com.br/psiu/
-INFO:root:🔹 Description: Sinônimos:
-
-estrutura, feitio, configuração, forma, resignação, adaptação, ajustamento, ajuste, adequação, acomodação, assimilação, conformidade, tamanho, físico, compleição, constituição
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (22/08/2026) - Significado completo de girafa:
-INFO:root:🔹 URL: https://www.dicio.com.br/girafa/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:con-for-ma-ção
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,72 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365971 characters
-INFO:root:HTML parsed, length: 355479 characters
-INFO:root:Found 1 titles: ['Tiago 1:26-27']
-INFO:root:Found 1 URLs: ['/versiculo/tiago_1_26-27/']
-INFO:root:Found 1 descriptions: ['Se alguém se considera religioso, mas não refreia ']
+INFO:root:Response length: 365749 characters
+INFO:root:HTML parsed, length: 355257 characters
+INFO:root:Found 1 titles: ['Filemom 1:25']
+INFO:root:Found 1 URLs: ['/versiculo/filemom_1_25/']
+INFO:root:Found 1 descriptions: ['A graça do Senhor Jesus Cristo seja com o espírito']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Tiago 1:26-27', ID=6bba4c767fada2655ede680ebb695bbf
+INFO:root:Processing entry 1: Title='Filemom 1:25', ID=9541e80ca2d3d724faf818ebf83b4e88
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Tiago 1:26-27
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/tiago_1_26-27/
-INFO:root:🔹 Description: Se alguém se considera religioso, mas não refreia a sua língua, engana-se a si mesmo. Sua religião não tem valor algum! A religião que Deus, o nosso Pai, aceita como pura e imaculada é esta: cuidar dos órfãos e das viúvas em suas dificuldades e não se deixar corromper pelo mundo. Tiago 1:26-27
+INFO:root:🔹 Title: Filemom 1:25
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filemom_1_25/
+INFO:root:🔹 Description: A graça do Senhor Jesus Cristo seja com o espírito de todos vocês. Filemom 1:25
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 368780 characters
-INFO:root:HTML parsed, length: 359424 characters
-INFO:root:Found 3 titles: ['Salmo 78', 'Salmo 118', 'Salmo 93']
-INFO:root:Found 3 URLs: ['/salmos_78/', '/salmos_118/', '/salmos_93/']
-INFO:root:Found 3 descriptions: ['Povo meu, escute o meu ensino;\nincline os ouvidos\n', 'Deem graças ao Senhor porque ele é bom;\no seu amor', 'O Senhor reina!\nVestiu-se de majestade;\nde majesta']
-INFO:root:Found 3 dates: ['24 de Agosto de 2026', '23 de Agosto de 2026', '22 de Agosto de 2026']
+INFO:root:Response length: 367913 characters
+INFO:root:HTML parsed, length: 358550 characters
+INFO:root:Found 3 titles: ['Salmo 2', 'Salmo 78', 'Salmo 118']
+INFO:root:Found 3 URLs: ['/salmos_2/', '/salmos_78/', '/salmos_118/']
+INFO:root:Found 3 descriptions: ['Por que se amotinam as nações\ne os povos tramam em', 'Povo meu, escute o meu ensino;\nincline os ouvidos\n', 'Deem graças ao Senhor porque ele é bom;\no seu amor']
+INFO:root:Found 3 dates: ['25 de Agosto de 2026', '24 de Agosto de 2026', '23 de Agosto de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
-INFO:root:Processing entry 2: Title=' Salmo 118', ID=8fc6e7bb42ca393915a24ebaf7381156
-INFO:root:Processing entry 3: Title=' Salmo 93', ID=a3266148ae5a2899b43f65ea48da1d05
+INFO:root:Processing entry 1: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
+INFO:root:Processing entry 2: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
+INFO:root:Processing entry 3: Title=' Salmo 118', ID=8fc6e7bb42ca393915a24ebaf7381156
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 2
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_2/
+INFO:root:🔹 Description: Por que se amotinam as nações
+e os povos tramam em vão? 
+Os reis da terra tomam posição
+e os governantes conspiram unidos
+contra o Senhor e contra o seu ungido,
+e dizem: 
+"Façamos em pedaços as suas correntes,
+lancemos de nós as suas algemas!" 
+Do seu trono nos céus o Senhor põe-se a rir e caçoa deles. 
+Em sua ira os repreende
+e em seu furor os aterroriza, dizendo: 
+"Eu mesmo estabeleci o meu rei
+em Sião, no meu santo monte". 
+Proclamarei o decreto do Senhor:
+Ele me disse: "Tu és meu filho;
+eu hoje te gerei. 
+Pede-me, e te darei as nações como herança
+e os confins da terra como tua propriedade. 
+Tu as quebrarás com vara de ferro
+e as despedaçarás como a um vaso de barro". 
+Por isso, ó reis, sejam prudentes;
+aceitem a advertência, autoridades da terra. 
+Adorem o Senhor com temor;
+exultem com tremor. 
+Beijem o filho, para que ele não se ire
+e vocês não sejam destruídos de repente,
+pois num instante acende-se a sua ira.
+Como são felizes todos os que nele se refugiam! 
+ Salmo 2
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 78
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_78/
 INFO:root:🔹 Description: Povo meu, escute o meu ensino;
@@ -329,75 +365,79 @@ Deem graças ao Senhor, porque ele é bom;
 o seu amor dura para sempre. 
  Salmo 118
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 93
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_93/
-INFO:root:🔹 Description: O Senhor reina!
-Vestiu-se de majestade;
-de majestade vestiu-se o Senhor
-e armou-se de poder!
-O mundo está firme e não se abalará. 
-O teu trono está firme desde a antiguidade;
-tu existes desde a eternidade. 
-As águas se levantaram, Senhor,
-as águas levantaram a voz;
-as águas levantaram seu bramido. 
-Mais poderoso do que o estrondo
-das águas impetuosas,
-mais poderoso do que as ondas do mar
-é o Senhor nas alturas. 
-Os teus mandamentos
-permanecem firmes e fiéis;
-a santidade, SENHOR,
-é o ornamento perpétuo da tua casa. 
- Salmo 93
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366966 characters
-INFO:root:HTML parsed, length: 356884 characters
-INFO:root:Found 3 titles: ['Uma nova criação em Cristo', 'A resposta calma evita a guerra', 'Tristeza que leva à vida']
+INFO:root:Response length: 366717 characters
+INFO:root:HTML parsed, length: 356655 characters
+INFO:root:Found 3 titles: ['Deus sempre dá uma saída', 'Uma nova criação em Cristo', 'A resposta calma evita a guerra']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Muita gente ouve "nova criatura" e imagina uma tra', 'Boa parte dos conflitos não começa pelo motivo ori', 'Nem toda tristeza por um erro é arrependimento. Às']
-INFO:root:Found 1 dates: ['Segunda, 24 de agosto de 2026']
+INFO:root:Found 3 descriptions: ['Tentação não é pecado, é o momento antes da escolh', 'Muita gente ouve "nova criatura" e imagina uma tra', 'Boa parte dos conflitos não começa pelo motivo ori']
+INFO:root:Found 1 dates: ['Terça, 25 de agosto de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Uma nova criação em Cristo', ID=927710bce5e0c0520845674373c37499
+INFO:root:Processing entry 1: Title='Deus sempre dá uma saída', ID=c0de2f8175335acba08695fc7b853eb0
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Uma nova criação em Cristo - Palavra de Hoje
+INFO:root:🔹 Title: Deus sempre dá uma saída - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Muita gente ouve "nova criatura" e imagina uma transformação instantânea e completa: de um dia para o outro, sem luta, sem tentação, sem passado. E quando a vida real não corresponde a essa expectativa, vem a dúvida se a transformação de fato aconteceu.
+INFO:root:🔹 Description: Tentação não é pecado, é o momento antes da escolha. O problema não é sentir o puxão, é o que se faz com ele.
 
-"Portanto, se alguém está em Cristo, é uma nova criação. As coisas antigas já passaram; eis que se fizeram novas!"
-2 Coríntios 5:17 (NVI)
+"Não sobreveio a vocês tentação que não fosse comum aos homens. Mas Deus é fiel; ele não permitirá que vocês sejam tentados além do que podem suportar. Antes, quando forem tentados, ele mesmo providenciará um escape, para que a possam suportar."
+1 Coríntios 10:13 (NVI)
 
-Paulo escreve isso para uma igreja cheia de gente ainda em processo, com conflitos, recaídas, imperfeições visíveis. "Nova criação" não descreve ausência de luta; descreve uma identidade que já mudou de base, mesmo que o processo de viver essa identidade ainda esteja em curso. É como uma semente que já é uma árvore em potencial, mesmo antes de crescer todos os galhos.
-"As coisas antigas já passaram" não significa que você esqueceu quem era, ou que nunca mais vai sentir os efeitos do que viveu. Significa que essas coisas não têm mais a palavra final sobre quem você é. Sua identidade não está mais ancorada no que você fez ou no que fizeram com você; está ancorada em estar em Cristo.
-Isso muda a pergunta que fazemos diante de uma recaída ou de um dia ruim. Em vez de "então eu nunca mudei mesmo", a pergunta vira "o que uma nova criação faz quando tropeça?" E a resposta é: continua sendo nova, porque a novidade nunca dependeu da sua perfeição. Dependeu de estar em Cristo, e isso já aconteceu.
+Duas coisas aliviam o peso dessa luta. A primeira é que a tentação que você sente não é rara nem vergonhosa, é comum a todo ser humano. Ninguém enfrenta uma versão exclusiva da própria fraqueza. A segunda é mais prática: Deus não promete tirar a tentação do caminho, promete um escape dentro dela. Existe sempre uma saída, mesmo quando parece que não há.
+Isso muda a pergunta que se faz no momento certo. Não é "por que ainda sinto isso?", porque sentir não é falhar. É "onde está a saída que Deus já preparou?" Às vezes ela é sair do lugar, desligar a tela, ligar para alguém, lembrar de uma verdade específica. A saída raramente aparece sozinha; ela pede que você a procure e a tome antes de a vontade decidir por você.
+A pureza que a Bíblia descreve não é ausência de luta, é o caminho protegido no meio dela.
+
+"Como pode o jovem manter puro o seu caminho? Vivendo de acordo com a tua palavra."
+Salmos 119:9 (NVI)
+
+O salmista não pergunta como evitar toda tentação, pergunta como manter o caminho puro apesar dela. E a resposta é concreta: viver de acordo com a Palavra, não apenas conhecê-la. Pureza não é um estado alcançado uma vez e mantido por inércia, é uma direção escolhida repetidamente, dia após dia, escolha depois de escolha.
+Se você está no meio de uma luta agora, o convite não é se condenar por sentir o puxão. É procurar a saída que Deus já deixou preparada, e escolher de novo o caminho certo.
  
-"Portanto, se alguém está em Cristo, é uma nova criação. As coisas antigas já passaram; eis que se fizeram novas!"
-2 Coríntios 5:17 (NVI)
+"Não sobreveio a vocês tentação que não fosse comum aos homens. Mas Deus é fiel; ele não permitirá que vocês sejam tentados além do que podem suportar. Antes, quando forem tentados, ele mesmo providenciará um escape, para que a possam suportar."
+1 Coríntios 10:13 (NVI)
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376821 characters
-INFO:root:HTML parsed, length: 366354 characters
-INFO:root:Found 3 titles: ['Quando Deus parece calado', 'Nunca é o bastante', 'Será que eu sou suficiente?']
+INFO:root:Response length: 375473 characters
+INFO:root:HTML parsed, length: 364978 characters
+INFO:root:Found 3 titles: ['Será que Deus se esqueceu de mim?', 'Quando Deus parece calado', 'Nunca é o bastante']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Até quando, Senhor? Vais te esquecer de mim para s', '"De fato, a piedade com contentamento é grande fon', '"Eu te louvo porque me fizeste de modo assombroso ']
-INFO:root:Found 3 dates: ['AGOSTO\n\n24\nSEGUNDA', 'AGOSTO\n\n23\nDOMINGO', 'AGOSTO\n\n22\nSÁBADO']
+INFO:root:Found 3 descriptions: ['"Haverá mãe que possa esquecer-se do seu bebê que ', 'Até quando, Senhor? Vais te esquecer de mim para s', '"De fato, a piedade com contentamento é grande fon']
+INFO:root:Found 3 dates: ['AGOSTO\n\n25\nTERÇA', 'AGOSTO\n\n24\nSEGUNDA', 'AGOSTO\n\n23\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Quando Deus parece calado', ID=62941ccd19df9701ad5601a99d896f85
-INFO:root:Processing entry 2: Title='Nunca é o bastante', ID=322536e06ca6aaa306a671cf4066f70f
-INFO:root:Processing entry 3: Title='Será que eu sou suficiente?', ID=f392e85c84501ae892f75d0c1b9e47f6
+INFO:root:Processing entry 1: Title='Será que Deus se esqueceu de mim?', ID=bfc6c8384fdf637c4c050138f7672cf5
+INFO:root:Processing entry 2: Title='Quando Deus parece calado', ID=62941ccd19df9701ad5601a99d896f85
+INFO:root:Processing entry 3: Title='Nunca é o bastante', ID=322536e06ca6aaa306a671cf4066f70f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Será que Deus se esqueceu de mim?
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: "Haverá mãe que possa esquecer-se do seu bebê que ainda mama e não ter compaixão do filho que gerou? Embora ela possa se esquecer dele, eu não me esquecerei de você!"
+Isaías 49:15 (NVI)
+
+Existe uma solidão específica, a de sentir que até Deus se afastou. Não é só a ausência de gente por perto; é a sensação de estar esquecido por quem deveria se importar mais. O verso anterior a este mostra exatamente essa queixa: o povo de Israel, no exílio, diz "o Senhor me abandonou, o meu Senhor se esqueceu de mim." Não é uma pergunta hipotética. É a dor real de gente que se sentia largada.
+E é para essa dor específica que Deus responde, usando a imagem mais forte de vínculo que existe: uma mãe e o filho que ainda mama nela. Nenhuma outra ligação humana é tão física, tão constante, tão impossível de esquecer num dia comum. Mesmo assim, Deus admite: pode até acontecer, uma mãe pode falhar. Mas Ele não vai. "Eu não me esquecerei de você" não é uma frase de conforto genérico; é a resposta direta a alguém que já tinha dito em voz alta "Deus se esqueceu de mim."
+Isso significa que a solidão que você sente hoje não é prova de que Deus se afastou. É, muitas vezes, a mesma sensação que o povo de Israel sentiu, e que Deus respondeu não explicando o silêncio, mas reafirmando o vínculo. Ele não promete tirar toda solidão hoje. Promete que, mesmo quando ela aperta, você não está esquecido.
+Aplicação prática
+
+Diga em voz alta, mesmo sem sentir: "eu não estou esquecido."
+Nomeie um momento recente em que se sentiu esquecido por Deus, e leve isso a Ele em oração, sem suavizar a dor.
+Procure uma pessoa de confiança hoje, nem que seja uma mensagem curta, para lembrar que solidão também se enfrenta em comunidade.
+Releia Isaías 49:14-16 e repare que Deus responde à queixa, não a ignora.
+Guarde este versículo para os dias em que a solidão parecer maior que a fé.
+
+
+Oração sugerida
+Senhor, hoje eu sinto o que Israel sentiu: que fui esquecido. Eu trago essa solidão para ti sem fingir que ela não dói. Ajuda-me a acreditar que, mesmo quando não sinto a tua presença, tu não me soltaste. Lembra-me de que sou lembrado por ti antes de qualquer outra coisa. Amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Quando Deus parece calado
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Até quando, Senhor? Vais te esquecer de mim para sempre? Até quando esconderás de mim o teu rosto?
@@ -442,26 +482,6 @@ Releia 1 Timóteo 6:6-10 e observe a diferença entre ter recursos e amar o dinh
 Oração sugerida
 Senhor, eu confesso que vivo correndo atrás de "mais", como se isso fosse finalmente me trazer paz. Ensina-me que a piedade com contentamento já é o verdadeiro ganho, e que a minha segurança não está no que possuo, mas em ti. Ajuda-me a estar satisfeito hoje. Amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Será que eu sou suficiente?
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: "Eu te louvo porque me fizeste de modo assombroso e admirável. As tuas obras são maravilhosas! Sei disso muito bem."
-Salmos 139:14 (NVI)
-
-Existe um medo que quase ninguém diz em voz alta, mas que muitos de nós carregam: o medo de não ser suficiente. Suficiente para o trabalho, para o casamento, para os filhos, para a igreja, para a própria vida. É um medo silencioso, que não grita, só corrói por dentro, comparando, cobrando, nunca satisfeito com o que já somos.
-Davi escreve o Salmo 139 depois de contemplar algo enorme: que Deus o conhece por completo, cada pensamento, cada palavra antes de ser dita, cada dia da sua vida escrito antes mesmo de existir. E é dentro dessa contemplação que ele chega a essa frase: "me fizeste de modo assombroso e admirável." Não é um elogio vago. É a conclusão de alguém que percebeu que foi formado com intenção, não produzido às pressas nem por acaso.
-O medo de não ser suficiente nasce, quase sempre, de medir o próprio valor pelo que fazemos ou pelo que ainda falta fazer. Mas o Salmo 139 mede o valor de outro jeito: pelo cuidado de quem formou. Antes de você produzir qualquer coisa, você já era obra admirável. Isso não apaga a necessidade de crescer, de trabalhar, de se esforçar. Mas tira o crescimento do lugar errado, o de provar que você merece existir, e coloca no lugar certo, o de responder com gratidão a algo que já lhe foi dado.
-Quando o medo perguntar "será que eu sou suficiente?", a resposta certa não é uma lista de conquistas. É lembrar quem fez você, e como fez.
-Aplicação prática
-
-Escreva a frase "me fizeste de modo assombroso e admirável" em algum lugar que você vai ver esta semana.
-Quando se comparar com alguém, pare e pergunte: estou medindo meu valor pelo que faço, ou pelo que Deus já disse sobre mim?
-Nomeie uma coisa em você que costuma criticar, e agradeça a Deus por ela em vez de rejeitá-la.
-Não use o medo de não ser suficiente como desculpa para não tentar; use-o como lembrete para descansar na obra que Deus já fez em você.
-Leia o Salmo 139 inteiro esta semana, devagar, como quem lê uma carta escrita para si mesmo.
-
-Oração sugerida
-Senhor, eu confesso que muitas vezes meço meu valor pelo que ainda não consegui, e esqueço que fui formado por ti com cuidado e intenção. Ajuda-me a acreditar que sou suficiente não porque provei alguma coisa, mas porque tu me fizeste assim. Tira de mim o peso de precisar merecer o que já é meu por graça. Amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -491,15 +511,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  38 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 223 +++++++++++++---
+ feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  52 ++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 419 ++++++++++++++++++++----------
- 11 files changed, 533 insertions(+), 255 deletions(-)
+ output.log                                | 240 +++++++++++++++---------------
+ 11 files changed, 230 insertions(+), 202 deletions(-)
