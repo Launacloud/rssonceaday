@@ -1,38 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 198097 characters
-INFO:root:HTML parsed, length: 175504 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (26/08/2026)', 'Palavra de Ontem (25/08/2026)', 'Palavra de Anteontem (24/08/2026)']
-INFO:root:Found 3 URLs: ['/oligossintomatico/', '/date/', '/conformacao/']
-INFO:root:Found 9 descriptions: ['adjetivo De manifestação leve; cujos sintomas são ', 'Sílabas:o-li-gos-sin-to-má-ti-co', 'substantivo masculino [Popular] Encontro com algué']
-INFO:root:Found 3 dates: ['Palavra de Hoje (26/08/2026)', 'Palavra de Ontem (25/08/2026)', 'Palavra de Anteontem (24/08/2026)']
+INFO:root:Response length: 197693 characters
+INFO:root:HTML parsed, length: 174917 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (27/08/2026)', 'Palavra de Ontem (26/08/2026)', 'Palavra de Anteontem (25/08/2026)']
+INFO:root:Found 3 URLs: ['/sajica/', '/oligossintomatico/', '/date/']
+INFO:root:Found 10 descriptions: ['adjetivo [Regionalismo: Amazonas] De grande resist', 'Sinônimos:\n\nrijo, teso, duro, forte, resistente', 'Antônimos:\n\nflexível, mole']
+INFO:root:Found 3 dates: ['Palavra de Hoje (27/08/2026)', 'Palavra de Ontem (26/08/2026)', 'Palavra de Anteontem (25/08/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (26/08/2026)', ID=9861420cdc26071d6fd535a364d18c50
-INFO:root:Processing entry 2: Title='Palavra de Ontem (25/08/2026)', ID=484a5d91f39f6cd6453ef6fe0846c479
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/08/2026)', ID=9e204ef6a9815de422b0dc8f0c5c526d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (27/08/2026)', ID=1a689934c5e3d8974a54d6d60b53cbeb
+INFO:root:Processing entry 2: Title='Palavra de Ontem (26/08/2026)', ID=181d26681357eef3d67a53522d622ffe
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/08/2026)', ID=304cbbfe99f57cafdc828fcb52bd7e95
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (26/08/2026) - Significado completo de oligossintomático:
-INFO:root:🔹 URL: https://www.dicio.com.br/oligossintomatico/
-INFO:root:🔹 Description: adjetivo De manifestação leve; cujos sintomas são poucos e brandos (falando de doenças).Etimologia (origem da palavra oligossintomático). A palavra oligossintomático tem sua origem no grego “olígos”, com sentido de pouco, e da palavra sintomático.
- Sílabas:o-li-gos-sin-to-má-ti-co
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (25/08/2026) - Significado completo de date:
-INFO:root:🔹 URL: https://www.dicio.com.br/date/
-INFO:root:🔹 Description: Sílabas:o-li-gos-sin-to-má-ti-co
+INFO:root:🔹 Title: Palavra de Hoje (27/08/2026) - Significado completo de sajica:
+INFO:root:🔹 URL: https://www.dicio.com.br/sajica/
+INFO:root:🔹 Description: adjetivo [Regionalismo: Amazonas] De grande resistência; forte, rijo, resistente.De fibra rija ou robusta: madeira sajica.Etimologia (origem da palavra sajica). A palavra sajica tem sua origem no do tupi sai ' ika ou saiyka, com o mesmo sentido.
  
 Sinônimos:
 
-encontro, compromisso, saída, programa, rolê, saidinha, ficada 
+rijo, teso, duro, forte, resistente 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (24/08/2026) - Significado completo de conformação:
-INFO:root:🔹 URL: https://www.dicio.com.br/conformacao/
-INFO:root:🔹 Description: substantivo masculino [Popular] Encontro com alguém por quem se tem algum interesse afetivo, sexual, romântico; encontro: não vou para sua casa hoje porque tenho um date![Popular] Programa romântico entre namorados.[Gramática] A palavra date é considerada um estrangeirismo.Etimologia (origem da palavra date). A palavra date tem sua origem no inglês date, pelo sentido de encontro.
- Sílabas:da-te
+INFO:root:🔹 Title: Palavra de Ontem (26/08/2026) - Significado completo de oligossintomático:
+INFO:root:🔹 URL: https://www.dicio.com.br/oligossintomatico/
+INFO:root:🔹 Description: Sinônimos:
+
+rijo, teso, duro, forte, resistente
+ 
+Antônimos:
+
+flexível, mole 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (25/08/2026) - Significado completo de date:
+INFO:root:🔹 URL: https://www.dicio.com.br/date/
+INFO:root:🔹 Description: Antônimos:
+
+flexível, mole
+ Classe gramatical:adjetivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -40,40 +48,74 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365620 characters
-INFO:root:HTML parsed, length: 355128 characters
-INFO:root:Found 1 titles: ['1 João 4:19']
-INFO:root:Found 1 URLs: ['/versiculo/1_joao_4_19/']
-INFO:root:Found 1 descriptions: ['Nós amamos porque ele nos amou primeiro. 1 João 4:']
+INFO:root:Response length: 365509 characters
+INFO:root:HTML parsed, length: 355017 characters
+INFO:root:Found 1 titles: ['Salmos 26:2-3']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_26_2-3/']
+INFO:root:Found 1 descriptions: ['Sonda-me, Senhor, e prova-me,\nexamina o meu coraçã']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 João 4:19', ID=02de9e67a62520711bd902fc2b345080
+INFO:root:Processing entry 1: Title='Salmos 26:2-3', ID=df0281d64f4cb4ca4ebebc3b2e3f0227
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 João 4:19
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_joao_4_19/
-INFO:root:🔹 Description: Nós amamos porque ele nos amou primeiro. 1 João 4:19
+INFO:root:🔹 Title: Salmos 26:2-3
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_26_2-3/
+INFO:root:🔹 Description: Sonda-me, Senhor, e prova-me,
+examina o meu coração e a minha mente; pois o teu amor está sempre diante de mim,
+e continuamente sigo a tua verdade. Salmos 26:2-3
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 366213 characters
-INFO:root:HTML parsed, length: 356831 characters
-INFO:root:Found 3 titles: ['Salmo 98', 'Salmo 2', 'Salmo 78']
-INFO:root:Found 3 URLs: ['/salmos_98/', '/salmos_2/', '/salmos_78/']
-INFO:root:Found 3 descriptions: ['Cantem ao Senhor um novo cântico,\npois ele fez coi', 'Por que se amotinam as nações\ne os povos tramam em', 'Povo meu, escute o meu ensino;\nincline os ouvidos\n']
-INFO:root:Found 3 dates: ['26 de Agosto de 2026', '25 de Agosto de 2026', '24 de Agosto de 2026']
+INFO:root:Response length: 361780 characters
+INFO:root:HTML parsed, length: 352307 characters
+INFO:root:Found 3 titles: ['Salmo 95', 'Salmo 98', 'Salmo 2']
+INFO:root:Found 3 URLs: ['/salmos_95/', '/salmos_98/', '/salmos_2/']
+INFO:root:Found 3 descriptions: ['Venham! Cantemos ao Senhor com alegria!\nAclamemos ', 'Cantem ao Senhor um novo cântico,\npois ele fez coi', 'Por que se amotinam as nações\ne os povos tramam em']
+INFO:root:Found 3 dates: ['27 de Agosto de 2026', '26 de Agosto de 2026', '25 de Agosto de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 98', ID=33adc7bdfe38c4864921fdfaca3d7034
-INFO:root:Processing entry 2: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
-INFO:root:Processing entry 3: Title=' Salmo 78', ID=daa739940e2bea6863fb5d998b7b27ca
+INFO:root:Processing entry 1: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
+INFO:root:Processing entry 2: Title=' Salmo 98', ID=33adc7bdfe38c4864921fdfaca3d7034
+INFO:root:Processing entry 3: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 95
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_95/
+INFO:root:🔹 Description: Venham! Cantemos ao Senhor com alegria!
+Aclamemos a Rocha da nossa salvação. 
+Vamos à presença dele com ações de graças;
+vamos aclamá-lo com cânticos de louvor. 
+Pois o Senhor é o grande Deus,
+o grande Rei acima de todos os deuses. 
+Nas suas mãos estão as profundezas da terra,
+os cumes dos montes lhe pertencem. 
+Dele também é o mar, pois ele o fez;
+as suas mãos formaram a terra seca. 
+Venham! Adoremos prostrados
+e ajoelhemos diante do Senhor,
+o nosso Criador; 
+pois ele é o nosso Deus,
+e nós somos o povo do seu pastoreio,
+o rebanho que ele conduz.
+Hoje, se vocês ouvirem a sua voz, 
+não endureçam o coração, como em Meribá,
+como aquele dia em Massá, no deserto, 
+onde os seus antepassados me tentaram,
+pondo-me à prova,
+apesar de terem visto o que eu fiz. 
+Durante quarenta anos
+fiquei irado contra aquela geração e disse:
+"Eles são um povo de coração ingrato;
+não reconheceram os meus caminhos". 
+Por isso jurei na minha ira:
+"Jamais entrarão no meu descanso". 
+ Salmo 95
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 98
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_98/
 INFO:root:🔹 Description: Cantem ao Senhor um novo cântico,
@@ -136,241 +178,83 @@ pois num instante acende-se a sua ira.
 Como são felizes todos os que nele se refugiam! 
  Salmo 2
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 78
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_78/
-INFO:root:🔹 Description: Povo meu, escute o meu ensino;
-incline os ouvidos
-para o que eu tenho a dizer. 
-Em parábolas abrirei a minha boca,
-proferirei enigmas do passado; 
-o que ouvimos e aprendemos,
-o que nossos pais nos contaram. 
-Não os esconderemos dos nossos filhos;
-contaremos à próxima geração
-os louváveis feitos do Senhor,
-o seu poder e as maravilhas que fez. 
-Ele decretou estatutos para Jacó,
-e em Israel estabeleceu a lei,
-e ordenou aos nossos antepassados
-que a ensinassem aos seus filhos, 
-de modo que a geração seguinte a conhecesse,
-e também os filhos que ainda nasceriam,
-e eles, por sua vez,
-contassem aos seus próprios filhos. 
-Então eles porão a confiança em Deus;
-não esquecerão os seus feitos
-e obedecerão aos seus mandamentos. 
-Eles não serão como os seus antepassados,
-obstinados e rebeldes,
-povo de coração desleal para com Deus,
-gente de espírito infiel. 
-Os homens de Efraim, flecheiros armados,
-viraram as costas no dia da batalha; 
-não guardaram a aliança de Deus
-e se recusaram a viver de acordo com a sua lei. 
-Esqueceram o que ele tinha feito,
-as maravilhas que lhes havia mostrado. 
-Ele fez milagres diante dos seus antepassados,
-na terra do Egito, na região de Zoã. 
-Dividiu o mar para que pudessem passar;
-fez a água erguer-se como um muro. 
-Ele os guiou com a nuvem de dia
-e com a luz do fogo de noite. 
-Fendeu as rochas no deserto
-e deu-lhes tanta água
-como a que flui das profundezas; 
-da pedra fez sair regatos
-e fluir água como um rio. 
-Mas contra ele continuaram a pecar,
-revoltando-se no deserto contra o Altíssimo. 
-Deliberadamente puseram Deus à prova,
-exigindo o que desejavam comer. 
-Duvidaram de Deus, dizendo:
-"Poderá Deus preparar uma mesa no deserto? 
-Sabemos que, quando ele feriu a rocha,
-a água brotou e jorrou em torrentes.
-Mas conseguirá também dar-nos de comer?
-Poderá suprir de carne o seu povo?" 
-O Senhor os ouviu e enfureceu-se;
-com fogo atacou Jacó,
-e sua ira levantou-se contra Israel, 
-pois eles não creram em Deus
-nem confiaram no seu poder salvador. 
-Contudo, ele deu ordens às nuvens
-e abriu as portas dos céus; 
-fez chover maná para que o povo comesse,
-deu-lhe o pão dos céus. 
-Os homens comeram o pão dos anjos;
-enviou-lhes comida à vontade. 
-Enviou dos céus o vento oriental
-e pelo seu poder fez avançar o vento sul. 
-Fez chover carne sobre eles como pó,
-bandos de aves como a areia da praia. 
-Levou-as a cair dentro do acampamento,
-ao redor das suas tendas. 
-Comeram à vontade,
-e assim ele satisfez o desejo deles. 
-Mas, antes de saciarem o apetite,
-quando ainda tinham a comida na boca, 
-acendeu-se contra eles a ira de Deus;
-e ele feriu de morte os mais fortes dentre eles,
-matando os jovens de Israel. 
-A despeito disso tudo, continuaram pecando;
-não creram nos seus prodígios. 
-Por isso ele encerrou
-os dias deles como um sopro
-e os anos deles em repentino pavor. 
-Sempre que Deus os castigava com a morte,
-eles o buscavam;
-com fervor se voltavam de novo para ele. 
-Lembravam-se de que Deus era a sua Rocha,
-de que o Deus Altíssimo era o seu Redentor. 
-Com a boca o adulavam,
-com a língua o enganavam; 
-o coração deles não era sincero;
-não foram fiéis à sua aliança. 
-Contudo, ele foi misericordioso;
-perdoou-lhes as maldades
-e não os destruiu.
-Vez após vez conteve a sua ira,
-sem despertá-la totalmente. 
-Lembrou-se de que eram meros mortais,
-brisa passageira que não retorna. 
-Quantas vezes mostraram-se rebeldes
-contra ele no deserto
-e o entristeceram na terra solitária! 
-Repetidas vezes puseram Deus à prova;
-irritaram o Santo de Israel. 
-Não se lembravam da sua mão poderosa,
-do dia em que os redimiu do opressor, 
-do dia em que mostrou
-os seus prodígios no Egito,
-as suas maravilhas na região de Zoã, 
-quando transformou os rios
-e os riachos dos egípcios em sangue,
-e eles não mais conseguiam beber das suas águas, 
-e enviou enxames de moscas
-que os devoraram,
-e rãs que os devastaram; 
-quando entregou as suas plantações às larvas,
-a produção da terra aos gafanhotos, 
-e destruiu as suas vinhas com a saraiva
-e as suas figueiras bravas com a geada; 
-quando entregou o gado deles ao granizo,
-os seus rebanhos aos raios; 
-quando os atingiu com a sua ira ardente,
-com furor, indignação e hostilidade,
-com muitos anjos destruidores. 
-Abriu caminho para a sua ira;
-não os poupou da morte,
-mas os entregou à peste. 
-Matou todos os primogênitos do Egito,
-as primícias do vigor varonil
-das tendas de Cam. 
-Mas tirou o seu povo como ovelhas
-e o conduziu como a um rebanho pelo deserto. 
-Ele os guiou em segurança,
-e não tiveram medo;
-e os seus inimigos afundaram-se no mar. 
-Assim os trouxe à fronteira
-da sua terra santa,
-aos montes que a sua mão direita conquistou. 
-Expulsou nações que lá estavam,
-distribuiu-lhes as terras por herança
-e deu suas tendas às tribos de Israel
-para que nelas habitassem. 
-Mas eles puseram Deus à prova
-e foram rebeldes contra o Altíssimo;
-não obedeceram aos seus testemunhos. 
-Foram desleais e infiéis,
-como os seus antepassados,
-confiáveis como um arco defeituoso. 
-Eles o irritaram com os altares idólatras;
-com os seus ídolos lhe provocaram ciúmes. 
-Sabendo-o Deus, enfureceu-se
-e rejeitou totalmente Israel; 
-abandonou o tabernáculo de Siló,
-a tenda onde habitava entre os homens. 
-Entregou o símbolo do seu poder ao cativeiro
-e o seu esplendor nas mãos do adversário. 
-Deixou que o seu povo fosse morto à espada,
-pois enfureceu-se com a sua herança. 
-O fogo consumiu os seus jovens,
-e as suas moças não tiveram
-canções de núpcias; 
-os sacerdotes foram mortos à espada!
-As viúvas já nem podiam chorar! 
-Então o Senhor despertou
-como que de um sono,
-como um guerreiro despertado do domínio do vinho. 
-Fez retroceder a golpes os seus adversários
-e os entregou a permanente humilhação. 
-Também rejeitou as tendas de José
-e não escolheu a tribo de Efraim; 
-ao contrário, escolheu a tribo de Judá
-e o monte Sião, o qual amou. 
-Construiu o seu santuário como as alturas;
-como a terra o firmou para sempre. 
-Escolheu o seu servo Davi
-e o tirou do aprisco das ovelhas, 
-do pastoreio de ovelhas,
-para ser o pastor de Jacó, seu povo,
-de Israel, sua herança. 
-E de coração íntegro Davi os pastoreou;
-com mãos experientes os conduziu. 
- Salmo 78
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366363 characters
-INFO:root:HTML parsed, length: 356298 characters
-INFO:root:Found 3 titles: ['A fé que vence o medo', 'Deus sempre dá uma saída', 'Uma nova criação em Cristo']
+INFO:root:Response length: 366373 characters
+INFO:root:HTML parsed, length: 356343 characters
+INFO:root:Found 3 titles: ['O poder do perdão', 'A fé que vence o medo', 'Deus sempre dá uma saída']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Medo e fé raramente se anulam por completo; muitas', 'Tentação não é pecado, é o momento antes da escolh', 'Muita gente ouve "nova criatura" e imagina uma tra']
-INFO:root:Found 1 dates: ['Quarta, 26 de agosto de 2026']
+INFO:root:Found 3 descriptions: ['Perdoar costuma ser tratado como um favor emociona', 'Medo e fé raramente se anulam por completo; muitas', 'Tentação não é pecado, é o momento antes da escolh']
+INFO:root:Found 1 dates: ['Quinta, 27 de agosto de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A fé que vence o medo', ID=e8b67e57e2c1e748a8c5c76da8976638
+INFO:root:Processing entry 1: Title='O poder do perdão', ID=89b6b0aa6f620464d99feb8503dbbe99
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A fé que vence o medo - Palavra de Hoje
+INFO:root:🔹 Title: O poder do perdão - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Medo e fé raramente se anulam por completo; muitas vezes convivem na mesma pessoa, no mesmo instante. Pedro prova isso melhor do que qualquer discurso sobre coragem.
+INFO:root:🔹 Description: Perdoar costuma ser tratado como um favor emocional, algo que fazemos para "seguir em frente" ou "ter paz". A Bíblia descreve algo mais profundo: perdão não é uma técnica de bem-estar, é uma resposta ao que já recebemos.
 
-"Pois Deus não nos deu um espírito de covardia, mas de poder, de amor e de domínio próprio."
-2 Timóteo 1:7 (NVI)
+"Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, como Deus os perdoou em Cristo."
+Efésios 4:32 (NVI)
 
-Repare que Paulo não promete a Timóteo uma vida sem medo. Ele afirma de onde vem o espírito que Deus deu, e covardia não está na lista. Isso não significa que o medo nunca vai aparecer; significa que ele não precisa ser a força que decide o que você faz a seguir.
+Repare na ordem: primeiro vem o perdão que já recebemos, depois vem o que somos chamados a dar. Paulo não pede que a igreja invente forças próprias para perdoar; pede que ela reproduza algo que já aconteceu com ela mesma. O poder do perdão que oferecemos não nasce de nós; nasce do perdão que já nos foi dado em Cristo.
 
-"Venha", ele respondeu. Então, Pedro saiu do barco, andou sobre as águas e foi em direção a Jesus. Mas, quando reparou no vento, ficou com medo e, começando a afundar, gritou: "Senhor, salva-me!" Imediatamente, Jesus estendeu a mão, segurou-o e disse: "Homem de pequena fé, por que você duvidou?"
-Mateus 14:29-31 (NVI)
+"Suportem uns aos outros e perdoem as queixas que tiverem uns contra os outros. Perdoem como o Senhor os perdoou."
+Colossenses 3:13 (NVI)
 
-Pedro já tinha saído do barco. Já estava andando sobre a água, algo que nenhum outro discípulo tentou. A fé dele era real antes do medo aparecer. O que Jesus corrige não é a coragem inicial de Pedro, é o momento em que o vento ficou maior do que a voz que o chamou. Vencer o medo pela fé não é nunca sentir medo; é continuar olhando para quem chamou, mesmo quando o vento fica alto.
-E quando Pedro afunda, Jesus não espera ele se recompor sozinho. Estende a mão na mesma hora. A fé que vence o medo não é a que nunca vacila; é a que, mesmo vacilando, ainda grita "Senhor, salva-me" na direção certa.
+Este versículo não finge que a queixa não existe. Ele reconhece: vai haver queixa, vai haver motivo real para mágoa. E ainda assim, o chamado é para perdoar, na mesma medida em que fomos perdoados, não numa medida menor, mais fácil de administrar.
+Perdão, nesse sentido, tem poder porque quebra um ciclo que a ofensa sozinha nunca quebraria. Quem guarda a mágoa continua preso a quem o feriu; quem perdoa, como foi perdoado, é libertado para seguir sem carregar aquele peso específico. Não é esquecer o que aconteceu, é deixar de deixar o que aconteceu decidir quem você continua sendo.
  
-"Pois Deus não nos deu um espírito de covardia, mas de poder, de amor e de domínio próprio."
-2 Timóteo 1:7 (NVI)
+"Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, como Deus os perdoou em Cristo."
+Efésios 4:32 (NVI)
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376503 characters
-INFO:root:HTML parsed, length: 366017 characters
-INFO:root:Found 3 titles: ['Quando já não tenho forças', 'Será que Deus se esqueceu de mim?', 'Quando Deus parece calado']
+INFO:root:Response length: 376362 characters
+INFO:root:HTML parsed, length: 365866 characters
+INFO:root:Found 3 titles: ['Terminar a corrida', 'Quando já não tenho forças', 'Será que Deus se esqueceu de mim?']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['"Ele fortalece o cansado e dá grande vigor ao que ', '"Haverá mãe que possa esquecer-se do seu bebê que ', 'Até quando, Senhor? Vais te esquecer de mim para s']
-INFO:root:Found 3 dates: ['AGOSTO\n\n26\nQUARTA', 'AGOSTO\n\n25\nTERÇA', 'AGOSTO\n\n24\nSEGUNDA']
+INFO:root:Found 3 descriptions: ['Combati o bom combate, terminei a corrida, guardei', '"Ele fortalece o cansado e dá grande vigor ao que ', '"Haverá mãe que possa esquecer-se do seu bebê que ']
+INFO:root:Found 3 dates: ['AGOSTO\n\n27\nQUINTA', 'AGOSTO\n\n26\nQUARTA', 'AGOSTO\n\n25\nTERÇA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Quando já não tenho forças', ID=3fef9c2c64c1c9e4fbc4e0ec86929314
-INFO:root:Processing entry 2: Title='Será que Deus se esqueceu de mim?', ID=bfc6c8384fdf637c4c050138f7672cf5
-INFO:root:Processing entry 3: Title='Quando Deus parece calado', ID=62941ccd19df9701ad5601a99d896f85
+INFO:root:Processing entry 1: Title='Terminar a corrida', ID=6299b022e4975326b06d9875f70e08cb
+INFO:root:Processing entry 2: Title='Quando já não tenho forças', ID=3fef9c2c64c1c9e4fbc4e0ec86929314
+INFO:root:Processing entry 3: Title='Será que Deus se esqueceu de mim?', ID=bfc6c8384fdf637c4c050138f7672cf5
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Terminar a corrida
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Combati o bom combate, terminei a corrida, guardei a fé.
+2 Timóteo 4:7
+
+Há dias em que perseverar parece menos sobre vencer e mais sobre simplesmente não desistir no meio do caminho. A vida cristã, às vezes, pede resistência mais do que empolgação.
+Paulo escreve essas palavras perto do fim da vida, preso, sabendo que a morte estava próxima. Não é conselho de quem começou bem; é testemunho de quem atravessou o percurso inteiro. Ele resume a vida inteira em três frases curtas: combati, terminei, guardei.
+Repare que ele não diz "venci todas as batalhas" nem "nunca cansei". Diz que terminou. Perseverança bíblica não é ausência de luta; é continuar correndo mesmo cansado, mesmo depois de quedas, até a linha de chegada.
+Como se corre assim, sem desistir no meio? A carta aos Hebreus responde:
+
+Corramos com perseverança a corrida que nos é proposta, tendo os olhos fitos em Jesus, autor e consumador da nossa fé.
+Hebreus 12:1-2
+
+Perseverar não depende só de força de vontade. Depende de onde os olhos estão fixos. Quem olha só para o cansaço desiste cedo; quem olha para Jesus continua, mesmo devagar.
+Deus não pede que você corra rápido; pede que você não pare de correr.
+Continue correndo, mesmo devagar
+
+Hoje, identifique o "peso" que mais atrapalha a sua perseverança, um hábito, uma preocupação, um medo, e entregue-o a Deus em oração.
+Releia 2 Timóteo 4:7 e repita como declaração: "Ainda estou correndo, ainda estou guardando a fé."
+Em vez de comparar o seu ritmo com o de outra pessoa, foque em dar apenas o próximo passo de hoje.
+Lembre de uma vez em que você quase desistiu de algo com Deus e não desistiu; agradeça por isso.
+
+Para orar
+
+Senhor, hoje eu me sinto cansado da corrida. Às vezes penso em parar no meio do caminho. Ajuda-me a fixar os olhos em ti, não na distância que ainda falta. Dá-me forças para dar mais um passo hoje, confiando que tu me sustentas até o fim. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Quando já não tenho forças
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: "Ele fortalece o cansado e dá grande vigor ao que está sem forças."
@@ -387,7 +271,7 @@ Leia Isaías 40:27-31 inteiro, devagar, prestando atenção em quem Deus diz que
 Permita-se descansar hoje sem culpa, como parte de esperar em Deus, não como fraqueza.
 Escolha uma tarefa pequena e realizável para hoje, em vez de tentar resolver tudo de uma vez.
 
-Oração
+Para orar:
 
 Senhor, eu já não tenho forças próprias para continuar. Eu não te peço só ânimo para hoje, peço que tu mesmo sejas a minha força, porque eu já esgotei a minha. Ensina-me a esperar em ti, mesmo cansado, e renova o que em mim já desanimou. Amém.
 INFO:root:--------------------------------------------------
@@ -410,32 +294,6 @@ Guarde este versículo para os dias em que a solidão parecer maior que a fé.
 Para orar:
 
 Senhor, hoje eu sinto o que Israel sentiu: que fui esquecido. Eu trago essa solidão para ti sem fingir que ela não dói. Ajuda-me a acreditar que, mesmo quando não sinto a tua presença, tu não me soltaste. Lembra-me de que sou lembrado por ti antes de qualquer outra coisa. Amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Quando Deus parece calado
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Até quando, Senhor? Vais te esquecer de mim para sempre? Até quando esconderás de mim o teu rosto?
-Salmos 13:1
-
-Há orações que saem mais como grito do que como pedido educado. Quando parece que Deus está calado, é fácil pensar que fizemos algo errado, ou que oração só funciona quando sentimos Deus perto.
-David começa este salmo com a mesma pergunta repetida quatro vezes em poucas linhas: "Até quando, Senhor?". Ele não suaviza a queixa nem finge estar em paz. A Bíblia registra essa oração exatamente como ela saiu, crua e sincera.
-Isso ensina algo sobre orar: Deus não pede que você chegue arrumado para falar com Ele. A queixa honesta também é oração, tão válida quanto o louvor, porque ainda é você se dirigindo a Deus, e não se afastando dele.
-O mesmo salmo, que começa em lamento, termina em confiança:
-
-Mas eu confio no teu amor; o meu coração se alegra na tua salvação. Cantarei ao Senhor, porque ele tem sido bom para mim.
-Salmos 13:5-6
-
-Repare que nada mudou na circunstância entre o primeiro e o último versículo. O que mudou foi o lugar de onde David falava: ele continuou orando até a queixa virar confiança de novo.
-Deus não se ofende com a sua sinceridade na oração; Ele se aproxima dela.
-Ore com sinceridade, mesmo quando Deus parece distante
-
-Hoje, em vez de orar com frases prontas, diga a Deus exatamente o que você sente, mesmo que pareça queixa.
-Leia o Salmo 13 inteiro em voz alta e observe a virada do versículo 5; deixe que ela guie a sua própria oração.
-Continue orando mesmo sem sentir resposta imediata; a confiança de David não veio antes da oração, veio durante ela.
-Escreva a sua própria versão do "até quando, Senhor?" hoje, e depois escreva uma frase de confiança para terminar, como David fez.
-
-Para orar
-
-Senhor, às vezes eu sinto que as minhas orações batem no teto. Não entendo o teu silêncio, e isso me cansa. Mas, como David, eu escolho continuar falando contigo, mesmo sem sentir resposta ainda. Ajuda o meu coração a confiar no teu amor até que a queixa vire louvor de novo. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -466,15 +324,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  46 ++---
- feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  52 ++--
+ feeds/devocional_de_hoje/feed.json        |  14 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  20 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  14 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  97 +++-------
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 214 +++------------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 289 ++++++++++++------------------
- 11 files changed, 217 insertions(+), 319 deletions(-)
+ output.log                                | 422 ++++++++++--------------------
+ 11 files changed, 249 insertions(+), 545 deletions(-)
