@@ -1,46 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 197693 characters
-INFO:root:HTML parsed, length: 174917 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (27/08/2026)', 'Palavra de Ontem (26/08/2026)', 'Palavra de Anteontem (25/08/2026)']
-INFO:root:Found 3 URLs: ['/sajica/', '/oligossintomatico/', '/date/']
-INFO:root:Found 10 descriptions: ['adjetivo [Regionalismo: Amazonas] De grande resist', 'Sinônimos:\n\nrijo, teso, duro, forte, resistente', 'Antônimos:\n\nflexível, mole']
-INFO:root:Found 3 dates: ['Palavra de Hoje (27/08/2026)', 'Palavra de Ontem (26/08/2026)', 'Palavra de Anteontem (25/08/2026)']
+INFO:root:Response length: 198177 characters
+INFO:root:HTML parsed, length: 175218 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (28/08/2026)', 'Palavra de Ontem (27/08/2026)', 'Palavra de Anteontem (26/08/2026)']
+INFO:root:Found 3 URLs: ['/confinado/', '/sajica/', '/oligossintomatico/']
+INFO:root:Found 12 descriptions: ['adjetivo Que se confinou; privado da sua liberdade', 'Sinônimos:\n\nencerrado, detido, preso, circunscrito', 'Antônimos:\n\nsolto, livre']
+INFO:root:Found 3 dates: ['Palavra de Hoje (28/08/2026)', 'Palavra de Ontem (27/08/2026)', 'Palavra de Anteontem (26/08/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (27/08/2026)', ID=1a689934c5e3d8974a54d6d60b53cbeb
-INFO:root:Processing entry 2: Title='Palavra de Ontem (26/08/2026)', ID=181d26681357eef3d67a53522d622ffe
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/08/2026)', ID=304cbbfe99f57cafdc828fcb52bd7e95
+INFO:root:Processing entry 1: Title='Palavra de Hoje (28/08/2026)', ID=9c4a98c6246e56fee621096bc941e3d4
+INFO:root:Processing entry 2: Title='Palavra de Ontem (27/08/2026)', ID=34708d174b7b37e3ab0983f006e49b80
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (26/08/2026)', ID=304aac11774da37adb177bf21d65cc8d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (27/08/2026) - Significado completo de sajica:
-INFO:root:🔹 URL: https://www.dicio.com.br/sajica/
-INFO:root:🔹 Description: adjetivo [Regionalismo: Amazonas] De grande resistência; forte, rijo, resistente.De fibra rija ou robusta: madeira sajica.Etimologia (origem da palavra sajica). A palavra sajica tem sua origem no do tupi sai ' ika ou saiyka, com o mesmo sentido.
+INFO:root:🔹 Title: Palavra de Hoje (28/08/2026) - Significado completo de confinado:
+INFO:root:🔹 URL: https://www.dicio.com.br/confinado/
+INFO:root:🔹 Description: adjetivo Que se confinou; privado da sua liberdade; preso.Que foi impedido de sair do lugar onde se encontra ou de ultrapassar limites e fronteiras; detido.Próximo a algo que serve como limite; encerrado, circunscrito: rua confinada à igreja.[Figurado] Que se restringiu a ou deve respeitar algumas limitações; delimitado: texto confinado aos comentários do revisor.Etimologia (origem da palavra confinado). A palavra confinado tem sua origem como particípio do verbo confinar.
  
 Sinônimos:
 
-rijo, teso, duro, forte, resistente 
+encerrado, detido, preso, circunscrito, limitado, delimitado 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (26/08/2026) - Significado completo de oligossintomático:
-INFO:root:🔹 URL: https://www.dicio.com.br/oligossintomatico/
+INFO:root:🔹 Title: Palavra de Ontem (27/08/2026) - Significado completo de sajica:
+INFO:root:🔹 URL: https://www.dicio.com.br/sajica/
 INFO:root:🔹 Description: Sinônimos:
 
-rijo, teso, duro, forte, resistente
+encerrado, detido, preso, circunscrito, limitado, delimitado
  
 Antônimos:
 
-flexível, mole 
+solto, livre 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (25/08/2026) - Significado completo de date:
-INFO:root:🔹 URL: https://www.dicio.com.br/date/
+INFO:root:🔹 Title: Palavra de Anteontem (26/08/2026) - Significado completo de oligossintomático:
+INFO:root:🔹 URL: https://www.dicio.com.br/oligossintomatico/
 INFO:root:🔹 Description: Antônimos:
 
-flexível, mole
- Classe gramatical:adjetivo de dois gêneros
+solto, livre
+ Classe gramatical:adjetivo
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,42 +48,110 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365509 characters
-INFO:root:HTML parsed, length: 355017 characters
-INFO:root:Found 1 titles: ['Salmos 26:2-3']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_26_2-3/']
-INFO:root:Found 1 descriptions: ['Sonda-me, Senhor, e prova-me,\nexamina o meu coraçã']
+INFO:root:Response length: 365495 characters
+INFO:root:HTML parsed, length: 355003 characters
+INFO:root:Found 1 titles: ['2 Tessalonicenses 3:3']
+INFO:root:Found 1 URLs: ['/versiculo/2_tessalonicenses_3_3/']
+INFO:root:Found 1 descriptions: ['Mas o Senhor é fiel; ele os fortalecerá e os guard']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 26:2-3', ID=df0281d64f4cb4ca4ebebc3b2e3f0227
+INFO:root:Processing entry 1: Title='2 Tessalonicenses 3:3', ID=2143c9459a713f31d655fb9e549141df
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 26:2-3
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_26_2-3/
-INFO:root:🔹 Description: Sonda-me, Senhor, e prova-me,
-examina o meu coração e a minha mente; pois o teu amor está sempre diante de mim,
-e continuamente sigo a tua verdade. Salmos 26:2-3
+INFO:root:🔹 Title: 2 Tessalonicenses 3:3
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_tessalonicenses_3_3/
+INFO:root:🔹 Description: Mas o Senhor é fiel; ele os fortalecerá e os guardará do Maligno. 2 Tessalonicenses 3:3
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 361780 characters
-INFO:root:HTML parsed, length: 352307 characters
-INFO:root:Found 3 titles: ['Salmo 95', 'Salmo 98', 'Salmo 2']
-INFO:root:Found 3 URLs: ['/salmos_95/', '/salmos_98/', '/salmos_2/']
-INFO:root:Found 3 descriptions: ['Venham! Cantemos ao Senhor com alegria!\nAclamemos ', 'Cantem ao Senhor um novo cântico,\npois ele fez coi', 'Por que se amotinam as nações\ne os povos tramam em']
-INFO:root:Found 3 dates: ['27 de Agosto de 2026', '26 de Agosto de 2026', '25 de Agosto de 2026']
+INFO:root:Response length: 363243 characters
+INFO:root:HTML parsed, length: 353782 characters
+INFO:root:Found 3 titles: ['Salmo 73', 'Salmo 95', 'Salmo 98']
+INFO:root:Found 3 URLs: ['/salmos_73/', '/salmos_95/', '/salmos_98/']
+INFO:root:Found 3 descriptions: ['Certamente Deus é bom para Israel,\npara os puros d', 'Venham! Cantemos ao Senhor com alegria!\nAclamemos ', 'Cantem ao Senhor um novo cântico,\npois ele fez coi']
+INFO:root:Found 3 dates: ['28 de Agosto de 2026', '27 de Agosto de 2026', '26 de Agosto de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
-INFO:root:Processing entry 2: Title=' Salmo 98', ID=33adc7bdfe38c4864921fdfaca3d7034
-INFO:root:Processing entry 3: Title=' Salmo 2', ID=01264067e53eb9a2e82de4a249ea541d
+INFO:root:Processing entry 1: Title=' Salmo 73', ID=05c2b68762e3d28ede5707659652f87c
+INFO:root:Processing entry 2: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
+INFO:root:Processing entry 3: Title=' Salmo 98', ID=33adc7bdfe38c4864921fdfaca3d7034
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 73
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_73/
+INFO:root:🔹 Description: Certamente Deus é bom para Israel,
+para os puros de coração. 
+Quanto a mim, os meus pés quase tropeçaram;
+por pouco não escorreguei. 
+Pois tive inveja dos arrogantes
+quando vi a prosperidade desses ímpios. 
+Eles não passam por sofrimento
+e têm o corpo saudável e forte. 
+Estão livres dos fardos de todos;
+não são atingidos por doenças
+como os outros homens. 
+Por isso o orgulho lhes serve de colar,
+e eles se vestem de violência. 
+Do seu íntimo brota a maldade;
+da sua mente transbordam maquinações. 
+Eles zombam e falam com más intenções;
+em sua arrogância ameaçam com opressão. 
+Com a boca arrogam a si os céus,
+e com a língua se apossam da terra. 
+Por isso o seu povo se volta para eles
+e bebe suas palavras até saciar-se. 
+Eles dizem: "Como saberá Deus?
+Terá conhecimento o Altíssimo?" 
+Assim são os ímpios;
+sempre despreocupados,
+aumentam suas riquezas. 
+Certamente me foi inútil
+manter puro o coração
+e lavar as mãos na inocência, 
+pois o dia inteiro sou afligido,
+e todas as manhãs sou castigado. 
+Se eu tivesse dito: "Falarei como eles",
+teria traído os teus filhos. 
+Quando tentei entender tudo isso,
+achei muito difícil para mim, 
+até que entrei no santuário de Deus,
+e então compreendi o destino dos ímpios. 
+Certamente os pões em terreno escorregadio
+e os fazes cair na ruína. 
+Como são destruídos de repente,
+completamente tomados de pavor! 
+São como um sonho
+que se vai quando acordamos;
+quando te levantares, Senhor,
+tu os farás desaparecer. 
+Quando o meu coração estava amargurado
+e no íntimo eu sentia inveja, 
+agi como insensato e ignorante;
+minha atitude para contigo
+era a de um animal irracional. 
+Contudo, sempre estou contigo;
+tomas a minha mão direita e me susténs. 
+Tu me diriges com o teu conselho,
+e depois me receberás com honras. 
+A quem tenho nos céus senão a ti?
+E, na terra, nada mais desejo
+além de estar junto a ti. 
+O meu corpo e o meu coração
+poderão fraquejar,
+mas Deus é a força do meu coração
+e a minha herança para sempre. 
+Os que te abandonam sem dúvida perecerão;
+tu destróis todos os infiéis. 
+Mas, para mim, bom é estar perto de Deus;
+fiz do Soberano Senhor o meu refúgio;
+proclamarei todos os teus feitos. 
+ Salmo 73
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 95
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_95/
 INFO:root:🔹 Description: Venham! Cantemos ao Senhor com alegria!
@@ -146,89 +214,77 @@ julgará o mundo com justiça
 e os povos com retidão. 
  Salmo 98
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 2
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_2/
-INFO:root:🔹 Description: Por que se amotinam as nações
-e os povos tramam em vão? 
-Os reis da terra tomam posição
-e os governantes conspiram unidos
-contra o Senhor e contra o seu ungido,
-e dizem: 
-"Façamos em pedaços as suas correntes,
-lancemos de nós as suas algemas!" 
-Do seu trono nos céus o Senhor põe-se a rir e caçoa deles. 
-Em sua ira os repreende
-e em seu furor os aterroriza, dizendo: 
-"Eu mesmo estabeleci o meu rei
-em Sião, no meu santo monte". 
-Proclamarei o decreto do Senhor:
-Ele me disse: "Tu és meu filho;
-eu hoje te gerei. 
-Pede-me, e te darei as nações como herança
-e os confins da terra como tua propriedade. 
-Tu as quebrarás com vara de ferro
-e as despedaçarás como a um vaso de barro". 
-Por isso, ó reis, sejam prudentes;
-aceitem a advertência, autoridades da terra. 
-Adorem o Senhor com temor;
-exultem com tremor. 
-Beijem o filho, para que ele não se ire
-e vocês não sejam destruídos de repente,
-pois num instante acende-se a sua ira.
-Como são felizes todos os que nele se refugiam! 
- Salmo 2
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366373 characters
-INFO:root:HTML parsed, length: 356343 characters
-INFO:root:Found 3 titles: ['O poder do perdão', 'A fé que vence o medo', 'Deus sempre dá uma saída']
+INFO:root:Response length: 366105 characters
+INFO:root:HTML parsed, length: 356067 characters
+INFO:root:Found 3 titles: ['Esperança que não envergonha', 'O poder do perdão', 'A fé que vence o medo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Perdoar costuma ser tratado como um favor emociona', 'Medo e fé raramente se anulam por completo; muitas', 'Tentação não é pecado, é o momento antes da escolh']
-INFO:root:Found 1 dates: ['Quinta, 27 de agosto de 2026']
+INFO:root:Found 3 descriptions: ['Existe um tipo de esperança que corremos o risco d', 'Perdoar costuma ser tratado como um favor emociona', 'Medo e fé raramente se anulam por completo; muitas']
+INFO:root:Found 1 dates: ['Sexta, 28 de agosto de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O poder do perdão', ID=89b6b0aa6f620464d99feb8503dbbe99
+INFO:root:Processing entry 1: Title='Esperança que não envergonha', ID=22ae04e6763966e95be860a472b82f1a
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O poder do perdão - Palavra de Hoje
+INFO:root:🔹 Title: Esperança que não envergonha - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Perdoar costuma ser tratado como um favor emocional, algo que fazemos para "seguir em frente" ou "ter paz". A Bíblia descreve algo mais profundo: perdão não é uma técnica de bem-estar, é uma resposta ao que já recebemos.
+INFO:root:🔹 Description: Existe um tipo de esperança que corremos o risco de perder pelo caminho: a esperança envergonhada, aquela que preferimos não dizer em voz alta, porque já fomos decepcionados antes e tememos ser decepcionados de novo. Paulo descreve outro tipo, uma esperança que não recua diante do risco de dar errado, e mostra exatamente de onde ela nasce.
 
-"Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, como Deus os perdoou em Cristo."
-Efésios 4:32 (NVI)
+"Não só isso, mas também nos gloriamos nas tribulações, porque sabemos que a tribulação produz perseverança; a perseverança, um caráter aprovado; o caráter aprovado, esperança."
+Romanos 5:3-4 (NVI)
 
-Repare na ordem: primeiro vem o perdão que já recebemos, depois vem o que somos chamados a dar. Paulo não pede que a igreja invente forças próprias para perdoar; pede que ela reproduza algo que já aconteceu com ela mesma. O poder do perdão que oferecemos não nasce de nós; nasce do perdão que já nos foi dado em Cristo.
+Repare no caminho: a esperança de Paulo não nasce de otimismo, nasce de tribulação. Passa por perseverança, depois por um caráter comprovado, e só então chega à esperança. Não é uma esperança ingênua, que nunca foi testada; é uma esperança que atravessou o fogo e ainda está de pé.
 
-"Suportem uns aos outros e perdoem as queixas que tiverem uns contra os outros. Perdoem como o Senhor os perdoou."
-Colossenses 3:13 (NVI)
+"Essa esperança não nos decepciona, porque o amor de Deus foi derramado no nosso coração por meio do Espírito Santo, que ele nos deu."
+Romanos 5:5 (NVI)
 
-Este versículo não finge que a queixa não existe. Ele reconhece: vai haver queixa, vai haver motivo real para mágoa. E ainda assim, o chamado é para perdoar, na mesma medida em que fomos perdoados, não numa medida menor, mais fácil de administrar.
-Perdão, nesse sentido, tem poder porque quebra um ciclo que a ofensa sozinha nunca quebraria. Quem guarda a mágoa continua preso a quem o feriu; quem perdoa, como foi perdoado, é libertado para seguir sem carregar aquele peso específico. Não é esquecer o que aconteceu, é deixar de deixar o que aconteceu decidir quem você continua sendo.
+E aqui está o fundamento que a sustenta: não é a força de quem persevera, é o amor de Deus, já derramado, já dado, através do Espírito Santo que habita em quem crê. É por isso que essa esperança não envergonha. Ela não é uma aposta que pode ou não se pagar. É a certeza de algo que já aconteceu, sustentando uma expectativa que ainda não se cumpriu por inteiro.
+Quando a vida faz a esperança parecer ingenuidade, vale lembrar de onde ela vem. Não nasce de você segurá-la sozinho; nasce do amor de Deus já provado, e do caráter que a tribulação formou em você no caminho até aqui.
  
-"Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, como Deus os perdoou em Cristo."
-Efésios 4:32 (NVI)
+"Não só isso, mas também nos gloriamos nas tribulações, porque sabemos que a tribulação produz perseverança; a perseverança, um caráter aprovado; o caráter aprovado, esperança."
+Romanos 5:3-4 (NVI)
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376362 characters
-INFO:root:HTML parsed, length: 365866 characters
-INFO:root:Found 3 titles: ['Terminar a corrida', 'Quando já não tenho forças', 'Será que Deus se esqueceu de mim?']
+INFO:root:Response length: 376199 characters
+INFO:root:HTML parsed, length: 365723 characters
+INFO:root:Found 3 titles: ['Quando a alegria demora a voltar', 'Terminar a corrida', 'Quando já não tenho forças']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Combati o bom combate, terminei a corrida, guardei', '"Ele fortalece o cansado e dá grande vigor ao que ', '"Haverá mãe que possa esquecer-se do seu bebê que ']
-INFO:root:Found 3 dates: ['AGOSTO\n\n27\nQUINTA', 'AGOSTO\n\n26\nQUARTA', 'AGOSTO\n\n25\nTERÇA']
+INFO:root:Found 3 descriptions: ['"Porque a sua ira dura apenas um instante, mas o s', 'Combati o bom combate, terminei a corrida, guardei', '"Ele fortalece o cansado e dá grande vigor ao que ']
+INFO:root:Found 3 dates: ['AGOSTO\n\n28\nSEXTA', 'AGOSTO\n\n27\nQUINTA', 'AGOSTO\n\n26\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Terminar a corrida', ID=6299b022e4975326b06d9875f70e08cb
-INFO:root:Processing entry 2: Title='Quando já não tenho forças', ID=3fef9c2c64c1c9e4fbc4e0ec86929314
-INFO:root:Processing entry 3: Title='Será que Deus se esqueceu de mim?', ID=bfc6c8384fdf637c4c050138f7672cf5
+INFO:root:Processing entry 1: Title='Quando a alegria demora a voltar', ID=99e0f462730f03ccf829e4c75409f951
+INFO:root:Processing entry 2: Title='Terminar a corrida', ID=6299b022e4975326b06d9875f70e08cb
+INFO:root:Processing entry 3: Title='Quando já não tenho forças', ID=3fef9c2c64c1c9e4fbc4e0ec86929314
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Quando a alegria demora a voltar
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: "Porque a sua ira dura apenas um instante, mas o seu favor dura a vida toda; o choro pode persistir uma noite, mas de manhã irrompe a alegria."
+Salmos 30:5
+
+Conhecemos esse versículo de cor, mas às vezes ele soa quase cruel quando a noite já dura semanas, ou meses, e a manhã ainda não chegou. Erramos quando lemos "uma noite" como uma promessa de calendário, como se Deus tivesse marcado a hora exata em que a tristeza vai embora. Não é esse o ponto. Davi não estava contando as horas do relógio; estava descrevendo como a dor e a alegria se comparam diante de Deus, uma passa, a outra fica.
+Esse salmo nasce de uma experiência real de Davi, que passou por doença grave e quase morte, e só depois, olhando para trás, conseguiu escrever sobre a manhã que veio. Ele não escreveu isso no meio da noite, escreveu depois, quando já podia ver o percurso inteiro. Isso muda como lemos o versículo: não é uma ordem para sentir alegria antes da hora, é um testemunho de que a noite, por mais longa que seja, não é a palavra final sobre a nossa vida.
+Quando a alegria demora, o convite não é fingir que ela já chegou. É continuar entregando a noite a Deus, mesmo sem saber quando ela vai terminar, confiando que o favor dele dura mais do que qualquer dor.
+Faça hoje
+
+Nomeie, sem se cobrar prazo, o que ainda dói em você hoje.
+Releia este salmo inteiro (Salmos 30), não só o versículo 5, para ver a história completa por trás dele.
+Permita-se sentir a noite sem fingir que já é manhã.
+Lembre a si mesmo de uma vez em que Deus trouxe alegria depois de um tempo difícil, e deixe essa memória sustentar a espera de hoje.
+Fale com alguém de confiança sobre essa noite que está durando mais do que você esperava.
+
+Oração
+
+Senhor, a minha noite está durando mais do que eu imaginava, e às vezes duvido que a manhã ainda vá chegar. Eu não peço para sentir uma alegria que ainda não sinto, peço para confiar que o teu favor não vai embora enquanto eu espero. Sustenta-me nesta noite até que a tua manhã chegue. Amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Terminar a corrida
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Combati o bom combate, terminei a corrida, guardei a fé.
@@ -275,26 +331,6 @@ Para orar:
 
 Senhor, eu já não tenho forças próprias para continuar. Eu não te peço só ânimo para hoje, peço que tu mesmo sejas a minha força, porque eu já esgotei a minha. Ensina-me a esperar em ti, mesmo cansado, e renova o que em mim já desanimou. Amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Será que Deus se esqueceu de mim?
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: "Haverá mãe que possa esquecer-se do seu bebê que ainda mama e não ter compaixão do filho que gerou? Embora ela possa se esquecer dele, eu não me esquecerei de você!"
-- Isaías 49:15
-
-Existe uma solidão específica, a de sentir que até Deus se afastou. Não é só a ausência de gente por perto; é a sensação de estar esquecido por quem deveria se importar mais. O verso anterior a este mostra exatamente essa queixa: o povo de Israel, no exílio, diz "o Senhor me abandonou, o meu Senhor se esqueceu de mim." Não é uma pergunta hipotética. É a dor real de gente que se sentia largada.
-E é para essa dor específica que Deus responde, usando a imagem mais forte de vínculo que existe: uma mãe e o filho que ainda mama nela. Nenhuma outra ligação humana é tão física, tão constante, tão impossível de esquecer num dia comum. Mesmo assim, Deus admite: pode até acontecer, uma mãe pode falhar. Mas Ele não vai. "Eu não me esquecerei de você" não é uma frase de conforto genérico; é a resposta direta a alguém que já tinha dito em voz alta "Deus se esqueceu de mim."
-Isso significa que a solidão que você sente hoje não é prova de que Deus se afastou. É, muitas vezes, a mesma sensação que o povo de Israel sentiu, e que Deus respondeu não explicando o silêncio, mas reafirmando o vínculo. Ele não promete tirar toda solidão hoje. Promete que, mesmo quando ela aperta, você não está esquecido.
-Faça hoje
-
-Diga em voz alta, mesmo sem sentir: "eu não estou esquecido."
-Nomeie um momento recente em que se sentiu esquecido por Deus, e leve isso a Ele em oração, sem suavizar a dor.
-Procure uma pessoa de confiança hoje, nem que seja uma mensagem curta, para lembrar que solidão também se enfrenta em comunidade.
-Releia Isaías 49:14-16 e repare que Deus responde à queixa, não a ignora.
-Guarde este versículo para os dias em que a solidão parecer maior que a fé.
-
-Para orar:
-
-Senhor, hoje eu sinto o que Israel sentiu: que fui esquecido. Eu trago essa solidão para ti sem fingir que ela não dói. Ajuda-me a acreditar que, mesmo quando não sinto a tua presença, tu não me soltaste. Lembra-me de que sou lembrado por ti antes de qualquer outra coisa. Amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -324,15 +360,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  52 ++--
- feeds/devocional_de_hoje/feed.json        |  14 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  20 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  38 ++--
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  20 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 214 +++------------
+ feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               | 100 +++++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 422 ++++++++++--------------------
- 11 files changed, 249 insertions(+), 545 deletions(-)
+ output.log                                | 284 ++++++++++++++++--------------
+ 11 files changed, 292 insertions(+), 232 deletions(-)
