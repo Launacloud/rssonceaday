@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 198177 characters
-INFO:root:HTML parsed, length: 175218 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (28/08/2026)', 'Palavra de Ontem (27/08/2026)', 'Palavra de Anteontem (26/08/2026)']
-INFO:root:Found 3 URLs: ['/confinado/', '/sajica/', '/oligossintomatico/']
-INFO:root:Found 12 descriptions: ['adjetivo Que se confinou; privado da sua liberdade', 'Sinônimos:\n\nencerrado, detido, preso, circunscrito', 'Antônimos:\n\nsolto, livre']
-INFO:root:Found 3 dates: ['Palavra de Hoje (28/08/2026)', 'Palavra de Ontem (27/08/2026)', 'Palavra de Anteontem (26/08/2026)']
+INFO:root:Response length: 199338 characters
+INFO:root:HTML parsed, length: 176195 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (29/08/2026)', 'Palavra de Ontem (28/08/2026)', 'Palavra de Anteontem (27/08/2026)']
+INFO:root:Found 3 URLs: ['/gabarito/', '/confinado/', '/sajica/']
+INFO:root:Found 14 descriptions: ['substantivo masculino Documento que contém uma tab', 'Sinônimos:\n\nreferência, molde, padrão, escantilhão', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (29/08/2026)', 'Palavra de Ontem (28/08/2026)', 'Palavra de Anteontem (27/08/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (28/08/2026)', ID=9c4a98c6246e56fee621096bc941e3d4
-INFO:root:Processing entry 2: Title='Palavra de Ontem (27/08/2026)', ID=34708d174b7b37e3ab0983f006e49b80
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (26/08/2026)', ID=304aac11774da37adb177bf21d65cc8d
+INFO:root:Processing entry 1: Title='Palavra de Hoje (29/08/2026)', ID=c1b4fc4949f5caf19faacbfe65318f7a
+INFO:root:Processing entry 2: Title='Palavra de Ontem (28/08/2026)', ID=4c875ed413399a8dd0a77b654a129e91
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (27/08/2026)', ID=74d26d4433440ffcaba6971da30db48d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (28/08/2026) - Significado completo de confinado:
-INFO:root:🔹 URL: https://www.dicio.com.br/confinado/
-INFO:root:🔹 Description: adjetivo Que se confinou; privado da sua liberdade; preso.Que foi impedido de sair do lugar onde se encontra ou de ultrapassar limites e fronteiras; detido.Próximo a algo que serve como limite; encerrado, circunscrito: rua confinada à igreja.[Figurado] Que se restringiu a ou deve respeitar algumas limitações; delimitado: texto confinado aos comentários do revisor.Etimologia (origem da palavra confinado). A palavra confinado tem sua origem como particípio do verbo confinar.
+INFO:root:🔹 Title: Palavra de Hoje (29/08/2026) - Significado completo de gabarito:
+INFO:root:🔹 URL: https://www.dicio.com.br/gabarito/
+INFO:root:🔹 Description: substantivo masculino Documento que contém uma tabela com as respostas certas das questões de um teste de múltipla escolha.Modelo que serve para traçar, verificar ou controlar o perfil ou as dimensões que devem ter certos objetos.[Figurado] Categoria, hierarquia: pessoa de alto gabarito intelectual.Medida padrão que regula a confecção de peças, a distância entre uma coisa e outra (trilhos de bondes e de vias férreas; entre meios-fios de ruas etc.); instrumento para verificar essa medida.Nome que se dá ao limite de altura que deve ser obedecido em edificações dentro de determinada área.Etimologia (origem da palavra gabarito). A palavra gabarito tem sua origem no francês "gabarit", com o mesmo sentido, modelo.
  
 Sinônimos:
 
-encerrado, detido, preso, circunscrito, limitado, delimitado 
+referência, molde, padrão, escantilhão, categoria, modelo, medida, classe, nível, arquétipo 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (27/08/2026) - Significado completo de sajica:
-INFO:root:🔹 URL: https://www.dicio.com.br/sajica/
+INFO:root:🔹 Title: Palavra de Ontem (28/08/2026) - Significado completo de confinado:
+INFO:root:🔹 URL: https://www.dicio.com.br/confinado/
 INFO:root:🔹 Description: Sinônimos:
 
-encerrado, detido, preso, circunscrito, limitado, delimitado
- 
-Antônimos:
-
-solto, livre 
-
+referência, molde, padrão, escantilhão, categoria, modelo, medida, classe, nível, arquétipo
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (26/08/2026) - Significado completo de oligossintomático:
-INFO:root:🔹 URL: https://www.dicio.com.br/oligossintomatico/
-INFO:root:🔹 Description: Antônimos:
-
-solto, livre
- Classe gramatical:adjetivo
+INFO:root:🔹 Title: Palavra de Anteontem (27/08/2026) - Significado completo de sajica:
+INFO:root:🔹 URL: https://www.dicio.com.br/sajica/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:ga-ba-ri-to
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,78 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365495 characters
-INFO:root:HTML parsed, length: 355003 characters
-INFO:root:Found 1 titles: ['2 Tessalonicenses 3:3']
-INFO:root:Found 1 URLs: ['/versiculo/2_tessalonicenses_3_3/']
-INFO:root:Found 1 descriptions: ['Mas o Senhor é fiel; ele os fortalecerá e os guard']
+INFO:root:Response length: 365938 characters
+INFO:root:HTML parsed, length: 355446 characters
+INFO:root:Found 1 titles: ['Romanos 8:38-39']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_8_38-39/']
+INFO:root:Found 1 descriptions: ['Pois estou convencido de que nem morte nem vida, n']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Tessalonicenses 3:3', ID=2143c9459a713f31d655fb9e549141df
+INFO:root:Processing entry 1: Title='Romanos 8:38-39', ID=9f50969048a2f5d68e80f9d3be16c2ae
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Tessalonicenses 3:3
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_tessalonicenses_3_3/
-INFO:root:🔹 Description: Mas o Senhor é fiel; ele os fortalecerá e os guardará do Maligno. 2 Tessalonicenses 3:3
+INFO:root:🔹 Title: Romanos 8:38-39
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_8_38-39/
+INFO:root:🔹 Description: Pois estou convencido de que nem morte nem vida, nem anjos nem demônios, nem o presente nem o futuro, nem quaisquer poderes, nem altura nem profundidade, nem qualquer outra coisa na criação será capaz de nos separar do amor de Deus que está em Cristo Jesus, nosso Senhor. Romanos 8:38-39
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 363243 characters
-INFO:root:HTML parsed, length: 353782 characters
-INFO:root:Found 3 titles: ['Salmo 73', 'Salmo 95', 'Salmo 98']
-INFO:root:Found 3 URLs: ['/salmos_73/', '/salmos_95/', '/salmos_98/']
-INFO:root:Found 3 descriptions: ['Certamente Deus é bom para Israel,\npara os puros d', 'Venham! Cantemos ao Senhor com alegria!\nAclamemos ', 'Cantem ao Senhor um novo cântico,\npois ele fez coi']
-INFO:root:Found 3 dates: ['28 de Agosto de 2026', '27 de Agosto de 2026', '26 de Agosto de 2026']
+INFO:root:Response length: 363669 characters
+INFO:root:HTML parsed, length: 354222 characters
+INFO:root:Found 3 titles: ['Salmo 56', 'Salmo 73', 'Salmo 95']
+INFO:root:Found 3 URLs: ['/salmos_56/', '/salmos_73/', '/salmos_95/']
+INFO:root:Found 3 descriptions: ['Tem misericórdia de mim, ó Deus,\npois os homens me', 'Certamente Deus é bom para Israel,\npara os puros d', 'Venham! Cantemos ao Senhor com alegria!\nAclamemos ']
+INFO:root:Found 3 dates: ['29 de Agosto de 2026', '28 de Agosto de 2026', '27 de Agosto de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 73', ID=05c2b68762e3d28ede5707659652f87c
-INFO:root:Processing entry 2: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
-INFO:root:Processing entry 3: Title=' Salmo 98', ID=33adc7bdfe38c4864921fdfaca3d7034
+INFO:root:Processing entry 1: Title=' Salmo 56', ID=48342b4b68cc062982053050b246e0c7
+INFO:root:Processing entry 2: Title=' Salmo 73', ID=05c2b68762e3d28ede5707659652f87c
+INFO:root:Processing entry 3: Title=' Salmo 95', ID=df9fcc5b5f233696ed0c271c0a076f64
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 56
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_56/
+INFO:root:🔹 Description: Tem misericórdia de mim, ó Deus,
+pois os homens me pressionam;
+o tempo todo me atacam e me oprimem. 
+Os meus inimigos pressionam-me sem parar;
+muitos atacam-me arrogantemente. 
+Mas eu, quando estiver com medo,
+confiarei em ti. 
+Em Deus, cuja palavra eu louvo,
+em Deus eu confio e não temerei.
+Que poderá fazer-me o simples mortal? 
+O tempo todo
+eles distorcem as minhas palavras;
+estão sempre tramando prejudicar-me. 
+Conspiram, ficam à espreita,
+vigiam os meus passos,
+na esperança de tirar-me a vida. 
+Deixarás escapar essa gente tão perversa?
+Na tua ira, ó Deus, derruba as nações. 
+Registra, tu mesmo, o meu lamento;
+recolhe as minhas lágrimas em teu odre;
+acaso não estão anotadas em teu livro? 
+Os meus inimigos retrocederão,
+quando eu clamar por socorro.
+Com isso saberei que Deus está a meu favor. 
+Confio em Deus, cuja palavra louvo,
+no Senhor, cuja palavra louvo, 
+em Deus eu confio e não temerei.
+Que poderá fazer-me o homem? 
+Cumprirei os votos que te fiz, ó Deus;
+a ti apresentarei minhas ofertas de gratidão. 
+Pois me livraste da morte
+e aos meus pés de tropeçar,
+para que eu ande diante de Deus
+na luz que ilumina os vivos. 
+ Salmo 56
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 73
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_73/
 INFO:root:🔹 Description: Certamente Deus é bom para Israel,
@@ -184,87 +216,83 @@ Por isso jurei na minha ira:
 "Jamais entrarão no meu descanso". 
  Salmo 95
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 98
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_98/
-INFO:root:🔹 Description: Cantem ao Senhor um novo cântico,
-pois ele fez coisas maravilhosas;
-a sua mão direita e o seu braço santo
-lhe deram a vitória! 
-O Senhor anunciou a sua vitória
-e revelou a sua justiça às nações. 
-Ele se lembrou do seu amor leal
-e da sua fidelidade para com a casa de Israel;
-todos os confins da terra viram
-a vitória do nosso Deus. 
-Aclamem o Senhor
-todos os habitantes da terra!
-Louvem-no com cânticos de alegria
-e ao som de música! 
-Ofereçam música ao Senhor com a harpa,
-com a harpa e ao som de canções, 
-com cornetas e ao som da trombeta;
-exultem diante do Senhor, o Rei! 
-Ressoe o mar e tudo o que nele existe,
-o mundo e os seus habitantes! 
-Batam palmas os rios,
-e juntos cantem de alegria os montes; 
-cantem diante do Senhor, porque ele vem,
-vem julgar a terra;
-julgará o mundo com justiça
-e os povos com retidão. 
- Salmo 98
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366105 characters
-INFO:root:HTML parsed, length: 356067 characters
-INFO:root:Found 3 titles: ['Esperança que não envergonha', 'O poder do perdão', 'A fé que vence o medo']
+INFO:root:Response length: 366661 characters
+INFO:root:HTML parsed, length: 356621 characters
+INFO:root:Found 3 titles: ['A prosperidade que Deus quer para você', 'Esperança que não envergonha', 'O poder do perdão']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Existe um tipo de esperança que corremos o risco d', 'Perdoar costuma ser tratado como um favor emociona', 'Medo e fé raramente se anulam por completo; muitas']
-INFO:root:Found 1 dates: ['Sexta, 28 de agosto de 2026']
+INFO:root:Found 3 descriptions: ['Amado, oro para que tudo vá bem com você e para qu', 'Existe um tipo de esperança que corremos o risco d', 'Perdoar costuma ser tratado como um favor emociona']
+INFO:root:Found 1 dates: ['Sábado, 29 de agosto de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Esperança que não envergonha', ID=22ae04e6763966e95be860a472b82f1a
+INFO:root:Processing entry 1: Title='A prosperidade que Deus quer para você', ID=84309e50b989a33b1b03477395c07cf2
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Esperança que não envergonha - Palavra de Hoje
+INFO:root:🔹 Title: A prosperidade que Deus quer para você - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Existe um tipo de esperança que corremos o risco de perder pelo caminho: a esperança envergonhada, aquela que preferimos não dizer em voz alta, porque já fomos decepcionados antes e tememos ser decepcionados de novo. Paulo descreve outro tipo, uma esperança que não recua diante do risco de dar errado, e mostra exatamente de onde ela nasce.
+INFO:root:🔹 Description: Amado, oro para que tudo vá bem com você e para que esteja tão saudável fisicamente como é espiritualmente.
+3 João 1:2
 
-"Não só isso, mas também nos gloriamos nas tribulações, porque sabemos que a tribulação produz perseverança; a perseverança, um caráter aprovado; o caráter aprovado, esperança."
-Romanos 5:3-4 (NVI)
+Para muita gente, prosperidade quer dizer só uma coisa: dinheiro na conta, casa própria, uma vida financeira tranquila. E não há nada de errado em desejar isso. Mas quando João escreve a um amigo querido, ele junta duas coisas que raramente colocamos lado a lado: que tudo vá bem com você, e que a sua alma esteja bem também.
+A ordem importa. João não trata o corpo e a alma como assuntos separados; ele deseja que uma prosperidade acompanhe a outra. Se a sua vida financeira melhora mas a sua alma continua exausta, distante de Deus, cheia de ansiedade, alguma coisa ainda está incompleta.
+Jesus dá a chave para essa prosperidade inteira:
 
-Repare no caminho: a esperança de Paulo não nasce de otimismo, nasce de tribulação. Passa por perseverança, depois por um caráter comprovado, e só então chega à esperança. Não é uma esperança ingênua, que nunca foi testada; é uma esperança que atravessou o fogo e ainda está de pé.
+Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.
+Mateus 6:33
 
-"Essa esperança não nos decepciona, porque o amor de Deus foi derramado no nosso coração por meio do Espírito Santo, que ele nos deu."
-Romanos 5:5 (NVI)
+Buscar primeiro o Reino não é uma condição para ganhar bênçãos materiais como troca; é uma mudança de prioridade. Quando o seu coração descansa em Deus antes de descansar no saldo da conta, você já está prosperando por dentro, mesmo que o "de fora" ainda esteja em construção.
+E há meses em que o "de fora" simplesmente não vem como você esperava. Paulo, na mesma carta em que fala de alegria, também escreveu sobre fartura e necessidade, e tinha aprendido algo que vale mais do que qualquer fórmula:
 
-E aqui está o fundamento que a sustenta: não é a força de quem persevera, é o amor de Deus, já derramado, já dado, através do Espírito Santo que habita em quem crê. É por isso que essa esperança não envergonha. Ela não é uma aposta que pode ou não se pagar. É a certeza de algo que já aconteceu, sustentando uma expectativa que ainda não se cumpriu por inteiro.
-Quando a vida faz a esperança parecer ingenuidade, vale lembrar de onde ela vem. Não nasce de você segurá-la sozinho; nasce do amor de Deus já provado, e do caráter que a tribulação formou em você no caminho até aqui.
+Sei o que é passar necessidade e sei o que é ter fartura. Aprendi a passar por toda e qualquer situação, seja bem alimentado, seja com fome, tendo muito ou passando necessidade. Tudo posso naquele que me fortalece.
+Filipenses 4:12-13
+
+A força que sustenta você não depende do que está na sua conta bancária. Depende de quem está com você. Prosperar, no sentido que Deus quer para a sua vida, é ter a alma em paz, a prioridade certa e a força de Cristo em qualquer circunstância. Isso, ninguém tira de você.
  
-"Não só isso, mas também nos gloriamos nas tribulações, porque sabemos que a tribulação produz perseverança; a perseverança, um caráter aprovado; o caráter aprovado, esperança."
-Romanos 5:3-4 (NVI)
+Amado, oro para que tudo vá bem com você e para que esteja tão saudável fisicamente como é espiritualmente.
+3 João 1:2
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376199 characters
-INFO:root:HTML parsed, length: 365723 characters
-INFO:root:Found 3 titles: ['Quando a alegria demora a voltar', 'Terminar a corrida', 'Quando já não tenho forças']
+INFO:root:Response length: 376369 characters
+INFO:root:HTML parsed, length: 365912 characters
+INFO:root:Found 3 titles: ['Deixe a Oferta e Vá se Reconciliar', 'Quando a alegria demora a voltar', 'Terminar a corrida']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['"Porque a sua ira dura apenas um instante, mas o s', 'Combati o bom combate, terminei a corrida, guardei', '"Ele fortalece o cansado e dá grande vigor ao que ']
-INFO:root:Found 3 dates: ['AGOSTO\n\n28\nSEXTA', 'AGOSTO\n\n27\nQUINTA', 'AGOSTO\n\n26\nQUARTA']
+INFO:root:Found 3 descriptions: ['Portanto, se você estiver apresentando a sua ofert', '"Porque a sua ira dura apenas um instante, mas o s', 'Combati o bom combate, terminei a corrida, guardei']
+INFO:root:Found 3 dates: ['AGOSTO\n\n29\nSÁBADO', 'AGOSTO\n\n28\nSEXTA', 'AGOSTO\n\n27\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Quando a alegria demora a voltar', ID=99e0f462730f03ccf829e4c75409f951
-INFO:root:Processing entry 2: Title='Terminar a corrida', ID=6299b022e4975326b06d9875f70e08cb
-INFO:root:Processing entry 3: Title='Quando já não tenho forças', ID=3fef9c2c64c1c9e4fbc4e0ec86929314
+INFO:root:Processing entry 1: Title='Deixe a Oferta e Vá se Reconciliar', ID=d66c8d8a8f6ac8719a425ac758d066fc
+INFO:root:Processing entry 2: Title='Quando a alegria demora a voltar', ID=99e0f462730f03ccf829e4c75409f951
+INFO:root:Processing entry 3: Title='Terminar a corrida', ID=6299b022e4975326b06d9875f70e08cb
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Deixe a Oferta e Vá se Reconciliar
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Portanto, se você estiver apresentando a sua oferta diante do altar e ali se lembrar de que o seu irmão tem algo contra você, deixe a sua oferta ali, diante do altar, e vá primeiro reconciliar-se com o seu irmão; depois, volte e apresente a sua oferta.
+Mateus 5:23-24
+
+Todos nós carregamos alguma relação quebrada que preferimos não mexer. Aquele silêncio com um familiar, a mágoa que não foi resolvida com um amigo, a conversa que evitamos porque dói demais. Vamos empurrando para depois, como se o tempo sozinho resolvesse o que só a reconciliação resolve.
+No Sermão do Monte, Jesus fala de algo sagrado para os judeus: a oferta no altar, o momento mais importante do culto. E ele dá uma ordem que soa chocante. Se você está ali, prestes a adorar, e lembra que alguém tem algo contra você, pare tudo. Deixe a oferta. Vá se reconciliar primeiro. Só depois volte para adorar.
+Repare que Jesus não fala de quando você tem algo contra alguém, e sim de quando o outro tem algo contra você. Não importa quem começou o problema. A responsabilidade de buscar a paz é sua também. Deus não quer um culto de boca cheia enquanto o coração carrega uma relação quebrada que você poderia consertar.
+Isso muda a ordem das prioridades que você talvez tenha na cabeça. Antes de orar mais, cantar mais, servir mais, existe alguém esperando um passo seu em direção à paz. Reconciliação não é opcional para quem quer se aproximar de Deus de verdade.
+Dê o primeiro passo hoje
+
+Pense em uma pessoa específica com quem você tem uma relação quebrada e escreva o nome dela.
+Envie uma mensagem simples hoje, sem esperar o momento perfeito.
+Prepare-se para ouvir sem se defender, mesmo que você não concorde com tudo.
+Se o encontro pessoal não for possível agora, ore especificamente por essa pessoa esta semana.
+Antes da próxima vez que orar ou for à igreja, pergunte a si mesmo se há algo pendente para resolver antes.
+
+Para orar:
+
+Senhor, trago diante de ti a relação quebrada que tenho evitado resolver. Perdoa-me pelo orgulho e pelo medo que me impedem de dar o primeiro passo. Dá-me coragem para buscar a reconciliação, mesmo sem saber como a outra pessoa vai reagir. Que a minha adoração seja verdadeira, sem mágoas escondidas no coração. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Quando a alegria demora a voltar
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: "Porque a sua ira dura apenas um instante, mas o seu favor dura a vida toda; o choro pode persistir uma noite, mas de manhã irrompe a alegria."
@@ -311,26 +339,6 @@ Para orar
 
 Senhor, hoje eu me sinto cansado da corrida. Às vezes penso em parar no meio do caminho. Ajuda-me a fixar os olhos em ti, não na distância que ainda falta. Dá-me forças para dar mais um passo hoje, confiando que tu me sustentas até o fim. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Quando já não tenho forças
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: "Ele fortalece o cansado e dá grande vigor ao que está sem forças."
-Isaías 40:29
-
-Existe um cansaço que dormir não resolve. Não é só o corpo pedindo descanso, é a alma inteira sem energia para continuar, sem saber de onde vai tirar forças para amanhã. Isaías escreve para um povo exilado que sentia exatamente isso: "o Senhor não vê o meu caminho, meu Deus não se importa com a minha causa" (v.27). Cansaço, às vezes, vem junto com a sensação de que ninguém está reparando no esforço que fazemos.
-A resposta de Deus não começa explicando por que a exaustão chegou. Começa lembrando quem Ele é: o Criador de tudo, que não se cansa nem se fatiga, cujo entendimento ninguém alcança (v.28). Só depois de firmar isso é que vem a promessa: Ele fortalece o cansado, dá vigor a quem já não tem nenhum. A força não vem de encontrar mais disposição dentro de nós mesmos. Vem de fora, de alguém que nunca ficou sem forças para nos sustentar.
-Logo a seguir, o texto promete que os que esperam no Senhor renovam as forças, sobem com asas como águias, correm e não se cansam, andam e não desfalecem (v.31). Repare na ordem: correr vem antes de andar. Às vezes a força de Deus aparece em grandes momentos, mas na maior parte da vida ela aparece no simples ato de continuar andando, um passo de cada vez, quando tudo em você já queria parar.
-Faça hoje
-
-Diga em voz alta hoje: "eu não preciso ter força própria, preciso esperar na força dEle."
-Identifique uma área da sua vida onde o cansaço já virou desânimo, e nomeie isso diante de Deus em oração.
-Leia Isaías 40:27-31 inteiro, devagar, prestando atenção em quem Deus diz que é antes de prometer força.
-Permita-se descansar hoje sem culpa, como parte de esperar em Deus, não como fraqueza.
-Escolha uma tarefa pequena e realizável para hoje, em vez de tentar resolver tudo de uma vez.
-
-Para orar:
-
-Senhor, eu já não tenho forças próprias para continuar. Eu não te peço só ânimo para hoje, peço que tu mesmo sejas a minha força, porque eu já esgotei a minha. Ensina-me a esperar em ti, mesmo cansado, e renova o que em mim já desanimou. Amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -360,15 +368,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  38 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  39 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  20 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  25 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +--
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 100 +++++++----
+ feeds/salmo_do_dia/atom.xml               |  66 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 284 ++++++++++++++++--------------
- 11 files changed, 292 insertions(+), 232 deletions(-)
+ output.log                                | 260 +++++++++++++++---------------
+ 11 files changed, 238 insertions(+), 234 deletions(-)
