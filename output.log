@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 200002 characters
-INFO:root:HTML parsed, length: 176905 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (04/09/2026)', 'Palavra de Ontem (03/09/2026)', 'Palavra de Anteontem (02/09/2026)']
-INFO:root:Found 3 URLs: ['/mulungu/', '/estavel/', '/deportado/']
-INFO:root:Found 14 descriptions: ['substantivo masculino [Botânica] Nome comum a vári', 'Sinônimos:\n\ncoralina, eritrina, corticeira, muxoxo', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (04/09/2026)', 'Palavra de Ontem (03/09/2026)', 'Palavra de Anteontem (02/09/2026)']
+INFO:root:Response length: 201551 characters
+INFO:root:HTML parsed, length: 177621 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (05/09/2026)', 'Palavra de Ontem (04/09/2026)', 'Palavra de Anteontem (03/09/2026)']
+INFO:root:Found 3 URLs: ['/antirracista/', '/mulungu/', '/estavel/']
+INFO:root:Found 15 descriptions: ['substantivo masculino e feminino Partidário do ant', 'Sinônimos:\n\ninclusivo, justo, equânime, consciente', 'Antônimos:\n\nracista, preconceituoso, segregacionis']
+INFO:root:Found 3 dates: ['Palavra de Hoje (05/09/2026)', 'Palavra de Ontem (04/09/2026)', 'Palavra de Anteontem (03/09/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (04/09/2026)', ID=571ae35eb0922f14917f6e7cfc4c7ef1
-INFO:root:Processing entry 2: Title='Palavra de Ontem (03/09/2026)', ID=84f2aa72a29d8f3371e8360cbd8a642f
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (02/09/2026)', ID=0bd9111af9d533b4455afaddf9838d26
+INFO:root:Processing entry 1: Title='Palavra de Hoje (05/09/2026)', ID=b582898186816593773c1fa9c9313932
+INFO:root:Processing entry 2: Title='Palavra de Ontem (04/09/2026)', ID=8c85ade676518278bad3e23f1d156649
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (03/09/2026)', ID=7d85d09b7949bbb0b2c7cb0dfd58ceed
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (04/09/2026) - Significado completo de mulungu:
-INFO:root:🔹 URL: https://www.dicio.com.br/mulungu/
-INFO:root:🔹 Description: substantivo masculino [Botânica] Nome comum a várias árvores ornamentais do gênero Erythrina, conhecidas por suas flores vermelhas e alaranjadas, cuja madeira branca é usada para amolar navalhas; com propriedades medicinais; coralina, eritrina, flor-de-coral, bucaré, corticeira, molongó-branco, pau-coral, sananduva, suinã.Árvore de grande porte, da família das leguminosas, gênero Erythrina, oriunda do sudeste (Minas Gerais e São Paulo), conhecida popularmente por suas propriedades medicinais contra tosse e insônia, sendo também utilizada para retirada de celulose; muxoxo, sapatinho-de-judeu.Etimologia (origem da palavra mulungu). A palavra mulungu tem sua origem no quimbundo “mulungu”.
+INFO:root:🔹 Title: Palavra de Hoje (05/09/2026) - Significado completo de antirracista:
+INFO:root:🔹 URL: https://www.dicio.com.br/antirracista/
+INFO:root:🔹 Description: substantivo masculino e feminino Partidário do antirracismo, da ideologia contrária ao racismo, que se opõe a qualquer prática racista de discriminação e de segregação racial.adjetivo Contrário ao racismo, ao que é racista, ao que se relaciona com a discriminação e o preconceito contra pessoas negras: movimento antirracista.Etimologia (origem da palavra antirracista). A palavra antirracista tem sua origem pela junção do prefixo anti-, com sentido de contrário, e da palavra racista.
  
 Sinônimos:
 
-coralina, eritrina, corticeira, muxoxo 
+inclusivo, justo, equânime, consciente 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (03/09/2026) - Significado completo de estável:
-INFO:root:🔹 URL: https://www.dicio.com.br/estavel/
+INFO:root:🔹 Title: Palavra de Ontem (04/09/2026) - Significado completo de mulungu:
+INFO:root:🔹 URL: https://www.dicio.com.br/mulungu/
 INFO:root:🔹 Description: Sinônimos:
 
-coralina, eritrina, corticeira, muxoxo
- Classe gramatical:substantivo masculino
+inclusivo, justo, equânime, consciente
+ 
+Antônimos:
+
+racista, preconceituoso, segregacionista 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (02/09/2026) - Significado completo de deportado:
-INFO:root:🔹 URL: https://www.dicio.com.br/deportado/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:mu-lun-gu
+INFO:root:🔹 Title: Palavra de Anteontem (03/09/2026) - Significado completo de estável:
+INFO:root:🔹 URL: https://www.dicio.com.br/estavel/
+INFO:root:🔹 Description: Antônimos:
+
+racista, preconceituoso, segregacionista
+ Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +48,95 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365723 characters
-INFO:root:HTML parsed, length: 355231 characters
-INFO:root:Found 1 titles: ['Gálatas 6:9']
-INFO:root:Found 1 URLs: ['/versiculo/galatas_6_9/']
-INFO:root:Found 1 descriptions: ['E não nos cansemos de fazer o bem, pois no tempo p']
+INFO:root:Response length: 365443 characters
+INFO:root:HTML parsed, length: 354951 characters
+INFO:root:Found 1 titles: ['Hebreus 11:1']
+INFO:root:Found 1 URLs: ['/versiculo/hebreus_11_1/']
+INFO:root:Found 1 descriptions: ['Ora, a fé é a certeza daquilo que esperamos e a pr']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Gálatas 6:9', ID=645fd00eb54a27ca8d32c8f943553c5e
+INFO:root:Processing entry 1: Title='Hebreus 11:1', ID=63acff43bfbb55be7d453201bc8d7e0e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Gálatas 6:9
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/galatas_6_9/
-INFO:root:🔹 Description: E não nos cansemos de fazer o bem, pois no tempo próprio colheremos, se não desanimarmos. Gálatas 6:9
+INFO:root:🔹 Title: Hebreus 11:1
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_11_1/
+INFO:root:🔹 Description: Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos. Hebreus 11:1
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 363190 characters
-INFO:root:HTML parsed, length: 353739 characters
-INFO:root:Found 3 titles: ['Salmo 38', 'Salmo 91', 'Salmo 46']
-INFO:root:Found 3 URLs: ['/salmos_38/', '/salmos_91/', '/salmos_46/']
-INFO:root:Found 3 descriptions: ['Senhor, não me repreendas no teu furor\nnem me disc', 'Aquele que habita no abrigo do Altíssimo\ne descans', 'Deus é o nosso refúgio e a nossa fortaleza,\nauxíli']
-INFO:root:Found 3 dates: ['4 de Setembro de 2026', '3 de Setembro de 2026', '2 de Setembro de 2026']
+INFO:root:Response length: 364064 characters
+INFO:root:HTML parsed, length: 354640 characters
+INFO:root:Found 3 titles: ['Salmo 45', 'Salmo 38', 'Salmo 91']
+INFO:root:Found 3 URLs: ['/salmos_45/', '/salmos_38/', '/salmos_91/']
+INFO:root:Found 3 descriptions: ['Com o coração vibrando de boas palavras\nrecito os ', 'Senhor, não me repreendas no teu furor\nnem me disc', 'Aquele que habita no abrigo do Altíssimo\ne descans']
+INFO:root:Found 3 dates: ['5 de Setembro de 2026', '4 de Setembro de 2026', '3 de Setembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 38', ID=282dc27a0c80d468d6e7d65a1fc291fb
-INFO:root:Processing entry 2: Title=' Salmo 91', ID=ae2230ac157c45f9089a80ccb29436a2
-INFO:root:Processing entry 3: Title=' Salmo 46', ID=9766995a91a0db2cf56ba6ef2a22f28d
+INFO:root:Processing entry 1: Title=' Salmo 45', ID=cf6ec74f737411dd9d097a129de9c8ec
+INFO:root:Processing entry 2: Title=' Salmo 38', ID=282dc27a0c80d468d6e7d65a1fc291fb
+INFO:root:Processing entry 3: Title=' Salmo 91', ID=ae2230ac157c45f9089a80ccb29436a2
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 45
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_45/
+INFO:root:🔹 Description: Com o coração vibrando de boas palavras
+recito os meus versos em honra ao rei;
+seja a minha língua
+como a pena de um hábil escritor. 
+És dos homens o mais notável;
+derramou-se graça em teus lábios,
+visto que Deus te abençoou para sempre. 
+Prende a espada à cintura, ó poderoso!
+Cobre-te de esplendor e majestade. 
+Na tua majestade cavalga vitoriosamente
+pela verdade, pela misericórdia e pela justiça;
+que a tua mão direita realize feitos gloriosos. 
+Tuas flechas afiadas atingem
+o coração dos inimigos do rei;
+debaixo dos teus pés caem nações. 
+O teu trono, ó Deus,
+subsiste para todo o sempre;
+cetro de justiça é o cetro do teu reino. 
+Amas a justiça e odeias a iniquidade;
+por isso Deus, o teu Deus,
+escolheu-te dentre os teus companheiros
+ungindo-te com óleo de alegria. 
+Todas as tuas vestes exalam
+aroma de mirra, aloés e cássia;
+nos palácios adornados de marfim ressoam
+os instrumentos de corda que te alegram. 
+Filhas de reis
+estão entre as mulheres da tua corte;
+à tua direita está a noiva real
+enfeitada de ouro puro de Ofir. 
+Ouça, ó filha, considere
+e incline os seus ouvidos:
+Esqueça o seu povo e a casa paterna. 
+O rei foi cativado pela sua beleza;
+honre-o, pois ele é o seu senhor. 
+A cidade de Tiro trará seus presentes;
+seus moradores mais ricos buscarão o seu favor. 
+Cheia de esplendor está a princesa
+em seus aposentos,
+com vestes enfeitadas de ouro. 
+Em roupas bordadas é conduzida ao rei,
+acompanhada de um cortejo de virgens;
+são levadas à tua presença. 
+Com alegria e exultação
+são conduzidas ao palácio do rei. 
+Os teus filhos ocuparão o trono dos teus pais;
+por toda a terra os farás príncipes. 
+Perpetuarei a tua lembrança
+por todas as gerações;
+por isso as nações te louvarão
+para todo o sempre. 
+ Salmo 45
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 38
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_38/
 INFO:root:🔹 Description: Senhor, não me repreendas no teu furor
@@ -177,91 +238,79 @@ Vida longa eu lhe darei,
 e lhe mostrarei a minha salvação." 
  Salmo 91
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 46
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_46/
-INFO:root:🔹 Description: Deus é o nosso refúgio e a nossa fortaleza,
-auxílio sempre presente na adversidade. 
-Por isso não temeremos,
-ainda que a terra trema
-e os montes afundem no coração do mar, 
-ainda que estrondem as suas águas turbulentas
-e os montes sejam sacudidos
-pela sua fúria. 
-Há um rio cujos canais alegram
-a cidade de Deus,
-o Santo Lugar onde habita o Altíssimo. 
-Deus nela está! Não será abalada!
-Deus vem em seu auxílio
-desde o romper da manhã. 
-Nações se agitam, reinos se abalam;
-ele ergue a voz, e a terra se derrete. 
-O Senhor dos Exércitos está conosco;
-o Deus de Jacó é a nossa torre segura. 
-Venham! Vejam as obras do Senhor,
-seus feitos estarrecedores na terra. 
-Ele dá fim às guerras até os confins da terra;
-quebra o arco e despedaça a lança;
-destrói os escudos com fogo. 
-"Parem de lutar! Saibam que eu sou Deus!
-Serei exaltado entre as nações,
-serei exaltado na terra." 
-O Senhor dos Exércitos está conosco;
-o Deus de Jacó é a nossa torre segura. 
- Salmo 46
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366091 characters
-INFO:root:HTML parsed, length: 356062 characters
-INFO:root:Found 3 titles: ['Deus é fiel frente a traição', 'Deus Te Chama de Filho', 'Volte, o Pai Ainda Corre até Você']
+INFO:root:Response length: 365922 characters
+INFO:root:HTML parsed, length: 355905 characters
+INFO:root:Found 3 titles: ['O toque purificador de Deus', 'Deus é fiel frente a traição', 'Deus Te Chama de Filho']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Até um amigo íntimo, em quem eu confiava e que par', 'Aos que o receberam, aos que creem no seu nome, de', 'Retomar a vida com Deus não começa com uma virada ']
-INFO:root:Found 1 dates: ['Sexta, 4 de setembro de 2026']
+INFO:root:Found 3 descriptions: ['Ele se assentará como um refinador e purificador d', 'Até um amigo íntimo, em quem eu confiava e que par', 'Aos que o receberam, aos que creem no seu nome, de']
+INFO:root:Found 1 dates: ['Sábado, 5 de setembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus é fiel frente a traição', ID=4e6481dc60f45ee8e3931d893cae28ac
+INFO:root:Processing entry 1: Title='O toque purificador de Deus', ID=f119ba6910882fb69c69cfd9675bb03d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus é fiel frente a traição - Palavra de Hoje
+INFO:root:🔹 Title: O toque purificador de Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Até um amigo íntimo, em quem eu confiava e que partilhava do meu pão, voltou-se contra mim.
-Salmos 41:9
+INFO:root:🔹 Description: Ele se assentará como um refinador e purificador de prata; purificará os levitas e os refinará como ouro e prata. Assim, trarão ao Senhor ofertas com justiça.
+Malaquias 3:3
 
-Não foi um estranho. Foi alguém próximo, alguém que dividia a mesa, alguém em quem havia confiança construída. Esse tipo de dor tem um peso próprio: não é só a perda, é a quebra de algo que parecia seguro. O salmista viveu isso séculos antes de Cristo viver o mesmo, à mesa, na última ceia.
+O ourives não toca o metal bruto de qualquer jeito. Ele o assenta diante do fogo, com atenção total, porque conhece o valor do que tem em mãos. Quando Deus se descreve como refinador, não é imagem de violência: é imagem de cuidado. Ele se senta diante de cada vida, atento, até que o que é precioso apareça.
 
-Não temos um sumo sacerdote que não possa compadecer-se das nossas fraquezas, mas sim alguém que, como nós, passou por todo tipo de tentação, ainda que sem pecado.
-Hebreus 4:15
+Mas ele conhece o caminho por onde ando; se me puser à prova, aparecerei como o ouro.
+Jó 23:10
 
-Cristo não observa a sua traição de longe. Ele sabe, por experiência própria, o que é ser entregue por quem comeu ao seu lado. Por isso ele não responde à sua dor com distância; responde com compaixão de quem já esteve exatamente ali.
+Jó dizia isso em meio à pior dor da sua vida, sem entender por que sofria. Mas havia algo que ele sabia com certeza: Deus conhecia cada passo do seu caminho. A prova não era abandono; era acompanhamento. E o resultado prometido não era destruição, era ouro.
 
-Se somos infiéis, ele permanece fiel, pois não pode negar a si mesmo.
-2 Timóteo 2:13
+Assim acontece para que a fé de vocês, muito mais valiosa do que o ouro que perece ao ser provado pelo fogo, seja provada e resulte em louvor, glória e honra quando Jesus Cristo for revelado.
+1 Pedro 1:7
 
-E é essa fidelidade, não a fidelidade das pessoas, que sustenta quem foi traído. A infidelidade humana não altera o caráter de Deus. Ele continua sendo quem sempre foi, porque não pode ser outra coisa. As pessoas podem falhar, voltar as costas, quebrar a confiança que você depositou nelas. Mas há Alguém que já provou, na própria pele, que não faz o mesmo.
+Pedro escreve isso a cristãos espalhados, enfrentando perseguição e perda. E aponta para algo maior do que o próprio metal: a fé provada vale mais do que o ouro, porque o ouro um dia acaba e a fé, refinada, permanece. O fogo que você atravessa não é sinal de abandono. É a mão do Ourives, atenta a cada momento, trabalhando para que o que há de mais precioso em você apareça.
  
-Até um amigo íntimo, em quem eu confiava e que partilhava do meu pão, voltou-se contra mim.
-Salmos 41:9
+Ele se assentará como um refinador e purificador de prata; purificará os levitas e os refinará como ouro e prata. Assim, trarão ao Senhor ofertas com justiça.
+Malaquias 3:3
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376543 characters
-INFO:root:HTML parsed, length: 366087 characters
-INFO:root:Found 3 titles: ['Seus Filhos São Herança, Não Posse', 'Deus Ouviu Sua Oração e Viu Suas Lágrimas', 'Você é Povo que Pertence a Deus']
+INFO:root:Response length: 376533 characters
+INFO:root:HTML parsed, length: 366048 characters
+INFO:root:Found 3 titles: ['Quando o trabalho parece não ter sentido', 'Seus Filhos São Herança, Não Posse', 'Deus Ouviu Sua Oração e Viu Suas Lágrimas']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Os filhos são herança do Senhor,\ne os frutos do ve', 'Volte e diga a Ezequias, líder do meu povo: "Assim', 'Vocês, porém, são geração eleita, reino de sacerdo']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n4\nSEXTA', 'SETEMBRO\n\n3\nQUINTA', 'SETEMBRO\n\n2\nQUARTA']
+INFO:root:Found 3 descriptions: ['"Tudo o que fizerem, façam de todo o coração, como', 'Os filhos são herança do Senhor,\ne os frutos do ve', 'Volte e diga a Ezequias, líder do meu povo: "Assim']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n5\nSÁBADO', 'SETEMBRO\n\n4\nSEXTA', 'SETEMBRO\n\n3\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Seus Filhos São Herança, Não Posse', ID=84371fd616c25fc8ba0d21e1a2bee5c7
-INFO:root:Processing entry 2: Title='Deus Ouviu Sua Oração e Viu Suas Lágrimas', ID=2f42afa5ade319787e3d47f9f49b0238
-INFO:root:Processing entry 3: Title='Você é Povo que Pertence a Deus', ID=2908edef052663ce0edfca0fd757ff7e
+INFO:root:Processing entry 1: Title='Quando o trabalho parece não ter sentido', ID=49ae987dcfcb7b00d89f8cf3fd3fedb7
+INFO:root:Processing entry 2: Title='Seus Filhos São Herança, Não Posse', ID=84371fd616c25fc8ba0d21e1a2bee5c7
+INFO:root:Processing entry 3: Title='Deus Ouviu Sua Oração e Viu Suas Lágrimas', ID=2f42afa5ade319787e3d47f9f49b0238
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Quando o trabalho parece não ter sentido
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: "Tudo o que fizerem, façam de todo o coração, como para o Senhor, não para os homens."
+Colossenses 3:23
+
+Há dias em que o trabalho parece só uma sequência de tarefas repetidas, sem nenhum propósito visível. A planilha, a reunião, a faxina, o atendimento, tudo se mistura numa rotina que não parece levar a lugar nenhum. E quando o chefe não reconhece, ou o esforço não é notado, essa sensação de sem sentido fica ainda mais pesada.
+Paulo escreve este versículo originalmente para escravos, pessoas que trabalhavam sem escolha, muitas vezes para senhores injustos, sem qualquer reconhecimento à vista. Se alguém tinha motivo para sentir que o trabalho não tinha sentido, era esse grupo. E é justamente para eles que Paulo diz: façam de todo o coração, como para o Senhor, não para os homens. Ele não está minimizando a injustiça da situação; está apontando para uma fonte de sentido que nenhum patrão, reconhecido ou não, consegue tirar.
+Isso muda a pergunta que fazemos sobre o trabalho. Em vez de "isso está sendo notado", a pergunta vira "para quem eu realmente estou fazendo isso". Quando o trabalho é oferecido ao Senhor, ele carrega sentido mesmo quando ninguém mais está olhando, mesmo quando o retorno humano demora ou nunca chega. O valor não estava nunca só no aplauso; estava em quem recebe o que fazemos.
+Faça Hoje
+
+Escolha uma tarefa de hoje que parece sem sentido e ofereça-a a Deus antes de começar, em oração.
+Quando sentir que o esforço não foi notado, lembre-se de que Deus viu.
+Faça uma tarefa pequena com mais cuidado do que o necessário, como um ato de adoração, não de obrigação.
+Pergunte-se: estou trabalhando para agradar pessoas, ou para servir ao Senhor através do meu trabalho?
+Agradeça a Deus por uma habilidade específica que você usa no seu trabalho, mesmo que pareça comum.
+
+Oração
+
+Senhor, hoje o meu trabalho parece vazio, sem sentido, sem reconhecimento. Ajuda-me a lembrar que faço isso para ti, não só para pessoas que talvez nem percebam o esforço. Dá sentido ao que faço hoje, mesmo nas tarefas mais simples. Amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Seus Filhos São Herança, Não Posse
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Os filhos são herança do Senhor,
@@ -305,27 +354,6 @@ Para orar:
 
 Senhor, minhas forças estão pequenas diante desta doença. Trago a ti o que sinto, mesmo sem saber como orar direito. Obrigado por ouvires minha oração e veres minhas lágrimas, mesmo as que não consigo explicar. Toca o meu corpo e sustenta o meu coração, do jeito que só tu sabes fazer. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Você é Povo que Pertence a Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Vocês, porém, são geração eleita, reino de sacerdotes, nação santa, povo que pertence a Deus, para anunciar as grandezas daquele que os chamou das trevas para a sua maravilhosa luz.
-1 Pedro 2:9
-
-Vivemos perguntando quem somos o tempo todo. O perfil nas redes, o corpo, o cargo, o número de curtidas, tudo isso vira material para responder essa pergunta. E quando a resposta muda de acordo com a opinião alheia, a identidade fica instável, dependendo sempre da próxima aprovação.
-Pedro escreveu essas palavras para cristãos espalhados, muitas vezes rejeitados pela sociedade ao redor, sem status nem lugar de destaque. E mesmo assim ele declara quem eles são: geração eleita, sacerdócio, nação santa, povo que pertence a Deus. Palavras que antes descreviam só o povo de Israel agora são usadas para qualquer pessoa que pertence a Cristo.
-Isso muda de onde vem a sua identidade. Ela não nasce do que os outros dizem de você, nem do seu desempenho, nem dos seus erros mais recentes. Nasce de quem te chamou das trevas para a luz. Antes de qualquer coisa que você faça ou deixe de fazer, você já pertence.
-Você pode parar de negociar quem é a cada comentário, cada comparação, cada fracasso. Sua identidade não está em jogo o tempo todo, ela já foi definida por Deus. Isso não significa deixar de crescer ou de se importar com o que faz, significa parar de buscar em outros lugares algo que já foi dado.
-Firme sua identidade em Deus
-
-Antes de checar curtidas ou comentários hoje, lembre quem você é em Cristo.
-Identifique uma comparação que tem roubado sua paz e entregue-a a Deus em oração.
-Releia 1 Pedro 2:9 sempre que se sentir invisível ou rejeitado.
-Escreva três coisas que definem você além de conquistas ou aparência.
-Agradeça a Deus por pertencer a ele antes de pertencer a qualquer grupo ou opinião.
-
-Para orar:
-
-Senhor, muitas vezes busco em outros lugares a identidade que só tu podes dar. Perdoa-me por deixar opiniões e comparações definirem quem eu sou. Obrigado por me chamar das trevas para a tua luz e por me fazer parte do teu povo. Ajuda-me a viver seguro de quem sou em ti, hoje e todos os dias. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -355,15 +383,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  39 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 104 ++++++-----
+ feeds/salmo_do_dia/atom.xml               |  85 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 299 +++++++++++++++---------------
- 11 files changed, 272 insertions(+), 278 deletions(-)
+ output.log                                | 276 ++++++++++++++++--------------
+ 11 files changed, 274 insertions(+), 230 deletions(-)
