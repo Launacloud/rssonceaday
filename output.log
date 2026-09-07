@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 200334 characters
-INFO:root:HTML parsed, length: 176724 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (06/09/2026)', 'Palavra de Ontem (05/09/2026)', 'Palavra de Anteontem (04/09/2026)']
-INFO:root:Found 3 URLs: ['/conjugacao/', '/antirracista/', '/mulungu/']
-INFO:root:Found 13 descriptions: ['substantivo feminino Ação ou efeito de conjugar, d', 'Sinônimos:\n\njunção, ligação', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (06/09/2026)', 'Palavra de Ontem (05/09/2026)', 'Palavra de Anteontem (04/09/2026)']
+INFO:root:Response length: 200951 characters
+INFO:root:HTML parsed, length: 177021 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (07/09/2026)', 'Palavra de Ontem (06/09/2026)', 'Palavra de Anteontem (05/09/2026)']
+INFO:root:Found 3 URLs: ['/estudante/', '/conjugacao/', '/antirracista/']
+INFO:root:Found 15 descriptions: ['substantivo masculino e feminino Pessoa que estuda', 'Sinônimos:\n\naprendiz, aluno, discípulo, educando, ', 'Antônimos:\n\nex-aluno']
+INFO:root:Found 3 dates: ['Palavra de Hoje (07/09/2026)', 'Palavra de Ontem (06/09/2026)', 'Palavra de Anteontem (05/09/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (06/09/2026)', ID=01bcc3a2e65774f9392e79b8a6e8f035
-INFO:root:Processing entry 2: Title='Palavra de Ontem (05/09/2026)', ID=a074be75d7a46de9db8e95bd5ded8d85
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (04/09/2026)', ID=a9a493e27733cce55dc1077ee4169c3b
+INFO:root:Processing entry 1: Title='Palavra de Hoje (07/09/2026)', ID=94db2549848cd6d14c1bef50218cb0b5
+INFO:root:Processing entry 2: Title='Palavra de Ontem (06/09/2026)', ID=643500bac23688379da0daf0496f2976
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (05/09/2026)', ID=7971b081316364fd7550ee5e723487d2
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (06/09/2026) - Significado completo de conjugação:
-INFO:root:🔹 URL: https://www.dicio.com.br/conjugacao/
-INFO:root:🔹 Description: substantivo feminino Ação ou efeito de conjugar, de unir; união, ligação: conjugação de esforços, de forças.[Gramática] Conjunto das flexões de modo, tempo, pessoa, número e voz de um verbo, seguindo uma ordem determinada.Ato de ligar, de fazer uma ligação, uma união; reunião.[Biologia] Processo através do qual alguns seres se juntam em pares e, após trocarem material genético de seus núcleos, se separam.Etimologia (origem da palavra conjugação). A palavra conjugação deriva do latim "conjugatio.onis", pelo latim "conjugare", unir, ligar.
+INFO:root:🔹 Title: Palavra de Hoje (07/09/2026) - Significado completo de estudante:
+INFO:root:🔹 URL: https://www.dicio.com.br/estudante/
+INFO:root:🔹 Description: substantivo masculino e feminino Pessoa que estuda, procura adquirir conhecimento ou recebe conhecimento por meio do ensino formal.Quem frequenta algum estabelecimento de ensino; aluno, discípulo, escolar.adjetivo Que estuda estando matriculado num estabelecimento de ensino.Etimologia (origem da palavra estudante). A palavra estudante deriva da junção do verbo estudar e do sufixo -nte.
  
 Sinônimos:
 
-junção, ligação 
+aprendiz, aluno, discípulo, educando, acadêmico, lecionando, escolar 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (05/09/2026) - Significado completo de antirracista:
-INFO:root:🔹 URL: https://www.dicio.com.br/antirracista/
+INFO:root:🔹 Title: Palavra de Ontem (06/09/2026) - Significado completo de conjugação:
+INFO:root:🔹 URL: https://www.dicio.com.br/conjugacao/
 INFO:root:🔹 Description: Sinônimos:
 
-junção, ligação
- Classe gramatical:substantivo feminino
+aprendiz, aluno, discípulo, educando, acadêmico, lecionando, escolar
+ 
+Antônimos:
+
+ex-aluno 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (04/09/2026) - Significado completo de mulungu:
-INFO:root:🔹 URL: https://www.dicio.com.br/mulungu/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:con-ju-ga-ção
+INFO:root:🔹 Title: Palavra de Anteontem (05/09/2026) - Significado completo de antirracista:
+INFO:root:🔹 URL: https://www.dicio.com.br/antirracista/
+INFO:root:🔹 Description: Antônimos:
+
+ex-aluno
+ Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,42 +48,102 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365507 characters
-INFO:root:HTML parsed, length: 355015 characters
-INFO:root:Found 1 titles: ['1 Crônicas 16:28']
-INFO:root:Found 1 URLs: ['/versiculo/1_cronicas_16_28/']
-INFO:root:Found 1 descriptions: ['Deem ao Senhor,\nó famílias das nações,\ndeem ao Sen']
+INFO:root:Response length: 365673 characters
+INFO:root:HTML parsed, length: 355181 characters
+INFO:root:Found 1 titles: ['Lamentações 3:22-23']
+INFO:root:Found 1 URLs: ['/versiculo/lamentacoes_de_jeremias_3_22-23/']
+INFO:root:Found 1 descriptions: ['Graças ao grande amor do Senhor\né que não somos co']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Crônicas 16:28', ID=a257d741a1cfc824eab762227e8cb795
+INFO:root:Processing entry 1: Title='Lamentações 3:22-23', ID=d26d2d2b0476862995421e0c2930062c
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Crônicas 16:28
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_cronicas_16_28/
-INFO:root:🔹 Description: Deem ao Senhor,
-ó famílias das nações,
-deem ao Senhor glória e força! 1 Crônicas 16:28
+INFO:root:🔹 Title: Lamentações 3:22-23
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/lamentacoes_de_jeremias_3_22-23/
+INFO:root:🔹 Description: Graças ao grande amor do Senhor
+é que não somos consumidos,
+pois as suas misericórdias são inesgotáveis. Renovam-se cada manhã;
+grande é a sua fidelidade! Lamentações 3:22-23
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 363837 characters
-INFO:root:HTML parsed, length: 354403 characters
-INFO:root:Found 3 titles: ['Salmo 30', 'Salmo 45', 'Salmo 38']
-INFO:root:Found 3 URLs: ['/salmos_30/', '/salmos_45/', '/salmos_38/']
-INFO:root:Found 3 descriptions: ['Eu te exaltarei, Senhor,\npois tu me reergueste\ne n', 'Com o coração vibrando de boas palavras\nrecito os ', 'Senhor, não me repreendas no teu furor\nnem me disc']
-INFO:root:Found 3 dates: ['6 de Setembro de 2026', '5 de Setembro de 2026', '4 de Setembro de 2026']
+INFO:root:Response length: 363900 characters
+INFO:root:HTML parsed, length: 354479 characters
+INFO:root:Found 3 titles: ['Salmo 9', 'Salmo 30', 'Salmo 45']
+INFO:root:Found 3 URLs: ['/salmos_9/', '/salmos_30/', '/salmos_45/']
+INFO:root:Found 3 descriptions: ['Senhor, quero dar-te graças de todo o coração\ne fa', 'Eu te exaltarei, Senhor,\npois tu me reergueste\ne n', 'Com o coração vibrando de boas palavras\nrecito os ']
+INFO:root:Found 3 dates: ['7 de Setembro de 2026', '6 de Setembro de 2026', '5 de Setembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 30', ID=342758d9d6e6e746d96114f4fb23c117
-INFO:root:Processing entry 2: Title=' Salmo 45', ID=cf6ec74f737411dd9d097a129de9c8ec
-INFO:root:Processing entry 3: Title=' Salmo 38', ID=282dc27a0c80d468d6e7d65a1fc291fb
+INFO:root:Processing entry 1: Title=' Salmo 9', ID=8c922c6d9002e2d23b66b38ad26f10ab
+INFO:root:Processing entry 2: Title=' Salmo 30', ID=342758d9d6e6e746d96114f4fb23c117
+INFO:root:Processing entry 3: Title=' Salmo 45', ID=cf6ec74f737411dd9d097a129de9c8ec
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 9
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_9/
+INFO:root:🔹 Description: Senhor, quero dar-te graças de todo o coração
+e falar de todas as tuas maravilhas. 
+Em ti quero alegrar-me e exultar,
+e cantar louvores ao teu nome, ó Altíssimo. 
+Quando os meus inimigos
+contigo se defrontam,
+tropeçam e são destruídos. 
+Pois defendeste o meu direito e a minha causa;
+em teu trono te assentaste,
+julgando com justiça. 
+Repreendeste as nações e destruíste os ímpios;
+para todo o sempre apagaste o nome deles. 
+O inimigo foi totalmente arrasado,
+para sempre;
+desarraigaste as suas cidades;
+já não há quem delas se lembre. 
+O Senhor reina para sempre;
+estabeleceu o seu trono para julgar. 
+Ele mesmo julga o mundo com justiça;
+governa os povos com retidão. 
+O Senhor é refúgio para os oprimidos,
+uma torre segura na hora da adversidade. 
+Os que conhecem o teu nome confiam em ti,
+pois tu, Senhor, jamais abandonas
+os que te buscam. 
+Cantem louvores ao Senhor,
+que reina em Sião;
+proclamem entre as nações os seus feitos. 
+Aquele que pede contas do sangue derramado
+não esquece;
+ele não ignora o clamor dos oprimidos. 
+Misericórdia, Senhor!
+Vê o sofrimento que me causam
+os que me odeiam.
+Salva-me das portas da morte, 
+para que, junto às portas da cidade de Sião,
+eu cante louvores a ti
+e ali exulte em tua salvação. 
+Caíram as nações na cova que abriram;
+os seus pés ficaram presos
+no laço que esconderam. 
+O Senhor é conhecido
+pela justiça que executa;
+os ímpios caem em suas próprias armadilhas.
+Interlúdio. 
+Voltem os ímpios ao pó,
+todas as nações que se esquecem de Deus! 
+Mas os pobres nunca serão esquecidos,
+nem se frustrará a esperança dos necessitados. 
+Levanta-te, Senhor!
+Não permitas que o mortal triunfe!
+Julgadas sejam as nações na tua presença. 
+Infunde-lhes terror, Senhor;
+saibam as nações
+que não passam de seres humanos. 
+ Salmo 9
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 30
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_30/
 INFO:root:🔹 Description: Eu te exaltarei, Senhor,
@@ -172,117 +238,83 @@ por isso as nações te louvarão
 para todo o sempre. 
  Salmo 45
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 38
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_38/
-INFO:root:🔹 Description: Senhor, não me repreendas no teu furor
-nem me disciplines na tua ira. 
-Pois as tuas flechas me atravessaram,
-e a tua mão me atingiu. 
-Por causa de tua ira,
-todo o meu corpo está doente;
-não há saúde nos meus ossos
-por causa do meu pecado. 
-As minhas culpas me afogam;
-são como um fardo pesado e insuportável. 
-Minhas feridas cheiram mal e supuram
-por causa da minha insensatez. 
-Estou encurvado e muitíssimo abatido;
-o dia todo saio vagueando e pranteando. 
-Estou ardendo em febre;
-todo o meu corpo está doente. 
-Sinto-me muito fraco e totalmente esmagado;
-meu coração geme de angústia. 
-Senhor, diante de ti
-estão todos os meus anseios;
-o meu suspiro não te é oculto. 
-Meu coração palpita, as forças me faltam;
-até a luz dos meus olhos se foi. 
-Meus amigos e companheiros me evitam
-por causa da doença que me aflige;
-ficam longe de mim os meus vizinhos. 
-Os que desejam matar-me
-preparam armadilhas,
-os que me querem prejudicar
-anunciam a minha ruína;
-passam o dia planejando traição. 
-Como um surdo, não ouço,
-como um mudo, não abro a boca. 
-Fiz-me como quem não ouve,
-e em cuja boca não há resposta. 
-Senhor, em ti espero;
-tu me responderás, ó Senhor meu Deus! 
-Pois eu disse: "Não permitas
-que eles se divirtam à minha custa
-nem triunfem sobre mim quando eu tropeçar". 
-Estou a ponto de cair,
-e a minha dor está sempre comigo. 
-Confesso a minha culpa;
-em angústia estou por causa do meu pecado. 
-Meus inimigos, porém,
-são muitos e poderosos;
-é grande o número
-dos que me odeiam sem motivo. 
-Os que me retribuem o bem com o mal
-caluniam-me porque é o bem que procuro. 
-Senhor, não me abandones!
-Não fiques longe de mim, ó meu Deus! 
-Apressa-te a ajudar-me,
-Senhor, meu Salvador! 
- Salmo 38
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 365793 characters
-INFO:root:HTML parsed, length: 355768 characters
-INFO:root:Found 3 titles: ['Deus é fiel mesmo na traição', 'O toque purificador de Deus', 'Deus é fiel frente a traição']
+INFO:root:Response length: 365746 characters
+INFO:root:HTML parsed, length: 355721 characters
+INFO:root:Found 3 titles: ['A luz de Cristo em você', 'Deus é fiel mesmo na traição', 'O toque purificador de Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Até um amigo íntimo, em quem eu confiava e que par', 'Ele se assentará como um refinador e purificador d', 'Até um amigo íntimo, em quem eu confiava e que par']
-INFO:root:Found 1 dates: ['Domingo, 6 de setembro de 2026']
+INFO:root:Found 3 descriptions: ['Eu sou a luz do mundo. Quem me segue nunca andará ', 'Até um amigo íntimo, em quem eu confiava e que par', 'Ele se assentará como um refinador e purificador d']
+INFO:root:Found 1 dates: ['Segunda, 7 de setembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus é fiel mesmo na traição', ID=58199dfce064b2ee2a7326b863ce8695
+INFO:root:Processing entry 1: Title='A luz de Cristo em você', ID=0e261514f76095df5843f44b37a5150d
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus é fiel mesmo na traição - Palavra de Hoje
+INFO:root:🔹 Title: A luz de Cristo em você - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Até um amigo íntimo, em quem eu confiava e que partilhava do meu pão, voltou-se contra mim.
-Salmos 41:9
+INFO:root:🔹 Description: Eu sou a luz do mundo. Quem me segue nunca andará em trevas, mas terá a luz da vida.
+João 8:12
 
-Não foi um estranho. Foi alguém próximo, alguém que dividia a mesa, alguém em quem havia confiança construída. Esse tipo de dor tem um peso próprio: não é só a perda, é a quebra de algo que parecia seguro. O salmista viveu isso séculos antes de Cristo viver o mesmo, à mesa, na última ceia.
+Jesus não disse que mostra o caminho para a luz. Disse que ele mesmo é a luz. Quem o segue não caminha às apalpadelas, tentando adivinhar o próximo passo: caminha com a própria luz da vida guiando cada movimento.
 
-Não temos um sumo sacerdote que não possa compadecer-se das nossas fraquezas, mas sim alguém que, como nós, passou por todo tipo de tentação, ainda que sem pecado.
-Hebreus 4:15
+A luz brilha nas trevas, e as trevas não a derrotaram.
+João 1:5
 
-Cristo não observa a sua traição de longe. Ele sabe, por experiência própria, o que é ser entregue por quem comeu ao seu lado. Por isso ele não responde à sua dor com distância; responde com compaixão de quem já esteve exatamente ali.
+Essa luz não é frágil nem depende de circunstâncias favoráveis para brilhar. Ela entra exatamente onde a escuridão parecia dominar e não é vencida por ela. Não importa quão densa pareça a treva ao seu redor: ela já perdeu para essa luz antes mesmo do confronto.
 
-Se somos infiéis, ele permanece fiel, pois não pode negar a si mesmo.
-2 Timóteo 2:13
+Vocês são a luz do mundo. [...] Brilhe a luz de vocês diante dos homens, para que vejam as suas boas obras e glorifiquem a seu Pai, que está nos céus.
+Mateus 5:14,16
 
-E é essa fidelidade, não a fidelidade das pessoas, que sustenta quem foi traído. A infidelidade humana não altera o caráter de Deus. Ele continua sendo quem sempre foi, porque não pode ser outra coisa. As pessoas podem falhar, voltar as costas, quebrar a confiança que você depositou nelas. Mas há Alguém que já provou, na própria pele, que não faz o mesmo.
+E essa luz não fica guardada só para você. Quem recebeu a luz de Cristo passa a carregá-la para os outros, não como mérito próprio, mas como reflexo de quem a colocou ali. Uma cidade no alto do monte não se esconde; uma lâmpada acesa não fica debaixo de vasilha. Você não precisa fabricar a própria luz nem temer a escuridão que te cerca. A luz de Cristo já está em você, e nenhuma treva tem poder para apagá-la.
  
-Até um amigo íntimo, em quem eu confiava e que partilhava do meu pão, voltou-se contra mim.
-Salmos 41:9
+Eu sou a luz do mundo. Quem me segue nunca andará em trevas, mas terá a luz da vida.
+João 8:12
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376316 characters
-INFO:root:HTML parsed, length: 365821 characters
-INFO:root:Found 3 titles: ['Quando Dá Vontade de Desistir', 'Quando o trabalho parece não ter sentido', 'Seus Filhos São Herança, Não Posse']
+INFO:root:Response length: 376927 characters
+INFO:root:HTML parsed, length: 366448 characters
+INFO:root:Found 3 titles: ['A espera que aperta o peito', 'Quando Dá Vontade de Desistir', 'Quando o trabalho parece não ter sentido']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Não nos cansemos de fazer o bem, pois no tempo pró', '"Tudo o que fizerem, façam de todo o coração, como', 'Os filhos são herança do Senhor,\ne os frutos do ve']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n6\nDOMINGO', 'SETEMBRO\n\n5\nSÁBADO', 'SETEMBRO\n\n4\nSEXTA']
+INFO:root:Found 3 descriptions: ['Quando eu estiver com medo, confiarei em ti.\nSalmo', 'Não nos cansemos de fazer o bem, pois no tempo pró', '"Tudo o que fizerem, façam de todo o coração, como']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n7\nSEGUNDA', 'SETEMBRO\n\n6\nDOMINGO', 'SETEMBRO\n\n5\nSÁBADO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Quando Dá Vontade de Desistir', ID=6df1b9dd03d6c6f6c828fd237eb16b44
-INFO:root:Processing entry 2: Title='Quando o trabalho parece não ter sentido', ID=49ae987dcfcb7b00d89f8cf3fd3fedb7
-INFO:root:Processing entry 3: Title='Seus Filhos São Herança, Não Posse', ID=84371fd616c25fc8ba0d21e1a2bee5c7
+INFO:root:Processing entry 1: Title='A espera que aperta o peito', ID=e9879c9d3916a1b7d8b9fdaa2c57642c
+INFO:root:Processing entry 2: Title='Quando Dá Vontade de Desistir', ID=6df1b9dd03d6c6f6c828fd237eb16b44
+INFO:root:Processing entry 3: Title='Quando o trabalho parece não ter sentido', ID=49ae987dcfcb7b00d89f8cf3fd3fedb7
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A espera que aperta o peito
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Quando eu estiver com medo, confiarei em ti.
+Salmos 56:3
+
+Há uma espera que não faz barulho, mas aperta o peito todos os dias. É a espera pelo resultado do exame, pela resposta que não chega, pela situação que não se resolve. Enquanto o tempo passa devagar, a ansiedade vai enchendo os espaços vazios com cenários que ainda nem aconteceram.
+Davi escreveu o Salmo 56 numa dessas esperas. Estava cercado por inimigos, em terra estrangeira, sem saber o que os próximos dias trariam. E foi exatamente ali, no meio da incerteza, que ele fez essa afirmação simples: quando o medo vier, a confiança em Deus é a resposta.
+Repare que ele não diz "se eu estiver com medo". Diz "quando". Davi sabia que o medo ia voltar, que a espera continuaria pesando. Isso não é falta de fé, é honestidade: a mesma preocupação que parecia resolvida ontem volta hoje, com força redobrada.
+O que muda não é a ausência do medo, mas para onde ele é levado. Davi não diz que vai ignorar o medo ou fingir que ele não existe. Diz que vai confiar. É uma escolha feita de novo a cada vez que o medo aparece, não uma decisão única que resolve tudo para sempre.
+Todos nós, em algum momento, atravessamos uma espera assim: um diagnóstico, uma resposta de emprego, uma decisão que outra pessoa ainda não tomou. O tempo parece andar mais devagar exatamente quando mais precisamos de respostas.
+Confiar não é ter certeza de que tudo vai sair como você espera. É saber que, aconteça o que acontecer, você não está sozinho nesta espera. Deus está com você agora, no meio do peito apertado, e vai continuar ali amanhã.
+Entregue essa espera a Deus, um dia de cada vez
+
+Quando perceber o peito apertar, nomeie o medo específico em vez de deixá-lo vago; é mais fácil entregar a Deus algo que você já conseguiu nomear.
+Releia Salmos 56:3 sempre que a mente começar a girar em cenários futuros; use-o como um ponto de parada.
+Separe o que está nas suas mãos (o que você pode fazer hoje) do que não está (o resultado final) e ore especificamente sobre a segunda parte.
+Evite buscar certeza absoluta antes de sentir paz; a paz de Deus pode chegar antes da resposta que você espera.
+Fale com alguém de confiança sobre essa espera; carregá-la em silêncio só aumenta o peso.
+Volte a este versículo amanhã, e depois de amanhã; a confiança se constrói repetindo a escolha, não fazendo-a uma vez só.
+
+Para orar:
+
+Senhor, esta espera está apertando meu peito e eu não sei quanto tempo mais vai durar. Não consigo controlar o tempo nem o resultado, mas escolho confiar em ti agora, como escolhi ontem e como vou precisar escolher amanhã. Quando o medo voltar, lembra-me deste versículo. Coloca tua paz onde só existe incerteza. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Quando Dá Vontade de Desistir
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Não nos cansemos de fazer o bem, pois no tempo próprio colheremos se não desistirmos.
@@ -324,28 +356,6 @@ Oração
 
 Senhor, hoje o meu trabalho parece vazio, sem sentido, sem reconhecimento. Ajuda-me a lembrar que faço isso para ti, não só para pessoas que talvez nem percebam o esforço. Dá sentido ao que faço hoje, mesmo nas tarefas mais simples. Amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Seus Filhos São Herança, Não Posse
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Os filhos são herança do Senhor,
-e os frutos do ventre, uma recompensa.
-Salmos 127:3
-
-Todo pai e toda mãe já passaram noites em claro pensando no futuro dos filhos. A escola, as amizades, a saúde, as escolhas que eles ainda vão fazer sozinhos. Quanto mais amamos, mais queremos controlar cada detalhe do caminho deles, como se isso dependesse só da nossa vigilância.
-O Salmo 127 foi escrito por Salomão sobre o esforço humano que se cansa em vão sem Deus: construir casa, guardar cidade, criar filhos. No meio desse salmo, o versículo 3 dá um giro importante. Filhos não são um projeto que fabricamos nem uma conquista nossa. São herança, algo recebido, dado por outra mão que não a nossa.
-Isso muda o que significa cuidar bem. Você não foi chamado para controlar o destino do seu filho, e sim para administrar com carinho algo que já é de Deus antes de ser seu. Ensinar, corrigir, proteger, tudo isso continua sendo sua parte. Mas o resultado final, o coração dele, o rumo da vida dele, isso está em mãos maiores que as suas.
-Entregar não é deixar de cuidar. É cuidar sem viver preso ao medo de que tudo desmorona se você piscar. Você pode continuar presente, atento, envolvido, e ainda assim descansar, porque quem deu esse filho a você também sabe cuidar dele melhor do que você.
-Entregue seus filhos a Deus hoje
-
-Ore pelo nome do seu filho ou filha antes de tentar resolver sozinho o que te preocupa nele.
-Reconheça uma área em que você tenta controlar demais e peça a Deus para te ajudar a soltar.
-Agradeça a Deus por esse filho como herança recebida, não como uma conquista sua.
-Converse com seu filho sobre fé de um jeito leve, sem transformar a conversa em cobrança.
-Entregue em oração hoje um medo específico que você carrega sobre o futuro dele.
-
-Para orar:
-
-Senhor, obrigado por confiar este filho a mim. Reconheço que ele é teu antes de ser meu. Perdoa-me pelas vezes em que tento controlar o que só tu podes guiar. Coloco nas tuas mãos os medos que carrego sobre o futuro dele. Ajuda-me a cuidar com amor e a confiar com fé. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -375,15 +385,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  40 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  44 +++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
  feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  80 +++++----
+ feeds/salmo_do_dia/atom.xml               | 115 +++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 274 ++++++++++++++----------------
- 11 files changed, 236 insertions(+), 264 deletions(-)
+ output.log                                | 316 +++++++++++++++---------------
+ 11 files changed, 296 insertions(+), 288 deletions(-)
