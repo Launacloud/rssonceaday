@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 202006 characters
-INFO:root:HTML parsed, length: 178254 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (09/09/2026)', 'Palavra de Ontem (08/09/2026)', 'Palavra de Anteontem (07/09/2026)']
-INFO:root:Found 3 URLs: ['/bagulho/', '/habitat/', '/estudante/']
-INFO:root:Found 14 descriptions: ['substantivo masculino Coisa sem valor, gasta, muit', 'Sinônimos:\n\ncacareco, traste, coisa, pertence, can', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (09/09/2026)', 'Palavra de Ontem (08/09/2026)', 'Palavra de Anteontem (07/09/2026)']
+INFO:root:Response length: 200962 characters
+INFO:root:HTML parsed, length: 177530 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (10/09/2026)', 'Palavra de Ontem (09/09/2026)', 'Palavra de Anteontem (08/09/2026)']
+INFO:root:Found 3 URLs: ['/entretidamente/', '/bagulho/', '/habitat/']
+INFO:root:Found 11 descriptions: ['advérbio De maneira entretida; com entretimento, e', 'Sinônimos:\n\ndistraidamente, divertidamente, alegre', 'Sílabas:en-tre-ti-da-men-te']
+INFO:root:Found 3 dates: ['Palavra de Hoje (10/09/2026)', 'Palavra de Ontem (09/09/2026)', 'Palavra de Anteontem (08/09/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (09/09/2026)', ID=d66f962932eda4a5e8f689f47f21dd71
-INFO:root:Processing entry 2: Title='Palavra de Ontem (08/09/2026)', ID=37cf96760584fc5c3f94133fa63a9c19
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (07/09/2026)', ID=93efbcc0a2f9e0d51492678ed7977631
+INFO:root:Processing entry 1: Title='Palavra de Hoje (10/09/2026)', ID=a91460390a9c23a8c410dcde1f7f4106
+INFO:root:Processing entry 2: Title='Palavra de Ontem (09/09/2026)', ID=cd1ba0962dde0308bc199dfc092d0d83
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/09/2026)', ID=e4a3093cc5acf7dfb08c2920712402da
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (09/09/2026) - Significado completo de bagulho:
+INFO:root:🔹 Title: Palavra de Hoje (10/09/2026) - Significado completo de entretidamente:
+INFO:root:🔹 URL: https://www.dicio.com.br/entretidamente/
+INFO:root:🔹 Description: advérbio De maneira entretida; com entretimento, entretenimento; divertidamente.Etimologia (origem da palavra entretidamente). A palavra entretidamente tem sua origem pela junção de entretido, e do sufixo -mente.
+ 
+Sinônimos:
+
+distraidamente, divertidamente, alegremente, deleitosamente, prazerosamente, dedicadamente 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (09/09/2026) - Significado completo de bagulho:
 INFO:root:🔹 URL: https://www.dicio.com.br/bagulho/
-INFO:root:🔹 Description: substantivo masculino Coisa sem valor, gasta, muito usada; objeto sem valor; cacareco.Qualquer coisa; coisa, objeto, treco: deixei o bagulho que comprei em cima da mesa.[Popular] Cigarro feito a partir das folhas do cânhamo (Cannabis sativa); essa planta; baseado, maconha, marijuana.[Popular] Aquilo que resulta de um furto, de um roubo.[Popular] Pessoa feia, acabada, desprovida de beleza; tribufu.Semente de certos frutos, como a uva e a pera, contida no bago; grainha.[Brasil] Gír. Coisa clandestina, produto de furto ou roubo.[Portugal] Nome popular do dinheiro; bagalhoça.Etimologia (origem da palavra bagulho). A palavra bagulho tem sua origem pela junção da palavra bago, e do sufixo - olho.
+INFO:root:🔹 Description: Sinônimos:
+
+distraidamente, divertidamente, alegremente, deleitosamente, prazerosamente, dedicadamente
+ Sílabas:en-tre-ti-da-men-te
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (08/09/2026) - Significado completo de habitat:
+INFO:root:🔹 URL: https://www.dicio.com.br/habitat/
+INFO:root:🔹 Description: Sílabas:en-tre-ti-da-men-te
  
 Sinônimos:
 
 cacareco, traste, coisa, pertence, canhão, camburão, dragão, maconha, baseado, vassoura, vasculhador, treco, objeto, tribufu 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (08/09/2026) - Significado completo de habitat:
-INFO:root:🔹 URL: https://www.dicio.com.br/habitat/
-INFO:root:🔹 Description: Sinônimos:
-
-cacareco, traste, coisa, pertence, canhão, camburão, dragão, maconha, baseado, vassoura, vasculhador, treco, objeto, tribufu
- Classe gramatical:substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (07/09/2026) - Significado completo de estudante:
-INFO:root:🔹 URL: https://www.dicio.com.br/estudante/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:ba-gu-lho
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,94 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365729 characters
-INFO:root:HTML parsed, length: 355237 characters
-INFO:root:Found 1 titles: ['1 Timóteo 1:17']
-INFO:root:Found 1 URLs: ['/versiculo/1_timoteo_1_17/']
-INFO:root:Found 1 descriptions: ['Ao Rei eterno, o Deus único, imortal e invisível, ']
+INFO:root:Response length: 365741 characters
+INFO:root:HTML parsed, length: 355249 characters
+INFO:root:Found 1 titles: ['Deuteronômio 10:21']
+INFO:root:Found 1 URLs: ['/versiculo/deuteronomio_10_21/']
+INFO:root:Found 1 descriptions: ['Seja ele o motivo do seu louvor, pois ele é o seu ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='1 Timóteo 1:17', ID=f0b3db42c739588b4c41a6a8c2ad55ed
+INFO:root:Processing entry 1: Title='Deuteronômio 10:21', ID=e194ed9bc2c005a0f57a72e500fe4c07
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 1 Timóteo 1:17
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_timoteo_1_17/
-INFO:root:🔹 Description: Ao Rei eterno, o Deus único, imortal e invisível, sejam honra e glória para todo o sempre. Amém. 1 Timóteo 1:17
+INFO:root:🔹 Title: Deuteronômio 10:21
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/deuteronomio_10_21/
+INFO:root:🔹 Description: Seja ele o motivo do seu louvor, pois ele é o seu Deus, que por vocês fez aquelas grandes e temíveis maravilhas que vocês viram com os próprios olhos. Deuteronômio 10:21
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 363358 characters
-INFO:root:HTML parsed, length: 353919 characters
-INFO:root:Found 3 titles: ['Salmo 138', 'Salmo 135', 'Salmo 9']
-INFO:root:Found 3 URLs: ['/salmos_138/', '/salmos_135/', '/salmos_9/']
-INFO:root:Found 3 descriptions: ['Eu te louvarei, Senhor, de todo o coração;\ndiante ', 'Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo', 'Senhor, quero dar-te graças de todo o coração\ne fa']
-INFO:root:Found 3 dates: ['9 de Setembro de 2026', '8 de Setembro de 2026', '7 de Setembro de 2026']
+INFO:root:Response length: 363493 characters
+INFO:root:HTML parsed, length: 354060 characters
+INFO:root:Found 3 titles: ['Salmo 51', 'Salmo 138', 'Salmo 135']
+INFO:root:Found 3 URLs: ['/salmos_51/', '/salmos_138/', '/salmos_135/']
+INFO:root:Found 3 descriptions: ['Tem misericórdia de mim, ó Deus,\npor teu amor;\npor', 'Eu te louvarei, Senhor, de todo o coração;\ndiante ', 'Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo']
+INFO:root:Found 3 dates: ['10 de Setembro de 2026', '9 de Setembro de 2026', '8 de Setembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 138', ID=2c5fe024bc3f2d8b992de3e29b908819
-INFO:root:Processing entry 2: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
-INFO:root:Processing entry 3: Title=' Salmo 9', ID=8c922c6d9002e2d23b66b38ad26f10ab
+INFO:root:Processing entry 1: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
+INFO:root:Processing entry 2: Title=' Salmo 138', ID=2c5fe024bc3f2d8b992de3e29b908819
+INFO:root:Processing entry 3: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 51
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_51/
+INFO:root:🔹 Description: Tem misericórdia de mim, ó Deus,
+por teu amor;
+por tua grande compaixão
+apaga as minhas transgressões. 
+Lava-me de toda a minha culpa
+e purifica-me do meu pecado. 
+Pois eu mesmo
+reconheço as minhas transgressões,
+e o meu pecado sempre me persegue. 
+Contra ti, só contra ti, pequei
+e fiz o que tu reprovas,
+de modo que justa é a tua sentença
+e tens razão em condenar-me. 
+Sei que sou pecador desde que nasci;
+sim, desde que me concebeu minha mãe. 
+Sei que desejas a verdade no íntimo;
+e no coração me ensinas a sabedoria. 
+Purifica-me com hissopo, e ficarei puro;
+lava-me, e mais branco do que a neve serei. 
+Faze-me ouvir de novo júbilo e alegria,
+e os ossos que esmagaste exultarão. 
+Esconde o rosto dos meus pecados
+e apaga todas as minhas iniquidades. 
+Cria em mim um coração puro, ó Deus,
+e renova dentro de mim um espírito estável. 
+Não me expulses da tua presença
+nem tires de mim o teu Santo Espírito. 
+Devolve-me a alegria da tua salvação
+e sustenta-me
+com um espírito pronto a obedecer. 
+Então ensinarei os teus caminhos
+aos transgressores,
+para que os pecadores se voltem para ti. 
+Livra-me da culpa dos crimes de sangue,
+ó Deus, Deus da minha salvação!
+E a minha língua aclamará a tua justiça. 
+Ó Senhor, dá palavras aos meus lábios,
+e a minha boca anunciará o teu louvor. 
+Não te deleitas em sacrifícios
+nem te agradas em holocaustos,
+senão eu os traria. 
+Os sacrifícios que agradam a Deus
+são um espírito quebrantado;
+um coração quebrantado e contrito,
+ó Deus, não desprezarás. 
+Por tua boa vontade faze Sião prosperar;
+ergue os muros de Jerusalém. 
+Então te agradarás dos sacrifícios sinceros,
+das ofertas queimadas e dos holocaustos;
+e novilhos serão oferecidos sobre o teu altar. 
+ Salmo 51
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 138
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_138/
 INFO:root:🔹 Description: Eu te louvarei, Senhor, de todo o coração;
@@ -162,118 +220,82 @@ aquele que habita em Jerusalém.
 Aleluia! 
  Salmo 135
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 9
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_9/
-INFO:root:🔹 Description: Senhor, quero dar-te graças de todo o coração
-e falar de todas as tuas maravilhas. 
-Em ti quero alegrar-me e exultar,
-e cantar louvores ao teu nome, ó Altíssimo. 
-Quando os meus inimigos
-contigo se defrontam,
-tropeçam e são destruídos. 
-Pois defendeste o meu direito e a minha causa;
-em teu trono te assentaste,
-julgando com justiça. 
-Repreendeste as nações e destruíste os ímpios;
-para todo o sempre apagaste o nome deles. 
-O inimigo foi totalmente arrasado,
-para sempre;
-desarraigaste as suas cidades;
-já não há quem delas se lembre. 
-O Senhor reina para sempre;
-estabeleceu o seu trono para julgar. 
-Ele mesmo julga o mundo com justiça;
-governa os povos com retidão. 
-O Senhor é refúgio para os oprimidos,
-uma torre segura na hora da adversidade. 
-Os que conhecem o teu nome confiam em ti,
-pois tu, Senhor, jamais abandonas
-os que te buscam. 
-Cantem louvores ao Senhor,
-que reina em Sião;
-proclamem entre as nações os seus feitos. 
-Aquele que pede contas do sangue derramado
-não esquece;
-ele não ignora o clamor dos oprimidos. 
-Misericórdia, Senhor!
-Vê o sofrimento que me causam
-os que me odeiam.
-Salva-me das portas da morte, 
-para que, junto às portas da cidade de Sião,
-eu cante louvores a ti
-e ali exulte em tua salvação. 
-Caíram as nações na cova que abriram;
-os seus pés ficaram presos
-no laço que esconderam. 
-O Senhor é conhecido
-pela justiça que executa;
-os ímpios caem em suas próprias armadilhas.
-Interlúdio. 
-Voltem os ímpios ao pó,
-todas as nações que se esquecem de Deus! 
-Mas os pobres nunca serão esquecidos,
-nem se frustrará a esperança dos necessitados. 
-Levanta-te, Senhor!
-Não permitas que o mortal triunfe!
-Julgadas sejam as nações na tua presença. 
-Infunde-lhes terror, Senhor;
-saibam as nações
-que não passam de seres humanos. 
- Salmo 9
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366054 characters
-INFO:root:HTML parsed, length: 356036 characters
-INFO:root:Found 3 titles: ['A realidade da nova vida em Cristo', 'Permaneça em Cristo e Não se Abale', 'A luz de Cristo em você']
+INFO:root:Response length: 366502 characters
+INFO:root:HTML parsed, length: 356484 characters
+INFO:root:Found 3 titles: ['Jesus venceu a morte para sempre', 'A realidade da nova vida em Cristo', 'Permaneça em Cristo e Não se Abale']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Portanto, se alguém está em Cristo, é uma nova cri', 'Firmeza não começa com força de vontade. Começa co', 'Eu sou a luz do mundo. Quem me segue nunca andará ']
-INFO:root:Found 1 dates: ['Quarta, 9 de setembro de 2026']
+INFO:root:Found 3 descriptions: ['Eu os redimirei das garras do Sheol; eu os resgata', 'Portanto, se alguém está em Cristo, é uma nova cri', 'Firmeza não começa com força de vontade. Começa co']
+INFO:root:Found 1 dates: ['Quinta, 10 de setembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A realidade da nova vida em Cristo', ID=18a2a665c62c6d7240b674d1bd330e33
+INFO:root:Processing entry 1: Title='Jesus venceu a morte para sempre', ID=12bd002537da051af7a42911102aa13b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A realidade da nova vida em Cristo - Palavra de Hoje
+INFO:root:🔹 Title: Jesus venceu a morte para sempre - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Portanto, se alguém está em Cristo, é uma nova criação. As coisas antigas já passaram; eis que se fizeram novas!
-2 Coríntios 5:17
+INFO:root:🔹 Description: Eu os redimirei das garras do Sheol; eu os resgatarei da morte. Onde estão, ó morte, as suas pragas? Onde está, ó Sheol, a sua destruição?
+Oseias 13:14
 
-Não é uma reforma. Não é uma versão melhorada da vida antiga, com alguns ajustes de comportamento. Quando alguém está em Cristo, Paulo usa uma palavra forte: nova criação. Algo que não existia antes passa a existir. O antigo não é remendado, é deixado para trás.
+Séculos antes da cruz, Deus já anunciava que a morte não teria a palavra final. Através do profeta Oseias, ele declarou uma promessa que parecia impossível: o resgate das garras da morte, a derrota do próprio poder que assombra toda a humanidade. Era uma promessa esperando o seu cumprimento.
 
-Fomos sepultados com ele na morte por meio do batismo, a fim de que, como Cristo foi ressuscitado dentre os mortos pela glória do Pai, assim também vivamos uma vida nova.
-Romanos 6:4
+Onde está, ó morte, a sua vitória? Onde está, ó morte, o seu aguilhão? [...] Mas graças a Deus que nos dá a vitória por meio do nosso Senhor Jesus Cristo.
+1 Coríntios 15:55,57
 
-Essa nova criação não acontece por acaso. Ela tem uma base concreta: a morte e a ressurreição de Cristo. Quem está unido a ele morreu para a vida antiga e ressuscitou para uma vida nova, sustentada pelo mesmo poder que tirou Jesus do túmulo. Não é força de vontade. É participação real na vitória de Cristo.
+Na cruz e no túmulo vazio, essa promessa se tornou realidade. O que era anúncio profético virou vitória histórica. Paulo repete quase palavra por palavra o que Oseias já tinha escrito, mas agora como celebração, não mais como esperança. A morte, que parecia invencível, foi tragada pela vitória de Cristo. Não é o homem que vence a morte por esforço próprio: é Deus quem dá essa vitória, por meio de Jesus.
 
-Estou crucificado com Cristo. Assim, já não sou eu quem vive, mas Cristo vive em mim. A vida que agora vivo no corpo, vivo-a pela fé no Filho de Deus, que me amou e se entregou por mim.
-Gálatas 2:20
+Sou Aquele que Vive. Estive morto, mas agora estou vivo pelos séculos dos séculos, e tenho as chaves da morte e do Hades.
+Apocalipse 1:18
 
-E essa nova vida não fica só na teoria. Paulo a descreve como experiência diária: Cristo vivendo dentro dele, sustentando cada dia pela fé. A nova vida não é um evento único no passado; é uma realidade que continua, dia após dia, movida pelo amor de quem se entregou por cada um. A vida nova não é promessa distante nem conquista futura. Já é realidade para quem está em Cristo, hoje, agora, neste exato momento.
+E o próprio Jesus confirma isso com autoridade. Ele não apenas venceu a morte uma vez; ele agora vive para sempre e segura as chaves dela. Isso significa que nada, nem a morte, nem o além, abre ou fecha porta alguma sem passar pela mão de Cristo. A morte já não tem a última palavra sobre a sua vida. Jesus morreu, ressuscitou, e vive hoje com todo o poder sobre aquilo que mais amedronta o coração humano. Onde ele reina, o medo da morte perde o seu lugar.
  
-Portanto, se alguém está em Cristo, é uma nova criação. As coisas antigas já passaram; eis que se fizeram novas!
-2 Coríntios 5:17
+Eu os redimirei das garras do Sheol; eu os resgatarei da morte. Onde estão, ó morte, as suas pragas? Onde está, ó Sheol, a sua destruição?
+Oseias 13:14
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376831 characters
-INFO:root:HTML parsed, length: 366345 characters
-INFO:root:Found 3 titles: ['Até Quando, Senhor?', 'O Meu Valor Não Está no Espelho', 'A espera que aperta o peito']
+INFO:root:Response length: 376095 characters
+INFO:root:HTML parsed, length: 365634 characters
+INFO:root:Found 3 titles: ['Antes de Você Nascer, Deus Já Sabia', 'Até Quando, Senhor?', 'O Meu Valor Não Está no Espelho']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Até quando, Senhor? Para sempre te esquecerás de m', 'Eu te louvo porque me fizeste de modo assombroso e', 'Quando eu estiver com medo, confiarei em ti.\nSalmo']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n9\nQUARTA', 'SETEMBRO\n\n8\nTERÇA', 'SETEMBRO\n\n7\nSEGUNDA']
+INFO:root:Found 3 descriptions: ['Antes de formá-lo no ventre, eu o escolhi;\nantes d', 'Até quando, Senhor? Para sempre te esquecerás de m', 'Eu te louvo porque me fizeste de modo assombroso e']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n10\nQUINTA', 'SETEMBRO\n\n9\nQUARTA', 'SETEMBRO\n\n8\nTERÇA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Até Quando, Senhor?', ID=15caab8b32ecd35ddf8704bd87cc0878
-INFO:root:Processing entry 2: Title='O Meu Valor Não Está no Espelho', ID=a7beae0d2864b3a280200e5ebdb5cf5c
-INFO:root:Processing entry 3: Title='A espera que aperta o peito', ID=e9879c9d3916a1b7d8b9fdaa2c57642c
+INFO:root:Processing entry 1: Title='Antes de Você Nascer, Deus Já Sabia', ID=e03737d5679b8cf5257086f275af9f69
+INFO:root:Processing entry 2: Title='Até Quando, Senhor?', ID=15caab8b32ecd35ddf8704bd87cc0878
+INFO:root:Processing entry 3: Title='O Meu Valor Não Está no Espelho', ID=a7beae0d2864b3a280200e5ebdb5cf5c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Antes de Você Nascer, Deus Já Sabia
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Antes de formá-lo no ventre, eu o escolhi;
+antes de você nascer, eu o separei
+e o designei profeta às nações.
+Jeremias 1:5
+
+Muitas vezes vivemos perguntando qual é o nosso propósito, como se essa resposta estivesse escondida em algum lugar que ainda não encontramos, ou como se dependesse de acertar a carreira certa, a decisão certa, o momento certo.
+Deus fala isso a Jeremias antes de enviá-lo como profeta, numa missão para a qual o próprio Jeremias se sentia despreparado demais, tanto que logo depois responde que é jovem demais para isso. Mas antes de qualquer dúvida dele, Deus já tinha decidido: eu o escolhi antes de você ser formado, eu o separei antes de você nascer.
+Isso não significa que você tem uma missão idêntica à de Jeremias, mas revela um padrão sobre como Deus trabalha. O propósito dele para você não nasceu quando você descobriu um talento ou encontrou uma paixão. Já existia antes de você respirar pela primeira vez.
+Isso muda a ansiedade de "ainda não encontri meu propósito". Você não está correndo atrás de algo que talvez nunca exista. Está descobrindo, aos poucos, algo que Deus já sabia sobre você desde antes do começo.
+Descubra o propósito que já existe
+
+Agradeça a Deus hoje por um dom ou habilidade que você já reconhece em si mesmo.
+Releia Jeremias 1:5 substituindo mentalmente o nome dele pelo seu, sem tirar o contexto original de vista.
+Peça a Deus clareza sobre um próximo passo concreto, em vez de esperar a resposta completa de uma vez.
+Converse com alguém que te conhece bem sobre os dons que ele enxerga em você.
+Descanse da pressão de "descobrir tudo agora"; propósito se revela aos poucos, não de uma vez.
+
+Para orar:
+
+Senhor, obrigado por me conheceres e me escolheres antes mesmo de eu nascer. Perdoa-me pela ansiedade de sentir que ainda não encontrei o meu propósito. Ajuda-me a confiar que tu já sabias sobre mim desde o princípio e que vais revelar, passo a passo, o caminho que preparaste. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Até Quando, Senhor?
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Até quando, Senhor? Para sempre te esquecerás de mim?
@@ -320,30 +342,6 @@ Para orar:
 
 Senhor, muitas vezes deixo o espelho e a comparação decidirem o quanto eu valho. Perdoa-me por esquecer que fui feito de modo assombroso e admirável por ti. Ajuda-me a ver o meu corpo e a minha vida como tu vês, com cuidado e intenção, não com julgamento. Que o meu valor descanse em ti, não na aparência. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A espera que aperta o peito
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Quando eu estiver com medo, confiarei em ti.
-Salmos 56:3
-
-Há uma espera que não faz barulho, mas aperta o peito todos os dias. É a espera pelo resultado do exame, pela resposta que não chega, pela situação que não se resolve. Enquanto o tempo passa devagar, a ansiedade vai enchendo os espaços vazios com cenários que ainda nem aconteceram.
-Davi escreveu o Salmo 56 numa dessas esperas. Estava cercado por inimigos, em terra estrangeira, sem saber o que os próximos dias trariam. E foi exatamente ali, no meio da incerteza, que ele fez essa afirmação simples: quando o medo vier, a confiança em Deus é a resposta.
-Repare que ele não diz "se eu estiver com medo". Diz "quando". Davi sabia que o medo ia voltar, que a espera continuaria pesando. Isso não é falta de fé, é honestidade: a mesma preocupação que parecia resolvida ontem volta hoje, com força redobrada.
-O que muda não é a ausência do medo, mas para onde ele é levado. Davi não diz que vai ignorar o medo ou fingir que ele não existe. Diz que vai confiar. É uma escolha feita de novo a cada vez que o medo aparece, não uma decisão única que resolve tudo para sempre.
-Todos nós, em algum momento, atravessamos uma espera assim: um diagnóstico, uma resposta de emprego, uma decisão que outra pessoa ainda não tomou. O tempo parece andar mais devagar exatamente quando mais precisamos de respostas.
-Confiar não é ter certeza de que tudo vai sair como você espera. É saber que, aconteça o que acontecer, você não está sozinho nesta espera. Deus está com você agora, no meio do peito apertado, e vai continuar ali amanhã.
-Entregue essa espera a Deus, um dia de cada vez
-
-Quando perceber o peito apertar, nomeie o medo específico em vez de deixá-lo vago; é mais fácil entregar a Deus algo que você já conseguiu nomear.
-Releia Salmos 56:3 sempre que a mente começar a girar em cenários futuros; use-o como um ponto de parada.
-Separe o que está nas suas mãos (o que você pode fazer hoje) do que não está (o resultado final) e ore especificamente sobre a segunda parte.
-Evite buscar certeza absoluta antes de sentir paz; a paz de Deus pode chegar antes da resposta que você espera.
-Fale com alguém de confiança sobre essa espera; carregá-la em silêncio só aumenta o peso.
-Volte a este versículo amanhã, e depois de amanhã; a confiança se constrói repetindo a escolha, não fazendo-a uma vez só.
-
-Para orar:
-
-Senhor, esta espera está apertando meu peito e eu não sei quanto tempo mais vai durar. Não consigo controlar o tempo nem o resultado, mas escolho confiar em ti agora, como escolhi ontem e como vou precisar escolher amanhã. Quando o medo voltar, lembra-me deste versículo. Coloca tua paz onde só existe incerteza. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -373,15 +371,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 +++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  26 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  66 ++++----
+ feeds/salmo_do_dia/atom.xml               | 111 ++++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 263 +++++++++++++-----------------
- 11 files changed, 216 insertions(+), 262 deletions(-)
+ output.log                                | 306 ++++++++++++++----------------
+ 11 files changed, 274 insertions(+), 290 deletions(-)
