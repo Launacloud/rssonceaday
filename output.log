@@ -1,44 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 200962 characters
-INFO:root:HTML parsed, length: 177530 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (10/09/2026)', 'Palavra de Ontem (09/09/2026)', 'Palavra de Anteontem (08/09/2026)']
-INFO:root:Found 3 URLs: ['/entretidamente/', '/bagulho/', '/habitat/']
-INFO:root:Found 11 descriptions: ['advérbio De maneira entretida; com entretimento, e', 'Sinônimos:\n\ndistraidamente, divertidamente, alegre', 'Sílabas:en-tre-ti-da-men-te']
-INFO:root:Found 3 dates: ['Palavra de Hoje (10/09/2026)', 'Palavra de Ontem (09/09/2026)', 'Palavra de Anteontem (08/09/2026)']
+INFO:root:Response length: 201385 characters
+INFO:root:HTML parsed, length: 177563 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (11/09/2026)', 'Palavra de Ontem (10/09/2026)', 'Palavra de Anteontem (09/09/2026)']
+INFO:root:Found 3 URLs: ['/otimista/', '/entretidamente/', '/bagulho/']
+INFO:root:Found 13 descriptions: ['substantivo masculino e feminino Pessoa que busca ', 'Sinônimos:\n\npositivo, esperançoso, confiante, entu', 'Antônimos:\n\npessimista']
+INFO:root:Found 3 dates: ['Palavra de Hoje (11/09/2026)', 'Palavra de Ontem (10/09/2026)', 'Palavra de Anteontem (09/09/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (10/09/2026)', ID=a91460390a9c23a8c410dcde1f7f4106
-INFO:root:Processing entry 2: Title='Palavra de Ontem (09/09/2026)', ID=cd1ba0962dde0308bc199dfc092d0d83
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/09/2026)', ID=e4a3093cc5acf7dfb08c2920712402da
+INFO:root:Processing entry 1: Title='Palavra de Hoje (11/09/2026)', ID=88112e5efe102081a8858163297f56f8
+INFO:root:Processing entry 2: Title='Palavra de Ontem (10/09/2026)', ID=bc75b5694c095f91e35a9f07705b1f88
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/09/2026)', ID=2e48a64dd06ae76692b58ac586b014da
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (10/09/2026) - Significado completo de entretidamente:
-INFO:root:🔹 URL: https://www.dicio.com.br/entretidamente/
-INFO:root:🔹 Description: advérbio De maneira entretida; com entretimento, entretenimento; divertidamente.Etimologia (origem da palavra entretidamente). A palavra entretidamente tem sua origem pela junção de entretido, e do sufixo -mente.
+INFO:root:🔹 Title: Palavra de Hoje (11/09/2026) - Significado completo de otimista:
+INFO:root:🔹 URL: https://www.dicio.com.br/otimista/
+INFO:root:🔹 Description: substantivo masculino e feminino Pessoa que busca enxergar tudo pelo lado bom.Quem não desiste diante de grandes problemas ou adversidades.Quem tem esperança de que tudo pode melhorar no futuro.adjetivo Que se refere ao otimismo; que enxerga tudo pelo lado bom.Etimologia (origem da palavra otimista). A palavra otimista tem sua origem pela junção da palavra ótimo, e do sufixo -ista.
  
 Sinônimos:
 
-distraidamente, divertidamente, alegremente, deleitosamente, prazerosamente, dedicadamente 
+positivo, esperançoso, confiante, entusiasta, exuberante, radiante, próspero, benevolente, despreocupado, feliz, resoluto, tranquilo, empolgado, sorridente, risonho 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (09/09/2026) - Significado completo de bagulho:
-INFO:root:🔹 URL: https://www.dicio.com.br/bagulho/
+INFO:root:🔹 Title: Palavra de Ontem (10/09/2026) - Significado completo de entretidamente:
+INFO:root:🔹 URL: https://www.dicio.com.br/entretidamente/
 INFO:root:🔹 Description: Sinônimos:
 
-distraidamente, divertidamente, alegremente, deleitosamente, prazerosamente, dedicadamente
- Sílabas:en-tre-ti-da-men-te
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (08/09/2026) - Significado completo de habitat:
-INFO:root:🔹 URL: https://www.dicio.com.br/habitat/
-INFO:root:🔹 Description: Sílabas:en-tre-ti-da-men-te
+positivo, esperançoso, confiante, entusiasta, exuberante, radiante, próspero, benevolente, despreocupado, feliz, resoluto, tranquilo, empolgado, sorridente, risonho
  
-Sinônimos:
+Antônimos:
 
-cacareco, traste, coisa, pertence, canhão, camburão, dragão, maconha, baseado, vassoura, vasculhador, treco, objeto, tribufu 
+pessimista 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (09/09/2026) - Significado completo de bagulho:
+INFO:root:🔹 URL: https://www.dicio.com.br/bagulho/
+INFO:root:🔹 Description: Antônimos:
+
+pessimista
+ Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,40 +48,102 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365741 characters
-INFO:root:HTML parsed, length: 355249 characters
-INFO:root:Found 1 titles: ['Deuteronômio 10:21']
-INFO:root:Found 1 URLs: ['/versiculo/deuteronomio_10_21/']
-INFO:root:Found 1 descriptions: ['Seja ele o motivo do seu louvor, pois ele é o seu ']
+INFO:root:Response length: 365585 characters
+INFO:root:HTML parsed, length: 355093 characters
+INFO:root:Found 1 titles: ['Habacuque 2:20']
+INFO:root:Found 1 URLs: ['/versiculo/habacuque_2_20/']
+INFO:root:Found 1 descriptions: ['O Senhor,porém,\nestá em seu santo templo;\ndiante d']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deuteronômio 10:21', ID=e194ed9bc2c005a0f57a72e500fe4c07
+INFO:root:Processing entry 1: Title='Habacuque 2:20', ID=1a328afd51d8104b43409ed796598ee8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deuteronômio 10:21
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/deuteronomio_10_21/
-INFO:root:🔹 Description: Seja ele o motivo do seu louvor, pois ele é o seu Deus, que por vocês fez aquelas grandes e temíveis maravilhas que vocês viram com os próprios olhos. Deuteronômio 10:21
+INFO:root:🔹 Title: Habacuque 2:20
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/habacuque_2_20/
+INFO:root:🔹 Description: O Senhor,porém,
+está em seu santo templo;
+diante dele fique em silêncio
+toda a terra". Habacuque 2:20
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 363493 characters
-INFO:root:HTML parsed, length: 354060 characters
-INFO:root:Found 3 titles: ['Salmo 51', 'Salmo 138', 'Salmo 135']
-INFO:root:Found 3 URLs: ['/salmos_51/', '/salmos_138/', '/salmos_135/']
-INFO:root:Found 3 descriptions: ['Tem misericórdia de mim, ó Deus,\npor teu amor;\npor', 'Eu te louvarei, Senhor, de todo o coração;\ndiante ', 'Aleluia!\nLouvem o nome do Senhor;\nlouvem-no, servo']
-INFO:root:Found 3 dates: ['10 de Setembro de 2026', '9 de Setembro de 2026', '8 de Setembro de 2026']
+INFO:root:Response length: 363562 characters
+INFO:root:HTML parsed, length: 354125 characters
+INFO:root:Found 3 titles: ['Salmo 59', 'Salmo 51', 'Salmo 138']
+INFO:root:Found 3 URLs: ['/salmos_59/', '/salmos_51/', '/salmos_138/']
+INFO:root:Found 3 descriptions: ['Livra-me dos meus inimigos, ó Deus;\npõe-me fora do', 'Tem misericórdia de mim, ó Deus,\npor teu amor;\npor', 'Eu te louvarei, Senhor, de todo o coração;\ndiante ']
+INFO:root:Found 3 dates: ['11 de Setembro de 2026', '10 de Setembro de 2026', '9 de Setembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
-INFO:root:Processing entry 2: Title=' Salmo 138', ID=2c5fe024bc3f2d8b992de3e29b908819
-INFO:root:Processing entry 3: Title=' Salmo 135', ID=a7f1f1fb8b16f9a83dc676d3b48202fb
+INFO:root:Processing entry 1: Title=' Salmo 59', ID=aac784327ec5034951e7ef111d110a62
+INFO:root:Processing entry 2: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
+INFO:root:Processing entry 3: Title=' Salmo 138', ID=2c5fe024bc3f2d8b992de3e29b908819
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 59
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_59/
+INFO:root:🔹 Description: Livra-me dos meus inimigos, ó Deus;
+põe-me fora do alcance dos meus agressores. 
+Livra-me dos que praticam o mal
+e salva-me dos assassinos. 
+Vê como ficam à minha espreita!
+Homens cruéis conspiram contra mim,
+sem que eu tenha cometido
+qualquer delito ou pecado, ó Senhor. 
+Mesmo eu não tendo culpa de nada,
+eles se preparam às pressas para atacar-me.
+Levanta-te para ajudar-me;
+olha para a situação em que me encontro! 
+Ó Senhor, Deus dos Exércitos,
+ó Deus de Israel!
+Desperta para castigar todas as nações;
+não tenhas misericórdia
+dos traidores perversos. 
+Eles voltam ao cair da tarde,
+rosnando como cães
+e rondando a cidade. 
+Vê que ameaças saem de sua boca;
+seus lábios são como espadas
+e dizem: "Quem nos ouvirá?" 
+Mas tu, Senhor, vais rir deles;
+caçoarás de todas aquelas nações. 
+Ó tu, minha força, por ti vou aguardar;
+tu, ó Deus, és o meu alto refúgio. 
+O meu Deus fiel
+virá ao meu encontro
+e permitirá que eu triunfe
+sobre os meus inimigos. 
+Mas não os mates, ó Senhor, nosso escudo,
+se não, o meu povo o esquecerá.
+Em teu poder faze-os vaguear,
+e abate-os. 
+Pelos pecados de sua boca,
+pelas palavras de seus lábios,
+sejam apanhados em seu orgulho.
+Pelas maldições e mentiras que pronunciam, 
+consome-os em tua ira,
+consome-os até que não mais existam.
+Então se saberá até os confins da terra
+que Deus governa Jacó. 
+Eles voltam ao cair da tarde,
+rosnando como cães
+e rondando a cidade. 
+À procura de comida perambulam
+e, se não ficam satisfeitos, uivam. 
+Mas eu cantarei louvores à tua força;
+de manhã louvarei a tua fidelidade,
+pois tu és o meu alto refúgio,
+abrigo seguro nos tempos difíceis. 
+Ó minha força, canto louvores a ti;
+tu és, ó Deus, o meu alto refúgio,
+o Deus que me ama. 
+ Salmo 59
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 51
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_51/
 INFO:root:🔹 Description: Tem misericórdia de mim, ó Deus,
@@ -163,116 +227,85 @@ Teu amor, Senhor, permanece para sempre;
 não abandones as obras das tuas mãos! 
  Salmo 138
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 135
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_135/
-INFO:root:🔹 Description: Aleluia!
-Louvem o nome do Senhor;
-louvem-no, servos do Senhor, 
-vocês, que servem na casa do Senhor,
-nos pátios da casa de nosso Deus. 
-Louvem o Senhor, pois o Senhor é bom;
-cantem louvores ao seu nome,
-pois é nome amável. 
-Porque o Senhor escolheu Jacó;
-a Israel, como seu tesouro pessoal. 
-Na verdade, sei que o Senhor é grande,
-que o nosso Soberano é maior
-do que todos os deuses. 
-O Senhor faz tudo o que lhe agrada,
-nos céus e na terra,
-nos mares e em todas as suas profundezas. 
-Ele traz as nuvens desde os confins da terra;
-envia os relâmpagos que acompanham a chuva
-e faz que o vento saia dos seus depósitos. 
-Foi ele que matou os primogênitos do Egito,
-tanto dos homens como dos animais. 
-Ele realizou em pleno Egito
-sinais e maravilhas,
-contra o faraó e todos os seus conselheiros. 
-Foi ele que feriu muitas nações
-e matou reis poderosos: 
-Seom, rei dos amorreus,
-Ogue, rei de Basã,
-e todos os reinos de Canaã; 
-e deu a terra deles como herança,
-como herança a Israel, o seu povo. 
-O teu nome, Senhor,
-permanece para sempre,
-a tua fama, Senhor, por todas as gerações! 
-O Senhor defenderá o seu povo
-e terá compaixão dos seus servos. 
-Os ídolos das nações
-não passam de prata e ouro,
-feitos por mãos humanas. 
-Têm boca, mas não podem falar;
-olhos, mas não podem ver; 
-têm ouvidos, mas não podem escutar
-nem há respiração em sua boca. 
-Tornem-se como eles aqueles que os fazem
-e todos os que neles confiam. 
-Bendigam o Senhor, ó israelitas!
-Bendigam o Senhor, ó sacerdotes! 
-Bendigam o Senhor, ó levitas!
-Bendigam o Senhor
-os que temem o Senhor! 
-Bendito seja o Senhor desde Sião,
-aquele que habita em Jerusalém.
-Aleluia! 
- Salmo 135
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366502 characters
-INFO:root:HTML parsed, length: 356484 characters
-INFO:root:Found 3 titles: ['Jesus venceu a morte para sempre', 'A realidade da nova vida em Cristo', 'Permaneça em Cristo e Não se Abale']
+INFO:root:Response length: 366268 characters
+INFO:root:HTML parsed, length: 356243 characters
+INFO:root:Found 3 titles: ['Calma no meio da tempestade', 'Jesus venceu a morte para sempre', 'A realidade da nova vida em Cristo']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Eu os redimirei das garras do Sheol; eu os resgata', 'Portanto, se alguém está em Cristo, é uma nova cri', 'Firmeza não começa com força de vontade. Começa co']
-INFO:root:Found 1 dates: ['Quinta, 10 de setembro de 2026']
+INFO:root:Found 3 descriptions: ['Ele se levantou, repreendeu o vento e disse ao lag', 'Eu os redimirei das garras do Sheol; eu os resgata', 'Portanto, se alguém está em Cristo, é uma nova cri']
+INFO:root:Found 1 dates: ['Sexta, 11 de setembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jesus venceu a morte para sempre', ID=12bd002537da051af7a42911102aa13b
+INFO:root:Processing entry 1: Title='Calma no meio da tempestade', ID=300480e654f260548379d03876d22ae8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jesus venceu a morte para sempre - Palavra de Hoje
+INFO:root:🔹 Title: Calma no meio da tempestade - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Eu os redimirei das garras do Sheol; eu os resgatarei da morte. Onde estão, ó morte, as suas pragas? Onde está, ó Sheol, a sua destruição?
-Oseias 13:14
+INFO:root:🔹 Description: Ele se levantou, repreendeu o vento e disse ao lago: — Aquiete-se! Acalme-se! O vento se aquietou, e tudo ficou calmo.
+Marcos 4:39
 
-Séculos antes da cruz, Deus já anunciava que a morte não teria a palavra final. Através do profeta Oseias, ele declarou uma promessa que parecia impossível: o resgate das garras da morte, a derrota do próprio poder que assombra toda a humanidade. Era uma promessa esperando o seu cumprimento.
+Os discípulos estavam num barco à beira do pânico, certos de que iam morrer afogados, enquanto Jesus dormia na popa. Quando o acordaram, ele não precisou de mais que duas palavras para conter a tempestade. A autoridade de Cristo sobre o caos não é figura de linguagem: o vento obedeceu, o mar obedeceu.
 
-Onde está, ó morte, a sua vitória? Onde está, ó morte, o seu aguilhão? [...] Mas graças a Deus que nos dá a vitória por meio do nosso Senhor Jesus Cristo.
-1 Coríntios 15:55,57
+Reduziu a tempestade a um sussurro, e as ondas sossegaram.
+Salmos 107:29
 
-Na cruz e no túmulo vazio, essa promessa se tornou realidade. O que era anúncio profético virou vitória histórica. Paulo repete quase palavra por palavra o que Oseias já tinha escrito, mas agora como celebração, não mais como esperança. A morte, que parecia invencível, foi tragada pela vitória de Cristo. Não é o homem que vence a morte por esforço próprio: é Deus quem dá essa vitória, por meio de Jesus.
+Essa cena no lago não foi um acontecimento isolado. Ela revela quem Deus sempre foi. Muito antes de Jesus subir naquele barco, o salmista já cantava sobre um Deus que transforma tempestade em sussurro. O que os discípulos viram com os próprios olhos, o povo de Deus já conhecia pela fé.
 
-Sou Aquele que Vive. Estive morto, mas agora estou vivo pelos séculos dos séculos, e tenho as chaves da morte e do Hades.
-Apocalipse 1:18
+Tu guardarás em perfeita paz aquele cujo propósito está firme, porque ele confia em ti.
+Isaías 26:3
 
-E o próprio Jesus confirma isso com autoridade. Ele não apenas venceu a morte uma vez; ele agora vive para sempre e segura as chaves dela. Isso significa que nada, nem a morte, nem o além, abre ou fecha porta alguma sem passar pela mão de Cristo. A morte já não tem a última palavra sobre a sua vida. Jesus morreu, ressuscitou, e vive hoje com todo o poder sobre aquilo que mais amedronta o coração humano. Onde ele reina, o medo da morte perde o seu lugar.
+E essa mesma calma que aquietou o mar está disponível para o que se agita por dentro. Não é ausência de tempestade: é uma mente firme, ancorada em confiança, guardada em paz mesmo quando tudo ao redor continua incerto. A tempestade pode continuar lá fora. Mas quem confia em Deus já tem acesso à mesma calma que aquietou o mar da Galileia.
  
-Eu os redimirei das garras do Sheol; eu os resgatarei da morte. Onde estão, ó morte, as suas pragas? Onde está, ó Sheol, a sua destruição?
-Oseias 13:14
+Ele se levantou, repreendeu o vento e disse ao lago: — Aquiete-se! Acalme-se! O vento se aquietou, e tudo ficou calmo.
+Marcos 4:39
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376095 characters
-INFO:root:HTML parsed, length: 365634 characters
-INFO:root:Found 3 titles: ['Antes de Você Nascer, Deus Já Sabia', 'Até Quando, Senhor?', 'O Meu Valor Não Está no Espelho']
+INFO:root:Response length: 376494 characters
+INFO:root:HTML parsed, length: 366020 characters
+INFO:root:Found 3 titles: ['Feitos para algo', 'Antes de Você Nascer, Deus Já Sabia', 'Até Quando, Senhor?']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Antes de formá-lo no ventre, eu o escolhi;\nantes d', 'Até quando, Senhor? Para sempre te esquecerás de m', 'Eu te louvo porque me fizeste de modo assombroso e']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n10\nQUINTA', 'SETEMBRO\n\n9\nQUARTA', 'SETEMBRO\n\n8\nTERÇA']
+INFO:root:Found 3 descriptions: ['Pois somos criação de Deus, criados em Cristo Jesu', 'Antes de formá-lo no ventre, eu o escolhi;\nantes d', 'Até quando, Senhor? Para sempre te esquecerás de m']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n11\nSEXTA', 'SETEMBRO\n\n10\nQUINTA', 'SETEMBRO\n\n9\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Antes de Você Nascer, Deus Já Sabia', ID=e03737d5679b8cf5257086f275af9f69
-INFO:root:Processing entry 2: Title='Até Quando, Senhor?', ID=15caab8b32ecd35ddf8704bd87cc0878
-INFO:root:Processing entry 3: Title='O Meu Valor Não Está no Espelho', ID=a7beae0d2864b3a280200e5ebdb5cf5c
+INFO:root:Processing entry 1: Title='Feitos para algo', ID=bf047cb6fc6258bbbba4842dc671d142
+INFO:root:Processing entry 2: Title='Antes de Você Nascer, Deus Já Sabia', ID=e03737d5679b8cf5257086f275af9f69
+INFO:root:Processing entry 3: Title='Até Quando, Senhor?', ID=15caab8b32ecd35ddf8704bd87cc0878
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Feitos para algo
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Pois somos criação de Deus, criados em Cristo Jesus para fazer boas obras, as quais Deus preparou de antemão para que nós as praticássemos.
+Efésios 2:10
+
+Muita gente passa a vida procurando um propósito como quem procura uma chave perdida: numa carreira, numa conquista, numa aprovação que nunca chega por completo. A Bíblia oferece outro ponto de partida.
+Paulo escreve que somos "criação de Deus"; algumas traduções usam "obra-prima" de Deus. A palavra sugere algo feito com intenção, não ao acaso. E logo depois vem o propósito dessa criação: boas obras, já preparadas de antemão, para nós praticarmos.
+Repare na ordem: o propósito não nasce de você descobrindo algo sobre si mesmo; nasce de Deus, que já preparou o caminho antes mesmo de você chegar até ele. Você não inventa o seu propósito do zero; você o encontra, como quem entra numa obra já planejada.
+O salmista descreve algo parecido sobre a formação da vida:
+
+Pois foste tu que formaste as minhas entranhas, que me teceste no ventre de minha mãe. Todos os meus dias foram escritos no teu livro antes de qualquer um deles existir.
+Salmos 139:13,16
+
+Isso não significa que você precisa descobrir um plano secreto e perfeito antes de agir, sob pena de errar para sempre. Significa que a sua vida, desde antes de você nascer, já importava para Deus, e o propósito não é um prêmio reservado para poucos escolhidos.
+Você não precisa inventar um propósito para a sua vida; precisa caminhar na direção do que Deus já preparou.
+Procure a boa obra que já está preparada para hoje
+
+Hoje, em vez de buscar um propósito grande e distante, pergunte a Deus qual boa obra concreta Ele já preparou para você fazer nas próximas vinte e quatro horas.
+Releia Efésios 2:8-10 inteiro e note como propósito vem depois da graça, não como condição para merecê-la.
+Identifique um talento ou uma experiência que você já tem, e pergunte como ela pode servir a alguém esta semana.
+Ore agradecendo a Deus por ter formado você com intenção, mesmo nos dias em que você não sente propósito nenhum.
+
+Para orar
+
+Senhor, muitas vezes procuro um propósito grande demais e esqueço o que já está diante de mim hoje. Ajuda-me a lembrar que sou obra tua, feito com intenção, e que tu já preparaste boas obras para eu viver. Mostra-me o próximo passo, mesmo que pequeno, e dá-me coragem para dá-lo. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Antes de Você Nascer, Deus Já Sabia
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Antes de formá-lo no ventre, eu o escolhi;
@@ -319,29 +352,6 @@ Para orar:
 
 Senhor, até quando essa doença vai durar? Às vezes sinto que escondes o teu rosto de mim, e a tristeza não sai do meu coração. Não escondo isso de ti, porque sei que podes carregar o meu lamento. Mesmo sem entender o tempo dessa espera, escolho confiar no teu amor leal. Sustenta-me neste dia difícil. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O Meu Valor Não Está no Espelho
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Eu te louvo porque me fizeste de modo assombroso e admirável.
-As tuas obras são maravilhosas!
-Sei disso muito bem.
-Salmos 139:14
-
-Todos nós já nos olhamos no espelho e sentimos aquele julgamento imediato, comparando com um padrão que muda toda semana nas redes sociais. É fácil deixar que o reflexo decida se o dia começa bem ou mal.
-O Salmo 139 é uma oração de Davi maravilhado com o próprio corpo, não porque ele correspondia a um padrão de beleza, mas porque reconhecia a obra de Deus por trás da sua formação. "Me fizeste de modo assombroso e admirável" não é sobre aparência perfeita, é sobre a intenção cuidadosa de quem formou cada detalhe.
-Isso muda a pergunta que o espelho faz. Em vez de "isso está bonito o suficiente?", a pergunta vira "isso foi feito com cuidado por alguém que sabia exatamente o que estava fazendo?". Seu valor não oscila com a luz do quarto, com o ângulo da foto, com o comentário de alguém.
-Isso não significa ignorar o cuidado com o próprio corpo, comer bem, descansar, se vestir de um jeito que te faça sentir bem. Significa parar de deixar que a aparência decida o quanto você vale.
-Troque o espelho pela verdade de Deus
-
-Antes de se comparar com alguém hoje, releia Salmos 139:14 em voz alta.
-Identifique uma conta ou hábito nas redes sociais que alimenta comparação constante e reduza o tempo nela.
-Agradeça a Deus por uma parte específica de você, física ou não, que costuma criticar.
-Fale com alguém de confiança quando os pensamentos sobre a aparência ficarem pesados demais.
-Lembre-se de que cuidar do corpo é diferente de basear seu valor nele.
-
-Para orar:
-
-Senhor, muitas vezes deixo o espelho e a comparação decidirem o quanto eu valho. Perdoa-me por esquecer que fui feito de modo assombroso e admirável por ti. Ajuda-me a ver o meu corpo e a minha vida como tu vês, com cuidado e intenção, não com julgamento. Que o meu valor descanse em ti, não na aparência. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -371,15 +381,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
  feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  20 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 111 ++++++-----
+ feeds/salmo_do_dia/atom.xml               | 114 +++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 306 ++++++++++++++----------------
- 11 files changed, 274 insertions(+), 290 deletions(-)
+ output.log                                | 316 +++++++++++++++---------------
+ 11 files changed, 297 insertions(+), 289 deletions(-)
