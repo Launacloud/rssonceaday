@@ -1,46 +1,42 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 201385 characters
-INFO:root:HTML parsed, length: 177563 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (11/09/2026)', 'Palavra de Ontem (10/09/2026)', 'Palavra de Anteontem (09/09/2026)']
-INFO:root:Found 3 URLs: ['/otimista/', '/entretidamente/', '/bagulho/']
-INFO:root:Found 13 descriptions: ['substantivo masculino e feminino Pessoa que busca ', 'Sinônimos:\n\npositivo, esperançoso, confiante, entu', 'Antônimos:\n\npessimista']
-INFO:root:Found 3 dates: ['Palavra de Hoje (11/09/2026)', 'Palavra de Ontem (10/09/2026)', 'Palavra de Anteontem (09/09/2026)']
+INFO:root:Response length: 200008 characters
+INFO:root:HTML parsed, length: 176370 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (12/09/2026)', 'Palavra de Ontem (11/09/2026)', 'Palavra de Anteontem (10/09/2026)']
+INFO:root:Found 3 URLs: ['/docusserie/', '/otimista/', '/entretidamente/']
+INFO:root:Found 11 descriptions: ['substantivo feminino Série documental e informativ', 'Sílabas:do-cus-sé-ri-e', 'substantivo masculino e feminino Pessoa que busca ']
+INFO:root:Found 3 dates: ['Palavra de Hoje (12/09/2026)', 'Palavra de Ontem (11/09/2026)', 'Palavra de Anteontem (10/09/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (11/09/2026)', ID=88112e5efe102081a8858163297f56f8
-INFO:root:Processing entry 2: Title='Palavra de Ontem (10/09/2026)', ID=bc75b5694c095f91e35a9f07705b1f88
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/09/2026)', ID=2e48a64dd06ae76692b58ac586b014da
+INFO:root:Processing entry 1: Title='Palavra de Hoje (12/09/2026)', ID=b9cda6707f2a42dee67e71defcdf6b4d
+INFO:root:Processing entry 2: Title='Palavra de Ontem (11/09/2026)', ID=64e541bfd433bc8ad5e81cf95361cd03
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (10/09/2026)', ID=be0b96de3b8691cfab60d9193cfcb0cc
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (11/09/2026) - Significado completo de otimista:
+INFO:root:🔹 Title: Palavra de Hoje (12/09/2026) - Significado completo de docussérie:
+INFO:root:🔹 URL: https://www.dicio.com.br/docusserie/
+INFO:root:🔹 Description: substantivo feminino Série documental e informativa que, exibida em episódios, narra fatos, circunstâncias, situações ou histórias reais, geralmente com depoimentos, imagens e entrevistas gravadas anteriormente.Etimologia (origem da palavra docussérie). A palavra docussérie tem sua origem pela junção docu-, derivada de documentário, e série.
+ Sílabas:do-cus-sé-ri-e
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (11/09/2026) - Significado completo de otimista:
 INFO:root:🔹 URL: https://www.dicio.com.br/otimista/
-INFO:root:🔹 Description: substantivo masculino e feminino Pessoa que busca enxergar tudo pelo lado bom.Quem não desiste diante de grandes problemas ou adversidades.Quem tem esperança de que tudo pode melhorar no futuro.adjetivo Que se refere ao otimismo; que enxerga tudo pelo lado bom.Etimologia (origem da palavra otimista). A palavra otimista tem sua origem pela junção da palavra ótimo, e do sufixo -ista.
+INFO:root:🔹 Description: Sílabas:do-cus-sé-ri-e
  
 Sinônimos:
 
 positivo, esperançoso, confiante, entusiasta, exuberante, radiante, próspero, benevolente, despreocupado, feliz, resoluto, tranquilo, empolgado, sorridente, risonho 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (10/09/2026) - Significado completo de entretidamente:
+INFO:root:🔹 Title: Palavra de Anteontem (10/09/2026) - Significado completo de entretidamente:
 INFO:root:🔹 URL: https://www.dicio.com.br/entretidamente/
-INFO:root:🔹 Description: Sinônimos:
-
-positivo, esperançoso, confiante, entusiasta, exuberante, radiante, próspero, benevolente, despreocupado, feliz, resoluto, tranquilo, empolgado, sorridente, risonho
+INFO:root:🔹 Description: substantivo masculino e feminino Pessoa que busca enxergar tudo pelo lado bom.Quem não desiste diante de grandes problemas ou adversidades.Quem tem esperança de que tudo pode melhorar no futuro.adjetivo Que se refere ao otimismo; que enxerga tudo pelo lado bom.Etimologia (origem da palavra otimista). A palavra otimista tem sua origem pela junção da palavra ótimo, e do sufixo -ista.
  
 Antônimos:
 
 pessimista 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (09/09/2026) - Significado completo de bagulho:
-INFO:root:🔹 URL: https://www.dicio.com.br/bagulho/
-INFO:root:🔹 Description: Antônimos:
-
-pessimista
- Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,43 +44,87 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365585 characters
-INFO:root:HTML parsed, length: 355093 characters
-INFO:root:Found 1 titles: ['Habacuque 2:20']
-INFO:root:Found 1 URLs: ['/versiculo/habacuque_2_20/']
-INFO:root:Found 1 descriptions: ['O Senhor,porém,\nestá em seu santo templo;\ndiante d']
+INFO:root:Response length: 365713 characters
+INFO:root:HTML parsed, length: 355221 characters
+INFO:root:Found 1 titles: ['Rute 2:12']
+INFO:root:Found 1 URLs: ['/versiculo/rute_2_12/']
+INFO:root:Found 1 descriptions: ['O Senhor retribua a você o que você tem feito! Que']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Habacuque 2:20', ID=1a328afd51d8104b43409ed796598ee8
+INFO:root:Processing entry 1: Title='Rute 2:12', ID=2c8ed756d12d2d9d70f7dc82a00a19b7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Habacuque 2:20
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/habacuque_2_20/
-INFO:root:🔹 Description: O Senhor,porém,
-está em seu santo templo;
-diante dele fique em silêncio
-toda a terra". Habacuque 2:20
+INFO:root:🔹 Title: Rute 2:12
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/rute_2_12/
+INFO:root:🔹 Description: O Senhor retribua a você o que você tem feito! Que seja ricamente recompensada pelo Senhor, o Deus de Israel, sob cujas asas você veio buscar refúgio!" Rute 2:12
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 363562 characters
-INFO:root:HTML parsed, length: 354125 characters
-INFO:root:Found 3 titles: ['Salmo 59', 'Salmo 51', 'Salmo 138']
-INFO:root:Found 3 URLs: ['/salmos_59/', '/salmos_51/', '/salmos_138/']
-INFO:root:Found 3 descriptions: ['Livra-me dos meus inimigos, ó Deus;\npõe-me fora do', 'Tem misericórdia de mim, ó Deus,\npor teu amor;\npor', 'Eu te louvarei, Senhor, de todo o coração;\ndiante ']
-INFO:root:Found 3 dates: ['11 de Setembro de 2026', '10 de Setembro de 2026', '9 de Setembro de 2026']
+INFO:root:Response length: 364233 characters
+INFO:root:HTML parsed, length: 354805 characters
+INFO:root:Found 3 titles: ['Salmo 7', 'Salmo 59', 'Salmo 51']
+INFO:root:Found 3 URLs: ['/salmos_7/', '/salmos_59/', '/salmos_51/']
+INFO:root:Found 3 descriptions: ['Senhor, meu Deus, em ti me refugio;\nsalva-me e liv', 'Livra-me dos meus inimigos, ó Deus;\npõe-me fora do', 'Tem misericórdia de mim, ó Deus,\npor teu amor;\npor']
+INFO:root:Found 3 dates: ['12 de Setembro de 2026', '11 de Setembro de 2026', '10 de Setembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 59', ID=aac784327ec5034951e7ef111d110a62
-INFO:root:Processing entry 2: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
-INFO:root:Processing entry 3: Title=' Salmo 138', ID=2c5fe024bc3f2d8b992de3e29b908819
+INFO:root:Processing entry 1: Title=' Salmo 7', ID=a897ce550100384a27b28e86a2eb72b4
+INFO:root:Processing entry 2: Title=' Salmo 59', ID=aac784327ec5034951e7ef111d110a62
+INFO:root:Processing entry 3: Title=' Salmo 51', ID=08c17c87b7040865f76b824919e0dc56
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 7
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_7/
+INFO:root:🔹 Description: Senhor, meu Deus, em ti me refugio;
+salva-me e livra-me de todos
+os que me perseguem, 
+para que, como leões,
+não me dilacerem nem me despedacem,
+sem que ninguém me livre. 
+Senhor, meu Deus, se assim procedi,
+se nas minhas mãos há injustiça, 
+se fiz algum mal a um amigo
+ou se poupei sem motivo o meu adversário, 
+persiga-me o meu inimigo até me alcançar,
+no chão me pisoteie e aniquile a minha vida,
+lançando a minha honra no pó. 
+Levanta-te, Senhor, na tua ira;
+ergue-te contra o furor dos meus adversários.
+Desperta-te, meu Deus! Ordena a justiça! 
+Reúnam-se os povos ao teu redor.
+Das alturas reina sobre eles. 
+O Senhor é quem julga os povos.
+Julga-me, Senhor, conforme a minha justiça,
+conforme a minha integridade. 
+Deus justo,
+que sondas a mente e o coração dos homens,
+dá fim à maldade dos ímpios
+e ao justo dá segurança. 
+O meu escudo está nas mãos de Deus,
+que salva o reto de coração. 
+Deus é um juiz justo,
+um Deus que manifesta cada dia o seu furor. 
+Se o homem não se arrepende,
+Deus afia a sua espada,
+arma o seu arco e o aponta, 
+prepara as suas armas mortais
+e faz de suas setas flechas flamejantes. 
+Quem gera a maldade concebe sofrimento
+e dá à luz a desilusão. 
+Quem cava um buraco e o aprofunda
+cairá nessa armadilha que fez. 
+Sua maldade se voltará contra ele;
+sua violência cairá sobre a sua própria cabeça. 
+Darei graças ao Senhor por sua justiça;
+ao nome do Senhor Altíssimo
+cantarei louvores. 
+ Salmo 7
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 59
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_59/
 INFO:root:🔹 Description: Livra-me dos meus inimigos, ó Deus;
@@ -198,88 +238,83 @@ das ofertas queimadas e dos holocaustos;
 e novilhos serão oferecidos sobre o teu altar. 
  Salmo 51
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 138
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_138/
-INFO:root:🔹 Description: Eu te louvarei, Senhor, de todo o coração;
-diante dos deuses cantarei louvores a ti. 
-Voltado para o teu santo templo
-eu me prostrarei
-e renderei graças ao teu nome,
-por causa do teu amor e da tua fidelidade;
-pois exaltaste acima de todas as coisas
-o teu nome e a tua palavra. 
-Quando clamei, tu me respondeste;
-deste-me força e coragem. 
-Todos os reis da terra te renderão graças, Senhor,
-pois saberão das tuas promessas. 
-Celebrarão os feitos do Senhor,
-pois grande é a glória do Senhor! 
-Embora esteja nas alturas,
-o Senhor olha para os humildes,
-e de longe reconhece os arrogantes. 
-Ainda que eu passe por angústias,
-tu me preservas a vida
-da ira dos meus inimigos;
-estendes a tua mão direita e me livras. 
-O Senhor cumprirá o seu propósito
-para comigo!
-Teu amor, Senhor, permanece para sempre;
-não abandones as obras das tuas mãos! 
- Salmo 138
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366268 characters
-INFO:root:HTML parsed, length: 356243 characters
-INFO:root:Found 3 titles: ['Calma no meio da tempestade', 'Jesus venceu a morte para sempre', 'A realidade da nova vida em Cristo']
+INFO:root:Response length: 366310 characters
+INFO:root:HTML parsed, length: 356232 characters
+INFO:root:Found 3 titles: ['Orar sempre, sem desanimar', 'Calma no meio da tempestade', 'Jesus venceu a morte para sempre']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Ele se levantou, repreendeu o vento e disse ao lag', 'Eu os redimirei das garras do Sheol; eu os resgata', 'Portanto, se alguém está em Cristo, é uma nova cri']
-INFO:root:Found 1 dates: ['Sexta, 11 de setembro de 2026']
+INFO:root:Found 3 descriptions: ['Vida de oração não é uma técnica de fé, é um hábit', 'Ele se levantou, repreendeu o vento e disse ao lag', 'Eu os redimirei das garras do Sheol; eu os resgata']
+INFO:root:Found 1 dates: ['Sábado, 12 de setembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Calma no meio da tempestade', ID=300480e654f260548379d03876d22ae8
+INFO:root:Processing entry 1: Title='Orar sempre, sem desanimar', ID=353ab32ac7cb7ea3534b16fd3c274605
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Calma no meio da tempestade - Palavra de Hoje
+INFO:root:🔹 Title: Orar sempre, sem desanimar - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Ele se levantou, repreendeu o vento e disse ao lago: — Aquiete-se! Acalme-se! O vento se aquietou, e tudo ficou calmo.
-Marcos 4:39
+INFO:root:🔹 Description: Vida de oração não é uma técnica de fé, é um hábito de dependência. E como todo hábito, ela cansa antes de virar natural.
 
-Os discípulos estavam num barco à beira do pânico, certos de que iam morrer afogados, enquanto Jesus dormia na popa. Quando o acordaram, ele não precisou de mais que duas palavras para conter a tempestade. A autoridade de Cristo sobre o caos não é figura de linguagem: o vento obedeceu, o mar obedeceu.
+"Jesus contou aos seus discípulos a seguinte parábola, para mostrar-lhes que eles deviam orar sempre e nunca desanimar."
+Lucas 18:1 (NVI)
 
-Reduziu a tempestade a um sussurro, e as ondas sossegaram.
-Salmos 107:29
+Jesus não introduz essa parábola dizendo "orem quando sentirem vontade" ou "orem quando a resposta chegar rápido". Ele já assume que a oração vai testar a paciência, que vai haver silêncio antes da resposta, e mesmo assim pede persistência. Orar sempre, nessa lógica, não é sinal de fé perfeita, é o próprio caminho da fé enquanto ela espera.
+Isso muda a forma de encarar os dias em que orar parece repetitivo ou sem efeito visível. Não é sinal de que a oração parou de funcionar, é o momento em que ela mais precisa continuar. Desanimar é natural; parar é a escolha que a parábola pede para não fazer.
+Paulo resume essa mesma ideia numa única frase direta:
 
-Essa cena no lago não foi um acontecimento isolado. Ela revela quem Deus sempre foi. Muito antes de Jesus subir naquele barco, o salmista já cantava sobre um Deus que transforma tempestade em sussurro. O que os discípulos viram com os próprios olhos, o povo de Deus já conhecia pela fé.
+"Orem constantemente."
+1 Tessalonicenses 5:17 (NVI)
 
-Tu guardarás em perfeita paz aquele cujo propósito está firme, porque ele confia em ti.
-Isaías 26:3
-
-E essa mesma calma que aquietou o mar está disponível para o que se agita por dentro. Não é ausência de tempestade: é uma mente firme, ancorada em confiança, guardada em paz mesmo quando tudo ao redor continua incerto. A tempestade pode continuar lá fora. Mas quem confia em Deus já tem acesso à mesma calma que aquietou o mar da Galileia.
+Não "orem quando surgir uma crise" nem "orem no domingo". Constantemente. Isso não significa passar o dia de joelhos, significa manter um fio de conversa aberto com Deus que atravessa o trabalho, a fila do mercado, a preocupação que aparece do nada. Vida de oração se constrói assim: não em momentos grandiosos e raros, mas em conversas pequenas e frequentes que viram costume.
+Se a sua oração anda cansada ou automática, o convite não é abandonar o hábito, é continuar nele. É exatamente aí, na repetição que ainda não vê resposta, que a persistência se transforma em vida de oração de verdade.
  
-Ele se levantou, repreendeu o vento e disse ao lago: — Aquiete-se! Acalme-se! O vento se aquietou, e tudo ficou calmo.
-Marcos 4:39
+"Jesus contou aos seus discípulos a seguinte parábola, para mostrar-lhes que eles deviam orar sempre e nunca desanimar."
+Lucas 18:1 (NVI)
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376494 characters
-INFO:root:HTML parsed, length: 366020 characters
-INFO:root:Found 3 titles: ['Feitos para algo', 'Antes de Você Nascer, Deus Já Sabia', 'Até Quando, Senhor?']
+INFO:root:Response length: 376648 characters
+INFO:root:HTML parsed, length: 366185 characters
+INFO:root:Found 3 titles: ['A Noite do Choro Não é Para Sempre', 'Feitos para algo', 'Antes de Você Nascer, Deus Já Sabia']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Pois somos criação de Deus, criados em Cristo Jesu', 'Antes de formá-lo no ventre, eu o escolhi;\nantes d', 'Até quando, Senhor? Para sempre te esquecerás de m']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n11\nSEXTA', 'SETEMBRO\n\n10\nQUINTA', 'SETEMBRO\n\n9\nQUARTA']
+INFO:root:Found 3 descriptions: ['Porque a sua ira dura apenas um instante,\nmas o se', 'Pois somos criação de Deus, criados em Cristo Jesu', 'Antes de formá-lo no ventre, eu o escolhi;\nantes d']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n12\nSÁBADO', 'SETEMBRO\n\n11\nSEXTA', 'SETEMBRO\n\n10\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Feitos para algo', ID=bf047cb6fc6258bbbba4842dc671d142
-INFO:root:Processing entry 2: Title='Antes de Você Nascer, Deus Já Sabia', ID=e03737d5679b8cf5257086f275af9f69
-INFO:root:Processing entry 3: Title='Até Quando, Senhor?', ID=15caab8b32ecd35ddf8704bd87cc0878
+INFO:root:Processing entry 1: Title='A Noite do Choro Não é Para Sempre', ID=3d678eb877efa33ddda8833fc22feae1
+INFO:root:Processing entry 2: Title='Feitos para algo', ID=bf047cb6fc6258bbbba4842dc671d142
+INFO:root:Processing entry 3: Title='Antes de Você Nascer, Deus Já Sabia', ID=e03737d5679b8cf5257086f275af9f69
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A Noite do Choro Não é Para Sempre
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Porque a sua ira dura apenas um instante,
+mas o seu favor dura a vida toda;
+o choro pode persistir uma noite,
+mas de manhã irrompe a alegria.
+Salmos 30:5
+
+A perda de alguém que amamos muda o tamanho de tudo. As tarefas mais simples ficam pesadas, o silêncio da casa fica maior, e a saudade aparece nos lugares mais inesperados. É uma noite que, para quem está dentro dela, parece não ter fim.
+Davi escreveu este salmo depois de atravessar um momento em que quase perdeu tudo. Olhando para trás, ele reconhece que a tristeza que parecia definitiva não teve a última palavra. Quando ele fala de uma noite de choro, não está falando de vinte e quatro horas. Está falando de um período de dor real, às vezes longo, que Deus não ignora nem apressa.
+Essa promessa não significa que o luto se resolve da noite para o dia, nem que existe um prazo certo para parar de sentir falta de quem se foi. Significa que a dor, por mais que doa e por mais que dure, não é a palavra final sobre a sua vida. Existe uma manhã reservada, mesmo que você ainda não consiga ver o horizonte dela.
+Você não precisa apressar o seu luto nem fingir que já está bem. Chorar faz parte de honrar quem você perdeu. Ao mesmo tempo, você pode segurar, mesmo com a voz embargada, a esperança de que esta noite específica também vai passar.
+Atravesse o luto sem pressa
+
+Permita-se chorar hoje sem cobrar de si mesmo estar "melhor" que ontem.
+Compartilhe uma lembrança boa da pessoa que você perdeu com alguém de confiança.
+Procure apoio, seja de um amigo, da família ou de alguém da sua igreja, em vez de atravessar essa noite sozinho.
+Escreva uma oração simples contando a Deus exatamente o que você sente agora.
+Segure, mesmo sem forças, a certeza de que esta dor não é a palavra final.
+
+Para orar:
+
+Senhor, esta noite de luto dói mais do que eu sei explicar. Não te peço para apressar o que só o tempo, com tua ajuda, pode curar. Peço companhia para atravessar esta dor, força para os dias difíceis e a certeza de que tu estás comigo mesmo quando não sinto nada além de saudade. Segura-me até a manhã chegar. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Feitos para algo
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Pois somos criação de Deus, criados em Cristo Jesus para fazer boas obras, as quais Deus preparou de antemão para que nós as praticássemos.
@@ -329,29 +364,6 @@ Para orar:
 
 Senhor, obrigado por me conheceres e me escolheres antes mesmo de eu nascer. Perdoa-me pela ansiedade de sentir que ainda não encontrei o meu propósito. Ajuda-me a confiar que tu já sabias sobre mim desde o princípio e que vais revelar, passo a passo, o caminho que preparaste. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Até Quando, Senhor?
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Até quando, Senhor? Para sempre te esquecerás de mim?
-Até quando esconderás de mim o teu rosto?
-Até quando terei inquietações no íntimo e tristeza no coração dia após dia?
-Salmos 13:1-2
-
-Quando a doença se arrasta por semanas, meses, às vezes anos, é natural perguntar até quando isso vai durar. A fé não elimina o cansaço de um corpo que dói todos os dias, nem apaga a vontade de saber quando tudo isso vai passar.
-Davi faz exatamente essa pergunta, quatro vezes seguidas: até quando, até quando, até quando. Ele não esconde a sensação de abandono, de rosto escondido, de tristeza que não sai do coração dia após dia. Essa é uma oração real, sem verniz de espiritualidade forçada.
-A Bíblia dá espaço para o lamento. Você não precisa fingir que está bem para orar. Pode dizer a Deus exatamente o cansaço, a dúvida, a sensação de que ele está distante, porque isso também é uma forma legítima de oração.
-O mesmo salmo que começa com essas perguntas termina, poucos versículos depois, com uma virada: Davi escolhe confiar no amor leal de Deus, mesmo sem receber resposta para o "até quando". Isso não invalida o lamento, mostra que lamento e confiança podem existir na mesma oração, no mesmo dia difícil.
-Traga o seu lamento a Deus
-
-Escreva ou fale em voz alta o seu próprio "até quando" hoje, sem filtrar as palavras.
-Permita-se sentir cansaço e tristeza sem culpa por não estar "com mais fé".
-Releia Salmos 13 inteiro, incluindo a virada dos últimos versículos, quando puder.
-Compartilhe com alguém de confiança o quanto essa doença tem pesado, em vez de guardar sozinho.
-Termine o dia entregando a Deus uma coisa concreta que você não consegue carregar sozinho.
-
-Para orar:
-
-Senhor, até quando essa doença vai durar? Às vezes sinto que escondes o teu rosto de mim, e a tristeza não sai do meu coração. Não escondo isso de ti, porque sei que podes carregar o meu lamento. Mesmo sem entender o tempo dessa espera, escolho confiar no teu amor leal. Sustenta-me neste dia difícil. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -381,15 +393,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  47 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  45 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  24 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  20 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 114 +++++------
+ feeds/salmo_do_dia/atom.xml               |  74 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 316 +++++++++++++++---------------
- 11 files changed, 297 insertions(+), 289 deletions(-)
+ output.log                                | 268 +++++++++++++++---------------
+ 11 files changed, 251 insertions(+), 239 deletions(-)
