@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 201032 characters
-INFO:root:HTML parsed, length: 177599 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (16/09/2026)', 'Palavra de Ontem (15/09/2026)', 'Palavra de Anteontem (14/09/2026)']
-INFO:root:Found 3 URLs: ['/viavel/', '/receitar/', '/assessor/']
-INFO:root:Found 12 descriptions: ['adjetivo [Biologia] Que tem capacidade de crescer,', 'Sinônimos:\n\nexecutável, exequível, praticável, tra', 'Classe gramatical:adjetivo de dois gêneros']
-INFO:root:Found 3 dates: ['Palavra de Hoje (16/09/2026)', 'Palavra de Ontem (15/09/2026)', 'Palavra de Anteontem (14/09/2026)']
+INFO:root:Response length: 200580 characters
+INFO:root:HTML parsed, length: 177147 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (17/09/2026)', 'Palavra de Ontem (16/09/2026)', 'Palavra de Anteontem (15/09/2026)']
+INFO:root:Found 3 URLs: ['/emancipada/', '/viavel/', '/receitar/']
+INFO:root:Found 11 descriptions: ['adjetivo Que se emancipou; tornada livre, independ', 'Sinônimos:\n\nliberta, autônoma, independente, desvi', 'Sílabas:e-man-ci-pa-da']
+INFO:root:Found 3 dates: ['Palavra de Hoje (17/09/2026)', 'Palavra de Ontem (16/09/2026)', 'Palavra de Anteontem (15/09/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (16/09/2026)', ID=8fe7e022405668c9e04c7ec065dedf80
-INFO:root:Processing entry 2: Title='Palavra de Ontem (15/09/2026)', ID=c1faaa3538ba6fa8b33922e3be9793a5
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (14/09/2026)', ID=3d7e36d855672d0ec2058da7bc4bdc77
+INFO:root:Processing entry 1: Title='Palavra de Hoje (17/09/2026)', ID=fafe145fc175e49a976ef7711cc02ae4
+INFO:root:Processing entry 2: Title='Palavra de Ontem (16/09/2026)', ID=91fe50e449690464521485aaa047a64a
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (15/09/2026)', ID=d663f0ba17e6268837d06a3d8674aabf
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (16/09/2026) - Significado completo de viável:
+INFO:root:🔹 Title: Palavra de Hoje (17/09/2026) - Significado completo de emancipada:
+INFO:root:🔹 URL: https://www.dicio.com.br/emancipada/
+INFO:root:🔹 Description: adjetivo Que se emancipou; tornada livre, independente.[Jurídico] Considerada capaz de se responsabilizar civicamente pelas suas próprias ações.Etimologia (origem da palavra emancipada). A palavra emancipada tem sua origem como forma feminina de emancipado, derivada do latim “emancipatus,a,um”, pelo latim “emancipare”, com o mesmo sentido.
+ 
+Sinônimos:
+
+liberta, autônoma, independente, desvinculada, desimpedida, desatada, solta, desobrigada, liberada, desligada, desapegada, resolvida, insubmissa 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (16/09/2026) - Significado completo de viável:
 INFO:root:🔹 URL: https://www.dicio.com.br/viavel/
-INFO:root:🔹 Description: adjetivo [Biologia] Que tem capacidade de crescer, cultivar, originar ou crescer: planta viável; cultivo viável.[Figurado] Que se consegue realizar; executável.[Medicina] Que contém o necessário para o desenvolvimento da vida fora do útero; diz-se do feto.[Figurado] Que é duradouro; que tem a capacidade de durar.Etimologia (origem da palavra viável). Do francês viable.adjetivo Que não oferece empecilho ao transito; que não apresenta obstáculos; em que se pode transitar; transitável.Etimologia (origem da palavra viável). Do francês viabile.
+INFO:root:🔹 Description: Sinônimos:
+
+liberta, autônoma, independente, desvinculada, desimpedida, desatada, solta, desobrigada, liberada, desligada, desapegada, resolvida, insubmissa
+ Sílabas:e-man-ci-pa-da
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (15/09/2026) - Significado completo de receitar:
+INFO:root:🔹 URL: https://www.dicio.com.br/receitar/
+INFO:root:🔹 Description: Sílabas:e-man-ci-pa-da
  
 Sinônimos:
 
 executável, exequível, praticável, transitável, vivedouro 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (15/09/2026) - Significado completo de receitar:
-INFO:root:🔹 URL: https://www.dicio.com.br/receitar/
-INFO:root:🔹 Description: Sinônimos:
-
-executável, exequível, praticável, transitável, vivedouro
- Classe gramatical:adjetivo de dois gêneros
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (14/09/2026) - Significado completo de assessor:
-INFO:root:🔹 URL: https://www.dicio.com.br/assessor/
-INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros
- Sílabas:vi-á-vel
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,41 +46,70 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 365550 characters
-INFO:root:HTML parsed, length: 355058 characters
-INFO:root:Found 1 titles: ['Isaías 6:8']
-INFO:root:Found 1 URLs: ['/versiculo/isaias_6_8/']
-INFO:root:Found 1 descriptions: ['Então ouvi a voz do Senhor, conclamando: "Quem env']
+INFO:root:Response length: 365571 characters
+INFO:root:HTML parsed, length: 355079 characters
+INFO:root:Found 1 titles: ['2 Samuel 22:7']
+INFO:root:Found 1 URLs: ['/versiculo/2_samuel_22_7/']
+INFO:root:Found 1 descriptions: ['Na minha angústia, clamei ao Senhor;\nclamei ao meu']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Isaías 6:8', ID=a18078dbb5ba49acd140a583f4d3d6ba
+INFO:root:Processing entry 1: Title='2 Samuel 22:7', ID=0dd082de3894df959c18dd48db4f9ef6
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Isaías 6:8
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/isaias_6_8/
-INFO:root:🔹 Description: Então ouvi a voz do Senhor, conclamando: "Quem enviarei? Quem irá por nós?"
-E eu respondi: Eis-me aqui. Envia-me! Isaías 6:8
+INFO:root:🔹 Title: 2 Samuel 22:7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_samuel_22_7/
+INFO:root:🔹 Description: Na minha angústia, clamei ao Senhor;
+clamei ao meu Deus.
+Do seu templo ele ouviu a minha voz;
+o meu grito de socorro
+chegou aos seus ouvidos. 2 Samuel 22:7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 366321 characters
-INFO:root:HTML parsed, length: 356935 characters
-INFO:root:Found 3 titles: ['Salmo 69', 'Salmo 72', 'Salmo 144']
-INFO:root:Found 3 URLs: ['/salmos_69/', '/salmos_72/', '/salmos_144/']
-INFO:root:Found 3 descriptions: ['Salva-me, ó Deus!,\npois as águas subiram até o meu', 'Reveste da tua justiça o rei, ó Deus,\ne da tua ret', 'Bendito seja o Senhor, a minha Rocha,\nque treina a']
-INFO:root:Found 3 dates: ['16 de Setembro de 2026', '15 de Setembro de 2026', '14 de Setembro de 2026']
+INFO:root:Response length: 364950 characters
+INFO:root:HTML parsed, length: 355534 characters
+INFO:root:Found 3 titles: ['Salmo 149', 'Salmo 69', 'Salmo 72']
+INFO:root:Found 3 URLs: ['/salmos_149/', '/salmos_69/', '/salmos_72/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nCantem ao Senhor uma nova canção,\nlouvem-', 'Salva-me, ó Deus!,\npois as águas subiram até o meu', 'Reveste da tua justiça o rei, ó Deus,\ne da tua ret']
+INFO:root:Found 3 dates: ['17 de Setembro de 2026', '16 de Setembro de 2026', '15 de Setembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 69', ID=5195f6a86b128f1cf77ff0d1125e16c4
-INFO:root:Processing entry 2: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
-INFO:root:Processing entry 3: Title=' Salmo 144', ID=49ac889de8bc5a68b31e914f265de5df
+INFO:root:Processing entry 1: Title=' Salmo 149', ID=db5d6d8e1b7c9392315f60fb855f672e
+INFO:root:Processing entry 2: Title=' Salmo 69', ID=5195f6a86b128f1cf77ff0d1125e16c4
+INFO:root:Processing entry 3: Title=' Salmo 72', ID=7939aaa27ab2b0467a19be3a3e61384e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 149
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_149/
+INFO:root:🔹 Description: Aleluia!
+Cantem ao Senhor uma nova canção,
+louvem-no na assembleia dos fiéis. 
+Alegre-se Israel no seu Criador,
+exulte o povo de Sião no seu Rei! 
+Louvem eles o seu nome com danças;
+ofereçam-lhe música
+com tamborim e harpa. 
+O Senhor agrada-se do seu povo;
+ele coroa de vitória os oprimidos. 
+Regozijem-se os seus fiéis nessa glória
+e em seu leito cantem alegremente! 
+Altos louvores estejam em seus lábios
+e uma espada de dois gumes em suas mãos, 
+para impor vingança às nações
+e trazer castigo aos povos; 
+para prender os seus reis com grilhões
+e seus nobres com algemas de ferro; 
+para executar a sentença escrita
+contra eles.
+Esta é a glória de todos os seus fiéis.
+Aleluia! 
+ Salmo 149
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 69
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_69/
 INFO:root:🔹 Description: Salva-me, ó Deus!,
@@ -235,126 +268,79 @@ Amém e amém.
 Encerram-se aqui as orações de Davi, filho de Jessé. 
  Salmo 72
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 144
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_144/
-INFO:root:🔹 Description: Bendito seja o Senhor, a minha Rocha,
-que treina as minhas mãos para a guerra
-e os meus dedos para a batalha. 
-Ele é o meu aliado fiel, a minha fortaleza,
-a minha torre de proteção
-e o meu libertador;
-é o meu escudo, aquele em quem me refugio.
-Ele subjuga a mim os povos. 
-Senhor, que é o homem
-para que te importes com ele,
-ou o filho do homem
-para que por ele te interesses? 
-O homem é como um sopro;
-seus dias são como sombra passageira. 
-Estende, Senhor, os teus céus e desce;
-toca os montes para que fumeguem. 
-Envia relâmpagos e dispersa os inimigos;
-atira as tuas flechas e faze-os debandar. 
-Das alturas, estende a tua mão e liberta-me;
-salva-me da imensidão das águas,
-das mãos desses estrangeiros, 
-que têm lábios mentirosos
-e que, com a mão direita erguida,
-juram falsamente. 
-Cantarei uma nova canção a ti, ó Deus;
-tocarei para ti a lira de dez cordas, 
-para aquele que dá vitória aos reis,
-que livra o seu servo Davi
-da espada mortal. 
-Dá-me libertação;
-salva-me das mãos dos estrangeiros,
-que têm lábios mentirosos
-e que, com a mão direita erguida,
-juram falsamente. 
-Então, na juventude,
-os nossos filhos serão como plantas viçosas;
-as nossas filhas, como colunas
-esculpidas para ornar um palácio. 
-Os nossos celeiros estarão cheios
-das mais variadas provisões.
-Os nossos rebanhos se multiplicarão
-aos milhares,
-às dezenas de milhares em nossos campos; 
-o nosso gado dará suas crias;
-não haverá praga alguma nem aborto.
-Não haverá gritos de aflição em nossas ruas. 
-Como é feliz o povo assim abençoado!
-Como é feliz o povo cujo Deus é o Senhor! 
- Salmo 144
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 366192 characters
-INFO:root:HTML parsed, length: 356153 characters
-INFO:root:Found 3 titles: ['Renove Sua Esperança, Seja Paciente e Ore!', 'Na cruz, Deus provou seu amor', 'Entregue a pressão do trabalho a Deus']
+INFO:root:Response length: 366094 characters
+INFO:root:HTML parsed, length: 356064 characters
+INFO:root:Found 3 titles: ['Quem está ao seu lado na luta', 'Renove Sua Esperança, Seja Paciente e Ore!', 'Na cruz, Deus provou seu amor']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Alegrem-se na esperança, sejam pacientes na tribul', 'A cruz não é só um símbolo bonito. É o lugar onde ', 'Entregue ao Senhor tudo o que você faz, e os seus ']
-INFO:root:Found 1 dates: ['Quarta, 16 de setembro de 2026']
+INFO:root:Found 3 descriptions: ['O Senhor lutará por vocês; fiquem calmos.\nÊxodo 14', 'Alegrem-se na esperança, sejam pacientes na tribul', 'A cruz não é só um símbolo bonito. É o lugar onde ']
+INFO:root:Found 1 dates: ['Quinta, 17 de setembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Renove Sua Esperança, Seja Paciente e Ore!', ID=569d06302ce4fde8da71055c95ea52f5
+INFO:root:Processing entry 1: Title='Quem está ao seu lado na luta', ID=5228811515b9f7b1f7b4bd8e3e08be2f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Renove Sua Esperança, Seja Paciente e Ore! - Palavra de Hoje
+INFO:root:🔹 Title: Quem está ao seu lado na luta - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Alegrem-se na esperança, sejam pacientes na tribulação, perseverem na oração.
-- Romanos 12:12
+INFO:root:🔹 Description: O Senhor lutará por vocês; fiquem calmos.
+Êxodo 14:14
 
-A Palavra de Deus é poderosa. Em apenas um pequeno versículo vemos estas 4 coisas que todo crente precisa:
-1) Alegria: Se alegre com a esperança que tem em Jesus - a vida eterna.
-
-Porque a vontade de meu Pai é que todo aquele que olhar para o Filho e nele crer tenha a vida eterna, e eu o ressuscitarei no último dia". 
-- João 6:40
-
-2) Esperança: Essa esperança na vida eterna nos dá forças para viver.
-
-Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo! Conforme a sua grande misericórdia, ele nos regenerou para uma esperança viva, por meio da ressurreição de Jesus Cristo dentre os mortos,
-- 1 Pedro 1:3
-
-3) Paciência: Seja paciente quando problemas surgirem e confie em Deus. 
-
-Depositei toda a minha esperança no Senhor;
-ele se inclinou para mim
-e ouviu o meu grito de socorro.
-- Salmo 40:1
-
-4) Oração: Fique firme na sua vida de oração e não desista! 
-
-Saibam que o Senhor escolheu o piedoso;
-o Senhor ouvirá quando eu o invocar.
-- Salmo 4:3 
-
-Renove hoje sua esperança e confie em Deus. Ele não irá falhar com você.
-Encontre aqui mais versículos para renovar sua esperança.
+O povo de Israel estava encurralado entre o mar e o exército egípcio, sem nenhuma saída visível. Nesse momento de pânico, a ordem de Moisés não foi para reagir ou traçar uma estratégia, foi para ficar calmo. A razão é simples e poderosa: a luta não dependia das forças deles, dependia de quem estava lutando por eles.
+Pois o Senhor, o seu Deus, o acompanhará e lutará por você contra os seus inimigos, para dar-lhe a vitória.
+Deuteronômio 20:4
+Antes de qualquer batalha, o povo recebia esse lembrete: Deus não os enviava sozinhos, ele os acompanhava. A presença dele não era um detalhe simbólico, era a diferença entre enfrentar o inimigo com medo ou com a certeza de que a vitória não dependia apenas da própria força. Lutar ao lado de Deus muda completamente o peso de qualquer batalha.
+Que diremos, pois, diante dessas coisas? Se Deus é por nós, quem será contra nós?
+Romanos 8:31
+Paulo faz essa pergunta depois de descrever sofrimentos reais, perseguições e dificuldades que os primeiros cristãos enfrentavam. A resposta não elimina os adversários, mas os coloca na proporção certa: nenhum inimigo tem peso suficiente diante de quem está do nosso lado. Se Deus é por nós, a pergunta deixa de ser sobre o tamanho da luta e passa a ser sobre quem realmente está lutando nela.
+Do mar Vermelho às batalhas de Israel, até a pergunta retórica de Paulo, a mensagem se mantém a mesma: você nunca luta sozinho. Quem está ao seu lado na luta é o próprio Deus, e isso muda tudo.
  
-Alegrem-se na esperança, sejam pacientes na tribulação, perseverem na oração.
-- Romanos 12:12
+O Senhor lutará por vocês; fiquem calmos.
+Êxodo 14:14
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 376678 characters
-INFO:root:HTML parsed, length: 366221 characters
-INFO:root:Found 3 titles: ['Existe amigo mais chegado que um irmão', 'Paz dentro de casa', 'Quando a ansiedade toma conta']
+INFO:root:Response length: 377835 characters
+INFO:root:HTML parsed, length: 367365 characters
+INFO:root:Found 3 titles: ['Prontos para ouvir, devagar para reagir', 'Existe amigo mais chegado que um irmão', 'Paz dentro de casa']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Quem tem muitos amigos pode chegar à ruína,\nmas ex', 'Se, porém, não agrada a vocês servir ao Senhor, es', 'Quando as minhas inquietações aumentavam no meu ín']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n16\nQUARTA', 'SETEMBRO\n\n15\nTERÇA', 'SETEMBRO\n\n14\nSEGUNDA']
+INFO:root:Found 3 descriptions: ['Meus amados irmãos, tenham isto em mente: sejam to', 'Quem tem muitos amigos pode chegar à ruína,\nmas ex', 'Se, porém, não agrada a vocês servir ao Senhor, es']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n17\nQUINTA', 'SETEMBRO\n\n16\nQUARTA', 'SETEMBRO\n\n15\nTERÇA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Existe amigo mais chegado que um irmão', ID=261265118bb3af4c69f8a83d8357a239
-INFO:root:Processing entry 2: Title='Paz dentro de casa', ID=eb5fc02f1d57ed2383146b5628ec3944
-INFO:root:Processing entry 3: Title='Quando a ansiedade toma conta', ID=ac1c4f888d101615efe0b1310dfde478
+INFO:root:Processing entry 1: Title='Prontos para ouvir, devagar para reagir', ID=d395652f108e2542aad7985c502f17e1
+INFO:root:Processing entry 2: Title='Existe amigo mais chegado que um irmão', ID=261265118bb3af4c69f8a83d8357a239
+INFO:root:Processing entry 3: Title='Paz dentro de casa', ID=eb5fc02f1d57ed2383146b5628ec3944
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Prontos para ouvir, devagar para reagir
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Meus amados irmãos, tenham isto em mente: sejam todos prontos para ouvir, tardios para falar e tardios para irar-se.
+Tiago 1:19
+
+Muita confusão na nossa vida não nasce do que os outros fazem, nasce da velocidade com que respondemos. Uma mensagem mal escrita, um comentário fora de hora, uma crítica no trabalho, e já estamos formulando a resposta antes mesmo de terminar de ouvir. A reação chega antes da reflexão, e depois é difícil desfazer o que foi dito.
+Tiago escreve para cristãos espalhados, enfrentando dificuldades reais, e começa esse trecho chamando os leitores de "amados irmãos", um lembrete afetuoso antes de uma correção direta. Ele não está falando de teoria distante, está falando de um hábito prático do dia a dia: a ordem em que reagimos ao que ouvimos.
+Repare na sequência das três instruções. Primeiro, prontos para ouvir, como se a escuta devesse ser o movimento mais rápido, o primeiro reflexo diante de qualquer situação. Depois, tardios para falar, um freio proposital antes de abrir a boca. E por último, tardios para irar-se, reconhecendo que a raiva também tem seu próprio tempo, e que agir rápido demais sob ela quase sempre traz arrependimento depois.
+Essa ordem não é aleatória. Quando ouvimos com pressa e respondemos rápido, geralmente reagimos ao que imaginamos que a pessoa quis dizer, não ao que ela realmente disse. O domínio próprio começa exatamente aí, na pausa entre ouvir e responder. Não é sobre reprimir o que sentimos, é sobre dar espaço para que o sentimento inicial não seja o que comanda a resposta final.
+Vale notar que Tiago não condena o sentimento de raiva em si, ele condena a pressa em agir a partir dela. Alguns versículos depois, ele explica o motivo: "a ira do homem não produz a justiça que Deus deseja" (Tiago 1:20). A raiva rápida raramente resolve o problema que a provocou, geralmente cria um problema novo. Domínio próprio, nesse sentido, não é frieza, é a capacidade de deixar o primeiro impulso passar antes de decidir o que fazer com ele.
+Pratique hoje a pausa antes de reagir
+
+Na próxima conversa difícil, conte até cinco antes de responder, mesmo que pareça estranho.
+Escute a frase inteira da outra pessoa antes de começar a montar sua resposta na cabeça.
+Se sentir raiva subindo, adie a resposta para depois, mesmo que seja só alguns minutos.
+Releia uma mensagem antes de enviá-la quando estiver irritado.
+Pergunte-se: estou respondendo ao que a pessoa disse, ou ao que eu imaginei que ela quis dizer?
+Ao fim do dia, identifique um momento em que você reagiu rápido demais e ore pedindo domínio próprio para a próxima vez.
+
+Para orar:
+
+Senhor, eu quero ser mais rápido para ouvir do que para falar, e mais devagar para me irritar do que costumo ser. Coloca em mim o teu domínio próprio nos momentos em que a resposta rápida parece mais fácil. Ensina-me a pausar antes de reagir. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Existe amigo mais chegado que um irmão
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Quem tem muitos amigos pode chegar à ruína,
@@ -400,28 +386,6 @@ Para orar:
 
 Senhor, hoje escolho servir a ti com a minha vida, e peço que essa escolha se reflita em como trato quem mora comigo. Onde há tensão em casa, traz a tua paz. Onde falto em exemplo, me corrige. Ajuda-me a construir, com paciência, uma casa voltada para ti. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Quando a ansiedade toma conta
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Quando as minhas inquietações aumentavam no meu íntimo,
-o teu consolo trouxe alívio à minha alma.
-Salmos 94:19
-
-Todos nós já sentimos os pensamentos se multiplicando à noite, o coração acelerado sem um motivo claro, a mente presa num "e se" que não sai do lugar. A ansiedade não escolhe hora nem avisa antes de chegar.
-O salmista descreve algo parecido: inquietações aumentando por dentro, quase um transbordamento que ele não conseguia controlar sozinho. Este não é um versículo que promete que a ansiedade nunca mais vai voltar. É o relato de alguém que já esteve exatamente onde você está agora.
-E a resposta dele não foi resolver tudo por conta própria. Foi buscar o consolo de Deus, e esse consolo trouxe alívio, não porque o problema desapareceu na hora, mas porque a presença de Deus entrou no meio da inquietação.
-Sua ansiedade não precisa ter uma explicação clara para ser levada a Deus. Você pode nomear o que sente, mesmo sem entender totalmente de onde vem, e pedir o mesmo alívio que o salmista encontrou.
-Leve a inquietação a Deus hoje
-
-Escreva num papel o pensamento específico que mais tem crescido dentro de você.
-Antes de reagir ao próximo pensamento ansioso, pare e respire por alguns segundos.
-Releia Salmos 94:19 em voz alta quando sentir a inquietação aumentar.
-Conte a alguém de confiança o que você tem sentido, em vez de guardar sozinho.
-Agradeça por um momento de alívio que já experimentou, mesmo pequeno, nos últimos dias.
-
-Para orar:
-
-Senhor, as minhas inquietações têm aumentado por dentro e às vezes nem sei explicar o motivo. Peço o teu consolo agora, do jeito que só tu sabes dar. Traz alívio para a minha alma cansada e acalma os pensamentos que insistem em crescer. Fica comigo neste momento e em todos os que vierem. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -451,15 +415,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 ++--
- feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  39 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  43 ++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  44 ++---
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  16 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 122 +++++++++--
+ feeds/salmo_do_dia/atom.xml               |  76 +++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 329 ++++++++++++++++++------------
- 11 files changed, 391 insertions(+), 221 deletions(-)
+ output.log                                | 294 +++++++++++++-----------------
+ 11 files changed, 229 insertions(+), 313 deletions(-)
