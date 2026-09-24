@@ -1,40 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 201830 characters
-INFO:root:HTML parsed, length: 178401 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (23/09/2026)', 'Palavra de Ontem (22/09/2026)', 'Palavra de Anteontem (21/09/2026)']
-INFO:root:Found 3 URLs: ['/disponibilidade/', '/microchipagem/', '/harmonico-2/']
-INFO:root:Found 11 descriptions: ['substantivo feminino Qualidade de disponível, à di', 'Sinônimos:\n\nliberdade, ociosidade, desimpedimento,', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (23/09/2026)', 'Palavra de Ontem (22/09/2026)', 'Palavra de Anteontem (21/09/2026)']
+INFO:root:Response length: 199766 characters
+INFO:root:HTML parsed, length: 176518 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (24/09/2026)', 'Palavra de Ontem (23/09/2026)', 'Palavra de Anteontem (22/09/2026)']
+INFO:root:Found 3 URLs: ['/abadiense/', '/disponibilidade/', '/microchipagem/']
+INFO:root:Found 10 descriptions: ['adjetivo Relativo a Abadia dos Dourados, município', 'Classe gramatical:adjetivo de dois gêneros e subst', 'Sílabas:a-ba-di-en-se']
+INFO:root:Found 3 dates: ['Palavra de Hoje (24/09/2026)', 'Palavra de Ontem (23/09/2026)', 'Palavra de Anteontem (22/09/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (23/09/2026)', ID=efa4d5fcc731bef14721438e215eb655
-INFO:root:Processing entry 2: Title='Palavra de Ontem (22/09/2026)', ID=50075ce6bdbfbd9f76196ef53b501fc7
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (21/09/2026)', ID=4f5012c42e129d0f3405b268e8feecde
+INFO:root:Processing entry 1: Title='Palavra de Hoje (24/09/2026)', ID=31c79dc637a4d5ad951306522604cd1a
+INFO:root:Processing entry 2: Title='Palavra de Ontem (23/09/2026)', ID=b6ba5d501ad43a75dc56abaf4d3db6bb
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (22/09/2026)', ID=6c93ca0ee5c9455184901f81a7b5ef64
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (23/09/2026) - Significado completo de disponibilidade:
+INFO:root:🔹 Title: Palavra de Hoje (24/09/2026) - Significado completo de abadiense:
+INFO:root:🔹 URL: https://www.dicio.com.br/abadiense/
+INFO:root:🔹 Description: adjetivo Relativo a Abadia dos Dourados, município brasileiro situado em Minas Gerais: tradições abadienses.substantivo masculino e feminino Pessoa natural desse município: os abadienses são mineiros.Etimologia (origem da palavra abadiense). A palavra abadiense tem sua origem por influência do nome próprio Abadia e do sufixo -ense.
+ Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (23/09/2026) - Significado completo de disponibilidade:
 INFO:root:🔹 URL: https://www.dicio.com.br/disponibilidade/
-INFO:root:🔹 Description: substantivo feminino Qualidade de disponível, à disposição, pronto para: tinha disponibilidade para trabalhar.Característica da pessoa suscetível à mudança, a novos pontos de vista etc.Condição da pessoa que se encontra sem trabalho, desempregada.[Jurídico] Condição das propriedades passível de alienação, não suscetível a encargos.Medida administrativa pela qual um funcionário civil ou militar continua à disposição da administração sem, no entanto, exercer suas funções.[Economia] Característica dos títulos de valores que podem ser convertidos em numerário.[Física] Função expressa pela relação entre energia interna, volume e estropia de um sistema, temperatura e pressão externa.Etimologia (origem da palavra disponibilidade). A palavra disponibilidade tem sua origem pela junção de disponível, com a retirada de -ível, pelo latim -bili-“, com o sufixo -dade.
+INFO:root:🔹 Description: Classe gramatical:adjetivo de dois gêneros e substantivo de dois gêneros
+ Sílabas:a-ba-di-en-se
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (22/09/2026) - Significado completo de microchipagem:
+INFO:root:🔹 URL: https://www.dicio.com.br/microchipagem/
+INFO:root:🔹 Description: Sílabas:a-ba-di-en-se
  
 Sinônimos:
 
 liberdade, ociosidade, desimpedimento, acessibilidade, prontidão, facilidade, presteza, disposição 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (22/09/2026) - Significado completo de microchipagem:
-INFO:root:🔹 URL: https://www.dicio.com.br/microchipagem/
-INFO:root:🔹 Description: Sinônimos:
-
-liberdade, ociosidade, desimpedimento, acessibilidade, prontidão, facilidade, presteza, disposição
- Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (21/09/2026) - Significado completo de harmônico:
-INFO:root:🔹 URL: https://www.dicio.com.br/harmonico-2/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:dis-po-ni-bi-li-da-de
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +40,170 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 369717 characters
-INFO:root:HTML parsed, length: 358922 characters
-INFO:root:Found 1 titles: ['2 Coríntios 3:17']
-INFO:root:Found 1 URLs: ['/versiculo/2_corintios_3_17/']
-INFO:root:Found 1 descriptions: ['Ora, o Senhor é o Espírito e onde está o Espírito ']
+INFO:root:Response length: 369741 characters
+INFO:root:HTML parsed, length: 358946 characters
+INFO:root:Found 1 titles: ['1 Coríntios 2:16']
+INFO:root:Found 1 URLs: ['/versiculo/1_corintios_2_16/']
+INFO:root:Found 1 descriptions: ['"quem conheceu a mente\ndo Senhor\npara que possa in']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Coríntios 3:17', ID=631b59fded5a65adb953d16dbc9abc05
+INFO:root:Processing entry 1: Title='1 Coríntios 2:16', ID=4787e3a81eda26dfbdd211707c393582
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Coríntios 3:17
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_corintios_3_17/
-INFO:root:🔹 Description: Ora, o Senhor é o Espírito e onde está o Espírito do Senhor ali há liberdade. 2 Coríntios 3:17
+INFO:root:🔹 Title: 1 Coríntios 2:16
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/1_corintios_2_16/
+INFO:root:🔹 Description: "quem conheceu a mente
+do Senhor
+para que possa instruí-lo?"
+Nós, porém, temos a mente de Cristo. 1 Coríntios 2:16
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 366581 characters
-INFO:root:HTML parsed, length: 357158 characters
-INFO:root:Found 3 titles: ['Salmo 122', 'Salmo 12', 'Salmo 68']
-INFO:root:Found 3 URLs: ['/salmos_122/', '/salmos_12/', '/salmos_68/']
-INFO:root:Found 3 descriptions: ['Alegrei-me com os que me disseram:\n"Vamos à casa d', 'Salva-nos, Senhor!\nJá não há quem seja fiel;\njá nã', 'Que Deus se levante!\nSejam espalhados os seus inim']
-INFO:root:Found 3 dates: ['23 de Setembro de 2026', '22 de Setembro de 2026', '21 de Setembro de 2026']
+INFO:root:Response length: 367700 characters
+INFO:root:HTML parsed, length: 358288 characters
+INFO:root:Found 3 titles: ['Salmo 106', 'Salmo 122', 'Salmo 12']
+INFO:root:Found 3 URLs: ['/salmos_106/', '/salmos_122/', '/salmos_12/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nDeem graças ao Senhor porque ele é bom;\no', 'Alegrei-me com os que me disseram:\n"Vamos à casa d', 'Salva-nos, Senhor!\nJá não há quem seja fiel;\njá nã']
+INFO:root:Found 3 dates: ['24 de Setembro de 2026', '23 de Setembro de 2026', '22 de Setembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 122', ID=74194e341fafc43f25db77ecbc7754be
-INFO:root:Processing entry 2: Title=' Salmo 12', ID=49502e558b5ea125843624a2e8b68158
-INFO:root:Processing entry 3: Title=' Salmo 68', ID=906e07fabc5c47e7e79f302862fabb28
+INFO:root:Processing entry 1: Title=' Salmo 106', ID=72d02b08d54e5be369d917261872f13c
+INFO:root:Processing entry 2: Title=' Salmo 122', ID=74194e341fafc43f25db77ecbc7754be
+INFO:root:Processing entry 3: Title=' Salmo 12', ID=49502e558b5ea125843624a2e8b68158
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 106
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_106/
+INFO:root:🔹 Description: Aleluia!
+Deem graças ao Senhor porque ele é bom;
+o seu amor dura para sempre. 
+Quem poderá descrever
+os feitos poderosos do Senhor,
+ou declarar todo o louvor que lhe é devido? 
+Como são felizes
+os que perseveram na retidão,
+que sempre praticam a justiça! 
+Lembra-te de mim, Senhor,
+quando tratares com bondade o teu povo;
+vem em meu auxílio quando o salvares, 
+para que eu possa testemunhar
+o bem-estar dos teus escolhidos,
+alegrar-me com a alegria do teu povo
+e louvar-te com a tua herança. 
+Pecamos como os nossos antepassados;
+fizemos o mal e fomos rebeldes. 
+No Egito, os nossos antepassados
+não deram atenção às tuas maravilhas;
+não se lembraram das muitas manifestações
+do teu amor leal
+e rebelaram-se junto ao mar, o mar Vermelho. 
+Contudo, ele os salvou por causa do seu nome,
+para manifestar o seu poder. 
+Repreendeu o mar Vermelho, e este secou;
+ele os conduziu pelas profundezas
+como por um deserto. 
+Salvou-os das mãos daqueles que os odiavam;
+das mãos dos inimigos os resgatou. 
+As águas cobriram os seus adversários;
+nenhum deles sobreviveu. 
+Então creram nas suas promessas
+e a ele cantaram louvores. 
+Mas logo se esqueceram do que ele tinha feito
+e não esperaram para saber o seu plano. 
+Dominados pela gula no deserto,
+puseram Deus à prova nas regiões áridas. 
+Deu-lhes o que pediram,
+mas mandou sobre eles uma doença terrível. 
+No acampamento
+tiveram inveja de Moisés e de Arão,
+daquele que fora consagrado ao Senhor. 
+A terra abriu-se, engoliu Datã
+e sepultou o grupo de Abirão; 
+fogo surgiu entre os seus seguidores;
+as chamas consumiram os ímpios. 
+Em Horebe fizeram um bezerro,
+adoraram um ídolo de metal. 
+Trocaram a Glória deles
+pela imagem de um boi que come capim. 
+Esqueceram-se de Deus, seu Salvador,
+que fizera coisas grandiosas no Egito, 
+maravilhas na terra de Cam
+e feitos temíveis junto ao mar Vermelho. 
+Por isso, ele ameaçou destruí-los;
+mas Moisés, seu escolhido,
+intercedeu diante dele,
+para evitar que a sua ira os destruísse. 
+Também rejeitaram a terra desejável;
+não creram na promessa dele. 
+Queixaram-se em suas tendas
+e não obedeceram ao Senhor. 
+Assim, de mão levantada,
+ele jurou que os abateria no deserto 
+e dispersaria os seus descendentes
+entre as nações e os espalharia por outras terras. 
+Sujeitaram-se ao jugo de Baal-Peor
+e comeram sacrifícios oferecidos
+a ídolos mortos; 
+provocaram a ira do Senhor
+com os seus atos,
+e uma praga irrompeu no meio deles. 
+Mas Fineias se interpôs para executar o juízo,
+e a praga foi interrompida. 
+Isso lhe foi creditado como um ato de justiça
+que para sempre será lembrado,
+por todas as gerações. 
+Provocaram a ira de Deus
+junto às águas de Meribá;
+e, por causa deles, Moisés foi castigado; 
+rebelaram-se contra o Espírito de Deus,
+e Moisés falou sem refletir. 
+Eles não destruíram os povos,
+como o Senhor tinha ordenado, 
+em vez disso, misturaram-se com as nações
+e imitaram as suas práticas. 
+Prestaram culto aos seus ídolos,
+que se tornaram uma armadilha para eles. 
+Sacrificaram seus filhos e suas filhas
+aos demônios. 
+Derramaram sangue inocente,
+o sangue de seus filhos e filhas
+sacrificados aos ídolos de Canaã;
+e a terra foi profanada pelo sangue deles. 
+Tornaram-se impuros pelos seus atos;
+prostituíram-se por suas ações. 
+Por isso acendeu-se a ira do Senhor
+contra o seu povo
+e ele sentiu aversão por sua herança. 
+Entregou-os nas mãos das nações,
+e os seus adversários dominaram sobre eles. 
+Os seus inimigos os oprimiram
+e os subjugaram com o seu poder. 
+Ele os libertou muitas vezes,
+embora eles persistissem
+em seus planos de rebelião
+e afundassem em sua maldade. 
+Mas Deus atentou para o sofrimento deles
+quando ouviu o seu clamor. 
+Lembrou-se da sua aliança com eles,
+e arrependeu-se,
+por causa do seu imenso amor leal. 
+Fez com que os seus captores
+tivessem misericórdia deles. 
+Salva-nos, Senhor, nosso Deus!
+Ajunta-nos dentre as nações,
+para que demos graças ao teu santo nome
+e façamos do teu louvor a nossa glória. 
+Bendito seja o Senhor, o Deus de Israel,
+por toda a eternidade.
+Que todo o povo diga: "Amém!"
+Aleluia! 
+ Salmo 106
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 122
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_122/
 INFO:root:🔹 Description: Alegrei-me com os que me disseram:
@@ -127,185 +255,72 @@ Os ímpios andam altivos por toda parte,
 quando a corrupção é exaltada entre os ho­mens. 
  Salmo 12
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 68
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_68/
-INFO:root:🔹 Description: Que Deus se levante!
-Sejam espalhados os seus inimigos,
-fujam dele os seus adversários. 
-Que tu os dissipes
-assim como o vento leva a fumaça;
-como a cera se derrete na presença do fogo,
-assim pereçam os ímpios na presença de Deus. 
-Alegrem-se, porém, os justos!
-Exultem diante de Deus!
-Regozijem-se com grande alegria! 
-Cantem a Deus, louvem o seu nome,
-exaltem aquele que cavalga sobre as nuvens;
-seu nome é Senhor!
-Exultem diante dele! 
-Pai para os órfãos e defensor das viúvas
-é Deus em sua santa habitação. 
-Deus dá um lar aos solitários,
-liberta os presos para a prosperidade,
-mas os rebeldes vivem em terra árida. 
-Quando saíste à frente do teu povo, ó Deus,
-quando marchaste pelo ermo, 
-a terra tremeu,
-o céu derramou chuva
-diante de Deus, o Deus do Sinai;
-diante de Deus, o Deus de Israel. 
-Deste chuvas generosas, ó Deus;
-refrescaste a tua herança exausta. 
-O teu povo nela se instalou,
-e da tua bondade, ó Deus, supriste os pobres. 
-O Senhor anunciou a palavra,
-e muitos mensageiros a proclamavam: 
-"Reis e exércitos fogem em debandada;
-a dona de casa reparte os despojos. 
-Mesmo quando vocês dormem
-entre as fogueiras do acampamento,
-as asas da minha pomba
-estão recobertas de prata;
-as suas penas, de ouro reluzente". 
-Quando o Todo-poderoso espalhou os reis,
-foi como neve no monte Zalmom. 
-Os montes de Basã são majestosos;
-escarpados são os montes de Basã. 
-Por que, ó montes escarpados,
-estão com inveja do monte que Deus
-escolheu para sua habitação,
-onde o próprio Senhor habitará para sempre? 
-Os carros de Deus são incontáveis,
-são milhares de milhares;
-neles o Senhor veio do Sinai
-para o seu Lugar Santo. 
-Quando subiste em triunfo às alturas,
-ó Senhor Deus,
-levaste cativos muitos prisioneiros;
-recebeste homens como dádivas,
-até mesmo rebeldes,
-para estabeleceres morada. 
-Bendito seja o Senhor,
-Deus, nosso Salvador,
-que cada dia suporta as nossas cargas. 
-O nosso Deus é um Deus que salva;
-ele é o Soberano, ele é o Senhor
-que nos livra da morte. 
-Certamente Deus
-esmagará a cabeça dos seus inimigos,
-o crânio cabeludo
-dos que persistem em seus pecados. 
-"Eu os trarei de Basã", diz o Senhor,
-"eu os trarei das profundezas do mar, 
-para que você encharque os pés
-no sangue dos inimigos,
-sangue do qual a língua dos cães
-terá a sua porção." 
-Já se vê a tua marcha triunfal, ó Deus,
-a marcha do meu Deus e Rei
-adentrando o santuário. 
-À frente estão os cantores, depois os músicos;
-com eles vão as jovens tocando tamborins. 
-Bendigam a Deus na grande congregação!
-Bendigam o Senhor,
-descendentes de Israel! 
-Ali está a pequena tribo de Benjamim,
-a conduzi-los,
-os príncipes de Judá
-acompanhados de suas tropas,
-e os príncipes de Zebulom e Naftali. 
-A favor de vocês,
-manifeste Deus o seu poder!
-Mostra, ó Deus, o poder que já tens operado
-para conosco. 
-Por causa do teu templo em Jerusalém,
-reis te trarão presentes. 
-Repreende a fera entre os juncos,
-a manada de touros
-entre os bezerros das nações.
-Humilhados, tragam barras de prata.
-Espalha as nações que têm prazer na guerra. 
-Ricos tecidos venham do Egito;
-a Etiópia corra para Deus de mãos cheias. 
-Cantem a Deus, reinos da terra,
-louvem o Senhor, 
-aquele que cavalga os céus, os antigos céus.
-Escutem! Ele troveja com voz poderosa. 
-Proclamem o poder de Deus!
-Sua majestade está sobre Israel,
-seu poder está nas altas nuvens. 
-Tu és temível no teu santuário, ó Deus;
-é o Deus de Israel
-que dá poder e força ao seu povo.
-Bendito seja Deus! 
- Salmo 68
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 371383 characters
-INFO:root:HTML parsed, length: 361054 characters
-INFO:root:Found 3 titles: ['Agir com sabedoria', 'Quando Deus parece estar em silêncio', 'A bondade de Deus, provada e vivida']
+INFO:root:Response length: 371665 characters
+INFO:root:HTML parsed, length: 361337 characters
+INFO:root:Found 3 titles: ['Levantar de novo', 'Agir com sabedoria', 'Quando Deus parece estar em silêncio']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Se algum de vocês tem falta de sabedoria, peça-a a', 'Até quando, Senhor? Para sempre te esquecerás de m', 'Provem e vejam como o Senhor é bom. Bem-aventurado']
-INFO:root:Found 1 dates: ['Quarta, 23 de setembro de 2026']
+INFO:root:Found 3 descriptions: ['Pois ainda que o justo caia sete vezes, tornará a ', 'Se algum de vocês tem falta de sabedoria, peça-a a', 'Até quando, Senhor? Para sempre te esquecerás de m']
+INFO:root:Found 1 dates: ['Quinta, 24 de setembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Agir com sabedoria', ID=0d97512592bb6f06f3b36cf12ac2f042
+INFO:root:Processing entry 1: Title='Levantar de novo', ID=acedc27021e0c48fcd15ec19779b7f40
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Agir com sabedoria - Palavra de Hoje
+INFO:root:🔹 Title: Levantar de novo - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Se algum de vocês tem falta de sabedoria, peça-a a Deus, que a todos dá livremente, de boa vontade; e lhe será concedida.
-Tiago 1:5
+INFO:root:🔹 Description: Pois ainda que o justo caia sete vezes, tornará a erguer-se, mas os ímpios são arrastados pela calamidade.
+Provérbios 24:16
 
-Agir com sabedoria não é um traço natural com o qual nascemos, mas um presente divino que precisamos buscar intencionalmente. Em momentos de decisão ou crise, a nossa intuição humana frequentemente falha, levada por emoções ou por pressões externas. A verdadeira sabedoria começa com a humildade de reconhecer a própria limitação e pedir socorro ao Criador. Deus não nos repreende por não sabermos o que fazer; Ele se alegra em derramar clareza sobre aqueles que O buscam, iluminando o caminho com discernimento.
-Todo homem prudente age com base no conhecimento, mas o tolo expõe a sua insensatez.
-Provérbios 13:16
-A sabedoria se manifesta nas nossas ações e reações diárias. O prudente não age por impulso ou motivado pela pressa; ele avalia o cenário, busca entender os fatos e mede as consequências antes de dar um passo. Agir com sabedoria exige o autocontrole de frear a língua e pausar as reações emocionais. Enquanto a insensatez se apressa em fazer barulho e provar que tem razão, o comportamento sábio se constrói na ponderação, no planejamento cuidadoso e na paciência para esperar o tempo certo.
-Mas a sabedoria que vem do alto é antes de tudo pura; depois, pacífica, amável, compreensiva, cheia de misericórdia e de bons frutos, imparcial e sincera.
-Tiago 3:17
-O mundo frequentemente confunde sabedoria com esperteza ou com a capacidade de levar vantagem sobre os outros. No entanto, a sabedoria divina tem uma assinatura inconfundível: ela promove a paz e gera vida. Uma atitude verdadeiramente sábia nunca será acompanhada de amargura, manipulação ou arrogância. Ela se reflete em relacionamentos saudáveis, em palavras cheias de misericórdia e em ações justas que revelam o caráter de Cristo, provando que a mente foi moldada pelo alto. Buscada com humildade na presença de Deus, cultivada através da prudência contra os impulsos diários, e comprovada por atitudes pacíficas e misericordiosas: agir com sabedoria é o reflexo mais evidente de um coração guiado pelo Espírito Santo.
+A queda não é o capítulo final na vida daquele que confia em Deus. A promessa bíblica não nos garante uma jornada irretocável, livre de tropeços ou fracassos dolorosos, mas sim uma resiliência sobrenatural. O que define o justo não é a perfeição ilusória de nunca cair, mas a coragem e a graça divina que o impulsionam a se levantar novamente, não importa quantas vezes isso seja necessário. A força para recomeçar vem de saber que a misericórdia do Senhor se renova continuamente para aqueles que não desistem.
+Não se alegre a minha inimiga com a minha desgraça. Embora eu tenha caído, eu me levantarei. Embora eu esteja morando nas trevas, o Senhor será a minha luz.
+Miqueias 7:8
+Quando a adversidade ou os nossos próprios erros nos levam ao chão, o desespero e a vergonha tentam rapidamente nos manter prostrados. No entanto, a verdadeira fé nos permite declarar vitória mesmo no meio da mais densa escuridão. Levantar de novo é um ato profundo de confiança de que Deus continua agindo a nosso favor. Ele não nos abandona no momento do nosso fracasso, mas torna-se a luz compassiva que guia os nossos passos de volta ao caminho da restauração.
+Ainda que tropece, não cairá, pois o Senhor o toma pela mão.
+Salmos 37:24
+O segredo da nossa recuperação não está na nossa própria força de vontade ou na nossa capacidade humana de superação, mas nas mãos do Senhor que nos sustentam. Mesmo quando tropeçamos feio e sentimos que vamos desabar por completo, há uma segurança invisível e poderosa nos segurando. Podemos nos levantar novamente com ousadia porque não estamos lutando sozinhos nesta jornada; o Criador nos ampara, perdoa e nos coloca de pé para prosseguirmos com propósito. Marcada por uma resiliência que recusa a derrota, iluminada pela esperança divina no meio das trevas, e sustentada ativamente pelas mãos firmes do Criador: a capacidade de levantar de novo é a prova incontestável do amor inabalável de Deus.
  
-Se algum de vocês tem falta de sabedoria, peça-a a Deus, que a todos dá livremente, de boa vontade; e lhe será concedida.
-Tiago 1:5
+Pois ainda que o justo caia sete vezes, tornará a erguer-se, mas os ímpios são arrastados pela calamidade.
+Provérbios 24:16
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 381832 characters
-INFO:root:HTML parsed, length: 371071 characters
-INFO:root:Found 3 titles: ['O propósito do nosso trabalho', 'Dê um grito de socorro a Deus', 'Descanso para quem já não aguenta mais']
+INFO:root:Response length: 381015 characters
+INFO:root:HTML parsed, length: 370257 characters
+INFO:root:Found 3 titles: ['O medo de não ser suficiente', 'O propósito do nosso trabalho', 'Dê um grito de socorro a Deus']
 INFO:root:Found 1 URLs: ['/meu_deus_me_ajuda/']
-INFO:root:Found 3 descriptions: ['Tudo o que fizerem, façam de todo o coração, como ', 'Depositei toda a minha esperança no Senhor;\nele se', '— Venham a mim todos os que estão cansados e sobre']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n23\nQUARTA', 'SETEMBRO\n\n22\nTERÇA', 'SETEMBRO\n\n21\nSEGUNDA']
+INFO:root:Found 3 descriptions: ['Eu te louvo porque me fizeste de modo especial e a', 'Tudo o que fizerem, façam de todo o coração, como ', 'Depositei toda a minha esperança no Senhor;\nele se']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n24\nQUINTA', 'SETEMBRO\n\n23\nQUARTA', 'SETEMBRO\n\n22\nTERÇA']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='O propósito do nosso trabalho', ID=c8dffd578e55f11b31b3cca7efd97e0e
+INFO:root:Processing entry 1: Title='O medo de não ser suficiente', ID=edfd72cc3577125df324e0f3a87bed57
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: O propósito do nosso trabalho
+INFO:root:🔹 Title: O medo de não ser suficiente
 INFO:root:🔹 URL: https://www.bibliaon.com/meu_deus_me_ajuda/
-INFO:root:🔹 Description: Tudo o que fizerem, façam de todo o coração, como para o Senhor, e não para os homens.
-Colossenses 3:23
+INFO:root:🔹 Description: Eu te louvo porque me fizeste de modo especial e admirável. Tuas obras são maravilhosas! Digo isso com convicção.
+Salmos 139:14
 
-Muitas vezes, enxergamos o trabalho apenas como um fardo, uma obrigação cansativa para pagar as contas ou um mal necessário. É comum criarmos uma divisão irreal, achando que a nossa vida espiritual só acontece nos momentos de culto, enquanto a vida profissional é completamente separada de Deus.
-O apóstolo Paulo, no entanto, transforma radicalmente essa visão. Ele nos ensina que o nosso labor diário, independentemente de quão simples ou prestigiado ele seja aos olhos da sociedade, torna-se um verdadeiro ato de adoração quando é executado com a motivação correta.
-Trabalhar como para o Senhor eleva instantaneamente o nosso padrão de excelência. Já não fazemos as nossas tarefas apenas para agradar a um chefe terreno, para cumprir tabela ou para buscar reconhecimento humano. O nosso esforço passa a ser dedicado e apresentado ao nosso Mestre celestial.
-Essa mudança de perspectiva devolve a dignidade a todas as profissões honestas. Quer você esteja liderando uma empresa, atendendo clientes ou organizando um estoque, o seu trabalho possui um valor eterno e glorifica a Deus quando é feito de todo o coração.
-Pratique a dedicação hoje, onde você está
+O medo tem muitas faces, e uma das mais paralisantes é a insegurança de não sermos bons o suficiente. Muitas vezes, vivemos buscando validação externa, temendo a rejeição e duvidando do nosso próprio valor diante das exigências e expectativas da vida.
+Quando o salmista declara que foi feito de modo admirável, ele não está exaltando o próprio ego. Ele está reconhecendo a perfeição e a intencionalidade do trabalho do Criador. Combater o medo da inadequação não é simplesmente sobre confiar mais em si mesmo, mas sobre confiar plenamente Naquele que nos formou.
+O medo de falhar ou de não pertencer perde a força quando entendemos que a nossa verdadeira identidade não é definida pelo nosso desempenho, pelos nossos erros passados ou pela opinião alheia. Você não é um acaso, mas um projeto pensado com cuidado.
+A convicção que o salmista demonstra é um poderoso antídoto contra a paralisia do medo. Se o Deus que criou o universo dedicou atenção para formar você de maneira tão especial, não há razão para viver escondido atrás da insegurança ou das constantes comparações.
+Pratique a confiança hoje, onde você está
 
-Escolha uma tarefa que você costuma fazer de má vontade e decida executá-la hoje com excelência, dedicando-a a Deus.
-Evite participar de rodinhas de murmuração e reclamação sobre a empresa, os colegas ou o seu líder.
-Agradeça a Deus pelo seu emprego atual e pela capacidade física e mental que Ele lhe dá para prover o seu sustento.
-Releia Colossenses 3:23-24 e lembre-se de que a sua verdadeira e maior recompensa vem do Senhor.
+Quando o medo de não ser capaz surgir, declare em voz alta que você é uma obra maravilhosa criada e capacitada por Deus.
+Identifique hoje uma situação em que você recuou por medo do que os outros pensariam e decida dar um passo de coragem nessa área.
+Escreva três características ou talentos que Deus colocou em você e agradeça a Ele por essas qualidades específicas.
+Releia o Salmo 139 por completo para lembrar que o Senhor conhece todos os seus medos, fraquezas e pensamentos.
 
 Para orar
 
-Senhor, confesso que muitas vezes trabalho com murmuração, preguiça ou buscando apenas o aplauso humano. Perdoa-me por separar a minha fé da minha vida profissional. Renova a minha visão e ajuda-me a enxergar a minha rotina de trabalho como um ato de adoração a ti. Ensina-me a fazer todas as coisas com excelência e de todo o coração. Em nome de Jesus, amém.
+Senhor, confesso que o medo de falhar e a insegurança muitas vezes paralisam a minha vida. Perdoa-me por duvidar do cuidado com que me criaste. Ensina-me a enxergar o meu valor exclusivamente através dos teus olhos e não pelas medidas deste mundo. Dá-me coragem para viver a identidade que tu me deste. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -336,15 +351,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  51 ++----
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  23 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  24 +-
+ feeds/devocional_de_hoje/feed.json        |   6 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  41 ++---
+ feeds/palavra_do_dia/atom.xml             |  10 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 238 +++++++++--------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 254 ++++++++++++------------------
- 11 files changed, 186 insertions(+), 263 deletions(-)
+ output.log                                | 409 +++++++++++++++---------------
+ 11 files changed, 391 insertions(+), 373 deletions(-)
