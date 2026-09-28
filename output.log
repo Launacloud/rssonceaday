@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 202829 characters
-INFO:root:HTML parsed, length: 178687 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (27/09/2026)', 'Palavra de Ontem (26/09/2026)', 'Palavra de Anteontem (25/09/2026)']
-INFO:root:Found 3 URLs: ['/experiencia/', '/legal/', '/travanca/']
-INFO:root:Found 16 descriptions: ['substantivo feminino Conhecimento ou aprendizado o', 'Sinônimos:\n\nprova, experimento, ensaio, tentativa,', 'Antônimos:\n\nignorância, inexperiência']
-INFO:root:Found 3 dates: ['Palavra de Hoje (27/09/2026)', 'Palavra de Ontem (26/09/2026)', 'Palavra de Anteontem (25/09/2026)']
+INFO:root:Response length: 202671 characters
+INFO:root:HTML parsed, length: 178529 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (28/09/2026)', 'Palavra de Ontem (27/09/2026)', 'Palavra de Anteontem (26/09/2026)']
+INFO:root:Found 3 URLs: ['/hexagono/', '/experiencia/', '/legal/']
+INFO:root:Found 16 descriptions: ['substantivo masculino [Matemática] Polígono que te', 'Sinônimos:\n\nhexagonal', 'Classe gramatical:adjetivo e substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (28/09/2026)', 'Palavra de Ontem (27/09/2026)', 'Palavra de Anteontem (26/09/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (27/09/2026)', ID=7e357229261a036060100f939acf161c
-INFO:root:Processing entry 2: Title='Palavra de Ontem (26/09/2026)', ID=5ec417ec352c90727a9a875829ae3014
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/09/2026)', ID=4855fb6c32f79bf1e5525e9b0192c484
+INFO:root:Processing entry 1: Title='Palavra de Hoje (28/09/2026)', ID=e52ce4341a7bdd6d529e93bf75e530dd
+INFO:root:Processing entry 2: Title='Palavra de Ontem (27/09/2026)', ID=c339855d3dd34f13c6abd458278db4bc
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (26/09/2026)', ID=d9bca74773d9549c37ba2531c2df00c4
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (27/09/2026) - Significado completo de experiência:
-INFO:root:🔹 URL: https://www.dicio.com.br/experiencia/
-INFO:root:🔹 Description: substantivo feminino Conhecimento ou aprendizado obtido através da prática ou da vivência: experiência de vida; experiência de trabalho.Teste feito de modo experimental; prova, tentativa: neste trabalho, seu contrato é de experiência.Modo de aprendizado obtido sistematicamente, sendo aprimorado com o passar do tempo: professor de grande experiência.[Filosofia] Todo conhecimento adquirido através da utilização dos sentidos.Etimologia (origem da palavra experiência). A palavra experiência tem sua origem no latim "experientia,ae", com o sentido de tentativa.
+INFO:root:🔹 Title: Palavra de Hoje (28/09/2026) - Significado completo de hexágono:
+INFO:root:🔹 URL: https://www.dicio.com.br/hexagono/
+INFO:root:🔹 Description: substantivo masculino [Matemática] Polígono que tem seis lados e, em consequência disso, seis ângulos: o lado do hexágono regular inscrito num círculo é igual ao raio desse círculo.adjetivo Cuja base é um hexágono; hexagonal: pirâmide hexágono.expressão Hexágono regular. Hexágono que tem os lados e os ângulos internos iguais.Etimologia (origem da palavra hexágono). A palavra hexágono tem sua origem no grego "hekságonos, os, on" que significa composto por seis lados.
  
 Sinônimos:
 
-prova, experimento, ensaio, tentativa, prática, aprendizado, aprendizagem, vivência, conhecimento, perícia, habilidade, destreza, proficiência 
+hexagonal 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (26/09/2026) - Significado completo de legal:
-INFO:root:🔹 URL: https://www.dicio.com.br/legal/
+INFO:root:🔹 Title: Palavra de Ontem (27/09/2026) - Significado completo de experiência:
+INFO:root:🔹 URL: https://www.dicio.com.br/experiencia/
 INFO:root:🔹 Description: Sinônimos:
 
-prova, experimento, ensaio, tentativa, prática, aprendizado, aprendizagem, vivência, conhecimento, perícia, habilidade, destreza, proficiência
- 
-Antônimos:
-
-ignorância, inexperiência 
-
+hexagonal
+ Classe gramatical:adjetivo e substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (25/09/2026) - Significado completo de travanca:
-INFO:root:🔹 URL: https://www.dicio.com.br/travanca/
-INFO:root:🔹 Description: Antônimos:
-
-ignorância, inexperiência
- Classe gramatical:substantivo feminino
+INFO:root:🔹 Title: Palavra de Anteontem (26/09/2026) - Significado completo de legal:
+INFO:root:🔹 URL: https://www.dicio.com.br/legal/
+INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
+ Sílabas:he-xá-go-no
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,94 @@ INFO:root:Response length: 559 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 369695 characters
-INFO:root:HTML parsed, length: 358900 characters
-INFO:root:Found 1 titles: ['Mateus 21:22']
-INFO:root:Found 1 URLs: ['/versiculo/mateus_21_22/']
-INFO:root:Found 1 descriptions: ['E tudo o que pedirem em oração, se crerem, vocês r']
+INFO:root:Response length: 369642 characters
+INFO:root:HTML parsed, length: 358847 characters
+INFO:root:Found 1 titles: ['Hebreus 10:23']
+INFO:root:Found 1 URLs: ['/versiculo/hebreus_10_23/']
+INFO:root:Found 1 descriptions: ['Apeguemo-nos com firmeza à esperança que professam']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Mateus 21:22', ID=25e96663794ad6561d26ff5a28a26038
+INFO:root:Processing entry 1: Title='Hebreus 10:23', ID=9ba7df999fa72728cb27f3adb0e0a120
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Mateus 21:22
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_21_22/
-INFO:root:🔹 Description: E tudo o que pedirem em oração, se crerem, vocês receberão". Mateus 21:22
+INFO:root:🔹 Title: Hebreus 10:23
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_10_23/
+INFO:root:🔹 Description: Apeguemo-nos com firmeza à esperança que professamos, pois aquele que prometeu é fiel. Hebreus 10:23
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 367079 characters
-INFO:root:HTML parsed, length: 357659 characters
-INFO:root:Found 3 titles: ['Salmo 40', 'Salmo 88', 'Salmo 19']
-INFO:root:Found 3 URLs: ['/salmos_40/', '/salmos_88/', '/salmos_19/']
-INFO:root:Found 3 descriptions: ['Depositei toda a minha esperança no Senhor;\nele se', 'Ó Senhor, Deus que me salva,\na ti clamo dia e noit', 'Os céus declaram a glória de Deus;\no firmamento pr']
-INFO:root:Found 3 dates: ['27 de Setembro de 2026', '26 de Setembro de 2026', '25 de Setembro de 2026']
+INFO:root:Response length: 367221 characters
+INFO:root:HTML parsed, length: 357790 characters
+INFO:root:Found 3 titles: ['Salmo 42', 'Salmo 40', 'Salmo 88']
+INFO:root:Found 3 URLs: ['/salmos_42/', '/salmos_40/', '/salmos_88/']
+INFO:root:Found 3 descriptions: ['Como a corça anseia por águas correntes,\na minha a', 'Depositei toda a minha esperança no Senhor;\nele se', 'Ó Senhor, Deus que me salva,\na ti clamo dia e noit']
+INFO:root:Found 3 dates: ['28 de Setembro de 2026', '27 de Setembro de 2026', '26 de Setembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
-INFO:root:Processing entry 2: Title=' Salmo 88', ID=6a77f7e175812bd7016c471cb9b00e8b
-INFO:root:Processing entry 3: Title=' Salmo 19', ID=db6236442bff7c5899bca41c0cc17596
+INFO:root:Processing entry 1: Title=' Salmo 42', ID=e352ae45a826f961dc2f05b4efaed33f
+INFO:root:Processing entry 2: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
+INFO:root:Processing entry 3: Title=' Salmo 88', ID=6a77f7e175812bd7016c471cb9b00e8b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 42
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_42/
+INFO:root:🔹 Description: Como a corça anseia por águas correntes,
+a minha alma anseia por ti, ó Deus. 
+A minha alma tem sede de Deus, do Deus vivo.
+Quando poderei entrar
+para apresentar-me a Deus? 
+Minhas lágrimas têm sido o meu alimento
+de dia e de noite,
+pois me perguntam o tempo todo:
+"Onde está o seu Deus?" 
+Quando me lembro dessas coisas,
+choro angustiado.
+Pois eu costumava ir com a multidão,
+conduzindo a procissão à casa de Deus,
+com cantos de alegria e de ação de graças
+em meio à multidão que festejava. 
+Por que você está assim tão triste,
+ó minha alma?
+Por que está assim tão perturbada
+dentro de mim?
+Ponha a sua esperança em Deus!
+Pois ainda o louvarei;
+ele é o meu Salvador e
+o meu Deus. 
+A minha alma está profundamente triste;
+por isso de ti me lembro
+desde a terra do Jordão,
+das alturas do Hermom,
+desde o monte Mizar. 
+Abismo chama abismo
+ao rugir das tuas cachoeiras;
+todas as tuas ondas e vagalhões
+se abateram sobre mim. 
+Conceda-me o Senhor o seu fiel amor de dia;
+de noite esteja comigo a sua canção.
+É a minha oração ao Deus que me dá vida. 
+Direi a Deus, minha Rocha:
+"Por que te esqueceste de mim?
+Por que devo sair vagueando e pranteando,
+oprimido pelo inimigo?" 
+Até os meus ossos sofrem agonia mortal
+quando os meus adversários zombam de mim,
+perguntando-me o tempo todo:
+"Onde está o seu Deus?" 
+Por que você está assim tão triste,
+ó minha alma?
+Por que está assim tão perturbada
+dentro de mim?
+Ponha a sua esperança em Deus!
+Pois ainda o louvarei;
+ele é o meu Salvador e o meu Deus. 
+ Salmo 42
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 40
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_40/
 INFO:root:🔹 Description: Depositei toda a minha esperança no Senhor;
@@ -198,162 +246,79 @@ e os meus companheiros;
 as trevas são a minha única companhia. 
  Salmo 88
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 19
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_19/
-INFO:root:🔹 Description: Os céus declaram a glória de Deus;
-o firmamento proclama a obra das suas mãos. 
-Um dia fala disso a outro dia;
-uma noite o revela a outra noite. 
-Sem discurso nem palavras,
-não se ouve a sua voz. 
-Mas a sua voz ressoa por toda a terra
-e as suas palavras até os confins do mundo.
-Nos céus ele armou uma tenda para o sol, 
-que é como um noivo que sai de seu aposento
-e se lança em sua carreira
-com a alegria de um herói. 
-Sai de uma extremidade dos céus
-e faz o seu trajeto até a outra;
-nada escapa ao seu calor. 
-A lei do Senhor é perfeita e revigora a alma.
-Os testemunhos do Senhor
-são dignos de confiança
-e tornam sábios os inexperientes. 
-Os preceitos do Senhor são justos
-e dão alegria ao coração.
-Os mandamentos do Senhor são límpidos
-e trazem luz aos olhos. 
-O temor do Senhor é puro
-e dura para sempre.
-As ordenanças do Senhor são verdadeiras,
-são todas elas justas. 
-São mais desejáveis do que o ouro,
-do que muito ouro puro;
-são mais doces do que o mel,
-do que as gotas do favo. 
-Por elas o teu servo é advertido;
-há grande recompensa em obedecer-lhes. 
-Quem pode discernir os próprios erros?
-Absolve-me dos que desconheço! 
-Também guarda o teu servo
-dos pecados intencionais;
-que eles não me dominem!
-Então serei íntegro,
-inocente de grande transgressão. 
-Que as palavras da minha boca
-e a meditação do meu coração
-sejam agradáveis a ti,
-Senhor, minha Rocha e meu Resgatador! 
- Salmo 19
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 371653 characters
-INFO:root:HTML parsed, length: 361325 characters
-INFO:root:Found 3 titles: ['Continue gerando fé', 'A verdade é sempre a melhor opção', 'O privilégio de ser chamado amigo de Deus']
+INFO:root:Response length: 371682 characters
+INFO:root:HTML parsed, length: 361355 characters
+INFO:root:Found 3 titles: ['Rios no deserto', 'Continue gerando fé', 'A verdade é sempre a melhor opção']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Consequentemente, a fé vem por se ouvir a mensagem', 'Os lábios que dizem a verdade permanecem para semp', 'O Senhor falava com Moisés face a face, como quem ']
-INFO:root:Found 1 dates: ['Domingo, 27 de setembro de 2026']
+INFO:root:Found 3 descriptions: ['Vejam, estou fazendo uma coisa nova! Ela já está s', 'Consequentemente, a fé vem por se ouvir a mensagem', 'Os lábios que dizem a verdade permanecem para semp']
+INFO:root:Found 1 dates: ['Segunda, 28 de setembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Continue gerando fé', ID=6fcbd31f0827dffe30697a5bb84b0559
+INFO:root:Processing entry 1: Title='Rios no deserto', ID=b2c15090906567b2fb25b71068ca1972
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Continue gerando fé - Palavra de Hoje
+INFO:root:🔹 Title: Rios no deserto - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Consequentemente, a fé vem por se ouvir a mensagem, e a mensagem é ouvida mediante a palavra de Cristo.
-Romanos 10:17
+INFO:root:🔹 Description: Vejam, estou fazendo uma coisa nova! Ela já está surgindo! Vocês não a reconhecem? Até no deserto vou abrir um caminho e riachos no ermo.
+Isaías 43:19
 
-A fé não é um sentimento passivo que surge do nada ou que se sustenta sozinho com o passar do tempo. Ela precisa ser constantemente alimentada e gerada em nossos corações através do contato intencional com a Palavra de Deus. Quando deixamos de ouvir e meditar nas verdades de Cristo, a nossa fé naturalmente enfraquece diante das vozes do mundo. Continuar gerando fé exige o compromisso diário de expor a nossa mente às promessas eternas, silenciando as dúvidas e nutrindo a alma com aquilo que o Senhor já declarou.
-Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos.
-Hebreus 11:1
-Manter a fé viva significa escolher confiar naquilo que os nossos olhos físicos ainda não conseguem enxergar. Em meio às crises e demoras, somos tentados a basear a nossa esperança apenas no que é palpável e imediato. No entanto, a verdadeira fé atua como uma âncora invisível, oferecendo certeza e convicção mesmo quando o cenário ao redor parece completamente desfavorável. Gerar fé continuamente é recusar-se a ser guiado pelas circunstâncias momentâneas, decidindo firmar os pés na imutável fidelidade daquele que prometeu.
-Edifiquem-se, porém, amados, na santíssima fé que vocês têm, orando no Espírito Santo.
-Judas 1:20
-A responsabilidade de edificar e fortalecer a própria fé não deve ser terceirizada. O apóstolo Judas nos convoca a assumir uma postura ativa nesse processo de crescimento espiritual, destacando a oração como uma ferramenta indispensável. Orar no Espírito Santo é conectar a nossa fraqueza humana à força divina, permitindo que o próprio Deus renove a nossa confiança. Continuar gerando fé é um trabalho de construção contínua, onde cada momento de comunhão sincera adiciona um novo tijolo à nossa fortaleza interior. Alimentada diariamente pela exposição à Palavra, firmada na certeza do invisível em meio às adversidades, e edificada ativamente através de uma vida constante de oração: continuar gerando fé é o único caminho seguro para mantermos a nossa esperança inabalável até o fim.
+Deus é especialista em criar vida onde os nossos olhos humanos só enxergam aridez e morte. O deserto costuma ser um lugar de passagem, solidão e intensa provação, onde as nossas forças rapidamente se esgotam. No entanto, o Senhor nos convida a mudar a nossa perspectiva. Ele não apenas nos promete companhia durante o calor escaldante da dificuldade, mas garante que pode fazer brotar águas de refrigério no cenário mais improvável, transformando o nosso sofrimento em renovação.
+Abrirei rios nas colinas estéreis, e fontes nos vales. Transformarei o deserto num lago, e o chão ressequido em mananciais.
+Isaías 41:18
+A provisão divina nunca estará limitada pelas leis naturais ou pelas circunstâncias desfavoráveis que nos cercam. Quando os nossos recursos chegam ao fim e o chão ao nosso redor parece estéril e sem perspectiva, a intervenção de Deus se manifesta com poder absoluto. Ele é plenamente capaz de inundar os vales mais secos com a sua graça abundante. Crer em rios no deserto é confiar que o nosso sustento vem das mãos do Criador, e não do ambiente.
+Quem crer em mim, como diz a Escritura, do seu interior fluirão rios de água viva.
+João 7:38
+O maior milagre divino não acontece apenas ao nosso redor, mas principalmente dentro de nós. Quando enfrentamos os desertos da vida, somos tentados a nos esvaziar pelo cansaço e pela amargura. Contudo, Jesus nos promete que o seu próprio Espírito habita em nós como uma fonte inesgotável. Essa água viva não apenas mata a nossa sede espiritual nos dias secos, mas também transborda de forma abundante, tornando-nos canais de refrigério para outras pessoas. Capaz de criar novos caminhos onde não há saída, provedor incansável diante da escassez terrena, e fonte inesgotável que jorra de dentro para fora: a promessa de rios no deserto é a garantia de que a vida de Deus sempre vencerá a nossa sequidão.
  
-Consequentemente, a fé vem por se ouvir a mensagem, e a mensagem é ouvida mediante a palavra de Cristo.
-Romanos 10:17
+Vejam, estou fazendo uma coisa nova! Ela já está surgindo! Vocês não a reconhecem? Até no deserto vou abrir um caminho e riachos no ermo.
+Isaías 43:19
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 380724 characters
-INFO:root:HTML parsed, length: 369957 characters
-INFO:root:Found 3 titles: ['Nunca esquecidos', 'O peso do amanhã', 'A promessa do amanhecer']
-INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['"Haverá mãe que possa esquecer seu bebê que ainda ', 'Portanto, não se preocupem com o amanhã, pois o am', 'Pois a sua ira só dura um instante, mas o seu favo']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n27\nDOMINGO', 'SETEMBRO\n\n26\nSÁBADO', 'SETEMBRO\n\n25\nSEXTA']
-INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Nunca esquecidos', ID=aa12b12bba2c358b81cbcf4b501e2353
-INFO:root:Processing entry 2: Title='O peso do amanhã', ID=58cb85262edecb15667427dc5b638559
-INFO:root:Processing entry 3: Title='A promessa do amanhecer', ID=040fa6903f3de80ae7b0a52b4350f3af
-INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
+INFO:root:Response length: 381150 characters
+INFO:root:HTML parsed, length: 370396 characters
+INFO:root:Found 3 titles: ['Que sacrifícios agradam a Deus?', 'Nunca esquecidos', 'O peso do amanhã']
+INFO:root:Found 1 URLs: ['/coisas_que_agradam_a_deus/']
+INFO:root:Found 3 descriptions: ['Os sacrifícios que agradam a Deus\nsão um espírito ', '"Haverá mãe que possa esquecer seu bebê que ainda ', 'Portanto, não se preocupem com o amanhã, pois o am']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n28\nSEGUNDA', 'SETEMBRO\n\n27\nDOMINGO', 'SETEMBRO\n\n26\nSÁBADO']
+INFO:root:Min length for iteration: 1
+INFO:root:Processing entry 1: Title='Que sacrifícios agradam a Deus?', ID=60e42c171afcec2cb772499bdf5be223
+INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Nunca esquecidos
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: "Haverá mãe que possa esquecer seu bebê que ainda mama e não ter compaixão do filho que gerou? Embora ela possa esquecê-lo, eu não me esquecerei de você!"
-Isaías 49:15
+INFO:root:🔹 Title: Que sacrifícios agradam a Deus?
+INFO:root:🔹 URL: https://www.bibliaon.com/coisas_que_agradam_a_deus/
+INFO:root:🔹 Description: Os sacrifícios que agradam a Deus
+são um espírito quebrantado;
+um coração quebrantado e contrito,
+ó Deus, não desprezarás.
+- Salmos 51:16-17
 
-A solidão é uma das dores mais silenciosas da alma. Muitas vezes, ela não surge pela ausência física de pessoas ao nosso redor, mas pela profunda sensação de não sermos vistos, compreendidos ou lembrados por ninguém. O isolamento emocional tenta nos convencer de que fomos deixados para trás.
-Para combater esse sentimento devastador, Deus usa a imagem do vínculo humano mais forte e instintivo que existe: o amor de uma mãe por seu bebê. Ele reconhece que, num mundo quebrado pelas falhas humanas, até mesmo esse afeto tão puro pode falhar. No entanto, o compromisso e a memória do Senhor em relação a nós transcendem qualquer amor terreno.
-O conforto divino na solidão não é a promessa de que sempre teremos uma multidão ao nosso lado, mas a garantia irrefutável de que nunca, em momento algum, saímos da mente e do coração do Criador. A sua presença é uma realidade inabalável que não depende da nossa percepção.
-Você pode se sentir invisível para a sociedade ou esquecido pelas pessoas que amava, mas os olhos de Deus continuam fixos em você. Quando a solidão gritar que você está só, lembre-se de que a sua vida é eternamente acompanhada e amparada por Aquele que nunca abandona os seus.
-Pratique a presença de Deus hoje, onde você está
+Você já fez algum voto ou sacrifício para Deus? Muitas religiões mantém práticas sacrificiais buscando com isso obter benefícios, redenção pessoal, desculpa pelo pecado ou mesmo autopromoção espiritual. Há ainda aqueles que passam por privações voluntárias em prol de uma denominação, uma causa ou pessoa. Tudo isso até parece muito bonito, mas tem muito pouco ou nenhum valor perante Deus.
+A Bíblia diz que Deus não quer sacrifícios (Oséias 6:6), Ele espera que sejamos crentes e arrependidos (Marcos 1:15), misericordiosos, humildes e justos (Provérbios 21:3). O sacrifício de Jesus na cruz, agradou-O plenamente e foi suficiente para promover perdão e graça. Não há nada que possamos fazer para alcançar a salvação. Também não é correto barganhar com Deus para conseguir bênçãos materiais. O que podemos oferecer é uma vida rendida a Jesus, amando-O com um coração quebrantado, que reconhece as suas próprias falhas, sua fragilidade e dependência de Deus (Romanos 12:1).
+Agrade a Deus com os sacrifícios certos:
 
-Ao se sentir sozinho, faça uma pausa de cinco minutos em silêncio, apenas reconhecendo mentalmente que Deus está no mesmo ambiente que você.
-Seja intencional e envie uma mensagem para alguém que também possa estar precisando de companhia, transformando a sua dor em pontes de afeto.
-Escreva em um lugar visível a frase "Deus nunca se esquece de mim" para combater rapidamente os pensamentos intrusivos de abandono.
-Releia Isaías 49:14-16 e medite sobre a imagem de ter o seu próprio nome gravado nas palmas das mãos de Deus.
 
-Para orar
+Entregue a Deus sacrifícios que O louvem (Hebreus 13:15-16) e não busque glória para si mesmo.
 
-Senhor, confesso que em muitos momentos a solidão aperta o meu peito e me faz sentir invisível e desamparado. Perdoa-me por deixar o silêncio ao meu redor abafar a tua voz. Lembra-me de que o teu amor por mim é mais forte do que qualquer laço humano e que a tua presença é constante. Ensina-me a descansar na certeza de que nunca estou verdadeiramente só. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O peso do amanhã
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Portanto, não se preocupem com o amanhã, pois o amanhã trará as suas próprias preocupações. Basta a cada dia o seu próprio mal.
-Mateus 6:34
+Leia os versículos mencionados acima. Reflita em como devem ser os sacrifícios para Deus.
+Seja grato a Deus por ter oferecido o maior sacrifício: Jesus Cristo. Ele não rejeita aqueles que têm pouco ou nada nas mãos, mas que se entregam a Ele, com o coração contrito e humilde.
 
-A ansiedade tem a capacidade impressionante de nos arrancar do tempo presente e nos aprisionar em um futuro que nem sequer aconteceu. Passamos noites em claro tentando resolver mentalmente problemas que talvez nunca se concretizem.
-Quando Jesus nos orienta a não nos preocuparmos com o amanhã, Ele não está promovendo a irresponsabilidade ou o descaso com o planejamento. O que Ele nos ensina é que a graça e a força de Deus são dadas em porções diárias. Você só tem os recursos espirituais para lidar com as batalhas de hoje.
-Tentar carregar o peso do amanhã com as forças de hoje é a receita certa para o esgotamento físico, mental e espiritual. O futuro pertence a Deus, e Ele já está lá cuidando de cada detalhe.
-Basta a cada dia o seu próprio mal, o que significa que o dia de hoje já possui desafios suficientes para exigir nossa dependência contínua do Senhor. Sofrer por antecipação não muda o cenário do amanhã, apenas rouba a paz e a força que você precisa para viver e vencer o agora.
-Pratique a confiança hoje, onde você está
+Seja livre. Quando aceitamos que o sacrifício de Jesus foi suficiente, também por nós, podemos nos livrar do peso de cobranças adicionais, impostas pelo engano da tradição ou de falsos profetas.
+Entregue a sua vida como sacrifício vivo, santo e agradável a Deus. Dedique-se para o louvor e glória do Senhor, amando a Ele e ao próximo.
 
-Sempre que um pensamento ansioso sobre o futuro surgir, force sua mente a focar em uma tarefa prática e imediata que você pode resolver no dia de hoje.
-Escreva em um papel as suas maiores preocupações atuais e, em seguida, faça uma oração entregando cada uma delas nas mãos de Deus.
-Reduza o consumo de notícias alarmantes ou redes sociais nos momentos do dia em que você se sente mais vulnerável e inseguro.
-Releia Mateus 6:25-34 e memorize a frase "basta a cada dia o seu próprio mal".
+Para orar:
 
-Para orar
+Pai nosso, Rei soberano em todo universo. Quão grande és, Senhor. O que poderia eu te oferecer? Tudo é teu. Perdoa-me se já quis sacrificar alguma coisa pela motivação errada. O Senhor não espera o meu sacrifício, mas o meu amor e obediência. Te louvo porque não mediste esforços, mas te entregaste por amor a nós. Obrigado pelo Teu sacrifício perfeito na cruz. Ajuda-me a te entregar humildemente o meu coração, para ter a vida que queres que eu tenha. Em nome de Jesus, amém.
 
-Senhor, confesso que minha mente costuma viajar para o futuro, tentando controlar o que não está em minhas mãos. Perdoa-me por duvidar do teu cuidado e por tentar carregar fardos que ainda não chegaram. Ensina-me a viver um dia de cada vez, confiando que a tua graça sempre será suficiente para as batalhas de hoje. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A promessa do amanhecer
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Pois a sua ira só dura um instante, mas o seu favor dura a vida toda; o choro pode persistir uma noite, mas de manhã irrompe a alegria.
-Salmos 30:5
-
-O desânimo tem uma maneira cruel de nos fazer acreditar que a escuridão que estamos vivendo será eterna. Quando a tristeza se instala profunda e a noite parece não ter fim, a nossa visão se estreita, e o desespero tenta nos convencer de que a dor é a nossa única realidade possível daqui para frente.
-O salmista, no entanto, não nega a realidade amarga do sofrimento. Ele reconhece abertamente que o choro pode, sim, persistir por uma longa e cansativa noite. Deus não nos promete uma jornada terrena sem lágrimas, mas nos garante que essas noites escuras de tristeza têm um prazo de validade determinado por Ele.
-A grande e consoladora promessa deste versículo é a certeza absoluta de que a manhã inevitavelmente chegará. A alegria não surge como resultado da nossa própria força de vontade para sair da cama, mas irrompe como fruto do favor contínuo de Deus, que nos sustenta a vida inteira.
-Se você está atravessando uma longa noite de choro, não entregue os pontos. O desânimo grita que você foi esquecido no escuro, mas a verdade é que Deus continua trabalhando fielmente no silêncio da madrugada, preparando a renovação e a alegria que virão junto com os primeiros raios de sol.
-Pratique a esperança hoje, onde você está
-
-Sempre que a tristeza profunda tentar sufocar o seu dia, repita em voz alta para si mesmo: "Esta noite é temporária, e a minha manhã vai chegar".
-Não isole o seu coração. Compartilhe o seu desânimo com uma pessoa de confiança, permitindo que a luz do companheirismo dissipe a escuridão.
-Escreva em um papel uma dor do passado que Deus já curou, usando essa memória como âncora para a sua fé no momento presente.
-Releia o Salmo 30 completo e agradeça a Deus antecipadamente pela alegria que Ele já preparou para o seu novo amanhecer.
-
-Para orar
-
-Senhor, confesso que a tristeza e o desânimo têm deixado o meu coração pesado, fazendo esta fase parecer uma noite que nunca acaba. Sustenta-me enquanto eu choro e ensina-me a aguardar com paciência. Renova a minha esperança e traz o amanhecer que só a tua presença pode dar. Em nome de Jesus, amém.
+Para se aprofundar: coisas que agradam a Deus.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -384,15 +349,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  38 +--
- feeds/devocional_de_hoje/feed.json        |  12 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  57 ++----
+ feeds/devocional_de_hoje/feed.json        |  20 +-
  feeds/palavra_biblica_do_dia/atom.xml     |  22 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 191 ++++++---------
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               | 100 ++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 375 ++++++++++++------------------
- 11 files changed, 286 insertions(+), 420 deletions(-)
+ output.log                                | 327 +++++++++++++-----------------
+ 11 files changed, 256 insertions(+), 340 deletions(-)
