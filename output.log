@@ -1,81 +1,90 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 202671 characters
-INFO:root:HTML parsed, length: 178529 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (28/09/2026)', 'Palavra de Ontem (27/09/2026)', 'Palavra de Anteontem (26/09/2026)']
-INFO:root:Found 3 URLs: ['/hexagono/', '/experiencia/', '/legal/']
-INFO:root:Found 16 descriptions: ['substantivo masculino [Matemática] Polígono que te', 'Sinônimos:\n\nhexagonal', 'Classe gramatical:adjetivo e substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (28/09/2026)', 'Palavra de Ontem (27/09/2026)', 'Palavra de Anteontem (26/09/2026)']
+INFO:root:Response length: 200960 characters
+INFO:root:HTML parsed, length: 177138 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (29/09/2026)', 'Palavra de Ontem (28/09/2026)', 'Palavra de Anteontem (27/09/2026)']
+INFO:root:Found 3 URLs: ['/pelucia/', '/hexagono/', '/experiencia/']
+INFO:root:Found 14 descriptions: ['substantivo feminino Tecido análogo ao veludo que ', 'Sinônimos:\n\npelugem, pelagem, pelo, penugem, pluma', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (29/09/2026)', 'Palavra de Ontem (28/09/2026)', 'Palavra de Anteontem (27/09/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (28/09/2026)', ID=e52ce4341a7bdd6d529e93bf75e530dd
-INFO:root:Processing entry 2: Title='Palavra de Ontem (27/09/2026)', ID=c339855d3dd34f13c6abd458278db4bc
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (26/09/2026)', ID=d9bca74773d9549c37ba2531c2df00c4
+INFO:root:Processing entry 1: Title='Palavra de Hoje (29/09/2026)', ID=cc4ec472fa3320e382e458a7a795835a
+INFO:root:Processing entry 2: Title='Palavra de Ontem (28/09/2026)', ID=6a4bbe53d5548cb8aa0c4aa5dc100673
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (27/09/2026)', ID=c282d45ff5f40dfd49f608c379bef5a6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (28/09/2026) - Significado completo de hexágono:
-INFO:root:🔹 URL: https://www.dicio.com.br/hexagono/
-INFO:root:🔹 Description: substantivo masculino [Matemática] Polígono que tem seis lados e, em consequência disso, seis ângulos: o lado do hexágono regular inscrito num círculo é igual ao raio desse círculo.adjetivo Cuja base é um hexágono; hexagonal: pirâmide hexágono.expressão Hexágono regular. Hexágono que tem os lados e os ângulos internos iguais.Etimologia (origem da palavra hexágono). A palavra hexágono tem sua origem no grego "hekságonos, os, on" que significa composto por seis lados.
+INFO:root:🔹 Title: Palavra de Hoje (29/09/2026) - Significado completo de pelúcia:
+INFO:root:🔹 URL: https://www.dicio.com.br/pelucia/
+INFO:root:🔹 Description: substantivo feminino Tecido análogo ao veludo que tem de um lado fios compridos, deitados, sedosos e brilhantes.Revestimento vegetal que se assemelha à pelúcia.Conjunto de pelos; pelugem.expressão Bicho ou Bichinhos de Pelúcia. Brinquedo que imita um animal em tamanho reduzido confeccionado em tecido de pelúcia.Etimologia (origem da palavra pelúcia). A palavra pelúcia tem sua origem pela junção de pelo, e do sufixo -úcia; por influência do italiano “peluche” ou do francês “peluche”.
  
 Sinônimos:
 
-hexagonal 
+pelugem, pelagem, pelo, penugem, plumagem 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (27/09/2026) - Significado completo de experiência:
-INFO:root:🔹 URL: https://www.dicio.com.br/experiencia/
+INFO:root:🔹 Title: Palavra de Ontem (28/09/2026) - Significado completo de hexágono:
+INFO:root:🔹 URL: https://www.dicio.com.br/hexagono/
 INFO:root:🔹 Description: Sinônimos:
 
-hexagonal
- Classe gramatical:adjetivo e substantivo masculino
+pelugem, pelagem, pelo, penugem, plumagem
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (26/09/2026) - Significado completo de legal:
-INFO:root:🔹 URL: https://www.dicio.com.br/legal/
-INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
- Sílabas:he-xá-go-no
+INFO:root:🔹 Title: Palavra de Anteontem (27/09/2026) - Significado completo de experiência:
+INFO:root:🔹 URL: https://www.dicio.com.br/experiencia/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:pe-lú-ci-a
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
-INFO:root:Response length: 559 characters
+INFO:root:Response length: 713 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 369642 characters
-INFO:root:HTML parsed, length: 358847 characters
-INFO:root:Found 1 titles: ['Hebreus 10:23']
-INFO:root:Found 1 URLs: ['/versiculo/hebreus_10_23/']
-INFO:root:Found 1 descriptions: ['Apeguemo-nos com firmeza à esperança que professam']
+INFO:root:Response length: 368895 characters
+INFO:root:HTML parsed, length: 358136 characters
+INFO:root:Found 1 titles: ['Filipenses 4:13']
+INFO:root:Found 1 URLs: ['/versiculo/filipenses_4_13/']
+INFO:root:Found 1 descriptions: ['Tudo posso naquele que me fortalece. Filipenses 4:']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Hebreus 10:23', ID=9ba7df999fa72728cb27f3adb0e0a120
+INFO:root:Processing entry 1: Title='Filipenses 4:13', ID=56c3ca1de9f163a06781deec38fd2254
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Hebreus 10:23
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_10_23/
-INFO:root:🔹 Description: Apeguemo-nos com firmeza à esperança que professamos, pois aquele que prometeu é fiel. Hebreus 10:23
+INFO:root:🔹 Title: Filipenses 4:13
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_4_13/
+INFO:root:🔹 Description: Tudo posso naquele que me fortalece. Filipenses 4:13
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 367221 characters
-INFO:root:HTML parsed, length: 357790 characters
-INFO:root:Found 3 titles: ['Salmo 42', 'Salmo 40', 'Salmo 88']
-INFO:root:Found 3 URLs: ['/salmos_42/', '/salmos_40/', '/salmos_88/']
-INFO:root:Found 3 descriptions: ['Como a corça anseia por águas correntes,\na minha a', 'Depositei toda a minha esperança no Senhor;\nele se', 'Ó Senhor, Deus que me salva,\na ti clamo dia e noit']
-INFO:root:Found 3 dates: ['28 de Setembro de 2026', '27 de Setembro de 2026', '26 de Setembro de 2026']
+INFO:root:Response length: 364096 characters
+INFO:root:HTML parsed, length: 354695 characters
+INFO:root:Found 3 titles: ['Salmo 117', 'Salmo 42', 'Salmo 40']
+INFO:root:Found 3 URLs: ['/salmos_117/', '/salmos_42/', '/salmos_40/']
+INFO:root:Found 3 descriptions: ['Louvem o Senhor, todas as nações;\nexaltem-no, todo', 'Como a corça anseia por águas correntes,\na minha a', 'Depositei toda a minha esperança no Senhor;\nele se']
+INFO:root:Found 3 dates: ['29 de Setembro de 2026', '28 de Setembro de 2026', '27 de Setembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 42', ID=e352ae45a826f961dc2f05b4efaed33f
-INFO:root:Processing entry 2: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
-INFO:root:Processing entry 3: Title=' Salmo 88', ID=6a77f7e175812bd7016c471cb9b00e8b
+INFO:root:Processing entry 1: Title=' Salmo 117', ID=2038c5aa1c9616755f6ff70b5ed3373f
+INFO:root:Processing entry 2: Title=' Salmo 42', ID=e352ae45a826f961dc2f05b4efaed33f
+INFO:root:Processing entry 3: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 117
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_117/
+INFO:root:🔹 Description: Louvem o Senhor, todas as nações;
+exaltem-no, todos os povos! 
+Porque imenso é o seu amor leal por nós,
+e a fidelidade do Senhor dura para sempre.
+Aleluia! 
+ Salmo 117
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 42
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_42/
 INFO:root:🔹 Description: Como a corça anseia por águas correntes,
@@ -196,103 +205,80 @@ Tu és o meu socorro e o meu libertador;
 meu Deus, não te demores! 
  Salmo 40
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 88
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_88/
-INFO:root:🔹 Description: Ó Senhor, Deus que me salva,
-a ti clamo dia e noite. 
-Que a minha oração chegue diante de ti;
-inclina os teus ouvidos ao meu clamor. 
-Tenho sofrido tanto que a minha vida
-está à beira da sepultura! 
-Sou contado entre os que descem à cova;
-sou como um homem que já não tem forças. 
-Fui colocado junto aos mortos,
-sou como os cadáveres que jazem no túmulo,
-dos quais já não te lembras,
-pois foram tirados de tua mão. 
-Puseste-me na cova mais profunda,
-na escuridão das profundezas. 
-Tua ira pesa sobre mim;
-com todas as tuas ondas me afligiste. 
-Afastaste de mim os meus melhores amigos
-e me tornaste repugnante para eles.
-Estou como um preso que não pode fugir; 
-minhas vistas já estão fracas de tristeza.
-A ti, Senhor, clamo cada dia;
-a ti ergo as minhas mãos. 
-Acaso mostras as tuas maravilhas aos mortos?
-Acaso os mortos se levantam
-e te louvam? 
-Será que o teu amor é anunciado no túmulo
-e a tua fidelidade no Abismo da Morte? 
-Acaso são conhecidas as tuas maravilhas
-na região das trevas
-e os teus feitos de justiça
-na terra do esquecimento? 
-Mas eu, Senhor, a ti clamo por socorro;
-já de manhã a minha oração
-chega à tua presença. 
-Por que, Senhor, me rejeitas
-e escondes de mim o teu rosto? 
-Desde moço tenho sofrido
-e ando perto da morte;
-os teus terrores levaram-me ao desespero. 
-Sobre mim se abateu a tua ira;
-os pavores que me causas me destruíram. 
-Cercam-me o dia todo como uma inundação;
-envolvem-me por completo. 
-Tiraste de mim os meus amigos
-e os meus companheiros;
-as trevas são a minha única companhia. 
- Salmo 88
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 371682 characters
-INFO:root:HTML parsed, length: 361355 characters
-INFO:root:Found 3 titles: ['Rios no deserto', 'Continue gerando fé', 'A verdade é sempre a melhor opção']
+INFO:root:Response length: 371111 characters
+INFO:root:HTML parsed, length: 360789 characters
+INFO:root:Found 3 titles: ['Deus busca imperfeitos disponíveis', 'Rios no deserto', 'Continue gerando fé']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Vejam, estou fazendo uma coisa nova! Ela já está s', 'Consequentemente, a fé vem por se ouvir a mensagem', 'Os lábios que dizem a verdade permanecem para semp']
-INFO:root:Found 1 dates: ['Segunda, 28 de setembro de 2026']
+INFO:root:Found 3 descriptions: ['Mas Deus escolheu as coisas loucas do mundo para e', 'Vejam, estou fazendo uma coisa nova! Ela já está s', 'Consequentemente, a fé vem por se ouvir a mensagem']
+INFO:root:Found 1 dates: ['Terça, 29 de setembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Rios no deserto', ID=b2c15090906567b2fb25b71068ca1972
+INFO:root:Processing entry 1: Title='Deus busca imperfeitos disponíveis', ID=29829829fb4d3c62e4b6599cb792831e
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Rios no deserto - Palavra de Hoje
+INFO:root:🔹 Title: Deus busca imperfeitos disponíveis - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Vejam, estou fazendo uma coisa nova! Ela já está surgindo! Vocês não a reconhecem? Até no deserto vou abrir um caminho e riachos no ermo.
-Isaías 43:19
+INFO:root:🔹 Description: Mas Deus escolheu as coisas loucas do mundo para envergonhar os sábios, e escolheu as coisas fracas do mundo para envergonhar as fortes.
+1 Coríntios 1:27
 
-Deus é especialista em criar vida onde os nossos olhos humanos só enxergam aridez e morte. O deserto costuma ser um lugar de passagem, solidão e intensa provação, onde as nossas forças rapidamente se esgotam. No entanto, o Senhor nos convida a mudar a nossa perspectiva. Ele não apenas nos promete companhia durante o calor escaldante da dificuldade, mas garante que pode fazer brotar águas de refrigério no cenário mais improvável, transformando o nosso sofrimento em renovação.
-Abrirei rios nas colinas estéreis, e fontes nos vales. Transformarei o deserto num lago, e o chão ressequido em mananciais.
-Isaías 41:18
-A provisão divina nunca estará limitada pelas leis naturais ou pelas circunstâncias desfavoráveis que nos cercam. Quando os nossos recursos chegam ao fim e o chão ao nosso redor parece estéril e sem perspectiva, a intervenção de Deus se manifesta com poder absoluto. Ele é plenamente capaz de inundar os vales mais secos com a sua graça abundante. Crer em rios no deserto é confiar que o nosso sustento vem das mãos do Criador, e não do ambiente.
-Quem crer em mim, como diz a Escritura, do seu interior fluirão rios de água viva.
-João 7:38
-O maior milagre divino não acontece apenas ao nosso redor, mas principalmente dentro de nós. Quando enfrentamos os desertos da vida, somos tentados a nos esvaziar pelo cansaço e pela amargura. Contudo, Jesus nos promete que o seu próprio Espírito habita em nós como uma fonte inesgotável. Essa água viva não apenas mata a nossa sede espiritual nos dias secos, mas também transborda de forma abundante, tornando-nos canais de refrigério para outras pessoas. Capaz de criar novos caminhos onde não há saída, provedor incansável diante da escassez terrena, e fonte inesgotável que jorra de dentro para fora: a promessa de rios no deserto é a garantia de que a vida de Deus sempre vencerá a nossa sequidão.
+A lógica do Reino de Deus contraria completamente os padrões humanos de recrutamento e sucesso. O Senhor não está em busca de currículos impecáveis, talentos inigualáveis ou de pessoas completamente autossuficientes. Quando Ele escolhe as coisas fracas e improváveis, Ele garante que a glória, o mérito e o poder manifestados através das nossas vidas sejam atribuídos exclusivamente a Ele, revelando que a sua obra grandiosa não depende da nossa força.
+Mas ele me disse: "Minha graça é suficiente para você, pois o meu poder se aperfeiçoa na fraqueza".
+2 Coríntios 12:9
+A nossa imperfeição humana nunca é um obstáculo definitivo para o agir de Deus; pelo contrário, é exatamente o cenário onde o poder divino mais se destaca. Reconhecer as nossas fraquezas nos coloca em uma posição de total e necessária dependência. O Senhor não procura pessoas inabaláveis que não precisam de ajuda, mas sim corações disponíveis e humildes que permitem ser transformados e moldados pela sua graça diária.
+Então ouvi a voz do Senhor, conclamando: "Quem enviarei? Quem irá por nós?" E eu respondi: "Eis-me aqui. Envia-me!"
+Isaías 6:8
+Antes de responder a esse chamado celestial com tanta ousadia, o profeta Isaías havia acabado de confessar dolorosamente que era um homem de lábios impuros. A purificação divina veio no momento exato em que ele se rendeu. O que o Senhor requer de nós não é um inatingível estado de perfeição antes de começarmos a servir, mas simplesmente um coração voluntário que diz "eis-me aqui" com franqueza e sinceridade. Escolhidos contra toda a lógica humana de mérito, aperfeiçoados pela graça que atua nas limitações, e capacitados apenas quando dizemos sim: Deus continua buscando imperfeitos disponíveis para realizar as suas obras extraordinárias.
  
-Vejam, estou fazendo uma coisa nova! Ela já está surgindo! Vocês não a reconhecem? Até no deserto vou abrir um caminho e riachos no ermo.
-Isaías 43:19
+Mas Deus escolheu as coisas loucas do mundo para envergonhar os sábios, e escolheu as coisas fracas do mundo para envergonhar as fortes.
+1 Coríntios 1:27
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 381150 characters
-INFO:root:HTML parsed, length: 370396 characters
-INFO:root:Found 3 titles: ['Que sacrifícios agradam a Deus?', 'Nunca esquecidos', 'O peso do amanhã']
-INFO:root:Found 1 URLs: ['/coisas_que_agradam_a_deus/']
-INFO:root:Found 3 descriptions: ['Os sacrifícios que agradam a Deus\nsão um espírito ', '"Haverá mãe que possa esquecer seu bebê que ainda ', 'Portanto, não se preocupem com o amanhã, pois o am']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n28\nSEGUNDA', 'SETEMBRO\n\n27\nDOMINGO', 'SETEMBRO\n\n26\nSÁBADO']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Que sacrifícios agradam a Deus?', ID=60e42c171afcec2cb772499bdf5be223
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 379787 characters
+INFO:root:HTML parsed, length: 369068 characters
+INFO:root:Found 3 titles: ['Nova criatura eu sou, o velho homem já morreu!', 'Que sacrifícios agradam a Deus?', 'Nunca esquecidos']
+INFO:root:Found 2 URLs: ['/buscar_a_deus/', '/coisas_que_agradam_a_deus/']
+INFO:root:Found 3 descriptions: ['Portanto, se alguém está em Cristo, é nova criação', 'Os sacrifícios que agradam a Deus\nsão um espírito ', '"Haverá mãe que possa esquecer seu bebê que ainda ']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n29\nTERÇA', 'SETEMBRO\n\n28\nSEGUNDA', 'SETEMBRO\n\n27\nDOMINGO']
+INFO:root:Min length for iteration: 2
+INFO:root:Processing entry 1: Title='Nova criatura eu sou, o velho homem já morreu!', ID=c343d83034f614e1afbcd5b89b488bdb
+INFO:root:Processing entry 2: Title='Que sacrifícios agradam a Deus?', ID=60e42c171afcec2cb772499bdf5be223
+INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Nova criatura eu sou, o velho homem já morreu!
+INFO:root:🔹 URL: https://www.bibliaon.com/buscar_a_deus/
+INFO:root:🔹 Description: Portanto, se alguém está em Cristo, é nova criação. As coisas antigas já passaram; eis que surgiram coisas novas!
+- 2 Coríntios 5:17
+
+Quando entregamos nossa vida a Jesus, Deus não apenas melhora quem éramos; Ele nos faz uma nova criação. Essa transformação começa no coração e alcança toda a nossa maneira de viver. O passado já não define nossa identidade, porque agora pertencemos a Cristo.
+Ser uma nova criatura não significa que nunca mais enfrentaremos tentações ou cometeremos erros. Significa que já não precisamos viver presos aos antigos hábitos, à culpa ou ao pecado. O Espírito Santo passa a agir em nós, renovando nossos pensamentos, moldando nosso caráter e fortalecendo-nos para viver de acordo com a vontade de Deus.
+Essa nova vida também se torna um testemunho. As pessoas ao nosso redor percebem quando Cristo transforma nossas atitudes, nossas palavras e a forma como tratamos os outros. Mais do que dizer que seguimos Jesus, somos chamados a refletir Seu amor em nosso dia a dia.
+Se hoje você pertence a Cristo, viva com a alegria de quem recebeu um novo começo. Continue buscando a Deus, permitindo que Ele transforme cada área da sua vida. A obra que Ele iniciou em você continua todos os dias, tornando-o cada vez mais parecido com Jesus.
+Viva como uma nova criação
+
+
+Renove sua mente na Palavra: separe um tempo para ler a Bíblia e permita que Deus transforme sua maneira de pensar.
+
+Abandone o que não agrada ao Senhor: identifique um hábito ou atitude do passado que precisa ser deixado para trás e entregue-o a Deus.
+
+Compartilhe o que Cristo fez por você: conte a alguém como Jesus tem transformado sua vida e sua esperança.
+
+Escolha o perdão: liberte seu coração da mágoa e dê um passo em direção à reconciliação, lembrando-se do perdão que você recebeu em Cristo.
+
+Para orar:
+
+Senhor Jesus, obrigado porque em Ti recebi uma nova vida. Ajuda-me a deixar para trás tudo aquilo que não combina com essa nova identidade. Renova meu coração, meus pensamentos e minhas atitudes para que eu reflita o Teu amor em cada área da minha vida. Que as pessoas vejam em mim a transformação que somente Tu podes realizar. Em nome de Jesus, amém.
+
+Veja também: Versículos sobre buscar a Deus.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Que sacrifícios agradam a Deus?
 INFO:root:🔹 URL: https://www.bibliaon.com/coisas_que_agradam_a_deus/
 INFO:root:🔹 Description: Os sacrifícios que agradam a Deus
@@ -349,15 +335,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  57 ++----
- feeds/devocional_de_hoje/feed.json        |  20 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  26 +++-
+ feeds/devocional_de_hoje/feed.json        |   6 +
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 100 ++++-----
+ feeds/salmo_do_dia/atom.xml               |  57 +-------
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 327 +++++++++++++-----------------
- 11 files changed, 256 insertions(+), 340 deletions(-)
+ output.log                                | 236 +++++++++++++-----------------
+ 11 files changed, 186 insertions(+), 225 deletions(-)
