@@ -1,40 +1,38 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 200960 characters
-INFO:root:HTML parsed, length: 177138 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (29/09/2026)', 'Palavra de Ontem (28/09/2026)', 'Palavra de Anteontem (27/09/2026)']
-INFO:root:Found 3 URLs: ['/pelucia/', '/hexagono/', '/experiencia/']
-INFO:root:Found 14 descriptions: ['substantivo feminino Tecido análogo ao veludo que ', 'Sinônimos:\n\npelugem, pelagem, pelo, penugem, pluma', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (29/09/2026)', 'Palavra de Ontem (28/09/2026)', 'Palavra de Anteontem (27/09/2026)']
+INFO:root:Response length: 198923 characters
+INFO:root:HTML parsed, length: 175675 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (30/09/2026)', 'Palavra de Ontem (29/09/2026)', 'Palavra de Anteontem (28/09/2026)']
+INFO:root:Found 3 URLs: ['/teleconsulta/', '/pelucia/', '/hexagono/']
+INFO:root:Found 10 descriptions: ['substantivo feminino Consulta feita através de uma', 'Sílabas:te-le-con-sul-ta', 'substantivo feminino Tecido análogo ao veludo que ']
+INFO:root:Found 3 dates: ['Palavra de Hoje (30/09/2026)', 'Palavra de Ontem (29/09/2026)', 'Palavra de Anteontem (28/09/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (29/09/2026)', ID=cc4ec472fa3320e382e458a7a795835a
-INFO:root:Processing entry 2: Title='Palavra de Ontem (28/09/2026)', ID=6a4bbe53d5548cb8aa0c4aa5dc100673
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (27/09/2026)', ID=c282d45ff5f40dfd49f608c379bef5a6
+INFO:root:Processing entry 1: Title='Palavra de Hoje (30/09/2026)', ID=d8f6b9477de60e464fd978434ef14504
+INFO:root:Processing entry 2: Title='Palavra de Ontem (29/09/2026)', ID=f3d2265f99cf7e118271f5e41bd959e5
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/09/2026)', ID=4e34e17dd3347836a5556a46ce4e1146
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (29/09/2026) - Significado completo de pelúcia:
+INFO:root:🔹 Title: Palavra de Hoje (30/09/2026) - Significado completo de teleconsulta:
+INFO:root:🔹 URL: https://www.dicio.com.br/teleconsulta/
+INFO:root:🔹 Description: substantivo feminino Consulta feita através de uma videochamada ou por meio de outras tecnologias que possibilitam uma comunicação à distância.Etimologia (origem da palavra teleconsulta). A palavra teleconsulta tem sua origem pela junção de tele-, do grego “téle”, com o sentido de ao longe, e da palavra consulta.
+ Sílabas:te-le-con-sul-ta
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (29/09/2026) - Significado completo de pelúcia:
 INFO:root:🔹 URL: https://www.dicio.com.br/pelucia/
-INFO:root:🔹 Description: substantivo feminino Tecido análogo ao veludo que tem de um lado fios compridos, deitados, sedosos e brilhantes.Revestimento vegetal que se assemelha à pelúcia.Conjunto de pelos; pelugem.expressão Bicho ou Bichinhos de Pelúcia. Brinquedo que imita um animal em tamanho reduzido confeccionado em tecido de pelúcia.Etimologia (origem da palavra pelúcia). A palavra pelúcia tem sua origem pela junção de pelo, e do sufixo -úcia; por influência do italiano “peluche” ou do francês “peluche”.
+INFO:root:🔹 Description: Sílabas:te-le-con-sul-ta
  
 Sinônimos:
 
 pelugem, pelagem, pelo, penugem, plumagem 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (28/09/2026) - Significado completo de hexágono:
+INFO:root:🔹 Title: Palavra de Anteontem (28/09/2026) - Significado completo de hexágono:
 INFO:root:🔹 URL: https://www.dicio.com.br/hexagono/
-INFO:root:🔹 Description: Sinônimos:
-
-pelugem, pelagem, pelo, penugem, plumagem
+INFO:root:🔹 Description: substantivo feminino Tecido análogo ao veludo que tem de um lado fios compridos, deitados, sedosos e brilhantes.Revestimento vegetal que se assemelha à pelúcia.Conjunto de pelos; pelugem.expressão Bicho ou Bichinhos de Pelúcia. Brinquedo que imita um animal em tamanho reduzido confeccionado em tecido de pelúcia.Etimologia (origem da palavra pelúcia). A palavra pelúcia tem sua origem pela junção de pelo, e do sufixo -úcia; por influência do italiano “peluche” ou do francês “peluche”.
  Classe gramatical:substantivo feminino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (27/09/2026) - Significado completo de experiência:
-INFO:root:🔹 URL: https://www.dicio.com.br/experiencia/
-INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:pe-lú-ci-a
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +40,134 @@ INFO:root:Response length: 713 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 368895 characters
-INFO:root:HTML parsed, length: 358136 characters
-INFO:root:Found 1 titles: ['Filipenses 4:13']
-INFO:root:Found 1 URLs: ['/versiculo/filipenses_4_13/']
-INFO:root:Found 1 descriptions: ['Tudo posso naquele que me fortalece. Filipenses 4:']
+INFO:root:Response length: 368955 characters
+INFO:root:HTML parsed, length: 358196 characters
+INFO:root:Found 1 titles: ['Jó 38:41']
+INFO:root:Found 1 URLs: ['/versiculo/jo_38_41/']
+INFO:root:Found 1 descriptions: ['Quem dá alimento aos corvos\nquando os seus filhote']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Filipenses 4:13', ID=56c3ca1de9f163a06781deec38fd2254
+INFO:root:Processing entry 1: Title='Jó 38:41', ID=92930552796d2f6341586cbf0e604b38
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Filipenses 4:13
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_4_13/
-INFO:root:🔹 Description: Tudo posso naquele que me fortalece. Filipenses 4:13
+INFO:root:🔹 Title: Jó 38:41
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jo_38_41/
+INFO:root:🔹 Description: Quem dá alimento aos corvos
+quando os seus filhotes clamam a Deus
+e vagueiam por falta de comida? Jó 38:41
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 364096 characters
-INFO:root:HTML parsed, length: 354695 characters
-INFO:root:Found 3 titles: ['Salmo 117', 'Salmo 42', 'Salmo 40']
-INFO:root:Found 3 URLs: ['/salmos_117/', '/salmos_42/', '/salmos_40/']
-INFO:root:Found 3 descriptions: ['Louvem o Senhor, todas as nações;\nexaltem-no, todo', 'Como a corça anseia por águas correntes,\na minha a', 'Depositei toda a minha esperança no Senhor;\nele se']
-INFO:root:Found 3 dates: ['29 de Setembro de 2026', '28 de Setembro de 2026', '27 de Setembro de 2026']
+INFO:root:Response length: 364672 characters
+INFO:root:HTML parsed, length: 355276 characters
+INFO:root:Found 3 titles: ['Salmo 35', 'Salmo 117', 'Salmo 42']
+INFO:root:Found 3 URLs: ['/salmos_35/', '/salmos_117/', '/salmos_42/']
+INFO:root:Found 3 descriptions: ['Defende-me, Senhor, dos que me acusam;\nluta contra', 'Louvem o Senhor, todas as nações;\nexaltem-no, todo', 'Como a corça anseia por águas correntes,\na minha a']
+INFO:root:Found 3 dates: ['30 de Setembro de 2026', '29 de Setembro de 2026', '28 de Setembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 117', ID=2038c5aa1c9616755f6ff70b5ed3373f
-INFO:root:Processing entry 2: Title=' Salmo 42', ID=e352ae45a826f961dc2f05b4efaed33f
-INFO:root:Processing entry 3: Title=' Salmo 40', ID=c47929243835a03338c3dad8678b58b6
+INFO:root:Processing entry 1: Title=' Salmo 35', ID=f22ce77f5c2201b9a50bfc7e72a56440
+INFO:root:Processing entry 2: Title=' Salmo 117', ID=2038c5aa1c9616755f6ff70b5ed3373f
+INFO:root:Processing entry 3: Title=' Salmo 42', ID=e352ae45a826f961dc2f05b4efaed33f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 35
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_35/
+INFO:root:🔹 Description: Defende-me, Senhor, dos que me acusam;
+luta contra os que lutam comigo. 
+Toma os escudos, o grande e o pequeno;
+levanta-te e vem socorrer-me. 
+Empunha a lança e o machado de guerra
+contra os meus perseguidores.
+Dize à minha alma: "Eu sou a sua salvação". 
+Sejam humilhados e desprezados
+os que procuram matar-me;
+retrocedam envergonhados
+aqueles que tramam a minha ruína. 
+Que eles sejam como a palha ao vento,
+quando o anjo do Senhor os expulsar; 
+seja a vereda deles sombria e escorregadia,
+quando o anjo do Senhor os perseguir. 
+Já que, sem motivo, prepararam contra mim
+uma armadilha oculta
+e, sem motivo, abriram uma cova para mim, 
+que a ruína lhes sobrevenha de surpresa:
+sejam presos pela armadilha que prepararam,
+caiam na cova que abriram,
+para a sua própria ruína. 
+Então a minha alma exultará no Senhor
+e se regozijará na sua salvação. 
+Todo o meu ser exclamará:
+"Quem se compara a ti, Senhor?
+Tu livras os necessitados daqueles que são
+mais poderosos do que eles,
+livras os necessitados e os pobres
+daqueles que os exploram." 
+Testemunhas maldosas enfrentam-me
+e questionam-me sobre coisas de que nada sei. 
+Elas me retribuem o bem com o mal
+e procuram tirar-me a vida. 
+Contudo, quando estavam doentes,
+usei vestes de lamento,
+humilhei-me com jejum
+e recolhi-me em oração. 
+Saí vagueando e pranteando,
+como por um amigo ou por um irmão.
+Eu me prostrei enlutado,
+como quem lamenta por sua mãe. 
+Mas, quando tropecei,
+eles se reuniram alegres;
+sem que eu o soubesse,
+ajuntaram-se para me atacar.
+Eles me agrediram sem cessar. 
+Como ímpios caçoando do meu refúgio,
+rosnaram contra mim. 
+Senhor, até quando ficarás olhando?
+Livra-me dos ataques deles,
+livra a minha vida preciosa desses leões. 
+Eu te darei graças na grande assembleia;
+no meio da grande multidão te louvarei. 
+Não deixes que os meus inimigos traiçoeiros
+se divirtam à minha custa;
+não permitas que aqueles
+que sem razão me odeiam
+troquem olhares de desprezo. 
+Não falam pacificamente,
+mas planejam acusações falsas
+contra os que vivem tranquilamente na terra. 
+Com a boca escancarada,
+riem de mim e me acusam:
+"Nós vimos! Sabemos de tudo!" 
+Tu viste isso, Senhor! Não fiques calado.
+Não te afastes de mim, Senhor, 
+Acorda! Desperta! Faze-me justiça!
+Defende a minha causa, meu Deus e Senhor. 
+Senhor, meu Deus, tu és justo;
+faze-me justiça para que eles
+não se alegrem à minha custa. 
+Não deixes que pensem:
+"Ah! Era isso que queríamos!"
+nem que digam: "Acabamos com ele!" 
+Sejam humilhados e frustrados
+todos os que se divertem
+à custa do meu sofrimento;
+cubram-se de vergonha e desonra
+todos os que se acham superiores a mim. 
+Cantem de alegria e regozijo
+todos os que desejam ver provada
+a minha inocência
+e sempre repitam:
+"O Senhor seja engrandecido!
+Ele tem prazer no bem-estar do seu servo". 
+Minha língua proclamará a tua justiça
+e o teu louvor o dia inteiro. 
+ Salmo 35
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 117
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_117/
 INFO:root:🔹 Description: Louvem o Senhor, todas as nações;
@@ -139,120 +231,78 @@ Pois ainda o louvarei;
 ele é o meu Salvador e o meu Deus. 
  Salmo 42
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 40
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_40/
-INFO:root:🔹 Description: Depositei toda a minha esperança no Senhor;
-ele se inclinou para mim
-e ouviu o meu grito de socorro. 
-Ele me tirou de um poço de destruição,
-de um atoleiro de lama;
-pôs os meus pés sobre uma rocha
-e firmou-me num local seguro. 
-Pôs um novo cântico na minha boca,
-um hino de louvor ao nosso Deus.
-Muitos verão isso e temerão,
-e confiarão no Senhor. 
-Como é feliz o homem
-que põe no Senhor a sua confiança,
-e não vai atrás dos orgulhosos,
-dos que se afastam para seguir deuses falsos! 
-Senhor meu Deus!
-Quantas maravilhas tens feito!
-Não se pode relatar
-os planos que preparaste para nós!
-Eu queria proclamá-los e anunciá-los,
-mas são por demais numerosos! 
-Sacrifício e oferta não pediste,
-mas abriste os meus ouvidos;
-holocaustos e ofertas pelo pecado
-não exigiste. 
-Então eu disse: "Aqui estou!"
-No livro está escrito a meu respeito. 
-Tenho grande alegria em fazer a tua vontade,
-ó meu Deus;
-a tua lei está no fundo do meu coração. 
-Eu proclamo as novas de justiça
-na grande assembleia;
-como sabes, Senhor, não fecho os meus lábios. 
-Não oculto no coração a tua justiça;
-falo da tua fidelidade e da tua salvação.
-Não escondo da grande assembleia
-a tua fidelidade e a tua verdade. 
-Não me negues a tua misericórdia, Senhor;
-que o teu amor e a tua verdade
-sempre me protejam. 
-Pois incontáveis problemas me cercam,
-as minhas culpas me alcançaram
-e já não consigo ver.
-Mais numerosos são
-que os cabelos da minha cabeça,
-e o meu coração perdeu o ânimo. 
-Agrada-te, Senhor, em libertar-me;
-apressa-te, Senhor, a ajudar-me. 
-Sejam humilhados e frustrados
-todos os que procuram tirar-me a vida;
-retrocedam desprezados
-os que desejam a minha ruína. 
-Fiquem chocados com a sua própria desgraça
-os que zombam de mim. 
-Mas regozijem-se e alegrem-se em ti
-todos os que te buscam;
-digam sempre aqueles que amam a tua salvação:
-"Grande é o Senhor!" 
-Quanto a mim, sou pobre e necessitado,
-mas o Senhor preocupa-se comigo.
-Tu és o meu socorro e o meu libertador;
-meu Deus, não te demores! 
- Salmo 40
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 371111 characters
-INFO:root:HTML parsed, length: 360789 characters
-INFO:root:Found 3 titles: ['Deus busca imperfeitos disponíveis', 'Rios no deserto', 'Continue gerando fé']
+INFO:root:Response length: 371079 characters
+INFO:root:HTML parsed, length: 360777 characters
+INFO:root:Found 3 titles: ['Quando Deus nos desloca', 'Deus busca imperfeitos disponíveis', 'Rios no deserto']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Mas Deus escolheu as coisas loucas do mundo para e', 'Vejam, estou fazendo uma coisa nova! Ela já está s', 'Consequentemente, a fé vem por se ouvir a mensagem']
-INFO:root:Found 1 dates: ['Terça, 29 de setembro de 2026']
+INFO:root:Found 3 descriptions: ['Então o Senhor disse a Abrão: "Saia da sua terra, ', 'Mas Deus escolheu as coisas loucas do mundo para e', 'Vejam, estou fazendo uma coisa nova! Ela já está s']
+INFO:root:Found 1 dates: ['Quarta, 30 de setembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus busca imperfeitos disponíveis', ID=29829829fb4d3c62e4b6599cb792831e
+INFO:root:Processing entry 1: Title='Quando Deus nos desloca', ID=ef04700a69c90bb76a1bc72ab24d3cd5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus busca imperfeitos disponíveis - Palavra de Hoje
+INFO:root:🔹 Title: Quando Deus nos desloca - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Mas Deus escolheu as coisas loucas do mundo para envergonhar os sábios, e escolheu as coisas fracas do mundo para envergonhar as fortes.
-1 Coríntios 1:27
+INFO:root:🔹 Description: Então o Senhor disse a Abrão: "Saia da sua terra, do meio dos seus parentes e da casa de seu pai, e vá para a terra que eu lhe mostrarei".
+Gênesis 12:1
 
-A lógica do Reino de Deus contraria completamente os padrões humanos de recrutamento e sucesso. O Senhor não está em busca de currículos impecáveis, talentos inigualáveis ou de pessoas completamente autossuficientes. Quando Ele escolhe as coisas fracas e improváveis, Ele garante que a glória, o mérito e o poder manifestados através das nossas vidas sejam atribuídos exclusivamente a Ele, revelando que a sua obra grandiosa não depende da nossa força.
-Mas ele me disse: "Minha graça é suficiente para você, pois o meu poder se aperfeiçoa na fraqueza".
-2 Coríntios 12:9
-A nossa imperfeição humana nunca é um obstáculo definitivo para o agir de Deus; pelo contrário, é exatamente o cenário onde o poder divino mais se destaca. Reconhecer as nossas fraquezas nos coloca em uma posição de total e necessária dependência. O Senhor não procura pessoas inabaláveis que não precisam de ajuda, mas sim corações disponíveis e humildes que permitem ser transformados e moldados pela sua graça diária.
-Então ouvi a voz do Senhor, conclamando: "Quem enviarei? Quem irá por nós?" E eu respondi: "Eis-me aqui. Envia-me!"
-Isaías 6:8
-Antes de responder a esse chamado celestial com tanta ousadia, o profeta Isaías havia acabado de confessar dolorosamente que era um homem de lábios impuros. A purificação divina veio no momento exato em que ele se rendeu. O que o Senhor requer de nós não é um inatingível estado de perfeição antes de começarmos a servir, mas simplesmente um coração voluntário que diz "eis-me aqui" com franqueza e sinceridade. Escolhidos contra toda a lógica humana de mérito, aperfeiçoados pela graça que atua nas limitações, e capacitados apenas quando dizemos sim: Deus continua buscando imperfeitos disponíveis para realizar as suas obras extraordinárias.
+O conforto do que é familiar frequentemente se torna a maior barreira para o nosso crescimento espiritual. Quando Deus nos desloca das nossas zonas de segurança, Ele não o faz para nos castigar, mas para nos libertar da estagnação. O chamado para sair daquilo que conhecemos exige abrir mão do controle. O Senhor nos move porque a promessa e o propósito que Ele tem para nós são invariavelmente muito maiores do que o ambiente onde já estamos confortavelmente acomodados.
+Pela fé Abraão, quando chamado, obedeceu e dirigiu-se a um lugar que mais tarde receberia como herança, embora não soubesse para onde estava indo.
+Hebreus 11:8
+O deslocamento divino quase sempre vem acompanhado de uma incerteza humana assustadora. Deus nos dá a direção, mas raramente nos revela o mapa completo do trajeto logo no início. A obediência não requer que saibamos todos os detalhes do destino final, mas que confiemos plenamente no caráter daquele que nos guia. Ser deslocado por Deus é um profundo e necessário exercício de fé diária, onde aprendemos a dar um passo de cada vez baseados unicamente na sua promessa.
+Em seu coração o homem planeja o seu caminho, mas o Senhor determina os seus passos.
+Provérbios 16:9
+Muitas vezes, somos surpreendidos por mudanças repentinas de rota que não estavam absolutamente nos nossos planos. No entanto, nenhum deslocamento na vida de quem confia no Senhor é um mero acidente ou um acaso. Quando Deus redireciona os nossos passos e altera a nossa trajetória, Ele está amorosamente nos alinhando com a sua vontade soberana e perfeita. Aceitar esse movimento divino com o coração submisso evita o desgaste e nos coloca exatamente no centro do seu propósito eterno. Necessário para nos arrancar da estagnação conformada, fundamentado em uma obediência que caminha no escuro, e desenhado com perfeição pelo nosso Soberano: o deslocamento de Deus nunca é uma perda de rumo, mas a rota mais segura para alcançarmos a nossa verdadeira herança.
  
-Mas Deus escolheu as coisas loucas do mundo para envergonhar os sábios, e escolheu as coisas fracas do mundo para envergonhar as fortes.
-1 Coríntios 1:27
+Então o Senhor disse a Abrão: "Saia da sua terra, do meio dos seus parentes e da casa de seu pai, e vá para a terra que eu lhe mostrarei".
+Gênesis 12:1
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 379787 characters
-INFO:root:HTML parsed, length: 369068 characters
-INFO:root:Found 3 titles: ['Nova criatura eu sou, o velho homem já morreu!', 'Que sacrifícios agradam a Deus?', 'Nunca esquecidos']
-INFO:root:Found 2 URLs: ['/buscar_a_deus/', '/coisas_que_agradam_a_deus/']
-INFO:root:Found 3 descriptions: ['Portanto, se alguém está em Cristo, é nova criação', 'Os sacrifícios que agradam a Deus\nsão um espírito ', '"Haverá mãe que possa esquecer seu bebê que ainda ']
-INFO:root:Found 3 dates: ['SETEMBRO\n\n29\nTERÇA', 'SETEMBRO\n\n28\nSEGUNDA', 'SETEMBRO\n\n27\nDOMINGO']
-INFO:root:Min length for iteration: 2
-INFO:root:Processing entry 1: Title='Nova criatura eu sou, o velho homem já morreu!', ID=c343d83034f614e1afbcd5b89b488bdb
-INFO:root:Processing entry 2: Title='Que sacrifícios agradam a Deus?', ID=60e42c171afcec2cb772499bdf5be223
-INFO:root:Processed 2 entries in FeedGenerator, 2 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 2 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 2 entries.
+INFO:root:Response length: 381482 characters
+INFO:root:HTML parsed, length: 370751 characters
+INFO:root:Found 3 titles: ['Creia que Deus faz o impossível', 'Nova criatura eu sou, o velho homem já morreu!', 'Que sacrifícios agradam a Deus?']
+INFO:root:Found 3 URLs: ['/historia_de_raabe_na_biblia/', '/buscar_a_deus/', '/coisas_que_agradam_a_deus/']
+INFO:root:Found 3 descriptions: ['Jesus olhou para eles e respondeu: "Para o homem é', 'Portanto, se alguém está em Cristo, é nova criação', 'Os sacrifícios que agradam a Deus\nsão um espírito ']
+INFO:root:Found 3 dates: ['SETEMBRO\n\n30\nQUARTA', 'SETEMBRO\n\n29\nTERÇA', 'SETEMBRO\n\n28\nSEGUNDA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Creia que Deus faz o impossível', ID=46752d0283abc4dad6278a8e7aaeb8b2
+INFO:root:Processing entry 2: Title='Nova criatura eu sou, o velho homem já morreu!', ID=c343d83034f614e1afbcd5b89b488bdb
+INFO:root:Processing entry 3: Title='Que sacrifícios agradam a Deus?', ID=60e42c171afcec2cb772499bdf5be223
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Creia que Deus faz o impossível
+INFO:root:🔹 URL: https://www.bibliaon.com/historia_de_raabe_na_biblia/
+INFO:root:🔹 Description: Jesus olhou para eles e respondeu: "Para o homem é impossível, mas para Deus não; todas as coisas são possíveis para Deus".
+- Marcos 10:27
+
+Essa é a passagem da famosa interação entre Jesus e o jovem rico, um moço que queria saber como herdar a vida eterna. Após Jesus exigir do garoto coisas que desafiassem seu coração, o menino foi embora entristecido, querendo que a solução fosse mais fácil.
+Se ele tivesse ficado um pouco mais, sairia com uma palavra de esperança. Embora nem ele, nem nós, possamos conquistar nossa salvação, Deus é capaz! Sim, o Senhor abriu o caminho da salvação entre nós e Ele.
+Se Ele fez o impossível e inimaginável, imagine diante dos seus problemas diários! Nada é impossível ao Senhor, Ele apenas decide quando fará seus milagres.
+Muitas vezes limitamos a ação de Deus ao tamanho das nossas circunstâncias. Quando olhamos apenas para os recursos que temos, enxergamos portas fechadas e caminhos sem saída. Porém, Deus não está limitado pelas nossas capacidades. Ele continua sendo o Deus que abriu o mar, sustentou o Seu povo no deserto, ressuscitou mortos e, acima de tudo, venceu o pecado e a morte por meio de Jesus Cristo.
+Isso não significa que Deus atenderá todos os nossos pedidos da forma ou no tempo que desejamos. Significa que Ele sempre realizará aquilo que está de acordo com Sua perfeita vontade. Mesmo quando a resposta parece demorar, o Senhor continua trabalhando. Sua fidelidade não depende do que conseguimos enxergar, mas do Seu caráter imutável. Por isso, não desista de confiar. O Deus do impossível continua agindo em favor daqueles que depositam n'Ele a sua esperança.
+Quando entregamos nossa vida nas mãos do Senhor, aprendemos que o maior milagre não é apenas uma porta aberta ou uma dificuldade resolvida, mas um coração transformado pela graça. Deus pode mudar circunstâncias, restaurar famílias, abrir oportunidades e curar enfermidades, mas o maior de todos os milagres é conceder a vida eterna àqueles que creem em Jesus.
+Busque o impossível
+
+Bata, e a porta lhe será aberta; peça, e lhe será dado. Apresente em oração aquilo de que você mais necessita.
+Agradeça ao Senhor por tudo o que Ele já fez em sua vida. A gratidão fortalece a fé.
+Confie no poder de Deus acima das circunstâncias. O que é impossível para os homens continua sendo possível para o Senhor.
+
+Para orar:
+
+Senhor Deus, agradeço porque nada é impossível para Ti. Obrigado por ter aberto o caminho da salvação por meio de Jesus Cristo. Entrego em Tuas mãos as minhas dificuldades, sonhos e necessidades. Fortalece a minha fé para confiar no Teu tempo e na Tua vontade. Que eu jamais perca a esperança, sabendo que Tu és poderoso para agir além do que posso imaginar. Em nome de Jesus, amém.
+
+Veja também:História de Raabe: uma mulher de fé e coragem
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Nova criatura eu sou, o velho homem já morreu!
 INFO:root:🔹 URL: https://www.bibliaon.com/buscar_a_deus/
 INFO:root:🔹 Description: Portanto, se alguém está em Cristo, é nova criação. As coisas antigas já passaram; eis que surgiram coisas novas!
@@ -335,15 +385,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  26 +++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  25 ++-
  feeds/devocional_de_hoje/feed.json        |   6 +
- feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  10 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  57 +-------
+ feeds/salmo_do_dia/atom.xml               | 156 ++++++++------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 236 +++++++++++++-----------------
- 11 files changed, 186 insertions(+), 225 deletions(-)
+ output.log                                | 330 +++++++++++++++++-------------
+ 11 files changed, 346 insertions(+), 257 deletions(-)
