@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 203859 characters
-INFO:root:HTML parsed, length: 179464 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (10/10/2026)', 'Palavra de Ontem (09/10/2026)', 'Palavra de Anteontem (08/10/2026)']
-INFO:root:Found 3 URLs: ['/hostil/', '/amalgama/', '/sorrir/']
-INFO:root:Found 17 descriptions: ['adjetivo Capaz de hostilizar alguém demonstrando h', 'Sinônimos:\n\nagressivo, invasivo, ofensivo, adverso', 'Antônimos:\n\nfavorável, simpatizante, afável, genti']
-INFO:root:Found 3 dates: ['Palavra de Hoje (10/10/2026)', 'Palavra de Ontem (09/10/2026)', 'Palavra de Anteontem (08/10/2026)']
+INFO:root:Response length: 201665 characters
+INFO:root:HTML parsed, length: 177660 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (11/10/2026)', 'Palavra de Ontem (10/10/2026)', 'Palavra de Anteontem (09/10/2026)']
+INFO:root:Found 3 URLs: ['/biopsiar/', '/hostil/', '/amalgama/']
+INFO:root:Found 15 descriptions: ['verbo transitivo direto e intransitivo [Medicina] ', 'Sinônimos:\n\nexaminar', 'Classe gramatical:verbo transitivo direto']
+INFO:root:Found 3 dates: ['Palavra de Hoje (11/10/2026)', 'Palavra de Ontem (10/10/2026)', 'Palavra de Anteontem (09/10/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (10/10/2026)', ID=bc23417efd139c0fa1de16b5271961b4
-INFO:root:Processing entry 2: Title='Palavra de Ontem (09/10/2026)', ID=5fd0cde02d8f1c38b403043c3bf86228
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (08/10/2026)', ID=8f3e68c74667ae894dd0b4e375529f9c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (11/10/2026)', ID=1883920205dd7d64d9b14f8be36de7bd
+INFO:root:Processing entry 2: Title='Palavra de Ontem (10/10/2026)', ID=3dab3bb47f7c3886c33dcf12f8d448ec
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/10/2026)', ID=da05ee9ab4318e512d0158dd40794322
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (10/10/2026) - Significado completo de hostil:
-INFO:root:🔹 URL: https://www.dicio.com.br/hostil/
-INFO:root:🔹 Description: adjetivo Capaz de hostilizar alguém demonstrando hostilidade, rivalidade ou agressividade; agressivo.Que se opõe a; contrário: hostil ao progresso.Que denota desaprovação, inimizade: palavras hostis.Característica natural de um rival; antagônico, opositor: colega hostil.Que se expressa violenta ou agressivamente: ele é hostil só sabe agredir.Qualidade da pessoa mal-humorada; antipático: empresa composta por colegas hostis.Etimologia (origem da palavra hostil). A palavra hostil tem sua origem no latim "hostilis,e" que significa inimigo.
+INFO:root:🔹 Title: Palavra de Hoje (11/10/2026) - Significado completo de biopsiar:
+INFO:root:🔹 URL: https://www.dicio.com.br/biopsiar/
+INFO:root:🔹 Description: verbo transitivo direto e intransitivo [Medicina] Realizar uma biópsia, a retirada de um fragmento de um tecido ou de um órgão de um ser vivo para exame histológico, na busca por um diagnóstico: biopsiar uma parte de um do tecido; os médicos prescreveram biopsiar.Etimologia (origem da palavra biopsiar). A palavra biopsiar tem sua origem pela junção da palavra biopsia, biópsia, e do sufixo verbal -ar.
  
 Sinônimos:
 
-agressivo, invasivo, ofensivo, adverso, avesso, contrário, antipático, desagradável, mal-humorado, inamistoso 
+examinar 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (09/10/2026) - Significado completo de amálgama:
-INFO:root:🔹 URL: https://www.dicio.com.br/amalgama/
+INFO:root:🔹 Title: Palavra de Ontem (10/10/2026) - Significado completo de hostil:
+INFO:root:🔹 URL: https://www.dicio.com.br/hostil/
 INFO:root:🔹 Description: Sinônimos:
 
-agressivo, invasivo, ofensivo, adverso, avesso, contrário, antipático, desagradável, mal-humorado, inamistoso
- 
-Antônimos:
-
-favorável, simpatizante, afável, gentil 
-
+examinar
+ Classe gramatical:verbo transitivo direto
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (08/10/2026) - Significado completo de sorrir:
-INFO:root:🔹 URL: https://www.dicio.com.br/sorrir/
-INFO:root:🔹 Description: Antônimos:
-
-favorável, simpatizante, afável, gentil
- Classe gramatical:adjetivo de dois gêneros
+INFO:root:🔹 Title: Palavra de Anteontem (09/10/2026) - Significado completo de amálgama:
+INFO:root:🔹 URL: https://www.dicio.com.br/amalgama/
+INFO:root:🔹 Description: Classe gramatical:verbo transitivo direto
+ Sílabas:bi-op-si-ar
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,43 +42,74 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 397879 characters
-INFO:root:HTML parsed, length: 386852 characters
-INFO:root:Found 1 titles: ['Jeremias 31:3']
-INFO:root:Found 1 URLs: ['/versiculo/jeremias_31_3/']
-INFO:root:Found 1 descriptions: ['O Senhor lhe apareceu no passado,\ndizendo:\n"Eu a a']
+INFO:root:Response length: 397846 characters
+INFO:root:HTML parsed, length: 386819 characters
+INFO:root:Found 1 titles: ['Gálatas 5:19']
+INFO:root:Found 1 URLs: ['/versiculo/galatas_5_19/']
+INFO:root:Found 1 descriptions: ['Ora, as obras da carne são manifestas: imoralidade']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jeremias 31:3', ID=4386070607c395fc8b942f291ba7bd25
+INFO:root:Processing entry 1: Title='Gálatas 5:19', ID=1d53cb4a43e95c36b57f5cef3287ab41
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jeremias 31:3
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/jeremias_31_3/
-INFO:root:🔹 Description: O Senhor lhe apareceu no passado,
-dizendo:
-"Eu a amei com amor eterno;
-com amor leal a atraí. Jeremias 31:3
+INFO:root:🔹 Title: Gálatas 5:19
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/galatas_5_19/
+INFO:root:🔹 Description: Ora, as obras da carne são manifestas: imoralidade sexual, impureza e libertinagem; Gálatas 5:19
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 392960 characters
-INFO:root:HTML parsed, length: 383267 characters
-INFO:root:Found 3 titles: ['Salmo 141', 'Salmo 61', 'Salmo 140']
-INFO:root:Found 3 URLs: ['/salmos_141/', '/salmos_61/', '/salmos_140/']
-INFO:root:Found 3 descriptions: ['Clamo a ti, Senhor; vem depressa!\nEscuta a minha v', 'Ouve o meu clamor, ó Deus;\natenta para a minha ora', 'Livra-me, Senhor, dos maus;\nprotege-me dos violent']
-INFO:root:Found 3 dates: ['10 de Outubro de 2026', '9 de Outubro de 2026', '8 de Outubro de 2026']
+INFO:root:Response length: 392952 characters
+INFO:root:HTML parsed, length: 383255 characters
+INFO:root:Found 3 titles: ['Salmo 36', 'Salmo 141', 'Salmo 61']
+INFO:root:Found 3 URLs: ['/salmos_36/', '/salmos_141/', '/salmos_61/']
+INFO:root:Found 3 descriptions: ['Há no meu íntimo um oráculo\na respeito da maldade ', 'Clamo a ti, Senhor; vem depressa!\nEscuta a minha v', 'Ouve o meu clamor, ó Deus;\natenta para a minha ora']
+INFO:root:Found 3 dates: ['11 de Outubro de 2026', '10 de Outubro de 2026', '9 de Outubro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 141', ID=e2beea10b2b051294b0a6e62337fc7ac
-INFO:root:Processing entry 2: Title=' Salmo 61', ID=8907dc595674fe740145a6a1962b1467
-INFO:root:Processing entry 3: Title=' Salmo 140', ID=8a3e302037b1455d1236975728e68da3
+INFO:root:Processing entry 1: Title=' Salmo 36', ID=1b58fb6706721ad7c428d285ca780e23
+INFO:root:Processing entry 2: Title=' Salmo 141', ID=e2beea10b2b051294b0a6e62337fc7ac
+INFO:root:Processing entry 3: Title=' Salmo 61', ID=8907dc595674fe740145a6a1962b1467
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 36
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_36/
+INFO:root:🔹 Description: Há no meu íntimo um oráculo
+a respeito da maldade do ímpio:
+Aos seus olhos é inútil temer a Deus. 
+Ele se acha tão importante,
+que não percebe nem rejeita o seu pecado. 
+As palavras da sua boca
+são maldosas e traiçoeiras;
+abandonou o bom senso e não quer fazer o bem. 
+Até na sua cama planeja maldade;
+nada há de bom no caminho a que se entregou,
+e ele nunca rejeita o mal. 
+O teu amor, Senhor, chega até os céus;
+a tua fidelidade até as nuvens. 
+A tua justiça é firme como as altas montanhas;
+as tuas decisões, insondáveis como o grande mar.
+Tu, Senhor, preservas
+tanto os homens quanto os animais. 
+Como é precioso o teu amor, ó Deus!
+Os homens encontram
+refúgio à sombra das tuas asas. 
+Eles se banqueteiam na fartura da tua casa;
+tu lhes dás de beber do teu rio de delícias. 
+Pois em ti está a fonte da vida;
+graças à tua luz, vemos a luz. 
+Estende o teu amor aos que te conhecem;
+a tua justiça, aos que são retos de coração. 
+Não permitas que o arrogante me pisoteie
+nem que a mão do ímpio me faça recuar. 
+Lá estão os malfeitores caídos,
+lançados ao chão, incapazes de levantar-se! 
+ Salmo 36
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 141
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_141/
 INFO:root:🔹 Description: Clamo a ti, Senhor; vem depressa!
@@ -148,98 +173,79 @@ Então sempre cantarei louvores ao teu nome,
 cumprindo os meus votos cada dia. 
  Salmo 61
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 140
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_140/
-INFO:root:🔹 Description: Livra-me, Senhor, dos maus;
-protege-me dos violentos, 
-que no coração tramam planos perversos
-e estão sempre provocando guerra. 
-Afiam a língua como a da serpente;
-veneno de víbora está em seus lábios. 
-Protege-me, Senhor, das mãos dos ímpios;
-protege-me dos violentos,
-que pretendem fazer-me tropeçar. 
-Homens arrogantes prepararam
-armadilhas contra mim,
-perversos estenderam as suas redes;
-no meu caminho armaram ciladas contra mim. 
-Eu declaro ao Senhor: Tu és o meu Deus.
-Ouve, Senhor, a minha súplica! 
-Ó Soberano Senhor, meu salvador poderoso,
-tu me proteges a cabeça no dia da batalha; 
-não atendas aos desejos dos ímpios, Senhor!
-Não permitas que os planos deles
-tenham sucesso,
-para que não se orgulhem. 
-Recaia sobre a cabeça dos que me cercam
-a maldade que os seus lábios proferiram. 
-Caiam brasas sobre eles,
-e sejam lançados ao fogo,
-em covas das quais jamais possam sair. 
-Que os difamadores
-não se estabeleçam na terra,
-que a desgraça persiga os violentos até a morte. 
-Sei que o Senhor defenderá
-a causa do necessitado
-e fará justiça aos pobres. 
-Com certeza os justos darão graças
-ao teu nome,
-e os homens íntegros viverão na tua presença. 
- Salmo 140
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 400682 characters
-INFO:root:HTML parsed, length: 390126 characters
-INFO:root:Found 3 titles: ['Maravilhosas heranças do Senhor', 'Aprendendo a ouvir', 'Deus não desperdiça lágrimas']
+INFO:root:Response length: 400294 characters
+INFO:root:HTML parsed, length: 389728 characters
+INFO:root:Found 3 titles: ['Suas palavras curam ou envenenam', 'Maravilhosas heranças do Senhor', 'Aprendendo a ouvir']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Senhor, tu és a minha porção e o meu cálice; és tu', 'Meus amados irmãos, tenham isto em mente: Sejam to', 'Registraste o meu lamento; recolheste as minhas lá']
-INFO:root:Found 1 dates: ['Sábado, 10 de outubro de 2026']
+INFO:root:Found 3 descriptions: ['A língua tem o poder de vida e morte; quem a ama c', 'Senhor, tu és a minha porção e o meu cálice; és tu', 'Meus amados irmãos, tenham isto em mente: Sejam to']
+INFO:root:Found 1 dates: ['Domingo, 11 de outubro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Maravilhosas heranças do Senhor', ID=fc3cfb82f9c7d8ffa4ddf018ac715599
+INFO:root:Processing entry 1: Title='Suas palavras curam ou envenenam', ID=1ac22e2dda154ee0f7b2a7fb221591f8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Maravilhosas heranças do Senhor - Palavra de Hoje
+INFO:root:🔹 Title: Suas palavras curam ou envenenam - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Senhor, tu és a minha porção e o meu cálice; és tu que garantes o meu futuro. As divisas caíram em lugares agradáveis para mim; tenho uma bela herança.
-Salmos 16:5-6
+INFO:root:🔹 Description: A língua tem o poder de vida e morte; quem a ama comerá do seu fruto.
+Provérbios 18:21
 
-Enquanto as antigas tribos de Israel recebiam valiosos lotes de terra, os sacerdotes recebiam o próprio Deus como a sua porção exclusiva. O salmista apropria-se imediatamente dessa verdade milenar para declarar que a maior riqueza humana não consiste em imensas propriedades financeiras ou conquistas terrenas passageiras. Ter o Senhor como herança diária significa viver com a alma saciada e o futuro absolutamente garantido por mãos soberanas. Quando a presença divina é o nosso tesouro supremo, qualquer circunstância se torna agradável, pois a paz verdadeira flui do Criador, não das posses temporárias.
+Toda palavra que sai da sua boca planta alguma coisa. Não existe fala neutra, sem efeito nenhum sobre quem ouve. Cada frase carrega ou vida ou morte, e o que você diz com mais frequência é o fruto que você mesmo vai colher de volta, nas suas relações, na sua casa, no seu próprio coração. O texto não fala de palavras isoladas, fala de um hábito: a língua que você "ama", a forma de falar que você cultiva dia após dia. Ninguém colhe uma vez só. Colhe-se o que se planta repetidamente, semana após semana, na mesma direção.
 
-Dando graças ao Pai, que nos tornou dignos de participar da herança dos santos no reino da luz.
-Colossenses 1:12
+Há quem fale sem refletir, e fere como espada, mas a língua dos sábios traz a cura.
+Provérbios 12:18
 
-A nossa natureza decaída nos colocava em extrema miséria espiritual, completamente destituídos de méritos para reivindicar as sagradas bênçãos celestiais. Habitávamos perdidos na escuridão profunda da nossa ignorância. Contudo, o milagre do evangelho alterou radicalmente o nosso status. Através da obra redentora do Seu Filho, o Pai nos resgatou e, por pura graça imerecida, nos qualificou legalmente como coerdeiros. A nossa gratidão deve transbordar ao lembrarmos que não conquistamos essa riqueza por esforço moral, mas fomos declarados dignos pelo sangue de Jesus para desfrutar da luz.
+A diferença entre ferir e curar quase nunca está na intensidade da palavra. Está na reflexão antes dela. Quem fala sem pensar usa a língua como arma, mesmo sem querer, porque a primeira reação raramente é a mais sábia. Quem pensa antes de falar consegue fazer da mesma boca um instrumento de cura. A escolha acontece antes da frase sair, no segundo em que você decide se vai reagir ou responder. Esse segundo é pequeno, mas é onde mora toda a diferença entre a espada e o remédio. Sabedoria, aqui, não é ter mais vocabulário. É ter mais pausa.
 
-Ele nos gerou de novo para uma esperança viva, e para uma herança que jamais poderá perecer, macular-se ou perder o seu valor. Herança guardada nos céus para vocês.
-1 Pedro 1:3-4
+As palavras agradáveis são como um favo de mel: são doces para a alma e trazem cura para os ossos.
+Provérbios 16:24
 
-Tudo o que construímos e acumulamos nesta terra está sujeito à corrupção. As fortunas evaporam, a ferrugem consome e as crises corroem o patrimônio. Em absoluto contraste com essa assustadora fragilidade mundana, o apóstolo Pedro nos aponta corajosamente para uma imensa herança viva. O nosso legado definitivo não é terreno; ele é incorruptível, imaculado e imperecível. Blindada contra injustiças e tragédias do tempo, essa herança permanece em absoluta segurança, guardada pelo próprio Deus. Essa certeza eterna nos liberta da ganância paralisante e enche os nossos corações de genuína alegria peregrina. Saciados pela presença contínua do Criador, justificados graciosamente para habitarmos na luz e aguardando um tesouro inviolável guardado nos céus: a nossa alma descansa na grandiosa e eterna herança que o nosso amoroso Senhor nos garantiu e preparou com zelo.
+Uma palavra bem escolhida chega mais fundo do que parece. Alcança lugares que nem sempre um remédio alcança: o ânimo de quem está cansado, a certeza de quem está inseguro, o consolo de quem está sozinho. O mel não é uma palavra qualquer, é a palavra certa, dita a quem precisa dela, no momento em que precisa. Isso pede atenção a quem está na sua frente, não só cuidado com o que sai da sua boca. Suas palavras de hoje vão ficar depois que a conversa terminar. Escolha hoje que elas sejam mel, e não veneno.
  
-Senhor, tu és a minha porção e o meu cálice; és tu que garantes o meu futuro. As divisas caíram em lugares agradáveis para mim; tenho uma bela herança.
-Salmos 16:5-6
+A língua tem o poder de vida e morte; quem a ama comerá do seu fruto.
+Provérbios 18:21
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 411912 characters
-INFO:root:HTML parsed, length: 400923 characters
-INFO:root:Found 3 titles: ['O poder da cura na comunhão', 'A provisão que vem de Deus', 'O alívio para o fardo do cansaço']
+INFO:root:Response length: 409411 characters
+INFO:root:HTML parsed, length: 398422 characters
+INFO:root:Found 3 titles: ['A verdadeira recompensa do trabalho', 'O poder da cura na comunhão', 'A provisão que vem de Deus']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Portanto, confessem os seus pecados uns aos outros', 'O meu Deus suprirá todas as necessidades de vocês,', 'Entregue suas preocupações ao Senhor, e ele o sust']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n10\nSÁBADO', 'OUTUBRO\n\n9\nSEXTA', 'OUTUBRO\n\n8\nQUINTA']
+INFO:root:Found 3 descriptions: ['Tudo o que fizerem, façam de todo o coração, como ', 'Portanto, confessem os seus pecados uns aos outros', 'O meu Deus suprirá todas as necessidades de vocês,']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n11\nDOMINGO', 'OUTUBRO\n\n10\nSÁBADO', 'OUTUBRO\n\n9\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O poder da cura na comunhão', ID=0218a5cd789296966e7b6b54c18129ce
-INFO:root:Processing entry 2: Title='A provisão que vem de Deus', ID=01bbe083fac697e89bd13612a764bd6c
-INFO:root:Processing entry 3: Title='O alívio para o fardo do cansaço', ID=fd26839c75746f1e131f52fd33494e53
+INFO:root:Processing entry 1: Title='A verdadeira recompensa do trabalho', ID=26c3f3c6ce5fa7fb725bb003a7b69557
+INFO:root:Processing entry 2: Title='O poder da cura na comunhão', ID=0218a5cd789296966e7b6b54c18129ce
+INFO:root:Processing entry 3: Title='A provisão que vem de Deus', ID=01bbe083fac697e89bd13612a764bd6c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A verdadeira recompensa do trabalho
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Tudo o que fizerem, façam de todo o coração, como para o Senhor, e não para os homens.
+Colossenses 3:23
+
+O cansaço da rotina e as frustrações no ambiente profissional frequentemente nos levam a perder o brilho no olhar para o nosso trabalho. Quando o salário parece injusto ou o reconhecimento humano nunca chega, a tentação imediata é entregar apenas o mínimo esforço possível para sobreviver ao dia.
+A instrução de Paulo, no entanto, muda completamente o centro da nossa motivação. Ele não promete que todos os líderes serão perfeitamente justos ou que todas as tarefas diárias serão empolgantes, mas nos lembra que o nosso verdadeiro Mestre está nos céus. Trabalhar de todo o coração não é uma tática corporativa, mas uma expressão de obediência a Deus.
+Quando fazemos do nosso trabalho um ato de adoração diária, a excelência deixa de ser uma estratégia para impressionar pessoas e passa a ser o nosso padrão inegociável. Limpar um chão, fechar uma planilha complexa ou atender um cliente ganham o mesmo valor eterno e espiritual diante do Criador.
+Você não precisa estar atrás de um púlpito para servir a Cristo com fidelidade. A sua mesa de escritório, o balcão de vendas ou a fábrica são o seu campo de atuação. Onde quer que você esteja hoje, faça o seu melhor com alegria, sabendo que a sua verdadeira recompensa vem do Senhor.
+Pratique a excelência hoje, onde você está
+
+Identifique uma tarefa que você tem procrastinado ou feito com desleixo e comprometa-se a finalizá-la hoje com o seu melhor esforço.
+Elogie sinceramente o trabalho bem feito de um colega, cultivando um ambiente de encorajamento em vez de rivalidade.
+Mude a sua postura diante de um problema: em vez de focar na falha da empresa, seja a pessoa íntegra que tenta propor a solução.
+Releia Colossenses 3:23-24 antes de iniciar o seu expediente diário para alinhar as suas intenções com o Reino de Deus.
+
+Para orar
+
+Senhor, confesso que frequentemente permito que o desânimo e a falta de reconhecimento humano afetem a qualidade do meu trabalho. Perdoa-me por esquecer que tu és o meu verdadeiro Senhor. Dá-me forças para trabalhar com alegria, integridade e excelência, transformando a minha rotina em um reflexo do teu caráter. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O poder da cura na comunhão
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Portanto, confessem os seus pecados uns aos outros e orem uns pelos outros para serem curados. A oração de um justo é poderosa e eficaz.
@@ -280,26 +286,6 @@ Para orar
 
 Senhor, confesso que as pressões financeiras muitas vezes esmagam a minha fé e me fazem duvidar do teu cuidado constante. Perdoa-me por colocar a minha confiança no dinheiro e não em ti, que és a minha verdadeira fonte. Ensina-me a ser um administrador fiel, sábio e generoso, e ajuda-me a descansar na promessa de que tu suprirás todas as minhas necessidades. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O alívio para o fardo do cansaço
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Entregue suas preocupações ao Senhor, e ele o susterá; jamais permitirá que o justo venha a cair.
-Salmos 55:22
-
-O cansaço que enfrentamos muitas vezes transcende o mero esgotamento físico após um longo e desafiador dia de trabalho; trata-se de uma exaustão profunda da alma, gerada pelo acúmulo esmagador de responsabilidades inadiáveis, ansiedades implacáveis e o peso constante das preocupações diárias. Quando tentamos carregar sozinhos o controle absoluto sobre o nosso futuro, a nossa família e os nossos problemas mais complexos, os nossos ombros rapidamente cedem sob uma carga emocional que jamais fomos projetados para suportar. Esse cansaço crônico embaça a nossa visão espiritual, rouba a nossa alegria natural e nos faz caminhar pela vida com a terrível sensação sufocante de estarmos sempre à beira de um colapso iminente.
-Davi, o autor deste salmo inspirador, conhecia intimamente a angústia desesperadora de se sentir encurralado, traído e exausto pelas severas batalhas da vida. A sua resposta divina diante desse esgotamento, no entanto, é um convite radical à total e irrestrita rendição de controle. A ordem imperativa para "entregar" as nossas preocupações não é uma sugestão passiva e reconfortante, mas um verbo de ação vigorosa que exige intencionalidade prática. Significa literalmente pegar o fardo incrivelmente pesado que está esmagando o nosso peito e transferi-lo de forma consciente, deliberada e definitiva para as mãos onipotentes do Senhor. É reconhecer com profunda humildade que a nossa força humana tem limites inegociáveis e que insistir em carregar o mundo inteiro nas costas é um ato de orgulho disfarçado de extrema responsabilidade.
-A promessa inabalável que acompanha essa entrega absoluta é de um conforto indescritível e altamente restaurador. O Senhor não promete, necessariamente, que todos os obstáculos e problemas desaparecerão em um passe de mágica no exato instante em que orarmos, mas Ele garante irrefutavelmente que nos susterá no meio da tempestade violenta. Sustentar significa fornecer o suporte exato, a força física e mental renovada, e o equilíbrio perfeito para que não desmoronemos sob a brutal pressão das circunstâncias terrenas. Quando trocamos o nosso cansaço esgotante pela confiança ativa no cuidado soberano de Deus, descobrimos uma resistência sobrenatural maravilhosa que não provém do nosso próprio e frágil interior, mas flui diretamente da graça inesgotável do nosso amoroso Pai celestial.
-O convite da Palavra de Deus é um chamado contínuo e urgente para o descanso autêntico, profundo e duradouro da alma. Pare imediatamente de tentar gerenciar sozinho o peso insuportável dos seus medos irreais, das suas falhas passadas e das suas incertezas cruéis quanto ao incerto dia de amanhã. O Deus que sustenta a complexidade imensa de todo o universo pela palavra do seu poder certamente é capaz de sustentar a sua vida frágil com braços fortes, cuidadosos e infinitamente amorosos. Entregue hoje mesmo os seus fardos pesados aos pés do Senhor e permita que a paz divina renove integralmente as suas energias, fortaleça os seus passos trôpegos e restaure a sua esperança de forma abundante e libertadora.
-Pratique o descanso hoje, onde você está
-
-Faça uma lista física detalhada ou mental de todas as preocupações reais que estão causando esse cansaço extremo e, em oração intencional, entregue cada item nominalmente ao Senhor.
-Imponha limites saudáveis e rigorosos à sua rotina implacável: ouse dizer um "não" gentil para demandas que não são urgentes e priorize o seu descanso físico, que também é uma ordem divina.
-Durante os momentos críticos em que a exaustão emocional tentar paralisá-lo, feche os olhos por alguns instantes, respire profundamente e declare em voz audível e firme: "O Senhor é o meu verdadeiro sustento".
-Releia o Salmo 55 na sua totalidade, prestando atenção especial às aflições descritas por Davi, e medite na fidelidade inabalável de Deus em proteger e fortalecer aqueles que confiam inteiramente no seu cuidado constante.
-
-Para orar
-
-Senhor, confesso com sinceridade que tenho andado excessivamente cansado, arrastando o peso insuportável das minhas ansiedades, medos e tentativas frustradas de controlar o meu próprio destino e das pessoas que amo. Perdoa-me pelo orgulho sutil de tentar resolver tudo com a minha força limitada e exausta, ignorando o convite gracioso para descansar em ti. Ensina-me de forma prática a transferir e entregar genuinamente cada uma das minhas preocupações pesadas às tuas mãos infinitamente poderosas. Sustenta-me neste dia de grande exaustão, renova completamente as minhas energias físicas, mentais e emocionais, e não permitas de forma alguma que as aflições deste mundo me façam cair. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -329,15 +315,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  37 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  38 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  28 ++-
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 169 ++++----------
+ feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               |  71 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 359 +++++++++++-------------------
- 11 files changed, 247 insertions(+), 429 deletions(-)
+ output.log                                | 264 ++++++++++++++----------------
+ 11 files changed, 220 insertions(+), 260 deletions(-)
