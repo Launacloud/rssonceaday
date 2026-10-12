@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 201665 characters
-INFO:root:HTML parsed, length: 177660 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (11/10/2026)', 'Palavra de Ontem (10/10/2026)', 'Palavra de Anteontem (09/10/2026)']
-INFO:root:Found 3 URLs: ['/biopsiar/', '/hostil/', '/amalgama/']
-INFO:root:Found 15 descriptions: ['verbo transitivo direto e intransitivo [Medicina] ', 'Sinônimos:\n\nexaminar', 'Classe gramatical:verbo transitivo direto']
-INFO:root:Found 3 dates: ['Palavra de Hoje (11/10/2026)', 'Palavra de Ontem (10/10/2026)', 'Palavra de Anteontem (09/10/2026)']
+INFO:root:Response length: 200475 characters
+INFO:root:HTML parsed, length: 176653 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (12/10/2026)', 'Palavra de Ontem (11/10/2026)', 'Palavra de Anteontem (10/10/2026)']
+INFO:root:Found 3 URLs: ['/saia-justa/', '/biopsiar/', '/hostil/']
+INFO:root:Found 14 descriptions: ['expressão Situação constrangedora, desagradável, d', 'Sinônimos:\n\nvergonha, constrangimento, dificuldade', 'Classe gramatical:expressão']
+INFO:root:Found 3 dates: ['Palavra de Hoje (12/10/2026)', 'Palavra de Ontem (11/10/2026)', 'Palavra de Anteontem (10/10/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (11/10/2026)', ID=1883920205dd7d64d9b14f8be36de7bd
-INFO:root:Processing entry 2: Title='Palavra de Ontem (10/10/2026)', ID=3dab3bb47f7c3886c33dcf12f8d448ec
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (09/10/2026)', ID=da05ee9ab4318e512d0158dd40794322
+INFO:root:Processing entry 1: Title='Palavra de Hoje (12/10/2026)', ID=c51b680fc11a65c91537e9c4661b3cb1
+INFO:root:Processing entry 2: Title='Palavra de Ontem (11/10/2026)', ID=4f2fea8b54356c0b91b268a0c628cca2
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (10/10/2026)', ID=89b65b1cbfabcebe995b4907c2b49a2e
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (11/10/2026) - Significado completo de biopsiar:
-INFO:root:🔹 URL: https://www.dicio.com.br/biopsiar/
-INFO:root:🔹 Description: verbo transitivo direto e intransitivo [Medicina] Realizar uma biópsia, a retirada de um fragmento de um tecido ou de um órgão de um ser vivo para exame histológico, na busca por um diagnóstico: biopsiar uma parte de um do tecido; os médicos prescreveram biopsiar.Etimologia (origem da palavra biopsiar). A palavra biopsiar tem sua origem pela junção da palavra biopsia, biópsia, e do sufixo verbal -ar.
+INFO:root:🔹 Title: Palavra de Hoje (12/10/2026) - Significado completo de saia justa:
+INFO:root:🔹 URL: https://www.dicio.com.br/saia-justa/
+INFO:root:🔹 Description: expressão Situação constrangedora, desagradável, desconfortável difícil de se contornar, de sair dela: o ministro deixou o presidente em saia justa ao falar publicamente do seu vício.Etimologia (origem de saia justa). A expressão saia justa tem sua origem pela junção da palavra saia, e justa, feminino de justo.
  
 Sinônimos:
 
-examinar 
+vergonha, constrangimento, dificuldade, contrariedade 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (10/10/2026) - Significado completo de hostil:
-INFO:root:🔹 URL: https://www.dicio.com.br/hostil/
+INFO:root:🔹 Title: Palavra de Ontem (11/10/2026) - Significado completo de biopsiar:
+INFO:root:🔹 URL: https://www.dicio.com.br/biopsiar/
 INFO:root:🔹 Description: Sinônimos:
 
-examinar
- Classe gramatical:verbo transitivo direto
+vergonha, constrangimento, dificuldade, contrariedade
+ Classe gramatical:expressão
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (09/10/2026) - Significado completo de amálgama:
-INFO:root:🔹 URL: https://www.dicio.com.br/amalgama/
-INFO:root:🔹 Description: Classe gramatical:verbo transitivo direto
- Sílabas:bi-op-si-ar
+INFO:root:🔹 Title: Palavra de Anteontem (10/10/2026) - Significado completo de hostil:
+INFO:root:🔹 URL: https://www.dicio.com.br/hostil/
+INFO:root:🔹 Description: Classe gramatical:expressão
+ Sílabas:sai-a jus-ta
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,75 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 397846 characters
-INFO:root:HTML parsed, length: 386819 characters
-INFO:root:Found 1 titles: ['Gálatas 5:19']
-INFO:root:Found 1 URLs: ['/versiculo/galatas_5_19/']
-INFO:root:Found 1 descriptions: ['Ora, as obras da carne são manifestas: imoralidade']
+INFO:root:Response length: 397773 characters
+INFO:root:HTML parsed, length: 386746 characters
+INFO:root:Found 1 titles: ['2 Timóteo 4:7']
+INFO:root:Found 1 URLs: ['/versiculo/2_timoteo_4_7/']
+INFO:root:Found 1 descriptions: ['Combati o bom combate, terminei a corrida, guardei']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Gálatas 5:19', ID=1d53cb4a43e95c36b57f5cef3287ab41
+INFO:root:Processing entry 1: Title='2 Timóteo 4:7', ID=59855ab4a8fe9c6008821b3f749f9334
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Gálatas 5:19
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/galatas_5_19/
-INFO:root:🔹 Description: Ora, as obras da carne são manifestas: imoralidade sexual, impureza e libertinagem; Gálatas 5:19
+INFO:root:🔹 Title: 2 Timóteo 4:7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_timoteo_4_7/
+INFO:root:🔹 Description: Combati o bom combate, terminei a corrida, guardei a fé. 2 Timóteo 4:7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 392952 characters
-INFO:root:HTML parsed, length: 383255 characters
-INFO:root:Found 3 titles: ['Salmo 36', 'Salmo 141', 'Salmo 61']
-INFO:root:Found 3 URLs: ['/salmos_36/', '/salmos_141/', '/salmos_61/']
-INFO:root:Found 3 descriptions: ['Há no meu íntimo um oráculo\na respeito da maldade ', 'Clamo a ti, Senhor; vem depressa!\nEscuta a minha v', 'Ouve o meu clamor, ó Deus;\natenta para a minha ora']
-INFO:root:Found 3 dates: ['11 de Outubro de 2026', '10 de Outubro de 2026', '9 de Outubro de 2026']
+INFO:root:Response length: 393218 characters
+INFO:root:HTML parsed, length: 383528 characters
+INFO:root:Found 3 titles: ['Salmo 97', 'Salmo 36', 'Salmo 141']
+INFO:root:Found 3 URLs: ['/salmos_97/', '/salmos_36/', '/salmos_141/']
+INFO:root:Found 3 descriptions: ['O Senhor reina!\nExulte a terra\ne alegrem-se as reg', 'Há no meu íntimo um oráculo\na respeito da maldade ', 'Clamo a ti, Senhor; vem depressa!\nEscuta a minha v']
+INFO:root:Found 3 dates: ['12 de Outubro de 2026', '11 de Outubro de 2026', '10 de Outubro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 36', ID=1b58fb6706721ad7c428d285ca780e23
-INFO:root:Processing entry 2: Title=' Salmo 141', ID=e2beea10b2b051294b0a6e62337fc7ac
-INFO:root:Processing entry 3: Title=' Salmo 61', ID=8907dc595674fe740145a6a1962b1467
+INFO:root:Processing entry 1: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
+INFO:root:Processing entry 2: Title=' Salmo 36', ID=1b58fb6706721ad7c428d285ca780e23
+INFO:root:Processing entry 3: Title=' Salmo 141', ID=e2beea10b2b051294b0a6e62337fc7ac
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 97
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_97/
+INFO:root:🔹 Description: O Senhor reina!
+Exulte a terra
+e alegrem-se as regiões costeiras distantes. 
+Nuvens escuras e espessas o cercam;
+retidão e justiça são a base do seu trono. 
+Fogo vai adiante dele
+e devora os adversários ao redor. 
+Seus relâmpagos iluminam o mundo;
+a terra os vê e estremece. 
+Os montes se derretem como cera
+diante do Senhor,
+diante do Soberano de toda a terra. 
+Os céus proclamam a sua justiça,
+e todos os povos contemplam a sua glória. 
+Ficam decepcionados
+todos os que adoram imagens
+e se vangloriam de ídolos.
+Prostram-se diante dele todos os deuses! 
+Sião ouve e se alegra,
+e as cidades de Judá exultam,
+por causa das tuas sentenças, Senhor. 
+Pois tu, Senhor,
+és o Altíssimo sobre toda a terra!
+És exaltado muito acima de todos os deuses! 
+Odeiem o mal, vocês que amam o Senhor,
+pois ele protege a vida dos seus fiéis
+e os livra das mãos dos ímpios. 
+A luz nasce sobre o justo
+e a alegria sobre os retos de coração. 
+Alegrem-se no Senhor, justos,
+e louvem o seu santo nome. 
+ Salmo 97
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 36
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_36/
 INFO:root:🔹 Description: Há no meu íntimo um oráculo
@@ -149,83 +184,79 @@ Caiam os ímpios em sua própria rede,
 enquanto eu escapo ileso. 
  Salmo 141
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 61
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_61/
-INFO:root:🔹 Description: Ouve o meu clamor, ó Deus;
-atenta para a minha oração. 
-Desde os confins da terra eu clamo a ti
-com o coração abatido;
-põe-me a salvo na rocha mais alta do que eu. 
-Pois tu tens sido o meu refúgio,
-uma torre forte contra o inimigo. 
-Para sempre anseio habitar na tua tenda
-e refugiar-me no abrigo das tuas asas. 
-Pois ouviste os meus votos, ó Deus;
-deste-me a herança que concedes
-aos que temem o teu nome. 
-Prolonga os dias do rei,
-por muitas gerações os seus anos de vida. 
-Para sempre esteja ele em seu trono,
-diante de Deus;
-envia o teu amor e a tua fidelidade
-para protegê-lo. 
-Então sempre cantarei louvores ao teu nome,
-cumprindo os meus votos cada dia. 
- Salmo 61
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 400294 characters
-INFO:root:HTML parsed, length: 389728 characters
-INFO:root:Found 3 titles: ['Suas palavras curam ou envenenam', 'Maravilhosas heranças do Senhor', 'Aprendendo a ouvir']
+INFO:root:Response length: 401025 characters
+INFO:root:HTML parsed, length: 390469 characters
+INFO:root:Found 3 titles: ['Paciência: Uma virtude ativa', 'Suas palavras curam ou envenenam', 'Maravilhosas heranças do Senhor']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['A língua tem o poder de vida e morte; quem a ama c', 'Senhor, tu és a minha porção e o meu cálice; és tu', 'Meus amados irmãos, tenham isto em mente: Sejam to']
-INFO:root:Found 1 dates: ['Domingo, 11 de outubro de 2026']
+INFO:root:Found 3 descriptions: ['Portanto, irmãos, sejam pacientes até a vinda do S', 'A língua tem o poder de vida e morte; quem a ama c', 'Senhor, tu és a minha porção e o meu cálice; és tu']
+INFO:root:Found 1 dates: ['Segunda, 12 de outubro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Suas palavras curam ou envenenam', ID=1ac22e2dda154ee0f7b2a7fb221591f8
+INFO:root:Processing entry 1: Title='Paciência: Uma virtude ativa', ID=c65aa6b858dd36db0d7500d830bc18be
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Suas palavras curam ou envenenam - Palavra de Hoje
+INFO:root:🔹 Title: Paciência: Uma virtude ativa - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: A língua tem o poder de vida e morte; quem a ama comerá do seu fruto.
-Provérbios 18:21
+INFO:root:🔹 Description: Portanto, irmãos, sejam pacientes até a vinda do Senhor. Vejam como o agricultor aguarda que a terra produza a preciosa colheita e como espera com paciência até virem as chuvas do outono e da primavera.
+Tiago 5:7
 
-Toda palavra que sai da sua boca planta alguma coisa. Não existe fala neutra, sem efeito nenhum sobre quem ouve. Cada frase carrega ou vida ou morte, e o que você diz com mais frequência é o fruto que você mesmo vai colher de volta, nas suas relações, na sua casa, no seu próprio coração. O texto não fala de palavras isoladas, fala de um hábito: a língua que você "ama", a forma de falar que você cultiva dia após dia. Ninguém colhe uma vez só. Colhe-se o que se planta repetidamente, semana após semana, na mesma direção.
+O conceito bíblico de paciência frequentemente é confundido com resignação passiva, uma atitude de cruzar os braços esperando que o tempo resolva as adversidades. No entanto, a Palavra de Deus apresenta a paciência como uma virtude profundamente ativa e intencional. O agricultor não fica ocioso enquanto aguarda a colheita; ele prepara o solo, lança a semente e trabalha com esforço contínuo. A sua espera é produtiva e cheia de confiança nas chuvas providenciais. A nossa paciência espiritual exige que continuemos plantando obediência, mesmo quando os resultados demoram, confiando no tempo perfeito do Senhor.
 
-Há quem fale sem refletir, e fere como espada, mas a língua dos sábios traz a cura.
-Provérbios 12:18
+Não só isso, mas também nos gloriamos nas tribulações, porque sabemos que a tribulação produz perseverança; a perseverança, um caráter aprovado; e o caráter aprovado, esperança.
+Romanos 5:3-4
 
-A diferença entre ferir e curar quase nunca está na intensidade da palavra. Está na reflexão antes dela. Quem fala sem pensar usa a língua como arma, mesmo sem querer, porque a primeira reação raramente é a mais sábia. Quem pensa antes de falar consegue fazer da mesma boca um instrumento de cura. A escolha acontece antes da frase sair, no segundo em que você decide se vai reagir ou responder. Esse segundo é pequeno, mas é onde mora toda a diferença entre a espada e o remédio. Sabedoria, aqui, não é ter mais vocabulário. É ter mais pausa.
+A paciência genuína é forjada no calor implacável das provações. Quando a demora bate à porta, a inclinação natural é o desespero. Paulo ensina a abraçar as tribulações como ferramentas nas mãos de um Deus soberano. A dor não é um acidente, mas a fornalha divina designada para moldar nossa perseverança. Suportar as pressões diárias sem desistir fortalece nossos músculos espirituais, gerando um caráter maduro e aprovado. Esse processo árduo, sustentado pela paciência ativa, culmina em uma esperança viva que não decepciona, pois ancora a nossa alma nas promessas imutáveis do Pai celestial, independentemente da tempestade.
 
-As palavras agradáveis são como um favo de mel: são doces para a alma e trazem cura para os ossos.
-Provérbios 16:24
+Vocês precisam perseverar, de modo que, quando tiverem feito a vontade de Deus, recebam o que ele prometeu.
+Hebreus 10:36
 
-Uma palavra bem escolhida chega mais fundo do que parece. Alcança lugares que nem sempre um remédio alcança: o ânimo de quem está cansado, a certeza de quem está inseguro, o consolo de quem está sozinho. O mel não é uma palavra qualquer, é a palavra certa, dita a quem precisa dela, no momento em que precisa. Isso pede atenção a quem está na sua frente, não só cuidado com o que sai da sua boca. Suas palavras de hoje vão ficar depois que a conversa terminar. Escolha hoje que elas sejam mel, e não veneno.
+A jornada cristã é uma maratona rigorosa, não uma corrida rápida. O autor adverte que a paciência perseverante é um requisito indispensável para alcançarmos as promessas divinas. Desistir no meio do caminho ou buscar atalhos movidos pela ansiedade nos afasta da vontade perfeita de Deus. A virtude ativa nos capacita a manter os olhos fixos no prêmio eterno, recusando o desânimo paralisante. Quando escolhemos esperar fazendo a vontade divina, a nossa obediência se torna o maior testemunho de fé. Encorajados pelo exemplo incansável do agricultor, forjados no fogo das aflições cotidianas e sustentados pela certeza da recompensa: a nossa paciência não é espera ociosa, mas a firme determinação de confiar, trabalhando e obedecendo até o fim.
  
-A língua tem o poder de vida e morte; quem a ama comerá do seu fruto.
-Provérbios 18:21
+Portanto, irmãos, sejam pacientes até a vinda do Senhor. Vejam como o agricultor aguarda que a terra produza a preciosa colheita e como espera com paciência até virem as chuvas do outono e da primavera.
+Tiago 5:7
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 409411 characters
-INFO:root:HTML parsed, length: 398422 characters
-INFO:root:Found 3 titles: ['A verdadeira recompensa do trabalho', 'O poder da cura na comunhão', 'A provisão que vem de Deus']
+INFO:root:Response length: 409328 characters
+INFO:root:HTML parsed, length: 398339 characters
+INFO:root:Found 3 titles: ['O diálogo com a própria alma', 'A verdadeira recompensa do trabalho', 'O poder da cura na comunhão']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Tudo o que fizerem, façam de todo o coração, como ', 'Portanto, confessem os seus pecados uns aos outros', 'O meu Deus suprirá todas as necessidades de vocês,']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n11\nDOMINGO', 'OUTUBRO\n\n10\nSÁBADO', 'OUTUBRO\n\n9\nSEXTA']
+INFO:root:Found 3 descriptions: ['Por que você está assim tão triste, ó minha alma? ', 'Tudo o que fizerem, façam de todo o coração, como ', 'Portanto, confessem os seus pecados uns aos outros']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n12\nSEGUNDA', 'OUTUBRO\n\n11\nDOMINGO', 'OUTUBRO\n\n10\nSÁBADO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A verdadeira recompensa do trabalho', ID=26c3f3c6ce5fa7fb725bb003a7b69557
-INFO:root:Processing entry 2: Title='O poder da cura na comunhão', ID=0218a5cd789296966e7b6b54c18129ce
-INFO:root:Processing entry 3: Title='A provisão que vem de Deus', ID=01bbe083fac697e89bd13612a764bd6c
+INFO:root:Processing entry 1: Title='O diálogo com a própria alma', ID=47dde3e283e9135ee57c982dec9645c9
+INFO:root:Processing entry 2: Title='A verdadeira recompensa do trabalho', ID=26c3f3c6ce5fa7fb725bb003a7b69557
+INFO:root:Processing entry 3: Title='O poder da cura na comunhão', ID=0218a5cd789296966e7b6b54c18129ce
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O diálogo com a própria alma
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Por que você está assim tão triste, ó minha alma? Por que está assim tão perturbada dentro de mim? Ponha a sua esperança em Deus! Pois ainda o louvarei; ele é o meu Salvador e o meu Deus.
+Salmos 43:5
+
+O desânimo frequentemente nos joga em um abismo de silêncio e nos faz ouvir apenas as vozes do medo e da desesperança. Quando a tristeza se acomoda, a nossa tendência natural é aceitar passivamente o peso das emoções, permitindo que elas ditem a nossa realidade e a nossa visão de futuro.
+O salmista nos ensina uma disciplina espiritual poderosa e transformadora: falar com a própria alma. Ele não nega a profunda dor que sente, mas se recusa a ser passivamente dominado por ela. Em vez de apenas escutar as mentiras do desânimo, ele decide confrontar os seus próprios sentimentos e questionar a origem daquela perturbação paralisante.
+A restauração começa quando direcionamos a nossa alma de volta para a fonte correta. A ordem para colocar a esperança em Deus é uma decisão ativa e intencional de retirar a confiança das circunstâncias caóticas e depositá-la inteiramente no Senhor. A esperança cristã não é um otimismo ingênuo, mas a convicção inabalável de quem Deus é.
+Mesmo no auge da tristeza, o salmista escolhe adorar por antecipação. Lembrar que Deus é o nosso Salvador redireciona os nossos olhos da dor presente para a promessa de restauração, trazendo alívio e coragem ao coração exausto.
+Pratique a esperança hoje, onde você está
+
+Quando a tristeza sufocar, questione os seus sentimentos em voz alta e lembre a sua alma das promessas de Deus.
+Cante ou ouça um louvor mesmo sem vontade, utilizando a adoração sincera como uma arma contra o desânimo.
+Escreva uma lista com três motivos práticos e reais pelos quais você pode confiar no Senhor baseando-se no seu passado.
+Releia o Salmo 43 inteiro e declare sobre a sua própria vida que o Senhor continua sendo a sua salvação.
+
+Para orar
+
+Senhor, confesso que a tristeza e a perturbação muitas vezes silenciam a minha fé e me roubam a força. Perdoa-me por me entregar passivamente ao desânimo. Ensina-me a confrontar as minhas emoções limitadas com a tua verdade eterna. Levanta a minha alma abatida, firma os meus passos e devolve-me a alegria de te adorar. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A verdadeira recompensa do trabalho
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Tudo o que fizerem, façam de todo o coração, como para o Senhor, e não para os homens.
@@ -266,26 +297,6 @@ Para orar
 
 Senhor, confesso que muitas vezes o orgulho e o medo me fazem esconder as minhas dores e fraquezas. Perdoa-me por tentar lutar sozinho quando o Senhor me deu uma família espiritual para me apoiar. Dá-me coragem para ser vulnerável e humildade para pedir oração. Usa também a minha vida e a minha voz para interceder pela cura dos meus irmãos. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A provisão que vem de Deus
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: O meu Deus suprirá todas as necessidades de vocês, de acordo com as suas gloriosas riquezas em Cristo Jesus.
-Filipenses 4:19
-
-As questões financeiras costumam ser uma das maiores fontes de ansiedade e desespero. O medo da escassez, as contas acumuladas e a incerteza constante sobre o futuro econômico frequentemente roubam a nossa paz, fazendo com que o nosso coração coloque toda a sua segurança no próprio esforço ou no saldo de uma conta bancária.
-O apóstolo Paulo escreveu esta poderosa promessa para uma igreja que havia sido extremamente generosa com ele em momentos difíceis. Ele não promete uma vida de ostentação, luxos ilimitados ou a ausência de lutas econômicas, mas garante algo muito mais sólido e seguro: o nosso sustento diário flui de uma fonte que nunca seca.
-A verdadeira segurança financeira não é alcançada apenas com planejamento, embora a organização e a sabedoria sejam essenciais. A paz real reside na confiança absoluta de que o Deus a quem servimos conhece cada uma das nossas necessidades e possui riquezas gloriosas. Quando honramos o Senhor com o que temos, o medo da falta cede lugar à fé na sua provisão perfeita.
-Você não está lutando sozinho para garantir o seu amanhã. Deus é o seu grande provedor. Faça a sua parte com dedicação e integridade, seja sábio com os seus recursos e descanse o seu coração ansioso na certeza de que Ele jamais desampara os seus filhos.
-Pratique a confiança financeira hoje, onde você está
-
-Faça um levantamento honesto das suas finanças hoje, agradecendo a Deus pelo que você já tem antes de pedir por mais.
-Identifique um gasto por impulso que você pode cortar esta semana, administrando com mais sabedoria os recursos divinos.
-Exerça a generosidade de forma prática: abençoe alguém hoje, seja com uma oferta, um alimento ou um tempo precioso.
-Releia Filipenses 4:10-20 e medite sobre como a fidelidade e a gratidão abrem as portas para a paz em meio às pressões financeiras.
-
-Para orar
-
-Senhor, confesso que as pressões financeiras muitas vezes esmagam a minha fé e me fazem duvidar do teu cuidado constante. Perdoa-me por colocar a minha confiança no dinheiro e não em ti, que és a minha verdadeira fonte. Ensina-me a ser um administrador fiel, sábio e generoso, e ajuda-me a descansar na promessa de que tu suprirás todas as minhas necessidades. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -319,11 +330,11 @@ INFO:root: feeds/devocional_de_hoje/atom.xml         |  38 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
  feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  71 ++++----
+ feeds/salmo_do_dia/atom.xml               |  57 ++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 264 ++++++++++++++----------------
- 11 files changed, 220 insertions(+), 260 deletions(-)
+ output.log                                | 241 +++++++++++++++---------------
+ 11 files changed, 222 insertions(+), 212 deletions(-)
