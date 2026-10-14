@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 198973 characters
-INFO:root:HTML parsed, length: 175541 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (13/10/2026)', 'Palavra de Ontem (12/10/2026)', 'Palavra de Anteontem (11/10/2026)']
-INFO:root:Found 3 URLs: ['/zoologo/', '/saia-justa/', '/biopsiar/']
-INFO:root:Found 12 descriptions: ['substantivo masculino [Zoologia]  Aquele que se es', 'Sinônimos:\n\nzoologista', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (13/10/2026)', 'Palavra de Ontem (12/10/2026)', 'Palavra de Anteontem (11/10/2026)']
+INFO:root:Response length: 199289 characters
+INFO:root:HTML parsed, length: 175674 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (14/10/2026)', 'Palavra de Ontem (13/10/2026)', 'Palavra de Anteontem (12/10/2026)']
+INFO:root:Found 3 URLs: ['/upload/', '/zoologo/', '/saia-justa/']
+INFO:root:Found 13 descriptions: ['substantivo masculino [Informática] Subir um arqui', 'Sinônimos:\n\ntransferência, envio, carregamento, co', 'Antônimos:\n\ndownload']
+INFO:root:Found 3 dates: ['Palavra de Hoje (14/10/2026)', 'Palavra de Ontem (13/10/2026)', 'Palavra de Anteontem (12/10/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (13/10/2026)', ID=d780c03473fa12ebed6f08632b096edf
-INFO:root:Processing entry 2: Title='Palavra de Ontem (12/10/2026)', ID=acc06935c8a8db320bd728aad8219ce8
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/10/2026)', ID=3e71a0a4b68a7e947f9e1c48c67147cd
+INFO:root:Processing entry 1: Title='Palavra de Hoje (14/10/2026)', ID=656285212a4ea49b508652d7a5ff9fa9
+INFO:root:Processing entry 2: Title='Palavra de Ontem (13/10/2026)', ID=22334dc1700c1e518648f47d3461de3e
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/10/2026)', ID=d85af878d8b484da782f87f2402191cc
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (13/10/2026) - Significado completo de zoólogo:
-INFO:root:🔹 URL: https://www.dicio.com.br/zoologo/
-INFO:root:🔹 Description: substantivo masculino [Zoologia]  Aquele que se especializou em zoologia, que se dedica ao estudo dos animais ou tem formação nesta área do conhecimento; zoologista.Etimologia (origem da palavra zoólogo). A palavra zoólogo tem sua origem pela junção do prefixo de origem grega zoo-, que significa animal, e do sufixo -logo, com sentido de estudioso.
+INFO:root:🔹 Title: Palavra de Hoje (14/10/2026) - Significado completo de upload:
+INFO:root:🔹 URL: https://www.dicio.com.br/upload/
+INFO:root:🔹 Description: substantivo masculino [Informática] Subir um arquivo, foto etc. do computador ou do celular para um servidor on-line, opõe-se ao download que significa baixar o arquivo para o seu dispositivo.Etimologia (origem da palavra upload). A palavra upload tem sua origem no inglês "upload", com o mesmo sentido.
  
 Sinônimos:
 
-zoologista 
+transferência, envio, carregamento, compartilhamento 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (12/10/2026) - Significado completo de saia justa:
-INFO:root:🔹 URL: https://www.dicio.com.br/saia-justa/
+INFO:root:🔹 Title: Palavra de Ontem (13/10/2026) - Significado completo de zoólogo:
+INFO:root:🔹 URL: https://www.dicio.com.br/zoologo/
 INFO:root:🔹 Description: Sinônimos:
 
-zoologista
- Classe gramatical:substantivo masculino
+transferência, envio, carregamento, compartilhamento
+ 
+Antônimos:
+
+download 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (11/10/2026) - Significado completo de biopsiar:
-INFO:root:🔹 URL: https://www.dicio.com.br/biopsiar/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:zo-ó-lo-go
+INFO:root:🔹 Title: Palavra de Anteontem (12/10/2026) - Significado completo de saia justa:
+INFO:root:🔹 URL: https://www.dicio.com.br/saia-justa/
+INFO:root:🔹 Description: Antônimos:
+
+download
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +48,85 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 397867 characters
-INFO:root:HTML parsed, length: 386840 characters
-INFO:root:Found 1 titles: ['Lucas 15:10']
-INFO:root:Found 1 URLs: ['/versiculo/lucas_15_10/']
-INFO:root:Found 1 descriptions: ['Eu digo que, da mesma forma, há alegria na presenç']
+INFO:root:Response length: 400510 characters
+INFO:root:HTML parsed, length: 387960 characters
+INFO:root:Found 1 titles: ['Mateus 7:7']
+INFO:root:Found 1 URLs: ['/versiculo/mateus_7_7/']
+INFO:root:Found 1 descriptions: ['"Peçam, e será dado; busquem, e encontrarão; batam']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Lucas 15:10', ID=cdd85228779fb8c3e3e066ef93a5f10d
+INFO:root:Processing entry 1: Title='Mateus 7:7', ID=23135b1d75e7fdf2049d8b342bd4fbf4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Lucas 15:10
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/lucas_15_10/
-INFO:root:🔹 Description: Eu digo que, da mesma forma, há alegria na presença dos anjos de Deus por um pecador que se arrepende". Lucas 15:10
+INFO:root:🔹 Title: Mateus 7:7
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_7_7/
+INFO:root:🔹 Description: "Peçam, e será dado; busquem, e encontrarão; batam, e a porta será aberta. Mateus 7:7
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 393352 characters
-INFO:root:HTML parsed, length: 383661 characters
-INFO:root:Found 3 titles: ['Salmo 57', 'Salmo 97', 'Salmo 36']
-INFO:root:Found 3 URLs: ['/salmos_57/', '/salmos_97/', '/salmos_36/']
-INFO:root:Found 3 descriptions: ['Misericórdia, ó Deus; misericórdia,\npois em ti a m', 'O Senhor reina!\nExulte a terra\ne alegrem-se as reg', 'Há no meu íntimo um oráculo\na respeito da maldade ']
-INFO:root:Found 3 dates: ['13 de Outubro de 2026', '12 de Outubro de 2026', '11 de Outubro de 2026']
+INFO:root:Response length: 391591 characters
+INFO:root:HTML parsed, length: 381107 characters
+INFO:root:Found 3 titles: ['Salmo 115', 'Salmo 57', 'Salmo 97']
+INFO:root:Found 3 URLs: ['/salmos_115/', '/salmos_57/', '/salmos_97/']
+INFO:root:Found 3 descriptions: ['Não a nós, Senhor, nenhuma glória para nós,\nmas si', 'Misericórdia, ó Deus; misericórdia,\npois em ti a m', 'O Senhor reina!\nExulte a terra\ne alegrem-se as reg']
+INFO:root:Found 3 dates: ['14 de Outubro de 2026', '13 de Outubro de 2026', '12 de Outubro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 57', ID=28e1653b0e01d76fbd4eeb45358d4c91
-INFO:root:Processing entry 2: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
-INFO:root:Processing entry 3: Title=' Salmo 36', ID=1b58fb6706721ad7c428d285ca780e23
+INFO:root:Processing entry 1: Title=' Salmo 115', ID=c931268d36df846fb79d980de87b9a14
+INFO:root:Processing entry 2: Title=' Salmo 57', ID=28e1653b0e01d76fbd4eeb45358d4c91
+INFO:root:Processing entry 3: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 115
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_115/
+INFO:root:🔹 Description: Não a nós, Senhor, nenhuma glória para nós,
+mas sim ao teu nome,
+por teu amor e por tua fidelidade! 
+Por que perguntam as nações:
+"Onde está o Deus deles?" 
+O nosso Deus está nos céus,
+e pode fazer tudo o que lhe agrada. 
+Os ídolos deles, de prata e ouro,
+são feitos por mãos humanas. 
+Têm boca, mas não podem falar;
+olhos, mas não podem ver; 
+têm ouvidos, mas não podem ouvir;
+nariz, mas não podem sentir cheiro; 
+têm mãos, mas nada podem apalpar;
+pés, mas não podem andar;
+e não emitem som algum com a garganta. 
+Tornem-se como eles aqueles que os fazem
+e todos os que neles confiam. 
+Confie no Senhor,ó Israel!
+Ele é o seu socorro e o seu escudo. 
+Confiem no Senhor, sacerdotes!
+Ele é o seu socorro e o seu escudo. 
+Vocês que temem o Senhor,
+confiem no Senhor!
+Ele é o seu socorro e o seu escudo. 
+O Senhor lembra-se de nós e nos abençoará;
+abençoará os israelitas,
+abençoará os sacerdotes, 
+abençoará os que temem o Senhor,
+do menor ao maior. 
+Que o Senhor os multiplique,
+vocês e os seus filhos. 
+Sejam vocês abençoados pelo Senhor,
+que fez os céus e a terra. 
+Os mais altos céus pertencem ao Senhor,
+mas a terra, ele a confiou ao homem. 
+Os mortos não louvam o Senhor,
+tampouco nenhum dos que descem ao silêncio. 
+Mas nós bendiremos o Senhor,
+desde agora e para sempre!
+Aleluia! 
+ Salmo 115
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 57
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_57/
 INFO:root:🔹 Description: Misericórdia, ó Deus; misericórdia,
@@ -150,93 +201,79 @@ Alegrem-se no Senhor, justos,
 e louvem o seu santo nome. 
  Salmo 97
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 36
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_36/
-INFO:root:🔹 Description: Há no meu íntimo um oráculo
-a respeito da maldade do ímpio:
-Aos seus olhos é inútil temer a Deus. 
-Ele se acha tão importante,
-que não percebe nem rejeita o seu pecado. 
-As palavras da sua boca
-são maldosas e traiçoeiras;
-abandonou o bom senso e não quer fazer o bem. 
-Até na sua cama planeja maldade;
-nada há de bom no caminho a que se entregou,
-e ele nunca rejeita o mal. 
-O teu amor, Senhor, chega até os céus;
-a tua fidelidade até as nuvens. 
-A tua justiça é firme como as altas montanhas;
-as tuas decisões, insondáveis como o grande mar.
-Tu, Senhor, preservas
-tanto os homens quanto os animais. 
-Como é precioso o teu amor, ó Deus!
-Os homens encontram
-refúgio à sombra das tuas asas. 
-Eles se banqueteiam na fartura da tua casa;
-tu lhes dás de beber do teu rio de delícias. 
-Pois em ti está a fonte da vida;
-graças à tua luz, vemos a luz. 
-Estende o teu amor aos que te conhecem;
-a tua justiça, aos que são retos de coração. 
-Não permitas que o arrogante me pisoteie
-nem que a mão do ímpio me faça recuar. 
-Lá estão os malfeitores caídos,
-lançados ao chão, incapazes de levantar-se! 
- Salmo 36
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 400851 characters
-INFO:root:HTML parsed, length: 390285 characters
-INFO:root:Found 3 titles: ['Enviados atrás da ovelha perdida', 'Paciência: Uma virtude ativa', 'Suas palavras curam ou envenenam']
+INFO:root:Response length: 399074 characters
+INFO:root:HTML parsed, length: 387720 characters
+INFO:root:Found 3 titles: ['A exclusividade do amor', 'Enviados atrás da ovelha perdida', 'Paciência: Uma virtude ativa']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['"Qual de vocês que, possuindo cem ovelhas, e perde', 'Portanto, irmãos, sejam pacientes até a vinda do S', 'A língua tem o poder de vida e morte; quem a ama c']
-INFO:root:Found 1 dates: ['Terça, 13 de outubro de 2026']
+INFO:root:Found 3 descriptions: ['Ouça, ó Israel: O Senhor, o nosso Deus, é o único ', '"Qual de vocês que, possuindo cem ovelhas, e perde', 'Portanto, irmãos, sejam pacientes até a vinda do S']
+INFO:root:Found 1 dates: ['Quarta, 14 de outubro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Enviados atrás da ovelha perdida', ID=0acbd3c89a2c33547ad1839db37334b0
+INFO:root:Processing entry 1: Title='A exclusividade do amor', ID=bda57d03ff8716544930954ae9b8f973
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Enviados atrás da ovelha perdida - Palavra de Hoje
+INFO:root:🔹 Title: A exclusividade do amor - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: "Qual de vocês que, possuindo cem ovelhas, e perdendo uma, não deixa as noventa e nove no campo e vai atrás da ovelha perdida, até encontrá-la?"
-Lucas 15:4
+INFO:root:🔹 Description: Ouça, ó Israel: O Senhor, o nosso Deus, é o único Senhor. Ame o Senhor, o seu Deus, de todo o seu coração, de toda a sua alma e de todas as suas forças.
+Deuteronômio 6:4-5
 
-O coração de Deus jamais se conforma com a perda. Para a lógica pragmática humana e os cálculos terrenos, manter noventa e nove ovelhas perfeitamente seguras no aprisco seria um resultado plenamente aceitável e um sinal de absoluto sucesso. No entanto, a matemática do Reino dos Céus é fundamentada em um amor radical e totalmente individualizado. O bom Pastor conhece cada uma pelo próprio nome, sente profundamente a ausência daquela que se desgarrou e não descansa o seu coração até resgatá-la. Ao compreendermos a magnitude desse amor incansável, que nos alcançou primeiro quando nós mesmos estávamos distantes, somos inevitavelmente impulsionados a compartilhar a mesma urgência compassiva por cada vida que ainda caminha sem rumo.
+A fé cristã não começa com regras exaustivas, mas com uma exigência inegociável de afeto exclusivo. Deus não se contenta em ocupar um pequeno espaço na rotina. O Senhor demanda a totalidade do nosso ser. Amar a Deus com tudo o que temos significa render emoções e energias ao Seu governo. Essa devoção integral é a única resposta para um Criador que nos amou imensamente, entregando tudo para nos resgatar e atrair para a Sua presença.
 
-Irmãos, se alguém for surpreendido em algum pecado, vocês, que são espirituais deverão restaurá-lo com mansidão. Cuide-se, porém, cada um para que também não seja tentado.
-Gálatas 6:1
+Ninguém pode servir a dois senhores; pois odiará um e amará o outro, ou se dedicará a um e desprezará o outro. Vocês não podem servir a Deus e ao Dinheiro.
+Mateus 6:24
 
-A missão sublime de buscar a ovelha perdida foi confiada à Igreja. Frequentemente, vemos irmãos tropeçarem, afastarem-se gradativamente da comunhão constante ou se renderem ao peso dos seus próprios erros. A nossa resposta imediata jamais deve ser o julgamento severo ou a exclusão silenciosa. Aqueles que caminham firmemente no Espírito recebem a nobre responsabilidade de ir atrás de quem caiu, oferecendo a mão para restaurar. Esse vital processo de resgate exige uma dose imensa de mansidão e a humildade sincera de reconhecer que todos somos vulneráveis, dependendo diariamente da mesma graça imerecida para não cairmos.
+O coração humano é o palco de uma batalha invisível por lealdade. Jesus expõe a ilusão de dividir os afetos entre o Reino e as seduções passageiras. A exclusividade do amor divino não permite concorrência. Quando tentamos equilibrar a devoção a Deus com a adoração ao dinheiro ou à aprovação humana, desprezamos o nosso Criador. A verdadeira adoração exige uma escolha definitiva. Entregar o trono ao Pai significa destronar diariamente os nossos ídolos internos, reconhecendo que apenas Ele é digno da nossa total confiança.
 
-Meus irmãos, se algum de vocês se desviar da verdade e alguém o trouxer de volta, lembrem-se disto: Quem converte um pecador do erro do seu caminho, salvará a vida dessa pessoa da morte e cobrirá muitíssimos pecados.
-Tiago 5:19-20
+Não amem o mundo nem o que nele há. Se alguém amar o mundo, o amor do Pai não está nele.
+1 João 2:15
 
-Ir atrás de uma ovelha desgarrada não é um mero gesto simpático, mas uma poderosa operação de resgate espiritual com impactos eternos. Quando saímos da zona de conforto para aconselhar e amar quem se distanciou da fé, tornamo-nos instrumentos da salvação. Inspirados pelo Pastor que não desiste, instruídos a curar com mansidão, e comissionados para celebrar o retorno: fomos enviados para buscar a ovelha.
+Amar o mundo significa abraçar o sistema de valores corrompidos que se opõe à santidade divina. João apresenta um diagnóstico contundente: é impossível abrigar o amor pelo Pai e a paixão pelos desejos mundanos no mesmo coração. O mundo oferece ilusões que prometem preencher a alma, mas entregam apenas frustração. Preservar a exclusividade do amor por Cristo exige que vigiemos as nossas inclinações diárias, recusando os atrativos de uma cultura que tenta incessantemente nos afastar da verdade sagrada. Desafiados a entregar todo o nosso coração, alertados sobre a impossibilidade de servir a senhores simultâneos e chamados a rejeitar os atrativos mundanos: a devoção atinge a sua plenitude absoluta apenas quando o amor a Deus é radicalmente exclusivo.
  
-"Qual de vocês que, possuindo cem ovelhas, e perdendo uma, não deixa as noventa e nove no campo e vai atrás da ovelha perdida, até encontrá-la?"
-Lucas 15:4
+Ouça, ó Israel: O Senhor, o nosso Deus, é o único Senhor. Ame o Senhor, o seu Deus, de todo o seu coração, de toda a sua alma e de todas as suas forças.
+Deuteronômio 6:4-5
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 409420 characters
-INFO:root:HTML parsed, length: 398432 characters
-INFO:root:Found 3 titles: ['A paz do contentamento genuíno', 'O diálogo com a própria alma', 'A verdadeira recompensa do trabalho']
+INFO:root:Response length: 407349 characters
+INFO:root:HTML parsed, length: 395563 characters
+INFO:root:Found 3 titles: ['O verdadeiro lucro', 'A paz do contentamento genuíno', 'O diálogo com a própria alma']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Pois onde há inveja e ambição egoísta, aí há confu', 'Por que você está assim tão triste, ó minha alma? ', 'Tudo o que fizerem, façam de todo o coração, como ']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n13\nTERÇA', 'OUTUBRO\n\n12\nSEGUNDA', 'OUTUBRO\n\n11\nDOMINGO']
+INFO:root:Found 3 descriptions: ['De fato, a piedade com contentamento é grande font', 'Pois onde há inveja e ambição egoísta, aí há confu', 'Por que você está assim tão triste, ó minha alma? ']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n14\nQUARTA', 'OUTUBRO\n\n13\nTERÇA', 'OUTUBRO\n\n12\nSEGUNDA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A paz do contentamento genuíno', ID=ed3d13c3029fe31804a39c982c58ee04
-INFO:root:Processing entry 2: Title='O diálogo com a própria alma', ID=47dde3e283e9135ee57c982dec9645c9
-INFO:root:Processing entry 3: Title='A verdadeira recompensa do trabalho', ID=26c3f3c6ce5fa7fb725bb003a7b69557
+INFO:root:Processing entry 1: Title='O verdadeiro lucro', ID=8a97ea85ddc37032167a2fac7b51a25b
+INFO:root:Processing entry 2: Title='A paz do contentamento genuíno', ID=ed3d13c3029fe31804a39c982c58ee04
+INFO:root:Processing entry 3: Title='O diálogo com a própria alma', ID=47dde3e283e9135ee57c982dec9645c9
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O verdadeiro lucro
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: De fato, a piedade com contentamento é grande fonte de lucro, pois nada trouxemos para este mundo e dele nada podemos levar.
+1 Timóteo 6:6-7
+
+Vivemos em uma sociedade que mede o sucesso e o lucro quase exclusivamente pela capacidade de acumular bens materiais. A cultura ao nosso redor muitas vezes lucra com a nossa insatisfação, tentando nos convencer diariamente de que precisamos de mais dinheiro, mais coisas e mais status para finalmente sermos felizes.
+O apóstolo Paulo, no entanto, apresenta uma matemática completamente diferente para a vida cristã. Ele afirma que o verdadeiro e maior lucro não está no acúmulo excessivo, mas na preciosa união entre uma vida dedicada a Deus e um coração plenamente satisfeito com o que tem.
+Para nos libertar da armadilha da ganância, a Escritura usa o argumento mais realista possível: a nossa própria mortalidade. Entramos nesta vida de mãos vazias e sairemos exatamente da mesma forma. Todo o acúmulo material terreno é temporário e jamais poderá nos acompanhar na eternidade.
+Contentamento não significa falta de ambição justa, preguiça ou conformismo. Significa simplesmente encontrar a nossa segurança profunda em Cristo, desfrutando da provisão de hoje com gratidão, sem permitir que o desespero por possuir mais roube a paz e a alegria do que Deus já nos concedeu.
+Pratique o contentamento hoje, onde você está
+
+Liste pelo menos três coisas simples e essenciais que você já possui e agradeça a Deus, reconhecendo o seu cuidado diário.
+Adie por alguns dias uma compra que não seja estritamente urgente, treinando o seu coração a não depender do consumo imediato para ter alegria.
+Separe um item em bom estado que você não usa mais e doe para alguém que precise, exercitando o desapego prático.
+Releia 1 Timóteo 6:6-10 e medite sobre a paz libertadora de não colocar a sua esperança nas riquezas deste mundo.
+
+Para orar
+
+Senhor, confesso que frequentemente deixo meu coração ser fisgado pelo desejo de ter sempre mais, esquecendo-me de como já sou abençoado. Perdoa-me pela insatisfação gerada pela comparação e pelo materialismo. Ensina-me a valorizar o que é eterno e a encontrar a minha completa suficiência em ti, vivendo um contentamento verdadeiro. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A paz do contentamento genuíno
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Pois onde há inveja e ambição egoísta, aí há confusão e toda espécie de males.
@@ -276,26 +313,6 @@ Para orar
 
 Senhor, confesso que a tristeza e a perturbação muitas vezes silenciam a minha fé e me roubam a força. Perdoa-me por me entregar passivamente ao desânimo. Ensina-me a confrontar as minhas emoções limitadas com a tua verdade eterna. Levanta a minha alma abatida, firma os meus passos e devolve-me a alegria de te adorar. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A verdadeira recompensa do trabalho
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Tudo o que fizerem, façam de todo o coração, como para o Senhor, e não para os homens.
-Colossenses 3:23
-
-O cansaço da rotina e as frustrações no ambiente profissional frequentemente nos levam a perder o brilho no olhar para o nosso trabalho. Quando o salário parece injusto ou o reconhecimento humano nunca chega, a tentação imediata é entregar apenas o mínimo esforço possível para sobreviver ao dia.
-A instrução de Paulo, no entanto, muda completamente o centro da nossa motivação. Ele não promete que todos os líderes serão perfeitamente justos ou que todas as tarefas diárias serão empolgantes, mas nos lembra que o nosso verdadeiro Mestre está nos céus. Trabalhar de todo o coração não é uma tática corporativa, mas uma expressão de obediência a Deus.
-Quando fazemos do nosso trabalho um ato de adoração diária, a excelência deixa de ser uma estratégia para impressionar pessoas e passa a ser o nosso padrão inegociável. Limpar um chão, fechar uma planilha complexa ou atender um cliente ganham o mesmo valor eterno e espiritual diante do Criador.
-Você não precisa estar atrás de um púlpito para servir a Cristo com fidelidade. A sua mesa de escritório, o balcão de vendas ou a fábrica são o seu campo de atuação. Onde quer que você esteja hoje, faça o seu melhor com alegria, sabendo que a sua verdadeira recompensa vem do Senhor.
-Pratique a excelência hoje, onde você está
-
-Identifique uma tarefa que você tem procrastinado ou feito com desleixo e comprometa-se a finalizá-la hoje com o seu melhor esforço.
-Elogie sinceramente o trabalho bem feito de um colega, cultivando um ambiente de encorajamento em vez de rivalidade.
-Mude a sua postura diante de um problema: em vez de focar na falha da empresa, seja a pessoa íntegra que tenta propor a solução.
-Releia Colossenses 3:23-24 antes de iniciar o seu expediente diário para alinhar as suas intenções com o Reino de Deus.
-
-Para orar
-
-Senhor, confesso que frequentemente permito que o desânimo e a falta de reconhecimento humano afetem a qualidade do meu trabalho. Perdoa-me por esquecer que tu és o meu verdadeiro Senhor. Dá-me forças para trabalhar com alegria, integridade e excelência, transformando a minha rotina em um reflexo do teu caráter. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -325,15 +342,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  37 +++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  38 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
  feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  76 ++++-----
+ feeds/salmo_do_dia/atom.xml               |  77 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 259 ++++++++++++++----------------
- 11 files changed, 228 insertions(+), 242 deletions(-)
+ output.log                                | 267 +++++++++++++++---------------
+ 11 files changed, 254 insertions(+), 232 deletions(-)
