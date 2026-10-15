@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 199289 characters
-INFO:root:HTML parsed, length: 175674 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (14/10/2026)', 'Palavra de Ontem (13/10/2026)', 'Palavra de Anteontem (12/10/2026)']
-INFO:root:Found 3 URLs: ['/upload/', '/zoologo/', '/saia-justa/']
-INFO:root:Found 13 descriptions: ['substantivo masculino [Informática] Subir um arqui', 'Sinônimos:\n\ntransferência, envio, carregamento, co', 'Antônimos:\n\ndownload']
-INFO:root:Found 3 dates: ['Palavra de Hoje (14/10/2026)', 'Palavra de Ontem (13/10/2026)', 'Palavra de Anteontem (12/10/2026)']
+INFO:root:Response length: 200323 characters
+INFO:root:HTML parsed, length: 176494 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (15/10/2026)', 'Palavra de Ontem (14/10/2026)', 'Palavra de Anteontem (13/10/2026)']
+INFO:root:Found 3 URLs: ['/sertao/', '/upload/', '/zoologo/']
+INFO:root:Found 14 descriptions: ['substantivo masculino Lugar agreste, seco, rústico', 'Sinônimos:\n\nestrela, lavandeira', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (15/10/2026)', 'Palavra de Ontem (14/10/2026)', 'Palavra de Anteontem (13/10/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (14/10/2026)', ID=656285212a4ea49b508652d7a5ff9fa9
-INFO:root:Processing entry 2: Title='Palavra de Ontem (13/10/2026)', ID=22334dc1700c1e518648f47d3461de3e
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/10/2026)', ID=d85af878d8b484da782f87f2402191cc
+INFO:root:Processing entry 1: Title='Palavra de Hoje (15/10/2026)', ID=0d946808fe5fe904c07ab3e098d4c422
+INFO:root:Processing entry 2: Title='Palavra de Ontem (14/10/2026)', ID=b2adeda0d3abee18936efd1420572925
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (13/10/2026)', ID=c639f962c55b5b49785a564f44ab1649
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (14/10/2026) - Significado completo de upload:
-INFO:root:🔹 URL: https://www.dicio.com.br/upload/
-INFO:root:🔹 Description: substantivo masculino [Informática] Subir um arquivo, foto etc. do computador ou do celular para um servidor on-line, opõe-se ao download que significa baixar o arquivo para o seu dispositivo.Etimologia (origem da palavra upload). A palavra upload tem sua origem no inglês "upload", com o mesmo sentido.
+INFO:root:🔹 Title: Palavra de Hoje (15/10/2026) - Significado completo de sertão:
+INFO:root:🔹 URL: https://www.dicio.com.br/sertao/
+INFO:root:🔹 Description: substantivo masculino Lugar agreste, seco, rústico, afastado das plantações ou das grandes cidades: a escritora nasceu no sertão baiano.Região de interior muito seca, com temperaturas médias entre os 25º e 30º, com um curto período de chuvas ao longo do ano, sendo uma das regiões mais secas e áridas o planeta; possui seus costumes e tradições próprias.Floresta longe da costa; área de matagal afastada do litoral.[Por Extensão] O interior do Brasil.[Botânica] Nome comum dado à erva-macaé, erva largamente usada por suas propriedades terapêuticas; estrela, lavandeira, erva-macaé, ana-da-costa, chá-de-frade.Etimologia (origem da palavra sertão). A palavra sertão tem sua origem incerta; não é possível confirmar a origem desta palavra.
  
 Sinônimos:
 
-transferência, envio, carregamento, compartilhamento 
+estrela, lavandeira 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (13/10/2026) - Significado completo de zoólogo:
-INFO:root:🔹 URL: https://www.dicio.com.br/zoologo/
+INFO:root:🔹 Title: Palavra de Ontem (14/10/2026) - Significado completo de upload:
+INFO:root:🔹 URL: https://www.dicio.com.br/upload/
 INFO:root:🔹 Description: Sinônimos:
 
-transferência, envio, carregamento, compartilhamento
- 
-Antônimos:
-
-download 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (12/10/2026) - Significado completo de saia justa:
-INFO:root:🔹 URL: https://www.dicio.com.br/saia-justa/
-INFO:root:🔹 Description: Antônimos:
-
-download
+estrela, lavandeira
  Classe gramatical:substantivo masculino
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (13/10/2026) - Significado completo de zoólogo:
+INFO:root:🔹 URL: https://www.dicio.com.br/zoologo/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:ser-tão
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,73 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 400510 characters
-INFO:root:HTML parsed, length: 387960 characters
-INFO:root:Found 1 titles: ['Mateus 7:7']
-INFO:root:Found 1 URLs: ['/versiculo/mateus_7_7/']
-INFO:root:Found 1 descriptions: ['"Peçam, e será dado; busquem, e encontrarão; batam']
+INFO:root:Response length: 401218 characters
+INFO:root:HTML parsed, length: 388520 characters
+INFO:root:Found 1 titles: ['Hebreus 10:25']
+INFO:root:Found 1 URLs: ['/versiculo/hebreus_10_25/']
+INFO:root:Found 1 descriptions: ['Não deixemos de reunir-nos como igreja, segundo o ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Mateus 7:7', ID=23135b1d75e7fdf2049d8b342bd4fbf4
+INFO:root:Processing entry 1: Title='Hebreus 10:25', ID=4d1aa60d251b111fbf6c1f876d166b68
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Mateus 7:7
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_7_7/
-INFO:root:🔹 Description: "Peçam, e será dado; busquem, e encontrarão; batam, e a porta será aberta. Mateus 7:7
+INFO:root:🔹 Title: Hebreus 10:25
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/hebreus_10_25/
+INFO:root:🔹 Description: Não deixemos de reunir-nos como igreja, segundo o costume de alguns, mas procuremos encorajar-nos uns aos outros, ainda mais quando vocês veem que se aproxima o Dia. Hebreus 10:25
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 391591 characters
-INFO:root:HTML parsed, length: 381107 characters
-INFO:root:Found 3 titles: ['Salmo 115', 'Salmo 57', 'Salmo 97']
-INFO:root:Found 3 URLs: ['/salmos_115/', '/salmos_57/', '/salmos_97/']
-INFO:root:Found 3 descriptions: ['Não a nós, Senhor, nenhuma glória para nós,\nmas si', 'Misericórdia, ó Deus; misericórdia,\npois em ti a m', 'O Senhor reina!\nExulte a terra\ne alegrem-se as reg']
-INFO:root:Found 3 dates: ['14 de Outubro de 2026', '13 de Outubro de 2026', '12 de Outubro de 2026']
+INFO:root:Response length: 392000 characters
+INFO:root:HTML parsed, length: 381365 characters
+INFO:root:Found 3 titles: ['Salmo 85', 'Salmo 115', 'Salmo 57']
+INFO:root:Found 3 URLs: ['/salmos_85/', '/salmos_115/', '/salmos_57/']
+INFO:root:Found 3 descriptions: ['Foste favorável à tua terra, ó Senhor;\ntrouxeste r', 'Não a nós, Senhor, nenhuma glória para nós,\nmas si', 'Misericórdia, ó Deus; misericórdia,\npois em ti a m']
+INFO:root:Found 3 dates: ['15 de Outubro de 2026', '14 de Outubro de 2026', '13 de Outubro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 115', ID=c931268d36df846fb79d980de87b9a14
-INFO:root:Processing entry 2: Title=' Salmo 57', ID=28e1653b0e01d76fbd4eeb45358d4c91
-INFO:root:Processing entry 3: Title=' Salmo 97', ID=404bdc1a9ac920a4d4906369d6945691
+INFO:root:Processing entry 1: Title=' Salmo 85', ID=7f3e8f57333d0741daef789c00d03d81
+INFO:root:Processing entry 2: Title=' Salmo 115', ID=c931268d36df846fb79d980de87b9a14
+INFO:root:Processing entry 3: Title=' Salmo 57', ID=28e1653b0e01d76fbd4eeb45358d4c91
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 85
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_85/
+INFO:root:🔹 Description: Foste favorável à tua terra, ó Senhor;
+trouxeste restauração a Jacó. 
+Perdoaste a culpa do teu povo
+e cobriste todos os seus pecados. 
+Retiraste todo o teu furor
+e te afastaste da tua ira tremenda. 
+Restaura-nos mais uma vez,
+ó Deus, nosso Salvador,
+e desfaze o teu furor para conosco. 
+Ficarás indignado conosco para sempre?
+Prolongarás a tua ira por todas as gerações? 
+Acaso não nos renovarás a vida,
+a fim de que o teu povo se alegre em ti? 
+Mostra-nos o teu amor, ó Senhor,
+e concede-nos a tua salvação! 
+Eu ouvirei o que Deus, o Senhor, disse;
+ele promete paz ao seu povo, aos seus fiéis!
+Não voltem eles à insensatez! 
+Perto está a salvação que ele trará
+aos que o temem,
+e a sua glória habitará em nossa terra. 
+O amor e a fidelidade se encontrarão;
+a justiça e a paz se beijarão. 
+A fidelidade brotará da terra,
+e a justiça descerá dos céus. 
+O Senhor nos trará bênçãos,
+e a nossa terra dará a sua colheita. 
+A justiça irá adiante dele
+e preparará o caminho para os seus passos. 
+ Salmo 85
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 115
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_115/
 INFO:root:🔹 Description: Não a nós, Senhor, nenhuma glória para nós,
@@ -166,94 +193,79 @@ Sê exaltado, ó Deus, acima dos céus!
 Sobre toda a terra esteja a tua glória! 
  Salmo 57
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 97
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_97/
-INFO:root:🔹 Description: O Senhor reina!
-Exulte a terra
-e alegrem-se as regiões costeiras distantes. 
-Nuvens escuras e espessas o cercam;
-retidão e justiça são a base do seu trono. 
-Fogo vai adiante dele
-e devora os adversários ao redor. 
-Seus relâmpagos iluminam o mundo;
-a terra os vê e estremece. 
-Os montes se derretem como cera
-diante do Senhor,
-diante do Soberano de toda a terra. 
-Os céus proclamam a sua justiça,
-e todos os povos contemplam a sua glória. 
-Ficam decepcionados
-todos os que adoram imagens
-e se vangloriam de ídolos.
-Prostram-se diante dele todos os deuses! 
-Sião ouve e se alegra,
-e as cidades de Judá exultam,
-por causa das tuas sentenças, Senhor. 
-Pois tu, Senhor,
-és o Altíssimo sobre toda a terra!
-És exaltado muito acima de todos os deuses! 
-Odeiem o mal, vocês que amam o Senhor,
-pois ele protege a vida dos seus fiéis
-e os livra das mãos dos ímpios. 
-A luz nasce sobre o justo
-e a alegria sobre os retos de coração. 
-Alegrem-se no Senhor, justos,
-e louvem o seu santo nome. 
- Salmo 97
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 399074 characters
-INFO:root:HTML parsed, length: 387720 characters
-INFO:root:Found 3 titles: ['A exclusividade do amor', 'Enviados atrás da ovelha perdida', 'Paciência: Uma virtude ativa']
+INFO:root:Response length: 399584 characters
+INFO:root:HTML parsed, length: 388082 characters
+INFO:root:Found 3 titles: ['Administrando as dádivas de Deus', 'A exclusividade do amor', 'Enviados atrás da ovelha perdida']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Ouça, ó Israel: O Senhor, o nosso Deus, é o único ', '"Qual de vocês que, possuindo cem ovelhas, e perde', 'Portanto, irmãos, sejam pacientes até a vinda do S']
-INFO:root:Found 1 dates: ['Quarta, 14 de outubro de 2026']
+INFO:root:Found 3 descriptions: ['Toda boa dádiva e todo dom perfeito vêm do alto, d', 'Ouça, ó Israel: O Senhor, o nosso Deus, é o único ', '"Qual de vocês que, possuindo cem ovelhas, e perde']
+INFO:root:Found 1 dates: ['Quinta, 15 de outubro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A exclusividade do amor', ID=bda57d03ff8716544930954ae9b8f973
+INFO:root:Processing entry 1: Title='Administrando as dádivas de Deus', ID=8d96c39f3cbce61bb49cc0654449bc83
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A exclusividade do amor - Palavra de Hoje
+INFO:root:🔹 Title: Administrando as dádivas de Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Ouça, ó Israel: O Senhor, o nosso Deus, é o único Senhor. Ame o Senhor, o seu Deus, de todo o seu coração, de toda a sua alma e de todas as suas forças.
-Deuteronômio 6:4-5
+INFO:root:🔹 Description: Toda boa dádiva e todo dom perfeito vêm do alto, descendo do Pai das luzes, que não muda como sombras inconstantes.
+Tiago 1:17
 
-A fé cristã não começa com regras exaustivas, mas com uma exigência inegociável de afeto exclusivo. Deus não se contenta em ocupar um pequeno espaço na rotina. O Senhor demanda a totalidade do nosso ser. Amar a Deus com tudo o que temos significa render emoções e energias ao Seu governo. Essa devoção integral é a única resposta para um Criador que nos amou imensamente, entregando tudo para nos resgatar e atrair para a Sua presença.
+O primeiro passo para a administração correta da vida é o reconhecimento da origem exata de tudo aquilo que possuímos. Vivemos em uma cultura que exalta o mérito pessoal e o esforço próprio como as únicas fontes de sucesso. A perspectiva bíblica, porém, revela que absolutamente toda boa dádiva que desfrutamos provém exclusivamente das mãos graciosas do Criador. Não somos proprietários soberanos da nossa força, mas apenas administradores temporários de recursos eternos. Compreender que o Senhor é o dono de tudo elimina o orgulho egoísta, estabelecendo o alicerce para uma mordomia cristã fiel e inteiramente reverente.
 
-Ninguém pode servir a dois senhores; pois odiará um e amará o outro, ou se dedicará a um e desprezará o outro. Vocês não podem servir a Deus e ao Dinheiro.
-Mateus 6:24
+Cada um exerça o dom que recebeu para servir aos outros, administrando fielmente a graça de Deus em suas múltiplas formas.
+1 Pedro 4:10
 
-O coração humano é o palco de uma batalha invisível por lealdade. Jesus expõe a ilusão de dividir os afetos entre o Reino e as seduções passageiras. A exclusividade do amor divino não permite concorrência. Quando tentamos equilibrar a devoção a Deus com a adoração ao dinheiro ou à aprovação humana, desprezamos o nosso Criador. A verdadeira adoração exige uma escolha definitiva. Entregar o trono ao Pai significa destronar diariamente os nossos ídolos internos, reconhecendo que apenas Ele é digno da nossa total confiança.
+Deus não distribui os seus preciosos dons para construirmos impérios pessoais ou acumularmos vaidades terrenas em total isolamento. As dádivas celestiais possuem um propósito intensamente relacional. O apóstolo Pedro nos convoca a agir como despenseiros fiéis da graça, lembrando que recebemos talentos com a missão irrevogável de abençoar o nosso próximo. Ocultar nossas habilidades pelo medo ou usá-las só para benefício próprio desvia o propósito celestial. Quando escolhemos servir com generosidade e excelência, transformamo-nos em canais vivos por onde o amor de Deus flui para sustentar os irmãos, revelando a beleza curadora de uma igreja unida.
 
-Não amem o mundo nem o que nele há. Se alguém amar o mundo, o amor do Pai não está nele.
-1 João 2:15
+A quem muito foi dado, muito será exigido; e a quem muito foi confiado, muito mais será pedido.
+Lucas 12:48
 
-Amar o mundo significa abraçar o sistema de valores corrompidos que se opõe à santidade divina. João apresenta um diagnóstico contundente: é impossível abrigar o amor pelo Pai e a paixão pelos desejos mundanos no mesmo coração. O mundo oferece ilusões que prometem preencher a alma, mas entregam apenas frustração. Preservar a exclusividade do amor por Cristo exige que vigiemos as nossas inclinações diárias, recusando os atrativos de uma cultura que tenta incessantemente nos afastar da verdade sagrada. Desafiados a entregar todo o nosso coração, alertados sobre a impossibilidade de servir a senhores simultâneos e chamados a rejeitar os atrativos mundanos: a devoção atinge a sua plenitude absoluta apenas quando o amor a Deus é radicalmente exclusivo.
+O privilégio de administrar os valiosos recursos divinos vem invariavelmente acompanhado de uma altíssima responsabilidade. O Senhor é imensamente generoso, mas é um mestre justo que um dia nos chamará para prestarmos contas de tudo o que nos foi entregue. A forte advertência de Jesus destrói a perigosa ilusão da negligência. Ser altamente abençoado não é licença para o conforto espiritual passivo ou desperdício de tempo. Quem recebeu influência, recursos, sabedoria ou dons notáveis enfrenta a seriedade de um chamado rigoroso para impactar a sociedade e expandir as fronteiras do Reino intencionalmente. Conscientes da origem graciosa de tudo o que temos, comprometidos com o serviço ao próximo e cientes da prestação de contas que nos aguarda: a nossa missão é viver como mordomos fiéis das inestimáveis dádivas do Senhor.
  
-Ouça, ó Israel: O Senhor, o nosso Deus, é o único Senhor. Ame o Senhor, o seu Deus, de todo o seu coração, de toda a sua alma e de todas as suas forças.
-Deuteronômio 6:4-5
+Toda boa dádiva e todo dom perfeito vêm do alto, descendo do Pai das luzes, que não muda como sombras inconstantes.
+Tiago 1:17
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 407349 characters
-INFO:root:HTML parsed, length: 395563 characters
-INFO:root:Found 3 titles: ['O verdadeiro lucro', 'A paz do contentamento genuíno', 'O diálogo com a própria alma']
+INFO:root:Response length: 407964 characters
+INFO:root:HTML parsed, length: 396020 characters
+INFO:root:Found 3 titles: ['A presença que expulsa o medo', 'O verdadeiro lucro', 'A paz do contentamento genuíno']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['De fato, a piedade com contentamento é grande font', 'Pois onde há inveja e ambição egoísta, aí há confu', 'Por que você está assim tão triste, ó minha alma? ']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n14\nQUARTA', 'OUTUBRO\n\n13\nTERÇA', 'OUTUBRO\n\n12\nSEGUNDA']
+INFO:root:Found 3 descriptions: ['Mesmo quando eu andar por um vale de trevas e mort', 'De fato, a piedade com contentamento é grande font', 'Pois onde há inveja e ambição egoísta, aí há confu']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n15\nQUINTA', 'OUTUBRO\n\n14\nQUARTA', 'OUTUBRO\n\n13\nTERÇA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O verdadeiro lucro', ID=8a97ea85ddc37032167a2fac7b51a25b
-INFO:root:Processing entry 2: Title='A paz do contentamento genuíno', ID=ed3d13c3029fe31804a39c982c58ee04
-INFO:root:Processing entry 3: Title='O diálogo com a própria alma', ID=47dde3e283e9135ee57c982dec9645c9
+INFO:root:Processing entry 1: Title='A presença que expulsa o medo', ID=12f55e802e25997aedc0f72e8a064625
+INFO:root:Processing entry 2: Title='O verdadeiro lucro', ID=8a97ea85ddc37032167a2fac7b51a25b
+INFO:root:Processing entry 3: Title='A paz do contentamento genuíno', ID=ed3d13c3029fe31804a39c982c58ee04
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A presença que expulsa o medo
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Mesmo quando eu andar por um vale de trevas e morte, não temerei perigo algum, pois tu estás comigo; a tua vara e o teu cajado me protegem.
+Salmos 23:4
+
+O medo é uma resposta instintiva e natural quando somos forçados a atravessar os vales escuros da vida. Diante de diagnósticos assustadores, crises financeiras graves ou perdas irreparáveis, a escuridão da incerteza tenta nos paralisar. O vale da sombra da morte representa qualquer situação onde o nosso controle termina e a nossa fragilidade humana é totalmente exposta.
+É fundamental notar que o salmista Davi não nega a existência do vale, nem promete que os justos terão um desvio livre de dor. O que transforma radicalmente a sua experiência não é a ausência mágica do perigo, mas sim a certeza inabalável da presença divina. Ele deixa de falar sobre Deus e passa a se dirigir diretamente a Ele: "pois tu estás comigo".
+A verdadeira coragem cristã não é a ausência absoluta de apreensão, mas a decisão consciente de não ser governado por ela. A vara e o cajado do Bom Pastor não são símbolos de punição, mas instrumentos poderosos de proteção ativa, direção segura e resgate compassivo quando nos sentimos perdidos no escuro.
+Se você está caminhando por um vale assustador hoje, não permita que o medo dite o seu destino. O Pastor não apenas aponta o caminho de longe; Ele desce à escuridão e caminha lado a lado com você. A presença dEle é o único refúgio capaz de expulsar o pânico e garantir a sua travessia segura.
+Pratique a coragem hoje, onde você está
+
+Identifique qual é o "vale escuro" que tem roubado a sua paz e declare em voz alta que Deus está caminhando com você através dele.
+Substitua a imaginação dos piores cenários por memórias intencionais de livramentos passados que o Senhor já lhe concedeu.
+Compartilhe o seu medo com uma pessoa madura na fé para que ela possa orar e ser um braço do cuidado de Deus hoje.
+Releia o Salmo 23 lentamente, absorvendo a profunda promessa de que o Pastor nunca abandona as suas ovelhas.
+
+Para orar
+
+Senhor, confesso que a escuridão dos vales que atravesso frequentemente me enche de pavor. Perdoa-me por fixar os meus olhos no tamanho do perigo e não na tua presença. Conforta o meu coração com a tua vara e o teu cajado. Dá-me a paz inexplicável que vem de saber que tu estás ao meu lado. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O verdadeiro lucro
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: De fato, a piedade com contentamento é grande fonte de lucro, pois nada trouxemos para este mundo e dele nada podemos levar.
@@ -293,26 +305,6 @@ Para orar
 
 Senhor, confesso com sinceridade que permito que a inveja e a insatisfação roubem a minha paz e gerem confusão em meu interior. Perdoa-me por fixar os olhos no que o outro possui e esquecer a tua imensa bondade diária. Arranca de mim o desejo de competir. Concede-me, por tua graça, um coração verdadeiramente contente, que encontre em ti a sua única e perfeita satisfação. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O diálogo com a própria alma
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Por que você está assim tão triste, ó minha alma? Por que está assim tão perturbada dentro de mim? Ponha a sua esperança em Deus! Pois ainda o louvarei; ele é o meu Salvador e o meu Deus.
-Salmos 43:5
-
-O desânimo frequentemente nos joga em um abismo de silêncio e nos faz ouvir apenas as vozes do medo e da desesperança. Quando a tristeza se acomoda, a nossa tendência natural é aceitar passivamente o peso das emoções, permitindo que elas ditem a nossa realidade e a nossa visão de futuro.
-O salmista nos ensina uma disciplina espiritual poderosa e transformadora: falar com a própria alma. Ele não nega a profunda dor que sente, mas se recusa a ser passivamente dominado por ela. Em vez de apenas escutar as mentiras do desânimo, ele decide confrontar os seus próprios sentimentos e questionar a origem daquela perturbação paralisante.
-A restauração começa quando direcionamos a nossa alma de volta para a fonte correta. A ordem para colocar a esperança em Deus é uma decisão ativa e intencional de retirar a confiança das circunstâncias caóticas e depositá-la inteiramente no Senhor. A esperança cristã não é um otimismo ingênuo, mas a convicção inabalável de quem Deus é.
-Mesmo no auge da tristeza, o salmista escolhe adorar por antecipação. Lembrar que Deus é o nosso Salvador redireciona os nossos olhos da dor presente para a promessa de restauração, trazendo alívio e coragem ao coração exausto.
-Pratique a esperança hoje, onde você está
-
-Quando a tristeza sufocar, questione os seus sentimentos em voz alta e lembre a sua alma das promessas de Deus.
-Cante ou ouça um louvor mesmo sem vontade, utilizando a adoração sincera como uma arma contra o desânimo.
-Escreva uma lista com três motivos práticos e reais pelos quais você pode confiar no Senhor baseando-se no seu passado.
-Releia o Salmo 43 inteiro e declare sobre a sua própria vida que o Senhor continua sendo a sua salvação.
-
-Para orar
-
-Senhor, confesso que a tristeza e a perturbação muitas vezes silenciam a minha fé e me roubam a força. Perdoa-me por me entregar passivamente ao desânimo. Ensina-me a confrontar as minhas emoções limitadas com a tua verdade eterna. Levanta a minha alma abatida, firma os meus passos e devolve-me a alegria de te adorar. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -346,11 +338,11 @@ INFO:root: feeds/devocional_de_hoje/atom.xml         |  38 ++---
  feeds/devocional_de_hoje/feed.json        |  12 +-
  feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +--
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  77 +++++----
+ feeds/salmo_do_dia/atom.xml               |  66 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 267 +++++++++++++++---------------
- 11 files changed, 254 insertions(+), 232 deletions(-)
+ output.log                                | 256 ++++++++++++++----------------
+ 11 files changed, 218 insertions(+), 246 deletions(-)
