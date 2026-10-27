@@ -1,44 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 201899 characters
-INFO:root:HTML parsed, length: 178137 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (26/10/2026)', 'Palavra de Ontem (25/10/2026)', 'Palavra de Anteontem (24/10/2026)']
-INFO:root:Found 3 URLs: ['/spin-off/', '/pressuposto/', '/povoado/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Obra que dá sequência a outr', 'Sinônimos:\n\nderivação, continuidade, continuação, ', 'Sílabas:spin-off']
-INFO:root:Found 3 dates: ['Palavra de Hoje (26/10/2026)', 'Palavra de Ontem (25/10/2026)', 'Palavra de Anteontem (24/10/2026)']
+INFO:root:Response length: 201181 characters
+INFO:root:HTML parsed, length: 177556 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (27/10/2026)', 'Palavra de Ontem (26/10/2026)', 'Palavra de Anteontem (25/10/2026)']
+INFO:root:Found 3 URLs: ['/destinatario/', '/spin-off/', '/pressuposto/']
+INFO:root:Found 12 descriptions: ['substantivo masculino Aquele que recebe uma mensag', 'Sinônimos:\n\nalvo, objeto, ouvinte, receptor, alocu', 'Antônimos:\n\nremetente']
+INFO:root:Found 3 dates: ['Palavra de Hoje (27/10/2026)', 'Palavra de Ontem (26/10/2026)', 'Palavra de Anteontem (25/10/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (26/10/2026)', ID=b339511ee64026a7b1d8517218eb5511
-INFO:root:Processing entry 2: Title='Palavra de Ontem (25/10/2026)', ID=f12811db5e98bb14b2d5100c1ede2ef8
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/10/2026)', ID=72c08439a25f2a608bbe968730f73f77
+INFO:root:Processing entry 1: Title='Palavra de Hoje (27/10/2026)', ID=9ce3add62b585c011caf3ee48ce1117e
+INFO:root:Processing entry 2: Title='Palavra de Ontem (26/10/2026)', ID=c991aa05fa53b725adcbb9ab23b43783
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/10/2026)', ID=29bb0bf4a83bdee8ca838d43e06cb857
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (26/10/2026) - Significado completo de spin-off:
-INFO:root:🔹 URL: https://www.dicio.com.br/spin-off/
-INFO:root:🔹 Description: substantivo masculino Obra que dá sequência a outra original, falando especialmente de séries televisivas: a quarta temporada da série foi um fracasso e o seu spin-off foi cancelado também.Empresa que deriva de outra já existente; sucursal, subsidiária.Etimologia (origem da palavra spin-off). A palavra spin-off tem sua origem no inglês spin-off, por conversão de "spin off", com o mesmo sentido.
+INFO:root:🔹 Title: Palavra de Hoje (27/10/2026) - Significado completo de destinatário:
+INFO:root:🔹 URL: https://www.dicio.com.br/destinatario/
+INFO:root:🔹 Description: substantivo masculino Aquele que recebe uma mensagem; pessoa para quem se envia alguma coisa (opõe-se ao remetente): não assinalou no e-mail o destinatário.[Figurado] Pessoa que é o alvo daquilo que se pretende enviar; alvo ou objeto.[Linguística] Numa comunicação, a pessoa que recebe a mensagem; ouvinte ou receptor.[Linguística] Aquele que é o alvo da ação do verbo ou através do qual ela se efetiva.Etimologia (origem da palavra destinatário). A palavra destinatário tem sua origem no latim "destinatus"; pela junção de "destinat" e do sufixo -ário.
  
 Sinônimos:
 
-derivação, continuidade, continuação, sequência, sucessão, prolongamento, desdobramento, decorrência, adaptação, consecutividade, seguimento, sucursal, subsidiária 
+alvo, objeto, ouvinte, receptor, alocutário, interlocutor, recebedor 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (25/10/2026) - Significado completo de pressuposto:
-INFO:root:🔹 URL: https://www.dicio.com.br/pressuposto/
+INFO:root:🔹 Title: Palavra de Ontem (26/10/2026) - Significado completo de spin-off:
+INFO:root:🔹 URL: https://www.dicio.com.br/spin-off/
 INFO:root:🔹 Description: Sinônimos:
 
-derivação, continuidade, continuação, sequência, sucessão, prolongamento, desdobramento, decorrência, adaptação, consecutividade, seguimento, sucursal, subsidiária
- Sílabas:spin-off
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (24/10/2026) - Significado completo de povoado:
-INFO:root:🔹 URL: https://www.dicio.com.br/povoado/
-INFO:root:🔹 Description: Sílabas:spin-off
+alvo, objeto, ouvinte, receptor, alocutário, interlocutor, recebedor
  
-Sinônimos:
+Antônimos:
 
-conjectura, hipótese, pressuposição, presunção, suposição, desculpa, pretexto, objetivo, projeto, premissa, postulado 
+remetente 
 
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (25/10/2026) - Significado completo de pressuposto:
+INFO:root:🔹 URL: https://www.dicio.com.br/pressuposto/
+INFO:root:🔹 Description: Antônimos:
+
+remetente
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,45 +48,83 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 403767 characters
-INFO:root:HTML parsed, length: 391069 characters
-INFO:root:Found 1 titles: ['Isaías 54:17']
-INFO:root:Found 1 URLs: ['/versiculo/isaias_54_17/']
-INFO:root:Found 1 descriptions: ['Nenhuma arma forjada contra você\nprevalecerá,\ne vo']
-INFO:root:Found 0 dates: []
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Isaías 54:17', ID=a11fcc3f88febdee263394abd99f25b6
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
-INFO:root:
-📌 Last 3 entries:
-INFO:root:🔹 Title: Isaías 54:17
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/isaias_54_17/
-INFO:root:🔹 Description: Nenhuma arma forjada contra você
-prevalecerá,
-e você refutará toda língua que a acusar.
-Esta é a herança dos servos do Senhor,
-e esta é a defesa que faço do nome deles",
-declara o Senhor. Isaías 54:17
-INFO:root:--------------------------------------------------
+INFO:root:Response length: 400613 characters
+INFO:root:HTML parsed, length: 389008 characters
+INFO:root:Found 0 titles: []
+INFO:root:Found 0 URLs: []
+INFO:root:Found 0 descriptions: []
+INFO:root:Found 1 dates: ['Terça, 27 de outubro de 2026']
+INFO:root:Min length for iteration: 0
+INFO:root:Processed 0 entries in FeedGenerator, 0 entries in output_data
+INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 0 entries.
+INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 0 entries.
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 394477 characters
-INFO:root:HTML parsed, length: 383868 characters
-INFO:root:Found 3 titles: ['Salmo 27', 'Salmo 62', 'Salmo 11']
-INFO:root:Found 3 URLs: ['/salmos_27/', '/salmos_62/', '/salmos_11/']
-INFO:root:Found 3 descriptions: ['O Senhor é a minha luz e a minha salvação;\nde quem', 'A minha alma descansa somente em Deus;\ndele vem a ', 'No Senhor me refugio.\nComo então vocês podem dizer']
-INFO:root:Found 3 dates: ['26 de Outubro de 2026', '25 de Outubro de 2026', '24 de Outubro de 2026']
+INFO:root:Response length: 398050 characters
+INFO:root:HTML parsed, length: 387204 characters
+INFO:root:Found 3 titles: ['Salmo 79', 'Salmo 27', 'Salmo 62']
+INFO:root:Found 3 URLs: ['/salmos_79/', '/salmos_27/', '/salmos_62/']
+INFO:root:Found 3 descriptions: ['Ó Deus, as nações invadiram a tua herança,\nprofana', 'O Senhor é a minha luz e a minha salvação;\nde quem', 'A minha alma descansa somente em Deus;\ndele vem a ']
+INFO:root:Found 3 dates: ['27 de Outubro de 2026', '26 de Outubro de 2026', '25 de Outubro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 27', ID=8dcdf1c473e87d0c61510ae827caf9b0
-INFO:root:Processing entry 2: Title=' Salmo 62', ID=431dedfd9d0be64d1669d23c4e7c973c
-INFO:root:Processing entry 3: Title=' Salmo 11', ID=4adbb010858deb57970a9ab4bcada5c2
+INFO:root:Processing entry 1: Title=' Salmo 79', ID=c848f0aa496275f7078cb360fbcd7adf
+INFO:root:Processing entry 2: Title=' Salmo 27', ID=8dcdf1c473e87d0c61510ae827caf9b0
+INFO:root:Processing entry 3: Title=' Salmo 62', ID=431dedfd9d0be64d1669d23c4e7c973c
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 79
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_79/
+INFO:root:🔹 Description: Ó Deus, as nações invadiram a tua herança,
+profanaram o teu santo templo,
+reduziram Jerusalém a ruínas. 
+Deram os cadáveres dos teus servos
+às aves do céu por alimento;
+a carne dos teus fiéis, aos animais selvagens. 
+Derramaram o sangue deles como água
+ao redor de Jerusalém,
+e não há ninguém para sepultá-los. 
+Somos objeto de zombaria
+para os nossos vizinhos,
+de riso e menosprezo
+para os que vivem ao nosso redor. 
+Até quando, Senhor?
+Ficarás irado para sempre?
+Arderá o teu ciúme como o fogo? 
+Derrama a tua ira sobre as nações
+que não te reconhecem,
+sobre os reinos
+que não invocam o teu nome, 
+pois devoraram Jacó,
+deixando em ruínas a sua terra. 
+Não cobres de nós
+as maldades dos nossos antepassados;
+venha depressa ao nosso encontro
+a tua misericórdia,
+pois estamos totalmente desanimados! 
+Ajuda-nos, ó Deus, nosso Salvador,
+para a glória do teu nome;
+livra-nos e perdoa os nossos pecados,
+por amor do teu nome. 
+Por que as nações haverão de dizer:
+"Onde está o Deus deles?"
+Diante dos nossos olhos, mostra às nações
+a tua vingança pelo sangue dos teus servos. 
+Cheguem à tua presença
+os gemidos dos prisioneiros.
+Pela força do teu braço
+preserva os condenados à morte. 
+Retribui sete vezes mais aos nossos vizinhos
+as afrontas com que te insultaram, Senhor! 
+Então nós, o teu povo,
+as ovelhas das tuas pastagens,
+para sempre te louvaremos;
+de geração em geração
+cantaremos os teus louvores. 
+ Salmo 79
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 27
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_27/
 INFO:root:🔹 Description: O Senhor é a minha luz e a minha salvação;
@@ -183,85 +223,78 @@ Contigo também, Senhor, está a fidelidade.
 conforme o seu procedimento. 
  Salmo 62
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 11
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_11/
-INFO:root:🔹 Description: No Senhor me refugio.
-Como então vocês podem dizer-me:
-"Fuja como um pássaro para os montes"? 
-Vejam! Os ímpios preparam os seus arcos;
-colocam as flechas contra as cordas
-para das sombras as atirarem
-nos retos de coração. 
-Quando os fundamentos
-estão sendo destruídos,
-que pode fazer o justo? 
-O Senhor está no seu santo templo;
-o Senhor tem o seu trono nos céus.
-Seus olhos observam;
-seus olhos examinam os filhos dos homens. 
-O Senhor prova o justo,
-mas o ímpio e a quem ama a injustiça,
-a sua alma odeia. 
-Sobre os ímpios ele fará chover
-brasas ardentes e enxofre incandescente;
-vento ressecante é o que terão. 
-Pois o Senhor é justo e ama a justiça;
-os retos verão a sua face. 
- Salmo 11
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 403441 characters
-INFO:root:HTML parsed, length: 391929 characters
-INFO:root:Found 3 titles: ['Escondido dos sábios e revelado aos pequeninos', 'A maravilhosa graça de uma segunda vez', 'O convite urgente para a festa da salvação']
+INFO:root:Response length: 406010 characters
+INFO:root:HTML parsed, length: 394231 characters
+INFO:root:Found 3 titles: ['O verdadeiro avivamento e o quebrantamento', 'Escondido dos sábios e revelado aos pequeninos', 'A maravilhosa graça de uma segunda vez']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Naquela ocasião Jesus disse: "Eu te louvo, Pai, Se', 'De novo o Senhor falou a Jona: "Vá à grande cidade', 'O Reino dos céus é como um rei que preparou um ban']
-INFO:root:Found 1 dates: ['Segunda, 26 de outubro de 2026']
+INFO:root:Found 3 descriptions: ['Se o meu povo, que se chama pelo meu nome, se humi', 'Naquela ocasião Jesus disse: "Eu te louvo, Pai, Se', 'De novo o Senhor falou a Jona: "Vá à grande cidade']
+INFO:root:Found 1 dates: ['Terça, 27 de outubro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Escondido dos sábios e revelado aos pequeninos', ID=afb171491391edaca8c069fffcc623ea
+INFO:root:Processing entry 1: Title='O verdadeiro avivamento e o quebrantamento', ID=300316c0d16def726edbb201d9cf0ae4
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Escondido dos sábios e revelado aos pequeninos - Palavra de Hoje
+INFO:root:🔹 Title: O verdadeiro avivamento e o quebrantamento - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Naquela ocasião Jesus disse: "Eu te louvo, Pai, Senhor dos céus e da terra, porque ocultaste estas coisas dos sábios e cultos, e as revelaste aos pequeninos. Sim, ó Pai, pois assim foi do teu agrado".
-Mateus 11:25-26
+INFO:root:🔹 Description: Se o meu povo, que se chama pelo meu nome, se humilhar e orar, buscar a minha face e se desviar dos seus maus caminhos, dos céus o ouvi-rais, perdoarei os seus pecados e curarei a sua terra.
+2 Crônicas 7:14
 
-A sabedoria humana e o orgulho intelectual frequentemente funcionam como barreiras intransponíveis para a compreensão das verdades espirituais. Enquanto a sociedade aplaude os eruditos, os autossuficientes e os detentores do saber acadêmico, o Reino de Deus opera através de uma lógica completamente oposta. As profundezas da revelação divina não se alcançam por meio de diplomas, requinte intelectual ou raciocínio soberbo, mas pelo quebrantamento interior. Deus escolhe ocultar os seus maiores segredos daqueles que confiam na própria inteligência, desmascarando a ilusão de que o homem pode alcançar o Criador por esforço ou mérito mental próprio.
+O clamor por avivamento ecoa frequentemente nos templos e reuniões cristãs, mas muitas vezes associamos esse movimento a grandes multidões, emoções eufóricas ou manifestações extraordinárias. Contudo, a condição divina para o verdadeiro avivamento é sóbria e profunda: começa com o quebrantamento pessoal. Deus não exige que busquemos espetáculos, mas que nos humilhemos profundamente diante da sua santidade. Um avivamento real nunca é o resultado de estratégias humanas inteligentes, mas o transbordar soberano de corações que abandonam o orgulho, confessam os seus pecados e se desviam decisivamente de toda prática que ofende o Criador.
 
-Irmãos,chem o que eram quando foram chamados. Não muitos eram sábios segundo os padrões humanos; não muitos eram poderosos; não muitos eram de nobre nascimento. Mas Deus escolheu as coisas loucas do mundo para envergonhar os sábios, e escolheu as coisas fracos do mundo para envergonhar os fortes.
-1 Coríntios 1:26-27
+Será que não nos reavivarás de novo, para que o teu povo se alegre em ti?
+Salmos 85:6
 
-A escolha soberana de Deus revela a absoluta igualdade de oportunidades diante da cruz. O apóstolo Paulo relembra que o Pai deliberadamente seleciona o que o mundo despreza para que nenhuma carne se glorie em sua presença. O orgulho acadêmico gera uma armadura impenetrável de ceticismo que impede a alma de receber a graça. Em contrapartida, os "pequeninos" mencionados por Jesus são aqueles que reconhecem a sua total incapacidade, ignorância e dependência espiritual. Quando depomos as armas da nossa arrogância intelectual e nos achegamos ao Mestre com a simplicidade e a pureza de uma criança, as portas do entendimento celestial se abrem generosamente.
+O salmista compreende que a vida espiritual, quando deixada à própria sorte, tende à apatia, à mornidão e à rotina mecânica. A religiosidade vazia substitui o fervor do primeiro amor por um formalismo estéril e sem vida. O reavivamento verdadeiro é, essencialmente, a restauração da comunhão íntima com Deus. É o sopro do Espírito Santo que desperta a alma entorpecida pelo pecado, devolvendo-lhe o apetite pelas coisas sagradas, a sensibilidade para ouvir a voz do Mestre e uma alegria inabalável que brota da certeza da salvação. Clamar por avivamento é pedir que Deus cure a frieza do nosso interior.
 
-Se alguém dentre vocês se considera sábio aos padrões desta idade, deve tornar-se louco para que se torne sábio. Pois a sabedoria deste mundo é loucura aos olhos de Deus.
-1 Coríntios 3:18-19
+Portanto, arrependam-se e voltam-se para Deus, para que os seus pecados sejam apagados, para que venham tempos de refrigério da presença do Senhor.
+Atos 3:19-20
 
-A verdadeira conversão exige uma rendição radical da nossa altivez cognitiva. Tornar-se "louco" para o mundo significa abandonar a dependência dos sistemas seculares e submeter todo o intelecto à autoridade inegociável da Palavra. A sabedoria terrena, por mais sofisticada que pareça, é passageira e incapaz de salvar a alma da condenação. Apenas aqueles que aceitam a aparente "loucura" da cruz encontram a verdadeira e eterna sabedoria. Escondido dos sábios altivos, o glorioso evangelho resplandece com poder incomparável no coração humilde, transformando os pequeninos em herdeiros do Reino celestial. Despidos da soberba intelectual, abraçados pela graça reservada aos quebrantados e iluminados pela sabedoria que vem do alto: a revelação de Deus pertence àqueles que escolhem servir com a humildade de uma criança.
+O apóstolo Pedro aponta para o verdadeiro fruto de um avivamento genuíno: o arrependimento sincero seguido de uma mudança radical de direção. O avivamento verdadeiro não se mede pela intensidade dos sentimentos momentâneos gerados em um culto, mas pela santidade prática que transborda na segunda-feira. Quando a presença de Deus visita um povo, há restauração de casamentos quebrados, acerto de contas com o próximo, integridade nos negócios e um zelo inextinguível pela proclamação do evangelho. A presença do Senhor transforma a nossa rota e nos consagra inteiramente para a sua glória. Despidos da nossa autossuficiência, despertados da mornidão espiritual pela graça e transformados por um arrependimento genuíno: o verdadeiro avivamento acontece quando o nosso coração se torna habitação santa do Rei.
  
-Naquela ocasião Jesus disse: "Eu te louvo, Pai, Senhor dos céus e da terra, porque ocultaste estas coisas dos sábios e cultos, e as revelaste aos pequeninos. Sim, ó Pai, pois assim foi do teu agrado".
-Mateus 11:25-26
+Se o meu povo, que se chama pelo meu nome, se humilhar e orar, buscar a minha face e se desviar dos seus maus caminhos, dos céus o ouvi-rais, perdoarei os seus pecados e curarei a sua terra.
+2 Crônicas 7:14
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 412260 characters
-INFO:root:HTML parsed, length: 400308 characters
-INFO:root:Found 3 titles: ['A matemática do perdão sem limites', 'O verdadeiro Senhor das finanças', 'O legado eterno do ensino familiar']
+INFO:root:Response length: 415880 characters
+INFO:root:HTML parsed, length: 403649 characters
+INFO:root:Found 3 titles: ['O poder que se aperfeiçoa na fraqueza', 'A matemática do perdão sem limites', 'O verdadeiro Senhor das finanças']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['"Então Pedro aproximou-se de Jesus e perguntou: \'S', '"Ninguém pode servir a dois senhores; pois odiará ', 'Que todas estas palavras que hoje lhe ordeno estej']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n26\nSEGUNDA', 'OUTUBRO\n\n25\nDOMINGO', 'OUTUBRO\n\n24\nSÁBADO']
+INFO:root:Found 3 descriptions: ['"Mas ele me disse: \'Minha graça é suficiente para ', '"Então Pedro aproximou-se de Jesus e perguntou: \'S', '"Ninguém pode servir a dois senhores; pois odiará ']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n27\nTERÇA', 'OUTUBRO\n\n26\nSEGUNDA', 'OUTUBRO\n\n25\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A matemática do perdão sem limites', ID=6f58a4f8732616452af9cbc64943177f
-INFO:root:Processing entry 2: Title='O verdadeiro Senhor das finanças', ID=94d5b73e7e5d2bc2d298627972bce154
-INFO:root:Processing entry 3: Title='O legado eterno do ensino familiar', ID=0033a4de57ef66f7658ec6b3d8094eef
+INFO:root:Processing entry 1: Title='O poder que se aperfeiçoa na fraqueza', ID=35e8290407f6db2e4723026324068384
+INFO:root:Processing entry 2: Title='A matemática do perdão sem limites', ID=6f58a4f8732616452af9cbc64943177f
+INFO:root:Processing entry 3: Title='O verdadeiro Senhor das finanças', ID=94d5b73e7e5d2bc2d298627972bce154
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O poder que se aperfeiçoa na fraqueza
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: "Mas ele me disse: 'Minha graça é suficiente para você, pois o meu poder se aperfeiçoa na fraqueza'. Portanto, eu me gloriarei ainda mais alegremente em minhas fraquezas, para que o poder de Cristo repouse em mim."
+2 Coríntios 12:9
+
+Passamos a maior parte das nossas vidas tentando construir fortalezas de independência, saúde inabalável e invulnerabilidade absoluta. A nossa cultura idolatra a força física, a produtividade incessante e a juventude, fazendo-nos acreditar que o nosso valor está intimamente ligado à nossa capacidade de realizar coisas. No entanto, quando a doença inesperada bate à porta ou quando a fragilidade crônica se instala no nosso corpo, essa ilusão de controle é brutalmente despedaçada. O apóstolo Paulo experimentou exatamente essa angústia com o seu misterioso "espinho na carne". A nossa reação imediata, assim como a dele, é implorar desesperadamente para que Deus remova a dor e nos devolva a autonomia perdida, acreditando que a cura física é a única maneira de continuarmos sendo úteis e amados pelo Pai.
+Contudo, a resposta divina à súplica de Paulo revela um dos paradoxos mais profundos e transformadores de todo o evangelho: a economia do Reino de Deus funciona na contramão da lógica humana. O Senhor não lhe concedeu a cura física que ele tanto desejava, mas ofereceu-lhe uma revelação teológica muito superior: "A minha graça é suficiente para você". No meio do sofrimento físico, do declínio da saúde e da exaustão emocional, descobrimos que a graça de Deus não é apenas o favor imerecido que nos salva da condenação eterna; ela é, sobretudo, uma força ativa, palpável e sustentadora para a nossa sobrevivência diária. Quando somos completamente esvaziados da nossa arrogante autossuficiência e a nossa energia chega ao fim, tornamo-nos, paradoxalmente, os vasos mais adequados para sermos preenchidos pela força divina. A fragilidade e a doença, embora sejam intrusos dolorosos e indesejados deste mundo caído, transformam-se no palco exato onde o poder sustentador de Cristo se manifesta de forma mais visível e gloriosa.
+Alcançar o nível de maturidade espiritual onde conseguimos nos gloriar nas nossas fraquezas é um milagre operado exclusivamente pelo Espírito Santo. Isso não significa nutrir um prazer masoquista pelo sofrimento ou pela dor, mas representa uma mudança radical de perspectiva: é transferir a nossa esperança da busca incessante por uma cura terrena temporária para o descanso absoluto na presença eterna do Salvador. Os nossos corpos quebrados e adoecidos são lembretes constantes e misericordiosos de que carregamos tesouros celestiais em frágeis vasos de barro e de que este mundo passageiro não é o nosso lar definitivo. Quando rendemos a nossa exigência por alívio imediato e abraçamos a total suficiência da graça de Cristo, uma paz inexplicável invade a nossa alma, e o seu poder repousa suavemente sobre os nossos ombros cansados, sustentando-nos até o dia da nossa redenção final.
+Pratique a dependência hoje, onde você está
+
+Apresente a sua dor, o seu cansaço físico e a sua frustração a Deus de forma totalmente honesta, sem tentar mascarar a sua fragilidade com uma falsa super-espiritualidade.
+Mude intencionalmente o foco de uma das suas orações hoje: em vez de pedir apenas pela cura imediata, implore para que a graça sustentadora de Cristo se manifeste na sua fraqueza.
+Abandone o orgulho e compartilhe a sua luta física ou emocional com um irmão de confiança, permitindo que o corpo de Cristo cuide de você em seu momento de vulnerabilidade.
+Releia o capítulo 12 de 2 Coríntios e descanse na promessa inabalável de que a graça do Senhor nunca falhará quando as suas forças humanas terminarem.
+
+Para orar
+
+Senhor, confesso que me sinto aterrorizado diante da doença, da dor e da minha própria fragilidade humana. Perdoa-me por basear a minha segurança na minha saúde e na minha capacidade de produzir, esquecendo que o meu verdadeiro valor está alicerçado em ti. Ensina-me a descansar na tua soberania quando o meu corpo falhar. Que a tua graça me seja absoluta e inteiramente suficiente hoje. Aperfeiçoa o teu poder supremo na minha profunda fraqueza e ajuda-me a glorificar o teu nome mesmo através das lágrimas e do sofrimento. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A matemática do perdão sem limites
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: "Então Pedro aproximou-se de Jesus e perguntou: 'Senhor, quantas vezes deverei perdoar a meu irmão quando ele pecar contra mim? Até sete vezes?' Jesus respondeu: 'Eu lhe digo: Não até sete, mas até setenta vezes sete.'"
@@ -300,25 +333,6 @@ Para orar
 
 Senhor, confesso que o meu coração muitas vezes é seduzido pelo engano das riquezas e pela falsa segurança secular. Perdoa-me por tentar servir a dois senhores. Quebra o poder da ganância na minha mente e ensina-me a ser um administrador fiel dos recursos que me confiaste. Que o trono da minha vida seja exclusivamente teu. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O legado eterno do ensino familiar
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Que todas estas palavras que hoje lhe ordeno estejam em seu coração. Ensine-as com persistência a seus filhos. Converse sobre elas quando estiver sentado em casa, quando andar pelo caminho, quando se deitar e quando se levantar.
-Deuteronômio 6:6-7
-
-A responsabilidade de formar a próxima geração é o mandato mais sagrado confiado aos pais. A instrução bíblica revela um princípio inegociável: a educação cristã não começa nos lábios, mas no coração dos adultos. Antes de exigir obediência às crianças, a Palavra deve governar a nossa própria vida. É impossível transmitir uma fé que não vivemos. Os filhos detectam rapidamente a diferença entre religiosidade superficial e devoção autêntica.
-A nossa cultura nos incentiva a terceirizar a educação espiritual. Delegamos o discipulado à igreja, acreditando que um encontro semanal forjará o caráter cristão. O texto sagrado, no entanto, rejeita essa ideia. O ensino divino exige proximidade intencional. A fé sólida é cultivada diariamente através de repetição incansável, conversas francas e um convívio estreito e amoroso no ambiente seguro do lar.
-O ambiente familiar é o laboratório principal onde a teologia ganha vida. Deus não exige pais perfeitos, mas que usem a simplicidade dos momentos diários — à mesa, ao deitar e ao levantar — para apontar o olhar dos filhos para o Criador. Cada situação comum do dia a dia se torna uma oportunidade divina para ensinar verdades eternas, moldando a cosmovisão das crianças com solidez.
-Pratique o ensino hoje, onde você está
-
-Reserve dez minutos durante a refeição para ler um trecho bíblico e conversar sobre ele com a família.
-Aproveite o momento de colocar os filhos na cama para fazer uma oração curta e intencional com eles.
-Peça perdão ao seu filho quando você falhar, ensinando na prática como funciona o arrependimento sincero.
-Releia Deuteronômio 6 e avalie se a Palavra de Deus governa genuinamente o seu próprio coração.
-
-Para orar
-
-Senhor, reconheço a imensa responsabilidade de discipular a minha família. Perdoa-me quando tento terceirizar a educação espiritual ou quando não reflito a fé que professo. Grava as tuas verdades no meu coração. Dá-me sabedoria e persistência incansável para aproveitar cada oportunidade do cotidiano, ensinando os meus filhos a te amar. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -352,11 +366,11 @@ INFO:root: feeds/devocional_de_hoje/atom.xml         |  36 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
  feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  20 ++-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 101 +++++-----
+ feeds/salmo_do_dia/atom.xml               |  74 +++++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |  15 +-
- "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 300 +++++++++++++++---------------
- 11 files changed, 278 insertions(+), 274 deletions(-)
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
+ "feeds/vers\303\255culo_do_dia/feed.json" |   9 +-
+ output.log                                | 276 +++++++++++++++---------------
+ 11 files changed, 257 insertions(+), 241 deletions(-)
