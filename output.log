@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 201149 characters
-INFO:root:HTML parsed, length: 177341 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (28/10/2026)', 'Palavra de Ontem (27/10/2026)', 'Palavra de Anteontem (26/10/2026)']
-INFO:root:Found 3 URLs: ['/lamuriante/', '/destinatario/', '/spin-off/']
-INFO:root:Found 13 descriptions: ['adjetivo Que vive a lamuriar, lastimar, lamentar; ', 'Sinônimos:\n\nlamuriento, lamentoso, lamuriador, lam', 'Antônimos:\n\namável, afável, amigo, amistoso']
-INFO:root:Found 3 dates: ['Palavra de Hoje (28/10/2026)', 'Palavra de Ontem (27/10/2026)', 'Palavra de Anteontem (26/10/2026)']
+INFO:root:Response length: 201053 characters
+INFO:root:HTML parsed, length: 177245 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (29/10/2026)', 'Palavra de Ontem (28/10/2026)', 'Palavra de Anteontem (27/10/2026)']
+INFO:root:Found 3 URLs: ['/entretenimento/', '/lamuriante/', '/destinatario/']
+INFO:root:Found 14 descriptions: ['substantivo masculino Aquilo que é feito como dive', 'Sinônimos:\n\npassatempo, diversão, divertimento, re', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (29/10/2026)', 'Palavra de Ontem (28/10/2026)', 'Palavra de Anteontem (27/10/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (28/10/2026)', ID=9a3eb3da1a5b27c3190e2902029c81af
-INFO:root:Processing entry 2: Title='Palavra de Ontem (27/10/2026)', ID=18516d7b121bdbc21e3afcc7515e3405
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (26/10/2026)', ID=a24167511b4dd1d397cac3eb1056195c
+INFO:root:Processing entry 1: Title='Palavra de Hoje (29/10/2026)', ID=2801bac01f26c5437d1eb8e90fbe7516
+INFO:root:Processing entry 2: Title='Palavra de Ontem (28/10/2026)', ID=8bb81f9c06ff3250440de7c5f6442d30
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (27/10/2026)', ID=f2104990fd571ce6f3769316d5e01eea
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (28/10/2026) - Significado completo de lamuriante:
-INFO:root:🔹 URL: https://www.dicio.com.br/lamuriante/
-INFO:root:🔹 Description: adjetivo Que vive a lamuriar, lastimar, lamentar; que lamuria, lastima, lamenta: ninguém suportava sua fala lamuriante.Que tenta conseguir alguma coisa lamuriando, através de lamentações.Que contém lamúria, lamentação ou possui este aspecto.Etimologia (origem da palavra lamuriante). A palavra lamuriante tem sua origem pela junção do verbo lamuriar, e do sufixo -nte.
+INFO:root:🔹 Title: Palavra de Hoje (29/10/2026) - Significado completo de entretenimento:
+INFO:root:🔹 URL: https://www.dicio.com.br/entretenimento/
+INFO:root:🔹 Description: substantivo masculino Aquilo que é feito como diversão ou para se entreter: canal de entretenimento; local de entretenimento.O que entretém, diverte e distrai; divertimento.Ação ou efeito de entreter; ato de se divertir, de se distrair.Etimologia (origem da palavra entretenimento). A palavra entretenimento deriva do espanhol "entretenimiento", ação ou efeito de entreter.
  
 Sinônimos:
 
-lamuriento, lamentoso, lamuriador, lamurioso, queixoso, choroso, plangente, lastimoso, lutuoso, complacente, desconsolado 
+passatempo, diversão, divertimento, recreio, distração, recreação, hobby, atração 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (27/10/2026) - Significado completo de destinatário:
-INFO:root:🔹 URL: https://www.dicio.com.br/destinatario/
+INFO:root:🔹 Title: Palavra de Ontem (28/10/2026) - Significado completo de lamuriante:
+INFO:root:🔹 URL: https://www.dicio.com.br/lamuriante/
 INFO:root:🔹 Description: Sinônimos:
 
-lamuriento, lamentoso, lamuriador, lamurioso, queixoso, choroso, plangente, lastimoso, lutuoso, complacente, desconsolado
- 
-Antônimos:
-
-amável, afável, amigo, amistoso 
-
+passatempo, diversão, divertimento, recreio, distração, recreação, hobby, atração
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (26/10/2026) - Significado completo de spin-off:
-INFO:root:🔹 URL: https://www.dicio.com.br/spin-off/
-INFO:root:🔹 Description: Antônimos:
-
-amável, afável, amigo, amistoso
- Classe gramatical:adjetivo de dois gêneros
+INFO:root:🔹 Title: Palavra de Anteontem (27/10/2026) - Significado completo de destinatário:
+INFO:root:🔹 URL: https://www.dicio.com.br/destinatario/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:en-tre-te-ni-men-to
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,33 +42,71 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 400909 characters
-INFO:root:HTML parsed, length: 389304 characters
+INFO:root:Response length: 401099 characters
+INFO:root:HTML parsed, length: 389489 characters
 INFO:root:Found 0 titles: []
 INFO:root:Found 0 URLs: []
 INFO:root:Found 0 descriptions: []
-INFO:root:Found 1 dates: ['Quarta, 28 de outubro de 2026']
+INFO:root:Found 1 dates: ['Quinta, 29 de outubro de 2026']
 INFO:root:Min length for iteration: 0
 INFO:root:Processed 0 entries in FeedGenerator, 0 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 0 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 0 entries.
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 398580 characters
-INFO:root:HTML parsed, length: 387739 characters
-INFO:root:Found 3 titles: ['Salmo 66', 'Salmo 79', 'Salmo 27']
-INFO:root:Found 3 URLs: ['/salmos_66/', '/salmos_79/', '/salmos_27/']
-INFO:root:Found 3 descriptions: ['Aclamem a Deus, povos de toda terra! \nCantem louvo', 'Ó Deus, as nações invadiram a tua herança,\nprofana', 'O Senhor é a minha luz e a minha salvação;\nde quem']
-INFO:root:Found 3 dates: ['28 de Outubro de 2026', '27 de Outubro de 2026', '26 de Outubro de 2026']
+INFO:root:Response length: 398104 characters
+INFO:root:HTML parsed, length: 387247 characters
+INFO:root:Found 3 titles: ['Salmo 21', 'Salmo 66', 'Salmo 79']
+INFO:root:Found 3 URLs: ['/salmos_21/', '/salmos_66/', '/salmos_79/']
+INFO:root:Found 3 descriptions: ['O rei se alegra na tua força, ó Senhor!\nComo é gra', 'Aclamem a Deus, povos de toda terra! \nCantem louvo', 'Ó Deus, as nações invadiram a tua herança,\nprofana']
+INFO:root:Found 3 dates: ['29 de Outubro de 2026', '28 de Outubro de 2026', '27 de Outubro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 66', ID=15a03b6e313ede2b2a4b5a3c41b598ff
-INFO:root:Processing entry 2: Title=' Salmo 79', ID=c848f0aa496275f7078cb360fbcd7adf
-INFO:root:Processing entry 3: Title=' Salmo 27', ID=8dcdf1c473e87d0c61510ae827caf9b0
+INFO:root:Processing entry 1: Title=' Salmo 21', ID=f5499d96daf550cf503937d224980eef
+INFO:root:Processing entry 2: Title=' Salmo 66', ID=15a03b6e313ede2b2a4b5a3c41b598ff
+INFO:root:Processing entry 3: Title=' Salmo 79', ID=c848f0aa496275f7078cb360fbcd7adf
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 21
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_21/
+INFO:root:🔹 Description: O rei se alegra na tua força, ó Senhor!
+Como é grande a sua exultação
+pelas vitórias que lhe dás! 
+Tu lhe concedeste o desejo do seu coração
+e não lhe rejeitaste o pedido
+dos seus lábios. 
+Tu o recebeste dando-lhe ricas bênçãos,
+e em sua cabeça
+puseste uma coroa de ouro puro. 
+Ele te pediu vida, e tu lhe deste!
+Vida longa e duradoura. 
+Pelas vitórias que lhe deste,
+grande é a sua glória;
+de esplendor e majestade o cobriste. 
+Fizeste dele uma grande bênção para sempre
+e lhe deste a alegria da tua presença. 
+O rei confia no Senhor:
+por causa da fidelidade do Altíssimo
+ele não será abalado. 
+Tua mão alcançará todos os teus inimigos;
+tua mão direita atingirá todos os que te odeiam. 
+No dia em que te manifestares
+farás deles uma fornalha ardente.
+Na sua ira o Senhor os devorará,
+um fogo os consumirá. 
+Acabarás com a geração deles na terra,
+com a sua descendência entre os homens. 
+Embora tramem o mal contra ti
+e façam planos perversos,
+nada conseguirão; 
+pois tu os porás em fuga
+quando apontares para eles o teu arco. 
+Sê exaltado, Senhor, na tua força!
+Cantaremos e louvaremos o teu poder. 
+ Salmo 21
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 66
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_66/
 INFO:root:🔹 Description: Aclamem a Deus, povos de toda terra! 
@@ -181,114 +213,79 @@ de geração em geração
 cantaremos os teus louvores. 
  Salmo 79
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 27
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_27/
-INFO:root:🔹 Description: O Senhor é a minha luz e a minha salvação;
-de quem terei temor?
-O Senhor é o meu forte refúgio;
-de quem terei medo? 
-Quando homens maus avançarem contra mim
-para destruir-me,
-eles, meus inimigos e meus adversários,
-é que tropeçarão e cairão. 
-Ainda que um exército se acampe contra mim,
-meu coração não temerá;
-ainda que se declare guerra contra mim,
-mesmo assim estarei confiante. 
-Uma coisa pedi ao Senhor
-e a procuro:
-que eu possa viver na casa do Senhor
-todos os dias da minha vida,
-para contemplar a bondade do Senhor
-e buscar sua orientação no seu templo. 
-Pois no dia da adversidade
-ele me guardará protegido em sua habitação;
-no seu tabernáculo me esconderá
-e me porá em segurança sobre um rochedo. 
-Então triunfarei sobre os inimigos
-que me cercam.
-Em seu tabernáculo oferecerei sacrifícios
-com aclamações;
-cantarei e louvarei ao Senhor. 
-Ouve a minha voz quando clamo, ó Senhor;
-tem misericórdia de mim e responde-me. 
-A teu respeito diz o meu coração:
-Busque a minha face!
-A tua face, Senhor, buscarei. 
-Não escondas de mim a tua face,
-não rejeites com ira o teu servo;
-tu tens sido o meu ajudador.
-Não me desampares nem me abandones,
-ó Deus, meu salvador! 
-Ainda que me abandonem pai e mãe,
-o Senhor me acolherá. 
-Ensina-me o teu caminho, Senhor;
-conduze-me por uma vereda segura
-por causa dos meus inimigos. 
-Não me entregues
-ao capricho dos meus adversários,
-pois testemunhas falsas se levantam contra mim,
-respirando violência. 
-Apesar disso, esta certeza eu tenho:
-viverei até ver a bondade do Senhor na terra. 
-Espere no Senhor.
-Seja forte! Coragem!
-Espere no Senhor. 
- Salmo 27
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 406011 characters
-INFO:root:HTML parsed, length: 394212 characters
-INFO:root:Found 3 titles: ['Trazendo pessoas para Jesus', 'O verdadeiro avivamento e o quebrantamento', 'Escondido dos sábios e revelado aos pequeninos']
+INFO:root:Response length: 405397 characters
+INFO:root:HTML parsed, length: 393618 characters
+INFO:root:Found 3 titles: ['Deixando fardos antigos', 'Trazendo pessoas para Jesus', 'O verdadeiro avivamento e o quebrantamento']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Eles trouxeram-lhe um paralítico, deitado em uma c', 'Se o meu povo, que se chama pelo meu nome, se humi', 'Naquela ocasião Jesus disse: "Eu te louvo, Pai, Se']
-INFO:root:Found 1 dates: ['Quarta, 28 de outubro de 2026']
+INFO:root:Found 3 descriptions: ['Venham a mim, todos os que estão cansados e sobrec', 'Eles trouxeram-lhe um paralítico, deitado em uma c', 'Se o meu povo, que se chama pelo meu nome, se humi']
+INFO:root:Found 1 dates: ['Quinta, 29 de outubro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Trazendo pessoas para Jesus', ID=d2d329ec5fb57e0fdb36a4332c3d49b0
+INFO:root:Processing entry 1: Title='Deixando fardos antigos', ID=1241706115938053679efa5d99e1c780
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Trazendo pessoas para Jesus - Palavra de Hoje
+INFO:root:🔹 Title: Deixando fardos antigos - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Eles trouxeram-lhe um paralítico, deitado em uma cama. Vendo a fé que eles tinham, Jesus disse ao paralítico: "Tenha coragem, filho; os seus pecados estão perdoados".
-Mateus 9:2
+INFO:root:🔹 Description: Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.
+Mateus 11:28
 
-A jornada da fé cristã nunca foi projetada para ser vivenciada no isolamento egoísta. No episódio do paralítico trazido por amigos, a importância da intercessão prática e intencional salta aos olhos de forma extraordinária. O homem debilitado estava completamente paralisado e sem nenhuma condição física de buscar o Mestre por conta própria. A sua única esperança residia na atitude firme de pessoas que decidiram carregar o seu peso, superar os obstáculos da multidão e colocá-lo diretamente aos pés do Salvador. Trazer pessoas para Jesus exige empatia ativa, disposição para gastar tempo e a coragem de conduzir aqueles que amamos até a única fonte verdadeira de cura e salvação eterna.
+Carregamos bagagens emocionais que nunca fomos chamados para suportar. Culpa por erros antigos, ressentimentos amargos e feridas abertas formam um peso invisível que esmaga a alma. Tentamos avançar usando força própria, mas a caminhada cristã logo se torna uma exaustiva sobrevivência. Jesus rompe esse ciclo com um convite vital: Ele não pede que sejamos mais fortes, mas que reconheçamos a nossa profunda fraqueza. Encontrar verdadeiro descanso exige a humildade de depositar essa bagagem pesada aos pés do Mestre, confiando inteiramente na sua graça.
 
-O primeiro que ele encontrou foi seu irmão Simão, a quem disse: "Encontramos o Messias" (que significa Cristo). E o levou a Jesus.
-João 1:41
+Esquecendo-me das coisas que ficaram para trás e avançando para as que estão adiante, prossigo para o alvo, a fim de ganhar o prêmio do chamado celestial.
+Filipenses 3:13-14
 
-A evangelização mais autêntica e eficaz raramente nasce de grandes palestras impessoais, mas transborda de forma natural através dos relacionamentos cotidianos. Quando André encontrou a verdade transformadora em Cristo, a sua reação imediata não foi guardar essa descoberta para si, mas correr para buscar o seu próprio irmão, Simão Pedro, conduzindo-o diretamente ao encontro do Senhor. Esse ato simples revela a essência do discipulado: quem é alcançado pela graça de Deus torna-se imediatamente um canal para atrair outros. Compartilhar a fé com naturalidade, contando o que o Mestre fez em nossa própria história, é a maneira mais poderosa de abrir portas para que amigos, familiares e colegas experimentem o amor redentor.
+Paulo possuía um passado sombrio e culpas que poderiam facilmente paralisar o seu ministério. Contudo, ele dominou a arte espiritual de soltar as amarras da própria história. Esquecer o que ficou para trás não é sofrer amnésia divina, mas recusar que o passado governe o presente. Olhar para os antigos fracassos nos impede de avançar. O alvo celestial exige um coração leve e focado. Para abraçarmos integralmente o grandioso futuro que Deus preparou, precisamos soltar as velhas sentenças e aplicar o perdão a nós mesmos.
 
-Portanto, vão e façam discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, ensinando-os a obedecer a tudo o que eu lhes ordenei. E eu estarei com vocês sempre, até o fim dos tempos.
-Mateus 28:19-20
+Livremo-nos de tudo o que nos atrapalha e do pecado que nos envolve, e corramos com perseverança a corrida que nos é proposta, tendo os olhos fitos em Jesus.
+Hebreus 12:1-2
 
-A missão de trazer pessoas para Jesus não é uma sugestão opcional reservada apenas para pastores ou líderes religiosos destacados, mas a ordem suprema e intransferível confiada a todo o corpo de Cristo. O envolvimento na obra de resgatar vidas perdidas exige perseverança, amor sacrificial e dependência total da presença encorajadora do próprio Senhor. Quando assumimos com seriedade a responsabilidade de discipular a nossa geração, cooperamos ativamente com o plano eterno de Deus. Cada pessoa conduzida à cruz representa um milagre glorioso e um testemunho vivo de que a graça transformadora continua operando com poder neste mundo ferido. Movidos pela compaixão que carrega os fardos do próximo, inspirados pelo exemplo de apresentar os nossos entes queridos ao Mestre e firmados na grande comissão: a nossa mais alta honra é conduzir vidas para os braços do Salvador.
+A jornada da fé é comparada a uma rigorosa maratona. Nenhum atleta se apresenta para uma corrida usando uma pesada mochila nas costas. O autor sagrado é enfático ao ordenar que descartemos tudo o que embaraça os nossos passos. Fardos antigos não são apenas pecados explícitos; muitas vezes, são medos paralisantes, tradições religiosas sufocantes ou expectativas humanas irreais que nos amarram. A perseverança na corrida requer uma criteriosa inspeção espiritual constante. Correr com liberdade plena só é verdadeiramente possível quando lançamos fora o peso inútil e mantemos os nossos olhos totalmente fixos no sacrifício perfeito de Cristo Jesus. Atraídos pelo descanso divino, libertos das pesadas correntes de uma história passada e disciplinados para correr com absoluta leveza: hoje é o dia de abandonarmos definitivamente os fardos inúteis.
  
-Eles trouxeram-lhe um paralítico, deitado em uma cama. Vendo a fé que eles tinham, Jesus disse ao paralítico: "Tenha coragem, filho; os seus pecados estão perdoados".
-Mateus 9:2
+Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.
+Mateus 11:28
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 416204 characters
-INFO:root:HTML parsed, length: 403973 characters
-INFO:root:Found 3 titles: ['A segurança da integridade profissional', 'O poder que se aperfeiçoa na fraqueza', 'A matemática do perdão sem limites']
+INFO:root:Response length: 414294 characters
+INFO:root:HTML parsed, length: 402072 characters
+INFO:root:Found 3 titles: ['A herança mais preciosa', 'A segurança da integridade profissional', 'O poder que se aperfeiçoa na fraqueza']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['"Quem anda com integridade anda com segurança, mas', '"Mas ele me disse: \'Minha graça é suficiente para ', '"Então Pedro aproximou-se de Jesus e perguntou: \'S']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n28\nQUARTA', 'OUTUBRO\n\n27\nTERÇA', 'OUTUBRO\n\n26\nSEGUNDA']
+INFO:root:Found 3 descriptions: ['Os filhos são herança do Senhor, uma recompensa qu', '"Quem anda com integridade anda com segurança, mas', '"Mas ele me disse: \'Minha graça é suficiente para ']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n29\nQUINTA', 'OUTUBRO\n\n28\nQUARTA', 'OUTUBRO\n\n27\nTERÇA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A segurança da integridade profissional', ID=47aa6db6f167b311d8554533dff4077c
-INFO:root:Processing entry 2: Title='O poder que se aperfeiçoa na fraqueza', ID=35e8290407f6db2e4723026324068384
-INFO:root:Processing entry 3: Title='A matemática do perdão sem limites', ID=6f58a4f8732616452af9cbc64943177f
+INFO:root:Processing entry 1: Title='A herança mais preciosa', ID=ded99045645546f14c618bb36481b1b5
+INFO:root:Processing entry 2: Title='A segurança da integridade profissional', ID=47aa6db6f167b311d8554533dff4077c
+INFO:root:Processing entry 3: Title='O poder que se aperfeiçoa na fraqueza', ID=35e8290407f6db2e4723026324068384
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A herança mais preciosa
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Os filhos são herança do Senhor, uma recompensa que ele dá.
+Salmos 127:3
+
+Em um mundo que frequentemente mede o sucesso pelo acúmulo de bens materiais e conquistas profissionais, a criação de filhos pode ser erroneamente vista como um fardo, uma despesa excessiva ou uma interrupção dos nossos planos pessoais. A perspectiva bíblica, no entanto, eleva a família ao seu devido lugar de honra: os filhos são uma herança direta do Senhor.
+Uma herança é algo de imenso valor que é confiado aos cuidados de alguém. Quando Deus nos concede filhos, Ele está compartilhando conosco a responsabilidade de moldar almas eternas. Eles não são nossa propriedade para serem esculpidos à imagem do nosso próprio ego ou das nossas frustrações não resolvidas, mas vidas preciosas confiadas à nossa administração amorosa.
+Criar filhos é uma jornada inegavelmente exaustiva, que exige sacrifício constante, renúncia e uma paciência que muitas vezes não possuímos naturalmente. Porém, enxergá-los como uma recompensa divina muda o nosso foco. O cansaço diário, a disciplina contínua e a dedicação ganham um propósito eterno quando entendemos que estamos formando cidadãos para o Reino dos Céus.
+A nossa maior missão dentro de casa não é apenas garantir conforto, sustento ou uma boa educação secular, mas apontar intencionalmente o coração das nossas crianças para o Pai. Que possamos valorizar esse presente inestimável, construindo um lar onde a graça, o perdão e a verdade de Cristo sejam os alicerces inabaláveis.
+Pratique o amor intencional hoje, onde você está
+
+Separe hoje um tempo de qualidade exclusivo com os seus filhos, longe das telas e das distrações, apenas para ouvi-los com atenção.
+Substitua uma possível crítica destrutiva por uma palavra de encorajamento, afirmando o valor e a identidade deles em Deus.
+Ore de forma profunda e específica pelo crescimento espiritual e pela proteção do coração das suas crianças.
+Releia o Salmo 127 inteiro e medite sobre o legado espiritual que você está construindo dentro da sua própria casa.
+
+Para orar
+
+Senhor, confesso que a exaustão da rotina muitas vezes me faz esquecer o imenso privilégio que é cuidar da herança que me confiaste. Perdoa-me pelos momentos de impaciência e falha. Capacita-me com a tua sabedoria para amar, guiar e disciplinar os meus filhos com a mesma graça com que o Senhor me trata. Que o meu lar seja um verdadeiro refúgio do teu amor. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A segurança da integridade profissional
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: "Quem anda com integridade anda com segurança, mas quem perverte os seus caminhos será descoberto."
@@ -327,25 +324,6 @@ Para orar
 
 Senhor, confesso que me sinto aterrorizado diante da doença, da dor e da minha própria fragilidade humana. Perdoa-me por basear a minha segurança na minha saúde e na minha capacidade de produzir, esquecendo que o meu verdadeiro valor está alicerçado em ti. Ensina-me a descansar na tua soberania quando o meu corpo falhar. Que a tua graça me seja absoluta e inteiramente suficiente hoje. Aperfeiçoa o teu poder supremo na minha profunda fraqueza e ajuda-me a glorificar o teu nome mesmo através das lágrimas e do sofrimento. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A matemática do perdão sem limites
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: "Então Pedro aproximou-se de Jesus e perguntou: 'Senhor, quantas vezes deverei perdoar a meu irmão quando ele pecar contra mim? Até sete vezes?' Jesus respondeu: 'Eu lhe digo: Não até sete, mas até setenta vezes sete.'"
-Mateus 18:21-22
-
-Pedro tentou quantificar a graça estabelecendo um limite matemático e racional para a misericórdia. Na tradição religiosa daquela época, perdoar alguém três vezes já era considerado o ápice da generosidade humana. Ao sugerir perdoar até sete vezes, o apóstolo acreditava estar demonstrando uma espiritualidade excepcionalmente elevada e uma paciência inigualável. No entanto, a resposta de Jesus estilhaça completamente a mesquinhez da nossa contabilidade emocional. "Setenta vezes sete" não é um convite para criarmos uma planilha de ofensas mais extensa, mas representa a destruição absoluta da própria ideia de contabilizar os erros alheios. O Mestre ensina que, na dinâmica do Reino de Deus, o perdão não possui uma linha de chegada; é uma postura contínua, uma decisão inesgotável e um estilo de vida permanente para aqueles que experimentaram a verdadeira redenção divina.
-O nosso orgulho ferido resiste ferozmente à ideia da reconciliação porque a nossa natureza decaída clama constantemente por justiça retributiva e vingança. Quando somos injustiçados, a tendência imediata do coração humano é erguer muros de proteção, alimentar o ressentimento com memórias seletivas e exigir que o ofensor pague cada centavo da sua dívida emocional. O ressentimento, porém, é um veneno letal que bebemos diariamente na vã esperança de que a outra pessoa morra. Reter o perdão não pune o nosso agressor, mas constrói uma masmorra escura para a nossa própria alma, aprisionando a nossa alegria e sufocando a nossa paz interior. A reconciliação verdadeira, por outro lado, não significa sofrer de amnésia, ignorar a dor ou minimizar a gravidade da ofensa cometida; significa tomar a dolorosa, porém libertadora, decisão de cancelar a dívida, abrir a porta da prisão e soltar o prisioneiro, apenas para descobrirmos com imenso espanto que o prisioneiro éramos nós mesmos.
-É humanamente impossível sustentar essa matemática do perdão baseando-nos exclusivamente nas nossas próprias forças ou na suposta bondade do nosso caráter natural. O único combustível capaz de gerar perdão ilimitado para as falhas constantes do nosso próximo é a contemplação profunda e diária da cruz do Calvário. Jesus só pôde exigir que perdoemos "setenta vezes sete" porque Ele mesmo pagou uma dívida infinitamente maior e incalculável que nós jamais teríamos condições de quitar. A graça abundante que flui verticalmente do Pai para nós deve, obrigatoriamente, transbordar horizontalmente na direção dos nossos irmãos e daqueles que nos ferem. Quando compreendemos a imensidão dos nossos próprios pecados que foram lançados no mar do esquecimento divino pela misericórdia do Pai, perdemos completamente o direito de reter o perdão. A reconciliação que oferecemos é a evidência mais clara, prática e contundente de que fomos genuinamente perdoados e transformados por Deus.
-Pratique a reconciliação hoje, onde você está
-
-Identifique pelo nome alguém que o feriu no passado e declare em voz alta e em oração o cancelamento definitivo dessa dívida emocional.
-Abandone imediatamente o hábito tóxico de trazer à tona erros antigos durante uma discussão conjugal ou conflito entre amigos.
-Se houver uma relação rompida por causa do seu orgulho ou teimosia, dê o primeiro passo hoje mesmo, enviando uma mensagem de aproximação.
-Releia o capítulo 18 de Mateus e medite profundamente sobre a imensidão da dívida que Deus perdoou a você através do sacrifício perfeito de Jesus.
-
-Para orar
-
-Senhor, confesso com profunda vergonha que o meu coração é frequentemente resistente ao perdão e rápido para contabilizar e armazenar as ofensas que sofro. Perdoa-me por alimentar o ressentimento e por tentar medir a tua imensa graça com a minha régua humana e egoísta. Derrama o teu amor curador sobre as minhas feridas emocionais mais profundas. Dá-me a força sobrenatural do teu Espírito para perdoar sem limites, cancelando as dívidas do meu próximo, assim como fui infinitamente perdoado na cruz, restaurando integralmente os meus relacionamentos e a minha paz. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -374,14 +352,14 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml        |  36 ++---
+INFO:root: feeds/devocional_de_hoje/atom.xml        |  37 ++---
  feeds/devocional_de_hoje/feed.json       |  12 +-
  feeds/palavra_biblica_do_dia/atom.xml    |  22 +--
  feeds/palavra_biblica_do_dia/feed.json   |   6 +-
- feeds/palavra_do_dia/atom.xml            |  16 +-
+ feeds/palavra_do_dia/atom.xml            |  18 +--
  feeds/palavra_do_dia/feed.json           |  24 +--
- feeds/salmo_do_dia/atom.xml              |  97 ++++++-----
+ feeds/salmo_do_dia/atom.xml              |  91 +++++------
  feeds/salmo_do_dia/feed.json             |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml" |   2 +-
- output.log                               | 268 +++++++++++++++----------------
- 10 files changed, 254 insertions(+), 241 deletions(-)
+ output.log                               | 267 ++++++++++++++-----------------
+ 10 files changed, 218 insertions(+), 273 deletions(-)
