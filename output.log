@@ -1,40 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 201136 characters
-INFO:root:HTML parsed, length: 177510 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (30/10/2026)', 'Palavra de Ontem (29/10/2026)', 'Palavra de Anteontem (28/10/2026)']
-INFO:root:Found 3 URLs: ['/indio/', '/entretenimento/', '/lamuriante/']
-INFO:root:Found 13 descriptions: ['substantivo masculino [Pejorativo] Indivíduo que f', 'Sinônimos:\n\nindiano, indiático, índico, autóctone,', 'Classe gramatical:adjetivo e substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (30/10/2026)', 'Palavra de Ontem (29/10/2026)', 'Palavra de Anteontem (28/10/2026)']
+INFO:root:Response length: 202732 characters
+INFO:root:HTML parsed, length: 179289 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (31/10/2026)', 'Palavra de Ontem (30/10/2026)', 'Palavra de Anteontem (29/10/2026)']
+INFO:root:Found 3 URLs: ['/coetaneidade/', '/indio/', '/entretenimento/']
+INFO:root:Found 11 descriptions: ['substantivo feminino Característica de coetâneo, q', 'Sinônimos:\n\ncoexistência, contemporaneidade', 'Sílabas:co-e-ta-nei-da-de']
+INFO:root:Found 3 dates: ['Palavra de Hoje (31/10/2026)', 'Palavra de Ontem (30/10/2026)', 'Palavra de Anteontem (29/10/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (30/10/2026)', ID=0caa2e316da2f95ccd647b68599abd5e
-INFO:root:Processing entry 2: Title='Palavra de Ontem (29/10/2026)', ID=c8850fee50a5bc3090f38f47e14a8137
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (28/10/2026)', ID=ab2f80ea3c039ac1d2e04b914bee17c7
+INFO:root:Processing entry 1: Title='Palavra de Hoje (31/10/2026)', ID=73951c5581b304489bc30ae8efc56e98
+INFO:root:Processing entry 2: Title='Palavra de Ontem (30/10/2026)', ID=e645188fdf6e2c3b3599e57aaeac17fe
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/10/2026)', ID=1df6dca7c480bb7120ef91ed92c9953a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (30/10/2026) - Significado completo de índio:
+INFO:root:🔹 Title: Palavra de Hoje (31/10/2026) - Significado completo de coetaneidade:
+INFO:root:🔹 URL: https://www.dicio.com.br/coetaneidade/
+INFO:root:🔹 Description: substantivo feminino Característica de coetâneo, que ocorre na mesma época, no mesmo tempo; contemporaneidade.Etimologia (origem da palavra coetaneidade). A palavra coetaneidade tem sua origem pela junção de coetâneo, -i-, e do sufixo -idade.
+ 
+Sinônimos:
+
+coexistência, contemporaneidade 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (30/10/2026) - Significado completo de índio:
 INFO:root:🔹 URL: https://www.dicio.com.br/indio/
-INFO:root:🔹 Description: substantivo masculino [Pejorativo] Indivíduo que faz parte de alguma denominação indígena, dos povos nativos e originários de um país (este uso é considerado obsoleto); a forma preferencial para esta acepção é indígena; indígena, aborígene, autóctone.[Regionalismo: Nordeste] Papagaio de papel.[Regionalismo: Rio Grande do Sul] Pessoa cheia de bravura, coragem; corajoso.[Regionalismo: Rio Grande do Sul] Funcionário de uma estância.Etimologia (origem da palavra índio). A palavra índio tem sua origem por influência do nome do país asiático “Índia”.substantivo masculino [Química] Metal branco de símbolo In, número atômico 49, massa atômica 114,818, que funde a 155ºC e que se extrai das blendas de Freiberg, muito usado na indústria nuclear como absorvedor de nêutrons; índium.Etimologia (origem da palavra índio). A palavra índio com o sentido na química tem sua origem no latim científico "indium".
+INFO:root:🔹 Description: Sinônimos:
+
+coexistência, contemporaneidade
+ Sílabas:co-e-ta-nei-da-de
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (29/10/2026) - Significado completo de entretenimento:
+INFO:root:🔹 URL: https://www.dicio.com.br/entretenimento/
+INFO:root:🔹 Description: Sílabas:co-e-ta-nei-da-de
  
 Sinônimos:
 
 indiano, indiático, índico, autóctone, nativo, aborígene 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (29/10/2026) - Significado completo de entretenimento:
-INFO:root:🔹 URL: https://www.dicio.com.br/entretenimento/
-INFO:root:🔹 Description: Sinônimos:
-
-indiano, indiático, índico, autóctone, nativo, aborígene
- Classe gramatical:adjetivo e substantivo masculino
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (28/10/2026) - Significado completo de lamuriante:
-INFO:root:🔹 URL: https://www.dicio.com.br/lamuriante/
-INFO:root:🔹 Description: Classe gramatical:adjetivo e substantivo masculino
- Sílabas:ín-di-o
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +46,168 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 402890 characters
-INFO:root:HTML parsed, length: 390844 characters
-INFO:root:Found 1 titles: ['Efésios 6:18']
-INFO:root:Found 1 URLs: ['/versiculo/efesios_6_18/']
-INFO:root:Found 1 descriptions: ['Orem no Espírito em todas as ocasiões, com toda or']
-INFO:root:Found 1 dates: ['Sexta, 30 de outubro de 2026']
+INFO:root:Response length: 402775 characters
+INFO:root:HTML parsed, length: 390729 characters
+INFO:root:Found 1 titles: ['Provérbios 4:23']
+INFO:root:Found 1 URLs: ['/versiculo/proverbios_4_23/']
+INFO:root:Found 1 descriptions: ['Acima de tudo, guarde o seu coração,\npois dele dep']
+INFO:root:Found 1 dates: ['Sábado, 31 de outubro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Efésios 6:18', ID=ecd42d1f6cf4b3a892a69fd9df573121
+INFO:root:Processing entry 1: Title='Provérbios 4:23', ID=049081019e9edc1473f0a3cb8c8e3250
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Efésios 6:18
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/efesios_6_18/
-INFO:root:🔹 Description: Orem no Espírito em todas as ocasiões, com toda oração e súplica; tendo isso em mente, estejam atentos e perseverem na oração por todos os santos. Efésios 6:18
+INFO:root:🔹 Title: Provérbios 4:23
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_4_23/
+INFO:root:🔹 Description: Acima de tudo, guarde o seu coração,
+pois dele depende toda a sua vida. Provérbios 4:23
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 399091 characters
-INFO:root:HTML parsed, length: 388256 characters
-INFO:root:Found 3 titles: ['Salmo 102', 'Salmo 21', 'Salmo 66']
-INFO:root:Found 3 URLs: ['/salmos_102/', '/salmos_21/', '/salmos_66/']
-INFO:root:Found 3 descriptions: ['Ouve a minha oração, Senhor!\nChegue a ti o meu gri', 'O rei se alegra na tua força, ó Senhor!\nComo é gra', 'Aclamem a Deus, povos de toda terra! \nCantem louvo']
-INFO:root:Found 3 dates: ['30 de Outubro de 2026', '29 de Outubro de 2026', '28 de Outubro de 2026']
+INFO:root:Response length: 401988 characters
+INFO:root:HTML parsed, length: 391182 characters
+INFO:root:Found 3 titles: ['Salmo 89', 'Salmo 102', 'Salmo 21']
+INFO:root:Found 3 URLs: ['/salmos_89/', '/salmos_102/', '/salmos_21/']
+INFO:root:Found 3 descriptions: ['Cantarei para sempre o amor do Senhor;\ncom minha b', 'Ouve a minha oração, Senhor!\nChegue a ti o meu gri', 'O rei se alegra na tua força, ó Senhor!\nComo é gra']
+INFO:root:Found 3 dates: ['31 de Outubro de 2026', '30 de Outubro de 2026', '29 de Outubro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 102', ID=f3f93203bf47edc3fa3727bdb061891a
-INFO:root:Processing entry 2: Title=' Salmo 21', ID=f5499d96daf550cf503937d224980eef
-INFO:root:Processing entry 3: Title=' Salmo 66', ID=15a03b6e313ede2b2a4b5a3c41b598ff
+INFO:root:Processing entry 1: Title=' Salmo 89', ID=e46bb9c27225d3ff0b9681b0878a0e4f
+INFO:root:Processing entry 2: Title=' Salmo 102', ID=f3f93203bf47edc3fa3727bdb061891a
+INFO:root:Processing entry 3: Title=' Salmo 21', ID=f5499d96daf550cf503937d224980eef
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 89
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_89/
+INFO:root:🔹 Description: Cantarei para sempre o amor do Senhor;
+com minha boca anunciarei
+a tua fidelidade por todas as gerações. 
+Sei que firme está o teu amor para sempre,
+e que firmaste nos céus a tua fidelidade. 
+Tu disseste: "Fiz aliança com o meu escolhido,
+jurei ao meu servo Davi: 
+'Estabelecerei a tua linhagem para sempre
+e firmarei o teu trono
+por todas as gerações' ". 
+Os céus louvam as tuas maravilhas, Senhor,
+e a tua fidelidade na assembleia dos santos. 
+Pois quem nos céus
+poderá comparar-se ao Senhor?
+Quem entre os seres celestiais
+assemelha-se ao Senhor? 
+Na assembleia dos santos Deus é temível,
+mais do que todos os que o rodeiam. 
+Ó Senhor, Deus dos Exércitos,
+quem é semelhante a ti?
+És poderoso, Senhor,
+envolto em tua fidelidade. 
+Tu dominas o revolto mar;
+quando se agigantam as suas ondas,
+tu as acalmas. 
+Esmagaste e mataste o Monstro dos Mares;
+com teu braço forte
+dispersaste os teus inimigos. 
+Os céus são teus, e tua também é a terra;
+fundaste o mundo e tudo o que nele existe. 
+Tu criaste o Norte e o Sul;
+o Tabor e o Hermom
+cantam de alegria pelo teu nome. 
+O teu braço é poderoso;
+a tua mão é forte, exaltada é tua mão direita. 
+A retidão e a justiça são os alicerces
+do teu trono;
+o amor e a fidelidade vão à tua frente. 
+Como é feliz o povo
+que aprendeu a aclamar-te, Senhor,
+e que anda na luz da tua presença! 
+Sem cessar exultam no teu nome,
+e alegram-se na tua retidão, 
+pois tu és a nossa glória e a nossa força,
+e pelo teu favor exaltas a nossa força. 
+Sim, Senhor, tu és o nosso escudo,
+ó Santo de Israel, tu és o nosso rei. 
+Numa visão falaste um dia,
+e aos teus fiéis disseste:
+"Cobri de forças um guerreiro,
+exaltei um homem escolhido dentre o povo. 
+Encontrei o meu servo Davi;
+ungi-o com o meu óleo sagrado. 
+A minha mão o susterá,
+e o meu braço o fará forte. 
+Nenhum inimigo o sujeitará a tributos;
+nenhum injusto o oprimirá. 
+Esmagarei diante dele os seus adversários
+e destruirei os seus inimigos. 
+A minha fidelidade e o meu amor
+o acompanharão,
+e pelo meu nome aumentará o seu poder. 
+A sua mão dominará até o mar;
+sua mão direita, até os rios. 
+Ele me dirá: 'Tu és o meu Pai,
+o meu Deus, a Rocha que me salva'. 
+Também o nomearei meu primogênito,
+o mais exaltado dos reis da terra. 
+Manterei o meu amor por ele para sempre,
+e a minha aliança com ele jamais se quebrará. 
+Firmarei a sua linhagem para sempre,
+e o seu trono durará enquanto existirem céus. 
+"Se os seus filhos abandonarem a minha lei
+e não seguirem as minhas ordenanças, 
+se violarem os meus decretos
+e deixarem de obedecer aos meus mandamentos, 
+com a vara castigarei o seu pecado,
+e a sua iniquidade com açoites; 
+mas não afastarei dele o meu amor;
+jamais desistirei da minha fidelidade. 
+Não violarei a minha aliança
+nem modificarei as promessas dos meus lábios. 
+De uma vez para sempre jurei
+pela minha santidade
+e não mentirei a Davi, 
+que a sua linhagem permanecerá para sempre,
+e o seu trono durará como o sol; 
+será estabelecido para sempre como a lua,
+a fiel testemunha no céu." 
+Mas tu o rejeitaste, recusaste-o
+e te enfureceste com o teu ungido. 
+Revogaste a aliança com o teu servo
+e desonraste a sua coroa, lançando-a ao chão. 
+Derrubaste todos os seus muros
+e reduziste a ruínas as suas fortalezas. 
+Todos os que passam o saqueiam;
+tornou-se objeto de zombaria
+para os seus vizinhos. 
+Tu exaltaste a mão direita dos seus adversários
+e encheste de alegria todos os seus inimigos. 
+Tiraste o fio da sua espada
+e não o apoiaste na batalha. 
+Deste fim ao seu esplendor
+e atiraste ao chão o seu trono. 
+Encurtaste os dias da sua juventude;
+com um manto de vergonha o cobriste. 
+Até quando, Senhor?
+Para sempre te esconderás?
+Até quando a tua ira queimará como fogo? 
+Lembra-te de como é passageira a minha vida.
+Terás criado em vão todos os homens? 
+Que homem pode viver e não ver a morte,
+ou livrar-se do poder da sepultura? 
+Ó Senhor, onde está o teu antigo amor,
+que com fidelidade juraste a Davi? 
+Lembra-te, Senhor,
+das afrontas que o teu servo tem sofrido,
+das zombarias que no íntimo
+tenho que suportar de todos os povos, 
+das zombarias dos teus inimigos, Senhor,
+com que afrontam a cada passo o teu ungido. 
+Bendito seja o Senhor para sempre!
+Amém e amém. 
+ Salmo 89
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 102
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_102/
 INFO:root:🔹 Description: Ouve a minha oração, Senhor!
@@ -191,115 +323,79 @@ Sê exaltado, Senhor, na tua força!
 Cantaremos e louvaremos o teu poder. 
  Salmo 21
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 66
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_66/
-INFO:root:🔹 Description: Aclamem a Deus, povos de toda terra! 
-Cantem louvores ao seu glorioso nome;
-louvem-no gloriosamente! 
-Digam a Deus:
-"Quão temíveis são os teus feitos!
-Tão grande é o teu poder que os teus inimigos
-rastejam diante de ti! 
-Toda a terra te adora
-e canta louvores a ti,
-canta louvores ao teu nome". 
-Venham e vejam o que Deus tem feito;
-como são impressionantes
-as suas obras em favor dos homens! 
-Ele transformou o mar em terra seca,
-e o povo atravessou as águas a pé;
-e ali nos alegramos nele. 
-Ele governa para sempre com o seu poder,
-seus olhos vigiam as nações;
-que os rebeldes
-não se levantem contra ele! 
-Bendigam o nosso Deus, ó povos,
-façam ressoar o som do seu louvor; 
-foi ele quem preservou a nossa vida
-impedindo que os nossos pés escorregassem. 
-Pois tu, ó Deus, nos submeteste à prova
-e nos refinaste como a prata. 
-Fizeste-nos cair numa armadilha
-e sobre nossas costas puseste fardos. 
-Deixaste que os inimigos cavalgassem
-sobre a nossa cabeça;
-passamos pelo fogo e pela água,
-mas a um lugar de fartura nos trouxeste. 
-Para o teu templo virei com holocaustos
-e cumprirei os meus votos para contigo, 
-votos que os meus lábios fizeram
-e a minha boca falou
-quando eu estava em dificuldade. 
-Oferecerei a ti animais gordos em holocausto;
-sacrificarei carneiros, cuja fumaça subirá a ti,
-e também novilhos e cabritos. 
-Venham e ouçam,
-todos vocês que temem a Deus;
-vou contar-lhes o que ele fez por mim. 
-A ele clamei com os lábios;
-com a língua o exaltei. 
-Se eu acalentasse o pecado no coração,
-o Senhor não me ouviria; 
-mas Deus me ouviu,
-deu atenção à oração que lhe dirigi. 
-Louvado seja Deus,
-que não rejeitou a minha oração
-nem afastou de mim o seu amor! 
- Salmo 66
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 405266 characters
-INFO:root:HTML parsed, length: 393477 characters
-INFO:root:Found 3 titles: ['Reconhecimento celestial', 'Deixando fardos antigos', 'Trazendo pessoas para Jesus']
+INFO:root:Response length: 405967 characters
+INFO:root:HTML parsed, length: 394178 characters
+INFO:root:Found 3 titles: ['Coragem de expor o nosso lado escuro à luz da graça', 'Reconhecimento celestial', 'Deixando fardos antigos']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ["Tenham o cuidado de não praticar as suas 'obras de", 'Venham a mim, todos os que estão cansados e sobrec', 'Eles trouxeram-lhe um paralítico, deitado em uma c']
-INFO:root:Found 1 dates: ['Sexta, 30 de outubro de 2026']
+INFO:root:Found 3 descriptions: ['A mensagem que ouvimos dele e agora anunciamos a v', "Tenham o cuidado de não praticar as suas 'obras de", 'Venham a mim, todos os que estão cansados e sobrec']
+INFO:root:Found 1 dates: ['Sábado, 31 de outubro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Reconhecimento celestial', ID=b056b794126769f908cf98fcf50a2233
+INFO:root:Processing entry 1: Title='Coragem de expor o nosso lado escuro à luz da graça', ID=803bf4355ae21c40b52f05381d8eface
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Reconhecimento celestial - Palavra de Hoje
+INFO:root:🔹 Title: Coragem de expor o nosso lado escuro à luz da graça - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Tenham o cuidado de não praticar as suas 'obras de justiça' diante dos outros para serem vistos por eles. Se fizerem isso, vocês não terão nenhuma recompensa do Pai celestial.
-Mateus 6:1
+INFO:root:🔹 Description: A mensagem que ouvimos dele e agora anunciamos a vocês é exatamente esta: Deus é pura luz, e nele não existe nenhuma sombra de trevas. Se declararmos que mantemos comunhão com ele, mas continuarmos caminhando na escuridão, somos mentirosos e a nossa vida não reflete a verdade.
+1 João 1:5-6 (Paráfrase baseada na NVI)
 
-Vivemos na era da superexposição, onde quase cada boa ação exige uma plateia para ser validada. A necessidade de aplausos é um poço sem fundo que gera frustração contínua. Jesus confronta essa busca por glória com um alerta contundente: quando fazemos o bem apenas para sermos notados, a admiração superficial humana já é a nossa passageira e única recompensa. O reconhecimento autêntico pertence exclusivamente à esfera espiritual. O Pai, que sonda as intenções mais íntimas, valoriza intensamente aquilo que é feito no silêncio do anonimato, movido por amor genuíno e compaixão, e não pela vaidade pessoal.
+Todos nós possuímos um "lado escuro": aquelas áreas da nossa alma marcadas por pecados de estimação, motivações egoístas, medos inconfessáveis e feridas que tentamos desesperadamente ocultar. A tendência natural da natureza decaída, desde o jardim do Éden, é correr para as sombras e fabricar disfarces. No ambiente religioso, muitas vezes aperfeiçoamos essa arte da camuflagem, projetando uma imagem de piedade inabalável enquanto lutamos sozinhos contra as nossas próprias trevas. O apóstolo João, no entanto, destrói essa dicotomia. Ele afirma que é impossível cultivar uma intimidade autêntica com um Deus que é pura luz enquanto insistimos em proteger os nossos segredos na escuridão. A verdadeira espiritualidade exige a dolorosa, porém libertadora, vulnerabilidade de sairmos do nosso esconderijo moral.
 
-Tudo o que fizerem, façam de todo o coração, como para o Senhor, e não para os homens, sabendo que receberão do Senhor a recompensa da herança. É a Cristo, o Senhor, que vocês estão servindo.
-Colossenses 3:23-24
+Mesmo que eu dissesse que as trevas certamente me esconderão e que a luz ao meu redor se transformará em noite, para ti, Senhor, nem mesmo a escuridão é tenebrosa. A noite brilha com a mesma claridade do dia, pois para ti as trevas e a luz são absolutamente iguais.
+Salmos 139:11-12 (Paráfrase baseada na NVI)
 
-Nas tarefas invisíveis do lar ou no serviço anônimo e cansativo, é fácil ceder ao desânimo quando os esforços não são reconhecidos pelas pessoas ao redor. Contudo, Paulo eleva o nosso padrão diário a um patamar sagrado, trazendo uma perspectiva totalmente libertadora: o nosso observador constante é o próprio Cristo. Quando compreendemos que o nosso esforço diligente é uma oferta de adoração, libertamo-nos da cruel escravidão da aprovação humana. A promessa divina não falha, e a verdadeira recompensa não virá de elogios terrenos, mas de uma herança imperecível garantida pelo Senhor.
+O salmista Davi compreendeu uma verdade que simultaneamente nos constrange e nos consola: é inútil tentar esconder o nosso lado escuro do Criador. A escuridão da nossa vergonha, da nossa culpa ou até mesmo da nossa depressão profunda não é opaca para os olhos de Deus. Ele enxerga com absoluta clareza os labirintos mais sombrios da nossa mente, não com o propósito de nos condenar com frieza, mas com a intenção redentora de nos curar. Quando percebemos que o nosso lado mais obscuro já é plenamente conhecido e, ainda assim, somos implacavelmente amados pela graça divina, o medo de sermos desmascarados perde a sua força. O amor de Deus penetra nas frestas da nossa escuridão para nos resgatar de nós mesmos.
 
-O seu senhor respondeu: Muito bem, servo bom e fiel! Você foi fiel no pouco; eu o porei sobre o muito. Venha e participe da alegria do seu senhor!
-Mateus 25:21
+No passado, a vida de vocês era dominada pelas trevas, mas agora, por estarem unidos ao Senhor, vocês são luz. Portanto, vivam como verdadeiros filhos da luz e não tenham nenhuma cumplicidade com as obras inúteis da escuridão; pelo contrário, exponham tudo isso à luz.
+Efésios 5:8,11 (Paráfrase baseada na NVI)
 
-O anseio profundo da alma redimida não deve ser o acúmulo de troféus perecíveis, mas a sublime expectativa do encontro final com o Criador. O reconhecimento celestial máximo consistirá em ouvir palavras de absoluta aprovação dos lábios do Mestre. A fidelidade que Deus honra raramente está nos grandes palcos, mas na constância silenciosa e leal das pequenas coisas. A coroa eterna está reservada aos que escolhem agradar ao Pai quando ninguém mais olha. Libertos da exaustiva corrida por aplausos temporários, motivados pela certeza de uma herança inabalável e vivendo para agradar ao único público que importa: o nosso serviço invisível encontra descanso pleno no grandioso reconhecimento celestial.
+A jornada cristã é uma transição contínua do domínio das trevas para o reino da luz. O apóstolo Paulo nos convoca a rompermos qualquer aliança de cumplicidade com o nosso lado escuro. Isso significa parar de justificar os nossos traços de caráter tóxicos, deixar de racionalizar os nossos vícios ocultos e abandonar a passividade diante dos nossos ressentimentos. Expor as obras da escuridão à luz — através da confissão sincera a Deus e do aconselhamento mútuo com irmãos maduros — é o único mecanismo capaz de quebrar o poder que o pecado exerce sobre nós em segredo. Aquilo que é trazido para a luz de Cristo perde a capacidade de nos dominar, sendo transformado e redimido pelo toque do Seu perdão. Confrontados com a transparência exigida pela santidade divina, consolados pela onisciência de um Pai que nos vê no escuro, e desafiados a viver como filhos da luz: abandonar os nossos esconderijos é o primeiro passo para experimentarmos a verdadeira liberdade.
  
-Tenham o cuidado de não praticar as suas 'obras de justiça' diante dos outros para serem vistos por eles. Se fizerem isso, vocês não terão nenhuma recompensa do Pai celestial.
-Mateus 6:1
+A mensagem que ouvimos dele e agora anunciamos a vocês é exatamente esta: Deus é pura luz, e nele não existe nenhuma sombra de trevas. Se declararmos que mantemos comunhão com ele, mas continuarmos caminhando na escuridão, somos mentirosos e a nossa vida não reflete a verdade.
+1 João 1:5-6 (Paráfrase baseada na NVI)
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 412836 characters
-INFO:root:HTML parsed, length: 400603 characters
-INFO:root:Found 3 titles: ['O valor de um amigo verdadeiro', 'A herança mais preciosa', 'A segurança da integridade profissional']
+INFO:root:Response length: 412612 characters
+INFO:root:HTML parsed, length: 400378 characters
+INFO:root:Found 3 titles: ['A urgência da reconciliação', 'O valor de um amigo verdadeiro', 'A herança mais preciosa']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['Quem tem muitos amigos pode chegar à ruína, mas ex', 'Os filhos são herança do Senhor, uma recompensa qu', '"Quem anda com integridade anda com segurança, mas']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n30\nSEXTA', 'OUTUBRO\n\n29\nQUINTA', 'OUTUBRO\n\n28\nQUARTA']
+INFO:root:Found 3 descriptions: ['"Portanto, se você estiver apresentando sua oferta', 'Quem tem muitos amigos pode chegar à ruína, mas ex', 'Os filhos são herança do Senhor, uma recompensa qu']
+INFO:root:Found 3 dates: ['OUTUBRO\n\n31\nSÁBADO', 'OUTUBRO\n\n30\nSEXTA', 'OUTUBRO\n\n29\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O valor de um amigo verdadeiro', ID=2a9600df8d7344366dd47be76c180df8
-INFO:root:Processing entry 2: Title='A herança mais preciosa', ID=ded99045645546f14c618bb36481b1b5
-INFO:root:Processing entry 3: Title='A segurança da integridade profissional', ID=47aa6db6f167b311d8554533dff4077c
+INFO:root:Processing entry 1: Title='A urgência da reconciliação', ID=7792a0b39ff8163f9ab6b7b5531d26f0
+INFO:root:Processing entry 2: Title='O valor de um amigo verdadeiro', ID=2a9600df8d7344366dd47be76c180df8
+INFO:root:Processing entry 3: Title='A herança mais preciosa', ID=ded99045645546f14c618bb36481b1b5
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A urgência da reconciliação
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: "Portanto, se você estiver apresentando sua oferta diante do altar e ali se lembrar de que seu irmão tem algo contra você, deixe sua oferta ali, diante do altar, e vá primeiro reconciliar-se com seu irmão; depois volte e apresente sua oferta."
+Mateus 5:23-24
+
+É muito comum tentarmos separar o nosso relacionamento com Deus da forma como tratamos as pessoas. Muitas vezes, acreditamos que podemos adorar ao Senhor com um coração sincero, mesmo mantendo mágoas, ressentimentos ou conflitos não resolvidos com aqueles que nos cercam.
+Jesus, no entanto, confronta radicalmente essa falsa divisão. Ele coloca a reconciliação com o próximo como uma prioridade até mesmo sobre o ato sagrado da oferta e da adoração. A mensagem é clara: a nossa comunhão com Deus é diretamente afetada quando existe uma barreira de ofensa e inimizade entre nós e o nosso irmão.
+Tomar a iniciativa para buscar a paz exige uma dose imensa de humildade. Significa abrir mão do orgulho, do desejo obstinado de provar que se tem razão e escolher o caminho difícil, porém libertador, do perdão. Não se trata de ignorar a dor, mas de decidir reconstruir a ponte que foi quebrada para que o amor prevaleça.
+Deus valoriza corações quebrantados e relacionamentos restaurados muito mais do que rituais religiosos perfeitos. Não permita que o orgulho mantenha a sua vida espiritual aprisionada. Dar o primeiro passo em direção à reconciliação é, na verdade, a oferta mais bela e aceitável que você pode apresentar ao Senhor hoje.
+Pratique a reconciliação hoje, onde você está
+
+Peça ao Espírito Santo para sondar o seu coração e revelar se existe alguém a quem você precisa pedir perdão ou liberar perdão hoje.
+Engula o orgulho e tome a iniciativa: envie uma mensagem ou ligue para a pessoa com quem você tem um conflito, buscando ativamente a paz.
+Ore de forma intencional e sincera pelo bem-estar de alguém que o magoou, quebrando o ciclo de amargura dentro de você.
+Releia Mateus 5:21-26 e medite sobre a urgência inegociável que Jesus atribui ao ato de restaurar relacionamentos.
+
+Para orar
+
+Senhor, confesso que muitas vezes me apego ao orgulho e permito que o ressentimento crie muros inultrapassáveis entre mim e o meu próximo. Perdoa-me por tentar te adorar enquanto carrego amargura no coração. Dá-me a humildade e a coragem necessárias para dar o primeiro passo, pedir desculpas e liberar perdão. Restaura os meus relacionamentos e a minha comunhão contigo. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O valor de um amigo verdadeiro
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: Quem tem muitos amigos pode chegar à ruína, mas existe amigo mais apegado que um irmão.
@@ -340,25 +436,6 @@ Para orar
 
 Senhor, confesso que a exaustão da rotina muitas vezes me faz esquecer o imenso privilégio que é cuidar da herança que me confiaste. Perdoa-me pelos momentos de impaciência e falha. Capacita-me com a tua sabedoria para amar, guiar e disciplinar os meus filhos com a mesma graça com que o Senhor me trata. Que o meu lar seja um verdadeiro refúgio do teu amor. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A segurança da integridade profissional
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: "Quem anda com integridade anda com segurança, mas quem perverte os seus caminhos será descoberto."
-Provérbios 10:9
-
-No mundo profissional altamente competitivo, a pressão constante por resultados rápidos frequentemente nos tenta a comprometer os nossos padrões éticos. Pequenas mentiras, informações omitidas propositalmente ou a apropriação do esforço alheio costumam ser justificadas como meras estratégias de sobrevivência corporativa. No entanto, o livro de Provérbios nos alerta que qualquer sucesso construído sobre o engano é uma frágil casa de cartas. A falta de integridade cria uma prisão invisível de medo e paranoia diária.
-Em contrapartida, andar com integridade significa que as nossas ações públicas correspondem perfeitamente às nossas convicções íntimas, mesmo quando absolutamente ninguém está observando. Quando nos recusamos a perverter os nossos caminhos, conquistamos o maior patrimônio profissional possível: a paz de espírito. O trabalhador honesto não precisa memorizar as suas próprias mentiras nem temer auditorias surpresas, pois os seus passos são iluminados pela transparência. A integridade oferece uma segurança inabalável que nenhum salário consegue comprar.
-A advertência bíblica é inegociável: as atitudes ocultas inevitavelmente serão expostas à luz. Uma carreira sustentada pela manipulação desmoronará, destruindo reputações e arruinando o testemunho cristão. Por isso, a nossa rotina profissional deve ser um altar de adoração onde a verdade sempre prevalece. Quando escolhemos o caminho estreito da honestidade absoluta, mesmo que isso custe aparentes desvantagens temporais, honramos profundamente ao Senhor e provamos que a consciência limpa é a nossa maior e melhor recompensa.
-Pratique a integridade hoje, onde você está
-
-Identifique e abandone imediatamente qualquer prática no seu ambiente de trabalho que exija mentiras.
-Assuma a total responsabilidade por um erro recente em vez de transferir a culpa para colegas.
-Recuse-se a participar de fofocas ou conversas que difamem a liderança e os seus parceiros de equipe.
-Releia Provérbios 10 e peça a Deus para purificar as suas motivações e métodos profissionais.
-
-Para orar
-
-Senhor, confesso que a pressão diária por resultados muitas vezes tenta corromper os meus princípios. Perdoa-me se em algum momento cedi à tentação dos atalhos e da desonestidade no meu trabalho. Purifica o meu coração e blinda o meu caráter. Dá-me a coragem necessária para agir com absoluta integridade em todas as tarefas, para que o meu testemunho seja irrepreensível e a minha rotina profissional glorifique o teu santo nome. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -388,15 +465,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  37 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  37 +--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  12 +-
- feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 125 +++++++-----
+ feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/feed.json            |  24 +-
+ feeds/salmo_do_dia/atom.xml               | 181 ++++++++++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
- "feeds/vers\303\255culo_do_dia/feed.json" |   9 +-
- output.log                                | 317 ++++++++++++++++--------------
- 11 files changed, 319 insertions(+), 259 deletions(-)
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
+ output.log                                | 371 ++++++++++++++++++------------
+ 11 files changed, 417 insertions(+), 275 deletions(-)
