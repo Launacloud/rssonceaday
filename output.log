@@ -1,44 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 202732 characters
-INFO:root:HTML parsed, length: 179289 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (31/10/2026)', 'Palavra de Ontem (30/10/2026)', 'Palavra de Anteontem (29/10/2026)']
-INFO:root:Found 3 URLs: ['/coetaneidade/', '/indio/', '/entretenimento/']
-INFO:root:Found 11 descriptions: ['substantivo feminino Característica de coetâneo, q', 'Sinônimos:\n\ncoexistência, contemporaneidade', 'Sílabas:co-e-ta-nei-da-de']
-INFO:root:Found 3 dates: ['Palavra de Hoje (31/10/2026)', 'Palavra de Ontem (30/10/2026)', 'Palavra de Anteontem (29/10/2026)']
+INFO:root:Response length: 203722 characters
+INFO:root:HTML parsed, length: 180072 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (01/11/2026)', 'Palavra de Ontem (31/10/2026)', 'Palavra de Anteontem (30/10/2026)']
+INFO:root:Found 3 URLs: ['/procedimento/', '/coetaneidade/', '/indio/']
+INFO:root:Found 12 descriptions: ['substantivo masculino Conjunto de técnicas e manei', 'Sinônimos:\n\natuação, processo, método, comportamen', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (01/11/2026)', 'Palavra de Ontem (31/10/2026)', 'Palavra de Anteontem (30/10/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (31/10/2026)', ID=73951c5581b304489bc30ae8efc56e98
-INFO:root:Processing entry 2: Title='Palavra de Ontem (30/10/2026)', ID=e645188fdf6e2c3b3599e57aaeac17fe
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (29/10/2026)', ID=1df6dca7c480bb7120ef91ed92c9953a
+INFO:root:Processing entry 1: Title='Palavra de Hoje (01/11/2026)', ID=3dd82ca63f5e09eb8529c905f0a05eed
+INFO:root:Processing entry 2: Title='Palavra de Ontem (31/10/2026)', ID=4f47fddbedc048e7d0bc634a9b9e12d2
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/10/2026)', ID=8fe6077781356601b5b04e5de3149b5f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (31/10/2026) - Significado completo de coetaneidade:
-INFO:root:🔹 URL: https://www.dicio.com.br/coetaneidade/
-INFO:root:🔹 Description: substantivo feminino Característica de coetâneo, que ocorre na mesma época, no mesmo tempo; contemporaneidade.Etimologia (origem da palavra coetaneidade). A palavra coetaneidade tem sua origem pela junção de coetâneo, -i-, e do sufixo -idade.
+INFO:root:🔹 Title: Palavra de Hoje (01/11/2026) - Significado completo de procedimento:
+INFO:root:🔹 URL: https://www.dicio.com.br/procedimento/
+INFO:root:🔹 Description: substantivo masculino Conjunto de técnicas e maneiras através das quais alguma coisa é feita; método, processo: procedimento eleitoral.Comportamento ou conduta; maneira de se comportar; comportamento: as testemunhas reclamaram do seu procedimento ao contestá-las.[Jurídico] Os mecanismos legais que colocam uma causa em juízo.Ação ou efeito de proceder, de agir, de se portar.Etimologia (origem da palavra procedimento). A palavra procedimento tem sua origem pela junção do verbo proceder, e do sufixo -mento.
  
 Sinônimos:
 
-coexistência, contemporaneidade 
+atuação, processo, método, comportamento, conduta, prática, execução, operação, técnica, diretriz, desenvolvimento 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (30/10/2026) - Significado completo de índio:
-INFO:root:🔹 URL: https://www.dicio.com.br/indio/
+INFO:root:🔹 Title: Palavra de Ontem (31/10/2026) - Significado completo de coetaneidade:
+INFO:root:🔹 URL: https://www.dicio.com.br/coetaneidade/
 INFO:root:🔹 Description: Sinônimos:
 
-coexistência, contemporaneidade
- Sílabas:co-e-ta-nei-da-de
+atuação, processo, método, comportamento, conduta, prática, execução, operação, técnica, diretriz, desenvolvimento
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (29/10/2026) - Significado completo de entretenimento:
-INFO:root:🔹 URL: https://www.dicio.com.br/entretenimento/
-INFO:root:🔹 Description: Sílabas:co-e-ta-nei-da-de
- 
-Sinônimos:
-
-indiano, indiático, índico, autóctone, nativo, aborígene 
-
+INFO:root:🔹 Title: Palavra de Anteontem (30/10/2026) - Significado completo de índio:
+INFO:root:🔹 URL: https://www.dicio.com.br/indio/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:pro-ce-di-men-to
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -46,41 +42,118 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 402775 characters
-INFO:root:HTML parsed, length: 390729 characters
-INFO:root:Found 1 titles: ['Provérbios 4:23']
-INFO:root:Found 1 URLs: ['/versiculo/proverbios_4_23/']
-INFO:root:Found 1 descriptions: ['Acima de tudo, guarde o seu coração,\npois dele dep']
-INFO:root:Found 1 dates: ['Sábado, 31 de outubro de 2026']
+INFO:root:Response length: 402886 characters
+INFO:root:HTML parsed, length: 390840 characters
+INFO:root:Found 1 titles: ['Salmos 46:1']
+INFO:root:Found 1 URLs: ['/versiculo/salmos_46_1/']
+INFO:root:Found 1 descriptions: ['Deus é o nosso refúgio e a nossa fortaleza,\nauxíli']
+INFO:root:Found 1 dates: ['Domingo, 1 de novembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Provérbios 4:23', ID=049081019e9edc1473f0a3cb8c8e3250
+INFO:root:Processing entry 1: Title='Salmos 46:1', ID=fd62b4cf905d958656a9c5c9f6b06886
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Provérbios 4:23
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_4_23/
-INFO:root:🔹 Description: Acima de tudo, guarde o seu coração,
-pois dele depende toda a sua vida. Provérbios 4:23
+INFO:root:🔹 Title: Salmos 46:1
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_46_1/
+INFO:root:🔹 Description: Deus é o nosso refúgio e a nossa fortaleza,
+auxílio sempre presente na adversidade. Salmos 46:1
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 401988 characters
-INFO:root:HTML parsed, length: 391182 characters
-INFO:root:Found 3 titles: ['Salmo 89', 'Salmo 102', 'Salmo 21']
-INFO:root:Found 3 URLs: ['/salmos_89/', '/salmos_102/', '/salmos_21/']
-INFO:root:Found 3 descriptions: ['Cantarei para sempre o amor do Senhor;\ncom minha b', 'Ouve a minha oração, Senhor!\nChegue a ti o meu gri', 'O rei se alegra na tua força, ó Senhor!\nComo é gra']
-INFO:root:Found 3 dates: ['31 de Outubro de 2026', '30 de Outubro de 2026', '29 de Outubro de 2026']
+INFO:root:Response length: 403412 characters
+INFO:root:HTML parsed, length: 392624 characters
+INFO:root:Found 3 titles: ['Salmo 71', 'Salmo 89', 'Salmo 102']
+INFO:root:Found 3 URLs: ['/salmos_71/', '/salmos_89/', '/salmos_102/']
+INFO:root:Found 3 descriptions: ['Em ti, Senhor, busquei refúgio;\nnunca permitas que', 'Cantarei para sempre o amor do Senhor;\ncom minha b', 'Ouve a minha oração, Senhor!\nChegue a ti o meu gri']
+INFO:root:Found 3 dates: ['1 de Novembro de 2026', '31 de Outubro de 2026', '30 de Outubro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 89', ID=e46bb9c27225d3ff0b9681b0878a0e4f
-INFO:root:Processing entry 2: Title=' Salmo 102', ID=f3f93203bf47edc3fa3727bdb061891a
-INFO:root:Processing entry 3: Title=' Salmo 21', ID=f5499d96daf550cf503937d224980eef
+INFO:root:Processing entry 1: Title=' Salmo 71', ID=045b98f7d6c8c1fa8d7fa83126eafe0b
+INFO:root:Processing entry 2: Title=' Salmo 89', ID=e46bb9c27225d3ff0b9681b0878a0e4f
+INFO:root:Processing entry 3: Title=' Salmo 102', ID=f3f93203bf47edc3fa3727bdb061891a
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 71
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_71/
+INFO:root:🔹 Description: Em ti, Senhor, busquei refúgio;
+nunca permitas que eu seja humilhado. 
+Resgata-me e livra-me por tua justiça;
+inclina o teu ouvido para mim e salva-me. 
+Peço-te que sejas a minha rocha de refúgio,
+para onde eu sempre possa ir;
+dá ordem para que me libertem,
+pois és a minha rocha
+e a minha fortaleza. 
+Livra-me, ó meu Deus, das mãos dos ímpios,
+das garras dos perversos e cruéis. 
+Pois tu és a minha esperança,
+ó Soberano Senhor,
+em ti está a minha confiança desde a juventude. 
+Desde o ventre materno dependo de ti;
+tu me sustentaste
+desde as entranhas de minha mãe.
+Eu sempre te louvarei! 
+Tornei-me um exemplo para muitos,
+porque tu és o meu refúgio seguro. 
+Do teu louvor transborda a minha boca,
+que o tempo todo proclama o teu esplendor. 
+Não me rejeites na minha velhice;
+não me abandones
+quando se vão as minhas forças. 
+Pois os meus inimigos me caluniam;
+os que estão à espreita juntam-se e
+planejam matar-me. 
+"Deus o abandonou", dizem eles;
+"persigam-no e prendam-no,
+pois ninguém o livrará." 
+Não fiques longe de mim, ó Deus;
+ó meu Deus, apressa-te em ajudar-me. 
+Pereçam humilhados os meus acusadores;
+sejam cobertos de zombaria e vergonha
+os que querem prejudicar-me. 
+Mas eu sempre terei esperança
+e te louvarei cada vez mais. 
+A minha boca falará sem cessar da tua justiça
+e dos teus incontáveis atos de salvação. 
+Falarei dos teus feitos poderosos,
+ó Soberano Senhor;
+proclamarei a tua justiça,
+unicamente a tua justiça. 
+Desde a minha juventude, ó Deus,
+tens me ensinado,
+e até hoje eu anuncio as tuas maravilhas. 
+Agora que estou velho, de cabelos brancos,
+não me abandones, ó Deus,
+para que eu possa falar da tua força
+aos nossos filhos,
+e do teu poder às futuras gerações. 
+Tua justiça chega até as alturas, ó Deus,
+tu, que tens feito coisas grandiosas.
+Quem se compara a ti, ó Deus? 
+Tu, que me fizeste passar
+muitas e duras tribulações,
+restaurarás a minha vida,
+e das profundezas da terra
+de novo me farás subir. 
+Tu me farás mais honrado
+e mais uma vez me consolarás. 
+E eu te louvarei com a lira
+por tua fidelidade, ó meu Deus;
+cantarei louvores a ti com a harpa,
+ó Santo de Israel. 
+Os meus lábios gritarão de alegria
+quando eu cantar louvores a ti,
+pois tu me redimiste. 
+Também a minha língua sempre falará
+dos teus atos de justiça,
+pois os que queriam prejudicar-me
+foram humilhados e ficaram frustrados. 
+ Salmo 71
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 89
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_89/
 INFO:root:🔹 Description: Cantarei para sempre o amor do Senhor;
@@ -285,97 +358,78 @@ os seus descendentes serão estabelecidos
 na tua presença. 
  Salmo 102
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 21
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_21/
-INFO:root:🔹 Description: O rei se alegra na tua força, ó Senhor!
-Como é grande a sua exultação
-pelas vitórias que lhe dás! 
-Tu lhe concedeste o desejo do seu coração
-e não lhe rejeitaste o pedido
-dos seus lábios. 
-Tu o recebeste dando-lhe ricas bênçãos,
-e em sua cabeça
-puseste uma coroa de ouro puro. 
-Ele te pediu vida, e tu lhe deste!
-Vida longa e duradoura. 
-Pelas vitórias que lhe deste,
-grande é a sua glória;
-de esplendor e majestade o cobriste. 
-Fizeste dele uma grande bênção para sempre
-e lhe deste a alegria da tua presença. 
-O rei confia no Senhor:
-por causa da fidelidade do Altíssimo
-ele não será abalado. 
-Tua mão alcançará todos os teus inimigos;
-tua mão direita atingirá todos os que te odeiam. 
-No dia em que te manifestares
-farás deles uma fornalha ardente.
-Na sua ira o Senhor os devorará,
-um fogo os consumirá. 
-Acabarás com a geração deles na terra,
-com a sua descendência entre os homens. 
-Embora tramem o mal contra ti
-e façam planos perversos,
-nada conseguirão; 
-pois tu os porás em fuga
-quando apontares para eles o teu arco. 
-Sê exaltado, Senhor, na tua força!
-Cantaremos e louvaremos o teu poder. 
- Salmo 21
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 405967 characters
-INFO:root:HTML parsed, length: 394178 characters
-INFO:root:Found 3 titles: ['Coragem de expor o nosso lado escuro à luz da graça', 'Reconhecimento celestial', 'Deixando fardos antigos']
+INFO:root:Response length: 406450 characters
+INFO:root:HTML parsed, length: 394666 characters
+INFO:root:Found 3 titles: ['Atenção espiritual em uma era de distrações', 'Coragem de expor o nosso lado escuro à luz da graça', 'Reconhecimento celestial']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['A mensagem que ouvimos dele e agora anunciamos a v', "Tenham o cuidado de não praticar as suas 'obras de", 'Venham a mim, todos os que estão cansados e sobrec']
-INFO:root:Found 1 dates: ['Sábado, 31 de outubro de 2026']
+INFO:root:Found 3 descriptions: ['Por isso, é necessário que prestemos a maior atenç', 'A mensagem que ouvimos dele e agora anunciamos a v', "Tenham o cuidado de não praticar as suas 'obras de"]
+INFO:root:Found 1 dates: ['Domingo, 1 de novembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Coragem de expor o nosso lado escuro à luz da graça', ID=803bf4355ae21c40b52f05381d8eface
+INFO:root:Processing entry 1: Title='Atenção espiritual em uma era de distrações', ID=2a138a0437435a3899cdb2471cf7c8f0
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Coragem de expor o nosso lado escuro à luz da graça - Palavra de Hoje
+INFO:root:🔹 Title: Atenção espiritual em uma era de distrações - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: A mensagem que ouvimos dele e agora anunciamos a vocês é exatamente esta: Deus é pura luz, e nele não existe nenhuma sombra de trevas. Se declararmos que mantemos comunhão com ele, mas continuarmos caminhando na escuridão, somos mentirosos e a nossa vida não reflete a verdade.
-1 João 1:5-6 (Paráfrase baseada na NVI)
+INFO:root:🔹 Description: Por isso, é necessário que prestemos a maior atenção àquilo que temos ouvido, para que jamais venhamos a nos desviar.
+Hebreus 2:1 (NVI)
 
-Todos nós possuímos um "lado escuro": aquelas áreas da nossa alma marcadas por pecados de estimação, motivações egoístas, medos inconfessáveis e feridas que tentamos desesperadamente ocultar. A tendência natural da natureza decaída, desde o jardim do Éden, é correr para as sombras e fabricar disfarces. No ambiente religioso, muitas vezes aperfeiçoamos essa arte da camuflagem, projetando uma imagem de piedade inabalável enquanto lutamos sozinhos contra as nossas próprias trevas. O apóstolo João, no entanto, destrói essa dicotomia. Ele afirma que é impossível cultivar uma intimidade autêntica com um Deus que é pura luz enquanto insistimos em proteger os nossos segredos na escuridão. A verdadeira espiritualidade exige a dolorosa, porém libertadora, vulnerabilidade de sairmos do nosso esconderijo moral.
+Vivemos na era da economia da atenção, onde telas, notificações e demandas urgentes disputam ferozmente cada segundo do nosso foco. Nesse cenário ruidoso, a desatenção espiritual raramente acontece por meio de uma rebelião declarada contra Deus, mas sim através de uma deriva lenta e silenciosa. O autor de Hebreus nos adverte que a negligência às verdades eternas nos faz perder o rumo de forma imperceptível, como um barco que se solta das amarras e é levado pela correnteza. A atenção, portanto, não é apenas uma capacidade cognitiva, mas uma disciplina espiritual vital. Onde colocamos o nosso foco, ali investimos o nosso coração e determinamos a direção de toda a nossa jornada.
 
-Mesmo que eu dissesse que as trevas certamente me esconderão e que a luz ao meu redor se transformará em noite, para ti, Senhor, nem mesmo a escuridão é tenebrosa. A noite brilha com a mesma claridade do dia, pois para ti as trevas e a luz são absolutamente iguais.
-Salmos 139:11-12 (Paráfrase baseada na NVI)
+Meu filho, dê a devida atenção às minhas palavras; incline os seus ouvidos para as minhas instruções. Não permita que elas sumam dos seus olhos, mas guarde-as no mais íntimo do coração.
+Provérbios 4:20-21 (NVI)
 
-O salmista Davi compreendeu uma verdade que simultaneamente nos constrange e nos consola: é inútil tentar esconder o nosso lado escuro do Criador. A escuridão da nossa vergonha, da nossa culpa ou até mesmo da nossa depressão profunda não é opaca para os olhos de Deus. Ele enxerga com absoluta clareza os labirintos mais sombrios da nossa mente, não com o propósito de nos condenar com frieza, mas com a intenção redentora de nos curar. Quando percebemos que o nosso lado mais obscuro já é plenamente conhecido e, ainda assim, somos implacavelmente amados pela graça divina, o medo de sermos desmascarados perde a sua força. O amor de Deus penetra nas frestas da nossa escuridão para nos resgatar de nós mesmos.
+A sabedoria milenar de Provérbios revela que a atenção exige profunda intencionalidade. Ouvir a voz de Deus requer inclinar os ouvidos, assumindo a postura ativa de quem silencia o barulho externo para conseguir captar o sussurro do Espírito Santo. Em um mundo que recompensa a superficialidade e o consumo rápido e fragmentado de informações, guardar a Palavra no "íntimo do coração" torna-se um poderoso ato de resistência. Quando permitimos que as promessas e as instruções divinas escapem do nosso campo de visão diário, a nossa mente é rapidamente sequestrada pelas ansiedades contemporâneas. A verdadeira sabedoria nasce quando decidimos fixar o nosso olhar naquilo que é imutável.
 
-No passado, a vida de vocês era dominada pelas trevas, mas agora, por estarem unidos ao Senhor, vocês são luz. Portanto, vivam como verdadeiros filhos da luz e não tenham nenhuma cumplicidade com as obras inúteis da escuridão; pelo contrário, exponham tudo isso à luz.
-Efésios 5:8,11 (Paráfrase baseada na NVI)
+Mantenham o pensamento fixo nas coisas do alto, e não apenas nas coisas terrenas.
+Colossenses 3:2 (NVI)
 
-A jornada cristã é uma transição contínua do domínio das trevas para o reino da luz. O apóstolo Paulo nos convoca a rompermos qualquer aliança de cumplicidade com o nosso lado escuro. Isso significa parar de justificar os nossos traços de caráter tóxicos, deixar de racionalizar os nossos vícios ocultos e abandonar a passividade diante dos nossos ressentimentos. Expor as obras da escuridão à luz — através da confissão sincera a Deus e do aconselhamento mútuo com irmãos maduros — é o único mecanismo capaz de quebrar o poder que o pecado exerce sobre nós em segredo. Aquilo que é trazido para a luz de Cristo perde a capacidade de nos dominar, sendo transformado e redimido pelo toque do Seu perdão. Confrontados com a transparência exigida pela santidade divina, consolados pela onisciência de um Pai que nos vê no escuro, e desafiados a viver como filhos da luz: abandonar os nossos esconderijos é o primeiro passo para experimentarmos a verdadeira liberdade.
+O apóstolo Paulo eleva o conceito de atenção para a dimensão celestial. Manter o pensamento nas coisas do alto é um exercício constante de recalibragem da nossa perspectiva. Isso não significa viver em estado de alienação em relação às nossas responsabilidades seculares, mas sim ter a capacidade de vivê-las sob a ótica soberana da eternidade. Quando o nosso foco está aprisionado exclusivamente no que é transitório — o acúmulo financeiro, a aprovação humana ou os prazeres imediatos —, a nossa alma adoece de miopia espiritual. A mente ancorada nas coisas do alto estabiliza o coração e nos devolve a clareza necessária para atravessar as tempestades deste mundo sem perdermos a paz. Despertados do torpor das distrações diárias, ancorados pela meditação constante na Palavra e com a mente fixada nas realidades eternas: o cultivo da atenção espiritual é o que preserva a nossa alma da deriva e nos mantém enraizados no propósito do Pai.
  
-A mensagem que ouvimos dele e agora anunciamos a vocês é exatamente esta: Deus é pura luz, e nele não existe nenhuma sombra de trevas. Se declararmos que mantemos comunhão com ele, mas continuarmos caminhando na escuridão, somos mentirosos e a nossa vida não reflete a verdade.
-1 João 1:5-6 (Paráfrase baseada na NVI)
+Por isso, é necessário que prestemos a maior atenção àquilo que temos ouvido, para que jamais venhamos a nos desviar.
+Hebreus 2:1 (NVI)
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 412612 characters
-INFO:root:HTML parsed, length: 400378 characters
-INFO:root:Found 3 titles: ['A urgência da reconciliação', 'O valor de um amigo verdadeiro', 'A herança mais preciosa']
+INFO:root:Response length: 412619 characters
+INFO:root:HTML parsed, length: 400386 characters
+INFO:root:Found 3 titles: ['O resgate intencional do primeiro amor', 'A urgência da reconciliação', 'O valor de um amigo verdadeiro']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['"Portanto, se você estiver apresentando sua oferta', 'Quem tem muitos amigos pode chegar à ruína, mas ex', 'Os filhos são herança do Senhor, uma recompensa qu']
-INFO:root:Found 3 dates: ['OUTUBRO\n\n31\nSÁBADO', 'OUTUBRO\n\n30\nSEXTA', 'OUTUBRO\n\n29\nQUINTA']
+INFO:root:Found 3 descriptions: ['"Contra você, porém, tenho isto: você abandonou o ', '"Portanto, se você estiver apresentando sua oferta', 'Quem tem muitos amigos pode chegar à ruína, mas ex']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n1\nDOMINGO', 'OUTUBRO\n\n31\nSÁBADO', 'OUTUBRO\n\n30\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A urgência da reconciliação', ID=7792a0b39ff8163f9ab6b7b5531d26f0
-INFO:root:Processing entry 2: Title='O valor de um amigo verdadeiro', ID=2a9600df8d7344366dd47be76c180df8
-INFO:root:Processing entry 3: Title='A herança mais preciosa', ID=ded99045645546f14c618bb36481b1b5
+INFO:root:Processing entry 1: Title='O resgate intencional do primeiro amor', ID=6472ec8e2ddfbc3e0a44ba932c7f41e0
+INFO:root:Processing entry 2: Title='A urgência da reconciliação', ID=7792a0b39ff8163f9ab6b7b5531d26f0
+INFO:root:Processing entry 3: Title='O valor de um amigo verdadeiro', ID=2a9600df8d7344366dd47be76c180df8
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O resgate intencional do primeiro amor
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: "Contra você, porém, tenho isto: você abandonou o seu primeiro amor."
+Apocalipse 2:4
+
+O início do casamento costuma ser marcado por profunda admiração, onde o tempo investido no outro é prioridade. No entanto, o alerta do apóstolo João ilustra um dos maiores perigos para qualquer relacionamento conjugal. É perfeitamente possível manter a casa funcionando, cumprindo tarefas com responsabilidade, enquanto o coração esfria. O abandono do primeiro amor raramente acontece de forma abrupta; é um processo lento causado pela implacável rotina e pelo acúmulo de cobranças diárias.
+O peso das obrigações financeiras frequentemente transforma parceiros apaixonados em meros administradores de um lar. Quando isso ocorre, paramos de conquistar quem já está ao nosso lado. Conversas profundas são substituídas por diálogos logísticos sobre o cotidiano. A advertência divina oferece um diagnóstico preciso para salvar a aliança. Abandonar o primeiro amor significa perder a capacidade de olhar para o cônjuge com encanto. O casamento cristão exige muito mais do que a convivência sob o mesmo teto; requer corações conectados.
+Restaurar a chama não depende de sentimentos mágicos, mas de atitudes práticas. A recomendação bíblica para a igreja era voltar à prática das primeiras obras. No casamento, isso significa resgatar intencionalmente os hábitos de carinho esquecidos. Exige a humildade de pedir perdão pela negligência emocional e o compromisso de cultivar a intimidade. Quando o casal recoloca Cristo no centro, o Espírito Santo concede a força necessária para perdoar falhas diárias e reacender o encantamento que fortalece a aliança eternamente.
+Pratique o amor hoje, onde você está
+
+Substitua críticas por elogios sinceros, destacando uma virtude que você admira no seu cônjuge.
+Programe um momento exclusivo para conversarem, longe das telas e urgências da rotina.
+Lembre-se de uma atitude afetuosa da época do namoro e volte a praticá-la hoje.
+Releia Apocalipse 2 e peça a Deus para identificar quais áreas precisam de renovação.
+
+Para orar
+
+Senhor, reconheço que as pressões rotineiras esfriam o meu relacionamento e me afastam do afeto inicial. Perdoa-me por transformar a nossa união em parceria mecânica. Desperta-me para resgatar o primeiro amor, investindo tempo, paciência e ternura para fortalecer a nossa aliança diariamente. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A urgência da reconciliação
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: "Portanto, se você estiver apresentando sua oferta diante do altar e ali se lembrar de que seu irmão tem algo contra você, deixe sua oferta ali, diante do altar, e vá primeiro reconciliar-se com seu irmão; depois volte e apresente sua oferta."
@@ -416,26 +470,6 @@ Para orar
 
 Senhor, agradeço imensamente pelo dom precioso e restaurador da amizade autêntica. Confesso que muitas vezes invisto a minha energia em conexões rasas e me esqueço de cultivar o cuidado profundo e dedicado por aqueles que estão próximos. Purifica as minhas intenções e ensina-me a ser um amigo verdadeiramente leal, constante e encorajador. Que a minha vida e as minhas palavras sejam um canal de sustento e graça. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A herança mais preciosa
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Os filhos são herança do Senhor, uma recompensa que ele dá.
-Salmos 127:3
-
-Em um mundo que frequentemente mede o sucesso pelo acúmulo de bens materiais e conquistas profissionais, a criação de filhos pode ser erroneamente vista como um fardo, uma despesa excessiva ou uma interrupção dos nossos planos pessoais. A perspectiva bíblica, no entanto, eleva a família ao seu devido lugar de honra: os filhos são uma herança direta do Senhor.
-Uma herança é algo de imenso valor que é confiado aos cuidados de alguém. Quando Deus nos concede filhos, Ele está compartilhando conosco a responsabilidade de moldar almas eternas. Eles não são nossa propriedade para serem esculpidos à imagem do nosso próprio ego ou das nossas frustrações não resolvidas, mas vidas preciosas confiadas à nossa administração amorosa.
-Criar filhos é uma jornada inegavelmente exaustiva, que exige sacrifício constante, renúncia e uma paciência que muitas vezes não possuímos naturalmente. Porém, enxergá-los como uma recompensa divina muda o nosso foco. O cansaço diário, a disciplina contínua e a dedicação ganham um propósito eterno quando entendemos que estamos formando cidadãos para o Reino dos Céus.
-A nossa maior missão dentro de casa não é apenas garantir conforto, sustento ou uma boa educação secular, mas apontar intencionalmente o coração das nossas crianças para o Pai. Que possamos valorizar esse presente inestimável, construindo um lar onde a graça, o perdão e a verdade de Cristo sejam os alicerces inabaláveis.
-Pratique o amor intencional hoje, onde você está
-
-Separe hoje um tempo de qualidade exclusivo com os seus filhos, longe das telas e das distrações, apenas para ouvi-los com atenção.
-Substitua uma possível crítica destrutiva por uma palavra de encorajamento, afirmando o valor e a identidade deles em Deus.
-Ore de forma profunda e específica pelo crescimento espiritual e pela proteção do coração das suas crianças.
-Releia o Salmo 127 inteiro e medite sobre o legado espiritual que você está construindo dentro da sua própria casa.
-
-Para orar
-
-Senhor, confesso que a exaustão da rotina muitas vezes me faz esquecer o imenso privilégio que é cuidar da herança que me confiaste. Perdoa-me pelos momentos de impaciência e falha. Capacita-me com a tua sabedoria para amar, guiar e disciplinar os meus filhos com a mesma graça com que o Senhor me trata. Que o meu lar seja um verdadeiro refúgio do teu amor. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -465,15 +499,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  37 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  37 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  16 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 181 ++++++++++-----
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               | 113 +++++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 371 ++++++++++++++++++------------
- 11 files changed, 417 insertions(+), 275 deletions(-)
+ output.log                                | 304 ++++++++++++++++--------------
+ 11 files changed, 307 insertions(+), 251 deletions(-)
