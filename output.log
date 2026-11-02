@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 203722 characters
-INFO:root:HTML parsed, length: 180072 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (01/11/2026)', 'Palavra de Ontem (31/10/2026)', 'Palavra de Anteontem (30/10/2026)']
-INFO:root:Found 3 URLs: ['/procedimento/', '/coetaneidade/', '/indio/']
-INFO:root:Found 12 descriptions: ['substantivo masculino Conjunto de técnicas e manei', 'Sinônimos:\n\natuação, processo, método, comportamen', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (01/11/2026)', 'Palavra de Ontem (31/10/2026)', 'Palavra de Anteontem (30/10/2026)']
+INFO:root:Response length: 203400 characters
+INFO:root:HTML parsed, length: 179568 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (02/11/2026)', 'Palavra de Ontem (01/11/2026)', 'Palavra de Anteontem (31/10/2026)']
+INFO:root:Found 3 URLs: ['/perenemente/', '/procedimento/', '/coetaneidade/']
+INFO:root:Found 12 descriptions: ['advérbio De maneira perene, de modo a perdurar, te', 'Sinônimos:\n\ncontinuamente, sempre, definitivamente', 'Antônimos:\n\nfugazmente']
+INFO:root:Found 3 dates: ['Palavra de Hoje (02/11/2026)', 'Palavra de Ontem (01/11/2026)', 'Palavra de Anteontem (31/10/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (01/11/2026)', ID=3dd82ca63f5e09eb8529c905f0a05eed
-INFO:root:Processing entry 2: Title='Palavra de Ontem (31/10/2026)', ID=4f47fddbedc048e7d0bc634a9b9e12d2
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (30/10/2026)', ID=8fe6077781356601b5b04e5de3149b5f
+INFO:root:Processing entry 1: Title='Palavra de Hoje (02/11/2026)', ID=4d06cc7a12b201e0f809163de8abffac
+INFO:root:Processing entry 2: Title='Palavra de Ontem (01/11/2026)', ID=a34df58326186ce66f906abf57d7871b
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (31/10/2026)', ID=c168deda98b6c81d3be3bf33d93eb5da
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (01/11/2026) - Significado completo de procedimento:
-INFO:root:🔹 URL: https://www.dicio.com.br/procedimento/
-INFO:root:🔹 Description: substantivo masculino Conjunto de técnicas e maneiras através das quais alguma coisa é feita; método, processo: procedimento eleitoral.Comportamento ou conduta; maneira de se comportar; comportamento: as testemunhas reclamaram do seu procedimento ao contestá-las.[Jurídico] Os mecanismos legais que colocam uma causa em juízo.Ação ou efeito de proceder, de agir, de se portar.Etimologia (origem da palavra procedimento). A palavra procedimento tem sua origem pela junção do verbo proceder, e do sufixo -mento.
+INFO:root:🔹 Title: Palavra de Hoje (02/11/2026) - Significado completo de perenemente:
+INFO:root:🔹 URL: https://www.dicio.com.br/perenemente/
+INFO:root:🔹 Description: advérbio De maneira perene, de modo a perdurar, ter continuidade, sem intervalos, interrupções, fim: seguia, perenemente, no seu propósito de ser feliz.Característica do que tem longa duração; para sempre: plantas que, perenemente, se mantêm intactas ao longo dos séculos.Etimologia (origem da palavra perenemente). A palavra perenemente tem sua origem da junção de perene e do sufixo adverbial -mente.
  
 Sinônimos:
 
-atuação, processo, método, comportamento, conduta, prática, execução, operação, técnica, diretriz, desenvolvimento 
+continuamente, sempre, definitivamente, ininterruptamente, permanentemente, constantemente, persistentemente, eternamente 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (31/10/2026) - Significado completo de coetaneidade:
-INFO:root:🔹 URL: https://www.dicio.com.br/coetaneidade/
+INFO:root:🔹 Title: Palavra de Ontem (01/11/2026) - Significado completo de procedimento:
+INFO:root:🔹 URL: https://www.dicio.com.br/procedimento/
 INFO:root:🔹 Description: Sinônimos:
 
-atuação, processo, método, comportamento, conduta, prática, execução, operação, técnica, diretriz, desenvolvimento
- Classe gramatical:substantivo masculino
+continuamente, sempre, definitivamente, ininterruptamente, permanentemente, constantemente, persistentemente, eternamente
+ 
+Antônimos:
+
+fugazmente 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (30/10/2026) - Significado completo de índio:
-INFO:root:🔹 URL: https://www.dicio.com.br/indio/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:pro-ce-di-men-to
+INFO:root:🔹 Title: Palavra de Anteontem (31/10/2026) - Significado completo de coetaneidade:
+INFO:root:🔹 URL: https://www.dicio.com.br/coetaneidade/
+INFO:root:🔹 Description: Antônimos:
+
+fugazmente
+ Sílabas:pe-re-ne-men-te
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,41 +48,70 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 402886 characters
-INFO:root:HTML parsed, length: 390840 characters
-INFO:root:Found 1 titles: ['Salmos 46:1']
-INFO:root:Found 1 URLs: ['/versiculo/salmos_46_1/']
-INFO:root:Found 1 descriptions: ['Deus é o nosso refúgio e a nossa fortaleza,\nauxíli']
-INFO:root:Found 1 dates: ['Domingo, 1 de novembro de 2026']
+INFO:root:Response length: 402722 characters
+INFO:root:HTML parsed, length: 390676 characters
+INFO:root:Found 1 titles: ['Romanos 8:1']
+INFO:root:Found 1 URLs: ['/versiculo/romanos_8_1/']
+INFO:root:Found 1 descriptions: ['Portanto, agora já não há condenação para os que e']
+INFO:root:Found 1 dates: ['Segunda, 2 de novembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Salmos 46:1', ID=fd62b4cf905d958656a9c5c9f6b06886
+INFO:root:Processing entry 1: Title='Romanos 8:1', ID=ff8a4a5f62ef7948505741de8eba4fe2
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Salmos 46:1
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/salmos_46_1/
-INFO:root:🔹 Description: Deus é o nosso refúgio e a nossa fortaleza,
-auxílio sempre presente na adversidade. Salmos 46:1
+INFO:root:🔹 Title: Romanos 8:1
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_8_1/
+INFO:root:🔹 Description: Portanto, agora já não há condenação para os que estão em Cristo Jesus, Romanos 8:1
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 403412 characters
-INFO:root:HTML parsed, length: 392624 characters
-INFO:root:Found 3 titles: ['Salmo 71', 'Salmo 89', 'Salmo 102']
-INFO:root:Found 3 URLs: ['/salmos_71/', '/salmos_89/', '/salmos_102/']
-INFO:root:Found 3 descriptions: ['Em ti, Senhor, busquei refúgio;\nnunca permitas que', 'Cantarei para sempre o amor do Senhor;\ncom minha b', 'Ouve a minha oração, Senhor!\nChegue a ti o meu gri']
-INFO:root:Found 3 dates: ['1 de Novembro de 2026', '31 de Outubro de 2026', '30 de Outubro de 2026']
+INFO:root:Response length: 401711 characters
+INFO:root:HTML parsed, length: 390905 characters
+INFO:root:Found 3 titles: ['Salmo 8', 'Salmo 71', 'Salmo 89']
+INFO:root:Found 3 URLs: ['/salmos_8/', '/salmos_71/', '/salmos_89/']
+INFO:root:Found 3 descriptions: ['Senhor, Senhor nosso,\ncomo é majestoso o teu nome ', 'Em ti, Senhor, busquei refúgio;\nnunca permitas que', 'Cantarei para sempre o amor do Senhor;\ncom minha b']
+INFO:root:Found 3 dates: ['2 de Novembro de 2026', '1 de Novembro de 2026', '31 de Outubro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 71', ID=045b98f7d6c8c1fa8d7fa83126eafe0b
-INFO:root:Processing entry 2: Title=' Salmo 89', ID=e46bb9c27225d3ff0b9681b0878a0e4f
-INFO:root:Processing entry 3: Title=' Salmo 102', ID=f3f93203bf47edc3fa3727bdb061891a
+INFO:root:Processing entry 1: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
+INFO:root:Processing entry 2: Title=' Salmo 71', ID=045b98f7d6c8c1fa8d7fa83126eafe0b
+INFO:root:Processing entry 3: Title=' Salmo 89', ID=e46bb9c27225d3ff0b9681b0878a0e4f
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 8
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_8/
+INFO:root:🔹 Description: Senhor, Senhor nosso,
+como é majestoso o teu nome em toda a terra!
+Tu, cuja glória é cantada nos céus. 
+Dos lábios das crianças e dos recém-nascidos
+firmaste o teu nome como fortaleza,
+por causa dos teus adversários,
+para silenciar o inimigo que busca vingança. 
+Quando contemplo os teus céus,
+obra dos teus dedos,
+a lua e as estrelas que ali firmaste, 
+pergunto: Que é o homem,
+para que com ele te importes?
+E o filho do homem,
+para que com ele te preocupes? 
+Tu o fizeste um pouco menor
+do que os seres celestiais
+e o coroaste de glória e de honra. 
+Tu o fizeste dominar
+as obras das tuas mãos;
+sob os seus pés tudo puseste: 
+todos os rebanhos e manadas,
+e até os animais selvagens, 
+as aves do céu, os peixes do mar
+e tudo o que percorre as veredas dos mares. 
+Senhor, Senhor nosso,
+como é majestoso o teu nome em toda a terra! 
+ Salmo 8
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 71
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_71/
 INFO:root:🔹 Description: Em ti, Senhor, busquei refúgio;
@@ -281,136 +316,78 @@ Bendito seja o Senhor para sempre!
 Amém e amém. 
  Salmo 89
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 102
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_102/
-INFO:root:🔹 Description: Ouve a minha oração, Senhor!
-Chegue a ti o meu grito de socorro! 
-Não escondas de mim o teu rosto
-quando estou atribulado.
-Inclina para mim os teus ouvidos;
-quando eu clamar, responde-me depressa! 
-Esvaem-se os meus dias como fumaça;
-meus ossos queimam como brasas vivas. 
-Como a relva ressequida está o meu coração;
-esqueço até de comer! 
-De tanto gemer estou reduzido a pele e osso. 
-Sou como a coruja do deserto,
-como uma coruja entre as ruínas. 
-Não consigo dormir;
-pareço um pássaro solitário no telhado. 
-Os meus inimigos zombam de mim
-o tempo todo;
-os que me insultam usam o meu nome
-para lançar maldições. 
-Cinzas são a minha comida,
-e com lágrimas misturo o que bebo, 
-por causa da tua indignação e da tua ira,
-pois me rejeitaste e me expulsaste
-para longe de ti. 
-Meus dias são como sombras crescentes;
-sou como a relva que vai murchando. 
-Tu, porém, Senhor,
-no trono reinarás para sempre;
-o teu nome será lembrado
-de geração em geração. 
-Tu te levantarás e terás misericórdia de Sião,
-pois é hora de lhe mostrares compaixão;
-o tempo certo é chegado. 
-Pois as suas pedras são amadas
-pelos teus servos,
-as suas ruínas os enchem de compaixão. 
-Então as nações temerão o nome do Senhor
-e todos os reis da terra a sua glória. 
-Porque o Senhor reconstruirá Sião
-e se manifestará na glória que ele tem. 
-Responderá à oração dos desamparados;
-as suas súplicas não desprezará. 
-Escreva-se isto para as futuras gerações,
-e um povo que ainda será criado
-louvará o Senhor, proclamando: 
-"Do seu santuário nas alturas o Senhor olhou;
-dos céus observou a terra, 
-para ouvir os gemidos dos prisioneiros
-e libertar os condenados à morte". 
-Assim o nome do Senhor
-será anunciado em Sião
-e o seu louvor em Jerusalém, 
-quando os povos e os reinos
-se reunirem para adorar o Senhor. 
-No meio da minha vida
-ele me abateu com sua força;
-abreviou os meus dias. 
-Então pedi:
-"Ó meu Deus, não me leves
-no meio dos meus dias.
-Os teus dias duram por todas as gerações!" 
-No princípio firmaste os fundamentos da terra,
-e os céus são obras das tuas mãos. 
-Eles perecerão, mas tu permanecerás;
-envelhecerão como vestimentas.
-Como roupas tu os trocarás
-e serão jogados fora. 
-Mas tu permaneces o mesmo,
-e os teus dias jamais terão fim. 
-Os filhos dos teus servos
-terão uma habitação;
-os seus descendentes serão estabelecidos
-na tua presença. 
- Salmo 102
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 406450 characters
-INFO:root:HTML parsed, length: 394666 characters
-INFO:root:Found 3 titles: ['Atenção espiritual em uma era de distrações', 'Coragem de expor o nosso lado escuro à luz da graça', 'Reconhecimento celestial']
+INFO:root:Response length: 406965 characters
+INFO:root:HTML parsed, length: 395186 characters
+INFO:root:Found 3 titles: ['Coragem forjada na presença de Deus', 'Atenção espiritual em uma era de distrações', 'Coragem de expor o nosso lado escuro à luz da graça']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Por isso, é necessário que prestemos a maior atenç', 'A mensagem que ouvimos dele e agora anunciamos a v', "Tenham o cuidado de não praticar as suas 'obras de"]
-INFO:root:Found 1 dates: ['Domingo, 1 de novembro de 2026']
+INFO:root:Found 3 descriptions: ['Lembre-se do que eu ordenei: seja forte e muito co', 'Por isso, é necessário que prestemos a maior atenç', 'A mensagem que ouvimos dele e agora anunciamos a v']
+INFO:root:Found 1 dates: ['Segunda, 2 de novembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Atenção espiritual em uma era de distrações', ID=2a138a0437435a3899cdb2471cf7c8f0
+INFO:root:Processing entry 1: Title='Coragem forjada na presença de Deus', ID=5797e0fb68814fbdc998825457ca53b0
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Atenção espiritual em uma era de distrações - Palavra de Hoje
+INFO:root:🔹 Title: Coragem forjada na presença de Deus - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Por isso, é necessário que prestemos a maior atenção àquilo que temos ouvido, para que jamais venhamos a nos desviar.
-Hebreus 2:1 (NVI)
+INFO:root:🔹 Description: Lembre-se do que eu ordenei: seja forte e muito corajoso! Não se deixe dominar pelo medo ou pelo desânimo, porque o Senhor, o seu Deus, caminhará ao seu lado por onde quer que você vá.
+Josué 1:9 (Paráfrase baseada na NVI)
 
-Vivemos na era da economia da atenção, onde telas, notificações e demandas urgentes disputam ferozmente cada segundo do nosso foco. Nesse cenário ruidoso, a desatenção espiritual raramente acontece por meio de uma rebelião declarada contra Deus, mas sim através de uma deriva lenta e silenciosa. O autor de Hebreus nos adverte que a negligência às verdades eternas nos faz perder o rumo de forma imperceptível, como um barco que se solta das amarras e é levado pela correnteza. A atenção, portanto, não é apenas uma capacidade cognitiva, mas uma disciplina espiritual vital. Onde colocamos o nosso foco, ali investimos o nosso coração e determinamos a direção de toda a nossa jornada.
+O chamado divino à coragem frequentemente acontece nos momentos de maior vulnerabilidade humana. Quando Josué assumiu a liderança de Israel, ele estava diante de um rio intransponível, inimigos formidáveis e o peso esmagador de substituir Moisés. O imperativo de Deus para que ele fosse forte não era um apelo ao pensamento positivo ou à autoconfiança ilusória. A verdadeira coragem bíblica não é a ausência de medo, mas a decisão de obedecer e avançar a despeito do medo, fundamentando-se em uma única certeza: a presença inabalável do Senhor. O antídoto contra o pavor que paralisa a nossa caminhada não é calcularmos a nossa própria força, mas lembrarmos de quem é Aquele que caminha ao nosso lado nas trincheiras da vida.
 
-Meu filho, dê a devida atenção às minhas palavras; incline os seus ouvidos para as minhas instruções. Não permita que elas sumam dos seus olhos, mas guarde-as no mais íntimo do coração.
-Provérbios 4:20-21 (NVI)
+Se o Senhor é a luz que me guia e a minha salvação, a quem eu deveria temer? Sendo o Senhor a fortaleza segura da minha vida, não há razão para ter medo de ninguém.
+Salmos 27:1 (Paráfrase baseada na NVI)
 
-A sabedoria milenar de Provérbios revela que a atenção exige profunda intencionalidade. Ouvir a voz de Deus requer inclinar os ouvidos, assumindo a postura ativa de quem silencia o barulho externo para conseguir captar o sussurro do Espírito Santo. Em um mundo que recompensa a superficialidade e o consumo rápido e fragmentado de informações, guardar a Palavra no "íntimo do coração" torna-se um poderoso ato de resistência. Quando permitimos que as promessas e as instruções divinas escapem do nosso campo de visão diário, a nossa mente é rapidamente sequestrada pelas ansiedades contemporâneas. A verdadeira sabedoria nasce quando decidimos fixar o nosso olhar naquilo que é imutável.
+A coragem do crente é diretamente proporcional à sua visão de Deus. O salmista Davi, um homem forjado em meio a perseguições mortais e traições, encontrou a estabilidade da sua alma ao transferir o foco das ameaças terrenas para o caráter do seu Criador. Quando compreendemos profundamente que Deus é a nossa luz na escuridão, a nossa salvação definitiva e o nosso refúgio impenetrável, as intimidações do mundo perdem o seu poder de controle sobre nós. O medo tenta nos convencer de que estamos expostos e desamparados, mas a fé responde afirmando que estamos escondidos na fortaleza inexpugnável do amor divino, onde nenhum mal pode tocar o nosso destino eterno.
 
-Mantenham o pensamento fixo nas coisas do alto, e não apenas nas coisas terrenas.
-Colossenses 3:2 (NVI)
+Eu compartilhei estas verdades para que vocês encontrem paz em mim. Vocês enfrentarão muitas aflições neste mundo; contudo, tenham coragem, porque eu já venci o mundo.
+João 16:33 (Paráfrase baseada na NVI)
 
-O apóstolo Paulo eleva o conceito de atenção para a dimensão celestial. Manter o pensamento nas coisas do alto é um exercício constante de recalibragem da nossa perspectiva. Isso não significa viver em estado de alienação em relação às nossas responsabilidades seculares, mas sim ter a capacidade de vivê-las sob a ótica soberana da eternidade. Quando o nosso foco está aprisionado exclusivamente no que é transitório — o acúmulo financeiro, a aprovação humana ou os prazeres imediatos —, a nossa alma adoece de miopia espiritual. A mente ancorada nas coisas do alto estabiliza o coração e nos devolve a clareza necessária para atravessar as tempestades deste mundo sem perdermos a paz. Despertados do torpor das distrações diárias, ancorados pela meditação constante na Palavra e com a mente fixada nas realidades eternas: o cultivo da atenção espiritual é o que preserva a nossa alma da deriva e nos mantém enraizados no propósito do Pai.
+A promessa de Jesus aos seus discípulos é de um realismo impressionante. Ele não nos oferece uma isenção das aflições, das perdas ou das injustiças seculares; pelo contrário, Ele nos garante que as tribulações farão parte da jornada cristã. No entanto, Cristo nos convoca a uma coragem escatológica, baseada em um triunfo que já foi consumado. O ânimo que Ele exige não brota da esperança de que os nossos problemas desaparecerão amanhã, mas da certeza de que o maior de todos os inimigos já foi derrotado na cruz. Enfrentamos os combates diários não como vítimas que lutam pela sobrevivência, mas como herdeiros que lutam a partir da vitória garantida do Rei dos reis. Sustentados pela promessa da Sua companhia invisível, abrigados na fortaleza do Seu caráter imutável e revigorados pela vitória definitiva de Cristo: a coragem do cristão é o reflexo de um coração que repousa na soberania de Deus.
  
-Por isso, é necessário que prestemos a maior atenção àquilo que temos ouvido, para que jamais venhamos a nos desviar.
-Hebreus 2:1 (NVI)
+Lembre-se do que eu ordenei: seja forte e muito corajoso! Não se deixe dominar pelo medo ou pelo desânimo, porque o Senhor, o seu Deus, caminhará ao seu lado por onde quer que você vá.
+Josué 1:9 (Paráfrase baseada na NVI)
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 412619 characters
-INFO:root:HTML parsed, length: 400386 characters
-INFO:root:Found 3 titles: ['O resgate intencional do primeiro amor', 'A urgência da reconciliação', 'O valor de um amigo verdadeiro']
+INFO:root:Response length: 412196 characters
+INFO:root:HTML parsed, length: 399954 characters
+INFO:root:Found 3 titles: ['A verdadeira liberdade', 'O resgate intencional do primeiro amor', 'A urgência da reconciliação']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['"Contra você, porém, tenho isto: você abandonou o ', '"Portanto, se você estiver apresentando sua oferta', 'Quem tem muitos amigos pode chegar à ruína, mas ex']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n1\nDOMINGO', 'OUTUBRO\n\n31\nSÁBADO', 'OUTUBRO\n\n30\nSEXTA']
+INFO:root:Found 3 descriptions: ['"Tudo me é permitido", mas nem tudo convém. "Tudo ', '"Contra você, porém, tenho isto: você abandonou o ', '"Portanto, se você estiver apresentando sua oferta']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n2\nSEGUNDA', 'NOVEMBRO\n\n1\nDOMINGO', 'OUTUBRO\n\n31\nSÁBADO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='O resgate intencional do primeiro amor', ID=6472ec8e2ddfbc3e0a44ba932c7f41e0
-INFO:root:Processing entry 2: Title='A urgência da reconciliação', ID=7792a0b39ff8163f9ab6b7b5531d26f0
-INFO:root:Processing entry 3: Title='O valor de um amigo verdadeiro', ID=2a9600df8d7344366dd47be76c180df8
+INFO:root:Processing entry 1: Title='A verdadeira liberdade', ID=be3dc4bbac80756c3b78123b44cb65d5
+INFO:root:Processing entry 2: Title='O resgate intencional do primeiro amor', ID=6472ec8e2ddfbc3e0a44ba932c7f41e0
+INFO:root:Processing entry 3: Title='A urgência da reconciliação', ID=7792a0b39ff8163f9ab6b7b5531d26f0
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A verdadeira liberdade
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: "Tudo me é permitido", mas nem tudo convém. "Tudo me é permitido", mas eu não deixarei que nada me domine.
+1 Coríntios 6:12
+
+A cultura moderna define liberdade como a capacidade de fazer o que se deseja a qualquer momento. Qualquer restrição é interpretada como opressão. Paulo, porém, apresenta uma perspectiva oposta. A verdadeira liberdade espiritual não consiste em ceder aos impulsos, mas em possuir força interior para dizer não. Quando usamos a graça divina como pretexto para viver sem limites, não somos livres; tornamo-nos escravos das próprias paixões. O domínio próprio é a muralha que protege a nossa fé contra a tirania da carne.
+O perigo do descontrole raramente começa com pecados escandalosos. A armadilha reside nas escolhas inofensivas. Paulo destaca que, embora muitas coisas sejam lícitas, nem todas são proveitosas. O entretenimento constante, as horas nas telas e o consumo excessivo não são crimes, mas possuem o poder de escravizar silenciosamente. O domínio próprio exige uma avaliação rigorosa dos hábitos diários. Precisamos perguntar se a atividade que realizamos nos edifica ou se está dominando a nossa mente e roubando o nosso tempo essencial com Deus.
+Recuperar a liderança da própria vida não é um exercício de força de vontade humana, que frequentemente falha. O autocontrole é um fruto gerado pelo Espírito Santo no interior. Quando submetemos as nossas vontades ao senhorio de Cristo, recebemos capacitação para resistir a qualquer jugo. Recusar ser dominado por coisas terrenas é a prova de que pertencemos exclusivamente ao Senhor. Essa dependência divina nos liberta das correntes invisíveis e nos permite viver com integridade inabalável que glorifica o Pai.
+Pratique o domínio hoje, onde você está
+
+Identifique um hábito que tem consumido o seu tempo e imponha um limite rigoroso ainda hoje.
+Diga um "não" intencional a um desejo legítimo para exercitar o músculo do autocontrole.
+Avalie as distrações digitais e determine um horário para desconectar-se.
+Releia Coríntios e reflita sobre a responsabilidade de honrar a Deus.
+
+Para orar
+
+Senhor, confesso que frequentemente confundo liberdade com a satisfação imediata dos meus desejos. Perdoa-me por permitir que hábitos comuns assumam o controle da minha mente. Enche-me com o teu Espírito. Ensina-me a exercer o domínio próprio para não ser escravo de absolutamente nada. Governa a minha vida. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: O resgate intencional do primeiro amor
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: "Contra você, porém, tenho isto: você abandonou o seu primeiro amor."
@@ -450,26 +427,6 @@ Para orar
 
 Senhor, confesso que muitas vezes me apego ao orgulho e permito que o ressentimento crie muros inultrapassáveis entre mim e o meu próximo. Perdoa-me por tentar te adorar enquanto carrego amargura no coração. Dá-me a humildade e a coragem necessárias para dar o primeiro passo, pedir desculpas e liberar perdão. Restaura os meus relacionamentos e a minha comunhão contigo. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: O valor de um amigo verdadeiro
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: Quem tem muitos amigos pode chegar à ruína, mas existe amigo mais apegado que um irmão.
-Provérbios 18:24
-
-Vivemos em uma era de conexões digitais, onde a amizade é frequentemente medida pelo número de seguidores e pela quantidade de aprovações superficiais. No entanto, a sabedoria bíblica nos alerta de forma contundente sobre a ilusão e o perigo da popularidade vazia. Estar cercado por uma multidão de conhecidos não garante segurança emocional nem o suporte autêntico quando as grandes tempestades da vida inevitavelmente chegam para testar as nossas estruturas.
-O autor de Provérbios faz um contraste vital entre os laços de conveniência, que podem nos guiar rapidamente para a ruína através de conselhos desastrosos ou abandono na hora da dor, e a raridade inestimável de um amigo verdadeiro. A amizade sólida não é construída sobre interesses passageiros, status social ou facilidades mútuas. Ela é forjada na fornalha da lealdade e na dor compartilhada, exigindo um compromisso inabalável que frequentemente ultrapassa a força dos próprios vínculos biológicos.
-Esse amigo "mais apegado que um irmão" reflete o caráter de Jesus Cristo, que entregou a sua vida por nós e nos chamou para uma intimidade eterna. Para vivermos esse padrão celestial nos nossos relacionamentos terrenos, precisamos abrir mão do orgulho, cultivar a vulnerabilidade sincera, exercer o perdão contínuo e dedicar tempo de qualidade para cuidar daqueles que Deus colocou estrategicamente ao nosso lado.
-Em vez de buscar a exaustiva aceitação de muitos, invista intencionalmente na profundidade relacional de poucos. Uma amizade leal é um refúgio seguro providenciado por Deus, um escudo de intercessão e uma âncora de esperança para os dias em que a nossa própria fé vacilar.
-Pratique a lealdade hoje, onde você está
-
-Envie uma mensagem de profunda gratidão para aquele amigo que permaneceu fielmente ao seu lado nos momentos mais sombrios e solitários.
-Seja intencional e pare agora para orar de forma fervorosa por uma necessidade específica que um amigo próximo compartilhou recentemente com você.
-Quebre a superficialidade: convide alguém de confiança para uma conversa franca e tenha a coragem de ser vulnerável sobre as suas lutas.
-Releia João 15:12-15 e medite sobre o sacrifício supremo e o amor incondicional que definem a amizade perfeita de Cristo por nós.
-
-Para orar
-
-Senhor, agradeço imensamente pelo dom precioso e restaurador da amizade autêntica. Confesso que muitas vezes invisto a minha energia em conexões rasas e me esqueço de cultivar o cuidado profundo e dedicado por aqueles que estão próximos. Purifica as minhas intenções e ensina-me a ser um amigo verdadeiramente leal, constante e encorajador. Que a minha vida e as minhas palavras sejam um canal de sustento e graça. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -503,11 +460,11 @@ INFO:root: feeds/devocional_de_hoje/atom.xml         |  37 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
  feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 113 +++++++----
+ feeds/salmo_do_dia/atom.xml               | 105 +++--------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 304 ++++++++++++++++--------------
- 11 files changed, 307 insertions(+), 251 deletions(-)
+ output.log                                | 297 ++++++++++++------------------
+ 11 files changed, 223 insertions(+), 321 deletions(-)
