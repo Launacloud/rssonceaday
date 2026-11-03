@@ -1,46 +1,44 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 203400 characters
-INFO:root:HTML parsed, length: 179568 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (02/11/2026)', 'Palavra de Ontem (01/11/2026)', 'Palavra de Anteontem (31/10/2026)']
-INFO:root:Found 3 URLs: ['/perenemente/', '/procedimento/', '/coetaneidade/']
-INFO:root:Found 12 descriptions: ['advérbio De maneira perene, de modo a perdurar, te', 'Sinônimos:\n\ncontinuamente, sempre, definitivamente', 'Antônimos:\n\nfugazmente']
-INFO:root:Found 3 dates: ['Palavra de Hoje (02/11/2026)', 'Palavra de Ontem (01/11/2026)', 'Palavra de Anteontem (31/10/2026)']
+INFO:root:Response length: 224423 characters
+INFO:root:HTML parsed, length: 200157 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (03/11/2026)', 'Palavra de Ontem (02/11/2026)', 'Palavra de Anteontem (01/11/2026)']
+INFO:root:Found 3 URLs: ['/justiciabilidade/', '/perenemente/', '/procedimento/']
+INFO:root:Found 12 descriptions: ['adjetivo Possibilidade de levar um direito a tribu', 'Sinônimos:\n\nfundamentação, pertinência, razoabilid', 'Sílabas:jus-ti-ci-a-bi-li-da-de']
+INFO:root:Found 3 dates: ['Palavra de Hoje (03/11/2026)', 'Palavra de Ontem (02/11/2026)', 'Palavra de Anteontem (01/11/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (02/11/2026)', ID=4d06cc7a12b201e0f809163de8abffac
-INFO:root:Processing entry 2: Title='Palavra de Ontem (01/11/2026)', ID=a34df58326186ce66f906abf57d7871b
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (31/10/2026)', ID=c168deda98b6c81d3be3bf33d93eb5da
+INFO:root:Processing entry 1: Title='Palavra de Hoje (03/11/2026)', ID=d459e88fe0fc5c358c6c415e07ba17e3
+INFO:root:Processing entry 2: Title='Palavra de Ontem (02/11/2026)', ID=e8f5a21ecae50d2dd513418d646ced4e
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (01/11/2026)', ID=c8022d656af2eeed322307473cc6abd9
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (02/11/2026) - Significado completo de perenemente:
+INFO:root:🔹 Title: Palavra de Hoje (03/11/2026) - Significado completo de justiciabilidade:
+INFO:root:🔹 URL: https://www.dicio.com.br/justiciabilidade/
+INFO:root:🔹 Description: adjetivo Possibilidade de levar um direito a tribunal, exigir na justiça o cumprimento de um direito que, por alguma razão, foi violado ou descumprido: a justiciabilidade garante que um direito possa ser levado e defendido na justiça.Etimologia (origem da palavra justiciabilidade). A palavra justificabilidade tem sua origem pela junção da palavra justificável, -i-, e do sufixo -dade.
+ 
+Sinônimos:
+
+fundamentação, pertinência, razoabilidade, adequação, legitimidade, validade, cabimento, aceitabilidade 
+
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Ontem (02/11/2026) - Significado completo de perenemente:
 INFO:root:🔹 URL: https://www.dicio.com.br/perenemente/
-INFO:root:🔹 Description: advérbio De maneira perene, de modo a perdurar, ter continuidade, sem intervalos, interrupções, fim: seguia, perenemente, no seu propósito de ser feliz.Característica do que tem longa duração; para sempre: plantas que, perenemente, se mantêm intactas ao longo dos séculos.Etimologia (origem da palavra perenemente). A palavra perenemente tem sua origem da junção de perene e do sufixo adverbial -mente.
+INFO:root:🔹 Description: Sinônimos:
+
+fundamentação, pertinência, razoabilidade, adequação, legitimidade, validade, cabimento, aceitabilidade
+ Sílabas:jus-ti-ci-a-bi-li-da-de
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Palavra de Anteontem (01/11/2026) - Significado completo de procedimento:
+INFO:root:🔹 URL: https://www.dicio.com.br/procedimento/
+INFO:root:🔹 Description: Sílabas:jus-ti-ci-a-bi-li-da-de
  
 Sinônimos:
 
 continuamente, sempre, definitivamente, ininterruptamente, permanentemente, constantemente, persistentemente, eternamente 
 
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (01/11/2026) - Significado completo de procedimento:
-INFO:root:🔹 URL: https://www.dicio.com.br/procedimento/
-INFO:root:🔹 Description: Sinônimos:
-
-continuamente, sempre, definitivamente, ininterruptamente, permanentemente, constantemente, persistentemente, eternamente
- 
-Antônimos:
-
-fugazmente 
-
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (31/10/2026) - Significado completo de coetaneidade:
-INFO:root:🔹 URL: https://www.dicio.com.br/coetaneidade/
-INFO:root:🔹 Description: Antônimos:
-
-fugazmente
- Sílabas:pe-re-ne-men-te
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +46,63 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 402722 characters
-INFO:root:HTML parsed, length: 390676 characters
-INFO:root:Found 1 titles: ['Romanos 8:1']
-INFO:root:Found 1 URLs: ['/versiculo/romanos_8_1/']
-INFO:root:Found 1 descriptions: ['Portanto, agora já não há condenação para os que e']
-INFO:root:Found 1 dates: ['Segunda, 2 de novembro de 2026']
+INFO:root:Response length: 399281 characters
+INFO:root:HTML parsed, length: 387308 characters
+INFO:root:Found 1 titles: ['João 5:24']
+INFO:root:Found 1 URLs: ['/versiculo/joao_5_24/']
+INFO:root:Found 1 descriptions: ['"Eu asseguro: Quem ouve a minha palavra e crê naqu']
+INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Romanos 8:1', ID=ff8a4a5f62ef7948505741de8eba4fe2
+INFO:root:Processing entry 1: Title='João 5:24', ID=ff02d6229db7b4d121186d4532c90a31
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Romanos 8:1
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/romanos_8_1/
-INFO:root:🔹 Description: Portanto, agora já não há condenação para os que estão em Cristo Jesus, Romanos 8:1
+INFO:root:🔹 Title: João 5:24
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_5_24/
+INFO:root:🔹 Description: "Eu asseguro: Quem ouve a minha palavra e crê naquele que me enviou tem a vida eterna e não será condenado, mas já passou da morte para a vida. João 5:24
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 401711 characters
-INFO:root:HTML parsed, length: 390905 characters
-INFO:root:Found 3 titles: ['Salmo 8', 'Salmo 71', 'Salmo 89']
-INFO:root:Found 3 URLs: ['/salmos_8/', '/salmos_71/', '/salmos_89/']
-INFO:root:Found 3 descriptions: ['Senhor, Senhor nosso,\ncomo é majestoso o teu nome ', 'Em ti, Senhor, busquei refúgio;\nnunca permitas que', 'Cantarei para sempre o amor do Senhor;\ncom minha b']
-INFO:root:Found 3 dates: ['2 de Novembro de 2026', '1 de Novembro de 2026', '31 de Outubro de 2026']
+INFO:root:Response length: 397304 characters
+INFO:root:HTML parsed, length: 386438 characters
+INFO:root:Found 3 titles: ['Salmo 130', 'Salmo 8', 'Salmo 71']
+INFO:root:Found 3 URLs: ['/salmos_130/', '/salmos_8/', '/salmos_71/']
+INFO:root:Found 3 descriptions: ['Das profundezas clamo a ti, Senhor; \nouve, Senhor,', 'Senhor, Senhor nosso,\ncomo é majestoso o teu nome ', 'Em ti, Senhor, busquei refúgio;\nnunca permitas que']
+INFO:root:Found 3 dates: ['3 de Novembro de 2026', '2 de Novembro de 2026', '1 de Novembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
-INFO:root:Processing entry 2: Title=' Salmo 71', ID=045b98f7d6c8c1fa8d7fa83126eafe0b
-INFO:root:Processing entry 3: Title=' Salmo 89', ID=e46bb9c27225d3ff0b9681b0878a0e4f
+INFO:root:Processing entry 1: Title=' Salmo 130', ID=ec79926a1e39d14d7b4e76e1576e9d96
+INFO:root:Processing entry 2: Title=' Salmo 8', ID=948e1c8b4cd4e643699c87a58ab0ea6c
+INFO:root:Processing entry 3: Title=' Salmo 71', ID=045b98f7d6c8c1fa8d7fa83126eafe0b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 130
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_130/
+INFO:root:🔹 Description: Das profundezas clamo a ti, Senhor; 
+ouve, Senhor, a minha voz!
+Estejam atentos os teus ouvidos
+às minhas súplicas! 
+Se tu, Soberano Senhor,
+registrasses os pecados, quem escaparia? 
+Mas contigo está o perdão
+para que sejas temido. 
+Espero no Senhor com todo o meu ser
+e na sua palavra ponho a minha esperança. 
+Espero pelo Senhor
+mais do que as sentinelas pela manhã;
+sim, mais do que as sentinelas
+esperam pela manhã! 
+Ponha a sua esperança no Senhor, ó Israel,
+pois no Senhor há amor leal
+e plena redenção. 
+Ele próprio redimirá Israel
+de todas as suas culpas. 
+ Salmo 130
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 8
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_8/
 INFO:root:🔹 Description: Senhor, Senhor nosso,
@@ -189,186 +210,81 @@ pois os que queriam prejudicar-me
 foram humilhados e ficaram frustrados. 
  Salmo 71
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 89
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_89/
-INFO:root:🔹 Description: Cantarei para sempre o amor do Senhor;
-com minha boca anunciarei
-a tua fidelidade por todas as gerações. 
-Sei que firme está o teu amor para sempre,
-e que firmaste nos céus a tua fidelidade. 
-Tu disseste: "Fiz aliança com o meu escolhido,
-jurei ao meu servo Davi: 
-'Estabelecerei a tua linhagem para sempre
-e firmarei o teu trono
-por todas as gerações' ". 
-Os céus louvam as tuas maravilhas, Senhor,
-e a tua fidelidade na assembleia dos santos. 
-Pois quem nos céus
-poderá comparar-se ao Senhor?
-Quem entre os seres celestiais
-assemelha-se ao Senhor? 
-Na assembleia dos santos Deus é temível,
-mais do que todos os que o rodeiam. 
-Ó Senhor, Deus dos Exércitos,
-quem é semelhante a ti?
-És poderoso, Senhor,
-envolto em tua fidelidade. 
-Tu dominas o revolto mar;
-quando se agigantam as suas ondas,
-tu as acalmas. 
-Esmagaste e mataste o Monstro dos Mares;
-com teu braço forte
-dispersaste os teus inimigos. 
-Os céus são teus, e tua também é a terra;
-fundaste o mundo e tudo o que nele existe. 
-Tu criaste o Norte e o Sul;
-o Tabor e o Hermom
-cantam de alegria pelo teu nome. 
-O teu braço é poderoso;
-a tua mão é forte, exaltada é tua mão direita. 
-A retidão e a justiça são os alicerces
-do teu trono;
-o amor e a fidelidade vão à tua frente. 
-Como é feliz o povo
-que aprendeu a aclamar-te, Senhor,
-e que anda na luz da tua presença! 
-Sem cessar exultam no teu nome,
-e alegram-se na tua retidão, 
-pois tu és a nossa glória e a nossa força,
-e pelo teu favor exaltas a nossa força. 
-Sim, Senhor, tu és o nosso escudo,
-ó Santo de Israel, tu és o nosso rei. 
-Numa visão falaste um dia,
-e aos teus fiéis disseste:
-"Cobri de forças um guerreiro,
-exaltei um homem escolhido dentre o povo. 
-Encontrei o meu servo Davi;
-ungi-o com o meu óleo sagrado. 
-A minha mão o susterá,
-e o meu braço o fará forte. 
-Nenhum inimigo o sujeitará a tributos;
-nenhum injusto o oprimirá. 
-Esmagarei diante dele os seus adversários
-e destruirei os seus inimigos. 
-A minha fidelidade e o meu amor
-o acompanharão,
-e pelo meu nome aumentará o seu poder. 
-A sua mão dominará até o mar;
-sua mão direita, até os rios. 
-Ele me dirá: 'Tu és o meu Pai,
-o meu Deus, a Rocha que me salva'. 
-Também o nomearei meu primogênito,
-o mais exaltado dos reis da terra. 
-Manterei o meu amor por ele para sempre,
-e a minha aliança com ele jamais se quebrará. 
-Firmarei a sua linhagem para sempre,
-e o seu trono durará enquanto existirem céus. 
-"Se os seus filhos abandonarem a minha lei
-e não seguirem as minhas ordenanças, 
-se violarem os meus decretos
-e deixarem de obedecer aos meus mandamentos, 
-com a vara castigarei o seu pecado,
-e a sua iniquidade com açoites; 
-mas não afastarei dele o meu amor;
-jamais desistirei da minha fidelidade. 
-Não violarei a minha aliança
-nem modificarei as promessas dos meus lábios. 
-De uma vez para sempre jurei
-pela minha santidade
-e não mentirei a Davi, 
-que a sua linhagem permanecerá para sempre,
-e o seu trono durará como o sol; 
-será estabelecido para sempre como a lua,
-a fiel testemunha no céu." 
-Mas tu o rejeitaste, recusaste-o
-e te enfureceste com o teu ungido. 
-Revogaste a aliança com o teu servo
-e desonraste a sua coroa, lançando-a ao chão. 
-Derrubaste todos os seus muros
-e reduziste a ruínas as suas fortalezas. 
-Todos os que passam o saqueiam;
-tornou-se objeto de zombaria
-para os seus vizinhos. 
-Tu exaltaste a mão direita dos seus adversários
-e encheste de alegria todos os seus inimigos. 
-Tiraste o fio da sua espada
-e não o apoiaste na batalha. 
-Deste fim ao seu esplendor
-e atiraste ao chão o seu trono. 
-Encurtaste os dias da sua juventude;
-com um manto de vergonha o cobriste. 
-Até quando, Senhor?
-Para sempre te esconderás?
-Até quando a tua ira queimará como fogo? 
-Lembra-te de como é passageira a minha vida.
-Terás criado em vão todos os homens? 
-Que homem pode viver e não ver a morte,
-ou livrar-se do poder da sepultura? 
-Ó Senhor, onde está o teu antigo amor,
-que com fidelidade juraste a Davi? 
-Lembra-te, Senhor,
-das afrontas que o teu servo tem sofrido,
-das zombarias que no íntimo
-tenho que suportar de todos os povos, 
-das zombarias dos teus inimigos, Senhor,
-com que afrontam a cada passo o teu ungido. 
-Bendito seja o Senhor para sempre!
-Amém e amém. 
- Salmo 89
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 406965 characters
-INFO:root:HTML parsed, length: 395186 characters
-INFO:root:Found 3 titles: ['Coragem forjada na presença de Deus', 'Atenção espiritual em uma era de distrações', 'Coragem de expor o nosso lado escuro à luz da graça']
+INFO:root:Response length: 405701 characters
+INFO:root:HTML parsed, length: 393922 characters
+INFO:root:Found 3 titles: ['Nenhuma lágrima passa despercebida', 'Coragem forjada na presença de Deus', 'Atenção espiritual em uma era de distrações']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Lembre-se do que eu ordenei: seja forte e muito co', 'Por isso, é necessário que prestemos a maior atenç', 'A mensagem que ouvimos dele e agora anunciamos a v']
-INFO:root:Found 1 dates: ['Segunda, 2 de novembro de 2026']
+INFO:root:Found 3 descriptions: ['Registraste o meu lamento; recolheste as minhas lá', 'Lembre-se do que eu ordenei: seja forte e muito co', 'Por isso, é necessário que prestemos a maior atenç']
+INFO:root:Found 1 dates: ['Terça, 3 de novembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Coragem forjada na presença de Deus', ID=5797e0fb68814fbdc998825457ca53b0
+INFO:root:Processing entry 1: Title='Nenhuma lágrima passa despercebida', ID=ee183324ec973aa6f35dc300edd52bc7
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Coragem forjada na presença de Deus - Palavra de Hoje
+INFO:root:🔹 Title: Nenhuma lágrima passa despercebida - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Lembre-se do que eu ordenei: seja forte e muito corajoso! Não se deixe dominar pelo medo ou pelo desânimo, porque o Senhor, o seu Deus, caminhará ao seu lado por onde quer que você vá.
-Josué 1:9 (Paráfrase baseada na NVI)
+INFO:root:🔹 Description: Registraste o meu lamento; recolheste as minhas lágrimas em teu odre; acaso não estão anotadas no teu livro?
+Salmos 56:8
 
-O chamado divino à coragem frequentemente acontece nos momentos de maior vulnerabilidade humana. Quando Josué assumiu a liderança de Israel, ele estava diante de um rio intransponível, inimigos formidáveis e o peso esmagador de substituir Moisés. O imperativo de Deus para que ele fosse forte não era um apelo ao pensamento positivo ou à autoconfiança ilusória. A verdadeira coragem bíblica não é a ausência de medo, mas a decisão de obedecer e avançar a despeito do medo, fundamentando-se em uma única certeza: a presença inabalável do Senhor. O antídoto contra o pavor que paralisa a nossa caminhada não é calcularmos a nossa própria força, mas lembrarmos de quem é Aquele que caminha ao nosso lado nas trincheiras da vida.
+Na jornada terrena, atravessamos vales onde a dor parece nos isolar de todos. Nesses momentos de angústia, a mentira mais cruel do inimigo é a de que fomos abandonados pelo Criador. Contudo, a Palavra destrói essa percepção enganosa com extrema ternura. Deus não observa o nosso pranto de uma distância fria. O Senhor recolhe cuidadosamente cada lágrima, registrando o nosso lamento com atenção. Nenhuma tristeza cai no chão sem ser notada e amparada pelo compassivo coração do Pai.
 
-Se o Senhor é a luz que me guia e a minha salvação, a quem eu deveria temer? Sendo o Senhor a fortaleza segura da minha vida, não há razão para ter medo de ninguém.
-Salmos 27:1 (Paráfrase baseada na NVI)
+Volte e diga a Ezequias, líder do meu povo: Assim diz o Senhor, Deus de Davi, seu predecessor: Ouvi a sua oração e vi as suas lágrimas; eu o curarei.
+2 Reis 20:5
 
-A coragem do crente é diretamente proporcional à sua visão de Deus. O salmista Davi, um homem forjado em meio a perseguições mortais e traições, encontrou a estabilidade da sua alma ao transferir o foco das ameaças terrenas para o caráter do seu Criador. Quando compreendemos profundamente que Deus é a nossa luz na escuridão, a nossa salvação definitiva e o nosso refúgio impenetrável, as intimidações do mundo perdem o seu poder de controle sobre nós. O medo tenta nos convencer de que estamos expostos e desamparados, mas a fé responde afirmando que estamos escondidos na fortaleza inexpugnável do amor divino, onde nenhum mal pode tocar o nosso destino eterno.
+A experiência do rei Ezequias diante de um diagnóstico mortal mostra o caráter responsivo de Deus. Quando recebeu a sentença sombria, o monarca derramou a sua alma em choro diante do Senhor. A resposta divina foi imediata: Deus declara explicitamente que viu as lágrimas do rei. O nosso pranto possui uma voz poderosa nos tribunais celestiais. O choro sincero de um coração quebrantado atrai a presença do Todo-Poderoso, movendo a sua mão para trazer o consolo que a lógica humana não consegue produzir.
 
-Eu compartilhei estas verdades para que vocês encontrem paz em mim. Vocês enfrentarão muitas aflições neste mundo; contudo, tenham coragem, porque eu já venci o mundo.
-João 16:33 (Paráfrase baseada na NVI)
+O Senhor está perto dos que têm o coração quebrantado e salva os de espírito abatido.
+Salmos 34:18
 
-A promessa de Jesus aos seus discípulos é de um realismo impressionante. Ele não nos oferece uma isenção das aflições, das perdas ou das injustiças seculares; pelo contrário, Ele nos garante que as tribulações farão parte da jornada cristã. No entanto, Cristo nos convoca a uma coragem escatológica, baseada em um triunfo que já foi consumado. O ânimo que Ele exige não brota da esperança de que os nossos problemas desaparecerão amanhã, mas da certeza de que o maior de todos os inimigos já foi derrotado na cruz. Enfrentamos os combates diários não como vítimas que lutam pela sobrevivência, mas como herdeiros que lutam a partir da vitória garantida do Rei dos reis. Sustentados pela promessa da Sua companhia invisível, abrigados na fortaleza do Seu caráter imutável e revigorados pela vitória definitiva de Cristo: a coragem do cristão é o reflexo de um coração que repousa na soberania de Deus.
+A cultura exige que ocultemos as fragilidades e exibamos uma força irreal, tratando a tristeza como fraqueza inaceitável. O Reino de Deus funciona de maneira oposta. É exatamente no ápice do abatimento que experimentamos a proximidade tangível do Senhor. Ele não se afasta dos feridos, mas faz do coração quebrantado a sua morada. As lágrimas que o mundo despreza são instrumentos que Deus utiliza para esvaziar a nossa autossuficiência e nos encher com a sua força. Reconhecer a nossa dor profunda diante dele é o passo essencial e necessário para sermos completamente restaurados pela sua maravilhosa graça soberana. Amparados pelo Deus que recolhe o nosso pranto, encorajados pela certeza de que Ele atende à nossa dor e consolados pela sua doce e constante proximidade: o nosso choro sincero jamais será ignorado nos céus, pois temos um Pai que nos ama de forma incondicional.
  
-Lembre-se do que eu ordenei: seja forte e muito corajoso! Não se deixe dominar pelo medo ou pelo desânimo, porque o Senhor, o seu Deus, caminhará ao seu lado por onde quer que você vá.
-Josué 1:9 (Paráfrase baseada na NVI)
+Registraste o meu lamento; recolheste as minhas lágrimas em teu odre; acaso não estão anotadas no teu livro?
+Salmos 56:8
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 412196 characters
-INFO:root:HTML parsed, length: 399954 characters
-INFO:root:Found 3 titles: ['A verdadeira liberdade', 'O resgate intencional do primeiro amor', 'A urgência da reconciliação']
+INFO:root:Response length: 412127 characters
+INFO:root:HTML parsed, length: 399873 characters
+INFO:root:Found 3 titles: ['Deus que consola', 'A verdadeira liberdade', 'O resgate intencional do primeiro amor']
 INFO:root:Found 0 URLs: []
-INFO:root:Found 3 descriptions: ['"Tudo me é permitido", mas nem tudo convém. "Tudo ', '"Contra você, porém, tenho isto: você abandonou o ', '"Portanto, se você estiver apresentando sua oferta']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n2\nSEGUNDA', 'NOVEMBRO\n\n1\nDOMINGO', 'OUTUBRO\n\n31\nSÁBADO']
+INFO:root:Found 3 descriptions: ['Bendito seja o Deus e Pai de nosso Senhor Jesus Cr', '"Tudo me é permitido", mas nem tudo convém. "Tudo ', '"Contra você, porém, tenho isto: você abandonou o ']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n3\nTERÇA', 'NOVEMBRO\n\n2\nSEGUNDA', 'NOVEMBRO\n\n1\nDOMINGO']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A verdadeira liberdade', ID=be3dc4bbac80756c3b78123b44cb65d5
-INFO:root:Processing entry 2: Title='O resgate intencional do primeiro amor', ID=6472ec8e2ddfbc3e0a44ba932c7f41e0
-INFO:root:Processing entry 3: Title='A urgência da reconciliação', ID=7792a0b39ff8163f9ab6b7b5531d26f0
+INFO:root:Processing entry 1: Title='Deus que consola', ID=650b5a59b243e728cd14a8fe65dbf14d
+INFO:root:Processing entry 2: Title='A verdadeira liberdade', ID=be3dc4bbac80756c3b78123b44cb65d5
+INFO:root:Processing entry 3: Title='O resgate intencional do primeiro amor', ID=6472ec8e2ddfbc3e0a44ba932c7f41e0
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Deus que consola
+INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
+INFO:root:🔹 Description: Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, Pai das misericórdias e Deus de toda consolação, que nos consola em todas as nossas tribulações, para que, com a consolação que recebemos de Deus, possamos consolar os que estão passando por tribulações.
+- 2 Coríntios 1:3-4
+
+A perda muda o silêncio da casa. Uma cadeira vazia na mesa, um número que a gente ainda quase liga, uma roupa que ninguém tem coragem de guardar. O luto não avisa quando chega e também não avisa quando vai embora.
+Paulo abre a segunda carta aos Coríntios chamando Deus de "Pai das misericórdias e Deus de toda consolação". Repare no que ele não escreve: não diz "Deus que explica tudo". Não promete uma resposta para o porquê. Promete presença, porque Deus nos consola em todas as nossas tribulações, e a palavra "todas" inclui esta.
+E Paulo não escreve de longe. Poucos versículos depois, ele conta que passou por uma aflição tão grande que perdeu a esperança da própria vida (2 Coríntios 1:8). Quem fala de consolo sabe o que é chegar ao fundo. Isso dá peso às palavras dele: consolo que passou pela dor não é frase pronta.
+Por isso o consolo de Deus não vem com prazo. Ele não pede que a gente esteja bem na semana que vem nem que pare de chorar para parecer forte. Costuma chegar devagar: num versículo lido sem pressa, num abraço, numa pessoa que aparece com comida e fica calada ao nosso lado.
+O versículo 4 aponta um segundo movimento. O consolo que recebemos de Deus nos prepara para consolar quem passa pelo mesmo. Mas isso vem depois, no tempo certo. Primeiro a gente recebe, porque só quem foi abraçado aprende a abraçar sem pressa.
+A nossa dor não fica sem testemunha. Deus está perto agora, ao lado da cadeira vazia.
+Deixe Deus consolar você hoje
+
+Fale com Deus sobre a pessoa que você perdeu, com as palavras que tiver, até chorando. Ele não precisa de oração bonita.
+Aceite uma ajuda concreta hoje: uma refeição, uma companhia, uma ligação. Diga sim.
+Separe cinco minutos para ler 2 Coríntios 1:3-4 devagar e sublinhe a palavra "todas".
+Se o peso continua grande demais há semanas, procure um pastor ou um profissional de saúde mental, sem vergonha.
+
+Para orar:
+
+Pai das misericórdias, Tu conheces o nome de quem eu perdi e o tamanho do vazio que ficou. Não tenho resposta para o porquê, mas hoje paro de fingir que estou bem. Consola-me no meio da saudade e manda alguém para ficar ao meu lado. Em nome de Jesus, amém.
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A verdadeira liberdade
 INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
 INFO:root:🔹 Description: "Tudo me é permitido", mas nem tudo convém. "Tudo me é permitido", mas eu não deixarei que nada me domine.
@@ -407,26 +323,6 @@ Para orar
 
 Senhor, reconheço que as pressões rotineiras esfriam o meu relacionamento e me afastam do afeto inicial. Perdoa-me por transformar a nossa união em parceria mecânica. Desperta-me para resgatar o primeiro amor, investindo tempo, paciência e ternura para fortalecer a nossa aliança diariamente. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A urgência da reconciliação
-INFO:root:🔹 URL: https://www.bibliaon.com/devocional_diario/
-INFO:root:🔹 Description: "Portanto, se você estiver apresentando sua oferta diante do altar e ali se lembrar de que seu irmão tem algo contra você, deixe sua oferta ali, diante do altar, e vá primeiro reconciliar-se com seu irmão; depois volte e apresente sua oferta."
-Mateus 5:23-24
-
-É muito comum tentarmos separar o nosso relacionamento com Deus da forma como tratamos as pessoas. Muitas vezes, acreditamos que podemos adorar ao Senhor com um coração sincero, mesmo mantendo mágoas, ressentimentos ou conflitos não resolvidos com aqueles que nos cercam.
-Jesus, no entanto, confronta radicalmente essa falsa divisão. Ele coloca a reconciliação com o próximo como uma prioridade até mesmo sobre o ato sagrado da oferta e da adoração. A mensagem é clara: a nossa comunhão com Deus é diretamente afetada quando existe uma barreira de ofensa e inimizade entre nós e o nosso irmão.
-Tomar a iniciativa para buscar a paz exige uma dose imensa de humildade. Significa abrir mão do orgulho, do desejo obstinado de provar que se tem razão e escolher o caminho difícil, porém libertador, do perdão. Não se trata de ignorar a dor, mas de decidir reconstruir a ponte que foi quebrada para que o amor prevaleça.
-Deus valoriza corações quebrantados e relacionamentos restaurados muito mais do que rituais religiosos perfeitos. Não permita que o orgulho mantenha a sua vida espiritual aprisionada. Dar o primeiro passo em direção à reconciliação é, na verdade, a oferta mais bela e aceitável que você pode apresentar ao Senhor hoje.
-Pratique a reconciliação hoje, onde você está
-
-Peça ao Espírito Santo para sondar o seu coração e revelar se existe alguém a quem você precisa pedir perdão ou liberar perdão hoje.
-Engula o orgulho e tome a iniciativa: envie uma mensagem ou ligue para a pessoa com quem você tem um conflito, buscando ativamente a paz.
-Ore de forma intencional e sincera pelo bem-estar de alguém que o magoou, quebrando o ciclo de amargura dentro de você.
-Releia Mateus 5:21-26 e medite sobre a urgência inegociável que Jesus atribui ao ato de restaurar relacionamentos.
-
-Para orar
-
-Senhor, confesso que muitas vezes me apego ao orgulho e permito que o ressentimento crie muros inultrapassáveis entre mim e o meu próximo. Perdoa-me por tentar te adorar enquanto carrego amargura no coração. Dá-me a humildade e a coragem necessárias para dar o primeiro passo, pedir desculpas e liberar perdão. Restaura os meus relacionamentos e a minha comunhão contigo. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -456,15 +352,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  37 ++--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  40 ++--
  feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  22 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  22 +-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  20 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 105 +++--------
+ feeds/salmo_do_dia/atom.xml               | 148 ++-----------
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   3 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 297 ++++++++++++------------------
- 11 files changed, 223 insertions(+), 321 deletions(-)
+ output.log                                | 342 ++++++++++--------------------
+ 11 files changed, 208 insertions(+), 428 deletions(-)
