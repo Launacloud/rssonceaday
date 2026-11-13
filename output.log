@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 227213 characters
-INFO:root:HTML parsed, length: 202946 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (12/11/2026)', 'Palavra de Ontem (11/11/2026)', 'Palavra de Anteontem (10/11/2026)']
-INFO:root:Found 3 URLs: ['/premio/', '/burnout/', '/foguete/']
-INFO:root:Found 13 descriptions: ['substantivo masculino Honra atribuída a uma pessoa', 'Sinônimos:\n\nbrinde, bônus, galardão, homenagem, re', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (12/11/2026)', 'Palavra de Ontem (11/11/2026)', 'Palavra de Anteontem (10/11/2026)']
+INFO:root:Response length: 225909 characters
+INFO:root:HTML parsed, length: 201825 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (13/11/2026)', 'Palavra de Ontem (12/11/2026)', 'Palavra de Anteontem (11/11/2026)']
+INFO:root:Found 3 URLs: ['/tercol/', '/premio/', '/burnout/']
+INFO:root:Found 12 descriptions: ['substantivo masculino [Medicina] Pequeno tumor inf', 'Sinônimos:\n\nhordéolo, terçolho, torçol, treçó', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (13/11/2026)', 'Palavra de Ontem (12/11/2026)', 'Palavra de Anteontem (11/11/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (12/11/2026)', ID=3329aa57bff749911380175da176c819
-INFO:root:Processing entry 2: Title='Palavra de Ontem (11/11/2026)', ID=589d6035aa33dc4b3eb5d95d4a167eef
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (10/11/2026)', ID=0fdff0b8991870fa9b19ec9b1afd1c08
+INFO:root:Processing entry 1: Title='Palavra de Hoje (13/11/2026)', ID=a4ea99fc380ef3c9e66554cef094a394
+INFO:root:Processing entry 2: Title='Palavra de Ontem (12/11/2026)', ID=b6a6ce572c4d5a8e87663128e6b3d6e3
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/11/2026)', ID=e89ab200c01e85434f1da90e77cf6a4b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (12/11/2026) - Significado completo de prêmio:
-INFO:root:🔹 URL: https://www.dicio.com.br/premio/
-INFO:root:🔹 Description: substantivo masculino Honra atribuída a uma pessoa que se destacou por mérito próprio.Homenagem conferida a alguém; galardão.Compensação recebida em dinheiro por um serviço prestado; recompensa.Quantia em dinheiro paga aos vencedores de um concurso, loteria, rifa.O que se oferece gratuitamente ao consumidor; brinde.[Economia] Preço pago pelo seguro que se contratou; quantia paga para que a operadora de seguros cubra um risco, sendo o valor recebido proporcional ao risco que se pretende salvaguardar.[Economia] Quantia que se paga na compra de um contrato de opção.Etimologia (origem da palavra prêmio). A palavra prêmio tem sua origem no latim "praemium,ii", com sentido de recompensa, regalia.
+INFO:root:🔹 Title: Palavra de Hoje (13/11/2026) - Significado completo de terçol:
+INFO:root:🔹 URL: https://www.dicio.com.br/tercol/
+INFO:root:🔹 Description: substantivo masculino [Medicina] Pequeno tumor inflamatório que se desenvolve na borda das pálpebras; hordéolo.Etimologia (origem da palavra terçol). A palavra terçol tem origem desconhecida; não é possível confirmar com toda a certeza a origem desta palavra.
  
 Sinônimos:
 
-brinde, bônus, galardão, homenagem, recompensa, honra, compensação, condecoração, troféu, reconhecimento, distinção, honraria, medalha, conquista 
+hordéolo, terçolho, torçol, treçó 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (11/11/2026) - Significado completo de burnout:
-INFO:root:🔹 URL: https://www.dicio.com.br/burnout/
+INFO:root:🔹 Title: Palavra de Ontem (12/11/2026) - Significado completo de prêmio:
+INFO:root:🔹 URL: https://www.dicio.com.br/premio/
 INFO:root:🔹 Description: Sinônimos:
 
-brinde, bônus, galardão, homenagem, recompensa, honra, compensação, condecoração, troféu, reconhecimento, distinção, honraria, medalha, conquista
+hordéolo, terçolho, torçol, treçó
  Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (10/11/2026) - Significado completo de foguete:
-INFO:root:🔹 URL: https://www.dicio.com.br/foguete/
+INFO:root:🔹 Title: Palavra de Anteontem (11/11/2026) - Significado completo de burnout:
+INFO:root:🔹 URL: https://www.dicio.com.br/burnout/
 INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:prê-mi-o; prê-mio
+ Sílabas:ter-çol
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,59 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 402380 characters
-INFO:root:HTML parsed, length: 389889 characters
-INFO:root:Found 1 titles: ['Apocalipse 2:4-5']
-INFO:root:Found 1 URLs: ['/versiculo/apocalipse_2_4-5/']
-INFO:root:Found 1 descriptions: ['"Contra você, porém, tenho isto: você abandonou o ']
+INFO:root:Response length: 402240 characters
+INFO:root:HTML parsed, length: 389749 characters
+INFO:root:Found 1 titles: ['2 Timóteo 2:15']
+INFO:root:Found 1 URLs: ['/versiculo/2_timoteo_2_15/']
+INFO:root:Found 1 descriptions: ['Procure apresentar-se a Deus aprovado, como obreir']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Apocalipse 2:4-5', ID=78c7ff900241c3b795d59c709aa407c8
+INFO:root:Processing entry 1: Title='2 Timóteo 2:15', ID=9b106897c643771dd4e87c6c24526824
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Apocalipse 2:4-5
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/apocalipse_2_4-5/
-INFO:root:🔹 Description: "Contra você, porém, tenho isto: você abandonou o seu primeiro amor. Lembre-se de onde caiu! Arrependa-se e pratique as obras que praticava no princípio. Se não se arrepender, virei a você e tirarei o seu candelabro do lugar dele. Apocalipse 2:4-5
+INFO:root:🔹 Title: 2 Timóteo 2:15
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_timoteo_2_15/
+INFO:root:🔹 Description: Procure apresentar-se a Deus aprovado, como obreiro que não tem do que se envergonhar e que maneja corretamente a palavra da verdade. 2 Timóteo 2:15
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 400862 characters
-INFO:root:HTML parsed, length: 389474 characters
-INFO:root:Found 3 titles: ['Salmo 48', 'Salmo 103', 'Salmo 28']
-INFO:root:Found 3 URLs: ['/salmos_48/', '/salmos_103/', '/salmos_28/']
-INFO:root:Found 3 descriptions: ['Grande é o Senhor,\ne digno de todo louvor\nna cidad', 'Bendiga o Senhor a minha alma!\nBendiga o Senhor to', 'A ti eu clamo, Senhor, minha Rocha;\nnão fiques ind']
-INFO:root:Found 3 dates: ['12 de Novembro de 2026', '11 de Novembro de 2026', '10 de Novembro de 2026']
+INFO:root:Response length: 399861 characters
+INFO:root:HTML parsed, length: 388461 characters
+INFO:root:Found 3 titles: ['Salmo 150', 'Salmo 48', 'Salmo 103']
+INFO:root:Found 3 URLs: ['/salmos_150/', '/salmos_48/', '/salmos_103/']
+INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem a Deus no seu santuário,\nlouvem-no', 'Grande é o Senhor,\ne digno de todo louvor\nna cidad', 'Bendiga o Senhor a minha alma!\nBendiga o Senhor to']
+INFO:root:Found 3 dates: ['13 de Novembro de 2026', '12 de Novembro de 2026', '11 de Novembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
-INFO:root:Processing entry 2: Title=' Salmo 103', ID=3f34ccb33feee5531a16bf49fcaecef6
-INFO:root:Processing entry 3: Title=' Salmo 28', ID=78b7dee7d237c8a96fe45379c63d7e92
+INFO:root:Processing entry 1: Title=' Salmo 150', ID=ac08b32fd918e6261dd45b1cb50d8786
+INFO:root:Processing entry 2: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
+INFO:root:Processing entry 3: Title=' Salmo 103', ID=3f34ccb33feee5531a16bf49fcaecef6
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 150
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_150/
+INFO:root:🔹 Description: Aleluia!
+Louvem a Deus no seu santuário,
+louvem-no em seu magnífico firmamento. 
+Louvem-no pelos seus feitos poderosos,
+louvem-no segundo a imensidão
+de sua grandeza! 
+Louvem-no ao som de trombeta,
+louvem-no com a lira e a harpa, 
+louvem-no com tamborins e danças,
+louvem-no com instrumentos de cordas
+e com flautas, 
+louvem-no com címbalos sonoros,
+louvem-no com címbalos ressonantes. 
+Tudo o que tem vida louve o Senhor!
+Aleluia! 
+ Salmo 150
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 48
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_48/
 INFO:root:🔹 Description: Grande é o Senhor,
@@ -173,96 +192,86 @@ em todos os lugares do seu domínio.
 Bendiga o Senhor a minha alma! 
  Salmo 103
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 28
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_28/
-INFO:root:🔹 Description: A ti eu clamo, Senhor, minha Rocha;
-não fiques indiferente para comigo.
-Se permaneceres calado,
-serei como os que descem à cova. 
-Ouve as minhas súplicas
-quando clamo a ti por socorro,
-quando ergo as mãos
-para o teu Lugar Santíssimo. 
-Não me dês o castigo reservado para os ímpios
-e para os malfeitores,
-que falam como amigos com o próximo,
-mas abrigam maldade no coração. 
-Retribui-lhes conforme os seus atos,
-conforme as suas más obras;
-retribui-lhes o que as suas mãos têm feito
-e dá-lhes o que merecem. 
-Visto que não consideram os feitos do Senhor
-nem as obras de suas mãos,
-ele os arrasará e jamais os deixará reerguer-se. 
-Bendito seja o Senhor,
-pois ouviu as minhas súplicas. 
-O Senhor é a minha força e o meu escudo;
-nele o meu coração confia, e dele recebo ajuda.
-Meu coração exulta de alegria,
-e com o meu cântico lhe darei graças. 
-O Senhor é a força do seu povo,
-a fortaleza que salva o seu ungido. 
-Salva o teu povo e abençoa a tua herança!
-Cuida deles como o seu pastor
-e conduze-os para sempre. 
- Salmo 28
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 405609 characters
-INFO:root:HTML parsed, length: 393287 characters
-INFO:root:Found 3 titles: ['Deus não deixou você sem resgatador', 'Transformação da nossa atitude diante da vida', 'Responsabilidade de ser uma bênção']
+INFO:root:Response length: 405806 characters
+INFO:root:HTML parsed, length: 393496 characters
+INFO:root:Found 3 titles: ['Jesus cabe no seu coração!', 'Deus não deixou você sem resgatador', 'Transformação da nossa atitude diante da vida']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['As mulheres disseram a Noemi: "Louvado seja o Senh', 'Seja a atitude de vocês a mesma de Cristo Jesus, q', 'Farei de você um grande povo, e o abençoarei. Torn']
-INFO:root:Found 1 dates: ['Quinta, 12 de novembro de 2026']
+INFO:root:Found 3 descriptions: ['Muitas vezes achamos que precisamos estar perfeito', 'As mulheres disseram a Noemi: "Louvado seja o Senh', 'Seja a atitude de vocês a mesma de Cristo Jesus, q']
+INFO:root:Found 1 dates: ['Sexta, 13 de novembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Deus não deixou você sem resgatador', ID=bd1329c8e731675b8cc6b5b3365047d8
+INFO:root:Processing entry 1: Title='Jesus cabe no seu coração!', ID=6871eedaa36acdf65cee3c1038d1c57f
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Deus não deixou você sem resgatador - Palavra de Hoje
+INFO:root:🔹 Title: Jesus cabe no seu coração! - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: As mulheres disseram a Noemi: "Louvado seja o Senhor, que hoje não a deixou sem resgatador! Que o seu nome seja celebrado em Israel! O menino dará a você nova vida e a sustentará na velhice, pois é filho da sua nora, que a ama e que é melhor do que sete filhos para você!"
-- Rute 4:14-15
+INFO:root:🔹 Description: Muitas vezes achamos que precisamos estar perfeitos para receber Jesus. Pensamos que Ele só cabe em corações limpos e organizados. Mas a verdade é que Jesus cabe exatamente no seu coração, do jeito que ele está agora, com dúvidas, feridas, lutas e imperfeições.
+Jesus não procura palácios. Ele entra em corações humildes, sinceros e dispostos. Ele bate à porta, mas jamais arromba. É necessário que você ouça Sua voz e decida abrir.
 
-Quando Noemi voltou de Moabe para Belém, tinha perdido o marido e os dois filhos. Pediu que ninguém mais a chamasse de Noemi, e sim de Mara (amarga). Tinha saído de mãos cheias e voltado de mãos vazias.
-No fim do livro, as mulheres de Belém voltam a rodear Noemi, agora para louvar a Deus. Noemi tem no colo um neto, filho de Rute e Boaz, e a família que parecia acabada tem futuro outra vez.
-Na lei de Israel, o resgatador era o parente que socorria uma família que tinha perdido tudo. Noemi achava que já não havia ninguém, mas Deus providenciou: primeiro Boaz, depois o menino Obede.
-As mulheres lembram também quem esteve ao lado dela o tempo todo. Era Rute, a nora que a ama e que vale mais do que sete filhos. Na noite mais escura, Noemi não estava tão sozinha quanto pensava.
-A amargura não teve a última palavra na história de Noemi, e não precisa ter na sua. Obede foi avô do rei Davi, e da família de Davi nasceu Jesus, o resgatador que Deus deu a você.
-Talvez hoje você também se sinta de mãos vazias, como Noemi na volta para Belém. Olhe com atenção para as pessoas que Deus já colocou ao seu lado e entregue a ele o que parece perdido. O Senhor não deixou você sem resgatador.
-Veja também:
+Eis que estou à porta e bato. Se alguém ouvir a minha voz e abrir a porta, entrarei e cearei com ele, e ele comigo.
+- Apocalipse 3:20 
 
-A história de Rute e Noemi: do luto em Moabe à restauração em Belém
-5 lições da vida de Rute
+Mesmo que o interior da sua vida pareça bagunçado, escuro ou sem esperança, Jesus não se intimida com isso. Pelo contrário, Ele é especialista em transformar ambientes. Quando Ele entra, a luz invade, a paz se estabelece e a esperança floresce.
+Talvez você pense: “Mas eu já errei demais.” Lembre-se de que o amor de Cristo não depende do seu histórico, mas da sua disposição em aceitá-lo hoje. Ele não veio para os justos, mas para os que reconhecem que precisam Dele. Ele não impõe condições impossíveis, Ele oferece graça, favor imerecido.
+O seu coração é exatamente o lugar que Jesus quer habitar. Ele quer caminhar com você, dia após dia, fortalecendo sua fé, curando suas feridas e dando um novo propósito à sua vida. A grande notícia é que Jesus não precisa de muito espaço, Ele só precisa de um “sim”. Um coração disposto vale mais do que mil promessas vazias.
+Hoje, Ele está batendo. Você ouve? Abra a porta. Permita que o Salvador more em você. Deixe Ele ser o seu companheiro, seu consolo, sua direção. Não importa quão cheio de problemas esteja o seu coração, há sempre espaço para Jesus. E quando Ele entra, tudo muda.
+Veja também: Reflexão sobre o amor de Deus por você
  
 A história de Rute e Noemi: do luto em Moabe à restauração em Belém
 5 lições da vida de Rute
 
  
-As mulheres disseram a Noemi: "Louvado seja o Senhor, que hoje não a deixou sem resgatador! Que o seu nome seja celebrado em Israel! O menino dará a você nova vida e a sustentará na velhice, pois é filho da sua nora, que a ama e que é melhor do que sete filhos para você!"
-- Rute 4:14-15
+Eis que estou à porta e bato. Se alguém ouvir a minha voz e abrir a porta, entrarei e cearei com ele, e ele comigo.
+- Apocalipse 3:20 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 416109 characters
-INFO:root:HTML parsed, length: 403347 characters
-INFO:root:Found 3 titles: ['Sozinho no meio de tanta gente', 'Medo do que ainda nem chegou', 'A vitória sobre a murmuração']
-INFO:root:Found 6 URLs: ['/paulo_refere-se_aos_seus_sofrimentos/', '/exemplos_de_amizade_na_biblia/', '/versiculos_para_ansiedade/']
-INFO:root:Found 3 descriptions: ['Na minha primeira defesa, ninguém apareceu para me', 'O profeta respondeu: "Não tenha medo. Aqueles que ', 'Façam tudo sem queixas nem discussões, para que ve']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n12\nQUINTA', 'NOVEMBRO\n\n11\nQUARTA', 'NOVEMBRO\n\n10\nTERÇA']
+INFO:root:Response length: 416340 characters
+INFO:root:HTML parsed, length: 403568 characters
+INFO:root:Found 3 titles: ['Equilíbrio entre a escassez e a fartura', 'Sozinho no meio de tanta gente', 'Medo do que ainda nem chegou']
+INFO:root:Found 5 URLs: ['/7_conselhos_financeiros_da_biblia/', '/paulo_refere-se_aos_seus_sofrimentos/', '/exemplos_de_amizade_na_biblia/']
+INFO:root:Found 3 descriptions: ['Mantém longe de mim a falsidade e a mentira; não m', 'Na minha primeira defesa, ninguém apareceu para me', 'O profeta respondeu: "Não tenha medo. Aqueles que ']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n13\nSEXTA', 'NOVEMBRO\n\n12\nQUINTA', 'NOVEMBRO\n\n11\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Sozinho no meio de tanta gente', ID=8ae38133a35d25c54a2dc087cbd25d34
-INFO:root:Processing entry 2: Title='Medo do que ainda nem chegou', ID=d81b75981b6c1510f10fa016c5ab0446
-INFO:root:Processing entry 3: Title='A vitória sobre a murmuração', ID=d6468f774b3c44b11412dc1736ac2a7b
+INFO:root:Processing entry 1: Title='Equilíbrio entre a escassez e a fartura', ID=c4da61064d049a2584cb3b21ccd54456
+INFO:root:Processing entry 2: Title='Sozinho no meio de tanta gente', ID=8ae38133a35d25c54a2dc087cbd25d34
+INFO:root:Processing entry 3: Title='Medo do que ainda nem chegou', ID=d81b75981b6c1510f10fa016c5ab0446
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Equilíbrio entre a escassez e a fartura
+INFO:root:🔹 URL: https://www.bibliaon.com/7_conselhos_financeiros_da_biblia/
+INFO:root:🔹 Description: Mantém longe de mim a falsidade e a mentira; não me dês nem pobreza nem riqueza; dá-me apenas o alimento necessário. Se não, tendo demais, eu te negaria e te deixaria, e diria: 'Quem é o Senhor?' Se eu ficasse pobre, poderia vir a roubar, desonrando assim o nome do meu Deus.
+- Provérbios 30:8-9
+
+Quase não sabemos nada sobre Agur, o autor deste capítulo de Provérbios. Sabemos o nome dele, o nome do pai e esta oração curta, em que pede duas coisas a Deus antes de morrer.
+A primeira é ficar longe da falsidade e da mentira, e esse pedido não está ali por acaso. O dinheiro é uma das áreas em que mais mentimos: escondemos gastos, aumentamos o que temos para impressionar, diminuímos para não ajudar.
+A segunda surpreende: ele pede para não ser pobre nem rico, só para ter o alimento necessário, o suficiente para cada dia.
+Agur conhece o próprio coração. Sabe que, com dinheiro demais, poderia esquecer de Deus e perguntar "Quem é o Senhor?". E sabe que, sem nada, poderia ser tentado a roubar e envergonhar o nome de Deus.
+Os dois extremos têm o mesmo perigo: afastar o coração da confiança diária em Deus. Na fartura, achamos que não precisamos dele e a oração vira formalidade. Na falta, achamos que ele não vai chegar a tempo.
+Jesus ensinou os discípulos a pedir o pão de cada dia, e a oração de Agur vai na mesma direção. Ele não pede miséria nem luxo. Pede uma vida em que o dinheiro serve, e em que Deus continua sendo quem sustenta.
+Séculos depois, Paulo contou aos filipenses que tinha aprendido a viver contente tanto na necessidade quanto na fartura (Filipenses 4:12). Para ele, o contentamento se aprende com o tempo, como qualquer outra lição da fé.
+Talvez você esteja num tempo de aperto, fazendo contas para chegar ao fim do mês. Ou talvez as coisas estejam indo bem e a oração tenha ficado mais rara. Nos dois casos, a oração de Agur pode ser a sua hoje.
+Peça a Deus o suficiente para hoje
+
+Faça a oração de Agur em voz alta, com as suas palavras, antes de abrir o aplicativo do banco.
+Escolha um gasto desta semana que serve mais para impressionar do que para viver, e corte.
+Se o mês está apertado, conte a Deus exatamente o que falta. Depois fale com alguém de confiança na sua igreja.
+Se está sobrando, separe hoje uma parte para ajudar alguém que está passando necessidade.
+
+Para orar:
+
+Senhor, tu sabes o que eu tenho e o que me falta. Livra-me da mentira e livra-me de esquecer de ti, seja na fartura, seja no aperto. Dá-me o pão de hoje e um coração agradecido por ele. Em nome de Jesus, amém.
+
+Para hoje: 11 versículos sobre vida financeira abençoada
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Sozinho no meio de tanta gente
 INFO:root:🔹 URL: https://www.bibliaon.com/paulo_refere-se_aos_seus_sofrimentos/
 INFO:root:🔹 Description: Na minha primeira defesa, ninguém apareceu para me apoiar; todos me abandonaram. Que isso não lhes seja cobrado. Mas o Senhor permaneceu ao meu lado e me deu forças, para que por mim a mensagem fosse plenamente proclamada e todos os gentios a ouvissem. E eu fui libertado da boca do leão.
@@ -319,32 +328,6 @@ Veja também:
 8 versículos para ajudar a acalmar a ansiedade
 7 soluções para nos livrar da ansiedade segundo a Bíblia
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: A vitória sobre a murmuração
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_ansiedade/
-INFO:root:🔹 Description: Façam tudo sem queixas nem discussões, para que venham a tornar-se puros e irrepreensíveis, filhos de Deus inculpáveis no meio de uma geração corrompida e depravada, na qual vocês brilham como estrelas no universo
-- Filipenses 2:14-15
-
-Paulo escreveu esta carta da prisão, sem saber se ia sair dali com vida. Mesmo assim, é dele o pedido para fazer tudo sem queixas nem discussões. Quem escreve isso é um homem preso que, poucas linhas depois, conta aos amigos que está alegre.
-A queixa tem um jeito silencioso de tomar conta do dia. Reclamamos do trânsito, do chefe, do preço das coisas e até da igreja, muitas vezes sem perceber quantas vezes fizemos isso antes do almoço. As discussões costumam vir logo atrás.
-Paulo escolhe as palavras com cuidado. A expressão "geração corrompida e depravada" vem do cântico de Moisés (Deuteronômio 32:5), que fala do povo de Israel. No deserto, esse povo reclamou da comida, da água e de Moisés, mesmo depois de ter visto o mar se abrir diante dele.
-Os cristãos de Filipos não precisavam repetir aquela história. Um versículo antes, Paulo lembra que é Deus quem trabalha neles, tanto no querer como no fazer. A mudança que ele pede não depende só de força de vontade.
-No meio de um mundo cansado de queixas, quem confia em Deus e para de reclamar brilha como estrela no céu escuro. Paulo brilhava assim de dentro de uma prisão. Você pode brilhar assim no trabalho, no trânsito e na mesa de casa.
-Troque a queixa por uma palavra que ajude
-
-Hoje, conte quantas vezes você reclama até a hora do almoço. Perceber o hábito já é o primeiro passo para mudar.
-Quando sentir vontade de reclamar de alguém, conte primeiro a Deus, em oração, o que está pesando. Depois decida se ainda precisa falar com a pessoa.
-Se existe uma discussão aberta em casa ou no trabalho, dê hoje um passo para encerrá-la com calma, mesmo que a culpa não seja só sua.
-Antes de dormir, escreva três coisas pelas quais você pode agradecer neste dia, mesmo que tenha sido um dia ruim.
-
-Para orar:
-
-Senhor, eu reclamo mais do que percebo e agradeço menos do que devia. Perdoa as queixas que espalhei e as discussões que alimentei sem necessidade. Ensina-me a confiar em ti como Paulo confiou na prisão, para que as pessoas perto de mim vejam a tua luz. Em nome de Jesus, amém.
-
-Veja também:
-
-Oração de agradecimento a Deus
-Estudo bíblico sobre gratidão (com exemplos)
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -374,15 +357,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  56 +++---
- feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  29 +--
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 +++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  24 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  16 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  69 ++++---
+ feeds/salmo_do_dia/atom.xml               |  51 +++---
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   5 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 291 +++++++++++++++---------------
- 11 files changed, 269 insertions(+), 263 deletions(-)
+ output.log                                | 247 +++++++++++++-----------------
+ 11 files changed, 201 insertions(+), 247 deletions(-)
