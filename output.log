@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 225909 characters
-INFO:root:HTML parsed, length: 201825 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (13/11/2026)', 'Palavra de Ontem (12/11/2026)', 'Palavra de Anteontem (11/11/2026)']
-INFO:root:Found 3 URLs: ['/tercol/', '/premio/', '/burnout/']
-INFO:root:Found 12 descriptions: ['substantivo masculino [Medicina] Pequeno tumor inf', 'Sinônimos:\n\nhordéolo, terçolho, torçol, treçó', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (13/11/2026)', 'Palavra de Ontem (12/11/2026)', 'Palavra de Anteontem (11/11/2026)']
+INFO:root:Response length: 226065 characters
+INFO:root:HTML parsed, length: 201981 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (14/11/2026)', 'Palavra de Ontem (13/11/2026)', 'Palavra de Anteontem (12/11/2026)']
+INFO:root:Found 3 URLs: ['/neoplasma/', '/tercol/', '/premio/']
+INFO:root:Found 13 descriptions: ['substantivo masculino [Anatomia] Crescimento fora ', 'Sinônimos:\n\ntumor, neoplasia', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (14/11/2026)', 'Palavra de Ontem (13/11/2026)', 'Palavra de Anteontem (12/11/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (13/11/2026)', ID=a4ea99fc380ef3c9e66554cef094a394
-INFO:root:Processing entry 2: Title='Palavra de Ontem (12/11/2026)', ID=b6a6ce572c4d5a8e87663128e6b3d6e3
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (11/11/2026)', ID=e89ab200c01e85434f1da90e77cf6a4b
+INFO:root:Processing entry 1: Title='Palavra de Hoje (14/11/2026)', ID=12cd0bb3cc6770e77f7850e7bc483202
+INFO:root:Processing entry 2: Title='Palavra de Ontem (13/11/2026)', ID=148a7d1d01741f440e98a3f339346cbf
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/11/2026)', ID=7918c070918ac2360de026a873b12250
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (13/11/2026) - Significado completo de terçol:
-INFO:root:🔹 URL: https://www.dicio.com.br/tercol/
-INFO:root:🔹 Description: substantivo masculino [Medicina] Pequeno tumor inflamatório que se desenvolve na borda das pálpebras; hordéolo.Etimologia (origem da palavra terçol). A palavra terçol tem origem desconhecida; não é possível confirmar com toda a certeza a origem desta palavra.
+INFO:root:🔹 Title: Palavra de Hoje (14/11/2026) - Significado completo de neoplasma:
+INFO:root:🔹 URL: https://www.dicio.com.br/neoplasma/
+INFO:root:🔹 Description: substantivo masculino [Anatomia] Crescimento fora do normal, sem controle e progressivo de tecido, caracterizado por ocorrer através da proliferação celular; tumor benigno ou maligno.Etimologia (origem da palavra neoplasma). A palavra neoplasma tem sua origem pela junção do prefixo neo-, do grego "néos", que significa novo, e plasma, do grego idêntico, com sentido de algo modelado.
  
 Sinônimos:
 
-hordéolo, terçolho, torçol, treçó 
+tumor, neoplasia 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (12/11/2026) - Significado completo de prêmio:
-INFO:root:🔹 URL: https://www.dicio.com.br/premio/
+INFO:root:🔹 Title: Palavra de Ontem (13/11/2026) - Significado completo de terçol:
+INFO:root:🔹 URL: https://www.dicio.com.br/tercol/
 INFO:root:🔹 Description: Sinônimos:
 
-hordéolo, terçolho, torçol, treçó
- Classe gramatical:substantivo masculino
+tumor, neoplasia
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (11/11/2026) - Significado completo de burnout:
-INFO:root:🔹 URL: https://www.dicio.com.br/burnout/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:ter-çol
+INFO:root:🔹 Title: Palavra de Anteontem (12/11/2026) - Significado completo de prêmio:
+INFO:root:🔹 URL: https://www.dicio.com.br/premio/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:ne-o-plas-ma
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,62 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 402240 characters
-INFO:root:HTML parsed, length: 389749 characters
-INFO:root:Found 1 titles: ['2 Timóteo 2:15']
-INFO:root:Found 1 URLs: ['/versiculo/2_timoteo_2_15/']
-INFO:root:Found 1 descriptions: ['Procure apresentar-se a Deus aprovado, como obreir']
+INFO:root:Response length: 402555 characters
+INFO:root:HTML parsed, length: 390064 characters
+INFO:root:Found 1 titles: ['Mateus 26:36-39']
+INFO:root:Found 1 URLs: ['/versiculo/mateus_26_36-39/']
+INFO:root:Found 1 descriptions: ['Então Jesus foi com seus discípulos para um lugar ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='2 Timóteo 2:15', ID=9b106897c643771dd4e87c6c24526824
+INFO:root:Processing entry 1: Title='Mateus 26:36-39', ID=218deb89970f27bcbc6fea29d813a2b8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: 2 Timóteo 2:15
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/2_timoteo_2_15/
-INFO:root:🔹 Description: Procure apresentar-se a Deus aprovado, como obreiro que não tem do que se envergonhar e que maneja corretamente a palavra da verdade. 2 Timóteo 2:15
+INFO:root:🔹 Title: Mateus 26:36-39
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_26_36-39/
+INFO:root:🔹 Description: Então Jesus foi com seus discípulos para um lugar chamado Getsêmani e lhes disse: "Sentem-se aqui enquanto vou ali orar". Indo um pouco mais adiante, prostrou-se com o rosto em terra e orou: "Meu Pai, se for possível, afasta de mim este cálice; contudo, não seja como eu quero, mas sim como tu queres". Mateus 26:36-39
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 399861 characters
-INFO:root:HTML parsed, length: 388461 characters
-INFO:root:Found 3 titles: ['Salmo 150', 'Salmo 48', 'Salmo 103']
-INFO:root:Found 3 URLs: ['/salmos_150/', '/salmos_48/', '/salmos_103/']
-INFO:root:Found 3 descriptions: ['Aleluia!\nLouvem a Deus no seu santuário,\nlouvem-no', 'Grande é o Senhor,\ne digno de todo louvor\nna cidad', 'Bendiga o Senhor a minha alma!\nBendiga o Senhor to']
-INFO:root:Found 3 dates: ['13 de Novembro de 2026', '12 de Novembro de 2026', '11 de Novembro de 2026']
+INFO:root:Response length: 398664 characters
+INFO:root:HTML parsed, length: 387247 characters
+INFO:root:Found 3 titles: ['Salmo 23', 'Salmo 150', 'Salmo 48']
+INFO:root:Found 3 URLs: ['/salmos_23/', '/salmos_150/', '/salmos_48/']
+INFO:root:Found 3 descriptions: ['O Senhor é o meu pastor; de nada terei falta. \nEm ', 'Aleluia!\nLouvem a Deus no seu santuário,\nlouvem-no', 'Grande é o Senhor,\ne digno de todo louvor\nna cidad']
+INFO:root:Found 3 dates: ['14 de Novembro de 2026', '13 de Novembro de 2026', '12 de Novembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 150', ID=ac08b32fd918e6261dd45b1cb50d8786
-INFO:root:Processing entry 2: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
-INFO:root:Processing entry 3: Title=' Salmo 103', ID=3f34ccb33feee5531a16bf49fcaecef6
+INFO:root:Processing entry 1: Title=' Salmo 23', ID=55cf3da6e8cae97ccf3b295406df8fc3
+INFO:root:Processing entry 2: Title=' Salmo 150', ID=ac08b32fd918e6261dd45b1cb50d8786
+INFO:root:Processing entry 3: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 23
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_23/
+INFO:root:🔹 Description: O Senhor é o meu pastor; de nada terei falta. 
+Em verdes pastagens me faz repousar
+e me conduz a águas tranquilas; 
+restaura-me o vigor.
+Guia-me nas veredas da justiça
+por amor do seu nome. 
+Mesmo quando eu andar
+por um vale de trevas e morte,
+não temerei perigo algum, pois tu estás comigo;
+a tua vara e o teu cajado me protegem. 
+Preparas um banquete para mim
+à vista dos meus inimigos.
+Tu me honras,
+ungindo a minha cabeça com óleo
+e fazendo transbordar o meu cálice. 
+Sei que a bondade e a fidelidade
+me acompanharão todos os dias da minha vida,
+e voltarei à casa do Senhor enquanto eu viver. 
+ Salmo 23
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 150
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_150/
 INFO:root:🔹 Description: Aleluia!
@@ -137,117 +159,91 @@ para todo o sempre;
 ele será o nosso guia até o fim. 
  Salmo 48
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 103
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_103/
-INFO:root:🔹 Description: Bendiga o Senhor a minha alma!
-Bendiga o Senhor todo o meu ser! 
-Bendiga o Senhor a minha alma!
-Não esqueça nenhuma de suas bênçãos! 
-É ele que perdoa todos os seus pecados
-e cura todas as suas doenças, 
-que resgata a sua vida da sepultura
-e o coroa de bondade e compaixão, 
-que enche de bens a sua existência,
-de modo que a sua juventude
-se renova como a águia. 
-O Senhor faz justiça
-e defende a causa dos oprimidos. 
-Ele manifestou os seus caminhos a Moisés;
-os seus feitos, aos israelitas. 
-O Senhor é compassivo e misericordioso,
-mui paciente e cheio de amor. 
-Não acusa sem cessar
-nem fica ressentido para sempre; 
-não nos trata conforme os nossos pecados
-nem nos retribui conforme as nossas iniquidades. 
-Pois como os céus se elevam acima da terra,
-assim é grande o seu amor
-para com os que o temem; 
-e como o Oriente está longe do Ocidente,
-assim ele afasta para longe de nós
-as nossas transgressões. 
-Como um pai tem compaixão de seus filhos,
-assim o Senhor
-tem compaixão dos que o temem; 
-pois ele sabe do que somos formados;
-lembra-se de que somos pó. 
-A vida do homem é semelhante à relva;
-ele floresce como a flor do campo, 
-que se vai quando sopra o vento;
-tampouco se sabe mais o lugar que ocupava. 
-Mas o amor leal do Senhor,
-o seu amor eterno, está com os que o temem
-e a sua justiça com os filhos dos seus filhos, 
-com os que guardam a sua aliança
-e se lembram de obedecer aos seus preceitos. 
-O Senhor estabeleceu o seu trono nos céus,
-e como rei domina sobre tudo o que existe. 
-Bendigam o Senhor,
-vocês, seus anjos poderosos,
-que obedecem à sua palavra. 
-Bendigam o Senhor todos os seus exércitos,
-vocês, seus servos, que cumprem a sua vontade. 
-Bendigam o Senhor todas as suas obras
-em todos os lugares do seu domínio.
-Bendiga o Senhor a minha alma! 
- Salmo 103
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 405806 characters
-INFO:root:HTML parsed, length: 393496 characters
-INFO:root:Found 3 titles: ['Jesus cabe no seu coração!', 'Deus não deixou você sem resgatador', 'Transformação da nossa atitude diante da vida']
+INFO:root:Response length: 405648 characters
+INFO:root:HTML parsed, length: 393330 characters
+INFO:root:Found 3 titles: ['Brilhe como o sol', 'Jesus cabe no seu coração!', 'Deus não deixou você sem resgatador']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Muitas vezes achamos que precisamos estar perfeito', 'As mulheres disseram a Noemi: "Louvado seja o Senh', 'Seja a atitude de vocês a mesma de Cristo Jesus, q']
-INFO:root:Found 1 dates: ['Sexta, 13 de novembro de 2026']
+INFO:root:Found 3 descriptions: ['Você é uma luz brilhante no Senhor!\nAssim como o s', 'Muitas vezes achamos que precisamos estar perfeito', 'As mulheres disseram a Noemi: "Louvado seja o Senh']
+INFO:root:Found 1 dates: ['Sábado, 14 de novembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jesus cabe no seu coração!', ID=6871eedaa36acdf65cee3c1038d1c57f
+INFO:root:Processing entry 1: Title='Brilhe como o sol', ID=8c10f84bdf324db58582d8530f290a4b
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jesus cabe no seu coração! - Palavra de Hoje
+INFO:root:🔹 Title: Brilhe como o sol - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Muitas vezes achamos que precisamos estar perfeitos para receber Jesus. Pensamos que Ele só cabe em corações limpos e organizados. Mas a verdade é que Jesus cabe exatamente no seu coração, do jeito que ele está agora, com dúvidas, feridas, lutas e imperfeições.
-Jesus não procura palácios. Ele entra em corações humildes, sinceros e dispostos. Ele bate à porta, mas jamais arromba. É necessário que você ouça Sua voz e decida abrir.
+INFO:root:🔹 Description: Você é uma luz brilhante no Senhor!
+Assim como o sol, acorde disposto a brilhar hoje. Levante-se com a força e o vigor que procedem do seu Criador todo-poderoso! Ilumine todos à sua volta, mesmo aqueles que não reconhecem o brilho de Cristo em você.
+E, se alguma nuvem escura tentar se impor diante de ti, nunca pare de brilhar e refletir o amor de Deus. As tempestades vêm e vão, mas o sol nunca deixa de dar a sua luz e calor. Não pela sua própria iniciativa, mas pela vontade de Deus, que o chamou para ser luz! Pense nisso...
 
-Eis que estou à porta e bato. Se alguém ouvir a minha voz e abrir a porta, entrarei e cearei com ele, e ele comigo.
-- Apocalipse 3:20 
 
-Mesmo que o interior da sua vida pareça bagunçado, escuro ou sem esperança, Jesus não se intimida com isso. Pelo contrário, Ele é especialista em transformar ambientes. Quando Ele entra, a luz invade, a paz se estabelece e a esperança floresce.
-Talvez você pense: “Mas eu já errei demais.” Lembre-se de que o amor de Cristo não depende do seu histórico, mas da sua disposição em aceitá-lo hoje. Ele não veio para os justos, mas para os que reconhecem que precisam Dele. Ele não impõe condições impossíveis, Ele oferece graça, favor imerecido.
-O seu coração é exatamente o lugar que Jesus quer habitar. Ele quer caminhar com você, dia após dia, fortalecendo sua fé, curando suas feridas e dando um novo propósito à sua vida. A grande notícia é que Jesus não precisa de muito espaço, Ele só precisa de um “sim”. Um coração disposto vale mais do que mil promessas vazias.
-Hoje, Ele está batendo. Você ouve? Abra a porta. Permita que o Salvador more em você. Deixe Ele ser o seu companheiro, seu consolo, sua direção. Não importa quão cheio de problemas esteja o seu coração, há sempre espaço para Jesus. E quando Ele entra, tudo muda.
-Veja também: Reflexão sobre o amor de Deus por você
+Vocês são a luz do mundo. Não se pode esconder uma cidade situada no alto de um monte.
+Mateus 5:14 
+
+Em Mateus 5:14, assim como uma cidade no topo de uma colina é visível para todos, somos chamados a brilhar com a luz do amor e da verdade de Cristo. Essa luz não pode ser escondida; ela deve iluminar as trevas ao nosso redor.
+Ao aceitar a Cristo, nos tornamos portadores dessa luz transformadora. Cada ação, palavra e atitude deve refletir a glória de Deus, guiando outros pelo caminho da salvação.
+Que nossas vidas resplandeçam com a luz da fé, esperança e caridade, atraindo corações para o Salvador. Sejamos faróis de esperança em um mundo muitas vezes envolto em escuridão, compartilhando a mensagem redentora que nos foi confiada. Que a luz de Cristo que emana de nós, glorifique o Pai nos céus e inspire mudanças ao nosso redor.
+Leia mais: "O Senhor é sol e escudo" em Deus incomparável
  
 A história de Rute e Noemi: do luto em Moabe à restauração em Belém
 5 lições da vida de Rute
 
  
-Eis que estou à porta e bato. Se alguém ouvir a minha voz e abrir a porta, entrarei e cearei com ele, e ele comigo.
-- Apocalipse 3:20 
+Vocês são a luz do mundo. Não se pode esconder uma cidade situada no alto de um monte.
+Mateus 5:14 
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 416340 characters
-INFO:root:HTML parsed, length: 403568 characters
-INFO:root:Found 3 titles: ['Equilíbrio entre a escassez e a fartura', 'Sozinho no meio de tanta gente', 'Medo do que ainda nem chegou']
-INFO:root:Found 5 URLs: ['/7_conselhos_financeiros_da_biblia/', '/paulo_refere-se_aos_seus_sofrimentos/', '/exemplos_de_amizade_na_biblia/']
-INFO:root:Found 3 descriptions: ['Mantém longe de mim a falsidade e a mentira; não m', 'Na minha primeira defesa, ninguém apareceu para me', 'O profeta respondeu: "Não tenha medo. Aqueles que ']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n13\nSEXTA', 'NOVEMBRO\n\n12\nQUINTA', 'NOVEMBRO\n\n11\nQUARTA']
+INFO:root:Response length: 416046 characters
+INFO:root:HTML parsed, length: 403263 characters
+INFO:root:Found 3 titles: ['A palavra que desvia a fúria', 'Equilíbrio entre a escassez e a fartura', 'Sozinho no meio de tanta gente']
+INFO:root:Found 5 URLs: ['/abigail/', '/conselhos_para_resolver_conflitos/', '/7_conselhos_financeiros_da_biblia/']
+INFO:root:Found 3 descriptions: ['Davi disse a Abigail: "Bendito seja o Senhor, o De', 'Mantém longe de mim a falsidade e a mentira; não m', 'Na minha primeira defesa, ninguém apareceu para me']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n14\nSÁBADO', 'NOVEMBRO\n\n13\nSEXTA', 'NOVEMBRO\n\n12\nQUINTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Equilíbrio entre a escassez e a fartura', ID=c4da61064d049a2584cb3b21ccd54456
-INFO:root:Processing entry 2: Title='Sozinho no meio de tanta gente', ID=8ae38133a35d25c54a2dc087cbd25d34
-INFO:root:Processing entry 3: Title='Medo do que ainda nem chegou', ID=d81b75981b6c1510f10fa016c5ab0446
+INFO:root:Processing entry 1: Title='A palavra que desvia a fúria', ID=15f19b902883736fb3b8b6bb09109d4d
+INFO:root:Processing entry 2: Title='Equilíbrio entre a escassez e a fartura', ID=c4da61064d049a2584cb3b21ccd54456
+INFO:root:Processing entry 3: Title='Sozinho no meio de tanta gente', ID=8ae38133a35d25c54a2dc087cbd25d34
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: A palavra que desvia a fúria
+INFO:root:🔹 URL: https://www.bibliaon.com/abigail/
+INFO:root:🔹 Description: Davi disse a Abigail: "Bendito seja o Senhor, o Deus de Israel, que hoje a enviou ao meu encontro. Seja você abençoada pelo seu bom senso e por evitar que eu hoje derrame sangue e me vingue com minhas próprias mãos".
+- 1 Samuel 25:32-33
+
+Davi ainda não era rei e vivia fugindo de Saul com cerca de seiscentos homens. No deserto, eles tinham protegido os pastores de um homem rico chamado Nabal. Quando chegou a época da tosquia das ovelhas, Davi mandou pedir um pouco de comida.
+Nabal respondeu com desprezo: "Quem é Davi?" Davi ficou furioso, mandou os homens pegarem as espadas e partiu com quatrocentos deles para acabar com a casa de Nabal.
+Um dos servos contou tudo a Abigail, a mulher de Nabal. Ela juntou depressa pão, vinho, carne e frutas e foi ao encontro de Davi. Quando o viu, desceu do jumento, prostrou-se com o rosto em terra e assumiu a culpa que nem era dela.
+Abigail falou com calma e humildade. Lembrou Davi de quem ele era diante de Deus e do peso que seria chegar ao trono com sangue inocente nas mãos.
+A resposta de Davi é o versículo de hoje. Ele louva a Deus por ter enviado Abigail e a abençoa pelo bom senso, porque ela o impediu de se vingar.
+Cerca de dez dias depois, Nabal morreu, e Davi reconheceu que o Senhor tinha defendido a sua causa sem que ele precisasse levantar a espada. Uma palavra calma, dita na hora certa, pode impedir alguém de fazer algo de que se arrependeria pelo resto da vida.
+Todos nós já estivemos no lugar de Davi, a um passo de dizer ou fazer algo no calor da raiva. E todos podemos ser Abigail para alguém: a voz calma que chega antes da explosão.
+Seja hoje a voz que acalma
+
+Antes de responder com raiva, espere um pouco e ore em silêncio. Davi precisou de alguém que o fizesse parar.
+Se alguém perto de você está a ponto de explodir, aproxime-se com calma e ouça antes de dar conselhos.
+Quando errar no tom, peça desculpas logo, sem esperar que o outro peça primeiro.
+Agradeça a Deus pelas pessoas que já impediram você de cometer um erro no calor do momento.
+
+Para orar:
+
+Senhor, tu conheces a raiva que às vezes cresce em mim. Obrigado pelas pessoas que puseste no meu caminho para me fazer parar. Dá-me bom senso para ouvir e palavras calmas para acalmar quem está perto de mim. Em nome de Jesus, amém.
+
+Veja também:
+
+Abigail na Bíblia: a história da esposa de Nabal e de Davi
+7 conselhos da Bíblia para resolver conflitos
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Equilíbrio entre a escassez e a fartura
-INFO:root:🔹 URL: https://www.bibliaon.com/7_conselhos_financeiros_da_biblia/
+INFO:root:🔹 URL: https://www.bibliaon.com/conselhos_para_resolver_conflitos/
 INFO:root:🔹 Description: Mantém longe de mim a falsidade e a mentira; não me dês nem pobreza nem riqueza; dá-me apenas o alimento necessário. Se não, tendo demais, eu te negaria e te deixaria, e diria: 'Quem é o Senhor?' Se eu ficasse pobre, poderia vir a roubar, desonrando assim o nome do meu Deus.
 - Provérbios 30:8-9
 
@@ -273,7 +269,7 @@ Senhor, tu sabes o que eu tenho e o que me falta. Livra-me da mentira e livra-me
 Para hoje: 11 versículos sobre vida financeira abençoada
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Sozinho no meio de tanta gente
-INFO:root:🔹 URL: https://www.bibliaon.com/paulo_refere-se_aos_seus_sofrimentos/
+INFO:root:🔹 URL: https://www.bibliaon.com/7_conselhos_financeiros_da_biblia/
 INFO:root:🔹 Description: Na minha primeira defesa, ninguém apareceu para me apoiar; todos me abandonaram. Que isso não lhes seja cobrado. Mas o Senhor permaneceu ao meu lado e me deu forças, para que por mim a mensagem fosse plenamente proclamada e todos os gentios a ouvissem. E eu fui libertado da boca do leão.
 - 2 Timóteo 4:16-17
 
@@ -300,33 +296,6 @@ Veja também:
 
 Os 10 piores sofrimentos de Paulo
 7 exemplos de amizade na Bíblia (e o que cada um ensina)
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Medo do que ainda nem chegou
-INFO:root:🔹 URL: https://www.bibliaon.com/exemplos_de_amizade_na_biblia/
-INFO:root:🔹 Description: O profeta respondeu: "Não tenha medo. Aqueles que estão conosco são mais numerosos do que eles". E Eliseu orou: "Senhor, abre os olhos dele para que veja". Então o Senhor abriu os olhos do rapaz, que olhou e viu as colinas cheias de cavalos e carros de fogo ao redor de Eliseu.
-- 2 Reis 6:16-17
-
-O rei da Síria estava furioso com Eliseu, porque o profeta avisava o rei de Israel de cada movimento do exército inimigo. Descobriu que ele estava na cidade de Dotã e mandou para lá, de noite, uma grande tropa com cavalos e carros de guerra.
-De manhã cedo, o servo de Eliseu saiu de casa e viu a cidade cercada. A reação dele é a de qualquer um de nós: "Ah, meu senhor! O que faremos?" Ainda não tinha acontecido nada. Mas o medo já tinha escrito o resto da história na cabeça dele.
-Grande parte do medo que carregamos é assim. É a demissão que talvez venha, o exame que ainda não saiu, a conversa difícil que por enquanto só existe na nossa imaginação. Olhamos para o que pode acontecer e já sofremos hoje uma batalha que nem começou.
-Eliseu não minimiza o perigo, porque o exército estava mesmo lá. Ele faz outra conta: os que estão com eles são mais numerosos. E depois ora: "Senhor, abre os olhos dele para que veja".
-O medo enxerga só o que está à nossa frente, e Deus convida a ver também quem está ao nosso redor. Quando os olhos do servo se abrem, as colinas estão cheias de cavalos e carros de fogo. Eles já estavam lá antes de ele acordar.
-O fim da história surpreende. Deus fere os soldados de cegueira, Eliseu os leva até o rei de Israel, e o rei, em vez de matá-los, oferece um banquete e os manda para casa. Não houve batalha nenhuma, e aquilo que o servo mais temia nunca chegou a acontecer.
-Peça a Deus olhos para ver quem está com você
-
-Escreva o que você está com medo que aconteça e marque o que já é real hoje e o que ainda é só possibilidade.
-Faça a oração de Eliseu por você mesmo, com as suas palavras: Senhor, abre os meus olhos para eu ver que não estou sozinho.
-Quando o pensamento ansioso voltar ao longo do dia, troque a pergunta "e se acontecer?" por "se acontecer, quem estará comigo?".
-Conte para uma pessoa de confiança o que você está temendo. Às vezes Deus abre os nossos olhos pela voz de alguém, como fez com o servo por meio de Eliseu.
-
-Para orar:
-
-Senhor, eu tenho olhado tanto para o que pode dar errado que esqueci de olhar para ti. Abre os meus olhos, como abriste os olhos daquele servo, para que eu veja que estás comigo antes de qualquer batalha. Tira de mim o medo do que ainda nem chegou. Em nome de Jesus, amém.
-
-Veja também:
-
-8 versículos para ajudar a acalmar a ansiedade
-7 soluções para nos livrar da ansiedade segundo a Bíblia
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -357,15 +326,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  50 +++---
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  53 +++---
+ feeds/devocional_de_hoje/feed.json        |  16 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  23 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  51 +++---
+ feeds/salmo_do_dia/atom.xml               |  75 +++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 247 +++++++++++++-----------------
- 11 files changed, 201 insertions(+), 247 deletions(-)
+ output.log                                | 281 +++++++++++++-----------------
+ 11 files changed, 219 insertions(+), 293 deletions(-)
