@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 226065 characters
-INFO:root:HTML parsed, length: 201981 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (14/11/2026)', 'Palavra de Ontem (13/11/2026)', 'Palavra de Anteontem (12/11/2026)']
-INFO:root:Found 3 URLs: ['/neoplasma/', '/tercol/', '/premio/']
-INFO:root:Found 13 descriptions: ['substantivo masculino [Anatomia] Crescimento fora ', 'Sinônimos:\n\ntumor, neoplasia', 'Classe gramatical:substantivo feminino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (14/11/2026)', 'Palavra de Ontem (13/11/2026)', 'Palavra de Anteontem (12/11/2026)']
+INFO:root:Response length: 225348 characters
+INFO:root:HTML parsed, length: 201334 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (15/11/2026)', 'Palavra de Ontem (14/11/2026)', 'Palavra de Anteontem (13/11/2026)']
+INFO:root:Found 3 URLs: ['/dose/', '/neoplasma/', '/tercol/']
+INFO:root:Found 13 descriptions: ['substantivo feminino Quantidade determinada de um ', 'Sinônimos:\n\nporção, dosagem, cota, prescrição, qua', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (15/11/2026)', 'Palavra de Ontem (14/11/2026)', 'Palavra de Anteontem (13/11/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (14/11/2026)', ID=12cd0bb3cc6770e77f7850e7bc483202
-INFO:root:Processing entry 2: Title='Palavra de Ontem (13/11/2026)', ID=148a7d1d01741f440e98a3f339346cbf
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (12/11/2026)', ID=7918c070918ac2360de026a873b12250
+INFO:root:Processing entry 1: Title='Palavra de Hoje (15/11/2026)', ID=ba39f0f9054df6bb679580788d9afc80
+INFO:root:Processing entry 2: Title='Palavra de Ontem (14/11/2026)', ID=187370b7c5e16c3d1805ca35c8be4e1d
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (13/11/2026)', ID=4404862928b37c21ade471b20fbc5126
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (14/11/2026) - Significado completo de neoplasma:
-INFO:root:🔹 URL: https://www.dicio.com.br/neoplasma/
-INFO:root:🔹 Description: substantivo masculino [Anatomia] Crescimento fora do normal, sem controle e progressivo de tecido, caracterizado por ocorrer através da proliferação celular; tumor benigno ou maligno.Etimologia (origem da palavra neoplasma). A palavra neoplasma tem sua origem pela junção do prefixo neo-, do grego "néos", que significa novo, e plasma, do grego idêntico, com sentido de algo modelado.
+INFO:root:🔹 Title: Palavra de Hoje (15/11/2026) - Significado completo de dose:
+INFO:root:🔹 URL: https://www.dicio.com.br/dose/
+INFO:root:🔹 Description: substantivo feminino Quantidade determinada de um medicamento que se toma de uma vez, sendo essa medida prescrita e predeterminada.Quantidade ou porção do que entra em uma composição de um composto químico, remédio, medicamento.[Figurado] Quantidade de um todo; cota, porção: ter uma grande dose de paciência.[Genética] Valor completo das cópias de um gene determinado que faz parte, está presente ou existe no genoma; dosagem.Etimologia (origem da palavra dose). A palavra dose tem sua origem no grego “dósis”; pelo latim “dosis”; pelo francês “dose”, com o mesmo sentido.
  
 Sinônimos:
 
-tumor, neoplasia 
+porção, dosagem, cota, prescrição, quantidade, recipiente, remédio, unidade 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (13/11/2026) - Significado completo de terçol:
-INFO:root:🔹 URL: https://www.dicio.com.br/tercol/
+INFO:root:🔹 Title: Palavra de Ontem (14/11/2026) - Significado completo de neoplasma:
+INFO:root:🔹 URL: https://www.dicio.com.br/neoplasma/
 INFO:root:🔹 Description: Sinônimos:
 
-tumor, neoplasia
+porção, dosagem, cota, prescrição, quantidade, recipiente, remédio, unidade
  Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (12/11/2026) - Significado completo de prêmio:
-INFO:root:🔹 URL: https://www.dicio.com.br/premio/
+INFO:root:🔹 Title: Palavra de Anteontem (13/11/2026) - Significado completo de terçol:
+INFO:root:🔹 URL: https://www.dicio.com.br/tercol/
 INFO:root:🔹 Description: Classe gramatical:substantivo feminino
- Sílabas:ne-o-plas-ma
+ Sílabas:do-se
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,91 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 402555 characters
-INFO:root:HTML parsed, length: 390064 characters
-INFO:root:Found 1 titles: ['Mateus 26:36-39']
-INFO:root:Found 1 URLs: ['/versiculo/mateus_26_36-39/']
-INFO:root:Found 1 descriptions: ['Então Jesus foi com seus discípulos para um lugar ']
+INFO:root:Response length: 402215 characters
+INFO:root:HTML parsed, length: 389724 characters
+INFO:root:Found 1 titles: ['Filipenses 4:6']
+INFO:root:Found 1 URLs: ['/versiculo/filipenses_4_6/']
+INFO:root:Found 1 descriptions: ['Não andem ansiosos por coisa alguma, mas em tudo, ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Mateus 26:36-39', ID=218deb89970f27bcbc6fea29d813a2b8
+INFO:root:Processing entry 1: Title='Filipenses 4:6', ID=04aeffca23246fcb9cf214cf2e8726a2
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Mateus 26:36-39
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/mateus_26_36-39/
-INFO:root:🔹 Description: Então Jesus foi com seus discípulos para um lugar chamado Getsêmani e lhes disse: "Sentem-se aqui enquanto vou ali orar". Indo um pouco mais adiante, prostrou-se com o rosto em terra e orou: "Meu Pai, se for possível, afasta de mim este cálice; contudo, não seja como eu quero, mas sim como tu queres". Mateus 26:36-39
+INFO:root:🔹 Title: Filipenses 4:6
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_4_6/
+INFO:root:🔹 Description: Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. Filipenses 4:6
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 398664 characters
-INFO:root:HTML parsed, length: 387247 characters
-INFO:root:Found 3 titles: ['Salmo 23', 'Salmo 150', 'Salmo 48']
-INFO:root:Found 3 URLs: ['/salmos_23/', '/salmos_150/', '/salmos_48/']
-INFO:root:Found 3 descriptions: ['O Senhor é o meu pastor; de nada terei falta. \nEm ', 'Aleluia!\nLouvem a Deus no seu santuário,\nlouvem-no', 'Grande é o Senhor,\ne digno de todo louvor\nna cidad']
-INFO:root:Found 3 dates: ['14 de Novembro de 2026', '13 de Novembro de 2026', '12 de Novembro de 2026']
+INFO:root:Response length: 400443 characters
+INFO:root:HTML parsed, length: 389029 characters
+INFO:root:Found 3 titles: ['Salmo 77', 'Salmo 23', 'Salmo 150']
+INFO:root:Found 3 URLs: ['/salmos_77/', '/salmos_23/', '/salmos_150/']
+INFO:root:Found 3 descriptions: ['Clamo a Deus por socorro;\nclamo a Deus que me escu', 'O Senhor é o meu pastor; de nada terei falta. \nEm ', 'Aleluia!\nLouvem a Deus no seu santuário,\nlouvem-no']
+INFO:root:Found 3 dates: ['15 de Novembro de 2026', '14 de Novembro de 2026', '13 de Novembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 23', ID=55cf3da6e8cae97ccf3b295406df8fc3
-INFO:root:Processing entry 2: Title=' Salmo 150', ID=ac08b32fd918e6261dd45b1cb50d8786
-INFO:root:Processing entry 3: Title=' Salmo 48', ID=e90db1e679b8da38f6cf84c91efa3027
+INFO:root:Processing entry 1: Title=' Salmo 77', ID=14fad9419be27a1af032aca0794e57dd
+INFO:root:Processing entry 2: Title=' Salmo 23', ID=55cf3da6e8cae97ccf3b295406df8fc3
+INFO:root:Processing entry 3: Title=' Salmo 150', ID=ac08b32fd918e6261dd45b1cb50d8786
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 77
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_77/
+INFO:root:🔹 Description: Clamo a Deus por socorro;
+clamo a Deus que me escute. 
+Quando estou angustiado, busco o Senhor;
+de noite estendo as mãos sem cessar;
+a minha alma está inconsolável! 
+Lembro-me de ti, ó Deus, e suspiro;
+começo a meditar,
+e o meu espírito desfalece. 
+Não me permites fechar os olhos;
+tão inquieto estou que não consigo falar. 
+Fico a pensar nos dias que se foram,
+nos anos há muito passados; 
+de noite recordo minhas canções.
+O meu coração medita,
+e o meu espírito pergunta: 
+Irá o Senhor rejeitar-nos para sempre?
+Jamais tornará a mostrar-nos o seu favor? 
+Desapareceu para sempre o seu amor?
+Acabou-se a sua promessa? 
+Esqueceu-se Deus de ser misericordioso?
+Em sua ira refreou sua compaixão? 
+Então pensei: "A razão da minha dor
+é que a mão direita do Altíssimo não age mais". 
+Recordarei os feitos do Senhor;
+recordarei os teus antigos milagres. 
+Meditarei em todas as tuas obras
+e considerarei todos os teus feitos. 
+Teus caminhos, ó Deus, são santos.
+Que deus é tão grande como o nosso Deus? 
+Tu és o Deus que realiza milagres;
+mostras o teu poder entre os povos. 
+Com o teu braço forte resgataste o teu povo,
+os descendentes de Jacó e de José. 
+As águas te viram, ó Deus,
+as águas te viram e se contorceram;
+até os abismos estremeceram. 
+As nuvens despejaram chuvas,
+ressoou nos céus o trovão;
+as tuas flechas reluziam em todas as direções. 
+No redemoinho, estrondou o teu trovão,
+os teus relâmpagos iluminaram o mundo;
+a terra tremeu e sacudiu-se. 
+A tua vereda passou pelo mar,
+o teu caminho pelas águas poderosas,
+e ninguém viu as tuas pegadas. 
+Guiaste o teu povo como a um rebanho
+pela mão de Moisés e de Arão. 
+ Salmo 77
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 23
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_23/
 INFO:root:🔹 Description: O Senhor é o meu pastor; de nada terei falta. 
@@ -117,105 +168,96 @@ Tudo o que tem vida louve o Senhor!
 Aleluia! 
  Salmo 150
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 48
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_48/
-INFO:root:🔹 Description: Grande é o Senhor,
-e digno de todo louvor
-na cidade do nosso Deus. 
-Seu santo monte, belo e majestoso,
-é a alegria de toda a terra.
-Como as alturas do Zafom é o monte Sião,
-a cidade do grande Rei. 
-Nas suas cidadelas
-Deus se revela como sua proteção. 
-Vejam! Os reis somaram forças,
-e juntos avançaram contra ela. 
-Quando a viram, ficaram atônitos,
-fugiram aterrorizados. 
-Ali mesmo o pavor os dominou;
-contorceram-se como a mulher no parto. 
-Foste como o vento oriental
-quando destruiu os navios de Társis. 
-Como já temos ouvido,
-agora também temos visto
-na cidade do Senhor dos Exércitos,
-na cidade de nosso Deus:
-Deus a preserva firme para sempre. 
-No teu templo, ó Deus,
-meditamos em teu amor leal. 
-Como o teu nome, ó Deus,
-o teu louvor alcança os confins da terra;
-a tua mão direita está cheia de justiça. 
-O monte Sião se alegra,
-as cidades de Judá exultam
-por causa das tuas decisões justas. 
-Percorram Sião, contornando-a,
-contem as suas torres, 
-observem bem as suas muralhas,
-examinem as suas cidadelas,
-para que vocês falem à próxima geração 
-que este Deus é o nosso Deus
-para todo o sempre;
-ele será o nosso guia até o fim. 
- Salmo 48
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 405648 characters
-INFO:root:HTML parsed, length: 393330 characters
-INFO:root:Found 3 titles: ['Brilhe como o sol', 'Jesus cabe no seu coração!', 'Deus não deixou você sem resgatador']
+INFO:root:Response length: 405756 characters
+INFO:root:HTML parsed, length: 393439 characters
+INFO:root:Found 3 titles: ['Não ponha remendo novo em vestido velho', 'Brilhe como o sol', 'Jesus cabe no seu coração!']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Você é uma luz brilhante no Senhor!\nAssim como o s', 'Muitas vezes achamos que precisamos estar perfeito', 'As mulheres disseram a Noemi: "Louvado seja o Senh']
-INFO:root:Found 1 dates: ['Sábado, 14 de novembro de 2026']
+INFO:root:Found 3 descriptions: ['"Ninguém põe remendo de pano novo em roupa velha, ', 'Você é uma luz brilhante no Senhor!\nAssim como o s', 'Muitas vezes achamos que precisamos estar perfeito']
+INFO:root:Found 1 dates: ['Domingo, 15 de novembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Brilhe como o sol', ID=8c10f84bdf324db58582d8530f290a4b
+INFO:root:Processing entry 1: Title='Não ponha remendo novo em vestido velho', ID=a6f340cfcd429ec508d14f0b15e9db81
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Brilhe como o sol - Palavra de Hoje
+INFO:root:🔹 Title: Não ponha remendo novo em vestido velho - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Você é uma luz brilhante no Senhor!
-Assim como o sol, acorde disposto a brilhar hoje. Levante-se com a força e o vigor que procedem do seu Criador todo-poderoso! Ilumine todos à sua volta, mesmo aqueles que não reconhecem o brilho de Cristo em você.
-E, se alguma nuvem escura tentar se impor diante de ti, nunca pare de brilhar e refletir o amor de Deus. As tempestades vêm e vão, mas o sol nunca deixa de dar a sua luz e calor. Não pela sua própria iniciativa, mas pela vontade de Deus, que o chamou para ser luz! Pense nisso...
+INFO:root:🔹 Description: "Ninguém põe remendo de pano novo em roupa velha, pois o remendo forçará a roupa, tornando pior o rasgo. Nem se põe vinho novo em vasilha de couro velha; se o fizer, a vasilha rebentará, o vinho se derramará e a vasilha se estragará. Ao contrário, põe-se vinho novo em vasilha de couro nova; e ambos se conservam".
+- Mateus 9:16-17
 
+Esses versículos nos dão dois exemplos. Primeiro ele diz que uma boa costureira não usará um pedaço de pano novo para remendar um vestido velho. Fazer isso, em vez de resolver o problema, irá agravá-lo.
+O segundo exemplo é sobre a produção de vinho. Um bom apreciador de vinhos sabe a melhor forma de armazená-lo para que seu sabor e qualidade sejam preservados.
+Quando recebemos os ensinamentos de Jesus e decidimos segui-lo e servi-lo, a mudança deve ser total. Não vamos colocar “uma parte aqui e outra ali”, dependendo do que nos convém. Não! Tudo deve ser renovado, todo o nosso ser deve ser transformado sem diluir a mensagem do Senhor.
+Jesus trouxe um novo mandamento de amor que só compreende bem quem tem o coração transformado pela experiência do amor misericordioso do Pai. Se ainda não o fez, abra hoje o seu coração para experimentar a plenitude da transformação em Cristo e viver para sempre no seu amor.
 
-Vocês são a luz do mundo. Não se pode esconder uma cidade situada no alto de um monte.
-Mateus 5:14 
+Portanto, se alguém está em Cristo, é nova criação. As coisas antigas já passaram; eis que surgiram coisas novas!
+- 2 Corintios 5:17
 
-Em Mateus 5:14, assim como uma cidade no topo de uma colina é visível para todos, somos chamados a brilhar com a luz do amor e da verdade de Cristo. Essa luz não pode ser escondida; ela deve iluminar as trevas ao nosso redor.
-Ao aceitar a Cristo, nos tornamos portadores dessa luz transformadora. Cada ação, palavra e atitude deve refletir a glória de Deus, guiando outros pelo caminho da salvação.
-Que nossas vidas resplandeçam com a luz da fé, esperança e caridade, atraindo corações para o Salvador. Sejamos faróis de esperança em um mundo muitas vezes envolto em escuridão, compartilhando a mensagem redentora que nos foi confiada. Que a luz de Cristo que emana de nós, glorifique o Pai nos céus e inspire mudanças ao nosso redor.
-Leia mais: "O Senhor é sol e escudo" em Deus incomparável
+Não deixe que a religiosidade o impeça de experimentar a novidade do amor em Cristo Jesus!
+Veja também:
+
+Versículos lindos sobre o amor de Deus que vão tocar seu coração
+10 frases inspiradoras de Jesus Cristo
  
-A história de Rute e Noemi: do luto em Moabe à restauração em Belém
-5 lições da vida de Rute
+Versículos lindos sobre o amor de Deus que vão tocar seu coração
+10 frases inspiradoras de Jesus Cristo
 
  
-Vocês são a luz do mundo. Não se pode esconder uma cidade situada no alto de um monte.
-Mateus 5:14 
+"Ninguém põe remendo de pano novo em roupa velha, pois o remendo forçará a roupa, tornando pior o rasgo. Nem se põe vinho novo em vasilha de couro velha; se o fizer, a vasilha rebentará, o vinho se derramará e a vasilha se estragará. Ao contrário, põe-se vinho novo em vasilha de couro nova; e ambos se conservam".
+- Mateus 9:16-17
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 416046 characters
-INFO:root:HTML parsed, length: 403263 characters
-INFO:root:Found 3 titles: ['A palavra que desvia a fúria', 'Equilíbrio entre a escassez e a fartura', 'Sozinho no meio de tanta gente']
-INFO:root:Found 5 URLs: ['/abigail/', '/conselhos_para_resolver_conflitos/', '/7_conselhos_financeiros_da_biblia/']
-INFO:root:Found 3 descriptions: ['Davi disse a Abigail: "Bendito seja o Senhor, o De', 'Mantém longe de mim a falsidade e a mentira; não m', 'Na minha primeira defesa, ninguém apareceu para me']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n14\nSÁBADO', 'NOVEMBRO\n\n13\nSEXTA', 'NOVEMBRO\n\n12\nQUINTA']
+INFO:root:Response length: 416068 characters
+INFO:root:HTML parsed, length: 403305 characters
+INFO:root:Found 3 titles: ['O contentamento que se aprende', 'A palavra que desvia a fúria', 'Equilíbrio entre a escassez e a fartura']
+INFO:root:Found 5 URLs: ['/versiculos_sobre_ganancia/', '/como_ser_feliz_conselhos/', '/abigail/']
+INFO:root:Found 3 descriptions: ['Melhor é ter um punhado com tranquilidade do que d', 'Davi disse a Abigail: "Bendito seja o Senhor, o De', 'Mantém longe de mim a falsidade e a mentira; não m']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n15\nDOMINGO', 'NOVEMBRO\n\n14\nSÁBADO', 'NOVEMBRO\n\n13\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='A palavra que desvia a fúria', ID=15f19b902883736fb3b8b6bb09109d4d
-INFO:root:Processing entry 2: Title='Equilíbrio entre a escassez e a fartura', ID=c4da61064d049a2584cb3b21ccd54456
-INFO:root:Processing entry 3: Title='Sozinho no meio de tanta gente', ID=8ae38133a35d25c54a2dc087cbd25d34
+INFO:root:Processing entry 1: Title='O contentamento que se aprende', ID=5d2e407666e87536b00505a2b01987b8
+INFO:root:Processing entry 2: Title='A palavra que desvia a fúria', ID=15f19b902883736fb3b8b6bb09109d4d
+INFO:root:Processing entry 3: Title='Equilíbrio entre a escassez e a fartura', ID=c4da61064d049a2584cb3b21ccd54456
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: O contentamento que se aprende
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_sobre_ganancia/
+INFO:root:🔹 Description: Melhor é ter um punhado com tranquilidade do que dois punhados à custa de muito esforço e de correr atrás do vento.
+- Eclesiastes 4:6
+
+Eclesiastes foi escrito por alguém que experimentou quase tudo e resolveu contar o que viu. No capítulo 4, ele olha para o trabalho das pessoas e chega a uma conclusão desconfortável: muito do nosso esforço nasce da competição, da vontade de ter mais do que o vizinho.
+Ele chama isso de correr atrás do vento. Quem corre atrás do vento se cansa e nunca chega a segurar nada.
+Logo em seguida aparecem dois extremos. De um lado, o tolo que cruza os braços e destrói a própria vida. Do outro, um homem sozinho, sem filho nem irmão, que trabalha sem parar e nunca se satisfaz com o que tem.
+Entre os dois, o Mestre põe uma imagem simples: melhor um punhado com tranquilidade do que dois punhados com cansaço e correria. Contentamento é saber reconhecer quando uma mão cheia já basta.
+Isso se aprende com o tempo, porque a nossa tendência é olhar sempre para as duas mãos cheias de outra pessoa. O homem do versículo 8 nunca parou para perguntar para quem estava trabalhando tanto. A pergunta continua valendo para nós.
+Jesus contou uma história parecida, a de um homem rico que resolveu construir celeiros maiores para guardar tudo o que tinha. Naquela mesma noite, Deus pediu a sua vida, e tudo o que ele juntou ficou para outros (Lucas 12:16-21).
+O versículo também não elogia a preguiça, já que o punhado continua sendo fruto de trabalho. A diferença está no coração de quem trabalha: com tranquilidade, ou com a ansiedade de quem nunca acha que tem o suficiente.
+Talvez você esteja olhando para a vida dos outros e sentindo que a sua mão está vazia. Olhe de novo para o que já está nela. Deus pode ensinar você a descansar com um punhado e a agradecer por ele.
+Aprenda a reconhecer quando já basta
+
+Faça hoje a pergunta do versículo 8: para quem e por que estou trabalhando tanto? Escreva a resposta com sinceridade.
+Liste três coisas que já estão no seu punhado hoje e agradeça a Deus por cada uma delas.
+Quando sentir vontade de comparar a sua vida com a de alguém, feche o aplicativo e ore por essa pessoa.
+Escolha uma noite desta semana para parar mais cedo e ficar com quem você ama, sem culpa.
+
+Para orar:
+
+Senhor, eu vivo olhando para as mãos cheias dos outros e esqueço de agradecer pelo que já está na minha. Ensina-me a trabalhar com tranquilidade e a reconhecer quando já basta. Que o meu coração descanse em ti. Em nome de Jesus, amém.
+
+Veja também:
+
+Versículos sobre ganância
+Como ser feliz segundo a Bíblia
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: A palavra que desvia a fúria
-INFO:root:🔹 URL: https://www.bibliaon.com/abigail/
+INFO:root:🔹 URL: https://www.bibliaon.com/como_ser_feliz_conselhos/
 INFO:root:🔹 Description: Davi disse a Abigail: "Bendito seja o Senhor, o Deus de Israel, que hoje a enviou ao meu encontro. Seja você abençoada pelo seu bom senso e por evitar que eu hoje derrame sangue e me vingue com minhas próprias mãos".
 - 1 Samuel 25:32-33
 
@@ -243,7 +285,7 @@ Abigail na Bíblia: a história da esposa de Nabal e de Davi
 7 conselhos da Bíblia para resolver conflitos
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Equilíbrio entre a escassez e a fartura
-INFO:root:🔹 URL: https://www.bibliaon.com/conselhos_para_resolver_conflitos/
+INFO:root:🔹 URL: https://www.bibliaon.com/abigail/
 INFO:root:🔹 Description: Mantém longe de mim a falsidade e a mentira; não me dês nem pobreza nem riqueza; dá-me apenas o alimento necessário. Se não, tendo demais, eu te negaria e te deixaria, e diria: 'Quem é o Senhor?' Se eu ficasse pobre, poderia vir a roubar, desonrando assim o nome do meu Deus.
 - Provérbios 30:8-9
 
@@ -267,35 +309,6 @@ Para orar:
 Senhor, tu sabes o que eu tenho e o que me falta. Livra-me da mentira e livra-me de esquecer de ti, seja na fartura, seja no aperto. Dá-me o pão de hoje e um coração agradecido por ele. Em nome de Jesus, amém.
 
 Para hoje: 11 versículos sobre vida financeira abençoada
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Sozinho no meio de tanta gente
-INFO:root:🔹 URL: https://www.bibliaon.com/7_conselhos_financeiros_da_biblia/
-INFO:root:🔹 Description: Na minha primeira defesa, ninguém apareceu para me apoiar; todos me abandonaram. Que isso não lhes seja cobrado. Mas o Senhor permaneceu ao meu lado e me deu forças, para que por mim a mensagem fosse plenamente proclamada e todos os gentios a ouvissem. E eu fui libertado da boca do leão.
-- 2 Timóteo 4:16-17
-
-Paulo escreveu a segunda carta a Timóteo preso em Roma, perto do fim da vida. As últimas linhas são de uma sinceridade que dói: Demas o abandonou, outros partiram para longe, e só Lucas ficou com ele.
-Ele pede a Timóteo que venha logo e que traga a capa que tinha deixado em Trôade. O apóstolo que tinha fundado igrejas em tantas cidades precisava de uma capa e de alguém por perto.
-Depois conta o que mais doeu. Na primeira defesa diante do tribunal, ninguém apareceu para apoiá-lo, e todos o abandonaram. Mesmo assim, ele pede que isso não seja cobrado deles.
-É possível estar cercado de gente e sentir que ninguém está do seu lado quando importa. Paulo tinha amigos e discípulos espalhados pelo império, e na hora mais difícil ficou sozinho diante do juiz.
-Quando todos se afastaram, o Senhor permaneceu ao lado de Paulo e lhe deu forças. A solidão foi real, e Paulo não a esconde. Mas ela não teve a última palavra.
-Deus ainda usou aquele momento. Paulo conta que, por causa dessa força, a mensagem foi anunciada por inteiro e os gentios a ouviram, ali mesmo, num tribunal onde ele estava sozinho.
-Talvez hoje você se sinta assim, rodeado de pessoas e sem ninguém que perceba o que você carrega. Deus vê e permanece. E você também pode fazer o que Paulo fez com Timóteo: pedir a alguém que venha.
-Peça companhia a Deus e às pessoas
-
-Diga a Deus, com as suas palavras, que você se sente sozinho. Paulo não fingiu que estava tudo bem.
-Mande hoje uma mensagem simples a alguém de confiança: "Você pode vir me ver?" ou "Podemos conversar esta semana?"
-Se alguém se afastou de você na hora difícil, entregue isso a Deus, como Paulo fez, sem guardar a cobrança.
-Pense em quem pode estar sozinho perto de você e seja o Lucas na vida dessa pessoa.
-Se a solidão for constante, procure um pastor ou alguém da sua igreja para conversar.
-
-Para orar:
-
-Senhor, há dias em que eu estou rodeado de gente e me sinto sozinho. Obrigado porque tu permaneces ao meu lado quando os outros vão embora. Dá-me forças para hoje e coloca no meu caminho alguém que caminhe comigo. Em nome de Jesus, amém.
-
-Veja também:
-
-Os 10 piores sofrimentos de Paulo
-7 exemplos de amizade na Bíblia (e o que cada um ensina)
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -326,15 +339,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  53 +++---
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  56 +++---
  feeds/devocional_de_hoje/feed.json        |  16 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  23 +--
+ feeds/palavra_biblica_do_dia/atom.xml     |  30 +--
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               |  75 +++-----
+ feeds/salmo_do_dia/atom.xml               |  91 +++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 281 +++++++++++++-----------------
- 11 files changed, 219 insertions(+), 293 deletions(-)
+ output.log                                | 303 +++++++++++++++---------------
+ 11 files changed, 287 insertions(+), 273 deletions(-)
