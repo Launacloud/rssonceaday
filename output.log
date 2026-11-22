@@ -1,40 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 236340 characters
-INFO:root:HTML parsed, length: 210615 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (21/11/2026)', 'Palavra de Ontem (20/11/2026)', 'Palavra de Anteontem (19/11/2026)']
-INFO:root:Found 3 URLs: ['/xoxo/', '/negar/', '/acessorio/']
-INFO:root:Found 14 descriptions: ['substantivo masculino [Neologismo] Beijos e abraço', 'Sinônimos:\n\nbeijo, abraço, muxoxo', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (21/11/2026)', 'Palavra de Ontem (20/11/2026)', 'Palavra de Anteontem (19/11/2026)']
+INFO:root:Response length: 235763 characters
+INFO:root:HTML parsed, length: 210038 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (22/11/2026)', 'Palavra de Ontem (21/11/2026)', 'Palavra de Anteontem (20/11/2026)']
+INFO:root:Found 3 URLs: ['/mixordia/', '/xoxo/', '/negar/']
+INFO:root:Found 14 descriptions: ['substantivo feminino Mistura desordenada e confusa', 'Sinônimos:\n\nmistela, embrulhada, bagunça, misturad', 'Classe gramatical:substantivo feminino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (22/11/2026)', 'Palavra de Ontem (21/11/2026)', 'Palavra de Anteontem (20/11/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (21/11/2026)', ID=3b8e42db77c99a3f1542a79ef2885127
-INFO:root:Processing entry 2: Title='Palavra de Ontem (20/11/2026)', ID=1b146508a7dfb5a3aabb955dca952826
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (19/11/2026)', ID=01908b8573ecfb42ceebde091cf41b0f
+INFO:root:Processing entry 1: Title='Palavra de Hoje (22/11/2026)', ID=0c0939aa7c65b2ea0ddafa1260e9d719
+INFO:root:Processing entry 2: Title='Palavra de Ontem (21/11/2026)', ID=5378a62aa2b59c632d90613b6fc9498c
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (20/11/2026)', ID=60b60bf392000b67659e09f54f68b251
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (21/11/2026) - Significado completo de xoxo:
-INFO:root:🔹 URL: https://www.dicio.com.br/xoxo/
-INFO:root:🔹 Description: substantivo masculino [Neologismo] Beijos e abraços (escrito no final de um texto para se despedir de alguém): com amor, xoxo!Etimologia (origem da palavra xoxo). A palavra xoxo tem sua origem por influência do inglês "xoxo"; a origem de se representar em inglês X para "kisses", literalmente "beijos"; e, "O", "hugs", literalmente "abraços", é incerta.
+INFO:root:🔹 Title: Palavra de Hoje (22/11/2026) - Significado completo de mixórdia:
+INFO:root:🔹 URL: https://www.dicio.com.br/mixordia/
+INFO:root:🔹 Description: substantivo feminino Mistura desordenada e confusa de coisas variadas; mistifório, confusão, bagunça.Circunstância ou ação que se configura em desentendimento; intriga; confusão: sua presença causa mixórdia na empresa.Fato que gera conflito; atrapalhação.Comida que apresenta aspecto desagradável ou está malfeita; mistela; gororoba: eram obrigados a comer a mixórdia disponível.Etimologia (origem da palavra mixórdia). A palavra mixórdia tem sua origem controversa; não é possível confirmar a origem desta palavra com toda a certeza.
  
 Sinônimos:
 
-beijo, abraço, muxoxo 
+mistela, embrulhada, bagunça, misturada, mistifório, confusão, desentendimento, barafunda, tiborna, gororoba 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (20/11/2026) - Significado completo de negar:
-INFO:root:🔹 URL: https://www.dicio.com.br/negar/
+INFO:root:🔹 Title: Palavra de Ontem (21/11/2026) - Significado completo de xoxo:
+INFO:root:🔹 URL: https://www.dicio.com.br/xoxo/
 INFO:root:🔹 Description: Sinônimos:
 
-beijo, abraço, muxoxo
- Classe gramatical:substantivo masculino
+mistela, embrulhada, bagunça, misturada, mistifório, confusão, desentendimento, barafunda, tiborna, gororoba
+ Classe gramatical:substantivo feminino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (19/11/2026) - Significado completo de acessório:
-INFO:root:🔹 URL: https://www.dicio.com.br/acessorio/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:xo-xo
+INFO:root:🔹 Title: Palavra de Anteontem (20/11/2026) - Significado completo de negar:
+INFO:root:🔹 URL: https://www.dicio.com.br/negar/
+INFO:root:🔹 Description: Classe gramatical:substantivo feminino
+ Sílabas:mi-xór-di-a
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,40 +42,85 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 421070 characters
-INFO:root:HTML parsed, length: 407957 characters
-INFO:root:Found 1 titles: ['João 4:23']
-INFO:root:Found 1 URLs: ['/versiculo/joao_4_23/']
-INFO:root:Found 1 descriptions: ['No entanto, está chegando a hora, e de fato já che']
+INFO:root:Response length: 420914 characters
+INFO:root:HTML parsed, length: 407801 characters
+INFO:root:Found 1 titles: ['Provérbios 16:3']
+INFO:root:Found 1 URLs: ['/versiculo/proverbios_16_3/']
+INFO:root:Found 1 descriptions: ['Consagre ao Senhor\ntudo o que você faz,\ne os seus ']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='João 4:23', ID=8747a2a1db472db3c2f3759e68293a02
+INFO:root:Processing entry 1: Title='Provérbios 16:3', ID=b95a1c1a8d39519b4760e9a80785d816
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: João 4:23
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_4_23/
-INFO:root:🔹 Description: No entanto, está chegando a hora, e de fato já chegou, em que os verdadeiros adoradores adorarão o Pai em espírito e em verdade. São estes os adoradores que o Pai procura. João 4:23
+INFO:root:🔹 Title: Provérbios 16:3
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/proverbios_16_3/
+INFO:root:🔹 Description: Consagre ao Senhor
+tudo o que você faz,
+e os seus planos serão bem-sucedidos. Provérbios 16:3
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 416926 characters
-INFO:root:HTML parsed, length: 405134 characters
-INFO:root:Found 3 titles: ['Salmo 50', 'Salmo 126', 'Salmo 76']
-INFO:root:Found 3 URLs: ['/salmos_50/', '/salmos_126/', '/salmos_76/']
-INFO:root:Found 3 descriptions: ['Fala o Senhor, o Deus supremo;\nconvoca toda a terr', 'Quando o Senhor trouxe os cativos\nde volta a Sião,', 'Em Judá Deus é conhecido;\no seu nome é grande em I']
-INFO:root:Found 3 dates: ['21 de Novembro de 2026', '20 de Novembro de 2026', '19 de Novembro de 2026']
+INFO:root:Response length: 417209 characters
+INFO:root:HTML parsed, length: 405440 characters
+INFO:root:Found 3 titles: ['Salmo 32', 'Salmo 50', 'Salmo 126']
+INFO:root:Found 3 URLs: ['/salmos_32/', '/salmos_50/', '/salmos_126/']
+INFO:root:Found 3 descriptions: ['Como é feliz aquele\nque tem suas transgressões per', 'Fala o Senhor, o Deus supremo;\nconvoca toda a terr', 'Quando o Senhor trouxe os cativos\nde volta a Sião,']
+INFO:root:Found 3 dates: ['22 de Novembro de 2026', '21 de Novembro de 2026', '20 de Novembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 50', ID=23aa53d6f0bc71b760f04eddded6ad1a
-INFO:root:Processing entry 2: Title=' Salmo 126', ID=40adfd97c9db40aaa6d3d61dd831270b
-INFO:root:Processing entry 3: Title=' Salmo 76', ID=5ab438a54757379c1a6b9ad8dc6df77b
+INFO:root:Processing entry 1: Title=' Salmo 32', ID=2f49b60df41a8d2f7f56dc8a102c476d
+INFO:root:Processing entry 2: Title=' Salmo 50', ID=23aa53d6f0bc71b760f04eddded6ad1a
+INFO:root:Processing entry 3: Title=' Salmo 126', ID=40adfd97c9db40aaa6d3d61dd831270b
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 32
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_32/
+INFO:root:🔹 Description: Como é feliz aquele
+que tem suas transgressões perdoadas
+e seus pecados apagados! 
+Como é feliz aquele
+a quem o Senhor não atribui culpa
+e em quem não há hipocrisia! 
+Enquanto eu mantinha escondidos os meus pecados,
+o meu corpo definhava de tanto gemer. 
+Pois dia e noite
+a tua mão pesava sobre mim;
+minhas forças foram-se esgotando
+como em tempo de seca. 
+Então reconheci diante de ti o meu pecado
+e não encobri as minhas culpas.
+Eu disse: "Confessarei as minhas transgressões",
+ao Senhor,
+e tu perdoaste a culpa do meu pecado. 
+Portanto, que todos os que são fiéis orem a ti
+enquanto podes ser encontrado;
+quando as muitas águas se levantarem,
+elas não os atingirão. 
+Tu és o meu abrigo;
+tu me preservarás das angústias
+e me cercarás de canções de livramento. 
+Eu o instruirei e o ensinarei
+no caminho que você deve seguir;
+eu o aconselharei e cuidarei de você. 
+Não sejam como o cavalo ou o burro,
+que não têm entendimento
+mas precisam ser controlados
+com freios e rédeas;
+caso contrário não obedecem. 
+Muitas são as dores dos ímpios,
+mas a bondade do Senhor
+protege quem nele confia. 
+Alegrem-se no Senhor e exultem,
+vocês que são justos!
+Cantem de alegria,
+todos vocês que são retos de coração! 
+ Salmo 32
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 50
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_50/
 INFO:root:🔹 Description: Fala o Senhor, o Deus supremo;
@@ -163,69 +208,36 @@ voltará com cantos de alegria,
 trazendo os seus feixes. 
  Salmo 126
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 76
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_76/
-INFO:root:🔹 Description: Em Judá Deus é conhecido;
-o seu nome é grande em Israel. 
-Sua tenda está em Salém;
-o lugar da sua habitação está em Sião. 
-Ali quebrou ele as flechas reluzentes,
-os escudos e as espadas,
-as armas de guerra. 
-Resplendes de luz!
-És mais majestoso que os montes
-cheios de despojos. 
-Os homens valorosos jazem saqueados,
-dormem o sono final;
-nenhum dos guerreiros
-foi capaz de erguer as mãos. 
-Diante da tua repreensão, ó Deus de Jacó,
-o cavalo e o carro estacaram. 
-Somente tu és temível.
-Quem poderá permanecer diante de ti
-quando estiveres irado? 
-Dos céus pronunciaste juízo,
-e a terra tremeu e emudeceu, 
-quando tu, ó Deus, te levantaste para julgar,
-para salvar todos os oprimidos da terra. 
-Até a tua ira contra os homens
-redundará em teu louvor,
-e os sobreviventes da tua ira se refrearão. 
-Façam votos ao Senhor, ao seu Deus,
-e não deixem de cumpri-los;
-que todas as nações vizinhas tragam presentes
-a quem todos devem temer. 
-Ele tira o ânimo dos governantes
-e é temido pelos reis da terra. 
- Salmo 76
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 421178 characters
-INFO:root:HTML parsed, length: 408496 characters
-INFO:root:Found 3 titles: ['Sede de Deus no deserto', 'Louvor à meia-noite', 'Deus carrega você até a velhice']
+INFO:root:Response length: 421521 characters
+INFO:root:HTML parsed, length: 408836 characters
+INFO:root:Found 3 titles: ['Você quer ver uma mudança em sua vida? Então faça isso', 'Sede de Deus no deserto', 'Louvor à meia-noite']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Ó Deus, tu és o meu Deus, eu te busco intensamente', 'Por volta da meia-noite, Paulo e Silas estavam ora', 'Mesmo na sua velhice, quando tiverem cabelos branc']
-INFO:root:Found 1 dates: ['Sábado, 21 de novembro de 2026']
+INFO:root:Found 3 descriptions: ['Qual é a situação que precisa ser mudada em sua vi', 'Ó Deus, tu és o meu Deus, eu te busco intensamente', 'Por volta da meia-noite, Paulo e Silas estavam ora']
+INFO:root:Found 1 dates: ['Domingo, 22 de novembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Sede de Deus no deserto', ID=83b27764ab6db1a1ab6475b2896e2bd4
+INFO:root:Processing entry 1: Title='Você quer ver uma mudança em sua vida? Então faça isso', ID=d80ab4fe66f973c902f78db62d10bce2
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Sede de Deus no deserto - Palavra de Hoje
+INFO:root:🔹 Title: Você quer ver uma mudança em sua vida? Então faça isso - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Ó Deus, tu és o meu Deus, eu te busco intensamente; a minha alma tem sede de ti! Todo o meu ser anseia por ti, numa terra seca, exausta e sem água.
-- Salmos 63:1
+INFO:root:🔹 Description: Qual é a situação que precisa ser mudada em sua vida? Existe algo que parece impossível de resolver? Então ore! A oração é a arma mais poderosa que Deus lhe dá. Através da oração, você coloca a situação nas mãos de Deus. E nada é impossível para Deus!
+Na Bíblia, somos constantemente lembrados da importância da comunicação constante com Deus. Em Efésios 6:18, somos instruídos a “orar em todo o tempo, com toda oração e súplica no Espírito”. A oração é mais do que palavras dirigidas ao céu; é uma conversa íntima com o Criador.
+Quando nos ajoelhamos em oração, fortalecemos nosso relacionamento com Deus. Ele nos convida a lançar sobre Ele nossas ansiedades e a buscar Sua orientação em todos os aspectos da vida. A oração não é apenas um meio de obter respostas, mas também uma maneira de nos alinhar com a vontade de Deus.
+Nos momentos de alegria, agradecemos; nas dificuldades, buscamos conforto. A oração é a ponte que conecta, uma ferramenta que supera as limitações terrenas. Em tempos de batalha espiritual, a oração se torna nossa armadura, nossa defesa contra as artimanhas do inimigo.
+Portanto, ergamos nossos corações em oração, reconhecendo-a como a arma mais poderosa que Deus nos confiou. Que, através dela, experimentemos a presença divina e testemunhemos milagres que só podem ser realizados pelo Deus todo-poderoso que ouve e atende as súplicas de Seus filhos.
+Veja também:
 
-O título do salmo diz que Davi o escreveu no deserto de Judá. Estava longe de casa e longe do lugar de adoração. Ali, com a garganta seca, ele reconheceu outra sede, mais funda do que a do corpo.
-Davi começa com uma frase curta e cheia de posse: tu és o meu Deus. Ele fala de alguém que conhece pelo nome, que já o livrou antes, mesmo agora que tudo à volta está seco. Isso muda tudo quando a vida aperta.
-Davi tinha motivos para reclamar. Tinha perdido o conforto, a segurança e a companhia de muita gente querida. Mesmo assim, o primeiro movimento dele foi buscar a Deus intensamente, antes de pedir qualquer coisa.
-Há temporadas em que a vida fica assim. A rotina aperta, a igreja parece longe, a oração fica curta e sem gosto. Muita gente acha que isso é sinal de que Deus foi embora.
-O salmo mostra outra leitura. A sede que você sente é sinal de que a sua alma ainda sabe onde está a água. Davi fez do deserto um lugar de busca, e poucas linhas depois pôde dizer que o amor de Deus é melhor do que a vida.
-Então não espere a terra ficar verde para procurar o Senhor. Busque a Deus hoje, do jeito que você está, com sede e tudo, e leia o salmo inteiro em voz baixa. Ele continua sendo o seu Deus também no deserto, e é ele quem pode matar essa sede.
-Para hoje: Orações para buscar a Deus sem cessar
+Estudo Bíblico sobre Oração
+Razões bíblicas para orar mais
+ 
+Estudo Bíblico sobre Oração
+Razões bíblicas para orar mais
+
  
 Ó Deus, tu és o meu Deus, eu te busco intensamente; a minha alma tem sede de ti! Todo o meu ser anseia por ti, numa terra seca, exausta e sem água.
 - Salmos 63:1
@@ -233,23 +245,49 @@ Para hoje: Orações para buscar a Deus sem cessar
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 433441 characters
-INFO:root:HTML parsed, length: 420286 characters
-INFO:root:Found 3 titles: ['Não estava queimando o nosso coração?', 'Então orei ao Deus dos céus', 'Ainda que demore, espere']
-INFO:root:Found 5 URLs: ['/deus_veio_ao_nosso_encontro/', '/a_historia_de_neemias/', '/oracoes_para_o_trabalho/']
-INFO:root:Found 3 descriptions: ['Quando estava à mesa com eles, tomou o pão, deu gr', 'O rei me disse: "O que você gostaria de pedir?" En', 'Pois a visão aguarda um tempo designado; ela fala ']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n21\nSÁBADO', 'NOVEMBRO\n\n20\nSEXTA', 'NOVEMBRO\n\n19\nQUINTA']
+INFO:root:Response length: 433346 characters
+INFO:root:HTML parsed, length: 420212 characters
+INFO:root:Found 3 titles: ['Aproxime-se do trono da graça', 'Não estava queimando o nosso coração?', 'Então orei ao Deus dos céus']
+INFO:root:Found 5 URLs: ['/razoes_para_orar_mais/', '/versiculos_para_vencer_a_tentacao/', '/deus_veio_ao_nosso_encontro/']
+INFO:root:Found 3 descriptions: ['pois não temos um sumo sacerdote que não possa com', 'Quando estava à mesa com eles, tomou o pão, deu gr', 'O rei me disse: "O que você gostaria de pedir?" En']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n22\nDOMINGO', 'NOVEMBRO\n\n21\nSÁBADO', 'NOVEMBRO\n\n20\nSEXTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Não estava queimando o nosso coração?', ID=9b26c94266a1b96222c081a89cfce88b
-INFO:root:Processing entry 2: Title='Então orei ao Deus dos céus', ID=36d366ad3f6dc5f13d76a690ff2729a8
-INFO:root:Processing entry 3: Title='Ainda que demore, espere', ID=604f372ed43d4a896f68a7a1c2d005cc
+INFO:root:Processing entry 1: Title='Aproxime-se do trono da graça', ID=d34333c663d8cd41c5bc9eeb8cb1c318
+INFO:root:Processing entry 2: Title='Não estava queimando o nosso coração?', ID=9b26c94266a1b96222c081a89cfce88b
+INFO:root:Processing entry 3: Title='Então orei ao Deus dos céus', ID=36d366ad3f6dc5f13d76a690ff2729a8
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Aproxime-se do trono da graça
+INFO:root:🔹 URL: https://www.bibliaon.com/razoes_para_orar_mais/
+INFO:root:🔹 Description: pois não temos um sumo sacerdote que não possa compadecer-se das nossas fraquezas, mas sim alguém que, como nós, passou por todo tipo de tentação, porém, sem pecado. Assim, aproximemo-nos do trono da graça com toda a confiança, a fim de recebermos misericórdia e encontrarmos graça que nos ajude no momento da necessidade.
+- Hebreus 4:15-16
+
+A carta aos Hebreus foi escrita para cristãos cansados e perseguidos. Alguns pensavam em voltar atrás, porque seguir Jesus estava custando a casa, o emprego e o respeito dos vizinhos. O autor responde mostrando quem está do lado deles.
+No templo antigo, só o sumo sacerdote entrava no lugar mais santo, uma vez por ano. Jesus é o nosso sumo sacerdote, e ele conhece a vida humana por dentro. Sentiu fome, cansaço, abandono e tentação de verdade.
+A diferença é que ele não pecou, e isso não o afasta de nós. Quem cede logo à tentação nunca descobre até onde ela empurra. Quem venceu a tentação sabe melhor do que ninguém o quanto ela pesa.
+Por isso o convite é tão ousado: aproximemo-nos com confiança. Trono assusta, lembra rei e juízo. Este, porém, é o trono da graça, e quem chega ali recebe misericórdia na hora em que precisa.
+Talvez hoje você tenha caído de novo naquilo que prometeu largar, e a vergonha mande ficar longe de Deus por uns dias. O texto manda o contrário: chegar perto agora, no momento da necessidade.
+Chegue perto hoje
+
+Diga a Deus, com palavras simples, qual tentação mais tem vencido você nos últimos dias. Seja específico, sem rodeios.
+Quando a vergonha mandar você se esconder, leia de novo Hebreus 4:16 e ore logo em seguida. Leva menos de um minuto.
+Procure um irmão maduro na fé e peça que ele ore por você nessa área. Ninguém foi feito para lutar sozinho.
+Antes de dormir, agradeça a Jesus por entender o que você enfrentou hoje.
+
+Para orar:
+
+Senhor Jesus, tu sabes como é ser tentado e conheces as minhas fraquezas. Obrigado porque te compadeces de mim e não me deixas sozinho na luta. Hoje eu chego perto do teu trono sem esconder nada. Peço a tua misericórdia pelas vezes em que caí e a tua graça para resistir no momento da necessidade. Em nome de Jesus, amém.
+
+Veja também:
+
+Oração para se aproximar de Deus
+Versículos para resistir à tentação
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Não estava queimando o nosso coração?
-INFO:root:🔹 URL: https://www.bibliaon.com/deus_veio_ao_nosso_encontro/
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculos_para_vencer_a_tentacao/
 INFO:root:🔹 Description: Quando estava à mesa com eles, tomou o pão, deu graças, partiu-o e o deu a eles. Então os olhos deles foram abertos e o reconheceram, e ele desapareceu da vista deles. Perguntaram-se um ao outro: "Não estava queimando o nosso coração enquanto ele nos falava no caminho e nos expunha as Escrituras?"
 - Lucas 24:30-32
 
@@ -273,7 +311,7 @@ Senhor, há dias em que eu caminho triste e não percebo que estás comigo. Fica
 Para hoje: Versículos sobre o encontro com Deus
 INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Então orei ao Deus dos céus
-INFO:root:🔹 URL: https://www.bibliaon.com/a_historia_de_neemias/
+INFO:root:🔹 URL: https://www.bibliaon.com/deus_veio_ao_nosso_encontro/
 INFO:root:🔹 Description: O rei me disse: "O que você gostaria de pedir?" Então orei ao Deus dos céus e respondi ao rei: Se for do agrado do rei e se o seu servo puder contar com a sua benevolência, que ele me deixe ir à cidade onde meus pais estão enterrados, em Judá, para que eu possa reconstruí-la.
 - Neemias 2:4-5
 
@@ -298,33 +336,6 @@ Veja também:
 
 A história de Neemias
 Orações para abençoar o trabalho
-INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Ainda que demore, espere
-INFO:root:🔹 URL: https://www.bibliaon.com/oracoes_para_o_trabalho/
-INFO:root:🔹 Description: Pois a visão aguarda um tempo designado; ela fala do fim e não falhará. Ainda que demore, espere-a; porque ela certamente virá e não se atrasará.
-- Habacuque 2:3
-
-Habacuque fez o que muita gente tem vergonha de fazer: reclamou com Deus. Via violência, injustiça e gente má se dando bem. Perguntou quanto tempo ainda teria de gritar sem resposta.
-Depois subiu na muralha, como sentinela que vigia a estrada, e ficou esperando. A resposta veio com uma ordem curiosa: escreva a visão em tábuas, de um jeito que qualquer um consiga ler, até quem passa correndo.
-A visão falava do fim da Babilônia, o império que esmagava povos inteiros, e da justiça que Deus ia fazer. Não trazia datas nem prazos. Dizia apenas que o tempo estava marcado e que nada seria esquecido.
-Muita gente usa este versículo como promessa de que todo sonho pessoal vai se cumprir. Em Habacuque, a visão trata da justiça de Deus sobre um império cruel. Deus vai acertar as contas com o mal, e ele não perde a hora, mesmo quando o relógio parece parado para nós.
-Logo depois vem a frase que sustenta a espera: "o justo viverá por sua fidelidade". Enquanto a resposta não chega, seguimos fiéis ao que Deus já mostrou. Esperar, aqui, tem cara de trabalho diário e de oração insistente.
-Talvez você esteja esperando justiça num processo, numa família ou num emprego onde foi tratado mal. Deus ouviu a sua queixa, como ouviu a de Habacuque. Enquanto isso, ele pede que você continue firme no que é certo.
-Espere com os olhos abertos
-
-Escreva num papel a injustiça que pesa em você, como Habacuque escreveu a visão, e entregue tudo a Deus em oração.
-Leia hoje o capítulo 3 de Habacuque, a oração que ele fez depois de ouvir a resposta.
-Escolha uma atitude fiel para manter enquanto espera, como tratar bem quem está ao seu lado no trabalho.
-Quando a raiva subir, lembre que a última palavra sobre o mal pertence a Deus, que vê tudo e não esquece nada.
-
-Para orar:
-
-Senhor, tu vês toda a injustiça deste mundo, e nada fica esquecido diante de ti. Quando a resposta demora, ajuda-me a esperar o teu tempo sem largar o que é certo. Livra-me de pagar o mal com o mal e de desistir de orar. Que eu viva hoje pela fé, confiando que a última palavra é tua. Em nome de Jesus, amém.
-
-Veja também:
-
-Esperar em Deus: versículos sobre paciência
-A história do profeta Habacuque
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -355,15 +366,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  49 +++--
- feeds/devocional_de_hoje/feed.json        |  12 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  21 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  51 +++---
+ feeds/devocional_de_hoje/feed.json        |  16 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  21 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  12 +-
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 121 +++++------
+ feeds/salmo_do_dia/atom.xml               |  77 ++++----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   7 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   4 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 328 ++++++++++++++----------------
- 11 files changed, 291 insertions(+), 315 deletions(-)
+ output.log                                | 281 +++++++++++++++---------------
+ 11 files changed, 261 insertions(+), 251 deletions(-)
