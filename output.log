@@ -1,40 +1,46 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 235101 characters
-INFO:root:HTML parsed, length: 208989 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (25/11/2026)', 'Palavra de Ontem (24/11/2026)', 'Palavra de Anteontem (23/11/2026)']
-INFO:root:Found 3 URLs: ['/codinome/', '/pronto/', '/simplicidade/']
-INFO:root:Found 16 descriptions: ['substantivo masculino Nome usado como disfarce par', 'Sinônimos:\n\nalcunha, apelido, pseudônimo', 'Classe gramatical:substantivo masculino']
-INFO:root:Found 3 dates: ['Palavra de Hoje (25/11/2026)', 'Palavra de Ontem (24/11/2026)', 'Palavra de Anteontem (23/11/2026)']
+INFO:root:Response length: 234219 characters
+INFO:root:HTML parsed, length: 208105 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (26/11/2026)', 'Palavra de Ontem (25/11/2026)', 'Palavra de Anteontem (24/11/2026)']
+INFO:root:Found 3 URLs: ['/devagar/', '/codinome/', '/pronto/']
+INFO:root:Found 16 descriptions: ['advérbio De maneira lenta; que não possui nem apre', 'Sinônimos:\n\nlentamente, vagarosamente, progressiva', 'Antônimos:\n\ndepressa']
+INFO:root:Found 3 dates: ['Palavra de Hoje (26/11/2026)', 'Palavra de Ontem (25/11/2026)', 'Palavra de Anteontem (24/11/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (25/11/2026)', ID=8928ca9c6ac4df932b74f78e93006e4e
-INFO:root:Processing entry 2: Title='Palavra de Ontem (24/11/2026)', ID=3e004c17e511af92c7675c436b7a818f
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (23/11/2026)', ID=a1b8d277df31bdc85b8028c1602aca77
+INFO:root:Processing entry 1: Title='Palavra de Hoje (26/11/2026)', ID=6dc2466ddc7428cb1e70cec7149c8866
+INFO:root:Processing entry 2: Title='Palavra de Ontem (25/11/2026)', ID=bfe53719b9eb8cb51c834df1e2a48de3
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/11/2026)', ID=8dfaafaa448fd8198f4af571505bf837
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (25/11/2026) - Significado completo de codinome:
-INFO:root:🔹 URL: https://www.dicio.com.br/codinome/
-INFO:root:🔹 Description: substantivo masculino Nome usado como disfarce para ocultar a verdadeira identidade de algo ou de alguém.Etimologia (origem da palavra codinome). A palavra codinome tem sua origem no inglês "code name", com tradução literal de código e nome.
+INFO:root:🔹 Title: Palavra de Hoje (26/11/2026) - Significado completo de devagar:
+INFO:root:🔹 URL: https://www.dicio.com.br/devagar/
+INFO:root:🔹 Description: advérbio De maneira lenta; que não possui nem apresenta pressa; vagarosamente: sua bicicleta anda muito devagar.De modo suave, delicado, harmônico; suavemente: o médico aplicou o remédio bem devagar.De maneira contínua; em que há progressão; progressivamente: devagar a mãe educa um filho.Etimologia (origem da palavra devagar). A palavra devagar tem sua de origem questionável; não é possível confirmar com toda a certeza a origem desta palavra.
  
 Sinônimos:
 
-alcunha, apelido, pseudônimo 
+lentamente, vagarosamente, progressivamente, calmamente, cautelosamente, compassadamente 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (24/11/2026) - Significado completo de pronto:
-INFO:root:🔹 URL: https://www.dicio.com.br/pronto/
+INFO:root:🔹 Title: Palavra de Ontem (25/11/2026) - Significado completo de codinome:
+INFO:root:🔹 URL: https://www.dicio.com.br/codinome/
 INFO:root:🔹 Description: Sinônimos:
 
-alcunha, apelido, pseudônimo
- Classe gramatical:substantivo masculino
+lentamente, vagarosamente, progressivamente, calmamente, cautelosamente, compassadamente
+ 
+Antônimos:
+
+depressa 
+
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (23/11/2026) - Significado completo de simplicidade:
-INFO:root:🔹 URL: https://www.dicio.com.br/simplicidade/
-INFO:root:🔹 Description: Classe gramatical:substantivo masculino
- Sílabas:co-di-no-me
+INFO:root:🔹 Title: Palavra de Anteontem (24/11/2026) - Significado completo de pronto:
+INFO:root:🔹 URL: https://www.dicio.com.br/pronto/
+INFO:root:🔹 Description: Antônimos:
+
+depressa
+ Classe gramatical:advérbio
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -42,46 +48,52 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 432965 characters
-INFO:root:HTML parsed, length: 419852 characters
-INFO:root:Found 1 titles: ['Oséias 6:3']
-INFO:root:Found 1 URLs: ['/versiculo/oseias_6_3/']
-INFO:root:Found 1 descriptions: ['Conheçamos o Senhor;\nesforcemo-nos por conhecê-lo.']
+INFO:root:Response length: 432792 characters
+INFO:root:HTML parsed, length: 419679 characters
+INFO:root:Found 1 titles: ['Filipenses 1:9-10']
+INFO:root:Found 1 URLs: ['/versiculo/filipenses_1_9-10/']
+INFO:root:Found 1 descriptions: ['Esta é a minha oração: Que o amor de vocês aumente']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Oséias 6:3', ID=751226a8b39c6ee04bc223f6c43c150c
+INFO:root:Processing entry 1: Title='Filipenses 1:9-10', ID=b6a74b59fde09feb09400f2f671810f5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Oséias 6:3
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/oseias_6_3/
-INFO:root:🔹 Description: Conheçamos o Senhor;
-esforcemo-nos por conhecê-lo.
-Tão certo como nasce o sol,
-ele aparecerá;
-virá para nós como as chuvas de inverno,
-como as chuvas de primavera
-que regam a terra." Oséias 6:3
+INFO:root:🔹 Title: Filipenses 1:9-10
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_1_9-10/
+INFO:root:🔹 Description: Esta é a minha oração: Que o amor de vocês aumente cada vez mais em conhecimento e em toda a percepção, para discernirem o que é melhor, a fim de serem puros e irrepreensíveis até o dia de Cristo, Filipenses 1:9-10
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 433289 characters
-INFO:root:HTML parsed, length: 421593 characters
-INFO:root:Found 3 titles: ['Salmo 69', 'Salmo 132', 'Salmo 104']
-INFO:root:Found 3 URLs: ['/salmos_69/', '/salmos_132/', '/salmos_104/']
-INFO:root:Found 3 descriptions: ['Salva-me, ó Deus!,\npois as águas subiram até o meu', 'Senhor, lembra-te de Davi\ne das dificuldades que e', 'Bendiga o Senhor a minha alma!\nÓ Senhor, meu Deus,']
-INFO:root:Found 3 dates: ['25 de Novembro de 2026', '24 de Novembro de 2026', '23 de Novembro de 2026']
+INFO:root:Response length: 429355 characters
+INFO:root:HTML parsed, length: 417601 characters
+INFO:root:Found 3 titles: ['Salmo 134', 'Salmo 69', 'Salmo 132']
+INFO:root:Found 3 URLs: ['/salmos_134/', '/salmos_69/', '/salmos_132/']
+INFO:root:Found 3 descriptions: ['Venham! Bendigam o Senhor\ntodos vocês, servos do S', 'Salva-me, ó Deus!,\npois as águas subiram até o meu', 'Senhor, lembra-te de Davi\ne das dificuldades que e']
+INFO:root:Found 3 dates: ['26 de Novembro de 2026', '25 de Novembro de 2026', '24 de Novembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 69', ID=5195f6a86b128f1cf77ff0d1125e16c4
-INFO:root:Processing entry 2: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
-INFO:root:Processing entry 3: Title=' Salmo 104', ID=5012c2e8344afd05cf23b4a5bd746068
+INFO:root:Processing entry 1: Title=' Salmo 134', ID=24f356853788225a16d0b291b2612761
+INFO:root:Processing entry 2: Title=' Salmo 69', ID=5195f6a86b128f1cf77ff0d1125e16c4
+INFO:root:Processing entry 3: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 134
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_134/
+INFO:root:🔹 Description: Venham! Bendigam o Senhor
+todos vocês, servos do Senhor,
+vocês, que servem de noite
+na casa do Senhor. 
+Levantem as mãos na direção do santuário
+e bendigam o Senhor! 
+De Sião os abençoe o Senhor,
+que fez os céus e a terra! 
+ Salmo 134
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 69
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_69/
 INFO:root:🔹 Description: Salva-me, ó Deus!,
@@ -232,147 +244,91 @@ Vestirei de vergonha os seus inimigos,
 mas nele brilhará a sua coroa". 
  Salmo 132
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 104
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_104/
-INFO:root:🔹 Description: Bendiga o Senhor a minha alma!
-Ó Senhor, meu Deus, tu és tão grandioso!
-Estás vestido de majestade e esplendor! 
-Envolto em luz como numa veste,
-ele estende os céus como uma tenda, 
-e põe sobre as águas dos céus
-as vigas dos seus aposentos.
-Faz das nuvens a sua carruagem
-e cavalga nas asas do vento. 
-Faz dos ventos seus mensageiros
-e dos clarões reluzentes seus servos. 
-Firmaste a terra sobre os seus fundamentos
-para que jamais se abale; 
-com as torrentes do abismo a cobriste,
-como se fossem uma veste;
-as águas subiram acima dos montes. 
-Diante das tuas ameaças as águas fugiram,
-puseram-se em fuga ao som do teu trovão; 
-subiram pelos montes
-e escorreram pelos vales,
-para os lugares que tu lhes designaste. 
-Estabeleceste um limite
-que não podem ultrapassar;
-jamais tornarão a cobrir a terra. 
-Fazes jorrar as nascentes nos vales
-e correrem as águas entre os montes; 
-delas bebem todos os animais selvagens,
-e os jumentos selvagens saciam a sua sede. 
-As aves do céu fazem ninho junto às águas
-e entre os galhos põem-se a cantar. 
-Dos teus aposentos celestes
-regas os montes;
-sacia-se a terra com o fruto das tuas obras! 
-É o Senhor que faz crescer o pasto para o gado,
-e as plantas que o homem cultiva,
-para da terra tirar o alimento: 
-o vinho, que alegra o coração do homem;
-o azeite, que lhe faz brilhar o rosto,
-e o pão, que sustenta o seu vigor. 
-As árvores do Senhor são bem regadas,
-os cedros do Líbano que ele plantou; 
-nelas os pássaros fazem ninho,
-e nos pinheiros a cegonha tem o seu lar. 
-Os montes elevados pertencem
-aos bodes selvagens,
-e os penhascos são um refúgio para os coelhos. 
-Ele fez a lua para marcar estações;
-o sol sabe quando deve se pôr. 
-Trazes trevas, e cai a noite,
-quando os animais da floresta vagueiam. 
-Os leões rugem à procura da presa,
-buscando de Deus o alimento, 
-mas ao nascer do sol eles se vão
-e voltam a deitar-se em suas tocas. 
-Então o homem sai para o seu trabalho,
-para o seu labor até o entardecer. 
-Quantas são as tuas obras, Senhor!
-Fizeste todas elas com sabedoria!
-A terra está cheia de seres que criaste. 
-Eis o mar, imenso e vasto.
-Nele vivem inúmeras criaturas,
-seres vivos, pequenos e grandes. 
-Nele passam os navios,
-e também o Leviatã,
-que formaste para com ele brincar. 
-Todos eles dirigem seu olhar a ti,
-esperando que lhes dês o alimento no tempo certo; 
-tu lhes dás, e eles o recolhem;
-abres a tua mão, e saciam-se de coisas boas. 
-Quando escondes o rosto,
-entram em pânico;
-quando lhes retiras o fôlego,
-morrem e voltam ao pó. 
-Quando sopras o teu fôlego,
-eles são criados,
-e renovas a face da terra. 
-Perdure para sempre a glória do Senhor!
-Alegre-se o Senhor em seus feitos! 
-Ele olha para a terra, e ela treme;
-toca os montes, e eles fumegam. 
-Cantarei ao Senhor toda a minha vida;
-louvarei ao meu Deus enquanto eu viver. 
-Seja-lhe agradável a minha meditação,
-pois no Senhor tenho alegria. 
-Sejam os pecadores eliminados da terra
-e deixem de existir os ímpios.
-Bendiga o Senhor a minha alma!
-Aleluia! 
- Salmo 104
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 433995 characters
-INFO:root:HTML parsed, length: 421323 characters
-INFO:root:Found 3 titles: ['A palavra que sustenta o cansado', 'Um amigo que aponta para Deus', 'Não desista, você é mais que vencedor']
+INFO:root:Response length: 433006 characters
+INFO:root:HTML parsed, length: 420301 characters
+INFO:root:Found 3 titles: ['Jesus chama quem precisa dele', 'A palavra que sustenta o cansado', 'Um amigo que aponta para Deus']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['O Soberano, o Senhor, deu-me uma língua instruída,', 'E Jônatas, filho de Saul, foi falar com ele, em Ho', 'Mas em todas essas coisas somos mais que vencedore']
-INFO:root:Found 1 dates: ['Quarta, 25 de novembro de 2026']
+INFO:root:Found 3 descriptions: ['Ouvindo isso, Jesus lhes disse: "Não são os que tê', 'O Soberano, o Senhor, deu-me uma língua instruída,', 'E Jônatas, filho de Saul, foi falar com ele, em Ho']
+INFO:root:Found 1 dates: ['Quinta, 26 de novembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='A palavra que sustenta o cansado', ID=84d25c1253d8e2b63e577d132add3f7b
+INFO:root:Processing entry 1: Title='Jesus chama quem precisa dele', ID=58bbcc91fc544d5bf75e5f2b2598dfe5
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: A palavra que sustenta o cansado - Palavra de Hoje
+INFO:root:🔹 Title: Jesus chama quem precisa dele - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: O Soberano, o Senhor, deu-me uma língua instruída, para conhecer a palavra que sustém o exausto. Ele me acorda manhã após manhã, desperta meu ouvido para escutar como alguém que está sendo ensinado.
-- Isaías 50:4
+INFO:root:🔹 Description: Ouvindo isso, Jesus lhes disse: "Não são os que têm saúde que precisam de médico, mas sim os doentes. Eu não vim para chamar justos, mas pecadores".
+- Marcos 2:17
 
-Quem fala aqui é o Servo do Senhor, a figura que Isaías apresenta em vários cânticos. Os cristãos sempre viram nele o retrato de Jesus. Dois versículos depois, o Servo oferece as costas a quem bate nele e não esconde o rosto da zombaria.
-O versículo tem uma ordem que vale a pena guardar. Primeiro, o ouvido é despertado, manhã após manhã. Só depois vem a língua que sabe sustentar quem está exausto.
-Isso muda a forma como olhamos para a nossa própria rotina. Antes de responder mensagens, resolver problemas e cuidar dos outros, existe um tempo para sermos ensinados. Quem pula essa parte costuma falar muito e sustentar pouco.
-Jesus viveu assim. Ele se levantava de madrugada para orar em lugares isolados e depois falava com uma ternura nova a multidões cansadas. Quem quer ter uma palavra para o cansado precisa antes ouvir a voz de Deus.
-Você também conhece pessoas exaustas. Gente no trabalho, em casa, na fila do hospital, talvez no grupo de mensagens da igreja. Muitas vezes, o que elas precisam é de uma frase só, dita na hora certa e com o coração certo.
-E pode ser que quem está exausto hoje seja você. Nesse caso, o versículo também fala com você: Deus tem uma palavra que sustenta, e ele a oferece cedo, manhã após manhã. Amanhã, abra a Bíblia antes de abrir o celular e deixe que ele fale primeiro.
-Para hoje: Vinde a mim todos os que estais cansados
+Levi era cobrador de impostos, um judeu que trabalhava para Roma e era visto como traidor. Jesus passou pela coletoria e disse: "Siga-me". Levi se levantou e foi, e logo depois a casa dele estava cheia de gente com a mesma fama.
+Os fariseus ficaram escandalizados. Para eles, sentar à mesa com alguém era aprovar a vida dessa pessoa. Jesus respondeu com uma imagem que todos entendiam: o médico vai até quem está doente.
+A frase tem uma ironia. Ninguém é justo o bastante para dispensar o médico, e os fariseus também precisavam dele. A diferença é que os convidados de Levi sabiam que estavam doentes.
+Levi não precisou limpar a própria fama antes de ser chamado. Ele largou a coletoria depois do convite, e a primeira coisa que fez foi abrir a casa para que os amigos conhecessem Jesus.
+Jesus chama você antes de você melhorar. Ele chama no meio do expediente, na coletoria, do jeito que você está. O que muda tudo é a resposta: levantar e seguir.
+Se você sente que a sua história afasta você de Deus, leia esse versículo de novo. Ele foi dito para pessoas como você, que sabem que precisam de cura, e a mesa continua posta.
+Veja também:
+
+A história de Mateus, o cobrador que seguiu Jesus
+Versículos que mostram que Deus ama o pecador
  
-O Soberano, o Senhor, deu-me uma língua instruída, para conhecer a palavra que sustém o exausto. Ele me acorda manhã após manhã, desperta meu ouvido para escutar como alguém que está sendo ensinado.
-- Isaías 50:4
+A história de Mateus, o cobrador que seguiu Jesus
+Versículos que mostram que Deus ama o pecador
+
+ 
+Ouvindo isso, Jesus lhes disse: "Não são os que têm saúde que precisam de médico, mas sim os doentes. Eu não vim para chamar justos, mas pecadores".
+- Marcos 2:17
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 443349 characters
-INFO:root:HTML parsed, length: 430179 characters
-INFO:root:Found 3 titles: ['Senhor, se quiseres...', 'Deus que me vê no deserto', 'Peça a Deus um coração puro']
-INFO:root:Found 1 URLs: ['/mulher_do_fluxo_de_sangue_fe/']
-INFO:root:Found 3 descriptions: ['Um leproso, aproximando-se, adorou-o de joelhos e ', '"Ela deu ao Senhor, que lhe falava, este nome: \'Tu', 'Cria em mim um coração puro, ó Deus,\ne renova dent']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n25\nQUARTA', 'NOVEMBRO\n\n24\nTERÇA', 'NOVEMBRO\n\n23\nSEGUNDA']
-INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Senhor, se quiseres...', ID=9d351315d5fa16bbac90d3e2cd22635d
-INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
-INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 1 entries.
-INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 1 entries.
+INFO:root:Response length: 444605 characters
+INFO:root:HTML parsed, length: 431463 characters
+INFO:root:Found 3 titles: ['Como barro nas mãos do oleiro', 'Senhor, se quiseres...', 'Deus que me vê no deserto']
+INFO:root:Found 3 URLs: ['/nas_maos_do_oleiro_estudo/', '/explicacao_de_jeremias_18_o_vaso_na_mao_do_oleiro_estudo_biblico/', '/mulher_do_fluxo_de_sangue_fe/']
+INFO:root:Found 3 descriptions: ['Então fui à casa do oleiro, e o vi trabalhando com', 'Um leproso, aproximando-se, adorou-o de joelhos e ', '"Ela deu ao Senhor, que lhe falava, este nome: \'Tu']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n26\nQUINTA', 'NOVEMBRO\n\n25\nQUARTA', 'NOVEMBRO\n\n24\nTERÇA']
+INFO:root:Min length for iteration: 3
+INFO:root:Processing entry 1: Title='Como barro nas mãos do oleiro', ID=eccd6567e65fc9491e652fd15b7e9efb
+INFO:root:Processing entry 2: Title='Senhor, se quiseres...', ID=9d351315d5fa16bbac90d3e2cd22635d
+INFO:root:Processing entry 3: Title='Deus que me vê no deserto', ID=39f0cc418273eb44498836f79ee5ae92
+INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
+INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
+INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Como barro nas mãos do oleiro
+INFO:root:🔹 URL: https://www.bibliaon.com/nas_maos_do_oleiro_estudo/
+INFO:root:🔹 Description: Então fui à casa do oleiro, e o vi trabalhando com a roda. Mas o vaso de barro que ele estava formando estragou-se em suas mãos; e ele o refez, moldando outro vaso de acordo com a sua vontade. Então o Senhor dirigiu-me a palavra: "Ó comunidade de Israel, será que eu não posso agir com vocês como fez o oleiro?", pergunta o Senhor. "Como barro nas mãos do oleiro, assim são vocês nas minhas mãos, ó comunidade de Israel.
+- Jeremias 18:3-6
+
+Deus mandou Jeremias sair de casa e ir até uma oficina. Lá ele viu uma cena comum na época: um oleiro, a roda girando e um vaso que deu errado no meio do trabalho. O oleiro não jogou o barro fora; amassou tudo de novo e fez outro vaso.
+A mensagem foi dirigida a Israel como povo, num tempo de idolatria e injustiça. Os versículos seguintes deixam claro que era um aviso e um convite ao mesmo tempo. Se a nação abandonasse o mal, Deus mudaria o que tinha anunciado contra ela.
+Esse detalhe nos protege de duas leituras erradas, que aparecem com frequência. A primeira vê no oleiro um Deus frio, que molda e quebra sem se importar com o barro. A segunda tira o aviso do texto e fica só com a parte bonita do vaso refeito.
+O que o texto mostra é um Deus que tem todo o direito sobre o barro e, mesmo assim, insiste em trabalhar com ele. O vaso estragado continuou nas mãos do oleiro. Enquanto o barro está nas mãos de Deus, a história dele ainda não terminou.
+Talvez você olhe para a própria vida e veja partes que deram errado. Decisões ruins, hábitos que voltam, um coração que endureceu com o tempo e já nem sente o peso do erro. Deus vê tudo isso com clareza e, ainda assim, continua trabalhando no barro que se deixa moldar.
+Ser barro nas mãos de Deus pede uma coisa: parar de resistir. No versículo 12, Deus já sabia o que o povo ia dizer: "Continuaremos com os nossos próprios planos". A pergunta para hoje é se vamos responder do mesmo jeito ou se vamos deixar o Oleiro trabalhar.
+Deixe-se moldar pelo Oleiro
+
+Leia Jeremias 18:1-12 com calma e anote numa folha o que Deus pede ao povo e o que o povo responde.
+Pense numa área da sua vida em que você tem resistido ao que Deus já mostrou com clareza.
+Fale disso com Deus em oração, com palavras simples e sem tentar se justificar.
+Escolha um gesto concreto de obediência nessa área e coloque em prática ainda esta semana.
+
+Para orar:
+
+Senhor, tu és o Oleiro e eu sou o barro. Tu conheces as partes da minha vida que deram errado e as áreas em que ainda resisto a ti. Não quero seguir apenas os meus próprios planos, como o povo de Judá escolheu fazer. Dá-me um coração disposto a ouvir antes de decidir. Amassa de novo o que for preciso e forma em mim um coração que te obedece. Obrigado porque, nas tuas mãos, a minha história ainda não terminou. Em nome de Jesus, amém.
+
+Veja também:
+
+Somos vasos de barro na mão do oleiro
+Jeremias 18 explicado: o vaso na mão do oleiro
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Senhor, se quiseres...
-INFO:root:🔹 URL: https://www.bibliaon.com/mulher_do_fluxo_de_sangue_fe/
+INFO:root:🔹 URL: https://www.bibliaon.com/explicacao_de_jeremias_18_o_vaso_na_mao_do_oleiro_estudo_biblico/
 INFO:root:🔹 Description: Um leproso, aproximando-se, adorou-o de joelhos e disse: "Senhor, se quiseres, podes purificar-me!" Jesus estendeu a mão, tocou nele e disse: "Quero. Seja purificado!" Imediatamente ele foi purificado da lepra.
 - Mateus 8:2-3
 
@@ -393,6 +349,25 @@ Para orar:
 Senhor, eu me aproximo de ti como aquele homem, sabendo que tu podes. Entrego a ti o que me faz sentir longe e envergonhado. Obrigado porque não tens nojo de mim e estendes a tua mão. Seja feita a tua vontade na minha vida. Ajuda-me a confiar em ti em qualquer resposta e a estender a mão a quem vive afastado dos outros. Em nome de Jesus, amém.
 
 Para hoje: A mulher do fluxo de sangue: outra história de fé e toque
+INFO:root:--------------------------------------------------
+INFO:root:🔹 Title: Deus que me vê no deserto
+INFO:root:🔹 URL: https://www.bibliaon.com/mulher_do_fluxo_de_sangue_fe/
+INFO:root:🔹 Description: "Ela deu ao Senhor, que lhe falava, este nome: 'Tu és o Deus que me vê', pois disse: 'Eu vi aqui aquele que me vê?'"
+Gênesis 16:13
+
+Hagar encontrava-se na situação mais vulnerável possível: expatriada, grávida, profundamente humilhada pela patroa e fugindo para o deserto escaldante sem rumo ou esperança. Rejeitada pelo mundo ao seu redor, ela sentia-se completamente invisível, descartada e esquecida por todos. No entanto, foi exatamente na solidão daquela imensidão árida que o Anjo do Senhor a encontrou. A exclamação de Hagar revela uma das verdades mais consoladoras das Escrituras: nos momentos em que a dor nos isola e a sociedade nos esquece, o Altíssimo direciona o seu olhar compassivo diretamente para a nossa miséria. Deus não está distante dos aflitos; Ele conhece exatamente o nosso endereço e a nossa aflição.
+A tendência natural quando atravessamos desertos existenciais é acreditar que fomos abandonados à própria sorte e que a nossa dor não importa para ninguém. O silêncio das circunstâncias frequentemente nos cega para a presença operante do Criador. Contudo, o nome que Hagar atribui a Deus — *El Roi*, o Deus que me vê — destrói essa mentira. O olhar do Pai não é um olhar de julgamento frio, mas de profunda misericórdia e socorro oportuno. Ele vê as lágrimas que derramamos em segredo, conhece as injustiças que sofremos e compreende os fardos invisíveis que carregamos. Saber que somos vigiados pelo amor de Deus transforma a nossa solidão em um altar de comunhão e abrigo seguro.
+Essa certeza consoladora muda radicalmente a nossa postura diante das crises. Não precisamos clamar por atenção humana ou nos desesperar para sermos notados pelo mundo, pois o Rei do universo já nos contempla com carinho e fidelidade. Quando a angústia tentar convencê-lo de que você está sozinho em sua jornada, lembre-se da experiência de Hagar no deserto. O Deus que viu a aflição daquela serva esquecida é o mesmo que hoje conhece o seu nome, sustenta os seus passos e promete guiar você para fora da sequidão, conduzindo-o rumo à fonte inesgotável da sua graça redentora.
+Pratique a confiança hoje, onde você está
+
+Abandone a sensação de isolamento e apresente a sua dor secreta a Deus, sabendo que Ele está prestando atenção em cada detalhe.
+Pare por alguns minutos hoje para silenciar as cobranças externas e medite na certeza de que você é visto e amado pelo Criador.
+Estenda a mão para consolar alguém ao seu redor que esteja se sentindo invisível ou solitário em meio às lutas cotidianas.
+Releia o capítulo 16 de Gênesis e agradeça ao Senhor por ser o *El Roi*, aquele que jamais desvia os olhos dos seus filhos aflitos.
+
+Para orar
+
+Senhor, confesso que nos momentos de deserto e rejeição eu frequentemente me sinto invisível e abandonado. Perdoa-me por duvidar do teu cuidado quando as circunstâncias ao meu redor parecem sombrias. Obrigado por seres *El Roi*, o Deus que vê a minha dor e conhece o meu endereço. Console a minha alma, guie os meus passos para fora da sequidão e renova a minha esperança na tua presença constante. Em nome de Jesus, amém.
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
@@ -423,15 +398,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  41 ++--
- feeds/devocional_de_hoje/feed.json        |  14 +-
- feeds/palavra_biblica_do_dia/atom.xml     |  24 +-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 +++-
+ feeds/devocional_de_hoje/feed.json        |  12 ++
+ feeds/palavra_biblica_do_dia/atom.xml     |  29 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
  feeds/palavra_do_dia/atom.xml             |  18 +-
- feeds/palavra_do_dia/feed.json            |  24 +-
- feeds/salmo_do_dia/atom.xml               | 142 ++++++++----
+ feeds/palavra_do_dia/feed.json            |  24 +--
+ feeds/salmo_do_dia/atom.xml               | 102 +---------
  feeds/salmo_do_dia/feed.json              |  12 +-
  "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 358 ++++++++++++++++--------------
- 11 files changed, 359 insertions(+), 296 deletions(-)
+ output.log                                | 321 +++++++++++++-----------------
+ 11 files changed, 261 insertions(+), 321 deletions(-)
