@@ -1,46 +1,40 @@
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.dicio.com.br/palavra-do-dia/ - Status Code: 200
-INFO:root:Response length: 234219 characters
-INFO:root:HTML parsed, length: 208105 characters
-INFO:root:Found 3 titles: ['Palavra de Hoje (26/11/2026)', 'Palavra de Ontem (25/11/2026)', 'Palavra de Anteontem (24/11/2026)']
-INFO:root:Found 3 URLs: ['/devagar/', '/codinome/', '/pronto/']
-INFO:root:Found 16 descriptions: ['advérbio De maneira lenta; que não possui nem apre', 'Sinônimos:\n\nlentamente, vagarosamente, progressiva', 'Antônimos:\n\ndepressa']
-INFO:root:Found 3 dates: ['Palavra de Hoje (26/11/2026)', 'Palavra de Ontem (25/11/2026)', 'Palavra de Anteontem (24/11/2026)']
+INFO:root:Response length: 232584 characters
+INFO:root:HTML parsed, length: 206860 characters
+INFO:root:Found 3 titles: ['Palavra de Hoje (27/11/2026)', 'Palavra de Ontem (26/11/2026)', 'Palavra de Anteontem (25/11/2026)']
+INFO:root:Found 3 URLs: ['/leasing/', '/devagar/', '/codinome/']
+INFO:root:Found 14 descriptions: ['substantivo masculino Contrato de aluguel para pos', 'Sinônimos:\n\naluguel, arrendamento, cessão, financi', 'Classe gramatical:substantivo masculino']
+INFO:root:Found 3 dates: ['Palavra de Hoje (27/11/2026)', 'Palavra de Ontem (26/11/2026)', 'Palavra de Anteontem (25/11/2026)']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Palavra de Hoje (26/11/2026)', ID=6dc2466ddc7428cb1e70cec7149c8866
-INFO:root:Processing entry 2: Title='Palavra de Ontem (25/11/2026)', ID=bfe53719b9eb8cb51c834df1e2a48de3
-INFO:root:Processing entry 3: Title='Palavra de Anteontem (24/11/2026)', ID=8dfaafaa448fd8198f4af571505bf837
+INFO:root:Processing entry 1: Title='Palavra de Hoje (27/11/2026)', ID=47bf5ccbb062550dc881959263d8cbcb
+INFO:root:Processing entry 2: Title='Palavra de Ontem (26/11/2026)', ID=7cbda954d2b1590d974e87dbca6a33ce
+INFO:root:Processing entry 3: Title='Palavra de Anteontem (25/11/2026)', ID=76dc42d0f1abad730215a023490c4d93
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/palavra_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/palavra_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Palavra de Hoje (26/11/2026) - Significado completo de devagar:
-INFO:root:🔹 URL: https://www.dicio.com.br/devagar/
-INFO:root:🔹 Description: advérbio De maneira lenta; que não possui nem apresenta pressa; vagarosamente: sua bicicleta anda muito devagar.De modo suave, delicado, harmônico; suavemente: o médico aplicou o remédio bem devagar.De maneira contínua; em que há progressão; progressivamente: devagar a mãe educa um filho.Etimologia (origem da palavra devagar). A palavra devagar tem sua de origem questionável; não é possível confirmar com toda a certeza a origem desta palavra.
+INFO:root:🔹 Title: Palavra de Hoje (27/11/2026) - Significado completo de leasing:
+INFO:root:🔹 URL: https://www.dicio.com.br/leasing/
+INFO:root:🔹 Description: substantivo masculino Contrato de aluguel para possível compra de um bem; consiste na posse ou usufruto de um bem mediante contrato entre o cliente (arrendatário) e um banco ou empresa (arrendador) que cede seus direitos de uso e posteriormente de posse (caso a compra seja efetuada); arrendamento mercantil.Financiamento indireto dos investimentos que consiste em alugar, em vez de vender, o equipamento às empresas que dele se utilizem.Etimologia (origem da palavra leasing). A palavra leasing tem sua origem no inglês "leasing", com o sentido de arrendamento.
  
 Sinônimos:
 
-lentamente, vagarosamente, progressivamente, calmamente, cautelosamente, compassadamente 
+aluguel, arrendamento, cessão, financiamento, locação 
 
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Ontem (25/11/2026) - Significado completo de codinome:
-INFO:root:🔹 URL: https://www.dicio.com.br/codinome/
+INFO:root:🔹 Title: Palavra de Ontem (26/11/2026) - Significado completo de devagar:
+INFO:root:🔹 URL: https://www.dicio.com.br/devagar/
 INFO:root:🔹 Description: Sinônimos:
 
-lentamente, vagarosamente, progressivamente, calmamente, cautelosamente, compassadamente
- 
-Antônimos:
-
-depressa 
-
+aluguel, arrendamento, cessão, financiamento, locação
+ Classe gramatical:substantivo masculino
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Palavra de Anteontem (24/11/2026) - Significado completo de pronto:
-INFO:root:🔹 URL: https://www.dicio.com.br/pronto/
-INFO:root:🔹 Description: Antônimos:
-
-depressa
- Classe gramatical:advérbio
+INFO:root:🔹 Title: Palavra de Anteontem (25/11/2026) - Significado completo de codinome:
+INFO:root:🔹 URL: https://www.dicio.com.br/codinome/
+INFO:root:🔹 Description: Classe gramatical:substantivo masculino
+ Sílabas:lea-sing
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.example.com/feed/ - Status Code: 404
@@ -48,40 +42,54 @@ INFO:root:Response length: 577 characters
 WARNING:root:Failed to fetch content from https://www.example.com/feed/ - Status: 404
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/versiculo_do_dia/ - Status Code: 200
-INFO:root:Response length: 432792 characters
-INFO:root:HTML parsed, length: 419679 characters
-INFO:root:Found 1 titles: ['Filipenses 1:9-10']
-INFO:root:Found 1 URLs: ['/versiculo/filipenses_1_9-10/']
-INFO:root:Found 1 descriptions: ['Esta é a minha oração: Que o amor de vocês aumente']
+INFO:root:Response length: 432724 characters
+INFO:root:HTML parsed, length: 419611 characters
+INFO:root:Found 1 titles: ['João 16:13']
+INFO:root:Found 1 URLs: ['/versiculo/joao_16_13/']
+INFO:root:Found 1 descriptions: ['Mas, quando o Espírito da verdade vier, ele os gui']
 INFO:root:Found 0 dates: []
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Filipenses 1:9-10', ID=b6a74b59fde09feb09400f2f671810f5
+INFO:root:Processing entry 1: Title='João 16:13', ID=fb1186b65e193c52f6d19680fe05b124
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/versículo_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/versículo_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Filipenses 1:9-10
-INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/filipenses_1_9-10/
-INFO:root:🔹 Description: Esta é a minha oração: Que o amor de vocês aumente cada vez mais em conhecimento e em toda a percepção, para discernirem o que é melhor, a fim de serem puros e irrepreensíveis até o dia de Cristo, Filipenses 1:9-10
+INFO:root:🔹 Title: João 16:13
+INFO:root:🔹 URL: https://www.bibliaon.com/versiculo/joao_16_13/
+INFO:root:🔹 Description: Mas, quando o Espírito da verdade vier, ele os guiará a toda a verdade. Não falará de si mesmo; falará apenas o que ouvir, e anunciará a vocês o que está por vir. João 16:13
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/salmo_do_dia/ - Status Code: 200
-INFO:root:Response length: 429355 characters
-INFO:root:HTML parsed, length: 417601 characters
-INFO:root:Found 3 titles: ['Salmo 134', 'Salmo 69', 'Salmo 132']
-INFO:root:Found 3 URLs: ['/salmos_134/', '/salmos_69/', '/salmos_132/']
-INFO:root:Found 3 descriptions: ['Venham! Bendigam o Senhor\ntodos vocês, servos do S', 'Salva-me, ó Deus!,\npois as águas subiram até o meu', 'Senhor, lembra-te de Davi\ne das dificuldades que e']
-INFO:root:Found 3 dates: ['26 de Novembro de 2026', '25 de Novembro de 2026', '24 de Novembro de 2026']
+INFO:root:Response length: 426708 characters
+INFO:root:HTML parsed, length: 414934 characters
+INFO:root:Found 3 titles: ['Salmo 133', 'Salmo 134', 'Salmo 69']
+INFO:root:Found 3 URLs: ['/salmos_133/', '/salmos_134/', '/salmos_69/']
+INFO:root:Found 3 descriptions: ['Como é bom e agradável\nquando os irmãos convivem e', 'Venham! Bendigam o Senhor\ntodos vocês, servos do S', 'Salva-me, ó Deus!,\npois as águas subiram até o meu']
+INFO:root:Found 3 dates: ['27 de Novembro de 2026', '26 de Novembro de 2026', '25 de Novembro de 2026']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title=' Salmo 134', ID=24f356853788225a16d0b291b2612761
-INFO:root:Processing entry 2: Title=' Salmo 69', ID=5195f6a86b128f1cf77ff0d1125e16c4
-INFO:root:Processing entry 3: Title=' Salmo 132', ID=42ea024111c264aa901c838d0a0866c9
+INFO:root:Processing entry 1: Title=' Salmo 133', ID=30194cc21cfb956140fcf566cf151380
+INFO:root:Processing entry 2: Title=' Salmo 134', ID=24f356853788225a16d0b291b2612761
+INFO:root:Processing entry 3: Title=' Salmo 69', ID=5195f6a86b128f1cf77ff0d1125e16c4
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/salmo_do_dia/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/salmo_do_dia/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title:  Salmo 133
+INFO:root:🔹 URL: https://www.bibliaon.com/salmos_133/
+INFO:root:🔹 Description: Como é bom e agradável
+quando os irmãos convivem em união! 
+É como óleo precioso
+derramado sobre a cabeça,
+que desce pela barba, a barba de Arão,
+até a gola das suas vestes. 
+É como o orvalho do Hermom
+quando desce sobre os montes de Sião.
+Ali o Senhor concede a bênção
+da vida para sempre. 
+ Salmo 133
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title:  Salmo 134
 INFO:root:🔹 URL: https://www.bibliaon.com/salmos_134/
 INFO:root:🔹 Description: Venham! Bendigam o Senhor
@@ -195,111 +203,82 @@ a descendência dos seus servos a herdará,
 e nela habitarão os que amam o seu nome. 
  Salmo 69
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title:  Salmo 132
-INFO:root:🔹 URL: https://www.bibliaon.com/salmos_132/
-INFO:root:🔹 Description: Senhor, lembra-te de Davi
-e das dificuldades que enfrentou. 
-Ele jurou ao Senhor
-e fez um voto ao Poderoso de Jacó: 
-"Não entrarei na minha tenda
-nem me deitarei no meu leito; 
-não permitirei
-que os meus olhos peguem no sono
-nem que as minhas pálpebras descansem, 
-enquanto não encontrar
-um lugar para o Senhor,
-uma habitação para o Poderoso de Jacó". 
-Soubemos que a arca estava em Efrata,
-mas nós a encontramos nos campos de Jaar: 
-"Vamos para a habitação do Senhor!
-Vamos adorá-lo diante do estrado de seus pés! 
-Levanta-te, Senhor,
-e vem para o teu lugar de descanso,
-tu e a arca onde está o teu poder. 
-Vistam-se de retidão os teus sacerdotes;
-cantem de alegria os teus fiéis". 
-Por amor ao teu servo Davi,
-não rejeites o teu ungido. 
-O Senhor fez um juramento a Davi,
-um juramento firme que ele não revogará:
-"Colocarei um dos seus descendentes
-no seu trono. 
-Se os seus filhos forem fiéis à minha aliança
-e aos testemunhos que eu lhes ensino,
-também os filhos deles
-o sucederão no trono para sempre". 
-O Senhor escolheu Sião,
-com o desejo de fazê-la sua habitação: 
-"Este será o meu lugar de descanso
-para sempre;
-aqui firmarei o meu trono,
-pois esse é o meu desejo. 
-Abençoarei este lugar com fartura;
-os seus pobres suprirei de pão. 
-Vestirei de salvação os seus sacerdotes
-e os seus fiéis a celebrarão com grande alegria. 
-"Ali farei renascer o poder de Davi
-e farei brilhar a luz do meu ungido. 
-Vestirei de vergonha os seus inimigos,
-mas nele brilhará a sua coroa". 
- Salmo 132
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/palavra_do_dia/ - Status Code: 200
-INFO:root:Response length: 433006 characters
-INFO:root:HTML parsed, length: 420301 characters
-INFO:root:Found 3 titles: ['Jesus chama quem precisa dele', 'A palavra que sustenta o cansado', 'Um amigo que aponta para Deus']
+INFO:root:Response length: 433432 characters
+INFO:root:HTML parsed, length: 420745 characters
+INFO:root:Found 3 titles: ['Aceite como Cristo aceitou você', 'Jesus chama quem precisa dele', 'A palavra que sustenta o cansado']
 INFO:root:Found 3 URLs: [None, None, None]
-INFO:root:Found 3 descriptions: ['Ouvindo isso, Jesus lhes disse: "Não são os que tê', 'O Soberano, o Senhor, deu-me uma língua instruída,', 'E Jônatas, filho de Saul, foi falar com ele, em Ho']
-INFO:root:Found 1 dates: ['Quinta, 26 de novembro de 2026']
+INFO:root:Found 3 descriptions: ['Portanto, aceitem-se uns aos outros, da mesma form', 'Ouvindo isso, Jesus lhes disse: "Não são os que tê', 'O Soberano, o Senhor, deu-me uma língua instruída,']
+INFO:root:Found 1 dates: ['Sexta, 27 de novembro de 2026']
 INFO:root:Min length for iteration: 1
-INFO:root:Processing entry 1: Title='Jesus chama quem precisa dele', ID=58bbcc91fc544d5bf75e5f2b2598dfe5
+INFO:root:Processing entry 1: Title='Aceite como Cristo aceitou você', ID=c549f9ea241b9fe20b1ad16fe24fabc8
 INFO:root:Processed 1 entries in FeedGenerator, 1 entries in output_data
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/atom.xml' with 1 entries.
 INFO:root:Updated 'feeds/palavra_biblica_do_dia/feed.json' with 1 entries.
 INFO:root:
 📌 Last 3 entries:
-INFO:root:🔹 Title: Jesus chama quem precisa dele - Palavra de Hoje
+INFO:root:🔹 Title: Aceite como Cristo aceitou você - Palavra de Hoje
 INFO:root:🔹 URL: https://www.bibliaon.com/palavra_do_dia/
-INFO:root:🔹 Description: Ouvindo isso, Jesus lhes disse: "Não são os que têm saúde que precisam de médico, mas sim os doentes. Eu não vim para chamar justos, mas pecadores".
-- Marcos 2:17
+INFO:root:🔹 Description: Portanto, aceitem-se uns aos outros, da mesma forma com que Cristo os aceitou, a fim de que vocês glorifiquem a Deus.
+- Romanos 15:7
 
-Levi era cobrador de impostos, um judeu que trabalhava para Roma e era visto como traidor. Jesus passou pela coletoria e disse: "Siga-me". Levi se levantou e foi, e logo depois a casa dele estava cheia de gente com a mesma fama.
-Os fariseus ficaram escandalizados. Para eles, sentar à mesa com alguém era aprovar a vida dessa pessoa. Jesus respondeu com uma imagem que todos entendiam: o médico vai até quem está doente.
-A frase tem uma ironia. Ninguém é justo o bastante para dispensar o médico, e os fariseus também precisavam dele. A diferença é que os convidados de Levi sabiam que estavam doentes.
-Levi não precisou limpar a própria fama antes de ser chamado. Ele largou a coletoria depois do convite, e a primeira coisa que fez foi abrir a casa para que os amigos conhecessem Jesus.
-Jesus chama você antes de você melhorar. Ele chama no meio do expediente, na coletoria, do jeito que você está. O que muda tudo é a resposta: levantar e seguir.
-Se você sente que a sua história afasta você de Deus, leia esse versículo de novo. Ele foi dito para pessoas como você, que sabem que precisam de cura, e a mesa continua posta.
-Veja também:
-
-A história de Mateus, o cobrador que seguiu Jesus
-Versículos que mostram que Deus ama o pecador
+A igreja em Roma estava dividida. Havia cristãos de origem judaica e cristãos de outras nações, e eles discordavam sobre comida, dias especiais e costumes. Paulo passou o capítulo 14 inteiro tratando dessas diferenças antes de chegar a este versículo.
+Ele não pediu que todos pensassem igual em cada detalhe. Pediu algo mais difícil: que se recebessem uns aos outros. E deu a medida desse acolhimento, que é a forma como Cristo recebeu cada um deles.
+Pense em como Cristo aceitou você. Ele recebeu você antes de você entender tudo e antes de acertar todas as opiniões. E continua a receber você, todos os dias, com a mesma paciência, mesmo quando você erra de novo.
+Quem foi acolhido por Cristo tem motivo de sobra para acolher. Isso vale para o irmão que canta outro tipo de música ou que tem uma fé mais frágil que a sua. No começo do capítulo, Paulo diz que os fortes devem suportar as fraquezas dos fracos.
+Aceitar também tem limites claros: o pecado continua sendo pecado, e a verdade continua importando. Dentro disso, acolher é abrir espaço, sentar à mesma mesa e lembrar que o outro também pertence a Cristo. E o resultado, diz Paulo, é que Deus recebe a glória.
+Hoje, pense em uma pessoa da igreja que pensa diferente de você em coisas que não são centrais na fé. Ore por ela pelo nome. Depois, no próximo culto, cumprimente essa pessoa com sinceridade e pergunte como ela está.
+Para hoje: 5 exemplos de unidade na Bíblia
  
 A história de Mateus, o cobrador que seguiu Jesus
 Versículos que mostram que Deus ama o pecador
 
  
-Ouvindo isso, Jesus lhes disse: "Não são os que têm saúde que precisam de médico, mas sim os doentes. Eu não vim para chamar justos, mas pecadores".
-- Marcos 2:17
+Portanto, aceitem-se uns aos outros, da mesma forma com que Cristo os aceitou, a fim de que vocês glorifiquem a Deus.
+- Romanos 15:7
 
 INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://www.bibliaon.com/devocional_diario/ - Status Code: 200
-INFO:root:Response length: 444605 characters
-INFO:root:HTML parsed, length: 431463 characters
-INFO:root:Found 3 titles: ['Como barro nas mãos do oleiro', 'Senhor, se quiseres...', 'Deus que me vê no deserto']
-INFO:root:Found 3 URLs: ['/nas_maos_do_oleiro_estudo/', '/explicacao_de_jeremias_18_o_vaso_na_mao_do_oleiro_estudo_biblico/', '/mulher_do_fluxo_de_sangue_fe/']
-INFO:root:Found 3 descriptions: ['Então fui à casa do oleiro, e o vi trabalhando com', 'Um leproso, aproximando-se, adorou-o de joelhos e ', '"Ela deu ao Senhor, que lhe falava, este nome: \'Tu']
-INFO:root:Found 3 dates: ['NOVEMBRO\n\n26\nQUINTA', 'NOVEMBRO\n\n25\nQUARTA', 'NOVEMBRO\n\n24\nTERÇA']
+INFO:root:Response length: 443762 characters
+INFO:root:HTML parsed, length: 430622 characters
+INFO:root:Found 3 titles: ['Recordarei os feitos do Senhor', 'Como barro nas mãos do oleiro', 'Senhor, se quiseres...']
+INFO:root:Found 4 URLs: ['/quero_trazer_a_memoria_aquilo_que_me_da_esperanca/', '/nas_maos_do_oleiro_estudo/', '/explicacao_de_jeremias_18_o_vaso_na_mao_do_oleiro_estudo_biblico/']
+INFO:root:Found 3 descriptions: ['Recordarei os feitos do Senhor; recordarei os teus', 'Então fui à casa do oleiro, e o vi trabalhando com', 'Um leproso, aproximando-se, adorou-o de joelhos e ']
+INFO:root:Found 3 dates: ['NOVEMBRO\n\n27\nSEXTA', 'NOVEMBRO\n\n26\nQUINTA', 'NOVEMBRO\n\n25\nQUARTA']
 INFO:root:Min length for iteration: 3
-INFO:root:Processing entry 1: Title='Como barro nas mãos do oleiro', ID=eccd6567e65fc9491e652fd15b7e9efb
-INFO:root:Processing entry 2: Title='Senhor, se quiseres...', ID=9d351315d5fa16bbac90d3e2cd22635d
-INFO:root:Processing entry 3: Title='Deus que me vê no deserto', ID=39f0cc418273eb44498836f79ee5ae92
+INFO:root:Processing entry 1: Title='Recordarei os feitos do Senhor', ID=9c0736280ed973746aa9bd68f2bbd343
+INFO:root:Processing entry 2: Title='Como barro nas mãos do oleiro', ID=eccd6567e65fc9491e652fd15b7e9efb
+INFO:root:Processing entry 3: Title='Senhor, se quiseres...', ID=9d351315d5fa16bbac90d3e2cd22635d
 INFO:root:Processed 3 entries in FeedGenerator, 3 entries in output_data
 INFO:root:Updated 'feeds/devocional_de_hoje/atom.xml' with 3 entries.
 INFO:root:Updated 'feeds/devocional_de_hoje/feed.json' with 3 entries.
 INFO:root:
 📌 Last 3 entries:
+INFO:root:🔹 Title: Recordarei os feitos do Senhor
+INFO:root:🔹 URL: https://www.bibliaon.com/quero_trazer_a_memoria_aquilo_que_me_da_esperanca/
+INFO:root:🔹 Description: Recordarei os feitos do Senhor; recordarei os teus antigos milagres. Meditarei em todas as tuas obras e considerarei todos os teus feitos.
+- Salmos 77:11-12
+
+O Salmo 77 começa no escuro, no meio de uma noite sem sono. Asafe estende as mãos a Deus e faz perguntas duras: Deus esqueceu de ser misericordioso? Será que a promessa dele acabou de vez?
+O salmista não esconde a dor nem finge uma fé que não sente. A Bíblia guardou essas perguntas para nós, palavra por palavra. Quem está atravessando uma noite assim pode orar com elas também.
+Essa sinceridade ensina algo sobre a oração. Deus não pede que a gente chegue diante dele com frases arrumadas e sentimentos em ordem. Asafe levou a Deus o que estava sentindo, e foi ali, diante dele, que a virada começou.
+A virada acontece no versículo 11, e ela não vem de uma mudança nas circunstâncias. Asafe toma uma decisão simples e corajosa: lembrar. Quando o presente parece mudo, a memória do que Deus já fez volta a falar.
+Nos versículos seguintes, ele recorda a saída do Egito, quando Deus abriu caminho no mar. O salmo termina sem dizer que o problema foi resolvido. Termina com Deus guiando o seu povo "como a um rebanho", pela mão de Moisés e de Arão.
+Talvez você esteja numa fase em que Deus parece distante. Lembrar não apaga a dor, mas coloca essa dor dentro de uma história maior, em que Deus já mostrou quem ele é. O Deus que agiu antes continua o mesmo hoje.
+Faça memória do que Deus já fez
+
+Escreva numa folha três momentos em que você viu a mão de Deus na sua vida, mesmo que tenham sido pequenos.
+Leia o Salmo 77 inteiro, das perguntas até o último versículo.
+Conte a alguém da sua família uma dessas lembranças ainda hoje.
+
+Para orar:
+
+Senhor, há dias em que não entendo o que estás fazendo. Hoje escolho lembrar dos teus feitos, na Bíblia e na minha própria história. Obrigado por tudo o que já fizeste por mim. Quando a noite for longa, traz à minha memória a tua fidelidade. Ajuda-me a confiar que continuas o mesmo, ontem, hoje e amanhã. Em nome de Jesus, amém.
+
+Para hoje: Quero trazer à memória aquilo que me dá esperança
+INFO:root:--------------------------------------------------
 INFO:root:🔹 Title: Como barro nas mãos do oleiro
 INFO:root:🔹 URL: https://www.bibliaon.com/nas_maos_do_oleiro_estudo/
 INFO:root:🔹 Description: Então fui à casa do oleiro, e o vi trabalhando com a roda. Mas o vaso de barro que ele estava formando estragou-se em suas mãos; e ele o refez, moldando outro vaso de acordo com a sua vontade. Então o Senhor dirigiu-me a palavra: "Ó comunidade de Israel, será que eu não posso agir com vocês como fez o oleiro?", pergunta o Senhor. "Como barro nas mãos do oleiro, assim são vocês nas minhas mãos, ó comunidade de Israel.
@@ -350,25 +329,6 @@ Senhor, eu me aproximo de ti como aquele homem, sabendo que tu podes. Entrego a 
 
 Para hoje: A mulher do fluxo de sangue: outra história de fé e toque
 INFO:root:--------------------------------------------------
-INFO:root:🔹 Title: Deus que me vê no deserto
-INFO:root:🔹 URL: https://www.bibliaon.com/mulher_do_fluxo_de_sangue_fe/
-INFO:root:🔹 Description: "Ela deu ao Senhor, que lhe falava, este nome: 'Tu és o Deus que me vê', pois disse: 'Eu vi aqui aquele que me vê?'"
-Gênesis 16:13
-
-Hagar encontrava-se na situação mais vulnerável possível: expatriada, grávida, profundamente humilhada pela patroa e fugindo para o deserto escaldante sem rumo ou esperança. Rejeitada pelo mundo ao seu redor, ela sentia-se completamente invisível, descartada e esquecida por todos. No entanto, foi exatamente na solidão daquela imensidão árida que o Anjo do Senhor a encontrou. A exclamação de Hagar revela uma das verdades mais consoladoras das Escrituras: nos momentos em que a dor nos isola e a sociedade nos esquece, o Altíssimo direciona o seu olhar compassivo diretamente para a nossa miséria. Deus não está distante dos aflitos; Ele conhece exatamente o nosso endereço e a nossa aflição.
-A tendência natural quando atravessamos desertos existenciais é acreditar que fomos abandonados à própria sorte e que a nossa dor não importa para ninguém. O silêncio das circunstâncias frequentemente nos cega para a presença operante do Criador. Contudo, o nome que Hagar atribui a Deus — *El Roi*, o Deus que me vê — destrói essa mentira. O olhar do Pai não é um olhar de julgamento frio, mas de profunda misericórdia e socorro oportuno. Ele vê as lágrimas que derramamos em segredo, conhece as injustiças que sofremos e compreende os fardos invisíveis que carregamos. Saber que somos vigiados pelo amor de Deus transforma a nossa solidão em um altar de comunhão e abrigo seguro.
-Essa certeza consoladora muda radicalmente a nossa postura diante das crises. Não precisamos clamar por atenção humana ou nos desesperar para sermos notados pelo mundo, pois o Rei do universo já nos contempla com carinho e fidelidade. Quando a angústia tentar convencê-lo de que você está sozinho em sua jornada, lembre-se da experiência de Hagar no deserto. O Deus que viu a aflição daquela serva esquecida é o mesmo que hoje conhece o seu nome, sustenta os seus passos e promete guiar você para fora da sequidão, conduzindo-o rumo à fonte inesgotável da sua graça redentora.
-Pratique a confiança hoje, onde você está
-
-Abandone a sensação de isolamento e apresente a sua dor secreta a Deus, sabendo que Ele está prestando atenção em cada detalhe.
-Pare por alguns minutos hoje para silenciar as cobranças externas e medite na certeza de que você é visto e amado pelo Criador.
-Estenda a mão para consolar alguém ao seu redor que esteja se sentindo invisível ou solitário em meio às lutas cotidianas.
-Releia o capítulo 16 de Gênesis e agradeça ao Senhor por ser o *El Roi*, aquele que jamais desvia os olhos dos seus filhos aflitos.
-
-Para orar
-
-Senhor, confesso que nos momentos de deserto e rejeição eu frequentemente me sinto invisível e abandonado. Perdoa-me por duvidar do teu cuidado quando as circunstâncias ao meu redor parecem sombrias. Obrigado por seres *El Roi*, o Deus que vê a minha dor e conhece o meu endereço. Console a minha alma, guie os meus passos para fora da sequidão e renova a minha esperança na tua presença constante. Em nome de Jesus, amém.
-INFO:root:--------------------------------------------------
 INFO:root:Checking files: atom.xml exists=True, feed.json exists=True
 INFO:root:Fetching https://pt.wikipedia.org/wiki/Wikipédia:Página_principal - Status Code: 403
 INFO:root:Response length: 126 characters
@@ -398,15 +358,15 @@ INFO:root: M feeds/devocional_de_hoje/atom.xml
 ?? __pycache__/
 INFO:root:
 🔍 Summary:
-INFO:root: feeds/devocional_de_hoje/atom.xml         |  42 +++-
- feeds/devocional_de_hoje/feed.json        |  12 ++
- feeds/palavra_biblica_do_dia/atom.xml     |  29 ++-
+INFO:root: feeds/devocional_de_hoje/atom.xml         |  40 ++---
+ feeds/devocional_de_hoje/feed.json        |  12 +-
+ feeds/palavra_biblica_do_dia/atom.xml     |  25 ++-
  feeds/palavra_biblica_do_dia/feed.json    |   6 +-
- feeds/palavra_do_dia/atom.xml             |  18 +-
+ feeds/palavra_do_dia/atom.xml             |  18 +--
  feeds/palavra_do_dia/feed.json            |  24 +--
- feeds/salmo_do_dia/atom.xml               | 102 +---------
+ feeds/salmo_do_dia/atom.xml               |  61 ++-----
  feeds/salmo_do_dia/feed.json              |  12 +-
- "feeds/vers\303\255culo_do_dia/atom.xml"  |   8 +-
+ "feeds/vers\303\255culo_do_dia/atom.xml"  |   2 +-
  "feeds/vers\303\255culo_do_dia/feed.json" |   8 +-
- output.log                                | 321 +++++++++++++-----------------
- 11 files changed, 261 insertions(+), 321 deletions(-)
+ output.log                                | 258 ++++++++++++------------------
+ 11 files changed, 187 insertions(+), 279 deletions(-)
